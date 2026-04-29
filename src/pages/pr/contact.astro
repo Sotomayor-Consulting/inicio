@@ -1,0 +1,42 @@
+---
+// Import the necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import ContactSection from "@components/sections/misc/ContactSection.astro";
+import { SITE } from "@data/constants";
+import {dataContactPr} from "@data/pr/dataContact"
+
+const pageTitle: string = `Contato | ${SITE.title}`;
+const metaDescription =
+  "Tem perguntas ou quer discutir um projeto? Entre em contato e vamos criar a solução perfeita com nossas ferramentas e serviços.";
+const ogTitle = "Fale Conosco | Sotomayor Consulting";
+---
+
+<MainLayout
+  title={pageTitle}
+  customDescription={metaDescription}
+  customOgTitle={ogTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://sotomayorconsulting.com/inicio/contact/",
+    url: "https://sotomayorconsulting.com/inicio/contact/",
+    name: "Fale Conosco | Sotomayor Consulting International",
+    description: "Entre em contato e abra sua LLC conosco",
+    isPartOf: {
+      "@type": "WebSite",
+      url: "https://sotomayorconsulting.com/inicio/",
+      name: "Sotomayor Consulting International",
+      description:
+        "Ajudamos você a construir, proteger e expandir seu patrimônio internacionalmente. Oferecemos soluções integrais para o crescimento do seu negócio.",
+    },
+    inLanguage: "pt-BR",
+  }}
+>
+  <ContactSection
+    title="Fale Conosco"
+    subTitle="Tem perguntas ou quer discutir seus objetivos? Permita-nos ser seu parceiro estratégico e vamos juntos desenhar a solução perfeita para seu patrimônio e seus projetos."
+    formTitle="Preencha este formulário"
+    formSubTitle="Responderemos o mais breve possível."
+    dataContact={dataContactPr}
+  />
+</MainLayout>

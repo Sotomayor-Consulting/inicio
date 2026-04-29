@@ -1,0 +1,224 @@
+---
+import { dataitin } from "src/data_files/pr/data-de-servicios";
+import MainLayout from "@/layouts/MainLayoutv2.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<MainLayout
+  title={dataitin.titulo}
+  customDescription={dataitin.titulo}
+  customOgTitle={dataitin.titulo}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `https://sotomayorconsulting.com/inicio/servicios/${dataitin.categoria.toLowerCase().replace(/\s+/g, "-")}`,
+    name: dataitin.titulo,
+    description: dataitin.descripcion,
+    brand: {
+      "@type": "Brand",
+      name: "Sotomayor Consulting",
+    },
+  }}
+>
+ 
+  <!-- Hero -->
+  <div class="relative overflow-hidden">
+    <div class="relative z-10">
+      <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
+        <div class="mx-auto max-w-2xl text-center">
+          <p
+            class="inline-block bg-linear-to-l from-[#ba8d34] to-white bg-clip-text text-sm font-medium text-transparent dark:from-[#ba8d34] dark:to-white"
+          >
+            Sotomayor Consulting International
+          </p>
+
+          <!-- Title -->
+          <div class="mt-5 max-w-2xl">
+            <h1
+              class="block text-4xl font-semibold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200"
+            >
+              {dataitin.titulo}
+            </h1>
+          </div>
+          <!-- End Title -->
+
+          <div class="mt-5 max-w-3xl">
+            <p class="text-lg text-gray-600 dark:text-neutral-400">
+              {dataitin.descripcion}
+            </p>
+          </div>
+
+          <!-- Buttons -->
+          <div class="mt-8 flex justify-center gap-3">
+            <a
+              class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+              target="_blank"
+              href="https://zcal.co/t/agendar-asesoria-llc/60min"
+            >
+              Agendar uma reunião
+              <svg
+                class="size-4 shrink-0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg
+              >
+            </a>
+          </div>
+          <!-- End Buttons -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Hero -->
+
+  <!-- Features -->
+  <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+    <!-- Grid -->
+    <div class="md:flex gap-5 grid">
+      <div class="md:w-1/2">
+        <!-- Grid -->
+        <div class="flex items-center justify-center">
+          <!-- End Col -->
+
+          <Icon
+            name="irs"
+            width={200}
+            height={200}
+            class="text-black dark:text-white"
+          />
+          <!-- End Col -->
+        </div>
+        <!-- End Grid -->
+      </div>
+      <!-- End Col -->
+
+      <div class="mt-5 md:w-1/2">
+        <div class="space-y-6 sm:space-y-8">
+          <!-- Title -->
+          <div class="space-y-2 md:space-y-4">
+            <h2
+              class="text-3xl font-bold text-black lg:text-4xl dark:text-neutral-200"
+            >
+              {dataitin.titulofeatures}
+            </h2>
+            <p class="text-gray-600 dark:text-neutral-300">
+              {dataitin.descripcionfeatures}
+            </p>
+          </div>
+          <!-- End Title -->
+
+          <!-- List -->
+          <ul class="space-y-2 sm:space-y-4">
+            {
+              dataitin.listaitin.map((i) => (
+                <li class="flex gap-x-3">
+                  <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-[#ba8d34] text-blue-600 dark:bg-[#ba8d34]/30 dark:text-[#ba8d34]">
+                    <svg
+                      class="size-3.5 shrink-0"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                  </span>
+                  <div class="grow">
+                    <span class="text-sm text-neutral-700 sm:text-base dark:text-neutral-300">
+                      {i}
+                    </span>
+                  </div>
+                </li>
+              ))
+            }
+          </ul>
+          <!-- End List -->
+        </div>
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Features -->
+
+  <!-- Pricing -->
+  <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+    <!-- Title -->
+    <div class="mx-auto mb-10 max-w-2xl text-center lg:mb-14">
+      <h2
+        class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white"
+      >
+        {dataitin.titulopricingitin}
+      </h2>
+    </div>
+    <!-- End Title -->
+
+    <!-- Grid -->
+    <div class="mt-12 flex justify-center">
+      <!-- Card -->
+      <div
+        class="flex min-w-sm flex-col rounded-xl border-2 border-[#ba8d34] p-8 text-center shadow-xl dark:border-[#ba8d34]"
+      >
+        <p class="mb-3">
+          <span
+            class="inline-flex items-center gap-1.5 rounded-lg bg-[#ba8d34] px-3 py-1.5 text-xs font-semibold text-white uppercase dark:bg-[#ba8d34] dark:text-white"
+            >Sotomayor Consulting International</span
+          >
+        </p>
+          <h4 class="text-lg font-medium text-gray-800 dark:text-neutral-200">
+            Processo de ITIN
+          </h4>
+        <span
+          class="mt-5 text-5xl font-bold text-gray-800 dark:text-neutral-200"
+        >
+          <span class="-me-2 text-2xl font-bold">$</span>
+          {dataitin.precioitin}<span class="-me-2 text-2xl font-bold">.00</span>
+        </span>
+        <p class="mt-2 text-sm text-gray-500 dark:text-neutral-500">
+          Preço fixo • Sem custos ocultos
+        </p>
+
+        <ul
+          class="mt-7 flex w-full flex-col items-center justify-center space-y-2.5 text-sm"
+        >
+          <li class="flex gap-x-2">
+            <Icon
+              name="mingcute:time-fill"
+              class="text-xl dark:text-[#ba8d34]"
+            />
+            <span class="text-gray-800 dark:text-neutral-400">
+              {dataitin.tiempoitin}
+            </span>
+          </li>
+          <li class="flex gap-x-2">
+            <span class="text-gray-800 dark:text-neutral-300 text-xl">
+              {dataitin.tiempoitin2}
+            </span>
+          </li>
+        </ul>
+
+        <a
+          class="mt-5 inline-flex items-center justify-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-[#ba8d34] focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+          target="_blank"
+          href="https://wa.link/n91wfp"
+        >
+          Falar com um assessor 
+        </a>
+      </div>
+      <!-- End Card -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Pricing -->
+</MainLayout>

@@ -1,0 +1,129 @@
+---
+// Import the necessary dependencies
+import FooterSocialLink from "@components/ui/links/FooterSocialLink.astro";
+import esStrings from "@utils/es/navigation.ts";
+import enStrings from "@utils/en/navigation.ts";
+import prStrings from "@utils/pr/navigation.ts";
+import Icon from "@components/ui/icons/Icon.astro";
+import BrandLogo from "@components/BrandLogo.astro";
+import { SITE } from "@data/constants";
+
+
+const pathname = Astro.url.pathname;
+const isEnglish = pathname.startsWith("/inicio/en");
+const isPortuguese = pathname.startsWith("/inicio/pr");
+
+const strings = isEnglish ? enStrings : isPortuguese ? prStrings : esStrings;
+const crafted = isEnglish ? "Crafted by" : isPortuguese ? "Criado por" : "Creado por";
+const report = isEnglish ? "Your experience matters to us. <br />If something didn't work as expected, please report it to" : isPortuguese ? "Sua experiência é importante para nós. <br /> Se algo não funcionou como esperado, por favor reporte para" : "Tu experiencia es importante para nosotros. <br /> Si algo no ha funcionado como esperabas, por favor repórtalo a";
+
+---
+
+<footer class="w-full bg-neutral-300 dark:bg-[#262626]">
+  <div
+    class="mx-auto w-full max-w-340 px-4 py-10 sm:px-6 lg:px-16 lg:pt-20 2xl:max-w-(--breakpoint-2xl)"
+  >
+    <div class="grid grid-cols-2 gap-6 md:grid-cols-4 lg:grid-cols-5">
+      <div class="col-span-full lg:col-span-1">
+        <!-- Brand Logo -->
+        <BrandLogo class="h-auto w-52" />
+      </div>
+      <!-- An array of links for Product and Company sections -->
+      {
+        strings.footerLinks.map((section) => (
+          <div class="col-span-1">
+            <h3 class="font-bold text-neutral-800 dark:text-neutral-200">
+              {section.section}
+            </h3>
+            <ul class="mt-3 grid space-y-3">
+              {section.links.map((link, index) => (
+                <li>
+                  <a
+                    href={link.url}
+                    class="inline-flex gap-x-2 rounded-lg text-neutral-600 ring-zinc-500 outline-hidden transition duration-300 hover:text-neutral-500 focus-visible:ring-3 dark:text-neutral-400 dark:ring-zinc-200 dark:hover:text-neutral-300 dark:focus:outline-hidden"
+                  >
+                    {link.name}
+                  </a>
+                  {section.section === "C" && index === 2 ? (
+                    <span class="ms-1 inline rounded-lg bg-[#ba8d34] px-2 py-1 text-xs font-bold text-neutral-50">
+                      ¡Estamos contratando!
+                    </span>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+
+      <div class="col-span-2">
+        <p class="mt-3 text-sm text-neutral-600 dark:text-neutral-400">
+          {strings.mensajes.banco}
+        </p>
+      </div>
+      <!-- <div class="col-start-5 flex flex-col items-center">
+        <div
+          class="trustpilot-widget"
+          data-locale="es-ES"
+          data-template-id="56278e9abfbbba0bdcd568bc"
+          data-businessunit-id="68d6aaf986bd000b3529eac8"
+          data-style-height="40px"
+          data-style-width="100%"
+          data-token="3e2575f5-f96e-4cd9-8ccb-c6f817c84405"
+        >
+          <a
+            href="https://es.trustpilot.com/review/sotomayorconsulting.com"
+            class="rounded-xl"
+            target="_blank"
+            rel="noopener">Trustpilot</a
+          >
+        </div>
+      </div> -->
+    </div>
+
+    <div
+      class="mt-9 grid gap-y-2 sm:mt-12 sm:flex sm:items-center sm:justify-between sm:gap-y-0"
+    >
+      <div class="mb-10 w-full sm:mb-0 md:w-1/2">
+        <p class="text-sm text-neutral-600 dark:text-neutral-400">
+          <span set:html={report}></span>
+           <a
+            href="mailto:soporte@sotomayorconsulting.com"
+            class="rounded-lg font-medium underline underline-offset-2 ring-zinc-500 outline-hidden transition duration-300 hover:text-neutral-700 hover:decoration-dashed focus:outline-hidden focus-visible:ring-3 dark:ring-zinc-200 dark:hover:text-neutral-300"
+            >soporte@sotomayorconsulting.com</a
+          >
+        </p>
+      </div>
+      <div class="flex items-center justify-between">
+        <p class="text-sm text-neutral-600 dark:text-neutral-400">
+          © <span id="current-year"></span>
+          {SITE.title}. {crafted}
+          <a
+            class="rounded-lg font-medium underline underline-offset-2 ring-zinc-500 outline-hidden transition duration-300 hover:text-neutral-700 hover:decoration-dashed focus:outline-hidden focus-visible:ring-3 dark:ring-zinc-200 dark:hover:text-neutral-300"
+            href="https://sotomayorconsulting.com/"
+            aria-label="Sotomayor Consulting International"
+            target="_blank"
+            rel="noopener noreferrer">Sotomayor Consulting International</a
+          >.
+        </p>
+      </div>
+
+      <!-- Social Brands -->
+      <div>
+        <FooterSocialLink
+          url="https://www.facebook.com/SOTOMAYORCONSULTING?locale=es_LA"
+          ><Icon name="facebookFooter" />
+        </FooterSocialLink>
+        <FooterSocialLink url="https://www.instagram.com/SotomayorConsulting/"
+          ><Icon name="instagramFooter" />
+        </FooterSocialLink>
+      </div>
+    </div>
+
+    <script>
+      const year = new Date().getFullYear();
+      const element = document.getElementById("current-year");
+      element!.innerText = year.toString();
+    </script>
+  </div>
+</footer>

@@ -1,0 +1,108 @@
+---
+const { title, btnId, btnTitle, url } = Astro.props;
+
+interface Props {
+  title?: string;
+  btnId: string;
+  btnTitle: string;
+  url: string;
+}
+
+const pathname = Astro.url.pathname;
+const isEnglish = pathname.startsWith("/inicio/en");
+const isPortuguese = pathname.startsWith("/inicio/pr");
+
+const recuerda = isEnglish ? "Remember" : isPortuguese ? "Lembre-se" : "Recuerda";
+---
+
+<astro-banner btnId={btnId} class="banner-container">
+  <div
+    class="fixed bottom-0 z-50 mx-auto p-6 sm:max-w-lg left-0"
+    role="region"
+    aria-label="Informational Banner"
+  >
+    <div
+      class="bg-opacity-10 h-full w-full rounded-xl border border-neutral-700 bg-neutral-100 bg-clip-padding p-4 backdrop-blur-md backdrop-filter dark:border-neutral-600 dark:bg-neutral-800/40"
+    >
+      <div class="items-center justify-center">
+        <div class="flex justify-between">
+          <div class="flex items-center text-black dark:text-white">
+            <svg
+              class="me-2 h-4 w-4 shrink-0"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+              ><path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              ></path></svg
+            >
+            <span class="sr-only">Info</span>
+            <h3 class="font-medium">{recuerda}</h3>
+          </div>
+          <button
+            type="button"
+            class="inline-flex items-center gap-x-2 rounded-full border border-transparent p-1 text-sm font-semibold text-gray-800 hover:bg-gray-200 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-50 dark:hover:bg-neutral-700/80 dark:hover:text-neutral-50 dark:focus:outline-hidden"
+            id={btnId}
+          >
+            <span class="sr-only">Cerrar</span>
+            <svg
+              class="size-5 shrink-0"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg
+            >
+          </button>
+        </div>
+
+        <div class="flex items-center justify-between">
+          {
+            title && (
+              <p class="me-2 inline-block text-sm font-base text-neutral-900 dark:text-neutral-300 text-balance">
+                {title}
+              </p>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</astro-banner>
+<script>
+  class AstroBanner extends HTMLElement {
+    connectedCallback() {
+      const btnId = this.getAttribute("btnId");
+      const button = this.querySelector(`#${btnId}`);
+      if (button != null) {
+        button.addEventListener("click", () => this.remove());
+      }
+    }
+  }
+
+  customElements.define("astro-banner", AstroBanner);
+</script>
+<style>
+  .banner-container {
+    animation: aparicion 1s ease-in-out;
+  }
+  @keyframes aparicion {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+</style>

@@ -1,0 +1,42 @@
+---
+// Import the necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import ContactSection from "@components/sections/misc/ContactSection.astro";
+import { SITE } from "@data/constants";
+import {dataContactEn} from "@data/en/dataContact"
+
+const pageTitle: string = `Contact | ${SITE.title}`;
+const metaDescription =
+  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
+const ogTitle = "Contact Us | Sotomayor Consulting";
+---
+
+<MainLayout
+  title={pageTitle}
+  customDescription={metaDescription}
+  customOgTitle={ogTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://sotomayorconsulting.com/inicio/contact/",
+    url: "https://sotomayorconsulting.com/inicio/contact/",
+    name: "Contact Us | Sotomayor Consulting International",
+    description: "Contact us and set up your LLC with us",
+    isPartOf: {
+      "@type": "WebSite",
+      url: "https://sotomayorconsulting.com/inicio/",
+      name: "Sotomayor Consulting International",
+      description:
+        "We help you build, protect, and expand your assets internationally. We offer comprehensive solutions for your business growth.",
+    },
+    inLanguage: "en-US",
+  }}
+>
+  <ContactSection
+    title="Contact Us"
+    subTitle="Have questions or want to discuss your goals? Let us be your strategic partner and together design the perfect solution for your assets and projects."
+    formTitle="Fill out this form"
+    formSubTitle="We will get back to you as soon as possible."
+    dataContact={dataContactEn}
+  />
+</MainLayout>

@@ -1,0 +1,30 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+import AboutC from "@components/sections/features/section-about.astro";
+import Mision from "@components/sections/features/Lineamientos.astro";
+import FeaturesGeneral from "@components/sections/features/FeaturesAbout.astro";
+import featureImage from "@images/reunidos.webp";
+import features from "@data/en/feature-about.json";
+---
+
+<MainLayout>
+  <AboutC
+    btnspan="Explore our services"
+    btnspan2="Explore"
+    title="Who are we?"
+    descripcion="At <b>Sotomayor Consulting International</b> we are a boutique legal, tax, and technology consulting firm, <b>specializing in supporting individuals, families, and companies from Latin America who wish to protect, organize, and grow their assets</b> through secure and well-designed international structures."
+  />
+  <FeaturesGeneral
+    src={featureImage}
+    alt="Sotomayor Consulting Team"
+    features={features}
+  />
+  <Mision
+    title="Our identity"
+    description="Our raison d'être is to provide the clarity, support, and strategy needed for companies, professionals, and individuals to transform their global potential into tangible reality. We reiterate our commitment: we offer specialized consulting and management, not financial services or credit intermediation."
+    titleM="Mission"
+    descriptionM="Our mission is to be the strategic partner that simplifies internationalization for our clients. Through expert and personalized advice in company formation, tax planning, migration services, and technological solutions, we provide the tools and management necessary to operate successfully and in compliance on the global stage, always from our exclusive role as consultants."
+    titleV="Vision"
+    descriptionV="Our vision is to eliminate the administrative and legal barriers that companies, professionals, and families encounter when operating internationally. We provide comprehensive consulting solutions that allow them to establish, manage, and grow their businesses and assets safely and efficiently."
+  />
+</MainLayout>

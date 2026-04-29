@@ -1,0 +1,51 @@
+---
+// Import the necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import ContactSection from "@components/sections/misc/ContactSection.astro";
+import { SITE } from "@data/constants";
+import {dataContactEs} from "@data/dataContact"
+import {dataContactPr} from "@data/pr/dataContact"
+import {dataContactEn} from "@data/en/dataContact"
+
+const pageTitle: string = `Contact | ${SITE.title}`;
+const metaDescription =
+  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
+const ogTitle = "Contact Us | Sotomayor Consulting";
+
+
+const pathname = Astro.url.pathname;
+const isEnglish = pathname.startsWith("/inicio/en");
+const isPortuguese = pathname.startsWith("/inicio/pr");
+
+const dataContact = isEnglish ? dataContactEn : isPortuguese ? dataContactPr : dataContactEs;
+---
+
+<MainLayout
+  title={pageTitle}
+  customDescription={metaDescription}
+  customOgTitle={ogTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://sotomayorconsulting.com/inicio/contact/",
+    url: "https://sotomayorconsulting.com/inicio/contact/",
+    name: "Contáctanos | Sotomayor Consulting International",
+    description: "Contáctanos y levanta tu LLC con nosotros",
+    isPartOf: {
+      "@type": "WebSite",
+      url: "https://sotomayorconsulting.com/inicio/",
+      name: "Sotomayor Consulting International",
+      description:
+        "Te ayudamos a construir, proteger y expandir tu patrimonio a nivel internacional. Ofrecemos soluciones integrales para tu crecimiento empresarial.",
+    },
+    inLanguage: "es-EC",
+  }}
+>
+  <ContactSection
+    title="Contáctanos"
+    subTitle="¿Tienes preguntas o deseas discutir tus metas? Permítenos ser tu aliado estratégico y diseñemos juntos la solución perfecta para tu patrimonio y tus proyectos."
+    formTitle="Rellena este formulario"
+    formSubTitle="Te responderemos lo más pronto posible."
+    dataContact={dataContact}
+  />
+</MainLayout>

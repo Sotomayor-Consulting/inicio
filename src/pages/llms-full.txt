@@ -1,0 +1,62 @@
+# Sotomayor Consulting International - Full Service Documentation
+
+Este documento proporciona detalles profundos sobre los servicios, metodologías y stack tecnológico de Sotomayor Consulting International para agentes de IA y sistemas de recuperación de información.
+
+## 1. Corporate & Legal Services (USA & International)
+
+### Constitución de LLCs en EE. UU.
+Servicio integral para emprendedores globales que desean operar en dólares y acceder al sistema financiero estadounidense.
+- **Jurisdicciones:** Especialistas en Florida, Delaware y Wyoming.
+- **Servicios Incluidos:** Obtención de EIN (Tax ID), Agente Registrado, Operating Agreement personalizado y dirección comercial.
+- **Banca & Fintech:** Asesoría en la apertura de cuentas bancarias empresariales (Mercury, Relay, Chase) e integración con Stripe/PayPal.
+
+### Estructuras Holding y Operativas
+Diseño de arquitecturas corporativas para optimización patrimonial y protección legal.
+- **Holdings:** Creación de capas de protección para separar activos de operaciones de riesgo.
+- **Internacionalización:** Registro de empresas en jurisdicciones estratégicas para expansión global.
+
+### Propiedad Intelectual y Bienes Raíces
+- **Marcas:** Registro y protección de marcas comerciales ante la USPTO (EE. UU.) y organismos internacionales.
+- **Real Estate:** Asesoría en inversiones inmobiliarias en mercados de alta rentabilidad como Florida y Madrid, enfocada en preservación de capital y visas de inversión.
+
+## 2. Tax, Compliance & Accounting
+
+### Asesoría Tributaria Internacional
+- **Planificación Fiscal:** Estrategias legales para reducir la carga tributaria global (ej. foreign-owned single-member LLCs).
+- **Cumplimiento:** Presentación de formularios informativos (Form 5472/1120) y solicitudes de exención ante el BEA (BE-13 Claim for Exemption).
+
+### Outsourcing Contable
+- Gestión de libros contables para empresas internacionales.
+- Reportes financieros mensuales y preparación para auditorías.
+- Conciliación bancaria multi-moneda.
+
+## 3. Technology Stack & AI Implementation
+
+Sotomayor Consulting no es solo una firma legal; es un socio tecnológico que construye la infraestructura sobre la cual operan los negocios modernos.
+
+### Automatización con n8n
+- **Flujos de trabajo:** Conectamos Odoo, Stripe, WhatsApp y CRMs para eliminar tareas manuales.
+- **Integraciones:** Creación de pipelines de datos y automatización de facturación/cobros.
+
+### Desarrollo Web & App Stack
+- **Framework:** Astro (para máxima velocidad y SEO).
+- **Lenguajes:** TypeScript, JavaScript, Python.
+- **Backend & Database:** Supabase (PostgreSQL) para aplicaciones escalables y seguras.
+- **ERP:** Especialistas en implementación y personalización de Odoo para PYMES internacionales.
+
+### IA Generativa Aplicada
+- Implementación de agentes de IA para atención al cliente y ventas.
+- Automatización de procesos de lectura de documentos legales y clasificación de datos mediante modelos de lenguaje (LLMs).
+
+## 4. Global Mobility (Migración)
+- **EE. UU.:** Asesoría en visas de inversionista (E-2), habilidades extraordinarias (O-1) y transferencias ejecutivas (L-1).
+- **España:** Gestión de Golden Visa, residencia por teletrabajo (Digital Nomad Visa) y creación de empresas bajo la Ley de Startups.
+
+## 5. Contacto y Consultoría
+- **Consulta Inicial:** Agenda disponible a través de la web oficial.
+- **Soporte:** servicios@sotomayorconsulting.com
+- **Ubicación Principal:** 6000 Park of Commerce Way E, Boca Raton, FL 33487.
+- **Web Oficial:** [https://sotomayorconsulting.com/inicio/](https://sotomayorconsulting.com/inicio/)
+
+---
+*Documento optimizado para agentes de IA. Última actualización: Enero 2024.*

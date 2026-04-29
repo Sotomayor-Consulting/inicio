@@ -1,0 +1,462 @@
+---
+import { dataContabilidad } from "src/data_files/pr/data-de-servicios";
+import MainLayout from "@/layouts/MainLayoutv2.astro";
+import Icono from "src/images/icon.svg";
+import { Icon } from "astro-icon/components";
+---
+
+<MainLayout
+  title={dataContabilidad.titulo}
+  customDescription={dataContabilidad.titulo}
+  customOgTitle={dataContabilidad.titulo}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `https://sotomayorconsulting.com/inicio/servicios/${dataContabilidad.categoria.toLowerCase().replace(/\s+/g, "-")}`,
+    name: dataContabilidad.titulo,
+    description: dataContabilidad.descripcion,
+    brand: {
+      "@type": "Brand",
+      name: "Sotomayor Consulting",
+    },
+  }}
+>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <!-- Hero -->
+  <div class="relative overflow-hidden">
+    <div class="relative z-10">
+      <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
+        <div class="mx-auto max-w-2xl text-center">
+          <p
+            class="inline-block bg-linear-to-l from-[#ba8d34] to-white bg-clip-text text-sm font-medium text-transparent dark:from-[#ba8d34] dark:to-white"
+          >
+            Sotomayor Consulting International
+          </p>
+
+          <!-- Title -->
+          <div class="mt-5 max-w-2xl">
+            <h1
+              class="block text-4xl font-semibold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200"
+            >
+              {dataContabilidad.titulo}
+            </h1>
+          </div>
+          <!-- End Title -->
+
+          <div class="mt-5 max-w-3xl">
+            <p class="text-lg text-gray-600 dark:text-neutral-400">
+              {dataContabilidad.descripcion}
+            </p>
+          </div>
+
+          <!-- Buttons -->
+          <div class="mt-8 flex justify-center gap-3">
+            <a
+              class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+              target="_blank"
+              href="https://zcal.co/t/agendar-asesoria-llc/60min"
+            >
+              Agendar uma reunião
+              <svg
+                class="size-4 shrink-0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg
+              >
+            </a>
+            <a
+              class="inline-flex items-center gap-x-2 rounded-lg border border-transparent px-4 py-3 text-sm font-medium text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+              href="#precios"
+            >
+              <Icono class="size-4 shrink-0" />
+
+              Ver planos
+            </a>
+          </div>
+          <!-- End Buttons -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Hero -->
+
+  <!-- Cards -->
+  <div class="overflow-hidden">
+    <div class="mx-auto max-w-[85rem] px-2 py-10 sm:px-4 lg:px-8 lg:py-14">
+      <!-- Features -->
+      <div class="mx-auto max-w-[85rem] px-2 py-10 sm:px-6 lg:px-8 lg:py-14">
+        <div class="relative p-6 md:p-16">
+          <!-- Grid -->
+          <div
+            class="relative z-10 lg:grid lg:grid-cols-12 lg:items-center lg:gap-16"
+          >
+            <div class="mb-10 lg:order-2 lg:col-span-6 lg:col-start-8 lg:mb-0">
+              <h2
+                class="text-2xl font-bold text-gray-800 sm:text-3xl dark:text-neutral-200"
+              >
+                {dataContabilidad.titulofeatures}
+              </h2>
+
+              <!-- Tab Navs -->
+              <nav
+                class="mt-5 grid gap-4 md:mt-10"
+                aria-label="Tabs"
+                role="tablist"
+                aria-orientation="vertical"
+              >
+                {
+                  dataContabilidad.TarjetasFeatures.map((f, index) =>
+                    f.estado === "active" ? (
+                      <button
+                        type="button"
+                        class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent dark:hs-tab-active:bg-neutral-700 active rounded-xl p-4 text-start hover:bg-gray-200 focus:bg-gray-200 focus:outline-hidden md:p-5 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+                        id={`tabs-with-card-item-${index}`}
+                        aria-selected="true"
+                        data-hs-tab={`#tabs-with-card-${index}`}
+                        aria-controls={`tabs-with-card-${index}`}
+                        role="tab"
+                      >
+                        <span class="flex gap-x-6">
+                          <Icon
+                            name={f.icono}
+                            class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 mt-2 size-6 shrink-0 text-gray-800 md:size-7 dark:text-neutral-200"
+                          />
+                          <span class="grow">
+                            <span class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 block text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                              {f.titulo}
+                            </span>
+                            <span class="dark:hs-tab-active:text-gray-200 mt-1 block text-gray-800 dark:text-neutral-200">
+                              {f.descripcion}
+                            </span>
+                          </span>
+                        </span>
+                      </button>
+                    ) : (
+                      <button
+                        type="button"
+                        class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent dark:hs-tab-active:bg-neutral-700 rounded-xl p-4 text-start hover:bg-gray-200 focus:bg-gray-200 focus:outline-hidden md:p-5 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700"
+                        id="tabs-with-card-item-2"
+                        id={`tabs-with-card-item-${index}`}
+                        aria-selected="true"
+                        data-hs-tab={`#tabs-with-card-${index}`}
+                        aria-controls={`tabs-with-card-${index}`}
+                        role="tab"
+                      >
+                        <span class="flex gap-x-6">
+                          <Icon
+                            name={f.icono}
+                            class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 mt-2 size-6 shrink-0 text-gray-800 md:size-7 dark:text-neutral-200"
+                          />
+                          <span class="grow">
+                            <span class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 block text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                              {f.titulo}
+                            </span>
+                            <span class="dark:hs-tab-active:text-gray-200 mt-1 block text-gray-800 dark:text-neutral-200">
+                              {f.descripcion}
+                            </span>
+                          </span>
+                        </span>
+                      </button>
+                    ),
+                  )
+                }
+              </nav>
+              <!-- End Tab Navs -->
+            </div>
+            <!-- End Col -->
+
+            <div class="lg:col-span-6">
+              <div class="relative">
+                <!-- Tab Content -->
+                <div>
+                  {
+                    dataContabilidad.TarjetasFeatures.map((f, index) =>
+                      f.estado === "active" ? (
+                        <div
+                          id={`tabs-with-card-${index}`}
+                          role="tabpanel"
+                          aria-labelledby={`tabs-with-card-item-${index}`}
+                        >
+                          <img
+                            class="rounded-xl shadow-xl shadow-gray-200 dark:shadow-gray-900/20"
+                            src={f.imagen}
+                            alt="Features Image"
+                          />
+                        </div>
+                      ) : (
+                        <div
+                          id={`tabs-with-card-${index}`}
+                          class="hidden"
+                          role="tabpanel"
+                          aria-labelledby={`tabs-with-card-item-${index}`}
+                        >
+                          <img
+                            class="rounded-xl shadow-xl shadow-gray-200 dark:shadow-gray-900/20"
+                            src={f.imagen}
+                            alt="Features Image"
+                          />
+                        </div>
+                      ),
+                    )
+                  }
+                </div>
+                <!-- End Tab Content -->
+
+                <!-- SVG Element -->
+                <div
+                  class="absolute end-0 top-0 hidden translate-x-20 md:block lg:translate-x-20"
+                >
+                  <svg
+                    class="h-auto w-16 text-[#00b8db]"
+                    width="121"
+                    height="135"
+                    viewBox="0 0 121 135"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164"
+                      stroke="currentColor"
+                      stroke-width="10"
+                      stroke-linecap="round"></path>
+                    <path
+                      d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5"
+                      stroke="currentColor"
+                      stroke-width="10"
+                      stroke-linecap="round"></path>
+                    <path
+                      d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874"
+                      stroke="currentColor"
+                      stroke-width="10"
+                      stroke-linecap="round"></path>
+                  </svg>
+                </div>
+                <!-- End SVG Element -->
+              </div>
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Grid -->
+
+          <!-- Background Color -->
+          <div class="absolute inset-0 grid size-full grid-cols-12">
+            <div
+              class="col-span-full h-5/6 w-full rounded-xl bg-gray-100 sm:h-3/4 lg:col-span-7 lg:col-start-6 lg:h-full dark:bg-neutral-800"
+            >
+            </div>
+          </div>
+          <!-- End Background Color -->
+        </div>
+      </div>
+      <!-- End Features -->
+    </div>
+  </div>
+  <!-- End Cards -->
+
+  <!-- Approach -->
+  <div class="dark:bg-neutral-900 bg-neutral-200">
+    <!-- Approach -->
+    <div class="mx-auto max-w-5xl px-4 py-10 lg:pt-20 lg:pb-20 xl:px-0">
+      <!-- Title -->
+      <div class="mb-10 max-w-3xl lg:mb-14">
+        <h2
+          class="text-2xl font-semibold text-black dark:text-white md:text-4xl md:leading-tight"
+        >
+          Nossa metodologia de trabalho
+        </h2>
+        <p class="mt-1 text-neutral-600 dark:text-neutral-400">
+          Guiamos você passo a passo através de um processo estruturado que
+          garante o cumprimento tributário da sua empresa com precisão e
+          confiança
+        </p>
+      </div>
+      <!-- End Title -->
+
+      <!-- Grid -->
+      <div
+        class="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-center lg:gap-16"
+      >
+        <div>
+          <!-- Heading -->
+          <div class="mb-4">
+            <h3 class="text-xs font-medium text-[#ba8d34] uppercase">Passos</h3>
+          </div>
+          <!-- End Heading -->
+
+          <!-- Item -->
+          <div class="ms-1 flex gap-x-5">
+            <!-- Icon -->
+            <div
+              class="relative after:absolute after:start-4 after:top-8 after:bottom-0 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800 last:after:hidden"
+            >
+              <div
+                class="relative z-10 flex size-8 items-center justify-center"
+              >
+                <span
+                  class="flex size-8 shrink-0 items-center justify-center rounded-full border border-neutral-800 text-xs font-semibold text-[#ba8d34] uppercase"
+                >
+                  1
+                </span>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8 sm:pb-12">
+              <p class="text-sm dark:text-neutral-400 text-neutral-600 lg:text-base">
+                <span class="text-black dark:text-white">Consulta inicial personalizada:</span>
+                Conhecemos seu negócio, analisamos sua situação atual e definimos os
+                requisitos específicos para seu cumprimento tributário.
+              </p>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="ms-1 flex gap-x-5">
+            <!-- Icon -->
+            <div
+              class="relative after:absolute after:start-4 after:top-8 after:bottom-0 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800 last:after:hidden"
+            >
+              <div
+                class="relative z-10 flex size-8 items-center justify-center"
+              >
+                <span
+                  class="flex size-8 shrink-0 items-center justify-center rounded-full border border-neutral-800 text-xs font-semibold text-[#ba8d34] uppercase"
+                >
+                  2
+                </span>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8 sm:pb-12">
+              <p class="text-sm dark:text-neutral-400 text-neutral-600 lg:text-base">
+                <span class="text-black dark:text-white"
+                  >Avaliação detalhada de requisitos:</span
+                >
+                Utilizamos nossa calculadora interativa para identificar os formulários
+                específicos que sua empresa precisa conforme sua atividade comercial e
+                localização.
+              </p>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="ms-1 flex gap-x-5">
+            <!-- Icon -->
+            <div
+              class="relative after:absolute after:start-4 after:top-8 after:bottom-0 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800 last:after:hidden"
+            >
+              <div
+                class="relative z-10 flex size-8 items-center justify-center"
+              >
+                <span
+                  class="flex size-8 shrink-0 items-center justify-center rounded-full border border-neutral-800 text-xs font-semibold text-[#ba8d34] uppercase"
+                >
+                  3
+                </span>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8 sm:pb-12">
+              <p class="text-sm dark:text-neutral-400 text-neutral-600 lg:text-base">
+                <span class="text-black dark:text-white"
+                  >Preparação experta de documentação:</span
+                >
+                Nossa equipe especializada completa e revisa cada formulário com
+                precisão, garantindo o cumprimento das regulamentações vigentes.
+              </p>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <!-- Item -->
+          <div class="ms-1 flex gap-x-5">
+            <!-- Icon -->
+            <div
+              class="relative after:absolute after:start-4 after:top-8 after:bottom-0 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800 last:after:hidden"
+            >
+              <div
+                class="relative z-10 flex size-8 items-center justify-center"
+              >
+                <span
+                  class="flex size-8 shrink-0 items-center justify-center rounded-full border border-neutral-800 text-xs font-semibold text-[#ba8d34] uppercase"
+                >
+                  4
+                </span>
+              </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8 sm:pb-12">
+              <p class="text-sm dark:text-neutral-400 text-neutral-600 lg:text-base">
+                <span class="text-black dark:text-white"
+                  >Entrega e acompanhamento pós-serviço:</span
+                >
+                Fornecemos todos os documentos prontos para apresentar, junto
+                com um resumo executivo e recomendações para manter seu cumprimento
+                tributário.
+              </p>
+            </div>
+            <!-- End Right Content -->
+          </div>
+          <!-- End Item -->
+
+          <a
+            class="group inline-flex items-center gap-x-2 rounded-full bg-[#ba8d34] px-3 py-2 text-sm font-medium text-neutral-800 transition-all hover:bg-[#d4a94a] focus:outline-hidden"
+            href="https://wa.link/vpwhsz"
+          >
+            <svg
+              class="size-4 shrink-0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              ><path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+              ></path><path
+                class="opacity-0 transition group-hover:opacity-100 group-hover:delay-100 group-focus:opacity-100"
+                d="M14.05 2a9 9 0 0 1 8 7.94"></path><path
+                class="opacity-0 transition group-hover:opacity-100 group-focus:opacity-100"
+                d="M14.05 6A5 5 0 0 1 18 10"></path></svg
+            >
+            Inicie seu processo agora
+          </a>
+        </div>
+        <!-- End Timeline -->
+
+        <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+          <img
+            class="w-full rounded-xl object-cover"
+            src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Features Image"
+          />
+        </div>
+      </div>
+      <!-- End Grid -->
+    </div>
+  </div>
+  <!-- End Approach -->
+</MainLayout>

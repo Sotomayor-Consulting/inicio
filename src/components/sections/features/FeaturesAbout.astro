@@ -1,0 +1,60 @@
+---
+// Import the necessary dependencies
+import { Image } from "astro:assets";
+import IconBlock from "@components/ui/blocks/IconBlock.astro";
+import Icon from "@components/ui/icons/Icon.astro";
+
+interface Feature {
+  heading: string;
+  content: string;
+  svg: string;
+}
+
+interface Props {
+  title?: string;
+  subTitle?: string;
+  features?: Feature[];
+  src?: any;
+  alt?: string;
+}
+// Define props from Astro
+const { src, alt, features } = Astro.props;
+---
+
+<section
+  class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+>
+  <div class="mx-auto -z-10 absolute aspect-square rounded-full blur-[100px] -translate-y-2/3 dark:bg-[#b98d33]/20 bg-[#b98d33]/30 bottom-1/2 inset-0 max-w-5xl w-[65%]">
+  </div>
+  <!-- Block to display the feature image -->
+  <div
+    class="mb-6 flex flex-col justify-center items-center overflow-hidden rounded-2xl md:mb-8 lg:grid grid-cols-2"
+  >
+    {
+      src && alt && (
+        <Image
+          src={src}
+          alt={alt}
+          class="rounded-2xl object-cover object-center shadow-2xl transition-all hover:scale-101 mb-5"
+          draggable={"false"}
+          format={"avif"}
+          loading={"eager"}
+        />
+      )
+    }
+
+    <div class="ml-5">
+      <div class="grid gap-8 sm:grid-cols-1 md:gap-12">
+        <!-- Injecting IconBlock components with different properties -->
+        {
+          features &&
+            features.map((feature) => (
+              <IconBlock heading={feature.heading} content={feature.content}>
+                <Icon name={feature.svg} />
+              </IconBlock>
+            ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

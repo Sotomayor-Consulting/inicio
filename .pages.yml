@@ -1,0 +1,199 @@
+media:
+  input: src/images
+  output: "@/images"
+
+content:
+  - name: astro-content
+    label: Astro Content
+    type: group
+    items:
+      - name: insights
+        label: Insights
+        type: collection
+        path: src/content/insights
+        format: yaml-frontmatter
+        subfolders: true
+        operations:
+          create: false
+          delete: false
+          rename: false
+        view:
+          layout: tree
+          primary: title
+          fields: [title, description]
+          search: [title, description, body]
+        fields:
+          - name: title
+            label: Titulo
+            type: string
+            required: true
+          - name: description
+            label: Descripcion
+            type: text
+            required: true
+          - name: cardImage
+            label: Ruta imagen card
+            type: string
+            required: true
+            description: Mantiene el formato actual, por ejemplo "@/images/insights/blog-2.avif"
+          - name: cardImageAlt
+            label: Alt de imagen
+            type: string
+            required: true
+          - name: body
+            label: Contenido
+            type: rich-text
+            required: true
+            options:
+              format: markdown
+              media: false
+
+      - name: servicios-profesionales
+        label: Servicios Profesionales
+        type: collection
+        path: src/content/servicios-profesionales
+        format: yaml-frontmatter
+        subfolders: true
+        operations:
+          create: false
+          delete: false
+          rename: false
+        view:
+          layout: tree
+          primary: title
+          fields: [title, description, longDescription.title]
+          search: [title, description, main.content, longDescription.title]
+        fields:
+          - name: title
+            label: Titulo
+            type: string
+            required: true
+          - name: description
+            label: Descripcion corta
+            type: text
+            required: true
+          - name: main
+            label: Seccion principal
+            type: object
+            required: true
+            fields:
+              - name: id
+                label: ID
+                type: number
+                required: true
+              - name: content
+                label: Contenido principal
+                type: text
+                required: true
+              - name: imgCard
+                label: Ruta imagen card
+                type: string
+                required: true
+              - name: imgMain
+                label: Ruta imagen principal
+                type: string
+                required: true
+              - name: imgAlt
+                label: Alt de imagen
+                type: string
+                required: true
+          - name: tabs
+            label: Tabs
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: id
+                label: ID
+                type: string
+                required: true
+              - name: dataTab
+                label: Data tab
+                type: string
+                required: true
+              - name: title
+                label: Titulo
+                type: string
+                required: true
+          - name: longDescription
+            label: Descripcion larga
+            type: object
+            required: true
+            fields:
+              - name: title
+                label: Titulo
+                type: string
+                required: true
+              - name: subTitle
+                label: Subtitulo
+                type: text
+                required: true
+              - name: btnTitle
+                label: Texto boton
+                type: string
+                required: true
+              - name: btnURL
+                label: URL boton
+                type: string
+                required: true
+          - name: descriptionList
+            label: Lista descriptiva
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                label: Titulo
+                type: string
+                required: true
+              - name: subTitle
+                label: Subtitulo
+                type: text
+                required: true
+          - name: specificationsLeft
+            label: Especificaciones izquierda
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                label: Titulo
+                type: string
+                required: true
+              - name: subTitle
+                label: Subtitulo
+                type: text
+                required: true
+          - name: specificationsRight
+            label: Especificaciones derecha
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                label: Titulo
+                type: string
+                required: true
+              - name: subTitle
+                label: Subtitulo
+                type: text
+                required: true
+          - name: blueprints
+            label: Iconos
+            type: object
+            required: true
+            fields:
+              - name: first
+                label: Ruta icono 1
+                type: string
+              - name: second
+                label: Ruta icono 2
+                type: string

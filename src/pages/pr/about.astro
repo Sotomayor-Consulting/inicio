@@ -1,0 +1,29 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+import AboutC from "@components/sections/features/section-about.astro";
+import Mision from "@components/sections/features/Lineamientos.astro";
+import FeaturesGeneral from "@components/sections/features/FeaturesAbout.astro";
+import featureImage from "@images/reunidos.webp";
+import features from "@data/pr/feature-about.json";
+---
+<MainLayout>
+  <AboutC
+    btnspan="Explore nossos serviços"
+    btnspan2="Explorar"
+    title="Quem somos?"
+    descripcion="Na <b>Sotomayor Consulting International</b> somos uma empresa boutique de consultoria <b>jurídica, fiscal e tecnológica, especializada em acompanhar pessoas, famílias e empresas da América Latina que desejam proteger, organizar e fazer crescer seu patrimônio</b> por meio de estruturas internacionais seguras e bem projetadas."
+  />
+  <FeaturesGeneral
+    src={featureImage}
+    alt="Equipe Sotomayor Consulting"
+    features={features}
+  />
+  <Mision
+    title="Nossa identidade"
+    description="Nossa razão de ser é fornecer a clareza, o suporte e a estratégia necessários para que empresas, profissionais e indivíduos transformem seu potencial global em realidade tangível. Reiteramos nosso compromisso: oferecemos consultoria e gestão especializada, não serviços financeiros ou de intermediação de crédito."
+    titleM="Missão"
+    descriptionM="Nossa missão é ser o parceiro estratégico que simplifica a internacionalização para nossos clientes. Por meio de assessoria especializada e personalizada em constituição de empresas, planejamento tributário, serviços migratórios e soluções tecnológicas, fornecemos as ferramentas e a gestão necessárias para operar com sucesso e conformidade no cenário global, sempre em nosso papel exclusivo de consultores."
+    titleV="Visão"
+    descriptionV="Nossa visão é eliminar as barreiras administrativas e legais que empresas, profissionais e famílias encontram ao operar internacionalmente. Oferecemos soluções integrais de consultoria que lhes permitem estabelecer, gerenciar e fazer crescer seus negócios e patrimônio com segurança e eficiência."
+  />
+</MainLayout>

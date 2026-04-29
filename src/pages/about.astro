@@ -1,0 +1,29 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+import AboutC from "@components/sections/features/section-about.astro";
+import Mision from "@components/sections/features/Lineamientos.astro";
+import FeaturesGeneral from "@components/sections/features/FeaturesAbout.astro";
+import featureImage from "@images/reunidos.webp";
+import features from "@data/feature-about.json";
+---
+<MainLayout>
+  <AboutC
+    btnspan="Explora nuestros servicios"
+    btnspan2="Explorar"
+    title="¿Quienes somos?"
+    descripcion="En <b>Sotomayor Consulting International</b> somos una firma boutique de consultoría <b>legal, fiscal y tecnológica, especializada en acompañar a personas, familias y empresas de Latinoamérica que desean proteger, organizar y hacer crecer su patrimonio</b> a través de estructuras internacionales seguras y bien diseñadas."
+  />
+  <FeaturesGeneral
+    src={featureImage}
+    alt="Equipo Sotomayor Consulting"
+    features={features}
+  />
+  <Mision
+    title="Nuestra identidad"
+    description="Nuestra razón de ser es proporcionar la claridad, el soporte y la estrategia necesarios para que empresas, profesionales e individuos transformen su potencial global en realidad tangible. Reiteramos nuestro compromiso: ofrecemos consultoría y gestión especializada, no servicios financieros o de intermediación de crédito."
+    titleM="Misión"
+    descriptionM="Nuestra misión es ser el socio estratégico que simplifica la internacionalización para nuestros clientes. A través de una asesoría experta y personalizada en constitución de empresas, planificación tributaria, servicios migratorios y soluciones tecnológicas, proporcionamos las herramientas y la gestión necesarias para operar con éxito y compliance en el escenario global, siempre desde nuestro rol exclusivo de consultores."
+    titleV="Visión"
+    descriptionV="Nuestra visión es eliminar las barreras administrativas y legales que encuentran empresas, profesionales y familias al operar internacionalmente. Brindamos soluciones integrales de consultoría que les permiten establecer, gestionar y hacer crecer sus negocios y patrimonio con seguridad y eficiencia."
+  />
+</MainLayout>

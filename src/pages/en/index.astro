@@ -1,0 +1,137 @@
+---
+// Import the necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import HeroSectionVideos from "@components/sections/landing/HeroSectionVideos.astro";
+import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
+import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
+import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
+import PricingSection from "@components/sections/pricing/PricingSection.astro";
+import FAQ from "@components/sections/misc/FAQ.astro";
+import faqs from "@data/en/faqs.json";
+import features from "@data/en/features.json";
+import pricing from "@data/en/pricing.json";
+import featureImage from "@images/home-image.jpg";
+import CartasDeServiciosV2 from "@components/sections/landing/CartasDeServiciosV2.astro";
+import GridServicios from "@/components/sections/features/GridServicios.astro";
+import Banner from "@components/ui/banners/AnnouncementBanner.astro";
+import Partner from "@components/sections/landing/TarjetaParner.astro";
+import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.astro";
+---
+
+<MainLayout>
+  <Banner
+    title="Sotomayor Consulting International is a consulting firm, not a bank. We do not grant loans, but we provide all our support in setting up your company, paperwork, account opening, and technological solutions. We are here to advise you!"
+    url="/"
+    btnTitle="Learn more"
+    btnId="xd"
+  />
+
+  <HeroSectionVideos
+    title=`360° Solutions for LLCs, Taxation, and Global Technology`
+    subTitle="Sotomayor Consulting International is a boutique legal, tax, and technology consulting firm that helps clients (especially international ones) set up companies in the U.S. and other jurisdictions, connect them to the financial system (banks/fintech), comply with taxes and accounting, and build the digital infrastructure (AI, web, Stripe, telephony) needed to operate globally."
+    primaryBtn="Start Your LLC"
+    primaryBtnURL="/inicio/en/#precios"
+    secondaryBtn="Our Services"
+    secondaryBtnURL="/inicio/en/#cartas-servicios"
+    rating=`<span class="font-bold">4.8</span> / 5`
+    starCount={4}
+    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+    alt="Video of businesses, people, and development"
+    titleslide2="Your global expansion deserves a structure, not just a procedure."
+    descriptionslide2="We are the strategic ally that cares for your assets with rigor and expert support, ensuring that your entry into the world is solid, correct, and, above all, definitive."
+    dabgeslide3="We provide clarity and security"
+    tituloslide3="Your vision in a solid and strategic legal architecture."
+    descriptionslide3="At Sotomayor Consulting International, we design the exact structure your assets need to expand successfully. We are architects of your legal and tax security in the United States and the world."
+    button1slide3="Free Consultation"
+    button2slide3="Schedule a meeting"
+  />
+
+  <CartasDeServiciosV2
+    title="Everything for Your Business"
+    subTitle="We offer personalized service solutions for professionals, individuals, families, and businesses, addressing their specific needs."
+  />
+
+  <Partner
+    title1="For Professionals"
+    subTitle1="Partner with Sotomayor Consulting International to provide your clients with expert solutions in international structures, tax planning, and global technology, always maintaining your central role as a trusted advisor."
+    title2="Partner Program"
+    subTitle2="Collaborate with Sotomayor Consulting International. Strengthen your advisory by giving your clients access to our expertise in global planning, tax compliance, and technological solutions. You lead the relationship; we guarantee excellence in technical execution and full control of your referrals."
+    imagen="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+    alt="People doing business"
+    link="/inicio/en/asociados"
+  />
+
+  <FeaturesGeneral
+    title="What Sets Us Apart"
+    subTitle="Our priority is client trust. With a comprehensive approach, we design excellent solutions that build lasting relationships."
+    src={featureImage}
+    alt="ScrewFast products in floating boxes"
+    features={features}
+  />
+
+  <GridServicios
+    title="Star Product"
+    description="We accompany global entrepreneurs in forming their company in the U.S., tax design, documentary assistance for third-party banking onboarding, and legal compliance advisory from anywhere in the world."
+    link="#precios"
+    grid2="Countries"
+    grid3="Explore our services"
+    grid3link="/inicio/en/services"
+    grid4="Contact us"
+    grid4link="/inicio/en/contact"
+  />
+
+  <TestimonialsSection
+    title="Boost Your Projects"
+    subTitle="At Sotomayor Consulting International, we guarantee an agile start with ongoing support. Experience the redefinition of consulting."
+    ;
+    testimonials={[
+      {
+        content:
+          "Sotomayor Consulting International gave me a clear solution for my LLC. The process was straightforward, and the support helped me set up and enable payments with third-party payment processors (e.g., Stripe/PayPal). I recommend the service.",
+        author: "Diego Morales",
+        role: "E-commerce Entrepreneur",
+        avatarSrc:
+          "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=389&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      },
+    ]}
+    statistics={[
+      {
+        count: "5,000",
+        description: "Companies Incorporated",
+      },
+      {
+        count: "1,354",
+        description: "Projects Completed",
+      },
+      {
+        count: "97%",
+        description: "Satisfaction",
+      },
+      {
+        count: "10",
+        description: "Years of Experience",
+      },
+    ]}
+  />
+
+  <Evaluacion
+    title="Find out if an LLC is really the best structure for you."
+    button="Take the free consultation"
+  >
+    Avoid legal and tax mistakes that can cost you thousands of dollars.
+    <b>In just 2 minutes, our free consultation</b> analyzes your specific situation
+    and clearly indicates whether a U.S. LLC is the right option for
+    your case or if there is a better alternative.
+  </Evaluacion>
+
+  <PricingSection pricing={pricing} />
+
+  <FAQ title="Frequently Asked<br />Questions" faqs={faqs} />
+
+  <HeroSectionAlt
+    title="Let's Work Together"
+    subTitle="SCI is a comprehensive specialized service, meticulously designed with global solutions in company incorporation, tax planning, migration services, and international real estate."
+    url="/inicio/en/contact"
+    btnTitle="Contact us"
+  />
+</MainLayout>

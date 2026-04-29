@@ -1,0 +1,162 @@
+---
+// Define props from Astro
+const { title, subTitle } = Astro.props;
+
+
+// Define TypeScript interface for prop
+---
+
+<section
+  class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full" id="cartas-servicios"
+>
+  <!-- Title and description -->
+  <div class="mx-auto mb-6 w-full space-y-1 text-center sm:w-1/2 lg:w-1/3">
+    <h2
+      class="text-2xl leading-tight font-bold text-balance text-neutral-800 sm:text-3xl dark:text-neutral-200"
+    >
+      {title}
+    </h2>
+    {
+      subTitle && (
+        <p class="leading-tight text-pretty text-neutral-600 dark:text-neutral-400">
+          {subTitle}
+        </p>
+      )
+    }
+  </div>
+  <div
+    class="flex flex-col items-center justify-center gap-y-2 sm:flex-row sm:gap-x-12 sm:gap-y-0 lg:gap-x-24"
+  >
+    <div class="grid grid-cols-1 gap-3 lg:grid-cols-3">
+      <div
+        class="flex-col place-items-center rounded-2xl bg-neutral-50 p-5 dark:bg-[#262626] hover:scale-101 transition-all"
+      >
+        <h3 class="text-3xl text-neutral-950 dark:text-neutral-50">Empresas</h3>
+        <hr
+          class="my-0.5 h-px w-48 rounded-sm border-0 bg-gray-100 md:my-10 dark:bg-neutral-50"
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          viewBox="0 0 48 48"
+          class="mb-5 text-black dark:text-white"
+          ><g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="4"
+            ><path d="m21 13l-10 7v24"></path><path
+              fill="currentColor"
+              fill-rule="evenodd"
+              d="m21 4l10 7v13l7 5v15H21z"
+              clip-rule="evenodd"></path><path d="M4 44h40"></path></g
+          ></svg
+        >
+        <p
+          class="w-2/3 text-center text-lg text-balance text-neutral-950 dark:text-neutral-50"
+        >
+          Todos los servicios corporativos que necesitas, en una sola firma
+          global.
+        </p>
+        <div class="my-10">
+          <a
+            href="/inicio/servicios-empresariales/"
+            class="rounded-2xl bg-[#ba8d34] px-4 py-3 hover:bg-[#cca964] text-white"
+          >
+            Ver más
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex-col place-items-center rounded-2xl bg-neutral-50 p-5 dark:bg-[#262626] hover:scale-101 transition-all"
+      >
+        <h3 class="text-3xl text-neutral-950 dark:text-neutral-50">
+          Profesionales
+        </h3>
+        <hr
+          class="my-0.5 h-px w-48 rounded-sm border-0 bg-gray-100 md:my-10 dark:bg-neutral-50"
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          viewBox="0 0 24 24"
+          class="mb-5 text-black dark:text-white"
+          ><path
+            fill="currentColor"
+            d="M13 16h-2c-.55 0-1-.45-1-1H3.01v4c0 1.1.9 2 2 2H19c1.1 0 2-.9 2-2v-4h-7c0 .55-.45 1-1 1m7-9h-4c0-2.21-1.79-4-4-4S8 4.79 8 7H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-1c0-.55.45-1 1-1h2c.55 0 1 .45 1 1v1h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2M10 7c0-1.1.9-2 2-2s2 .9 2 2H9.99z"
+          ></path></svg
+        >
+        <p
+          class="w-2/3 text-center text-lg text-balance text-neutral-950 dark:text-neutral-50"
+        >
+        Obtén el respaldo que necesitas para complementar tus servicios profesionales.
+        </p>
+        <div class="my-10">
+          <a
+            href="/inicio/servicios-profesionales/"
+            class="rounded-2xl bg-[#ba8d34] px-4 py-3 hover:bg-[#cca964] text-white"
+          >
+            Ver más
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex-col place-items-center rounded-2xl bg-neutral-50 p-5 dark:bg-[#262626] hover:scale-101 transition-all"
+      >
+        <h3 class="text-3xl text-neutral-950 dark:text-neutral-50">
+          Familias e Individuos
+        </h3>
+        <hr
+          class="my-0.5 h-px w-48 rounded-sm border-0 bg-gray-100 md:my-10 dark:bg-neutral-50"
+        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="48"
+          height="48"
+          viewBox="0 0 48 48"
+          class="mb-5 text-black dark:text-white"
+          ><g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="4"
+            ><path
+              d="M10 19s-5.143 2-6 9m34-9s5.143 2 6 9m-26-9s4.8 1.167 6 7m6-7s-4.8 1.167-6 7m-4 8s-4.2.75-6 6m14-6s4.2.75 6 6"
+            ></path><circle
+              cx="24"
+              cy="31"
+              r="5"
+              fill="currentColor"
+              stroke-linejoin="round"></circle><circle
+              cx="34"
+              cy="14"
+              r="6"
+              fill="currentColor"
+              stroke-linejoin="round"></circle><circle
+              cx="14"
+              cy="14"
+              r="6"
+              fill="currentColor"
+              stroke-linejoin="round"></circle></g
+          ></svg
+        >
+        <p
+          class="w-2/3 text-center text-lg text-balance text-neutral-950 dark:text-neutral-50"
+        >
+        Su patrimonio y el de su familia, en manos expertas para su protección y crecimiento.
+        </p>
+        <div class="my-10">
+          <a
+            href="/inicio/servicios-familiares-individuos"
+            class="rounded-2xl bg-[#ba8d34] px-4 py-3 hover:bg-[#cca964] text-white"
+          >
+            Ver más
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,133 @@
+---
+import { dataLegales } from "src/data_files/data-de-servicios";
+import MainLayout from "@/layouts/MainLayoutv2.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<MainLayout
+  title={dataLegales.titulo}
+  customDescription={dataLegales.titulo}
+  customOgTitle={dataLegales.titulo}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `https://sotomayorconsulting.com/inicio/servicios/${dataLegales.categoria.toLowerCase().replace(/\s+/g, "-")}`,
+    name: dataLegales.titulo,
+    description: dataLegales.descripcion,
+    brand: {
+      "@type": "Brand",
+      name: "Sotomayor Consulting",
+    },
+  }}
+>
+  <section
+    class="mx-auto flex max-w-[85rem] flex-col px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+  >
+    <!-- Hero -->
+    <div class="relative overflow-hidden">
+      <div class="relative z-10">
+        <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
+          <div class="mx-auto max-w-2xl text-center">
+            <p
+              class="inline-block bg-linear-to-l from-[#ba8d34] to-white bg-clip-text text-sm font-medium text-transparent dark:from-[#ba8d34] dark:to-white"
+            >
+              Sotomayor Consulting International
+            </p>
+
+            <!-- Title -->
+            <div class="mt-5 max-w-2xl">
+              <h1
+                class="block text-4xl font-semibold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200"
+              >
+                {dataLegales.titulo}
+              </h1>
+            </div>
+            <!-- End Title -->
+
+            <div class="mt-5 max-w-3xl">
+              <p class="text-lg text-gray-600 dark:text-neutral-400">
+                {dataLegales.descripcion}
+              </p>
+            </div>
+
+            <!-- Buttons -->
+            <div class="mt-8 flex justify-center gap-3">
+              <a
+                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                target="_blank"
+                href="https://zcal.co/t/agendar-asesoria-llc/60min"
+              >
+                Agendar una reunion
+                <svg
+                  class="size-4 shrink-0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg
+                >
+              </a>
+            </div>
+            <!-- End Buttons -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Icon Blocks -->
+    <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+      <div class="grid items-center gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Card -->
+        {
+          dataLegales.listadelegales.map((i) => (
+            <div class="group flex size-full gap-y-6 rounded-lg p-5 hover:bg-gray-100 focus:bg-gray-100 focus:outline-hidden dark:hover:bg-neutral-800 dark:focus:bg-neutral-800">
+              <Icon
+                name={i.icono}
+                class="me-6 mt-0.5 size-8 shrink-0 text-gray-800 dark:text-neutral-200"
+              />
+
+              <div>
+                <div>
+                  <div class="grid grid-cols-[1fr_auto] items-center gap-4">
+                    <h3 class="block font-bold text-gray-800 dark:text-white">
+                      {i.titulo}
+                    </h3>
+                    <div class="w-fit text-center">
+                      <div class="hs-tooltip inline-block [--placement:top]">
+                        <button
+                          type="button"
+                          class="hs-tooltip-toggle inline-flex size-10 items-center justify-center"
+                        >
+                          <Icon
+                            name="mingcute:question-fill"
+                            class="size-4 shrink-0 text-black dark:text-white"
+                          />
+                          <span
+                            class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible invisible absolute z-10 inline-block max-w-sm rounded-md bg-gray-900 px-2 py-1 text-xs font-medium text-white opacity-0 shadow-2xs transition-opacity dark:bg-neutral-700"
+                            role="tooltip"
+                          >
+                            <p class="px-2 pt-2 md:text-base text-sm">{i.pregunta}</p>
+                            <p class="p-2 text-sm md:text-base font-light">{i.respuesta}</p>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="col-span-2 text-gray-600 dark:text-neutral-400">
+                    {i.descripcion}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+    <!-- End Icon Blocks -->
+  </section>
+</MainLayout>

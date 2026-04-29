@@ -1,0 +1,147 @@
+---
+// Importing necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
+import CardSmall from "@components/ui/cards/CardSmall-profesionales.astro";
+import CardWide from "@components/ui/cards/CardWide-profesional.astro";
+import FeaturesStatsAlt from "@components/sections/features/FeaturesStatsAlt.astro";
+import TestimonialsSectionAlt from "@components/sections/testimonials/TestimonialsSectionAlt.astro";
+
+// Importing necessary functions from Astro
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { SITE } from "@data/constants";
+
+// Detect current language from pathname
+const pathname = Astro.url.pathname;
+const isEnglish = pathname.startsWith("/inicio/en");
+const isPortuguese = pathname.startsWith("/inicio/pr");
+const langFolder = isEnglish ? "en" : isPortuguese ? "pr" : "es";
+
+// Fetching all the product related content and sorting it by main.id
+const serviciosProfesionales: CollectionEntry<"profesionales">[] = (
+  await getCollection("profesionales", ({ id }) => {
+    return id.startsWith(`${langFolder}`);
+  })
+).sort(
+  (a: CollectionEntry<"profesionales">, b: CollectionEntry<"profesionales">) =>
+    a.data.main.id - b.data.main.id
+);
+
+// Define variables for page content
+const title: string = "Servicios Profesionales";
+const subTitle: string =
+  "Esta sección está diseñada para ayudarte a construir y gestionar tu plataforma de trabajo como profesional independiente. Más allá de simplemente ofrecer servicios, te proporcionamos las herramientas necesarias para formalizar tu carrera, expandir tu alcance y optimizar tu tiempo. ";
+
+// Testimonial data that will be rendered in the component
+const testimonials = [
+  // First testimonial data
+  {
+    content:
+      " \"El equipo me ayudó a entender los pasos para mi LLC y el resultado fue sólido. Tengo mi EIN y una cuenta bancaria en EE.UU., todo sin salir de casa.\" ",
+    author: "Pedro Gómez",
+    role: "Productor de contenido digital",
+    avatarSrc:
+      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+    avatarAlt: "Avatar Pedro Gómez",
+  },
+  // Second testimonial data
+  {
+    content:
+      " \"Thais, de atención al cliente, me guió perfectamente con el formulario y las opciones de planes. Ahora mi negocio está registrado y funcionando en EE.UU.\" ",
+    author: "Mariana Pérez",
+    role: "Consultora de marketing",
+    avatarSrc:
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+    avatarAlt: "Image Description",
+  },
+  // Third testimonial data
+  {
+    content:
+      " \"Sebastián me ayudó a elegir el plan adecuado y a proteger mi patrimonio. Todo fue online y ahora estoy lista para invertir en EE.UU. con seguridad.\" ",
+    author: "Isabel Ruiz",
+    role: "Arquitecta independiente",
+    avatarSrc:
+      "https://images.unsplash.com/photo-1474176857210-7287d38d27c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+    avatarAlt: "Image Description",
+  },
+];
+
+const pageTitle: string = `Products | ${SITE.title}`;
+const metaDescription =
+  "Ajudamos você a construir, proteger e expandir seu patrimônio internacionalmente. Oferecemos soluções integradas para o seu crescimento empresarial.";
+const ogTitle = "Servicios Empresariales | Sotomayor Consulting";
+---
+
+<MainLayout
+  title={pageTitle}
+  customDescription={metaDescription}
+  customOgTitle={ogTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://sotomayorconsulting.com/inicio/contact/",
+    url: "https://sotomayorconsulting.com/inicio/contact/",
+    name: "Entre em Contato | Sotomayor Consulting International",
+    description: "Entre em contato e abra sua LLC conosco",
+    isPartOf: {
+      "@type": "WebSite",
+      url: "https://sotomayorconsulting.com/inicio/",
+      name: "Sotomayor Consulting International",
+      description:
+        "Ajudamos você a construir, proteger e expandir seu patrimônio internacionalmente. Oferecemos soluções integradas para o seu crescimento empresarial.",
+    },
+    inLanguage: "pt-BR",
+  }}
+>
+  <div
+    class="mx-auto max-w-340 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+  >
+    <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
+      <div class="flex items-center gap-12">
+        <h1
+          class="text-2xl font-bold tracking-tight text-balance text-neutral-800 md:text-4xl md:leading-tight dark:text-neutral-200"
+        >
+          {title}
+        </h1>
+        {
+          subTitle && (
+            <p class="hidden max-w-(--breakpoint-sm) text-pretty text-neutral-600 md:block dark:text-neutral-400">
+              {subTitle}
+            </p>
+          )
+        }
+      </div>
+      <PrimaryCTA title="regresar" url="/inicio/services" noArrow={true} />
+    </div>
+    {/* Displaying products in alternating styles. Alternative product gets different card styling.
+    Maps through all product entries and displays them with either CardSmall or CardWide based on their position. */}
+    <section class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+      {
+        serviciosProfesionales.map((servicios, index) => {
+          const position = index % 4;
+          if (position === 0 || position === 3) {
+            return <CardSmall product={servicios} />;
+          } else {
+            return <CardWide product={servicios} />;
+          }
+        })
+      }
+    </section>
+  </div>
+  {/* Features statistics section */}
+  <FeaturesStatsAlt
+    title="La Ventaja de Trabajar con Nosotros"
+    subTitle="En Sotomayor Consulting International, no solo ofrecemos servicios; nos convertimos en tu socio estratégico. La verdadera ventaja de elegirnos radica en nuestro enfoque personalizado y nuestra visión global. Te proporcionamos una solución integral que se adapta a tus necesidades específicas, eliminando la complejidad de gestionar múltiples procesos con diferentes proveedores en el extranjero."
+    benefits={[
+      "Soluciones robustas para un futuro duradero.",
+      "Asesoría innovadora adaptada a tus metas de crecimiento.",
+      "Soporte al cliente dedicado al éxito de tu patrimonio.",
+    ]}
+  />
+  {/* Testimonials section */}
+  <TestimonialsSectionAlt
+    title="What Our Customers Say"
+    testimonials={testimonials}
+  />
+</MainLayout>

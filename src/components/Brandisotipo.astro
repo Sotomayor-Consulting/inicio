@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+import logoBlanco from '../images/SC-INTER.avif';
+import logoNegro from '../images/SC-INTER-NG.avif';
+---
+
+<!-- Logo para modo oscuro (se muestra solo en dark) -->
+<Image 
+  src={logoBlanco} 
+  alt="Logo Sotomayor Consulting International" 
+  class="lg:w-36 h-auto hidden dark:block md:w-25 w-35"
+  loading="eager"
+/>
+
+<!-- Logo para modo claro (se muestra solo en light) -->
+<Image 
+  src={logoNegro} 
+  alt="Logo Sotomayor Consulting International" 
+  class="lg:w-36 h-auto block dark:hidden md:w-25 w-35"
+  loading="eager"
+/>

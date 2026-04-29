@@ -1,0 +1,243 @@
+---
+import { dataWeb } from "src/data_files/data-de-servicios";
+import MainLayout from "@/layouts/MainLayoutv2.astro";
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+---
+
+<MainLayout
+  title={dataWeb.titulo}
+  customDescription={dataWeb.titulo}
+  customOgTitle={dataWeb.titulo}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": `https://sotomayorconsulting.com/inicio/servicios/${dataWeb.categoria.toLowerCase().replace(/\s+/g, "-")}`,
+    name: dataWeb.titulo,
+    description: dataWeb.descripcion,
+    brand: {
+      "@type": "Brand",
+      name: "Sotomayor Consulting",
+    },
+  }}
+>
+  <section
+    class="mx-auto flex max-w-[85rem] flex-col px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+  >
+    <!-- Hero -->
+    <div class="relative overflow-hidden">
+      <div class="relative z-10">
+        <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
+          <div class="mx-auto max-w-2xl text-center">
+            <p
+              class="inline-block bg-linear-to-l from-[#ba8d34] to-white bg-clip-text text-sm font-medium text-transparent dark:from-[#ba8d34] dark:to-white"
+            >
+              Sotomayor Consulting International
+            </p>
+
+            <!-- Title -->
+            <div class="mt-5 max-w-2xl">
+              <h1
+                class="block text-4xl font-semibold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200"
+              >
+                {dataWeb.titulo}
+              </h1>
+            </div>
+            <!-- End Title -->
+
+            <div class="mt-5 max-w-3xl">
+              <p class="text-lg text-gray-600 dark:text-neutral-400">
+                {dataWeb.descripcion}
+              </p>
+            </div>
+
+            <!-- Buttons -->
+            <div class="mt-8 flex justify-center gap-3">
+              <a
+                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                target="_blank"
+                href="https://zcal.co/t/agendar-asesoria-llc/60min"
+              >
+                Agendar una reunion
+                <svg
+                  class="size-4 shrink-0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg
+                >
+              </a>
+            </div>
+            <!-- End Buttons -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Features -->
+    <div class="mx-auto px-0 py-10 sm:px-6 lg:px-8 lg:py-14">
+      <!-- Tab Nav -->
+      <nav
+        class="mx-auto flex flex-col gap-y-px sm:flex-row sm:gap-x-4 sm:gap-y-0"
+        aria-label="Tabs"
+        role="tablist"
+        aria-orientation="horizontal"
+      >
+        {
+          dataWeb.features.map((f, index) =>
+            f.estado === "activo" ? (
+              <button
+                type="button"
+                class="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent dark:hs-tab-active:bg-neutral-800 active flex w-full md:flex-col rounded-xl p-3 md:text-start hover:bg-gray-100 focus:bg-gray-100 focus:outline-hidden md:p-5 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800 gap-4 text-center items-center"
+                id={`tabs-with-card-item-${index}`}
+                aria-selected="true"
+                data-hs-tab={`#tabs-with-card-${index}`}
+                aria-controls={`tabs-with-card-${index}`}
+                role="tab"
+              >
+                <Icon
+                  name={f.icono}
+                  class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 size-7 shrink-0 text-gray-800 dark:text-white"
+                />
+                <span class="sm:mt-5">
+                  <span class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 block font-semibold text-gray-800 dark:text-neutral-200">
+                    {f.titulo}
+                  </span>
+                  <span class="mt-2 hidden text-gray-800 lg:block dark:text-neutral-200">
+                    {f.descripcion}
+                  </span>
+                </span>
+              </button>
+            ) : (
+              <button
+                type="button"
+                class="hs-tab-active:bg-gray-100 hs-tab-active:hover:border-transparent dark:hs-tab-active:bg-neutral-800 flex w-full md:flex-col rounded-xl p-3 md:text-start hover:bg-gray-100 focus:bg-gray-100 focus:outline-hidden md:p-5 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800 gap-4 text-center items-center"
+                id={`tabs-with-card-item-${index}`}
+                aria-selected="true"
+                data-hs-tab={`#tabs-with-card-${index}`}
+                aria-controls={`tabs-with-card-${index}`}
+                role="tab"
+              >
+                <Icon
+                  name={f.icono}
+                  class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 size-7 shrink-0 text-gray-800 dark:text-white"
+                />
+                <span class="sm:mt-5">
+                  <span class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 block font-semibold text-gray-800 dark:text-neutral-200">
+                    {f.titulo}
+                  </span>
+                  <span class="mt-2 hidden text-gray-800 lg:block dark:text-neutral-200">
+                    {f.descripcion}
+                  </span>
+                </span>
+              </button>
+            ),
+          )
+        }
+      </nav>
+      <!-- End Tab Nav -->
+
+      <!-- Tab Content -->
+      <div class="mt-12 md:mt-16 md:mb-0 mb-10">
+        {
+          dataWeb.features.map((f, index) =>
+            f.estado === "activo" ? (
+              <div
+                id={`tabs-with-card-${index}`}
+                role="tabpanel"
+                aria-labelledby={`tabs-with-card-${index}`}
+              >
+                <div class="relative lg:pb-32 flex justify-center">
+                  <Image src={f.image} alt={`imagen-${index}`} layout='constrained' />
+                </div>
+              </div>
+            ) : (
+              <div
+                id={`tabs-with-card-${index}`}
+                role="tabpanel"
+                aria-labelledby={`tabs-with-card-${index}`}
+                class="hidden"
+              >
+                <div class="relative lg:pb-32 flex justify-center">
+                  <Image src={f.image} alt={`imagen-${index}`} layout='constrained' />
+                </div>
+              </div>
+            ),
+          )
+        }
+      </div>
+
+      <!-- End Tab Content -->
+      <div class="flex w-full justify-center">
+        <div
+          class="relative z-10 w-full md:w-4xl rounded-xl border border-gray-200 bg-white p-4 md:p-10 dark:border-neutral-800 dark:bg-neutral-900"
+        >
+          <h3 class="text-xl font-bold text-black dark:text-white">
+            {dataWeb.preciostitulo}
+          </h3>
+          <div class="text-sm text-black dark:text-white">
+            {dataWeb.preciossubtitulo}
+          </div>
+
+          <div class="mt-5">
+            <span class="text-6xl font-bold text-black dark:text-white"
+              >${dataWeb.precio}</span
+            >
+            <span class="text-lg font-bold text-black dark:text-white"
+              >.00</span
+            >
+            <span class="ms-3 text-black dark:text-white">USD</span>
+          </div>
+
+          <div
+            class="mt-5 grid gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0"
+          >
+            <!-- Grid -->
+            <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+              {
+                dataWeb.listamini.map((i) => (
+                  <div class="rounded-lg border border-[#ba8d34] p-4 dark:border-neutral-700">
+                    <Icon
+                      name={i.icono}
+                      class="mb-3 size-10 shrink-0 text-[#ba8d34] dark:text-white"
+                    />
+
+                    <h3 class="mb-1 text-xs text-black dark:text-white">
+                      {i.titulo}
+                    </h3>
+
+                    <p class="text-sm font-semibold text-black dark:text-white">
+                      {i.descripcion}
+                    </p>
+                  </div>
+                ))
+              }
+            </div>
+            <!-- End Grid -->
+          </div>
+
+          <div class="mt-5 grid md:grid-cols-2 gap-x-4 py-4 first:pt-0 last:pb-0">
+            <div class="col-start-2 flex justify-end">
+              <a
+                type="button"
+                href={dataWeb.link}
+                target="_blank"
+                class="inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white shadow-2xs hover:bg-[#ba8d34]/80 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-[#ba8d34] dark:text-white dark:hover:bg-[#ba8d34]/80 dark:focus:bg-neutral-800 text-center"
+                >Agendar una cita</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Card -->
+    </div>
+  </section>
+  <!-- End Features -->
+</MainLayout>

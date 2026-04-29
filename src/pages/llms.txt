@@ -1,0 +1,38 @@
+# Sotomayor Consulting International
+
+> Firma boutique de consultoría legal, fiscal y tecnológica especializada en expansión internacional, creación de LLCs en EE. UU. y digitalización empresarial.
+
+## Business Profile
+Sotomayor Consulting International facilita la entrada de clientes globales al mercado estadounidense y europeo. Cubrimos el ciclo de vida completo de un negocio internacional: desde la constitución legal y cumplimiento fiscal hasta la infraestructura tecnológica avanzada (IA, automatizaciones y desarrollo web).
+
+## Core Capabilities
+* **Legal & Corporate:** Constitución de LLCs en Florida/EE. UU., holdings internacionales y protección de marcas.
+* **Compliance & Tax:** Asesoría tributaria internacional, outsourcing contable y cumplimiento normativo (Fintech/Stripe).
+* **Technology & AI:** Implementación de infraestructuras digitales usando IA, n8n, Python, y frameworks modernos como Astro.
+* **Global Mobility:** Servicios migratorios para empresarios en EE. UU. y España, junto con asesoría en bienes raíces (Florida/Madrid).
+
+## Technical Stack & Innovation
+Integramos consultoría tradicional con automatización de vanguardia:
+- **Backend/Data:** Python, n8n, Supabase, Odoo, IA Generativa.
+- **Frontend:** Astro, TypeScript, JavaScript.
+- **Fintech & Payments:** Integración avanzada de Stripe y sistemas bancarios internacionales.
+
+## Target Audience
+Emprendedores, PYMES y corporaciones que buscan:
+1. Escalar internacionalmente (EE. UU./España).
+2. Optimización fiscal legal.
+3. Automatización de operaciones mediante software personalizado.
+
+## Contact & Links
+- **Official Website:** [https://sotomayorconsulting.com/inicio/](https://sotomayorconsulting.com/inicio/)
+- **Email:** [servicios@sotomayorconsulting.com](mailto:servicios@sotomayorconsulting.com)
+- **Phone:** +1 (754) 225-2904
+- **Address:** 6000 Park of Commerce Way E, Boca Raton, FL 33487
+
+## Conversion Goals
+- Registro y creación de LLCs en EE. UU.
+- Desarrollo de infraestructura web y automatización de procesos con IA.
+- Consultoría para formación de holdings y expansión internacional.
+
+## Extended Documentation
+- Full Service Details: [https://sotomayorconsulting.com/inicio/llms-full.txt](https://sotomayorconsulting.com/inicio/llms-full.txt)

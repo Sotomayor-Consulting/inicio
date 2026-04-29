@@ -1,0 +1,157 @@
+---
+// Importing necessary components
+import MainLayout from "@/layouts/MainLayout.astro";
+import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
+import CardSmall from "@components/ui/cards/CardSmall-profesionales.astro";
+import CardWide from "@components/ui/cards/CardWide-profesional.astro";
+import FeaturesStatsAlt from "@components/sections/features/FeaturesStatsAlt.astro";
+import TestimonialsSectionAlt from "@components/sections/testimonials/TestimonialsSectionAlt.astro";
+import { traducionEsempresas } from "@utils/es/TraduccionesServicios";
+import { translationEnempresas } from "@utils/en/TraduccionesServicios";
+import { translationPtempresas } from "@utils/pr/TraduccionesServicios";
+
+// Importing necessary functions from Astro
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import { SITE } from "@data/constants";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("profesionales", ({ id }) =>
+    id.startsWith("es/") || id.startsWith("en/") || id.startsWith("pr/")
+  );
+  return pages.map((page) => {
+    const [lang, ...slug] = page.id.split("/");
+    return {
+      params: { lang, slug: slug.join("/") || undefined },
+      props: { page, lang },
+    };
+  });
+}
+
+const { lang } = Astro.params;
+
+type Translations = {
+  metaDescription: string;
+  siteDescription: string;
+  backButton: string;
+  testimonialsTitle: string;
+  testimonials: Array<{
+    content: string;
+    author: string;
+    role: string;
+    avatarSrc: string;
+    avatarAlt: string;
+  }>;
+  title: string;
+  subTitle: string;
+  benefits: string[];
+};
+
+const translations: Record<string, Translations> = {
+  es: traducionEsempresas,
+  en: translationEnempresas,
+  pr: translationPtempresas,
+};
+
+const supportedLangs = ["es", "en", "pr"] as const;
+const safeLang = supportedLangs.includes(lang as typeof supportedLangs[number]) ? lang : "es";
+const t = translations[safeLang];
+
+const pageContent:any = {
+  es: {
+    pageTitle: "Servicios Profesionales",
+    pageSubTitle: "Esta sección está diseñada para ayudarte a construir y gestionar tu plataforma de trabajo como profesional independiente.",
+  },
+  en: {
+    pageTitle: "Professional Services",
+    pageSubTitle: "This section is designed to help you build and manage your platform as an independent professional.",
+  },
+  pr: {
+    pageTitle: "Serviços Profissionais",
+    pageSubTitle: "Esta seção foi projetada para ajudá-lo a construir e gerenciar sua plataforma como profissional autônomo.",
+  },
+};
+
+const { pageTitle, pageSubTitle } = pageContent[safeLang];
+
+// Fetching all the product related content and sorting it by main.id
+const serviciosEmpresariales: CollectionEntry<"profesionales">[] = (
+  await getCollection("profesionales", ({ id }) => {
+    return id.startsWith(`${lang}/`);
+  })
+).sort(
+  (a: CollectionEntry<"profesionales">, b: CollectionEntry<"profesionales">) =>
+    a.data.main.id - b.data.main.id
+);
+
+const metaDescription = t.metaDescription;
+const ogTitle = `${pageTitle} | ${SITE.title}`;
+---
+
+<MainLayout
+  title={pageTitle}
+  customDescription={metaDescription}
+  customOgTitle={ogTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `https://sotomayorconsulting.com/inicio/${lang}/servicios-empresariales`,
+    url: `https://sotomayorconsulting.com/inicio/${lang}/servicios-empresariales`,
+    name: `${pageTitle} | ${SITE.title}`,
+    description: metaDescription,
+    isPartOf: {
+      "@type": "WebSite",
+      url: `https://sotomayorconsulting.com/inicio/${lang}`,
+      name: SITE.title,
+      description: t.siteDescription,
+    },
+    inLanguage: lang,
+  }}
+>
+  <div
+    class="mx-auto max-w-340 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+  >
+    <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
+      <div class="flex items-center gap-12">
+        <h1
+          class="text-2xl font-bold tracking-tight text-balance text-neutral-800 md:text-4xl md:leading-tight dark:text-neutral-200"
+        >
+          {pageTitle}
+        </h1>
+        {
+          pageSubTitle && (
+            <p class="hidden max-w-(--breakpoint-sm) text-pretty text-neutral-600 md:block dark:text-neutral-400">
+              {pageSubTitle}
+            </p>
+          )
+        }
+      </div>
+      <PrimaryCTA title={t.backButton} url={`/inicio/${lang}/services`} noArrow={true} />
+    </div>
+    {/* Displaying products in alternating styles. Alternative product gets different card styling.
+    Maps through all product entries and displays them with either CardSmall or CardWide based on their position. */}
+    <section class="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+      {
+        serviciosEmpresariales.map((servicios, index) => {
+          const position = index % 4;
+          if (position === 0 || position === 3) {
+            return <CardSmall product={servicios} />;
+          } else {
+            return <CardWide product={servicios} />;
+          }
+        })
+      }
+    </section>
+  </div>
+  {/* Features statistics section */}
+  <FeaturesStatsAlt
+    title={t.title}
+    subTitle={t.subTitle}
+    benefits={t.benefits}
+  />
+  {/* Testimonials section */}
+  <TestimonialsSectionAlt
+    title={t.testimonialsTitle}
+    testimonials={t.testimonials}
+  />
+</MainLayout>

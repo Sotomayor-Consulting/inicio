@@ -1,0 +1,66 @@
+{
+  "title": "Constituye tu LLC de forma rápida",
+  "subTitle": "Elige el plan que mejor se adapta a tu negocio y comienza a operar en EE. UU. con respaldo legal y tributario.",
+  "badge": "Favorito",
+  "thirdOption": "¿Buscas otro servicio?",
+  "btnText": "Ver más servicios",
+  "linkServicios": "/inicio/#cartas-servicios",
+
+  "starterKit": {
+    "name": "Plan Básico",
+    "description": "Constituye tu LLC con lo esencial para operar legalmente.",
+    "price": "350",
+    "cents": ".00",
+    "billingFrequency": "USD",
+    "features": [
+      "Incorporación de la LLC frente al Estado.",
+      "Obtención del EIN (Número de Identificación Tributaria).",
+      "Agente Residente por un año."
+    ],
+    "purchaseBtnTitle": "Obtén el paquete básico",
+    "purchaseLink": "https://www.cognitoforms.com/SotomayorConsultingInternational/RegistroPlanesDeIncorporaci%C3%B3n?entry=%7B%22PlanDeServicio%22:%2211-66%22%7D"
+  },
+
+  "professionalToolbox": {
+    "name": "Plan Business",
+    "description": "Estrategia fiscal y legal completa para tu LLC. Ideal para hacer las cosas bien desde el inicio.",
+    "price": "950",
+    "cents": ".00",
+    "billingFrequency": "USD",
+    "features": [
+      "Los beneficios del Plan Básico y los beneficios del plan estándar, más:"
+    ],
+    "purchaseBtnTitle": "Obtén el plan Business",
+    "purchaseLink": "https://www.cognitoforms.com/SotomayorConsultingInternational/RegistroPlanesDeIncorporaci%C3%B3n?entry=%7B%22PlanDeServicio%22:%2211-67%22%7D",
+    "bussines" : [
+      "Planificación y diseño legal - tributario.", "Acompañamiento bancario (Mercury o Relay + Stripe).", "EIN acelerado."
+    ]
+  },
+
+  "planestandar":{
+    "name": "Plan Estándar",
+    "description": "Incluye soporte legal y documentos clave para operar.",
+    "label" : "Los beneficios del Plan Básico más:",
+    "price": "600",
+    "cents": ".00",
+    "billingFrequency": "USD",
+    "features": [
+      "Elaboración del Acuerdo de Operación.",
+      "Consultas ilimitadas por un año.",
+      "Solicitud de Exención BE-13"
+    ],
+    "purchaseBtnTitle": "Obtén el paquete estándar",
+    "purchaseLink": "https://www.cognitoforms.com/SotomayorConsultingInternational/RegistroPlanesDeIncorporaci%C3%B3n?entry=%7B%22PlanDeServicio%22:%2211-101%22%7D"
+  },
+
+  "planUpgrade":{
+    "title": "Plan Diseño - upgrade",
+    "description": "Planificación estratégica y de diseño de la LLC, ideal para aquellos que quieren ir paso a paso.",
+    "price" : "350",
+    "cents": ".00",
+    "billing": "USD",
+    "lista": [ "Planificación y diseño de LLC" ],
+    "button": "Obtén el plan Diseño",
+    "link": "https://www.cognitoforms.com/SotomayorConsultingInternational/RegistroPlanesDeIncorporaci%C3%B3n?entry=%7B%22PlanDeServicio%22%3A%2211-224%22%7D"
+  }
+}

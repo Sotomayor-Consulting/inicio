@@ -1,0 +1,103 @@
+---
+// Importing necessary components
+import Meta from "@components/Meta.astro";
+import Navbar from "@components/sections/navbar&footer/NavbarMegaMenu.astro";
+import FooterSection from "@components/sections/navbar&footer/FooterSection.astro";
+import { SITE } from "@data/constants";
+import "@styles/global.css";
+import BotonWhatsapp from "@components/ui/buttons/BtnWhatsapp.astro";
+import Schemajson from "@components/sections/SEO/json-enriquesido.astro";
+
+// Setting expected props
+const {
+  title = SITE.title,
+  meta,
+  structuredData,
+  lang = "es",
+  customDescription = null,
+  customOgTitle = null,
+} = Astro.props;
+
+// Interface to type-check the properties
+interface Props {
+  title?: string;
+  meta?: string;
+  structuredData?: object;
+  lang?: string;
+  customDescription?: string | null;
+  customOgTitle?: string | null;
+}
+---
+
+<html lang={lang} class="scrollbar-hide lenis lenis-smooth scroll-pt-16">
+  <head>
+    {/* Adding metadata to the HTML document */}
+    <Schemajson />
+    <Meta
+      meta={meta}
+      structuredData={structuredData}
+      customDescription={customDescription}
+      customOgTitle={customOgTitle}
+    />
+    {/* Define the title of the page */}
+    <title>{title}</title>
+    <script is:inline>
+      // Script to handle dark mode. It will check if the theme is stored in localStorage or if dark theme is preferred by system settings
+      if (
+        localStorage.getItem("hs_theme") === "dark" ||
+        (!("hs_theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+    <script>
+      import "@scripts/lenisSmoothScroll.js";
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body
+    class="flex min-h-screen flex-col bg-neutral-200 selection:bg-[#171717] selection:text-neutral-200 dark:bg-[#171717] dark:selection:bg-[#714B67] dark:selection:text-neutral-200"
+  >
+    {
+      /*
+    Setting up the main structure of the page.
+    The Navbar is placed at the top, with a slot for the main content and FooterSection at the bottom.
+    */
+    }
+    <div
+      class="mx-auto w-full max-w-(--breakpoint-2xl) flex-grow px-4 sm:px-6 lg:px-8"
+    >
+      <Navbar />
+      <BotonWhatsapp />
+      <main>
+        <div aria-hidden="true" class="flex absolute -top-96 start-1/2 transform -translate-x-1/2">
+          <div class="bg-linear-to-r from-neutral-700/50 to-neutral-700 blur-3xl w-100 h-175 rotate-[-60deg] transform -translate-x-40 dark:from-neutral-200/50 dark:to-neutral-200"></div>
+          <div class="bg-linear-to-tl from-[#8F8F8F] via-[#714B67] to-[#8F8F8F] blur-3xl w-[1440px] h-200 rounded-fulls origin-top-left  -translate-x-40 dark:from-[#8F8F8F] dark:via-[#714B67]/70 dark:to-[#8F8F8F]"></div>
+        </div>
+        <slot />
+      </main>
+    </div>
+    <FooterSection />
+    <script>
+      import 'node_modules/.pnpm/preline@4.1.2/node_modules/preline/dist/preline'
+    </script>
+    <style>
+      /* CSS rules for the page scrollbar */
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  </body>
+</html>
