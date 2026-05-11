@@ -27,7 +27,6 @@ export async function getStaticPaths() {
 }
 
 const { page } = Astro.props;
-const lang = "es";
 const serviceLabel = "Servicios Empresariales";
 const pageTitle: string = `${page.data.title} | ${SITE.title}`;
 const metaDescription = page.data.description;
@@ -81,7 +80,7 @@ const ogTitle = `${page.data.title} | ${serviceLabel} | Sotomayor Consulting`;
         <Image
           id="fadeInMoveRight"
           src={page.data.main.imgMain}
-          class="w-[600px]"
+          class="w-150 rounded-lg shadow-md"
           alt={page.data.main.imgAlt}
           format={"avif"}
           loading={"eager"}

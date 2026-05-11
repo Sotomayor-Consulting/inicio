@@ -57,7 +57,7 @@ export default defineConfig({
           ja: "クイックスタートガイド",
           "zh-cn": "快速入门指南",
         },
-        autogenerate: { directory: "guides" },
+        items: [{ autogenerate: { directory: "guides" } }],
       },
       {
         label: "Tools & Equipment",
@@ -68,11 +68,11 @@ export default defineConfig({
       },
       {
         label: "Construction Services",
-        autogenerate: { directory: "construction" },
+        items: [{ autogenerate: { directory: "construction" } }],
       },
       {
         label: "Advanced Topics",
-        autogenerate: { directory: "advanced" },
+        items: [{ autogenerate: { directory: "advanced" } }],
       },
     ],
     social: [

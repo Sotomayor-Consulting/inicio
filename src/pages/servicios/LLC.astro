@@ -54,7 +54,7 @@ import { Icon } from "astro-icon/components";
             <!-- Buttons -->
             <div class="mt-8 flex justify-center gap-3">
               <a
-                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-[#ba8d34] focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
                 target="_blank"
                 href="https://zcal.co/t/agendar-asesoria-llc/60min"
               >
@@ -123,8 +123,8 @@ import { Icon } from "astro-icon/components";
                     type="button"
                     class={
                       index === 0
-                        ? "hs-tab-active:bg-[#ba8d34] hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white active inline-flex flex-auto items-center justify-center gap-x-2 rounded-lg bg-transparent px-4 py-3 text-center text-sm font-medium text-neutral-700 hover:text-[#ba8d34] focus:text-blue-600 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
-                        : "hs-tab-active:bg-[#ba8d34] hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white inline-flex flex-auto items-center justify-center gap-x-2 rounded-lg bg-transparent px-4 py-3 text-center text-sm font-medium text-neutral-700 hover:text-[#ba8d34] focus:text-blue-600 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                        ? "hs-tab-active:bg-[#ba8d34] hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white active inline-flex flex-auto items-center justify-center gap-x-2 rounded-lg bg-transparent px-4 py-3 text-center text-sm font-medium text-neutral-700 hover:text-[#ba8d34] focus:text-[#ba8d34] focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                        : "hs-tab-active:bg-[#ba8d34] hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white inline-flex flex-auto items-center justify-center gap-x-2 rounded-lg bg-transparent px-4 py-3 text-center text-sm font-medium text-neutral-700 hover:text-[#ba8d34] focus:text-[#ba8d34] focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                     }
                     id={`equal-width-elements-item-${index}`}
                     aria-selected={index === 0 ? "true" : "false"}
@@ -252,7 +252,7 @@ import { Icon } from "astro-icon/components";
                           )}
                           {plan.lista.map((li) => (
                             <li class="flex gap-x-3">
-                              <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                              <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-[#ba8d34] dark:bg-[#ba8d34]/30 dark:text-[#ba8d34]">
                                 <Icon
                                   name={plan.icono}
                                   class="size-3.5 shrink-0 text-[#ba8d34] dark:text-white"
@@ -314,7 +314,7 @@ import { Icon } from "astro-icon/components";
                           )}
                           {plan.lista.map((li) => (
                             <li class="flex gap-x-3">
-                              <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                              <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-[#ba8d34] dark:bg-[#ba8d34]/30 dark:text-[#ba8d34]">
                                 <Icon
                                   name={plan.icono}
                                   class="size-3.5 shrink-0 text-[#ba8d34] dark:text-white"
