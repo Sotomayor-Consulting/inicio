@@ -30,7 +30,7 @@ import { Image } from "astro:assets";
         <div class="mx-auto max-w-340 px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
           <div class="mx-auto max-w-2xl text-center">
             <p
-              class="inline-block bg-linear-to-l from-[#ba8d34] to-white bg-clip-text text-sm font-medium text-transparent dark:from-[#ba8d34] dark:to-white"
+              class="inline-block bg-linear-to-l from-secundario to-white bg-clip-text text-sm font-medium text-transparent dark:from-secundario dark:to-white"
             >
               Sotomayor Consulting International
             </p>
@@ -38,7 +38,7 @@ import { Image } from "astro:assets";
             <!-- Title -->
             <div class="mt-5 max-w-2xl">
               <h1
-                class="block text-4xl font-semibold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200"
+                class="block text-4xl font-semibold text-primario-black md:text-5xl lg:text-6xl dark:text-neutral-200"
               >
                 {dataWeb.titulo}
               </h1>
@@ -46,7 +46,7 @@ import { Image } from "astro:assets";
             <!-- End Title -->
 
             <div class="mt-5 max-w-3xl">
-              <p class="text-lg text-gray-600 dark:text-neutral-400">
+              <p class="text-lg text-primario-black dark:text-neutral-400">
                 {dataWeb.descripcion}
               </p>
             </div>
@@ -54,7 +54,7 @@ import { Image } from "astro:assets";
             <!-- Buttons -->
             <div class="mt-8 flex justify-center gap-3">
               <a
-                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-secundario px-4 py-3 text-sm font-medium text-white hover:bg-secundario/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
                 target="_blank"
                 href="https://zcal.co/t/agendar-asesoria-llc/60min"
               >
@@ -103,13 +103,13 @@ import { Image } from "astro:assets";
               >
                 <Icon
                   name={f.icono}
-                  class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 size-7 shrink-0 text-gray-800 dark:text-white"
+                  class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 size-7 shrink-0 text-primario-black dark:text-white"
                 />
                 <span class="sm:mt-5">
-                  <span class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 block font-semibold text-gray-800 dark:text-neutral-200">
+                  <span class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 block font-semibold text-primario-black dark:text-neutral-200">
                     {f.titulo}
                   </span>
-                  <span class="mt-2 hidden text-gray-800 lg:block dark:text-neutral-200">
+                  <span class="mt-2 hidden text-primario-black lg:block dark:text-neutral-200">
                     {f.descripcion}
                   </span>
                 </span>
@@ -126,13 +126,13 @@ import { Image } from "astro:assets";
               >
                 <Icon
                   name={f.icono}
-                  class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 size-7 shrink-0 text-gray-800 dark:text-white"
+                  class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 size-7 shrink-0 text-primario-black dark:text-white"
                 />
                 <span class="sm:mt-5">
-                  <span class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 block font-semibold text-gray-800 dark:text-neutral-200">
+                  <span class="hs-tab-active:text-blue-600 dark:hs-tab-active:text-blue-500 block font-semibold text-primario-black dark:text-neutral-200">
                     {f.titulo}
                   </span>
-                  <span class="mt-2 hidden text-gray-800 lg:block dark:text-neutral-200">
+                  <span class="mt-2 hidden text-primario-black lg:block dark:text-neutral-200">
                     {f.descripcion}
                   </span>
                 </span>
@@ -202,10 +202,10 @@ import { Image } from "astro:assets";
             <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
               {
                 dataWeb.listamini.map((i) => (
-                  <div class="rounded-lg border border-[#ba8d34] p-4 dark:border-neutral-700">
+                  <div class="rounded-lg border border-secundario p-4 dark:border-neutral-700">
                     <Icon
                       name={i.icono}
-                      class="mb-3 size-10 shrink-0 text-[#ba8d34] dark:text-white"
+                      class="mb-3 size-10 shrink-0 text-secundario dark:text-white"
                     />
 
                     <h3 class="mb-1 text-xs text-black dark:text-white">
@@ -228,7 +228,7 @@ import { Image } from "astro:assets";
                 type="button"
                 href={dataWeb.link}
                 target="_blank"
-                class="inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white shadow-2xs hover:bg-[#ba8d34]/80 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-[#ba8d34] dark:text-white dark:hover:bg-[#ba8d34]/80 dark:focus:bg-neutral-800 text-center"
+                class="inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-secundario px-4 py-3 text-sm font-medium text-white shadow-2xs hover:bg-secundario/80 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-secundario dark:text-white dark:hover:bg-secundario/80 dark:focus:bg-neutral-800 text-center"
                 >Schedule an appointment</a
               >
             </div>

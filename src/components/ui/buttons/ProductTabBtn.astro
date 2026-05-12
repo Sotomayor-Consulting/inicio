@@ -11,10 +11,10 @@ interface Props {
 }
 // Define constants for styling classes
 const BUTTON_CLASS =
-  "flex w-full justify-center rounded-xl border border-transparent p-3 outline-hidden ring-zinc-500 transition duration-300 hover:bg-[#ba8d34]/20 focus-visible:ring-3 dark:ring-zinc-200 dark:hover:bg-[#ba8d34]/20 dark:focus:outline-hidden md:p-5";
+  "flex w-full justify-center rounded-xl border border-transparent p-3 outline-hidden ring-zinc-500 transition duration-300 hover:bg-secundario/20 focus-visible:ring-3 dark:ring-zinc-200 dark:hover:bg-secundario/20 dark:focus:outline-hidden md:p-5";
 
 const HEADING_CLASS = "block text-center font-bold";
-const INACTIVE_HEADING_CLASS = "text-neutral-800 dark:text-neutral-200";
+const INACTIVE_HEADING_CLASS = "text-primario-black dark:text-neutral-200";
 ---
 
 <!-- Tab button element -->
@@ -27,7 +27,7 @@ const INACTIVE_HEADING_CLASS = "text-neutral-800 dark:text-neutral-200";
 >
   <!-- Tab text -->
   <span
-    class={`${HEADING_CLASS} ${first ? "text-[#ba8d34] dark:text-[#ba8d34]" : INACTIVE_HEADING_CLASS}`}
+    class={`${HEADING_CLASS} ${first ? "text-secundario dark:text-secundario" : INACTIVE_HEADING_CLASS}`}
   >
     {title}
   </span>

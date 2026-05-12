@@ -1,0 +1,56 @@
+{
+  "banderas": [
+    {
+      "pais": "Ecuador",
+      "svg": "ecuador-flag"
+    },
+    {
+      "pais": "Reino Unido",
+      "svg": "reinounido-flag"
+    },
+    {
+      "pais": "Estados Unidos",
+      "svg": "estadosunidos"
+    },
+    {
+      "pais": "Canadá",
+      "svg": "canada-flag"
+    },
+    {
+      "pais": "Panamá",
+      "svg": "panama-flag"
+    },
+    {
+      "pais": "Islas Vírgenes Británicas",
+      "svg": "islasBritanicas-flag"
+    },
+    {
+      "pais": "Islas Marshall",
+      "svg": "islasMarshall"
+    },
+    {
+      "pais": "Belice",
+      "svg": "belice-flag"
+    },
+    {
+      "pais": "México",
+      "svg": "mexico-flag"
+    },
+    {
+      "pais": "Perú",
+      "svg": "peru-flag"
+    },
+    {
+      "pais": "Chile",
+      "svg": "chile"
+    },
+    {
+      "pais": "Portugal",
+      "svg": "portugal-flag"
+    },
+    {
+      "pais": "España",
+      "svg": "españa-flag"
+    }
+  ]
+}

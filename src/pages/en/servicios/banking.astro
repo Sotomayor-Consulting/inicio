@@ -31,7 +31,7 @@ import { Icon } from "astro-icon/components";
         <div class="mx-auto max-w-340 px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
           <div class="mx-auto max-w-2xl text-center">
             <p
-              class="inline-block bg-linear-to-l from-[#ba8d34] to-white bg-clip-text text-sm font-medium text-transparent dark:from-[#ba8d34] dark:to-white"
+              class="inline-block bg-linear-to-l from-secundario to-white bg-clip-text text-sm font-medium text-transparent dark:from-secundario dark:to-white"
             >
               Sotomayor Consulting International
             </p>
@@ -39,7 +39,7 @@ import { Icon } from "astro-icon/components";
             <!-- Title -->
             <div class="mt-5 max-w-2xl">
               <h1
-                class="block text-4xl font-semibold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200"
+                class="block text-4xl font-semibold text-primario-black md:text-5xl lg:text-6xl dark:text-neutral-200"
               >
                 {dataBanking.titulo}
               </h1>
@@ -47,7 +47,7 @@ import { Icon } from "astro-icon/components";
             <!-- End Title -->
 
             <div class="mt-5 max-w-3xl">
-              <p class="text-lg text-gray-600 dark:text-neutral-400">
+              <p class="text-lg text-primario-black dark:text-neutral-400">
                 {dataBanking.descripcion}
               </p>
             </div>
@@ -55,7 +55,7 @@ import { Icon } from "astro-icon/components";
             <!-- Buttons -->
             <div class="mt-8 flex justify-center gap-3">
               <a
-                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-secundario px-4 py-3 text-sm font-medium text-white hover:bg-secundario/80 focus:bg-blue-700 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
                 target="_blank"
                 href="https://zcal.co/t/agendar-asesoria-llc/60min"
               >
@@ -97,10 +97,10 @@ import { Icon } from "astro-icon/components";
                     />
                   </div>
                   <div class="p-4 md:p-6">
-                    <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                    <h3 class="text-xl font-semibold text-primario-black dark:text-neutral-300 dark:hover:text-white">
                       {f.titulo}
                     </h3>
-                    <p class="mt-3 text-gray-500 dark:text-neutral-500">
+                    <p class="mt-3 text-primario-black dark:text-neutral-500">
                       {f.descripcion}
                     </p>
                   </div>
@@ -108,11 +108,11 @@ import { Icon } from "astro-icon/components";
 
                 <div class="group flex h-full flex-col rounded-xl border border-gray-200 bg-white shadow-2xs dark:border-neutral-700 dark:bg-neutral-900 dark:shadow-neutral-700/70">
                   <div class="p-4 md:p-6">
-                    <span class="mb-2 inline-flex items-center gap-x-1.5 rounded-full border border-[#0e2637] px-3 py-1.5 text-xs font-medium text-[#0e2637] dark:border-[#ba8d34] dark:text-[#ba8d34]">
+                    <span class="mb-2 inline-flex items-center gap-x-1.5 rounded-full border border-[#0e2637] px-3 py-1.5 text-xs font-medium text-[#0e2637] dark:border-secundario dark:text-secundario">
                       One-time payment
                     </span>
                     <div class="grid grid-cols-2 items-center justify-end">
-                      <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                      <h3 class="text-xl font-semibold text-primario-black dark:text-neutral-300 dark:hover:text-white">
                         {f.titulo2}
                       </h3>
                       <div class="text-left text-black sm:text-right dark:text-white">
@@ -130,7 +130,7 @@ import { Icon } from "astro-icon/components";
                     <a
                       href={f.link}
                       target="_blank"
-                      class="mt-5 flex w-full items-center justify-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-center text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-[#ba8d34]/80 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                      class="mt-5 flex w-full items-center justify-center gap-x-2 rounded-lg border border-transparent bg-secundario px-4 py-3 text-center text-sm font-medium text-white hover:bg-secundario/80 focus:bg-secundario/80 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
                     >
                       <Icon name="mingcute:message-2-line" />
                       {f.boton}
@@ -141,12 +141,12 @@ import { Icon } from "astro-icon/components";
                   </div>
 
                   <div class="flex flex-col p-4 md:p-6">
-                    <p class="mt-3 text-neutral-800 dark:text-white">
+                    <p class="mt-3 text-primario-black dark:text-white">
                       What you get:
                     </p>
                     <ul>
                       {f.lista.map((li) => (
-                        <li class="mt-2 flex items-center gap-x-2 text-neutral-800 dark:text-white">
+                        <li class="mt-2 flex items-center gap-x-2 text-primario-black dark:text-white">
                           <Icon
                             name="mingcute:check-circle-fill"
                             class="text-lg text-green-500"
@@ -162,11 +162,11 @@ import { Icon } from "astro-icon/components";
               <div class="grid md:grid-cols-2 gap-6 border md:border-0 p-4 rounded-2xl dark:border-neutral-600 border-neutral-400">
                 <div class="group flex h-full flex-col rounded-xl border border-gray-200 bg-white shadow-2xs dark:border-neutral-700 dark:bg-neutral-900 dark:shadow-neutral-700/70 row-start-2 md:row-start-1 md:col-start-1">
                   <div class="p-4 md:p-6">
-                    <span class="mb-2 inline-flex items-center gap-x-1.5 rounded-full border border-[#0e2637] px-3 py-1.5 text-xs font-medium text-[#0e2637] dark:border-[#ba8d34] dark:text-[#ba8d34]">
+                    <span class="mb-2 inline-flex items-center gap-x-1.5 rounded-full border border-[#0e2637] px-3 py-1.5 text-xs font-medium text-[#0e2637] dark:border-secundario dark:text-secundario">
                       One-time payment
                     </span>
                     <div class="grid grid-cols-2 items-center justify-end">
-                      <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                      <h3 class="text-xl font-semibold text-primario-black dark:text-neutral-300 dark:hover:text-white">
                         {f.titulo2}
                       </h3>
                       <div class="text-left text-black sm:text-right dark:text-white">
@@ -184,7 +184,7 @@ import { Icon } from "astro-icon/components";
                     <a
                       href={f.link}
                       target="_blank"
-                      class="mt-5 flex w-full items-center justify-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-center text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-[#ba8d34]/80 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                      class="mt-5 flex w-full items-center justify-center gap-x-2 rounded-lg border border-transparent bg-secundario px-4 py-3 text-center text-sm font-medium text-white hover:bg-secundario/80 focus:bg-secundario/80 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
                     >
                       <Icon name="mingcute:message-2-line" />
                       {f.boton}
@@ -195,12 +195,12 @@ import { Icon } from "astro-icon/components";
                   </div>
 
                   <div class="flex flex-col p-4 md:p-6">
-                    <p class="mt-3 text-neutral-800 dark:text-white">
+                    <p class="mt-3 text-primario-black dark:text-white">
                       What you get:
                     </p>
                     <ul>
                       {f.lista.map((li) => (
-                        <li class="mt-2 flex items-center gap-x-2 text-neutral-800 dark:text-white">
+                        <li class="mt-2 flex items-center gap-x-2 text-primario-black dark:text-white">
                           <Icon
                             name="mingcute:check-circle-fill"
                             class="text-lg text-green-500"
@@ -220,10 +220,10 @@ import { Icon } from "astro-icon/components";
                     />
                   </div>
                   <div class="p-4 md:p-6">
-                    <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                    <h3 class="text-xl font-semibold text-primario-black dark:text-neutral-300 dark:hover:text-white">
                       {f.titulo}
                     </h3>
-                    <p class="mt-3 text-gray-500 dark:text-neutral-500">
+                    <p class="mt-3 text-primario-black dark:text-neutral-500">
                       {f.descripcion}
                     </p>
                   </div>

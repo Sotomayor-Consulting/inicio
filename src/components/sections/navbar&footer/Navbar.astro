@@ -2,7 +2,6 @@
 import ThemeIcon from "@components/ThemeIcon.astro";
 import NavLink from "@components/ui/links/NavLink.astro";
 import Authentication from "../misc/Authentication.astro";
-import enStrings from "@utils/en/navigation.ts";
 import esStrings from "@utils/navigation.ts"; // si tu archivo real es @utils/es/navigation.ts, cámbialo aquí
 import frStrings from "@utils/pr/navigation.ts";
 import BrandLogo from "@components/BrandLogo.astro";
@@ -34,7 +33,7 @@ const homeUrl = Astro.currentLocale === "pr" ? "/pr" : "/inicio/";
       <div class="mr-5 ml-auto md:hidden">
         <button
           type="button"
-          class="hs-collapse-toggle flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-neutral-600 transition duration-300 hover:bg-neutral-200 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:outline-hidden"
+          class="hs-collapse-toggle flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-primario-black transition duration-300 hover:bg-neutral-200 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:outline-hidden"
           data-hs-collapse="#navbar-collapse-with-animation"
           aria-controls="navbar-collapse-with-animation"
           aria-label="Toggle navigation"

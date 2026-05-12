@@ -44,11 +44,11 @@ interface PricingSectionProps {
   <!-- Section heading and sub-heading -->
   <div class="mx-auto mb-10 max-w-2xl text-center lg:mb-14">
     <h2
-      class="text-2xl font-bold tracking-tight text-balance text-neutral-800 md:text-4xl md:leading-tight dark:text-neutral-200"
+      class="text-2xl font-bold tracking-tight text-balance text-primario-black md:text-4xl md:leading-tight dark:text-neutral-200"
     >
       {pricing.title}
     </h2>
-    <p class="mt-1 text-pretty text-neutral-600 dark:text-neutral-400">
+    <p class="mt-1 text-pretty text-primario-black dark:text-neutral-400">
       {pricing.subTitle}
     </p>
   </div>
@@ -147,7 +147,7 @@ interface PricingSectionProps {
       <!-- CTA for purchasing the product -->
       <button
         id="openModaldos"
-        class="bg-opacity-50 block w-full cursor-pointer rounded-lg bg-orange-200/40 px-8 py-3 text-center text-sm font-bold text-neutral-100 ring-orange-300 outline-hidden transition duration-300 hover:cursor-pointer hover:bg-[#ba8d34] focus-visible:ring-3 active:bg-[#ba8d34] md:text-base"
+        class="bg-opacity-50 block w-full cursor-pointer rounded-lg bg-orange-200/40 px-8 py-3 text-center text-sm font-bold text-neutral-100 ring-orange-300 outline-hidden transition duration-300 hover:cursor-pointer hover:bg-secundario focus-visible:ring-3 active:bg-secundario md:text-base"
         >{pricing.professionalToolbox.purchaseBtnTitle}</button
       >
     </div>
@@ -230,7 +230,7 @@ interface PricingSectionProps {
       <!-- CTA for purchasing the product -->
       <a
         href={pricing.planUpgrade.link}
-        class="bg-opacity-50 block rounded-lg bg-orange-200/40 px-8 py-3 text-center text-sm font-bold text-neutral-100 ring-orange-300 outline-hidden transition duration-300 hover:bg-[#ba8d34] focus-visible:ring-3 active:bg-[#ba8d34] md:text-base"
+        class="bg-opacity-50 block rounded-lg bg-orange-200/40 px-8 py-3 text-center text-sm font-bold text-neutral-100 ring-orange-300 outline-hidden transition duration-300 hover:bg-secundario focus-visible:ring-3 active:bg-secundario md:text-base"
         >{pricing.planUpgrade.button}</a
       >
     </div>
@@ -238,7 +238,7 @@ interface PricingSectionProps {
 
   <!-- Call to action for Enterprise Solutions -->
   <div class="mt-8 flex items-center justify-center gap-x-3 md:mt-12">
-    <p class="text-sm text-neutral-600 dark:text-neutral-400">
+    <p class="text-sm text-primario-black dark:text-neutral-400">
       {pricing.thirdOption}
     </p>
 
