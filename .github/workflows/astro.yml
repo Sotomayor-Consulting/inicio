@@ -28,12 +28,12 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 8 # Cambia a 9 si es la que usas en tu PC
+          version: 9 # Aprovechamos para usar la v9 que va mejor con Node 22
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22" # <--- ACTUALIZADO A VERSIÓN 22
           cache: "pnpm"
 
       - name: Setup Pages
@@ -41,7 +41,6 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        # Quitamos --frozen-lockfile para evitar el error anterior
         run: pnpm install
         working-directory: ${{ env.BUILD_PATH }}
 
