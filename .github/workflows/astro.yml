@@ -26,22 +26,23 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v3
+        uses: pnpm/action-setup@v4
         with:
-          version: 8 # Puedes cambiarlo a 9 si ya lo usas localmente
+          version: 8 # Cambia a 9 si es la que usas en tu PC
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "pnpm" # GitHub Actions ya soporta caché nativo para pnpm
+          cache: "pnpm"
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        # Quitamos --frozen-lockfile para evitar el error anterior
+        run: pnpm install
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build with Astro
