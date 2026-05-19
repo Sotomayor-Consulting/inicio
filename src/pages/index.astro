@@ -1,5 +1,6 @@
 ---
 // Import the necessary components
+import { Image } from 'astro:assets';
 import MainLayout from "@/layouts/MainLayout.astro";
 import HeroSectionVideos from "@components/sections/landing/HeroSectionVideos.astro";
 import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
@@ -14,8 +15,12 @@ import featureImage from "@images/home-image.jpg";
 import CartasDeServiciosV2 from "@components/sections/landing/CartasDeServiciosV2.astro";
 import GridServicios from "@/components/sections/features/GridServicios.astro";
 import Banner from "@components/ui/banners/AnnouncementBanner.astro";
+import BannerRedesign from "@components/ui/banners/AnnouncementBannerRedisign.astro";
 import Partner from "@components/sections/landing/TarjetaParner.astro";
 import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.astro";
+
+import ImageW from "@public/w-screen-banner.png"
+import ImageS from "@public/sm-screen-banner.png"
 ---
 
 <MainLayout>
@@ -25,6 +30,14 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     btnTitle="Conoce más"
     btnId="xd"
   />
+
+  <BannerRedesign
+   
+    btnId="rediseño"
+  > 
+    <Image src={ImageW} alt="Imagen de anuncio" class="w-5xl rounded-lg md:block hidden" />
+    <Image src={ImageS} alt="Imagen de anuncio" class="w-5xl rounded-lg md:hidden block" />
+  </BannerRedesign>
 
   <HeroSectionVideos
     title=`Soluciones 360° para LLCs, Fiscalidad y Tecnología Global`
