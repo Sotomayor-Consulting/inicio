@@ -1,10 +1,11 @@
 ---
 // Import the necessary components
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 import MainLayout from "@/layouts/MainLayout.astro";
 import HeroSectionVideos from "@components/sections/landing/HeroSectionVideos.astro";
 import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
 import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
+import FeaturesDashboard from "@components/sections/features/FeaturesGeneral2.astro";
 import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
@@ -19,8 +20,8 @@ import BannerRedesign from "@components/ui/banners/AnnouncementBannerRedisign.as
 import Partner from "@components/sections/landing/TarjetaParner.astro";
 import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.astro";
 
-import ImageW from "@public/w-screen-banner.png"
-import ImageS from "@public/sm-screen-banner.png"
+import ImageW from "@public/w-screen-banner.png";
+import ImageS from "@public/sm-screen-banner.png";
 ---
 
 <MainLayout>
@@ -31,12 +32,17 @@ import ImageS from "@public/sm-screen-banner.png"
     btnId="xd"
   />
 
-  <BannerRedesign
-   
-    btnId="rediseño"
-  > 
-    <Image src={ImageW} alt="Imagen de anuncio" class="w-5xl rounded-lg md:block hidden" />
-    <Image src={ImageS} alt="Imagen de anuncio" class="w-5xl rounded-lg md:hidden block" />
+  <BannerRedesign btnId="rediseño">
+    <Image
+      src={ImageW}
+      alt="Imagen de anuncio"
+      class="hidden w-5xl rounded-lg md:block"
+    />
+    <Image
+      src={ImageS}
+      alt="Imagen de anuncio"
+      class="block w-5xl rounded-lg md:hidden"
+    />
   </BannerRedesign>
 
   <HeroSectionVideos
@@ -63,7 +69,6 @@ import ImageS from "@public/sm-screen-banner.png"
     title="Todo para tu Empresa"
     subTitle="Ofrecemos soluciones de servicio personalizadas para profesionales, individuos, familias y empresas, atendiendo a sus necesidades específicas."
   />
-
   <Partner
     title1="Para profesionales"
     subTitle1="Asóciese con Sotomayor Consulting International para brindar a sus clientes soluciones expertas en estructuras internacionales, planificación fiscal y tecnología global, manteniendo siempre su rol central como asesor de confianza."
@@ -73,7 +78,6 @@ import ImageS from "@public/sm-screen-banner.png"
     alt="Personas haciendo negocios"
     link="/inicio/asociados"
   />
-
   <FeaturesGeneral
     title="Lo que nos distingue"
     subTitle="Nuestra prioridad es la confianza del cliente. Con un enfoque integral, diseñamos soluciones de excelencia que construyen relaciones duraderas."
@@ -81,6 +85,14 @@ import ImageS from "@public/sm-screen-banner.png"
     alt="ScrewFast products in floating boxes"
     features={features}
   />
+
+  <!-- <div class="py-10 perspective-near xl:perspective-dramatic">
+    <FeaturesDashboard
+      title="Crea tu LLC con facilidad y seguridad"
+      subTitle="Accede a nuestra plataforma intuitiva para configurar tu LLC en EE.UU. en minutos, con soporte experto y sin complicaciones."
+      features={features}
+    />
+  </div> -->
 
   <GridServicios
     title="Producto estrella"
