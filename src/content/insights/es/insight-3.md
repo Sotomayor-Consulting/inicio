@@ -3,7 +3,7 @@ title: "Precalificación Hipotecaria en Florida para Extranjeros: Tu Clave para
   Comprar con el 70% de Financiamiento"
 description: Descubre cómo precalificarte para un crédito hipotecario en
   Florida, obteniendo hasta el 70% de financiamiento sin ser residente de EE.UU.
-cardImage: "@/images/insights/insight-1.avif"
+cardImage: "@/images/insights/blog-3.avif"
 cardImageAlt: Familia sentada en el sofá con una laptop
 ---
 Comprar una propiedad en Florida es una de las mejores decisiones que puedes tomar como inversionista extranjero. Sin embargo, el proceso de financiamiento puede parecer complejo si no conoces los requisitos y pasos adecuados. En **Sotomayor Consulting International**, te ayudamos a acceder a créditos hipotecarios para extranjeros con financiamiento de hasta el **70% del valor de la propiedad**, permitiéndote adquirir tu hogar o inversión con solo el **30% de pago inicial**. Tu mejor aliado para gestionar tu financiamiento hipotecario en Florida a través de instituciones financieras especializadas.
