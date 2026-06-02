@@ -32,10 +32,15 @@ content:
             type: text
             required: true
           - name: cardImage
-            label: Ruta imagen card
-            type: string
+            label: Imagen card
+            type: image
             required: true
-            description: Mantiene el formato actual, por ejemplo "@/images/insights/blog-2.avif"
+            description: Sube o selecciona una imagen. Se guardara en "@/images/insights/[imagen]".
+            options:
+              path: insights
+              extensions: [avif, webp, png, jpg, jpeg]
+              categories: [image]
+              rename: false
           - name: cardImageAlt
             label: Alt de imagen
             type: string
