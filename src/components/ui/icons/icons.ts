@@ -1,4 +1,4 @@
-import { paths } from "node_modules/@astrojs/starlight/utils/routing";
+
 
 export const Icons = {
   groups: {
@@ -7,7 +7,7 @@ export const Icons = {
         d: "m150-400 82-80-82-82-80 82 80 80Zm573-10 87-140 88 140H723Zm-243-70q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Zm.351-180Q455-660 437.5-642.851t-17.5 42.5Q420-575 437.351-557.5t43 17.5Q506-540 523-557.351t17-43Q540-626 522.851-643t-42.5-17ZM480-600ZM0-240v-53q0-39.464 42-63.232T150.398-380q12.158 0 23.38.5T196-377.273q-8 17.273-12 34.842-4 17.57-4 37.431v65H0Zm240 0v-65q0-65 66.5-105T480-450q108 0 174 40t66 105v65H240Zm570-140q67.5 0 108.75 23.768T960-293v53H780v-65q0-19.861-3.5-37.431Q773-360 765-377.273q11-1.727 22.171-2.227 11.172-.5 22.829-.5Zm-330.2-10Q400-390 350-366q-50 24-50 61v5h360v-6q0-36-49.5-60t-130.7-24Zm.2 90Z",
       },
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -24,7 +24,7 @@ export const Icons = {
         d:"M4 44h40"
       }
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 0 48 48",
@@ -33,7 +33,7 @@ export const Icons = {
     paths:[
       {d:"M0 64C0 28.7 28.7 0 64 0h320c35.3 0 64 28.7 64 64v384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64zm183 214.8c-27.9-13.2-48.4-39.4-53.7-70.8h39.1c1.6 30.4 7.7 53.8 14.6 70.8m41.3 9.2h-.6c-2.4-3.5-5.7-8.9-9.1-16.5c-6-13.6-12.4-34.3-14.2-63.5h47.1c-1.8 29.2-8.1 49.9-14.2 63.5c-3.4 7.6-6.7 13-9.1 16.5zm40.7-9.2c6.8-17.1 12.9-40.4 14.6-70.8h39.1c-5.3 31.4-25.8 57.6-53.7 70.8M279.6 176c-1.6-30.4-7.7-53.8-14.6-70.8c27.9 13.2 48.4 39.4 53.7 70.8zm-55.9-80h.6c2.4 3.5 5.7 8.9 9.1 16.5c6 13.6 12.4 34.3 14.2 63.5h-47.1c1.8-29.2 8.1-49.9 14.2-63.5c3.4-7.6 6.7-13 9.1-16.5zm-40.7 9.2c-6.8 17.1-12.9 40.4-14.6 70.8h-39.1c5.3-31.4 25.8-57.6 53.7-70.8M352 192a128 128 0 1 0-256 0a128 128 0 1 0 256 0M112 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h224c8.8 0 16-7.2 16-16s-7.2-16-16-16z"},
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 0 448 512",
@@ -44,7 +44,7 @@ export const Icons = {
         d:"M2 3a1 1 0 0 1 2 0h13a1 1 0 1 1 0 2H4v12.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 .5.5v7a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 5 13.5zm3 7a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-2.55a1 1 0 0 0-.336-.748L11.332 8.13a.5.5 0 0 0-.664 0L8.336 10.2a1 1 0 0 0-.336.75z"
       }
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 0 20 20",
@@ -53,7 +53,7 @@ export const Icons = {
     paths:[
       {d:"M2.05 13h5.477a17.9 17.9 0 0 0 2.925 8.88A10.005 10.005 0 0 1 2.049 13m0-2a10.005 10.005 0 0 1 8.402-8.881a17.9 17.9 0 0 0-2.925 8.88zm19.9 0h-5.477a17.9 17.9 0 0 0-2.925-8.881a10.005 10.005 0 0 1 8.403 8.88m0 2a10.005 10.005 0 0 1-8.402 8.88A17.9 17.9 0 0 0 16.473 13zM9.53 13h4.94A15.9 15.9 0 0 1 12 20.592A15.9 15.9 0 0 1 9.53 13m0-2A15.9 15.9 0 0 1 12 3.408A15.9 15.9 0 0 1 14.47 11z"}
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 0 24 24",
@@ -64,7 +64,7 @@ export const Icons = {
         d:"M304 240V16.6c0-9 7-16.6 16-16.6c123.7 0 224 100.3 224 224c0 9-7.6 16-16.6 16zM32 272c0-121.3 90.1-221.7 207-237.7c9.2-1.3 17 6.1 17 15.4V288l156.5 156.5c6.7 6.7 6.2 17.7-1.5 23.1c-39.2 28-87.2 44.4-139 44.4c-132.5 0-240-107.4-240-240m526.4 16c9.3 0 16.6 7.8 15.4 17c-7.7 55.9-34.6 105.6-73.9 142.3c-6 5.6-15.4 5.2-21.2-.7L320 288z"
       }
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 0 576 512",
@@ -75,7 +75,7 @@ export const Icons = {
         d: "M343-420h225v-60H343v60Zm0-90h395v-60H343v60Zm0-90h395v-60H343v60Zm-83 400q-24 0-42-18t-18-42v-560q0-24 18-42t42-18h560q24 0 42 18t18 42v560q0 24-18 42t-42 18H260Zm0-60h560v-560H260v560ZM140-80q-24 0-42-18t-18-42v-620h60v620h620v60H140Zm120-740v560-560Z",
       },
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -86,7 +86,7 @@ export const Icons = {
         d: "m346-60-76-130-151-31 17-147-96-112 96-111-17-147 151-31 76-131 134 62 134-62 77 131 150 31-17 147 96 111-96 112 17 147-150 31-77 130-134-62-134 62Zm27-79 107-45 110 45 67-100 117-30-12-119 81-92-81-94 12-119-117-28-69-100-108 45-110-45-67 100-117 28 12 119-81 94 81 92-12 121 117 28 70 100Zm107-341Zm-43 133 227-225-45-41-182 180-95-99-46 45 141 140Z",
       },
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -97,7 +97,7 @@ export const Icons = {
         d: "M480-480q-51 0-85.5-34.5T360-600q0-50 34.5-85t85.5-35q50 0 85 35t35 85q0 51-35 85.5T480-480Zm-.351-60Q505-540 522.5-557.149t17.5-42.5Q540-625 522.649-642.5t-43-17.5Q454-660 437-642.649t-17 43Q420-574 437.149-557t42.5 17ZM240-240v-76q0-27 17.5-47.5T300-397q42-22 86.943-32.5 44.942-10.5 93-10.5Q528-440 573-429.5t87 32.5q25 13 42.5 33.5T720-316v76H240Zm240-140q-47.546 0-92.773 13T300-328v28h360v-28q-42-26-87.227-39-45.227-13-92.773-13Zm0-220Zm0 300h180-360 180ZM140-80q-24 0-42-18t-18-42v-172h60v172h172v60H140ZM80-648v-172q0-24 18-42t42-18h172v60H140v172H80ZM648-80v-60h172v-172h60v172q0 24-18 42t-42 18H648Zm172-568v-172H648v-60h172q24 0 42 18t18 42v172h-60Z",
       },
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 -960 960 960",
@@ -133,7 +133,7 @@ export const Icons = {
       },
     ],
     class:
-      "h-6 w-6 shrink-0 text-neutral-700 hs-tab-active:text-orange-400 dark:text-neutral-300 dark:hs-tab-active:text-orange-300 md:h-7 md:w-7",
+      "h-6 w-6 shrink-0 text-primario-black hs-tab-active:text-orange-400 dark:text-neutral-300 dark:hs-tab-active:text-orange-300 md:h-7 md:w-7",
     width: 24,
     height: 24,
     viewBox: "0 0 24 24",
@@ -152,7 +152,7 @@ export const Icons = {
         d: "M12 19V5",
       },
     ],
-    class: "h-5 w-5 shrink-0 text-orange-400 dark:text-[#ba8d34]",
+    class: "h-5 w-5 shrink-0 text-orange-400 dark:text-secundario",
     width: 24,
     height: 24,
     viewBox: "0 0 24 24",
@@ -276,7 +276,7 @@ export const Icons = {
         d: "M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z",
       },
     ],
-    class: "h-4 w-4 group-hover:text-neutral-700",
+    class: "h-4 w-4 group-hover:text-primario-black",
     width: 24,
     height: 24,
     viewBox: "0 0 24 24",
@@ -293,7 +293,7 @@ export const Icons = {
       },
     ],
     class:
-      "w-4.5 h-4.5 transition shrink-0 text-neutral-700 duration-300 group-hover:-translate-y-1",
+      "w-4.5 h-4.5 transition shrink-0 text-primario-black duration-300 group-hover:-translate-y-1",
     width: 16,
     height: 16,
     viewBox: "0 0 16 16",
@@ -338,7 +338,7 @@ export const Icons = {
       },
     ],
     class:
-      "block h-5 w-5 shrink-0 text-neutral-600 group-hover:text-neutral-500 hs-accordion-active:hidden dark:text-neutral-400",
+      "block h-5 w-5 shrink-0 text-primario-black group-hover:text-neutral-500 hs-accordion-active:hidden dark:text-neutral-400",
     width: 24,
     height: 24,
     viewBox: "0 0 24 24",
@@ -355,7 +355,7 @@ export const Icons = {
       },
     ],
     class:
-      "hidden h-5 w-5 shrink-0 text-neutral-600 group-hover:text-neutral-500 hs-accordion-active:block dark:text-neutral-400",
+      "hidden h-5 w-5 shrink-0 text-primario-black group-hover:text-neutral-500 hs-accordion-active:block dark:text-neutral-400",
     width: 24,
     height: 24,
     viewBox: "0 0 24 24",
@@ -371,7 +371,7 @@ export const Icons = {
         d: "M12.02 3.5c.122 0 .215.108.199.229a21 21 0 0 0 .103 6.225l.014.087a.25.25 0 0 0 .456.095l1.624-2.501a.1.1 0 0 1 .168 0l1.624 2.501a.25.25 0 0 0 .456-.095l.014-.087c.345-2.06.379-4.158.103-6.225a.202.202 0 0 1 .2-.229H18.5A1.5 1.5 0 0 1 20 5v15a1 1 0 0 1-1 1H7.5a3.5 3.5 0 0 1-3.465-3H4V8a4.5 4.5 0 0 1 4.5-4.5zm-4.52 12h11v4h-11a2 2 0 1 1 0-4"
       }
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 0 24 24",
@@ -383,7 +383,7 @@ export const Icons = {
       },
     ],
     class:
-      "h-4 w-4 shrink-0 fill-current text-neutral-700 dark:text-neutral-400",
+      "h-4 w-4 shrink-0 fill-current text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "currentColor",
     title: "Twitter",
@@ -395,7 +395,7 @@ export const Icons = {
       },
     ],
     class:
-      "h-5 w-5 shrink-0 fill-current text-neutral-700 dark:text-neutral-400",
+      "h-5 w-5 shrink-0 fill-current text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "currentColor",
     title: "Facebook",
@@ -407,7 +407,7 @@ export const Icons = {
       },
     ],
     class:
-      "h-4 w-4 shrink-0 fill-current text-neutral-700 dark:text-neutral-400",
+      "h-4 w-4 shrink-0 fill-current text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "currentColor",
     title: "GitHub",
@@ -418,7 +418,7 @@ export const Icons = {
         d: "M3.39.787A2.604 2.604 0 0 0 .786 3.39v6.944a2.604 2.604 0 0 0 2.604 2.604h6.944a2.604 2.604 0 0 0 2.603-2.604V3.39A2.604 2.604 0 0 0 10.334.787zm7.693 2.607a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m-4.22 1.388a2.08 2.08 0 1 0 0 4.16a2.08 2.08 0 0 0 0-4.16m-3.081 2.08a3.08 3.08 0 1 1 6.16 0a3.08 3.08 0 0 1-6.16 0"
       },
     ],
-    class: "h-5 w-5 shrink-0 fill-current text-neutral-700 dark:text-neutral-400",
+    class: "h-5 w-5 shrink-0 fill-current text-primario-black dark:text-neutral-400",
     viewBox: "0 0 14 14",
     fill: "currentColor",
     title: "Instagram",
@@ -430,7 +430,7 @@ export const Icons = {
       },
     ],
     class:
-      "h-4 w-4 shrink-0 fill-current text-neutral-700 dark:text-neutral-400",
+      "h-4 w-4 shrink-0 fill-current text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "currentColor",
     title: "Google",
@@ -442,7 +442,7 @@ export const Icons = {
       },
     ],
     class:
-      "h-4 w-4 shrink-0 fill-current text-neutral-700 dark:text-neutral-400",
+      "h-4 w-4 shrink-0 fill-current text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "currentColor",
     title: "Slack",
@@ -454,7 +454,7 @@ export const Icons = {
       },
     ],
     class:
-      "absolute start-0 top-0 h-16 w-16 -translate-x-6 -translate-y-8 transform text-neutral-300 dark:text-neutral-700",
+      "absolute start-0 top-0 h-16 w-16 -translate-x-6 -translate-y-8 transform text-neutral-300 dark:text-primario-black",
     width: 16,
     height: 16,
     viewBox: "0 0 16 16",
@@ -467,7 +467,7 @@ export const Icons = {
       },
     ],
     class:
-      "mt-1.5 h-6 w-6 shrink-0 text-neutral-600 dark:text-neutral-400",
+      "mt-1.5 h-6 w-6 shrink-0 text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "none",
     strokeWidth: "1.5",
@@ -482,7 +482,7 @@ export const Icons = {
       },
     ],
     class:
-      "mt-1.5 h-6 w-6 shrink-0 text-neutral-600 dark:text-neutral-400",
+      "mt-1.5 h-6 w-6 shrink-0 text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "none",
     strokeWidth: "1.5",
@@ -500,7 +500,7 @@ export const Icons = {
       },
     ],
     class:
-      "mt-1.5 h-6 w-6 shrink-0 text-neutral-600 dark:text-neutral-400",
+      "mt-1.5 h-6 w-6 shrink-0 text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "none",
     strokeWidth: "1.5",
@@ -515,7 +515,7 @@ export const Icons = {
       },
     ],
     class:
-      "mt-1.5 h-6 w-6 shrink-0 text-neutral-600 dark:text-neutral-400",
+      "mt-1.5 h-6 w-6 shrink-0 text-primario-black dark:text-neutral-400",
     viewBox: "0 0 24 24",
     fill: "none",
     strokeWidth: "1.5",
@@ -557,7 +557,7 @@ export const Icons = {
         d: "M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75ZM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25ZM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25Z",
       },
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     viewBox: "0 0 24 24",
     fill: "none",
     strokeWidth: "1.5",
@@ -647,7 +647,7 @@ export const Icons = {
         d:"M4 44h40"
       }
     ],
-    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-[#ba8d34]",
+    class: "mt-1 h-8 w-8 shrink-0 fill-[#0e2738] dark:fill-secundario",
     width: 48,
     height: 48,
     viewBox: "0 0 48 48",

@@ -8,7 +8,7 @@ content:
     type: group
     items:
       - name: insights
-        label: Insights
+        label: Blog e Insights
         type: collection
         path: src/content/insights
         format: yaml-frontmatter

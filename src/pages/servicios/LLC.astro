@@ -30,7 +30,7 @@ import { Icon } from "astro-icon/components";
         <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
           <div class="mx-auto max-w-2xl text-center">
             <p
-              class="inline-block bg-linear-to-l from-[#ba8d34] to-white bg-clip-text text-sm font-medium text-transparent dark:from-[#ba8d34] dark:to-white"
+              class="inline-block bg-linear-to-l from-secundario to-white bg-clip-text text-sm font-medium text-transparent dark:from-secundario dark:to-white"
             >
               Sotomayor Consulting International
             </p>
@@ -38,7 +38,7 @@ import { Icon } from "astro-icon/components";
             <!-- Title -->
             <div class="mt-5 max-w-2xl">
               <h1
-                class="block text-4xl font-semibold text-gray-800 md:text-5xl lg:text-6xl dark:text-neutral-200"
+                class="block text-4xl font-semibold text-primario-black md:text-5xl lg:text-6xl dark:text-neutral-200"
               >
                 {dataLLC.titulo}
               </h1>
@@ -46,7 +46,7 @@ import { Icon } from "astro-icon/components";
             <!-- End Title -->
 
             <div class="mt-5 max-w-3xl">
-              <p class="text-lg text-gray-600 dark:text-neutral-400">
+              <p class="text-lg text-primario-black dark:text-neutral-400">
                 {dataLLC.descripcion}
               </p>
             </div>
@@ -54,7 +54,7 @@ import { Icon } from "astro-icon/components";
             <!-- Buttons -->
             <div class="mt-8 flex justify-center gap-3">
               <a
-                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/80 focus:bg-[#ba8d34] focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-secundario px-4 py-3 text-sm font-medium text-white hover:bg-secundario/80 focus:bg-secundario focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
                 target="_blank"
                 href="https://zcal.co/t/agendar-asesoria-llc/60min"
               >
@@ -73,7 +73,7 @@ import { Icon } from "astro-icon/components";
                 >
               </a>
               <a
-                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent px-4 py-3 text-sm font-medium text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                class="inline-flex items-center gap-x-2 rounded-lg border border-transparent px-4 py-3 text-sm font-medium text-primario-black hover:bg-gray-100 focus:bg-gray-100 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
                 href="#precios"
               >
                 <Icono class="size-4 shrink-0" />
@@ -94,13 +94,13 @@ import { Icon } from "astro-icon/components";
         <!-- Title -->
         <div class="mx-auto mb-4 max-w-2xl text-center">
           <h2
-            class="text-3xl font-bold text-gray-800 lg:text-4xl dark:text-neutral-200"
+            class="text-3xl font-bold text-primario-black lg:text-4xl dark:text-neutral-200"
           >
             {dataLLC.titulofeatures}
           </h2>
         </div>
         <div class="mx-auto mb-8 max-w-2xl text-center">
-          <p class="text-lg text-gray-600 dark:text-neutral-400">
+          <p class="text-lg text-primario-black dark:text-neutral-400">
             {dataLLC.descripcionfeatures}
           </p>
         </div>
@@ -123,8 +123,8 @@ import { Icon } from "astro-icon/components";
                     type="button"
                     class={
                       index === 0
-                        ? "hs-tab-active:bg-[#ba8d34] hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white active inline-flex flex-auto items-center justify-center gap-x-2 rounded-lg bg-transparent px-4 py-3 text-center text-sm font-medium text-neutral-700 hover:text-[#ba8d34] focus:text-[#ba8d34] focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
-                        : "hs-tab-active:bg-[#ba8d34] hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white inline-flex flex-auto items-center justify-center gap-x-2 rounded-lg bg-transparent px-4 py-3 text-center text-sm font-medium text-neutral-700 hover:text-[#ba8d34] focus:text-[#ba8d34] focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                        ? "hs-tab-active:bg-secundario hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white active inline-flex flex-auto items-center justify-center gap-x-2 rounded-lg bg-transparent px-4 py-3 text-center text-sm font-medium text-primario-black hover:text-secundario focus:text-secundario focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                        : "hs-tab-active:bg-secundario hs-tab-active:text-white hs-tab-active:hover:text-white hs-tab-active:dark:text-white inline-flex flex-auto items-center justify-center gap-x-2 rounded-lg bg-transparent px-4 py-3 text-center text-sm font-medium text-primario-black hover:text-secundario focus:text-secundario focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
                     }
                     id={`equal-width-elements-item-${index}`}
                     aria-selected={index === 0 ? "true" : "false"}
@@ -151,24 +151,24 @@ import { Icon } from "astro-icon/components";
                     <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
                       <div class="grid gap-12 md:grid-cols-2">
                         <div class="lg:w-3/4">
-                          <h2 class="text-3xl font-bold text-gray-800 lg:text-4xl dark:text-white">
+                          <h2 class="text-3xl font-bold text-primario-black lg:text-4xl dark:text-white">
                             {features.titulo}
                           </h2>
-                          <p class="mt-3 text-gray-800 dark:text-neutral-400">
+                          <p class="mt-3 text-primario-black dark:text-neutral-400">
                             {features.descripcion}
                           </p>
                         </div>
                         <div class="space-y-6 lg:space-y-10">
                           {features.lista.map((li) => (
                             <div class="flex gap-x-5 sm:gap-x-8">
-                              <span class="mx-auto inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-gray-200 bg-[#ba8d34] text-white shadow-2xs dark:border-neutral-700 dark:bg-[#ba8d34] dark:text-white">
+                              <span class="mx-auto inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-gray-200 bg-secundario text-white shadow-2xs dark:border-neutral-700 dark:bg-secundario dark:text-white">
                                 <Icon
                                   name="mingcute:check-fill"
                                   class="size-5 shrink-0"
                                 />
                               </span>
                               <div class="grow">
-                                <h3 class="text-base font-semibold text-gray-800 sm:text-lg dark:text-neutral-200">
+                                <h3 class="text-base font-semibold text-primario-black sm:text-lg dark:text-neutral-200">
                                   {li}
                                 </h3>
                               </div>
@@ -188,7 +188,7 @@ import { Icon } from "astro-icon/components";
         <!-- End Icon Blocks -->
 
         <div class="mt-7 text-center">
-          <p class="text-xs text-gray-500">
+          <p class="text-xs text-primario-black">
             Los beneficios dependerán de los planes que elijas
           </p>
         </div>
@@ -202,13 +202,13 @@ import { Icon } from "astro-icon/components";
         <div>
           <div class="mx-auto mb-2 max-w-2xl text-center">
             <h2
-              class="text-3xl font-bold text-gray-800 lg:text-4xl dark:text-neutral-200"
+              class="text-3xl font-bold text-primario-black lg:text-4xl dark:text-neutral-200"
             >
               {dataLLC.titulopricing}
             </h2>
           </div>
           <div class="mx-auto mb-8 max-w-2xl text-center">
-            <p class="text-lg text-gray-600 dark:text-neutral-400">
+            <p class="text-lg text-primario-black dark:text-neutral-400">
               {dataLLC.descripcionpricing}
             </p>
           </div>
@@ -222,21 +222,21 @@ import { Icon } from "astro-icon/components";
                 plan.categoria === "normal" ? (
                   <div>
                     <div class="relative z-10 grid h-full rounded-xl border border-gray-200 bg-white p-4 md:p-10 dark:border-neutral-800 dark:bg-neutral-900">
-                      <h3 class="text-xl font-bold text-gray-800 dark:text-neutral-200">
+                      <h3 class="text-xl font-bold text-primario-black dark:text-neutral-200">
                         {plan.titulo}
                       </h3>
-                      <div class="text-sm text-gray-500 dark:text-neutral-500">
+                      <div class="text-sm text-primario-black dark:text-neutral-500">
                         {plan.descripcion}
                       </div>
 
                       <div class="mt-5">
-                        <span class="text-6xl font-bold text-gray-800 dark:text-neutral-200">
+                        <span class="text-6xl font-bold text-primario-black dark:text-neutral-200">
                           ${plan.precio}
                         </span>
-                        <span class="text-lg font-bold text-gray-800 dark:text-neutral-200">
+                        <span class="text-lg font-bold text-primario-black dark:text-neutral-200">
                           .00
                         </span>
-                        <span class="ms-3 text-gray-500 dark:text-neutral-500">
+                        <span class="ms-3 text-primario-black dark:text-neutral-500">
                           USD
                         </span>
                       </div>
@@ -245,20 +245,20 @@ import { Icon } from "astro-icon/components";
                         <ul class="space-y-2 text-sm sm:text-base">
                           {plan.anadido && (
                             <li class="flex gap-x-3">
-                              <span class="text-gray-800 dark:text-neutral-200">
+                              <span class="text-primario-black dark:text-neutral-200">
                                 {plan.anadido}
                               </span>
                             </li>
                           )}
                           {plan.lista.map((li) => (
                             <li class="flex gap-x-3">
-                              <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-[#ba8d34] dark:bg-[#ba8d34]/30 dark:text-[#ba8d34]">
+                              <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-secundario dark:bg-secundario/30 dark:text-secundario">
                                 <Icon
                                   name={plan.icono}
-                                  class="size-3.5 shrink-0 text-[#ba8d34] dark:text-yellow-500"
+                                  class="size-3.5 shrink-0 text-secundario dark:text-white"
                                 />
                               </span>
-                              <span class="text-gray-800 dark:text-neutral-200">
+                              <span class="text-primario-black dark:text-neutral-200">
                                 {li}
                               </span>
                             </li>
@@ -270,7 +270,7 @@ import { Icon } from "astro-icon/components";
                         <div class="flex items-end justify-end">
                           <a
                             href={plan.link}
-                            class="inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white shadow-2xs hover:bg-[#ba8d34]/80 focus:bg-[#ba8d34]/80 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-[#ba8d34] dark:text-white dark:hover:bg-[#ba8d34]/80 dark:focus:bg-[#ba8d34]/80"
+                            class="inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-secundario px-4 py-3 text-sm font-medium text-white shadow-2xs hover:bg-secundario/80 focus:bg-secundario/80 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-secundario dark:text-white dark:hover:bg-secundario/80 dark:focus:bg-secundario/80"
                           >
                             {plan.boton}
                           </a>
@@ -281,24 +281,24 @@ import { Icon } from "astro-icon/components";
                 ) : (
                   <div>
                     <div class="relative z-10 grid rounded-xl border border-gray-200 bg-white p-5 shadow-xl shadow-gray-200 md:p-10 dark:border-neutral-800 dark:bg-neutral-900 dark:shadow-gray-900/20">
-                      <h3 class="text-xl font-bold text-gray-800 dark:text-neutral-200">
+                      <h3 class="text-xl font-bold text-primario-black dark:text-neutral-200">
                         {plan.titulo}
                       </h3>
-                      <div class="text-sm text-gray-500 dark:text-neutral-500">
+                      <div class="text-sm text-primario-black dark:text-neutral-500">
                         {plan.descripcion}
                       </div>
-                      <span class="absolute end-0 top-0 animate-pulse rounded-se-xl rounded-es-xl bg-[#00b7db] px-3 py-1.5 text-xs font-medium text-white dark:bg-white dark:text-neutral-800">
+                      <span class="absolute end-0 top-0 animate-pulse rounded-se-xl rounded-es-xl bg-[#00b7db] px-3 py-1.5 text-xs font-medium text-white dark:bg-white dark:text-primario-black">
                         Más popular
                       </span>
 
                       <div class="mt-5">
-                        <span class="text-6xl font-bold text-gray-800 dark:text-neutral-200">
+                        <span class="text-6xl font-bold text-primario-black dark:text-neutral-200">
                           ${plan.precio}
                         </span>
-                        <span class="text-lg font-bold text-gray-800 dark:text-neutral-200">
+                        <span class="text-lg font-bold text-primario-black dark:text-neutral-200">
                           .00
                         </span>
-                        <span class="ms-3 text-gray-500 dark:text-neutral-500">
+                        <span class="ms-3 text-primario-black dark:text-neutral-500">
                           USD
                         </span>
                       </div>
@@ -307,20 +307,20 @@ import { Icon } from "astro-icon/components";
                         <ul class="space-y-2 text-sm sm:text-base">
                           {plan.anadido && (
                             <li class="flex gap-x-3">
-                              <span class="text-gray-800 dark:text-neutral-200">
+                              <span class="text-primario-black dark:text-neutral-200">
                                 {plan.anadido}
                               </span>
                             </li>
                           )}
                           {plan.lista.map((li) => (
                             <li class="flex gap-x-3">
-                              <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-[#ba8d34] dark:bg-[#ba8d34]/30 dark:text-[#ba8d34]">
+                              <span class="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-secundario dark:bg-secundario/30 dark:text-secundario">
                                 <Icon
                                   name={plan.icono}
-                                  class="size-3.5 shrink-0 text-[#ba8d34] dark:text-yellow-500"
+                                  class="size-3.5 shrink-0 text-secundario dark:text-white"
                                 />
                               </span>
-                              <span class="text-gray-800 dark:text-neutral-200">
+                              <span class="text-primario-black dark:text-neutral-200">
                                 {li}
                               </span>
                             </li>
@@ -332,7 +332,7 @@ import { Icon } from "astro-icon/components";
                         <div class="flex justify-end">
                           <a
                             href={plan.link}
-                            class="inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white shadow-2xs hover:bg-[#ba8d34]/80 focus:bg-[#ba8d34]/80 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-[#ba8d34] dark:text-white dark:hover:bg-[#ba8d34]/80 dark:focus:bg-[#ba8d34]/80"
+                            class="inline-flex items-center gap-x-2 rounded-lg border border-gray-200 bg-secundario px-4 py-3 text-sm font-medium text-white shadow-2xs hover:bg-secundario/80 focus:bg-secundario/80 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-secundario dark:text-white dark:hover:bg-secundario/80 dark:focus:bg-secundario/80"
                           >
                             {plan.boton}
                           </a>

@@ -73,7 +73,7 @@ const tocTitle = "Tabla de contenido:";
           </div>
           <div
             id="progress-mobile"
-            class="fixed top-0 left-0 h-2 w-full bg-linear-to-r from-[#12334a] to-[#ba8d34] md:hidden"
+            class="fixed top-0 left-0 h-2 w-full bg-linear-to-r from-[#12334a] to-secundario md:hidden"
           >
           </div>
           <div id="pin" class="mt-10 hidden space-y-4 md:block">
@@ -82,7 +82,7 @@ const tocTitle = "Tabla de contenido:";
             >
               <div
                 id="progress"
-                class="h-px w-full bg-linear-to-r from-[#12334a] to-[#ba8d34]"
+                class="h-px w-full bg-linear-to-r from-[#12334a] to-secundario"
               >
               </div>
             </div>
@@ -91,7 +91,7 @@ const tocTitle = "Tabla de contenido:";
             </p>
             <div id="toc" class="">
               <ul
-                class="space-y-2 text-base text-pretty text-neutral-700 transition duration-300 dark:text-neutral-400"
+                class="space-y-2 text-base text-pretty text-primario-black transition duration-300 dark:text-neutral-400"
               >
               </ul>
             </div>
@@ -100,13 +100,13 @@ const tocTitle = "Tabla de contenido:";
 
         <div class="md:pt-8">
           <h1
-            class="mb-4 text-center text-2xl font-bold text-balance text-neutral-800 sm:text-3xl md:mb-6 md:text-left dark:text-neutral-200"
+            class="mb-4 text-center text-2xl font-bold text-balance text-primario-black sm:text-3xl md:mb-6 md:text-left dark:text-neutral-200"
           >
             {post.data.title}
           </h1>
 
           <article
-            class="text-lg text-pretty text-neutral-700 dark:text-neutral-300"
+            class="text-lg text-pretty text-primario-black dark:text-neutral-300"
           >
             <Content />
           </article>

@@ -86,14 +86,14 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
           <div class="flex w-full flex-col items-center justify-center">
             <div class="max-w-2xl">
               <h1
-                class="block text-center text-3xl font-bold tracking-tight text-balance text-neutral-800 sm:text-5xl lg:leading-tight dark:text-neutral-200"
+                class="block text-center text-3xl font-bold tracking-tight text-balance text-primario-black sm:text-5xl lg:leading-tight dark:text-neutral-200"
               >
                 <!-- About Fragment: https://docs.astro.build/en/basics/astro-syntax/#fragments -->
                 <Fragment set:html={title} />
               </h1>
               {
                 subTitle && (
-                  <p class="mt-3 text-center text-base leading-relaxed text-pretty text-neutral-900 md:text-lg dark:text-neutral-200">
+                  <p class="mt-3 text-center text-base leading-relaxed text-pretty text-primario-black md:text-lg dark:text-neutral-200">
                     {subTitle}
                   </p>
                 )
@@ -126,11 +126,11 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
                     <!-- Title -->
                     <div class="space-y-2 md:space-y-4">
                       <h2
-                        class="text-3xl font-bold text-black lg:text-4xl dark:text-white"
+                        class="text-3xl font-bold text-primario-black lg:text-4xl dark:text-white"
                       >
                         {titleslide2}
                       </h2>
-                      <p class="text-neutral-700 dark:text-neutral-300">
+                      <p class="text-primario-black dark:text-neutral-300">
                         {descriptionslide2}
                       </p>
                     </div>
@@ -141,14 +141,14 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
                       {
                         Lista.map((li) => (
                           <li class="flex gap-x-3">
-                            <span class="dark:bg-primary-500/20 dark:text-primary-200 mt-0.5 flex size-5 items-center justify-center rounded-full bg-[#ba8d34]/50 text-white dark:bg-white/50 dark:text-black">
+                            <span class="dark:bg-primary-500/20 dark:text-primary-200 mt-0.5 flex size-5 items-center justify-center rounded-full bg-secundario text-white dark:bg-secundario dark:text-white">
                               <Icon
                                 name="mingcute:check-line"
                                 class="size-3.5 shrink-0"
                               />
                             </span>
                             <div class="grow">
-                              <span class="text-sm text-neutral-800 sm:text-base dark:text-neutral-200">
+                              <span class="text-sm text-primario-black sm:text-base dark:text-neutral-200">
                                 {li}
                               </span>
                             </div>
@@ -184,7 +184,7 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
                 >
                   <div class="mx-auto max-w-full text-center md:max-w-2xl">
                     <p
-                      class="dark:from-primary-400 inline-block bg-linear-to-tl from-white to-[#ba8d34] bg-clip-text text-sm font-medium text-transparent dark:to-[#ba8d34]"
+                      class="dark:from-primary-400 inline-block bg-linear-to-tl from-primario-black to-secundario bg-clip-text text-sm font-medium text-transparent dark:to-secundario dark:from-white"
                     >
                       {dabgeslide3}
                     </p>
@@ -192,7 +192,7 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
                     <!-- Title -->
                     <div class="mt-5 max-w-full md:max-w-2xl">
                       <h1
-                        class="block text-3xl font-semibold text-black md:text-5xl lg:text-6xl dark:text-white"
+                        class="block text-3xl font-semibold text-primario-black md:text-5xl lg:text-6xl dark:text-white"
                       >
                         {tituloslide3}
                       </h1>
@@ -200,7 +200,7 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
                     <!-- End Title -->
 
                     <div class="mt-5 max-w-full md:max-w-3xl">
-                      <p class="text-lg text-black dark:text-neutral-200">
+                      <p class="text-lg text-primario-black dark:text-neutral-200">
                         {descriptionslide3}
                       </p>
                     </div>
@@ -208,7 +208,7 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
                     <!-- Buttons -->
                     <div class="mt-8 flex justify-center gap-3">
                       <a
-                        class="inline-flex items-center gap-x-2 rounded-lg bg-[#ba8d34] px-4 py-3 text-sm font-medium text-white hover:bg-[#ba8d34]/90 focus:bg-[#ba8d34]/30 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
+                        class="inline-flex items-center gap-x-2 rounded-lg bg-secundario px-4 py-3 text-sm font-medium text-white hover:bg-secundario/90 focus:bg-secundario/30 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50"
                         href="#evaluacion"
                       >
                         {button1slide3}
@@ -253,7 +253,7 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
     <!-- Arrows -->
     <button
       type="button"
-      class="hs-carousel-prev hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default text-layer-foreground hover:bg-layer-hover absolute start-1 top-1/2 -left-55 hidden size-10 -translate-y-1/2 items-center justify-center rounded-full bg-neutral-200/50 shadow-2xs focus:outline-hidden md:inline-flex"
+      class="hs-carousel-prev hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default text-layer-foreground hover:bg-layer-hover absolute start-1 top-1/2 -left-55 hidden size-10 -translate-y-1/2 items-center justify-center rounded-full dark:bg-white bg-primario-black shadow-2xs focus:outline-hidden md:inline-flex text-white dark:text-primario-black hover:scale-105 transition-all delay-100"
     >
       <span class="text-2xl" aria-hidden="true">
         <svg
@@ -273,7 +273,7 @@ const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
     </button>
     <button
       type="button"
-      class="hs-carousel-next hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default text-layer-foreground hover:bg-layer-hover absolute end-2 top-1/2 -right-55 hidden size-10 -translate-y-1/2 items-center justify-center rounded-full bg-neutral-200/50 shadow-2xs focus:outline-hidden md:inline-flex"
+      class="hs-carousel-next hs-carousel-disabled:opacity-50 hs-carousel-disabled:cursor-default text-layer-foreground hover:bg-layer-hover absolute end-2 top-1/2 -right-55 hidden size-10 -translate-y-1/2 items-center justify-center rounded-full dark:bg-white bg-primario-black shadow-2xs focus:outline-hidden md:inline-flex text-white dark:text-primario-black hover:scale-105 transition-all delay-100"
     >
       <span class="sr-only">Next</span>
       <span class="text-2xl" aria-hidden="true">

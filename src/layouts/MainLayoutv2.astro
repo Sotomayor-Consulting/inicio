@@ -63,7 +63,7 @@ interface Props {
     </style>
   </head>
   <body
-    class="flex min-h-screen flex-col bg-neutral-200 selection:bg-[#171717] selection:text-neutral-200 dark:bg-[#171717] dark:selection:bg-[#ba8d34] dark:selection:text-neutral-700"
+    class="flex min-h-screen flex-col bg-neutral-200 selection:bg-[#171717] selection:text-neutral-200 dark:bg-[#171717] dark:selection:bg-secundario dark:selection:text-primario-black"
   >
     {
       /*
@@ -79,7 +79,7 @@ interface Props {
       <main>
         <div aria-hidden="true" class="flex absolute -top-96 start-1/2 transform -translate-x-1/2">
           <div class="bg-linear-to-r from-neutral-700/50 to-neutral-700 blur-3xl w-100 h-175 rotate-[-60deg] transform -translate-x-40 dark:from-neutral-200/50 dark:to-neutral-200"></div>
-          <div class="bg-linear-to-tl from-neutral-700 via-[#ba8d34] to-neutral-700 blur-3xl w-[1440px] h-200 rounded-fulls origin-top-left -rotate-12 -translate-x-60 dark:from-neutral-200/70 dark:via-[#ba8d34]/70 dark:to-neutral-200/70"></div>
+          <div class="bg-linear-to-tl from-neutral-700 via-secundario to-neutral-700 blur-3xl w-[1440px] h-200 rounded-fulls origin-top-left -rotate-12 -translate-x-60 dark:from-neutral-200/70 dark:via-secundario/70 dark:to-neutral-200/70"></div>
         </div>
         <slot />
       </main>

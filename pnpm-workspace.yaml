@@ -1,8 +1,3 @@
-packages:
-  - 'apps/*'
-  - 'packages/*'
-  - '.' # Incluye la raíz si tu proyecto de Astro principal está ahí
-
 allowBuilds:
   esbuild: true
   sharp: true

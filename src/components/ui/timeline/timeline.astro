@@ -4,18 +4,17 @@ import SecondaryCTA from "@components/ui/buttons/SecondaryCTA.astro";
 import { Image } from "astro:assets";
 import form8821 from "@images/formulario-8821.jpg";
 import formSS4 from "@images/ss4.jpg";
-import background from "@images/background-dark.jpg"
 ---
 
 <section
-  class="mx-auto grid h-full max-w-[85rem] gap-4 px-4 py-14 sm:px-6 md:items-center md:gap-8 lg:px-8 2xl:max-w-full"
-  
+  id="timeline-process"
+  class="mx-auto grid h-full max-w-340 gap-4 px-4 py-14 sm:px-6 md:items-center md:gap-8 lg:px-8 2xl:max-w-full"
 >
   <div
     class="flex w-full flex-col items-center justify-center py-10 text-center"
   >
     <h3
-      class="mb-5 text-2xl leading-tight font-bold text-balance text-neutral-800 sm:text-4xl md:w-1/2 dark:text-neutral-200"
+      class="text-primario-black mb-5 text-2xl leading-tight font-bold text-balance sm:text-4xl md:w-1/2 dark:text-neutral-200"
     >
       Nunca ha sido más fácil constituir una empresa en los EE. UU.
     </h3>
@@ -31,29 +30,37 @@ import background from "@images/background-dark.jpg"
   <div>
     <div class="h-full font-sans text-gray-900">
       <div class="relative">
-        <!-- Línea vertical fija centrada -->
+        <!-- Línea vertical contenida dentro del timeline -->
         <div
-          class="fixed inset-y-0 left-1/2 -z-10 hidden h-[70%] w-px -translate-x-1/2 translate-y-80 bg-gradient-to-b from-neutral-200 via-neutral-400 to-neutral-50 lg:block dark:from-[#171717] dark:via-neutral-400 dark:to-neutral-800"
-        >
-        </div>
-
-        <!-- Círculo que se mueve sobre la línea -->
-        <div
-          id="progress-circle"
-          class="pointer-events-none fixed top-[20vh] left-1/2 z-50 hidden h-5 w-5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#ba8d34] shadow-lg transition-all duration-300 ease-out lg:block"
+          class="pointer-events-none absolute inset-y-0 left-1/2 hidden w-0 -translate-x-1/2 lg:block"
         >
           <div
-            class="absolute inset-0 animate-ping rounded-full bg-[#ba8d34] opacity-75"
+            id="timeline-track"
+            class="absolute inset-y-0 z-20 h-full w-px overflow-visible bg-gradient-to-b from-neutral-200 via-neutral-400 to-neutral-50 dark:from-[#171717] dark:via-neutral-400 dark:to-neutral-800"
           >
+            <div
+              id="progress-line"
+              class="from-secundario via-secundario to-secundario/25 absolute inset-x-0 top-0 h-full origin-top scale-y-0 bg-linear-to-b"
+            >
+            </div>
           </div>
-        </div>
-
-        <!-- Título flotante que sigue al círculo -->
-        <div
-          id="progress-label"
-          class="pointer-events-none fixed top-[20vh] z-50 hidden -translate-y-1/2 text-2xl font-semibold text-neutral-800 lg:block dark:text-neutral-200"
-        >
-          Sección 1
+          <div id="timeline-marker" class="sticky top-1/2 z-30 h-0 w-0">
+            <div
+              id="progress-circle"
+              class="bg-secundario absolute top-0 left-1/2 z-10 hidden h-5 w-5 -translate-x-1/2 -translate-y-1/2 rounded-full shadow-lg lg:block"
+            >
+              <div
+                class="bg-secundario absolute inset-0 animate-ping rounded-full opacity-75"
+              >
+              </div>
+            </div>
+            <div
+              id="progress-label"
+              class="text-primario-black absolute top-0 z-10 hidden -translate-y-1/2 text-2xl font-semibold lg:block dark:text-neutral-200"
+            >
+              Decide las bases
+            </div>
+          </div>
         </div>
 
         <!-- SECCIONES DEL TIMELINE -->
@@ -72,11 +79,11 @@ import background from "@images/background-dark.jpg"
                 >
                   <div class="mb-3">
                     <h2
-                      class="mb-2 text-2xl font-bold text-neutral-800 dark:text-neutral-200"
+                      class="text-primario-black mb-2 text-2xl font-bold dark:text-neutral-200"
                     >
                       Elija un tipo de empresa y un estado.
                     </h2>
-                    <p class="text-neutral-800 dark:text-neutral-400">
+                    <p class="text-primario-black dark:text-neutral-400">
                       El primer paso es decidir en qué estado desea constituir
                       su empresa. A continuación, qué tipo de entidad legal
                       prefiere dentro de ese estado. Cada opción tiene sus
@@ -91,11 +98,13 @@ import background from "@images/background-dark.jpg"
                     >
                       <div class="p-4 md:p-5">
                         <h3
-                          class="text-lg font-bold text-gray-800 dark:text-white"
+                          class="text-primario-black text-lg font-bold dark:text-white"
                         >
                           LLC.
                         </h3>
-                        <p class="mt-2 text-neutral-600 dark:text-neutral-400">
+                        <p
+                          class="text-primario-black mt-2 dark:text-neutral-400"
+                        >
                           Una sociedad de responsabilidad limitada es una
                           estructura organizativa empresarial en los Estados
                           Unidos que ayuda a los propietarios de negocios a
@@ -111,11 +120,13 @@ import background from "@images/background-dark.jpg"
                     >
                       <div class="p-4 md:p-5">
                         <h3
-                          class="text-lg font-bold text-gray-800 dark:text-white"
+                          class="text-primario-black text-lg font-bold dark:text-white"
                         >
                           C-Corporation.
                         </h3>
-                        <p class="mt-2 text-neutral-600 dark:text-neutral-400">
+                        <p
+                          class="text-primario-black mt-2 dark:text-neutral-400"
+                        >
                           Una corporación es una entidad independiente a efectos
                           fiscales. Generalmente, las corporaciones pagan
                           impuestos corporativos sobre sus propias ganancias, y
@@ -131,11 +142,13 @@ import background from "@images/background-dark.jpg"
                     >
                       <div class="p-4 md:p-5">
                         <h3
-                          class="text-lg font-bold text-gray-800 dark:text-white"
+                          class="text-primario-black text-lg font-bold dark:text-white"
                         >
                           Delaware.
                         </h3>
-                        <p class="mt-2 text-neutral-600 dark:text-neutral-400">
+                        <p
+                          class="text-primario-black mt-2 dark:text-neutral-400"
+                        >
                           El lugar ideal para las startups que buscan
                           financiación de inversores ángeles y firmas de capital
                           riesgo. La mayoría de las empresas de la lista Fortune
@@ -150,11 +163,13 @@ import background from "@images/background-dark.jpg"
                     >
                       <div class="p-4 md:p-5">
                         <h3
-                          class="text-lg font-bold text-gray-800 dark:text-white"
+                          class="text-primario-black text-lg font-bold dark:text-white"
                         >
                           Wyoming.
                         </h3>
-                        <p class="mt-2 text-neutral-600 dark:text-neutral-400">
+                        <p
+                          class="text-primario-black mt-2 dark:text-neutral-400"
+                        >
                           Un estado excelente para pequeñas empresas privadas.
                           Costos extremadamente bajos, muy manejable y flexible
                           a medida que su empresa crece.
@@ -184,12 +199,12 @@ import background from "@images/background-dark.jpg"
                 >
                   <div class="mb-3">
                     <h2
-                      class="mb-2 text-2xl font-bold text-neutral-800 dark:text-neutral-200"
+                      class="text-primario-black mb-2 text-2xl font-bold dark:text-neutral-200"
                     >
                       Concéntrese en su negocio. Nosotros nos encargamos de los
                       detalles.
                     </h2>
-                    <p class="text-neutral-800 dark:text-neutral-400">
+                    <p class="text-primario-black dark:text-neutral-400">
                       Una vez recibida su solicitud, iniciaremos el proceso
                       presentando sus formularios ante las agencias estatales y
                       federales correspondientes. Le haremos seguimiento diario
@@ -205,11 +220,13 @@ import background from "@images/background-dark.jpg"
                     >
                       <div class="p-4 md:p-5">
                         <h3
-                          class="text-lg font-bold text-gray-800 dark:text-white"
+                          class="text-primario-black text-lg font-bold dark:text-white"
                         >
                           Formulario 8821
                         </h3>
-                        <p class="my-2 text-neutral-600 dark:text-neutral-400">
+                        <p
+                          class="text-primario-black my-2 dark:text-neutral-400"
+                        >
                           Al firmar este formulario, autoriza a nuestro equipo
                           especializado en EIN a obtener actualizaciones sobre
                           el estado de su EIN y a recuperar su carta EIN.
@@ -218,11 +235,11 @@ import background from "@images/background-dark.jpg"
                         <div class="hs-tooltip inline-block [--trigger:hover]">
                           <button
                             type="button"
-                            class="hs-tooltip-toggle flex items-center justify-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold text-gray-800 shadow-2xs hover:bg-gray-50 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                            class="hs-tooltip-toggle text-primario-black flex items-center justify-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold shadow-2xs hover:bg-gray-50 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
                           >
                             ver más
                             <span
-                              class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible invisible absolute z-10 inline-block rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-gray-600 opacity-0 shadow-md transition-opacity dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400"
+                              class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible text-primario-black invisible absolute z-10 inline-block rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm opacity-0 shadow-md transition-opacity dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400"
                               role="tooltip"
                             >
                               <Image
@@ -243,11 +260,13 @@ import background from "@images/background-dark.jpg"
                     >
                       <div class="p-4 md:p-5">
                         <h3
-                          class="text-lg font-bold text-gray-800 dark:text-white"
+                          class="text-primario-black text-lg font-bold dark:text-white"
                         >
                           Formulario SS-4
                         </h3>
-                        <p class="my-2 text-neutral-600 dark:text-neutral-400">
+                        <p
+                          class="text-primario-black my-2 dark:text-neutral-400"
+                        >
                           La Solicitud de Número de Identificación Patronal
                           (SS-4) es el formulario del IRS que utilizamos para
                           solicitar un EIN para su nueva empresa.
@@ -256,11 +275,11 @@ import background from "@images/background-dark.jpg"
                         <div class="hs-tooltip inline-block [--trigger:hover]">
                           <button
                             type="button"
-                            class="hs-tooltip-toggle flex items-center justify-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold text-gray-800 shadow-2xs hover:bg-gray-50 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                            class="hs-tooltip-toggle text-primario-black flex items-center justify-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold shadow-2xs hover:bg-gray-50 focus:bg-gray-50 focus:outline-hidden disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
                           >
                             ver más
                             <span
-                              class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible invisible absolute z-10 inline-block rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm text-gray-600 opacity-0 shadow-md transition-opacity dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400"
+                              class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible text-primario-black invisible absolute z-10 inline-block rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm opacity-0 shadow-md transition-opacity dark:border-neutral-700 dark:bg-neutral-900 dark:text-neutral-400"
                               role="tooltip"
                             >
                               <Image
@@ -294,11 +313,11 @@ import background from "@images/background-dark.jpg"
                   class="inline-block rounded-2xl bg-white p-8 shadow-lg dark:bg-[#262626]"
                 >
                   <h2
-                    class="mb-2 text-2xl font-bold text-neutral-800 dark:text-neutral-200"
+                    class="text-primario-black mb-2 text-2xl font-bold dark:text-neutral-200"
                   >
                     Abre una cuenta con uno de nuestros socios bancarios.
                   </h2>
-                  <p class="text-neutral-800 dark:text-neutral-400">
+                  <p class="text-primario-black dark:text-neutral-400">
                     Nos encargamos de todo. Nuestra completa integración con
                     socios de banca digital automatiza por completo el proceso
                     de solicitud para que no tengas que preocuparte de nada. La
@@ -327,12 +346,12 @@ import background from "@images/background-dark.jpg"
                 >
                   <div class="mb-5">
                     <h2
-                      class="mb-2 text-2xl font-bold text-neutral-800 dark:text-neutral-200"
+                      class="text-primario-black mb-2 text-2xl font-bold dark:text-neutral-200"
                     >
                       Recibirás tu número de identificación fiscal del IRS en
                       unos días.
                     </h2>
-                    <p class="text-neutral-800 dark:text-neutral-400">
+                    <p class="text-primario-black dark:text-neutral-400">
                       El Número de Identificación Patronal (EIN) identifica a la
                       empresa para completar sus declaraciones federales y abrir
                       cuentas bancarias. Actuamos como un tercero autorizado
@@ -354,15 +373,15 @@ import background from "@images/background-dark.jpg"
                           src="https://cdn.prod.website-files.com/609486d2fafa37698a57db5b/61378f6540c42e7d5dd4373b_firstbase-irs.svg"
                           loading="lazy"
                           alt="Servicio de Impuestos Internos (IRS)"
-                          class="w-40 filter invert dark:invert-0"
+                          class="w-40 invert filter dark:invert-0"
                         />
                         <p
-                          class="mt-2 text-2xl text-neutral-600/60 dark:text-neutral-400/60"
+                          class="text-primario-black/60 mt-2 text-2xl dark:text-neutral-400/60"
                         >
                           Número de identificación del empleador
                         </p>
                         <p
-                          class="mt-2 text-4xl text-neutral-600 dark:text-neutral-400"
+                          class="text-primario-black mt-2 text-4xl dark:text-neutral-400"
                         >
                           12-3456789
                         </p>
@@ -382,12 +401,12 @@ import background from "@images/background-dark.jpg"
                 >
                   <div class="mb-5">
                     <h2
-                      class="mb-2 text-2xl font-bold text-neutral-800 dark:text-neutral-200"
+                      class="text-primario-black mb-2 text-2xl font-bold dark:text-neutral-200"
                     >
                       Todos los documentos operativos de la empresa están
                       listos.
                     </h2>
-                    <p class="text-neutral-800 dark:text-neutral-400">
+                    <p class="text-primario-black dark:text-neutral-400">
                       Tras la constitución de la empresa, preparamos un conjunto
                       de documentos legales esenciales. Estos documentos
                       proporcionan información clara y necesaria sobre los
@@ -400,56 +419,56 @@ import background from "@images/background-dark.jpg"
                   <div class="mb-3">
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Acuerdo operativo
                       </span>
                     </div>
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Certificado de Secretario
                       </span>
                     </div>
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Acuerdo de compra de acciones
                       </span>
                     </div>
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Acuerdo de indemnización para accionistas
                       </span>
                     </div>
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Actuación por consentimiento escrito del fundador
                       </span>
                     </div>
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Acuerdo de cesión de tecnología
                       </span>
                     </div>
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Estatutos corporativos
                       </span>
                     </div>
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Resoluciones organizativas iniciales del Consejo de
                         Administración
@@ -457,7 +476,7 @@ import background from "@images/background-dark.jpg"
                     </div>
                     <div class="m-2 hover:scale-101">
                       <span
-                        class="inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs text-gray-800 dark:bg-neutral-500/20 dark:text-neutral-400"
+                        class="text-primario-black inline-flex items-center gap-x-1 rounded-full bg-gray-300 px-2 py-1 text-xs dark:bg-neutral-500/20 dark:text-neutral-400"
                       >
                         Certificado de acciones ordinarias
                       </span>
@@ -482,11 +501,11 @@ import background from "@images/background-dark.jpg"
                   class="inline-block rounded-2xl bg-white p-8 shadow-lg dark:bg-[#262626]"
                 >
                   <h2
-                    class="mb-2 text-2xl font-bold text-neutral-800 dark:text-neutral-200"
+                    class="mb-2 text-2xl font-bold text-primario-black dark:text-neutral-200"
                   >
                     Abre una cuenta con uno de nuestros socios bancarios.
                   </h2>
-                  <p class="text-neutral-800 dark:text-neutral-400">
+                  <p class="text-primario-black dark:text-neutral-400">
                     Nos encargamos de todo. Nuestra completa integración con
                     socios de banca digital automatiza por completo el proceso
                     de solicitud para que no tengas que preocuparte de nada. La
@@ -503,97 +522,146 @@ import background from "@images/background-dark.jpg"
     </div>
   </div>
 
-  <script is:inline>
-    document.addEventListener("DOMContentLoaded", () => {
-      const circle = document.getElementById("progress-circle");
-      const label = document.getElementById("progress-label");
-      const sections = Array.from(document.querySelectorAll(".timeline-section"));
-  
-      function updateTimeline() {
-        // Si es móvil, remover todas las clases de opacidad y salir
-        if (window.innerWidth < 1024) {
-          sections.forEach(sec => {
-            sec.classList.remove("opacity-50", "opacity-100");
+  <script>
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    const initTimeline = () => {
+      const root = document.getElementById("timeline-process");
+
+      if (!root || root.dataset.timelineInitialized === "true") return;
+
+      root.dataset.timelineInitialized = "true";
+
+      const track = root.querySelector(
+        "#timeline-track",
+      ) as HTMLDivElement | null;
+      const marker = root.querySelector(
+        "#timeline-marker",
+      ) as HTMLDivElement | null;
+      const progressLine = root.querySelector(
+        "#progress-line",
+      ) as HTMLDivElement | null;
+      const circle = root.querySelector(
+        "#progress-circle",
+      ) as HTMLDivElement | null;
+      const label = root.querySelector(
+        "#progress-label",
+      ) as HTMLDivElement | null;
+      const sections = gsap.utils.toArray<HTMLElement>(".timeline-section");
+
+      if (
+        !track ||
+        !marker ||
+        !progressLine ||
+        !circle ||
+        !label ||
+        sections.length === 0
+      )
+        return;
+
+      const setLabelPosition = (side: string) => {
+        if (side === "right") {
+          gsap.set(label, {
+            left: "calc(50% - 3rem)",
+            xPercent: -100,
+            textAlign: "right",
           });
-          // También ocultar el círculo y label en móvil si es necesario
-          if (circle) circle.style.display = 'none';
-          if (label) label.style.display = 'none';
           return;
-        } else {
-          // En desktop, asegurar que sean visibles
-          if (circle) circle.style.display = 'block';
-          if (label) label.style.display = 'block';
         }
-  
-        const scrollTop = window.scrollY || document.documentElement.scrollTop;
-        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-        
-        if (docHeight <= 0) return;
-  
-        const scrollPercent = scrollTop / docHeight;
-        const startY = window.innerHeight * 0.5;
-        const endY = window.innerHeight * 0.6;
-        const topPosition = startY + (endY - startY) * scrollPercent;
-        
-        circle.style.top = `${topPosition}px`;
-        if (label) {
-          label.style.top = `${topPosition}px`;
-        }
-  
-        const viewportCenter = window.innerHeight / 2;
-        let closestSection = null;
-        let minDistance = Infinity;
-  
-        sections.forEach(sec => {
-          const rect = sec.getBoundingClientRect();
-          const sectionCenter = rect.top + rect.height / 2;
-          const distance = Math.abs(sectionCenter - viewportCenter);
-          if (distance < minDistance) {
-            minDistance = distance;
-            closestSection = sec;
-          }
+
+        gsap.set(label, {
+          left: "calc(50% + 3rem)",
+          xPercent: 0,
+          textAlign: "left",
         });
-  
-        sections.forEach(sec => {
-          sec.classList.add("opacity-50");
-          sec.classList.remove("opacity-100");
+      };
+
+      const setActiveSection = (activeSection: HTMLElement) => {
+        sections.forEach((section) => {
+          gsap.to(section, {
+            autoAlpha: section === activeSection ? 1 : 0.45,
+            duration: 0.35,
+            overwrite: "auto",
+          });
         });
-  
-        if (closestSection) {
-          closestSection.classList.remove("opacity-50");
-          closestSection.classList.add("opacity-100");
-  
-          if (label) {
-            const title = closestSection.dataset.title || "";
-            const side = closestSection.dataset.side || "left";
+
+        const title = activeSection.dataset.title ?? "";
+        const side = activeSection.dataset.side ?? "left";
+
+        gsap.to(label, {
+          autoAlpha: 0,
+          y: -8,
+          duration: 0.15,
+          overwrite: "auto",
+          onComplete: () => {
             label.textContent = title;
-  
-            if (side === "left") {
-              label.style.left = "calc(50% + 3rem)";
-              label.style.textAlign = "left";
-            } else {
-              label.style.left = "calc(50% - 25rem)";
-              label.style.textAlign = "right";
-            }
-          }
-        }
-      }
-  
-      // Debounce para mejor rendimiento
-      let timeoutId;
-      function debouncedUpdate() {
-        clearTimeout(timeoutId);
-        timeoutId = setTimeout(() => requestAnimationFrame(updateTimeline), 10);
-      }
-  
-      updateTimeline();
-      window.addEventListener("scroll", debouncedUpdate);
-      window.addEventListener("resize", debouncedUpdate);
-    });
-</script>
+            setLabelPosition(side);
+            gsap.to(label, {
+              autoAlpha: 1,
+              y: 0,
+              duration: 0.25,
+              overwrite: "auto",
+            });
+          },
+        });
+      };
 
+      const mm = gsap.matchMedia();
 
+      mm.add("(min-width: 1024px)", () => {
+        gsap.set([track, marker, circle, label], { display: "block" });
+        gsap.set(progressLine, { scaleY: 0, transformOrigin: "top top" });
+        gsap.set(circle, { y: 0 });
+        gsap.set(label, { y: 0, autoAlpha: 1 });
+        setLabelPosition(sections[0].dataset.side ?? "left");
+        setActiveSection(sections[0]);
 
+        const progressTimeline = gsap.timeline({
+          defaults: { ease: "none" },
+          scrollTrigger: {
+            trigger: root,
+            start: "top center",
+            end: "bottom center",
+            scrub: 0.35,
+            invalidateOnRefresh: true,
+          },
+        });
+
+        progressTimeline.to(progressLine, { scaleY: 1 }, 0);
+
+        sections.forEach((section) => {
+          ScrollTrigger.create({
+            trigger: section,
+            start: "top center",
+            end: "bottom center",
+            onEnter: () => setActiveSection(section),
+            onEnterBack: () => setActiveSection(section),
+          });
+        });
+
+        return () => {
+          progressTimeline.scrollTrigger?.kill();
+          progressTimeline.kill();
+        };
+      });
+
+      mm.add("(max-width: 1023px)", () => {
+        gsap.set([track, marker, circle, label], { display: "none" });
+        gsap.set(sections, { clearProps: "opacity,visibility" });
+      });
+    };
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initTimeline, {
+        once: true,
+      });
+    } else {
+      initTimeline();
+    }
+  </script>
 
   <style is:global>
     /* Efecto ping del círculo */

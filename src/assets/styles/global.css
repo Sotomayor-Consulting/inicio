@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
 @import 'tailwindcss';
 /* Preline UI */
 @source "../../../node_modules/preline/dist/*.js";
@@ -299,6 +300,10 @@
   --color-taupe-950: oklch(14.7% 0.004 49.3);
   --color-black: #000;
   --color-white: #fff;
+  --color-primario: #26537a;
+  --color-primario-black: #0d2636;
+  --color-secundario: #b98d33;
+  --color-alternativo: #316da0;
 }
 
 /*
@@ -310,6 +315,11 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
+
+  html,
+  body {
+    font-family: "Blinker", sans-serif;
+  }
 
   *,
   ::after,
@@ -323,4 +333,52 @@
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
+}
+
+.blinker-thin {
+  font-family: "Blinker", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.blinker-extralight {
+  font-family: "Blinker", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.blinker-light {
+  font-family: "Blinker", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.blinker-regular {
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blinker-semibold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.blinker-bold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.blinker-extrabold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.blinker-black {
+  font-family: "Blinker", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }

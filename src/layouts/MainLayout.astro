@@ -46,6 +46,12 @@ interface Props {
     />
     {/* Define the title of the page */}
     <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap"
+    />
     <script is:inline>
       // Script to handle dark mode. It will check if the theme is stored in localStorage or if dark theme is preferred by system settings
       if (
@@ -66,7 +72,9 @@ interface Props {
     <!-- End TrustBox script -->
     <script>
       import "@scripts/lenisSmoothScroll.js";
+      
     </script>
+    
     <style>
       html {
         scroll-behavior: smooth;
@@ -131,10 +139,9 @@ interface Props {
       })(window, document, "ttq");
     </script>
     <!-- TikTok Pixel Code End -->
-     
   </head>
   <body
-    class="flex min-h-screen flex-col bg-neutral-200 selection:bg-[#171717] selection:text-neutral-200 dark:bg-[#171717] dark:selection:bg-[#ba8d34] dark:selection:text-neutral-700"
+    class="flex min-h-screen flex-col bg-neutral-200 selection:bg-primario-black selection:text-neutral-200 dark:bg-[#171717] dark:selection:bg-secundario dark:selection:text-primario-black"
   >
     {
       /*

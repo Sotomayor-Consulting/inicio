@@ -24,7 +24,7 @@ const { label, title, description, button, label2 } = Astro.props;
   class="section mx-auto h-full w-full scroll-m-20 rounded-b-[50px] bg-white md:px-16 dark:bg-[#262626]"
 >
   <div class="grid grid-cols-1 pt-8 sm:gap-4 md:grid-cols-2 md:gap-12">
-    <div class="pt-5 text-center md:text-left">
+    <div class="pt-5 text-center md:text-left text-primario-black">
       <span class="text-[10px] font-bold uppercase dark:text-white">
         {label}
       </span>
@@ -38,7 +38,7 @@ const { label, title, description, button, label2 } = Astro.props;
       </div>
       <div class="my-6 flex justify-center md:my-6 md:block">
         <a
-          class="text-night-text hover:bg-day-secondary mx-7 w-full rounded-full bg-[#ba8d34] py-6 text-xs font-bold transition-colors hover:bg-[#cca558] md:mx-0 md:w-2 md:px-6 md:py-3 dark:text-white"
+          class="text-white hover:bg-day-secondary mx-7 w-full rounded-full bg-secundario py-6 text-xs font-bold transition-colors hover:bg-[#cca558] md:mx-0 md:w-2 md:px-6 md:py-3 dark:text-white"
           aria-label="button booknow"
           href="/inicio/contact"
           rel="noopener noreferrer"
@@ -60,7 +60,7 @@ const { label, title, description, button, label2 } = Astro.props;
           </h2>
         </div>
         <a
-          class="text-night-text hover:bg-day-secondary absolute right-[3%] bottom-[30%] rounded-full bg-[#ba8d34] p-2 transition-colors hover:text-white md:right-[30%]"
+          class="text-primario-black hover:bg-day-secondary absolute right-[3%] bottom-[30%] rounded-full bg-secundario p-2 transition-colors hover:text-white md:right-[30%]"
           aria-label="button play video"
           href="https://youtu.be/8Z1Q9N_trjM"
           target="_blank"
