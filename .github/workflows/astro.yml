@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BUILD_PATH: "."  # Cambia si tu proyecto está en una subcarpeta
+  BUILD_PATH: "."
 
 jobs:
   build:
@@ -28,14 +28,25 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9  # o 8 si prefieres más estable
+          version: 8  # Versión 8 más estable, evita el bug
+
+      - name: Get pnpm store path
+        id: pnpm-cache
+        run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "pnpm"
-          cache-dependency-path: ${{ env.BUILD_PATH }}/pnpm-lock.yaml
+          # NO incluyas cache: pnpm aquí
 
       - name: Setup Pages
         id: pages
