@@ -1,7 +1,7 @@
----
+﻿---
 title: "Preciso Viajar para os EUA para Abrir uma LLC? Tudo que Deve Saber"
 description: "Descubra se precisa viajar para os Estados Unidos para abrir uma LLC. Processo remoto, requisitos para estrangeiros e quando vale a pena viajar."
-cardImage: "@/images/insights/necesito-viajar-a-eeuu-llc"
+cardImage: "@/images/insights/necesito-viajar-a-eeuu-llc.png"
 cardImageAlt: "Empreendedor em frente a um laptop com um mapa global"
 ---
 

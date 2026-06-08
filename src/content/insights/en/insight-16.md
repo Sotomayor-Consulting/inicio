@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Use an LLC for E-commerce in the United States: Complete Guide"
 description: "Learn how to use your U.S. LLC to sell on Amazon FBA, Shopify, Etsy, and other e-commerce platforms."
-cardImage: "@/images/insights/llc-para-ecommerce"
+cardImage: "@/images/insights/llc-para-ecommerce.png"
 cardImageAlt: "Online store with products and shopping cart"
 ---
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: "O que é um EIN e para que serve? Guia Completo para sua LLC"
 description: "Descubra o que é um EIN, para que serve, como obtê-lo e por que é essencial para operar sua LLC nos Estados Unidos."
-cardImage: "@/images/insights/que-es-un-ein"
+cardImage: "@/images/insights/que-es-un-ein.png"
 cardImageAlt: "Documentos tributários e uma calculadora sobre uma mesa"
 ----
 

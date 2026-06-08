@@ -1,7 +1,7 @@
----
+﻿---
 title: "Taxes for Digital Nomads: What You Must Know to Comply with the IRS"
 description: "Tax guide for digital nomads"
-cardImage: "@/images/insights/IRS-guía para dueños de llc"
+cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
 cardImageAlt: "Digital nomad working on a beach with laptop"
 ---
 

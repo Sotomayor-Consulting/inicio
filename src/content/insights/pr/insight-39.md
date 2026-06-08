@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Gerenciar Rendimentos Internacionais Corretamente: Guia de Conformidade Fiscal"
 description: "Gestão correta de rendimentos internacionais"
-cardImage: "@/images/insights/como-poner-al-dia-tu-empresa"
+cardImage: "@/images/insights/como-poner-al-dia-tu-empresa.png"
 cardImageAlt: "Pessoa gerenciando finanças internacionais com mapas e moedas de diferentes países"
 ---
 

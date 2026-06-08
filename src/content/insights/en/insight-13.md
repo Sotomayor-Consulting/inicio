@@ -1,7 +1,7 @@
----
+﻿---
 title: "What is an EIN and What is it For? Complete Guide for Your LLC"
 description: "Discover what an EIN is, what it is for, how to get one, and why it is essential to operate your LLC in the United States."
-cardImage: "@/images/insights/que-es-un-ein"
+cardImage: "@/images/insights/que-es-un-ein.png"
 cardImageAlt: "Tax documents and a calculator on a table"
 ---
 

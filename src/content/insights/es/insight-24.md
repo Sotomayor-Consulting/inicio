@@ -1,7 +1,7 @@
----
+﻿---
 title: "Formulario 1065 Explicado: La Declaración Anual de tu Multi-Member LLC"
 description: "Guía completa sobre el Formulario 1065 del IRS: quién debe presentarlo, cómo se prepara, plazos, Schedule K-1 y mejores prácticas."
-cardImage: "@/images/insights/formulario-5472"
+cardImage: "@/images/insights/formulario-5472.png"
 cardImageAlt: "Formulario 1065 del IRS con Schedule K-1"
 ---
 

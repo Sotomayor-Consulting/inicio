@@ -1,7 +1,7 @@
----
+﻿---
 title: "Form 5472 Explained: Everything You Need to Know for Your LLC"
 description: "Complete guide to IRS Form 5472: who must file, how to fill it out, deadlines, penalties, and best practices."
-cardImage: "@/images/insights/formulario-5472"
+cardImage: "@/images/insights/formulario-5472.png"
 cardImageAlt: "IRS Form 5472 with magnifying glass"
 ---
 

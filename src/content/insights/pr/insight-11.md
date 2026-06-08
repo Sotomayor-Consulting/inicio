@@ -1,7 +1,7 @@
----
+﻿---
 title: "Diferenças entre uma LLC e uma Corporation: Qual Escolher?"
 description: "Conheça as diferenças chave entre uma LLC e uma Corporation nos EUA: tributação, formalidades, investimento e qual se adapta melhor ao seu negócio."
-cardImage: "@/images/insights/diferencias-entre-llc-y-corporacion"
+cardImage: "@/images/insights/diferencias-entre-llc-y-corporacion.png"
 cardImageAlt: "Duas estruturas empresariais em comparação"
 ---
 Embora ambas as estruturas permitam operar legalmente nos EUA, proteger o patrimônio e desenvolver negócios internacionais, funcionam de maneira muito distinta em aspectos como:

@@ -1,7 +1,7 @@
----
+﻿---
 title: "O Que Acontece se sua LLC Foi Mal Estruturada? Problemas e Soluções"
 description: "Consequências de uma LLC mal constituída, como detectar problemas estruturais e passos para corrigi-los antes que seja tarde demais."
-cardImage: "@/images/insights/llc-mal-estructurada"
+cardImage: "@/images/insights/llc-mal-estructurada.png"
 cardImageAlt: "LLC com rachaduras representando problemas estruturais"
 ---
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Usar uma LLC para E-commerce nos Estados Unidos: Guia Completo"
 description: "Aprenda como usar sua LLC nos EUA para vender na Amazon FBA, Shopify, Etsy e outras plataformas de e-commerce."
-cardImage: "@/images/insights/llc-para-ecommerce"
+cardImage: "@/images/insights/llc-para-ecommerce.png"
 cardImageAlt: "Loja online com produtos e carrinho de compras"
 ----
 

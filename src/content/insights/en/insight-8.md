@@ -1,7 +1,7 @@
----
+﻿---
 title: "Why the State Where You Form Your LLC Matters: Wyoming vs Florida vs Delaware"
 description: "Discover why the state where you form your LLC affects costs, privacy, and obligations. Complete comparison of Wyoming, Florida, and Delaware."
-cardImage: "@/images/insights/estados-para-crear-llc"
+cardImage: "@/images/insights/estados-para-crear-llc.png"
 cardImageAlt: "Map of the United States highlighting different states"
 ---
 

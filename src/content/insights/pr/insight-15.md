@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Usar uma LLC para Vender Serviços Internacionais: Guia Prático"
 description: "Aprenda como usar sua LLC nos EUA para vender serviços internacionais, receber em dólares, faturar clientes globais e fazer crescer seu negócio."
-cardImage: "@/images/insights/como-usa-una-llc"
+cardImage: "@/images/insights/como-usa-una-llc.png"
 cardImageAlt: "Profissional latino-americano vendendo serviços a clientes internacionais"
 ----
 

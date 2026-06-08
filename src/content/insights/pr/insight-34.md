@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como os Exportadores de Serviços São Tributados? Guia Fiscal Completo"
 description: "Tributação de exportadores de serviços"
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios"
+cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
 cardImageAlt: "Gráfico de crescimento com moedas e documentos fiscais"
 ---
 

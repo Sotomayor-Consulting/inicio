@@ -1,7 +1,7 @@
----
+﻿---
 title: "Business Master File do IRS: Como Funciona e por que é Essencial para sua LLC"
 description: "Guia completo sobre o Business Master File do IRS, o registro mestre de empresas que determina o status fiscal da sua LLC."
-cardImage: "@/images/insights/bussines-master-file"
+cardImage: "@/images/insights/bussines-master-file.png"
 cardImageAlt: "Banco de dados do IRS com registros empresariais"
 ---
 

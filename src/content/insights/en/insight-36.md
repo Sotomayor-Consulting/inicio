@@ -1,7 +1,7 @@
----
+﻿---
 title: "How Is Digital Income Taxed? Complete Guide for Creators and Entrepreneurs"
 description: "Taxation of digital income"
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios"
+cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
 cardImageAlt: "Digital devices with financial charts and virtual coins"
 ---
 

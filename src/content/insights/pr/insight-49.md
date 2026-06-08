@@ -1,7 +1,7 @@
----
+﻿---
 title: "Proteção Fiscal para Empresários: Estratégias Legais para Reduzir Impostos"
 description: "Proteção Fiscal para Empresários"
-cardImage: "@/images/insights/cumplimiento-fiscal"
+cardImage: "@/images/insights/cumplimiento-fiscal.png"
 cardImageAlt: "Empresário analisando gráficos financeiros e documentos fiscais"
 ---
 

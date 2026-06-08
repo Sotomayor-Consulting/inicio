@@ -1,7 +1,7 @@
----
+﻿---
 title: "LLC for Digital Marketing: The Ideal Structure for Your Agency or Freelance Business"
 description: "Discover why the LLC is the best structure for digital marketing agencies, freelancers, and content creators operating internationally."
-cardImage: "@/images/insights/llc-para-marketing"
+cardImage: "@/images/insights/llc-para-marketing.png"
 cardImageAlt: "Digital marketing dashboard with charts and metrics"
 ---
 

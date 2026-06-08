@@ -1,7 +1,7 @@
----
+﻿---
 title: "How Are Service Exporters Taxed? Complete Tax Guide"
 description: "Taxation of service exporters"
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios"
+cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
 cardImageAlt: "Growth chart with coins and tax documents"
 ---
 
