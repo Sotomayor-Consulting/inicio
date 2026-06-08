@@ -1,7 +1,7 @@
----
+﻿---
 title: "Evasão vs Planejamento Fiscal: A Linha que Todo Empreendedor Deve Conhecer"
 description: "As diferenças fundamentais entre evasão fiscal (ilegal) e planejamento fiscal (legal), como garantir que você está do lado correto e proteger sua LLC."
-cardImage: "@/images/insights/evasión-vs-planficación-fiscal"
+cardImage: "@/images/insights/evasión-vs-planficación-fiscal.png"
 cardImageAlt: "Balança com dinheiro de um lado e livro de leis do outro"
 ---
 
