@@ -1,7 +1,7 @@
 ---
 title: "Most Common Tax Mistakes in International Business and How to Avoid Them"
 description: "Tax Mistakes in International Business"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/evasión-vs-planficación-fiscal"
 cardImageAlt: "World map with flags and tax documents"
 ---
 

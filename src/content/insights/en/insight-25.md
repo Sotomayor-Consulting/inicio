@@ -1,7 +1,7 @@
 ---
 title: "IRS Business Master File: How It Works and Why It Matters for Your LLC"
 description: "Complete guide to the IRS Business Master File, the master database that determines your LLC's tax status and compliance history."
-cardImage: "@/images/insights/insight-7.avif"
+cardImage: "@/images/insights/bussines-master-file"
 cardImageAlt: "IRS database with business records"
 ---
 

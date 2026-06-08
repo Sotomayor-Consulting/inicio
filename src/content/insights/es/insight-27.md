@@ -1,7 +1,7 @@
 ---
 title: "Cómo Evitar Errores con el IRS: Guía para Dueños de LLC Internacionales"
 description: "Los errores fiscales más comunes que cometen los dueños extranjeros de LLCs y cómo evitarlos para mantener tu negocio en compliance."
-cardImage: "@/images/insights/insight-9.avif"
+cardImage: "@/images/insights/IRS-guía para dueños de llc"
 cardImageAlt: "Documentos fiscales con sellos de aprobación y advertencia"
 ---
 

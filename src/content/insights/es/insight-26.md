@@ -1,7 +1,7 @@
 ---
 title: "Tratados Tributarios Internacionales y LLCs: Guía para Emprendedores Globales"
 description: "Cómo afectan los tratados de doble tributación a tu LLC en EE.UU., qué países tienen tratados favorables y cómo optimizar tu estructura fiscal."
-cardImage: "@/images/insights/insight-8.avif"
+cardImage: "@/images/insights/tratados-tributarios-internacionales"
 cardImageAlt: "Mapa mundial con conexiones tributarias entre países"
 ---
 

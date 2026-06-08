@@ -1,9 +1,9 @@
 ---
 title: "Como Evitar Erros com o IRS: Guia para Proprietários de LLC Internacionais"
 description: "Os erros fiscais mais comuns que proprietários estrangeiros de LLCs cometem e como evitá-los para manter seu negócio em compliance."
-cardImage: "@/images/insights/insight-9.avif"
+cardImage: "@/images/insights/IRS-guía para dueños de llc"
 cardImageAlt: "Documentos fiscais com selos de aprovação e advertência"
->
+----
 
 O IRS não é um órgão com o qual você queira ter problemas. Para proprietários estrangeiros de LLCs nos Estados Unidos, um erro fiscal pode significar multas de milhares de dólares, congelamento de contas bancárias e até a perda de sua LLC.
 

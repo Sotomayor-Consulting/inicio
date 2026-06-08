@@ -1,9 +1,9 @@
 ---
 title: "LLC Disregarded Entity vs Partnership: Qual Escolher para seu Negócio?"
 description: "Comparativo completo entre os regimes fiscais disregarded entity e partnership para LLCs, e como escolher o adequado para seu caso."
-cardImage: "@/images/insights/insight-4.avif"
+cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership"
 cardImageAlt: "Comparação de duas estruturas fiscais com ícones"
->
+----
 
 Ao constituir uma LLC nos Estados Unidos, um dos aspectos mais importantes —e menos compreendidos— é como ela tributa fiscalmente. Por padrão, o IRS classifica as LLCs de duas maneiras: **disregarded entity** (entidade não considerada) ou **partnership** (sociedade).
 

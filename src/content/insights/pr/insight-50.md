@@ -1,7 +1,7 @@
 ---
 title: "Erros Fiscais Mais Comuns em Negócios Internacionais e Como Evitá-los"
 description: "Erros Fiscais em Negócios Internacionais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/evasión-vs-planficación-fiscal"
 cardImageAlt: "Mapa-múndi com bandeiras e documentos fiscais"
 ---
 

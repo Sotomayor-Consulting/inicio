@@ -1,9 +1,9 @@
 ---
 title: "Business Master File do IRS: Como Funciona e por que é Essencial para sua LLC"
 description: "Guia completo sobre o Business Master File do IRS, o registro mestre de empresas que determina o status fiscal da sua LLC."
-cardImage: "@/images/insights/insight-7.avif"
+cardImage: "@/images/insights/bussines-master-file"
 cardImageAlt: "Banco de dados do IRS com registros empresariais"
->
+---
 
 O **Business Master File (BMF)** é o banco de dados principal do IRS que contém o registro fiscal de todas as empresas nos Estados Unidos, incluindo sua LLC. Cada vez que o IRS processa uma declaração, um pagamento ou um formulário, a informação é atualizada no BMF.
 

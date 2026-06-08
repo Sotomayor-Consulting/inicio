@@ -1,7 +1,7 @@
 ---
 title: "How to Protect Your Assets with International Structures: LLCs, Trusts, and More"
 description: "Legal asset protection strategies using U.S. LLCs, trusts, and other international structures for global entrepreneurs."
-cardImage: "@/images/insights/insight-12.avif"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales"
 cardImageAlt: "Protective shield over global assets with international connections"
 ---
 

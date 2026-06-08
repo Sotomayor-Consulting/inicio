@@ -1,7 +1,7 @@
 ---
 title: "¿Qué es FATCA? Guía Completa sobre la Ley de Cumplimiento Fiscal de Cuentas Extranjeras"
 description: "Guía completa sobre FATCA"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/cumplimiento-fiscal"
 cardImageAlt: "Documentos fiscales internacionales con banderas de varios países"
 ---
 

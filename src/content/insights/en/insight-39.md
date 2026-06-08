@@ -1,7 +1,7 @@
 ---
 title: "How to Handle International Income Correctly: Tax Compliance Guide"
 description: "Proper handling of international income"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-poner-al-dia-tu-empresa"
 cardImageAlt: "Person managing international finances with maps and currencies from different countries"
 ---
 

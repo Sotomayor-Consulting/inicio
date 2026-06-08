@@ -1,9 +1,9 @@
 ---
 title: "Formulário 1065 Explicado: A Declaração Anual da sua Multi-Member LLC"
 description: "Guia completo sobre o Formulário 1065 do IRS: quem deve apresentá-lo, como se prepara, prazos, Schedule K-1 e melhores práticas."
-cardImage: "@/images/insights/insight-6.avif"
+cardImage: "@/images/insights/formulario-5472"
 cardImageAlt: "Formulário 1065 do IRS com Schedule K-1"
->
+---
 
 Se sua LLC tem dois ou mais membros, o IRS exige que você apresente o **Formulário 1065** todos os anos. Esta declaração informativa reporta as receitas, despesas, ganhos e perdas da LLC, e distribui esses valores entre os sócios através do **Schedule K-1**.
 

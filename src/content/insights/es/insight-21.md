@@ -1,7 +1,7 @@
 ---
 title: "LLC para Marketing Digital: Estructura Ideal para tu Agencia o Freelance"
 description: "Descubre por qué la LLC es la mejor estructura para agencias de marketing digital, freelancers y creadores de contenido que operan internacionalmente."
-cardImage: "@/images/insights/insight-3.avif"
+cardImage: "@/images/insights/llc-para-marketing"
 cardImageAlt: "Dashboard de marketing digital con gráficos y métricas"
 ---
 

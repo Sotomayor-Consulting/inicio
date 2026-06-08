@@ -1,7 +1,7 @@
 ---
 title: "What Is FATCA? Complete Guide to the Foreign Account Tax Compliance Act"
 description: "Complete guide to FATCA"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/cumplimiento-fiscal"
 cardImageAlt: "International tax documents with flags of several countries"
 ---
 

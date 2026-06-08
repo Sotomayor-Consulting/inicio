@@ -1,9 +1,9 @@
 ---
 title: "O Que Acontece se sua LLC Foi Mal Estruturada? Problemas e Soluções"
 description: "Consequências de uma LLC mal constituída, como detectar problemas estruturais e passos para corrigi-los antes que seja tarde demais."
-cardImage: "@/images/insights/insight-11.avif"
+cardImage: "@/images/insights/llc-mal-estructurada"
 cardImageAlt: "LLC com rachaduras representando problemas estruturais"
->
+---
 
 Constituir uma LLC nos Estados Unidos é relativamente simples, mas fazê-lo **corretamente** é outra história. Muitos empreendedores latino-americanos descobrem meses ou anos depois que sua LLC foi mal estruturada, e as consequências podem ser graves: problemas com o IRS, contas bancárias congeladas, disputas entre sócios e até a perda da proteção de responsabilidade limitada.
 

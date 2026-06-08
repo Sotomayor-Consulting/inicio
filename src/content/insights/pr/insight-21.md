@@ -1,9 +1,9 @@
 ---
 title: "LLC para Marketing Digital: Estrutura Ideal para sua Agência ou Freelance"
 description: "Descubra por que a LLC é a melhor estrutura para agências de marketing digital, freelancers e criadores de conteúdo que operam internacionalmente."
-cardImage: "@/images/insights/insight-3.avif"
+cardImage: "@/images/insights/llc-para-marketing"
 cardImageAlt: "Painel de marketing digital com gráficos e métricas"
->
+---
 
 O marketing digital é um dos setores que mais se beneficia de operar através de uma LLC nos Estados Unidos. Desde agências e freelancers até criadores de conteúdo e afiliados, a LLC oferece proteção patrimonial, credibilidade e vantagens fiscais difíceis de conseguir com estruturas locais.
 

@@ -1,7 +1,7 @@
 ---
 title: "Form 1065 Explained: The Annual Return for Your Multi-Member LLC"
 description: "Complete guide to IRS Form 1065: who must file, how to prepare it, deadlines, Schedule K-1, and best practices."
-cardImage: "@/images/insights/insight-6.avif"
+cardImage: "@/images/insights/formulario-5472"
 cardImageAlt: "IRS Form 1065 with Schedule K-1"
 ---
 

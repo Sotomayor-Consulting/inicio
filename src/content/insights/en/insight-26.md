@@ -1,7 +1,7 @@
 ---
 title: "International Tax Treaties and LLCs: A Guide for Global Entrepreneurs"
 description: "How double taxation treaties affect your U.S. LLC, which countries have favorable treaties, and how to optimize your tax structure."
-cardImage: "@/images/insights/insight-8.avif"
+cardImage: "@/images/insights/tratados-tributarios-internacionales"
 cardImageAlt: "World map with tax connections between countries"
 ---
 

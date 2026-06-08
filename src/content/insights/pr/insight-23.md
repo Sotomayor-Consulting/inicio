@@ -1,9 +1,9 @@
 ---
 title: "Formulário 5472 Explicado: Tudo o que Você Precisa Saber para sua LLC"
 description: "Guia completo sobre o Formulário 5472 do IRS: quem deve apresentá-lo, como preenchê-lo, prazos, multas e melhores práticas."
-cardImage: "@/images/insights/insight-5.avif"
+cardImage: "@/images/insights/formulario-5472"
 cardImageAlt: "Formulário 5472 do IRS com lupa"
->
+----
 
 O Formulário 5472 é um dos requisitos fiscais mais importantes —e mais ignorados— para proprietários estrangeiros de uma LLC nos Estados Unidos. A falta de apresentação pode resultar em multas de até **$25.000 por ano**.
 

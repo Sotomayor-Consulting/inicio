@@ -1,7 +1,7 @@
 ---
 title: "Como Evitar a Dupla Tributação Legalmente: Estratégias para sua LLC"
 description: "Estratégias legais para evitar pagar impostos duas vezes pelas mesmas receitas quando opera com uma LLC nos EUA desde o exterior."
-cardImage: "@/images/insights/insight-13.avif"
+cardImage: "@/images/insights/estrategias-para tu-llc"
 cardImageAlt: "Balança fiscal equilibrada entre dois países"
 ---
 

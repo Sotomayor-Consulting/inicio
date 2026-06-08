@@ -1,7 +1,7 @@
 ---
 title: "How to Legally Avoid Double Taxation: Strategies for Your LLC"
 description: "Legal strategies to avoid paying taxes twice on the same income when operating a U.S. LLC from abroad."
-cardImage: "@/images/insights/insight-13.avif"
+cardImage: "@/images/insights/estrategias-para tu-llc"
 cardImageAlt: "Balanced tax scale between two countries"
 ---
 

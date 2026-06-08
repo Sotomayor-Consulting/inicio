@@ -1,7 +1,7 @@
 ---
 title: "Benefícios de uma LP Canadense: Estrutura Corporativa para Não Residentes"
 description: "Benefícios de uma Limited Partnership canadense"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/cuanto-cuesta-mantener-una-llc"
 cardImageAlt: "Bandeira do Canadá com edifícios corporativos e gráficos financeiros"
 ---
 

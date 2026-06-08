@@ -1,7 +1,7 @@
 ---
 title: "Tax Strategies for Digital Businesses: Optimize Your Taxes Legally"
 description: "Tax strategies for digital businesses"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/cumplimiento-fiscal"
 cardImageAlt: "Digital tax strategy with charts, devices, and documents"
 ---
 
