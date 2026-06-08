@@ -1,7 +1,7 @@
 ---
 title: "How to Avoid Problems with Mercury or Relay: Guide for International LLCs"
 description: "Learn how to keep your Mercury or Relay account active and avoid freezes, closures, or suspensions as a foreign-owned LLC."
-cardImage: "@/images/insights/insight-2.avif"
+cardImage: "@/images/insights/mercury-relay"
 cardImageAlt: "Digital banking screen with security alert"
 ---
 

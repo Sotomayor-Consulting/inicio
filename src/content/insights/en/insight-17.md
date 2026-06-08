@@ -1,7 +1,7 @@
 ---
 title: "Stripe Atlas vs Personalized Consulting: Which Option to Choose for Your LLC?"
 description: "Complete comparison between Stripe Atlas and personalized consulting for forming your LLC in the U.S. Pros, cons, and which to choose."
-cardImage: "@/images/insights/llc-para-ecommerce"
+cardImage: "@/images/insights/stripe-vs-asesoría-personalizada"
 cardImageAlt: "Two options for forming an LLC in comparison"
 ---
 

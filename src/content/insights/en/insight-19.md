@@ -1,7 +1,7 @@
 ---
 title: "What Happens if You Never Filed Taxes in the United States? Risks and Solutions"
 description: "Discover the consequences of not filing taxes with your LLC in the U.S., IRS penalties, and how to regularize your situation."
-cardImage: "@/images/insights/insight-1.avif"
+cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc"
 cardImageAlt: "Worried person reviewing IRS documents"
 ---
 
