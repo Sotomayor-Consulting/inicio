@@ -3,7 +3,7 @@ title: "Uma LLC Deve Pagar Impostos nos EUA? Guia Completo"
 description: "Descubra se uma LLC paga impostos nos EUA segundo seu caso: proprietário estrangeiro, vários sócios, receitas de fonte americana e mais."
 cardImage: "@/images/insights/una-llc-paga-impuestos"
 cardImageAlt: "Pessoa revisando documentos tributários em um laptop"
->
+---
 
 Uma LLC paga impostos? A resposta não é um sim ou não automático. Depende de vários fatores.
 

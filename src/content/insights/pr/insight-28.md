@@ -3,7 +3,7 @@ title: "Regularização de LLCs Atrasadas: Como Colocar sua Empresa em Dia"
 description: "Guia completa para regularizar sua LLC se você não apresentou o Annual Report, não pagou impostos ou sua conta bancária foi congelada."
 cardImage: "@/images/insights/como-poner-al-dia-tu-empresa"
 cardImageAlt: "Documentos de LLC sendo reorganizados e colocados em dia"
->
+---
 
 Se você tem negligenciado as obrigações de sua LLC —seja o Annual Report, os impostos federais ou a documentação corporativa— não está sozinho. Muitos empreendedores internacionais se encontram nesta situação por desconhecimento, mudanças de residência ou simples falta de tempo.
 

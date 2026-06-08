@@ -3,7 +3,6 @@ title: "Como Usar uma LLC para E-commerce nos Estados Unidos: Guia Completo"
 description: "Aprenda como usar sua LLC nos EUA para vender na Amazon FBA, Shopify, Etsy e outras plataformas de e-commerce."
 cardImage: "@/images/insights/llc-para-ecommerce"
 cardImageAlt: "Loja online com produtos e carrinho de compras"
-
 ----
 
 O e-commerce é um dos setores que mais se beneficiam de uma LLC nos Estados Unidos. Plataformas como Amazon FBA, Shopify, Etsy e eBay são projetadas para operar com entidades americanas, e ter uma LLC pode fazer a diferença entre um negócio com limitações e um que escala globalmente.
