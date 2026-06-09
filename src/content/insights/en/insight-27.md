@@ -1,7 +1,7 @@
 ---
 title: "How to Avoid Mistakes with the IRS: Guide for International LLC Owners"
 description: "The most common tax mistakes foreign LLC owners make and how to avoid them to keep your business in compliance."
-cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
+cardImage: "@/images/insights/IRS-guia-para-duenos-de-llc.png"
 cardImageAlt: "Tax documents with approval and warning stamps"
 ---
 

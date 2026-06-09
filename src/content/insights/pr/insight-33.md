@@ -1,7 +1,7 @@
 ---
 title: "O que o IRS Revisa em uma LLC Estrangeira? Fatores-Chave de Conformidade"
 description: "Revis�o do IRS em LLCs estrangeiras"
-cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
+cardImage: "@/images/insights/IRS-guia-para-duenos-de-llc.png"
 cardImageAlt: "Fachada do edif�cio do IRS com bandeira americana"
 ---
 

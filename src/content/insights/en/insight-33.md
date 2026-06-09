@@ -1,7 +1,7 @@
 ---
 title: "What Does the IRS Review in a Foreign LLC? Key Compliance Factors"
 description: "IRS review of foreign LLCs"
-cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
+cardImage: "@/images/insights/IRS-guia-para-duenos-de-llc.png"
 cardImageAlt: "IRS building facade with American flag"
 ---
 
