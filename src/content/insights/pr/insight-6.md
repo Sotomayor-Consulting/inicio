@@ -1,7 +1,7 @@
 ---
 title: "O que é uma LLC e para que serve? Guia Completo para Latino-Americanos"
 description: "Descubra o que é uma LLC, como funciona e para que serve realmente. Guia completo para empreendedores latino-americanos."
-cardImage: "@/images/insights/insight-1.avif"
+cardImage: "@/images/insights/blog-2.avif"
 cardImageAlt: "Empreendedor analisando seu negócio em um laptop"
 ---
 
