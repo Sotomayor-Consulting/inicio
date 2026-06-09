@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Charge Clients in Different Countries: 2026 Guide"
 description: "How to charge clients in different countries"
 cardImage: "@/images/insights/pagos-internacionales.png"

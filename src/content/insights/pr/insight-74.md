@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Riscos de Operar sem Estrutura Legal: Guia 2026"
 description: "Riscos de operar sem estrutura legal"
 cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.png"

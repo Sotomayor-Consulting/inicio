@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Difference Between Protecting and Hiding Assets: Guide 2026"
 description: "Difference between protecting and hiding assets"
 cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"

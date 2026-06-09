@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Vender Globalmente da América Latina: Guia 2026"
 description: "Como vender globalmente da América Latina"
 cardImage: "@/images/insights/internacionalizar-una-marca.png"

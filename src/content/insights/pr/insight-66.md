@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Funciona o Stripe Tax: Guia Completo 2026"
 description: "Como funciona o Stripe Tax"
 cardImage: "@/images/insights/stripe.png"

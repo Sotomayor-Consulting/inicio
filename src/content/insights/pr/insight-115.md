@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Saber se sua LLC Est� em Risco: Guia 2026"
 description: "Sinais de alerta, indicadores de risco e verifica��es de conformidade para avaliar a sa�de da sua LLC"
 cardImage: "@/images/insights/llc-mal-estructurada.png"

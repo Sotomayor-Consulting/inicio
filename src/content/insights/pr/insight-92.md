@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sinais de que seu Negócio Precisa de Estrutura Internacional: Guia 2026"
 description: "Sinais de que seu negócio precisa de estrutura internacional"
 cardImage: "@/images/insights/internacionalizar-una-marca.png"

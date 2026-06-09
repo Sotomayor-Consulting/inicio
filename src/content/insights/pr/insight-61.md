@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Erros que Fazem o Stripe Rejeitar Contas: Guia 2026"
 description: "Erros que fazem o Stripe rejeitar contas"
 cardImage: "@/images/insights/stripe.png"

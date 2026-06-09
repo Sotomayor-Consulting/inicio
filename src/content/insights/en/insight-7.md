@@ -110,16 +110,16 @@ Compared to corporate structures in other countries, the LLC is surprisingly qui
 ### Typical process
 
 1. **Choose the state** (Wyoming, Florida, or Delaware are the most popular).
-2. **File the Articles of Organization** with the Secretary of State (1–15 business days).
-3. **Obtain the EIN** from the IRS (free, 1–4 weeks for foreigners).
+2. **File the Articles of Organization** with the Secretary of State (1ï¿½15 business days).
+3. **Obtain the EIN** from the IRS (free, 1ï¿½4 weeks for foreigners).
 4. **Draft the Operating Agreement** (internal management document).
 5. **Open a bank account** (remotely in most cases).
 
 ### Approximate costs
 
-- **Formation:** $50–$500 depending on the state.
-- **Registered agent:** $100–$200 per year.
-- **Annual Report:** $50–$800 depending on the state.
+- **Formation:** $50ï¿½$500 depending on the state.
+- **Registered agent:** $100ï¿½$200 per year.
+- **Annual Report:** $50ï¿½$800 depending on the state.
 
 ## When is an LLC NOT right?
 
@@ -135,8 +135,8 @@ Not everything is positive. An LLC may not be the best option if:
 | Aspect | LLC | C-Corp | Company in your country |
 |---------|-----|--------|-----------------------|
 | Asset protection | High | High | Variable |
-| Formation cost | Low–Medium | High | Variable |
-| Annual maintenance | $150–$1000+ | $500–$2000+ | Variable |
+| Formation cost | Lowï¿½Medium | High | Variable |
+| Annual maintenance | $150ï¿½$1000+ | $500ï¿½$2000+ | Variable |
 | Access to Stripe/PayPal US | Yes | Yes | Limited |
 | Ideal for foreigners | Yes | Depends | Depends |
 | Tax flexibility | High | Low | Variable |

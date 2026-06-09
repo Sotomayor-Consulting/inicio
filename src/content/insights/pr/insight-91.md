@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Expandir seu Negócio Internacionalmente: Guia 2026"
 description: "Como expandir seu negócio internacionalmente"
 cardImage: "@/images/insights/inversión-extranjera.png"

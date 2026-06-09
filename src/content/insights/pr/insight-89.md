@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Real Estate como Veículo de Migração para os EUA: Guia 2026"
 description: "Real estate como veículo de migração para os EUA"
 cardImage: "@/images/insights/real-state.png"

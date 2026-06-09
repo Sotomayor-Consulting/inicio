@@ -5,7 +5,7 @@ cardImage: "@/images/insights/tratados-tributarios-internacionales.png"
 cardImageAlt: "World map with tax connections between countries"
 ---
 
-One of the most complex —and most important— topics for international entrepreneurs with a U.S. LLC is how **tax treaties** affect their tax structure.
+One of the most complex ï¿½and most importantï¿½ topics for international entrepreneurs with a U.S. LLC is how **tax treaties** affect their tax structure.
 
 Depending on your country of residence, your LLC's income may be taxed in the U.S., in your country, or both. And in some cases, a tax treaty can reduce or eliminate withholding tax on certain types of income.
 

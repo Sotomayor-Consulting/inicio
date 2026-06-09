@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como usar Odoo em empresas internacionais: Guia 2026"
 description: "ERP Odoo para negócios internacionais"
 cardImage: "@/images/insights/odoo-en-empresas-internacionales.png"

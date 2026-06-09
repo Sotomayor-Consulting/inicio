@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Protect Digital Assets: Complete Guide 2026"
 description: "How to protect digital assets"
 cardImage: "@/images/insights/protección-de-activos-digitales.png"

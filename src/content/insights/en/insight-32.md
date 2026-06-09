@@ -1,7 +1,7 @@
 ---
 title: "Tax Evasion vs Tax Planning: The Line Every Entrepreneur Must Know"
 description: "Key differences between tax evasion (illegal) and tax planning (legal), how to ensure you stay on the right side, and protect your LLC."
-cardImage: "@/images/insights/evasión-vs-planficación-fiscal.png"
+cardImage: "@/images/insights/evasiÃ³n-vs-planficaciÃ³n-fiscal.png"
 cardImageAlt: "Scale with money on one side and law book on the other"
 ---
 

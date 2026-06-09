@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Usar WhatsApp para Vender Mais: Guia 2026"
 description: "Usar WhatsApp para vender mais"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What to Review Before Investing in the US as a Foreigner: 2026 Guide"
 description: "What to review before investing in the US as a foreigner"
 cardImage: "@/images/insights/inversión-extranjera.png"

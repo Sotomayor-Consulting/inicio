@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Proteger Ativos Digitais: Guia Completo 2026"
 description: "Como proteger ativos digitais"
 cardImage: "@/images/insights/protección-de-activos-digitales.png"

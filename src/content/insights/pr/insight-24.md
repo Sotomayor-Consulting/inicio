@@ -1,256 +1,256 @@
 ---
-title: "Formulário 1065 Explicado: A Declaração Anual da sua Multi-Member LLC"
-description: "Guia completo sobre o Formulário 1065 do IRS: quem deve apresentá-lo, como se prepara, prazos, Schedule K-1 e melhores práticas."
+title: "Formulï¿½rio 1065 Explicado: A Declaraï¿½ï¿½o Anual da sua Multi-Member LLC"
+description: "Guia completo sobre o Formulï¿½rio 1065 do IRS: quem deve apresentï¿½-lo, como se prepara, prazos, Schedule K-1 e melhores prï¿½ticas."
 cardImage: "@/images/insights/formulario-5472.png"
-cardImageAlt: "Formulário 1065 do IRS com Schedule K-1"
+cardImageAlt: "Formulï¿½rio 1065 do IRS com Schedule K-1"
 ---
 
-Se sua LLC tem dois ou mais membros, o IRS exige que você apresente o **Formulário 1065** todos os anos. Esta declaração informativa reporta as receitas, despesas, ganhos e perdas da LLC, e distribui esses valores entre os sócios através do **Schedule K-1**.
+Se sua LLC tem dois ou mais membros, o IRS exige que vocï¿½ apresente o **Formulï¿½rio 1065** todos os anos. Esta declaraï¿½ï¿½o informativa reporta as receitas, despesas, ganhos e perdas da LLC, e distribui esses valores entre os sï¿½cios atravï¿½s do **Schedule K-1**.
 
-Neste guia, explicamos o que é o Formulário 1065, quem deve apresentá-lo, como se prepara e o que você precisa saber para manter sua multi-member LLC em compliance.
+Neste guia, explicamos o que ï¿½ o Formulï¿½rio 1065, quem deve apresentï¿½-lo, como se prepara e o que vocï¿½ precisa saber para manter sua multi-member LLC em compliance.
 
-## O que é o Formulário 1065?
+## O que ï¿½ o Formulï¿½rio 1065?
 
-O Formulário 1065 é a declaração informativa anual que as **partnerships** (sociedades) devem apresentar ao IRS. Embora sua LLC seja uma sociedade de responsabilidade limitada, se tiver mais de um membro, o IRS a trata fiscalmente como uma partnership.
+O Formulï¿½rio 1065 ï¿½ a declaraï¿½ï¿½o informativa anual que as **partnerships** (sociedades) devem apresentar ao IRS. Embora sua LLC seja uma sociedade de responsabilidade limitada, se tiver mais de um membro, o IRS a trata fiscalmente como uma partnership.
 
-**Características principais:**
+**Caracterï¿½sticas principais:**
 
-- É uma declaração **informativa**, não uma declaração de impostos.
-- A LLC em si **não paga impostos** sobre seus lucros.
-- Os lucros ou prejuízos "passam" para os sócios, que os reportam em suas declarações pessoais.
-- Cada sócio recebe um **Schedule K-1** que detalha sua participação.
+- ï¿½ uma declaraï¿½ï¿½o **informativa**, nï¿½o uma declaraï¿½ï¿½o de impostos.
+- A LLC em si **nï¿½o paga impostos** sobre seus lucros.
+- Os lucros ou prejuï¿½zos "passam" para os sï¿½cios, que os reportam em suas declaraï¿½ï¿½es pessoais.
+- Cada sï¿½cio recebe um **Schedule K-1** que detalha sua participaï¿½ï¿½o.
 
-> **Importante:** O 1065 vence em **15 de março** (não em 15 de abril como o 5472). Não há extensão automática além de 15 de setembro.
+> **Importante:** O 1065 vence em **15 de marï¿½o** (nï¿½o em 15 de abril como o 5472). Nï¿½o hï¿½ extensï¿½o automï¿½tica alï¿½m de 15 de setembro.
 
-## Quem deve apresentá-lo?
+## Quem deve apresentï¿½-lo?
 
-Você deve apresentar o Formulário 1065 se:
+Vocï¿½ deve apresentar o Formulï¿½rio 1065 se:
 
 1. Sua LLC tem **dois ou mais membros**.
-2. Você não optou por sua LLC tributar como **S-Corp ou C-Corp**.
+2. Vocï¿½ nï¿½o optou por sua LLC tributar como **S-Corp ou C-Corp**.
 3. Sua LLC teve **atividade comercial** durante o ano fiscal (receitas, despesas, investimentos, etc.).
 
-### E se a LLC não teve receitas?
+### E se a LLC nï¿½o teve receitas?
 
-Mesmo assim, se a LLC teve despesas, investimentos ou transações, geralmente deve apresentar o 1065. Até uma LLC inativa pode precisar apresentá-lo dependendo das circunstâncias.
+Mesmo assim, se a LLC teve despesas, investimentos ou transaï¿½ï¿½es, geralmente deve apresentar o 1065. Atï¿½ uma LLC inativa pode precisar apresentï¿½-lo dependendo das circunstï¿½ncias.
 
-## Componentes do Formulário 1065
+## Componentes do Formulï¿½rio 1065
 
-| Componente | Descrição |
+| Componente | Descriï¿½ï¿½o |
 |------------|-----------|
-| **Página 1** | Informação geral da LLC: nome, EIN, endereço, data de constituição |
-| **Schedule A** | Custo de bens vendidos (se aplicável) |
-| **Schedule B** | Informação sobre a propriedade da LLC |
-| **Schedule K** | Totais de receitas, despesas, créditos e deduções a nível de LLC |
-| **Schedule M-1** | Reconciliação de receitas contábeis vs fiscais |
-| **Schedule M-2** | Análise de conta de capital dos sócios |
-| **Schedule K-1** | Participação individual de cada sócio em receitas, despesas, créditos e deduções |
+| **Pï¿½gina 1** | Informaï¿½ï¿½o geral da LLC: nome, EIN, endereï¿½o, data de constituiï¿½ï¿½o |
+| **Schedule A** | Custo de bens vendidos (se aplicï¿½vel) |
+| **Schedule B** | Informaï¿½ï¿½o sobre a propriedade da LLC |
+| **Schedule K** | Totais de receitas, despesas, crï¿½ditos e deduï¿½ï¿½es a nï¿½vel de LLC |
+| **Schedule M-1** | Reconciliaï¿½ï¿½o de receitas contï¿½beis vs fiscais |
+| **Schedule M-2** | Anï¿½lise de conta de capital dos sï¿½cios |
+| **Schedule K-1** | Participaï¿½ï¿½o individual de cada sï¿½cio em receitas, despesas, crï¿½ditos e deduï¿½ï¿½es |
 
-## Schedule K-1: O documento principal para cada sócio
+## Schedule K-1: O documento principal para cada sï¿½cio
 
-O **Schedule K-1** é o documento mais importante para os sócios de uma multi-member LLC. Cada sócio recebe um, contendo:
+O **Schedule K-1** ï¿½ o documento mais importante para os sï¿½cios de uma multi-member LLC. Cada sï¿½cio recebe um, contendo:
 
-### Informação incluída no K-1
+### Informaï¿½ï¿½o incluï¿½da no K-1
 
-| Caixa | Informação |
+| Caixa | Informaï¿½ï¿½o |
 |-------|-----------|
-| **Box 1** | Receitas ordinárias (prejuízos) do negócio |
-| **Box 2** | Ganhos de capital líquidos |
-| **Box 3** | Ganhos de capital líquidos de longo prazo |
+| **Box 1** | Receitas ordinï¿½rias (prejuï¿½zos) do negï¿½cio |
+| **Box 2** | Ganhos de capital lï¿½quidos |
+| **Box 3** | Ganhos de capital lï¿½quidos de longo prazo |
 | **Box 4** | Receitas de aluguel |
 | **Box 5** | Juros |
-| **Box 6a** | Dividendos ordinários |
+| **Box 6a** | Dividendos ordinï¿½rios |
 | **Box 6b** | Dividendos qualificados |
 | **Box 7** | Royalties |
 | **Box 8** | Receitas de partnerships ou trusts |
-| **Box 9a** | Deduções de receitas comerciais (Section 199A) |
+| **Box 9a** | Deduï¿½ï¿½es de receitas comerciais (Section 199A) |
 | **Box 10** | Outras receitas |
-| **Box 11-20** | Deduções, créditos e outra informação |
+| **Box 11-20** | Deduï¿½ï¿½es, crï¿½ditos e outra informaï¿½ï¿½o |
 
-### O que o sócio faz com o K-1?
+### O que o sï¿½cio faz com o K-1?
 
-Cada sócio deve reportar a informação de seu K-1 em sua declaração de impostos pessoal:
+Cada sï¿½cio deve reportar a informaï¿½ï¿½o de seu K-1 em sua declaraï¿½ï¿½o de impostos pessoal:
 
-- **Sócios americanos:** Em seu Formulário 1040.
-- **Sócios estrangeiros:** Em seu Formulário 1040-NR (se tiverem ECI) ou em sua declaração local (segundo o tratado fiscal).
+- **Sï¿½cios americanos:** Em seu Formulï¿½rio 1040.
+- **Sï¿½cios estrangeiros:** Em seu Formulï¿½rio 1040-NR (se tiverem ECI) ou em sua declaraï¿½ï¿½o local (segundo o tratado fiscal).
 
 ## Prazos principais
 
 | Evento | Data limite |
 |--------|-------------|
-| **Formulário 1065** (sem extensão) | 15 de março |
-| **Formulário 7004** (solicitação de extensão) | 15 de março |
-| **1065 com extensão** | 15 de setembro |
-| **K-1 para os sócios** | Deve ser emitido antes dos sócios apresentarem suas declarações |
+| **Formulï¿½rio 1065** (sem extensï¿½o) | 15 de marï¿½o |
+| **Formulï¿½rio 7004** (solicitaï¿½ï¿½o de extensï¿½o) | 15 de marï¿½o |
+| **1065 com extensï¿½o** | 15 de setembro |
+| **K-1 para os sï¿½cios** | Deve ser emitido antes dos sï¿½cios apresentarem suas declaraï¿½ï¿½es |
 
-> **Diferença principal do 5472:** O 1065 é apresentado ao IRS em data diferente e tem regras de extensão distintas.
+> **Diferenï¿½a principal do 5472:** O 1065 ï¿½ apresentado ao IRS em data diferente e tem regras de extensï¿½o distintas.
 
-## Passo a passo para preparar o Formulário 1065
+## Passo a passo para preparar o Formulï¿½rio 1065
 
-### Passo 1: Reúna os registros financeiros
+### Passo 1: Reï¿½na os registros financeiros
 
-- Demonstração de resultados (P&L) da LLC.
-- Balanço patrimonial.
-- Registro de transações de cada sócio (aportações, retiradas, distribuições).
-- Informação pessoal de cada sócio (nome, endereço, EIN ou SSN, percentual de participação).
+- Demonstraï¿½ï¿½o de resultados (P&L) da LLC.
+- Balanï¿½o patrimonial.
+- Registro de transaï¿½ï¿½es de cada sï¿½cio (aportaï¿½ï¿½es, retiradas, distribuiï¿½ï¿½es).
+- Informaï¿½ï¿½o pessoal de cada sï¿½cio (nome, endereï¿½o, EIN ou SSN, percentual de participaï¿½ï¿½o).
 
 ### Passo 2: Calcule os totais de receitas e despesas
 
-Determine a nível de LLC:
+Determine a nï¿½vel de LLC:
 
 | Categoria | Exemplos |
 |-----------|----------|
-| **Receitas** | Vendas, serviços, juros, outras receitas |
-| **Despesas** | Salários, aluguel, marketing, software, viagens, depreciação |
-| **Deduções** | Section 179, planos de aposentadoria, etc. |
-| **Créditos** | Créditos fiscais aplicáveis |
+| **Receitas** | Vendas, serviï¿½os, juros, outras receitas |
+| **Despesas** | Salï¿½rios, aluguel, marketing, software, viagens, depreciaï¿½ï¿½o |
+| **Deduï¿½ï¿½es** | Section 179, planos de aposentadoria, etc. |
+| **Crï¿½ditos** | Crï¿½ditos fiscais aplicï¿½veis |
 
-### Passo 3: Distribua entre os sócios
+### Passo 3: Distribua entre os sï¿½cios
 
-Segundo o percentual de participação de cada sócio (definido no Operating Agreement), distribua:
+Segundo o percentual de participaï¿½ï¿½o de cada sï¿½cio (definido no Operating Agreement), distribua:
 
-- Receitas ordinárias.
+- Receitas ordinï¿½rias.
 - Ganhos e perdas de capital.
-- Deduções especiais.
-- Créditos.
+- Deduï¿½ï¿½es especiais.
+- Crï¿½ditos.
 
-### Passo 4: Complete o formulário
+### Passo 4: Complete o formulï¿½rio
 
-Preencha cada seção do 1065 com os totais da LLC e gere os K-1 individuais.
+Preencha cada seï¿½ï¿½o do 1065 com os totais da LLC e gere os K-1 individuais.
 
 ### Passo 5: Assine e envie
 
-- O 1065 deve ser assinado por um **sócio designado** (Tax Matters Partner).
-- É enviado ao IRS eletronicamente (obrigatório se apresentar mais de 10 returns) ou por correio.
+- O 1065 deve ser assinado por um **sï¿½cio designado** (Tax Matters Partner).
+- ï¿½ enviado ao IRS eletronicamente (obrigatï¿½rio se apresentar mais de 10 returns) ou por correio.
 
-### Passo 6: Entregue os K-1 aos sócios
+### Passo 6: Entregue os K-1 aos sï¿½cios
 
-Cada sócio deve receber seu K-1 a tempo de apresentar sua declaração pessoal.
+Cada sï¿½cio deve receber seu K-1 a tempo de apresentar sua declaraï¿½ï¿½o pessoal.
 
-## Diferenças principais: 1065 vs 5472
+## Diferenï¿½as principais: 1065 vs 5472
 
-| Aspecto | Formulário 1065 | Formulário 5472 |
+| Aspecto | Formulï¿½rio 1065 | Formulï¿½rio 5472 |
 |---------|----------------|-----------------|
-| **Quem apresenta?** | Multi-member LLCs | Single-member LLCs (proprietário estrangeiro) |
-| **Tipo de declaração** | Informativa (ganhos/perdas) | Informativa (transações) |
-| **Data limite** | 15 de março | 15 de abril |
-| **Extensão** | Até 15 de setembro | Até 15 de outubro |
-| **K-1** | Sim, para cada sócio | Não aplica |
-| **Multa por não apresentar** | $220 por mês por sócio | $25.000 por ano |
-| **Complexidade** | Média-Alta | Baixa-Média |
+| **Quem apresenta?** | Multi-member LLCs | Single-member LLCs (proprietï¿½rio estrangeiro) |
+| **Tipo de declaraï¿½ï¿½o** | Informativa (ganhos/perdas) | Informativa (transaï¿½ï¿½es) |
+| **Data limite** | 15 de marï¿½o | 15 de abril |
+| **Extensï¿½o** | Atï¿½ 15 de setembro | Atï¿½ 15 de outubro |
+| **K-1** | Sim, para cada sï¿½cio | Nï¿½o aplica |
+| **Multa por nï¿½o apresentar** | $220 por mï¿½s por sï¿½cio | $25.000 por ano |
+| **Complexidade** | Mï¿½dia-Alta | Baixa-Mï¿½dia |
 
-## Obrigações para sócios estrangeiros
+## Obrigaï¿½ï¿½es para sï¿½cios estrangeiros
 
-Se sua multi-member LLC tem sócios estrangeiros não residentes:
+Se sua multi-member LLC tem sï¿½cios estrangeiros nï¿½o residentes:
 
-### 1. Formulário 1065 com informação de sócios estrangeiros
+### 1. Formulï¿½rio 1065 com informaï¿½ï¿½o de sï¿½cios estrangeiros
 
-O 1065 deve incluir a informação de todos os sócios, incluindo os estrangeiros. Nome, endereço e país de residência fiscal são obrigatórios.
+O 1065 deve incluir a informaï¿½ï¿½o de todos os sï¿½cios, incluindo os estrangeiros. Nome, endereï¿½o e paï¿½s de residï¿½ncia fiscal sï¿½o obrigatï¿½rios.
 
-### 2. Schedule K-1 para sócios estrangeiros
+### 2. Schedule K-1 para sï¿½cios estrangeiros
 
-Cada sócio estrangeiro recebe um K-1. Dependendo se a LLC tem ECI (Effectively Connected Income), o sócio estrangeiro pode precisar apresentar:
+Cada sï¿½cio estrangeiro recebe um K-1. Dependendo se a LLC tem ECI (Effectively Connected Income), o sï¿½cio estrangeiro pode precisar apresentar:
 
-- **Formulário 1040-NR:** Se tiver ECI.
-- **Formulário 1040-NR com Schedule NEC:** Se tiver receitas fixas ou determináveis.
+- **Formulï¿½rio 1040-NR:** Se tiver ECI.
+- **Formulï¿½rio 1040-NR com Schedule NEC:** Se tiver receitas fixas ou determinï¿½veis.
 
-### 3. Retenção de impostos (Chapter 3)
+### 3. Retenï¿½ï¿½o de impostos (Chapter 3)
 
-Se a LLC distribuir receitas a sócios estrangeiros, pode estar sujeita a retenção de **30%** a menos que se aplique um tratado fiscal.
+Se a LLC distribuir receitas a sï¿½cios estrangeiros, pode estar sujeita a retenï¿½ï¿½o de **30%** a menos que se aplique um tratado fiscal.
 
-### 4. EIN para sócios estrangeiros
+### 4. EIN para sï¿½cios estrangeiros
 
-Cada sócio estrangeiro precisa de um **ITIN** (Individual Taxpayer Identification Number) ou EIN para reportar seus impostos nos EUA.
+Cada sï¿½cio estrangeiro precisa de um **ITIN** (Individual Taxpayer Identification Number) ou EIN para reportar seus impostos nos EUA.
 
 ## Erros comuns
 
-### Erro 1: Não apresentar o 1065 porque "a LLC não gerou receitas"
+### Erro 1: Nï¿½o apresentar o 1065 porque "a LLC nï¿½o gerou receitas"
 
-Mesmo sem receitas, se a LLC teve despesas ou os sócios fizeram aportações, geralmente deve apresentar-se o 1065.
+Mesmo sem receitas, se a LLC teve despesas ou os sï¿½cios fizeram aportaï¿½ï¿½es, geralmente deve apresentar-se o 1065.
 
 ### Erro 2: Confundir o 1065 com o 5472
 
-São formulários diferentes para tipos distintos de LLC. O 1065 é para multi-member; o 5472 para single-member com proprietário estrangeiro.
+Sï¿½o formulï¿½rios diferentes para tipos distintos de LLC. O 1065 ï¿½ para multi-member; o 5472 para single-member com proprietï¿½rio estrangeiro.
 
-### Erro 3: Não emitir os K-1 a tempo
+### Erro 3: Nï¿½o emitir os K-1 a tempo
 
-Os sócios precisam de seu K-1 para apresentar suas declarações pessoais. Atrasar os K-1 atrasa as declarações de todos.
+Os sï¿½cios precisam de seu K-1 para apresentar suas declaraï¿½ï¿½es pessoais. Atrasar os K-1 atrasa as declaraï¿½ï¿½es de todos.
 
-### Erro 4: Ignorar as obrigações de sócios estrangeiros
+### Erro 4: Ignorar as obrigaï¿½ï¿½es de sï¿½cios estrangeiros
 
-Se você tem sócios estrangeiros, o compliance é mais complexo. Não assuma que eles não precisam reportar nada nos EUA.
+Se vocï¿½ tem sï¿½cios estrangeiros, o compliance ï¿½ mais complexo. Nï¿½o assuma que eles nï¿½o precisam reportar nada nos EUA.
 
-### Erro 5: Não atualizar o Operating Agreement
+### Erro 5: Nï¿½o atualizar o Operating Agreement
 
-O 1065 distribui lucros segundo o percentual de participação. Se o Operating Agreement não está atualizado, a distribuição pode estar incorreta.
+O 1065 distribui lucros segundo o percentual de participaï¿½ï¿½o. Se o Operating Agreement nï¿½o estï¿½ atualizado, a distribuiï¿½ï¿½o pode estar incorreta.
 
-### Erro 6: Não assinar o formulário
+### Erro 6: Nï¿½o assinar o formulï¿½rio
 
-Um 1065 sem assinatura é inválido. O Tax Matters Partner deve assinar.
+Um 1065 sem assinatura ï¿½ invï¿½lido. O Tax Matters Partner deve assinar.
 
-## Caso prático: Agência digital com dois sócios
+## Caso prï¿½tico: Agï¿½ncia digital com dois sï¿½cios
 
-**Situação:** Maria e João são sócios ao 50% de uma agência de marketing digital com LLC na Flórida. Em 2024:
+**Situaï¿½ï¿½o:** Maria e Joï¿½o sï¿½o sï¿½cios ao 50% de uma agï¿½ncia de marketing digital com LLC na Flï¿½rida. Em 2024:
 
 | Conceito | Valor |
 |----------|-------|
 | Receitas totais | $120.000 |
 | Despesas operacionais | $70.000 |
-| Lucro líquido | $50.000 |
-| Aportação de cada sócio | $5.000 |
-| Distribuição a cada sócio | $20.000 |
+| Lucro lï¿½quido | $50.000 |
+| Aportaï¿½ï¿½o de cada sï¿½cio | $5.000 |
+| Distribuiï¿½ï¿½o a cada sï¿½cio | $20.000 |
 
 ### O que a LLC deve fazer
 
-1. Preparar o Formulário 1065 com os totais.
+1. Preparar o Formulï¿½rio 1065 com os totais.
 2. Gerar dois K-1, cada um com:
-   - Receita ordinária: $25.000 (50% de $50.000).
-   - Aportação de capital: $5.000.
-   - Distribuições: $20.000.
-3. Enviar o 1065 antes de 15 de março.
-4. Entregar os K-1 a Maria e João.
+   - Receita ordinï¿½ria: $25.000 (50% de $50.000).
+   - Aportaï¿½ï¿½o de capital: $5.000.
+   - Distribuiï¿½ï¿½es: $20.000.
+3. Enviar o 1065 antes de 15 de marï¿½o.
+4. Entregar os K-1 a Maria e Joï¿½o.
 
-### O que cada sócio deve fazer
+### O que cada sï¿½cio deve fazer
 
-- **Maria (cidadã dos EUA):** Reporta seu K-1 em seu Formulário 1040.
-- **João (estrangeiro não residente):** Reporta seu K-1 em seu Formulário 1040-NR (se ECI aplicável) ou em sua declaração local. Além disso, pode aplicar-se retenção de 30% se não houver tratado fiscal.
+- **Maria (cidadï¿½ dos EUA):** Reporta seu K-1 em seu Formulï¿½rio 1040.
+- **Joï¿½o (estrangeiro nï¿½o residente):** Reporta seu K-1 em seu Formulï¿½rio 1040-NR (se ECI aplicï¿½vel) ou em sua declaraï¿½ï¿½o local. Alï¿½m disso, pode aplicar-se retenï¿½ï¿½o de 30% se nï¿½o houver tratado fiscal.
 
 ## Precisa de um CPA?
 
-O Formulário 1065 é significativamente mais complexo que o 5472. Para a maioria das multi-member LLCs, é altamente recomendável contratar um CPA.
+O Formulï¿½rio 1065 ï¿½ significativamente mais complexo que o 5472. Para a maioria das multi-member LLCs, ï¿½ altamente recomendï¿½vel contratar um CPA.
 
-### Custos típicos
+### Custos tï¿½picos
 
-| Serviço | Custo estimado |
+| Serviï¿½o | Custo estimado |
 |---------|---------------|
-| Preparação do 1065 + K-1 (2 sócios) | $800 - $1.500 |
-| Por sócio adicional | $100 - $200 |
-| Preparação da declaração pessoal do sócio | $300 - $800 |
-| Assessoria durante o ano | $100 - $300/mês |
+| Preparaï¿½ï¿½o do 1065 + K-1 (2 sï¿½cios) | $800 - $1.500 |
+| Por sï¿½cio adicional | $100 - $200 |
+| Preparaï¿½ï¿½o da declaraï¿½ï¿½o pessoal do sï¿½cio | $300 - $800 |
+| Assessoria durante o ano | $100 - $300/mï¿½s |
 
 ## Checklist anual
 
-- [ ] Reunir demonstrações financeiras da LLC (P&L, Balanço).
-- [ ] Confirmar percentuais de participação de cada sócio.
-- [ ] Registrar todas as aportações e distribuições do ano.
-- [ ] Preparar o Formulário 1065.
-- [ ] Gerar Schedule K-1 para cada sócio.
-- [ ] Revisar com cada sócio se a informação do K-1 está correta.
+- [ ] Reunir demonstraï¿½ï¿½es financeiras da LLC (P&L, Balanï¿½o).
+- [ ] Confirmar percentuais de participaï¿½ï¿½o de cada sï¿½cio.
+- [ ] Registrar todas as aportaï¿½ï¿½es e distribuiï¿½ï¿½es do ano.
+- [ ] Preparar o Formulï¿½rio 1065.
+- [ ] Gerar Schedule K-1 para cada sï¿½cio.
+- [ ] Revisar com cada sï¿½cio se a informaï¿½ï¿½o do K-1 estï¿½ correta.
 - [ ] Assinar o 1065 (Tax Matters Partner).
-- [ ] Enviar o 1065 ao IRS antes de 15 de março (ou 15 de setembro com extensão).
-- [ ] Entregar os K-1 aos sócios.
-- [ ] Guardar cópia de tudo.
+- [ ] Enviar o 1065 ao IRS antes de 15 de marï¿½o (ou 15 de setembro com extensï¿½o).
+- [ ] Entregar os K-1 aos sï¿½cios.
+- [ ] Guardar cï¿½pia de tudo.
 
-## Conclusão
+## Conclusï¿½o
 
-O Formulário 1065 é uma obrigação fiscal fundamental para as multi-member LLCs. Ao contrário do 5472 (simples e de baixo custo), o 1065 exige contabilidade mais detalhada e, geralmente, a ajuda de um CPA.
+O Formulï¿½rio 1065 ï¿½ uma obrigaï¿½ï¿½o fiscal fundamental para as multi-member LLCs. Ao contrï¿½rio do 5472 (simples e de baixo custo), o 1065 exige contabilidade mais detalhada e, geralmente, a ajuda de um CPA.
 
-Se sua LLC tem sócios, não ignore esta obrigação. As multas acumulam-se e o IRS tem sistemas para detectar partnerships que não apresentam.
+Se sua LLC tem sï¿½cios, nï¿½o ignore esta obrigaï¿½ï¿½o. As multas acumulam-se e o IRS tem sistemas para detectar partnerships que nï¿½o apresentam.
 
-**Dica principal:** Se você está considerando adicionar um sócio à sua LLC (passando de disregarded entity para partnership), prepare-se para a complexidade adicional do Formulário 1065 e dos K-1.
+**Dica principal:** Se vocï¿½ estï¿½ considerando adicionar um sï¿½cio ï¿½ sua LLC (passando de disregarded entity para partnership), prepare-se para a complexidade adicional do Formulï¿½rio 1065 e dos K-1.
 
-## Precisa de ajuda com seu Formulário 1065?
+## Precisa de ajuda com seu Formulï¿½rio 1065?
 
-Na **Sotomayor Consulting International**, conectamos você com CPAs especializados em multi-member LLCs e ajudamos a manter o compliance da sua partnership.
+Na **Sotomayor Consulting International**, conectamos vocï¿½ com CPAs especializados em multi-member LLCs e ajudamos a manter o compliance da sua partnership.
 
-**Agende uma consultoria gratuita** e garanta que sua LLC com sócios esteja em dia com o IRS.
+**Agende uma consultoria gratuita** e garanta que sua LLC com sï¿½cios esteja em dia com o IRS.

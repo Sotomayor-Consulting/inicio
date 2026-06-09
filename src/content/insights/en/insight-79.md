@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Asset Protection for Investors: Complete Guide 2026"
 description: "Asset protection for investors"
 cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"

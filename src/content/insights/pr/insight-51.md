@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Abrir Stripe desde a América Latina: Guia Passo a Passo"
 description: "Abrir Stripe desde a América Latina"
 cardImage: "@/images/insights/stripe.png"

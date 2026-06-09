@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What Structures International Entrepreneurs Use: Guide 2026"
 description: "What structures international entrepreneurs use"
 cardImage: "@/images/insights/blog-2.avif"

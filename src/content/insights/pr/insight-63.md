@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Gerenciar Reembolsos Corretamente no Stripe: Guia 2026"
 description: "Como gerenciar reembolsos corretamente no Stripe"
 cardImage: "@/images/insights/stripe.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What Taxes a Foreigner Pays in Real Estate: 2026 Guide"
 description: "What taxes a foreigner pays in real estate"
 cardImage: "@/images/insights/inversión-extranjera.png"

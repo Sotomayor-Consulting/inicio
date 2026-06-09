@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Open International Operations: 2026 Guide"
 description: "How to open international operations"
 cardImage: "@/images/insights/negocios-internacionales.png"

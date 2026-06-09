@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Stripe para Agências de Marketing: Guia Completo 2026"
 description: "Stripe para agências de marketing"
 cardImage: "@/images/insights/stripe.png"

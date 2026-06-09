@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Avoid State Tax and Filing Penalties: 2026 Guide"
 description: "Strategies to prevent state penalties and keep your business compliant"
 cardImage: "@/images/insights/cumplimiento-fiscal.png"

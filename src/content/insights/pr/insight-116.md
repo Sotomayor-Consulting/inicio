@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Revisar a Situação Tributária da Sua Empresa: Guia 2026"
 description: "Verifique a situação de conformidade tributária federal, estadual e local da sua empresa para evitar multas"
 cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"

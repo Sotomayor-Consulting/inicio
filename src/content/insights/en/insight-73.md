@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Separate Personal and Business Finances: Guide 2026"
 description: "How to separate personal and business finances"
 cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership.png"

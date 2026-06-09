@@ -5,7 +5,7 @@ cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.png"
 cardImageAlt: "Worried person reviewing IRS documents"
 ---
 
-Many Latin American entrepreneurs open an LLC in the United States, obtain their EIN, start operating… and never file a tax return. Some believe it is not necessary, others think "the IRS will never find them," and many simply did not know they had obligations.
+Many Latin American entrepreneurs open an LLC in the United States, obtain their EIN, start operatingï¿½ and never file a tax return. Some believe it is not necessary, others think "the IRS will never find them," and many simply did not know they had obligations.
 
 The question that eventually comes is: **what happens if you never filed taxes in the United States?**
 
@@ -39,7 +39,7 @@ Each state has its own penalties:
 
 | State | Late penalty | Additional consequence |
 |-------|-------------|----------------------|
-| **Wyoming** | $50–$150 | LLC suspension |
+| **Wyoming** | $50ï¿½$150 | LLC suspension |
 | **Florida** | $400 | Suspension and loss of good standing |
 | **Delaware** | $200 + interest | Suspension and additional charges |
 
@@ -126,7 +126,7 @@ If the LLC is not generating benefits that justify its maintenance, it may be be
 
 The IRS generally has **3 years** to audit a filed return. However:
 
-- If you filed no return, **there is no statute of limitations** — the IRS can claim at any time.
+- If you filed no return, **there is no statute of limitations** ï¿½ the IRS can claim at any time.
 - For tax fraud, the period extends to **6 years**.
 - Penalties for not filing informational forms (like Form 5472) **do not expire** as long as the form is not filed.
 
@@ -165,7 +165,7 @@ If you already have an LLC and have not filed:
 
 ## Conclusion
 
-Not filing taxes with your LLC in the United States is not a strategy — it is a risk. Consequences range from $25,000 penalties for unfiled forms to LLC suspension, frozen bank accounts, and accumulated tax debts.
+Not filing taxes with your LLC in the United States is not a strategy ï¿½ it is a risk. Consequences range from $25,000 penalties for unfiled forms to LLC suspension, frozen bank accounts, and accumulated tax debts.
 
 The good news is that **regularization is possible**. The IRS has programs for non-resident taxpayers to catch up on their obligations without maximum penalties.
 

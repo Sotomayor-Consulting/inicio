@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Reduce Operational Burden with Technology: 2026 Guide"
 description: "Reduce operational load with automation"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

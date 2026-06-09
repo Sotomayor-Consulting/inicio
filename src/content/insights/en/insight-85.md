@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Finance Properties in the US as a Foreigner: 2026 Guide"
 description: "How to finance properties in the US as a foreigner"
 cardImage: "@/images/insights/inversión-extranjera.png"

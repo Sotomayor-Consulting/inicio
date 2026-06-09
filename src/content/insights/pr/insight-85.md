@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Financiar Propriedades nos EUA sendo Estrangeiro: Guia 2026"
 description: "Como financiar propriedades nos EUA sendo estrangeiro"
 cardImage: "@/images/insights/inversión-extranjera.png"

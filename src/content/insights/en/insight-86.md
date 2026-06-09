@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Common Mistakes When Investing in Florida as a Foreigner: 2026 Guide"
 description: "Common mistakes when investing in Florida as a foreigner"
 cardImage: "@/images/insights/inversión-extranjera.png"

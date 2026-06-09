@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Structure a Scalable Business: 2026 Guide"
 description: "Structure a scalable business"
 cardImage: "@/images/insights/negocios-internacionales.png"

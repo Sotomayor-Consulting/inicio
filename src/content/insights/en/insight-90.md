@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Generate Passive Income with Properties in the US: 2026 Guide"
 description: "How to generate passive income with properties in the US"
 cardImage: "@/images/insights/real-state.png"

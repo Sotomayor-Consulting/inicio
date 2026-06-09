@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Benefits of Buying Properties with an LLC: Guide 2026"
 description: "Benefits of buying properties with an LLC"
 cardImage: "@/images/insights/beneficio-llc.png"

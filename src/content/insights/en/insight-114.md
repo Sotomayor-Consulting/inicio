@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What to Do If the IRS Sent You a Letter: 2026 Guide"
 description: "Step-by-step guide to responding to IRS notices, audits, and tax letters"
 cardImage: "@/images/insights/IRS-guía para dueños de llc.png"

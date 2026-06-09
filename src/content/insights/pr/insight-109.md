@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como reduzir a carga operacional com tecnologia: Guia 2026"
 description: "Reduza a carga operacional com automação"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

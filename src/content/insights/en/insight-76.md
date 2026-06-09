@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Holding vs Operating Company: Differences and Structure 2026"
 description: "Holding vs operating company"
 cardImage: "@/images/insights/que es una holding.png"

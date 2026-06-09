@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What Is an Annual Report: 2026 Guide for Business Owners"
 description: "Learn what an annual report is, why it matters for your LLC or corporation, and how to file on time"
 cardImage: "@/images/insights/annual-report.png"

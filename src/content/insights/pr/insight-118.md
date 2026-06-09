@@ -1,4 +1,4 @@
-﻿---
+---
 title: "O Que Acontece Se Você Perder o Good Standing: Guia 2026"
 description: "Saiba o que acontece quando sua LLC ou corporação perde o good standing e como recuperá-lo"
 cardImage: "@/images/insights/annual-report.png"

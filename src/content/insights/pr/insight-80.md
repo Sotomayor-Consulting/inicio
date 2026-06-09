@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Planejar Heranças Internacionais: Guia 2026"
 description: "Como planejar heranças internacionais"
 cardImage: "@/images/insights/pagos-internacionales.png"

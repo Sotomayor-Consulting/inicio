@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Cobrar Clientes em Diferentes Países: Guia 2026"
 description: "Como cobrar clientes em diferentes países"
 cardImage: "@/images/insights/pagos-internacionales.png"

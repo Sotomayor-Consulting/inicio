@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Implement Scalable Processes: 2026 Guide"
 description: "Build processes that scale with your business"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Que Estruturas os Empresários Internacionais Usam: Guia 2026"
 description: "Que estruturas empresários internacionais usam"
 cardImage: "@/images/insights/blog-2.avif"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Professionalize a Digital Business: 2026 Guide"
 description: "How to professionalize a digital business"
 cardImage: "@/images/insights/internacionalizar-una-marca.png"

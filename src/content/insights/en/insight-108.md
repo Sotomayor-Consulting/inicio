@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Automate Lead Tracking: 2026 Guide"
 description: "Automate lead tracking and follow-up"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Stripe para Coaches e Consultores: Guia Completo 2026"
 description: "Stripe para coaches e consultores"
 cardImage: "@/images/insights/stripe.png"

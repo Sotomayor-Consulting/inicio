@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Holding vs Empresa Operacional: Diferenças e Estrutura 2026"
 description: "Holding vs empresa operacional"
 cardImage: "@/images/insights/que es una holding.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Stripe para SaaS: Guia Completo de Integração 2026"
 description: "Stripe para SaaS"
 cardImage: "@/images/insights/stripe.png"

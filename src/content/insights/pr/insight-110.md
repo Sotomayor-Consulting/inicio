@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como implementar processos escaláveis: Guia 2026"
 description: "Construa processos que escalem com seu negócio"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

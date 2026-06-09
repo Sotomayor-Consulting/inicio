@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Evitar Ações Judiciais Pessoais: Guia Completo 2026"
 description: "Como evitar ações judiciais pessoais"
 cardImage: "@/images/insights/llc-mal-estructurada.png"

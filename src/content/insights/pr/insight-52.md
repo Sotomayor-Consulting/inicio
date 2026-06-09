@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Requisitos para Stripe em 2026: Tudo o que Você Precisa Saber"
 description: "Requisitos para Stripe em 2026"
 cardImage: "@/images/insights/stripe.png"

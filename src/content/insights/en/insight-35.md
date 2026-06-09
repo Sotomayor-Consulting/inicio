@@ -1,11 +1,11 @@
 ---
 title: "Taxes for Digital Nomads: What You Must Know to Comply with the IRS"
 description: "Tax guide for digital nomads"
-cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
+cardImage: "@/images/insights/IRS-guÃ­a para dueÃ±os de llc.png"
 cardImageAlt: "Digital nomad working on a beach with laptop"
 ---
 
-The **digital nomad** lifestyle — working remotely while traveling the world — has grown enormously. However, many digital nomads are unaware of their tax obligations in the United States. Understanding **taxes for digital nomads** is key to avoiding penalties and taking advantage of available tax benefits.
+The **digital nomad** lifestyle ï¿½ working remotely while traveling the world ï¿½ has grown enormously. However, many digital nomads are unaware of their tax obligations in the United States. Understanding **taxes for digital nomads** is key to avoiding penalties and taking advantage of available tax benefits.
 
 Below, we explain everything you need to know about your tax situation as a digital nomad.
 

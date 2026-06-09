@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Internacionalizar uma Marca: Guia 2026"
 description: "Como internacionalizar uma marca"
 cardImage: "@/images/insights/internacionalizar-una-marca.png"

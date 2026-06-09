@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Gerenciar Pagamentos Internacionais Corretamente: Guia Prático de Métodos e Conformidade"
 description: "Gestão de pagamentos internacionais"
 cardImage: "@/images/insights/pagos-internacionales.png"

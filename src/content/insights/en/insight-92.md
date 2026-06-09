@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Signs Your Business Needs International Structure: 2026 Guide"
 description: "Signs your business needs international structure"
 cardImage: "@/images/insights/internacionalizar-una-marca.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Know If Your LLC Is at Risk: 2026 Guide"
 description: "Red flags, warning signs, and compliance checks to assess your LLC's health"
 cardImage: "@/images/insights/llc-mal-estructurada.png"

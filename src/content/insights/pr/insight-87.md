@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Estruturar Propriedades para Proteção Patrimonial: Guia 2026"
 description: "Como estruturar propriedades para proteção patrimonial"
 cardImage: "@/images/insights/propiedades-para-protección-patrimonial.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Reinstalar uma Empresa Administrativamente Dissolvida: Guia 2026"
 description: "Guia passo a passo para reinstalar sua LLC ou corporação após dissolução administrativa"
 cardImage: "@/images/insights/annual-report.png"

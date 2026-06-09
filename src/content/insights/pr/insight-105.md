@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como integrar Stripe com automações: Guia 2026"
 description: "Integração de automação com Stripe"
 cardImage: "@/images/insights/stripe.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Projetar uma Imagem Profissional com Stripe: Guia 2026"
 description: "Como projetar uma imagem profissional com Stripe"
 cardImage: "@/images/insights/stripe.png"

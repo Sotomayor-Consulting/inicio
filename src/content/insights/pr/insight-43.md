@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Evitar Bloqueios Bancários: Guia para Manter suas Contas Ativas"
 description: "Prevenção de bloqueios bancários"
 cardImage: "@/images/insights/estandar-comun-de-reporte.png"

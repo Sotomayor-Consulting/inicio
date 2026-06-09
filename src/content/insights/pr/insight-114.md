@@ -1,4 +1,4 @@
-﻿---
+---
 title: "O Que Fazer se o IRS te Enviou uma Carta: Guia 2026"
 description: "Guia passo a passo para responder a avisos, auditorias e cartas fiscais do IRS"
 cardImage: "@/images/insights/IRS-guía para dueños de llc.png"

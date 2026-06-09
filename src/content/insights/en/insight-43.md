@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Avoid Bank Account Freezes: Guide to Keep Your Accounts Active"
 description: "Prevention of bank account freezes"
 cardImage: "@/images/insights/estandar-comun-de-reporte.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "CRM para neg�cios internacionais: Guia 2026"
 description: "Estrat�gia CRM internacional"
 cardImage: "@/images/insights/negocios-internacionales.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Gerar Renda Passiva com Propriedades nos EUA: Guia 2026"
 description: "Como gerar renda passiva com propriedades nos EUA"
 cardImage: "@/images/insights/real-state.png"

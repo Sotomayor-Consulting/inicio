@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Invoice Internationally: Complete Guide 2026"
 description: "How to invoice internationally"
 cardImage: "@/images/insights/pagos-internacionales.png"

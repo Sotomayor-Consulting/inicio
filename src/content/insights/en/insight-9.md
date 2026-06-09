@@ -109,9 +109,9 @@ A simple LLC with no complex operations:
 | Item | Annual cost |
 |------|-------------|
 | Registered agent | $100 |
-| State report | $60–$139 |
-| Informational filings | $200–$500 |
-| **Approximate total** | **$360–$739** |
+| State report | $60ï¿½$139 |
+| Informational filings | $200ï¿½$500 |
+| **Approximate total** | **$360ï¿½$739** |
 
 ### Intermediate scenario
 
@@ -119,11 +119,11 @@ If the company has bank activity, Stripe, e-commerce, or members:
 
 | Item | Annual cost |
 |------|-------------|
-| Registered agent | $100–$200 |
-| State report | $60–$300 |
-| Tax filings | $500–$1500 |
-| Monthly bookkeeping | $600–$1800 |
-| **Approximate total** | **$1260–$3800** |
+| Registered agent | $100ï¿½$200 |
+| State report | $60ï¿½$300 |
+| Tax filings | $500ï¿½$1500 |
+| Monthly bookkeeping | $600ï¿½$1800 |
+| **Approximate total** | **$1260ï¿½$3800** |
 
 ### Advanced scenario
 
@@ -131,12 +131,12 @@ Companies with employees, physical operations, inventory, or holding structures:
 
 | Item | Annual cost |
 |------|-------------|
-| Registered agent | $200–$300 |
-| State report + taxes | $300–$800+ |
-| Tax filings | $1500–$5000+ |
-| Monthly bookkeeping | $1800–$6000+ |
-| Licenses and permits | $100–$1000+ |
-| **Approximate total** | **$3900–$13100+** |
+| Registered agent | $200ï¿½$300 |
+| State report + taxes | $300ï¿½$800+ |
+| Tax filings | $1500ï¿½$5000+ |
+| Monthly bookkeeping | $1800ï¿½$6000+ |
+| Licenses and permits | $100ï¿½$1000+ |
+| **Approximate total** | **$3900ï¿½$13100+** |
 
 ## What happens if I don't maintain my LLC?
 

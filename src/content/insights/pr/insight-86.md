@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Erros Comuns ao Investir na Flórida sendo Estrangeiro: Guia 2026"
 description: "Erros comuns ao investir na Flórida sendo estrangeiro"
 cardImage: "@/images/insights/inversión-extranjera.png"

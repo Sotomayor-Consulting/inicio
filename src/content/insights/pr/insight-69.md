@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Otimizar Conversões de Pagamento: Guia Completo 2026"
 description: "Como otimizar conversões de pagamento"
 cardImage: "@/images/insights/métodos y cumplimiento.png"

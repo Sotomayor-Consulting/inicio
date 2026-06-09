@@ -1,4 +1,4 @@
-﻿---
+---
 title: "AI Applied to Customer Support: 2026 Guide"
 description: "AI customer support automation"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Use WhatsApp to Sell More: 2026 Guide"
 description: "Use WhatsApp to sell more"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Documentar Operações Internacionais: Guia de Registros e Compliance"
 description: "Documentação de operações internacionais"
 cardImage: "@/images/insights/estandar-comun-de-reporte.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Reduzir Disputas e Chargebacks no Stripe: Guia 2026"
 description: "Como reduzir disputas e chargebacks no Stripe"
 cardImage: "@/images/insights/stripe.png"

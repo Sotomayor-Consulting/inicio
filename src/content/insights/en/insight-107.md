@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Use Odoo for International Businesses: 2026 Guide"
 description: "Odoo international business ERP"
 cardImage: "@/images/insights/odoo-en-empresas-internacionales.png"

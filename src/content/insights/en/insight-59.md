@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Use Stripe for Digital Courses: Complete Guide 2026"
 description: "How to use Stripe for digital courses"
 cardImage: "@/images/insights/stripe.png"

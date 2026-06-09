@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Handle International Payments Correctly: Practical Guide to Methods and Compliance"
 description: "Handling international payments"
 cardImage: "@/images/insights/pagos-internacionales.png"

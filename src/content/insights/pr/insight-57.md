@@ -1,4 +1,4 @@
-﻿---
+---
 title: "O que o Stripe Precisa para Aprovar sua Conta: Guia Completo 2026"
 description: "O que o Stripe precisa para aprovar sua conta"
 cardImage: "@/images/insights/stripe.png"

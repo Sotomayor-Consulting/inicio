@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Justificar Transferências Internacionais: Guia para Evitar Problemas Fiscais"
 description: "Justificação de transferências internacionais"
 cardImage: "@/images/insights/cumplimiento-fiscal.png"

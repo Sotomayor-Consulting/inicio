@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Tributa o Aluguel nos EUA: Guia Completo 2026"
 description: "Como tributa o aluguel nos EUA"
 cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"

@@ -14,7 +14,7 @@ Below, we explain everything you need to know about FATCA and your obligations a
 FATCA (Foreign Account Tax Compliance Act) was enacted in 2010 as part of the Hiring Incentives to Restore Employment (HIRE) Act. Its primary goal is to **detect and prevent tax evasion** by identifying U.S. taxpayers who hold financial accounts abroad.
 
 ### How does it work?
-FATCA requires **foreign financial institutions (FFIs)** —banks, investment funds, insurance companies, etc.— to report to the IRS information about accounts held by U.S. citizens or residents.
+FATCA requires **foreign financial institutions (FFIs)** ï¿½banks, investment funds, insurance companies, etc.ï¿½ to report to the IRS information about accounts held by U.S. citizens or residents.
 
 If a foreign financial institution fails to comply with these reporting requirements, a **30% withholding tax** is applied to certain U.S.-source payments (such as interest, dividends, and capital gains).
 
@@ -58,7 +58,7 @@ One of the most common confusions is the difference between **FATCA** and **FBAR
 |---|---|---|
 | **Purpose** | Report foreign financial assets | Report foreign bank and financial accounts |
 | **Form** | Form 8938 (with your tax return) | FinCEN Form 114 (separate filing) |
-| **Threshold** | Varies by residency and filing status ($50,000 – $600,000) | $10,000 (aggregate value at any time during the year) |
+| **Threshold** | Varies by residency and filing status ($50,000 ï¿½ $600,000) | $10,000 (aggregate value at any time during the year) |
 | **Covered assets** | Accounts, stocks, bonds, funds, insurance, entity interests | Bank accounts, investment accounts, insurance accounts |
 | **Filing** | With your Form 1040 (annual) | Separately, by October 15 (electronic filing) |
 | **Penalty for non-filing** | $10,000 per violation (up to $50,000 for continued violation) | Up to $10,000 for non-willful; up to $100,000 or 50% of balance for willful |

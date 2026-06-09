@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Abrir Operações Internacionais: Guia 2026"
 description: "Como abrir operações internacionais"
 cardImage: "@/images/insights/negocios-internacionales.png"

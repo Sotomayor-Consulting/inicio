@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Structure Properties for Asset Protection: 2026 Guide"
 description: "How to structure properties for asset protection"
 cardImage: "@/images/insights/propiedades-para-protección-patrimonial.png"

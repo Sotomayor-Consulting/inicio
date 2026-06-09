@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Prevent Stripe from Closing Your Account: Prevention Guide"
 description: "Prevent Stripe from closing your account"
 cardImage: "@/images/insights/stripe.png"

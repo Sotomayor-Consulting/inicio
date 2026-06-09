@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How Rental Income Is Taxed in the US: Complete Guide 2026"
 description: "How rental income is taxed in the US"
 cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"

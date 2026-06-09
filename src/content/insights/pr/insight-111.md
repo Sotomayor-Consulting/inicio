@@ -1,4 +1,4 @@
-﻿---
+---
 title: "O que fazer se você nunca declarou impostos: Guia 2026"
 description: "Passos para resolver impostos não declarados e ficar em dia"
 cardImage: "@/images/insights/una-llc-paga-impuestos.png"

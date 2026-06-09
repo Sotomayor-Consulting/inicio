@@ -1,4 +1,4 @@
-﻿---
+---
 title: "CRM for International Businesses: 2026 Guide"
 description: "International CRM strategy"
 cardImage: "@/images/insights/negocios-internacionales.png"

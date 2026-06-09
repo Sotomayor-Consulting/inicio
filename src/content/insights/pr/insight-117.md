@@ -1,4 +1,4 @@
-﻿---
+---
 title: "O Que é um Annual Report: Guia 2026 para Proprietários de Empresas"
 description: "Saiba o que é um annual report, por que é importante para sua LLC ou corporação e como apresentá-lo a tempo"
 cardImage: "@/images/insights/annual-report.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "O que Revisar Antes de Investir nos EUA sendo Estrangeiro: Guia 2026"
 description: "O que revisar antes de investir nos EUA sendo estrangeiro"
 cardImage: "@/images/insights/inversión-extranjera.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What Is an International Holding Company? Complete Guide to Global Corporate Structures"
 description: "Complete guide to international holding companies"
 cardImage: "@/images/insights/que es una holding.png"

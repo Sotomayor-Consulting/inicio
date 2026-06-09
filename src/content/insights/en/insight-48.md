@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How a Holding Structure Works: Complete Guide"
 description: "Holding Structure - Complete Guide"
 cardImage: "@/images/insights/que es una holding.png"

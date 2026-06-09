@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Lista Anual de Cumplimiento para LLC: Guía 2026"
 description: "Lista de cotejo de cumplimiento anual para LLC que cubre requisitos federales, estatales y locales"
 cardImage: "@/images/insights/métodos y cumplimiento.png"

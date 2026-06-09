@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Prepare Your Business for Global Growth: 2026 Guide"
 description: "Prepare your business for global growth"
 cardImage: "@/images/insights/negocios-internacionales.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Plan International Inheritances: Guide 2026"
 description: "How to plan international inheritances"
 cardImage: "@/images/insights/pagos-internacionales.png"

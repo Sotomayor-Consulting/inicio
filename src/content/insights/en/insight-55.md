@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Receive International Payments: Complete Guide for 2026"
 description: "Receive international payments"
 cardImage: "@/images/insights/pagos-internacionales.png"

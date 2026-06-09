@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Avoid Personal Lawsuits: Complete Guide 2026"
 description: "How to avoid personal lawsuits"
 cardImage: "@/images/insights/llc-mal-estructurada.png"

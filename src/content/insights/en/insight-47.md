@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Benefits of a Canadian LP: Corporate Structure for Non-Residents"
 description: "Benefits of a Canadian Limited Partnership"
 cardImage: "@/images/insights/cuanto-cuesta-mantener-una-llc.png"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Integrate Stripe with Automations: 2026 Guide"
 description: "Stripe automation integration"
 cardImage: "@/images/insights/stripe.png"

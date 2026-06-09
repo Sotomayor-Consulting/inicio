@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Automate Sales with AI: 2026 Guide"
 description: "Automate sales with AI"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

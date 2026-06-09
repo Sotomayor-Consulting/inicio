@@ -138,10 +138,10 @@ If you expect to owe more than **$1,000** to the IRS when filing your annual ret
 
 | Period | Due Date |
 |---|---|
-| January – March | April 15 |
-| April – May | June 15 |
-| June – August | September 15 |
-| September – December | January 15 (next year) |
+| January ï¿½ March | April 15 |
+| April ï¿½ May | June 15 |
+| June ï¿½ August | September 15 |
+| September ï¿½ December | January 15 (next year) |
 
 ### Consequences of not paying:
 - Underpayment penalty

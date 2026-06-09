@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Reinstate a Delinquent LLC: 2026 Guide"
 description: "Steps to reinstate and bring your LLC back to good standing"
 cardImage: "@/images/insights/estrategias-para tu-llc.png"

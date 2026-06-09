@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Automations Every Business Needs: 2026 Guide"
 description: "Essential business automations"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

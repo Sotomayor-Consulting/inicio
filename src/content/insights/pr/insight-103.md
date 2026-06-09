@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Automações que toda empresa precisa: Guia 2026"
 description: "Automações essenciais para empresas"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

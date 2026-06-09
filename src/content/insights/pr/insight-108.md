@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como automatizar o acompanhamento de leads: Guia 2026"
 description: "Automatize o acompanhamento de leads"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"

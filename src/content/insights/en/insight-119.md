@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Reinstate an Administratively Dissolved Company: 2026 Guide"
 description: "Step-by-step guide to reinstating your LLC or corporation after administrative dissolution"
 cardImage: "@/images/insights/annual-report.png"

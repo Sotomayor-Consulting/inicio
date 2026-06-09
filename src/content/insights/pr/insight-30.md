@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Proteger seu Patrim�nio com Estruturas Internacionais: LLCs, Trusts e Mais"
 description: "Estrat�gias legais de prote��o patrimonial usando LLCs nos EUA, trusts e outras estruturas internacionais para empreendedores globais."
 cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"

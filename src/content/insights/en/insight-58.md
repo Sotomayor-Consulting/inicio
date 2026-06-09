@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Connect Stripe with Shopify: Step by Step Guide 2026"
 description: "How to connect Stripe with Shopify"
 cardImage: "@/images/insights/stripe.png"

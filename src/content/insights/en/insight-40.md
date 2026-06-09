@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Document International Operations: Records and Compliance Guide"
 description: "Documentation of international operations"
 cardImage: "@/images/insights/estandar-comun-de-reporte.png"

@@ -5,7 +5,7 @@ cardImage: "@/images/insights/como-poner-al-dia-tu-empresa.png"
 cardImageAlt: "LLC documents being reorganized and brought up to date"
 ---
 
-If you have neglected your LLC's obligations —whether the Annual Report, federal taxes, or corporate documentation— you are not alone. Many international entrepreneurs find themselves in this situation due to lack of knowledge, changes of residence, or simply lack of time.
+If you have neglected your LLC's obligations ï¿½whether the Annual Report, federal taxes, or corporate documentationï¿½ you are not alone. Many international entrepreneurs find themselves in this situation due to lack of knowledge, changes of residence, or simply lack of time.
 
 The good news is that **it is almost always possible to regularize your LLC**, although the process may be more or less complex depending on how long it has been and the state of your company.
 
@@ -230,7 +230,7 @@ Once regularized, set up a system to avoid falling behind again:
 1. Checked status: "Dissolved".
 2. Consulted with a registered agent in Florida.
 3. Filed Annual Reports for 2021, 2022, 2023, and 2024.
-4. Paid penalties: 4 years × $400 = $1,600.
+4. Paid penalties: 4 years ï¿½ $400 = $1,600.
 5. Requested administrative reinstatement.
 6. Paid reinstatement fee.
 7. Waited 2 weeks for the state to process.

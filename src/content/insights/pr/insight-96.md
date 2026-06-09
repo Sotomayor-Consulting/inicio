@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Profissionalizar um Negócio Digital: Guia 2026"
 description: "Como profissionalizar um negócio digital"
 cardImage: "@/images/insights/internacionalizar-una-marca.png"

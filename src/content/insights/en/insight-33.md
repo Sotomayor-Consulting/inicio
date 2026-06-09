@@ -1,7 +1,7 @@
 ---
 title: "What Does the IRS Review in a Foreign LLC? Key Compliance Factors"
 description: "IRS review of foreign LLCs"
-cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
+cardImage: "@/images/insights/IRS-guÃ­a para dueÃ±os de llc.png"
 cardImageAlt: "IRS building facade with American flag"
 ---
 
@@ -44,7 +44,7 @@ The IRS scrutinizes whether the LLC and its foreign owners have met their withho
 
 ## 4. Transfer Pricing and Related-Party Transactions
 
-If the foreign-owned LLC engages in transactions with related parties (such as a parent company or affiliate abroad), the IRS reviews whether those transactions are conducted at **arm's length** — meaning the prices and terms would be the same as if the parties were unrelated.
+If the foreign-owned LLC engages in transactions with related parties (such as a parent company or affiliate abroad), the IRS reviews whether those transactions are conducted at **arm's length** ï¿½ meaning the prices and terms would be the same as if the parties were unrelated.
 
 ### Areas of focus:
 - Intercompany loans and interest rates

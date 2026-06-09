@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Como Automatizar Vendas com IA: Guia 2026"
 description: "Automatizar vendas com IA"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"
