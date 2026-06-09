@@ -2,7 +2,7 @@
 title: "Automatizaciones que toda empresa necesita: Guía 2026"
 description: "Automatizaciones esenciales para empresas"
 cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"
-cardImageAlt: "Diagrama de automatizacion empresarial mostrando sistemas interconectados de CRM, email, facturación, inventario y soporte al cliente"
+cardImageAlt: "Diagrama de automatización empresarial mostrando sistemas interconectados de CRM, email, facturación, inventario y soporte al cliente"
 ---
 
 **La automatización ya no es una ventaja competitiva — es un requisito de supervivencia.** Las empresas que automatizan sus procesos principales operan 5x más rápido, cometen 70% menos errores y ahorran 30-50% en costos operativos en comparación con competidores que trabajan manualmente.
