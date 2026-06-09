@@ -1,83 +1,83 @@
 ---
-title: "Qué Necesita Stripe para Aprobar tu Cuenta: Guía Completa 2026"
-description: "Qué necesita Stripe para aprobar tu cuenta"
+title: "QuÃ© Necesita Stripe para Aprobar tu Cuenta: GuÃ­a Completa 2026"
+description: "QuÃ© necesita Stripe para aprobar tu cuenta"
 cardImage: "@/images/insights/stripe.png"
-cardImageAlt: "Pantalla de aprobación de Stripe con documentos y check verde"
+cardImageAlt: "Pantalla de aprobaciÃ³n de Stripe con documentos y check verde"
 ---
 
-Conseguir la aprobación de tu cuenta Stripe es el primer paso para aceptar pagos online. Sin embargo, muchas cuentas son rechazadas o quedan pendientes por días o semanas debido a documentación incorrecta, información inconsistente o falta de requisitos.
+Conseguir la aprobaciÃ³n de tu cuenta Stripe es el primer paso para aceptar pagos online. Sin embargo, muchas cuentas son rechazadas o quedan pendientes por dÃ­as o semanas debido a documentaciÃ³n incorrecta, informaciÃ³n inconsistente o falta de requisitos.
 
-En esta guía, explicamos **exactamente qué necesita Stripe para aprobar tu cuenta en 2026**, con checklist detallado, documentos aceptados y consejos para evitar rechazos.
+En esta guÃ­a, explicamos **exactamente quÃ© necesita Stripe para aprobar tu cuenta en 2026**, con checklist detallado, documentos aceptados y consejos para evitar rechazos.
 
-## 1. El Proceso de Aprobación de Stripe
+## 1. El Proceso de AprobaciÃ³n de Stripe
 
-### Etapas de la Aprobación
+### Etapas de la AprobaciÃ³n
 
-### Tipos de Análisis
+### Tipos de AnÃ¡lisis
 
 - **Plazo:** 24-72 horas -- 1-4 semanas
 - **Documentos:** Identidad + Comprobante de domicilio -- + Documentos de empresa + BOI + Licencias
-- **Verificación:** Selfie básica -- Video-selfie + documentación adicional
-- **Análisis de riesgo:** Automática (ML) -- Manual + automática
-> **Hecho:** La mayoría de las cuentas se aprueban en 24-48 horas. Las cuentas rechazadas generalmente tienen problemas de documentación o inconsistencia de información.
+- **VerificaciÃ³n:** Selfie bÃ¡sica -- Video-selfie + documentaciÃ³n adicional
+- **AnÃ¡lisis de riesgo:** AutomÃ¡tica (ML) -- Manual + automÃ¡tica
+> **Hecho:** La mayorÃ­a de las cuentas se aprueban en 24-48 horas. Las cuentas rechazadas generalmente tienen problemas de documentaciÃ³n o inconsistencia de informaciÃ³n.
 
-## 2. Requisitos Básicos (Todas las Cuentas)
+## 2. Requisitos BÃ¡sicos (Todas las Cuentas)
 
 ### Documentos Personales Obligatorios
 
-- **Documento de identidad:** Vigente, con foto, no vencido -- Pasaporte, cédula, INE, licencia
-- **Comprobante de domicilio:** Menos de 3 meses -- Recibo de luz, agua, teléfono, internet o extracto bancario
-- **Fecha de nacimiento:** Mayor de 18 años -- Verificada con el documento
-- **Número de teléfono:** Válido, a tu nombre (preferentemente) -- Usado para verificación 2FA
-- **Correo electrónico:** Acceso verificado -- Stripe envía confirmaciones y alertas
-### Información Personal
+- **Documento de identidad:** Vigente, con foto, no vencido -- Pasaporte, cÃ©dula, INE, licencia
+- **Comprobante de domicilio:** Menos de 3 meses -- Recibo de luz, agua, telÃ©fono, internet o extracto bancario
+- **Fecha de nacimiento:** Mayor de 18 aÃ±os -- Verificada con el documento
+- **NÃºmero de telÃ©fono:** VÃ¡lido, a tu nombre (preferentemente) -- Usado para verificaciÃ³n 2FA
+- **Correo electrÃ³nico:** Acceso verificado -- Stripe envÃ­a confirmaciones y alertas
+### InformaciÃ³n Personal
 
 - Nombre completo (exactamente como en el documento)
-- Dirección residencial completa
+- DirecciÃ³n residencial completa
 - RFC/CPF o equivalente fiscal
-- Profesión y sector de actividad
+- ProfesiÃ³n y sector de actividad
 - Sitio web o presencia online
 
 ### Sitio Web o Presencia Online
 
-Stripe **siempre** verifica tu sitio web o aplicación. Requisitos mínimos:
+Stripe **siempre** verifica tu sitio web o aplicaciÃ³n. Requisitos mÃ­nimos:
 
-- **Sitio en línea:** ? Sí -- No puede estar "en construcción"
-- **Política de privacidad:** ? Sí -- Explicar cómo se tratan los datos
-- **Términos de servicio:** ? Sí -- Reglas de uso del servicio
-- **Política de reembolso:** ? Sí -- Plazos y condiciones de devolución
-- **Información de contacto:** ? Sí -- Correo, teléfono o formulario
-- **Descripción clara del producto:** ? Sí -- Qué vendes u ofreces
-- **SSL/HTTPS:** ? Sí -- Seguridad obligatoria
-> **Consejo:** Si no tienes sitio web, usa Stripe Payment Links (enlaces de pago). Stripe puede aprobar cuentas solo con enlaces, pero la verificación es más rigurosa.
+- **Sitio en lÃ­nea:** ? SÃ­ -- No puede estar "en construcciÃ³n"
+- **PolÃ­tica de privacidad:** ? SÃ­ -- Explicar cÃ³mo se tratan los datos
+- **TÃ©rminos de servicio:** ? SÃ­ -- Reglas de uso del servicio
+- **PolÃ­tica de reembolso:** ? SÃ­ -- Plazos y condiciones de devoluciÃ³n
+- **InformaciÃ³n de contacto:** ? SÃ­ -- Correo, telÃ©fono o formulario
+- **DescripciÃ³n clara del producto:** ? SÃ­ -- QuÃ© vendes u ofreces
+- **SSL/HTTPS:** ? SÃ­ -- Seguridad obligatoria
+> **Consejo:** Si no tienes sitio web, usa Stripe Payment Links (enlaces de pago). Stripe puede aprobar cuentas solo con enlaces, pero la verificaciÃ³n es mÃ¡s rigurosa.
 
 ## 3. Requisitos para Cuentas Empresariales
 
 ### Documentos de la Empresa
 
-- **Certificado de constitución:** Comprueba que la empresa existe legalmente -- Registro Mercantil, Secretary of State
-- **EIN (Employer Identification Number):** Número de identificación fiscal de la empresa -- IRS (gratuito)
+- **Certificado de constituciÃ³n:** Comprueba que la empresa existe legalmente -- Registro Mercantil, Secretary of State
+- **EIN (Employer Identification Number):** NÃºmero de identificaciÃ³n fiscal de la empresa -- IRS (gratuito)
 - **Comprobante de domicilio comercial:** Recibo de servicios o contrato de arrendamiento -- Proveedora de servicios, inmobiliaria
 - **Contrato social o estatutos:** Documento que define la estructura de la empresa -- Abogado o contador
-- **Register of Directors:** Lista de los directores (algunos países) -- Empresa o agencia reguladora
-### Información de los Beneficiarios Finales (UBO)
+- **Register of Directors:** Lista de los directores (algunos paÃ­ses) -- Empresa o agencia reguladora
+### InformaciÃ³n de los Beneficiarios Finales (UBO)
 
 Para cuentas empresariales, Stripe exige:
 
-- **Nombre completo:** De cada beneficiario con >25% de participación
+- **Nombre completo:** De cada beneficiario con >25% de participaciÃ³n
 - **Fecha de nacimiento:** De cada beneficiario
-- **Dirección:** Residencial de cada beneficiario
+- **DirecciÃ³n:** Residencial de cada beneficiario
 - **Documento de identidad:** Copia de cada beneficiario
-- **Porcentaje de participación:** Cuánto posee cada uno
-> **BOI (Beneficial Ownership Information):** Desde 2024, empresas en EE. UU. deben reportar beneficiarios finales al FinCEN. Stripe puede solicitar esta documentación.
+- **Porcentaje de participaciÃ³n:** CuÃ¡nto posee cada uno
+> **BOI (Beneficial Ownership Information):** Desde 2024, empresas en EE. UU. deben reportar beneficiarios finales al FinCEN. Stripe puede solicitar esta documentaciÃ³n.
 
-## 4. Tipos de Negocio y Requisitos Específicos
+## 4. Tipos de Negocio y Requisitos EspecÃ­ficos
 
-### Negocios de Bajo Riesgo (Aprobación Rápida)
+### Negocios de Bajo Riesgo (AprobaciÃ³n RÃ¡pida)
 
-**Ejemplos:** E-commerce, SaaS, consultoría, educación online, diseño, desarrollo
+**Ejemplos:** E-commerce, SaaS, consultorÃ­a, educaciÃ³n online, diseÃ±o, desarrollo
 
-**Documentación necesaria:**
+**DocumentaciÃ³n necesaria:**
 - Documento de identidad
 - Comprobante de domicilio
 - Sitio web completo
@@ -85,25 +85,25 @@ Para cuentas empresariales, Stripe exige:
 
 **Plazo estimado:** 24-48 horas
 
-### Negocios de Mediano Riesgo (Revisión Adicional)
+### Negocios de Mediano Riesgo (RevisiÃ³n Adicional)
 
-**Ejemplos:** Viajes, salud y bienestar, productos regulados, servicios financieros (consultoría)
+**Ejemplos:** Viajes, salud y bienestar, productos regulados, servicios financieros (consultorÃ­a)
 
-**Documentación adicional:**
+**DocumentaciÃ³n adicional:**
 - Todo lo de bajo riesgo +
-- Licencias específicas (si aplica)
+- Licencias especÃ­ficas (si aplica)
 - Historial de transacciones (si ya opera)
-- Información sobre proveedores
+- InformaciÃ³n sobre proveedores
 
-**Plazo estimado:** 3-7 días
+**Plazo estimado:** 3-7 dÃ­as
 
-### Negocios de Alto Riesgo (Análisis Manual)
+### Negocios de Alto Riesgo (AnÃ¡lisis Manual)
 
-**Ejemplos:** Suplementos, CBD (países permitidos), eventos, donaciones, contenido digital
+**Ejemplos:** Suplementos, CBD (paÃ­ses permitidos), eventos, donaciones, contenido digital
 
-**Documentación adicional:**
+**DocumentaciÃ³n adicional:**
 - Todo lo de mediano riesgo +
-- Certificaciones específicas
+- Certificaciones especÃ­ficas
 - Comprobante de cumplimiento regulatorio
 - Entrevista con el equipo de Stripe (posible)
 - Historial de procesamiento anterior
@@ -112,27 +112,27 @@ Para cuentas empresariales, Stripe exige:
 
 > **Nota:** Si operas en un sector de alto riesgo, considera plataformas especializadas en lugar de Stripe.
 
-## 5. Verificación de Identidad (Stripe Identity)
+## 5. VerificaciÃ³n de Identidad (Stripe Identity)
 
-### Métodos de Verificación en 2026
+### MÃ©todos de VerificaciÃ³n en 2026
 
-- **Selfie estática:** Foto del rostro + documento -- 2-5 minutos
+- **Selfie estÃ¡tica:** Foto del rostro + documento -- 2-5 minutos
 - **Video-selfie:** Video corto diciendo tu nombre -- 3-5 minutos
 - **Documento en vivo:** Foto del documento en tiempo real -- 1-2 minutos
-- **Biometría:** Reconocimiento facial -- Instantáneo
-### Consejos para Pasar la Verificación
+- **BiometrÃ­a:** Reconocimiento facial -- InstantÃ¡neo
+### Consejos para Pasar la VerificaciÃ³n
 
-1. **Iluminación adecuada** — luz natural o ambiente bien iluminado
-2. **Fondo neutro** — pared lisa, sin distracciones
-3. **Documento visible** — sin reflejo, mostrando las esquinas
-4. **Rostro descubierto** — sin lentes oscuros, gorra o cubrebocas
-5. **Estabilidad** — no muevas el celular durante la captura
+1. **IluminaciÃ³n adecuada** Â— luz natural o ambiente bien iluminado
+2. **Fondo neutro** Â— pared lisa, sin distracciones
+3. **Documento visible** Â— sin reflejo, mostrando las esquinas
+4. **Rostro descubierto** Â— sin lentes oscuros, gorra o cubrebocas
+5. **Estabilidad** Â— no muevas el celular durante la captura
 
-### Errores Comunes en la Verificación
+### Errores Comunes en la VerificaciÃ³n
 
-- **Documento ilegible:** Foto borrosa o con reflejo -- Usa escáner o buena iluminación
+- **Documento ilegible:** Foto borrosa o con reflejo -- Usa escÃ¡ner o buena iluminaciÃ³n
 - **Documento cortado:** Esquinas no aparecen en la foto -- Encuadra todo el documento
-- **Rostro no reconocido:** Cambio físico significativo -- Actualiza el documento primero
+- **Rostro no reconocido:** Cambio fÃ­sico significativo -- Actualiza el documento primero
 - **Documento vencido:** Fecha de validez expirada -- Renueva antes de verificar
 - **Selfie con poca luz:** Ambiente oscuro -- Enciende luces o usa flash
 ## 6. Cuenta Bancaria
@@ -140,127 +140,127 @@ Para cuentas empresariales, Stripe exige:
 ### Requisitos de la Cuenta Bancaria
 
 - **Titularidad:** Mismo nombre que la cuenta Stripe (persona o empresa)
-- **País:** Mismo país donde la cuenta Stripe está registrada
-- **Tipo:** Cuenta corriente (no de ahorro en algunos países)
-- **Moneda:** Moneda local del país de la cuenta Stripe
-- **Estado:** Activa y en situación regular
+- **PaÃ­s:** Mismo paÃ­s donde la cuenta Stripe estÃ¡ registrada
+- **Tipo:** Cuenta corriente (no de ahorro en algunos paÃ­ses)
+- **Moneda:** Moneda local del paÃ­s de la cuenta Stripe
+- **Estado:** Activa y en situaciÃ³n regular
 ### Cuentas Aceptadas
 
-- **Cuenta personal:** ? Sí (para personas físicas) -- Siempre que el nombre corresponda
-- **Cuenta empresarial:** ? Sí (para empresas) -- El nombre de la empresa debe corresponder
-- **Cuenta digital:** ? Sí (Nubank, Inter, Mercury, etc.) -- Bancos digitales son aceptados
-- **Cuenta de ahorro:** ? No (en la mayoría de países) -- Usa cuenta corriente
-- **Cuenta conjunta:** ? Sí -- La cuenta debe estar a nombre del titular
-### Vinculación Bancaria
+- **Cuenta personal:** ? SÃ­ (para personas fÃ­sicas) -- Siempre que el nombre corresponda
+- **Cuenta empresarial:** ? SÃ­ (para empresas) -- El nombre de la empresa debe corresponder
+- **Cuenta digital:** ? SÃ­ (Nubank, Inter, Mercury, etc.) -- Bancos digitales son aceptados
+- **Cuenta de ahorro:** ? No (en la mayorÃ­a de paÃ­ses) -- Usa cuenta corriente
+- **Cuenta conjunta:** ? SÃ­ -- La cuenta debe estar a nombre del titular
+### VinculaciÃ³n Bancaria
 
-- **Microdepósitos:** Stripe deposita 2 valores aleatorios -- 1-2 días hábiles
-- **Inicio de sesión bancario:** Verificación instantánea vía API -- Instantáneo
-- **Extracto bancario:** Carga manual de extracto -- 1-2 días hábiles
+- **MicrodepÃ³sitos:** Stripe deposita 2 valores aleatorios -- 1-2 dÃ­as hÃ¡biles
+- **Inicio de sesiÃ³n bancario:** VerificaciÃ³n instantÃ¡nea vÃ­a API -- InstantÃ¡neo
+- **Extracto bancario:** Carga manual de extracto -- 1-2 dÃ­as hÃ¡biles
 ## 7. Motivos Comunes de Rechazo
 
-### Motivo 1: Documento Ilegible o Inválido
+### Motivo 1: Documento Ilegible o InvÃ¡lido
 
 **Problema:** Fotos de los documentos borrosas, cortadas o con reflejo.
 
-**Solución:** Usa escáner o toma fotos nítidas. Verifica que el documento no esté vencido.
+**SoluciÃ³n:** Usa escÃ¡ner o toma fotos nÃ­tidas. Verifica que el documento no estÃ© vencido.
 
-### Motivo 2: Información Inconsistente
+### Motivo 2: InformaciÃ³n Inconsistente
 
-**Problema:** Nombre, dirección o fecha de nacimiento diferentes entre documentos.
+**Problema:** Nombre, direcciÃ³n o fecha de nacimiento diferentes entre documentos.
 
-**Solución:** Verifica que TODA la información sea idéntica en todos los documentos enviados.
+**SoluciÃ³n:** Verifica que TODA la informaciÃ³n sea idÃ©ntica en todos los documentos enviados.
 
 ### Motivo 3: Sitio Web Incompleto o Inadecuado
 
-**Problema:** Sitio en construcción, sin política de privacidad, sin información de contacto.
+**Problema:** Sitio en construcciÃ³n, sin polÃ­tica de privacidad, sin informaciÃ³n de contacto.
 
-**Solución:** Completa el sitio con todas las páginas obligatorias antes de registrarte.
+**SoluciÃ³n:** Completa el sitio con todas las pÃ¡ginas obligatorias antes de registrarte.
 
 ### Motivo 4: Negocio No Soportado
 
-**Problema:** Tu tipo de negocio está en la lista de negocios prohibidos o restringidos.
+**Problema:** Tu tipo de negocio estÃ¡ en la lista de negocios prohibidos o restringidos.
 
-**Solución:** Verifica la lista de negocios prohibidos de Stripe antes de crear la cuenta.
+**SoluciÃ³n:** Verifica la lista de negocios prohibidos de Stripe antes de crear la cuenta.
 
-### Motivo 5: Ubicación No Soportada
+### Motivo 5: UbicaciÃ³n No Soportada
 
-**Problema:** Tu país no está en la lista de países soportados por Stripe.
+**Problema:** Tu paÃ­s no estÃ¡ en la lista de paÃ­ses soportados por Stripe.
 
-**Solución:** Considera constituir una empresa en un país soportado (EE. UU., México, Brasil).
+**SoluciÃ³n:** Considera constituir una empresa en un paÃ­s soportado (EE. UU., MÃ©xico, Brasil).
 
 ### Tabla de Motivos de Rechazo
 
-- **Documento ilegible:** 30% -- Usa escáner, buena iluminación
-- **Información inconsistente:** 25% -- Verifica nombres y direcciones
-- **Sitio web incompleto:** 20% -- Ten sitio completo con políticas
+- **Documento ilegible:** 30% -- Usa escÃ¡ner, buena iluminaciÃ³n
+- **InformaciÃ³n inconsistente:** 25% -- Verifica nombres y direcciones
+- **Sitio web incompleto:** 20% -- Ten sitio completo con polÃ­ticas
 - **Negocio no soportado:** 15% -- Verifica lista de negocios
-- **Ubicación no soportada:** 10% -- Considera LLC en EE. UU.
-## 8. Cómo Acelerar la Aprobación
+- **UbicaciÃ³n no soportada:** 10% -- Considera LLC en EE. UU.
+## 8. CÃ³mo Acelerar la AprobaciÃ³n
 
 ### Checklist Pre-Registro
 
 - [ ] Documento de identidad vigente y con foto
 - [ ] Comprobante de domicilio (menos de 3 meses)
 - [ ] EIN (si empresa en EE. UU.)
-- [ ] Sitio web completo con políticas
-- [ ] Cuenta bancaria en el mismo país
-- [ ] Información consistente en todos los documentos
+- [ ] Sitio web completo con polÃ­ticas
+- [ ] Cuenta bancaria en el mismo paÃ­s
+- [ ] InformaciÃ³n consistente en todos los documentos
 
 ### Consejos de Expertos
 
-1. **Usa el mismo nombre en todos los documentos** — cédula, pasaporte, cuenta bancaria, registro
-2. **Verifica la dirección** — el comprobante de domicilio debe tener exactamente la misma dirección que informes en el registro
-3. **Prepara el sitio antes** — no crees la cuenta con sitio "en construcción"
-4. **Elige el tipo de negocio correcto** — la categoría influye en el análisis de riesgo
-5. **Ten paciencia** — no crees múltiples cuentas si la primera es rechazada
+1. **Usa el mismo nombre en todos los documentos** Â— cÃ©dula, pasaporte, cuenta bancaria, registro
+2. **Verifica la direcciÃ³n** Â— el comprobante de domicilio debe tener exactamente la misma direcciÃ³n que informes en el registro
+3. **Prepara el sitio antes** Â— no crees la cuenta con sitio "en construcciÃ³n"
+4. **Elige el tipo de negocio correcto** Â— la categorÃ­a influye en el anÃ¡lisis de riesgo
+5. **Ten paciencia** Â— no crees mÃºltiples cuentas si la primera es rechazada
 
-### Qué NO HACER
+### QuÃ© NO HACER
 
-- ? No crees múltiples cuentas — puede considerarse fraude
-- ? No mientas sobre tu negocio o ubicación — Stripe verifica
+- ? No crees mÃºltiples cuentas Â— puede considerarse fraude
+- ? No mientas sobre tu negocio o ubicaciÃ³n Â— Stripe verifica
 - ? No uses documentos vencidos
 - ? No intentes verificar con selfie de otra persona
 - ? No ignores los correos de Stripe durante el proceso
 
-## 9. Qué Hacer si tu Cuenta es Rechazada
+## 9. QuÃ© Hacer si tu Cuenta es Rechazada
 
 ### Paso 1: Lee el Motivo del Rechazo
 
-Stripe envía un correo explicando el motivo. Léelo con atención.
+Stripe envÃ­a un correo explicando el motivo. LÃ©elo con atenciÃ³n.
 
 ### Paso 2: Corrige el Problema
 
-- **Documento ilegible:** Envía fotos nítidas con escáner
-- **Información inconsistente:** Corrige los datos en el registro
-- **Sitio web incompleto:** Completa el sitio y solicita nuevo análisis
+- **Documento ilegible:** EnvÃ­a fotos nÃ­tidas con escÃ¡ner
+- **InformaciÃ³n inconsistente:** Corrige los datos en el registro
+- **Sitio web incompleto:** Completa el sitio y solicita nuevo anÃ¡lisis
 - **Negocio no soportado:** Considera otra plataforma
-- **Ubicación no soportada:** Crea una LLC en EE. UU.
-### Paso 3: Solicita Nuevo Análisis
+- **UbicaciÃ³n no soportada:** Crea una LLC en EE. UU.
+### Paso 3: Solicita Nuevo AnÃ¡lisis
 
 - Accede al dashboard de Stripe
 - Haz clic en "Appeal" o "Contact Support"
-- Explica claramente qué corregiste
-- Adjunta la documentación actualizada
+- Explica claramente quÃ© corregiste
+- Adjunta la documentaciÃ³n actualizada
 
 ### Paso 4: Alternativas
 
 Si Stripe rechaza definitivamente:
 
-- **PayPal** — disponible en 200+ países
-- **Mercado Pago** — Latinoamérica
-- **Square** — EE. UU., Canadá, Europa
-- **Payoneer** — cuentas de pago
+- **PayPal** Â— disponible en 200+ paÃ­ses
+- **Mercado Pago** Â— LatinoamÃ©rica
+- **Square** Â— EE. UU., CanadÃ¡, Europa
+- **Payoneer** Â— cuentas de pago
 
-## 10. Documentos por País
+## 10. Documentos por PaÃ­s
 
 ### Brasil
 
 - **Identidad:** RG, CNH o Pasaporte -- Vigente, con foto
-- **Residencia:** Recibo de luz, agua, teléfono o extracto bancario -- Menos de 3 meses
+- **Residencia:** Recibo de luz, agua, telÃ©fono o extracto bancario -- Menos de 3 meses
 - **Empresa:** CNPJ, Contrato Social -- Cuando aplica
-### México
+### MÃ©xico
 
-- **Identidad:** INE, Pasaporte o Cédula Profesional -- Vigente
+- **Identidad:** INE, Pasaporte o CÃ©dula Profesional -- Vigente
 - **Residencia:** Recibo de luz, agua, estado de cuenta -- Menos de 3 meses
 - **Empresa:** RFC, Acta Constitutiva, Comprobante de Domicilio -- Cuando aplica
 ### EE. UU. (LLC)
@@ -273,32 +273,32 @@ Si Stripe rechaza definitivamente:
 - **Identidad:** Pasaporte o tarjeta de identidad nacional -- Vigente
 - **Residencia:** Utility bill o bank statement -- Menos de 3 meses
 - **Empresa:** Certificate of Incorporation, VAT Number -- Cuando aplica
-## Checklist Final de Aprobación
+## Checklist Final de AprobaciÃ³n
 
 ### Antes de Empezar
 
-- [ ] Verifica si tu país está en la lista de soporte de Stripe
-- [ ] Si no lo está, decide: LLC en EE. UU. o plataforma alternativa
+- [ ] Verifica si tu paÃ­s estÃ¡ en la lista de soporte de Stripe
+- [ ] Si no lo estÃ¡, decide: LLC en EE. UU. o plataforma alternativa
 - [ ] Prepara todos los documentos digitalizados
-- [ ] Ten un sitio web completo con políticas
+- [ ] Ten un sitio web completo con polÃ­ticas
 
 ### Durante el Registro
 
 - [ ] Llena los datos exactamente como en los documentos
-- [ ] Usa el mismo nombre, dirección y fecha de nacimiento
-- [ ] Elige la categoría de negocio correcta
-- [ ] Completa la verificación de identidad (selfie/video)
+- [ ] Usa el mismo nombre, direcciÃ³n y fecha de nacimiento
+- [ ] Elige la categorÃ­a de negocio correcta
+- [ ] Completa la verificaciÃ³n de identidad (selfie/video)
 
-### Después del Registro
+### DespuÃ©s del Registro
 
 - [ ] Vincula la cuenta bancaria
-- [ ] Verifica el correo de confirmación
+- [ ] Verifica el correo de confirmaciÃ³n
 - [ ] Configura 3D Secure
 - [ ] Prueba transacciones en modo de prueba
-- [ ] Espera el análisis (24-72 horas)
+- [ ] Espera el anÃ¡lisis (24-72 horas)
 
-## Conclusión
+## ConclusiÃ³n
 
-**Stripe necesita documentos correctos, información consistente y un sitio web profesional** para aprobar tu cuenta. La mayoría de los rechazos ocurren por errores evitables: documentos ilegibles, datos inconsistentes o sitio incompleto.
+**Stripe necesita documentos correctos, informaciÃ³n consistente y un sitio web profesional** para aprobar tu cuenta. La mayorÃ­a de los rechazos ocurren por errores evitables: documentos ilegibles, datos inconsistentes o sitio incompleto.
 
-Prepara todo con anticipación, sigue el checklist y tu cuenta será aprobada rápidamente. Si necesitas ayuda con la estructuración, cuenta con **Sotomayor Consulting International** para asesoría en la creación de empresas en EE. UU. y apertura de cuentas Stripe.
+Prepara todo con anticipaciÃ³n, sigue el checklist y tu cuenta serÃ¡ aprobada rÃ¡pidamente. Si necesitas ayuda con la estructuraciÃ³n, cuenta con **Sotomayor Consulting International** para asesorÃ­a en la creaciÃ³n de empresas en EE. UU. y apertura de cuentas Stripe.

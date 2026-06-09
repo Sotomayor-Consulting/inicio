@@ -1,7 +1,7 @@
 ---
 title: "Annual LLC Compliance Checklist: 2026 Guide"
 description: "Complete year-round compliance checklist for LLCs covering federal, state, and local requirements"
-cardImage: "@/images/insights/métodos y cumplimiento.png"
+cardImage: "@/images/insights/metodos-y-cumplimiento.png"
 cardImageAlt: "Annual LLC compliance checklist showing monthly tasks, annual report deadlines, tax payment schedule, registered agent requirements, and multi-state compliance tracking dashboard"
 ---
 

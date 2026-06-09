@@ -1,79 +1,79 @@
 ---
-title: "Stripe para Coaches y Consultores: GuÌa Completa 2026"
+title: "Stripe para Coaches y Consultores: Gu√≠a Completa 2026"
 description: "Stripe para coaches y consultores"
 cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Coach o consultor con laptop mostrando Stripe y calendario de pagos"
 ---
 
-**Stripe** es la plataforma ideal para coaches y consultores que necesitan cobrar por sesiones, programas, suscripciones y productos digitales. Su flexibilidad te permite aceptar pagos de clientes en cualquier paÌs, automatizar la facturaciÛn y gestionar todo desde un solo lugar.
+**Stripe** es la plataforma ideal para coaches y consultores que necesitan cobrar por sesiones, programas, suscripciones y productos digitales. Su flexibilidad te permite aceptar pagos de clientes en cualquier pa√≠s, automatizar la facturaci√≥n y gestionar todo desde un solo lugar.
 
-En esta guÌa, explicamos **cÛmo usar Stripe para coaches y consultores** en 2026: configuraciÛn, modelos de cobro, facturaciÛn y mejores pr·cticas.
+En esta gu√≠a, explicamos **c√≥mo usar Stripe para coaches y consultores** en 2026: configuraci√≥n, modelos de cobro, facturaci√≥n y mejores pr√°cticas.
 
-## 1. øPor QuÈ Stripe para Coaches y Consultores?
+## 1. ¬øPor Qu√© Stripe para Coaches y Consultores?
 
 ### Ventajas Clave
 
-- **Pagos globales:** Acepta clientes de cualquier paÌs
-- **FacturaciÛn profesional:** Facturas con tu marca para cada sesiÛn
+- **Pagos globales:** Acepta clientes de cualquier pa√≠s
+- **Facturaci√≥n profesional:** Facturas con tu marca para cada sesi√≥n
 - **Suscripciones:** Programas de coaching con pagos recurrentes
 - **Enlaces de pago:** Cobra sin necesidad de sitio web
-- **M˙ltiples monedas:** Cobra en USD, EUR, MXN, BRL, etc.
-- **ProgramaciÛn:** Ideal para sesiones recurrentes semanales/mensuales
-- **Checkout sin cÛdigo:** Stripe Checkout listo en minutos
+- **M√∫ltiples monedas:** Cobra en USD, EUR, MXN, BRL, etc.
+- **Programaci√≥n:** Ideal para sesiones recurrentes semanales/mensuales
+- **Checkout sin c√≥digo:** Stripe Checkout listo en minutos
 ### Stripe vs Otras Plataformas para Coaches
 
-- **Stripe directo:** 2.9% + $0.30 -- Coaches tÈcnicos o con p·gina web
+- **Stripe directo:** 2.9% + $0.30 -- Coaches t√©cnicos o con p√°gina web
 - **Calendly + Stripe:** $10/mes + Stripe -- Agendamiento + pagos
 - **PayPal:** 4.4% + $0.30 -- Pagos simples
-- **Hotmart:** 10-20% -- Cursos y membresÌas
+- **Hotmart:** 10-20% -- Cursos y membres√≠as
 - **Kajabi:** Desde $149/mes -- Plataforma todo-en-uno
-> **Stripe te da el control total** sobre tus cobros sin costos fijos, ideal para coaches que empiezan o que ya tienen una pr·ctica establecida.
+> **Stripe te da el control total** sobre tus cobros sin costos fijos, ideal para coaches que empiezan o que ya tienen una pr√°ctica establecida.
 
-## 2. ConfiguraciÛn R·pida para Coaches
+## 2. Configuraci√≥n R√°pida para Coaches
 
 ### Paso 1: Crea tu Cuenta Stripe
 
 - **Individual:** Coaches y consultores independientes
-- **Empresa:** ConsultorÌas constituidas formalmente
-### Paso 2: Elige tu MÈtodo de Cobro
+- **Empresa:** Consultor√≠as constituidas formalmente
+### Paso 2: Elige tu M√©todo de Cobro
 
 - **Enlace de pago:** Comparte un enlace con tu cliente -- Sesiones individuales
-- **Factura:** EnvÌas una factura por email -- Programas y paquetes
-- **Checkout integrado:** BotÛn de pago en tu web -- Sitio web propio
-- **SuscripciÛn:** Cobro recurrente autom·tico -- Programas mensuales
+- **Factura:** Env√≠as una factura por email -- Programas y paquetes
+- **Checkout integrado:** Bot√≥n de pago en tu web -- Sitio web propio
+- **Suscripci√≥n:** Cobro recurrente autom√°tico -- Programas mensuales
 ### Paso 3: Conecta tu Banco
 
-Configura tu cuenta bancaria para recibir los pagos. Stripe hace transferencias autom·ticas:
+Configura tu cuenta bancaria para recibir los pagos. Stripe hace transferencias autom√°ticas:
 
-- **Diaria:** Cada dÌa h·bil (disponible en algunos paÌses)
+- **Diaria:** Cada d√≠a h√°bil (disponible en algunos pa√≠ses)
 - **Semanal:** Cada semana (predeterminado)
 - **Mensual:** Cada mes
 ## 3. Modelos de Cobro para Coaches
 
-### SesiÛn Individual
+### Sesi√≥n Individual
 
-- **SesiÛn de descubrimiento:** $0 - $50 (gratis o baja inversiÛn)
-- **SesiÛn individual:** $100 - $500
-- **SesiÛn de grupo:** $30 - $100 por persona
-- **Llamada estratÈgica:** $200 - $1,000
-**CÛmo cobrar:**
+- **Sesi√≥n de descubrimiento:** $0 - $50 (gratis o baja inversi√≥n)
+- **Sesi√≥n individual:** $100 - $500
+- **Sesi√≥n de grupo:** $30 - $100 por persona
+- **Llamada estrat√©gica:** $200 - $1,000
+**C√≥mo cobrar:**
 
 ### Paquete de Sesiones
 
-- **B·sico:** 4 sesiones -- $500 ($125/sesiÛn) -- 17%
-- **Profesional:** 8 sesiones -- $900 ($112.5/sesiÛn) -- 25%
-- **Premium:** 12 sesiones -- $1,200 ($100/sesiÛn) -- 33%
-**ConfiguraciÛn en Stripe:**
+- **B√°sico:** 4 sesiones -- $500 ($125/sesi√≥n) -- 17%
+- **Profesional:** 8 sesiones -- $900 ($112.5/sesi√≥n) -- 25%
+- **Premium:** 12 sesiones -- $1,200 ($100/sesi√≥n) -- 33%
+**Configuraci√≥n en Stripe:**
 1. Crea un producto por cada paquete
-2. Precio fijo (pago ˙nico)
+2. Precio fijo (pago √∫nico)
 3. En el comprobante de pago, indica las sesiones incluidas
 
-### Programas por SuscripciÛn
+### Programas por Suscripci√≥n
 
-- **MembresÌa mensual:** $97/mes -- 1 sesiÛn grupal + contenido + comunidad
+- **Membres√≠a mensual:** $97/mes -- 1 sesi√≥n grupal + contenido + comunidad
 - **Programa de 3 meses:** $297/mes -- 2 sesiones individuales + soporte WhatsApp
-- **Retainer consultorÌa:** $1,500/mes -- 4 sesiones + revisiÛn de materiales
-**Configurar suscripciÛn recurrente:**
+- **Retainer consultor√≠a:** $1,500/mes -- 4 sesiones + revisi√≥n de materiales
+**Configurar suscripci√≥n recurrente:**
 
 ### Programa con Pagos por Hitos
 
@@ -82,21 +82,21 @@ Configura tu cuenta bancaria para recibir los pagos. Stripe hace transferencias 
 - **Cierre:** Mes 3 -- $200 (20%)
 ## 4. Enlaces de Pago para Coaches
 
-### Por QuÈ Usar Enlaces de Pago
+### Por Qu√© Usar Enlaces de Pago
 
 - **Sin sitio web:** Funciona solo con un enlace
-- **Compartir f·cil:** WhatsApp, email, Instagram, LinkedIn
-- **Pago r·pido:** Cliente paga en 2 clics
+- **Compartir f√°cil:** WhatsApp, email, Instagram, LinkedIn
+- **Pago r√°pido:** Cliente paga en 2 clics
 - **Personalizable:** Agrega tu logo y colores
-### CÛmo Crear un Enlace de Pago
+### C√≥mo Crear un Enlace de Pago
 
 ### Ejemplos de Enlaces para Coaches
 
-- **SesiÛn individual:** "Agenda tu sesiÛn de coaching aquÌ"
-- **Paquete 4 sesiones:** "Inicia tu programa de transformaciÛn"
-- **MembresÌa mensual:** "⁄nete a la comunidad exclusiva"
-- **Llamada estratÈgica:** "Reserva tu consultorÌa estratÈgica"
-## 5. FacturaciÛn para Coaches
+- **Sesi√≥n individual:** "Agenda tu sesi√≥n de coaching aqu√≠"
+- **Paquete 4 sesiones:** "Inicia tu programa de transformaci√≥n"
+- **Membres√≠a mensual:** "√önete a la comunidad exclusiva"
+- **Llamada estrat√©gica:** "Reserva tu consultor√≠a estrat√©gica"
+## 5. Facturaci√≥n para Coaches
 
 ### Facturas Profesionales
 
@@ -107,59 +107,59 @@ Stripe genera facturas personalizadas:
 - **Datos fiscales:** RFC, EIN o CPF
 - **Mensaje:** "Gracias por confiar en tu proceso"
 - **Moneda:** USD, EUR, MXN, BRL, etc.
-### EnvÌo Autom·tico de Facturas
+### Env√≠o Autom√°tico de Facturas
 
-Configura Stripe para enviar facturas autom·ticamente despuÈs de cada pago:
+Configura Stripe para enviar facturas autom√°ticamente despu√©s de cada pago:
 
-1. Stripe Dashboard ? FacturaciÛn ? ConfiguraciÛn
-2. Activa "Enviar factura autom·ticamente"
-3. Personaliza el email de facturaciÛn
+1. Stripe Dashboard ? Facturaci√≥n ? Configuraci√≥n
+2. Activa "Enviar factura autom√°ticamente"
+3. Personaliza el email de facturaci√≥n
 4. El cliente recibe la factura al instante
 
 ### Facturas para Clientes Internacionales
 
-- **USD:** EE. UU., LatinoamÈrica, Asia
+- **USD:** EE. UU., Latinoam√©rica, Asia
 - **EUR:** Europa
-- **MXN:** MÈxico
+- **MXN:** M√©xico
 - **BRL:** Brasil
 - **GBP:** Reino Unido
 ## 6. Stripe Checkout en tu Sitio Web
 
-### IntegraciÛn Sencilla
+### Integraci√≥n Sencilla
 
-Si tienes una p·gina web como coach, agrega un botÛn de pago:
+Si tienes una p√°gina web como coach, agrega un bot√≥n de pago:
 
 ### Customer Portal
 
 El Customer Portal permite a tus clientes:
 
 - Ver historial de pagos
-- Actualizar mÈtodo de pago
-- Cancelar suscripciÛn
+- Actualizar m√©todo de pago
+- Cancelar suscripci√≥n
 - Descargar facturas
 
 ## 7. Stripe Connect para Coaches con Equipo
 
 ### Si Trabajas con Otros Coaches
 
-Si tienes una plataforma donde m˙ltiples coaches ofrecen servicios:
+Si tienes una plataforma donde m√∫ltiples coaches ofrecen servicios:
 
-- **T˙ (plataforma):** 30% -- $30 de una sesiÛn de $100
-- **Coach invitado:** 70% -- $70 por la sesiÛn
-### ConfiguraciÛn B·sica
+- **T√∫ (plataforma):** 30% -- $30 de una sesi√≥n de $100
+- **Coach invitado:** 70% -- $70 por la sesi√≥n
+### Configuraci√≥n B√°sica
 
 1. Stripe Dashboard ? Connect ? Configurar
 2. Registra a cada coach con su cuenta Stripe
 3. Define el split de ingresos
-4. Stripe distribuye autom·ticamente
+4. Stripe distribuye autom√°ticamente
 
-## 8. AutomatizaciÛn para tu Pr·ctica
+## 8. Automatizaci√≥n para tu Pr√°ctica
 
-### Flujo de ContrataciÛn de Clientes
+### Flujo de Contrataci√≥n de Clientes
 
 ### Recordatorios de Pago
 
-Configura Stripe para enviar recordatorios autom·ticos:
+Configura Stripe para enviar recordatorios autom√°ticos:
 
 ### Integraciones Recomendadas
 
@@ -172,52 +172,52 @@ Configura Stripe para enviar recordatorios autom·ticos:
 
 ### 1. Ofrece Varias Opciones de Pago
 
-- **Tarjeta de crÈdito:** La m·s usada globalmente
-- **Apple Pay / Google Pay:** Pago r·pido desde el celular
+- **Tarjeta de cr√©dito:** La m√°s usada globalmente
+- **Apple Pay / Google Pay:** Pago r√°pido desde el celular
 - **Link (Stripe):** Pago con un clic
-### 2. Usa PerÌodos de Prueba para MembresÌas
+### 2. Usa Per√≠odos de Prueba para Membres√≠as
 
 Atrae clientes con pruebas gratuitas:
 
-- **7 dÌas:** Prueba r·pida
-- **14 dÌas:** Tiempo para explorar el programa
-- **30 dÌas:** Compromiso m·s largo
-### 3. Define una PolÌtica de CancelaciÛn Clara
+- **7 d√≠as:** Prueba r√°pida
+- **14 d√≠as:** Tiempo para explorar el programa
+- **30 d√≠as:** Compromiso m√°s largo
+### 3. Define una Pol√≠tica de Cancelaci√≥n Clara
 
-- **CancelaciÛn de sesiÛn:** 24-48 horas de aviso
+- **Cancelaci√≥n de sesi√≥n:** 24-48 horas de aviso
 - **Reembolso de paquete:** Prorrateado por sesiones no usadas
-- **MembresÌa:** CancelaciÛn en cualquier momento
-- **Programa completo:** No reembolsable despuÈs de iniciado
+- **Membres√≠a:** Cancelaci√≥n en cualquier momento
+- **Programa completo:** No reembolsable despu√©s de iniciado
 ### 4. Usa Descriptores de Cobro Claros
 
 El nombre que aparece en el estado de cuenta del cliente:
 
 - **"COACHING CON MARIA":** "PAY-SOLUTIONS-LLC"
 - **"CONSULTORIA ABC":** "STRIPE-CHARGE-123"
-## 10. Paso a Paso R·pido
+## 10. Paso a Paso R√°pido
 
 ### Resumen en 5 Pasos
 
-- **1:** Crea tu cuenta Stripe y verifÌcala -- 30 min
+- **1:** Crea tu cuenta Stripe y verif√≠cala -- 30 min
 - **2:** Define tus servicios y precios -- 30 min
 - **3:** Crea productos y enlaces de pago -- 20 min
-- **4:** Configura facturaciÛn autom·tica -- 15 min
+- **4:** Configura facturaci√≥n autom√°tica -- 15 min
 - **5:** Comparte tus enlaces con clientes -- 10 min
 ### Checklist para Coaches
 
 - [ ] Cuenta Stripe verificada
 - [ ] Productos/servicios creados con precios
 - [ ] Enlaces de pago generados para cada servicio
-- [ ] FacturaciÛn configurada con logo
+- [ ] Facturaci√≥n configurada con logo
 - [ ] Customer Portal activado
-- [ ] PolÌtica de cancelaciÛn definida
-- [ ] PerÌodo de prueba configurado (si aplica)
+- [ ] Pol√≠tica de cancelaci√≥n definida
+- [ ] Per√≠odo de prueba configurado (si aplica)
 - [ ] Recordatorios de pago activados
-- [ ] IntegraciÛn con Calendly (opcional)
+- [ ] Integraci√≥n con Calendly (opcional)
 - [ ] Enlaces listos para compartir en redes
 
-## ConclusiÛn
+## Conclusi√≥n
 
-**Stripe para coaches y consultores** ofrece una forma sencilla y profesional de cobrar por tus servicios, sin importar dÛnde estÈn tus clientes. Con enlaces de pago, facturaciÛn automatizada y suscripciones, puedes enfocarte en lo que importa: transformar vidas y hacer crecer tu pr·ctica.
+**Stripe para coaches y consultores** ofrece una forma sencilla y profesional de cobrar por tus servicios, sin importar d√≥nde est√©n tus clientes. Con enlaces de pago, facturaci√≥n automatizada y suscripciones, puedes enfocarte en lo que importa: transformar vidas y hacer crecer tu pr√°ctica.
 
-En **Sotomayor Consulting International**, ayudamos a coaches y consultores a configurar Stripe para cobrar a clientes internacionales, incluyendo la creaciÛn de empresas en EE. UU. para acceder a Stripe desde cualquier paÌs. Cont·ctanos para una consultorÌa personalizada.
+En **Sotomayor Consulting International**, ayudamos a coaches y consultores a configurar Stripe para cobrar a clientes internacionales, incluyendo la creaci√≥n de empresas en EE. UU. para acceder a Stripe desde cualquier pa√≠s. Cont√°ctanos para una consultor√≠a personalizada.

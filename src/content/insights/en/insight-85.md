@@ -1,7 +1,7 @@
 ---
 title: "How to Finance Properties in the US as a Foreigner: 2026 Guide"
 description: "How to finance properties in the US as a foreigner"
-cardImage: "@/images/insights/inversión-extranjera.png"
+cardImage: "@/images/insights/inversion-extranjera.png"
 cardImageAlt: "Financing options for foreigners in the US: DSCR loan, conventional, hard money, seller financing, private lending"
 ---
 

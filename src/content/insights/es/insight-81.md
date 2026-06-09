@@ -1,27 +1,27 @@
 ---
-title: "Cómo Invertir en Florida Siendo Extranjero: Guía 2026"
-description: "Cómo invertir en Florida siendo extranjero"
-cardImage: "@/images/insights/métodos y cumplimiento.png"
-cardImageAlt: "Mapa de Florida con iconos de propiedades, LLC, dólares, avión y banderas internacionales alrededor"
+title: "CÃ³mo Invertir en Florida Siendo Extranjero: GuÃ­a 2026"
+description: "CÃ³mo invertir en Florida siendo extranjero"
+cardImage: "@/images/insights/metodos-y-cumplimiento.png"
+cardImageAlt: "Mapa de Florida con iconos de propiedades, LLC, dÃ³lares, aviÃ³n y banderas internacionales alrededor"
 ---
 
-**Invertir en Florida siendo extranjero** es una de las estrategias más populares de diversificación patrimonial internacional. Florida ofrece ventajas únicas: sin impuesto estatal sobre la renta, leyes favorables al inversor extranjero, un mercado inmobiliario sólido y protección de activos con tenencia por entera (tenancy by entirety).
+**Invertir en Florida siendo extranjero** es una de las estrategias mÃ¡s populares de diversificaciÃ³n patrimonial internacional. Florida ofrece ventajas Ãºnicas: sin impuesto estatal sobre la renta, leyes favorables al inversor extranjero, un mercado inmobiliario sÃ³lido y protecciÃ³n de activos con tenencia por entera (tenancy by entirety).
 
-En esta guía, explicamos **cómo invertir en Florida siendo extranjero** en 2026: estructuras legales, financiamiento, impuestos, administración de propiedades, protección patrimonial y el rol de Stripe en la gestión de rentas.
+En esta guÃ­a, explicamos **cÃ³mo invertir en Florida siendo extranjero** en 2026: estructuras legales, financiamiento, impuestos, administraciÃ³n de propiedades, protecciÃ³n patrimonial y el rol de Stripe en la gestiÃ³n de rentas.
 
-## 1. ¿Por Qué Invertir en Florida?
+## 1. Â¿Por QuÃ© Invertir en Florida?
 
 ### Ventajas de Florida para Inversores Extranjeros
 
 - **Sin impuesto estatal sobre la renta:** No pagas income tax estatal, solo federal
-- **Protección de activos:** Tenancy by entirety protege a parejas casadas
-- **Mercado sólido:** Demanda constante, apreciación histórica
+- **ProtecciÃ³n de activos:** Tenancy by entirety protege a parejas casadas
+- **Mercado sÃ³lido:** Demanda constante, apreciaciÃ³n histÃ³rica
 - **Sin restricciones a extranjeros:** Puedes comprar como persona o LLC
 - **Homestead exemption:** Protege tu residencia principal de acreedores
-- **Leyes favorables al landlord:** Desalojo más rápido que en NY o California
-- **Clima y calidad de vida:** Atrae inquilinos y compradores todo el año
+- **Leyes favorables al landlord:** Desalojo mÃ¡s rÃ¡pido que en NY o California
+- **Clima y calidad de vida:** Atrae inquilinos y compradores todo el aÃ±o
 - **Conexiones internacionales:** 20+ aeropuertos internacionales, vuelos directos
-### Ciudades Clave para Inversión
+### Ciudades Clave para InversiÃ³n
 
 - **Miami:** $400-800K -- 4-6% -- Turismo, lujo, internacional
 - **Orlando:** $300-500K -- 6-8% -- Turismo, alquiler vacacional
@@ -29,39 +29,39 @@ En esta guía, explicamos **cómo invertir en Florida siendo extranjero** en 2026:
 - **Jacksonville:** $250-400K -- 6-9% -- Mayor rentabilidad, menor precio
 - **Fort Lauderdale:** $350-600K -- 4-6% -- Playas, yates, estilo de vida
 - **Naples:** $600K-1.5M -- 3-5% -- Lujo, retiro, golf
-> En 2026, Florida sigue siendo el estado #1 para inversores extranjeros en EE. UU., con más del 20% de las compras internacionales de vivienda.
+> En 2026, Florida sigue siendo el estado #1 para inversores extranjeros en EE. UU., con mÃ¡s del 20% de las compras internacionales de vivienda.
 
 ## 2. Estructuras Legales para Invertir en Florida
 
-### Opciones de Titulación
+### Opciones de TitulaciÃ³n
 
-- **Nombre personal:** Compra directa como extranjero -- Sin protección -- Declaras como no residente
-- **LLC de Florida:** Propiedades de alquiler -- Alta (protección de activos) -- Pass-through
-- **LLC de Wyoming/NM:** Anonimato + protección -- Alta -- Pass-through
-- **Trust revocable:** Planificación sucesoria -- Media -- Como persona
+- **Nombre personal:** Compra directa como extranjero -- Sin protecciÃ³n -- Declaras como no residente
+- **LLC de Florida:** Propiedades de alquiler -- Alta (protecciÃ³n de activos) -- Pass-through
+- **LLC de Wyoming/NM:** Anonimato + protecciÃ³n -- Alta -- Pass-through
+- **Trust revocable:** PlanificaciÃ³n sucesoria -- Media -- Como persona
 - **Land trust:** Anonimato total -- Alta -- Como persona
-- **Corporación (C-Corp):** Grandes volúmenes -- Alta -- Doble tributación
+- **CorporaciÃ³n (C-Corp):** Grandes volÃºmenes -- Alta -- Doble tributaciÃ³n
 ### LLC para Inversores Extranjeros
 
 ### LLC de Florida vs. LLC de Delaware
 
 - **Costo anual:** $138.75 (reporte anual) -- $300 (franchise tax) + agente
-- **Anonimato:** No (miembros públicos) -- Parcial
-- **Protección:** Buena -- Buena
-- **Court system:** Especializado en bienes raíces -- Corporativo, no inmobiliario
+- **Anonimato:** No (miembros pÃºblicos) -- Parcial
+- **ProtecciÃ³n:** Buena -- Buena
+- **Court system:** Especializado en bienes raÃ­ces -- Corporativo, no inmobiliario
 - **Impuestos:** Sin state income tax -- Sin state income tax (las LLCs pagan)
-- **Recomendación:** ? Mejor para propiedades en FL -- Para holdings o inversión VC
+- **RecomendaciÃ³n:** ? Mejor para propiedades en FL -- Para holdings o inversiÃ³n VC
 ### LLC por Propiedad vs. LLC Global
 
 ## 3. Financiamiento para Extranjeros
 
 ### Opciones de Hipoteca
 
-- **Convencional (FNMA):** ? No -- Residencia + crédito US -- — -- —
-- **Portfolio loan:** ? Sí -- 30-50% down, 6-12 meses liquidez -- 7-9% -- 30-50%
-- **DSCR loan:** ? Sí -- Basado en rentas, no en ingresos personales -- 7.5-9.5% -- 25-35%
-- **Hard money:** ? Sí -- Basado en valor de propiedad -- 10-14% -- 20-30%
-- **Privado / Family office:** ? Sí -- Negociación directa -- 6-10% -- Variable
+- **Convencional (FNMA):** ? No -- Residencia + crÃ©dito US -- Â— -- Â—
+- **Portfolio loan:** ? SÃ­ -- 30-50% down, 6-12 meses liquidez -- 7-9% -- 30-50%
+- **DSCR loan:** ? SÃ­ -- Basado en rentas, no en ingresos personales -- 7.5-9.5% -- 25-35%
+- **Hard money:** ? SÃ­ -- Basado en valor de propiedad -- 10-14% -- 20-30%
+- **Privado / Family office:** ? SÃ­ -- NegociaciÃ³n directa -- 6-10% -- Variable
 ### DSCR Loan para Inversores Extranjeros
 
 ### EIN e ITIN
@@ -71,45 +71,45 @@ En esta guía, explicamos **cómo invertir en Florida siendo extranjero** en 2026:
 ### Impuestos Federales
 
 - **Rentas (ingresos por alquiler):** Tasa marginal (10-37%) -- Extranjeros no residentes
-- **Ganancia de capital (hold < 1 año):** Tasa marginal (hasta 37%) -- Short-term
-- **Ganancia de capital (hold > 1 año):** 0-20% + 3.8% (NIIT) -- Long-term
-- **FIRPTA (venta):** 15% de retención sobre precio de venta -- Extranjeros no residentes
+- **Ganancia de capital (hold < 1 aÃ±o):** Tasa marginal (hasta 37%) -- Short-term
+- **Ganancia de capital (hold > 1 aÃ±o):** 0-20% + 3.8% (NIIT) -- Long-term
+- **FIRPTA (venta):** 15% de retenciÃ³n sobre precio de venta -- Extranjeros no residentes
 - **Interest (intereses):** 30% (o treaty rate) -- Cuentas bancarias
 ### FIRPTA (Foreign Investment in Real Property Tax Act)
 
 ### Impuestos en Florida
 
 - **State income tax:** ? No -- Florida no tiene
-- **Property tax:** ? Sí -- ~0.8-1.2% del valor anual
-- **Sales tax:** ? Sí -- 6-7.5% en materiales de construcción
+- **Property tax:** ? SÃ­ -- ~0.8-1.2% del valor anual
+- **Sales tax:** ? SÃ­ -- 6-7.5% en materiales de construcciÃ³n
 - **Estate tax:** ? No federal para extranjeros con < $60K en EE. UU. -- Estructura con LLC protege
 - **Intangible tax:** ? No -- Eliminado en 2007
 ### 1031 Exchange
 
-## 5. Administración de Propiedades
+## 5. AdministraciÃ³n de Propiedades
 
-### Property Manager vs. Autogestión
+### Property Manager vs. AutogestiÃ³n
 
 - **Costo:** 8-12% de la renta mensual -- 0%
-- **Tiempo:** 0% de tu tiempo -- Dedicación semanal
+- **Tiempo:** 0% de tu tiempo -- DedicaciÃ³n semanal
 - **Presencia local:** No necesitas estar en Florida -- Necesitas presencia
-- **Mantenimiento:** Coordinan reparaciones -- Tú coordinas
-- **Inquilinos:** Buscan, verifican, contratos -- Tú haces todo
+- **Mantenimiento:** Coordinan reparaciones -- TÃº coordinas
+- **Inquilinos:** Buscan, verifican, contratos -- TÃº haces todo
 - **Legal:** Conocen leyes locales -- Riesgo de incumplir
-- **Stripe:** Pueden usar su Stripe o el tuyo -- Tú gestionas Stripe
+- **Stripe:** Pueden usar su Stripe o el tuyo -- TÃº gestionas Stripe
 ### Stripe para Cobro de Rentas
 
 ### Seguros para Propiedades en Florida
 
-- **Homeowners / Landlord:** Cubre estructura + responsabilidad -- $1,500-4,000/año
+- **Homeowners / Landlord:** Cubre estructura + responsabilidad -- $1,500-4,000/aÃ±o
 - **Seguro contra huracanes:** Deducible separado (2-10% del valor) -- Incluido o extra
-- **Seguro de inundación:** Obligatorio en zonas de riesgo (NFIP) -- $700-2,000/año
+- **Seguro de inundaciÃ³n:** Obligatorio en zonas de riesgo (NFIP) -- $700-2,000/aÃ±o
 - **Seguro de responsabilidad:** Protege de demandas de inquilinos -- Incluido o $500 extra
-- **Seguro de pérdida de alquiler:** Si la propiedad no se puede habitar -- $200-500/año
-- **Umbrella policy:** Cobertura adicional sobre todos -- $300-500/año por $1M
-> El seguro contra huracanes en Florida ha aumentado 40%+ en los últimos 2 años. Presupuesta $2,000-5,000/año para propiedades cerca de la costa.
+- **Seguro de pÃ©rdida de alquiler:** Si la propiedad no se puede habitar -- $200-500/aÃ±o
+- **Umbrella policy:** Cobertura adicional sobre todos -- $300-500/aÃ±o por $1M
+> El seguro contra huracanes en Florida ha aumentado 40%+ en los Ãºltimos 2 aÃ±os. Presupuesta $2,000-5,000/aÃ±o para propiedades cerca de la costa.
 
-## 6. Protección de Activos en Florida
+## 6. ProtecciÃ³n de Activos en Florida
 
 ### Tenancy by Entirety
 
@@ -117,95 +117,95 @@ En esta guía, explicamos **cómo invertir en Florida siendo extranjero** en 2026:
 
 ### Homestead Exemption
 
-## 7. Planificación Sucesoria para Propiedades en Florida
+## 7. PlanificaciÃ³n Sucesoria para Propiedades en Florida
 
 ### Florida Probate para Extranjeros
 
 - **Proceso:** Probate en Florida (6-12 meses) -- Sin probate
 - **Costo:** 3-5% del valor de la propiedad -- $500-2,000
 - **Tiempo:** 6-18 meses -- 1-2 meses
-- **Privacidad:** Público -- Privado
+- **Privacidad:** PÃºblico -- Privado
 - **Extranjero:** Complejo si herederos viven fuera -- Simple
-### Estrategias de Sucesión
+### Estrategias de SucesiÃ³n
 
 ## 8. Errores Comunes al Invertir en Florida
 
-- **Comprar a nombre personal:** Sin protección de activos -- Usar LLC
-- **No presupuestar seguros:** Huracán sin cobertura = pérdida total -- Seguro adecuado desde el día 1
-- **Ignorar FIRPTA:** Retención del 15% al vender -- Planificar con CPA
+- **Comprar a nombre personal:** Sin protecciÃ³n de activos -- Usar LLC
+- **No presupuestar seguros:** HuracÃ¡n sin cobertura = pÃ©rdida total -- Seguro adecuado desde el dÃ­a 1
+- **Ignorar FIRPTA:** RetenciÃ³n del 15% al vender -- Planificar con CPA
 - **No tener EIN:** No puedes abrir cuenta bancaria ni Stripe -- Solicitar EIN (SS-4)
-- **Propiedad sin ver visita:** Comprar sin inspección -- Inspección + video call
+- **Propiedad sin ver visita:** Comprar sin inspecciÃ³n -- InspecciÃ³n + video call
 - **No considerar HOA:** Reglas restrictivas, fees altos -- Leer HOA antes de comprar
 - **No planificar herencia:** Probate en Florida para extranjeros -- LLC + trust
-- **Subestimar mantenimiento:** Costos mayores que en otros estados -- Presupuestar 1-2% del valor/año
+- **Subestimar mantenimiento:** Costos mayores que en otros estados -- Presupuestar 1-2% del valor/aÃ±o
 - **No tener property manager:** Problemas con inquilinos a distancia -- Contratar PM local
 ## 9. Paso a Paso para Invertir en Florida
 
-### Paso 1: Planificación
+### Paso 1: PlanificaciÃ³n
 
 - **Define presupuesto:** Precio + cierre (3-5%) + reparaciones
-- **Elige ciudad:** Según rentabilidad, perfil, riesgo
+- **Elige ciudad:** SegÃºn rentabilidad, perfil, riesgo
 - **Elige estructura:** LLC Florida (recomendada)
 - **Calcula impuestos:** Property tax, income tax, FIRPTA
-- **Presupuesta seguros:** Landlord + huracán + inundación
+- **Presupuesta seguros:** Landlord + huracÃ¡n + inundaciÃ³n
 ### Paso 2: Compra
 
 - **Constituye LLC:** Florida LLC (www.sunbiz.org)
-- **Obtén EIN:** IRS Form SS-4
+- **ObtÃ©n EIN:** IRS Form SS-4
 - **Abre cuenta bancaria:** Mercury, Relay, Bank of America
 - **Busca propiedad:** MLS, Zillow, realtor local
 - **Financiamiento:** DSCR loan o cash
-- **Inspección:** General + termitas + techo
+- **InspecciÃ³n:** General + termitas + techo
 - **Cierre:** Title company + attorney
-### Paso 3: Operación
+### Paso 3: OperaciÃ³n
 
 - **Registra Stripe:** Con EIN de la LLC
 - **Seguro:** Activo desde el cierre
-- **Property manager:** Contratar si no estás en FL
+- **Property manager:** Contratar si no estÃ¡s en FL
 - **Cobra rentas:** Stripe recurrente
 - **Declara impuestos:** CPA internacional (Form 1040-NR)
 - **Revisa anualmente:** Seguros, impuestos, estructura
 ## 10. Preguntas Frecuentes
 
-### ¿Necesito visa para comprar propiedades en Florida?
+### Â¿Necesito visa para comprar propiedades en Florida?
 
-No. Cualquier extranjero puede comprar propiedades en Florida sin visa. Solo necesitas identificación (pasaporte) para el cierre.
+No. Cualquier extranjero puede comprar propiedades en Florida sin visa. Solo necesitas identificaciÃ³n (pasaporte) para el cierre.
 
-### ¿Puedo abrir cuenta bancaria en Florida sin estar allá?
+### Â¿Puedo abrir cuenta bancaria en Florida sin estar allÃ¡?
 
-Sí, bancos como Mercury y Relay permiten abrir cuentas 100% online para LLCs de EE. UU. con EIN.
+SÃ­, bancos como Mercury y Relay permiten abrir cuentas 100% online para LLCs de EE. UU. con EIN.
 
-### ¿Cuánto cuesta mantener una LLC en Florida?
+### Â¿CuÃ¡nto cuesta mantener una LLC en Florida?
 
-El reporte anual cuesta $138.75. Más agente registrado ($50-200/año). Total: ~$200-350/año.
+El reporte anual cuesta $138.75. MÃ¡s agente registrado ($50-200/aÃ±o). Total: ~$200-350/aÃ±o.
 
-### ¿Puedo usar Stripe para cobrar rentas si no vivo en EE. UU.?
+### Â¿Puedo usar Stripe para cobrar rentas si no vivo en EE. UU.?
 
-Sí. Stripe acepta LLCs de EE. UU. sin importar dónde viva el dueño. Necesitas EIN y cuenta bancaria en EE. UU.
+SÃ­. Stripe acepta LLCs de EE. UU. sin importar dÃ³nde viva el dueÃ±o. Necesitas EIN y cuenta bancaria en EE. UU.
 
-### ¿Cuánto es el property tax en Florida?
+### Â¿CuÃ¡nto es el property tax en Florida?
 
-Entre 0.8% y 1.2% del valor tasado. Una propiedad de $400K paga aproximadamente $3,200-4,800/año.
+Entre 0.8% y 1.2% del valor tasado. Una propiedad de $400K paga aproximadamente $3,200-4,800/aÃ±o.
 
-### ¿Puedo comprar como persona y luego transferir a una LLC?
+### Â¿Puedo comprar como persona y luego transferir a una LLC?
 
-Sí, pero puede activar la cláusula due-on-sale de la hipoteca. Mejor comprar directamente con la LLC.
+SÃ­, pero puede activar la clÃ¡usula due-on-sale de la hipoteca. Mejor comprar directamente con la LLC.
 
-### ¿Qué pasa si no declaro impuestos en EE. UU.?
+### Â¿QuÃ© pasa si no declaro impuestos en EE. UU.?
 
-El IRS puede embargar la propiedad, imponer multas y el inquilino puede reportarte. Stripe también reporta ingresos al IRS.
+El IRS puede embargar la propiedad, imponer multas y el inquilino puede reportarte. Stripe tambiÃ©n reporta ingresos al IRS.
 
-## 11. Checklist de Inversión en Florida
+## 11. Checklist de InversiÃ³n en Florida
 
 - [ ] Define presupuesto y ciudad objetivo
 - [ ] Constituye LLC de Florida
-- [ ] Obtén EIN del IRS (Form SS-4)
+- [ ] ObtÃ©n EIN del IRS (Form SS-4)
 - [ ] Abre cuenta bancaria empresarial
 - [ ] Registra Stripe con EIN de la LLC
 - [ ] Busca propiedad con realtor local
 - [ ] Solicita financiamiento (DSCR) o prepara cash
-- [ ] Realiza inspección completa
-- [ ] Contrata seguro: landlord + huracán + inundación
+- [ ] Realiza inspecciÃ³n completa
+- [ ] Contrata seguro: landlord + huracÃ¡n + inundaciÃ³n
 - [ ] Cierra con title company
 - [ ] Contrata property manager (si aplica)
 - [ ] Configura cobro de rentas en Stripe
@@ -213,10 +213,10 @@ El IRS puede embargar la propiedad, imponer multas y el inquilino puede reportar
 - [ ] Designa sucesor en Stripe
 - [ ] Revisa estructura legal anualmente
 
-## Conclusión
+## ConclusiÃ³n
 
-**Invertir en Florida siendo extranjero** es accesible, rentable y seguro si sigues los pasos correctos. La combinación de LLC de Florida, EIN, cuenta bancaria empresarial y Stripe te permite operar completamente desde tu país de origen con protección de activos y cumplimiento fiscal.
+**Invertir en Florida siendo extranjero** es accesible, rentable y seguro si sigues los pasos correctos. La combinaciÃ³n de LLC de Florida, EIN, cuenta bancaria empresarial y Stripe te permite operar completamente desde tu paÃ­s de origen con protecciÃ³n de activos y cumplimiento fiscal.
 
-Florida sigue siendo el destino #1 para inversores latinoamericanos y europeos por su estabilidad legal, ausencia de impuesto estatal y mercado inmobiliario sólido. La clave del éxito está en la estructura correcta (LLC), el financiamiento adecuado (DSCR) y la gestión profesional (property manager + Stripe).
+Florida sigue siendo el destino #1 para inversores latinoamericanos y europeos por su estabilidad legal, ausencia de impuesto estatal y mercado inmobiliario sÃ³lido. La clave del Ã©xito estÃ¡ en la estructura correcta (LLC), el financiamiento adecuado (DSCR) y la gestiÃ³n profesional (property manager + Stripe).
 
-En **Sotomayor Consulting International**, te ayudamos a invertir en Florida de principio a fin: desde la constitución de tu LLC y obtención de EIN hasta la configuración de Stripe para cobro de rentas, protección de activos y planificación sucesoria. Contáctanos para una consultoría personalizada.
+En **Sotomayor Consulting International**, te ayudamos a invertir en Florida de principio a fin: desde la constituciÃ³n de tu LLC y obtenciÃ³n de EIN hasta la configuraciÃ³n de Stripe para cobro de rentas, protecciÃ³n de activos y planificaciÃ³n sucesoria. ContÃ¡ctanos para una consultorÃ­a personalizada.

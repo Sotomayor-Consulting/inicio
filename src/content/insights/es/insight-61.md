@@ -1,160 +1,160 @@
 ---
-title: "Errores que Hacen que Stripe Rechace Cuentas: Guía 2026"
+title: "Errores que Hacen que Stripe Rechace Cuentas: GuÃ­a 2026"
 description: "Errores que hacen que Stripe rechace cuentas"
 cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Pantalla de rechazo de Stripe con lista de errores comunes y documentos"
 ---
 
-**Stripe** rechaza aproximadamente el 30% de las cuentas que intentan registrarse. La mayoría de estos rechazos ocurren por errores evitables: documentos ilegibles, información inconsistente, sitios web incompletos o negocios no soportados.
+**Stripe** rechaza aproximadamente el 30% de las cuentas que intentan registrarse. La mayorÃ­a de estos rechazos ocurren por errores evitables: documentos ilegibles, informaciÃ³n inconsistente, sitios web incompletos o negocios no soportados.
 
-En esta guía, explicamos **los errores más comunes que hacen que Stripe rechace cuentas** en 2026 y cómo evitarlos para ser aprobado en menos de 48 horas.
+En esta guÃ­a, explicamos **los errores mÃ¡s comunes que hacen que Stripe rechace cuentas** en 2026 y cÃ³mo evitarlos para ser aprobado en menos de 48 horas.
 
-## 1. Error #1: Documento de Identidad Ilegible o Inválido
+## 1. Error #1: Documento de Identidad Ilegible o InvÃ¡lido
 
-### El Error Más Frecuente (30% de los rechazos)
+### El Error MÃ¡s Frecuente (30% de los rechazos)
 
-- **Foto borrosa:** La imagen del documento no tiene suficiente resolución
-- **Reflejo o brillo:** El flash o la luz crean reflejos que ocultan información
-- **Documento cortado:** Faltan bordes, esquinas o código de barras
+- **Foto borrosa:** La imagen del documento no tiene suficiente resoluciÃ³n
+- **Reflejo o brillo:** El flash o la luz crean reflejos que ocultan informaciÃ³n
+- **Documento cortado:** Faltan bordes, esquinas o cÃ³digo de barras
 - **Documento vencido:** La fecha de validez ha expirado
 - **Documento equivocado:** No es un documento de identidad oficial
-### Cómo Evitarlo
+### CÃ³mo Evitarlo
 
-- **Usa escáner:** Escanea el documento a 300 DPI mínimo
-- **Buena iluminación:** Luz natural difusa, sin flash directo
-- **Documento completo:** Muestra las 4 esquinas y el código de barras
-- **Documento vigente:** Verifica la fecha de expiración antes de tomar la foto
-- **Formato aceptado:** Stripe acepta: pasaporte, cédula, INE, licencia de conducir
+- **Usa escÃ¡ner:** Escanea el documento a 300 DPI mÃ­nimo
+- **Buena iluminaciÃ³n:** Luz natural difusa, sin flash directo
+- **Documento completo:** Muestra las 4 esquinas y el cÃ³digo de barras
+- **Documento vigente:** Verifica la fecha de expiraciÃ³n antes de tomar la foto
+- **Formato aceptado:** Stripe acepta: pasaporte, cÃ©dula, INE, licencia de conducir
 > **Consejo:** Si tomas foto con el celular, apoya el documento sobre una superficie oscura y usa luz natural. Evita el flash.
 
-## 2. Error #2: Información Inconsistente
+## 2. Error #2: InformaciÃ³n Inconsistente
 
-### El Segundo Error Más Común (25% de los rechazos)
+### El Segundo Error MÃ¡s ComÃºn (25% de los rechazos)
 
-Stripe compara automáticamente la información que ingresas con la de tus documentos:
+Stripe compara automÃ¡ticamente la informaciÃ³n que ingresas con la de tus documentos:
 
-- **Nombre:** "Juan Pérez" en el formulario, "Juan Perez" en el documento (sin tilde)
-- **Dirección:** "Calle 123" en el registro, "Calle 123, Depto 4" en el comprobante
+- **Nombre:** "Juan PÃ©rez" en el formulario, "Juan Perez" en el documento (sin tilde)
+- **DirecciÃ³n:** "Calle 123" en el registro, "Calle 123, Depto 4" en el comprobante
 - **Fecha de nacimiento:** 15/03/1985 vs 15-03-1985 (formato diferente)
 - **Nombre de empresa:** "Sotomayor Consulting LLC" vs "Sotomayor Consulting LLC."
-### Cómo Evitarlo
+### CÃ³mo Evitarlo
 
 - **Copia exacta:** Escribe los datos exactamente como aparecen en tus documentos
 - **Mismos acentos:** Respeta tildes, guiones y espacios
-- **Dirección idéntica:** El comprobante de domicilio debe mostrar la dirección que registras
+- **DirecciÃ³n idÃ©ntica:** El comprobante de domicilio debe mostrar la direcciÃ³n que registras
 - **Revisa 3 veces:** Antes de enviar, compara formulario vs documentos
-- **Consistencia entre docs:** Todos los documentos deben mostrar la misma información
+- **Consistencia entre docs:** Todos los documentos deben mostrar la misma informaciÃ³n
 ## 3. Error #3: Sitio Web Incompleto o Inadecuado
 
 ### Tercera Causa de Rechazo (20%)
 
-Stripe revisa tu sitio web como parte del proceso de aprobación:
+Stripe revisa tu sitio web como parte del proceso de aprobaciÃ³n:
 
-- **Política de privacidad:** 35%
-- **Términos y condiciones:** 40%
-- **Política de reembolso:** 50%
-- **Información de contacto:** 25%
-- **Descripción del producto/servicio:** 15%
+- **PolÃ­tica de privacidad:** 35%
+- **TÃ©rminos y condiciones:** 40%
+- **PolÃ­tica de reembolso:** 50%
+- **InformaciÃ³n de contacto:** 25%
+- **DescripciÃ³n del producto/servicio:** 15%
 ### Checklist del Sitio Web
 
-- [ ] Página principal funcionando (no "en construcción")
-- [ ] Política de privacidad visible
-- [ ] Términos y condiciones claros
-- [ ] Política de reembolso definida
-- [ ] Información de contacto (email, teléfono o formulario)
-- [ ] Descripción clara del producto o servicio
+- [ ] PÃ¡gina principal funcionando (no "en construcciÃ³n")
+- [ ] PolÃ­tica de privacidad visible
+- [ ] TÃ©rminos y condiciones claros
+- [ ] PolÃ­tica de reembolso definida
+- [ ] InformaciÃ³n de contacto (email, telÃ©fono o formulario)
+- [ ] DescripciÃ³n clara del producto o servicio
 - [ ] Certificado SSL/HTTPS activo
-- [ ] Diseño profesional y coherente
+- [ ] DiseÃ±o profesional y coherente
 
-### Requisitos Mínimos por Tipo de Negocio
+### Requisitos MÃ­nimos por Tipo de Negocio
 
-- **E-commerce:** Inicio, Productos, Carrito, Checkout, Políticas, Contacto
-- **SaaS:** Landing page, Precios, Funcionalidades, Términos, Privacidad
-- **Consultoría:** Inicio, Servicios, Sobre mí, Contacto, Términos
-- **Cursos online:** Landing, Contenido, Precios, Políticas, Contacto
+- **E-commerce:** Inicio, Productos, Carrito, Checkout, PolÃ­ticas, Contacto
+- **SaaS:** Landing page, Precios, Funcionalidades, TÃ©rminos, Privacidad
+- **ConsultorÃ­a:** Inicio, Servicios, Sobre mÃ­, Contacto, TÃ©rminos
+- **Cursos online:** Landing, Contenido, Precios, PolÃ­ticas, Contacto
 ## 4. Error #4: Negocio No Soportado o Restringido
 
 ### Causa de Rechazo en el 15% de los Casos
 
 Stripe tiene una lista de negocios prohibidos y restringidos:
 
-- **Prohibidos siempre:** Drogas, armas, apuestas no reguladas, pornografía, criptomonedas (ciertos casos)
+- **Prohibidos siempre:** Drogas, armas, apuestas no reguladas, pornografÃ­a, criptomonedas (ciertos casos)
 - **Alto riesgo:** CBD, suplementos, viajes, salud, eventos, donaciones
-- **Requieren licencia:** Servicios financieros, asesoría legal, salud regulada
-- **Restringidos por país:** Lo que es permitido en un país puede estar prohibido en otro
-### Cómo Verificar si tu Negocio es Aceptado
+- **Requieren licencia:** Servicios financieros, asesorÃ­a legal, salud regulada
+- **Restringidos por paÃ­s:** Lo que es permitido en un paÃ­s puede estar prohibido en otro
+### CÃ³mo Verificar si tu Negocio es Aceptado
 
 1. Revisa la lista oficial de negocios prohibidos de Stripe
-2. Si tu negocio está en zona gris, contacta al soporte de Stripe antes de registrarte
+2. Si tu negocio estÃ¡ en zona gris, contacta al soporte de Stripe antes de registrarte
 3. Considera alternativas como PayPal, Mercado Pago o Square si Stripe no acepta tu negocio
 
-### Negocios que Stripe Sí Acepta (Bajo Riesgo)
+### Negocios que Stripe SÃ­ Acepta (Bajo Riesgo)
 
 - **E-commerce general:** 95%
 - **SaaS / Software:** 95%
-- **Consultoría / Servicios:** 90%
-- **Educación / Cursos:** 95%
-- **Suscripciones / Membresías:** 90%
-## 5. Error #5: País o Ubicación No Soportada
+- **ConsultorÃ­a / Servicios:** 90%
+- **EducaciÃ³n / Cursos:** 95%
+- **Suscripciones / MembresÃ­as:** 90%
+## 5. Error #5: PaÃ­s o UbicaciÃ³n No Soportada
 
 ### Causa de Rechazo en el 10% de los Casos
 
-Stripe está disponible en 45+ países, pero muchos países aún no están soportados:
+Stripe estÃ¡ disponible en 45+ paÃ­ses, pero muchos paÃ­ses aÃºn no estÃ¡n soportados:
 
-- **América Latina:** Disponible en México, Brasil, Colombia, Chile, Argentina, Perú
+- **AmÃ©rica Latina:** Disponible en MÃ©xico, Brasil, Colombia, Chile, Argentina, PerÃº
 - **Latam no soportada:** Venezuela, Bolivia, Paraguay, Nicaragua, Honduras, El Salvador
-- **Europa:** Disponible en la mayoría de países de la UE + Reino Unido, Suiza, Noruega
-- **Asia:** Singapur, Japón, Hong Kong, Malasia, Filipinas, Tailandia
-- **África:** Sudáfrica, Nigeria, Kenia, Egipto, Ghana, Costa de Marfil
-### Soluciones si tu País No Está Soportado
+- **Europa:** Disponible en la mayorÃ­a de paÃ­ses de la UE + Reino Unido, Suiza, Noruega
+- **Asia:** Singapur, JapÃ³n, Hong Kong, Malasia, Filipinas, Tailandia
+- **Ãfrica:** SudÃ¡frica, Nigeria, Kenia, Egipto, Ghana, Costa de Marfil
+### Soluciones si tu PaÃ­s No EstÃ¡ Soportado
 
 - **LLC en EE. UU.:** Constituye una empresa en EE. UU. y abre Stripe con ella -- Media
 - **Stripe Atlas:** Stripe mismo te ayuda a constituir una empresa en Delaware -- Baja
 - **Plataforma alternativa:** Usa PayPal, Mercado Pago, Payoneer u otros -- Baja
 - **Partner de Stripe:** Procesadores que usan Stripe por debajo -- Media
-> **Solución recomendada:** Constituir una LLC en EE. UU. (Wyoming, Delaware o Nuevo México) es la forma más confiable de acceder a Stripe desde cualquier país.
+> **SoluciÃ³n recomendada:** Constituir una LLC en EE. UU. (Wyoming, Delaware o Nuevo MÃ©xico) es la forma mÃ¡s confiable de acceder a Stripe desde cualquier paÃ­s.
 
-## 6. Error #6: Información Bancaria Incorrecta
+## 6. Error #6: InformaciÃ³n Bancaria Incorrecta
 
 ### Causas Comunes
 
-- **Cuenta de ahorro:** Stripe requiere cuenta corriente en la mayoría de países
+- **Cuenta de ahorro:** Stripe requiere cuenta corriente en la mayorÃ­a de paÃ­ses
 - **Titular diferente:** El nombre de la cuenta no coincide con el de Stripe
-- **País incorrecto:** La cuenta bancaria debe estar en el mismo país que la cuenta Stripe
-- **Número de cuenta inválido:** Error al escribir el número de cuenta o routing
+- **PaÃ­s incorrecto:** La cuenta bancaria debe estar en el mismo paÃ­s que la cuenta Stripe
+- **NÃºmero de cuenta invÃ¡lido:** Error al escribir el nÃºmero de cuenta o routing
 ### Soluciones
 
 - **Cuenta de ahorro:** Abre una cuenta corriente en tu banco
 - **Titular diferente:** La cuenta debe estar a nombre del titular de Stripe (persona o empresa)
-- **País incorrecto:** Abre una cuenta en el mismo país donde registraste Stripe
-- **Número inválido:** Verifica el número con tu banco antes de ingresarlo
-## 7. Error #7: Múltiples Cuentas o Sospecha de Fraude
+- **PaÃ­s incorrecto:** Abre una cuenta en el mismo paÃ­s donde registraste Stripe
+- **NÃºmero invÃ¡lido:** Verifica el nÃºmero con tu banco antes de ingresarlo
+## 7. Error #7: MÃºltiples Cuentas o Sospecha de Fraude
 
 ### Comportamientos que Activan Alertas
 
-- **Crear múltiples cuentas:** Stripe puede marcarlo como actividad fraudulenta
+- **Crear mÃºltiples cuentas:** Stripe puede marcarlo como actividad fraudulenta
 - **VPN o proxy al registrarse:** Stripe detecta ubicaciones falsas
-- **IP de país no soportado:** Intento de registrarse desde un país bloqueado
-- **Datos falsos:** Información que no coincide con la realidad
-### Cómo Evitarlo
+- **IP de paÃ­s no soportado:** Intento de registrarse desde un paÃ­s bloqueado
+- **Datos falsos:** InformaciÃ³n que no coincide con la realidad
+### CÃ³mo Evitarlo
 
 - Crea una sola cuenta Stripe
 - No uses VPN durante el registro
-- Usa tu dirección real y documentos válidos
+- Usa tu direcciÃ³n real y documentos vÃ¡lidos
 - Si tu cuenta es rechazada, apela en lugar de crear una nueva
 
-## 8. Error #8: No Completar la Verificación de Identidad
+## 8. Error #8: No Completar la VerificaciÃ³n de Identidad
 
-### El Error Que Más Tiempo Cuesta
+### El Error Que MÃ¡s Tiempo Cuesta
 
-Muchos usuarios inician el registro pero no completan la verificación de identidad:
+Muchos usuarios inician el registro pero no completan la verificaciÃ³n de identidad:
 
 - **Selfie o video:** Confirma que eres la persona del documento
 - **Documento en vivo:** Toma una foto del documento en tiempo real
-- **Preguntas de seguridad:** Verifica información personal adicional
-### Consejos para Pasar la Verificación
+- **Preguntas de seguridad:** Verifica informaciÃ³n personal adicional
+### Consejos para Pasar la VerificaciÃ³n
 
-1. **Iluminación:** Luz natural o ambiente bien iluminado
+1. **IluminaciÃ³n:** Luz natural o ambiente bien iluminado
 2. **Fondo neutro:** Pared lisa, sin distracciones
 3. **Documento visible:** Sin reflejos, mostrando las 4 esquinas
 4. **Rostro descubierto:** Sin lentes oscuros, gorra o cubrebocas
@@ -164,12 +164,12 @@ Muchos usuarios inician el registro pero no completan la verificación de identid
 
 ### Consecuencias de Ignorar los Correos
 
-Stripe envía correos durante el proceso de revisión:
+Stripe envÃ­a correos durante el proceso de revisiÃ³n:
 
 - **"Necesitamos documentos adicionales":** La cuenta queda pendiente indefinidamente
-- **"Verifica tu información":** Stripe puede rechazar la cuenta
-- **"Actualiza tu método de pago":** Los pagos no se procesarán
-### Cómo Mantenerte al Día
+- **"Verifica tu informaciÃ³n":** Stripe puede rechazar la cuenta
+- **"Actualiza tu mÃ©todo de pago":** Los pagos no se procesarÃ¡n
+### CÃ³mo Mantenerte al DÃ­a
 
 - Revisa tu bandeja de entrada (y spam) regularmente
 - Responde en menos de 48 horas
@@ -180,32 +180,32 @@ Stripe envía correos durante el proceso de revisión:
 
 ### Antes de Crear tu Cuenta Stripe
 
-- [ ] Verifica que Stripe esté disponible en tu país
+- [ ] Verifica que Stripe estÃ© disponible en tu paÃ­s
 - [ ] Si no, considera constituir una LLC en EE. UU.
 - [ ] Prepara tu documento de identidad vigente
 - [ ] Prepara un comprobante de domicilio (menos de 3 meses)
-- [ ] Ten un sitio web completo con políticas
-- [ ] Define la información de tu negocio
+- [ ] Ten un sitio web completo con polÃ­ticas
+- [ ] Define la informaciÃ³n de tu negocio
 - [ ] Ten una cuenta bancaria lista (corriente, en tu nombre)
-- [ ] Verifica que tu negocio esté permitido por Stripe
+- [ ] Verifica que tu negocio estÃ© permitido por Stripe
 
 ### Durante el Registro
 
 - [ ] Ingresa los datos exactamente como en los documentos
-- [ ] Usa el mismo nombre, dirección y fecha de nacimiento
-- [ ] Elige la categoría de negocio correcta
-- [ ] Completa la verificación de identidad en el mismo día
+- [ ] Usa el mismo nombre, direcciÃ³n y fecha de nacimiento
+- [ ] Elige la categorÃ­a de negocio correcta
+- [ ] Completa la verificaciÃ³n de identidad en el mismo dÃ­a
 - [ ] Revisa los correos de Stripe en las siguientes 48 horas
 
-### Errores Específicos por País
+### Errores EspecÃ­ficos por PaÃ­s
 
-- **México:** INE con dirección desactualizada -- Usa pasaporte o actualiza tu INE
+- **MÃ©xico:** INE con direcciÃ³n desactualizada -- Usa pasaporte o actualiza tu INE
 - **Brasil:** CPF no coincide con el nombre -- Verifica datos en Receita Federal
-- **Colombia:** Cédula escaneada incompleta -- Escanea ambas caras
-- **Argentina:** DNI no legible por diseño -- Usa pasaporte como alternativa
-- **EE. UU. (LLC):** EIN no verificado -- Espera 24-48 horas después de obtenerlo
-## Conclusión
+- **Colombia:** CÃ©dula escaneada incompleta -- Escanea ambas caras
+- **Argentina:** DNI no legible por diseÃ±o -- Usa pasaporte como alternativa
+- **EE. UU. (LLC):** EIN no verificado -- Espera 24-48 horas despuÃ©s de obtenerlo
+## ConclusiÃ³n
 
-**Los errores que hacen que Stripe rechace cuentas** son casi siempre evitables. Documentos claros, información consistente y un sitio web profesional son los tres pilares para una aprobación rápida. La mayoría de los rechazos ocurren por descuidos que puedes evitar con una preparación adecuada.
+**Los errores que hacen que Stripe rechace cuentas** son casi siempre evitables. Documentos claros, informaciÃ³n consistente y un sitio web profesional son los tres pilares para una aprobaciÃ³n rÃ¡pida. La mayorÃ­a de los rechazos ocurren por descuidos que puedes evitar con una preparaciÃ³n adecuada.
 
-En **Sotomayor Consulting International**, ayudamos a emprendedores a preparar su documentación para Stripe, incluyendo la constitución de empresas en EE. UU. para acceder a Stripe desde cualquier país. Contáctanos para una consultoría personalizada.
+En **Sotomayor Consulting International**, ayudamos a emprendedores a preparar su documentaciÃ³n para Stripe, incluyendo la constituciÃ³n de empresas en EE. UU. para acceder a Stripe desde cualquier paÃ­s. ContÃ¡ctanos para una consultorÃ­a personalizada.

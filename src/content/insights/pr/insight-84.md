@@ -1,7 +1,7 @@
 ---
 title: "Que Impostos um Estrangeiro Paga em Real Estate: Guia 2026"
 description: "Que impostos um estrangeiro paga em real estate"
-cardImage: "@/images/insights/inversión-extranjera.png"
+cardImage: "@/images/insights/inversion-extranjera.png"
 cardImageAlt: "Ciclo de impostos para estrangeiro em real estate: compra, posse, aluguel e venda com ícones do IRS, FIRPTA e property tax"
 ---
 

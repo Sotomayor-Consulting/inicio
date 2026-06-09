@@ -1,29 +1,29 @@
 ---
-title: "IA aplicada a la atención al cliente: Guía 2026"
-description: "Automatización de soporte al cliente con IA"
-cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"
-cardImageAlt: "Dashboard de soporte al cliente con IA mostrando conversaciones de chatbot, análisis de sentimiento, resolución automatizada de tickets y métricas de rendimiento"
+title: "IA aplicada a la atenciÃ³n al cliente: GuÃ­a 2026"
+description: "AutomatizaciÃ³n de soporte al cliente con IA"
+cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
+cardImageAlt: "Dashboard de soporte al cliente con IA mostrando conversaciones de chatbot, anÃ¡lisis de sentimiento, resoluciÃ³n automatizada de tickets y mÃ©tricas de rendimiento"
 ---
 
-**La IA está transformando la atención al cliente de un centro de costos a una ventaja competitiva.** By 2026, businesses using AI-powered support achieve 80%+ first-contact resolution, reduce response times from hours to seconds, and cut support costs by 40-60% — all while improving customer satisfaction scores.
+**La IA estÃ¡ transformando la atenciÃ³n al cliente de un centro de costos a una ventaja competitiva.** By 2026, businesses using AI-powered support achieve 80%+ first-contact resolution, reduce response times from hours to seconds, and cut support costs by 40-60% Â— all while improving customer satisfaction scores.
 
-En esta guía, cubrimos **cómo aplicar IA a la atención al cliente en 2026**, incluyendo chatbots con IA, análisis de sentimiento, enrutamiento automatizado de tickets, IA para base de conocimiento, herramientas de asistencia al agente, integración con Stripe para soporte de pagos y el stack completo de IA para soporte.
+En esta guÃ­a, cubrimos **cÃ³mo aplicar IA a la atenciÃ³n al cliente en 2026**, incluyendo chatbots con IA, anÃ¡lisis de sentimiento, enrutamiento automatizado de tickets, IA para base de conocimiento, herramientas de asistencia al agente, integraciÃ³n con Stripe para soporte de pagos y el stack completo de IA para soporte.
 
-## 1. La revolución del soporte con IA
+## 1. La revoluciÃ³n del soporte con IA
 
-### Cómo la IA cambia la atención al cliente
+### CÃ³mo la IA cambia la atenciÃ³n al cliente
 
-- **Tiempo de primera respuesta:** 4-24 horas -- < 30 segundos -- 99% más rápido
-- **Tiempo de resolución:** 24-72 horas -- 1-4 horas -- 80%+ más rápido
-- **Resolución en primer contacto:** 50-60% -- 80-90% -- +30%
-- **Tickets por agente:** 20-40/día -- 100-300/día -- 5x más
+- **Tiempo de primera respuesta:** 4-24 horas -- < 30 segundos -- 99% mÃ¡s rÃ¡pido
+- **Tiempo de resoluciÃ³n:** 24-72 horas -- 1-4 horas -- 80%+ mÃ¡s rÃ¡pido
+- **ResoluciÃ³n en primer contacto:** 50-60% -- 80-90% -- +30%
+- **Tickets por agente:** 20-40/dÃ­a -- 100-300/dÃ­a -- 5x mÃ¡s
 - **Cost per Ticket:** $5-$15 -- $1-$3 -- 70% lower
-- **Satisfacción del cliente:** 3.5-4.0 / 5 -- 4.2-4.8 / 5 -- +20%
+- **SatisfacciÃ³n del cliente:** 3.5-4.0 / 5 -- 4.2-4.8 / 5 -- +20%
 - **Cobertura 24/7:** Depende de turnos -- Siempre disponible -- Siempre activo
 - **Idiomas soportados:** 1-2 idiomas -- 50+ idiomas -- Alcance global
 ### Where AI Adds the Most Value
 
-## 2. Chatbots con IA: La primera línea de soporte
+## 2. Chatbots con IA: La primera lÃ­nea de soporte
 
 ### Niveles de chatbot
 
@@ -33,9 +33,9 @@ En esta guía, cubrimos **cómo aplicar IA a la atención al cliente en 2026**, inc
 - **Tier 4:** Proactive, personalized, predictive -- AI agent + memory -- 85-95% -- Enterprise support
 ### Building an AI Chatbot for Support
 
-## 3. Análisis de sentimiento y priorización
+## 3. AnÃ¡lisis de sentimiento y priorizaciÃ³n
 
-### Por qué importa el análisis de sentimiento
+### Por quÃ© importa el anÃ¡lisis de sentimiento
 
 - **Frustrated:** "This is the third time I'm calling about this!" -- Critical -- Route to senior agent immediately
 - **Urgent:** "My account is blocked and I need it today" -- High -- Fast-track, SLA: 15 min
@@ -46,23 +46,23 @@ En esta guía, cubrimos **cómo aplicar IA a la atención al cliente en 2026**, inc
 
 ## 4. Herramientas de asistencia al agente con IA
 
-### Cómo la IA ayuda a los agentes de soporte
+### CÃ³mo la IA ayuda a los agentes de soporte
 
 ## 5. Base de conocimiento con IA
 
-### Por qué tu base de conocimiento necesita IA
+### Por quÃ© tu base de conocimiento necesita IA
 
-## 6. Resolución automatizada de tickets
+## 6. ResoluciÃ³n automatizada de tickets
 
-### Resolución de tickets de principio a fin con IA
+### ResoluciÃ³n de tickets de principio a fin con IA
 
-## 7. IA para soporte multilingüe
+## 7. IA para soporte multilingÃ¼e
 
-### Traducción en tiempo real en soporte
+### TraducciÃ³n en tiempo real en soporte
 
-## 8. Analítica y reportes de soporte con IA
+## 8. AnalÃ­tica y reportes de soporte con IA
 
-### Métricas que importan
+### MÃ©tricas que importan
 
 - **Auto-Resolution Rate:** 0% -- 40-70% -- % of tickets resolved by AI without human
 - **First Response Time:** 4-24 hours -- < 30 seconds -- Time from ticket creation to first reply
@@ -72,9 +72,9 @@ En esta guía, cubrimos **cómo aplicar IA a la atención al cliente en 2026**, inc
 - **Cost per Ticket:** $5-$15 -- $1-$3 -- Total support cost divided by tickets
 - **Reopen Rate:** 10-20% -- 3-8% -- % of tickets reopened after closure
 - **Language Coverage:** 1-2 -- 50+ -- Languages supported
-## 9. Integración Stripe + IA para soporte
+## 9. IntegraciÃ³n Stripe + IA para soporte
 
-### Automatización de soporte relacionado con pagos
+### AutomatizaciÃ³n de soporte relacionado con pagos
 
 ## 10. Construyendo tu stack de soporte con IA
 
@@ -88,20 +88,20 @@ En esta guía, cubrimos **cómo aplicar IA a la atención al cliente en 2026**, inc
 - **Stripe Integration:** Stripe API + Webhooks -- Free + usage -- Payment support automation
 - **AI Agent Assist:** Intercom Fin / Zendesk AI Agents -- $50-$200/mo -- Agent productivity tools
 - **Analytics:** Stripe Sigma / Metabase / Tableau -- $0-$500/mo -- Support metrics dashboard
-### Hoja de ruta de implementación
+### Hoja de ruta de implementaciÃ³n
 
 ## Conclusion
 
-**La IA está revolucionando la atención al cliente en 2026.** The businesses that will lead their industries are those that combine AI chatbots, sentiment analysis, intelligent routing, agent assist tools, and deep Stripe integration to create a support experience that's faster, cheaper, and more satisfying than traditional approaches.
+**La IA estÃ¡ revolucionando la atenciÃ³n al cliente en 2026.** The businesses that will lead their industries are those that combine AI chatbots, sentiment analysis, intelligent routing, agent assist tools, and deep Stripe integration to create a support experience that's faster, cheaper, and more satisfying than traditional approaches.
 
-Los principios clave para el éxito del soporte con IA:
+Los principios clave para el Ã©xito del soporte con IA:
 
-- **Empieza por problemas de alto volumen y baja complejidad** — automatiza restablecimientos de contraseña, estado de pedidos y preguntas de facturación primero
-- **La IA asiste a los humanos, no los reemplaza** — el mejor modelo es que la IA maneje 60-70% de los tickets y los humanos el resto con herramientas de IA
-- **Conecta la IA a Stripe** — los problemas de pago son los tickets de soporte más comunes; la integración con Stripe permite resolución instantánea
-- **Mide lo que importa** — rastrea tasa de auto-resolución, CSAT, tiempo de respuesta y costo por ticket para probar el ROI
-- **Itera continuamente** — los modelos de IA mejoran con datos; revisa la precisión de clasificación y tasas de éxito de resolución regularmente
+- **Empieza por problemas de alto volumen y baja complejidad** Â— automatiza restablecimientos de contraseÃ±a, estado de pedidos y preguntas de facturaciÃ³n primero
+- **La IA asiste a los humanos, no los reemplaza** Â— el mejor modelo es que la IA maneje 60-70% de los tickets y los humanos el resto con herramientas de IA
+- **Conecta la IA a Stripe** Â— los problemas de pago son los tickets de soporte mÃ¡s comunes; la integraciÃ³n con Stripe permite resoluciÃ³n instantÃ¡nea
+- **Mide lo que importa** Â— rastrea tasa de auto-resoluciÃ³n, CSAT, tiempo de respuesta y costo por ticket para probar el ROI
+- **Itera continuamente** Â— los modelos de IA mejoran con datos; revisa la precisiÃ³n de clasificaciÃ³n y tasas de Ã©xito de resoluciÃ³n regularmente
 
-**La IA no solo reduce costos de soporte — transforma el soporte en una experiencia 24/7, multi-idioma y de respuesta instantánea que los clientes aman.** Every automated ticket is both a cost saved and a customer delighted.
+**La IA no solo reduce costos de soporte Â— transforma el soporte en una experiencia 24/7, multi-idioma y de respuesta instantÃ¡nea que los clientes aman.** Every automated ticket is both a cost saved and a customer delighted.
 
-En **Sotomayor Consulting International**, ayudamos a empresas a diseñar e implementar sistemas de soporte con IA: desde configuración de chatbots e integración Stripe hasta automatización completa de soporte con IA. Contáctanos para una consultoría personalizada.
+En **Sotomayor Consulting International**, ayudamos a empresas a diseÃ±ar e implementar sistemas de soporte con IA: desde configuraciÃ³n de chatbots e integraciÃ³n Stripe hasta automatizaciÃ³n completa de soporte con IA. ContÃ¡ctanos para una consultorÃ­a personalizada.

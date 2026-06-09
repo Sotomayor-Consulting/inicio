@@ -1,49 +1,49 @@
 ---
-title: "Tratados Tributarios Internacionales y LLCs: Guía para Emprendedores Globales"
-description: "Cómo afectan los tratados de doble tributación a tu LLC en EE.UU., qué países tienen tratados favorables y cómo optimizar tu estructura fiscal."
+title: "Tratados Tributarios Internacionales y LLCs: GuÃ­a para Emprendedores Globales"
+description: "CÃ³mo afectan los tratados de doble tributaciÃ³n a tu LLC en EE.UU., quÃ© paÃ­ses tienen tratados favorables y cÃ³mo optimizar tu estructura fiscal."
 cardImage: "@/images/insights/tratados-tributarios-internacionales.png"
-cardImageAlt: "Mapa mundial con conexiones tributarias entre países"
+cardImageAlt: "Mapa mundial con conexiones tributarias entre paÃ­ses"
 ---
 
-Uno de los temas más complejos —y más importantes— para emprendedores internacionales con una LLC en Estados Unidos es cómo los **tratados tributarios** afectan su estructura fiscal.
+Uno de los temas mÃ¡s complejos Â—y mÃ¡s importantesÂ— para emprendedores internacionales con una LLC en Estados Unidos es cÃ³mo los **tratados tributarios** afectan su estructura fiscal.
 
-Dependiendo de tu país de residencia, los ingresos de tu LLC pueden tributar en EE.UU., en tu país, o en ambos. Y en algunos casos, un tratado fiscal puede reducir o eliminar la retención de impuestos sobre ciertos tipos de ingresos.
+Dependiendo de tu paÃ­s de residencia, los ingresos de tu LLC pueden tributar en EE.UU., en tu paÃ­s, o en ambos. Y en algunos casos, un tratado fiscal puede reducir o eliminar la retenciÃ³n de impuestos sobre ciertos tipos de ingresos.
 
-En esta guía explicamos qué son los tratados tributarios, cómo afectan a tu LLC y qué debes considerar según tu país de residencia.
+En esta guÃ­a explicamos quÃ© son los tratados tributarios, cÃ³mo afectan a tu LLC y quÃ© debes considerar segÃºn tu paÃ­s de residencia.
 
-## ¿Qué es un tratado tributario?
+## Â¿QuÃ© es un tratado tributario?
 
-Un **tratado de doble tributación** es un acuerdo entre dos países para evitar que una misma renta sea gravada??. Estos tratados establecen:
+Un **tratado de doble tributaciÃ³n** es un acuerdo entre dos paÃ­ses para evitar que una misma renta sea gravada??. Estos tratados establecen:
 
-- **Qué país tiene derecho a gravar** cada tipo de ingreso.
-- **Qué tasas de retención aplican** para pagos transfronterizos (dividendos, intereses, regalías).
-- **Cómo se evita la doble imposición** (crédito fiscal, exención).
-- **Procedimientos de intercambio de información** entre autoridades fiscales.
+- **QuÃ© paÃ­s tiene derecho a gravar** cada tipo de ingreso.
+- **QuÃ© tasas de retenciÃ³n aplican** para pagos transfronterizos (dividendos, intereses, regalÃ­as).
+- **CÃ³mo se evita la doble imposiciÃ³n** (crÃ©dito fiscal, exenciÃ³n).
+- **Procedimientos de intercambio de informaciÃ³n** entre autoridades fiscales.
 
-### ¿Cómo se aplica a tu LLC?
+### Â¿CÃ³mo se aplica a tu LLC?
 
-La aplicación de tratados a LLCs es compleja porque el IRS trata a las LLCs de manera diferente según su clasificación fiscal:
+La aplicaciÃ³n de tratados a LLCs es compleja porque el IRS trata a las LLCs de manera diferente segÃºn su clasificaciÃ³n fiscal:
 
-- **Disregarded Entity** (single-member):** El IRS ignora la LLC; el dueño es el contribuyente. El tratado se aplica según el país del dueño.
-- **Partnership** (multi-member):** La LLC no paga impuestos; los socios reportan su parte. El tratado se aplica según el país de cada socio.
-- **Corporation (S-Corp o C-Corp):** La LLC paga impuestos como corporación. El tratado se aplica a la LLC como entidad.
-> **Consecuencia práctica:** La mayoría de emprendedores latinoamericanos operan como disregarded entity, por lo que el tratado aplica según su país de residencia.
+- **Disregarded Entity** (single-member):** El IRS ignora la LLC; el dueÃ±o es el contribuyente. El tratado se aplica segÃºn el paÃ­s del dueÃ±o.
+- **Partnership** (multi-member):** La LLC no paga impuestos; los socios reportan su parte. El tratado se aplica segÃºn el paÃ­s de cada socio.
+- **Corporation (S-Corp o C-Corp):** La LLC paga impuestos como corporaciÃ³n. El tratado se aplica a la LLC como entidad.
+> **Consecuencia prÃ¡ctica:** La mayorÃ­a de emprendedores latinoamericanos operan como disregarded entity, por lo que el tratado aplica segÃºn su paÃ­s de residencia.
 
-## Países con tratado fiscal con EE.UU.
+## PaÃ­ses con tratado fiscal con EE.UU.
 
-EE.UU. tiene tratados fiscales con más de 60 países. Para Latinoamérica, los tratados vigentes son:
+EE.UU. tiene tratados fiscales con mÃ¡s de 60 paÃ­ses. Para LatinoamÃ©rica, los tratados vigentes son:
 
-- **México:** Sí -- 0% / 4.9% / 10% -- 10%
-- **Colombia:** No (en negociación) -- 30% (sin tratado) -- 30% (sin tratado)
-- **Perú:** No -- 30% (sin tratado) -- 30% (sin tratado)
-- **Chile:** Sí (desde 2024) -- 2% / 4% / 10% -- 10% / 15%
-- **Argentina:** Sí -- 0% / 3% / 5% / 12.5% -- 3% / 5% / 10% / 15%
+- **MÃ©xico:** SÃ­ -- 0% / 4.9% / 10% -- 10%
+- **Colombia:** No (en negociaciÃ³n) -- 30% (sin tratado) -- 30% (sin tratado)
+- **PerÃº:** No -- 30% (sin tratado) -- 30% (sin tratado)
+- **Chile:** SÃ­ (desde 2024) -- 2% / 4% / 10% -- 10% / 15%
+- **Argentina:** SÃ­ -- 0% / 3% / 5% / 12.5% -- 3% / 5% / 10% / 15%
 - **Brasil:** No (suspendido) -- 30% (sin tratado) -- 30% (sin tratado)
-- **Venezuela:** Sí -- 4.95% / 10% -- 10% / 20%
+- **Venezuela:** SÃ­ -- 4.95% / 10% -- 10% / 20%
 - **Ecuador:** No -- 30% (sin tratado) -- 30% (sin tratado)
 - **Costa Rica:** No -- 30% (sin tratado) -- 30% (sin tratado)
-- **Panamá:** No -- 30% (sin tratado) -- 30% (sin tratado)
-- **República Dominicana:** No -- 30% (sin tratado) -- 30% (sin tratado)
+- **PanamÃ¡:** No -- 30% (sin tratado) -- 30% (sin tratado)
+- **RepÃºblica Dominicana:** No -- 30% (sin tratado) -- 30% (sin tratado)
 - **Uruguay:** No -- 30% (sin tratado) -- 30% (sin tratado)
 - **Paraguay:** No -- 30% (sin tratado) -- 30% (sin tratado)
 - **Bolivia:** No -- 30% (sin tratado) -- 30% (sin tratado)
@@ -51,190 +51,190 @@ EE.UU. tiene tratados fiscales con más de 60 países. Para Latinoamérica, los tra
 - **El Salvador:** No -- 30% (sin tratado) -- 30% (sin tratado)
 - **Honduras:** No -- 30% (sin tratado) -- 30% (sin tratado)
 - **Nicaragua:** No -- 30% (sin tratado) -- 30% (sin tratado)
-- **España:** Sí -- 0% / 5% / 10% -- 5% / 10% / 15%
-> **Nota importante:** Incluso si tu país no tiene tratado, puedes tener obligaciones fiscales reducidas si tu LLC no genera "Effectively Connected Income" (ECI) en EE.UU.
+- **EspaÃ±a:** SÃ­ -- 0% / 5% / 10% -- 5% / 10% / 15%
+> **Nota importante:** Incluso si tu paÃ­s no tiene tratado, puedes tener obligaciones fiscales reducidas si tu LLC no genera "Effectively Connected Income" (ECI) en EE.UU.
 
-## Cómo afecta cada tipo de ingreso
+## CÃ³mo afecta cada tipo de ingreso
 
 ### Ingresos por servicios (ECI)
 
 Los ingresos por servicios prestados por la LLC se consideran **Effectively Connected Income (ECI)** si el negocio se opera desde EE.UU.
 
-**Para disregarded entity:** Si la LLC no tiene presencia física en EE.UU. y los servicios se prestan desde tu país, generalmente no hay ECI y los ingresos solo tributan en tu país de residencia.
+**Para disregarded entity:** Si la LLC no tiene presencia fÃ­sica en EE.UU. y los servicios se prestan desde tu paÃ­s, generalmente no hay ECI y los ingresos solo tributan en tu paÃ­s de residencia.
 
 ### Intereses
 
-- **Sin tratado:** 30% de retención.
-- **Con tratado:** 0% en la mayoría de casos (México, Argentina, Chile, España).
+- **Sin tratado:** 30% de retenciÃ³n.
+- **Con tratado:** 0% en la mayorÃ­a de casos (MÃ©xico, Argentina, Chile, EspaÃ±a).
 
 ### Dividendos
 
-- **Sin tratado:** 30% de retención.
-- **Con tratado:** 0% - 15% según el país y el porcentaje de participación.
+- **Sin tratado:** 30% de retenciÃ³n.
+- **Con tratado:** 0% - 15% segÃºn el paÃ­s y el porcentaje de participaciÃ³n.
 
-### Regalías
+### RegalÃ­as
 
-- **Sin tratado:** 30% de retención.
-- **Con tratado:** 3% - 15% según el país y el tipo de regalía.
+- **Sin tratado:** 30% de retenciÃ³n.
+- **Con tratado:** 3% - 15% segÃºn el paÃ­s y el tipo de regalÃ­a.
 
 ## El problema de la "disregarded entity" para tratados
 
-Un tema crítico para emprendedores latinoamericanos es que **no todos los países reconocen el concepto de disregarded entity** para efectos de tratados tributarios.
+Un tema crÃ­tico para emprendedores latinoamericanos es que **no todos los paÃ­ses reconocen el concepto de disregarded entity** para efectos de tratados tributarios.
 
-### Problemática
+### ProblemÃ¡tica
 
 - EE.UU. ve la LLC como "inexistente" fiscalmente (disregarded).
-- Tu país de residencia puede ver la LLC como una **corporación** separada.
-- Esto puede crear **desajustes híbridos** donde ambos países reclaman el derecho de gravar.
+- Tu paÃ­s de residencia puede ver la LLC como una **corporaciÃ³n** separada.
+- Esto puede crear **desajustes hÃ­bridos** donde ambos paÃ­ses reclaman el derecho de gravar.
 
 ### Ejemplo concreto
 
-**María (Colombia):** Tiene una single-member LLC en Wyoming. En EE.UU. es disregarded entity (tributa solo en Colombia). Pero Colombia puede ver la LLC como una corporación extranjera y exigir que la LLC presente declaración en Colombia además de la personal de María.
+**MarÃ­a (Colombia):** Tiene una single-member LLC en Wyoming. En EE.UU. es disregarded entity (tributa solo en Colombia). Pero Colombia puede ver la LLC como una corporaciÃ³n extranjera y exigir que la LLC presente declaraciÃ³n en Colombia ademÃ¡s de la personal de MarÃ­a.
 
-**Resultado:** Posible doble tributación si no se estructura correctamente.
+**Resultado:** Posible doble tributaciÃ³n si no se estructura correctamente.
 
-### Países con más problemas de desajuste híbrido
+### PaÃ­ses con mÃ¡s problemas de desajuste hÃ­brido
 
 - **Colombia:** Tiende a tratar las LLCs como corporaciones.
-- **Brasil:** Históricamente ha tenido una posición restrictiva.
-- **Argentina:** Puede reclasificar la LLC como corporación.
-- **Perú:** Tratamiento no claro, depende del análisis caso por caso.
+- **Brasil:** HistÃ³ricamente ha tenido una posiciÃ³n restrictiva.
+- **Argentina:** Puede reclasificar la LLC como corporaciÃ³n.
+- **PerÃº:** Tratamiento no claro, depende del anÃ¡lisis caso por caso.
 
-## Cómo optimizar tu estructura según tu país
+## CÃ³mo optimizar tu estructura segÃºn tu paÃ­s
 
-### Si tu país tiene tratado con EE.UU. (México, Chile, Argentina, España)
+### Si tu paÃ­s tiene tratado con EE.UU. (MÃ©xico, Chile, Argentina, EspaÃ±a)
 
-- **Verificar que el tratado aplica a disregarded entities:** Reducción o eliminación de retenciones
-- **Solicitar el certificado de residencia fiscal en tu país:** Acceder a los beneficios del tratado
-- **Estructurar pagos para calificar bajo el tratado:** Menores tasas de retención sobre intereses y regalías
-- **Evaluar si tu LLC debe tributar como corporation:** Simplificar la aplicación del tratado
-### Si tu país NO tiene tratado con EE.UU. (Colombia, Perú, Brasil, Ecuador, etc.)
+- **Verificar que el tratado aplica a disregarded entities:** ReducciÃ³n o eliminaciÃ³n de retenciones
+- **Solicitar el certificado de residencia fiscal en tu paÃ­s:** Acceder a los beneficios del tratado
+- **Estructurar pagos para calificar bajo el tratado:** Menores tasas de retenciÃ³n sobre intereses y regalÃ­as
+- **Evaluar si tu LLC debe tributar como corporation:** Simplificar la aplicaciÃ³n del tratado
+### Si tu paÃ­s NO tiene tratado con EE.UU. (Colombia, PerÃº, Brasil, Ecuador, etc.)
 
-- **Mantener la LLC como disregarded entity:** Los ingresos tributan solo en tu país
-- **No generar ECI en EE.UU.:** Evitar la declaración de impuestos en EE.UU.
-- **Usar la LLC solo para recibir ingresos:** Minimizar exposición fiscal
-- **Evaluar si la LLC debe tributar como corporation:** Protección en caso de desajuste híbrido
-- **Consultar con un contador local:** Entender cómo tu país ve la LLC
-## Casos prácticos por país
+- **Mantener la LLC como disregarded entity:** Los ingresos tributan solo en tu paÃ­s
+- **No generar ECI en EE.UU.:** Evitar la declaraciÃ³n de impuestos en EE.UU.
+- **Usar la LLC solo para recibir ingresos:** Minimizar exposiciÃ³n fiscal
+- **Evaluar si la LLC debe tributar como corporation:** ProtecciÃ³n en caso de desajuste hÃ­brido
+- **Consultar con un contador local:** Entender cÃ³mo tu paÃ­s ve la LLC
+## Casos prÃ¡cticos por paÃ­s
 
-### Caso 1: México (con tratado)
+### Caso 1: MÃ©xico (con tratado)
 
-**Situación:** Carlos tiene una LLC disregarded entity en Wyoming. Vive en México y factura $10,000/mes a clientes en EE.UU.
+**SituaciÃ³n:** Carlos tiene una LLC disregarded entity en Wyoming. Vive en MÃ©xico y factura $10,000/mes a clientes en EE.UU.
 
-**Aplicación del tratado:**
-- Los ingresos por servicios no son ECI (se prestan desde México).
-- Carlos reporta los ingresos en México.
-- Si la LLC recibiera intereses, el tratado México-EE.UU. reduce la retención al 0%.
-- Carlos paga impuestos en México y puede usar la LLC sin costo fiscal adicional en EE.UU.
+**AplicaciÃ³n del tratado:**
+- Los ingresos por servicios no son ECI (se prestan desde MÃ©xico).
+- Carlos reporta los ingresos en MÃ©xico.
+- Si la LLC recibiera intereses, el tratado MÃ©xico-EE.UU. reduce la retenciÃ³n al 0%.
+- Carlos paga impuestos en MÃ©xico y puede usar la LLC sin costo fiscal adicional en EE.UU.
 
 ### Caso 2: Colombia (sin tratado)
 
-**Situación:** Laura tiene una LLC disregarded entity en Florida. Vive en Colombia y gana $8,000/mes como consultora.
+**SituaciÃ³n:** Laura tiene una LLC disregarded entity en Florida. Vive en Colombia y gana $8,000/mes como consultora.
 
-**Aplicación:**
-- Sin tratado, no hay reducción de retenciones.
+**AplicaciÃ³n:**
+- Sin tratado, no hay reducciÃ³n de retenciones.
 - Los ingresos no son ECI (no hay presencia en EE.UU.).
 - Laura solo tributa en Colombia.
-- **Problema potencial:** Colombia puede ver la LLC como corporación y exigir declaración adicional.
+- **Problema potencial:** Colombia puede ver la LLC como corporaciÃ³n y exigir declaraciÃ³n adicional.
 
-**Recomendación:** Consultar con un contador colombiano para confirmar el tratamiento de la LLC.
+**RecomendaciÃ³n:** Consultar con un contador colombiano para confirmar el tratamiento de la LLC.
 
 ### Caso 3: Argentina (con tratado)
 
-**Situación:** Juan tiene una LLC multi-member con su socio en Argentina. La LLC factura $20,000/mes.
+**SituaciÃ³n:** Juan tiene una LLC multi-member con su socio en Argentina. La LLC factura $20,000/mes.
 
-**Aplicación del tratado:**
+**AplicaciÃ³n del tratado:**
 - El tratado Argentina-EE.UU. aplica a partnerships.
-- Cada socio reporta su parte según el K-1.
-- Las retenciones sobre intereses y regalías se reducen según el tratado.
+- Cada socio reporta su parte segÃºn el K-1.
+- Las retenciones sobre intereses y regalÃ­as se reducen segÃºn el tratado.
 - Juan y su socio tributan en Argentina sobre su parte de las ganancias.
 
-## ¿Qué pasa si tu país no reconoce la LLC?
+## Â¿QuÃ© pasa si tu paÃ­s no reconoce la LLC?
 
-En algunos países, la LLC estadounidense no tiene un tratamiento fiscal claro. Esto puede generar incertidumbre.
+En algunos paÃ­ses, la LLC estadounidense no tiene un tratamiento fiscal claro. Esto puede generar incertidumbre.
 
 ### Posibles escenarios
 
-1. **Tu país trata la LLC como corporación:** Debes presentar declaración corporativa en tu país además de tu declaración personal.
-2. **Tu país trata la LLC como transparente:** Los ingresos fluyen directamente a tu declaración personal (similar al tratamiento en EE.UU.).
-3. **Tu país no tiene reglas claras:** Riesgo de fiscalización, recomendable obtener un ruling o consulta vinculante.
+1. **Tu paÃ­s trata la LLC como corporaciÃ³n:** Debes presentar declaraciÃ³n corporativa en tu paÃ­s ademÃ¡s de tu declaraciÃ³n personal.
+2. **Tu paÃ­s trata la LLC como transparente:** Los ingresos fluyen directamente a tu declaraciÃ³n personal (similar al tratamiento en EE.UU.).
+3. **Tu paÃ­s no tiene reglas claras:** Riesgo de fiscalizaciÃ³n, recomendable obtener un ruling o consulta vinculante.
 
-### ¿Qué hacer?
+### Â¿QuÃ© hacer?
 
 1. **Consulta con un contador local** especializado en fiscalidad internacional.
-2. **Solicita un ruling** a la autoridad fiscal de tu país (si está disponible).
-3. **Documenta tu estructura** y el tratamiento fiscal en ambos países.
-4. **Evalúa si debes tributar como corporation** en EE.UU. para simplificar el tratamiento local.
+2. **Solicita un ruling** a la autoridad fiscal de tu paÃ­s (si estÃ¡ disponible).
+3. **Documenta tu estructura** y el tratamiento fiscal en ambos paÃ­ses.
+4. **EvalÃºa si debes tributar como corporation** en EE.UU. para simplificar el tratamiento local.
 
-## Estrategias de optimización fiscal internacional
+## Estrategias de optimizaciÃ³n fiscal internacional
 
 ### 1. Estructura disregarded entity + tratado
 
-Si tu país tiene tratado con EE.UU.:
+Si tu paÃ­s tiene tratado con EE.UU.:
 - Usa disregarded entity para simplicidad.
 - Verifica que el tratado te permita reducir retenciones.
-- Reporta los ingresos en tu país.
+- Reporta los ingresos en tu paÃ­s.
 
-### 2. Estructura corporation para países sin tratado
+### 2. Estructura corporation para paÃ­ses sin tratado
 
-Si tu país no tiene tratado con EE.UU.:
-- Evalúa tributar como C-Corp.
+Si tu paÃ­s no tiene tratado con EE.UU.:
+- EvalÃºa tributar como C-Corp.
 - La LLC paga el 21% de impuesto corporativo en EE.UU.
-- Las distribuciones a dueños extranjeros están sujetas a retención del 30%.
-- Esto puede ser mejor o peor según tu país.
+- Las distribuciones a dueÃ±os extranjeros estÃ¡n sujetas a retenciÃ³n del 30%.
+- Esto puede ser mejor o peor segÃºn tu paÃ­s.
 
 ### 3. Estructura multi-jurisdiccional
 
-Para negocios más grandes:
-- LLC en EE.UU. para operación.
-- Holding company en un país con tratados favorables.
+Para negocios mÃ¡s grandes:
+- LLC en EE.UU. para operaciÃ³n.
+- Holding company en un paÃ­s con tratados favorables.
 - Consulta obligatoria con un especialista en fiscalidad internacional.
 
 ## Errores comunes
 
-### Error 1: Asumir que todos los países tratan la LLC igual
+### Error 1: Asumir que todos los paÃ­ses tratan la LLC igual
 
-Cada país tiene su propio tratamiento fiscal para las LLCs estadounidenses. No asumas que porque funciona de una manera en EE.UU., funciona igual en tu país.
+Cada paÃ­s tiene su propio tratamiento fiscal para las LLCs estadounidenses. No asumas que porque funciona de una manera en EE.UU., funciona igual en tu paÃ­s.
 
 ### Error 2: Ignorar las obligaciones locales
 
-La LLC no te exime de pagar impuestos en tu país. Debes declarar los ingresos de la LLC en tu declaración local.
+La LLC no te exime de pagar impuestos en tu paÃ­s. Debes declarar los ingresos de la LLC en tu declaraciÃ³n local.
 
 ### Error 3: No solicitar el certificado de residencia fiscal
 
-Si tu país tiene tratado con EE.UU., necesitas un certificado de residencia fiscal para acceder a los beneficios del tratado.
+Si tu paÃ­s tiene tratado con EE.UU., necesitas un certificado de residencia fiscal para acceder a los beneficios del tratado.
 
 ### Error 4: No documentar la estructura
 
-El IRS y la autoridad fiscal de tu país pueden preguntar sobre tu estructura. Ten documentación clara de cómo opera tu LLC.
+El IRS y la autoridad fiscal de tu paÃ­s pueden preguntar sobre tu estructura. Ten documentaciÃ³n clara de cÃ³mo opera tu LLC.
 
-### Error 5: Confiar solo en información genérica
+### Error 5: Confiar solo en informaciÃ³n genÃ©rica
 
-Cada caso es único. La aplicación de tratados depende de tu país, tipo de negocio, ingresos y estructura.
+Cada caso es Ãºnico. La aplicaciÃ³n de tratados depende de tu paÃ­s, tipo de negocio, ingresos y estructura.
 
-## Checklist para tu asesoría fiscal internacional
+## Checklist para tu asesorÃ­a fiscal internacional
 
-- [ ] Identificar si tu país tiene tratado fiscal con EE.UU.
-- [ ] Determinar cómo tu país clasifica tu LLC (transparente, corporación, híbrido).
+- [ ] Identificar si tu paÃ­s tiene tratado fiscal con EE.UU.
+- [ ] Determinar cÃ³mo tu paÃ­s clasifica tu LLC (transparente, corporaciÃ³n, hÃ­brido).
 - [ ] Verificar si los ingresos de tu LLC son ECI en EE.UU.
-- [ ] Calcular la tasa de retención aplicable a tus ingresos.
+- [ ] Calcular la tasa de retenciÃ³n aplicable a tus ingresos.
 - [ ] Obtener certificado de residencia fiscal (si aplica).
 - [ ] Consultar con contador local y contador en EE.UU.
-- [ ] Documentar la estructura fiscal en ambos países.
-- [ ] Evaluar si necesitas cambiar la clasificación fiscal de tu LLC.
+- [ ] Documentar la estructura fiscal en ambos paÃ­ses.
+- [ ] Evaluar si necesitas cambiar la clasificaciÃ³n fiscal de tu LLC.
 
-## Conclusión
+## ConclusiÃ³n
 
-Los tratados tributarios internacionales pueden ser una herramienta poderosa para optimizar la fiscalidad de tu LLC, pero también pueden generar complejidades inesperadas si tu país no reconoce el tratamiento fiscal que EE.UU. le da a tu LLC.
+Los tratados tributarios internacionales pueden ser una herramienta poderosa para optimizar la fiscalidad de tu LLC, pero tambiÃ©n pueden generar complejidades inesperadas si tu paÃ­s no reconoce el tratamiento fiscal que EE.UU. le da a tu LLC.
 
-La clave está en:
-1. **Entender cómo tu país de residencia trata tu LLC.**
-2. **Verificar si tu país tiene tratado con EE.UU. y cómo aplica.**
-3. **Consultar con profesionales** en ambos países.
+La clave estÃ¡ en:
+1. **Entender cÃ³mo tu paÃ­s de residencia trata tu LLC.**
+2. **Verificar si tu paÃ­s tiene tratado con EE.UU. y cÃ³mo aplica.**
+3. **Consultar con profesionales** en ambos paÃ­ses.
 4. **Documentar todo** para evitar sorpresas con las autoridades fiscales.
 
-## ¿Necesitas ayuda para entender cómo los tratados fiscales afectan tu LLC?
+## Â¿Necesitas ayuda para entender cÃ³mo los tratados fiscales afectan tu LLC?
 
-En **Sotomayor Consulting International** te ayudamos a estructurar tu LLC considerando los tratados tributarios entre EE.UU. y tu país de residencia.
+En **Sotomayor Consulting International** te ayudamos a estructurar tu LLC considerando los tratados tributarios entre EE.UU. y tu paÃ­s de residencia.
 
-**Agende una asesoría gratuita** y descubre la mejor estructura fiscal para tu negocio internacional.
+**Agende una asesorÃ­a gratuita** y descubre la mejor estructura fiscal para tu negocio internacional.

@@ -1,164 +1,164 @@
 ---
-title: "Qué es un Annual Report: Guía 2026 para Dueños de Negocios"
-description: "Aprenda qué es un annual report, por qué es importante para su LLC o corporación, y cómo presentarlo a tiempo"
+title: "QuÃ© es un Annual Report: GuÃ­a 2026 para DueÃ±os de Negocios"
+description: "Aprenda quÃ© es un annual report, por quÃ© es importante para su LLC o corporaciÃ³n, y cÃ³mo presentarlo a tiempo"
 cardImage: "@/images/insights/annual-report.png"
-cardImageAlt: "Guía de annual report que muestra panel de portal de presentación estatal, calendario de fechas de vencimiento, tabla de tarifas, rastreador de estado de cumplimiento y diagrama de pasos de presentación"
+cardImageAlt: "GuÃ­a de annual report que muestra panel de portal de presentaciÃ³n estatal, calendario de fechas de vencimiento, tabla de tarifas, rastreador de estado de cumplimiento y diagrama de pasos de presentaciÃ³n"
 ---
 
-**Un annual report (informe anual) es una presentación requerida por el estado que mantiene su LLC o corporación en buen estado.** A pesar del nombre, no es una auditoría financiera ni una declaración de impuestos — es una simple actualización de información que confirma los datos básicos de su empresa ante el estado.
+**Un annual report (informe anual) es una presentaciÃ³n requerida por el estado que mantiene su LLC o corporaciÃ³n en buen estado.** A pesar del nombre, no es una auditorÃ­a financiera ni una declaraciÃ³n de impuestos Â— es una simple actualizaciÃ³n de informaciÃ³n que confirma los datos bÃ¡sicos de su empresa ante el estado.
 
-La mayoría de los estados requieren informes anuales o bienales. La tarifa de presentación varía de $0 a $800 dependiendo del estado. No cumplir con la fecha límite resulta en multas por demora, pérdida del buen estado y eventualmente disolución administrativa.
+La mayorÃ­a de los estados requieren informes anuales o bienales. La tarifa de presentaciÃ³n varÃ­a de $0 a $800 dependiendo del estado. No cumplir con la fecha lÃ­mite resulta en multas por demora, pÃ©rdida del buen estado y eventualmente disoluciÃ³n administrativa.
 
-En esta guía cubrimos **qué es un annual report y cómo gestionarlo en 2026**: qué información se requiere, referencia de tarifas y plazos estado por estado, cómo presentarlo en línea, consecuencias de no presentarlo, annual report vs franchise tax vs business license, errores comunes y cómo construir un calendario de cumplimiento.
+En esta guÃ­a cubrimos **quÃ© es un annual report y cÃ³mo gestionarlo en 2026**: quÃ© informaciÃ³n se requiere, referencia de tarifas y plazos estado por estado, cÃ³mo presentarlo en lÃ­nea, consecuencias de no presentarlo, annual report vs franchise tax vs business license, errores comunes y cÃ³mo construir un calendario de cumplimiento.
 
-## 1. Qué es un Annual Report
+## 1. QuÃ© es un Annual Report
 
 An **annual report** (also called a Statement of Information, Annual Registration, or Biennial Report) is a document that LLCs and corporations must file with the state to update or confirm their basic business information.
 
 ### Lo Que NO Son los Annual Reports
 
-- **Una actualización de información para el estado:** Una declaración de impuestos (IRS o estatal)
-- **Una confirmación de detalles comerciales:** Una auditoría financiera o estado de resultados
-- **Un requisito para mantener buen estado:** Una presentación única (la mayoría de los estados la requieren regularmente)
-- **Una presentación ante el Secretario de Estado:** Un informe para accionistas o inversionistas
+- **Una actualizaciÃ³n de informaciÃ³n para el estado:** Una declaraciÃ³n de impuestos (IRS o estatal)
+- **Una confirmaciÃ³n de detalles comerciales:** Una auditorÃ­a financiera o estado de resultados
+- **Un requisito para mantener buen estado:** Una presentaciÃ³n Ãºnica (la mayorÃ­a de los estados la requieren regularmente)
+- **Una presentaciÃ³n ante el Secretario de Estado:** Un informe para accionistas o inversionistas
 - **Un documento que verifica que su negocio existe:** Un documento que reporta el rendimiento del negocio
-### Propósito del Annual Report
+### PropÃ³sito del Annual Report
 
 El estado utiliza los annual reports para:
 
-1. **Mantener registros públicos actualizados** — mantener información precisa del registro comercial
-2. **Verificar que su negocio sigue activo** — confirmar que no ha abandonado la entidad
-3. **Cobrar tarifas de presentación** — la fuente principal de ingresos para la mayoría de las oficinas del SOS
-4. **Rastrear agente registrado y oficina principal** — asegurar que el estado tenga un contacto válido
-5. **Prevenir el robo de identidad** — confirmar que la entidad comercial sigue siendo controlada por sus propietarios
+1. **Mantener registros pÃºblicos actualizados** Â— mantener informaciÃ³n precisa del registro comercial
+2. **Verificar que su negocio sigue activo** Â— confirmar que no ha abandonado la entidad
+3. **Cobrar tarifas de presentaciÃ³n** Â— la fuente principal de ingresos para la mayorÃ­a de las oficinas del SOS
+4. **Rastrear agente registrado y oficina principal** Â— asegurar que el estado tenga un contacto vÃ¡lido
+5. **Prevenir el robo de identidad** Â— confirmar que la entidad comercial sigue siendo controlada por sus propietarios
 
-Para el dueño del negocio, presentar el annual report:
+Para el dueÃ±o del negocio, presentar el annual report:
 
-- **Mantiene el buen estado** — requerido para financiamiento, contratos y protección legal
-- **Preserva el escudo de responsabilidad** — una entidad disuelta pierde la protección de LLC/corporación
-- **Previene la disolución administrativa** — el estado puede disolver su entidad por no presentar
-- **Permite operaciones interestatales** — muchos estados verifican el buen estado antes de permitir la calificación extranjera
-- **Protege el nombre de su negocio** — una entidad disuelta puede perder la reserva de nombre
+- **Mantiene el buen estado** Â— requerido para financiamiento, contratos y protecciÃ³n legal
+- **Preserva el escudo de responsabilidad** Â— una entidad disuelta pierde la protecciÃ³n de LLC/corporaciÃ³n
+- **Previene la disoluciÃ³n administrativa** Â— el estado puede disolver su entidad por no presentar
+- **Permite operaciones interestatales** Â— muchos estados verifican el buen estado antes de permitir la calificaciÃ³n extranjera
+- **Protege el nombre de su negocio** Â— una entidad disuelta puede perder la reserva de nombre
 
 ### Annual Report vs. Franchise Tax
 
-Un punto común de confusión es la diferencia entre un annual report y un franchise tax. Están relacionados pero son distintos:
+Un punto comÃºn de confusiÃ³n es la diferencia entre un annual report y un franchise tax. EstÃ¡n relacionados pero son distintos:
 
-- **Naturaleza:** Presentación de información -- Pago de impuestos
-- **Propósito:** Actualizar detalles comerciales -- Generación de ingresos para el estado
-- **Basado en:** Información básica de la entidad -- Ingresos, activos o tarifa fija
-- **Frecuencia de presentación:** Anual o bienal -- Anual
-- **Multa por demora:** Tarifa tardía + riesgo de disolución -- Intereses + multas + gravámenes
-- **Deducible:** La tarifa de presentación es un gasto comercial -- El pago de impuestos puede ser deducible
+- **Naturaleza:** PresentaciÃ³n de informaciÃ³n -- Pago de impuestos
+- **PropÃ³sito:** Actualizar detalles comerciales -- GeneraciÃ³n de ingresos para el estado
+- **Basado en:** InformaciÃ³n bÃ¡sica de la entidad -- Ingresos, activos o tarifa fija
+- **Frecuencia de presentaciÃ³n:** Anual o bienal -- Anual
+- **Multa por demora:** Tarifa tardÃ­a + riesgo de disoluciÃ³n -- Intereses + multas + gravÃ¡menes
+- **Deducible:** La tarifa de presentaciÃ³n es un gasto comercial -- El pago de impuestos puede ser deducible
 - **Se presenta ante:** Secretario de Estado -- Departamento de Ingresos Estatal / Junta de Franchise Tax
-**En algunos estados, el annual report y el franchise tax se combinan en una sola presentación.** Por ejemplo, Delaware requiere tanto un pago de franchise tax como una presentación de annual report, mientras que California requiere una Statement of Information (annual report) más un franchise tax mínimo separado de $800.
+**En algunos estados, el annual report y el franchise tax se combinan en una sola presentaciÃ³n.** Por ejemplo, Delaware requiere tanto un pago de franchise tax como una presentaciÃ³n de annual report, mientras que California requiere una Statement of Information (annual report) mÃ¡s un franchise tax mÃ­nimo separado de $800.
 
-## 2. Qué Información se Requiere
+## 2. QuÃ© InformaciÃ³n se Requiere
 
-### Campos Típicos del Annual Report
+### Campos TÃ­picos del Annual Report
 
 While the exact form varies by state, most annual reports require the following information:
 
-- **Nombre Comercial:** Nombre legal exacto según registro -- "Acme Consulting LLC"
-- **EIN o ID del SOS:** Número de presentación estatal o EIN federal -- "2025-000123456"
-- **Dirección de Oficina Principal:** Dirección física (sin PO Box en algunos estados) -- "123 Main St, Suite 200"
-- **Dirección Postal:** Dirección postal separada si es diferente -- "PO Box 456"
+- **Nombre Comercial:** Nombre legal exacto segÃºn registro -- "Acme Consulting LLC"
+- **EIN o ID del SOS:** NÃºmero de presentaciÃ³n estatal o EIN federal -- "2025-000123456"
+- **DirecciÃ³n de Oficina Principal:** DirecciÃ³n fÃ­sica (sin PO Box en algunos estados) -- "123 Main St, Suite 200"
+- **DirecciÃ³n Postal:** DirecciÃ³n postal separada si es diferente -- "PO Box 456"
 - **Nombre del Agente Registrado:** Persona o empresa autorizada para recibir correo legal -- "John Smith"
-- **Dirección del Agente Registrado:** Dirección física en el estado de formación -- "456 Oak Ave"
+- **DirecciÃ³n del Agente Registrado:** DirecciÃ³n fÃ­sica en el estado de formaciÃ³n -- "456 Oak Ave"
 - **Nombres de Gerentes/Miembros:** Nombres y direcciones de gerentes (LLC) o oficiales/directores (corp) -- "Jane Doe, CEO"
-- **Propósito Comercial:** Descripción breve (algunos estados requieren código SIC/NAICS) -- "Consultoría de gestión"
-- **Acciones en Circulación:** Solo corporaciones: número de acciones autorizadas y emitidas -- "1,000 acciones"
-- **Pago de Tarifa de Presentación:** Tarjeta de crédito, cheque electrónico o cheque por correo -- "Visa / $75"
+- **PropÃ³sito Comercial:** DescripciÃ³n breve (algunos estados requieren cÃ³digo SIC/NAICS) -- "ConsultorÃ­a de gestiÃ³n"
+- **Acciones en CirculaciÃ³n:** Solo corporaciones: nÃºmero de acciones autorizadas y emitidas -- "1,000 acciones"
+- **Pago de Tarifa de PresentaciÃ³n:** Tarjeta de crÃ©dito, cheque electrÃ³nico o cheque por correo -- "Visa / $75"
 ### Formulario de Muestra de Annual Report
 
 `
 
 ### Documentos Que Puede Necesitar
 
-Antes de presentar, reúna estos documentos:
+Antes de presentar, reÃºna estos documentos:
 
-- Su annual report más reciente (si renueva) — para verificar información presentada anteriormente
-- Certificado de Formación / Artículos de Incorporación — para confirmar el nombre de la entidad y número de archivo
-- Información de contacto del agente registrado actual — nombre, dirección y aceptación
-- Carta de confirmación de EIN (CP 575) — ID de impuestos federal
-- Lista de oficiales/directores o gerentes/miembros — nombres y direcciones
-- Detalles de tarjeta de crédito o cuenta bancaria — para pagar la tarifa de presentación
-- Recibo de franchise tax del año anterior (si aplica) — para confirmar que no hay saldo pendiente
+- Su annual report mÃ¡s reciente (si renueva) Â— para verificar informaciÃ³n presentada anteriormente
+- Certificado de FormaciÃ³n / ArtÃ­culos de IncorporaciÃ³n Â— para confirmar el nombre de la entidad y nÃºmero de archivo
+- InformaciÃ³n de contacto del agente registrado actual Â— nombre, direcciÃ³n y aceptaciÃ³n
+- Carta de confirmaciÃ³n de EIN (CP 575) Â— ID de impuestos federal
+- Lista de oficiales/directores o gerentes/miembros Â— nombres y direcciones
+- Detalles de tarjeta de crÃ©dito o cuenta bancaria Â— para pagar la tarifa de presentaciÃ³n
+- Recibo de franchise tax del aÃ±o anterior (si aplica) Â— para confirmar que no hay saldo pendiente
 
 ## 3. Referencia de Tarifas y Plazos de Annual Report por Estado
 
 ### Tabla de Tarifas y Plazos
 
-- **Alabama:** Annual Report -- $50 -- Anualmente en aniversario de formación -- Anual
-- **Alaska:** Biennial Report -- $100 -- 2 Ene de años pares (LLC) / impares (corp) -- Bienal
-- **Arizona:** Annual Report -- $45 -- Fecha de aniversario de formación -- Anual
+- **Alabama:** Annual Report -- $50 -- Anualmente en aniversario de formaciÃ³n -- Anual
+- **Alaska:** Biennial Report -- $100 -- 2 Ene de aÃ±os pares (LLC) / impares (corp) -- Bienal
+- **Arizona:** Annual Report -- $45 -- Fecha de aniversario de formaciÃ³n -- Anual
 - **Arkansas:** Franchise Tax Report -- $150 -- 1 May -- Anual
 - **California:** Statement of Information -- $20 (LLC) / $25 (corp) -- Aniversario del registro -- Anual/bienal
-- **Colorado:** Periodic Report -- $10 -- Cada año al final del mes de formación -- Anual
-- **Connecticut:** Annual Report -- $80 -- Aniversario de formación -- Anual
-- **Delaware:** Annual Report -- $300 mín (corp) / $0 (LLC sin impuesto) -- 1 Mar (corp) / 1 Jun (LLC) -- Anual
+- **Colorado:** Periodic Report -- $10 -- Cada aÃ±o al final del mes de formaciÃ³n -- Anual
+- **Connecticut:** Annual Report -- $80 -- Aniversario de formaciÃ³n -- Anual
+- **Delaware:** Annual Report -- $300 mÃ­n (corp) / $0 (LLC sin impuesto) -- 1 Mar (corp) / 1 Jun (LLC) -- Anual
 - **Florida:** Annual Report -- $138.75 (LLC) / $150 (corp) -- 1 May -- Anual
 - **Georgia:** Annual Registration -- $50 (LLC) / $50 (corp) -- 1 Abr -- Anual
 - **Hawaii:** Annual Report -- $15 (LLC) / $30 (corp) -- Trimestre de registro -- Anual
-- **Idaho:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversario de formación -- Anual
-- **Illinois:** Annual Report -- $75 (LLC) / $75 (corp) -- Aniversario de formación -- Anual
-- **Indiana:** Business Entity Report -- $50 (LLC) / $50 (corp) -- Aniversario de formación -- Anual
+- **Idaho:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Illinois:** Annual Report -- $75 (LLC) / $75 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Indiana:** Business Entity Report -- $50 (LLC) / $50 (corp) -- Aniversario de formaciÃ³n -- Anual
 - **Iowa:** Annual Report -- $45 (LLC) / $45 (corp) -- 1 Abr (o aniversario) -- Anual
-- **Kansas:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formación -- Anual
+- **Kansas:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formaciÃ³n -- Anual
 - **Kentucky:** Annual Report -- $15 (LLC) / $15 (corp) -- 30 Jun -- Anual
-- **Louisiana:** Annual Report -- $35 (LLC) / $35 (corp) -- Aniversario de formación -- Anual
+- **Louisiana:** Annual Report -- $35 (LLC) / $35 (corp) -- Aniversario de formaciÃ³n -- Anual
 - **Maine:** Annual Report -- $85 (LLC) / $150 (corp) -- 1 Jun -- Anual
 - **Maryland:** Annual Report -- $300 (LLC) / $300 (corp) -- 15 Abr -- Anual
-- **Massachusetts:** Annual Report -- $500 (LLC) / $500 (corp) -- Aniversario de formación -- Anual
+- **Massachusetts:** Annual Report -- $500 (LLC) / $500 (corp) -- Aniversario de formaciÃ³n -- Anual
 - **Michigan:** Annual Report -- $25 (LLC) / $25 (corp) -- 15 Feb -- Anual
-- **Minnesota:** Annual Report -- $0 (en línea) / $50 (correo) -- 31 Dic -- Anual
-- **Mississippi:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formación -- Anual
-- **Missouri:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversario de formación -- Anual
+- **Minnesota:** Annual Report -- $0 (en lÃ­nea) / $50 (correo) -- 31 Dic -- Anual
+- **Mississippi:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Missouri:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversario de formaciÃ³n -- Anual
 - **Montana:** Annual Report -- $15 (LLC) / $15 (corp) -- 15 Abr -- Anual
 - **Nebraska:** Biennial Report -- $10 (LLC) / $10 (corp) -- 1 Abr (impar/par por entidad) -- Bienal
-- **Nevada:** Annual Report -- $150 (LLC) / $150 (corp) -- Último día del mes de aniversario -- Anual
+- **Nevada:** Annual Report -- $150 (LLC) / $150 (corp) -- Ãšltimo dÃ­a del mes de aniversario -- Anual
 - **New Hampshire:** Annual Report -- $100 (LLC) / $100 (corp) -- 1 Abr -- Anual
-- **New Jersey:** Annual Report -- $75 (LLC) / $75 (corp) -- Aniversario de formación -- Anual
-- **New Mexico:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversario de formación -- Anual
-- **New York:** Biennial Statement -- $9 (LLC) / $9 (corp) -- Aniversario de formación (cada 2 años) -- Bienal
+- **New Jersey:** Annual Report -- $75 (LLC) / $75 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **New Mexico:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **New York:** Biennial Statement -- $9 (LLC) / $9 (corp) -- Aniversario de formaciÃ³n (cada 2 aÃ±os) -- Bienal
 - **North Carolina:** Annual Report -- $200 (LLC) / $200 (corp) -- 15 Abr -- Anual
-- **North Dakota:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formación -- Anual
-- **Ohio:** Biennial Report -- $0 (LLC) / $0 (corp) -- Aniversario de formación (años impares) -- Bienal
-- **Oklahoma:** Annual Certificate -- $25 (LLC) / $25 (corp) -- Aniversario de formación -- Anual
-- **Oregon:** Annual Report -- $100 (LLC) / $100 (corp) -- Aniversario de formación -- Anual
-- **Pennsylvania:** Decennial Report -- $7 (LLC) / $7 (corp) -- Cada 10 años desde la formación -- Decenal
-- **Rhode Island:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formación -- Anual
-- **South Carolina:** Annual Report -- $0 (LLC) / $25 (corp) -- Aniversario de formación -- Anual
-- **South Dakota:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formación -- Anual
-- **Tennessee:** Annual Report -- $300 (LLC) / $300 (corp) -- Aniversario de formación (corte al 1 Abr) -- Anual
-- **Texas:** Franchise Tax Report -- $0 mín (sin impuesto adeudado) -- 15 May -- Anual
-- **Utah:** Annual Report -- $15 (LLC) / $15 (corp) -- Aniversario de formación -- Anual
-- **Vermont:** Annual Report -- $35 (LLC) / $75 (corp) -- Aniversario de formación -- Anual
-- **Virginia:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formación -- Anual
+- **North Dakota:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Ohio:** Biennial Report -- $0 (LLC) / $0 (corp) -- Aniversario de formaciÃ³n (aÃ±os impares) -- Bienal
+- **Oklahoma:** Annual Certificate -- $25 (LLC) / $25 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Oregon:** Annual Report -- $100 (LLC) / $100 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Pennsylvania:** Decennial Report -- $7 (LLC) / $7 (corp) -- Cada 10 aÃ±os desde la formaciÃ³n -- Decenal
+- **Rhode Island:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **South Carolina:** Annual Report -- $0 (LLC) / $25 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **South Dakota:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Tennessee:** Annual Report -- $300 (LLC) / $300 (corp) -- Aniversario de formaciÃ³n (corte al 1 Abr) -- Anual
+- **Texas:** Franchise Tax Report -- $0 mÃ­n (sin impuesto adeudado) -- 15 May -- Anual
+- **Utah:** Annual Report -- $15 (LLC) / $15 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Vermont:** Annual Report -- $35 (LLC) / $75 (corp) -- Aniversario de formaciÃ³n -- Anual
+- **Virginia:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversario de formaciÃ³n -- Anual
 - **Washington:** Annual Report -- $60 (LLC) / $60 (corp) -- Final del mes de aniversario -- Anual
 - **West Virginia:** Annual Report -- $25 (LLC) / $25 (corp) -- 1 Jul -- Anual
-- **Wisconsin:** Annual Report -- $25 (LLC) / $25 (corp) -- Aniversario de formación (fin de trimestre) -- Anual
-- **Wyoming:** Annual Report -- $60 (LLC) / $60 (corp) -- Primer día del mes de aniversario -- Anual
-- **DC (Washington DC):** Biennial Report -- $0 (LLC) / $0 (corp) -- 1 Abr (años pares) -- Bienal
+- **Wisconsin:** Annual Report -- $25 (LLC) / $25 (corp) -- Aniversario de formaciÃ³n (fin de trimestre) -- Anual
+- **Wyoming:** Annual Report -- $60 (LLC) / $60 (corp) -- Primer dÃ­a del mes de aniversario -- Anual
+- **DC (Washington DC):** Biennial Report -- $0 (LLC) / $0 (corp) -- 1 Abr (aÃ±os pares) -- Bienal
 - **Puerto Rico:** Annual Report -- $125 (LLC) / $125 (corp) -- 15 Abr -- Anual
 ### Calculadora de Tarifas de Annual Report
 
 ### Consulta de Fecha de Vencimiento de Annual Report
 
-## 4. Cómo Presentar un Annual Report
+## 4. CÃ³mo Presentar un Annual Report
 
-### Proceso de Presentación Paso a Paso
+### Proceso de PresentaciÃ³n Paso a Paso
 
-1. **Determine su ventana de presentación** — consulte la tabla de fechas límite o el sitio web del SOS de su estado
-2. **Reúna la información requerida** — nombre comercial, EIN, agente registrado, detalles de oficiales/miembros
-3. **Inicie sesión en el portal estatal** — la mayoría de los estados tienen un portal de servicios comerciales en línea
-4. **Seleccione la opción de presentación de annual report** — generalmente bajo "File Annual Report" o "Maintain Business"
-5. **Revise y actualice los detalles comerciales** — confirme o cambie la dirección principal, agente y oficiales
-6. **Ingrese la información de pago** — tarjeta de crédito, débito o cheque electrónico
-7. **Revise y envíe** — verifique que toda la información sea precisa antes de enviar
-8. **Descargue la confirmación** — guarde el recibo de presentación y el número de confirmación
+1. **Determine su ventana de presentaciÃ³n** Â— consulte la tabla de fechas lÃ­mite o el sitio web del SOS de su estado
+2. **ReÃºna la informaciÃ³n requerida** Â— nombre comercial, EIN, agente registrado, detalles de oficiales/miembros
+3. **Inicie sesiÃ³n en el portal estatal** Â— la mayorÃ­a de los estados tienen un portal de servicios comerciales en lÃ­nea
+4. **Seleccione la opciÃ³n de presentaciÃ³n de annual report** Â— generalmente bajo "File Annual Report" o "Maintain Business"
+5. **Revise y actualice los detalles comerciales** Â— confirme o cambie la direcciÃ³n principal, agente y oficiales
+6. **Ingrese la informaciÃ³n de pago** Â— tarjeta de crÃ©dito, dÃ©bito o cheque electrÃ³nico
+7. **Revise y envÃ­e** Â— verifique que toda la informaciÃ³n sea precisa antes de enviar
+8. **Descargue la confirmaciÃ³n** Â— guarde el recibo de presentaciÃ³n y el nÃºmero de confirmaciÃ³n
 
-### URLs de Portales de Presentación en Línea
+### URLs de Portales de PresentaciÃ³n en LÃ­nea
 
 - **Delaware:** https://icis.corp.delaware.gov
 - **Florida:** https://dos.sunbiz.org
@@ -170,144 +170,144 @@ Antes de presentar, reúna estos documentos:
 - **Colorado:** https://www.sos.state.co.us/biz
 - **Illinois:** https://www.ilsos.gov/corporatellc
 - **Georgia:** https://ecorp.sos.ga.gov
-### Opciones de Presentación
+### Opciones de PresentaciÃ³n
 
-- **En línea:** Instantáneo a 24 horas -- ~2-3% tarifa de tarjeta de crédito -- La mayoría de los dueños de negocios
-- **Correo:** 2-6 semanas -- Sin tarifa (cheque) -- Aquellos sin acceso en línea
-- **En persona:** Mismo día -- Sin tarifa -- Confirmación el mismo día necesaria
-- **Servicio de terceros:** 1-3 días hábiles -- $25-200 tarifa de servicio -- Presentadores multiestatales
-- **Servicio de agente registrado:** Mismo día a 2 días -- Incluido en la tarifa de servicio -- Negocios con servicios de agente
-### Consejos Profesionales para la Presentación
+- **En lÃ­nea:** InstantÃ¡neo a 24 horas -- ~2-3% tarifa de tarjeta de crÃ©dito -- La mayorÃ­a de los dueÃ±os de negocios
+- **Correo:** 2-6 semanas -- Sin tarifa (cheque) -- Aquellos sin acceso en lÃ­nea
+- **En persona:** Mismo dÃ­a -- Sin tarifa -- ConfirmaciÃ³n el mismo dÃ­a necesaria
+- **Servicio de terceros:** 1-3 dÃ­as hÃ¡biles -- $25-200 tarifa de servicio -- Presentadores multiestatales
+- **Servicio de agente registrado:** Mismo dÃ­a a 2 dÃ­as -- Incluido en la tarifa de servicio -- Negocios con servicios de agente
+### Consejos Profesionales para la PresentaciÃ³n
 
-- **Presente temprano en su ventana** — los portales experimentan alto tráfico cerca de las fechas límite
-- **Verifique dos veces su agente registrado** — un agente desactualizado significa avisos legales perdidos
-- **Guarde su número de confirmación** — lo necesitará el próximo año para verificar el historial de presentación
-- **Configure un recordatorio de calendario** — la mayoría de los estados permiten presentar 30-90 días antes de la fecha límite
-- **Use una tarjeta de crédito con recompensas** — las tarifas pueden generar puntos si no hay recargo por conveniencia
-- **Actualice su dirección si se mudó** — presentar con información incorrecta puede causar problemas de cumplimiento
+- **Presente temprano en su ventana** Â— los portales experimentan alto trÃ¡fico cerca de las fechas lÃ­mite
+- **Verifique dos veces su agente registrado** Â— un agente desactualizado significa avisos legales perdidos
+- **Guarde su nÃºmero de confirmaciÃ³n** Â— lo necesitarÃ¡ el prÃ³ximo aÃ±o para verificar el historial de presentaciÃ³n
+- **Configure un recordatorio de calendario** Â— la mayorÃ­a de los estados permiten presentar 30-90 dÃ­as antes de la fecha lÃ­mite
+- **Use una tarjeta de crÃ©dito con recompensas** Â— las tarifas pueden generar puntos si no hay recargo por conveniencia
+- **Actualice su direcciÃ³n si se mudÃ³** Â— presentar con informaciÃ³n incorrecta puede causar problemas de cumplimiento
 
 ## 5. Consecuencias de No Presentar
 
-No presentar su annual report a tiempo desencadena una cascada de consecuencias que se vuelven más severas cuanto más espera:
+No presentar su annual report a tiempo desencadena una cascada de consecuencias que se vuelven mÃ¡s severas cuanto mÃ¡s espera:
 
-- **1-30 días:** Tardío -- Multa por demora evaluada ($10-$200 según el estado)
-- **31-90 días:** Moroso -- Pérdida de buen estado; intereses se acumulan sobre tarifas
-- **90-365 días:** Suspendido -- No puede realizar negocios, demandar u obtener financiamiento
-- **1-2 años:** Disuelto administrativamente -- La entidad ya no existe en los registros estatales
-- **2+ años:** Perdido -- El nombre queda disponible para que otros lo registren
-### Costos de Multas y Reinstalación
+- **1-30 dÃ­as:** TardÃ­o -- Multa por demora evaluada ($10-$200 segÃºn el estado)
+- **31-90 dÃ­as:** Moroso -- PÃ©rdida de buen estado; intereses se acumulan sobre tarifas
+- **90-365 dÃ­as:** Suspendido -- No puede realizar negocios, demandar u obtener financiamiento
+- **1-2 aÃ±os:** Disuelto administrativamente -- La entidad ya no existe en los registros estatales
+- **2+ aÃ±os:** Perdido -- El nombre queda disponible para que otros lo registren
+### Costos de Multas y ReinstalaciÃ³n
 
-- **Delaware:** $200 -- $200 + tarifa del año actual -- 5 años
-- **California:** $0 (SOS) -- $0 + tarifas atrasadas -- 4 años (CT Corp)
+- **Delaware:** $200 -- $200 + tarifa del aÃ±o actual -- 5 aÃ±os
+- **California:** $0 (SOS) -- $0 + tarifas atrasadas -- 4 aÃ±os (CT Corp)
 - **Florida:** $400 -- $400 + tarifas atrasadas -- Indefinido
-- **New York:** $0 -- $0 + presentación atrasada -- 2 años
-- **Nevada:** $75 -- $75 + tarifas atrasadas -- 1 año
+- **New York:** $0 -- $0 + presentaciÃ³n atrasada -- 2 aÃ±os
+- **Nevada:** $75 -- $75 + tarifas atrasadas -- 1 aÃ±o
 - **Texas:** $50 -- $50 + tarifas atrasadas -- Indefinido
-- **Illinois:** $100 -- $100 + tarifas atrasadas -- 5 años
+- **Illinois:** $100 -- $100 + tarifas atrasadas -- 5 aÃ±os
 - **Georgia:** $25 -- $25 + tarifas atrasadas -- Indefinido
 - **Washington:** $30 -- $30 + tarifas atrasadas -- Indefinido
 - **Wyoming:** $60 tarde -- $60 + tarifas atrasadas -- Indefinido
-### Qué Significa "Disolución Administrativa"
+### QuÃ© Significa "DisoluciÃ³n Administrativa"
 
-La disolución administrativa es el proceso del estado para terminar involuntariamente una entidad comercial por no presentar annual reports o pagar tarifas requeridas. Cuando esto sucede:
+La disoluciÃ³n administrativa es el proceso del estado para terminar involuntariamente una entidad comercial por no presentar annual reports o pagar tarifas requeridas. Cuando esto sucede:
 
-- El negocio **pierde su estatus legal** como LLC o corporación
-- **La protección de responsabilidad personal termina** — los propietarios se vuelven personalmente responsables por deudas incurridas después de la disolución
+- El negocio **pierde su estatus legal** como LLC o corporaciÃ³n
+- **La protecciÃ³n de responsabilidad personal termina** Â— los propietarios se vuelven personalmente responsables por deudas incurridas despuÃ©s de la disoluciÃ³n
 - El negocio **no puede demandar** en tribunales estatales
 - El negocio **no puede obtener o renovar licencias**
 - **Los contratos pueden ser anulables** por la otra parte
 - **Los bancos pueden congelar cuentas** al enterarse del estado disuelto
 - El negocio **no puede operar legalmente** hasta ser reinstalado
 
-### Proceso de Reinstalación
+### Proceso de ReinstalaciÃ³n
 
 Si su entidad ha sido disuelta, generalmente puede reinstalarla mediante:
 
 1. Presentar todos los annual reports vencidos
-2. Pagar todas las tarifas atrasadas, multas por demora y tarifas de reinstalación
-3. Enviar una solicitud de reinstalación
-4. Esperar el procesamiento estatal (1-8 semanas según el estado)
+2. Pagar todas las tarifas atrasadas, multas por demora y tarifas de reinstalaciÃ³n
+3. Enviar una solicitud de reinstalaciÃ³n
+4. Esperar el procesamiento estatal (1-8 semanas segÃºn el estado)
 
-En la mayoría de los estados, la reinstalación restaura retroactivamente la entidad como si nunca hubiera sido disuelta. Sin embargo, algunos estados limitan la ventana de reinstalación — por ejemplo, Nueva York permite solo 2 años para la reinstalación automática.
+En la mayorÃ­a de los estados, la reinstalaciÃ³n restaura retroactivamente la entidad como si nunca hubiera sido disuelta. Sin embargo, algunos estados limitan la ventana de reinstalaciÃ³n Â— por ejemplo, Nueva York permite solo 2 aÃ±os para la reinstalaciÃ³n automÃ¡tica.
 
 ## 6. Annual Report vs. Business License vs. Franchise Tax
 
-Los dueños de negocios a menudo confunden estas tres obligaciones de cumplimiento. Aquí se explica cómo se diferencian:
+Los dueÃ±os de negocios a menudo confunden estas tres obligaciones de cumplimiento. AquÃ­ se explica cÃ³mo se diferencian:
 
-- **Qué es:** Presentación de información al estado -- Permiso para operar localmente -- Impuesto por el privilegio de hacer negocios
-- **Autoridad de presentación:** Secretario de Estado -- Gobierno de la ciudad o condado -- Departamento de ingresos estatal
+- **QuÃ© es:** PresentaciÃ³n de informaciÃ³n al estado -- Permiso para operar localmente -- Impuesto por el privilegio de hacer negocios
+- **Autoridad de presentaciÃ³n:** Secretario de Estado -- Gobierno de la ciudad o condado -- Departamento de ingresos estatal
 - **Frecuencia:** Anual o bienal -- Anual -- Anual
 - **Rango de tarifa:** $0-$500 -- $25-$5,000+ -- $0-$800+
-- **Propósito:** Actualizar registros públicos -- Regular la actividad comercial local -- Generar ingresos estatales
-- **Consecuencia de no presentar:** Pérdida de buen estado, disolución -- Incapacidad de operar legalmente, multas -- Intereses, multas, gravámenes
-- **Requisitos por tipo de entidad:** Solo LLC y corporaciones -- La mayoría de los tipos de negocio -- Varía ampliamente según el estado
-- **Deducible de impuestos:** La tarifa de presentación es deducible -- La tarifa de licencia es deducible -- El pago es deducible
-### Cómo Interactúan
+- **PropÃ³sito:** Actualizar registros pÃºblicos -- Regular la actividad comercial local -- Generar ingresos estatales
+- **Consecuencia de no presentar:** PÃ©rdida de buen estado, disoluciÃ³n -- Incapacidad de operar legalmente, multas -- Intereses, multas, gravÃ¡menes
+- **Requisitos por tipo de entidad:** Solo LLC y corporaciones -- La mayorÃ­a de los tipos de negocio -- VarÃ­a ampliamente segÃºn el estado
+- **Deducible de impuestos:** La tarifa de presentaciÃ³n es deducible -- La tarifa de licencia es deducible -- El pago es deducible
+### CÃ³mo InteractÃºan
 
-En la práctica, un negocio debe cumplir con los tres. Por ejemplo:
+En la prÃ¡ctica, un negocio debe cumplir con los tres. Por ejemplo:
 
 - Una **LLC de Delaware** debe presentar un annual report (SOS), pagar franchise tax si aplica (SOS/FTB) y obtener una business license de la ciudad o condado local.
-- Una **corporación de California** debe presentar una Statement of Information (SOS, $25 cada 2 años), pagar el franchise tax mínimo de $800 (FTB, anualmente) y obtener licencias comerciales locales.
-- Una **LLC de Texas** debe presentar un Franchise Tax Report (Contralor, anualmente antes del 15 de mayo) y presentar un annual report ante el SOS si es requerido — aunque Texas eliminó recientemente el annual report del SOS para la mayoría de las entidades.
+- Una **corporaciÃ³n de California** debe presentar una Statement of Information (SOS, $25 cada 2 aÃ±os), pagar el franchise tax mÃ­nimo de $800 (FTB, anualmente) y obtener licencias comerciales locales.
+- Una **LLC de Texas** debe presentar un Franchise Tax Report (Contralor, anualmente antes del 15 de mayo) y presentar un annual report ante el SOS si es requerido Â— aunque Texas eliminÃ³ recientemente el annual report del SOS para la mayorÃ­a de las entidades.
 
 ## 7. Errores Comunes del Annual Report
 
-### Error 1: Presentar Después del Plazo
-**Problema:** Muchos dueños de negocios olvidan la fecha límite, especialmente en estados con fechas basadas en aniversario que cambian cada año.
-**Solución:** Configure un recordatorio recurrente de calendario 60 días antes de la fecha límite. Use una herramienta de seguimiento de cumplimiento.
+### Error 1: Presentar DespuÃ©s del Plazo
+**Problema:** Muchos dueÃ±os de negocios olvidan la fecha lÃ­mite, especialmente en estados con fechas basadas en aniversario que cambian cada aÃ±o.
+**SoluciÃ³n:** Configure un recordatorio recurrente de calendario 60 dÃ­as antes de la fecha lÃ­mite. Use una herramienta de seguimiento de cumplimiento.
 
-### Error 2: Información Incorrecta del Agente Registrado
-**Problema:** La dirección del agente registrado debe ser una dirección física en el estado de formación. Usar un PO Box o dirección desactualizada causa el rechazo de la presentación.
-**Solución:** Confirme la información del agente con su servicio de agente registrado antes de presentar.
+### Error 2: InformaciÃ³n Incorrecta del Agente Registrado
+**Problema:** La direcciÃ³n del agente registrado debe ser una direcciÃ³n fÃ­sica en el estado de formaciÃ³n. Usar un PO Box o direcciÃ³n desactualizada causa el rechazo de la presentaciÃ³n.
+**SoluciÃ³n:** Confirme la informaciÃ³n del agente con su servicio de agente registrado antes de presentar.
 
 ### Error 3: Nombre de Entidad Incorrecto
 **Problema:** El nombre en el annual report debe coincidir exactamente con el nombre registrado en el estado. Discrepancias menores pueden causar rechazo.
-**Solución:** Verifique el nombre legal exacto en su Certificado de Formación o Artículos de Incorporación.
+**SoluciÃ³n:** Verifique el nombre legal exacto en su Certificado de FormaciÃ³n o ArtÃ­culos de IncorporaciÃ³n.
 
 ### Error 4: Firmas Faltantes
 **Problema:** Algunos estados requieren firmas manuales para presentaciones en papel. Las firmas faltantes resultan en presentaciones rechazadas.
-**Solución:** Presente en línea cuando sea posible — las firmas electrónicas son aceptadas y procesadas más rápido.
+**SoluciÃ³n:** Presente en lÃ­nea cuando sea posible Â— las firmas electrÃ³nicas son aceptadas y procesadas mÃ¡s rÃ¡pido.
 
-### Error 5: No Actualizar la Dirección Comercial
-**Problema:** Presentar con una dirección antigua perpetúa registros públicos incorrectos y puede llevar a perder avisos estatales.
-**Solución:** Actualice su oficina principal y dirección postal ante el estado antes de presentar.
+### Error 5: No Actualizar la DirecciÃ³n Comercial
+**Problema:** Presentar con una direcciÃ³n antigua perpetÃºa registros pÃºblicos incorrectos y puede llevar a perder avisos estatales.
+**SoluciÃ³n:** Actualice su oficina principal y direcciÃ³n postal ante el estado antes de presentar.
 
-### Error 6: Asumir Renovación Automática
-**Problema:** Los annual reports no se renuevan automáticamente en la mayoría de los estados. Debe presentar activamente cada ciclo.
-**Solución:** Algunos servicios de agente registrado ofrecen la presentación de annual reports como un servicio gestionado. Considere esto si tiene múltiples entidades.
+### Error 6: Asumir RenovaciÃ³n AutomÃ¡tica
+**Problema:** Los annual reports no se renuevan automÃ¡ticamente en la mayorÃ­a de los estados. Debe presentar activamente cada ciclo.
+**SoluciÃ³n:** Algunos servicios de agente registrado ofrecen la presentaciÃ³n de annual reports como un servicio gestionado. Considere esto si tiene mÃºltiples entidades.
 
 ### Error 7: Confundir Obligaciones Federales y Estatales
-**Problema:** Los dueños de negocios a veces piensan que presentar una declaración de impuestos federal satisface el requisito del annual report estatal.
-**Solución:** Son completamente separados. Presente su annual report ante el SOS incluso si no tiene obligación tributaria.
+**Problema:** Los dueÃ±os de negocios a veces piensan que presentar una declaraciÃ³n de impuestos federal satisface el requisito del annual report estatal.
+**SoluciÃ³n:** Son completamente separados. Presente su annual report ante el SOS incluso si no tiene obligaciÃ³n tributaria.
 
 ## 8. Calendario de Cumplimiento de Annual Report
 
-### Lista de Verificación de Cumplimiento Mensual
+### Lista de VerificaciÃ³n de Cumplimiento Mensual
 
-### Cronograma de Presentación Recomendado
+### Cronograma de PresentaciÃ³n Recomendado
 
-- **90 días antes del plazo:** Configurar recordatorio de calendario; verificar detalles comerciales actuales
-- **60 días antes del plazo:** Confirmar que el agente registrado esté actualizado; actualizar lista de oficiales/miembros
-- **30 días antes del plazo:** Presentar el annual report en línea; guardar confirmación
-- **15 días antes del plazo:** Verificar que la presentación fue aceptada; consultar registros del SOS para estado actualizado
-- **Fecha de vencimiento:** Plazo final — sin acción adicional si ya está confirmado
-- **Después de presentar:** Descargar y guardar el recibo de confirmación
-- **30 días después de presentar:** Verificar buen estado en el sitio web del SOS
-- **90 días antes de la PRÓXIMA fecha límite:** Comenzar el ciclo nuevamente
+- **90 dÃ­as antes del plazo:** Configurar recordatorio de calendario; verificar detalles comerciales actuales
+- **60 dÃ­as antes del plazo:** Confirmar que el agente registrado estÃ© actualizado; actualizar lista de oficiales/miembros
+- **30 dÃ­as antes del plazo:** Presentar el annual report en lÃ­nea; guardar confirmaciÃ³n
+- **15 dÃ­as antes del plazo:** Verificar que la presentaciÃ³n fue aceptada; consultar registros del SOS para estado actualizado
+- **Fecha de vencimiento:** Plazo final Â— sin acciÃ³n adicional si ya estÃ¡ confirmado
+- **DespuÃ©s de presentar:** Descargar y guardar el recibo de confirmaciÃ³n
+- **30 dÃ­as despuÃ©s de presentar:** Verificar buen estado en el sitio web del SOS
+- **90 dÃ­as antes de la PRÃ“XIMA fecha lÃ­mite:** Comenzar el ciclo nuevamente
 ### Seguimiento de Estado de la Entidad
 
-## Conclusión
+## ConclusiÃ³n
 
-**El annual report es una de las obligaciones de cumplimiento más simples pero más importantes para cualquier LLC o corporación.** Tomá 10-15 minutos presentarlo en línea y cuesta tan poco como $0 en algunos estados. Sin embargo, miles de negocios pierden su buen estado cada año simplemente porque lo olvidaron.
+**El annual report es una de las obligaciones de cumplimiento mÃ¡s simples pero mÃ¡s importantes para cualquier LLC o corporaciÃ³n.** TomÃ¡ 10-15 minutos presentarlo en lÃ­nea y cuesta tan poco como $0 en algunos estados. Sin embargo, miles de negocios pierden su buen estado cada aÃ±o simplemente porque lo olvidaron.
 
-Una sola presentación perdida puede convertirse en disolución administrativa, exposición de responsabilidad personal y miles de dólares en tarifas de reinstalación. La solución es directa:
+Una sola presentaciÃ³n perdida puede convertirse en disoluciÃ³n administrativa, exposiciÃ³n de responsabilidad personal y miles de dÃ³lares en tarifas de reinstalaciÃ³n. La soluciÃ³n es directa:
 
-- **Conozca la fecha límite de su estado** — basada en aniversario o fija
-- **Configure recordatorios** — 60 y 30 días antes del plazo
-- **Mantenga su información actualizada** — especialmente agente registrado y dirección principal
-- **Presente temprano** — evite tráfico en el portal y errores de último minuto
-- **Guarde la confirmación** — el comprobante de presentación es su evidencia de buen estado
+- **Conozca la fecha lÃ­mite de su estado** Â— basada en aniversario o fija
+- **Configure recordatorios** Â— 60 y 30 dÃ­as antes del plazo
+- **Mantenga su informaciÃ³n actualizada** Â— especialmente agente registrado y direcciÃ³n principal
+- **Presente temprano** Â— evite trÃ¡fico en el portal y errores de Ãºltimo minuto
+- **Guarde la confirmaciÃ³n** Â— el comprobante de presentaciÃ³n es su evidencia de buen estado
 
-En **Sotomayor Consulting International**, ayudamos a dueños de negocios a gestionar el cumplimiento de sus annual reports en múltiples estados. Desde preparación de presentación y seguimiento de plazos hasta reinstalación y estrategias de cumplimiento multiestatal, aseguramos que sus entidades se mantengan en buen estado para que pueda enfocarse en hacer crecer su negocio.
+En **Sotomayor Consulting International**, ayudamos a dueÃ±os de negocios a gestionar el cumplimiento de sus annual reports en mÃºltiples estados. Desde preparaciÃ³n de presentaciÃ³n y seguimiento de plazos hasta reinstalaciÃ³n y estrategias de cumplimiento multiestatal, aseguramos que sus entidades se mantengan en buen estado para que pueda enfocarse en hacer crecer su negocio.
 
- Contáctenos para una revisión de cumplimiento y un plan de gestión de annual reports.
+ ContÃ¡ctenos para una revisiÃ³n de cumplimiento y un plan de gestiÃ³n de annual reports.

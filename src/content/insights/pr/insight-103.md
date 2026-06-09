@@ -1,7 +1,7 @@
 ---
 title: "Automações que toda empresa precisa: Guia 2026"
 description: "Automações essenciais para empresas"
-cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"
+cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
 cardImageAlt: "Diagrama de automação empresarial mostrando sistemas interconectados de CRM, email, faturamento, inventário e suporte ao cliente"
 ---
 

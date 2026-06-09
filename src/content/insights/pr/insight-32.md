@@ -1,7 +1,7 @@
 ---
 title: "Evas�o vs Planejamento Fiscal: A Linha que Todo Empreendedor Deve Conhecer"
 description: "As diferen�as fundamentais entre evas�o fiscal (ilegal) e planejamento fiscal (legal), como garantir que voc� est� do lado correto e proteger sua LLC."
-cardImage: "@/images/insights/evasión-vs-planficación-fiscal.png"
+cardImage: "@/images/insights/evasion-vs-planficacion-fiscal.png"
 cardImageAlt: "Balan�a com dinheiro de um lado e livro de leis do outro"
 ---
 

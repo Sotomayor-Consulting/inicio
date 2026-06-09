@@ -1,28 +1,28 @@
 ---
-title: "Diferencias entre una LLC y una Corporation: øCu·l Elegir?"
-description: "Conoce las diferencias clave entre una LLC y una Corporation en EE.UU.: tributaciÛn, formalidades, inversiÛn y cu·l se adapta mejor a tu negocio."
+title: "Diferencias entre una LLC y una Corporation: ¬øCu√°l Elegir?"
+description: "Conoce las diferencias clave entre una LLC y una Corporation en EE.UU.: tributaci√≥n, formalidades, inversi√≥n y cu√°l se adapta mejor a tu negocio."
 cardImage: "@/images/insights/diferencias-entre-llc-y-corporacion.png"
-cardImageAlt: "Dos estructuras empresariales en comparaciÛn"
+cardImageAlt: "Dos estructuras empresariales en comparaci√≥n"
 ---
 
 Aunque ambas estructuras permiten operar legalmente en EE. UU., proteger el patrimonio y desarrollar negocios internacionales, funcionan de manera muy distinta en aspectos como:
 
-- TributaciÛn.
-- AdministraciÛn.
-- EmisiÛn de acciones.
+- Tributaci√≥n.
+- Administraci√≥n.
+- Emisi√≥n de acciones.
 - Formalidades corporativas.
-- InversiÛn.
-- DistribuciÛn de utilidades.
+- Inversi√≥n.
+- Distribuci√≥n de utilidades.
 
 Elegir incorrectamente puede generar costos innecesarios, problemas fiscales o limitaciones para el crecimiento del negocio.
 
-En este artÌculo le explicaremos las diferencias reales entre una LLC y una Corporation, y cu·l podrÌa convenir m·s seg˙n su caso.
+En este art√≠culo le explicaremos las diferencias reales entre una LLC y una Corporation, y cu√°l podr√≠a convenir m√°s seg√∫n su caso.
 
-## øQuÈ es una LLC?
+## ¬øQu√© es una LLC?
 
-Una LLC (Limited Liability Company) es una estructura hÌbrida que combina protecciÛn patrimonial, flexibilidad operativa y opciones tributarias adaptables. Es una de las estructuras m·s utilizadas por freelancers, consultores, negocios digitales, e-commerce, agencias, empresas familiares y emprendedores internacionales.
+Una LLC (Limited Liability Company) es una estructura h√≠brida que combina protecci√≥n patrimonial, flexibilidad operativa y opciones tributarias adaptables. Es una de las estructuras m√°s utilizadas por freelancers, consultores, negocios digitales, e-commerce, agencias, empresas familiares y emprendedores internacionales.
 
-### CaracterÌsticas principales
+### Caracter√≠sticas principales
 
 - Tiene miembros (no accionistas).
 - Puede ser administrada de forma flexible.
@@ -30,68 +30,68 @@ Una LLC (Limited Liability Company) es una estructura hÌbrida que combina protec
 - Permite diferentes tratamientos fiscales.
 - Es muy popular entre extranjeros no residentes.
 
-## øQuÈ es una Corporation?
+## ¬øQu√© es una Corporation?
 
-Una Corporation es una entidad corporativa m·s tradicional y estructurada. Existen principalmente dos tipos: C Corporation (C-Corp) y S Corporation (S-Corp).
+Una Corporation es una entidad corporativa m√°s tradicional y estructurada. Existen principalmente dos tipos: C Corporation (C-Corp) y S Corporation (S-Corp).
 
 > **Importante:** La S-Corp tiene restricciones para extranjeros no residentes, por lo que muchos empresarios internacionales terminan utilizando LLCs o C-Corps.
 
-### CaracterÌsticas principales
+### Caracter√≠sticas principales
 
 - Tiene accionistas.
 - Emite acciones.
 - Tiene directores y oficiales.
-- Requiere m·s formalidades corporativas.
-- Es com˙n en startups y empresas que buscan inversionistas.
+- Requiere m√°s formalidades corporativas.
+- Es com√∫n en startups y empresas que buscan inversionistas.
 
-## Diferencia #1: TributaciÛn
+## Diferencia #1: Tributaci√≥n
 
-Esta es una de las diferencias m·s importantes.
+Esta es una de las diferencias m√°s importantes.
 
-**LLC:** La LLC normalmente tiene tributaciÛn flexible. Una LLC de un solo miembro puede ser "disregarded entity". Una LLC de varios miembros puede tributar como partnership. TambiÈn puede realizar elecciones fiscales especÌficas. La tributaciÛn depender· de la residencia fiscal del propietario, el tipo de actividad, la fuente de ingresos y la estructura elegida.
+**LLC:** La LLC normalmente tiene tributaci√≥n flexible. Una LLC de un solo miembro puede ser "disregarded entity". Una LLC de varios miembros puede tributar como partnership. Tambi√©n puede realizar elecciones fiscales espec√≠ficas. La tributaci√≥n depender√° de la residencia fiscal del propietario, el tipo de actividad, la fuente de ingresos y la estructura elegida.
 
-**Corporation:** La C-Corp tributa como entidad separada. Esto significa que: (1) la empresa paga impuestos corporativos, y (2) luego los accionistas podrÌan pagar impuestos sobre dividendos. A esto muchas veces se le conoce como "doble tributaciÛn".
+**Corporation:** La C-Corp tributa como entidad separada. Esto significa que: (1) la empresa paga impuestos corporativos, y (2) luego los accionistas podr√≠an pagar impuestos sobre dividendos. A esto muchas veces se le conoce como "doble tributaci√≥n".
 
 ## Diferencia #2: Formalidades corporativas
 
-**LLC:** Suele ser mucho m·s flexible. Normalmente requiere menos reuniones formales, menos actas corporativas y una administraciÛn m·s simple.
+**LLC:** Suele ser mucho m√°s flexible. Normalmente requiere menos reuniones formales, menos actas corporativas y una administraci√≥n m√°s simple.
 
-**Corporation:** Tiene una estructura m·s rÌgida. Suele requerir junta de directores, oficiales corporativos, emisiÛn de acciones, actas formales y mayor mantenimiento corporativo.
+**Corporation:** Tiene una estructura m√°s r√≠gida. Suele requerir junta de directores, oficiales corporativos, emisi√≥n de acciones, actas formales y mayor mantenimiento corporativo.
 
 ## Diferencia #3: Propiedad de la empresa
 
 - **Propietarios:** Miembros (members) -- Accionistas (shareholders)
-- **ParticipaciÛn:** Porcentajes en Operating Agreement -- Acciones emitidas
+- **Participaci√≥n:** Porcentajes en Operating Agreement -- Acciones emitidas
 - **Transferencia:** Requiere acuerdo de miembros -- Libre transferencia de acciones
 ## Diferencia #4: Inversionistas y crecimiento
 
-**LLC:** Puede funcionar muy bien para negocios pequeÒos y medianos, empresas familiares, consultores, operaciones digitales y e-commerce.
+**LLC:** Puede funcionar muy bien para negocios peque√±os y medianos, empresas familiares, consultores, operaciones digitales y e-commerce.
 
-**Corporation:** Son preferidas por startups tecnolÛgicas, venture capital, inversionistas y empresas que buscan levantar capital. Muchos fondos de inversiÛn prefieren invertir en C-Corps, especialmente en Delaware.
+**Corporation:** Son preferidas por startups tecnol√≥gicas, venture capital, inversionistas y empresas que buscan levantar capital. Muchos fondos de inversi√≥n prefieren invertir en C-Corps, especialmente en Delaware.
 
-## Diferencia #5: DistribuciÛn de ganancias
+## Diferencia #5: Distribuci√≥n de ganancias
 
-**LLC:** La distribuciÛn puede ser m·s flexible dependiendo del Operating Agreement.
+**LLC:** La distribuci√≥n puede ser m√°s flexible dependiendo del Operating Agreement.
 
-**Corporation:** La distribuciÛn normalmente se realiza mediante dividendos seg˙n las acciones emitidas.
+**Corporation:** La distribuci√≥n normalmente se realiza mediante dividendos seg√∫n las acciones emitidas.
 
 ## Diferencia #6: Uso para extranjeros
 
-**LLC:** Son extremadamente populares entre empresarios latinoamericanos y extranjeros no residentes porque son flexibles, m·s f·ciles de administrar, adaptables para negocios internacionales y muy utilizadas para exportaciÛn de servicios y negocios digitales.
+**LLC:** Son extremadamente populares entre empresarios latinoamericanos y extranjeros no residentes porque son flexibles, m√°s f√°ciles de administrar, adaptables para negocios internacionales y muy utilizadas para exportaci√≥n de servicios y negocios digitales.
 
-**Corporation:** Las C-Corps tambiÈn pueden ser utilizadas por extranjeros, pero muchas veces implican mayor complejidad, m·s formalidades y otra estrategia tributaria.
+**Corporation:** Las C-Corps tambi√©n pueden ser utilizadas por extranjeros, pero muchas veces implican mayor complejidad, m√°s formalidades y otra estrategia tributaria.
 
 ## Tabla comparativa
 
-- **TributaciÛn:** Flexible (pas-through) -- Doble tributaciÛn (C-Corp)
+- **Tributaci√≥n:** Flexible (pas-through) -- Doble tributaci√≥n (C-Corp)
 - **Formalidades:** Bajas -- Altas
 - **Propietarios:** Miembros -- Accionistas
 - **Acciones:** No emite -- Emite acciones
-- **InversiÛn:** Limitada -- Ideal para VC
-- **Extranjeros:** Muy popular -- Posible pero m·s complejo
-- **Mantenimiento:** Simple -- M·s costoso
-- **Mejor para:** Freelancers, digital, pymes -- Startups, inversiÛn, IPO
-## øCu·l conviene m·s?
+- **Inversi√≥n:** Limitada -- Ideal para VC
+- **Extranjeros:** Muy popular -- Posible pero m√°s complejo
+- **Mantenimiento:** Simple -- M√°s costoso
+- **Mejor para:** Freelancers, digital, pymes -- Startups, inversi√≥n, IPO
+## ¬øCu√°l conviene m√°s?
 
 ### Una LLC puede ser ideal si:
 
@@ -100,36 +100,36 @@ Esta es una de las diferencias m·s importantes.
 - Maneja e-commerce.
 - Quiere operar internacionalmente.
 - Busca flexibilidad.
-- Desea una estructura m·s simple.
+- Desea una estructura m√°s simple.
 
 ### Una Corporation puede ser ideal si:
 
 - Busca inversionistas.
 - Planea emitir acciones.
 - Quiere levantar capital.
-- Est· creando una startup escalable.
-- Tendr· m˙ltiples accionistas e inversiÛn externa.
+- Est√° creando una startup escalable.
+- Tendr√° m√∫ltiples accionistas e inversi√≥n externa.
 
-## Error com˙n: elegir solo por TikTok o YouTube
+## Error com√∫n: elegir solo por TikTok o YouTube
 
-Muchos emprendedores abren estructuras sin entender cÛmo tributan, quÈ obligaciones tienen, quÈ mantenimiento requieren, quÈ riesgos fiscales existen y cÛmo afecta su residencia fiscal. Esto puede generar problemas tributarios, costos innecesarios, doble tributaciÛn, problemas bancarios y estructuras ineficientes.
+Muchos emprendedores abren estructuras sin entender c√≥mo tributan, qu√© obligaciones tienen, qu√© mantenimiento requieren, qu√© riesgos fiscales existen y c√≥mo afecta su residencia fiscal. Esto puede generar problemas tributarios, costos innecesarios, doble tributaci√≥n, problemas bancarios y estructuras ineficientes.
 
-## øUna LLC paga menos impuestos que una Corporation?
+## ¬øUna LLC paga menos impuestos que una Corporation?
 
-No necesariamente. Todo depender· de cÛmo est· estructurada, dÛnde opera el negocio, dÛnde reside fiscalmente el propietario, quÈ ingresos genera y quÈ elecciones fiscales existen. No existe una respuesta universal.
+No necesariamente. Todo depender√° de c√≥mo est√° estructurada, d√≥nde opera el negocio, d√≥nde reside fiscalmente el propietario, qu√© ingresos genera y qu√© elecciones fiscales existen. No existe una respuesta universal.
 
-## ConclusiÛn
+## Conclusi√≥n
 
 Tanto la LLC como la Corporation pueden ser excelentes herramientas empresariales, pero sirven para objetivos distintos.
 
-La clave no es elegir la estructura "m·s famosa", sino la que realmente se adapta a su modelo de negocio, sus objetivos, su operaciÛn, su estrategia fiscal y su proyecciÛn de crecimiento.
+La clave no es elegir la estructura "m√°s famosa", sino la que realmente se adapta a su modelo de negocio, sus objetivos, su operaci√≥n, su estrategia fiscal y su proyecci√≥n de crecimiento.
 
-Una estructura correctamente diseÒada desde el inicio puede evitar muchos problemas futuros.
+Una estructura correctamente dise√±ada desde el inicio puede evitar muchos problemas futuros.
 
-## øNo sabe si necesita una LLC o una Corporation?
+## ¬øNo sabe si necesita una LLC o una Corporation?
 
-En **Sotomayor Consulting International** analizamos su caso y le ayudamos a determinar quÈ estructura se adapta mejor a sus objetivos comerciales y tributarios.
+En **Sotomayor Consulting International** analizamos su caso y le ayudamos a determinar qu√© estructura se adapta mejor a sus objetivos comerciales y tributarios.
 
-Le explicamos quÈ estructura le conviene, quÈ obligaciones tendrÌa, quÈ costos debe considerar y cÛmo operar correctamente desde LatinoamÈrica.
+Le explicamos qu√© estructura le conviene, qu√© obligaciones tendr√≠a, qu√© costos debe considerar y c√≥mo operar correctamente desde Latinoam√©rica.
 
-**Agende una asesorÌa inicial gratuita** y descubra cu·l es la mejor estructura para su negocio.
+**Agende una asesor√≠a inicial gratuita** y descubra cu√°l es la mejor estructura para su negocio.

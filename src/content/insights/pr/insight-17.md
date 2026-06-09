@@ -1,7 +1,7 @@
 ---
 title: "Stripe Atlas vs Assessoria Personalizada: Qual Op��o Escolher para sua LLC?"
 description: "Comparativo completo entre Stripe Atlas e assessoria personalizada para constituir sua LLC nos EUA. Vantagens, desvantagens e qual escolher."
-cardImage: "@/images/insights/stripe-vs-asesoría-personalizada.png"
+cardImage: "@/images/insights/stripe-vs-asesoria-personalizada.png"
 cardImageAlt: "Duas op��es para formar uma LLC em compara��o"
 ---
 

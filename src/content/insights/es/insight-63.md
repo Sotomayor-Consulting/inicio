@@ -1,111 +1,111 @@
 ---
-title: "CÛmo Manejar Reembolsos Correctamente en Stripe: GuÌa 2026"
-description: "CÛmo manejar reembolsos correctamente en Stripe"
+title: "C√≥mo Manejar Reembolsos Correctamente en Stripe: Gu√≠a 2026"
+description: "C√≥mo manejar reembolsos correctamente en Stripe"
 cardImage: "@/images/insights/stripe.png"
-cardImageAlt: "Proceso de reembolso de Stripe con flechas que indican devoluciÛn de dinero"
+cardImageAlt: "Proceso de reembolso de Stripe con flechas que indican devoluci√≥n de dinero"
 ---
 
-Los **reembolsos** son una parte inevitable de cualquier negocio online. Manejarlos correctamente no solo protege tu reputaciÛn, sino que tambiÈn reduce el riesgo de disputas y chargebacks, mantiene contentos a tus clientes y preserva la salud de tu cuenta Stripe.
+Los **reembolsos** son una parte inevitable de cualquier negocio online. Manejarlos correctamente no solo protege tu reputaci√≥n, sino que tambi√©n reduce el riesgo de disputas y chargebacks, mantiene contentos a tus clientes y preserva la salud de tu cuenta Stripe.
 
-En esta guÌa, explicamos **cÛmo manejar reembolsos correctamente en Stripe** en 2026: cu·ndo reembolsar, cÛmo hacerlo, plazos, tarifas y mejores pr·cticas.
+En esta gu√≠a, explicamos **c√≥mo manejar reembolsos correctamente en Stripe** en 2026: cu√°ndo reembolsar, c√≥mo hacerlo, plazos, tarifas y mejores pr√°cticas.
 
-## 1. øQuÈ es un Reembolso en Stripe?
+## 1. ¬øQu√© es un Reembolso en Stripe?
 
-### DefiniciÛn
+### Definici√≥n
 
-Un reembolso es la devoluciÛn de fondos al cliente por una transacciÛn realizada. Stripe procesa el reembolso directamente a la tarjeta o mÈtodo de pago original del cliente.
+Un reembolso es la devoluci√≥n de fondos al cliente por una transacci√≥n realizada. Stripe procesa el reembolso directamente a la tarjeta o m√©todo de pago original del cliente.
 
 ### Tipos de Reembolso
 
-- **Reembolso total:** Se devuelve el monto completo de la transacciÛn -- Hasta 120 dÌas
-- **Reembolso parcial:** Se devuelve solo una parte del monto -- Hasta 120 dÌas
+- **Reembolso total:** Se devuelve el monto completo de la transacci√≥n -- Hasta 120 d√≠as
+- **Reembolso parcial:** Se devuelve solo una parte del monto -- Hasta 120 d√≠as
 - **Reembolso fuera de Stripe:** Se reembolsa fuera de la plataforma (no recomendado) -- N/A
 ### Diferencia entre Reembolso y Disputa
 
-- **QuiÈn lo inicia:** El comerciante (t˙) -- El cliente (a travÈs de su banco)
+- **Qui√©n lo inicia:** El comerciante (t√∫) -- El cliente (a trav√©s de su banco)
 - **Costo:** Gratuito (sin tarifa adicional) -- $15 de tarifa Stripe
-- **Control:** Total ó t˙ decides -- Forzado ó Stripe decide
+- **Control:** Total ¬ó t√∫ decides -- Forzado ¬ó Stripe decide
 - **Impacto:** Positivo para el cliente -- Negativo para tu cuenta
-- **Tiempo:** Instant·neo a 5-10 dÌas -- 60-90 dÌas
-> **Regla de oro:** Si un cliente no est· satisfecho, **reembolsa t˙ mismo** antes de que el cliente dispute. Un reembolso voluntario cuesta $0; un chargeback cuesta $15 y arriesga tu cuenta.
+- **Tiempo:** Instant√°neo a 5-10 d√≠as -- 60-90 d√≠as
+> **Regla de oro:** Si un cliente no est√° satisfecho, **reembolsa t√∫ mismo** antes de que el cliente dispute. Un reembolso voluntario cuesta $0; un chargeback cuesta $15 y arriesga tu cuenta.
 
-## 2. PolÌtica de Reembolsos
+## 2. Pol√≠tica de Reembolsos
 
-### Elementos de una PolÌtica Clara
+### Elementos de una Pol√≠tica Clara
 
-- **Plazo de reembolso:** 7, 14, 30 o 60 dÌas para solicitar
+- **Plazo de reembolso:** 7, 14, 30 o 60 d√≠as para solicitar
 - **Condiciones:** Producto sin usar, empaque original, etc.
 - **Proceso:** Pasos que el cliente debe seguir
-- **MÈtodo de reembolso:** Siempre al mÈtodo de pago original
+- **M√©todo de reembolso:** Siempre al m√©todo de pago original
 - **Excepciones:** Productos digitales, servicios personalizados
-- **Tiempo de procesamiento:** 5-10 dÌas h·biles para ver el reembolso
+- **Tiempo de procesamiento:** 5-10 d√≠as h√°biles para ver el reembolso
 ### Ejemplos por Tipo de Negocio
 
-- **E-commerce (fÌsico):** 30 dÌas, producto sin usar, empaque original
-- **Productos digitales:** 14 dÌas, o sin reembolso si ya se descargÛ
-- **SaaS / Suscripciones:** CancelaciÛn en cualquier momento, reembolso prorrateado
-- **Cursos online:** 7 dÌas si no se ha consumido m·s del 30%
-- **Servicios profesionales:** 50% si ya se iniciÛ el trabajo, 100% si no
-### PolÌtica de Reembolso para Productos Digitales
+- **E-commerce (f√≠sico):** 30 d√≠as, producto sin usar, empaque original
+- **Productos digitales:** 14 d√≠as, o sin reembolso si ya se descarg√≥
+- **SaaS / Suscripciones:** Cancelaci√≥n en cualquier momento, reembolso prorrateado
+- **Cursos online:** 7 d√≠as si no se ha consumido m√°s del 30%
+- **Servicios profesionales:** 50% si ya se inici√≥ el trabajo, 100% si no
+### Pol√≠tica de Reembolso para Productos Digitales
 
 Los productos digitales tienen consideraciones especiales:
 
-- **No se pueden "devolver":** Ofrece perÌodo de prueba o muestra gratis
-- **F·cil de copiar:** Reembolsa sin cuestionar si es dentro del plazo
-- **Cliente insatisfecho:** Ofrece soluciÛn antes que reembolso: soporte, actualizaciÛn, etc.
-> **RecomendaciÛn:** Para productos digitales, ofrece reembolso completo dentro de los primeros 7-14 dÌas sin hacer preguntas. Esto genera confianza y reduce disputas.
+- **No se pueden "devolver":** Ofrece per√≠odo de prueba o muestra gratis
+- **F√°cil de copiar:** Reembolsa sin cuestionar si es dentro del plazo
+- **Cliente insatisfecho:** Ofrece soluci√≥n antes que reembolso: soporte, actualizaci√≥n, etc.
+> **Recomendaci√≥n:** Para productos digitales, ofrece reembolso completo dentro de los primeros 7-14 d√≠as sin hacer preguntas. Esto genera confianza y reduce disputas.
 
-## 3. CÛmo Hacer un Reembolso en Stripe
+## 3. C√≥mo Hacer un Reembolso en Stripe
 
-### MÈtodo 1: Stripe Dashboard (Manual)
+### M√©todo 1: Stripe Dashboard (Manual)
 
 **Tiempo:** 2 minutos
 
-### MÈtodo 2: API de Stripe (Autom·tico)
+### M√©todo 2: API de Stripe (Autom√°tico)
 
-### MÈtodo 3: Reembolso desde el Dashboard de Transacciones
+### M√©todo 3: Reembolso desde el Dashboard de Transacciones
 
 - **1:** Stripe Dashboard ? Transacciones
 - **2:** Busca el pago por nombre, email, o monto
-- **3:** Haz clic en la transacciÛn
-- **4:** BotÛn "Reembolsar" en la esquina superior derecha
+- **3:** Haz clic en la transacci√≥n
+- **4:** Bot√≥n "Reembolsar" en la esquina superior derecha
 ## 4. Plazos y Tiempos de Reembolso
 
 ### Ventana de Reembolso en Stripe
 
-- **0-120 dÌas:** ? Reembolso completo o parcial -- Sin costo adicional
-- **120+ dÌas:** ? No disponible vÌa Stripe -- Debes transferir manualmente
+- **0-120 d√≠as:** ? Reembolso completo o parcial -- Sin costo adicional
+- **120+ d√≠as:** ? No disponible v√≠a Stripe -- Debes transferir manualmente
 - **Chargeback:** ? Stripe maneja la disputa -- $15 + monto disputado
 ### Tiempo en que el Cliente Ve el Reembolso
 
-- **Tarjeta de crÈdito:** 5-10 dÌas h·biles
-- **Tarjeta de dÈbito:** 3-5 dÌas h·biles
-- **Apple Pay / Google Pay:** 5-10 dÌas h·biles
-- **MÈtodo de pago local:** 7-14 dÌas h·biles
-> **Nota:** Stripe procesa el reembolso inmediatamente, pero el banco del cliente determina cu·ndo se refleja en su cuenta.
+- **Tarjeta de cr√©dito:** 5-10 d√≠as h√°biles
+- **Tarjeta de d√©bito:** 3-5 d√≠as h√°biles
+- **Apple Pay / Google Pay:** 5-10 d√≠as h√°biles
+- **M√©todo de pago local:** 7-14 d√≠as h√°biles
+> **Nota:** Stripe procesa el reembolso inmediatamente, pero el banco del cliente determina cu√°ndo se refleja en su cuenta.
 
 ## 5. Tarifas y Costos de Reembolso
 
-### øStripe Cobra por Reembolsar?
+### ¬øStripe Cobra por Reembolsar?
 
 - **Reembolso voluntario:** ? Sin costo adicional
 - **Tarifa original de Stripe:** ? No se devuelve
 - **Chargeback:** $15 (no reembolsable aunque ganes)
 ### Ejemplo de Costo de Reembolso
 
-**TransacciÛn original:**
+**Transacci√≥n original:**
 - Venta: $100.00
-- ComisiÛn Stripe (2.9% + $0.30): -$3.20
+- Comisi√≥n Stripe (2.9% + $0.30): -$3.20
 - Neto recibido: $96.80
 
 **Reembolso:**
 - Monto devuelto: -$100.00
-- ComisiÛn Stripe: $3.20 (no se devuelve)
-- **PÈrdida total: $3.20** (la comisiÛn)
+- Comisi√≥n Stripe: $3.20 (no se devuelve)
+- **P√©rdida total: $3.20** (la comisi√≥n)
 
-> **ConclusiÛn:** Stripe no devuelve su comisiÛn cuando reembolsas. Es el costo de procesar el pago original.
+> **Conclusi√≥n:** Stripe no devuelve su comisi√≥n cuando reembolsas. Es el costo de procesar el pago original.
 
-### ComparaciÛn: Reembolso vs Chargeback
+### Comparaci√≥n: Reembolso vs Chargeback
 
 - **Monto devuelto:** $100.00 -- $100.00
 - **Tarifa Stripe:** $3.20 (no recuperable) -- $3.20 (no recuperable)
@@ -114,23 +114,23 @@ Los productos digitales tienen consideraciones especiales:
 - **Riesgo cuenta:** Ninguno -- Alto
 ## 6. Reembolsos Parciales
 
-### Cu·ndo Usar Reembolsos Parciales
+### Cu√°ndo Usar Reembolsos Parciales
 
-- **DevoluciÛn parcial:** Cliente devuelve solo un producto de un pedido m˙ltiple
+- **Devoluci√≥n parcial:** Cliente devuelve solo un producto de un pedido m√∫ltiple
 - **Descuento retroactivo:** Ofreces 50% de descuento como gesto comercial
 - **Cobro incorrecto:** Cobraste $150, debiste cobrar $100
-- **Ajuste por flete:** El envÌo fue m·s caro de lo esperado
-- **PenalizaciÛn:** Cliente cancelÛ despuÈs del plazo
-### CÛmo Hacer un Reembolso Parcial
+- **Ajuste por flete:** El env√≠o fue m√°s caro de lo esperado
+- **Penalizaci√≥n:** Cliente cancel√≥ despu√©s del plazo
+### C√≥mo Hacer un Reembolso Parcial
 
 ## 7. Reembolsos y Contabilidad
 
-### CÛmo Registrar Reembolsos
+### C√≥mo Registrar Reembolsos
 
-- **Ingreso original:** Registrado cuando se recibiÛ el pago
-- **Reembolso:** Nota de crÈdito o ajuste negativo
-- **ComisiÛn Stripe:** Gasto no recuperable
-- **Neto:** Ingreso original - reembolso - comisiÛn
+- **Ingreso original:** Registrado cuando se recibi√≥ el pago
+- **Reembolso:** Nota de cr√©dito o ajuste negativo
+- **Comisi√≥n Stripe:** Gasto no recuperable
+- **Neto:** Ingreso original - reembolso - comisi√≥n
 ### Reportes de Stripe para Reembolsos
 
 1. Stripe Dashboard ? Reportes ? Resumen de transacciones
@@ -138,67 +138,67 @@ Los productos digitales tienen consideraciones especiales:
 3. Exporta a CSV para tu contabilidad
 4. Concilia mensualmente
 
-### Reembolsos y FacturaciÛn
+### Reembolsos y Facturaci√≥n
 
-- **Reembolso total:** Emite nota de crÈdito y anula la factura original
-- **Reembolso parcial:** Emite nota de crÈdito por el monto parcial
-- **Misma moneda:** Stripe maneja la conversiÛn autom·ticamente
+- **Reembolso total:** Emite nota de cr√©dito y anula la factura original
+- **Reembolso parcial:** Emite nota de cr√©dito por el monto parcial
+- **Misma moneda:** Stripe maneja la conversi√≥n autom√°ticamente
 - **Moneda diferente:** Stripe convierte al tipo de cambio original
 ## 8. Estrategias para Minimizar Reembolsos
 
-### PrevenciÛn Antes de la Venta
+### Prevenci√≥n Antes de la Venta
 
 - **Descripciones detalladas:** Reduce devoluciones por expectativas incorrectas
-- **Fotos y videos reales:** El cliente sabe exactamente quÈ compra
-- **Tabla de tallas/medidas:** CrÌtico para ropa y productos fÌsicos
-- **ReseÒas de clientes:** Ayudan a establecer expectativas realistas
+- **Fotos y videos reales:** El cliente sabe exactamente qu√© compra
+- **Tabla de tallas/medidas:** Cr√≠tico para ropa y productos f√≠sicos
+- **Rese√±as de clientes:** Ayudan a establecer expectativas realistas
 - **Muestra gratis / demo:** El cliente prueba antes de comprar
 ### Manejo de Solicitudes de Reembolso
 
-### AutomatizaciÛn de Reembolsos
+### Automatizaci√≥n de Reembolsos
 
-Configura reglas autom·ticas para reembolsos simples:
+Configura reglas autom√°ticas para reembolsos simples:
 
 ## 9. Errores Comunes al Manejar Reembolsos
 
 ### Error #1: Reembolsar Fuera de Stripe
 
 - **"Te deposito el dinero por PayPal":** "Procesamos el reembolso a tu tarjeta"
-- **"Te envÌo un transferencia bancaria":** "Stripe devuelve el dinero al mÈtodo original"
-**Por quÈ es malo:** Si reembolsas fuera de Stripe, el cliente a˙n puede disputar el cargo original en su banco y generar un chargeback.
+- **"Te env√≠o un transferencia bancaria":** "Stripe devuelve el dinero al m√©todo original"
+**Por qu√© es malo:** Si reembolsas fuera de Stripe, el cliente a√∫n puede disputar el cargo original en su banco y generar un chargeback.
 
 ### Error #2: Demorar el Reembolso
 
 - **Reembolso en 24 horas:** Cliente satisfecho, sin riesgo de disputa
-- **Reembolso en 7 dÌas:** Cliente frustrado, posible queja
-- **Reembolso en 15+ dÌas:** Alto riesgo de chargeback
+- **Reembolso en 7 d√≠as:** Cliente frustrado, posible queja
+- **Reembolso en 15+ d√≠as:** Alto riesgo de chargeback
 ### Error #3: No Comunicar el Reembolso
 
-### Error #4: Reembolsar sin PolÌtica Clara
+### Error #4: Reembolsar sin Pol√≠tica Clara
 
-- **Cliente no sabe el plazo:** Publica la polÌtica en tu web y en el checkout
-- **TÈrminos confusos:** Usa lenguaje simple, no legal
-- **Excepciones no documentadas:** Incluye todos los casos en la polÌtica
-## 10. Paso a Paso R·pido
+- **Cliente no sabe el plazo:** Publica la pol√≠tica en tu web y en el checkout
+- **T√©rminos confusos:** Usa lenguaje simple, no legal
+- **Excepciones no documentadas:** Incluye todos los casos en la pol√≠tica
+## 10. Paso a Paso R√°pido
 
 ### Resumen en 5 Pasos
 
-- **1:** Define y publica tu polÌtica de reembolsos -- 1 hora
+- **1:** Define y publica tu pol√≠tica de reembolsos -- 1 hora
 - **2:** Configura el proceso de reembolso en Stripe -- 15 min
 - **3:** Capacita a tu equipo sobre reembolsos -- 30 min
-- **4:** Implementa reembolsos autom·ticos si aplica -- 2 horas
-- **5:** Monitorea y ajusta seg˙n datos -- Mensual
+- **4:** Implementa reembolsos autom√°ticos si aplica -- 2 horas
+- **5:** Monitorea y ajusta seg√∫n datos -- Mensual
 ### Checklist para un Reembolso Correcto
 
-- [ ] Verificar que el cliente est· dentro del plazo de reembolso
+- [ ] Verificar que el cliente est√° dentro del plazo de reembolso
 - [ ] Confirmar el motivo del reembolso
-- [ ] Procesar el reembolso al mÈtodo de pago original
+- [ ] Procesar el reembolso al m√©todo de pago original
 - [ ] Notificar al cliente que el reembolso fue procesado
 - [ ] Indicar el tiempo estimado para ver el reembolso
 - [ ] Registrar el reembolso en tu contabilidad
-- [ ] Analizar la causa raÌz para prevenir futuros reembolsos
+- [ ] Analizar la causa ra√≠z para prevenir futuros reembolsos
 
-### Plantilla de Email de ConfirmaciÛn de Reembolso
+### Plantilla de Email de Confirmaci√≥n de Reembolso
 
 > **Asunto:** Hemos procesado tu reembolso - [Nombre de tienda]
 >
@@ -206,15 +206,15 @@ Configura reglas autom·ticas para reembolsos simples:
 >
 > Hemos procesado tu reembolso por $[monto] correspondiente a [producto/pedido].
 >
-> El reembolso se ha enviado a tu mÈtodo de pago original y deberÌa reflejarse en tu cuenta en un plazo de 5-10 dÌas h·biles, dependiendo de tu banco.
+> El reembolso se ha enviado a tu m√©todo de pago original y deber√≠a reflejarse en tu cuenta en un plazo de 5-10 d√≠as h√°biles, dependiendo de tu banco.
 >
 > Si tienes alguna pregunta, responde a este correo.
 >
-> Gracias por tu comprensiÛn,
+> Gracias por tu comprensi√≥n,
 > [Nombre de tienda]
 
-## ConclusiÛn
+## Conclusi√≥n
 
-**Manejar reembolsos correctamente** es fundamental para mantener una relaciÛn saludable con tus clientes y con Stripe. Un reembolso bien manejado puede convertir un cliente insatisfecho en un cliente leal. La clave est· en tener una polÌtica clara, procesar los reembolsos sin demora y comunicarte abiertamente con el cliente.
+**Manejar reembolsos correctamente** es fundamental para mantener una relaci√≥n saludable con tus clientes y con Stripe. Un reembolso bien manejado puede convertir un cliente insatisfecho en un cliente leal. La clave est√° en tener una pol√≠tica clara, procesar los reembolsos sin demora y comunicarte abiertamente con el cliente.
 
-En **Sotomayor Consulting International**, asesoramos a negocios online en la optimizaciÛn de sus procesos de pago y reembolsos, incluyendo la configuraciÛn de Stripe y la creaciÛn de empresas en EE. UU. Cont·ctanos para una consultorÌa personalizada.
+En **Sotomayor Consulting International**, asesoramos a negocios online en la optimizaci√≥n de sus procesos de pago y reembolsos, incluyendo la configuraci√≥n de Stripe y la creaci√≥n de empresas en EE. UU. Cont√°ctanos para una consultor√≠a personalizada.

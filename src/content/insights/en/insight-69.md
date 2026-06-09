@@ -1,7 +1,7 @@
 ---
 title: "How to Optimize Payment Conversions: Complete Guide 2026"
 description: "How to optimize payment conversions"
-cardImage: "@/images/insights/métodos y cumplimiento.png"
+cardImage: "@/images/insights/metodos-y-cumplimiento.png"
 cardImageAlt: "Conversion funnel chart showing increase in successful payment rate"
 ---
 

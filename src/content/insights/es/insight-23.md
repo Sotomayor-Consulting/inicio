@@ -1,99 +1,99 @@
 ---
 title: "Formulario 5472 Explicado: Todo lo que Debes Saber para tu LLC"
-description: "Guía completa sobre el Formulario 5472 del IRS: quién debe presentarlo, cómo llenarlo, plazos, multas y mejores prácticas."
+description: "GuÃ­a completa sobre el Formulario 5472 del IRS: quiÃ©n debe presentarlo, cÃ³mo llenarlo, plazos, multas y mejores prÃ¡cticas."
 cardImage: "@/images/insights/formulario-5472.png"
 cardImageAlt: "Formulario 5472 del IRS con lupa"
 ---
 
-El Formulario 5472 es uno de los requisitos fiscales más importantes —y más ignorados— para propietarios extranjeros de una LLC en Estados Unidos. La falta de presentación puede resultar en multas de hasta **$25,000 por año**.
+El Formulario 5472 es uno de los requisitos fiscales mÃ¡s importantes Â—y mÃ¡s ignoradosÂ— para propietarios extranjeros de una LLC en Estados Unidos. La falta de presentaciÃ³n puede resultar en multas de hasta **$25,000 por aÃ±o**.
 
-En esta guía explicamos qué es, quién debe presentarlo, cómo llenarlo y cómo evitar errores comunes.
+En esta guÃ­a explicamos quÃ© es, quiÃ©n debe presentarlo, cÃ³mo llenarlo y cÃ³mo evitar errores comunes.
 
-## ¿Qué es el Formulario 5472?
+## Â¿QuÃ© es el Formulario 5472?
 
-El Formulario 5472 es una declaración informativa que el IRS utiliza para recopilar información sobre transacciones entre ciertas corporaciones estadounidenses y sus partes relacionadas extranjeras.
+El Formulario 5472 es una declaraciÃ³n informativa que el IRS utiliza para recopilar informaciÃ³n sobre transacciones entre ciertas corporaciones estadounidenses y sus partes relacionadas extranjeras.
 
-Para efectos prácticos, si eres **extranjero no residente** (no tienes green card ni ciudadanía estadounidense) y eres el único dueño de una LLC, el IRS considera tu LLC como una "corporación nacional" para propósitos de este formulario, y a ti como una "parte relacionada extranjera".
+Para efectos prÃ¡cticos, si eres **extranjero no residente** (no tienes green card ni ciudadanÃ­a estadounidense) y eres el Ãºnico dueÃ±o de una LLC, el IRS considera tu LLC como una "corporaciÃ³n nacional" para propÃ³sitos de este formulario, y a ti como una "parte relacionada extranjera".
 
-**No es una declaración de impuestos sobre la renta.** Es una declaración informativa. No pagas impuestos adicionales al presentarlo. Simplemente reportas las transacciones entre tu LLC (en EE.UU.) y tú (en el extranjero).
+**No es una declaraciÃ³n de impuestos sobre la renta.** Es una declaraciÃ³n informativa. No pagas impuestos adicionales al presentarlo. Simplemente reportas las transacciones entre tu LLC (en EE.UU.) y tÃº (en el extranjero).
 
-## ¿Quién debe presentarlo?
+## Â¿QuiÃ©n debe presentarlo?
 
 Debes presentar el Formulario 5472 si cumples **todas** estas condiciones:
 
 1. Eres **extranjero no residente** de EE.UU. (ni ciudadano, ni green card, ni residente fiscal).
-2. Eres el **único dueño** de una LLC estadounidense (single-member LLC).
-3. Tu LLC realizó **transacciones reportables** durante el año fiscal (casi cualquier transacción cuenta).
+2. Eres el **Ãºnico dueÃ±o** de una LLC estadounidense (single-member LLC).
+3. Tu LLC realizÃ³ **transacciones reportables** durante el aÃ±o fiscal (casi cualquier transacciÃ³n cuenta).
 
-### ¿Qué son "transacciones reportables"?
+### Â¿QuÃ© son "transacciones reportables"?
 
-Cualquier transacción entre la LLC (parte relacionada estadounidense) y el dueño (parte relacionada extranjera) debe ser reportada. Ejemplos:
+Cualquier transacciÃ³n entre la LLC (parte relacionada estadounidense) y el dueÃ±o (parte relacionada extranjera) debe ser reportada. Ejemplos:
 
-- **Aportación de capital inicial:** Sí
-- **Transferencia de fondos del dueño a la LLC:** Sí
-- **Retiro de fondos de la LLC al dueño:** Sí
-- **Pago de gastos personales desde la LLC:** Sí
-- **Préstamo del dueño a la LLC:** Sí
-- **Préstamo de la LLC al dueño:** Sí
-- **Pago de servicios del dueño a la LLC:** Sí
-- **Compra de activos entre dueño y LLC:** Sí
-> **Regla general:** Si hubo movimiento de dinero entre tú y tu LLC en el año, debes presentar el Formulario 5472.
+- **AportaciÃ³n de capital inicial:** SÃ­
+- **Transferencia de fondos del dueÃ±o a la LLC:** SÃ­
+- **Retiro de fondos de la LLC al dueÃ±o:** SÃ­
+- **Pago de gastos personales desde la LLC:** SÃ­
+- **PrÃ©stamo del dueÃ±o a la LLC:** SÃ­
+- **PrÃ©stamo de la LLC al dueÃ±o:** SÃ­
+- **Pago de servicios del dueÃ±o a la LLC:** SÃ­
+- **Compra de activos entre dueÃ±o y LLC:** SÃ­
+> **Regla general:** Si hubo movimiento de dinero entre tÃº y tu LLC en el aÃ±o, debes presentar el Formulario 5472.
 
-## ¿Quién NO debe presentarlo?
+## Â¿QuiÃ©n NO debe presentarlo?
 
 No debes presentar el Formulario 5472 si:
 
 1. Eres **ciudadano estadounidense o residente permanente** (green card).
-2. Tu LLC tiene **dos o más miembros** (multi-member LLC) —en ese caso aplican otras reglas.
-3. Tu LLC no tuvo **ninguna transacción** con el dueño extranjero durante el año (poco común).
+2. Tu LLC tiene **dos o mÃ¡s miembros** (multi-member LLC) Â—en ese caso aplican otras reglas.
+3. Tu LLC no tuvo **ninguna transacciÃ³n** con el dueÃ±o extranjero durante el aÃ±o (poco comÃºn).
 4. Elegiste que tu LLC tribute como **S-Corp o C-Corp** (aplican otras reglas).
 
-## Plazos de presentación
+## Plazos de presentaciÃ³n
 
-- **Fecha límite estándar:** 15 de abril
-- **Extensión automática:** 15 de octubre
-- **Extensión adicional (con justificación):** Posible pero no automática
-El Formulario 5472 se presenta junto con el **Formulario 1120** (pro-forma). Aunque la LLC no pague impuestos, debe presentar el 1120 como vehículo para el 5472.
+- **Fecha lÃ­mite estÃ¡ndar:** 15 de abril
+- **ExtensiÃ³n automÃ¡tica:** 15 de octubre
+- **ExtensiÃ³n adicional (con justificaciÃ³n):** Posible pero no automÃ¡tica
+El Formulario 5472 se presenta junto con el **Formulario 1120** (pro-forma). Aunque la LLC no pague impuestos, debe presentar el 1120 como vehÃ­culo para el 5472.
 
-> **IMPORTANTE:** No hay extensión automática solo para el 5472. La extensión al 15 de octubre aplica si presentas el Formulario 7004 para extender el 1120.
+> **IMPORTANTE:** No hay extensiÃ³n automÃ¡tica solo para el 5472. La extensiÃ³n al 15 de octubre aplica si presentas el Formulario 7004 para extender el 1120.
 
 ## Multas por no presentar
 
-- **No presentar el 5472:** $25,000 por año
-- **Presentar incompleto o incorrecto:** $25,000 por año
-- **No presentar después de notificación del IRS:** $25,000 por año adicional
-- **Presentación tardía sin extensión válida:** $25,000
-La multa se aplica **por cada año fiscal** que no se presente. Si no has presentado por 3 años, la multa potencial es de $75,000.
+- **No presentar el 5472:** $25,000 por aÃ±o
+- **Presentar incompleto o incorrecto:** $25,000 por aÃ±o
+- **No presentar despuÃ©s de notificaciÃ³n del IRS:** $25,000 por aÃ±o adicional
+- **PresentaciÃ³n tardÃ­a sin extensiÃ³n vÃ¡lida:** $25,000
+La multa se aplica **por cada aÃ±o fiscal** que no se presente. Si no has presentado por 3 aÃ±os, la multa potencial es de $75,000.
 
-> **Dato importante:** El IRS ha intensificado la fiscalización de Formularios 5472 en los últimos años. Cada vez más propietarios extranjeros de LLCs están recibiendo cartas de cumplimiento.
+> **Dato importante:** El IRS ha intensificado la fiscalizaciÃ³n de Formularios 5472 en los Ãºltimos aÃ±os. Cada vez mÃ¡s propietarios extranjeros de LLCs estÃ¡n recibiendo cartas de cumplimiento.
 
 ## Paso a paso para llenar el Formulario 5472
 
-### Paso 1: Reúne la información necesaria
+### Paso 1: ReÃºne la informaciÃ³n necesaria
 
-- **EIN de la LLC:** Número de identificación fiscal.
-- **Nombre y dirección de la LLC.**
-- **Tu información personal:** Nombre, dirección en tu país, país de residencia fiscal.
-- **Tipo de transacción:** Aportación, retiro, préstamo, pago, etc.
-- **Montos en USD:** Valor de cada transacción durante el año fiscal.
-- **Método de transferencia:** Wire transfer, ACH, PayPal, etc.
+- **EIN de la LLC:** NÃºmero de identificaciÃ³n fiscal.
+- **Nombre y direcciÃ³n de la LLC.**
+- **Tu informaciÃ³n personal:** Nombre, direcciÃ³n en tu paÃ­s, paÃ­s de residencia fiscal.
+- **Tipo de transacciÃ³n:** AportaciÃ³n, retiro, prÃ©stamo, pago, etc.
+- **Montos en USD:** Valor de cada transacciÃ³n durante el aÃ±o fiscal.
+- **MÃ©todo de transferencia:** Wire transfer, ACH, PayPal, etc.
 
 ### Paso 2: Descarga el formulario
 
-Descarga el Formulario 5472 más reciente desde IRS.gov. También necesitarás el Formulario 1120 (pro-forma).
+Descarga el Formulario 5472 mÃ¡s reciente desde IRS.gov. TambiÃ©n necesitarÃ¡s el Formulario 1120 (pro-forma).
 
 ### Paso 3: Completa las partes del formulario
 
 El Formulario 5472 tiene varias partes:
 
-- **Parte I:** Información de la LLC (nombre, EIN, dirección)
-- **Parte II:** Información del dueño extranjero (nombre, dirección, país)
-- **Parte III:** Tipo de transacciones reportables (códigos de transacción)
-- **Parte IV:** Montos monetarios de cada transacción
-- **Parte V:** Información adicional si aplica
-### Paso 4: Determina los códigos de transacción
+- **Parte I:** InformaciÃ³n de la LLC (nombre, EIN, direcciÃ³n)
+- **Parte II:** InformaciÃ³n del dueÃ±o extranjero (nombre, direcciÃ³n, paÃ­s)
+- **Parte III:** Tipo de transacciones reportables (cÃ³digos de transacciÃ³n)
+- **Parte IV:** Montos monetarios de cada transacciÃ³n
+- **Parte V:** InformaciÃ³n adicional si aplica
+### Paso 4: Determina los cÃ³digos de transacciÃ³n
 
-El IRS asigna códigos específicos para cada tipo de transacción:
+El IRS asigna cÃ³digos especÃ­ficos para cada tipo de transacciÃ³n:
 
 - **01:** Ventas de bienes muebles
 - **02:** Ventas de bienes inmuebles
@@ -103,134 +103,134 @@ El IRS asigna códigos específicos para cada tipo de transacción:
 - **06:** Servicios prestados
 - **07:** Servicios recibidos
 - **08:** Comisiones
-- **09:** Regalías
+- **09:** RegalÃ­as
 - **10:** Reembolsos
 - **11:** Seguros
 - **12:** Otros montos (uso general)
-Para la mayoría de LLCs de dueño único, el código más común es **12** (Other amounts), que cubre aportaciones de capital y retiros.
+Para la mayorÃ­a de LLCs de dueÃ±o Ãºnico, el cÃ³digo mÃ¡s comÃºn es **12** (Other amounts), que cubre aportaciones de capital y retiros.
 
 ### Paso 5: Prepara el Formulario 1120 pro-forma
 
-El 5472 debe presentarse **junto con el Formulario 1120**. Este 1120 es "pro-forma" porque la LLC no paga impuestos (es disregarded entity), pero sirve como vehículo para el 5472.
+El 5472 debe presentarse **junto con el Formulario 1120**. Este 1120 es "pro-forma" porque la LLC no paga impuestos (es disregarded entity), pero sirve como vehÃ­culo para el 5472.
 
 Secciones clave del 1120:
 
-- **Página 1:** Información básica de la LLC.
-- **Schedule E:** Información de la corporación.
+- **PÃ¡gina 1:** InformaciÃ³n bÃ¡sica de la LLC.
+- **Schedule E:** InformaciÃ³n de la corporaciÃ³n.
 - **Schedule K:** Otros datos.
 - **Anexo del 5472:** Se adhiere al final del 1120.
 
-### Paso 6: Revisa y envía
+### Paso 6: Revisa y envÃ­a
 
 Antes de enviar, verifica:
 
-- [ ] Todos los campos están completos.
-- [ ] Los montos están en USD.
-- [ ] Los códigos de transacción son correctos.
-- [ ] El 1120 está firmado (por un oficial de la LLC, que puedes ser tú).
-- [ ] El 5472 está firmado.
-- [ ] Envías todo al IRS en la dirección correcta.
+- [ ] Todos los campos estÃ¡n completos.
+- [ ] Los montos estÃ¡n en USD.
+- [ ] Los cÃ³digos de transacciÃ³n son correctos.
+- [ ] El 1120 estÃ¡ firmado (por un oficial de la LLC, que puedes ser tÃº).
+- [ ] El 5472 estÃ¡ firmado.
+- [ ] EnvÃ­as todo al IRS en la direcciÃ³n correcta.
 
 ## Errores comunes
 
-### Error 1: No presentar porque "la LLC no generó ingresos"
+### Error 1: No presentar porque "la LLC no generÃ³ ingresos"
 
-Aunque la LLC no haya tenido ingresos, si tú hiciste una aportación de capital (depositaste dinero para abrir la cuenta o pagar gastos de formación), eso es una transacción reportable.
+Aunque la LLC no haya tenido ingresos, si tÃº hiciste una aportaciÃ³n de capital (depositaste dinero para abrir la cuenta o pagar gastos de formaciÃ³n), eso es una transacciÃ³n reportable.
 
-### Error 2: Pensar que el contador local lo hará
+### Error 2: Pensar que el contador local lo harÃ¡
 
-Muchos contadores en Latinoamérica no conocen el Formulario 5472. Especifica que necesitas que un CPA con experiencia en fiscalidad estadounidense lo prepare.
+Muchos contadores en LatinoamÃ©rica no conocen el Formulario 5472. Especifica que necesitas que un CPA con experiencia en fiscalidad estadounidense lo prepare.
 
 ### Error 3: Usar datos inconsistentes
 
-El nombre de la LLC, EIN y dirección deben coincidir exactamente con los registros del IRS y el estado.
+El nombre de la LLC, EIN y direcciÃ³n deben coincidir exactamente con los registros del IRS y el estado.
 
 ### Error 4: No firmar el formulario
 
 El 5472 y el 1120 deben estar firmados. Un formulario sin firma es como no haberlo presentado.
 
-### Error 5: Perder la extensión
+### Error 5: Perder la extensiÃ³n
 
-Si no presentas el 7004 antes del 15 de abril, pierdes la extensión automática y la multa aplica desde el 16 de abril.
+Si no presentas el 7004 antes del 15 de abril, pierdes la extensiÃ³n automÃ¡tica y la multa aplica desde el 16 de abril.
 
-## ¿Necesitas un CPA?
+## Â¿Necesitas un CPA?
 
-El Formulario 5472 es complejo para quien no está familiarizado con el sistema fiscal estadounidense. Aunque puedes prepararlo tú mismo, los errores pueden ser costosos.
+El Formulario 5472 es complejo para quien no estÃ¡ familiarizado con el sistema fiscal estadounidense. Aunque puedes prepararlo tÃº mismo, los errores pueden ser costosos.
 
 ### Recomendaciones para elegir un CPA
 
-1. **Experiencia comprobada** con LLCs de dueños extranjeros.
-2. **Conocimiento del Formulario 5472** específicamente.
-3. **Disponibilidad** para responder preguntas durante el año.
-4. **Precio claro**: normalmente entre $200 y $500 por la preparación del 5472 + 1120 pro-forma.
+1. **Experiencia comprobada** con LLCs de dueÃ±os extranjeros.
+2. **Conocimiento del Formulario 5472** especÃ­ficamente.
+3. **Disponibilidad** para responder preguntas durante el aÃ±o.
+4. **Precio claro**: normalmente entre $200 y $500 por la preparaciÃ³n del 5472 + 1120 pro-forma.
 5. **Referencias** de otros emprendedores internacionales.
 
-## Caso práctico
+## Caso prÃ¡ctico
 
-**Situación:** Ana, diseñadora gráfica en Colombia, constituyó una LLC en Wyoming en 2023. Durante el año:
+**SituaciÃ³n:** Ana, diseÃ±adora grÃ¡fica en Colombia, constituyÃ³ una LLC en Wyoming en 2023. Durante el aÃ±o:
 
-1. Hizo una aportación inicial de $5,000 para abrir la cuenta bancaria.
-2. Transfirió $2,000 adicionales para gastos operativos.
-3. Retiró $1,500 para gastos personales.
-4. Pagó $500 del Annual Report desde su cuenta personal.
+1. Hizo una aportaciÃ³n inicial de $5,000 para abrir la cuenta bancaria.
+2. TransfiriÃ³ $2,000 adicionales para gastos operativos.
+3. RetirÃ³ $1,500 para gastos personales.
+4. PagÃ³ $500 del Annual Report desde su cuenta personal.
 
-**¿Debe presentar el Formulario 5472?**
+**Â¿Debe presentar el Formulario 5472?**
 
-Sí. Cada una de esas transacciones entre Ana (parte relacionada extranjera) y su LLC (parte relacionada estadounidense) es reportable.
+SÃ­. Cada una de esas transacciones entre Ana (parte relacionada extranjera) y su LLC (parte relacionada estadounidense) es reportable.
 
-**¿Qué código usar?**
+**Â¿QuÃ© cÃ³digo usar?**
 
-- Código 12 (Other amounts) para todas las transacciones.
+- CÃ³digo 12 (Other amounts) para todas las transacciones.
 - Describir cada una en la Parte IV.
 
-**¿Cuándo?**
+**Â¿CuÃ¡ndo?**
 
-Antes del 15 de abril de 2024 (o 15 de octubre si solicitó extensión).
+Antes del 15 de abril de 2024 (o 15 de octubre si solicitÃ³ extensiÃ³n).
 
 ## Preguntas frecuentes
 
-### ¿El Formulario 5472 significa que debo pagar impuestos en EE.UU.?
+### Â¿El Formulario 5472 significa que debo pagar impuestos en EE.UU.?
 
-No. El 5472 es una declaración **informativa**, no una declaración de impuestos sobre la renta. No pagas impuestos adicionales al presentarlo.
+No. El 5472 es una declaraciÃ³n **informativa**, no una declaraciÃ³n de impuestos sobre la renta. No pagas impuestos adicionales al presentarlo.
 
-### ¿Qué pasa si mi LLC no tuvo actividad?
+### Â¿QuÃ© pasa si mi LLC no tuvo actividad?
 
-Si no hubo transacciones entre el dueño y la LLC (no hiciste aportaciones ni retiros), no necesitas presentar el 5472. Sin embargo, es raro que una LLC no tenga al menos una transacción con su dueño.
+Si no hubo transacciones entre el dueÃ±o y la LLC (no hiciste aportaciones ni retiros), no necesitas presentar el 5472. Sin embargo, es raro que una LLC no tenga al menos una transacciÃ³n con su dueÃ±o.
 
-### ¿Puedo presentar el 5472 yo mismo?
+### Â¿Puedo presentar el 5472 yo mismo?
 
-Sí, puedes. Pero el formulario requiere adjuntarse al 1120, lo que añade complejidad. Muchos optan por contratar un CPA.
+SÃ­, puedes. Pero el formulario requiere adjuntarse al 1120, lo que aÃ±ade complejidad. Muchos optan por contratar un CPA.
 
-### ¿El 5472 aplica para multi-member LLCs?
+### Â¿El 5472 aplica para multi-member LLCs?
 
 No directamente. Las multi-member LLCs presentan el Formulario 1065 y tienen otras obligaciones. Sin embargo, pueden aplicar reglas similares bajo ciertas circunstancias.
 
-### ¿Qué pasa si no presenté en años anteriores?
+### Â¿QuÃ© pasa si no presentÃ© en aÃ±os anteriores?
 
-Debes presentar los años atrasados lo antes posible. El IRS tiene un programa de "delinquent filing" que puede reducir las multas si presentas voluntariamente.
+Debes presentar los aÃ±os atrasados lo antes posible. El IRS tiene un programa de "delinquent filing" que puede reducir las multas si presentas voluntariamente.
 
 ## Checklist anual
 
-- [ ] Reunir registros de todas las transacciones entre dueño y LLC.
+- [ ] Reunir registros de todas las transacciones entre dueÃ±o y LLC.
 - [ ] Calcular montos totales en USD.
-- [ ] Determinar códigos de transacción.
+- [ ] Determinar cÃ³digos de transacciÃ³n.
 - [ ] Preparar Formulario 1120 pro-forma.
 - [ ] Completar Formulario 5472.
 - [ ] Firmar ambos formularios.
 - [ ] Enviar al IRS antes del 15 de abril.
-- [ ] O presentar Formulario 7004 antes del 15 de abril para extensión al 15 de octubre.
+- [ ] O presentar Formulario 7004 antes del 15 de abril para extensiÃ³n al 15 de octubre.
 - [ ] Guardar copia de todo lo presentado.
 
-## Conclusión
+## ConclusiÃ³n
 
-El Formulario 5472 es una obligación seria que ningún propietario extranjero de LLC debe ignorar. La multa de $25,000 por año hace que valga la pena tomarlo en serio.
+El Formulario 5472 es una obligaciÃ³n seria que ningÃºn propietario extranjero de LLC debe ignorar. La multa de $25,000 por aÃ±o hace que valga la pena tomarlo en serio.
 
-La buena noticia es que, una que entiendes el proceso, es manejable. Y si trabajas con un CPA con experiencia, es un trámite más de tu negocio.
+La buena noticia es que, una que entiendes el proceso, es manejable. Y si trabajas con un CPA con experiencia, es un trÃ¡mite mÃ¡s de tu negocio.
 
-**No arriesgues tu LLC por no presentar un formulario.** Añade el 5472 a tu calendario anual de compliance.
+**No arriesgues tu LLC por no presentar un formulario.** AÃ±ade el 5472 a tu calendario anual de compliance.
 
-## ¿Necesitas ayuda con tu Formulario 5472?
+## Â¿Necesitas ayuda con tu Formulario 5472?
 
-En **Sotomayor Consulting International** te conectamos con CPAs especializados en fiscalidad de LLCs para propietarios extranjeros y te ayudamos a mantener tu compliance al día.
+En **Sotomayor Consulting International** te conectamos con CPAs especializados en fiscalidad de LLCs para propietarios extranjeros y te ayudamos a mantener tu compliance al dÃ­a.
 
-**Agende una asesoría gratuita** y asegúrate de estar al día con el IRS.
+**Agende una asesorÃ­a gratuita** y asegÃºrate de estar al dÃ­a con el IRS.

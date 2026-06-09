@@ -1,7 +1,7 @@
 ---
 title: "What to Review Before Investing in the US as a Foreigner: 2026 Guide"
 description: "What to review before investing in the US as a foreigner"
-cardImage: "@/images/insights/inversión-extranjera.png"
+cardImage: "@/images/insights/inversion-extranjera.png"
 cardImageAlt: "Pre-investment checklist for foreigners in the US: legal structure, taxes, financing, location, insurance, Stripe"
 ---
 

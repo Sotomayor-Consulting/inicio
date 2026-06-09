@@ -1,50 +1,50 @@
 ---
-title: "Cómo Facturar Internacionalmente: Guía Completa 2026"
-description: "Cómo facturar internacionalmente"
+title: "CÃ³mo Facturar Internacionalmente: GuÃ­a Completa 2026"
+description: "CÃ³mo facturar internacionalmente"
 cardImage: "@/images/insights/pagos-internacionales.png"
-cardImageAlt: "Factura internacional con dólares, euros y otros símbolos de moneda"
+cardImageAlt: "Factura internacional con dÃ³lares, euros y otros sÃ­mbolos de moneda"
 ---
 
-**Facturar internacionalmente** es el proceso de emitir facturas a clientes en el extranjero, cumpliendo con regulaciones fiscales de múltiples países. Una factura internacional bien emitida garantiza que cobres correctamente y evites problemas con autoridades fiscales.
+**Facturar internacionalmente** es el proceso de emitir facturas a clientes en el extranjero, cumpliendo con regulaciones fiscales de mÃºltiples paÃ­ses. Una factura internacional bien emitida garantiza que cobres correctamente y evites problemas con autoridades fiscales.
 
-En esta guía, explicamos **cómo facturar internacionalmente** en 2026: requisitos, plataformas, impuestos y mejores prácticas.
+En esta guÃ­a, explicamos **cÃ³mo facturar internacionalmente** en 2026: requisitos, plataformas, impuestos y mejores prÃ¡cticas.
 
-## 1. ¿Qué es una Factura Internacional?
+## 1. Â¿QuÃ© es una Factura Internacional?
 
-### Definición
+### DefiniciÃ³n
 
-Una factura internacional es un documento comercial emitido por un vendedor a un comprador en otro país, que detalla los productos o servicios vendidos, su valor, impuestos aplicables y condiciones de pago. Debe cumplir con las regulaciones fiscales tanto del país de origen como del destino.
+Una factura internacional es un documento comercial emitido por un vendedor a un comprador en otro paÃ­s, que detalla los productos o servicios vendidos, su valor, impuestos aplicables y condiciones de pago. Debe cumplir con las regulaciones fiscales tanto del paÃ­s de origen como del destino.
 
 ### Diferencias con Factura Nacional
 
-- **Idioma:** Idioma local -- Inglés generalmente + idioma local
+- **Idioma:** Idioma local -- InglÃ©s generalmente + idioma local
 - **Moneda:** Moneda local -- USD, EUR u otra moneda acordada
-- **Impuestos:** IVA/impuesto local -- Sin IVA (exportación) o IVA del país destino
-- **Regulación:** Leyes locales -- Leyes locales + tratados internacionales
-- **Incoterms:** No aplica -- Definir responsabilidad de envío
+- **Impuestos:** IVA/impuesto local -- Sin IVA (exportaciÃ³n) o IVA del paÃ­s destino
+- **RegulaciÃ³n:** Leyes locales -- Leyes locales + tratados internacionales
+- **Incoterms:** No aplica -- Definir responsabilidad de envÃ­o
 - **Datos fiscales:** RFC/NIT local -- RFC + VAT ID/EIN internacional
 ## 2. Requisitos Esenciales de una Factura Internacional
 
 ### Datos Obligatorios
 
-- **Número de factura:** Secuencial, único, formato definedo
-- **Fecha de emisión:** Día en que se emite la factura
-- **Datos del vendedor:** Nombre, dirección, número fiscal (EIN, VAT ID, RFC)
-- **Datos del comprador:** Nombre, dirección, número fiscal internacional
-- **Descripción:** Detalle de productos o servicios
+- **NÃºmero de factura:** Secuencial, Ãºnico, formato definedo
+- **Fecha de emisiÃ³n:** DÃ­a en que se emite la factura
+- **Datos del vendedor:** Nombre, direcciÃ³n, nÃºmero fiscal (EIN, VAT ID, RFC)
+- **Datos del comprador:** Nombre, direcciÃ³n, nÃºmero fiscal internacional
+- **DescripciÃ³n:** Detalle de productos o servicios
 - **Cantidad y precio:** Unidades, precio unitario, subtotal
-- **Moneda:** Código ISO de la moneda (USD, EUR, MXN, etc.)
+- **Moneda:** CÃ³digo ISO de la moneda (USD, EUR, MXN, etc.)
 - **Impuestos:** Desglose de impuestos aplicados
 - **Total:** Monto total a pagar
-- **Condiciones de pago:** Plazo, método, datos bancarios
-- **Incoterms:** Si aplica a venta de productos físicos
-### Información Adicional Recomendada
+- **Condiciones de pago:** Plazo, mÃ©todo, datos bancarios
+- **Incoterms:** Si aplica a venta de productos fÃ­sicos
+### InformaciÃ³n Adicional Recomendada
 
 - **Purchase Order (PO)** del comprador
-- **Número de contrato** si aplica
-- **País de origen** de los bienes
-- **HS Code** (código arancelario) para productos físicos
-- **Número de tracking** si aplica envío
+- **NÃºmero de contrato** si aplica
+- **PaÃ­s de origen** de los bienes
+- **HS Code** (cÃ³digo arancelario) para productos fÃ­sicos
+- **NÃºmero de tracking** si aplica envÃ­o
 
 ## 3. Plataformas para Facturar Internacionalmente
 
@@ -54,178 +54,178 @@ Una factura internacional es un documento comercial emitido por un vendedor a un
 - **Monedas:** 135+ monedas
 - **Pagos:** Tarjeta, ACH, transferencia, Apple Pay, Google Pay
 - **Impuestos:** Stripe Tax integrado
-- **Facturación recurrente:** Sí
-- **Personalización:** Marca blanca, plantillas
+- **FacturaciÃ³n recurrente:** SÃ­
+- **PersonalizaciÃ³n:** Marca blanca, plantillas
 ### PayPal Invoicing
 
-- **Precio:** 2.99% + $0.49 por transacción
+- **Precio:** 2.99% + $0.49 por transacciÃ³n
 - **Monedas:** 25+ monedas
 - **Pagos:** PayPal, tarjeta, saldo PayPal
-- **Impuestos:** Cálculo manual
-- **Facturación recurrente:** Sí (suscripciones)
-- **Personalización:** Plantillas básicas
+- **Impuestos:** CÃ¡lculo manual
+- **FacturaciÃ³n recurrente:** SÃ­ (suscripciones)
+- **PersonalizaciÃ³n:** Plantillas bÃ¡sicas
 ### FreshBooks
 
 - **Precio:** Desde $17/mes
-- **Monedas:** Múltiples
+- **Monedas:** MÃºltiples
 - **Pagos:** Tarjeta, ACH, transferencia
-- **Impuestos:** Configuración manual por cliente
-- **Facturación recurrente:** Sí
-- **Personalización:** Alta personalización
+- **Impuestos:** ConfiguraciÃ³n manual por cliente
+- **FacturaciÃ³n recurrente:** SÃ­
+- **PersonalizaciÃ³n:** Alta personalizaciÃ³n
 ### QuickBooks
 
 - **Precio:** Desde $30/mes
-- **Monedas:** Múltiples
+- **Monedas:** MÃºltiples
 - **Pagos:** Tarjeta, ACH, transferencia
-- **Impuestos:** Configuración automática por país
-- **Facturación recurrente:** Sí
-- **Personalización:** Alta, ideal para contabilidad
-## 4. Impuestos en Facturación Internacional
+- **Impuestos:** ConfiguraciÃ³n automÃ¡tica por paÃ­s
+- **FacturaciÃ³n recurrente:** SÃ­
+- **PersonalizaciÃ³n:** Alta, ideal para contabilidad
+## 4. Impuestos en FacturaciÃ³n Internacional
 
-### Exportación de Servicios
+### ExportaciÃ³n de Servicios
 
-- **México:** IVA 0% (exportación de servicios)
-- **Colombia:** IVA 0% (exportación de servicios)
-- **Chile:** IVA 0% (exportación de servicios)
-- **Argentina:** IVA 0% (exportación de servicios)
-- **Perú:** IGV 0% (exportación de servicios)
-- **España:** IVA 0% (B2B intracomunitario) o IVA del país destino
+- **MÃ©xico:** IVA 0% (exportaciÃ³n de servicios)
+- **Colombia:** IVA 0% (exportaciÃ³n de servicios)
+- **Chile:** IVA 0% (exportaciÃ³n de servicios)
+- **Argentina:** IVA 0% (exportaciÃ³n de servicios)
+- **PerÃº:** IGV 0% (exportaciÃ³n de servicios)
+- **EspaÃ±a:** IVA 0% (B2B intracomunitario) o IVA del paÃ­s destino
 - **EE. UU.:** No cobras sales tax en exportaciones
-> **Importante:** Para aplicar la tasa 0% de IVA en exportación de servicios, debes emitir la factura correctamente y conservar documentación que demuestre que el cliente está en el extranjero.
+> **Importante:** Para aplicar la tasa 0% de IVA en exportaciÃ³n de servicios, debes emitir la factura correctamente y conservar documentaciÃ³n que demuestre que el cliente estÃ¡ en el extranjero.
 
-### Regla General: Inversión del Sujeto Pasivo (Reverse Charge)
+### Regla General: InversiÃ³n del Sujeto Pasivo (Reverse Charge)
 
 En operaciones B2B internacionales, generalmente aplica el mecanismo de **reverse charge**:
 
-- **Tú (vendedor):** Emites factura sin IVA (0%), marcada como "Reverse Charge" o "Exportación"
-- **Cliente (comprador):** Debe auto-declarar y pagar el IVA en su país
+- **TÃº (vendedor):** Emites factura sin IVA (0%), marcada como "Reverse Charge" o "ExportaciÃ³n"
+- **Cliente (comprador):** Debe auto-declarar y pagar el IVA en su paÃ­s
 
-### Cuándo Cobrar IVA
+### CuÃ¡ndo Cobrar IVA
 
-- **B2B, exportación de servicios:** No (0%, reverse charge)
-- **B2C, venta a consumidor en UE:** Sí, IVA del país del cliente
-- **B2C, venta a consumidor fuera de tu país:** Depende del país y umbrales
-- **Productos físicos con envío:** Depende de Incoterms y aduana
+- **B2B, exportaciÃ³n de servicios:** No (0%, reverse charge)
+- **B2C, venta a consumidor en UE:** SÃ­, IVA del paÃ­s del cliente
+- **B2C, venta a consumidor fuera de tu paÃ­s:** Depende del paÃ­s y umbrales
+- **Productos fÃ­sicos con envÃ­o:** Depende de Incoterms y aduana
 ## 5. Monedas y Tipo de Cambio
 
-### ¿En Qué Moneda Facturar?
+### Â¿En QuÃ© Moneda Facturar?
 
-- **USD:** Estándar global, ideal para clientes en América, Asia, África
+- **USD:** EstÃ¡ndar global, ideal para clientes en AmÃ©rica, Asia, Ãfrica
 - **EUR:** Ideal para clientes en Europa
 - **GBP:** Ideal para clientes en Reino Unido
 - **Moneda local del cliente:** Mejor experiencia para el cliente
 ### Tipo de Cambio
 
 - **Tipo de cambio fijo:** Acuerdas un tipo con tu cliente y lo usas en la factura
-- **Tipo de cambio del día:** Usas el tipo de cambio oficial del día de emisión
-- **Stripe automatic:** Stripe convierte automáticamente al recibir el pago
+- **Tipo de cambio del dÃ­a:** Usas el tipo de cambio oficial del dÃ­a de emisiÃ³n
+- **Stripe automatic:** Stripe convierte automÃ¡ticamente al recibir el pago
 ### Recomendaciones
 
 - Incluye siempre el tipo de cambio usado si facturas en moneda diferente a la tuya
-- Define claramente quién asume el costo de la conversión
+- Define claramente quiÃ©n asume el costo de la conversiÃ³n
 - Usa servicios como Xe.com, OANDA o la API de Stripe para tipos actualizados
 
-## 6. Incoterms para Facturación Internacional
+## 6. Incoterms para FacturaciÃ³n Internacional
 
 ### Principales Incoterms 2026
 
-- **EXW:** En fábrica -- Comprador -- Comprador
+- **EXW:** En fÃ¡brica -- Comprador -- Comprador
 - **FOB:** Libre a bordo -- Vendedor hasta el puerto -- Comprador en adelante
 - **CIF:** Costo, seguro y flete -- Vendedor -- Vendedor hasta destino
 - **DAP:** Entregado en lugar -- Vendedor -- Vendedor hasta destino
 - **DDP:** Entregado con derechos pagados -- Vendedor (incluye aduana) -- Vendedor
-> El Incoterm elegido afecta el valor facturado y quién paga los costos de importación. Siempre defínelo por escrito con tu cliente.
+> El Incoterm elegido afecta el valor facturado y quiÃ©n paga los costos de importaciÃ³n. Siempre defÃ­nelo por escrito con tu cliente.
 
 ## 7. Regulaciones y Cumplimiento
 
 ### FATCA y CRS
 
 - **FATCA** (EE. UU.):** Cuentas de clientes estadounidenses -- Reportar cuentas al IRS
-- **CRS** (Common Reporting Standard):** Clientes en países OCDE -- Reportar información fiscal automáticamente
-### GDPR y Protección de Datos
+- **CRS** (Common Reporting Standard):** Clientes en paÃ­ses OCDE -- Reportar informaciÃ³n fiscal automÃ¡ticamente
+### GDPR y ProtecciÃ³n de Datos
 
-Si facturas a clientes en la Unión Europea, debes cumplir con GDPR:
+Si facturas a clientes en la UniÃ³n Europea, debes cumplir con GDPR:
 - Almacenar datos fiscales de forma segura
-- No retener datos más tiempo del necesario
+- No retener datos mÃ¡s tiempo del necesario
 - Informar al cliente sobre el uso de sus datos
 
 ### Regulaciones Antilavado (AML)
 
 - Verifica la identidad de tus clientes internacionales (KYC)
 - Reporta transacciones sospechosas
-- Mantén registros por al menos 5 años
+- MantÃ©n registros por al menos 5 aÃ±os
 
-## 8. Métodos de Pago Internacionales
+## 8. MÃ©todos de Pago Internacionales
 
-- **Transferencia bancaria (SWIFT):** 1-5 días -- $25-$50 -- Global
-- **Stripe / PayPal:** Instantáneo -- 2.9% + $0.30 -- 135+ países
-- **Wise (TransferWise):** 1-2 días -- 0.4%-1% -- 70+ países
-- **Criptomonedas:** Instantáneo -- Variable -- Global
-- **Cheque internacional:** 7-14 días -- $10-$30 -- Limitada
-> Recomendación: Usa Stripe o PayPal para montos pequeños/medianos y transferencia SWIFT para montos grandes.
+- **Transferencia bancaria (SWIFT):** 1-5 dÃ­as -- $25-$50 -- Global
+- **Stripe / PayPal:** InstantÃ¡neo -- 2.9% + $0.30 -- 135+ paÃ­ses
+- **Wise (TransferWise):** 1-2 dÃ­as -- 0.4%-1% -- 70+ paÃ­ses
+- **Criptomonedas:** InstantÃ¡neo -- Variable -- Global
+- **Cheque internacional:** 7-14 dÃ­as -- $10-$30 -- Limitada
+> RecomendaciÃ³n: Usa Stripe o PayPal para montos pequeÃ±os/medianos y transferencia SWIFT para montos grandes.
 
-## 9. Facturación Recurrente Internacional
+## 9. FacturaciÃ³n Recurrente Internacional
 
 ### Suscripciones Globales
 
 - **Plataforma:** Stripe Billing
 - **Moneda:** USD o EUR (estables)
 - **Impuestos:** Stripe Tax integrado
-- **Precios por país:** Precios localizados (opcional)
-- **Facturación:** Automática, email al cliente
+- **Precios por paÃ­s:** Precios localizados (opcional)
+- **FacturaciÃ³n:** AutomÃ¡tica, email al cliente
 - **Dunning:** Stripe maneja reintentos
-### Ejemplo: Suscripción SaaS Internacional
+### Ejemplo: SuscripciÃ³n SaaS Internacional
 
 ## 10. Preguntas Frecuentes
 
-### ¿Necesito un número fiscal especial para facturar internacionalmente?
+### Â¿Necesito un nÃºmero fiscal especial para facturar internacionalmente?
 
-Sí. Necesitas un número fiscal válido en tu país (RFC, EIN, VAT ID, RUT, etc.). Para facturar a la UE, un VAT ID es esencial.
+SÃ­. Necesitas un nÃºmero fiscal vÃ¡lido en tu paÃ­s (RFC, EIN, VAT ID, RUT, etc.). Para facturar a la UE, un VAT ID es esencial.
 
-### ¿Puedo facturar en cualquier moneda?
+### Â¿Puedo facturar en cualquier moneda?
 
-Sí, siempre que ambas partes estén de acuerdo. Las más comunes son USD y EUR.
+SÃ­, siempre que ambas partes estÃ©n de acuerdo. Las mÃ¡s comunes son USD y EUR.
 
-### ¿Cómo cobro si el cliente está en un país con restricciones cambiarias?
+### Â¿CÃ³mo cobro si el cliente estÃ¡ en un paÃ­s con restricciones cambiarias?
 
-Usa Stripe o PayPal que manejan la conversión automáticamente. Para montos grandes, considera cuentas bancarias en USD o EUR.
+Usa Stripe o PayPal que manejan la conversiÃ³n automÃ¡ticamente. Para montos grandes, considera cuentas bancarias en USD o EUR.
 
-### ¿Qué pasa si no pago impuestos en el país del cliente?
+### Â¿QuÃ© pasa si no pago impuestos en el paÃ­s del cliente?
 
-Depende del país. Algunos exigen registro local si superas ciertos umbrales de ventas. Consulta con un contador internacional.
+Depende del paÃ­s. Algunos exigen registro local si superas ciertos umbrales de ventas. Consulta con un contador internacional.
 
-### ¿Es obligatorio usar Incoterms?
+### Â¿Es obligatorio usar Incoterms?
 
-Solo para productos físicos. Para servicios digitales, no aplican.
+Solo para productos fÃ­sicos. Para servicios digitales, no aplican.
 
-### ¿Cómo manejo disputas internacionales?
+### Â¿CÃ³mo manejo disputas internacionales?
 
-Incluye una cláusula de arbitraje en tus contratos. Define la jurisdicción aplicable.
+Incluye una clÃ¡usula de arbitraje en tus contratos. Define la jurisdicciÃ³n aplicable.
 
-## 11. Paso a Paso Rápido
+## 11. Paso a Paso RÃ¡pido
 
 ### Resumen en 5 Pasos
 
-- **1:** Obtén un número fiscal válido (EIN, VAT ID, RFC) -- 1-4 semanas
-- **2:** Elige una plataforma de facturación (Stripe, FreshBooks, QuickBooks) -- 1 día
-- **3:** Configura tus plantillas de factura internacional -- 1-2 días
-- **4:** Define tus políticas de moneda, pago e Incoterms -- 1 día
+- **1:** ObtÃ©n un nÃºmero fiscal vÃ¡lido (EIN, VAT ID, RFC) -- 1-4 semanas
+- **2:** Elige una plataforma de facturaciÃ³n (Stripe, FreshBooks, QuickBooks) -- 1 dÃ­a
+- **3:** Configura tus plantillas de factura internacional -- 1-2 dÃ­as
+- **4:** Define tus polÃ­ticas de moneda, pago e Incoterms -- 1 dÃ­a
 - **5:** Emite tu primera factura internacional -- 30 min
-### Checklist de Configuración
+### Checklist de ConfiguraciÃ³n
 
-- [ ] Número fiscal internacional obtenido
-- [ ] Plataforma de facturación configurada
+- [ ] NÃºmero fiscal internacional obtenido
+- [ ] Plataforma de facturaciÃ³n configurada
 - [ ] Plantilla de factura lista (con todos los campos obligatorios)
-- [ ] Política de moneda definida
-- [ ] Método de cobro internacional configurado
+- [ ] PolÃ­tica de moneda definida
+- [ ] MÃ©todo de cobro internacional configurado
 - [ ] Incoterms definidos (si aplica)
-- [ ] Cláusulas contractuales listas
+- [ ] ClÃ¡usulas contractuales listas
 - [ ] Contador internacional consultado
 
-## Conclusión
+## ConclusiÃ³n
 
-**Facturar internacionalmente** abre las puertas a clientes globales, pero requiere cumplir con regulaciones fiscales, elegir la plataforma correcta y definir políticas claras de moneda, pago e impuestos.
+**Facturar internacionalmente** abre las puertas a clientes globales, pero requiere cumplir con regulaciones fiscales, elegir la plataforma correcta y definir polÃ­ticas claras de moneda, pago e impuestos.
 
-Con Stripe Invoicing, PayPal, FreshBooks o QuickBooks, puedes emitir facturas profesionales en múltiples monedas y cobrar internacionalmente sin complicaciones. La clave está en la preparación: número fiscal, plantillas y conocimiento de las reglas de cada país.
+Con Stripe Invoicing, PayPal, FreshBooks o QuickBooks, puedes emitir facturas profesionales en mÃºltiples monedas y cobrar internacionalmente sin complicaciones. La clave estÃ¡ en la preparaciÃ³n: nÃºmero fiscal, plantillas y conocimiento de las reglas de cada paÃ­s.
 
-En **Sotomayor Consulting International**, te ayudamos a estructurar tu facturación internacional, incluyendo la creación de empresas en EE. UU., registro de VAT ID europeo y configuración de Stripe para facturación global. Contáctanos para una consultoría personalizada.
+En **Sotomayor Consulting International**, te ayudamos a estructurar tu facturaciÃ³n internacional, incluyendo la creaciÃ³n de empresas en EE. UU., registro de VAT ID europeo y configuraciÃ³n de Stripe para facturaciÃ³n global. ContÃ¡ctanos para una consultorÃ­a personalizada.

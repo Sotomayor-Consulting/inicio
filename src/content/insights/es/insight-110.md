@@ -1,61 +1,61 @@
 ---
-title: "Cómo implementar procesos escalables: Guía 2026"
+title: "CÃ³mo implementar procesos escalables: GuÃ­a 2026"
 description: "Construye procesos que escalen con tu negocio"
-cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"
-cardImageAlt: "Marco de procesos escalables mostrando flujos estandarizados, capas de automatización, estructura de equipo, integración Odoo y operaciones de pago Stripe"
+cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
+cardImageAlt: "Marco de procesos escalables mostrando flujos estandarizados, capas de automatizaciÃ³n, estructura de equipo, integraciÃ³n Odoo y operaciones de pago Stripe"
 ---
 
-**Los procesos escalables son la base del crecimiento empresarial sostenible.** Sin ellos, cada nuevo cliente, empleado o mercado añade complejidad en lugar de capacidad. Con ellos, tu negocio puede crecer 10x sin necesitar 10x el personal.
+**Los procesos escalables son la base del crecimiento empresarial sostenible.** Sin ellos, cada nuevo cliente, empleado o mercado aÃ±ade complejidad en lugar de capacidad. Con ellos, tu negocio puede crecer 10x sin necesitar 10x el personal.
 
-Un proceso escalable es aquel que maneja un volumen mayor sin un aumento proporcional en costo, tiempo o errores. Está documentado, automatizado, es medible y está diseñado para replicarse.
+Un proceso escalable es aquel que maneja un volumen mayor sin un aumento proporcional en costo, tiempo o errores. EstÃ¡ documentado, automatizado, es medible y estÃ¡ diseÃ±ado para replicarse.
 
-En esta guía cubrimos **cómo implementar procesos escalables en 2026**: principios de diseño de procesos, estándares de documentación, automatización de flujos, Odoo para escala operativa, Stripe para escalabilidad de pagos, modelos operativos de equipo y cómo medir la eficiencia de procesos.
+En esta guÃ­a cubrimos **cÃ³mo implementar procesos escalables en 2026**: principios de diseÃ±o de procesos, estÃ¡ndares de documentaciÃ³n, automatizaciÃ³n de flujos, Odoo para escala operativa, Stripe para escalabilidad de pagos, modelos operativos de equipo y cÃ³mo medir la eficiencia de procesos.
 
-## 1. Qué hace que un proceso sea escalable
+## 1. QuÃ© hace que un proceso sea escalable
 
 ### Los cinco pilares de los procesos escalables
 
-- **Estandarizado:** Documentado paso a paso, mismo resultado cada vez -- Elimina variación y retrabajo
-- **Automatizado:** La tecnología maneja pasos repetitivos y basados en reglas -- Reduce costo laboral y tasa de error
-- **Medible:** Métricas clave rastreadas en tiempo real -- Permite optimización basada en datos
-- **Replicable:** Puede enseñarse y delegarse -- Permite crecimiento sin cuello de botella del fundador
-- **Resiliente:** Maneja excepciones y casos borde -- Mantiene calidad bajo presión
+- **Estandarizado:** Documentado paso a paso, mismo resultado cada vez -- Elimina variaciÃ³n y retrabajo
+- **Automatizado:** La tecnologÃ­a maneja pasos repetitivos y basados en reglas -- Reduce costo laboral y tasa de error
+- **Medible:** MÃ©tricas clave rastreadas en tiempo real -- Permite optimizaciÃ³n basada en datos
+- **Replicable:** Puede enseÃ±arse y delegarse -- Permite crecimiento sin cuello de botella del fundador
+- **Resiliente:** Maneja excepciones y casos borde -- Mantiene calidad bajo presiÃ³n
 ### Procesos escalables vs no escalables
 
-- **Documentación:** Conocimiento tribal ("pregúntale a Juan") -- POE escrito + video tutorial
-- **Automatización:** 0-10% -- 70-90%
+- **DocumentaciÃ³n:** Conocimiento tribal ("pregÃºntale a Juan") -- POE escrito + video tutorial
+- **AutomatizaciÃ³n:** 0-10% -- 70-90%
 - **Tasa de error:** Aumenta con el volumen -- Estable independientemente del volumen
-- **Tiempo de capacitación:** 3-6 meses -- 1-2 semanas
+- **Tiempo de capacitaciÃ³n:** 3-6 meses -- 1-2 semanas
 - **Costo por unidad:** Aumenta -- Disminuye
-- **Tiempo de procesamiento:** Crecimiento lineal -- Crecimiento logarítmico
-- **Control de calidad:** Revisión manual -- Automatizado validation
+- **Tiempo de procesamiento:** Crecimiento lineal -- Crecimiento logarÃ­tmico
+- **Control de calidad:** RevisiÃ³n manual -- Automatizado validation
 - **Manejo de excepciones:** Ad-hoc -- Manuales predefinidos
-- **Stack tecnológico:** Hojas de cálculo + email -- ERP + automatización + integraciones
-### La ecuación de escalabilidad
+- **Stack tecnolÃ³gico:** Hojas de cÃ¡lculo + email -- ERP + automatizaciÃ³n + integraciones
+### La ecuaciÃ³n de escalabilidad
 
-## 2. Principios de diseño de procesos
+## 2. Principios de diseÃ±o de procesos
 
-### Diseña para escalar desde el día uno
+### DiseÃ±a para escalar desde el dÃ­a uno
 
-### Estándares de documentación de procesos
+### EstÃ¡ndares de documentaciÃ³n de procesos
 
 ### Construyendo un plano de proceso
 
-## 3. Automatización de flujos para escalar
+## 3. AutomatizaciÃ³n de flujos para escalar
 
-### Capas de automatización
+### Capas de automatizaciÃ³n
 
-### Catálogo de patrones de automatización
+### CatÃ¡logo de patrones de automatizaciÃ³n
 
-- **Disparador-Acción:** Un evento dispara una acción -- Envío de formulario ? Crear lead en CRM -- Zapier
+- **Disparador-AcciÃ³n:** Un evento dispara una acciÃ³n -- EnvÃ­o de formulario ? Crear lead en CRM -- Zapier
 - **Pipeline:** Pasos secuenciales, cada uno alimenta al siguiente -- Factura ? Aprobar ? Pagar ? Conciliar -- n8n, Make
-- **Abánico:** Un evento dispara múltiples acciones paralelas -- Order placed ? Update inventory + notify warehouse + send receipt -- Odoo, Make
-- **Agregador:** Múltiples entradas se combinan en una salida -- Ventas diarias ? Calcular ? Enviar reporte -- n8n, Python
-- **Máquina de estados:** Proceso con estados y transiciones -- Pedido: Pendiente ? Pagado ? Enviado ? Entregado -- Odoo, AWS Step Functions
-- **Cadena de aprobación:** Aprobación multinivel con condiciones -- Expense: <$100 auto-approve, $100-$1000 manager, >$1000 director -- Odoo, Power Automate
-- **Reintento con retroceso:** Operación fallida reintenta con demoras crecientes -- Pago fallido ? Reintentar en 1h, 6h, 24h ? Escalar -- Stripe, Celery
-- **Cola de mensajes fallidos:** Elementos fallidos almacenados para revisión manual -- Procesamiento de documento fallido ? Mover a cola de revisión -- AWS SQS, Odoo
-### Motor de orquestación
+- **AbÃ¡nico:** Un evento dispara mÃºltiples acciones paralelas -- Order placed ? Update inventory + notify warehouse + send receipt -- Odoo, Make
+- **Agregador:** MÃºltiples entradas se combinan en una salida -- Ventas diarias ? Calcular ? Enviar reporte -- n8n, Python
+- **MÃ¡quina de estados:** Proceso con estados y transiciones -- Pedido: Pendiente ? Pagado ? Enviado ? Entregado -- Odoo, AWS Step Functions
+- **Cadena de aprobaciÃ³n:** AprobaciÃ³n multinivel con condiciones -- Expense: <$100 auto-approve, $100-$1000 manager, >$1000 director -- Odoo, Power Automate
+- **Reintento con retroceso:** OperaciÃ³n fallida reintenta con demoras crecientes -- Pago fallido ? Reintentar en 1h, 6h, 24h ? Escalar -- Stripe, Celery
+- **Cola de mensajes fallidos:** Elementos fallidos almacenados para revisiÃ³n manual -- Procesamiento de documento fallido ? Mover a cola de revisiÃ³n -- AWS SQS, Odoo
+### Motor de orquestaciÃ³n
 
 ## 4. Odoo para operaciones escalables
 
@@ -79,37 +79,37 @@ En esta guía cubrimos **cómo implementar procesos escalables en 2026**: principi
 
 ## 7. Midiendo la escalabilidad de procesos
 
-### Métricas clave de escalabilidad
+### MÃ©tricas clave de escalabilidad
 
 - **Costo por unidad:** Costo total del proceso / unidades procesadas -- Decreciente en el tiempo -- Costeo Odoo + seguimiento de tiempo
-- **Processing Time:** Tiempo de ciclo integral -- < 1 hora para procesos estándar -- Seguimiento de timestamp en Odoo
-- **Automatización Rate:** % de pasos automatizados -- > 70% -- Análisis de plano de proceso
+- **Processing Time:** Tiempo de ciclo integral -- < 1 hora para procesos estÃ¡ndar -- Seguimiento de timestamp en Odoo
+- **AutomatizaciÃ³n Rate:** % de pasos automatizados -- > 70% -- AnÃ¡lisis de plano de proceso
 - **Error Rate:** % de ciclos con errores -- < 1% -- Registro de excepciones
 - **Rendimiento a la primera:** % de ciclos completados sin retrabajo -- > 95% -- Datos de puntos de control de calidad
-- **Margen de capacidad:** Volumen actual / capacidad máxima -- < 70% -- Análisis de rendimiento de proceso
-- **NPS del empleado:** Satisfacción del operador con el proceso -- > 50 -- Encuestas trimestrales
-- **Tiempo de capacitación:** Tiempo para lograr competencia -- < 2 semanas -- Seguimiento de onboarding
-- **Tasa de excepción:** % de ciclos que necesitan manejo de excepción -- < 5% -- Registro de excepciones
+- **Margen de capacidad:** Volumen actual / capacidad mÃ¡xima -- < 70% -- AnÃ¡lisis de rendimiento de proceso
+- **NPS del empleado:** SatisfacciÃ³n del operador con el proceso -- > 50 -- Encuestas trimestrales
+- **Tiempo de capacitaciÃ³n:** Tiempo para lograr competencia -- < 2 semanas -- Seguimiento de onboarding
+- **Tasa de excepciÃ³n:** % de ciclos que necesitan manejo de excepciÃ³n -- < 5% -- Registro de excepciones
 - **Elasticidad de escala:** Aumento de costo por cada 2x volumen -- < 20% -- Seguimiento de costos a escala
 ### Dashboard de escalabilidad
 
-## 8. Hoja de ruta de implementación
+## 8. Hoja de ruta de implementaciÃ³n
 
 ### Despliegue de escalabilidad por fases
 
-## Conclusión
+## ConclusiÃ³n
 
-**Implementar procesos escalables es la inversión más importante para el crecimiento sostenible.** Sin procesos escalables, el crecimiento crea caos. Con ellos, el crecimiento crea impulso.
+**Implementar procesos escalables es la inversiÃ³n mÃ¡s importante para el crecimiento sostenible.** Sin procesos escalables, el crecimiento crea caos. Con ellos, el crecimiento crea impulso.
 
 Los principios clave para la escalabilidad de procesos:
 
-- **Diseña antes de automatizar** — un proceso malo automatizado sigue siendo un proceso malo
-- **Mide todo** — lo que se mide se mejora
-- **Automatiza en capas** — empieza simple, añade inteligencia con el tiempo
-- **Integra de principio a fin** — conecta Odoo, Stripe y tus herramientas en un solo flujo
-- **Dueño del proceso** — cada proceso necesita un dueño responsable
-- **Itera sin descanso** — la escalabilidad es un viaje de mejora continua
+- **DiseÃ±a antes de automatizar** Â— un proceso malo automatizado sigue siendo un proceso malo
+- **Mide todo** Â— lo que se mide se mejora
+- **Automatiza en capas** Â— empieza simple, aÃ±ade inteligencia con el tiempo
+- **Integra de principio a fin** Â— conecta Odoo, Stripe y tus herramientas en un solo flujo
+- **DueÃ±o del proceso** Â— cada proceso necesita un dueÃ±o responsable
+- **Itera sin descanso** Â— la escalabilidad es un viaje de mejora continua
 
-**Los procesos escalables son el sistema operativo de tu negocio.** Cuando cada proceso está documentado, automatizado, medido y es propiedad de alguien, tu negocio puede crecer sin romperse.
+**Los procesos escalables son el sistema operativo de tu negocio.** Cuando cada proceso estÃ¡ documentado, automatizado, medido y es propiedad de alguien, tu negocio puede crecer sin romperse.
 
-En **Sotomayor Consulting International**, ayudamos a empresas a implementar procesos escalables: desde auditorías de procesos y diseño de planos hasta automatización Odoo ERP, integración de pagos Stripe y modelos operativos de equipo. Contáctanos para una consulta personalizada.
+En **Sotomayor Consulting International**, ayudamos a empresas a implementar procesos escalables: desde auditorÃ­as de procesos y diseÃ±o de planos hasta automatizaciÃ³n Odoo ERP, integraciÃ³n de pagos Stripe y modelos operativos de equipo. ContÃ¡ctanos para una consulta personalizada.

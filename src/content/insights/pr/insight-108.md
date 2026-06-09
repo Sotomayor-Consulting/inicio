@@ -1,7 +1,7 @@
 ---
 title: "Como automatizar o acompanhamento de leads: Guia 2026"
 description: "Automatize o acompanhamento de leads"
-cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"
+cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
 cardImageAlt: "Dashboard de automação de acompanhamento de leads mostrando pontuação, sequências automatizadas, pipeline de CRM e análises"
 ---
 

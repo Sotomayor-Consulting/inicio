@@ -1,32 +1,32 @@
 ---
-title: "Cómo integrar Stripe con automatizaciones: Guía 2026"
-description: "Integración de automatización con Stripe"
+title: "CÃ³mo integrar Stripe con automatizaciones: GuÃ­a 2026"
+description: "IntegraciÃ³n de automatizaciÃ³n con Stripe"
 cardImage: "@/images/insights/stripe.png"
-cardImageAlt: "Diagrama de automatización Stripe mostrando webhooks conectando CRM, email, facturación, inventario y sistemas de analítica"
+cardImageAlt: "Diagrama de automatizaciÃ³n Stripe mostrando webhooks conectando CRM, email, facturaciÃ³n, inventario y sistemas de analÃ­tica"
 ---
 
-**Stripe no es solo un procesador de pagos — it's the central nervous system for business automation.** By integrating Stripe with your CRM, email marketing, accounting, inventory, and support systems, you can automate your entire revenue cycle from lead to payment to fulfillment.
+**Stripe no es solo un procesador de pagos Â— it's the central nervous system for business automation.** By integrating Stripe with your CRM, email marketing, accounting, inventory, and support systems, you can automate your entire revenue cycle from lead to payment to fulfillment.
 
-En esta guía, cubrimos **cómo integrar Stripe con cada automatización empresarial importante**, incluyendo webhooks para flujo de datos en tiempo real, sincronización Stripe + CRM, facturación automatizada, gestión de suscripciones, campañas de email vinculadas a pagos y automatización de pagos transfronterizos.
+En esta guÃ­a, cubrimos **cÃ³mo integrar Stripe con cada automatizaciÃ³n empresarial importante**, incluyendo webhooks para flujo de datos en tiempo real, sincronizaciÃ³n Stripe + CRM, facturaciÃ³n automatizada, gestiÃ³n de suscripciones, campaÃ±as de email vinculadas a pagos y automatizaciÃ³n de pagos transfronterizos.
 
-## 1. El ecosistema de automatización de Stripe
+## 1. El ecosistema de automatizaciÃ³n de Stripe
 
-### Por qué Stripe es el centro de la automatización empresarial
+### Por quÃ© Stripe es el centro de la automatizaciÃ³n empresarial
 
 - **CRM:** Actualizaciones manuales de etapa -- Auto-cierre de negocios al pagar
-- **Email Marketing:** Campañas genéricas -- Emails conductuales basados en pagos
-- **Facturación:** Creación manual de facturas -- Auto-generar + enviar al vender
-- **Contabilidad:** Conciliación manual -- Auto-sincronización de transacciones
+- **Email Marketing:** CampaÃ±as genÃ©ricas -- Emails conductuales basados en pagos
+- **FacturaciÃ³n:** CreaciÃ³n manual de facturas -- Auto-generar + enviar al vender
+- **Contabilidad:** ConciliaciÃ³n manual -- Auto-sincronizaciÃ³n de transacciones
 - **Inventario:** Actualizaciones manuales de stock -- Auto-descontar al comprar
 - **Soporte:** Clientes describen su problema -- Auto-extraer detalles del pedido/pago
-- **Analítica:** Datos desconectados -- Datos de ingresos unificados
+- **AnalÃ­tica:** Datos desconectados -- Datos de ingresos unificados
 ### The Stripe Automation Stack
 
-## 2. Webhooks de Stripe: La base de la automatización
+## 2. Webhooks de Stripe: La base de la automatizaciÃ³n
 
-### ¿Qué son los webhooks de Stripe?
+### Â¿QuÃ© son los webhooks de Stripe?
 
-Webhooks are Stripe's way of notifying your systems when events happen — a payment succeeds, a subscription renews, an invoice is paid, or a charge is refunded. They are the foundation for all Stripe integrations.
+Webhooks are Stripe's way of notifying your systems when events happen Â— a payment succeeds, a subscription renews, an invoice is paid, or a charge is refunded. They are the foundation for all Stripe integrations.
 
 ### Eventos esenciales de webhook de Stripe
 
@@ -40,9 +40,9 @@ Webhooks are Stripe's way of notifying your systems when events happen — a payme
 - **`payment_intent.payment_failed`:** Payment fails -- Retry payment, notify customer
 - **`charge.dispute.created`:** Customer disputes a charge -- Notify support team, gather evidence
 - **`account.updated`:** Stripe account settings change -- Sync capabilities, update routing
-## 3. Integración Stripe + CRM
+## 3. IntegraciÃ³n Stripe + CRM
 
-### Por qué conectar Stripe a tu CRM
+### Por quÃ© conectar Stripe a tu CRM
 
 - **Deal Status:** Manually move to closed-won -- Auto-close when payment succeeds
 - **Revenue Attribution:** Manual entry -- Auto-attributed from Stripe
@@ -52,9 +52,9 @@ Webhooks are Stripe's way of notifying your systems when events happen — a payme
 - **Churn Alerts:** Customer tells you -- Stripe subscription status
 ### Stripe-CRM Integration Flow
 
-## 4. Automatización Stripe + Email Marketing
+## 4. AutomatizaciÃ³n Stripe + Email Marketing
 
-### Por qué conectar Stripe al email
+### Por quÃ© conectar Stripe al email
 
 - **Payment Receipt:** Manual or generic -- Auto-send with personalized details
 - **Failed Payment:** Customer notices first -- Auto-send with retry link
@@ -64,9 +64,9 @@ Webhooks are Stripe's way of notifying your systems when events happen — a payme
 - **Upsell Campaign:** Guess what to offer -- Based on actual purchase history
 ### Stripe-Triggered Email Sequences
 
-## 5. Automatización Stripe + Facturación
+## 5. AutomatizaciÃ³n Stripe + FacturaciÃ³n
 
-### Por qué automatizar la facturación con Stripe
+### Por quÃ© automatizar la facturaciÃ³n con Stripe
 
 - **15-30 min per invoice:** 0 min (fully automated)
 - **Send via email manually:** Auto-send via email + SMS
@@ -75,13 +75,13 @@ Webhooks are Stripe's way of notifying your systems when events happen — a payme
 - **Error-prone (wrong amounts):** Accurate (from price records)
 ### Stripe Invoicing Automation Flow
 
-## 6. Automatización Stripe + Suscripciones
+## 6. AutomatizaciÃ³n Stripe + Suscripciones
 
-### Automatización del ciclo de vida de suscripciones
+### AutomatizaciÃ³n del ciclo de vida de suscripciones
 
-## 7. Automatización Stripe + Contabilidad
+## 7. AutomatizaciÃ³n Stripe + Contabilidad
 
-### Por qué conectar Stripe a la contabilidad
+### Por quÃ© conectar Stripe a la contabilidad
 
 - **Revenue Recording:** Manual entry per transaction -- Auto-recorded from Stripe charges
 - **Reconciliation:** Match bank statements manually -- Auto-match Stripe payouts to bank
@@ -91,9 +91,9 @@ Webhooks are Stripe's way of notifying your systems when events happen — a payme
 - **P&L Updates:** Monthly manual update -- Real-time from Stripe data
 ### Stripe-Accounting Automation Flow
 
-## 8. Automatización Stripe + Soporte
+## 8. AutomatizaciÃ³n Stripe + Soporte
 
-### Por qué conectar Stripe al soporte
+### Por quÃ© conectar Stripe al soporte
 
 - **Customer says "I was charged twice":** Ask for transaction details -- Auto-look up from customer email
 - **"My subscription isn't working":** Manual account research -- Check subscription status + payment method
@@ -102,11 +102,11 @@ Webhooks are Stripe's way of notifying your systems when events happen — a payme
 - **"My card expired":** Ask customer to update -- Send Stripe update payment link
 ### Stripe Support Automation
 
-## 9. Automatización Stripe + Inventario
+## 9. AutomatizaciÃ³n Stripe + Inventario
 
 ### Actualizaciones de inventario activadas por Stripe
 
-## 10. Construyendo tu stack de automatización Stripe
+## 10. Construyendo tu stack de automatizaciÃ³n Stripe
 
 ### Herramientas recomendadas
 
@@ -118,20 +118,20 @@ Webhooks are Stripe's way of notifying your systems when events happen — a payme
 - **Analytics:** Stripe Sigma / Looker / Tableau -- 2-3 hours -- Medium
 - **Connector:** Zapier / Make / n8n -- 30 min -- Low
 - **Custom:** Webhooks + Node.js/Python -- 4-8 hours -- High
-### Hoja de ruta de implementación
+### Hoja de ruta de implementaciÃ³n
 
 ## Conclusion
 
-**Stripe es la plataforma de automatización más potente para operaciones de ingresos.** By connecting Stripe to your CRM, email, accounting, support, and inventory systems, you create a fully automated revenue engine that processes payments, updates records, sends communications, and manages fulfillment — all without manual intervention.
+**Stripe es la plataforma de automatizaciÃ³n mÃ¡s potente para operaciones de ingresos.** By connecting Stripe to your CRM, email, accounting, support, and inventory systems, you create a fully automated revenue engine that processes payments, updates records, sends communications, and manages fulfillment Â— all without manual intervention.
 
-Los principios clave para el éxito de la automatización con Stripe:
+Los principios clave para el Ã©xito de la automatizaciÃ³n con Stripe:
 
-- **Los webhooks son tu base** — la automatización en tiempo real impulsada por eventos comienza con webhooks correctamente configurados
-- **Conecta primero el CRM** — el auto-cierre de negocios al recibir pago es la automatización de mayor ROI
-- **Recupera pagos fallidos automáticamente** — una buena secuencia de cobranza puede recuperar 30-50% de pagos fallidos
-- **Sincroniza todo con contabilidad** — la conciliación automatizada ahorra horas y elimina errores
-- **Monitorea tus automatizaciones** — rastrea tasas de éxito de webhooks, entregabilidad de email y salud de sincronización
+- **Los webhooks son tu base** Â— la automatizaciÃ³n en tiempo real impulsada por eventos comienza con webhooks correctamente configurados
+- **Conecta primero el CRM** Â— el auto-cierre de negocios al recibir pago es la automatizaciÃ³n de mayor ROI
+- **Recupera pagos fallidos automÃ¡ticamente** Â— una buena secuencia de cobranza puede recuperar 30-50% de pagos fallidos
+- **Sincroniza todo con contabilidad** Â— la conciliaciÃ³n automatizada ahorra horas y elimina errores
+- **Monitorea tus automatizaciones** Â— rastrea tasas de Ã©xito de webhooks, entregabilidad de email y salud de sincronizaciÃ³n
 
-**Una integración completamente automatizada con Stripe significa que tu empresa procesa pagos, actualiza registros, envía comunicaciones y gestiona el cumplimiento — todo sin intervención manual.** Every webhook event is an opportunity to eliminate manual work and improve the customer experience.
+**Una integraciÃ³n completamente automatizada con Stripe significa que tu empresa procesa pagos, actualiza registros, envÃ­a comunicaciones y gestiona el cumplimiento Â— todo sin intervenciÃ³n manual.** Every webhook event is an opportunity to eliminate manual work and improve the customer experience.
 
-En **Sotomayor Consulting International**, ayudamos a empresas a diseñar e implementar automatizaciones con Stripe: desde configuración de webhooks e integración CRM hasta stacks completos de automatización de ingresos. Contáctanos para una consultoría personalizada.
+En **Sotomayor Consulting International**, ayudamos a empresas a diseÃ±ar e implementar automatizaciones con Stripe: desde configuraciÃ³n de webhooks e integraciÃ³n CRM hasta stacks completos de automatizaciÃ³n de ingresos. ContÃ¡ctanos para una consultorÃ­a personalizada.

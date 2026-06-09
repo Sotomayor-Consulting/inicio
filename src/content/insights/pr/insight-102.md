@@ -1,7 +1,7 @@
 ---
 title: "Como Usar WhatsApp para Vender Mais: Guia 2026"
 description: "Usar WhatsApp para vender mais"
-cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"
+cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
 cardImageAlt: "Estratégia de vendas com WhatsApp Business API, Stripe Payment Links, mensagens automatizadas e engajamento com clientes"
 ---
 

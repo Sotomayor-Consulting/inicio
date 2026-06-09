@@ -1,113 +1,113 @@
 ---
-title: "Cómo usar Odoo en empresas internacionales: Guía 2026"
+title: "CÃ³mo usar Odoo en empresas internacionales: GuÃ­a 2026"
 description: "ERP Odoo para negocios internacionales"
 cardImage: "@/images/insights/odoo-en-empresas-internacionales.png"
-cardImageAlt: "Dashboard de Odoo ERP mostrando ventas multiempresa, multimoneda, inventario internacional y módulos de contabilidad global"
+cardImageAlt: "Dashboard de Odoo ERP mostrando ventas multiempresa, multimoneda, inventario internacional y mÃ³dulos de contabilidad global"
 ---
 
-**Odoo es el ERP de código abierto de más rápido crecimiento para empresas internacionales.** A diferencia de los ERPs tradicionales que cuestan cientos de miles y tardan años en implementarse, Odoo ofrece una plataforma modular, asequible y flexible que escala con tus operaciones globales — desde CRM y ventas hasta inventario, contabilidad y fabricación.
+**Odoo es el ERP de cÃ³digo abierto de mÃ¡s rÃ¡pido crecimiento para empresas internacionales.** A diferencia de los ERPs tradicionales que cuestan cientos de miles y tardan aÃ±os en implementarse, Odoo ofrece una plataforma modular, asequible y flexible que escala con tus operaciones globales Â— desde CRM y ventas hasta inventario, contabilidad y fabricaciÃ³n.
 
-En esta guía cubrimos **cómo configurar y usar Odoo para empresas internacionales en 2026**, incluyendo configuración multiempresa, operaciones multimoneda, tributación internacional, integración de pagos Stripe, CRM multilingüe, inventario global y contabilidad transfronteriza.
+En esta guÃ­a cubrimos **cÃ³mo configurar y usar Odoo para empresas internacionales en 2026**, incluyendo configuraciÃ³n multiempresa, operaciones multimoneda, tributaciÃ³n internacional, integraciÃ³n de pagos Stripe, CRM multilingÃ¼e, inventario global y contabilidad transfronteriza.
 
-## 1. Por qué Odoo para negocios internacionales
+## 1. Por quÃ© Odoo para negocios internacionales
 
 ### Odoo vs ERPs tradicionales
 
 - **Costo de licencia:** Gratis (Community) o $20-$40/usuario/mes (Enterprise) -- $100-$500+/usuario/mes
-- **Tiempo de implementación:** Semanas a meses -- Meses a años
-- **Modularidad:** 70+ módulos, instala lo que necesitas -- Monolítico, requiere personalización pesada
+- **Tiempo de implementaciÃ³n:** Semanas a meses -- Meses a aÃ±os
+- **Modularidad:** 70+ mÃ³dulos, instala lo que necesitas -- MonolÃ­tico, requiere personalizaciÃ³n pesada
 - **Multiempresa:** Soporte nativo multiempresa -- Disponible pero complejo
 - **Multimoneda:** Integrado, tasas en tiempo real -- Generalmente requiere complementos
-- **Multilingüe:** 50+ idiomas en la interfaz -- Idiomas limitados
-- **Localización fiscal:** 40+ paquetes contables por país -- Licenciamiento por país
-- **Integraciones:** Stripe, PayPal, Shopify, Amazon, etc. -- Requiere integración personalizada
-- **Personalización:** Low-code, backend Python -- ABAP, lenguajes propietarios
+- **MultilingÃ¼e:** 50+ idiomas en la interfaz -- Idiomas limitados
+- **LocalizaciÃ³n fiscal:** 40+ paquetes contables por paÃ­s -- Licenciamiento por paÃ­s
+- **Integraciones:** Stripe, PayPal, Shopify, Amazon, etc. -- Requiere integraciÃ³n personalizada
+- **PersonalizaciÃ³n:** Low-code, backend Python -- ABAP, lenguajes propietarios
 - **Nube o On-Premise:** Ambos (Odoo.sh o autoalojado) -- Generalmente solo nube o on-prem con costo extra
-### Módulos internacionales de Odoo
+### MÃ³dulos internacionales de Odoo
 
-## 2. Configuración multiempresa en Odoo
+## 2. ConfiguraciÃ³n multiempresa en Odoo
 
 ### Arquitectura multiempresa
 
-### Configuración multiempresa
+### ConfiguraciÃ³n multiempresa
 
 ## 3. Operaciones multimoneda
 
-### Configuración de moneda
+### ConfiguraciÃ³n de moneda
 
 ### Flujo de ventas multimoneda
 
-## 4. Tributación internacional en Odoo
+## 4. TributaciÃ³n internacional en Odoo
 
-### Configuración de impuestos por país
+### ConfiguraciÃ³n de impuestos por paÃ­s
 
-- **Estados Unidos:** Sales Tax (nivel estatal) -- Paquete contable US -- Stripe Tax calcula automáticamente
-- **Brasil:** ICMS, ISS, IPI, PIS, COFINS -- Brasilian Localización fiscal (completed) -- Configuración manual
-- **México:** IVA, ISR, IEPS -- Mexican Localización fiscal -- CFDI vía tercero
-- **Colombia:** IVA (19%), ICA, RETEIVA -- Colombian Localización fiscal -- Compatible DIAN
-- **Argentina:** IVA (21%), IIBB -- Argentine Localización fiscal -- Integración SIFEN
-- **Chile:** IVA (19%) -- Chilean Localización fiscal -- Compatible SII
-- **Unión Europea:** VAT (tasas específicas por país) -- Reporte VAT UE -- Stripe Tax calcula automáticamente
-- **Reino Unido:** VAT (20%) -- Paquete contable UK -- Stripe Tax calcula automáticamente
-### Configuración de impuestos internacionales
+- **Estados Unidos:** Sales Tax (nivel estatal) -- Paquete contable US -- Stripe Tax calcula automÃ¡ticamente
+- **Brasil:** ICMS, ISS, IPI, PIS, COFINS -- Brasilian LocalizaciÃ³n fiscal (completed) -- ConfiguraciÃ³n manual
+- **MÃ©xico:** IVA, ISR, IEPS -- Mexican LocalizaciÃ³n fiscal -- CFDI vÃ­a tercero
+- **Colombia:** IVA (19%), ICA, RETEIVA -- Colombian LocalizaciÃ³n fiscal -- Compatible DIAN
+- **Argentina:** IVA (21%), IIBB -- Argentine LocalizaciÃ³n fiscal -- IntegraciÃ³n SIFEN
+- **Chile:** IVA (19%) -- Chilean LocalizaciÃ³n fiscal -- Compatible SII
+- **UniÃ³n Europea:** VAT (tasas especÃ­ficas por paÃ­s) -- Reporte VAT UE -- Stripe Tax calcula automÃ¡ticamente
+- **Reino Unido:** VAT (20%) -- Paquete contable UK -- Stripe Tax calcula automÃ¡ticamente
+### ConfiguraciÃ³n de impuestos internacionales
 
-## 5. CRM y ventas multilingüe
+## 5. CRM y ventas multilingÃ¼e
 
-### Configuración de idioma
+### ConfiguraciÃ³n de idioma
 
-### Automatización de ventas multilingüe
+### AutomatizaciÃ³n de ventas multilingÃ¼e
 
 ## 6. Inventario y almacenes internacionales
 
-### Configuración multialmacén
+### ConfiguraciÃ³n multialmacÃ©n
 
-### Automatización de inventario internacional
+### AutomatizaciÃ³n de inventario internacional
 
-## 7. Contabilidad y consolidación internacional
+## 7. Contabilidad y consolidaciÃ³n internacional
 
 ### Contabilidad multiempresa
 
-### Automatización de conciliación interempresas
+### AutomatizaciÃ³n de conciliaciÃ³n interempresas
 
-### Conciliación de pagos internacionales con Stripe
+### ConciliaciÃ³n de pagos internacionales con Stripe
 
-## 8. Integración Stripe + Odoo
+## 8. IntegraciÃ³n Stripe + Odoo
 
 ### Stripe Connect para multiempresa
 
-### Implementación de Stripe + Odoo
+### ImplementaciÃ³n de Stripe + Odoo
 
-## 9. Hoja de ruta de implementación de Odoo
+## 9. Hoja de ruta de implementaciÃ³n de Odoo
 
 ### Despliegue internacional por fases
 
-### Recomendaciones de módulos por región
+### Recomendaciones de mÃ³dulos por regiÃ³n
 
 - **Estados Unidos:** Ventas, Contabilidad, CRM, Inventario, Stripe -- Contabilidad US
-- **Brasil:** Ventas, Contabilidad, CRM, Inventario, Fiscal -- Brasilian Localización fiscal (NFe, NFSe, SPED)
-- **México:** Ventas, Contabilidad, CRM, Inventario, CFDI -- Mexican Localización fiscal (CFDI 4.0)
-- **Colombia:** Ventas, Contabilidad, CRM, Inventario, DIAN -- Colombian Localización fiscal
-- **Argentina:** Ventas, Contabilidad, CRM, Inventario, SIFEN -- Argentine Localización fiscal
-- **Chile:** Ventas, Contabilidad, CRM, Inventario, SII -- Chilean Localización fiscal
-- **Unión Europea:** Ventas, Contabilidad, CRM, Inventario, VAT -- Reporte VAT UE + country packages
-## 10. Personalización de Odoo para necesidades internacionales
+- **Brasil:** Ventas, Contabilidad, CRM, Inventario, Fiscal -- Brasilian LocalizaciÃ³n fiscal (NFe, NFSe, SPED)
+- **MÃ©xico:** Ventas, Contabilidad, CRM, Inventario, CFDI -- Mexican LocalizaciÃ³n fiscal (CFDI 4.0)
+- **Colombia:** Ventas, Contabilidad, CRM, Inventario, DIAN -- Colombian LocalizaciÃ³n fiscal
+- **Argentina:** Ventas, Contabilidad, CRM, Inventario, SIFEN -- Argentine LocalizaciÃ³n fiscal
+- **Chile:** Ventas, Contabilidad, CRM, Inventario, SII -- Chilean LocalizaciÃ³n fiscal
+- **UniÃ³n Europea:** Ventas, Contabilidad, CRM, Inventario, VAT -- Reporte VAT UE + country packages
+## 10. PersonalizaciÃ³n de Odoo para necesidades internacionales
 
 ### Personalizaciones clave
 
-### Personalización low-code en Odoo
+### PersonalizaciÃ³n low-code en Odoo
 
-## Conclusión
+## ConclusiÃ³n
 
-**Odoo es el ERP más práctico y asequible para empresas internacionales en 2026.** Sus capacidades nativas multiempresa, multimoneda y multilingüe lo convierten en una plataforma ideal para empresas que operan a través de fronteras — ya sea una empresa estadounidense expandiéndose a Latinoamérica, un negocio europeo entrando a nuevos mercados, o una empresa global gestionando filiales en todo el mundo.
+**Odoo es el ERP mÃ¡s prÃ¡ctico y asequible para empresas internacionales en 2026.** Sus capacidades nativas multiempresa, multimoneda y multilingÃ¼e lo convierten en una plataforma ideal para empresas que operan a travÃ©s de fronteras Â— ya sea una empresa estadounidense expandiÃ©ndose a LatinoamÃ©rica, un negocio europeo entrando a nuevos mercados, o una empresa global gestionando filiales en todo el mundo.
 
-Los principios clave para el éxito internacional con Odoo:
+Los principios clave para el Ã©xito internacional con Odoo:
 
-- **Comienza con la localización fiscal** — instala paquetes contables específicos por país antes de cualquier otra configuración
-- **Configura multiempresa primero** — configura tu jerarquía empresarial antes de ingresar transacciones
-- **Conecta Stripe por país** — usa Stripe Connect para que cada filial procese pagos localmente
-- **Automatiza interempresas** — usa las reglas interempresas de Odoo para eliminar la conciliación manual
-- **Capacita localmente** — cada filial debe tener Odoo configurado en su idioma y moneda
+- **Comienza con la localizaciÃ³n fiscal** Â— instala paquetes contables especÃ­ficos por paÃ­s antes de cualquier otra configuraciÃ³n
+- **Configura multiempresa primero** Â— configura tu jerarquÃ­a empresarial antes de ingresar transacciones
+- **Conecta Stripe por paÃ­s** Â— usa Stripe Connect para que cada filial procese pagos localmente
+- **Automatiza interempresas** Â— usa las reglas interempresas de Odoo para eliminar la conciliaciÃ³n manual
+- **Capacita localmente** Â— cada filial debe tener Odoo configurado en su idioma y moneda
 
-**Odoo te brinda capacidades ERP empresariales a una fracción del costo de los sistemas tradicionales.** Combinado con Stripe para pagos y las localizaciones fiscales adecuadas, se convierte en una plataforma completa de gestión empresarial internacional.
+**Odoo te brinda capacidades ERP empresariales a una fracciÃ³n del costo de los sistemas tradicionales.** Combinado con Stripe para pagos y las localizaciones fiscales adecuadas, se convierte en una plataforma completa de gestiÃ³n empresarial internacional.
 
-En **Sotomayor Consulting International**, ayudamos a empresas a implementar Odoo para operaciones internacionales: desde configuración multiempresa y localización fiscal hasta integración Stripe y desarrollo de módulos personalizados. Contáctanos para una consulta personalizada.
+En **Sotomayor Consulting International**, ayudamos a empresas a implementar Odoo para operaciones internacionales: desde configuraciÃ³n multiempresa y localizaciÃ³n fiscal hasta integraciÃ³n Stripe y desarrollo de mÃ³dulos personalizados. ContÃ¡ctanos para una consulta personalizada.

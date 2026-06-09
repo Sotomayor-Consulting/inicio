@@ -1,7 +1,7 @@
 ---
 title: "Como reduzir a carga operacional com tecnologia: Guia 2026"
 description: "Reduza a carga operacional com automação"
-cardImage: "@/images/insights/automatización-ventas-y- atención-al-cliente.png"
+cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
 cardImageAlt: "Dashboard de automação operacional mostrando automação de fluxos, bots RPA, processamento de documentos, reconciliação Stripe e análises de processos"
 ---
 
