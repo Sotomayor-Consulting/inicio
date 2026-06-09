@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Planificar Herencias Internacionales: Guía 2026"
 description: "Cómo planificar herencias internacionales"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Mapa mundial con documento de testamento, trust, banderas de países y un árbol generacional conectado por líneas de herencia"
 ---
 
@@ -24,19 +24,6 @@ En esta guía, explicamos **cómo planificar herencias internacionales** en 2026
 
 ### ¿Quién Necesita un Plan de Herencia Internacional?
 
-```
-Necesitas un plan de herencia internacional si:
-├── Tienes activos en 2 o más países
-├── Vives en un país diferente al de tu nacionalidad
-├── Tus herederos viven en otro país
-├── Tienes propiedades en el extranjero
-├── Tienes cuentas de inversión internacionales
-├── Tienes criptoactivos o cuentas digitales
-├── Tienes un negocio online (SaaS, e-commerce)
-├── Tienes una LLC o corporación en EE. UU.
-└── Tienes una cuenta de Stripe con ingresos recurrentes
-```
-
 > En 2026, más del 40% de los patrimonio internacionales pierden al menos el 30% de su valor por falta de planificación sucesoria transfronteriza.
 
 ## 2. Testamentos Internacionales
@@ -53,39 +40,7 @@ Necesitas un plan de herencia internacional si:
 
 ### ¿Puedes Usar un Solo Testamento?
 
-```
-Realidad: Un solo testamento rara vez es suficiente para activos internacionales.
-
-Problemas:
-- Cada país donde tienes activos puede exigir un proceso legal separado
-- El testamento debe cumplir con las leyes de cada país
-- Los herederos forzosos varían por país
-
-Solución recomendada:
-├── Testamento principal en tu país de residencia
-├── Testamentos separados para activos inmobiliarios en el extranjero
-├── Trust para activos financieros internacionales
-└── Carta de instrucciones para activos digitales
-```
-
 ### Stripe y tu Testamento
-
-```javascript
-// Stripe: Incluir Stripe en tu plan de herencia
-// Stripe no tiene función nativa de sucesión
-
-// Documentar en tu testamento o carta de instrucciones:
-
-/*
-INSTRUCCIONES PARA STRIPE:
-- Cuenta: tu-empresa
-- Stripe Dashboard: dashboard.stripe.com
-- Email registrado: tu@email.com
-- Ubicación de contraseña: gestor de contraseñas (acceso de emergencia)
-- Qué hacer: Transferir a la cuenta bancaria de la empresa
-- Sucesor designado: [Nombre], [email], con rol Admin en Stripe
-*/
-```
 
 ## 3. Legítimas Forzosas (Forced Heirship)
 
@@ -120,44 +75,9 @@ INSTRUCCIONES PARA STRIPE:
 
 ### Ejemplo: Residente en España con Activos en EE. UU.
 
-```
-Situación:
-- Residencia: España (legítimas forzosas: 2/3 para hijos)
-- Activos en EE. UU.: Propiedad en Florida + LLC
-- Nacionalidad: Española
-
-Problema:
-- España aplica su ley de legítimas a todo tu patrimonio global
-- No puedes dejar libremente tu patrimonio
-
-Soluciones:
-1. Trust irrevocable en EE. UU. (los activos del trust no son tuyos)
-2. Seguro de vida a favor de herederos no forzosos
-3. Donaciones en vida (con límites y plazos)
-4. Elección de ley de nacionalidad si aplica (UE 650/2012)
-```
-
 ## 4. Trusts para Herencias Internacionales
 
 ### Trust Revocable (Living Trust)
-
-```javascript
-// Stripe: Si la LLC que tiene Stripe está en un trust revocable
-// La cuenta Stripe sigue operando normalmente
-
-// Estructura:
-// TRUST REVOCABLE → Dueño de la LLC
-//   LLC → Dueña de la cuenta Stripe
-//     Stripe → Procesa pagos
-
-// Al fallecer el fundador:
-// - El sucesor (trustee) toma control del trust
-// - La LLC sigue operando con Stripe
-// - No hay probate, no hay interrupción de pagos
-
-// Stripe Dashboard: Agregar sucesor como usuario Admin
-// Stripe Dashboard → Configuración → Usuarios → Agregar
-```
 
 | Aspecto | Trust Revocable | Trust Irrevocable |
 |---------|----------------|------------------|
@@ -169,30 +89,6 @@ Soluciones:
 | **Reconocimiento internacional** | Limitado en civil law | Limitado en civil law |
 
 ### Trust para Familias Internacionales
-
-```
-Trust Familiar Internacional:
-
-SETTLOR (tú)
-  ├── Aportas activos al trust
-  └── Defines reglas (trust deed)
-
-TRUSTEE (profesional o familiar)
-  ├── Administra los activos
-  ├── Distribuye a beneficiarios según reglas
-  └── Puede ser en Suiza, Islas Caimán, NZ
-
-BENEFICIARIOS (tus herederos)
-  ├── Hijos (en España, Francia, etc.)
-  ├── Cónyuge
-  └── Otros familiares
-
-VENTAJAS:
-- Los activos del trust no pasan por sucesión en ningún país
-- Las legítimas forzosas no aplican (en common law)
-- Distribución flexible según necesidades
-- Privacidad total
-```
 
 ## 5. Impuestos en Herencias Internacionales
 
@@ -214,23 +110,6 @@ VENTAJAS:
 
 ### Doble Imposición
 
-```
-Problema: Pagar impuesto de herencia en 2+ países por los mismos activos.
-
-Soluciones:
-1. Treaty shopping: Revisar tratados de doble imposición entre países
-2. Estructura corporativa: La empresa es dueña, no tú directamente
-3. Trust: Los activos en trust no son parte de tu patrimonio personal
-4. Crédito fiscal externo: Pagas en un país, acreditas en otro
-5. Cambio de residencia fiscal antes de fallecer
-
-Ejemplo:
-- Residencia fiscal: España
-- Activos: Propiedades en EE. UU.
-- Sin plan: Pagas estate tax (EE. UU.) + sucesiones (España)
-- Con plan: Trust en EE. UU. + estructura corporativa
-```
-
 ## 6. Activos Digitales y Sucesión
 
 ### Inventario de Activos Digitales
@@ -247,59 +126,7 @@ Ejemplo:
 
 ### Plan de Sucesión para Stripe
 
-```javascript
-// Stripe: Plan de sucesión para tu cuenta Stripe
-
-// 1. Designar sucesor en Stripe Dashboard
-// Stripe Dashboard → Configuración → Usuarios
-// Agregar: [Nombre del sucesor] como rol Admin
-
-// 2. Configurar acceso de emergencia
-// Los datos de acceso deben estar en el gestor de contraseñas
-// con acceso de emergencia para el sucesor
-
-// 3. Documentar en el plan de sucesión:
-/*
-PLAN DE SUCESIÓN PARA STRIPE
-Cuenta: tu-empresa
-Email: founder@empresa.com
-Stripe Dashboard: dashboard.stripe.com
-API Keys: [ubicación en gestor de contraseñas]
-Webhook Secret: [ubicación]
-Successor Admin: nombre@heredero.com
-Instrucción: Mantener Stripe operando, transferir fondos a cuenta empresarial
-*/
-
-// 4. Stripe Connect: Si tienes múltiples cuentas
-// Documentar cada cuenta conectada
-const accounts = await stripe.accounts.list({});
-// Listar todas las cuentas para el plan de sucesión
-```
-
 ### Herencia de Criptoactivos
-
-```
-Plan de sucesión para criptoactivos:
-
-1. DOCUMENTACIÓN (NO DIGITAL):
-   - Tipo de wallet (Ledger, Trezor, software)
-   - Ubicación física del dispositivo
-   - Seed phrase: en caja de seguridad + copia con abogado
-   - PIN/passphrase del dispositivo
-
-2. ACCESO DIGITAL:
-   - Gestor de contraseñas con emergency access
-   - Instrucciones para el heredero
-
-3. ESTRUCTURA:
-   - Si los criptoactivos están en una LLC: heredas la LLC
-   - Si son personales: seed phrase es la clave
-
-ADVERTENCIA:
-- Sin seed phrase, los criptoactivos se pierden para siempre
-- No hay "recuperación de cuenta" en blockchain
-- Estima el valor actual y futuro para planificar impuestos
-```
 
 ## 7. Estructura Corporativa para Sucesión
 
@@ -315,34 +142,6 @@ ADVERTENCIA:
 | **Privacidad** | La sucesión es pública | La empresa no se pública |
 
 ### Esquema de Sucesión con Holding
-
-```
-ANTES DE FALLECER:
-
-HOLDING (Delaware / Panamá)
-  ├── Dueña de IP (código, marca, patentes)
-  ├── Dueña de LLC #1 (Stripe - SaaS)
-  ├── Dueña de LLC #2 (Propiedad en Miami)
-  ├── Dueña de LLC #3 (Inversiones financieras)
-  ├── Cuenta bancaria internacional
-  └── Criptoactivos (corporate wallet)
-
-TÚ eres el único accionista de la holding.
-
-DESPUÉS DE FALLECER:
-
-HOLDING → Las acciones pasan a tus herederos
-  ├── Sin necesidad de transferir cada activo
-  ├── Stripe sigue operando (la LLC no cambia de dueño)
-  ├── Las propiedades siguen en sus LLCs
-  └── Los herederos reciben las acciones de la holding
-
-PROCESO:
-1. Tus herederos presentan tu testamento
-2. Las acciones de la holding se transfieren
-3. Todo lo demás sigue igual
-4. Stripe: solo actualizar el beneficial owner si es necesario
-```
 
 ## 8. Paso a Paso: Tu Plan de Herencia Internacional
 

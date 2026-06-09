@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Plan International Inheritances: Guide 2026"
 description: "How to plan international inheritances"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "World map with will document, trust, country flags, and a generational family tree connected by inheritance lines"
 ---
 
@@ -24,19 +24,6 @@ In this guide, we explain **how to plan international inheritances** in 2026: wi
 
 ### Who Needs an International Inheritance Plan?
 
-```
-You need an international inheritance plan if:
-├── You have assets in 2 or more countries
-├── You live in a different country from your nationality
-├── Your heirs live in another country
-├── You own property abroad
-├── You have international investment accounts
-├── You hold crypto assets or digital accounts
-├── You run an online business (SaaS, e-commerce)
-├── You have a US LLC or corporation
-└── You have a Stripe account with recurring revenue
-```
-
 > In 2026, over 40% of international estates lose at least 30% of their value due to lack of cross-border succession planning.
 
 ## 2. International Wills
@@ -53,39 +40,7 @@ You need an international inheritance plan if:
 
 ### Can You Use a Single Will?
 
-```
-Reality: A single will is rarely sufficient for international assets.
-
-Problems:
-- Each country where you have assets may require a separate legal process
-- The will must comply with each country's laws
-- Forced heirship rules vary by country
-
-Recommended solution:
-├── Primary will in your country of residence
-├── Separate wills for foreign real estate
-├── Trust for international financial assets
-└── Letter of instructions for digital assets
-```
-
 ### Stripe and Your Will
-
-```javascript
-// Stripe: Include Stripe in your inheritance plan
-// Stripe has no native succession function
-
-// Document in your will or letter of instructions:
-
-/*
-STRIPE INSTRUCTIONS:
-- Account: your-company
-- Stripe Dashboard: dashboard.stripe.com
-- Registered email: you@email.com
-- Password location: password manager (emergency access)
-- Action: Transfer to company bank account
-- Successor: [Name], [email], Admin role in Stripe
-*/
-```
 
 ## 3. Forced Heirship
 
@@ -120,44 +75,9 @@ STRIPE INSTRUCTIONS:
 
 ### Example: Resident in Spain with US Assets
 
-```
-Situation:
-- Residence: Spain (forced heirship: 2/3 for children)
-- US assets: Florida property + LLC
-- Nationality: Spanish
-
-Problem:
-- Spain applies its forced heirship law to your entire global estate
-- You cannot freely dispose of your wealth
-
-Solutions:
-1. Irrevocable trust in the US (trust assets are not yours)
-2. Life insurance for non-forced heirs
-3. Lifetime gifts (with limits and timelines)
-4. Choice of nationality law if applicable (EU 650/2012)
-```
-
 ## 4. Trusts for International Inheritance
 
 ### Revocable Trust (Living Trust)
-
-```javascript
-// Stripe: If the LLC with Stripe is in a revocable trust
-// The Stripe account continues operating normally
-
-// Structure:
-// REVOCABLE TRUST → Owner of the LLC
-//   LLC → Owner of the Stripe account
-//     Stripe → Processes payments
-
-// Upon founder's death:
-// - Successor (trustee) takes control of trust
-// - LLC continues operating with Stripe
-// - No probate, no payment interruption
-
-// Stripe Dashboard: Add successor as Admin user
-// Stripe Dashboard → Settings → Users → Add
-```
 
 | Aspect | Revocable Trust | Irrevocable Trust |
 |--------|----------------|------------------|
@@ -169,30 +89,6 @@ Solutions:
 | **International recognition** | Limited in civil law | Limited in civil law |
 
 ### Trust for International Families
-
-```
-International Family Trust:
-
-SETTLOR (you)
-  ├── Contribute assets to trust
-  └── Define rules (trust deed)
-
-TRUSTEE (professional or family)
-  ├── Manages assets
-  ├── Distributes to beneficiaries per rules
-  └── Can be in Switzerland, Cayman Islands, NZ
-
-BENEFICIARIES (your heirs)
-  ├── Children (in Spain, France, etc.)
-  ├── Spouse
-  └── Other family members
-
-ADVANTAGES:
-- Trust assets bypass probate in every country
-- Forced heirship doesn't apply (in common law)
-- Flexible distribution based on needs
-- Total privacy
-```
 
 ## 5. Inheritance Taxes Across Borders
 
@@ -214,23 +110,6 @@ ADVANTAGES:
 
 ### Double Taxation
 
-```
-Problem: Paying inheritance tax in 2+ countries for the same assets.
-
-Solutions:
-1. Treaty shopping: Review double tax treaties between countries
-2. Corporate structure: Company owns assets, not you directly
-3. Trust: Trust assets are not part of your personal estate
-4. Foreign tax credit: Pay in one country, credit in another
-5. Change tax residence before death
-
-Example:
-- Tax residence: UK
-- Assets: Properties in US
-- No plan: Pay US estate tax + UK inheritance tax
-- With plan: Trust structure + corporate holding
-```
-
 ## 6. Digital Assets and Succession
 
 ### Digital Asset Inventory
@@ -247,59 +126,7 @@ Example:
 
 ### Succession Plan for Stripe
 
-```javascript
-// Stripe: Succession plan for your Stripe account
-
-// 1. Designate successor in Stripe Dashboard
-// Stripe Dashboard → Settings → Users
-// Add: [Successor name] as Admin
-
-// 2. Set up emergency access
-// Login credentials must be in password manager
-// with emergency access for the successor
-
-// 3. Document in the succession plan:
-/*
-STRIPE SUCCESSION PLAN
-Account: your-company
-Email: founder@company.com
-Stripe Dashboard: dashboard.stripe.com
-API Keys: [password manager location]
-Webhook Secret: [location]
-Successor Admin: name@heir.com
-Instruction: Keep Stripe running, transfer funds to business account
-*/
-
-// 4. Stripe Connect: If you have multiple accounts
-// Document each connected account
-const accounts = await stripe.accounts.list({});
-// List all accounts for the succession plan
-```
-
 ### Crypto Asset Inheritance
-
-```
-Crypto succession plan:
-
-1. DOCUMENTATION (NOT DIGITAL):
-   - Wallet type (Ledger, Trezor, software)
-   - Physical device location
-   - Seed phrase: in safe deposit box + copy with lawyer
-   - Device PIN/passphrase
-
-2. DIGITAL ACCESS:
-   - Password manager with emergency access
-   - Instructions for heir
-
-3. STRUCTURE:
-   - If crypto is in an LLC: inherit the LLC
-   - If personal: seed phrase is the key
-
-WARNING:
-- Without seed phrase, crypto assets are lost forever
-- There is no "account recovery" on blockchain
-- Estimate current and future value for tax planning
-```
 
 ## 7. Corporate Structure for Succession
 
@@ -315,34 +142,6 @@ WARNING:
 | **Privacy** | Probate is public | Company is not publicized |
 
 ### Succession Structure with Holding
-
-```
-BEFORE DEATH:
-
-HOLDING (Delaware / Panama)
-  ├── Owns IP (code, trademark, patents)
-  ├── Owns LLC #1 (Stripe - SaaS)
-  ├── Owns LLC #2 (Miami property)
-  ├── Owns LLC #3 (Financial investments)
-  ├── International bank account
-  └── Crypto assets (corporate wallet)
-
-YOU are the sole shareholder of the holding.
-
-AFTER DEATH:
-
-HOLDING → Shares pass to your heirs
-  ├── No need to transfer each asset
-  ├── Stripe continues operating (LLC owner doesn't change)
-  ├── Properties stay in their LLCs
-  └── Heirs receive holding shares
-
-PROCESS:
-1. Heirs present your will
-2. Holding shares are transferred
-3. Everything else remains the same
-4. Stripe: only update beneficial owner if needed
-```
 
 ## 8. Step by Step: Your International Inheritance Plan
 

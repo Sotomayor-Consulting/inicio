@@ -1,7 +1,7 @@
----
+﻿---
 title: "Stripe for Coaches and Consultants: Complete Guide 2026"
 description: "Stripe for coaches and consultants"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Coach or consultant with laptop showing Stripe and payment calendar"
 ---
 
@@ -75,20 +75,6 @@ Set up your bank account to receive payments. Stripe makes automatic transfers:
 
 **How to charge:**
 
-```
-Option 1: Payment link
-1. Stripe Dashboard → Products → Create product
-2. Name: "Individual Coaching Session"
-3. Price: $150 (one-time)
-4. Generate link → Send via WhatsApp or email
-
-Option 2: Invoice
-1. Stripe Dashboard → Billing → Create invoice
-2. Client: name and email
-3. Item: "Coaching Session - 1 hour" - $150
-4. Send invoice
-```
-
 ### Session Packages
 
 | Package | Sessions | Price | Savings |
@@ -112,23 +98,6 @@ Option 2: Invoice
 
 **Set up recurring subscription:**
 
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-// Create product with recurring price
-const product = await stripe.products.create({
-  name: 'Monthly Coaching Membership',
-  description: '1 group session + exclusive content + community',
-});
-
-const price = await stripe.prices.create({
-  product: product.id,
-  unit_amount: 9700, // $97.00
-  currency: 'usd',
-  recurring: { interval: 'month' },
-});
-```
-
 ### Milestone Payment Program
 
 | Milestone | Month | Amount |
@@ -136,23 +105,6 @@ const price = await stripe.prices.create({
 | **Start** | Month 1 | $500 (50%) |
 | **Midpoint** | Month 2 | $300 (30%) |
 | **Close** | Month 3 | $200 (20%) |
-
-```javascript
-// Scheduled invoice for each milestone
-const invoice1 = await stripe.invoices.create({
-  customer: customer.id,
-  collection_method: 'send_invoice',
-  days_until_due: 7,
-  metadata: { milestone: 'start' },
-});
-
-await stripe.invoiceItems.create({
-  customer: customer.id,
-  invoice: invoice1.id,
-  amount: 50000,
-  description: "50% deposit - 3 Month Coaching Program",
-});
-```
 
 ## 4. Payment Links for Coaches
 
@@ -166,16 +118,6 @@ await stripe.invoiceItems.create({
 | **Customizable** | Add your logo and colors |
 
 ### How to Create a Payment Link
-
-```
-1. Stripe Dashboard → Products → Create product
-2. Service name
-3. Brief description (optional)
-4. Price
-5. Click "Create payment link"
-6. Stripe generates a link: stripe.com/pay/abc123
-7. Share the link with your client!
-```
 
 ### Example Links for Coaches
 
@@ -225,38 +167,6 @@ Configure Stripe to send invoices automatically after each payment:
 
 If you have a website as a coach, add a payment button:
 
-```html
-<!-- Payment button for coaching session -->
-<button id="checkout-btn">Book Your Session for $150</button>
-
-<script src="https://js.stripe.com/v3/"></script>
-<script>
-  const stripe = Stripe('pk_test_...');
-
-  document.getElementById('checkout-btn').addEventListener('click', async () => {
-    const response = await fetch('/create-session', { method: 'POST' });
-    const session = await response.json();
-    await stripe.redirectToCheckout({ sessionId: session.id });
-  });
-</script>
-```
-
-```javascript
-// Server
-app.post('/create-session', async (req, res) => {
-  const session = await stripe.checkout.sessions.create({
-    mode: 'payment',
-    line_items: [{
-      price: 'price_coaching_session',
-      quantity: 1,
-    }],
-    success_url: 'https://yoursite.com/thank-you',
-    cancel_url: 'https://yoursite.com/',
-  });
-  res.json({ id: session.id });
-});
-```
-
 ### Customer Portal
 
 The Customer Portal lets your clients:
@@ -288,40 +198,9 @@ If you have a platform where multiple coaches offer services:
 
 ### Client Hiring Flow
 
-```
-1. Client books discovery call (Calendly)
-        ↓
-2. Stripe sends payment link for the session
-        ↓
-3. Client pays → Stripe notifies
-        ↓
-4. Webhook activates session reminder
-        ↓
-5. After session → Stripe charges next session
-```
-
 ### Payment Reminders
 
 Configure Stripe to send automatic reminders:
-
-```javascript
-// Webhook to send reminder before renewal
-app.post('/webhook', (req, res) => {
-  const event = stripe.webhooks.constructEvent(req.body, sig, secret);
-
-  if (event.type === 'invoice.upcoming') {
-    const invoice = event.data.object;
-    // Send reminder to client
-    sendEmail({
-      to: invoice.customer_email,
-      subject: "Your next coaching session is coming up",
-      body: `Hi! Your payment of ${invoice.amount_due/100} will be processed soon.`,
-    });
-  }
-
-  res.json({ received: true });
-});
-```
 
 ### Recommended Integrations
 

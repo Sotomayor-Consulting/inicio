@@ -1,108 +1,108 @@
-ï»¿---
-title: "Impostos para NÃ´mades Digitais: O Que VocÃª Precisa Saber para Cumprir com o IRS"
-description: "Guia de impostos para nÃ´mades digitais"
-cardImage: "@/images/insights/IRS-guÃ­a para dueÃ±os de llc.png"
-cardImageAlt: "NÃ´made digital trabalhando em uma praia com laptop"
+---
+title: "Impostos para Nômades Digitais: O Que Você Precisa Saber para Cumprir com o IRS"
+description: "Guia de impostos para nômades digitais"
+cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
+cardImageAlt: "Nômade digital trabalhando em uma praia com laptop"
 ---
 
-O estilo de vida **nÃ´made digital** â€” trabalhar remotamente enquanto viaja pelo mundo â€” cresceu enormemente. No entanto, muitos nÃ´mades digitais desconhecem suas obrigaÃ§Ãµes fiscais nos Estados Unidos. Entender os **impostos para nÃ´mades digitais** Ã© fundamental para evitar penalidades e aproveitar os benefÃ­cios fiscais disponÃ­veis.
+O estilo de vida **nômade digital** — trabalhar remotamente enquanto viaja pelo mundo — cresceu enormemente. No entanto, muitos nômades digitais desconhecem suas obrigações fiscais nos Estados Unidos. Entender os **impostos para nômades digitais** é fundamental para evitar penalidades e aproveitar os benefícios fiscais disponíveis.
 
-A seguir, explicamos tudo o que vocÃª precisa saber sobre sua situaÃ§Ã£o fiscal como nÃ´made digital.
+A seguir, explicamos tudo o que você precisa saber sobre sua situação fiscal como nômade digital.
 
-## 1. VocÃª Ã© Residente Fiscal nos EUA?
+## 1. Você é Residente Fiscal nos EUA?
 
-Sua obrigaÃ§Ã£o tributÃ¡ria depende de sua **residÃªncia fiscal**. O IRS determina a residÃªncia fiscal por meio de dois testes:
+Sua obrigação tributária depende de sua **residência fiscal**. O IRS determina a residência fiscal por meio de dois testes:
 
 ### Teste do Green Card:
-Se vocÃª Ã© residente permanente legal, Ã© residente fiscal e tributa sobre sua renda mundial.
+Se você é residente permanente legal, é residente fiscal e tributa sobre sua renda mundial.
 
-### Teste de PresenÃ§a Substancial (Substantial Presence Test):
-VocÃª deve ter estado fisicamente nos EUA por pelo menos:
+### Teste de Presença Substancial (Substantial Presence Test):
+Você deve ter estado fisicamente nos EUA por pelo menos:
 - **31 dias** durante o ano atual, e
-- **183 dias** no total nos Ãºltimos 3 anos (somando: todos os dias do ano atual + 1/3 dos dias do ano anterior + 1/6 dos dias do segundo ano anterior)
+- **183 dias** no total nos últimos 3 anos (somando: todos os dias do ano atual + 1/3 dos dias do ano anterior + 1/6 dos dias do segundo ano anterior)
 
-Se vocÃª cumprir este teste, Ã© residente fiscal e deve declarar sua renda global.
+Se você cumprir este teste, é residente fiscal e deve declarar sua renda global.
 
-## 2. NÃ´made Digital como NÃ£o Residente
+## 2. Nômade Digital como Não Residente
 
-Se vocÃª **nÃ£o** cumprir o teste de presenÃ§a substancial, Ã© considerado **nÃ£o residente** para fins fiscais. Como nÃ£o residente:
-- VocÃª tributa apenas sobre sua **renda de fonte americana**
-- A renda gerada enquanto trabalha do exterior geralmente **nÃ£o estÃ¡ sujeita a impostos nos EUA**
-- VocÃª pode se qualificar para benefÃ­cios de tratados fiscais
+Se você **não** cumprir o teste de presença substancial, é considerado **não residente** para fins fiscais. Como não residente:
+- Você tributa apenas sobre sua **renda de fonte americana**
+- A renda gerada enquanto trabalha do exterior geralmente **não está sujeita a impostos nos EUA**
+- Você pode se qualificar para benefícios de tratados fiscais
 
-## 3. ExclusÃ£o de Renda por Trabalho no Exterior (FEIE)
+## 3. Exclusão de Renda por Trabalho no Exterior (FEIE)
 
-Um dos benefÃ­cios mais poderosos para nÃ´mades digitais Ã© a **Foreign Earned Income Exclusion (FEIE)** . Se vocÃª Ã© residente fiscal nos EUA, mas vive e trabalha no exterior, pode excluir um valor significativo de sua renda tributÃ¡vel (ajustado anualmente pela inflaÃ§Ã£o).
+Um dos benefícios mais poderosos para nômades digitais é a **Foreign Earned Income Exclusion (FEIE)** . Se você é residente fiscal nos EUA, mas vive e trabalha no exterior, pode excluir um valor significativo de sua renda tributável (ajustado anualmente pela inflação).
 
 ### Requisitos:
-- **Bona Fide Residence Test**: Ser residente de um paÃ­s estrangeiro por um ano fiscal completo sem interrupÃ§Ã£o
-- **Physical Presence Test**: Estar fisicamente fora dos EUA por pelo menos **330 dias completos** em um perÃ­odo de 12 meses consecutivos
+- **Bona Fide Residence Test**: Ser residente de um país estrangeiro por um ano fiscal completo sem interrupção
+- **Physical Presence Test**: Estar fisicamente fora dos EUA por pelo menos **330 dias completos** em um período de 12 meses consecutivos
 
-Se vocÃª se qualificar, pode excluir sua renda de trabalho atÃ© o limite anual. VocÃª tambÃ©m pode optar por excluir ou reivindicar um crÃ©dito por despesas de moradia no exterior (Foreign Housing Exclusion or Deduction).
+Se você se qualificar, pode excluir sua renda de trabalho até o limite anual. Você também pode optar por excluir ou reivindicar um crédito por despesas de moradia no exterior (Foreign Housing Exclusion or Deduction).
 
-## 4. Onde VocÃª Paga Impostos? A Chave: Onde o Trabalho Ã© Realizado
+## 4. Onde Você Paga Impostos? A Chave: Onde o Trabalho é Realizado
 
-Para um nÃ´made digital, a localizaÃ§Ã£o fÃ­sica de onde vocÃª trabalha determina a tributaÃ§Ã£o:
+Para um nômade digital, a localização física de onde você trabalha determina a tributação:
 
-- **Trabalha dos EUA** â†’ Renda de fonte americana â†’ tributa nos EUA
-- **Trabalha do exterior** â†’ Renda de fonte estrangeira â†’ possÃ­vel exclusÃ£o via FEIE
-- **Trabalha para um cliente estrangeiro** â†’ Geralmente renda de fonte estrangeira
-- **Trabalha para um cliente americano** â†’ A fonte depende de onde vocÃª realiza o trabalho fÃ­sico
+- **Trabalha dos EUA** ? Renda de fonte americana ? tributa nos EUA
+- **Trabalha do exterior** ? Renda de fonte estrangeira ? possível exclusão via FEIE
+- **Trabalha para um cliente estrangeiro** ? Geralmente renda de fonte estrangeira
+- **Trabalha para um cliente americano** ? A fonte depende de onde você realiza o trabalho físico
 
-> **Importante:** Onde seu cliente estÃ¡ localizado **nÃ£o** determina a fonte da renda; o que importa Ã© **onde vocÃª realiza o trabalho**.
+> **Importante:** Onde seu cliente está localizado **não** determina a fonte da renda; o que importa é **onde você realiza o trabalho**.
 
-## 5. Autoemprego e SE Tax como NÃ´made Digital
+## 5. Autoemprego e SE Tax como Nômade Digital
 
-Se vocÃª trabalha como contratante independente (freelancer), deve pagar o **Self-Employment Tax (SE Tax)** de 15,3%. No entanto:
+Se você trabalha como contratante independente (freelancer), deve pagar o **Self-Employment Tax (SE Tax)** de 15,3%. No entanto:
 
-- A **FEIE exclui apenas a renda estrangeira do Imposto de Renda (Income Tax)** , nÃ£o do SE Tax
-- Isso significa que mesmo se vocÃª se qualificar para a FEIE, ainda pode dever SE Tax sobre sua renda de serviÃ§os
-- ExceÃ§Ã£o: Se sua renda estiver coberta pelo sistema de seguridade social de outro paÃ­s (sob um **Totalization Agreement** entre os EUA e esse paÃ­s), vocÃª pode ficar isento do SE Tax
+- A **FEIE exclui apenas a renda estrangeira do Imposto de Renda (Income Tax)** , não do SE Tax
+- Isso significa que mesmo se você se qualificar para a FEIE, ainda pode dever SE Tax sobre sua renda de serviços
+- Exceção: Se sua renda estiver coberta pelo sistema de seguridade social de outro país (sob um **Totalization Agreement** entre os EUA e esse país), você pode ficar isento do SE Tax
 
-## 6. DeclaraÃ§Ã£o de Contas BancÃ¡rias no Exterior (FBAR)
+## 6. Declaração de Contas Bancárias no Exterior (FBAR)
 
-Como nÃ´made digital, Ã© provÃ¡vel que vocÃª tenha contas bancÃ¡rias no exterior. Se a soma de todas as suas contas financeiras fora dos EUA exceder **$10.000** em qualquer momento do ano, vocÃª deve apresentar o **FBAR (FinCEN Form 114)** .
+Como nômade digital, é provável que você tenha contas bancárias no exterior. Se a soma de todas as suas contas financeiras fora dos EUA exceder **$10.000** em qualquer momento do ano, você deve apresentar o **FBAR (FinCEN Form 114)** .
 
-### ConsequÃªncias de nÃ£o apresentar:
-- Multas civis de atÃ© $10.000 por infraÃ§Ã£o nÃ£o intencional
-- Multas de atÃ© $100.000 ou 50% do saldo da conta (o que for maior) por infraÃ§Ã£o intencional
-- PossÃ­veis acusaÃ§Ãµes criminais
+### Consequências de não apresentar:
+- Multas civis de até $10.000 por infração não intencional
+- Multas de até $100.000 ou 50% do saldo da conta (o que for maior) por infração intencional
+- Possíveis acusações criminais
 
-## 7. FATCA e FormulÃ¡rio 8938
+## 7. FATCA e Formulário 8938
 
-AlÃ©m do FBAR, se seus ativos financeiros estrangeiros excederem certos limites, vocÃª deve apresentar o **FormulÃ¡rio 8938** (Statement of Specified Foreign Financial Assets) junto com sua declaraÃ§Ã£o de imposto.
+Além do FBAR, se seus ativos financeiros estrangeiros excederem certos limites, você deve apresentar o **Formulário 8938** (Statement of Specified Foreign Financial Assets) junto com sua declaração de imposto.
 
 ### Limites para residentes que vivem no exterior:
-- **$200.000** se vocÃª declarar em conjunto (Married Filing Jointly) e morar no exterior
-- **$400.000** se o valor dos ativos for maior (solteiro ou declaraÃ§Ã£o separada)
+- **$200.000** se você declarar em conjunto (Married Filing Jointly) e morar no exterior
+- **$400.000** se o valor dos ativos for maior (solteiro ou declaração separada)
 
-## 8. Impostos Estaduais e ResidÃªncia
+## 8. Impostos Estaduais e Residência
 
-Embora o IRS seja federal, os estados tambÃ©m podem cobrar impostos. Como nÃ´made digital:
+Embora o IRS seja federal, os estados também podem cobrar impostos. Como nômade digital:
 
-- Se vocÃª estabelecer **residÃªncia em um estado sem imposto de renda** (como Texas, FlÃ³rida, Nevada), evita o imposto estadual sobre a renda
-- Se vocÃª se mudar para o exterior, seu Ãºltimo estado de residÃªncia pode continuar cobrando impostos se vocÃª mantiver conexÃµes (carteira de motorista, registro eleitoral, endereÃ§o bancÃ¡rio)
-- Para romper a residÃªncia estadual, vocÃª deve cortar laÃ§os significativos com esse estado
+- Se você estabelecer **residência em um estado sem imposto de renda** (como Texas, Flórida, Nevada), evita o imposto estadual sobre a renda
+- Se você se mudar para o exterior, seu último estado de residência pode continuar cobrando impostos se você mantiver conexões (carteira de motorista, registro eleitoral, endereço bancário)
+- Para romper a residência estadual, você deve cortar laços significativos com esse estado
 
-## 9. Acordos de PrevidÃªncia Social (Totalization Agreements)
+## 9. Acordos de Previdência Social (Totalization Agreements)
 
-Os EUA tÃªm acordos com vÃ¡rios paÃ­ses para evitar a dupla contribuiÃ§Ã£o Ã  previdÃªncia social. Se vocÃª trabalha como nÃ´made digital em um paÃ­s com o qual os EUA tÃªm um Totalization Agreement:
+Os EUA têm acordos com vários países para evitar a dupla contribuição à previdência social. Se você trabalha como nômade digital em um país com o qual os EUA têm um Totalization Agreement:
 
-- VocÃª paga previdÃªncia social em **apenas um paÃ­s**
-- O acordo determina qual paÃ­s tem prioridade com base no tempo que vocÃª trabalha lÃ¡
-- VocÃª pode ficar isento do SE Tax se se qualificar sob o acordo
+- Você paga previdência social em **apenas um país**
+- O acordo determina qual país tem prioridade com base no tempo que você trabalha lá
+- Você pode ficar isento do SE Tax se se qualificar sob o acordo
 
-## 10. RecomendaÃ§Ãµes para NÃ´mades Digitais
+## 10. Recomendações para Nômades Digitais
 
-### Boas prÃ¡ticas fiscais:
-- **Mantenha um registro de seus dias de viagem**: Onde vocÃª esteve cada dia e que trabalho realizou
-- **Mantenha contas bancÃ¡rias separadas**: Uma para os EUA e outra para o exterior
-- **Contrate um seguro de saÃºde internacional**: Embora a penalidade do mandato individual tenha sido eliminada, Ã© prudente ter cobertura
-- **Apresente seus impostos em dia**: Mesmo se vocÃª nÃ£o dever impostos, a falta de apresentaÃ§Ã£o pode gerar multas
-- **Consulte um especialista**: As leis fiscais para nÃ´mades digitais sÃ£o complexas e mudam frequentemente
+### Boas práticas fiscais:
+- **Mantenha um registro de seus dias de viagem**: Onde você esteve cada dia e que trabalho realizou
+- **Mantenha contas bancárias separadas**: Uma para os EUA e outra para o exterior
+- **Contrate um seguro de saúde internacional**: Embora a penalidade do mandato individual tenha sido eliminada, é prudente ter cobertura
+- **Apresente seus impostos em dia**: Mesmo se você não dever impostos, a falta de apresentação pode gerar multas
+- **Consulte um especialista**: As leis fiscais para nômades digitais são complexas e mudam frequentemente
 
-## ConclusÃ£o
+## Conclusão
 
-Os **impostos para nÃ´mades digitais** envolvem mÃºltiplos fatores: residÃªncia fiscal, fonte da renda, tratados, FEIE, FBAR e muito mais. A chave estÃ¡ em entender sua situaÃ§Ã£o especÃ­fica e planejar cuidadosamente para maximizar benefÃ­cios e minimizar riscos.
+Os **impostos para nômades digitais** envolvem múltiplos fatores: residência fiscal, fonte da renda, tratados, FEIE, FBAR e muito mais. A chave está em entender sua situação específica e planejar cuidadosamente para maximizar benefícios e minimizar riscos.
 
-Na **Sotomayor Consulting International**, ajudamos nÃ´mades digitais a navegar suas obrigaÃ§Ãµes fiscais nos EUA. Entre em contato para uma consultoria personalizada e mantenha seu estilo de vida sem preocupaÃ§Ãµes tributÃ¡rias.
+Na **Sotomayor Consulting International**, ajudamos nômades digitais a navegar suas obrigações fiscais nos EUA. Entre em contato para uma consultoria personalizada e mantenha seu estilo de vida sem preocupações tributárias.

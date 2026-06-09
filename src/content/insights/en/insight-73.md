@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Separate Personal and Business Finances: Guide 2026"
 description: "How to separate personal and business finances"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership.png"
 cardImageAlt: "Two separate piggy banks, one personal and one business, with money flowing in an orderly manner"
 ---
 
@@ -48,34 +48,6 @@ In this guide, we explain **how to separate personal and business finances** in 
 
 ### How to Set Up Separate Accounts
 
-```javascript
-// Stripe: Configure payments to business account
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'business@yourdomain.com',
-  business_type: 'company',
-  company: {
-    name: 'Your Company LLC',
-    tax_id: 'XX-XXXXXXX', // EIN
-  },
-  external_account: {
-    object: 'bank_account',
-    country: 'US',
-    currency: 'usd',
-    account_number: '000123456789', // Business account
-    routing_number: '110000000',
-  },
-});
-
-// Stripe never mixes personal with business funds
-const payout = await stripe.payouts.create({
-  amount: 500000, // $5,000
-  currency: 'usd',
-  destination: 'ba_business', // Only to business account
-});
-```
-
 ### Recommended Business Banks
 
 | Bank | Type | Remote Opening | Best For |
@@ -98,53 +70,9 @@ const payout = await stripe.payouts.create({
 
 ### Stripe Issuing (Corporate Cards)
 
-```javascript
-// Stripe Issuing: Create corporate card
-const card = await stripe.issuing.cards.create({
-  cardholder: 'ich_cardholder_id',
-  currency: 'usd',
-  type: 'virtual',
-  spending_controls: {
-    spending_limits: [
-      {
-        amount: 500000, // $5,000 monthly limit
-        interval: 'monthly',
-        categories: ['saas', 'advertising', 'software'],
-      },
-    ],
-  },
-});
-
-// Expense tracking by category
-const transaction = await stripe.issuing.transactions.list({
-  card: card.id,
-  limit: 10,
-});
-```
-
 ## 4. Invoicing Under Business Name
 
 ### Stripe Invoicing with Business Details
-
-```javascript
-const invoice = await stripe.invoices.create({
-  customer: customer.id,
-  currency: 'usd',
-  collection_method: 'send_invoice',
-  days_until_due: 30,
-  custom_fields: [
-    {
-      name: 'EIN / Tax ID',
-      value: 'XX-XXXXXXX',
-    },
-    {
-      name: 'Purchase Order',
-      value: 'PO-2026-001',
-    },
-  ],
-  footer: 'Your Company LLC - All rights reserved',
-});
-```
 
 ### Business Invoice Elements
 
@@ -159,40 +87,6 @@ const invoice = await stripe.invoices.create({
 ## 5. Stripe with Business Entity
 
 ### Configure Stripe Under Company Name
-
-```javascript
-// Create business Stripe account
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'finance@yourcompany.com',
-  business_type: 'company',
-  company: {
-    name: 'Your Company LLC',
-    tax_id: 'XX-XXXXXXX',
-    address: {
-      line1: '123 Business Ave',
-      city: 'Wilmington',
-      state: 'DE',
-      postal_code: '19801',
-      country: 'US',
-    },
-    phone: '+13025551234',
-  },
-  business_profile: {
-    url: 'https://yourcompany.com',
-    mcc: 7372,
-  },
-  settings: {
-    payouts: {
-      schedule: {
-        interval: 'weekly',
-        delay_days: 3,
-      },
-    },
-  },
-});
-```
 
 ### Business Stripe Benefits
 
@@ -218,18 +112,6 @@ const account = await stripe.accounts.create({
 
 ### Stripe + Accounting Integration
 
-```javascript
-// Stripe + QuickBooks: Auto-export transactions
-// Use Zapier or native integration
-
-// Categorize Stripe payments in QuickBooks
-const paymentIntent = await stripe.paymentIntents.retrieve('pi_xxx');
-// QuickBooks records: Income → Business account
-
-// Each Stripe transaction auto-assigns
-// to the correct accounting category
-```
-
 ### Transaction Categorization
 
 | Category | Examples | Deductible |
@@ -253,21 +135,6 @@ const paymentIntent = await stripe.paymentIntents.retrieve('pi_xxx');
 | **Dividends** | Profit distribution | C-Corp |
 | **Expense reimbursement** | Repayment of business expenses paid personally | Everyone |
 
-```javascript
-// Stripe: Transfer profits to personal account
-// The company pays you as an individual
-
-// 1. Stripe receives client payment → Business account
-// 2. Company transfers your salary/draw
-// 3. You declare that income on your personal return
-const transfer = await stripe.transfers.create({
-  amount: 100000, // $1,000
-  currency: 'usd',
-  destination: 'ba_your_personal_account',
-  transfer_group: 'SALARY-2026-01',
-});
-```
-
 ## 8. Tax Management
 
 ### Personal vs. Business Taxes
@@ -281,31 +148,6 @@ const transfer = await stripe.transfers.create({
 | **Risk** | Low if separate | Low if books are in order |
 
 ### Stripe Tax for Separation
-
-```javascript
-// Stripe Tax: Clear taxes per transaction
-// Taxes belong to the business, not personal
-
-const taxCalculation = await stripe.tax.calculations.create({
-  currency: 'usd',
-  line_items: [
-    {
-      amount: 10000,
-      reference: 'L1',
-      tax_code: 'txcd_99999999',
-      quantity: 1,
-    },
-  ],
-  customer_details: {
-    address: {
-      line1: 'Client Address',
-      country: 'US',
-      postal_code: '90210',
-    },
-    address_source: 'billing',
-  },
-});
-```
 
 ## 9. Daily Separation Checklist
 

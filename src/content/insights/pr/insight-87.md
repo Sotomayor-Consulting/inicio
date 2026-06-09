@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Estruturar Propriedades para Proteção Patrimonial: Guia 2026"
 description: "Como estruturar propriedades para proteção patrimonial"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/propiedades-para-protección-patrimonial.png"
 cardImageAlt: "Estrutura piramidal de proteção patrimonial: propriedades individuais → LLCs → Holding → Trust, com escudos de proteção em cada nível"
 ---
 
@@ -21,72 +21,9 @@ Neste guia, explicamos **como estruturar propriedades para proteção patrimonia
 
 ### A Regra de Ouro
 
-```
-NUNCA misture estes elementos:
-
-❌ Duas propriedades em uma mesma LLC
-   → Se processado pela Propriedade A, também perde a Propriedade B
-
-❌ Uma LLC com propriedades + dinheiro + negócio
-   → Tudo está exposto a qualquer processo
-
-❌ Seu nome pessoal em algum lugar da cadeia
-   → Perfura o véu corporativo e perde proteção
-
-✅ Cada propriedade para alugar em sua própria LLC
-✅ A LLC não tem outros ativos significativos
-✅ Você não é membro direto da LLC (usa holding ou trust)
-```
-
-```javascript
-// Stripe: Cada propriedade deve ter sua própria conta Stripe
-// ou pelo menos seus próprios produtos/preços separados
-
-// Exemplo: Duas propriedades, duas configurações Stripe separadas
-
-// Propriedade A: Orlando Condo LLC
-const accountA = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: { name: 'Orlando Condo LLC', tax_id: 'XX-XXXXXXX' },
-});
-
-// Propriedade B: Tampa House LLC  
-const accountB = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: { name: 'Tampa House LLC', tax_id: 'XX-XXXXXXX' },
-});
-
-// NUNCA use uma única conta Stripe para ambas as propriedades
-```
-
 ## 2. Estrutura Nível 1: Uma Propriedade
 
 ### A Estrutura Básica Recomendada
-
-```
-Para UMA propriedade nos EUA:
-
-          Você (Estrangeiro)
-                |
-          ┌─────┴─────┐
-          │            │
-       Holding      Trust
-    Internacional  Revogável
-    (Panamá/BVI)   (EUA)
-          │            │
-          └─────┬─────┘
-                |
-      Florida Property LLC
-                |
-          ┌─────┴─────┐
-          │            │
-      Propriedade  Stripe (EIN)
-                   (conta LLC)
-```
 
 ### Por Que Esta Estrutura?
 
@@ -112,86 +49,9 @@ Para UMA propriedade nos EUA:
 
 ### A Arquitetura Multicamadas Recomendada
 
-```
-Para MÚLTIPLAS propriedades nos EUA:
-
-                      Você (Estrangeiro)
-                           |
-                     Trust Familiar
-                  (Irrevogável ou Revogável)
-                           |
-                  ┌─────────┴─────────┐
-                  │                   │
-            Holding Principal    Holding Principal
-            (Internacional)      (Proteção)
-                  │                   │
-             ┌────┴────┐        ┌────┴────┐
-             │         │        │         │
-        LLC Holding  LLC Holding        ...
-        (US)         (US)
-             │         │
-        ┌────┴────┐  ┌─┴─────┐
-        │         │  │       │
-   Prop A LLC  Prop B LLC  Prop C LLC
-   (Flórida)   (Flórida)   (Flórida)
-        │         │         │
-   ┌────┴──┐  ┌──┴───┐  ┌──┴───┐
-   │Stripe│  │Stripe│  │Stripe│
-   │ Acct │  │ Acct │  │ Acct │
-```
-
 ### Princípios desta Arquitetura
 
-```
-1. CADA PROPRIEDADE em sua própria LLC
-   - Se processado por uma, as demais estão protegidas
-   - Sem garantias cruzadas entre LLCs
-
-2. LLCs INTERMEDIÁRIAS (LLC Holding US) agrupam propriedades
-   - Por estado (ex: Florida Holdings LLC)
-   - Por tipo (ex: Short-Term Rentals LLC)
-   - Simplifica administração e impostos
-
-3. HOLDING INTERNACIONAL proprietária das LLCs Holding US
-   - Elimina estate tax
-   - Adiciona camada de privacidade
-   - Dificulta penhora de seus ativos
-
-4. TRUST FAMILIAR em seu país ou nos EUA
-   - Proprietário da holding internacional
-   - Define como os ativos são distribuídos
-   - Evita probate internacional
-
-5. STRIPE SEPARADO por cada LLC operacional
-   - Cada propriedade recebe aluguéis independentemente
-   - Relatórios de receita individuais
-```
-
 ### Exemplo com 3 Propriedades
-
-```
-Investidor estrangeiro com 3 propriedades na Flórida:
-
-Sem estrutura (erro comum):
-- Propriedades em nome pessoal
-- Todas expostas a qualquer processo
-- Estate tax de 40% sobre TUDO
-- Risco: se um inquilino processa, perde as 3
-
-Com estrutura multicamadas:
-- Prop A: Orlando Condo LLC
-- Prop B: Tampa House LLC  
-- Prop C: Miami Beach LLC
-- As 3 LLCs pertencem a: Florida Holdings LLC
-- Florida Holdings LLC pertence a: Panama Holding Corp
-- Panama Holding Corp pertence a: Trust Familiar
-
-Proteção:
-- Processo na Prop A → só afeta Orlando Condo LLC
-- Prop B e Prop C intactas
-- Estate tax: $0 (holding internacional)
-- Sucessão: o trust define herdeiros sem probate
-```
 
 ## 4. LLC por Propriedade vs. LLC Coletiva
 
@@ -208,42 +68,6 @@ Proteção:
 | **Stripe** | Conta separada | Uma conta (mistura receitas) |
 
 ### Quando Usar Cada Opção
-
-```
-LLC INDIVIDUAL (recomendada para a maioria):
-- Você tem 2+ propriedades
-- Quer proteção máxima
-- Planeja vender propriedades individualmente
-- Propriedades têm perfil de risco diferente
-
-LLC COLETIVA (apenas casos específicos):
-- Você tem 1 propriedade
-- Propriedades de risco muito baixo (ex: terreno)
-- Propriedades fazem parte do mesmo projeto (ex: edifício multifamiliar completo)
-- A economia de custos justifica o risco adicional
-```
-
-```javascript
-// Stripe: Configuração para LLC individual
-
-// Cada LLC operacional tem sua própria conta Stripe
-// Mas pode usar Stripe Connect para ver tudo de um dashboard
-
-// Contas individuais conectadas
-const accounts = await stripe.accounts.list({ limit: 10 });
-
-// Dashboard unificado via Stripe Connect
-// Visível apenas para a holding ou administrador
-
-// Relatório consolidado (opcional)
-const consolidatedReport = await stripe.reporting.reportRuns.create({
-  report_type: 'connected_accounts',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 2592000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-```
 
 ## 5. Holding Internacional: A Blindagem Definitiva
 
@@ -272,21 +96,6 @@ const consolidatedReport = await stripe.reporting.reportRuns.create({
 
 ### Como o Dinheiro Flui
 
-```
-Inquilino paga aluguel → Stripe (LLC operacional)
-  → LLC paga despesas (hipoteca, tax, seguro, management)
-  → LLC transfere lucro para LLC Holding US
-  → Holding US transfere para Holding Internacional
-  → Holding Internacional distribui (ou retém)
-  → Você recebe dividendos em seu país
-
-VANTAGEM FISCAL:
-- A LLC paga income tax nos EUA (sobre aluguéis)
-- A holding internacional NÃO paga imposto nos EUA
-- Só paga impostos quando distribui para si mesmo
-- Pode diferir impostos mantendo lucros na holding
-```
-
 ## 6. Trusts na Estrutura
 
 ### Trust Revogável vs. Irrevogável
@@ -302,46 +111,7 @@ VANTAGEM FISCAL:
 
 ### Estrutura com Trust
 
-```
-OPÇÃO A: Trust Revogável (para sucessão)
-- Você cria um trust em seu país ou nos EUA
-- O trust é proprietário da holding internacional
-- Ao falecer, o trust transfere conforme suas instruções
-- Sem probate, sem estate tax
-
-OPÇÃO B: Trust Irrevogável (proteção total)
-- Cria um trust irrevogável (Ilhas Cook, Nevis, etc.)
-- O trust é proprietário da holding internacional
-- Você é beneficiário, não proprietário
-- Credores não podem alcançar os ativos
-- Tampouco o IRS (se bem estruturado)
-
-OPÇÃO C: Trust Doméstico + Holding
-- Trust em seu país proprietário da holding
-- A holding proprietária das LLCs americanas
-- Declara as receitas em seu país
-- O trust simplifica a sucessão local
-```
-
 ### Exemplo: Trust Irrevogável nas Ilhas Cook
-
-```
-Custo:
-- Formação: $5.000-10.000
-- Manutenção anual: $1.500-3.000
-
-Proteção:
-- As leis das Ilhas Cook NÃO reconhecem sentenças estrangeiras
-- Um credor teria que litigar nas Ilhas Cook
-- Período de statute of limitations: 1 ano (vs 4+ nos EUA)
-- Quase impossível de perfurar
-
-Para quem:
-- Patrimônios > $1M em ativos nos EUA
-- Profissões de alto risco (médicos, advogados)
-- Proprietários de negócios nos EUA
-- Investidores com múltiplas propriedades
-```
 
 ## 7. Seguros como Camada Adicional
 
@@ -356,27 +126,6 @@ Para quem:
 | **Holding internacional** | Estate tax + penhora internacional | $500-2.000/ano |
 
 ### Recomendação por Perfil
-
-```
-Perfil Baixo Risco (1 propriedade, < $300K):
-- LLC + Liability insurance ($1M)
-- Trust revogável (opcional)
-- Custo: ~$1.000/ano
-
-Perfil Médio (2-3 propriedades, $300K-$1M):
-- LLC por propriedade + Liability insurance
-- Umbrella policy ($2M)
-- Holding internacional
-- Trust revogável
-- Custo: ~$3.000-5.000/ano
-
-Perfil Alto (4+ propriedades, > $1M):
-- LLC por propriedade + Liability insurance
-- Umbrella policy ($5M)
-- Holding internacional
-- Trust irrevogável (offshore)
-- Custo: ~$7.000-15.000/ano
-```
 
 ## 8. Erros Comuns ao Estruturar
 
@@ -395,64 +144,9 @@ Perfil Alto (4+ propriedades, > $1M):
 
 ### Exemplo de Estrutura Incorreta
 
-```
-❌ ESTRUTURA INCORRETA:
-
-Você (Nome Pessoal)
-  ├── Propriedade A ($400K) - em seu nome
-  ├── Propriedade B ($350K) - em "My LLC" (única LLC)
-  └── Conta bancária pessoal com $100K
-
-Riscos:
-- Processam pela Prop A → perde A + B + conta
-- Estate tax: 40% sobre $750K = $300K
-- Sem privacidade (seu nome em registros públicos)
-- Probate nos EUA (caro e lento)
-```
-
-```
-✅ ESTRUTURA CORRETA:
-
-Trust Familiar (seu país)
-  └── Panama Holding Corp
-        ├── Florida Holdings LLC
-        │     ├── Orlando Condo LLC → Prop A
-        │     └── Tampa House LLC → Prop B
-        └── Conta bancária da holding
-
-Benefícios:
-- Processo na Prop A → só afeta Orlando Condo LLC
-- Estate tax: $0
-- Privacidade total
-- Sem probate nos EUA
-```
-
 ## 9. Planejamento Sucessório Integrado
 
 ### Como suas Propriedades são Herdadas
-
-```
-Sem estrutura:
-- Suas propriedades estão em nome pessoal
-- Ao falecer, passam por probate na Flórida
-- Probate: 6-18 meses, $5.000-20.000 em custos
-- Se > $60K, IRS cobra 40% de estate tax
-- Seus herdeiros recebem menos da metade
-
-Com estrutura (Trust + Holding + LLCs):
-- Trust é proprietário da holding internacional
-- Ao falecer, o trust transfere conforme suas instruções
-- Sem probate (o trust não morre)
-- Sem estate tax (holding não é ativo americano)
-- Seus herdeiros recebem 100%
-
-Documentos necessários:
-1. Trust instrument (onde e como os ativos são distribuídos)
-2. Last will (captura qualquer ativo fora do trust)
-3. Power of attorney (quem administra se incapacitar)
-4. Healthcare directive (decisões médicas)
-5. Carta de instruções (lista de ativos, senhas, contatos)
-```
 
 ### Sucessão por Estrutura
 
@@ -466,31 +160,6 @@ Documentos necessários:
 ## 10. Custos vs. Benefícios
 
 ### Análise de Retorno do Investimento
-
-```
-Cenário: Investidor com 3 propriedades avaliadas em $1.500.000
-
-CUSTO ANUAL DA ESTRUTURA:
-- 3 LLCs ($138,75 c/u): $416
-- Registered Agent ($150 c/u): $450
-- Holding Internacional: $1.000
-- Trust manutenção: $200
-- CPA (impostos + estrutura): $2.500
-- Total: ~$4.566/ano
-
-BENEFÍCIOS:
-- Estate tax evitado: $1.500.000 x 40% = $600.000
-- Proteção contra processo: potencialmente milhões
-- Privacidade: não tem preço
-- Sucessão sem probate: economiza $10.000+
-- Economia fiscal (W-8ECI + depreciação): $5.000-15.000/ano
-
-ROI:
-- Investimento anual: $4.566
-- Benefício potencial: $600.000+ (só estate tax)
-- ROI: 13.000%+ no momento do falecimento
-- ROI anual (só economia fiscal): 100-300%
-```
 
 | Nível de Estrutura | Custo Anual | Proteção | Para Quem |
 |-------------------|------------|---------|-----------|

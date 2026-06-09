@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Documentar Operações Internacionais: Guia de Registros e Compliance"
 description: "Documentação de operações internacionais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/estandar-comun-de-reporte.png"
 cardImageAlt: "Documentos organizados com selos de diferentes países e uma lupa"
 ---
 
@@ -196,27 +196,6 @@ Para manter tudo organizado:
 - **Evernote / Notion**: Notas e registros de reuniões
 
 ### Estrutura de pastas sugerida:
-```
-Operações Internacionais/
-├── 2025/
-│   ├── Clientes/
-│   │   ├── Cliente A/
-│   │   │   ├── Contratos/
-│   │   │   ├── Faturas/
-│   │   │   ├── Pagamentos/
-│   │   │   └── Correspondência/
-│   │   └── Cliente B/
-│   ├── Fornecedores/
-│   ├── Despesas/
-│   ├── Impostos/
-│   └── Viagens/
-├── Documentos Legais/
-│   ├── LLC/
-│   ├── EIN/
-│   └── Tratados/
-└── Registros Contábeis/
-```
-
 ## Conclusão
 
 Saber **como documentar operações internacionais** é uma habilidade fundamental para qualquer pessoa ou empresa que realize negócios através de fronteiras. Desde contratos e faturas até comprovantes de pagamento e registros de taxa de câmbio, cada documento desempenha um papel crucial em sua defesa durante uma auditoria e em seu cumprimento fiscal.

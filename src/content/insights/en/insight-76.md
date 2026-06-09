@@ -1,7 +1,7 @@
----
+﻿---
 title: "Holding vs Operating Company: Differences and Structure 2026"
 description: "Holding vs operating company"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/que es una holding.png"
 cardImageAlt: "Corporate structure diagram showing a holding company at the top with multiple operating companies below"
 ---
 
@@ -62,39 +62,7 @@ An **operating company** is the entity that performs the actual commercial activ
 
 ### Typical Structure
 
-```
-Owners (individuals)
-       │
-       ▼
-  ┌─────────────┐
-  │   HOLDING   │  ← Owns subsidiaries
-  │  (US or     │     Receives dividends, royalties
-  │   offshore) │     No operations, no risk
-  └─────────────┘
-       │
-       ├────────────────────────────────┐
-       ▼                                ▼
-┌─────────────────┐          ┌─────────────────┐
-│  OPERATING 1    │          │  OPERATING 2    │
-│  (US /          │          │  (LATAM /       │
-│   country A)    │          │   country B)    │
-│  ─ Invoices     │          │  ─ Invoices     │
-│    clients      │          │    clients      │
-│  ─ Has          │          │  ─ Has          │
-│    employees    │          │    employees    │
-│  ─ Stripe       │          │  ─ Stripe       │
-│  ─ Risk         │          │  ─ Risk         │
-└─────────────────┘          └─────────────────┘
-```
-
 ### Practical Example
-
-```
-Holding: Sotomayor Holding LLC (Wyoming)
-  ├── Sotomayor Consulting LLC (US) → Stripe → Global clients
-  ├── Sotomayor LATAM S.A.S. (Colombia) → LATAM clients
-  └── Sotomayor Europe Ltd (UK) → Europe clients
-```
 
 ## 5. Benefits of the Holding Structure
 
@@ -119,126 +87,17 @@ Holding: Sotomayor Holding LLC (Wyoming)
 
 ### Example: IP Royalties
 
-```javascript
-// Operating company pays royalties to holding for IP use
-// Holding receives income without operational risk
-
-// Stripe collects in operating company
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Software License',
-      },
-      unit_amount: 100000, // $1,000
-    },
-    quantity: 1,
-  }],
-});
-
-// Operating company pays 5% royalty to holding
-// $50 goes to holding as royalty (deductible for operating)
-// $950 stays in operating (subject to local tax)
-```
-
 ## 6. Holding with Stripe
 
 ### Stripe in the Operating Company
 
-```javascript
-// Stripe goes in the operating company, not the holding
-// Operating company invoices, collects, and has client relationships
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Operating Company LLC', // Not the holding
-    tax_id: 'XX-XXXXXXX',
-  },
-});
-
-// Payments go to operating company's bank account
-// Operating company then distributes dividends/royalties to holding
-```
-
 ### Stripe Connect for Multiple Operating Companies
-
-```javascript
-// Stripe Connect: Each operating company can have its own account
-// Holding centralizes reporting
-
-// Operating 1: US
-const accountUS = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  business_type: 'company',
-});
-
-// Operating 2: Colombia
-const accountCO = await stripe.accounts.create({
-  type: 'express',
-  country: 'CO',
-  business_type: 'company',
-});
-
-// Stripe allows viewing all from a single Dashboard
-```
 
 ## 7. Money Flow in the Structure
 
 ### How Money Circulates
 
-```
-Client → Stripe → Operating company bank account
-                         │
-                         ▼
-                  ┌──────────────┐
-                  │  OPERATING   │
-                  │  ─ Pays      │
-                  │    expenses  │
-                  │  ─ Pays      │
-                  │    royalties │
-                  │    to holding│
-                  │  ─ Pays      │
-                  │    taxes     │
-                  └──────┬───────┘
-                         │ Royalties / Dividends
-                         ▼
-                  ┌──────────────┐
-                  │   HOLDING    │
-                  │  ─ Receives  │
-                  │    royalties │
-                  │  ─ Invests   │
-                  │  ─ Protects  │
-                  │    assets    │
-                  └──────────────┘
-```
-
 ### Royalties from Operating to Holding
-
-```javascript
-// Stripe: Doesn't directly handle inter-company royalties
-// but you can use Transfers to simulate it
-
-// 1. Stripe charges client → Operating account
-// 2. Operating company transfers royalty to holding
-
-const transfer = await stripe.transfers.create({
-  amount: 5000, // $50 (5% royalty on $1,000)
-  currency: 'usd',
-  destination: 'ba_holding_account',
-  transfer_group: 'ROYALTY-2026-01',
-  metadata: {
-    type: 'royalty',
-    invoice_ref: 'INV-2026-001',
-    ip_license: 'SOFTWARE-LICENSE-001',
-  },
-});
-```
 
 ## 8. Recommended Use Cases
 

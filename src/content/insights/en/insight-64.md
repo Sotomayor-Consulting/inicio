@@ -1,7 +1,7 @@
----
+﻿---
 title: "Stripe for Marketing Agencies: Complete Guide 2026"
 description: "Stripe for marketing agencies"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Digital marketing agency with Stripe dashboard showing client payments"
 ---
 
@@ -96,26 +96,6 @@ The most common model for agencies:
 
 **How to set up milestone payments:**
 
-```javascript
-// Create invoice with scheduled partial payments
-const invoice = await stripe.invoices.create({
-  customer: customer.id,
-  collection_method: 'send_invoice',
-  days_until_due: 15,
-  payment_settings: {
-    payment_method_types: ['card'],
-  },
-});
-
-// Add line items with different due dates
-await stripe.invoiceItems.create({
-  customer: customer.id,
-  invoice: invoice.id,
-  amount: 100000, // $1,000 - first milestone
-  description: "50% deposit - Landing Page",
-});
-```
-
 ### Hourly Billing
 
 For agencies that charge by the hour:
@@ -144,13 +124,6 @@ Stripe Connect allows agencies to:
 
 ### Platform Model
 
-```
-Agency receives client payment ($5,000)
-  ├── 70% for the agency ($3,500)
-  ├── 20% for the SEO subcontractor ($1,000)
-  └── 10% for the freelance designer ($500)
-```
-
 ### How to Set Up Stripe Connect
 
 | Step | Action |
@@ -160,22 +133,6 @@ Agency receives client payment ($5,000)
 | 3 | Register your subcontractors as connected accounts |
 | 4 | Define the payment split per transaction |
 | 5 | Stripe distributes automatically |
-
-```javascript
-// Example: Split payment between agency and subcontractor
-const session = await stripe.checkout.Session.create({
-  payment_method_types: ['card'],
-  line_items: [{ price: 'price_agency_service', quantity: 1 }],
-  payment_intent_data: {
-    application_fee_amount: 350000, // $3,500 for the agency
-    transfer_data: {
-      destination: '{{CONNECTED_ACCOUNT_ID}}', // Subcontractor
-    },
-  },
-  mode: 'payment',
-  success_url: 'https://youragency.com/success',
-});
-```
 
 ## 5. Automatic Billing for Clients
 
@@ -189,20 +146,6 @@ const session = await stripe.checkout.Session.create({
 
 ### Automatic Invoice Delivery
 
-```
-Client signed up
-       ↓
-Day 1: Stripe creates recurring invoice
-       ↓
-Day 1: Stripe sends invoice by email
-       ↓
-Day 15: Due date
-       ↓
-Day 16: Stripe attempts auto-charge (if configured)
-       ↓
-Day 20: Overdue payment reminder
-```
-
 ### Customer Portal for Clients
 
 Your clients can:
@@ -211,14 +154,6 @@ Your clients can:
 - Update payment method
 - Download invoices
 - Change plan
-
-```javascript
-// Create portal session for the client
-const session = await stripe.billingPortal.sessions.create({
-  customer: customer.id,
-  return_url: 'https://youragency.com/dashboard',
-});
-```
 
 ## 6. Managing Multiple Currencies
 
@@ -251,44 +186,7 @@ const session = await stripe.billingPortal.sessions.create({
 
 ### Client Onboarding Flow
 
-```
-1. Client fills out hiring form
-        ↓
-2. Stripe API creates the customer in Stripe
-        ↓
-3. Stripe sends initial invoice or payment link
-        ↓
-4. Client pays → Stripe notifies the agency
-        ↓
-5. Webhook activates CRM and internal tools
-        ↓
-6. Client receives portal access
-```
-
 ### Webhooks for Automation
-
-```javascript
-// Listen for Stripe events
-app.post('/webhook', express.raw({ type: 'application/json' }), (req, res) => {
-  const event = stripe.webhooks.constructEvent(
-    req.body, req.headers['stripe-signature'], webhookSecret
-  );
-
-  switch (event.type) {
-    case 'invoice.payment_succeeded':
-      // Activate client services
-      break;
-    case 'customer.subscription.updated':
-      // Sync with CRM
-      break;
-    case 'customer.subscription.deleted':
-      // Deactivate services
-      break;
-  }
-
-  res.json({ received: true });
-});
-```
 
 ### Recommended Integrations
 
@@ -316,16 +214,6 @@ app.post('/webhook', express.raw({ type: 'application/json' }), (req, res) => {
 ### Stripe Dashboard for Agencies
 
 Stripe Dashboard shows you:
-
-```
-MRR: $18,500        ↑ 8% vs previous month
-Active clients: 24
-New: 3              ↑ 15%
-Cancellations: 1    ↓ 5%
-Churn Rate: 4.2%
-Average/client: $770.83
-Overdue payments: 2 (8.3%)
-```
 
 ### Exporting Reports
 

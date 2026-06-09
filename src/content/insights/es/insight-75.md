@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Evitar Demandas Personales: Guía Completa 2026"
 description: "Cómo evitar demandas personales"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/llc-mal-estructurada.png"
 cardImageAlt: "Escudo legal protegiendo a una persona de demandas, con iconos de contratos, seguros y estructura corporativa"
 ---
 
@@ -46,28 +46,6 @@ En esta guía, explicamos **cómo evitar demandas personales** en 2026: estructu
 | **Velo corporativo** | No existe | Te protege si lo mantienes |
 | **Costo mensual** | $0 | ~$15-30/mes (mantenimiento) |
 
-```javascript
-// Stripe: Los pagos van a la LLC, no a ti personalmente
-// Esto refuerza el velo corporativo
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Tu Empresa LLC',
-    tax_id: 'XX-XXXXXXX',
-  },
-  // Todos los pagos van a la cuenta bancaria de la LLC
-  external_account: {
-    object: 'bank_account',
-    country: 'US',
-    currency: 'usd',
-    account_number: '000123456789', // Cuenta de la LLC
-    routing_number: '110000000',
-  },
-});
-```
-
 ### Cómo Mantener el Velo Corporativo
 
 | Práctica | Descripción | Impacto |
@@ -95,35 +73,7 @@ const account = await stripe.accounts.create({
 
 ### Ejemplo: Limitación de Responsabilidad
 
-```
-Cláusula de Limitación de Responsabilidad:
-
-En ningún caso [Tu Empresa LLC] será responsable ante el Cliente
-por daños indirectos, incidentales, especiales o consecuentes
-que superen el monto total pagado por el Cliente en los 12 meses
-anteriores al evento que dio origen a la reclamación.
-```
-
 ### Contratos Digitales con Stripe
-
-```javascript
-// Stripe Checkout con aceptación de términos
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price: 'price_consulting',
-    quantity: 1,
-  }],
-  consent_collection: {
-    terms_of_service: 'required',
-  },
-  custom_text: {
-    terms_of_service_acceptance: {
-      text: 'Acepto los Términos y Condiciones de Tu Empresa LLC',
-    },
-  },
-});
-```
 
 ## 4. Tercera Línea de Defensa: Seguros
 
@@ -138,18 +88,6 @@ const session = await stripe.checkout.sessions.create({
 | **Errores y omisiones (E&O) tech** | Bugs, downtime, pérdida de datos | $1,500-6,000/año | SaaS, desarrollo de software |
 
 ### Cómo Contratar Seguros
-
-```javascript
-// Stripe puede cobrar las primas de seguro mensuales
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{
-    price: 'price_insurance_eo', // Seguro E&O
-  }],
-  // Pago mensual del seguro
-  collection_method: 'charge_automatically',
-});
-```
 
 ## 5. Cuarta Línea de Defensa: Operación Profesional
 
@@ -167,25 +105,6 @@ const subscription = await stripe.subscriptions.create({
 
 ### Stripe y la Documentación
 
-```javascript
-// Stripe registra cada transacción con metadata
-// Esto crea un registro inmutable de pagos y servicios
-
-const paymentIntent = await stripe.paymentIntents.create({
-  amount: 500000,
-  currency: 'usd',
-  metadata: {
-    contract_id: 'CONT-2026-001',
-    project_name: 'Consultoría Estratégica',
-    client_approval_date: '2026-01-15',
-    scope: 'Fase 1 - Diagnóstico',
-  },
-  description: 'Pago según contrato CONT-2026-001',
-});
-
-// Este registro sirve como evidencia en caso de disputa
-```
-
 ## 6. Manejo de Disputas con Clientes
 
 ### Antes de que Escale
@@ -200,30 +119,6 @@ const paymentIntent = await stripe.paymentIntents.create({
 
 ### Stripe Disputas (Chargebacks)
 
-```javascript
-// Stripe maneja disputas automáticamente
-// Tener documentación es clave para ganar
-
-// Stripe Dashboard → Disputas
-// Evidencia requerida:
-// - Contrato firmado
-// - Comunicaciones con el cliente
-// - Entregables enviados
-// - Política de reembolso
-
-// Stripe API: Responder disputa
-await stripe.disputes.update('dp_xxx', {
-  evidence: {
-    customer_name: 'Cliente XYZ',
-    customer_email: 'cliente@email.com',
-    contract_id: 'CONT-2026-001',
-    service_description: 'Consultoría estratégica',
-    delivery_date: '2026-01-20',
-    customer_signature: 'data:image/png;base64,...',
-  },
-});
-```
-
 ## 7. Protección de Datos y Privacidad
 
 ### Regulaciones Relevantes
@@ -236,31 +131,6 @@ await stripe.disputes.update('dp_xxx', {
 | **Ley de protección de datos local** | Cada país | Varía por jurisdicción |
 
 ### Stripe y la Protección de Datos
-
-```javascript
-// Stripe maneja datos sensibles por ti (PCI-DSS)
-// Nunca almacenes números de tarjeta en tu servidor
-
-// Stripe Elements: Los datos van directo a Stripe
-const elements = stripe.elements();
-const card = elements.create('card');
-
-// Tú solo recibes un token o payment method ID
-card.on('ready', () => {
-  // Stripe maneja la seguridad, no tú
-});
-
-// Para cumplir con GDPR:
-const customer = await stripe.customers.create({
-  email: 'cliente@email.com',
-  name: 'Cliente XYZ',
-  metadata: {
-    consent_date: '2026-01-15',
-    consent_version: 'v2',
-    marketing_opt_in: 'false',
-  },
-});
-```
 
 ## 8. Resolución de Disputas: Arbitraje vs. Juicio
 
@@ -276,13 +146,6 @@ const customer = await stripe.customers.create({
 
 ### Cláusula de Arbitraje Recomendada
 
-```
-Cualquier disputa derivada de este contrato se resolverá mediante
-arbitraje vinculante administrado por [AAA / JAMS / Centro de Arbitraje],
-en [ciudad, estado]. El árbitro no podrá otorgar daños punitivos
-ni superiores a la limitación de responsabilidad establecida.
-```
-
 ## 9. Stripe como Herramienta de Prevención
 
 ### Cómo Stripe Ayuda a Evitar Demandas
@@ -297,19 +160,6 @@ ni superiores a la limitación de responsabilidad establecida.
 | **Disputas** | Sistema automatizado de manejo de chargebacks |
 | **Metadata** | Registro de cada transacción para disputas |
 | **Stripe Atlas** | Forma tu LLC, primera capa de protección |
-
-```javascript
-// Stripe Radar: Reglas personalizadas antifraude
-const radarRule = await stripe.radar.rules.create({
-  name: 'Bloquear transacciones de alto riesgo',
-  description: 'Bloquea países con alto índice de fraude',
-  action: 'block',
-  conditions: {
-    amount: { operator: 'greater_than', value: 100000 },
-    card_country: { operator: 'in', value: ['XX', 'YY'] },
-  },
-});
-```
 
 ## 10. Preguntas Frecuentes
 

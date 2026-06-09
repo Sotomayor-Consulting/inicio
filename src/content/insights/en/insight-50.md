@@ -1,7 +1,7 @@
-ï»¿---
+---
 title: "Most Common Tax Mistakes in International Business and How to Avoid Them"
 description: "Tax Mistakes in International Business"
-cardImage: "@/images/insights/evasiÃ³n-vs-planficaciÃ³n-fiscal.png"
+cardImage: "@/images/insights/evasión-vs-planficación-fiscal.png"
 cardImageAlt: "World map with flags and tax documents"
 ---
 
@@ -18,7 +18,7 @@ Many entrepreneurs believe that because they pay taxes in their home country, th
 Each country has its own rules for determining tax residency. If you spend more than 183 days in a country (or have your "center of vital interests" there), you may become a tax resident and be taxed on your worldwide income.
 
 ### Practical Example
-> A Latin American entrepreneur spends 6 months a year in Miami. Without planning, they could be considered a US tax resident and have to file and pay taxes on their global income to the IRS â€” while still being obligated in their home country.
+> A Latin American entrepreneur spends 6 months a year in Miami. Without planning, they could be considered a US tax resident and have to file and pay taxes on their global income to the IRS — while still being obligated in their home country.
 
 ### How to Avoid It
 - Track days spent in each country
@@ -38,7 +38,7 @@ Entrepreneurs open bank accounts, invest in real estate, or incorporate companie
 
 ### Relevant Legislation
 - **US:** FATCA requires foreign account reporting (FBAR and Form 8938)
-- **Global:** CRS (Common Reporting Standard) â€” over 100 countries automatically exchange information
+- **Global:** CRS (Common Reporting Standard) — over 100 countries automatically exchange information
 
 ### How to Avoid It
 - Declare all foreign assets annually in your tax return
@@ -51,7 +51,7 @@ Entrepreneurs open bank accounts, invest in real estate, or incorporate companie
 Forming a US LLC without understanding the tax consequences in the shareholder's country of residence.
 
 ### The Risk
-In the US, a single-member LLC is treated as a "disregarded entity" (pass-through) â€” the member is directly taxed. In many countries, the tax authority may classify the LLC as a foreign corporation, creating a classification conflict.
+In the US, a single-member LLC is treated as a "disregarded entity" (pass-through) — the member is directly taxed. In many countries, the tax authority may classify the LLC as a foreign corporation, creating a classification conflict.
 
 ### Entity Types and Tax Treatment
 
@@ -125,7 +125,7 @@ Tax authorities worldwide are cracking down on artificial structures. If an enti
 Entrepreneurs hold companies abroad without identifying the ultimate beneficial owner (UBO).
 
 ### The Risk
-Since 2024, the US requires beneficial ownership reporting (Corporate Transparency Act â€” BOI). Canada, the UK, and the EU have also implemented beneficial ownership registries. Omission can result in fines of up to US$ 10,000 and imprisonment.
+Since 2024, the US requires beneficial ownership reporting (Corporate Transparency Act — BOI). Canada, the UK, and the EU have also implemented beneficial ownership registries. Omission can result in fines of up to US$ 10,000 and imprisonment.
 
 ### How to Avoid It
 - Identify all ultimate beneficial owners of each group company
@@ -152,7 +152,7 @@ International entrepreneurs use business accounts for personal expenses and vice
 ## 9. Ignoring Local Compliance Obligations
 
 ### The Mistake
-Entrepreneurs incorporate companies in foreign countries and ignore local obligations â€” such as annual filings, accounting records, and licenses.
+Entrepreneurs incorporate companies in foreign countries and ignore local obligations — such as annual filings, accounting records, and licenses.
 
 ### The Risk
 - Daily administrative fines
@@ -185,7 +185,7 @@ When selling a foreign company, capital gains may be taxed both in the country o
 ### How to Avoid It
 - Structure the international holding in a jurisdiction with capital gains exemption on the sale of interests
 - Consider instruments such as exchange offers or stock-for-stock mergers
-- Plan the exit before investing â€” not after
+- Plan the exit before investing — not after
 
 ## Conclusion
 
@@ -193,9 +193,9 @@ When selling a foreign company, capital gains may be taxed both in the country o
 
 The key to operating internationally with tax certainty is:
 
-1. **Plan before acting** â€” never incorporate abroad without understanding the tax consequences
-2. **Document everything** â€” keeping complete records of all transactions and structures
-3. **Stay updated** â€” international tax legislation changes rapidly
-4. **Rely on experienced professionals** â€” international taxation requires specialization
+1. **Plan before acting** — never incorporate abroad without understanding the tax consequences
+2. **Document everything** — keeping complete records of all transactions and structures
+3. **Stay updated** — international tax legislation changes rapidly
+4. **Rely on experienced professionals** — international taxation requires specialization
 
 At **Sotomayor Consulting International**, we advise entrepreneurs on the tax structuring of international businesses, ensuring compliance, tax efficiency, and asset protection. Contact us for a personalized consultation.

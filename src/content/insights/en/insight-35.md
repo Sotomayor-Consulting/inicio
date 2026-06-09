@@ -1,11 +1,11 @@
-﻿---
+---
 title: "Taxes for Digital Nomads: What You Must Know to Comply with the IRS"
 description: "Tax guide for digital nomads"
-cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
+cardImage: "@/images/insights/IRS-gu�a para due�os de llc.png"
 cardImageAlt: "Digital nomad working on a beach with laptop"
 ---
 
-The **digital nomad** lifestyle — working remotely while traveling the world — has grown enormously. However, many digital nomads are unaware of their tax obligations in the United States. Understanding **taxes for digital nomads** is key to avoiding penalties and taking advantage of available tax benefits.
+The **digital nomad** lifestyle � working remotely while traveling the world � has grown enormously. However, many digital nomads are unaware of their tax obligations in the United States. Understanding **taxes for digital nomads** is key to avoiding penalties and taking advantage of available tax benefits.
 
 Below, we explain everything you need to know about your tax situation as a digital nomad.
 
@@ -44,10 +44,10 @@ If you qualify, you can exclude your foreign earned income up to the annual limi
 
 For a digital nomad, the physical location where you work determines taxation:
 
-- **Working from the U.S.** → U.S.-source income → taxed in the U.S.
-- **Working from abroad** → Foreign-source income → possible FEIE exclusion
-- **Working for a foreign client** → Generally foreign-source income
-- **Working for a U.S. client** → Source depends on where you physically perform the work
+- **Working from the U.S.** ? U.S.-source income ? taxed in the U.S.
+- **Working from abroad** ? Foreign-source income ? possible FEIE exclusion
+- **Working for a foreign client** ? Generally foreign-source income
+- **Working for a U.S. client** ? Source depends on where you physically perform the work
 
 > **Important:** Where your client is located **does not** determine the source of income; what matters is **where you perform the work**.
 

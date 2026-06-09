@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Avoid Bank Account Freezes: Guide to Keep Your Accounts Active"
 description: "Prevention of bank account freezes"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/estandar-comun-de-reporte.png"
 cardImageAlt: "Locked bank account with padlock and financial documents"
 ---
 
@@ -147,24 +147,6 @@ Maintain a **preventive file** with your transaction documentation:
 - **Proof of source of funds** (Source of Wealth / Source of Funds)
 
 ### Suggested organization:
-```
-Banking Documentation/
-├── KYC/
-│   ├── Identification
-│   ├── Proof of address
-│   └── Company documents
-├── Transfers/
-│   ├── 2025/
-│   │   ├── SWIFT receipts
-│   │   ├── Related invoices
-│   │   └── Contracts
-│   └── 2024/
-├── Tax Returns/
-│   ├── 2025
-│   └── 2024
-└── Bank Correspondence/
-```
-
 ## 9. What to Do If Your Account Is Frozen
 
 If despite your precautions, your account is frozen:

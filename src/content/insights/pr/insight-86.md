@@ -1,7 +1,7 @@
----
+﻿---
 title: "Erros Comuns ao Investir na Flórida sendo Estrangeiro: Guia 2026"
 description: "Erros comuns ao investir na Flórida sendo estrangeiro"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Sinais de erro e advertência sobre investimento na Flórida: LLC, property tax, FIRPTA, estate tax, hurricane insurance"
 ---
 
@@ -21,20 +21,6 @@ Neste guia, explicamos **os erros mais comuns ao investir na Flórida sendo estr
 
 ### Por Que é um Erro
 
-```
-Sem LLC:
-- Proprietário da property em seu nome
-- Inquilino se machuca → processo de $500.000
-- Sem separação → perde seus bens pessoais
-- Adeus ao seu investimento
-
-Com LLC:
-- Proprietário é "Florida Properties LLC"
-- Inquilino se machuca → processa a LLC
-- A LLC só tem a propriedade
-- Seus bens pessoais estão protegidos
-```
-
 ### Custo de Não Ter LLC
 
 | Situação | Sem LLC | Com LLC |
@@ -44,29 +30,6 @@ Com LLC:
 | **Proteção legal** | ❌ Nenhuma | ✅ Limitada à LLC |
 | **Privacidade** | ❌ Seu nome em registros públicos | ✅ LLC como proprietária |
 | **Estate tax** | ✅ Exposto | ✅ Com holding, protegido |
-
-```javascript
-// Stripe com LLC: a forma correta
-
-// Criar conta Stripe para a LLC (NÃO em nome pessoal)
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Florida Properties LLC',
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX', // EIN da LLC
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// ERRO: Usar Stripe pessoal para aluguéis da LLC
-// Isso quebra a separação legal e pode "perfurar o véu corporativo"
-```
 
 ## 2. Ignorar o Estate Tax (Imposto sobre Herança)
 
@@ -80,28 +43,6 @@ const account = await stripe.accounts.create({
 | "Meu país não tem estate tax" | ✅ Os EUA cobram sobre ativos dentro do seu território |
 
 ### O Cálculo que Dói
-
-```
-Exemplo realista:
-- 2 propriedades na Flórida: $800.000
-- Conta bancária da LLC: $50.000
-- Total ativos nos EUA: $850.000
-
-Sem planejamento:
-- Isenção: $60.000
-- Base tributável: $790.000
-- Estate tax: $790.000 x 40% = $316.000
-- Seus herdeiros recebem: $534.000 (de $850.000)
-
-Com holding internacional:
-- As propriedades estão em LLC → holding
-- Você é acionista da holding (Panamá/Países Baixos)
-- As ações da holding NÃO são ativos nos EUA
-- Estate tax: $0
-- Seus herdeiros recebem: $850.000
-
-Diferença: $316.000
-```
 
 ### Solução
 
@@ -125,40 +66,7 @@ Diferença: $316.000
 
 ### O Custo de Não Ter ITIN
 
-```
-Propriedade que gera $50.000/ano em aluguel bruto:
-- Despesas: $20.000
-- Depreciação: $10.909
-- Juros hipoteca: $15.000
-- Aluguel líquido: $4.091
-
-Sem ITIN (sem W-8ECI):
-- Retenção de 30% sobre o BRUTO: $50.000 x 30% = $15.000
-- Não pode pedir reembolso (sem ITIN = sem filing)
-- Imposto real: 30% da renda bruta
-
-Com ITIN (com W-8ECI):
-- Filing 1040-NR com Schedule E
-- Imposto sobre líquido: $4.091 x 12% = $491
-- Economia: $14.509/ano
-```
-
 ### Como Evitar Este Erro
-
-```
-1. Solicite ITIN imediatamente após comprar
-   - Formulário W-7 do IRS
-   - Com seu passaporte apostilado ou certificado
-   - Pode fazer com sua primeira declaração 1040-NR
-
-2. Não espere ter inquilinos
-   - O ITIN leva 7-11 semanas
-   - Enquanto isso, o banco reterá 30%
-
-3. Renove seu ITIN todo ano
-   - Se apresentar 1040-NR, renova automaticamente
-   - Se não apresentar por 3 anos consecutivos, desativa
-```
 
 ## 4. Subestimar o Property Tax
 
@@ -171,22 +79,6 @@ Com ITIN (com W-8ECI):
 | "A homestead exemption aplica" | ❌ Só se for sua residência principal, não para investimento |
 
 ### Exemplo de Subestimação
-
-```
-Caso real:
-Propriedade comprada em 2020: $350.000
-Property tax 2020: $3.500 (1%)
-Valor 2026: $550.000 (por valorização na Flórida)
-Property tax 2026: $6.050 (1,1%)
-
-O investidor esperava pagar $3.500/ano
-Mas paga $6.050/ano → $2.550 a mais do que orçado
-
-Em 10 anos:
-- Estimado: $35.000
-- Real: ~$60.000+
-- Diferença: $25.000+
-```
 
 | Tipo de Propriedade | Property Tax Médio (Flórida) |
 |--------------------|----------------------------|
@@ -218,45 +110,6 @@ Em 10 anos:
 
 ### Dedutíveis Típicos de Furacão
 
-```
-Dedutível de furacão NÃO é um valor fixo, é uma porcentagem:
-
-2% do valor segurado: $8.000 (para casa de $400K)
-5% do valor segurado: $20.000
-10% do valor segurado: $40.000
-
-Exemplo:
-Furacão causa $100.000 em danos
-Seguro: $400.000
-Dedutível: 2% = $8.000
-O seguro paga: $92.000
-
-Se escolheu dedutível de 10% para economizar no prêmio:
-Dedutível: 10% = $40.000
-O seguro paga: $60.000
-Você paga do bolso: $40.000
-```
-
-```javascript
-// Stripe: Stripe não é seguro, mas pode configurar pagamentos
-// para sua apólice de seguro de furacão
-
-// Configurar assinatura mensal para seguro
-const subscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}',
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Seguro de Furacão - Florida Properties LLC' },
-      unit_amount: 35000, // $350/mês
-      recurring: { interval: 'month' },
-    },
-  }],
-});
-
-// Assim sua apólice nunca vence por falta de pagamento
-```
-
 ## 6. Escolher a Localização Incorreta
 
 ### Nem Todas as Zonas da Flórida são Iguais
@@ -281,22 +134,6 @@ const subscription = await stripe.subscriptions.create({
 | **Panama City Beach** | ⚠️ Sazonal | 0,8-1,0% | Alto | ✅ Permitido |
 | **Zona rural** | ❌ Baixa | 0,6-0,8% | Baixo | ⚠️ Permitido |
 
-```javascript
-// Stripe: Analise a demanda de aluguel por zona
-// Compare receitas de propriedades similares
-
-// Relatório por código postal (zip code)
-const revenueByZip = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 31536000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-
-// Use dados de mercado (AirDNA, Mashvisor) + Stripe para validar
-```
-
 ## 7. Não Entender as Regras de HOA e Covenants
 
 ### Um Erro que Mata a Rentabilidade
@@ -309,29 +146,6 @@ const revenueByZip = await stripe.reporting.reportRuns.create({
 | **Special assessments** | $5.000-30.000 de uma vez por reparos |
 
 ### O que Verificar Antes de Comprar
-
-```
-Antes de ofertar, solicite os documentos do HOA:
-
-1. CC&Rs (Covenants, Conditions & Restrictions)
-   - Permite aluguéis? Mínimo de dias?
-   - Requer aprovação do inquilino?
-
-2. Finanças do HOA
-   - Tem reservas adequadas?
-   - Há special assessments planejadas?
-   - Qual a taxa mensal?
-
-3. Regras de short-term rental
-   - Proibido? (comum em muitas comunidades na Flórida)
-   - Mínimo 30 dias? (comum em condomínios)
-   - Mínimo 7 dias? (menos comum)
-   - Sem restrições? (raro)
-
-4. Multas e penalidades
-   - Quanto cobram por infração?
-   - Processo de enforcement?
-```
 
 ## 8. Usar o Tipo de Financiamento Incorreto
 
@@ -347,26 +161,6 @@ Antes de ofertar, solicite os documentos do HOA:
 
 ### O que Você Deve Fazer
 
-```
-Antes de buscar propriedades:
-
-1. Avalie seu perfil:
-   - Tem SSN/ITIN? → Avalie DSCR vs Conventional
-   - Não tem? → DSCR loan é sua opção
-
-2. Calcule seu DSCR potencial:
-   - Aluguel estimado / (Pagamento hipoteca + tax + seguro)
-   - Precisa ≥ 1,0, ideal ≥ 1,25
-
-3. Consiga pre-approval:
-   - Com 2-3 credores DSCR
-   - Compare taxas e termos
-
-4. Down payment adequado:
-   - Mínimo 25-30% para estrangeiros
-   - Mais down = melhor taxa
-```
-
 ## 9. Esquecer o Imposto ao Vender (FIRPTA)
 
 ### O Erro que Congela seu Dinheiro
@@ -378,25 +172,6 @@ Antes de buscar propriedades:
 | **Não ter assessoria** | Pode pagar mais imposto do que necessário |
 
 ### Como FIRPTA Afeta sua Venda
-
-```
-Suponha que vende sua propriedade por $500.000:
-
-RETENÇÃO FIRPTA:
-- 15% de $500.000 = $75.000 retidos no fechamento
-- O comprador envia $75.000 ao IRS
-- Você recebe líquido: $500.000 - $75.000 - comissões - custos
-
-QUANTO DEVERIA PAGAR REALMENTE?
-- Ganho de capital: ~$100.000
-- Depreciation recapture: ~$15.000
-- Imposto real: ~$25.000
-
-Então:
-- IRS reteve: $75.000
-- Imposto real: $25.000
-- Reembolso: $50.000 (mas leva 6-12 meses)
-```
 
 | Estratégia | Resultado |
 |-----------|----------|
@@ -418,36 +193,6 @@ Então:
 
 ### Detalhamento Real de Closing Costs
 
-```
-Para uma propriedade de $400.000 na Flórida:
-
-1. CUSTOS DO EMPRÉSTIMO:
-   - Origination fee (1%): $4.000
-   - Appraisal: $500-800
-   - Credit report: $50
-   - Processing/Underwriting: $500-1.000
-   - Pontos (se aplicável): 0-2%
-
-2. CUSTOS DE TERCEIROS:
-   - Title search + insurance: $2.000-3.500
-   - Survey: $500-1.000
-   - Recording fees: $100-300
-   - Attorney fees: $1.000-3.000
-
-3. PREPAIDS (para escrow):
-   - Seguro de propriedade (1 ano): $2.000-5.000
-   - Property tax (proporcional): $1.000-3.000
-   - Juros pré-pagos: $500-1.500
-
-4. DOC STAMP TAX (Flórida):
-   - $0,70 por cada $100: $2.800
-
-TOTAL ESTIMADO DE CLOSING COSTS: $12.000-20.000
-
-Além do down payment de 25%: $100.000
-Total a levar ao fechamento: $112.000-120.000
-```
-
 ## 11. Não Ter uma Equipe Local de Confiança
 
 ### O Erro de Fazer Sozinho
@@ -461,32 +206,6 @@ Total a levar ao fechamento: $112.000-120.000
 | **Contratar o empreiteiro mais barato** | Reparos mal feitos, problemas futuros |
 
 ### Sua Equipe Mínima na Flórida
-
-```
-1. CORRETOR IMOBILIÁRIO
-   - Especializado em investidores estrangeiros
-   - Entende DSCR, FIRPTA, LLC
-   - Com experiência na zona de interesse
-
-2. CPA (CONTADOR PÚBLICO)
-   - Experiência em tributação internacional
-   - Prepara 1040-NR + Schedule E
-   - Entende depreciação e cost segregation
-
-3. ADVOGADO IMOBILIÁRIO
-   - Trabalhou com estrangeiros
-   - Revisa contratos de compra
-   - Forma LLC e estrutura holding
-
-4. PROPERTY MANAGER
-   - Licenciado na Flórida
-   - Gerencia cobranças, reparos e inquilinos
-   - Reporta receitas para sua declaração
-
-5. SEGUROS
-   - Corretor especializado em propriedades de investimento
-   - Entende cobertura de furacão e flood
-```
 
 ## 12. Checklist para Evitar Erros
 

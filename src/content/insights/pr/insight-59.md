@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Usar Stripe para Cursos Digitais: Guia Completo 2026"
 description: "Como usar Stripe para cursos digitais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Tela do Stripe com cursos online e estudantes"
 ---
 
@@ -106,26 +106,6 @@ As plataformas de cursos se integram ao Stripe para processar pagamentos:
 
 Se você tem sua própria plataforma, pode integrar Stripe via API:
 
-```python
-import stripe
-stripe.api_key = "sk_test_..."
-
-# Criar um preço para o curso
-price = stripe.Price.create(
-  product_data={"name": "Curso de Marketing Digital"},
-  unit_amount=49700,  # $497.00 em centavos
-  currency="usd",
-)
-
-# Criar sessão de checkout
-session = stripe.checkout.Session.create(
-  line_items=[{"price": price.id, "quantity": 1}],
-  mode="payment",
-  success_url="https://seusite.com/obrigado",
-  cancel_url="https://seusite.com/cancelado",
-)
-```
-
 **Vantagens:**
 - Controle total sobre a experiência de pagamento
 - Branding personalizado
@@ -221,14 +201,6 @@ Stripe gera faturas automáticas para cada pagamento:
 Se você tem uma plataforma onde múltiplos instrutores vendem cursos, Stripe Connect é a solução.
 
 ### Como Funciona o Stripe Connect
-
-```
-Você (Plataforma) ← Stripe ← Aluno
-       ↓
-Instrutor A (recebe 70%)
-Instrutor B (recebe 70%)
-Instrutor C (recebe 70%)
-```
 
 ### Modelos de Pagamento
 

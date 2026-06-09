@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Avoid Personal Lawsuits: Complete Guide 2026"
 description: "How to avoid personal lawsuits"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/llc-mal-estructurada.png"
 cardImageAlt: "Legal shield protecting a person from lawsuits, with icons of contracts, insurance, and corporate structure"
 ---
 
@@ -46,27 +46,6 @@ In this guide, we explain **how to avoid personal lawsuits** in 2026: legal stru
 | **Corporate veil** | Doesn't exist | Protects you if maintained |
 | **Monthly cost** | $0 | ~$15-30/month (maintenance) |
 
-```javascript
-// Stripe: Payments go to the LLC, not to you personally
-// This reinforces the corporate veil
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Your Company LLC',
-    tax_id: 'XX-XXXXXXX',
-  },
-  external_account: {
-    object: 'bank_account',
-    country: 'US',
-    currency: 'usd',
-    account_number: '000123456789', // LLC account
-    routing_number: '110000000',
-  },
-});
-```
-
 ### How to Maintain the Corporate Veil
 
 | Practice | Description | Impact |
@@ -94,35 +73,7 @@ const account = await stripe.accounts.create({
 
 ### Example: Limitation of Liability
 
-```
-Limitation of Liability Clause:
-
-In no event shall [Your Company LLC] be liable to the Client
-for any indirect, incidental, special, or consequential damages
-exceeding the total amount paid by the Client in the 12 months
-prior to the event giving rise to the claim.
-```
-
 ### Digital Contracts with Stripe
-
-```javascript
-// Stripe Checkout with terms acceptance
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price: 'price_consulting',
-    quantity: 1,
-  }],
-  consent_collection: {
-    terms_of_service: 'required',
-  },
-  custom_text: {
-    terms_of_service_acceptance: {
-      text: 'I accept the Terms and Conditions of Your Company LLC',
-    },
-  },
-});
-```
 
 ## 4. Third Line of Defense: Insurance
 
@@ -137,17 +88,6 @@ const session = await stripe.checkout.sessions.create({
 | **Tech E&O** | Bugs, downtime, data loss | $1,500-6,000/year | SaaS, software development |
 
 ### How to Purchase Insurance
-
-```javascript
-// Stripe can collect monthly insurance premiums
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{
-    price: 'price_insurance_eo', // E&O Insurance
-  }],
-  collection_method: 'charge_automatically',
-});
-```
 
 ## 5. Fourth Line of Defense: Professional Operations
 
@@ -165,25 +105,6 @@ const subscription = await stripe.subscriptions.create({
 
 ### Stripe and Documentation
 
-```javascript
-// Stripe records every transaction with metadata
-// This creates an immutable record of payments and services
-
-const paymentIntent = await stripe.paymentIntents.create({
-  amount: 500000,
-  currency: 'usd',
-  metadata: {
-    contract_id: 'CONT-2026-001',
-    project_name: 'Strategic Consulting',
-    client_approval_date: '2026-01-15',
-    scope: 'Phase 1 - Diagnosis',
-  },
-  description: 'Payment per contract CONT-2026-001',
-});
-
-// This record serves as evidence in case of dispute
-```
-
 ## 6. Handling Client Disputes
 
 ### Before It Escalates
@@ -198,30 +119,6 @@ const paymentIntent = await stripe.paymentIntents.create({
 
 ### Stripe Disputes (Chargebacks)
 
-```javascript
-// Stripe handles disputes automatically
-// Documentation is key to winning
-
-// Stripe Dashboard → Disputes
-// Required evidence:
-// - Signed contract
-// - Client communications
-// - Deliverables sent
-// - Refund policy
-
-// Stripe API: Respond to dispute
-await stripe.disputes.update('dp_xxx', {
-  evidence: {
-    customer_name: 'Client XYZ',
-    customer_email: 'client@email.com',
-    contract_id: 'CONT-2026-001',
-    service_description: 'Strategic consulting',
-    delivery_date: '2026-01-20',
-    customer_signature: 'data:image/png;base64,...',
-  },
-});
-```
-
 ## 7. Data Protection and Privacy
 
 ### Relevant Regulations
@@ -234,31 +131,6 @@ await stripe.disputes.update('dp_xxx', {
 | **Local data protection laws** | Each country | Varies by jurisdiction |
 
 ### Stripe and Data Protection
-
-```javascript
-// Stripe handles sensitive data for you (PCI-DSS)
-// Never store card numbers on your server
-
-// Stripe Elements: Data goes directly to Stripe
-const elements = stripe.elements();
-const card = elements.create('card');
-
-// You only receive a token or payment method ID
-card.on('ready', () => {
-  // Stripe handles security, not you
-});
-
-// To comply with GDPR:
-const customer = await stripe.customers.create({
-  email: 'client@email.com',
-  name: 'Client XYZ',
-  metadata: {
-    consent_date: '2026-01-15',
-    consent_version: 'v2',
-    marketing_opt_in: 'false',
-  },
-});
-```
 
 ## 8. Dispute Resolution: Arbitration vs. Trial
 
@@ -274,13 +146,6 @@ const customer = await stripe.customers.create({
 
 ### Recommended Arbitration Clause
 
-```
-Any dispute arising from this contract shall be resolved through
-binding arbitration administered by [AAA / JAMS / Arbitration Center],
-in [city, state]. The arbitrator shall not award punitive damages
-or amounts exceeding the liability limitation set forth herein.
-```
-
 ## 9. Stripe as a Prevention Tool
 
 ### How Stripe Helps Avoid Lawsuits
@@ -295,19 +160,6 @@ or amounts exceeding the liability limitation set forth herein.
 | **Disputes** | Automated chargeback handling |
 | **Metadata** | Transaction records for disputes |
 | **Stripe Atlas** | Forms your LLC, first protection layer |
-
-```javascript
-// Stripe Radar: Custom anti-fraud rules
-const radarRule = await stripe.radar.rules.create({
-  name: 'Block high-risk transactions',
-  description: 'Blocks countries with high fraud rate',
-  action: 'block',
-  conditions: {
-    amount: { operator: 'greater_than', value: 100000 },
-    card_country: { operator: 'in', value: ['XX', 'YY'] },
-  },
-});
-```
 
 ## 10. Frequently Asked Questions
 

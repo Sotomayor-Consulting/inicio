@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Proyectar una Imagen Profesional con Stripe: Guía 2026"
 description: "Cómo proyectar una imagen profesional con Stripe"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Checkout profesional de Stripe con marca personalizada, facturas y portal del cliente"
 ---
 
@@ -38,111 +38,13 @@ En esta guía, explicamos **cómo proyectar una imagen profesional con Stripe** 
 
 ### Stripe Checkout Personalizado
 
-```javascript
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Consultoría Profesional',
-        images: ['https://tusitio.com/logo.png'],
-      },
-      unit_amount: 29900,
-    },
-    quantity: 1,
-  }],
-  payment_intent_data: {
-    setup_future_usage: 'off_session',
-  },
-  customize: {
-    submit_type: 'pay',
-    brand: '#1a365d', // Color primario de tu marca
-    logo: 'https://tusitio.com/logo-checkout.png',
-  },
-  custom_text: {
-    submit: 'Pagar $299.00 USD',
-    terms_of_service_acceptance: {
-      text: 'Acepto los términos y condiciones',
-    },
-  },
-  locale: 'es',
-});
-```
-
 ### Payment Elements con tu Estilo
 
-```javascript
-const elements = stripe.elements({
-  appearance: {
-    theme: 'none', // Sin tema predeterminado
-    variables: {
-      colorPrimary: '#1a365d',
-      colorBackground: '#ffffff',
-      colorText: '#1a202c',
-      colorDanger: '#e53e3e',
-      fontFamily: 'Inter, system-ui, sans-serif',
-      borderRadius: '8px',
-      fontSizeBase: '16px',
-      spacingUnit: '4px',
-    },
-    rules: {
-      '.Input': {
-        border: '1px solid #e2e8f0',
-        padding: '12px',
-      },
-      '.Input:focus': {
-        border: '1px solid #1a365d',
-        boxShadow: '0 0 0 3px rgba(26, 54, 93, 0.1)',
-      },
-      '.Label': {
-        fontWeight: '600',
-        color: '#2d3748',
-      },
-    },
-  },
-});
-```
-
 ### Configuración de Marca en Stripe Dashboard
-
-```
-Stripe Dashboard → Configuración → Marca
-- Icono: Logo cuadrado (128x128px)
-- Logo: Logo horizontal para facturas
-- Color de marca: Color primario
-- Color de acento: Color secundario
-- URL de la empresa: tudominio.com
-- Dirección y datos de contacto
-- Política de privacidad y términos
-```
 
 ## 3. Facturas Profesionales
 
 ### Personalización de Facturas
-
-```javascript
-const invoice = await stripe.invoices.create({
-  customer: customer.id,
-  currency: 'usd',
-  collection_method: 'send_invoice',
-  days_until_due: 15,
-  custom_fields: [
-    {
-      name: 'Orden de Compra',
-      value: 'PO-2026-0451',
-    },
-    {
-      name: 'Proyecto',
-      value: 'Consultoría Q1 2026',
-    },
-  ],
-  footer: 'Gracias por tu confianza. Sotomayor Consulting International',
-  rendering_options: {
-    amount_tax_display: 'include_inclusive_tax',
-  },
-});
-```
 
 ### Elementos de una Factura Profesional
 
@@ -161,52 +63,11 @@ const invoice = await stripe.invoices.create({
 
 Stripe envía automáticamente las facturas por email con tu marca:
 
-```
-De: Tu Empresa <facturacion@tudominio.com>
-Asunto: Factura INV-2026-001 - Tu Empresa
-
-[Logo de tu empresa]
-
-Factura INV-2026-001
-Fecha: 15/01/2026
-Vencimiento: 30/01/2026
-
-Descripción: Consultoría estratégica
-Monto: $299.00 USD
-
-[Ver Factura →]
-
-Gracias por confiar en nosotros.
-```
-
 ## 4. Portal del Cliente (Customer Portal)
 
 ### Experiencia de Autogestión
 
 El **Customer Portal** de Stripe puede personalizarse para que coincida con tu marca:
-
-```javascript
-const session = await stripe.billingPortal.sessions.create({
-  customer: customer.id,
-  return_url: 'https://tudominio.com/account',
-  configuration: {
-    business_profile: {
-      headline: 'Gestiona tu suscripción',
-      privacy_policy_url: 'https://tudominio.com/privacidad',
-      terms_of_service_url: 'https://tudominio.com/terminos',
-    },
-    features: {
-      subscription_update: {
-        enabled: true,
-        proration_behavior: 'create_prorations',
-        products: ['prod_saas_pro', 'prod_saas_enterprise'],
-      },
-      invoice_history: { enabled: true },
-      payment_method_update: { enabled: true },
-    },
-  },
-});
-```
 
 ## 5. Emails y Comunicaciones
 
@@ -223,40 +84,9 @@ const session = await stripe.billingPortal.sessions.create({
 
 ### Stripe para enviar emails
 
-```javascript
-// Stripe puede enviar emails automáticos con tu marca
-// Configura en Dashboard: Stripe → Configuración → Emails
-
-// Opción: Usar webhooks para enviar tus propios emails
-case 'invoice.payment_succeeded':
-  const paidInvoice = event.data.object;
-  const cust = await stripe.customers.retrieve(paidInvoice.customer);
-
-  await sendProfessionalEmail({
-    to: cust.email,
-    subject: '✓ Pago confirmado - Tu Empresa',
-    template: 'payment_confirmation',
-    data: {
-      name: cust.name,
-      amount: paidInvoice.amount_paid / 100,
-      currency: paidInvoice.currency,
-      invoiceNumber: paidInvoice.number,
-      invoiceUrl: paidInvoice.hosted_invoice_url,
-    },
-  });
-  break;
-```
-
 ## 6. Dominio Personalizado y URLs
 
 ### Configurar Dominio Personalizado
-
-```
-Stripe Dashboard → Configuración → Dominios personalizados
-- Agrega: checkout.tudominio.com
-- Configura el DNS (CNAME)
-- Verifica SSL
-```
 
 | Beneficio | Descripción |
 |-----------|-------------|
@@ -269,38 +99,7 @@ Stripe Dashboard → Configuración → Dominios personalizados
 
 ### Precios Localizados
 
-```javascript
-// Crear precios en múltiples monedas
-const prices = await Promise.all([
-  stripe.prices.create({
-    unit_amount: 29900,
-    currency: 'usd',
-    product: 'prod_consulting',
-  }),
-  stripe.prices.create({
-    unit_amount: 27500, // EUR
-    currency: 'eur',
-    product: 'prod_consulting',
-  }),
-  stripe.prices.create({
-    unit_amount: 599000, // MXN (en centavos)
-    currency: 'mxn',
-    product: 'prod_consulting',
-  }),
-]);
-```
-
 ### Detección de Idioma y Moneda
-
-```javascript
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [/* ... */],
-  locale: 'auto', // Stripe detecta el idioma del navegador
-  // Forzar idioma específico:
-  // locale: 'es', 'en', 'pt', 'fr', 'de', etc.
-});
-```
 
 ## 8. Stripe Apps y Personalización
 

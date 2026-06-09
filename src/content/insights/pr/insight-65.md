@@ -1,7 +1,7 @@
----
+﻿---
 title: "Stripe para Coaches e Consultores: Guia Completo 2026"
 description: "Stripe para coaches e consultores"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Coach ou consultor com laptop mostrando Stripe e calendário de pagamentos"
 ---
 
@@ -75,20 +75,6 @@ Configure sua conta bancária para receber os pagamentos. Stripe faz transferên
 
 **Como cobrar:**
 
-```
-Opção 1: Link de pagamento
-1. Stripe Dashboard → Produtos → Criar produto
-2. Nome: "Sessão Individual de Coaching"
-3. Preço: R$750 (pagamento único)
-4. Gerar link → Enviar por WhatsApp ou email
-
-Opção 2: Fatura
-1. Stripe Dashboard → Faturamento → Criar fatura
-2. Cliente: nome e email
-3. Item: "Sessão de Coaching - 1 hora" - R$750
-4. Enviar fatura
-```
-
 ### Pacote de Sessões
 
 | Pacote | Sessões | Preço | Economia |
@@ -112,23 +98,6 @@ Opção 2: Fatura
 
 **Configurar assinatura recorrente:**
 
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-// Criar produto com preço recorrente
-const product = await stripe.products.create({
-  name: 'Membresia Mensal Coaching',
-  description: '1 sessão em grupo + conteúdo exclusivo + comunidade',
-});
-
-const price = await stripe.prices.create({
-  product: product.id,
-  unit_amount: 49700, // R$497,00
-  currency: 'brl',
-  recurring: { interval: 'month' },
-});
-```
-
 ### Programa com Pagamentos por Marco
 
 | Marco | Mês | Valor |
@@ -136,23 +105,6 @@ const price = await stripe.prices.create({
 | **Início** | Mês 1 | R$2.500 (50%) |
 | **Metade** | Mês 2 | R$1.500 (30%) |
 | **Encerramento** | Mês 3 | R$1.000 (20%) |
-
-```javascript
-// Fatura programada para cada marco
-const invoice1 = await stripe.invoices.create({
-  customer: customer.id,
-  collection_method: 'send_invoice',
-  days_until_due: 7,
-  metadata: { milestone: 'inicio' },
-});
-
-await stripe.invoiceItems.create({
-  customer: customer.id,
-  invoice: invoice1.id,
-  amount: 250000,
-  description: "50% inicial - Programa de Coaching 3 meses",
-});
-```
 
 ## 4. Links de Pagamento para Coaches
 
@@ -166,16 +118,6 @@ await stripe.invoiceItems.create({
 | **Personalizável** | Adicione seu logo e cores |
 
 ### Como Criar um Link de Pagamento
-
-```
-1. Stripe Dashboard → Produtos → Criar produto
-2. Nome do serviço
-3. Descrição breve (opcional)
-4. Preço
-5. Clique em "Criar link de pagamento"
-6. Stripe gera um link: stripe.com/pay/abc123
-7. Compartilhe o link com seu cliente!
-```
 
 ### Exemplos de Links para Coaches
 
@@ -224,38 +166,6 @@ Configure Stripe para enviar faturas automaticamente após cada pagamento:
 
 Se você tem um site como coach, adicione um botão de pagamento:
 
-```html
-<!-- Botão de pagamento para sessão de coaching -->
-<button id="checkout-btn">Agende sua Sessão por R$750</button>
-
-<script src="https://js.stripe.com/v3/"></script>
-<script>
-  const stripe = Stripe('pk_test_...');
-
-  document.getElementById('checkout-btn').addEventListener('click', async () => {
-    const response = await fetch('/create-session', { method: 'POST' });
-    const session = await response.json();
-    await stripe.redirectToCheckout({ sessionId: session.id });
-  });
-</script>
-```
-
-```javascript
-// Servidor
-app.post('/create-session', async (req, res) => {
-  const session = await stripe.checkout.sessions.create({
-    mode: 'payment',
-    line_items: [{
-      price: 'price_coaching_session',
-      quantity: 1,
-    }],
-    success_url: 'https://seusite.com/obrigado',
-    cancel_url: 'https://seusite.com/',
-  });
-  res.json({ id: session.id });
-});
-```
-
 ### Customer Portal
 
 O Customer Portal permite que seus clientes:
@@ -287,40 +197,9 @@ Se você tem uma plataforma onde múltiplos coaches oferecem serviços:
 
 ### Fluxo de Contratação de Clientes
 
-```
-1. Cliente agenda chamada de descoberta (Calendly)
-        ↓
-2. Stripe envia link de pagamento para a sessão
-        ↓
-3. Cliente paga → Stripe notifica
-        ↓
-4. Webhook ativa lembrete de sessão
-        ↓
-5. Após a sessão → Stripe cobra próxima sessão
-```
-
 ### Lembretes de Pagamento
 
 Configure Stripe para enviar lembretes automáticos:
-
-```javascript
-// Webhook para enviar lembrete antes da renovação
-app.post('/webhook', (req, res) => {
-  const event = stripe.webhooks.constructEvent(req.body, sig, secret);
-
-  if (event.type === 'invoice.upcoming') {
-    const invoice = event.data.object;
-    // Enviar lembrete ao cliente
-    sendEmail({
-      to: invoice.customer_email,
-      subject: "Sua próxima sessão de coaching está chegando",
-      body: `Olá! Seu pagamento de R$${invoice.amount_due/100} será processado em breve.`,
-    });
-  }
-
-  res.json({ received: true });
-});
-```
 
 ### Integrações Recomendadas
 

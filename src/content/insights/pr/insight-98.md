@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Acessar o Sistema Financeiro dos Estados Unidos: Guia 2026"
 description: "Acessar o sistema financeiro dos Estados Unidos"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/negocios-internacionales.png"
 cardImageAlt: "Acesso ao sistema financeiro dos EUA com contas bancárias, Stripe, Wise e plataformas de banco digital para estrangeiros"
 ---
 
@@ -24,35 +24,6 @@ Neste guia, explicamos **como acessar o sistema financeiro dos EUA do exterior**
 
 ### Quem Precisa de Acesso Bancário nos EUA
 
-```
-O SISTEMA FINANCEIRO DOS EUA É PARA:
-
-✅ Empreendedores Digitais
-   - Receber pagamentos do Stripe, PayPal, Shopify
-   - Pagar serviços baseados nos EUA (AWS, ferramentas SaaS)
-   - Evitar perdas com conversão de moeda
-
-✅ Vendedores de E-commerce
-   - Amazon FBA, Shopify, Etsy, eBay
-   - Receber USD diretamente das plataformas
-   - Pagar fornecedores e logística nos EUA
-
-✅ Freelancers e Trabalhadores Remotos
-   - Faturar clientes nos EUA em USD
-   - Receber pagamentos sem taxas de transferência internacional
-   - Acessar plataformas como Upwork, Fiverr, Toptal
-
-✅ Investidores em Imóveis
-   - Manter fundos para compras de propriedades na Flórida, Texas
-   - Fazer pagamentos hipotecários de uma conta nos EUA
-   - Receber receita de aluguel em USD
-
-✅ Negócios Internacionais
-   - Operar com uma subsidiária ou LLC nos EUA
-   - Gerenciar fluxo de caixa multi-moeda
-   - Acessar mercados de capital americanos
-```
-
 ## 2. Passo 1: Forme uma Entidade Comercial nos EUA
 
 ### Por Que Você Precisa de uma LLC ou Corporação
@@ -73,28 +44,6 @@ A maioria das plataformas financeiras nos EUA exige uma **entidade comercial ame
 | **Delaware** | $90 | $300 | Sem imposto estadual para não residentes | Média |
 | **Novo México** | $50 | $0 | Sem imposto estadual | Muito alta (sem info pública) |
 | **Flórida** | $125 | $138.75 | Sem imposto estadual | Baixa |
-
-```javascript
-// O EIN: O número de segurança social do seu negócio
-// Exigido para: contas bancárias, declarações fiscais, processadores de pagamento
-
-// Solicite o EIN online no site do IRS
-// Documentos necessários:
-const solicitacaoEIN = {
-  tipoEntidade: 'LLC',
-  responsavel: 'Estrangeiro não residente',
-  ssnOuItin: 'Não exigido (aplica com passaporte)',
-  metodo: 'Online (formulário SS-4)',
-  tempoProcessamento: 'Imediato (online) ou 4 semanas (correio)',
-};
-
-// Com EIN + LLC você pode:
-// ✅ Abrir contas bancárias empresariais
-// ✅ Solicitar Stripe, PayPal Business
-// ✅ Declarar impostos perante o IRS
-// ✅ Contratar funcionários (se aplicável)
-// ✅ Construir crédito empresarial
-```
 
 ## 3. Passo 2: Abra uma Conta Bancária nos EUA
 
@@ -120,56 +69,6 @@ A forma mais fácil de acessar o sistema bancário dos EUA é através de **banc
 | **HSBC** | Pode aceitar clientes estrangeiros | Conta global, mínimos altos |
 
 ### Documentos Necessários para Abrir uma Conta
-
-```
-DOCUMENTOS NECESSÁRIOS:
-
-□ Certificado de Formação (do estado)
-□ Carta de Confirmação do EIN (CP 575 do IRS)
-□ Acordo de Operação (Operating Agreement)
-□ Passaporte Válido (todos os proprietários)
-□ Comprovante de Endereço no Exterior (conta de luz, extrato bancário)
-□ ITIN (Número de Identificação Individual) - às vezes exigido
-□ Licença Comercial ou Profissional (se aplicável)
-
-DICA: Os bancos online (Mercury, Relay) são mais flexíveis
-e aceitam documentos estrangeiros mais facilmente.
-```
-
-```javascript
-// API do Mercury: Banco programável para sua LLC
-
-// Crie um cartão virtual programaticamente
-const cartao = await mercury.cards.create({
-  accountId: '{{ACCOUNT_ID}}',
-  cardholder: {
-    name: 'João Silva',
-    email: 'joao@exemplo.com',
-  },
-  cardType: 'virtual',
-  controls: {
-    spendingLimits: {
-      daily: 5000,       // Limite diário de $5,000
-      monthly: 50000,    // Limite mensal de $50,000
-    },
-    merchantCategories: {
-      allowed: ['software', 'cloud', 'marketing'],
-    },
-  },
-});
-
-// Envie uma transferência wire
-const pagamento = await mercury.transactions.sendWire({
-  accountId: '{{ACCOUNT_ID}}',
-  recipient: {
-    name: 'Fornecedor Internacional S.A.',
-    accountNumber: '123456789',
-    routingNumber: '021000021',
-    bankName: 'Chase Bank',
-  },
-  amount: 15000, // $15,000 USD
-});
-```
 
 ## 4. Passo 3: Configure o Processamento de Pagamentos
 
@@ -198,43 +97,6 @@ const pagamento = await mercury.transactions.sendWire({
 | **Authorize.net** | Negócios estabelecidos | ✅ Exige conta merchant | $25/mês + taxas |
 | **Adyen** | Empresarial, alto volume | ✅ Exige subscrição | Preço personalizado |
 
-```javascript
-// Ative o Stripe com sua LLC nos EUA
-
-// Passo 1: Crie uma conta Stripe com os dados do seu negócio
-const contaStripe = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'negocio@exemplo.com',
-  business_type: 'company',
-  company: {
-    name: 'Nome da sua LLC',
-    tax_id: 'XX-XXXXXXX', // Seu EIN
-  },
-});
-
-// Passo 2: Conecte sua conta bancária nos EUA para pagamentos
-await stripe.accounts.updateExternalAccount(
-  '{{ACCOUNT_ID}}',
-  {
-    external_account: {
-      object: 'bank_account',
-      country: 'US',
-      currency: 'usd',
-      routing_number: '021000021',
-      account_number: '000123456789',
-    },
-  }
-);
-
-// Passo 3: Comece a receber pagamentos em USD
-const paymentIntent = await stripe.paymentIntents.create({
-  amount: 5000, // $50.00
-  currency: 'usd',
-  payment_method_types: ['card', 'link', 'us_bank_account'],
-});
-```
-
 ## 5. Passo 4: Construa Crédito Empresarial nos EUA
 
 ### Por Que o Crédito Empresarial é Importante
@@ -248,36 +110,6 @@ Construir crédito empresarial nos EUA permite acessar **financiamento, cartões
 | **Equifax Business** | 0-100 | Empréstimos empresariais, crédito comercial |
 
 ### Como Construir Crédito Empresarial como Estrangeiro
-
-```
-PLANO DE CONSTRUÇÃO DE CRÉDITO EMPRESARIAL:
-
-MÊS 1-3: FUNDAÇÃO
-□ Obtenha um número DUNS (grátis da Dun & Bradstreet)
-□ Registre-se no Experian Business e Equifax Business
-□ Abra uma conta bancária empresarial (Mercury ou Relay)
-□ Obtenha um EIN (Employer Identification Number)
-
-MÊS 3-6: LINHAS COMERCIAIS
-□ Solicite contas Net-30 (Uline, Grainger, Quill)
-   • Reportam ao D&B e Experian
-   • Pague cedo ou em dia sempre
-□ Obtenha um cartão de crédito empresarial garantido
-   • Exige um depósito ($500-$5,000)
-   • Reporta aos bureaus de crédito empresarial
-
-MÊS 6-12: CONSTRUÇÃO DE CRÉDITO
-□ Solicite cartões de crédito empresarial não garantidos
-   • Brex, Ramp ou Divvy (podem exigir presença nos EUA)
-   • Comece com limites baixos ($1,000-$5,000)
-□ Estabeleça crédito com 2-3 fornecedores
-   • Cada linha comercial aumenta sua pontuação
-
-MÊS 12+: ACESSO A FINANCIAMENTO
-□ Solicite linhas de crédito empresarial ($10K-$100K)
-□ Explore financiamento de equipamentos
-□ Qualifique-se para melhores termos de pagamento (Net-30, Net-60)
-```
 
 ## 6. Passo 5: Gerencie Impostos e Conformidade
 
@@ -293,67 +125,6 @@ MÊS 12+: ACESSO A FINANCIAMENTO
 | **Relatórios Estaduais** | Anual/Bienal | Varia por estado (Wyoming: $60, Delaware: $300) |
 
 ### Considerações Fiscais para Estrangeiros
-
-```
-REGRAS FISCAIS IMPORTANTES:
-
-✅ SEM IMPOSTOS NOS EUA SOBRE RENDA ESTRANGEIRA
-   - Se sua LLC não gera receita de fonte americana
-   - E você não tem presença física nos EUA
-   - Pode apresentar apenas declarações informativas (Form 5472)
-
-✅ TRATADOS FISCAIS
-   - Muitos países têm tratados de dupla tributação com os EUA
-   - Verifique se seu país se qualifica
-   - Apresente W-8BEN-E para reivindicar benefícios
-
-✅ IMPOSTOS ESTADUAIS
-   - Wyoming: $60 relatório anual, sem imposto estadual
-   - Delaware: $300 imposto anual de franquia
-   - Flórida: $138.75 relatório anual, sem imposto estadual
-   - Novo México: $0 relatório anual, sem imposto estadual
-
-✅ IMPOSTO SOBRE VENDAS (SE VENDER PARA CLIENTES NOS EUA)
-   - As regras de nexo econômico variam por estado
-   - Stripe Tax pode ajudar a calcular e cobrar
-   - A maioria dos estados exige cobrança após $100K-$500K
-
-⚠️ MULTAS POR NÃO CUMPRIMENTO
-   - Formulário 5472: $25,000 de multa por não apresentar
-   - FBAR: $10,000+ de multa por não apresentar
-   - Não cumprimento estadual: suspensão da LLC
-```
-
-```javascript
-// Stripe Tax: Conformidade fiscal automática nos EUA
-
-// Configure o Stripe Tax para seu negócio nos EUA
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive',
-    // Stripe calcula o imposto sobre vendas com base na localização do cliente
-  },
-});
-
-// No checkout, Stripe gerencia os impostos automaticamente
-const session = await stripe.checkout.sessions.create({
-  line_items: [{
-    price: '{{PRICE_ID}}',
-    quantity: 1,
-    tax_behavior: 'exclusive',
-  }],
-  automatic_tax: { enabled: true },
-  customer_details: {
-    address: {
-      country: 'US',
-      state: 'FL', // Cliente na Flórida
-    },
-  },
-});
-
-// Stripe calcula automaticamente o imposto sobre vendas da Flórida
-// Retorna recibos detalhados para suas declarações fiscais
-```
 
 ## 7. Passo 6: Acesse Plataformas de Investimento nos EUA
 
@@ -377,29 +148,6 @@ Uma vez que você tem uma LLC, conta bancária e EIN nos EUA, pode acessar plata
 | **Coinbase Commerce** | ✅ Aceita LLCs nos EUA | Pagamentos cripto para negócios |
 | **Circle (USDC)** | ✅ Aceita LLCs nos EUA | Gestão de tesouraria com stablecoins |
 | **Kraken** | ✅ Aceita LLCs nos EUA | Trading e staking de cripto |
-
-```javascript
-// Stripe: Conecte sua entidade nos EUA às finanças globais
-
-// Crie uma conta Treasury para gerar rendimento em USD
-// (Mercury, Brex e outros neobancos oferecem opções similares)
-
-// Use Stripe Connect para pagar contratados globalmente
-const accountLink = await stripe.accountLinks.create({
-  account: '{{CONNECTED_ACCOUNT_ID}}',
-  refresh_url: 'https://exemplo.com/reauth',
-  return_url: 'https://exemplo.com/return',
-  type: 'account_onboarding',
-});
-
-// Use Stripe Issuing para cartões corporativos
-const cartao = await stripe.issuing.cards.create({
-  cardholder: '{{CARDHOLDER_ID}}',
-  currency: 'usd',
-  type: 'virtual',
-  status: 'active',
-});
-```
 
 ## 8. Erros Comuns ao Acessar o Sistema Financeiro dos EUA
 
@@ -458,36 +206,6 @@ const cartao = await stripe.issuing.cards.create({
 - [ ] Solicitar cartão de crédito empresarial
 - [ ] Explorar plataformas de investimento (Interactive Brokers)
 - [ ] Configurar contas multi-moeda (Wise)
-
-```javascript
-// Seu stack financeiro completo nos EUA
-
-const stackFinanceiroEUA = {
-  entity: 'LLC de Wyoming',
-  ein: 'XX-XXXXXXX',
-  banking: {
-    primary: 'Mercury (conta operacional)',
-    savings: 'Mercury Treasury (4-5% APY)',
-    international: 'Wise Business (multi-moeda)',
-  },
-  payments: {
-    processor: 'Stripe',
-    payouts: 'Diário para Mercury',
-    methods: ['card', 'ach', 'link', 'apple_pay'],
-  },
-  compliance: {
-    irs: 'Formulário 5472 anual',
-    state: 'Relatório anual Wyoming ($60)',
-    fbar: 'Se aplicável',
-    contador: 'Sotomayor Consulting International',
-  },
-  credit: {
-    duns: 'XX-XXX-XXXX',
-    net30: 'Uline, Grainger, Quill',
-    card: 'Brex ou Ramp (se qualificar)',
-  },
-};
-```
 
 ## Conclusão
 

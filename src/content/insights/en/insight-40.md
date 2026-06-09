@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Document International Operations: Records and Compliance Guide"
 description: "Documentation of international operations"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/estandar-comun-de-reporte.png"
 cardImageAlt: "Organized documents with stamps from different countries and a magnifying glass"
 ---
 
@@ -196,27 +196,6 @@ To keep everything organized:
 - **Evernote / Notion**: Notes and meeting records
 
 ### Suggested folder structure:
-```
-International Operations/
-├── 2025/
-│   ├── Clients/
-│   │   ├── Client A/
-│   │   │   ├── Contracts/
-│   │   │   ├── Invoices/
-│   │   │   ├── Payments/
-│   │   │   └── Correspondence/
-│   │   └── Client B/
-│   ├── Suppliers/
-│   ├── Expenses/
-│   ├── Taxes/
-│   └── Travel/
-├── Legal Documents/
-│   ├── LLC/
-│   ├── EIN/
-│   └── Treaties/
-└── Accounting Records/
-```
-
 ## Conclusion
 
 Knowing **how to document international operations** is a fundamental skill for anyone conducting cross-border business. From contracts and invoices to payment records and exchange rate documentation, every document plays a crucial role in your audit defense and tax compliance.

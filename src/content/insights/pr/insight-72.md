@@ -1,7 +1,7 @@
----
+﻿---
 title: "Diferença Entre Proteger e Ocultar Patrimônio: Guia 2026"
 description: "Diferença entre proteger e ocultar patrimônio"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
 cardImageAlt: "Balança da justiça com um lado transparente e outro escuro, simbolizando a diferença entre proteção legal e ocultação ilegal"
 ---
 
@@ -116,27 +116,6 @@ Neste guia, explicamos **a diferença entre proteger e ocultar patrimônio** em 
 
 ### Como Manter a Transparência
 
-```javascript
-// Stripe: A plataforma reporta receitas ao seu país
-// se configurada corretamente
-
-// Sempre use seu CNPJ ou número fiscal real
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'seu@email.com',
-  business_type: 'individual',
-  // Toda informação é verdadeira e declarável
-  individual: {
-    first_name: 'Seu Nome',
-    last_name: 'Seu Sobrenome',
-    address: {
-      // Endereço real e declarado
-    },
-  },
-});
-```
-
 ## 6. Transparência Fiscal Internacional
 
 ### FATCA (Foreign Account Tax Compliance Act)
@@ -210,27 +189,6 @@ const account = await stripe.accounts.create({
 | **5** | Use serviços bancários formais (Mercury, Relay, Wise, HSBC) |
 | **6** | Contrate um contador local que conheça suas estruturas internacionais |
 | **7** | Revise seu plano patrimonial anualmente |
-
-```javascript
-// Boas práticas com Stripe:
-// 1. Use suas informações fiscais reais
-// 2. Declare as receitas do Stripe no seu país
-// 3. Reporte sua conta Stripe se FATCA/CRS aplicar
-const stripe = require('stripe')('sk_live_...');
-
-// Configuração fiscal correta
-await stripe.accounts.update('acct_xxx', {
-  settings: {
-    payments: {
-      statement_descriptor: 'Sua Empresa Legal',
-    },
-  },
-  business_profile: {
-    url: 'https://seudominio.com',
-    mcc: 7372, // Código de indústria correto
-  },
-});
-```
 
 ## 10. Perguntas Frequentes
 

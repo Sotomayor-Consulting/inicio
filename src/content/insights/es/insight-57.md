@@ -1,7 +1,7 @@
----
+﻿---
 title: "Qué Necesita Stripe para Aprobar tu Cuenta: Guía Completa 2026"
 description: "Qué necesita Stripe para aprobar tu cuenta"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Pantalla de aprobación de Stripe con documentos y check verde"
 ---
 
@@ -12,12 +12,6 @@ En esta guía, explicamos **exactamente qué necesita Stripe para aprobar tu cue
 ## 1. El Proceso de Aprobación de Stripe
 
 ### Etapas de la Aprobación
-
-```
-Registro → Verificación de identidad → Documentación → Análisis de riesgo → Aprobación
-    ↓               ↓                      ↓               ↓               ↓
- 5 minutos      10-15 minutos         24-72 horas     24-48 horas     1-5 días
-```
 
 ### Tipos de Análisis
 

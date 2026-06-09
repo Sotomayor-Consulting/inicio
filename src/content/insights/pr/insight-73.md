@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Separar Finanças Pessoais e Empresariais: Guia 2026"
 description: "Como separar finanças pessoais e empresariais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership.png"
 cardImageAlt: "Dois cofrinhos separados, um pessoal e outro empresarial, com dinheiro fluindo ordenadamente"
 ---
 
@@ -48,34 +48,6 @@ Neste guia, explicamos **como separar finanças pessoais e empresariais** em 202
 
 ### Como Configurar Contas Separadas
 
-```javascript
-// Stripe: Configurar pagamentos para conta empresarial
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'negocio@seudominio.com',
-  business_type: 'company',
-  company: {
-    name: 'Sua Empresa LLC',
-    tax_id: 'XX-XXXXXXX', // EIN
-  },
-  external_account: {
-    object: 'bank_account',
-    country: 'US',
-    currency: 'usd',
-    account_number: '000123456789', // Conta empresarial
-    routing_number: '110000000',
-  },
-});
-
-// Stripe nunca mistura fundos pessoais com empresariais
-const payout = await stripe.payouts.create({
-  amount: 500000, // $5,000
-  currency: 'usd',
-  destination: 'ba_empresarial', // Apenas para conta da empresa
-});
-```
-
 ### Bancos Recomendados para Empresas
 
 | Banco | Tipo | Abertura Remota | Ideal para |
@@ -98,53 +70,9 @@ const payout = await stripe.payouts.create({
 
 ### Stripe Issuing (Cartões Corporativos)
 
-```javascript
-// Stripe Issuing: Criar cartão corporativo
-const card = await stripe.issuing.cards.create({
-  cardholder: 'ich_cardholder_id',
-  currency: 'usd',
-  type: 'virtual',
-  spending_controls: {
-    spending_limits: [
-      {
-        amount: 500000, // $5.000 limite mensal
-        interval: 'monthly',
-        categories: ['saas', 'advertising', 'software'],
-      },
-    ],
-  },
-});
-
-// Controle de gastos por categoria
-const transaction = await stripe.issuing.transactions.list({
-  card: card.id,
-  limit: 10,
-});
-```
-
 ## 4. Faturamento em Nome da Empresa
 
 ### Stripe Invoicing com Dados Empresariais
-
-```javascript
-const invoice = await stripe.invoices.create({
-  customer: customer.id,
-  currency: 'usd',
-  collection_method: 'send_invoice',
-  days_until_due: 30,
-  custom_fields: [
-    {
-      name: 'CNPJ / EIN',
-      value: 'XX-XXXXXXX',
-    },
-    {
-      name: 'Ordem de Compra',
-      value: 'PO-2026-001',
-    },
-  ],
-  footer: 'Sua Empresa LLC - Todos os direitos reservados',
-});
-```
 
 ### Elementos de uma Fatura Empresarial
 
@@ -159,40 +87,6 @@ const invoice = await stripe.invoices.create({
 ## 5. Stripe com Entidade Empresarial
 
 ### Configurar Stripe em Nome da Empresa
-
-```javascript
-// Criar conta Stripe empresarial
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'financas@suaempresa.com',
-  business_type: 'company',
-  company: {
-    name: 'Sua Empresa LLC',
-    tax_id: 'XX-XXXXXXX',
-    address: {
-      line1: '123 Business Ave',
-      city: 'Wilmington',
-      state: 'DE',
-      postal_code: '19801',
-      country: 'US',
-    },
-    phone: '+13025551234',
-  },
-  business_profile: {
-    url: 'https://suaempresa.com',
-    mcc: 7372,
-  },
-  settings: {
-    payouts: {
-      schedule: {
-        interval: 'weekly',
-        delay_days: 3,
-      },
-    },
-  },
-});
-```
 
 ### Benefícios do Stripe Empresarial
 
@@ -218,18 +112,6 @@ const account = await stripe.accounts.create({
 
 ### Integração Stripe + Contabilidade
 
-```javascript
-// Stripe + QuickBooks: Exportar transações automaticamente
-// Use Zapier ou integração nativa
-
-// Categorizar pagamentos do Stripe no QuickBooks
-const paymentIntent = await stripe.paymentIntents.retrieve('pi_xxx');
-// QuickBooks registra: Receita → Conta empresarial
-
-// Cada transação do Stripe é atribuída automaticamente
-// à categoria contábil correta
-```
-
 ### Categorização de Transações
 
 | Categoria | Exemplos | Dedutível |
@@ -253,21 +135,6 @@ const paymentIntent = await stripe.paymentIntents.retrieve('pi_xxx');
 | **Dividendos** | Distribuição de lucros | C-Corp |
 | **Reembolso de despesas** | Devolução de gastos empresariais pagos pessoalmente | Todos |
 
-```javascript
-// Stripe: Transferência de lucros para conta pessoal
-// A empresa paga você como pessoa física
-
-// 1. Stripe recebe o pagamento do cliente → Conta empresarial
-// 2. A empresa transfere seu salário/draw
-// 3. Você declara essa receita na sua declaração pessoal
-const transfer = await stripe.transfers.create({
-  amount: 100000, // $1,000
-  currency: 'usd',
-  destination: 'ba_sua_conta_pessoal',
-  transfer_group: 'SALARY-2026-01',
-});
-```
-
 ## 8. Gestão de Impostos
 
 ### Impostos Pessoais vs. Empresariais
@@ -281,31 +148,6 @@ const transfer = await stripe.transfers.create({
 | **Risco** | Baixo se separado | Baixo se contabilidade organizada |
 
 ### Stripe Tax para Separação
-
-```javascript
-// Stripe Tax: Impostos claros por transação
-// Os impostos são da empresa, não pessoais
-
-const taxCalculation = await stripe.tax.calculations.create({
-  currency: 'usd',
-  line_items: [
-    {
-      amount: 10000,
-      reference: 'L1',
-      tax_code: 'txcd_99999999',
-      quantity: 1,
-    },
-  ],
-  customer_details: {
-    address: {
-      line1: 'Endereço do Cliente',
-      country: 'US',
-      postal_code: '90210',
-    },
-    address_source: 'billing',
-  },
-});
-```
 
 ## 9. Checklist de Separação Diária
 

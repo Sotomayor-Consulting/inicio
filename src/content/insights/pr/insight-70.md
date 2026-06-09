@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Projetar uma Imagem Profissional com Stripe: Guia 2026"
 description: "Como projetar uma imagem profissional com Stripe"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Checkout profissional do Stripe com marca personalizada, faturas e portal do cliente"
 ---
 
@@ -38,111 +38,13 @@ Neste guia, explicamos **como projetar uma imagem profissional com Stripe** em 2
 
 ### Stripe Checkout Personalizado
 
-```javascript
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Consultoria Profissional',
-        images: ['https://seusite.com/logo.png'],
-      },
-      unit_amount: 29900,
-    },
-    quantity: 1,
-  }],
-  payment_intent_data: {
-    setup_future_usage: 'off_session',
-  },
-  customize: {
-    submit_type: 'pay',
-    brand: '#1a365d',
-    logo: 'https://seusite.com/logo-checkout.png',
-  },
-  custom_text: {
-    submit: 'Pagar $299.00 USD',
-    terms_of_service_acceptance: {
-      text: 'Aceito os termos e condições',
-    },
-  },
-  locale: 'pt',
-});
-```
-
 ### Payment Elements com seu Estilo
 
-```javascript
-const elements = stripe.elements({
-  appearance: {
-    theme: 'none',
-    variables: {
-      colorPrimary: '#1a365d',
-      colorBackground: '#ffffff',
-      colorText: '#1a202c',
-      colorDanger: '#e53e3e',
-      fontFamily: 'Inter, system-ui, sans-serif',
-      borderRadius: '8px',
-      fontSizeBase: '16px',
-      spacingUnit: '4px',
-    },
-    rules: {
-      '.Input': {
-        border: '1px solid #e2e8f0',
-        padding: '12px',
-      },
-      '.Input:focus': {
-        border: '1px solid #1a365d',
-        boxShadow: '0 0 0 3px rgba(26, 54, 93, 0.1)',
-      },
-      '.Label': {
-        fontWeight: '600',
-        color: '#2d3748',
-      },
-    },
-  },
-});
-```
-
 ### Configuração de Marca no Stripe Dashboard
-
-```
-Stripe Dashboard → Configurações → Marca
-- Ícone: Logo quadrado (128x128px)
-- Logo: Logo horizontal para faturas
-- Cor da marca: Cor primária
-- Cor de destaque: Cor secundária
-- URL da empresa: seudominio.com
-- Endereço e dados de contato
-- Política de privacidade e termos
-```
 
 ## 3. Faturas Profissionais
 
 ### Personalização de Faturas
-
-```javascript
-const invoice = await stripe.invoices.create({
-  customer: customer.id,
-  currency: 'usd',
-  collection_method: 'send_invoice',
-  days_until_due: 15,
-  custom_fields: [
-    {
-      name: 'Ordem de Compra',
-      value: 'PO-2026-0451',
-    },
-    {
-      name: 'Projeto',
-      value: 'Consultoria Q1 2026',
-    },
-  ],
-  footer: 'Obrigado pela confiança. Sotomayor Consulting International',
-  rendering_options: {
-    amount_tax_display: 'include_inclusive_tax',
-  },
-});
-```
 
 ### Elementos de uma Fatura Profissional
 
@@ -161,52 +63,11 @@ const invoice = await stripe.invoices.create({
 
 O Stripe envia automaticamente as faturas por email com sua marca:
 
-```
-De: Sua Empresa <faturamento@seudominio.com>
-Assunto: Fatura INV-2026-001 - Sua Empresa
-
-[Logo da sua empresa]
-
-Fatura INV-2026-001
-Data: 15/01/2026
-Vencimento: 30/01/2026
-
-Descrição: Consultoria estratégica
-Valor: $299.00 USD
-
-[Ver Fatura →]
-
-Obrigado por confiar em nós.
-```
-
 ## 4. Portal do Cliente (Customer Portal)
 
 ### Experiência de Autogestão
 
 O **Customer Portal** do Stripe pode ser personalizado para coincidir com sua marca:
-
-```javascript
-const session = await stripe.billingPortal.sessions.create({
-  customer: customer.id,
-  return_url: 'https://seudominio.com/account',
-  configuration: {
-    business_profile: {
-      headline: 'Gerencie sua assinatura',
-      privacy_policy_url: 'https://seudominio.com/privacidade',
-      terms_of_service_url: 'https://seudominio.com/termos',
-    },
-    features: {
-      subscription_update: {
-        enabled: true,
-        proration_behavior: 'create_prorations',
-        products: ['prod_saas_pro', 'prod_saas_enterprise'],
-      },
-      invoice_history: { enabled: true },
-      payment_method_update: { enabled: true },
-    },
-  },
-});
-```
 
 ## 5. Emails e Comunicações
 
@@ -223,40 +84,9 @@ const session = await stripe.billingPortal.sessions.create({
 
 ### Envio de Emails via Stripe
 
-```javascript
-// Stripe pode enviar emails automáticos com sua marca
-// Configure em: Stripe → Configurações → Emails
-
-// Opção: Usar webhooks para enviar seus próprios emails
-case 'invoice.payment_succeeded':
-  const paidInvoice = event.data.object;
-  const cust = await stripe.customers.retrieve(paidInvoice.customer);
-
-  await sendProfessionalEmail({
-    to: cust.email,
-    subject: '✓ Pagamento confirmado - Sua Empresa',
-    template: 'payment_confirmation',
-    data: {
-      name: cust.name,
-      amount: paidInvoice.amount_paid / 100,
-      currency: paidInvoice.currency,
-      invoiceNumber: paidInvoice.number,
-      invoiceUrl: paidInvoice.hosted_invoice_url,
-    },
-  });
-  break;
-```
-
 ## 6. Domínio Personalizado e URLs
 
 ### Configurar Domínio Personalizado
-
-```
-Stripe Dashboard → Configurações → Domínios personalizados
-- Adicione: checkout.seudominio.com
-- Configure o DNS (CNAME)
-- Verifique SSL
-```
 
 | Benefício | Descrição |
 |-----------|-----------|
@@ -269,38 +99,7 @@ Stripe Dashboard → Configurações → Domínios personalizados
 
 ### Preços Localizados
 
-```javascript
-// Criar preços em múltiplas moedas
-const prices = await Promise.all([
-  stripe.prices.create({
-    unit_amount: 29900,
-    currency: 'usd',
-    product: 'prod_consulting',
-  }),
-  stripe.prices.create({
-    unit_amount: 27500,
-    currency: 'eur',
-    product: 'prod_consulting',
-  }),
-  stripe.prices.create({
-    unit_amount: 159900,
-    currency: 'brl',
-    product: 'prod_consulting',
-  }),
-]);
-```
-
 ### Detecção de Idioma e Moeda
-
-```javascript
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [/* ... */],
-  locale: 'auto', // Stripe detecta o idioma do navegador
-  // Forçar idioma específico:
-  // locale: 'pt', 'en', 'es', 'fr', 'de', etc.
-});
-```
 
 ## 8. Stripe Apps e Personalização
 

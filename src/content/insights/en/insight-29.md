@@ -1,4 +1,4 @@
-﻿---
+---
 title: "What If Your LLC Was Poorly Structured? Problems and Solutions"
 description: "Consequences of a poorly structured LLC, how to detect structural problems, and steps to fix them before it's too late."
 cardImage: "@/images/insights/llc-mal-estructurada.png"
@@ -104,7 +104,7 @@ A poorly structured LLC is one that does not meet one or more of the legal, tax,
 - Convenience of using a single account.
 
 **Consequences:**
-- **You lose the corporate veil** —a judge can ignore the LLC and go after your personal assets in a lawsuit.
+- **You lose the corporate veil** �a judge can ignore the LLC and go after your personal assets in a lawsuit.
 - The bank can close the account for violating terms of service.
 - The IRS can question the validity of the LLC for tax purposes.
 
@@ -215,18 +215,18 @@ Answer these questions:
 
 | Question | Yes (good) | No (problem) |
 |----------|-----------|--------------|
-| Do you have a written Operating Agreement? | ✅ | ❌ |
-| Does the LLC name match exactly on all documents? | ✅ | ❌ |
-| Do you have a separate bank account for the LLC? | ✅ | ❌ |
-| Do you use the LLC account only for business expenses? | ✅ | ❌ |
-| Do you know which IRS form to file (5472 or 1065)? | ✅ | ❌ |
-| Have you filed all required returns on time? | ✅ | ❌ |
-| Is your Registered Agent a professional service? | ✅ | ❌ |
-| Do your partners have a signed agreement? | ✅ | ❌ |
-| Have you filed the BOI with FinCEN? | ✅ | ❌ |
-| Do you know how your country treats your LLC for tax purposes? | ✅ | ❌ |
-| Is your address updated with the IRS? | ✅ | ❌ |
-| Do you have an exit or succession plan? | ✅ | ❌ |
+| Do you have a written Operating Agreement? | ? | ? |
+| Does the LLC name match exactly on all documents? | ? | ? |
+| Do you have a separate bank account for the LLC? | ? | ? |
+| Do you use the LLC account only for business expenses? | ? | ? |
+| Do you know which IRS form to file (5472 or 1065)? | ? | ? |
+| Have you filed all required returns on time? | ? | ? |
+| Is your Registered Agent a professional service? | ? | ? |
+| Do your partners have a signed agreement? | ? | ? |
+| Have you filed the BOI with FinCEN? | ? | ? |
+| Do you know how your country treats your LLC for tax purposes? | ? | ? |
+| Is your address updated with the IRS? | ? | ? |
+| Do you have an exit or succession plan? | ? | ? |
 
 **If you answered "No" to 3 or more questions, your LLC likely needs restructuring.**
 
@@ -336,7 +336,7 @@ Sometimes it is cheaper and faster to close the poorly structured LLC and form a
 
 ## Conclusion
 
-A poorly structured LLC can cost you money, time, and peace of mind. The most common problems —wrong state, missing Operating Agreement, incorrect tax classification— are preventable with good initial advice.
+A poorly structured LLC can cost you money, time, and peace of mind. The most common problems �wrong state, missing Operating Agreement, incorrect tax classification� are preventable with good initial advice.
 
 If you already have an LLC and suspect it is poorly structured, **do not wait**. Do a self-assessment, identify the problems, and fix them. In most cases, corrections are possible and the cost is less than the consequences of doing nothing.
 

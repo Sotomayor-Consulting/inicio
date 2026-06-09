@@ -1,7 +1,7 @@
----
+﻿---
 title: "Diferencia Entre Proteger y Ocultar Patrimonio: Guía 2026"
 description: "Diferencia entre proteger y ocultar patrimonio"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
 cardImageAlt: "Balanza de la justicia con un lado transparente y otro oscuro, simbolizando la diferencia entre protección legal y ocultamiento ilegal"
 ---
 
@@ -117,27 +117,6 @@ En esta guía, explicamos **la diferencia entre proteger y ocultar patrimonio** 
 
 ### Cómo Mantener la Transparencia
 
-```javascript
-// Stripe: La plataforma reporta ingresos a tu país
-// si está configurada correctamente
-
-// Siempre usa tu EIN o número fiscal real
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'tu@email.com',
-  business_type: 'individual', // o 'company'
-  // Toda la información es veraz y declarable
-  individual: {
-    first_name: 'Tu Nombre',
-    last_name: 'Tu Apellido',
-    address: {
-      // Dirección real y declarada
-    },
-  },
-});
-```
-
 ## 6. Transparencia Fiscal Internacional
 
 ### FATCA (Foreign Account Tax Compliance Act)
@@ -211,27 +190,6 @@ const account = await stripe.accounts.create({
 | **5** | Usa servicios bancarios formales (Mercury, Relay, Wise, HSBC) |
 | **6** | Contrata un contador local que conozca tus estructuras internacionales |
 | **7** | Revisa tu plan patrimonial anualmente |
-
-```javascript
-// Buenas prácticas con Stripe:
-// 1. Usa tu información fiscal real
-// 2. Declara los ingresos de Stripe en tu país
-// 3. Reporta tu cuenta de Stripe si aplica FATCA/CRS
-const stripe = require('stripe')('sk_live_...');
-
-// Configuración fiscal correcta
-await stripe.accounts.update('acct_xxx', {
-  settings: {
-    payments: {
-      statement_descriptor: 'Tu Empresa Legal',
-    },
-  },
-  business_profile: {
-    url: 'https://tudominio.com',
-    mcc: 7372, // Código de industria correcto
-  },
-});
-```
 
 ## 10. Preguntas Frecuentes
 

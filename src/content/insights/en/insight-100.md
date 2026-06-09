@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Structure a Scalable Business: 2026 Guide"
 description: "Structure a scalable business"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/negocios-internacionales.png"
 cardImageAlt: "Scalable business structure with multi-entity setup, automation, global banking, and growth infrastructure"
 ---
 
@@ -25,23 +25,6 @@ In this guide, we explain **how to structure a scalable business** in 2026: from
 
 ### The Scalability Pyramid
 
-```
-SCALABILITY PYRAMID:
-
-         ╱╲
-        ╱  ╲
-       ╱ TIER3 ╲     AUTOMATION & AI
-      ╱──────────╲   - AI workflows, auto-scaling
-     ╱            ╲  - No-code automation
-    ╱   TIER 2    ╲  SYSTEMS & PROCESSES
-   ╱────────────────╲- SOPs, playbooks, delegation
-  ╱                  ╲
- ╱     TIER 1        ╲  FOUNDATION
-╱──────────────────────╲- Entity, banking, compliance
-╱                        ╲- Tech stack, pricing model
-──────────────────────────
-```
-
 ## 2. Tier 1: Entity and Financial Foundation
 
 ### Choose Your Scalable Entity Structure
@@ -55,51 +38,6 @@ SCALABILITY PYRAMID:
 
 ### Why U.S. Entity Is the Scalable Default
 
-```
-U.S. ENTITY ADVANTAGES FOR SCALABILITY:
-
-✅ GLOBAL BANKING ACCESS
-   - Mercury, Relay, Wise, Brex
-   - API-first banking with programmable cards
-   - Multi-currency accounts built-in
-
-✅ PAYMENT INFRASTRUCTURE
-   - Stripe with full capabilities
-   - 135+ currencies, local payment methods
-   - Stripe Tax, Stripe Connect, Stripe Billing
-
-✅ TAX EFFICIENCY AT SCALE
-   - No U.S. tax on foreign income (single-member LLC)
-   - Pass-through taxation avoids double tax
-   - Treaty benefits with W-8BEN-E
-
-✅ INVESTOR-FRIENDLY
-   - Familiar legal framework
-   - Clear cap table and equity structure
-   - Easy to raise capital
-
-✅ FAST TO MARKET
-   - LLC formed in 1-2 days
-   - Bank account opened remotely
-   - Stripe activated within days
-```
-
-```javascript
-// Scalable entity stack
-
-const scalableEntity = {
-  operating: 'U.S. LLC (Wyoming)',
-  taxElection: 'Disregarded entity (single-member)',
-  ein: 'XX-XXXXXXX',
-  banking: ['Mercury (USD)', 'Wise (multi-currency)'],
-  payments: 'Stripe',
-  compliance: 'Sotomayor Consulting International',
-};
-
-// This stack scales from $0 to $10M+ revenue
-// without changing the core structure
-```
-
 ### Banking Infrastructure That Scales
 
 | Revenue Stage | Banking Setup | Why |
@@ -108,32 +46,6 @@ const scalableEntity = {
 | **$100K-$1M** | Mercury Treasury + Wise | Earn 4-5% APY on reserves |
 | **$1M-$10M** | Mercury + Brex + Wise | Credit lines, corporate cards |
 | **$10M+** | Multi-bank + dedicated RM | Redundancy, negotiation power |
-
-```javascript
-// Programmatic banking at scale with Mercury
-
-// Automate vendor payments
-const batchPayment = await mercury.transactions.sendBatch({
-  accountId: '{{ACCOUNT_ID}}',
-  payments: [
-    { recipient: 'AWS', amount: 5000 },
-    { recipient: 'Contractor A', amount: 3000 },
-    { recipient: 'Contractor B', amount: 2500 },
-    { recipient: 'SaaS Tools', amount: 1200 },
-  ],
-});
-
-// Create virtual cards with limits per vendor
-const awsCard = await mercury.cards.create({
-  accountId: '{{ACCOUNT_ID}}',
-  cardholder: { name: 'AWS Cloud' },
-  type: 'virtual',
-  controls: {
-    spendingLimits: { monthly: 10000 },
-    merchantCategories: { allowed: ['cloud_computing'] },
-  },
-});
-```
 
 ## 3. Tier 2: Systems and Processes
 
@@ -152,74 +64,6 @@ const awsCard = await mercury.cards.create({
 
 ### Building SOPs That Scale
 
-```
-SCALABLE SOP FRAMEWORK:
-
-EVERY PROCESS MUST HAVE:
-
-1. INPUT → What triggers this process?
-   Example: "New client signs contract"
-
-2. STEPS → Numbered, sequential, no ambiguity
-   Example:
-    1. Send welcome email (template in Notion)
-    2. Create project in Linear
-    3. Assign team members
-    4. Schedule kickoff call
-    5. Send intake form
-
-3. OUTPUT → What is the deliverable?
-   Example: "Client project launched with all team members assigned"
-
-4. OWNER → Who is responsible?
-   Example: "Project Manager (rotating)"
-
-5. TOOLS → What tools are used?
-   Example: "Linear, Slack, Google Meet, Notion"
-
-6. TIMING → When must it be done?
-   Example: "Within 24 hours of contract signing"
-
-RULES:
-- Every process must be documented before delegating
-- Every process must have a single owner
-- Every process must have a measurable output
-- Review and update every 90 days
-```
-
-```javascript
-// Stripe Billing: Recurring revenue at scale
-
-// Create a subscription product
-const product = await stripe.products.create({
-  name: 'Premium Plan',
-  description: 'Scalable monthly subscription',
-});
-
-const price = await stripe.prices.create({
-  product: product.id,
-  unit_amount: 9900, // $99/month
-  currency: 'usd',
-  recurring: { interval: 'month' },
-});
-
-// Create subscription with trial
-const subscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}',
-  items: [{ price: price.id }],
-  trial_period_days: 14,
-  payment_behavior: 'default_incomplete',
-  expand: ['latest_invoice.payment_intent'],
-});
-
-// Automatically:
-// ✅ Charges customer monthly
-// ✅ Handles failed payments (dunning)
-// ✅ Sends invoices and receipts
-// ✅ Manages prorations
-// ✅ Supports upgrades/downgrades
-```
-
 ### Delegation and Team Building
 
 | Role | When to Hire | Where to Find | Cost Range |
@@ -231,76 +75,9 @@ const subscription = await stripe.subscriptions.create({
 | **CTO / Tech Lead** | $20K-$50K MRR | Toptal, Vettery | $5,000-$15,000/mo |
 | **CFO / Finance** | $50K-$100K MRR | Pilot, fractional CFO | $1,000-$5,000/mo |
 
-```
-HIRING SCALABLE TEAMS:
-
-STAGE 1: FOUNDER (+ AUTOMATION) — $0-$5K MRR
-- Founder does everything
-- No-code tools automate repetitive tasks
-- AI assistants handle initial customer queries
-
-STAGE 2: FOUNDER + 1 VA — $5K-$15K MRR
-- VA handles admin, scheduling, email
-- Founder focuses on delivery and sales
-- Systems documented in Notion
-
-STAGE 3: SMALL TEAM — $15K-$50K MRR
-- Operations Manager oversees daily work
-- Specialists hired per function
-- Playbooks and SOPs fully documented
-
-STAGE 4: DEPARTMENTAL — $50K-$200K MRR
-- Department heads hired per area
-- Founder shifts to strategy and vision
-- Company-wide KPIs and OKRs
-
-STAGE 5: EXECUTIVE — $200K+ MRR
-- CEO, COO, CTO, CMO, CFO
-- Founder may step into Chairman role
-- Systems run the company
-```
-
 ## 4. Tier 3: Automation and AI
 
 ### The Scalable Tech Stack
-
-```javascript
-// Stripe: The backbone of scalable payments
-
-// 1. Automated recurring billing
-const subscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}',
-  items: [{ price: '{{PRICE_ID}}' }],
-  collection_method: 'charge_automatically',
-});
-
-// 2. Usage-based billing (scales with customer)
-const usageRecord = await stripe.subscriptionItems.createUsageRecord(
-  '{{SUBSCRIPTION_ITEM_ID}}',
-  {
-    quantity: 150, // API calls, storage, etc.
-    timestamp: Math.floor(Date.now() / 1000),
-  }
-);
-
-// 3. Automatic tax collection
-await stripe.tax.settings.update({
-  defaults: { tax_behavior: 'exclusive' },
-});
-
-// 4. Stripe Connect for platform economics
-const account = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  business_type: 'individual',
-});
-
-// 5. Automated payouts
-const payout = await stripe.payouts.create({
-  amount: 500000, // $5,000
-  currency: 'usd',
-});
-```
 
 ### No-Code and Low-Code Automation
 
@@ -315,34 +92,6 @@ const payout = await stripe.payouts.create({
 | **Contract Signing** | DocuSign / PandaDoc | Auto-send and track signatures |
 | **Data Backup** | Zapier + Google Drive | Auto-backup critical files |
 
-```
-AUTOMATION HIERARCHY:
-
-LEVEL 1: REPETITIVE TASKS
-   - Email templates and responses
-   - Invoice generation and sending
-   - Social media scheduling
-   → Tools: Zapier, Stripe, Buffer
-
-LEVEL 2: CUSTOMER-FACING
-   - Onboarding sequences
-   - Support ticket routing
-   - Payment reminders (dunning)
-   → Tools: Intercom, Stripe Billing, ConvertKit
-
-LEVEL 3: OPERATIONAL
-   - Financial reporting
-   - Team task assignment
-   - Performance monitoring
-   → Tools: QuickBooks, Linear, GA4
-
-LEVEL 4: STRATEGIC (AI-POWERED)
-   - Customer segmentation
-   - Pricing optimization
-   - Churn prediction
-   → Tools: Stripe Sigma, AI analytics
-```
-
 ### AI for Business Scalability
 
 | Use Case | AI Tool | Impact |
@@ -353,37 +102,6 @@ LEVEL 4: STRATEGIC (AI-POWERED)
 | **Code Generation** | Cursor / GitHub Copilot | 2-3x developer productivity |
 | **Translation** | DeepL API | Real-time multi-language support |
 | **Bookkeeping** | Pilot / Bench AI | Automated categorization |
-
-```javascript
-// Stripe Sigma: SQL queries for scalable insights
-
-// Monthly recurring revenue (MRR)
-SELECT
-  date_trunc('month', created) as month,
-  sum(amount) / 100 as mrr
-FROM subscriptions
-WHERE status = 'active'
-GROUP BY month
-ORDER BY month DESC;
-
-// Customer churn rate
-SELECT
-  date_trunc('month', created) as month,
-  count(*) as churned_customers
-FROM subscriptions
-WHERE status = 'canceled'
-GROUP BY month
-ORDER BY month DESC;
-
-// Revenue by currency
-SELECT
-  currency,
-  sum(amount) / 100 as total_revenue
-FROM charges
-WHERE status = 'succeeded'
-GROUP BY currency
-ORDER BY total_revenue DESC;
-```
 
 ## 5. Pricing for Scalability
 
@@ -401,77 +119,6 @@ ORDER BY total_revenue DESC;
 
 ### Building a Scalable Pricing Strategy
 
-```
-PRICING SCALABILITY PRINCIPLES:
-
-PRINCIPLE 1: RECURRING OVER ONE-TIME
-   - One sale should generate multiple payments
-   - Subscription > project
-   - Retainer > hourly
-
-PRINCIPLE 2: SELF-SERVE OVER SALES-HEAVY
-   - Customer should buy without talking to you
-   - Clear pricing page > "Contact us"
-   - Self-onboarding > demo calls
-
-PRINCIPLE 3: TIERS OVER SINGLE PRICE
-   - 3 tiers capture different segments
-   - Free/Starter → Professional → Enterprise
-   - Each tier adds value, not just features
-
-PRINCIPLE 4: USAGE-BASED FOR UPSIDE
-   - Base fee + usage scales with customer success
-   - Transaction fee, API calls, storage
-   - Customer grows = your revenue grows
-
-PRINCIPLE 5: ANNUAL OVER MONTHLY
-   - Annual = higher upfront + lower churn
-   - Offer 2 months free for annual
-   - Improves cash flow and retention
-```
-
-```javascript
-// Stripe: Scalable pricing implementation
-
-// Tiered SaaS pricing
-const tiers = {
-  starter: {
-    name: 'Starter',
-    price: 2900, // $29/month
-    features: ['1 user', 'Basic reports', 'Email support'],
-  },
-  professional: {
-    name: 'Professional',
-    price: 9900, // $99/month
-    features: ['10 users', 'Advanced reports', 'Priority support'],
-  },
-  enterprise: {
-    name: 'Enterprise',
-    price: 29900, // $299/month
-    features: ['Unlimited users', 'Custom reports', 'Dedicated support'],
-  },
-};
-
-// Create prices in Stripe
-for (const [key, tier] of Object.entries(tiers)) {
-  const price = await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: tier.price,
-    currency: 'usd',
-    recurring: { interval: 'month' },
-    metadata: { tier: key },
-  });
-}
-
-// Offer annual discount (2 months free)
-const annualPrice = await stripe.prices.create({
-  product: '{{PRODUCT_ID}}',
-  unit_amount: 99000, // $990/year = $82.50/mo
-  currency: 'usd',
-  recurring: { interval: 'year' },
-});
-```
-
 ## 6. Scalable Compliance and Risk Management
 
 ### Compliance That Scales With You
@@ -484,60 +131,6 @@ const annualPrice = await stripe.prices.create({
 | **$10M+** | Full compliance team | Dedicated CFO, legal counsel, audit prep |
 
 ### Risk Management for Scalable Businesses
-
-```
-SCALABLE RISK MANAGEMENT:
-
-ENTITY PROTECTION:
-- LLC or Corporation (limited liability)
-- Separated personal and business assets
-- Proper operating agreement
-
-INTELLECTUAL PROPERTY:
-- Trademark registration (Madrid Protocol)
-- Patent filings (if applicable)
-- IP assignment from all contractors
-- Domain portfolio management
-
-DATA AND SECURITY:
-- GDPR/LGPD/CCPA compliance
-- Data processing agreements
-- Regular security audits
-- Cyber liability insurance
-
-FINANCIAL RISK:
-- Multi-bank strategy (redundancy)
-- 3-6 months operating reserves
-- Diversified payment processors
-- Fraud detection (Stripe Radar)
-
-CONTRACTUAL:
-- Standardized client contracts
-- Clear terms of service
-- Limitation of liability clauses
-- Dispute resolution terms
-```
-
-```javascript
-// Stripe Radar: Fraud prevention at scale
-
-// Custom fraud rules
-const radarRule = await stripe.radar.rules.create({
-  name: 'Block high-risk countries',
-  description: 'Block payments from high-risk jurisdictions',
-  conditions: [
-    { field: 'card_country', operator: 'in', value: ['XX', 'YY', 'ZZ'] },
-    { field: 'is_high_risk', operator: 'equals', value: true },
-  ],
-  actions: ['block'],
-});
-
-// Stripe automatically:
-// ✅ Blocks fraudulent transactions
-// ✅ Reviews suspicious payments
-// ✅ Learns from your data
-// ✅ Updates rules in real-time
-```
 
 ## 7. Scalable Business Models That Work
 
@@ -554,60 +147,6 @@ const radarRule = await stripe.radar.rules.create({
 | **Fintech/Embedded Finance** | Stripe, Mercury | $10M-$100B+ | Transaction volume |
 
 ### The Productized Service Model
-
-```
-PRODUCTIZED SERVICE = THE MOST SCALABLE SERVICE MODEL:
-
-WHAT IT IS:
-A service sold as a fixed-price product
-with clear deliverables and timelines.
-
-EXAMPLES:
-- "$2,500/month — Social Media Management" (not "social media consulting")
-- "$5,000 — Website in 2 weeks" (not "web development")
-- "$1,000/month — SEO Maintenance" (not "SEO services")
-
-WHY IT SCALES:
-✅ Fixed price = predictable revenue
-✅ Fixed scope = efficient delivery
-✅ Clear offer = easy to sell
-✅ Systematized = easy to delegate
-✅ Repeatable = easy to train
-
-TRANSITIONING FROM AGENCY TO PRODUCTIZED:
-1. Identify your most requested service
-2. Define fixed scope and deliverables
-3. Set a fixed price (not hourly)
-4. Create delivery playbook
-5. Hire and train from playbook
-6. Raise prices as you improve
-```
-
-```javascript
-// Stripe: Collect payments for productized services
-
-// Payment link for fixed-price service
-const paymentLink = await stripe.paymentLinks.create({
-  line_items: [{
-    price: '{{PRICE_ID}}', // Fixed price service
-    quantity: 1,
-  }],
-  after_completion: {
-    type: 'redirect',
-    redirect: { url: 'https://company.com/onboarding' },
-  },
-});
-
-// Subscription for monthly retainer
-const subscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}',
-  items: [{
-    price: '{{MONTHLY_RETAINER_PRICE_ID}}',
-    quantity: 1,
-  }],
-  payment_behavior: 'default_incomplete',
-});
-```
 
 ## 8. Common Mistakes When Structuring a Scalable Business
 
@@ -688,51 +227,6 @@ const subscription = await stripe.subscriptions.create({
 - [ ] Local payment methods configured
 - [ ] International support plan ready
 - [ ] Growth metrics dashboard (MRR, churn, LTV)
-
-```javascript
-// Your complete scalable business stack
-
-const scalableStack = {
-  entity: 'Wyoming LLC (pass-through taxation)',
-  banking: {
-    operating: 'Mercury',
-    multiCurrency: 'Wise Business',
-    yield: 'Mercury Treasury (4-5% APY)',
-  },
-  payments: {
-    processor: 'Stripe',
-    billing: 'Stripe Billing (subscriptions)',
-    tax: 'Stripe Tax (automated)',
-    fraud: 'Stripe Radar (AI-powered)',
-  },
-  operations: {
-    crm: 'HubSpot',
-    projectMgmt: 'Linear',
-    docs: 'Notion',
-    communication: 'Slack',
-    accounting: 'QuickBooks',
-    payroll: 'Deel',
-  },
-  automation: {
-    workflows: 'Zapier / Make',
-    support: 'Intercom (AI chatbot)',
-    email: 'ConvertKit',
-  },
-  compliance: {
-    tax: 'Annual Form 5472',
-    state: 'Wyoming annual report ($60)',
-    dataPrivacy: 'GDPR + LGPD + CCPA',
-    ip: 'Trademark (Madrid Protocol)',
-    advisor: 'Sotomayor Consulting International',
-  },
-  metrics: {
-    mrr: 'Stripe Dashboard',
-    churn: 'Stripe Sigma',
-    ltv: 'Stripe Sigma + GA4',
-    cashFlow: 'Mercury Dashboard',
-  },
-};
-```
 
 ## Conclusion
 

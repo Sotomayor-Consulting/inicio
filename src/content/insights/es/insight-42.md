@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Justificar Transferencias Internacionales: Guía para Evitar Problemas Fiscales"
 description: "Justificación de transferencias internacionales"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/cumplimiento-fiscal.png"
 cardImageAlt: "Transferencia bancaria internacional entre países con documentos de respaldo"
 ---
 
@@ -172,22 +172,6 @@ Si tu banco te solicita información sobre una transferencia internacional:
 Un sistema organizado te permitirá responder rápidamente a cualquier cuestionamiento:
 
 ### Estructura sugerida:
-```
-Transferencias Internacionales/
-├── Año/
-│   ├── Recibidas/
-│   │   ├── Cliente A/
-│   │   │   ├── Comprobante SWIFT
-│   │   │   ├── Factura
-│   │   │   ├── Contrato
-│   │   │   └── Correspondencia
-│   │   └── Cliente B/
-│   ├── Enviadas/
-│   │   ├── Proveedor X/
-│   │   └── Inversión Y/
-│   └── Entre cuentas propias/
-```
-
 ### Herramientas recomendadas:
 - **Google Drive / Dropbox**: Para almacenamiento en la nube
 - **QuickBooks / Xero**: Para registros contables

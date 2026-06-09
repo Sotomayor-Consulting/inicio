@@ -1,7 +1,7 @@
----
+﻿---
 title: "Requisitos para Stripe en 2026: Todo lo que Necesitas Saber"
 description: "Requisitos para Stripe en 2026"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Pantalla de Stripe con sello de verificación 2026"
 ---
 

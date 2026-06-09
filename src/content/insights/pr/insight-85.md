@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Financiar Propriedades nos EUA sendo Estrangeiro: Guia 2026"
 description: "Como financiar propriedades nos EUA sendo estrangeiro"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Opções de financiamento para estrangeiros nos EUA: DSCR loan, conventional, hard money, seller financing, private lending"
 ---
 
@@ -23,52 +23,11 @@ Neste guia, explicamos **como financiar propriedades nos EUA sendo estrangeiro**
 
 ### Você é Elegível?
 
-```
-Tem SSN ou ITIN?
-├── Sim → Tem histórico de crédito nos EUA?
-│   ├── Sim → Conventional / Portfolio / DSCR
-│   └── Não → DSCR / Hard Money / Private
-└── Não → Tem renda de aluguel?
-    ├── Sim → DSCR Loan (melhor opção)
-    └── Não → Hard Money / Cash / Seller Financing
-```
-
-```javascript
-// Stripe não origina empréstimos, mas gera relatórios de receita
-// que bancos e credores usam para aprovar DSCR loans
-
-// Relatório de receita de aluguel para o credor
-const report = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 31536000, // 12 meses
-    interval_end: Math.floor(Date.now() / 1000),
-    columns: ['created', 'amount', 'description', 'status'],
-  },
-});
-
-// Baixe este relatório e apresente ao banco
-```
-
 ## 2. DSCR Loan: A Melhor Opção para Estrangeiros
 
 ### O que é um DSCR Loan?
 
 DSCR significa **Debt Service Coverage Ratio**. É um empréstimo baseado no fluxo de caixa da propriedade, NÃO na sua renda pessoal. O credor avalia:
-
-```
-DSCR = Renda líquida de aluguel / Pagamento mensal do empréstimo
-
-Exemplo:
-Aluguel mensal: $3.500
-Pagamento mensal (hipoteca + seguros + tax): $2.800
-DSCR = $3.500 / $2.800 = 1,25
-
-Requisito típico: DSCR ≥ 1,0
-
-Se DSCR = 1,25, o empréstimo é aprovado
-Se DSCR < 1,0, precisa de mais down payment
-```
 
 ### Requisitos para Estrangeiros
 
@@ -92,20 +51,6 @@ Se DSCR < 1,0, precisa de mais down payment
 | **Sem histórico nos EUA** | 8-10% | 30-35% | 1,25 |
 
 ### Como o Stripe Ajuda com DSCR
-
-```
-Stripe gera relatórios de receita que demonstram o DSCR:
-
-1. Configure Stripe na sua LLC
-2. Receba aluguéis pelo Stripe durante 12 meses
-3. Baixe o relatório de transações
-4. Apresente o relatório ao credor + tax returns
-
-Isto é especialmente útil se:
-- Você não tem W-2 nem tax returns pessoais nos EUA
-- Sua renda vem de múltiplas propriedades
-- Você quer demonstrar consistência de receita
-```
 
 ## 3. Conventional Loan (Empréstimo Tradicional)
 
@@ -158,23 +103,6 @@ Empréstimo de curto prazo, alta taxa, baseado no valor da propriedade (não no 
 
 ### Quando Usar Hard Money
 
-```
-Cenário ideal:
-- Compra uma propriedade por $200.000
-- Precisa de $50.000 em reparos
-- ARV (valor após reparo): $350.000
-- Hard money loan: 70% do ARV = $245.000
-- Usa $200.000 para comprar + $45.000 para reparar
-- Vende em 12 meses por $350.000
-- Paga o empréstimo + juros (~$220.000)
-- Lucro: $130.000 antes dos custos
-
-Cenário NÃO ideal:
-- Propriedade para aluguel de longo prazo
-- DSCR loan é melhor: taxa 8% vs 12%, prazo 30 anos
-- Hard money apenas se temporário (flip ou bridge)
-```
-
 ### Comparação Hard Money vs DSCR
 
 | Aspecto | Hard Money | DSCR Loan |
@@ -185,24 +113,6 @@ Cenário NÃO ideal:
 | **Aprovação** | 3-7 dias | 2-4 semanas |
 | **Down payment** | 20-30% | 20-35% |
 | **Pagamento mensal** | Apenas juros (IO) | Amortizado |
-
-```javascript
-// Stripe ajuda a demonstrar receita para refinanciar
-// de hard money para DSCR loan após os reparos
-
-// Relatório de aluguéis após reforma
-const rentalIncome = await stripe.checkout.sessions.list({
-  limit: 100,
-  created: { gte: Math.floor(Date.now() / 1000) - 7776000 }, // últimos 90 dias
-});
-
-// Com 90 dias de aluguéis consistentes, pode refinanciar
-const totalRentals = rentalIncome.data.reduce((sum, session) => {
-  return session.payment_status === 'paid' ? sum + session.amount_total : sum;
-}, 0);
-
-console.log(`Total recebido em 90 dias: $${(totalRentals / 100).toFixed(2)}`);
-```
 
 ## 5. Seller Financing
 
@@ -251,20 +161,6 @@ Investidores privados (pessoas ou fundos) que emprestam dinheiro para projetos i
 
 ### Como Encontrar Private Lenders
 
-```
-1. Grupos de real estate investing (BiggerPockets, Facebook)
-2. Meetups locais de investidores
-3. Indicações de corretores de imóveis
-4. Advogados de imóveis (têm contatos)
-5. Crowdfunding imobiliário (Fundrise, CrowdStreet)
-
-Requisitos típicos:
-- Experiência em real estate (ou sócio com experiência)
-- Deal bem documentado (pro forma, ARV, orçamento)
-- Exit strategy clara (venda, refinancia, aluguel)
-- Contribuição pessoal (20-30% do deal)
-```
-
 ## 7. Portfolio Loan
 
 ### O que é um Portfolio Loan?
@@ -301,118 +197,13 @@ Um empréstimo que o banco **não vende para Fannie Mae/Freddie Mac** mas manté
 
 ### Financiamento Short-Term Rental (Airbnb/VRBO)
 
-```
-Para propriedades de aluguel temporário, o DSCR é calculado diferente:
-
-Aluguel anual projetado: $60.000
-Ocupação estimada: 70%
-Aluguel ajustado: $60.000 x 70% = $42.000
-
-Pagamento mensal (PITI): $3.500
-Pagamento anual: $42.000
-
-DSCR = $42.000 / $42.000 = 1,0
-
-Requisitos adicionais:
-- Down payment: 30-35% (maior que LTR)
-- Taxa: 8-11%
-- Experiência em short-term rentals (desejável)
-- Pro forma com ocupação e tarifas
-```
-
-```javascript
-// Stripe para short-term rental financing
-
-// Stripe integra-se com sistemas PMS (Property Management)
-// e gera relatórios de ocupação e receita
-
-// Configurar Stripe para pagamentos Airbnb/VRBO
-const account = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// Stripe Connect integra-se com plataformas como:
-// - Hostaway
-// - Guesty
-// - Lodgify
-// - Uplisting
-
-// O relatório de receita do Stripe apoia sua solicitação DSCR
-```
-
 ## 9. Passo a Passo para Financiar como Estrangeiro
 
 ### Rota 1: DSCR Loan (Recomendada)
 
-```
-PASSO 1: Escolher propriedade
-- Buscar propriedades com DSCR potencial ≥ 1,25
-- Calcular aluguel de mercado vs. pagamento mensal estimado
-
-PASSO 2: Formar LLC
-- Criar LLC no estado da propriedade
-- Obter EIN do IRS
-
-PASSO 3: Abrir conta bancária
-- Em um banco US que aceite estrangeiros
-- Depositar fundos para down payment + reservas
-
-PASSO 4: Configurar Stripe
-- Conectar Stripe com a LLC
-- Se já tiver inquilinos, receber aluguéis pelo Stripe
-
-PASSO 5: Buscar credor DSCR
-- Comparar pelo menos 3 credores
-- Solicitar pre-approval (soft credit pull)
-
-PASSO 6: Fechar a compra
-- Fornecer documentação (bank statements, Stripe reports)
-- Assinar e fechar em 2-4 semanas
-```
-
 ### Rota 2: Hard Money → Refinanciar para DSCR
 
-```
-PASSO 1: Comprar com hard money
-- Ideal para propriedades que precisam de reparo
-- Fechamento rápido (3-7 dias)
-
-PASSO 2: Reparar e alugar
-- Usar o empréstimo para reformar
-- Conseguir inquilinos rapidamente
-- Configurar Stripe para receber aluguéis
-
-PASSO 3: Gerar histórico de aluguéis
-- Receber aluguéis por 3-6 meses pelo Stripe
-- Demonstrar DSCR ≥ 1,0
-
-PASSO 4: Refinanciar para DSCR
-- Buscar um credor DSCR
-- Usar o novo valor (ARV) para avaliação
-- Sacar dinheiro ou reduzir a taxa
-```
-
 ### Rota 3: Cash → Refinanciar (Delayed Financing)
-
-```
-PASSO 1: Comprar à vista
-- Oferece maior poder de negociação
-- Fechamento rápido, sem contingências de financiamento
-
-PASSO 2: Alugar e gerar histórico
-- Configurar Stripe para receber aluguéis
-- Gerar 6-12 meses de histórico
-
-PASSO 3: Delayed Financing Exception
-- FHA permite cash-out refinance dentro de 6 meses da compra à vista
-- Pode recuperar até 75% do valor de compra
-- Sem período de "seasoning" obrigatório
-```
 
 ## 10. Comparação de Credores para Estrangeiros
 
@@ -427,16 +218,6 @@ PASSO 3: Delayed Financing Exception
 | **Kiavi** | DSCR + Fix & Flip | 20-30% | 7,5-9,5% | Online |
 
 ### Dicas para Escolher Credor
-
-```
-1. Busque credores especializados em investidores estrangeiros
-2. Pergunte se aceitam ITIN (melhor que não exigir)
-3. Compare APRs (inclui pontos e origination fees)
-4. Verifique prepayment penalties (evite > 3 anos)
-5. Pergunte sobre DSCR em short-term rentals
-6. Leia reviews no BiggerPockets ou Google
-7. Solicite pre-approval antes de fazer ofertas
-```
 
 ## 11. Perguntas Frequentes
 

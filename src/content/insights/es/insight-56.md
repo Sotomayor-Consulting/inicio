@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Cobrar con Tarjeta desde Cualquier País: Guía Completa 2026"
 description: "Cobrar con tarjeta desde cualquier país"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Tarjetas de crédito de diferentes países con globo al fondo"
 ---
 
@@ -12,20 +12,6 @@ En esta guía, explicamos **cómo cobrar con tarjeta desde cualquier país** en 
 ## 1. Cómo Funciona el Pago con Tarjeta Internacional
 
 ### Flujo Básico
-
-```
-Cliente → Ingresa datos de tarjeta → Pasarela de pago
-                                           ↓
-                                  Procesador (Stripe, PayPal, etc.)
-                                           ↓
-                                  Marca (Visa, Mastercard, Amex)
-                                           ↓
-                                  Banco emisor (banco del cliente)
-                                           ↓
-                                  Aprobación o rechazo
-                                           ↓
-                                  Si se aprueba: crédito en tu cuenta
-```
 
 ### Actores Involucrados
 
@@ -297,13 +283,6 @@ Es una capa adicional de seguridad que verifica la identidad del comprador. El c
 ### 8.2 Reintento de Pago (Smart Retry)
 
 Cuando una tarjeta es rechazada, intenta de nuevo con estrategia:
-
-```
-Intento 1: Inmediato (pudo ser error temporal)
-Intento 2: 2 horas después (cliente pudo resolver con el banco)
-Intento 3: 24 horas después (límite pudo renovarse)
-Intento 4: 72 horas después (último intento)
-```
 
 ### 8.3 Múltiples Métodos de Pago
 

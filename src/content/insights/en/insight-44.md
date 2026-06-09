@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Handle International Payments Correctly: Practical Guide to Methods and Compliance"
 description: "Handling international payments"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Different international payment methods with maps and digital devices"
 ---
 
@@ -61,18 +61,6 @@ An efficient account structure facilitates payment management:
 - **PayPal account** (for small and recurring payments)
 
 ### Flow strategy:
-```
-International client
-       ↓
-Payment platform (Wise, PayPal, Stripe)
-       ↓
-U.S. bank account (LLC or personal)
-       ↓
-Distribution to personal account (owner's draw)
-       ↓
-Local account in your country (expenses)
-```
-
 ## 4. Invoicing for International Payments
 
 A correct invoice is the foundation of a well-documented international payment:

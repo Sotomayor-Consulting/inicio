@@ -1,7 +1,7 @@
----
+﻿---
 title: "Holding vs Empresa Operacional: Diferenças e Estrutura 2026"
 description: "Holding vs empresa operacional"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/que es una holding.png"
 cardImageAlt: "Diagrama de estrutura corporativa mostrando uma holding no topo com múltiplas empresas operacionais abaixo"
 ---
 
@@ -62,39 +62,7 @@ Uma **empresa operacional** é a sociedade que realiza a atividade comercial rea
 
 ### Estrutura Típica
 
-```
-Donos (pessoas físicas)
-       │
-       ▼
-  ┌─────────────┐
-  │   HOLDING   │  ← Proprietária das subsidiárias
-  │  (EUA ou    │     Recebe dividendos, royalties
-  │   offshore) │     Sem operações, sem risco
-  └─────────────┘
-       │
-       ├────────────────────────────────┐
-       ▼                                ▼
-┌─────────────────┐          ┌─────────────────┐
-│  OPERACIONAL 1  │          │  OPERACIONAL 2  │
-│  (EUA /         │          │  (LATAM /       │
-│   país A)       │          │   país B)       │
-│  ─ Fatura       │          │  ─ Fatura       │
-│    clientes     │          │    clientes     │
-│  ─ Tem          │          │  ─ Tem          │
-│    funcionários │          │    funcionários │
-│  ─ Stripe       │          │  ─ Stripe       │
-│  ─ Risco        │          │  ─ Risco        │
-└─────────────────┘          └─────────────────┘
-```
-
 ### Exemplo Prático
-
-```
-Holding: Sotomayor Holding LLC (Wyoming)
-  ├── Sotomayor Consulting LLC (EUA) → Stripe → Clientes globais
-  ├── Sotomayor LATAM Ltda. (Brasil) → Clientes LATAM
-  └── Sotomayor Europe Ltd (Reino Unido) → Clientes Europa
-```
 
 ## 5. Benefícios da Estrutura Holding
 
@@ -119,126 +87,17 @@ Holding: Sotomayor Holding LLC (Wyoming)
 
 ### Exemplo: Royalties por IP
 
-```javascript
-// A operacional paga royalties à holding pelo uso de IP
-// A holding recebe a receita sem risco operacional
-
-// Stripe cobra na operacional
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Licença de Software',
-      },
-      unit_amount: 100000, // $1.000
-    },
-    quantity: 1,
-  }],
-});
-
-// A operacional paga 5% de royalty à holding
-// $50 vão para a holding como royalty (dedutível para operacional)
-// $950 ficam na operacional (sujeito a impostos locais)
-```
-
 ## 6. Holding com Stripe
 
 ### Stripe na Operacional
 
-```javascript
-// Stripe vai na empresa operacional, não na holding
-// A operacional fatura, cobra e tem o relacionamento com clientes
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Empresa Operacional LLC', // Não a holding
-    tax_id: 'XX-XXXXXXX',
-  },
-});
-
-// Os pagamentos vão para a conta bancária da operacional
-// A operacional depois distribui dividendos/royalties à holding
-```
-
 ### Stripe Connect para Múltiplas Operacionais
-
-```javascript
-// Stripe Connect: Cada operacional pode ter sua própria conta
-// A holding centraliza o reporting
-
-// Operacional 1: EUA
-const accountUS = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  business_type: 'company',
-});
-
-// Operacional 2: Brasil
-const accountBR = await stripe.accounts.create({
-  type: 'express',
-  country: 'BR',
-  business_type: 'company',
-});
-
-// Stripe permite ver todas a partir de um único Dashboard
-```
 
 ## 7. Fluxo de Dinheiro na Estrutura
 
 ### Como o Dinheiro Circula
 
-```
-Cliente → Stripe → Conta bancária Operacional
-                         │
-                         ▼
-                  ┌──────────────┐
-                  │ OPERACIONAL  │
-                  │  ─ Paga      │
-                  │    despesas  │
-                  │  ─ Paga      │
-                  │    royalties │
-                  │    à holding │
-                  │  ─ Paga      │
-                  │    impostos  │
-                  └──────┬───────┘
-                         │ Royalties / Dividendos
-                         ▼
-                  ┌──────────────┐
-                  │   HOLDING    │
-                  │  ─ Recebe    │
-                  │    royalties │
-                  │  ─ Investe   │
-                  │  ─ Protege   │
-                  │    ativos    │
-                  └──────────────┘
-```
-
 ### Royalties da Operacional para Holding
-
-```javascript
-// Stripe: Não gerencia diretamente royalties entre empresas
-// mas você pode usar Transferências para simular
-
-// 1. Stripe cobra do cliente → Conta da operacional
-// 2. Operacional transfere royalty para holding
-
-const transfer = await stripe.transfers.create({
-  amount: 5000, // $50 (5% de royalty sobre $1.000)
-  currency: 'usd',
-  destination: 'ba_conta_holding',
-  transfer_group: 'ROYALTY-2026-01',
-  metadata: {
-    type: 'royalty',
-    invoice_ref: 'INV-2026-001',
-    ip_license: 'SOFTWARE-LICENSE-001',
-  },
-});
-```
 
 ## 8. Casos de Uso Recomendados
 

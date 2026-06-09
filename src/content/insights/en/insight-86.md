@@ -1,7 +1,7 @@
----
+﻿---
 title: "Common Mistakes When Investing in Florida as a Foreigner: 2026 Guide"
 description: "Common mistakes when investing in Florida as a foreigner"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Warning signs and errors about Florida investment: LLC, property tax, FIRPTA, estate tax, hurricane insurance"
 ---
 
@@ -21,20 +21,6 @@ In this guide, we explain **the most common mistakes when investing in Florida a
 
 ### Why It Is a Mistake
 
-```
-Without LLC:
-- Property owned in your name
-- Tenant gets injured → $500,000 lawsuit
-- No separation → you lose personal assets
-- Goodbye to your investment
-
-With LLC:
-- Property is owned by "Florida Properties LLC"
-- Tenant gets injured → sues the LLC
-- The LLC only has the property
-- Your personal assets are protected
-```
-
 ### Cost of Not Having an LLC
 
 | Situation | Without LLC | With LLC |
@@ -44,29 +30,6 @@ With LLC:
 | **Legal protection** | ❌ None | ✅ Limited to LLC |
 | **Privacy** | ❌ Your name in public records | ✅ LLC as owner |
 | **Estate tax** | ✅ Exposed | ✅ With holding, protected |
-
-```javascript
-// Stripe with LLC: the right way
-
-// Create Stripe account for the LLC (NOT personal name)
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Florida Properties LLC',
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX', // LLC EIN
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// MISTAKE: Using personal Stripe for LLC rents
-// This breaks legal separation and can "pierce the corporate veil"
-```
 
 ## 2. Ignoring Estate Tax
 
@@ -80,28 +43,6 @@ const account = await stripe.accounts.create({
 | "My country has no estate tax" | ✅ The US taxes assets within its territory |
 
 ### The Calculation That Hurts
-
-```
-Realistic example:
-- 2 Florida properties: $800,000
-- LLC bank account: $50,000
-- Total US assets: $850,000
-
-Without planning:
-- Exemption: $60,000
-- Taxable base: $790,000
-- Estate tax: $790,000 x 40% = $316,000
-- Your heirs receive: $534,000 (from $850,000)
-
-With international holding:
-- Properties are in LLC → holding
-- You are a shareholder of the holding (Panama/Netherlands)
-- Holding shares are NOT US assets
-- Estate tax: $0
-- Your heirs receive: $850,000
-
-Difference: $316,000
-```
 
 ### Solution
 
@@ -125,40 +66,7 @@ Difference: $316,000
 
 ### The Cost of Not Having ITIN
 
-```
-Property generating $50,000/year in gross rent:
-- Expenses: $20,000
-- Depreciation: $10,909
-- Mortgage interest: $15,000
-- Net rent: $4,091
-
-Without ITIN (no W-8ECI):
-- 30% withholding on GROSS: $50,000 x 30% = $15,000
-- Cannot claim refund (no ITIN = no filing)
-- Effective tax: 30% of gross income
-
-With ITIN (with W-8ECI):
-- Filing 1040-NR with Schedule E
-- Tax on net: $4,091 x 12% = $491
-- Savings: $14,509/year
-```
-
 ### How to Avoid This Mistake
-
-```
-1. Apply for ITIN immediately after buying
-   - IRS Form W-7
-   - With your apostilled or certified passport
-   - Can be done with your first 1040-NR
-
-2. Do not wait until you have tenants
-   - ITIN takes 7-11 weeks
-   - Meanwhile, the bank will withhold 30%
-
-3. Renew your ITIN yearly
-   - Filing 1040-NR renews it automatically
-   - If you don't file for 3 consecutive years, it deactivates
-```
 
 ## 4. Underestimating Property Tax
 
@@ -171,22 +79,6 @@ With ITIN (with W-8ECI):
 | "Homestead exemption applies" | ❌ Only for primary residence, not for investment |
 
 ### Underestimation Example
-
-```
-Real case:
-Property bought in 2020: $350,000
-Property tax 2020: $3,500 (1%)
-2026 value: $550,000 (due to Florida appreciation)
-Property tax 2026: $6,050 (1.1%)
-
-Investor expected to pay $3,500/year
-But pays $6,050/year → $2,550 more than budgeted
-
-Over 10 years:
-- Estimated: $35,000
-- Actual: ~$60,000+
-- Difference: $25,000+
-```
 
 | Property Type | Average Property Tax (Florida) |
 |--------------|-------------------------------|
@@ -218,45 +110,6 @@ Over 10 years:
 
 ### Typical Hurricane Deductibles
 
-```
-Hurricane deductible is NOT a fixed amount, it is a percentage:
-
-2% of insured value: $8,000 (for $400K house)
-5% of insured value: $20,000
-10% of insured value: $40,000
-
-Example:
-Hurricane causes $100,000 in damage
-Insurance: $400,000
-Deductible: 2% = $8,000
-Insurance pays: $92,000
-
-If you chose 10% deductible to save on premium:
-Deductible: 10% = $40,000
-Insurance pays: $60,000
-You pay out of pocket: $40,000
-```
-
-```javascript
-// Stripe: Stripe is not insurance, but you can set up payments
-// for your hurricane insurance policy
-
-// Set up monthly subscription for insurance
-const subscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}',
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Hurricane Insurance - Florida Properties LLC' },
-      unit_amount: 35000, // $350/month
-      recurring: { interval: 'month' },
-    },
-  }],
-});
-
-// This way your policy never lapses due to non-payment
-```
-
 ## 6. Choosing the Wrong Location
 
 ### Not All Areas in Florida Are Equal
@@ -281,22 +134,6 @@ const subscription = await stripe.subscriptions.create({
 | **Panama City Beach** | ⚠️ Seasonal | 0.8-1.0% | High | ✅ Allowed |
 | **Rural area** | ❌ Low | 0.6-0.8% | Low | ⚠️ Allowed |
 
-```javascript
-// Stripe: Analyze rental demand by area
-// Compare income from similar properties
-
-// Report by zip code
-const revenueByZip = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 31536000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-
-// Use market data (AirDNA, Mashvisor) + Stripe to validate
-```
-
 ## 7. Not Understanding HOA Rules and Covenants
 
 ### A Mistake That Kills Profitability
@@ -309,29 +146,6 @@ const revenueByZip = await stripe.reporting.reportRuns.create({
 | **Special assessments** | $5,000-30,000 lump sum for repairs |
 
 ### What to Check Before Buying
-
-```
-Before making an offer, request HOA documents:
-
-1. CC&Rs (Covenants, Conditions & Restrictions)
-   - Does it allow rentals? Minimum days?
-   - Does it require tenant approval?
-
-2. HOA Finances
-   - Does it have adequate reserves?
-   - Are there planned special assessments?
-   - What is the monthly fee?
-
-3. Short-term rental rules
-   - Prohibited? (common in many Florida communities)
-   - Minimum 30 days? (common in condos)
-   - Minimum 7 days? (less common)
-   - No restrictions? (rare)
-
-4. Fines and penalties
-   - How much do they charge for violations?
-   - Enforcement process?
-```
 
 ## 8. Using the Wrong Type of Financing
 
@@ -347,26 +161,6 @@ Before making an offer, request HOA documents:
 
 ### What You Should Do
 
-```
-Before looking for properties:
-
-1. Evaluate your profile:
-   - Do you have SSN/ITIN? → Evaluate DSCR vs Conventional
-   - No? → DSCR loan is your option
-
-2. Calculate your potential DSCR:
-   - Estimated rent / (Mortgage payment + tax + insurance)
-   - Need ≥ 1.0, ideal ≥ 1.25
-
-3. Get pre-approval:
-   - From 2-3 DSCR lenders
-   - Compare rates and terms
-
-4. Adequate down payment:
-   - Minimum 25-30% for foreigners
-   - More down = better rate
-```
-
 ## 9. Forgetting the Tax When Selling (FIRPTA)
 
 ### The Mistake That Freezes Your Money
@@ -378,25 +172,6 @@ Before looking for properties:
 | **Not getting advice** | You could pay more tax than necessary |
 
 ### How FIRPTA Affects Your Sale
-
-```
-Assume you sell your property for $500,000:
-
-FIRPTA WITHHOLDING:
-- 15% of $500,000 = $75,000 withheld at closing
-- The buyer sends $75,000 to the IRS
-- You receive net: $500,000 - $75,000 - commissions - costs
-
-WHAT SHOULD YOU REALLY PAY?
-- Capital gain: ~$100,000
-- Depreciation recapture: ~$15,000
-- Actual tax: ~$25,000
-
-So:
-- IRS withheld: $75,000
-- Actual tax: $25,000
-- Refund: $50,000 (but takes 6-12 months)
-```
 
 | Strategy | Result |
 |----------|--------|
@@ -418,36 +193,6 @@ So:
 
 ### Real Closing Cost Breakdown
 
-```
-For a $400,000 property in Florida:
-
-1. LOAN COSTS:
-   - Origination fee (1%): $4,000
-   - Appraisal: $500-800
-   - Credit report: $50
-   - Processing/Underwriting: $500-1,000
-   - Points (if applicable): 0-2%
-
-2. THIRD PARTY COSTS:
-   - Title search + insurance: $2,000-3,500
-   - Survey: $500-1,000
-   - Recording fees: $100-300
-   - Attorney fees: $1,000-3,000
-
-3. PREPAIDS (for escrow):
-   - Property insurance (1 year): $2,000-5,000
-   - Property tax (prorated): $1,000-3,000
-   - Prepaid interest: $500-1,500
-
-4. DOC STAMP TAX (Florida):
-   - $0.70 per $100: $2,800
-
-ESTIMATED CLOSING COSTS: $12,000-20,000
-
-Plus 25% down payment: $100,000
-Total to bring to closing: $112,000-120,000
-```
-
 ## 11. Not Having a Trusted Local Team
 
 ### The Mistake of Going It Alone
@@ -461,32 +206,6 @@ Total to bring to closing: $112,000-120,000
 | **Hiring the cheapest contractor** | Poor repairs, future problems |
 
 ### Your Minimum Team in Florida
-
-```
-1. REAL ESTATE AGENT
-   - Specialized in foreign investors
-   - Understands DSCR, FIRPTA, LLC
-   - Experienced in your target area
-
-2. CPA (CERTIFIED PUBLIC ACCOUNTANT)
-   - Experienced in international taxation
-   - Prepares 1040-NR + Schedule E
-   - Understands depreciation and cost segregation
-
-3. REAL ESTATE ATTORNEY
-   - Has worked with foreigners
-   - Reviews purchase contracts
-   - Forms LLC and structures holding
-
-4. PROPERTY MANAGER
-   - Licensed in Florida
-   - Handles collections, repairs, and tenants
-   - Reports income for your tax return
-
-5. INSURANCE
-   - Agent specialized in investment properties
-   - Understands hurricane and flood coverage
-```
 
 ## 12. Checklist to Avoid Mistakes
 

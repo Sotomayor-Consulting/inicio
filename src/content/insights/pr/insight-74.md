@@ -1,7 +1,7 @@
----
+﻿---
 title: "Riscos de Operar sem Estrutura Legal: Guia 2026"
 description: "Riscos de operar sem estrutura legal"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.png"
 cardImageAlt: "Pessoa andando em uma corda bamba sem rede de proteção, simbolizando os riscos de operar sem estrutura legal"
 ---
 
@@ -72,35 +72,6 @@ Neste guia, explicamos **os riscos de operar sem estrutura legal** em 2026: expo
 
 ### Exemplo: Contratação de Serviços
 
-```javascript
-// Cliente empresarial precisa de nota fiscal com CNPJ
-// Sem estrutura: Você não pode emitir → Perde o contrato
-
-// Com estrutura (LLC):
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Consultoria Profissional',
-      },
-      unit_amount: 500000,
-    },
-    quantity: 1,
-  }],
-  invoice_creation: {
-    enabled: true,
-    invoice_data: {
-      custom_fields: [{
-        name: 'EIN / CNPJ',
-        value: 'XX-XXXXXXX', // CNPJ/EIN da LLC
-      }],
-    },
-  },
-});
-```
-
 ## 4. Riscos com Stripe e Gateways de Pagamento
 
 ### Stripe sem Estrutura Legal
@@ -138,20 +109,6 @@ const session = await stripe.checkout.sessions.create({
 
 ### Cenário: Quer Vender Seu Negócio
 
-```
-Sem estrutura:
-- Não tem uma entidade para vender
-- Receitas são pessoais
-- Sem due diligence possível
-- Valor: 0,5× receita anual
-
-Com estrutura (LLC):
-- Entidade com histórico financeiro
-- Contratos, clientes, IP na empresa
-- Due diligence clara
-- Valor: 3-5× receita anual
-```
-
 ## 6. Riscos de Propriedade Intelectual
 
 ### IP sem Proteção
@@ -177,21 +134,6 @@ Com estrutura (LLC):
 ## 8. Riscos de Sucessão
 
 ### O Que Acontece com Seu Negócio se Você Falecer?
-
-```
-Sem estrutura legal:
-- O negócio não existe legalmente
-- Seus herdeiros não podem continuar
-- As receitas se perdem
-- Stripe fecha a conta
-- Clientes perdem acesso ao serviço
-
-Com estrutura (LLC ou corporação):
-- A empresa continua a existir
-- Os herdeiros herdam as participações
-- Stripe permanece ativo
-- Clientes sem interrupção
-```
 
 ## 9. Casos da Vida Real
 

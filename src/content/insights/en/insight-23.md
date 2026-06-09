@@ -1,11 +1,11 @@
-ï»¿---
+---
 title: "Form 5472 Explained: Everything You Need to Know for Your LLC"
 description: "Complete guide to IRS Form 5472: who must file, how to fill it out, deadlines, penalties, and best practices."
 cardImage: "@/images/insights/formulario-5472.png"
 cardImageAlt: "IRS Form 5472 with magnifying glass"
 ---
 
-IRS Form 5472 is one of the most important â€”and most ignoredâ€” tax requirements for foreign owners of a U.S. LLC. Failure to file can result in penalties of up to **$25,000 per year**.
+IRS Form 5472 is one of the most important —and most ignored— tax requirements for foreign owners of a U.S. LLC. Failure to file can result in penalties of up to **$25,000 per year**.
 
 In this guide, we explain what it is, who must file it, how to fill it out, and how to avoid common mistakes.
 
@@ -47,7 +47,7 @@ Any transaction between the LLC (U.S. related party) and the owner (foreign rela
 You do not need to file Form 5472 if:
 
 1. You are a **U.S. citizen or permanent resident** (green card holder).
-2. Your LLC has **two or more members** (multi-member LLC) â€”different rules apply.
+2. Your LLC has **two or more members** (multi-member LLC) —different rules apply.
 3. Your LLC had **no transactions** with the foreign owner during the year (uncommon).
 4. You elected for your LLC to be taxed as an **S-Corp or C-Corp** (different rules apply).
 

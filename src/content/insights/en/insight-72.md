@@ -1,7 +1,7 @@
----
+﻿---
 title: "Difference Between Protecting and Hiding Assets: Guide 2026"
 description: "Difference between protecting and hiding assets"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
 cardImageAlt: "Scale of justice with one transparent side and one dark side, symbolizing the difference between legal protection and illegal hiding"
 ---
 
@@ -117,27 +117,6 @@ In this guide, we explain **the difference between protecting and hiding assets*
 
 ### How to Maintain Transparency
 
-```javascript
-// Stripe: The platform reports income to your country
-// if properly configured
-
-// Always use your real EIN or tax number
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'your@email.com',
-  business_type: 'individual',
-  // All information is truthful and declarable
-  individual: {
-    first_name: 'Your Name',
-    last_name: 'Your Last Name',
-    address: {
-      // Real and declared address
-    },
-  },
-});
-```
-
 ## 6. International Tax Transparency
 
 ### FATCA (Foreign Account Tax Compliance Act)
@@ -211,27 +190,6 @@ const account = await stripe.accounts.create({
 | **5** | Use formal banking services (Mercury, Relay, Wise, HSBC) |
 | **6** | Hire a local accountant who knows your international structures |
 | **7** | Review your asset plan annually |
-
-```javascript
-// Good practices with Stripe:
-// 1. Use your real tax information
-// 2. Declare Stripe income in your country
-// 3. Report your Stripe account if FATCA/CRS applies
-const stripe = require('stripe')('sk_live_...');
-
-// Correct tax configuration
-await stripe.accounts.update('acct_xxx', {
-  settings: {
-    payments: {
-      statement_descriptor: 'Your Legal Company',
-    },
-  },
-  business_profile: {
-    url: 'https://yourdomain.com',
-    mcc: 7372, // Correct industry code
-  },
-});
-```
 
 ## 10. Frequently Asked Questions
 

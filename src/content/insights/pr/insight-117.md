@@ -1,7 +1,7 @@
----
+﻿---
 title: "O Que é um Annual Report: Guia 2026 para Proprietários de Empresas"
 description: "Saiba o que é um annual report, por que é importante para sua LLC ou corporação e como apresentá-lo a tempo"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/annual-report.png"
 cardImageAlt: "Guia de annual report mostrando painel do portal de arquivamento estadual, calendário de datas de vencimento, tabela de taxas, rastreador de status de conformidade e diagrama de etapas de arquivamento"
 ---
 
@@ -80,37 +80,7 @@ While the exact form varies by state, most annual reports require the following 
 
 ### Formulário de Exemplo de Annual Report
 
-````
-STATE OF DELAWARE
-ANNUAL REPORT / FRANCHISE TAX
-For the year ending December 31, 2026
-
-Entity Name: _______________________________________
-SOS File Number: _________________________________
-Date of Incorporation/Formation: _________________
-
-Principal Place of Business:
-  Address: _____________________________________
-  City: ___________________ State: ____ ZIP: _____
-
-Registered Agent:
-  Name: _______________________________________
-  Address: _____________________________________
-  City: ___________________ State: ____ ZIP: _____
-
-Officers / Managers:
-  Name: _______________________________________
-  Title: ______________________________________
-  Address: _____________________________________
-
-Authorized Shares (Corporations Only):
-  Par Value: $______  Number: _________________
-  No Par Value: ______  Number: _______________
-
-Franchise Tax Calculation:
-  Method (circle): Authorized Shares / Assumed Par Value / Gross Assets
-  Tax Due: $___________________________________
-````
+`
 
 ### Documentos Que Você Pode Precisar
 
@@ -185,112 +155,7 @@ Antes de arquivar, reúna estes documentos:
 
 ### Calculadora de Taxas de Annual Report
 
-```javascript
-// Annual Report Fee Calculator — estimate your filing cost by state
-const annualReportFee = (state, entityType, filingMethod) => {
-  const fees = {
-    'Alabama': 50, 'Alaska': 100, 'Arizona': 45, 'Arkansas': 150,
-    'California': { 'LLC': 20, 'Corporation': 25 },
-    'Colorado': 10, 'Connecticut': 80, 'Florida': { 'LLC': 138.75, 'Corporation': 150 },
-    'Georgia': 50, 'Hawaii': { 'LLC': 15, 'Corporation': 30 },
-    'Idaho': 0, 'Illinois': 75, 'Indiana': 50, 'Iowa': 45, 'Kansas': 50,
-    'Kentucky': 15, 'Louisiana': 35, 'Maine': { 'LLC': 85, 'Corporation': 150 },
-    'Maryland': 300, 'Massachusetts': 500, 'Michigan': 25,
-    'Minnesota': { 'Online': 0, 'Mail': 50 },
-    'Mississippi': 50, 'Missouri': 0, 'Montana': 15,
-    'Nebraska': 10, 'Nevada': 150, 'New Hampshire': 100, 'New Jersey': 75,
-    'New Mexico': 0, 'New York': 9, 'North Carolina': 200, 'North Dakota': 50,
-    'Ohio': 0, 'Oklahoma': 25, 'Oregon': 100, 'Pennsylvania': 7,
-    'Rhode Island': 50, 'South Carolina': { 'LLC': 0, 'Corporation': 25 },
-    'South Dakota': 50, 'Tennessee': 300, 'Texas': 0, 'Utah': 15,
-    'Vermont': { 'LLC': 35, 'Corporation': 75 }, 'Virginia': 50,
-    'Washington': 60, 'West Virginia': 25, 'Wisconsin': 25, 'Wyoming': 60,
-    'DC': 0, 'Puerto Rico': 125
-  };
-
-  const fee = fees[state] || 'Unknown';
-  if (typeof fee === 'object') {
-    const entityFee = fee[entityType] || fee['Online'] || 'Varies';
-    const notes = [];
-    if (state === 'California' && entityType === 'Corporation') notes.push('+ $800 minimum franchise tax');
-    if (state === 'Delaware' && entityType === 'Corporation') notes.push('Min $300 franchise tax + annual report');
-    if (state === 'Texas') notes.push('No tax due if under $1.23M revenue threshold');
-    return { state, entityType, baseFee: entityFee, notes: notes.join('; ') };
-  }
-  return { state, entityType, baseFee: fee, notes: '' };
-};
-
-// Examples
-console.log(annualReportFee('Delaware', 'Corporation'));
-console.log(annualReportFee('California', 'LLC'));
-console.log(annualReportFee('Texas', 'Corporation'));
-```
-
 ### Consulta de Data de Vencimento de Annual Report
-
-```javascript
-// Determine if your annual report is due based on formation date and state rules
-const isAnnualReportDue = (formationDate, state, currentDate) => {
-  const stateRules = {
-    'anniversary': ['Arizona', 'California', 'Colorado', 'Connecticut', 'Illinois',
-      'Indiana', 'Kansas', 'Louisiana', 'Mississippi', 'Missouri', 'Nevada',
-      'New Jersey', 'New Mexico', 'New York', 'North Dakota', 'Oklahoma', 'Oregon',
-      'Rhode Island', 'South Carolina', 'South Dakota', 'Utah', 'Vermont', 'Virginia',
-      'Washington', 'Wyoming'],
-    'fixed': {
-      'Alabama': { month: 4, day: 15 },
-      'Alaska': { month: 1, day: 2 },
-      'Arkansas': { month: 5, day: 1 },
-      'Delaware': { 'Corporation': { month: 3, day: 1 }, 'LLC': { month: 6, day: 1 } },
-      'Florida': { month: 5, day: 1 },
-      'Georgia': { month: 4, day: 1 },
-      'Kentucky': { month: 6, day: 30 },
-      'Maine': { month: 6, day: 1 },
-      'Maryland': { month: 4, day: 15 },
-      'Massachusetts': { month: 3, day: 15 },
-      'Michigan': { month: 2, day: 15 },
-      'Minnesota': { month: 12, day: 31 },
-      'Montana': { month: 4, day: 15 },
-      'Nebraska': { month: 4, day: 1 },
-      'New Hampshire': { month: 4, day: 1 },
-      'North Carolina': { month: 4, day: 15 },
-      'Tennessee': { month: 4, day: 1 },
-      'Texas': { month: 5, day: 15 },
-      'West Virginia': { month: 7, day: 1 },
-      'Puerto Rico': { month: 4, day: 15 }
-    }
-  };
-
-  const cd = new Date(currentDate);
-  const fd = new Date(formationDate);
-
-  if (stateRules.anniversary.includes(state)) {
-    const dueThisYear = new Date(cd.getFullYear(), fd.getMonth(), fd.getDate());
-    return {
-      state,
-      dueDate: dueThisYear.toISOString().split('T')[0],
-      isOverdue: cd > dueThisYear,
-      daysRemaining: Math.ceil((dueThisYear - cd) / (1000 * 60 * 60 * 24)),
-      rule: 'Anniversary of formation'
-    };
-  }
-
-  const fixed = stateRules.fixed[state];
-  if (!fixed) return { state, error: 'State not found in reference table' };
-
-  if (fixed.entityType) {
-    const f = fixed.entityType;
-    const dueDate = new Date(cd.getFullYear(), f.month - 1, f.day);
-    return { state, dueDate: dueDate.toISOString().split('T')[0], isOverdue: cd > dueDate, daysRemaining: Math.ceil((dueDate - cd) / (1000 * 60 * 60 * 24)), rule: 'Fixed date' };
-  }
-  const dueDate = new Date(cd.getFullYear(), fixed.month - 1, fixed.day);
-  return { state, dueDate: dueDate.toISOString().split('T')[0], isOverdue: cd > dueDate, daysRemaining: Math.ceil((dueDate - cd) / (1000 * 60 * 60 * 24)), rule: 'Fixed date' };
-};
-
-// Example
-console.log(isAnnualReportDue('2023-06-15', 'California', '2026-03-01'));
-console.log(isAnnualReportDue('2020-01-10', 'Florida', '2026-04-15'));
-```
 
 ## 4. Como Arquivar um Annual Report
 
@@ -446,37 +311,6 @@ Na prática, uma empresa deve cumprir todos os três. Por exemplo:
 
 ### Lista de Verificação de Conformidade Mensal
 
-```javascript
-// Annual Report Compliance Calendar Generator
-const generateComplianceCalendar = (state, formationDate) => {
-  const fd = new Date(formationDate);
-  const year = new Date().getFullYear();
-  const months = [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
-  ];
-
-  const calendar = [];
-  months.forEach((month, i) => {
-    const tasks = [];
-    tasks.push('Review registered agent contact information');
-    if (i === fd.getMonth()) {
-      tasks.push('Annual report due this month — check SOS portal for filing window');
-    }
-    if (i === fd.getMonth() - 1 || (fd.getMonth() === 0 && i === 11)) {
-      tasks.push('Pre-filing preparation: gather business details and officer list');
-    }
-    tasks.push('Verify no late notices from the state');
-    calendar.push({ month, tasks });
-  });
-  return calendar;
-};
-
-// Example
-const cal = generateComplianceCalendar('Delaware', '2020-03-15');
-cal.forEach(m => console.log(m.month + ': ' + m.tasks.join(' | ')));
-```
-
 ### Cronograma de Arquivamento Recomendado
 
 | Momento | Ação |
@@ -491,46 +325,6 @@ cal.forEach(m => console.log(m.month + ': ' + m.tasks.join(' | ')));
 | **90 dias antes do PRÓXIMO prazo** | Começar o ciclo novamente |
 
 ### Rastreamento de Status da Entidade
-
-```javascript
-// Track your entity good standing across multiple states
-const entityStatusTracker = (entities) => {
-  const statuses = {
-    'Good Standing': 'All filings current, no penalties',
-    'Delinquent': 'Past due filing, late fee assessed',
-    'Suspended': 'Cannot conduct business, filing required',
-    'Dissolved': 'Entity no longer exists, reinstatement needed'
-  };
-
-  return entities.map(e => {
-    const today = new Date();
-    const dueDate = new Date(e.nextDue);
-    const daysUntilDue = Math.ceil((dueDate - today) / (1000 * 60 * 60 * 24));
-    let status = 'Good Standing';
-    let action = 'None needed';
-
-    if (daysUntilDue < 0 && daysUntilDue > -90) {
-      status = 'Delinquent';
-      action = 'File immediately and pay late fee';
-    } else if (daysUntilDue <= -90 && daysUntilDue > -365) {
-      status = 'Suspended';
-      action = 'File all past due reports + pay reinstatement fee';
-    } else if (daysUntilDue <= -365) {
-      status = 'Dissolved';
-      action = 'Apply for reinstatement or form new entity';
-    }
-
-    return { entity: e.name, state: e.state, nextDue: e.nextDue, status, action, daysUntilDue };
-  });
-};
-
-// Example
-const entities = [
-  { name: 'Acme LLC', state: 'Delaware', nextDue: '2026-03-01' },
-  { name: 'Beta Corp', state: 'Florida', nextDue: '2026-05-01' }
-];
-console.table(entityStatusTracker(entities));
-```
 
 ## Conclusão
 

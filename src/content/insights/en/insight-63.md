@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Handle Refunds Correctly in Stripe: Guide 2026"
 description: "How to handle refunds correctly in Stripe"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Stripe refund process with arrows showing money return"
 ---
 
@@ -74,32 +74,9 @@ Digital products have special considerations:
 
 ### Method 1: Stripe Dashboard (Manual)
 
-```
-1. Stripe Dashboard → Payments → Find the transaction
-2. Click "..." → Refund
-3. Select: Full refund or Partial refund
-4. Optional: Reason for refund (visible only to you)
-5. Confirm → Stripe processes the refund
-```
-
 **Time:** 2 minutes
 
 ### Method 2: Stripe API (Automated)
-
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-// Full refund
-const refund = await stripe.refunds.create({
-  payment_intent: 'pi_1234567890',
-});
-
-// Partial refund
-const partialRefund = await stripe.refunds.create({
-  payment_intent: 'pi_1234567890',
-  amount: 2500, // $25.00 in cents
-});
-```
 
 ### Method 3: Refund from Transactions Dashboard
 
@@ -179,20 +156,6 @@ const partialRefund = await stripe.refunds.create({
 
 ### How to Issue a Partial Refund
 
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-// Partial refund of $25.00
-const refund = await stripe.refunds.create({
-  payment_intent: 'pi_1234567890',
-  amount: 2500, // $25.00 in cents
-  metadata: {
-    reason: 'Partial product return',
-    order_id: 'ORD-12345',
-  },
-});
-```
-
 ## 7. Refunds and Accounting
 
 ### How to Record Refunds
@@ -234,39 +197,9 @@ const refund = await stripe.refunds.create({
 
 ### Handling Refund Requests
 
-```
-Customer requests refund
-       ↓
-1. Listen and understand the reason
-2. Offer alternative solutions:
-   ├── Exchange for another product
-   ├── Store credit
-   ├── Discount on next purchase
-   └── Additional support / training
-3. If they insist on refund → Refund without delay
-```
-
 ### Automated Refunds
 
 Set up automatic rules for simple refunds:
-
-```javascript
-// Example: Automatic refund if customer requests within 7 days
-app.post('/refund-request', async (req, res) => {
-  const { orderId, email } = req.body;
-  const order = await getOrder(orderId);
-
-  if (daysSince(order.createdAt) <= 7) {
-    const refund = await stripe.refunds.create({
-      payment_intent: order.paymentIntentId,
-    });
-    await sendRefundConfirmation(email, refund);
-    res.json({ status: 'refunded', refund });
-  } else {
-    res.json({ status: 'requires_review' });
-  }
-});
-```
 
 ## 9. Common Refund Mistakes
 
@@ -288,12 +221,6 @@ app.post('/refund-request', async (req, res) => {
 | **Refund in 15+ days** | High risk of chargeback |
 
 ### Mistake #3: Not Communicating the Refund
-
-```
-Customer requests refund → You process it → Do you notify them?
-                                ├── Yes → Customer reassured
-                                └── No → Customer thinks you ignored them → Dispute
-```
 
 ### Mistake #4: Refunding Without Clear Policy
 

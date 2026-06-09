@@ -99,14 +99,6 @@ Una empresa offshore puede utilizarse como parte de una estrategia de protecció
 
 **Estructura típica:**
 
-```
-Empresario
-    ↓
-Holding Internacional (offshore)
-    ↓
-Empresa Operativa (país de origen)
-```
-
 **Ventajas fiscales:**
 - Diferimiento fiscal: los impuestos se pagan solo cuando las utilidades se repatrían
 - Acceso a tratados internacionales para reducir retención en fuente

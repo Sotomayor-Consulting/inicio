@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Optimizar Conversiones de Pago: Guía Completa 2026"
 description: "Cómo optimizar conversiones de pago"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/métodos y cumplimiento.png"
 cardImageAlt: "Gráfico de embudo de conversión mostrando aumento en tasa de pagos exitosos"
 ---
 
@@ -51,37 +51,7 @@ En esta guía, explicamos **cómo optimizar conversiones de pago** en 2026: estr
 | **Cuenta opcional** | Ofrecer crear cuenta después del pago |
 | **Social login** | Google, Apple o Facebook para acelerar |
 
-```javascript
-// Stripe Checkout - modo invitado
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [/* ... */],
-  customer_creation: 'always', // Crea cliente para facturación
-  consent_collection: {
-    terms_of_service: 'required',
-  },
-  custom_text: {
-    submit: 'Pagar Ahora',
-  },
-});
-```
-
 ### Autofill y Direcciones Guardadas
-
-```javascript
-// Stripe Elements con AddressElement
-const addressElement = stripe.elements().create('address', {
-  mode: 'shipping',
-  autocomplete: { enabled: true },
-  allowedCountries: ['US', 'MX', 'CO', 'ES'],
-});
-
-addressElement.on('change', (event) => {
-  if (event.complete) {
-    // Dirección válida, continuar
-  }
-});
-```
 
 ## 3. Métodos de Pago
 
@@ -97,30 +67,6 @@ addressElement.on('change', (event) => {
 
 ### Stripe Payment Method Integration
 
-```javascript
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [/* ... */],
-  payment_method_types: [
-    'card',
-    'paypal',
-    'link',
-    'apple_pay',
-    'google_pay',
-    'ideal',
-    'bancontact',
-    'sofort',
-    'oxxo',
-    'pix',
-  ],
-  payment_method_options: {
-    card: {
-      request_three_d_secure: 'any', // 3D Secure para más seguridad
-    },
-  },
-});
-```
-
 ## 4. Diseño UI/UX del Checkout
 
 ### Principios de Diseño
@@ -135,39 +81,7 @@ const session = await stripe.checkout.sessions.create({
 
 ### Mejores Prácticas Visuales
 
-```
-✓ Checkout en una página
-✓ Progreso visible (1/3, 2/3, 3/3)
-✓ Botón de pago grande y visible
-✓ Múltiples métodos de pago visibles
-✓ Resumen del carrito siempre visible
-✓ Errores en línea (no al enviar)
-✓ Sin registros obligatorios
-```
-
 ### Stripe Checkout Personalizado
-
-```javascript
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Curso Online',
-        images: ['https://tusitio.com/imagen-curso.jpg'],
-      },
-      unit_amount: 9999, // $99.99
-    },
-    quantity: 1,
-  }],
-  customize: {
-    submit_type: 'pay',
-    brand: '#4F46E5', // Color de marca
-    payment_method_types: ['card', 'paypal'],
-  },
-});
-```
 
 ## 5. Stripe Elements para Checkout Personalizado
 
@@ -179,30 +93,6 @@ const session = await stripe.checkout.sessions.create({
 | **Payment Element** | UI completa de métodos de pago |
 | **Address Element** | Autocompletado de dirección |
 | **Link Authentication Element** | Autenticación con Link |
-
-```javascript
-// Stripe Elements con Payment Element
-const elements = stripe.elements({
-  appearance: {
-    theme: 'stripe',
-    variables: {
-      colorPrimary: '#4F46E5',
-      colorBackground: '#ffffff',
-      colorText: '#1a1a1a',
-      borderRadius: '8px',
-    },
-  },
-});
-
-const paymentElement = elements.create('payment', {
-  layout: {
-    type: 'tabs',
-    defaultCollapsed: false,
-  },
-});
-
-paymentElement.mount('#payment-element');
-```
 
 ## 6. Reducción de Fricción
 
@@ -219,32 +109,6 @@ paymentElement.mount('#payment-element');
 
 ### Botón de Pago
 
-```html
-<button id="checkout-button" class="checkout-button">
-  <span class="checkout-icon">🔒</span>
-  Pagar $99.99 USD
-</button>
-
-<style>
-.checkout-button {
-  background: #4F46E5;
-  color: white;
-  width: 100%;
-  padding: 16px 24px;
-  border: none;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.checkout-button:hover {
-  background: #4338CA;
-}
-</style>
-```
-
 ## 7. Manejo de Errores y 3D Secure
 
 ### Errores Comunes en Checkout
@@ -259,34 +123,7 @@ paymentElement.mount('#payment-element');
 
 ### 3D Secure
 
-```javascript
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  payment_method_options: {
-    card: {
-      request_three_d_secure: 'any', // Siempre solicitar 3DS
-    },
-  },
-});
-```
-
 ### Manejo de Fallos
-
-```javascript
-// Stripe webhook para pagos fallidos
-case 'checkout.session.async_payment_failed':
-case 'checkout.session.expired':
-  const failedSession = event.data.object;
-  const customerEmail = failedSession.customer_details.email;
-
-  // Notificar al cliente
-  await sendEmail({
-    to: customerEmail,
-    subject: 'Tu pago no pudo ser procesado',
-    body: `Hola, hubo un problema con tu pago. Por favor intenta nuevamente: ${failedSession.url}`,
-  });
-  break;
-```
 
 ## 8. Pruebas A/B y Métricas
 

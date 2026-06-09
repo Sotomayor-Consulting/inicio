@@ -1,7 +1,7 @@
----
+﻿---
 title: "Mistakes That Cause Stripe to Reject Accounts: Guide 2026"
 description: "Mistakes that cause Stripe to reject accounts"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Stripe rejection screen with common errors list and documents"
 ---
 

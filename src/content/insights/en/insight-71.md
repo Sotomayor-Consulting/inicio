@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Protect Your Assets Internationally: Guide 2026"
 description: "How to protect your assets internationally"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
 cardImageAlt: "Protective shield over a world map with icons of financial assets, properties and investments"
 ---
 
@@ -47,26 +47,6 @@ In this guide, we explain **how to protect your assets internationally** in 2026
 | **Taxes** | US taxes only if activity there |
 | **Setup time** | 1-2 weeks |
 
-```javascript
-// Example: Invoicing through an LLC
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'International Consulting',
-      },
-      unit_amount: 500000,
-    },
-    quantity: 1,
-  }],
-  payment_intent_data: {
-    application_fee_amount: 0,
-  },
-});
-```
-
 ### International Business Company (IBC)
 
 | Feature | Detail |
@@ -103,13 +83,6 @@ const session = await stripe.checkout.sessions.create({
 
 ### Digital Professional / Solopreneur
 
-```
-Individual (your country)
-  └── Wyoming LLC (international billing)
-       └── Mercury / Relay bank account
-            └── Stripe (processes payments → LLC)
-```
-
 | Benefit | Description |
 |---------|-------------|
 | **Protection** | Personal assets separated |
@@ -118,14 +91,6 @@ Individual (your country)
 
 ### SaaS / Technology Company
 
-```
-LLC Holding (US)
-  ├── Subsidiary in Country A (development)
-  ├── Subsidiary in Country B (LATAM sales)
-  ├── Subsidiary in Country C (Europe sales)
-  └── IP Holding (intellectual property)
-```
-
 | Benefit | Description |
 |---------|-------------|
 | **IP protection** | Patents and copyright in safe jurisdiction |
@@ -133,14 +98,6 @@ LLC Holding (US)
 | **Risk limitation** | Each subsidiary isolates risks |
 
 ### High Net Worth / Family
-
-```
-Family Trust (Cook Islands or Nevada)
-  ├── LLC Holding (real estate)
-  ├── LLC Investments (financial portfolio)
-  ├── Foundation (philanthropy)
-  └── Operating Corporation (active business)
-```
 
 ## 4. Stripe as a Protection Tool
 
@@ -154,14 +111,6 @@ Stripe Atlas lets you form a US company (Delaware C-Corp or LLC) directly from t
 | **Includes** | Registration, EIN, Mercury bank account, Stripe |
 | **Time** | 1-2 weeks |
 | **Best for** | International founders, startups |
-
-```javascript
-// Stripe Atlas: Form your LLC and start invoicing
-// 1. Register at stripe.com/atlas
-// 2. Receive EIN and bank account
-// 3. Connect Stripe Payments
-// 4. Invoice internationally from your LLC
-```
 
 ### Stripe Connect for Marketplaces
 
@@ -207,18 +156,6 @@ If you run a marketplace, Stripe Connect lets each seller have their own Stripe 
 | **Life insurance** | Family protection | 10-20× annual income |
 | **International health** | Medical expenses abroad | Global coverage |
 
-```javascript
-// Stripe doesn't offer insurance directly, but you can
-// integrate insurance premium payments:
-const session = await stripe.checkout.sessions.create({
-  mode: 'subscription',
-  line_items: [{
-    price: 'price_insurance_monthly',
-    quantity: 1,
-  }],
-});
-```
-
 ## 7. International Intellectual Property
 
 ### IP Protection
@@ -232,13 +169,6 @@ const session = await stripe.checkout.sessions.create({
 | **Data** | Contracts + encryption | Global |
 
 ### IP Holding Structure
-
-```
-IP Holding Company (Delaware or Wyoming)
-  ├── License to Operating Company (royalty payments)
-  ├── Protects code, brand, and patents
-  └── Royalties are income of the holding
-```
 
 ## 8. International Tax Compliance
 

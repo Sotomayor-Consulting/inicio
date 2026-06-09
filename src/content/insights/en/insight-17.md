@@ -1,7 +1,7 @@
-ï»¿---
+---
 title: "Stripe Atlas vs Personalized Consulting: Which Option to Choose for Your LLC?"
 description: "Complete comparison between Stripe Atlas and personalized consulting for forming your LLC in the U.S. Pros, cons, and which to choose."
-cardImage: "@/images/insights/stripe-vs-asesorÃ­a-personalizada.png"
+cardImage: "@/images/insights/stripe-vs-asesoría-personalizada.png"
 cardImageAlt: "Two options for forming an LLC in comparison"
 ---
 
@@ -105,7 +105,7 @@ Personalized consulting is the best option if:
 
 | Scenario | Stripe Atlas | Personalized Consulting |
 |-----------|-------------|----------------------|
-| **Initial cost** | $500 | $300â€“$800 |
+| **Initial cost** | $500 | $300–$800 |
 | **Annual Delaware cost** | $300 (Franchise Tax) + agent | Depends on chosen state |
 | **Error cost** | Potentially high | Minimized |
 | **Potential tax savings** | Not evaluated | Analyzed |

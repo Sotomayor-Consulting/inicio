@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Invertir en Florida Siendo Extranjero: Guía 2026"
 description: "Cómo invertir en Florida siendo extranjero"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/métodos y cumplimiento.png"
 cardImageAlt: "Mapa de Florida con iconos de propiedades, LLC, dólares, avión y banderas internacionales alrededor"
 ---
 
@@ -52,46 +52,6 @@ En esta guía, explicamos **cómo invertir en Florida siendo extranjero** en 202
 
 ### LLC para Inversores Extranjeros
 
-```javascript
-// Stripe: Cobrar rentas con LLC de Florida
-// Stripe requiere EIN o ITIN
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Florida Properties LLC',
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX', // EIN del IRS
-    address: {
-      line1: '1000 Brickell Ave',
-      city: 'Miami',
-      state: 'FL',
-      postal_code: '33131',
-      country: 'US',
-    },
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// Stripe para cobro de rentas mensuales
-const rentPayment = await stripe.paymentIntents.create({
-  amount: 300000, // $3,000
-  currency: 'usd',
-  payment_method_types: ['card'],
-  description: 'Renta mensual - Apt 3B',
-  metadata: {
-    property_id: 'MIA-APT-3B',
-    tenant_id: 'TEN-001',
-    month: '2026-06',
-  },
-});
-```
-
 ### LLC de Florida vs. LLC de Delaware
 
 | Aspecto | LLC Florida | LLC Delaware |
@@ -104,26 +64,6 @@ const rentPayment = await stripe.paymentIntents.create({
 | **Recomendación** | ✅ Mejor para propiedades en FL | Para holdings o inversión VC |
 
 ### LLC por Propiedad vs. LLC Global
-
-```
-Opción 1: LLC por cada propiedad
-├── LLC #1: Casa en Miami Beach
-├── LLC #2: Condo en Orlando
-├── LLC #3: Townhouse en Tampa
-├── Costo: 3 LLCs x $139 = $417/año
-└── Ventaja: Aíslas el riesgo de cada propiedad
-
-Opción 2: Una LLC para todas
-├── Florida Properties LLC
-│   ├── Casa en Miami Beach
-│   ├── Condo en Orlando
-│   └── Townhouse en Tampa
-├── Costo: 1 LLC = $139/año
-└── Riesgo: Una demanda en una propiedad expone todas
-
-Recomendación: LLC por propiedad si tienes 3+ propiedades
-o si alguna tiene alto riesgo (piscina, alquiler vacacional).
-```
 
 ## 3. Financiamiento para Extranjeros
 
@@ -139,43 +79,7 @@ o si alguna tiene alto riesgo (piscina, alquiler vacacional).
 
 ### DSCR Loan para Inversores Extranjeros
 
-```
-DSCR (Debt Service Coverage Ratio) = Ingresos por renta / Pago de hipoteca
-
-DSCR > 1.0 = La propiedad se paga sola
-DSCR > 1.2 = Fácil aprobación
-DSCR < 1.0 = Necesitas aportar más capital
-
-Ventajas para extranjeros:
-- No necesitas SSN
-- No necesitas ITIN
-- No necesitas ingresos personales
-- Solo cuenta el potencial de renta
-- Cierras en LLC (no a nombre personal)
-
-Requisitos típicos:
-- 30-40% de down payment
-- 6-12 meses de reservas líquidas
-- Propiedad tasada
-- Cuenta bancaria en EE. UU.
-```
-
 ### EIN e ITIN
-
-```
-EIN (Employer Identification Number):
-- Necesario para abrir cuenta bancaria empresarial
-- Necesario para Stripe
-- Necesario para declarar impuestos
-- Gratuito, se solicita al IRS con SS-4
-- Lo puede solicitar el agente registrado si no tienes SSN
-
-ITIN (Individual Taxpayer Identification Number):
-- Necesario si declaras impuestos como persona
-- Necesario para hipotecas personales
-- Proceso: Formulario W-7 al IRS
-- Tiempo: 7-11 semanas
-```
 
 ## 4. Impuestos para Inversores Extranjeros en Florida
 
@@ -191,28 +95,6 @@ ITIN (Individual Taxpayer Identification Number):
 
 ### FIRPTA (Foreign Investment in Real Property Tax Act)
 
-```javascript
-// FIRPTA: Al vender una propiedad, el comprador retiene 15%
-// del precio de venta y lo envía al IRS
-
-/*
-Ejemplo:
-Precio de venta: $500,000
-Retención FIRPTA: $75,000 (15%)
-
-Puedes solicitar exención (withholding certificate)
-si:
-- La propiedad se vende por menos de $300,000
-- El comprador la usará como residencia
-- No hay ganancia de capital real
-
-Recomendación:
-- Solicita ITIN antes de vender
-- Contrata un CPA especializado en FIRPTA
-- El proceso de reembolso puede tomar 6-12 meses
-*/
-```
-
 ### Impuestos en Florida
 
 | Impuesto | ¿Aplica? | Nota |
@@ -224,25 +106,6 @@ Recomendación:
 | **Intangible tax** | ❌ No | Eliminado en 2007 |
 
 ### 1031 Exchange
-
-```
-1031 Exchange: Diferir ganancia de capital al vender y reinvertir.
-
-Requisitos:
-- Vender una propiedad de inversión
-- Comprar otra propiedad de inversión de igual o mayor valor
-- 45 días para identificar la nueva propiedad
-- 180 días para cerrar
-- Usar un qualified intermediary
-
-Aplica a extranjeros: Sí, pero FIRPTA sigue aplicando.
-
-Estrategia:
-- Vender propiedad en Florida
-- Comprar propiedad de mayor valor
-- Diferir el impuesto de ganancia de capital
-- Repetir hasta fallecer (step-up in basis)
-```
 
 ## 5. Administración de Propiedades
 
@@ -259,34 +122,6 @@ Estrategia:
 | **Stripe** | Pueden usar su Stripe o el tuyo | Tú gestionas Stripe |
 
 ### Stripe para Cobro de Rentas
-
-```javascript
-// Stripe: Ideal para cobrar rentas mensuales
-// Configurar suscripciones recurrentes
-
-// Crear suscripción de renta mensual
-const subscription = await stripe.subscriptions.create({
-  customer: 'cus_tenant_id',
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Renta Mensual - Apt 3B' },
-      recurring: { interval: 'month' },
-      unit_amount: 300000, // $3,000
-    },
-    quantity: 1,
-  }],
-  payment_behavior: 'default_incomplete',
-  metadata: {
-    property_id: 'MIA-APT-3B',
-    tenant_name: 'John Doe',
-  },
-});
-
-// Stripe envía el recibo automáticamente
-// Stripe maneja facturas, retrying y dunning
-// Stripe Tax calcula impuestos si aplica
-```
 
 ### Seguros para Propiedades en Florida
 
@@ -305,60 +140,9 @@ const subscription = await stripe.subscriptions.create({
 
 ### Tenancy by Entirety
 
-```
-Tenancy by Entirety: Protección disponible solo para parejas casadas.
-
-¿Cómo funciona?
-- Ambos cónyuges son dueños al 100%
-- Un acreedor de un solo cónyuge no puede embargar la propiedad
-- Solo una deuda conjunta de ambos cónyuges puede alcanzarla
-- Automático si la propiedad está a nombre de ambos casados
-
-Requisitos:
-- Deben estar legalmente casados
-- La propiedad debe estar en Florida
-- No aplica a LLCs (solo a título personal)
-- Al divorciarse, se convierte en tenancy in common
-
-Ventaja: Es la protección más fuerte para matrimonios en EE. UU.
-```
-
 ### LLC Florida + Tenancy by Entirety
 
-```
-Estructura recomendada para parejas casadas extranjeras:
-
-TÚ y TU CÓNYUGE (casados)
-  └── LLC de Florida (ambos son miembros)
-       └── Propiedad
-
-No aplica tenancy by entirety directamente en la LLC,
-pero la LLC ya protege:
-- Demanda personal: No toca la propiedad
-- Demanda en la propiedad: No toca tus activos personales
-
-Además:
-- Ambos controlan la LLC
-- Protección sucesoria: Si uno fallece, el otro sigue
-- Sin probate en Florida para la LLC
-```
-
 ### Homestead Exemption
-
-```
-Homestead Exemption en Florida:
-
-Protección de residencia principal:
-- Ilimitada en valor (no hay tope en Florida)
-- Protege de acreedores (excepto hipoteca, impuestos, HOA)
-- Requiere: ser residente de Florida y usar la propiedad como hogar
-
-No aplica a propiedades de inversión (solo a residencia principal).
-
-Para inversores extranjeros:
-- Si te mudas a Florida, tu casa principal está protegida
-- Tus propiedades de alquiler: necesitan LLC
-```
 
 ## 7. Planificación Sucesoria para Propiedades en Florida
 
@@ -373,28 +157,6 @@ Para inversores extranjeros:
 | **Extranjero** | Complejo si herederos viven fuera | Simple |
 
 ### Estrategias de Sucesión
-
-```
-Opción 1: LLC (recomendada)
-├── La LLC es dueña de la propiedad
-├── Tú eres miembro de la LLC
-├── Al fallecer, tus acciones pasan a herederos
-├── No hay probate de la propiedad
-└── Stripe: cambiar beneficial owner
-
-Opción 2: Trust revocable
-├── El trust es dueño de la propiedad
-├── Tú eres trustee en vida
-├── Al fallecer, el sucesor trustee administra
-├── Evita probate completamente
-└── Stripe: la LLC dentro del trust
-
-Opción 3: Land trust
-├── Anonimato total
-├── El land trust no es público
-├── Beneficiario designado hereda
-└── Similar a trust pero específico para bienes raíces
-```
 
 ## 8. Errores Comunes al Invertir en Florida
 

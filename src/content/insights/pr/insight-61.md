@@ -1,7 +1,7 @@
----
+﻿---
 title: "Erros que Fazem o Stripe Rejeitar Contas: Guia 2026"
 description: "Erros que fazem o Stripe rejeitar contas"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Tela de rejeição do Stripe com lista de erros comuns e documentos"
 ---
 

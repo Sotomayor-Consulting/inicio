@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Cobrar com Cartão de Qualquer País: Guia Completo 2026"
 description: "Cobrar com cartão de qualquer país"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Cartões de crédito de diferentes países com globo ao fundo"
 ---
 
@@ -12,20 +12,6 @@ Neste guia, explicamos **como cobrar com cartão de qualquer país** em 2026, as
 ## 1. Como Funciona o Pagamento com Cartão Internacional
 
 ### Fluxo Básico
-
-```
-Cliente → Digita dados do cartão → Gateway de pagamento
-                                           ↓
-                                  Processador (Stripe, PayPal, etc.)
-                                           ↓
-                                  Bandeira (Visa, Mastercard, Amex)
-                                           ↓
-                                  Banco emissor (banco do cliente)
-                                           ↓
-                                  Aprovação ou recusa
-                                           ↓
-                                  Se aprovado: crédito na sua conta
-```
 
 ### Atores Envolvidos
 
@@ -203,16 +189,6 @@ Se você não tem site, pode criar links de pagamento para cobrar com cartão.
 
 ### Como Implementar
 
-```javascript
-// Exemplo com Stripe
-const stripe = Stripe('sua_chave');
-const { error } = await stripe.confirmCardPayment(
-  clientSecret,
-  { payment_method: { card: cardElement } }
-);
-// 3D Secure é gerenciado automaticamente pelo Stripe
-```
-
 > **Dica:** Configure regras no Stripe Radar para exigir 3D Secure apenas em transações de alto valor ou de países de alto risco.
 
 ## 6. Configuração por Região
@@ -313,13 +289,6 @@ const { error } = await stripe.confirmCardPayment(
 ### 8.2 Retentativa de Pagamento (Smart Retry)
 
 Quando um cartão é recusado, tente novamente com estratégia:
-
-```
-Tentativa 1: Imediata (pode ter sido erro temporário)
-Tentativa 2: 2 horas depois (cliente pode ter resolvido com o banco)
-Tentativa 3: 24 horas depois (limite pode ter sido renovado)
-Tentativa 4: 72 horas depois (última tentativa)
-```
 
 ### 8.3 Múltiplos Métodos de Pagamento
 

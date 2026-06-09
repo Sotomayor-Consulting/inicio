@@ -1,7 +1,7 @@
----
+﻿---
 title: "What to Review Before Investing in the US as a Foreigner: 2026 Guide"
 description: "What to review before investing in the US as a foreigner"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Pre-investment checklist for foreigners in the US: legal structure, taxes, financing, location, insurance, Stripe"
 ---
 
@@ -25,51 +25,6 @@ In this guide, we present **what to review before investing in the US as a forei
 
 ### Calculate Your Real Capacity
 
-```
-CASH AVAILABLE:
-- Savings for down payment: $__________
-- Closing costs (3-5% of price): $__________
-- Reserves (3-12 months): $__________
-- Repairs/renovations: $__________
-- Total needed: $__________
-
-PROJECTED MONTHLY INCOME:
-- Estimated rent: $__________
-- Vacancy (5-10%): -$__________
-- Net rent: $__________
-
-PROJECTED MONTHLY EXPENSES:
-- Mortgage (P&I): $__________
-- Property tax: $__________
-- Insurance: $__________
-- HOA: $__________
-- Property management (8-12%): $__________
-- Maintenance (10% of rent): $__________
-- Total expenses: $__________
-
-DSCR = Net rent / Total expenses (with mortgage)
-DSCR = $__________ / $__________ = __________
-✓ You need DSCR ≥ 1.0, ideal ≥ 1.25
-```
-
-```javascript
-// Stripe: Use Stripe to project income
-// if you already have similar properties operating
-
-// Analyze historical transactions
-const transactions = await stripe.checkout.sessions.list({
-  limit: 100,
-  created: { gte: Math.floor(Date.now() / 1000) - 31536000 },
-});
-
-const totalIncome = transactions.data
-  .filter(t => t.payment_status === 'paid')
-  .reduce((sum, t) => sum + t.amount_total, 0);
-
-const avgMonthly = (totalIncome / 100) / 12;
-console.log(`Average monthly income: $${avgMonthly.toFixed(2)}`);
-```
-
 ## 2. Review the Legal Structure
 
 ### Structure Options
@@ -82,22 +37,6 @@ console.log(`Average monthly income: $${avgMonthly.toFixed(2)}`);
 | **LLC + Holding + Trust** | ✅ Maximum | ✅ Maximum | ❌ Protected | $4,000-8,000 | High |
 
 ### Pre-Purchase Legal Checklist
-
-```
-Before making an offer, review:
-
-STRUCTURE:
-- [ ] Do I need an LLC in this state?
-- [ ] Do I form the LLC before or after buying?
-- [ ] Do I need an international holding for estate tax?
-- [ ] What does the tax treaty with my country say?
-
-DOCUMENTATION:
-- [ ] Do I have an IRS EIN?
-- [ ] Do I have ITIN or SSN?
-- [ ] Do I have a US bank account?
-- [ ] Do I have a registered agent for the LLC?
-```
 
 ## 3. Review the State and Location
 
@@ -115,47 +54,6 @@ DOCUMENTATION:
 
 ### Micro-Location: What to Review in the Neighborhood
 
-```
-When evaluating a specific property, review:
-
-1. ZONING
-   - Residential, commercial or mixed use?
-   - Does it allow short-term rental?
-   - Are there HOA restrictions?
-
-2. RENTAL DEMAND
-   - Vacancy rate in the area
-   - Average rent by property type
-   - Short-term rental occupancy (AirDNA, Mashvisor)
-   - Proximity to employers, schools, transportation
-
-3. NATURAL RISKS
-   - Flood zone? (FEMA flood map)
-   - Hurricane zone?
-   - History of natural disasters?
-
-4. INFRASTRUCTURE
-   - Property age (roof, HVAC, plumbing, electrical)
-   - School quality (affects resale value)
-   - Future development (new construction, employers)
-```
-
-```javascript
-// Stripe: To validate demand, you can create
-// a landing page with Stripe to measure interest
-
-// But more practical: use Stripe with existing property data
-// Income report by zip code
-const report = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    columns: ['created', 'amount', 'description', 'customer'],
-    interval_start: Math.floor(Date.now() / 1000) - 7776000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-```
-
 ## 4. Review Financing
 
 ### Loan Options by Profile
@@ -170,51 +68,7 @@ const report = await stripe.reporting.reportRuns.create({
 
 ### Key Questions for the Lender
 
-```
-Before accepting a loan, ask:
-
-1. RATE AND COSTS
-   - What is the fixed vs. adjustable rate?
-   - How many origination points?
-   - Full APR (includes all fees)?
-
-2. REQUIREMENTS
-   - Do you accept ITIN or only SSN?
-   - What is the minimum DSCR required?
-   - How many months of reserves?
-
-3. RESTRICTIONS
-   - Is there a prepayment penalty? For how long?
-   - Does it allow cash-out refinance?
-   - Does it allow short-term rental?
-
-4. TIMING
-   - How long until closing?
-   - How long for pre-approval?
-```
-
 ### Monthly Payment Calculator
-
-```
-For a $400,000 property with DSCR loan:
-
-Price: $400,000
-Down payment (30%): $120,000
-Loan amount: $280,000
-Rate: 8%
-Term: 30 years
-
-Monthly payment (P&I): $2,055
-Property tax (1%): $333/month
-Insurance: $333/month
-Total PITI: $2,721/month
-
-Rent needed for DSCR 1.25:
-$2,721 x 1.25 = $3,401/month in rent
-
-If the property rents for $3,500/month:
-DSCR = $3,500 / $2,721 = 1.29 ✓
-```
 
 ## 5. Review Taxes
 
@@ -231,30 +85,6 @@ DSCR = $3,500 / $2,721 = 1.29 ✓
 
 ### Key Tax Questions
 
-```
-Before investing, review with your CPA:
-
-1. TAX STRUCTURE
-   - Should I file W-8ECI to avoid 30% withholding?
-   - What deductions apply (depreciation, repairs, interest)?
-   - Do I need to pay quarterly estimated taxes?
-
-2. TAX TREATY
-   - Does my country have a treaty with the US?
-   - Does the treaty reduce FIRPTA or capital gains?
-   - Can I credit US taxes paid?
-
-3. ESTATE TAX
-   - Do my US assets exceed $60,000?
-   - Do I need an international holding or trust?
-   - What happens to my heirs?
-
-4. PLANNING
-   - Should I do cost segregation?
-   - Is a 1031 exchange better when selling?
-   - When should I start filing?
-```
-
 ## 6. Review Insurance
 
 ### Minimum Required Insurance
@@ -268,51 +98,6 @@ Before investing, review with your CPA:
 | **Umbrella policy** | ⚠️ Recommended (2+ properties) | $300-1,000 |
 
 ### Recommended Coverage by Property Type
-
-```
-SINGLE FAMILY (LTR):
-- Property insurance: Replacement cost
-- Liability: $1-2M
-- Hurricane deductible: 2% (no more than 5%)
-
-CONDOMINIUM:
-- Walls-in coverage (interior)
-- HOA master policy covers exterior
-- Liability: $500K-1M
-- Loss assessment coverage
-
-SHORT-TERM RENTAL (Airbnb):
-- Property insurance: Special STR coverage
-- Liability: $2M+ (higher risk)
-- Loss of income: Covers cancellations
-- Hurricane: Required
-
-COMMERCIAL:
-- Property insurance: Replacement cost
-- Liability: $2-5M
-- Business interruption
-- Workers comp (if you have employees)
-```
-
-```javascript
-// Stripe: Automate insurance payments
-// so your policy never lapses
-
-const insuranceSubscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}',
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Property Insurance - Florida LLC',
-        description: 'Annual policy paid monthly',
-      },
-      unit_amount: 35000, // $350/month
-      recurring: { interval: 'month' },
-    },
-  }],
-});
-```
 
 ## 7. Review Local Legal Restrictions
 
@@ -328,34 +113,6 @@ const insuranceSubscription = await stripe.subscriptions.create({
 | **Homestead exemption** | Property appraiser | Only for residence, not investment |
 
 ### Example: Short-Term Rental Restrictions in Florida
-
-```
-CITIES WITH RESTRICTIONS IN FLORIDA 2026:
-
-Miami Beach:
-- Prohibited in residential zones (less than 6 months + 1 day)
-- Fines up to $20,000 per violation
-- Mandatory registration
-
-Orlando:
-- Allowed with registration
-- Limit of 2 units per owner in residential areas
-- Tourist Development Tax: 6%
-
-Tampa:
-- Allowed with registration
-- No day limits
-- Safety inspection required
-
-Fort Lauderdale:
-- Allowed only in commercial zones
-- Prohibited in most residential zones
-
-Key West:
-- 28-day minimum rental per stay
-- Mandatory registration
-- Limited license cap
-```
 
 ## 8. Review Property Management
 
@@ -374,33 +131,6 @@ Key West:
 
 ### Questions for a Property Manager
 
-```
-Before hiring a property manager, ask:
-
-EXPERIENCE:
-- How many years in business?
-- How many properties do you manage?
-- Do you work with foreign owners?
-- Do you have a Florida real estate license?
-
-SERVICES:
-- Does it include marketing and listing?
-- How do you screen tenants? (background check, credit check)
-- How do you handle emergency repairs?
-- How often do you inspect the property?
-
-COSTS:
-- What is the management percentage?
-- Do you charge a leasing fee (1 month rent)?
-- Do you charge a markup on repairs?
-- Is there an eviction fee?
-
-REPORTS:
-- Do you provide monthly income/expense reports?
-- Do you integrate with Stripe for collections?
-- Do you provide documentation for taxes?
-```
-
 ## 9. Review the Exit Strategy
 
 ### Exit Options
@@ -416,89 +146,11 @@ REPORTS:
 
 ### Exit Questions
 
-```
-Before buying, ask yourself:
-
-1. When do you plan to sell?
-   - Less than 2 years: better flip or hard money
-   - 2-5 years: DSCR with refinance plan
-   - 5+ years: buy & hold with depreciation
-
-2. How does FIRPTA affect your exit?
-   - 15% withheld on total sale price
-   - You can request reduction (8288-B)
-   - 1031 Exchange defers the tax
-
-3. Will you sell the property or the LLC?
-   - Sell property: FIRPTA 15%
-   - Sell LLC: might not apply FIRPTA
-   - Sell holding: outside US jurisdiction
-
-4. How does the sale affect your structure?
-   - If you sell one LLC, structure stays intact
-   - If you sell all, you can dissolve the structure
-   - If you change states, you need a new LLC
-```
-
 ## 10. Review Documentation and Timeline
 
 ### Documents You Need
 
-```
-PERSONAL DOCUMENTATION:
-- [ ] Valid passport
-- [ ] ITIN or SSN (IRS letter)
-- [ ] Proof of address in your country
-- [ ] Bank references
-- [ ] Proof of income (if applicable)
-
-STRUCTURE DOCUMENTATION:
-- [ ] LLC certificate of formation
-- [ ] IRS EIN (CP 575 letter)
-- [ ] LLC Operating Agreement
-- [ ] Registered Agent agreement
-- [ ] LLC bank account
-- [ ] Stripe account configured
-
-PURCHASE DOCUMENTATION:
-- [ ] Pre-approval letter from lender
-- [ ] Bank statements (available funds)
-- [ ] Proof of funds source
-- [ ] Purchase contract reviewed by attorney
-
-TAX DOCUMENTATION:
-- [ ] W-7 (ITIN application)
-- [ ] W-8ECI (for bank/lender)
-- [ ] W-9 of the LLC
-- [ ] Tax treaty (if applicable)
-```
-
 ### Typical Timeline for a Foreigner
-
-```
-MONTH 1: PREPARATION
-- Week 1-2: Define budget and strategy
-- Week 2-3: Form LLC and obtain EIN
-- Week 3-4: Apply for ITIN (if you don't have one)
-- Week 4: Open bank account
-
-MONTH 2: SEARCH AND PRE-APPROVAL
-- Week 1-2: Get pre-approval from lender
-- Week 2-3: Search properties with local agent
-- Week 3-4: Visit properties (virtual or in person)
-
-MONTH 3: OFFER AND DUE DILIGENCE
-- Week 1: Make offer
-- Week 2: Due diligence (inspection, title, HOA docs)
-- Week 3: Finalize financing
-- Week 4: Close purchase
-
-MONTH 4: POST-CLOSING
-- Week 1: Set up Stripe
-- Week 2: Hire property manager (if applicable)
-- Week 3: List property for rent
-- Week 4: First tenants
-```
 
 ## 11. Frequently Asked Questions Pre-Investment
 

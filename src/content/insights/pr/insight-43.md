@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Evitar Bloqueios Bancários: Guia para Manter suas Contas Ativas"
 description: "Prevenção de bloqueios bancários"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/estandar-comun-de-reporte.png"
 cardImageAlt: "Conta bancária bloqueada com cadeado e documentos financeiros"
 ---
 
@@ -147,24 +147,6 @@ Mantenha um **arquivo preventivo** com a documentação de suas transações:
 - **Prova de origem de fundos** (Source of Wealth / Source of Funds)
 
 ### Organização sugerida:
-```
-Documentação Bancária/
-├── KYC/
-│   ├── Identificação
-│   ├── Comprovante de residência
-│   └── Documentos da empresa
-├── Transferências/
-│   ├── 2025/
-│   │   ├── Comprovantes SWIFT
-│   │   ├── Faturas relacionadas
-│   │   └── Contratos
-│   └── 2024/
-├── Declarações de Impostos/
-│   ├── 2025
-│   └── 2024
-└── Correspondência com o Banco/
-```
-
 ## 9. O Que Fazer se sua Conta For Bloqueada
 
 Se apesar de suas precauções, sua conta for bloqueada:

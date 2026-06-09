@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Preparar sua Empresa para Crescer Globalmente: Guia 2026"
 description: "Prepare sua empresa para crescer globalmente"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/negocios-internacionales.png"
 cardImageAlt: "Estratégia de crescimento global empresarial com expansão internacional, operações multi-moeda e infraestrutura transfronteiriça"
 ---
 
@@ -24,30 +24,6 @@ Neste guia, explicamos **como preparar sua empresa para crescer globalmente** em
 
 ### Quando sua Empresa Está Pronta?
 
-```
-SUA EMPRESA ESTÁ PRONTA PARA CRESCER GLOBALMENTE SE:
-
-✅ Product-Market Fit
-   - Você tem demanda comprovada no mercado local
-   - Clientes perguntam sobre disponibilidade internacional
-   - Seu produto resolve um problema universal
-
-✅ Operações Estáveis
-   - Receita consistente por 12+ meses
-   - Equipe e processos confiáveis
-   - Proposta de valor clara
-
-✅ Capacidade Financeira
-   - Orçamento para expansão internacional (formação, jurídico, marketing)
-   - 6+ meses de runway para a fase de expansão
-   - Capacidade de investir sem afetar operações locais
-
-✅ Disposição do Fundador
-   - Vontade de aprender sobre novos mercados
-   - Tempo dedicado a operações internacionais
-   - Abertura para adaptação cultural
-```
-
 ## 2. Fase 1: Estrutura da Entidade
 
 ### Escolha sua Estrutura Empresarial Global
@@ -60,54 +36,6 @@ SUA EMPRESA ESTÁ PRONTA PARA CRESCER GLOBALMENTE SE:
 | **Filial** | Empresa existente expandindo para exterior | Média | Varia por país | Sujeita a impostos locais |
 
 ### Por Que Começar com uma LLC nos EUA
-
-```
-BENEFÍCIOS DE UMA LLC NOS EUA PARA O CRESCIMENTO GLOBAL:
-
-✅ ACESSO AO SISTEMA FINANCEIRO DOS EUA
-   - Abra contas no Mercury, Relay ou Wise
-   - Ative o Stripe com todas as capacidades
-   - Receba pagamentos em USD instantaneamente
-
-✅ CREDIBILIDADE GLOBAL
-   - Uma entidade nos EUA gera confiança em clientes internacionais
-   - Mais fácil fazer parcerias com empresas dos EUA e Europa
-   - Imagem profissional em mercados globais
-
-✅ EFICIÊNCIA FISCAL
-   - Sem imposto nos EUA sobre renda de fonte estrangeira
-   - Tributação pass-through (sem dupla tributação)
-   - W-8BEN-E para benefícios de tratados
-
-✅ FLEXIBILIDADE
-   - Membro único ou múltiplos membros
-   - Pode possuir subsidiárias em outros países
-   - Fácil transferência de propriedade
-
-✅ RÁPIDO E ACESSÍVEL
-   - Formação em 1-2 dias úteis
-   - EIN obtido imediatamente online
-   - Sem requisito de capital mínimo
-```
-
-```javascript
-// Seu stack de entidade global
-
-const entidadeGlobal = {
-  principal: 'LLC de Wyoming',       // Entidade operacional principal
-  banca: 'Mercury',                   // Conta bancária nos EUA
-  pagamentos: 'Stripe',               // Processamento de pagamentos global
-  internacional: 'Wise Business',     // Contas multi-moeda
-  conformidade: 'Sotomayor Consulting International',
-};
-
-// Com este stack você pode:
-// ✅ Faturar em USD, EUR, GBP, BRL
-// ✅ Receber pagamentos de 135+ moedas
-// ✅ Pagar contratados na moeda local deles
-// ✅ Manter saldos em 50+ moedas
-// ✅ Acessar plataformas de investimento nos EUA
-```
 
 ## 3. Fase 2: Infraestrutura Bancária e Financeira
 
@@ -124,67 +52,6 @@ const entidadeGlobal = {
 
 ### Configuração do seu Stack Financeiro
 
-```
-CONFIGURAÇÃO FINANCEIRA PASSO A PASSO:
-
-SEMANA 1: ENTIDADE NOS EUA
-□ Formar LLC (Wyoming recomendado)
-□ Obter EIN do IRS
-□ Criar Acordo de Operação (Operating Agreement)
-□ Contratar agente registrado
-
-SEMANA 2: BANCA NOS EUA
-□ Abrir conta no Mercury
-□ Abrir conta no Wise Business
-□ Verificar identidade e depositar fundos
-□ Solicitar cartões de débito
-
-SEMANA 3: PROCESSAMENTO DE PAGAMENTOS
-□ Ativar conta Stripe
-□ Conectar Mercury para pagamentos
-□ Configurar preços multi-moeda
-□ Configurar Stripe Tax
-
-SEMANA 4: PRONTO PARA INTERNACIONAL
-□ Testar pagamentos em USD, EUR e moedas locais
-□ Configurar faturamento em múltiplas moedas
-□ Configurar pagamentos a contratados via Wise
-□ Documentar seus fluxos financeiros
-```
-
-```javascript
-// Stripe: Sua infraestrutura de pagamentos global
-
-// Configure preços multi-moeda
-const prices = {
-  usd: await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: 9900,
-    currency: 'usd',
-  }),
-  eur: await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: 8500,
-    currency: 'eur',
-  }),
-  gbp: await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: 7500,
-    currency: 'gbp',
-  }),
-  brl: await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: 45000, // R$450 (PPP ajustado)
-    currency: 'brl',
-  }),
-};
-
-// Stripe Tax gerencia a conformidade automaticamente
-await stripe.tax.settings.update({
-  defaults: { tax_behavior: 'exclusive' },
-});
-```
-
 ## 4. Fase 3: Preparação Legal e de Conformidade
 
 ### Requisitos de Conformidade Global
@@ -199,27 +66,6 @@ await stripe.tax.settings.update({
 | **Emprego** | Classificação contratado vs empregado | Verificar classificação em cada jurisdição |
 
 ### Checklist Legal para Crescimento Global
-
-```
-CHECKLIST DE PREPARAÇÃO LEGAL:
-
-□ LLC nos EUA formada e em bom status
-□ EIN obtido e conformidade com IRS programada
-□ W-8BEN-E apresentado para benefícios de tratados
-□ Termos de serviço redigidos (adaptáveis por mercado)
-□ Política de privacidade em conformidade com GDPR, LGPD, CCPA
-□ Mecanismo de consentimento de cookies implementado
-□ Marca registrada nos mercados principais (Protocolo de Madri)
-□ Acordos de cessão de PI com contratados
-□ Acordos de processamento de dados (DPA) para ferramentas
-□ Assessor fiscal internacional contratado
-
-⚠️ ERROS LEGAIS COMUNS:
-- Usar termos de serviço genéricos para todos os mercados
-- Ignorar GDPR ao ter clientes na UE
-- Classificar incorretamente contratados internacionais como empregados
-- Não registrar marcas antes de entrar em um mercado
-```
 
 ## 5. Fase 4: Estratégia de Seleção de Mercados
 
@@ -237,75 +83,6 @@ CHECKLIST DE PREPARAÇÃO LEGAL:
 
 ### Priorização de Entrada em Mercados
 
-```
-ORDEM RECOMENDADA DE ENTRADA EM MERCADOS:
-
-NÍVEL 1: INGLÊS (MAIS FÁCIL)
-1. Estados Unidos (sua base)
-2. Canadá
-3. Reino Unido
-4. Austrália / Nova Zelândia
-
-POR QUÊ: Mesmo idioma, cultura empresarial similar,
-Stripe suportado, marco legal comum
-
-NÍVEL 2: AMÉRICA LATINA (AFINIDADE CULTURAL)
-5. México
-6. Colômbia
-7. Brasil (português — diferente mas mercado grande)
-8. Chile
-9. Peru
-
-POR QUÊ: Afinidade cultural, economias digitais em crescimento,
-Stripe suporta métodos locais (OXXO, Pix, PSE)
-
-NÍVEL 3: EUROPA (ALTO VALOR)
-10. Espanha
-11. Alemanha
-12. França
-13. Países Baixos
-
-POR QUÊ: Alto poder aquisitivo, conformidade GDPR exigida,
-Stripe suporta SEPA, iDEAL, giropay
-
-NÍVEL 4: ÁSIA (AVANÇADO)
-14. Japão
-15. Singapura
-16. Coreia do Sul
-
-POR QUÊ: Entrada complexa, adaptação cultural crítica,
-exige parcerias locais e paciência
-```
-
-```javascript
-// Stripe: Métodos de pagamento locais por mercado
-
-const getMetodosPagamentoPorMercado = (pais) => {
-  const methods = {
-    US: ['card', 'link', 'us_bank_account', 'apple_pay'],
-    CA: ['card', 'link', 'apple_pay'],
-    GB: ['card', 'bacs_debit', 'apple_pay'],
-    MX: ['card', 'oxxo'],
-    CO: ['card', 'pse'],
-    BR: ['card', 'pix'],
-    DE: ['card', 'giropay'],
-    NL: ['card', 'ideal'],
-    JP: ['card', 'konbini'],
-    AU: ['card', 'bacs_debit'],
-  };
-  
-  return methods[pais] || ['card'];
-};
-
-// Stripe apresenta automaticamente os métodos corretos
-const session = await stripe.checkout.sessions.create({
-  line_items: [/* ... */],
-  payment_method_types: getMetodosPagamentoPorMercado('BR'),
-  locale: 'pt-BR',
-  currency: 'brl',
-});
-```
-
 ## 6. Fase 5: Preparação Operacional
 
 ### Construindo um Marco de Operações Globais
@@ -321,57 +98,6 @@ const session = await stripe.checkout.sessions.create({
 
 ### Ferramentas para Operações Globais
 
-```
-FERRAMENTAS ESSENCIAIS PARA NEGÓCIOS GLOBAIS:
-
-COMUNICAÇÃO:
-- Slack / Discord (comunicação da equipe)
-- Zoom / Google Meet (videochamadas)
-- Notion / Confluence (documentação)
-
-PAGAMENTOS E FINANÇAS:
-- Stripe (processamento de pagamentos)
-- Mercury ou Relay (banca nos EUA)
-- Wise Business (multi-moeda)
-- QuickBooks / Xero (contabilidade)
-- Deel / Remote (folha internacional)
-
-CONFORMIDADE:
-- Stripe Tax (automação de impostos)
-- OneTrust / Cookiebot (consentimento de cookies)
-- LegalRobot / Termly (documentos legais)
-
-CRESCIMENTO:
-- Google Analytics 4 (multi-região)
-- HubSpot / Salesforce (CRM)
-- Semrush / Ahrefs (SEO multinacional)
-- Intercom / Zendesk (suporte multilíngue)
-```
-
-```javascript
-// Stripe: Automatize operações financeiras globais
-
-// Pague contratados internacionais via Stripe Connect
-const transfer = await stripe.transfers.create({
-  amount: 200000, // $2,000 USD
-  currency: 'usd',
-  destination: '{{CONNECTED_ACCOUNT_ID}}',
-  transfer_group: 'PAGAMENTO_CONTRATADO_MARCO',
-});
-
-// O contratado recebe os fundos na moeda local
-// Stripe gerencia a conversão automaticamente
-
-// Envie faturas em moeda local
-const invoice = await stripe.invoices.create({
-  customer: '{{CUSTOMER_ID}}',
-  currency: 'eur',
-  auto_advance: true,
-  collection_method: 'send_invoice',
-  days_until_due: 30,
-});
-```
-
 ## 7. Fase 6: Preparação de Marketing e Marca
 
 ### Estratégia de Marca Global
@@ -386,31 +112,6 @@ const invoice = await stripe.invoices.create({
 | **Redes Sociais** | Plataformas locais | Plataforma por mercado |
 
 ### Checklist de Marketing Pré-Lançamento
-
-```
-PREPARAÇÃO DE MARKETING GLOBAL:
-
-□ Domínio .com registrado
-□ Site traduzido para os idiomas-alvo
-□ Tags hreflang implementadas
-□ Perfis de redes sociais criados por mercado
-□ Google Search Console configurado por país
-□ Estratégia de conteúdo localizado desenvolvida
-□ Keywords SEO internacionais pesquisadas
-□ Campanhas de Google Ads estruturadas por mercado
-□ Email marketing segmentado por país
-□ Links de pagamento criados para vendas por WhatsApp (LATAM)
-```
-
-```javascript
-// hreflang: Diga ao Google sobre sua presença global
-
-<link rel="alternate" href="https://empresa.com/" hreflang="x-default" />
-<link rel="alternate" href="https://empresa.com/en/" hreflang="en" />
-<link rel="alternate" href="https://empresa.com/es/" hreflang="es" />
-<link rel="alternate" href="https://empresa.com/pt-br/" hreflang="pt-br" />
-<link rel="alternate" href="https://empresa.com/de/" hreflang="de" />
-```
 
 ## 8. Erros Comuns ao se Preparar para o Crescimento Global
 
@@ -478,44 +179,6 @@ PREPARAÇÃO DE MARKETING GLOBAL:
 - [ ] Infraestrutura de suporte no idioma local
 - [ ] Conformidade legal verificada para mercado #1
 - [ ] Transação de teste concluída do início ao fim
-
-```javascript
-// Seu stack de crescimento global
-
-const stackCrescimentoGlobal = {
-  entidade: {
-    principal: 'LLC de Wyoming',
-    ein: 'XX-XXXXXXX',
-    status: 'Ativa e em bom status',
-  },
-  banca: {
-    usd: 'Mercury (operacional + tesouraria)',
-    multi: 'Wise Business',
-    cartoes: 'Mercury virtual + físico',
-  },
-  pagamentos: {
-    processador: 'Stripe',
-    moedas: ['usd', 'eur', 'gbp', 'brl', 'mxn'],
-    methods: ['card', 'link', 'pix', 'oxxo', 'sepa'],
-  },
-  conformidade: {
-    fiscal: 'Sotomayor Consulting International',
-    juridico: 'Rede de escritórios de advogados internacionais',
-    declaracoes: 'Formulário 5472 anual, relatórios estaduais',
-  },
-  mercados: {
-    tier1: ['US', 'CA', 'GB', 'AU'],     // Inglês
-    tier2: ['MX', 'CO', 'BR', 'CL'],      // LATAM
-    tier3: ['ES', 'DE', 'FR', 'NL'],      // Europa
-    next: ['JP', 'SG'],                    // Ásia (futuro)
-  },
-  equipe: {
-    core: 'Equipe global remote-first',
-    suporte: 'Multilíngue (EN, ES, PT)',
-    folha: 'Deel + Wise',
-  },
-};
-```
 
 ## Conclusão
 

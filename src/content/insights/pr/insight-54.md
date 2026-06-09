@@ -1,7 +1,7 @@
----
+﻿---
 title: "Stripe vs PayPal: Qual é o Melhor para seu Negócio em 2026?"
 description: "Comparativo Stripe vs PayPal"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Logotipos do Stripe e do PayPal lado a lado"
 ---
 
@@ -192,12 +192,6 @@ Neste comparativo detalhado, analisamos **Stripe vs PayPal** em 2026 para ajudar
 Muitas empresas optam por usar **ambas as plataformas** simultaneamente:
 
 ### Estratégia Recomendada
-
-```
-Checkout
-   ├── Stripe (padrão) — cartões, Apple Pay, Google Pay
-   └── PayPal (opção) — clientes que preferem PayPal
-```
 
 ### Vantagens de Usar Ambos
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Riesgos Tributarios de Usar Cuentas Personales para Negocios: Lo Que Debes Saber"
 description: "Riesgos fiscales de cuentas personales para negocios"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
 cardImageAlt: "Persona preocupada mirando extractos bancarios con signos de interrogación"
 ---
 

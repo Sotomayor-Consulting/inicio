@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Access the U.S. Financial System as a Foreigner: 2026 Guide"
 description: "Access the U.S. financial system as a foreigner"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/negocios-internacionales.png"
 cardImageAlt: "U.S. financial system access with bank accounts, Stripe, Wise, and digital banking platforms for foreigners"
 ---
 
@@ -24,35 +24,6 @@ In this guide, we explain **how to access the U.S. financial system from abroad*
 
 ### Who Needs U.S. Banking Access
 
-```
-U.S. FINANCIAL SYSTEM ACCESS IS FOR:
-
-✅ Digital Entrepreneurs
-   - Receive payments from Stripe, PayPal, Shopify
-   - Pay for U.S.-based services (AWS, SaaS tools)
-   - Avoid currency conversion losses
-
-✅ E-commerce Sellers
-   - Amazon FBA, Shopify, Etsy, eBay sellers
-   - Receive USD directly from platforms
-   - Pay U.S. suppliers and logistics providers
-
-✅ Freelancers and Remote Workers
-   - Invoice U.S. clients in USD
-   - Receive payments without international wire fees
-   - Access platforms like Upwork, Fiverr, Toptal
-
-✅ Real Estate Investors
-   - Hold funds for property purchases in Florida, Texas
-   - Make mortgage payments from a U.S. account
-   - Receive rental income in USD
-
-✅ International Businesses
-   - Operate with a U.S. subsidiary or LLC
-   - Manage multi-currency cash flow
-   - Access U.S. capital markets
-```
-
 ## 2. Step 1: Form a U.S. Business Entity
 
 ### Why You Need an LLC or Corporation
@@ -73,28 +44,6 @@ Most U.S. financial platforms require a **U.S. business entity** to open a busin
 | **Delaware** | $90 | $300 | No state income tax for out-of-state | Medium |
 | **New Mexico** | $50 | $0 | No state income tax | Very high (no public member info) |
 | **Florida** | $125 | $138.75 | No state income tax | Low |
-
-```javascript
-// The EIN: Your business's social security number
-// Required for: bank accounts, tax filings, payment processors
-
-// Apply for EIN online via IRS website
-// Required documents:
-const einApplication = {
-  entityType: 'LLC',
-  responsibleParty: 'Non-resident alien',
-  ssnOrItin: 'Not required (apply with passport)',
-  filingMethod: 'Online (SS-4 form)',
-  processingTime: 'Immediate (online) or 4 weeks (mail)',
-};
-
-// With EIN + LLC you can:
-// ✅ Open business bank accounts
-// ✅ Apply for Stripe, PayPal Business
-// ✅ File taxes with IRS
-// ✅ Hire employees (if applicable)
-// ✅ Build business credit
-```
 
 ## 3. Step 2: Open a U.S. Bank Account
 
@@ -120,56 +69,6 @@ The easiest way to access the U.S. banking system is through **online-only banks
 | **HSBC** | May accept foreign clients | Global account, high minimums |
 
 ### Documents Required for U.S. Bank Account
-
-```
-DOCUMENTS NEEDED:
-
-□ Certificate of Formation (from state)
-□ EIN Confirmation Letter (CP 575 from IRS)
-□ Operating Agreement (LLC)
-□ Valid Passport (all owners)
-□ Proof of Foreign Address (utility bill, bank statement)
-□ ITIN (Individual Taxpayer ID) - sometimes required
-□ Business License or Professional License (if applicable)
-
-TIP: Online banks (Mercury, Relay) are more flexible
-and accept foreign documents more readily.
-```
-
-```javascript
-// Mercury API: Programmatic banking for your LLC
-
-// Create a virtual card programmatically
-const card = await mercury.cards.create({
-  accountId: '{{ACCOUNT_ID}}',
-  cardholder: {
-    name: 'John Doe',
-    email: 'john@example.com',
-  },
-  cardType: 'virtual',
-  controls: {
-    spendingLimits: {
-      daily: 5000,       // $5,000 daily limit
-      monthly: 50000,    // $50,000 monthly limit
-    },
-    merchantCategories: {
-      allowed: ['software', 'cloud', 'marketing'],
-    },
-  },
-});
-
-// Send a wire transfer
-const payment = await mercury.transactions.sendWire({
-  accountId: '{{ACCOUNT_ID}}',
-  recipient: {
-    name: 'Supplier Inc.',
-    accountNumber: '123456789',
-    routingNumber: '021000021',
-    bankName: 'Chase Bank',
-  },
-  amount: 15000, // $15,000 USD
-});
-```
 
 ## 4. Step 3: Set Up Payment Processing
 
@@ -198,43 +97,6 @@ const payment = await mercury.transactions.sendWire({
 | **Authorize.net** | Established businesses | ✅ Requires merchant account | $25/mo + fees |
 | **Adyen** | Enterprise, high volume | ✅ Requires underwriting | Custom pricing |
 
-```javascript
-// Activate Stripe with your U.S. LLC
-
-// Step 1: Create a Stripe account with your U.S. business details
-const stripeAccount = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  email: 'business@example.com',
-  business_type: 'company',
-  company: {
-    name: 'Your LLC Name',
-    tax_id: 'XX-XXXXXXX', // Your EIN
-  },
-});
-
-// Step 2: Configure your U.S. bank account for payouts
-await stripe.accounts.updateExternalAccount(
-  '{{ACCOUNT_ID}}',
-  {
-    external_account: {
-      object: 'bank_account',
-      country: 'US',
-      currency: 'usd',
-      routing_number: '021000021',
-      account_number: '000123456789',
-    },
-  }
-);
-
-// Step 3: Start accepting payments in USD
-const paymentIntent = await stripe.paymentIntents.create({
-  amount: 5000, // $50.00
-  currency: 'usd',
-  payment_method_types: ['card', 'link', 'us_bank_account'],
-});
-```
-
 ## 5. Step 4: Build U.S. Business Credit
 
 ### Why Business Credit Matters
@@ -248,36 +110,6 @@ Building U.S. business credit allows you to access **financing, credit cards, an
 | **Equifax Business** | 0-100 | Business loans, trade credit |
 
 ### How to Build Business Credit as a Foreigner
-
-```
-BUSINESS CREDIT BUILDING PLAN:
-
-MONTH 1-3: FOUNDATION
-□ Get a DUNS number (free from Dun & Bradstreet)
-□ Register with Experian Business and Equifax Business
-□ Open a business bank account (Mercury or Relay)
-□ Get an EIN (Employer Identification Number)
-
-MONTH 3-6: TRADE LINES
-□ Apply for Net-30 accounts (Uline, Grainger, Quill)
-   • These report to D&B and Experian
-   • Pay early or on time every time
-□ Get a secured business credit card
-   • Requires a deposit ($500-$5,000)
-   • Reports to business credit bureaus
-
-MONTH 6-12: CREDIT BUILDING
-□ Apply for unsecured business credit cards
-   • Brex, Ramp, or Divvy (may require US presence)
-   • Start with low limits ($1,000-$5,000)
-□ Establish vendor credit with 2-3 suppliers
-   • Each trade line boosts your score
-
-MONTH 12+: FINANCING ACCESS
-□ Apply for business lines of credit ($10K-$100K)
-□ Explore equipment financing
-□ Qualify for better payment terms (Net-30, Net-60)
-```
 
 ## 6. Step 5: Manage Taxes and Compliance
 
@@ -293,67 +125,6 @@ MONTH 12+: FINANCING ACCESS
 | **State Reports** | Annual/Biennial | Varies by state (Wyoming: $60, Delaware: $300) |
 
 ### Tax Considerations for Foreigners
-
-```
-IMPORTANT TAX RULES:
-
-✅ NO U.S. TAX ON FOREIGN INCOME
-   - If your LLC has no U.S. source income
-   - And you have no physical presence in the U.S.
-   - You may file only informational returns (Form 5472)
-
-✅ TAX TREATIES
-   - Many countries have double taxation treaties with the U.S.
-   - Check if your country qualifies
-   - File W-8BEN-E to claim benefits
-
-✅ STATE TAXES
-   - Wyoming: $60 annual report, no state income tax
-   - Delaware: $300 annual franchise tax
-   - Florida: $138.75 annual report, no state income tax
-   - New Mexico: $0 annual report, no state income tax
-
-✅ SALES TAX (IF SELLING TO U.S. CUSTOMERS)
-   - Economic nexus rules vary by state
-   - Stripe Tax can help calculate and collect
-   - Most states require collection after $100K-$500K in sales
-
-⚠️ PENALTIES FOR NON-COMPLIANCE
-   - Form 5472: $25,000 penalty for non-filing
-   - FBAR: $10,000+ penalty for non-filing
-   - State non-compliance: suspension of LLC
-```
-
-```javascript
-// Stripe Tax: Automatic U.S. tax compliance
-
-// Configure Stripe Tax for your U.S. business
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive',
-    // Stripe calculates sales tax based on customer location
-  },
-});
-
-// In checkout, Stripe handles tax automatically
-const session = await stripe.checkout.sessions.create({
-  line_items: [{
-    price: '{{PRICE_ID}}',
-    quantity: 1,
-    tax_behavior: 'exclusive',
-  }],
-  automatic_tax: { enabled: true },
-  customer_details: {
-    address: {
-      country: 'US',
-      state: 'FL', // Customer in Florida
-    },
-  },
-});
-
-// Stripe automatically calculates Florida sales tax
-// Returns detailed receipts for your tax filings
-```
 
 ## 7. Step 6: Access U.S. Investment Platforms
 
@@ -377,29 +148,6 @@ Once you have a U.S. LLC, bank account, and EIN, you can access U.S. investment 
 | **Coinbase Commerce** | ✅ Accepts U.S. LLCs | Crypto payments for businesses |
 | **Circle (USDC)** | ✅ Accepts U.S. LLCs | Stablecoin treasury management |
 | **Kraken** | ✅ Accepts U.S. LLCs | Crypto trading and staking |
-
-```javascript
-// Stripe: Connect your U.S. entity to global finance
-
-// Create a Treasury Account for yield on your USD
-// (Mercury, Brex, and other neobanks offer similar)
-
-// Use Stripe Connect to pay contractors globally
-const accountLink = await stripe.accountLinks.create({
-  account: '{{CONNECTED_ACCOUNT_ID}}',
-  refresh_url: 'https://example.com/reauth',
-  return_url: 'https://example.com/return',
-  type: 'account_onboarding',
-});
-
-// Use Stripe Issuing for corporate cards
-const card = await stripe.issuing.cards.create({
-  cardholder: '{{CARDHOLDER_ID}}',
-  currency: 'usd',
-  type: 'virtual',
-  status: 'active',
-});
-```
 
 ## 8. Common Mistakes When Accessing the U.S. Financial System
 
@@ -458,36 +206,6 @@ const card = await stripe.issuing.cards.create({
 - [ ] Apply for business credit card
 - [ ] Explore investment platforms (Interactive Brokers)
 - [ ] Set up multi-currency accounts (Wise)
-
-```javascript
-// Your complete U.S. financial stack
-
-const usFinancialStack = {
-  entity: 'Wyoming LLC',
-  ein: 'XX-XXXXXXX',
-  banking: {
-    primary: 'Mercury (operating account)',
-    savings: 'Mercury Treasury (4-5% APY)',
-    international: 'Wise Business (multi-currency)',
-  },
-  payments: {
-    processor: 'Stripe',
-    payouts: 'Daily to Mercury',
-    methods: ['card', 'ach', 'link', 'apple_pay'],
-  },
-  compliance: {
-    irs: 'Annual Form 5472',
-    state: 'Wyoming Annual Report ($60)',
-    fbar: 'If applicable',
-    taxProfessional: 'Sotomayor Consulting International',
-  },
-  credit: {
-    duns: 'XX-XXX-XXXX',
-    net30: 'Uline, Grainger, Quill',
-    card: 'Brex or Ramp (if qualified)',
-  },
-};
-```
 
 ## Conclusion
 

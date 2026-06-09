@@ -1,137 +1,137 @@
-Ôªø---
-title: "Formul√°rio 5472 Explicado: Tudo o que Voc√™ Precisa Saber para sua LLC"
-description: "Guia completo sobre o Formul√°rio 5472 do IRS: quem deve apresent√°-lo, como preench√™-lo, prazos, multas e melhores pr√°ticas."
+---
+title: "Formul·rio 5472 Explicado: Tudo o que VocÍ Precisa Saber para sua LLC"
+description: "Guia completo sobre o Formul·rio 5472 do IRS: quem deve apresent·-lo, como preenchÍ-lo, prazos, multas e melhores pr·ticas."
 cardImage: "@/images/insights/formulario-5472.png"
-cardImageAlt: "Formul√°rio 5472 do IRS com lupa"
+cardImageAlt: "Formul·rio 5472 do IRS com lupa"
 ----
 
-O Formul√°rio 5472 √© um dos requisitos fiscais mais importantes ‚Äîe mais ignorados‚Äî para propriet√°rios estrangeiros de uma LLC nos Estados Unidos. A falta de apresenta√ß√£o pode resultar em multas de at√© **$25.000 por ano**.
+O Formul·rio 5472 È um dos requisitos fiscais mais importantes óe mais ignoradosó para propriet·rios estrangeiros de uma LLC nos Estados Unidos. A falta de apresentaÁ„o pode resultar em multas de atÈ **$25.000 por ano**.
 
-Neste guia, explicamos o que √©, quem deve apresent√°-lo, como preench√™-lo e como evitar erros comuns.
+Neste guia, explicamos o que È, quem deve apresent·-lo, como preenchÍ-lo e como evitar erros comuns.
 
-## O que √© o Formul√°rio 5472?
+## O que È o Formul·rio 5472?
 
-O Formul√°rio 5472 √© uma declara√ß√£o informativa que o IRS utiliza para coletar informa√ß√µes sobre transa√ß√µes entre certas corpora√ß√µes americanas e suas partes relacionadas estrangeiras.
+O Formul·rio 5472 È uma declaraÁ„o informativa que o IRS utiliza para coletar informaÁıes sobre transaÁıes entre certas corporaÁıes americanas e suas partes relacionadas estrangeiras.
 
-Para efeitos pr√°ticos, se voc√™ √© **estrangeiro n√£o residente** (n√£o tem green card nem cidadania americana) e √© o √∫nico propriet√°rio de uma LLC, o IRS considera sua LLC como uma "corpora√ß√£o nacional" para fins deste formul√°rio, e voc√™ como uma "parte relacionada estrangeira".
+Para efeitos pr·ticos, se vocÍ È **estrangeiro n„o residente** (n„o tem green card nem cidadania americana) e È o ˙nico propriet·rio de uma LLC, o IRS considera sua LLC como uma "corporaÁ„o nacional" para fins deste formul·rio, e vocÍ como uma "parte relacionada estrangeira".
 
-**N√£o √© uma declara√ß√£o de imposto de renda.** √â uma declara√ß√£o informativa. Voc√™ n√£o paga impostos adicionais ao apresent√°-lo. Simplesmente reporta as transa√ß√µes entre sua LLC (nos EUA) e voc√™ (no exterior).
+**N„o È uma declaraÁ„o de imposto de renda.** … uma declaraÁ„o informativa. VocÍ n„o paga impostos adicionais ao apresent·-lo. Simplesmente reporta as transaÁıes entre sua LLC (nos EUA) e vocÍ (no exterior).
 
-## Quem deve apresent√°-lo?
+## Quem deve apresent·-lo?
 
-Voc√™ deve apresentar o Formul√°rio 5472 se cumprir **todas** estas condi√ß√µes:
+VocÍ deve apresentar o Formul·rio 5472 se cumprir **todas** estas condiÁıes:
 
-1. Voc√™ √© **estrangeiro n√£o residente** dos EUA (nem cidad√£o, nem green card, nem residente fiscal).
-2. Voc√™ √© o **√∫nico propriet√°rio** de uma LLC americana (single-member LLC).
-3. Sua LLC realizou **transa√ß√µes report√°veis** durante o ano fiscal (quase qualquer transa√ß√£o conta).
+1. VocÍ È **estrangeiro n„o residente** dos EUA (nem cidad„o, nem green card, nem residente fiscal).
+2. VocÍ È o **˙nico propriet·rio** de uma LLC americana (single-member LLC).
+3. Sua LLC realizou **transaÁıes report·veis** durante o ano fiscal (quase qualquer transaÁ„o conta).
 
-### O que s√£o "transa√ß√µes report√°veis"?
+### O que s„o "transaÁıes report·veis"?
 
-Qualquer transa√ß√£o entre a LLC (parte relacionada americana) e o propriet√°rio (parte relacionada estrangeira) deve ser reportada. Exemplos:
+Qualquer transaÁ„o entre a LLC (parte relacionada americana) e o propriet·rio (parte relacionada estrangeira) deve ser reportada. Exemplos:
 
-| Transa√ß√£o | Report√°vel? |
+| TransaÁ„o | Report·vel? |
 |-----------|-------------|
-| Aporta√ß√£o de capital inicial | Sim |
-| Transfer√™ncia de fundos do propriet√°rio para a LLC | Sim |
-| Retirada de fundos da LLC para o propriet√°rio | Sim |
+| AportaÁ„o de capital inicial | Sim |
+| TransferÍncia de fundos do propriet·rio para a LLC | Sim |
+| Retirada de fundos da LLC para o propriet·rio | Sim |
 | Pagamento de despesas pessoais pela LLC | Sim |
-| Empr√©stimo do propriet√°rio para a LLC | Sim |
-| Empr√©stimo da LLC para o propriet√°rio | Sim |
-| Pagamento de servi√ßos do propriet√°rio para a LLC | Sim |
-| Compra de ativos entre propriet√°rio e LLC | Sim |
+| EmprÈstimo do propriet·rio para a LLC | Sim |
+| EmprÈstimo da LLC para o propriet·rio | Sim |
+| Pagamento de serviÁos do propriet·rio para a LLC | Sim |
+| Compra de ativos entre propriet·rio e LLC | Sim |
 
-> **Regra geral:** Se houve movimento de dinheiro entre voc√™ e sua LLC no ano, deve apresentar o Formul√°rio 5472.
+> **Regra geral:** Se houve movimento de dinheiro entre vocÍ e sua LLC no ano, deve apresentar o Formul·rio 5472.
 
-## Quem N√ÉO deve apresent√°-lo?
+## Quem N√O deve apresent·-lo?
 
-Voc√™ n√£o deve apresentar o Formul√°rio 5472 se:
+VocÍ n„o deve apresentar o Formul·rio 5472 se:
 
-1. Voc√™ √© **cidad√£o americano ou residente permanente** (green card).
-2. Sua LLC tem **dois ou mais membros** (multi-member LLC) ‚Äîneste caso aplicam-se outras regras.
-3. Sua LLC n√£o teve **nenhuma transa√ß√£o** com o propriet√°rio estrangeiro durante o ano (pouco comum).
-4. Voc√™ optou por sua LLC tributar como **S-Corp ou C-Corp** (aplicam-se outras regras).
+1. VocÍ È **cidad„o americano ou residente permanente** (green card).
+2. Sua LLC tem **dois ou mais membros** (multi-member LLC) óneste caso aplicam-se outras regras.
+3. Sua LLC n„o teve **nenhuma transaÁ„o** com o propriet·rio estrangeiro durante o ano (pouco comum).
+4. VocÍ optou por sua LLC tributar como **S-Corp ou C-Corp** (aplicam-se outras regras).
 
-## Prazos de apresenta√ß√£o
+## Prazos de apresentaÁ„o
 
 | Evento | Data limite |
 |--------|-------------|
-| Data limite padr√£o | 15 de abril |
-| Extens√£o autom√°tica | 15 de outubro |
-| Extens√£o adicional (com justificativa) | Poss√≠vel mas n√£o autom√°tica |
+| Data limite padr„o | 15 de abril |
+| Extens„o autom·tica | 15 de outubro |
+| Extens„o adicional (com justificativa) | PossÌvel mas n„o autom·tica |
 
-O Formul√°rio 5472 √© apresentado junto com o **Formul√°rio 1120** (pro-forma). Embora a LLC n√£o pague impostos, deve apresentar o 1120 como ve√≠culo para o 5472.
+O Formul·rio 5472 È apresentado junto com o **Formul·rio 1120** (pro-forma). Embora a LLC n„o pague impostos, deve apresentar o 1120 como veÌculo para o 5472.
 
-> **IMPORTANTE:** N√£o h√° extens√£o autom√°tica apenas para o 5472. A extens√£o para 15 de outubro aplica se voc√™ apresentar o Formul√°rio 7004 para estender o 1120.
+> **IMPORTANTE:** N„o h· extens„o autom·tica apenas para o 5472. A extens„o para 15 de outubro aplica se vocÍ apresentar o Formul·rio 7004 para estender o 1120.
 
-## Multas por n√£o apresentar
+## Multas por n„o apresentar
 
-| Infra√ß√£o | Multa |
+| InfraÁ„o | Multa |
 |----------|-------|
-| N√£o apresentar o 5472 | $25.000 por ano |
+| N„o apresentar o 5472 | $25.000 por ano |
 | Apresentar incompleto ou incorreto | $25.000 por ano |
-| N√£o apresentar ap√≥s notifica√ß√£o do IRS | $25.000 por ano adicional |
-| Apresenta√ß√£o tardia sem extens√£o v√°lida | $25.000 |
+| N„o apresentar apÛs notificaÁ„o do IRS | $25.000 por ano adicional |
+| ApresentaÁ„o tardia sem extens„o v·lida | $25.000 |
 
-A multa aplica-se **por cada ano fiscal** n√£o apresentado. Se n√£o apresentou por 3 anos, a multa potencial √© de $75.000.
+A multa aplica-se **por cada ano fiscal** n„o apresentado. Se n„o apresentou por 3 anos, a multa potencial È de $75.000.
 
-> **Dado importante:** O IRS tem intensificado a fiscaliza√ß√£o de Formul√°rios 5472 nos √∫ltimos anos. Cada vez mais propriet√°rios estrangeiros de LLCs est√£o recebendo cartas de conformidade.
+> **Dado importante:** O IRS tem intensificado a fiscalizaÁ„o de Formul·rios 5472 nos ˙ltimos anos. Cada vez mais propriet·rios estrangeiros de LLCs est„o recebendo cartas de conformidade.
 
-## Passo a passo para preencher o Formul√°rio 5472
+## Passo a passo para preencher o Formul·rio 5472
 
-### Passo 1: Re√∫na a informa√ß√£o necess√°ria
+### Passo 1: Re˙na a informaÁ„o necess·ria
 
-- **EIN da LLC:** N√∫mero de identifica√ß√£o fiscal.
-- **Nome e endere√ßo da LLC.**
-- **Sua informa√ß√£o pessoal:** Nome, endere√ßo no seu pa√≠s, pa√≠s de resid√™ncia fiscal.
-- **Tipo de transa√ß√£o:** Aporta√ß√£o, retirada, empr√©stimo, pagamento, etc.
-- **Valores em USD:** Valor de cada transa√ß√£o durante o ano fiscal.
-- **M√©todo de transfer√™ncia:** Wire transfer, ACH, PayPal, etc.
+- **EIN da LLC:** N˙mero de identificaÁ„o fiscal.
+- **Nome e endereÁo da LLC.**
+- **Sua informaÁ„o pessoal:** Nome, endereÁo no seu paÌs, paÌs de residÍncia fiscal.
+- **Tipo de transaÁ„o:** AportaÁ„o, retirada, emprÈstimo, pagamento, etc.
+- **Valores em USD:** Valor de cada transaÁ„o durante o ano fiscal.
+- **MÈtodo de transferÍncia:** Wire transfer, ACH, PayPal, etc.
 
-### Passo 2: Baixe o formul√°rio
+### Passo 2: Baixe o formul·rio
 
-Baixe o Formul√°rio 5472 mais recente do IRS.gov. Voc√™ tamb√©m precisar√° do Formul√°rio 1120 (pro-forma).
+Baixe o Formul·rio 5472 mais recente do IRS.gov. VocÍ tambÈm precisar· do Formul·rio 1120 (pro-forma).
 
-### Passo 3: Complete as partes do formul√°rio
+### Passo 3: Complete as partes do formul·rio
 
-O Formul√°rio 5472 tem v√°rias partes:
+O Formul·rio 5472 tem v·rias partes:
 
-| Parte | Descri√ß√£o |
+| Parte | DescriÁ„o |
 |-------|-----------|
-| **Parte I** | Informa√ß√£o da LLC (nome, EIN, endere√ßo) |
-| **Parte II** | Informa√ß√£o do propriet√°rio estrangeiro (nome, endere√ßo, pa√≠s) |
-| **Parte III** | Tipo de transa√ß√µes report√°veis (c√≥digos de transa√ß√£o) |
-| **Parte IV** | Valores monet√°rios de cada transa√ß√£o |
-| **Parte V** | Informa√ß√£o adicional se aplic√°vel |
+| **Parte I** | InformaÁ„o da LLC (nome, EIN, endereÁo) |
+| **Parte II** | InformaÁ„o do propriet·rio estrangeiro (nome, endereÁo, paÌs) |
+| **Parte III** | Tipo de transaÁıes report·veis (cÛdigos de transaÁ„o) |
+| **Parte IV** | Valores monet·rios de cada transaÁ„o |
+| **Parte V** | InformaÁ„o adicional se aplic·vel |
 
-### Passo 4: Determine os c√≥digos de transa√ß√£o
+### Passo 4: Determine os cÛdigos de transaÁ„o
 
-O IRS atribui c√≥digos espec√≠ficos para cada tipo de transa√ß√£o:
+O IRS atribui cÛdigos especÌficos para cada tipo de transaÁ„o:
 
-| C√≥digo | Tipo de transa√ß√£o |
+| CÛdigo | Tipo de transaÁ„o |
 |--------|------------------|
-| **01** | Vendas de bens m√≥veis |
-| **02** | Vendas de bens im√≥veis |
-| **03** | Arrendamento de bens m√≥veis |
-| **04** | Arrendamento de bens im√≥veis |
+| **01** | Vendas de bens mÛveis |
+| **02** | Vendas de bens imÛveis |
+| **03** | Arrendamento de bens mÛveis |
+| **04** | Arrendamento de bens imÛveis |
 | **05** | Juros |
-| **06** | Servi√ßos prestados |
-| **07** | Servi√ßos recebidos |
-| **08** | Comiss√µes |
+| **06** | ServiÁos prestados |
+| **07** | ServiÁos recebidos |
+| **08** | Comissıes |
 | **09** | Royalties |
 | **10** | Reembolsos |
 | **11** | Seguros |
 | **12** | Outros valores (uso geral) |
 
-Para a maioria das LLCs de propriet√°rio √∫nico, o c√≥digo mais comum √© **12** (Other amounts), que cobre aporta√ß√µes de capital e retiradas.
+Para a maioria das LLCs de propriet·rio ˙nico, o cÛdigo mais comum È **12** (Other amounts), que cobre aportaÁıes de capital e retiradas.
 
-### Passo 5: Prepare o Formul√°rio 1120 pro-forma
+### Passo 5: Prepare o Formul·rio 1120 pro-forma
 
-O 5472 deve ser apresentado **junto com o Formul√°rio 1120**. Este 1120 √© "pro-forma" porque a LLC n√£o paga impostos (√© disregarded entity), mas serve como ve√≠culo para o 5472.
+O 5472 deve ser apresentado **junto com o Formul·rio 1120**. Este 1120 È "pro-forma" porque a LLC n„o paga impostos (È disregarded entity), mas serve como veÌculo para o 5472.
 
-Se√ß√µes principais do 1120:
+SeÁıes principais do 1120:
 
-- **P√°gina 1:** Informa√ß√£o b√°sica da LLC.
-- **Schedule E:** Informa√ß√£o da corpora√ß√£o.
+- **P·gina 1:** InformaÁ„o b·sica da LLC.
+- **Schedule E:** InformaÁ„o da corporaÁ„o.
 - **Schedule K:** Outros dados.
 - **Anexo do 5472:** Anexado ao final do 1120.
 
@@ -139,113 +139,113 @@ Se√ß√µes principais do 1120:
 
 Antes de enviar, verifique:
 
-- [ ] Todos os campos est√£o completos.
-- [ ] Os valores est√£o em USD.
-- [ ] Os c√≥digos de transa√ß√£o est√£o corretos.
-- [ ] O 1120 est√° assinado (por um oficial da LLC, que pode ser voc√™).
-- [ ] O 5472 est√° assinado.
-- [ ] Voc√™ envia tudo para o endere√ßo correto do IRS.
+- [ ] Todos os campos est„o completos.
+- [ ] Os valores est„o em USD.
+- [ ] Os cÛdigos de transaÁ„o est„o corretos.
+- [ ] O 1120 est· assinado (por um oficial da LLC, que pode ser vocÍ).
+- [ ] O 5472 est· assinado.
+- [ ] VocÍ envia tudo para o endereÁo correto do IRS.
 
 ## Erros comuns
 
-### Erro 1: N√£o apresentar porque "a LLC n√£o gerou receitas"
+### Erro 1: N„o apresentar porque "a LLC n„o gerou receitas"
 
-Mesmo que a LLC n√£o tenha tido receitas, se voc√™ fez uma aporta√ß√£o de capital (depositou dinheiro para abrir a conta ou pagar despesas de forma√ß√£o), isso √© uma transa√ß√£o report√°vel.
+Mesmo que a LLC n„o tenha tido receitas, se vocÍ fez uma aportaÁ„o de capital (depositou dinheiro para abrir a conta ou pagar despesas de formaÁ„o), isso È uma transaÁ„o report·vel.
 
-### Erro 2: Pensar que o contador local far√°
+### Erro 2: Pensar que o contador local far·
 
-Muitos contadores na Am√©rica Latina n√£o conhecem o Formul√°rio 5472. Especifique que precisa de um CPA com experi√™ncia em tributa√ß√£o americana para prepar√°-lo.
+Muitos contadores na AmÈrica Latina n„o conhecem o Formul·rio 5472. Especifique que precisa de um CPA com experiÍncia em tributaÁ„o americana para prepar·-lo.
 
 ### Erro 3: Usar dados inconsistentes
 
-O nome da LLC, EIN e endere√ßo devem coincidir exatamente com os registros do IRS e do estado.
+O nome da LLC, EIN e endereÁo devem coincidir exatamente com os registros do IRS e do estado.
 
-### Erro 4: N√£o assinar o formul√°rio
+### Erro 4: N„o assinar o formul·rio
 
-O 5472 e o 1120 devem estar assinados. Um formul√°rio sem assinatura √© como n√£o ter apresentado.
+O 5472 e o 1120 devem estar assinados. Um formul·rio sem assinatura È como n„o ter apresentado.
 
-### Erro 5: Perder a extens√£o
+### Erro 5: Perder a extens„o
 
-Se n√£o apresentar o 7004 antes de 15 de abril, perde a extens√£o autom√°tica e a multa aplica-se a partir de 16 de abril.
+Se n„o apresentar o 7004 antes de 15 de abril, perde a extens„o autom·tica e a multa aplica-se a partir de 16 de abril.
 
 ## Precisa de um CPA?
 
-O Formul√°rio 5472 √© complexo para quem n√£o est√° familiarizado com o sistema fiscal americano. Embora voc√™ possa prepar√°-lo sozinho, os erros podem ser custosos.
+O Formul·rio 5472 È complexo para quem n„o est· familiarizado com o sistema fiscal americano. Embora vocÍ possa prepar·-lo sozinho, os erros podem ser custosos.
 
-### Recomenda√ß√µes para escolher um CPA
+### RecomendaÁıes para escolher um CPA
 
-1. **Experi√™ncia comprovada** com LLCs de propriet√°rios estrangeiros.
-2. **Conhecimento do Formul√°rio 5472** especificamente.
+1. **ExperiÍncia comprovada** com LLCs de propriet·rios estrangeiros.
+2. **Conhecimento do Formul·rio 5472** especificamente.
 3. **Disponibilidade** para responder perguntas durante o ano.
-4. **Pre√ßo claro**: normalmente entre $200 e $500 pela prepara√ß√£o do 5472 + 1120 pro-forma.
-5. **Refer√™ncias** de outros empreendedores internacionais.
+4. **PreÁo claro**: normalmente entre $200 e $500 pela preparaÁ„o do 5472 + 1120 pro-forma.
+5. **ReferÍncias** de outros empreendedores internacionais.
 
-## Caso pr√°tico
+## Caso pr·tico
 
-**Situa√ß√£o:** Ana, designer gr√°fica na Col√¥mbia, constituiu uma LLC em Wyoming em 2023. Durante o ano:
+**SituaÁ„o:** Ana, designer gr·fica na ColÙmbia, constituiu uma LLC em Wyoming em 2023. Durante o ano:
 
-1. Fez uma aporta√ß√£o inicial de $5.000 para abrir a conta banc√°ria.
+1. Fez uma aportaÁ„o inicial de $5.000 para abrir a conta banc·ria.
 2. Transferiu $2.000 adicionais para despesas operacionais.
 3. Retirou $1.500 para despesas pessoais.
 4. Pagou $500 do Annual Report pela conta pessoal.
 
-**Ela deve apresentar o Formul√°rio 5472?**
+**Ela deve apresentar o Formul·rio 5472?**
 
-Sim. Cada uma dessas transa√ß√µes entre Ana (parte relacionada estrangeira) e sua LLC (parte relacionada americana) √© report√°vel.
+Sim. Cada uma dessas transaÁıes entre Ana (parte relacionada estrangeira) e sua LLC (parte relacionada americana) È report·vel.
 
-**Qual c√≥digo usar?**
+**Qual cÛdigo usar?**
 
-- C√≥digo 12 (Other amounts) para todas as transa√ß√µes.
+- CÛdigo 12 (Other amounts) para todas as transaÁıes.
 - Descrever cada uma na Parte IV.
 
 **Quando?**
 
-Antes de 15 de abril de 2024 (ou 15 de outubro se solicitou extens√£o).
+Antes de 15 de abril de 2024 (ou 15 de outubro se solicitou extens„o).
 
 ## Perguntas frequentes
 
-### O Formul√°rio 5472 significa que devo pagar impostos nos EUA?
+### O Formul·rio 5472 significa que devo pagar impostos nos EUA?
 
-N√£o. O 5472 √© uma declara√ß√£o **informativa**, n√£o uma declara√ß√£o de imposto de renda. Voc√™ n√£o paga impostos adicionais ao apresent√°-lo.
+N„o. O 5472 È uma declaraÁ„o **informativa**, n„o uma declaraÁ„o de imposto de renda. VocÍ n„o paga impostos adicionais ao apresent·-lo.
 
-### O que acontece se minha LLC n√£o teve atividade?
+### O que acontece se minha LLC n„o teve atividade?
 
-Se n√£o houve transa√ß√µes entre o propriet√°rio e a LLC (n√£o fez aporta√ß√µes nem retiradas), n√£o precisa apresentar o 5472. No entanto, √© raro que uma LLC n√£o tenha pelo menos uma transa√ß√£o com seu propriet√°rio.
+Se n„o houve transaÁıes entre o propriet·rio e a LLC (n„o fez aportaÁıes nem retiradas), n„o precisa apresentar o 5472. No entanto, È raro que uma LLC n„o tenha pelo menos uma transaÁ„o com seu propriet·rio.
 
 ### Posso apresentar o 5472 eu mesmo?
 
-Sim, pode. Mas o formul√°rio deve ser anexado ao 1120, o que adiciona complexidade. Muitos optam por contratar um CPA.
+Sim, pode. Mas o formul·rio deve ser anexado ao 1120, o que adiciona complexidade. Muitos optam por contratar um CPA.
 
 ### O 5472 aplica-se a multi-member LLCs?
 
-N√£o diretamente. As multi-member LLCs apresentam o Formul√°rio 1065 e t√™m outras obriga√ß√µes. No entanto, regras similares podem aplicar-se sob certas circunst√¢ncias.
+N„o diretamente. As multi-member LLCs apresentam o Formul·rio 1065 e tÍm outras obrigaÁıes. No entanto, regras similares podem aplicar-se sob certas circunst‚ncias.
 
-### O que fazer se n√£o apresentei em anos anteriores?
+### O que fazer se n„o apresentei em anos anteriores?
 
 Deve apresentar os anos atrasados o quanto antes. O IRS tem um programa de "delinquent filing" que pode reduzir as multas se apresentar voluntariamente.
 
 ## Checklist anual
 
-- [ ] Reunir registros de todas as transa√ß√µes entre propriet√°rio e LLC.
+- [ ] Reunir registros de todas as transaÁıes entre propriet·rio e LLC.
 - [ ] Calcular valores totais em USD.
-- [ ] Determinar c√≥digos de transa√ß√£o.
-- [ ] Preparar Formul√°rio 1120 pro-forma.
-- [ ] Completar Formul√°rio 5472.
-- [ ] Assinar ambos os formul√°rios.
+- [ ] Determinar cÛdigos de transaÁ„o.
+- [ ] Preparar Formul·rio 1120 pro-forma.
+- [ ] Completar Formul·rio 5472.
+- [ ] Assinar ambos os formul·rios.
 - [ ] Enviar ao IRS antes de 15 de abril.
-- [ ] Ou apresentar Formul√°rio 7004 antes de 15 de abril para extens√£o at√© 15 de outubro.
-- [ ] Guardar c√≥pia de tudo o que foi apresentado.
+- [ ] Ou apresentar Formul·rio 7004 antes de 15 de abril para extens„o atÈ 15 de outubro.
+- [ ] Guardar cÛpia de tudo o que foi apresentado.
 
-## Conclus√£o
+## Conclus„o
 
-O Formul√°rio 5472 √© uma obriga√ß√£o s√©ria que nenhum propriet√°rio estrangeiro de LLC deve ignorar. A multa de $25.000 por ano faz valer a pena lev√°-lo a s√©rio.
+O Formul·rio 5472 È uma obrigaÁ„o sÈria que nenhum propriet·rio estrangeiro de LLC deve ignorar. A multa de $25.000 por ano faz valer a pena lev·-lo a sÈrio.
 
-A boa not√≠cia √© que, uma vez que voc√™ entende o processo, √© gerenci√°vel. E se trabalhar com um CPA experiente, torna-se apenas mais um tr√¢mite do seu neg√≥cio.
+A boa notÌcia È que, uma vez que vocÍ entende o processo, È gerenci·vel. E se trabalhar com um CPA experiente, torna-se apenas mais um tr‚mite do seu negÛcio.
 
-**N√£o arrisque sua LLC por n√£o apresentar um formul√°rio.** Adicione o 5472 ao seu calend√°rio anual de compliance.
+**N„o arrisque sua LLC por n„o apresentar um formul·rio.** Adicione o 5472 ao seu calend·rio anual de compliance.
 
-## Precisa de ajuda com seu Formul√°rio 5472?
+## Precisa de ajuda com seu Formul·rio 5472?
 
-Na **Sotomayor Consulting International**, conectamos voc√™ com CPAs especializados em tributa√ß√£o de LLCs para propriet√°rios estrangeiros e ajudamos a manter seu compliance em dia.
+Na **Sotomayor Consulting International**, conectamos vocÍ com CPAs especializados em tributaÁ„o de LLCs para propriet·rios estrangeiros e ajudamos a manter seu compliance em dia.
 
-**Agende uma consultoria gratuita** e garanta que est√° em dia com o IRS.
+**Agende uma consultoria gratuita** e garanta que est· em dia com o IRS.

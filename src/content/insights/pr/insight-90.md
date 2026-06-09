@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Gerar Renda Passiva com Propriedades nos EUA: Guia 2026"
 description: "Como gerar renda passiva com propriedades nos EUA"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/real-state.png"
 cardImageAlt: "Espectro de renda passiva com propriedades: REITs, crowdfunding, turnkey, LTR, STR, com ícones de Stripe e fluxo de dinheiro automático"
 ---
 
@@ -25,53 +25,6 @@ Neste guia, explicamos **como gerar renda passiva com propriedades nos EUA** em 
 | **Flip (ativo)** | ❌ 0% passivo | Variável (lump sum) | 40+ horas/semana | Alto |
 
 ### Não Existe Renda 100% Passiva
-
-```
-Realidade sobre a renda passiva:
-
-✅ RENDA PASSIVA REAL:
-- REITs: a equipe gestora faz tudo
-- Crowdfunding: o sponsor faz tudo
-- Turnkey + PM: só revisa extratos
-
-⚠️ RENDA SEMI-PASSIVA:
-- LTR com PM: decisões estratégicas + taxes
-- STR com PM: mais gestão (preços dinâmicos, avaliações)
-- LLC management: annual reports, registered agent
-
-❌ RENDA ATIVA (não passiva):
-- Ser landlord sem PM
-- Fazer reparos você mesmo
-- Gerenciar inquilinos diretamente
-- Flip properties
-
-Objetivo: chegar a 90%+ passividade
-Usando: turnkey properties + property manager + Stripe
-```
-
-```javascript
-// Stripe: A automação é chave para renda passiva
-
-// Stripe pode cobrar aluguéis automaticamente todo mês
-// Sem que você faça nada
-
-// Configurar assinatura mensal para inquilino
-const subscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}', // ID do inquilino
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Aluguel mensal - Orlando Condo' },
-      unit_amount: 350000, // $3.500/mês
-      recurring: { interval: 'month' },
-    },
-  }],
-  payment_behavior: 'default_incomplete',
-});
-
-// Stripe cobra automaticamente todo mês
-// Você só revisa o relatório mensal
-```
 
 ## 2. REITs (Real Estate Investment Trusts)
 
@@ -106,23 +59,6 @@ const subscription = await stripe.subscriptions.create({
 | ✅ Diversificação | ❌ Sem depreciação fiscal (para estrangeiros) |
 | ✅ Não precisa de LLC | ❌ Sem alavancagem (não usa hipoteca) |
 
-```javascript
-// Stripe não investe em REITs diretamente
-// Mas pode usar Stripe para receber os dividendos
-
-// Configurar Stripe Connect para receber pagamentos de corretora
-const account = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  capabilities: {
-    transfers: { requested: true },
-  },
-});
-
-// Os dividendos chegam automaticamente
-// Stripe gera relatórios para impostos (1099-DIV)
-```
-
 ## 3. Crowdfunding Imobiliário
 
 ### Investimento Coletivo em Projetos
@@ -147,21 +83,6 @@ const account = await stripe.accounts.create({
 
 ### Como Funciona
 
-```
-1. Registra-se na plataforma
-2. Revisa os projetos disponíveis
-3. Investe nos que lhe interessam
-4. O sponsor do projeto compra, gere e vende
-5. Recebe pagamentos periódicos (mensais ou ao final)
-
-Exemplo com Fundrise:
-- Investe $5.000 em um fundo de apartamentos
-- O fundo compra 3 complexos de apartamentos
-- Recebe dividendos trimestrais (~$100-150)
-- Ao vender (5-7 anos), recebe ganho de capital
-- Total estimado: 9-12% anual composto
-```
-
 ## 4. Turnkey Properties (LTR com Property Manager)
 
 ### A Opção Mais Popular para Renda Passiva
@@ -175,76 +96,7 @@ Exemplo com Fundrise:
 
 ### O Fluxo de Renda Passiva com Turnkey
 
-```
-Você investe → Compra propriedade reformada
-  → Property Manager coloca inquilino
-  → Inquilino paga aluguel ao Stripe (automático)
-  → PM cobra sua taxa (8-12%)
-  → PM paga hipoteca, seguro, tax (se aplicável)
-  → PM envia lucro para sua conta bancária
-  → Você recebe relatório mensal
-  → Seu CPA prepara 1040-NR anual
-
-SEU TRABALHO:
-- Revisar relatório mensal (10 minutos)
-- Pagar taxes anuais (com seu CPA)
-- Decisões estratégicas (venda, refinanciar)
-- Total: 1-2 horas por mês
-```
-
 ### Exemplo Numérico Real
-
-```
-Propriedade turnkey em Orlando, FL:
-- Preço de compra: $250.000
-- Down payment (30%): $75.000
-- Empréstimo DSCR: $175.000 a 8%
-
-RECEITAS:
-- Aluguel mensal: $2.800
-- Vacância (5%): -$140
-- Receita efetiva: $2.660
-
-DESPESAS (gerenciadas pelo PM):
-- Hipoteca (P&I): $1.284
-- Property tax: $250
-- Seguro: $150
-- HOA: $100
-- Property manager (10%): $266
-- Manutenção (10%): $266
-- Total despesas: $2.316
-
-FLUXO DE CAIXA MENSAL:
-$2.660 - $2.316 = $344/mês
-
-RENDIMENTO:
-- Fluxo de caixa anual: $4.128
-- Cash on cash: $4.128 / $75.000 = 5,5%
-- + Valorização (3-5% anual na Flórida)
-- + Depreciação fiscal (~$6.000/ano)
-- + Amortização da hipoteca
-- Retorno total estimado: 10-15% anual
-```
-
-```javascript
-// Stripe: Configurar cobrança automática com PM
-
-// O property manager usa Stripe para cobrar do inquilino
-// Stripe envia o pagamento para a LLC
-// Stripe gera relatório mensal
-
-// Relatório mensal de receitas
-const monthlyReport = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 2592000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-
-// Você só abre o relatório e revisa
-// Isso é renda passiva!
-```
 
 ## 5. Short-Term Rentals (STR) Passivos
 
@@ -261,36 +113,6 @@ const monthlyReport = await stripe.reporting.reportRuns.create({
 
 ### Custo da Passividade em STR
 
-```
-Para ter STR completamente passivo, precisa:
-
-1. PROPERTY MANAGER ESPECIALIZADO EM STR
-   - Gerencia reservas (Airbnb, VRBO, Booking.com)
-   - Coordena limpeza entre hóspedes
-   - Gerencia check-in/out
-   - Preços dinâmicos
-   - Custo: 20-30% das receitas (vs 8-12% em LTR)
-
-2. SOFTWARE DE GESTÃO
-   - O PM deve usar software como Hostaway, Guesty, Uplisting
-   - Integração com Stripe para pagamentos
-   - Calendário sincronizado entre plataformas
-
-3. MANUTENÇÃO PROFISSIONAL
-   - Equipe de limpeza confiável
-   - Handyman de reserva
-   - Suprimentos automáticos (Amazon Subscribe & Save)
-
-EXEMPLO:
-- STR em Orlando: $350/noite, ocupação 70%
-- Receita mensal: $350 x 30 x 70% = $7.350
-- Menos taxas da plataforma (15%): $1.102
-- Menos PM (25%): $1.837
-- Menos limpeza, suprimentos, utilidades: $1.500
-- Líquido mensal: ~$2.900
-- vs LTR: ~$2.800 bruto, $344 líquido
-```
-
 ## 6. House Hacking: More Grátis + Renda
 
 ### A Estratégia de Entrada
@@ -304,10 +126,6 @@ EXEMPLO:
 
 ### Exemplo de House Hacking
 
-```
-
-```
-
 ## 7. Rent-to-Rent
 
 ### Estratégia Sem Capital
@@ -320,25 +138,6 @@ EXEMPLO:
 | **Passividade** | 70% (com PM para STR) |
 
 ### Como Funciona
-
-```
-1. Encontra um proprietário que aceite sublocação
-2. Assina contrato de aluguel anual: $2.000/mês
-3. Mobília a propriedade (investimento: $5.000-15.000)
-4. Coloca no Airbnb: $200/noite
-5. Ocupação: 60% → $3.600/mês
-6. Lucro mensal: $3.600 - $2.000 - despesas = $800-1.200
-
-VANTAGENS:
-- Sem hipoteca, sem property tax, sem seguro de proprietário
-- Investimento inicial baixo
-- Pode escalar rápido
-
-DESVANTAGENS:
-- Precisa de permissão do proprietário
-- Risco de não renovação
-- Margem menor que ser dono
-```
 
 ## 8. Private Lending
 
@@ -354,25 +153,6 @@ DESVANTAGENS:
 
 ### Como Funciona
 
-```
-Você empresta $100.000 a um flipper (juros 12%)
-→ O flipper compra, repara e vende uma propriedade
-→ Paga juros mensais: $1.000/mês
-→ Ao vender (12 meses), devolve os $100.000
-→ Lucro total: $12.000 em 12 meses (12% ROI)
-
-REQUISITOS:
-- Due diligence do investidor
-- Primeira hipoteca sobre a propriedade
-- Loan agreement assinado por advogado
-- Título e seguro de título
-
-RISCOS:
-- Se o flipper não vender, executa a hipoteca
-- Se a propriedade desvalorizar, perde capital
-- Processo legal se houver default
-```
-
 ## 9. Triple Net Lease (NNN)
 
 ### O Santo Graal da Renda Passiva
@@ -386,49 +166,6 @@ RISCOS:
 | **Passividade** | 99% (quase absoluta) |
 
 ### Vantagens do NNN
-
-```
-✅ COMPLETAMENTE PASSIVO:
-- O inquilino paga tudo (seguro, tax, manutenção)
-- Você só recebe o aluguel todo mês
-- Sem chamadas de manutenção
-- Sem inquilinos problema (são corporações)
-
-✅ CONTRATOS LONGO PRAZO:
-- 10-25 anos com opções de renovação
-- Aumentos anuais de aluguel (2-3%)
-- Inquilinos com grau de investimento
-
-✅ Stripe:
-- Pagamentos automáticos mensais
-- Stripe pode gerar invoices
-- Relatórios para impostos
-
-DESVANTAGENS:
-- Alto investimento ($500K-$5M+)
-- Baixo rendimento (4-8%)
-- Iliquidez (difícil vender rápido)
-- Risco de inquilino vago (se a rede falir)
-```
-
-```javascript
-// Stripe para NNN: Cobrança automática de aluguel comercial
-
-// Configurar invoice recorrente para o inquilino corporativo
-const invoice = await stripe.invoices.create({
-  customer: '{{CORPORATE_TENANT_ID}}',
-  auto_advance: true,
-  collection_method: 'charge_automatically',
-  pending_invoice_items: [{
-    price: '{{PRICE_ID_NNN_RENT}}',
-    quantity: 1,
-  }],
-  due_date: Math.floor(Date.now() / 1000) + 2592000, // 30 dias
-});
-
-// Stripe cobra automaticamente todo mês
-// Sem sua intervenção
-```
 
 ## 10. Como Automatizar com Stripe
 
@@ -445,54 +182,6 @@ const invoice = await stripe.invoices.create({
 | **Pagamentos automáticos** | Hipoteca, seguro, tax | ✅ Automated clearing house |
 
 ### Sua Rotina Mensal (1-2 horas)
-
-```
-DIA 1: REVISAR RECEITAS (15 minutos)
-- Abrir Stripe Dashboard
-- Revisar receitas do mês anterior
-- Verificar que todos os pagamentos foram cobrados
-- Baixar relatório mensal
-
-DIA 15: REVISAR RELATÓRIO DO PM (30 minutos)
-- Revisar ocupação (STR) ou status dos inquilinos (LTR)
-- Aprovar despesas maiores (se aplicável)
-- Revisar DSCR de cada propriedade
-
-FIM DO MÊS: ATUALIZAR REGISTROS (15 minutos)
-- Atualizar spreadsheet de receitas/despesas
-- Verificar pagamentos de hipoteca e seguros
-- Arquivar relatórios para taxes
-
-TOTAL: 1-2 horas por mês para 3-5 propriedades
-```
-
-```javascript
-// Stripe: Seu melhor aliado para renda passiva
-
-// 1. Stripe cobra automaticamente
-await stripe.subscriptions.create({
-  customer: '{{TENANT}}',
-  items: [{ price: '{{MONTHLY_RENT_PRICE}}' }],
-  payment_behavior: 'default_incomplete',
-});
-
-// 2. Stripe concilia automaticamente
-const balance = await stripe.balance.retrieve();
-console.log(`Saldo disponível: $${balance.available[0].amount / 100}`);
-
-// 3. Stripe reporta automaticamente
-const report = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 2592000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-
-// 4. Stripe integra com software de PM
-// Hostaway, Guesty, Lodgify, Uplisting
-// Tudo sincronizado automaticamente
-```
 
 ## 11. Perguntas Frequentes
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How Is Digital Income Taxed? Complete Guide for Creators and Entrepreneurs"
 description: "Taxation of digital income"
 cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
@@ -108,11 +108,11 @@ If you generate digital income as an individual (freelancer, creator, influencer
 The IRS treats cryptocurrencies as **property**. Every transaction is a taxable event:
 
 ### Taxable events:
-- Selling crypto for dollars → Capital gain or loss
-- Exchanging one crypto for another → Taxable event
-- Using crypto to buy goods or services → Taxable event
-- Receiving crypto as payment → Ordinary income (fair market value)
-- Staking rewards and mining → Ordinary income when received
+- Selling crypto for dollars ? Capital gain or loss
+- Exchanging one crypto for another ? Taxable event
+- Using crypto to buy goods or services ? Taxable event
+- Receiving crypto as payment ? Ordinary income (fair market value)
+- Staking rewards and mining ? Ordinary income when received
 
 ### NON-taxable events:
 - Buying crypto with dollars and holding it (HODL)
@@ -138,10 +138,10 @@ If you expect to owe more than **$1,000** to the IRS when filing your annual ret
 
 | Period | Due Date |
 |---|---|
-| January – March | April 15 |
-| April – May | June 15 |
-| June – August | September 15 |
-| September – December | January 15 (next year) |
+| January � March | April 15 |
+| April � May | June 15 |
+| June � August | September 15 |
+| September � December | January 15 (next year) |
 
 ### Consequences of not paying:
 - Underpayment penalty

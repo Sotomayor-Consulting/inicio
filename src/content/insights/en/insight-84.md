@@ -1,7 +1,7 @@
----
+﻿---
 title: "What Taxes a Foreigner Pays in Real Estate: 2026 Guide"
 description: "What taxes a foreigner pays in real estate"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Tax cycle for foreigner in real estate: purchase, holding, rental and sale with IRS, FIRPTA and property tax icons"
 ---
 
@@ -33,24 +33,6 @@ In this guide, we explain **all taxes a foreigner pays when investing in US real
 
 > Important: Foreigners do not pay special taxes for buying. Closing costs are the same as for residents, typically 3-5% of the purchase price.
 
-```javascript
-// Stripe is not used for buying properties
-// Stripe is used to collect rents ONCE you own the property
-
-// But Stripe can help you save for closing costs:
-const savingsGoal = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Savings for property purchase' },
-      unit_amount: 500000, // $5,000
-    },
-    quantity: 1,
-  },
-}]);
-```
-
 ## 2. Property Tax
 
 ### What Is Property Tax?
@@ -67,23 +49,6 @@ It is an annual tax based on the property's assessed value. ALL property owners 
 | **Massachusetts** | 1.12% | $4,480 |
 
 ### How It Is Calculated
-
-```
-Assessed value x Millage rate = Annual property tax
-
-Example in Florida:
-Property value: $400,000
-Homestead exemption: NOT applicable (it is investment, not residence)
-Assessed value: $400,000
-Millage rate: 20 mills (2% or 0.02)
-Property tax: $400,000 x 0.02 = $8,000/year
-
-Property tax is paid to the county tax collector.
-Generally paid in November (annual) or in two installments.
-
-Tax deduction: Property tax is 100% deductible
-on your tax return (Schedule E).
-```
 
 ### What Happens If You Don't Pay?
 
@@ -117,53 +82,6 @@ on your tax return (Schedule E).
 
 ### Calculation Example
 
-```
-Property: $400,000, 100% financed with DSCR loan
-Annual rent: $42,000 ($3,500/month)
-Operating expenses: $12,000 (insurance, tax, maintenance)
-Mortgage interest: $18,000
-Depreciation: $10,909
-
-Tax calculation:
-
-Without W-8ECI (30% withholding on gross):
-  - Withholding: $42,000 x 30% = $12,600
-  - Final tax: $12,600 (no refund)
-
-With W-8ECI (marginal rate on net):
-  - Gross income: $42,000
-  - Expenses: -$12,000
-  - Interest: -$18,000
-  - Depreciation: -$10,909
-  - Net income: $1,091
-  - Tax (10%): $109
-
-Savings with W-8ECI: $12,491/year
-```
-
-```javascript
-// Stripe: Calculate estimated tax on rental income
-
-// Stripe Tax can automatically calculate taxes
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive',
-  },
-});
-
-// Stripe Dashboard → Taxes → Reports
-// Stripe generates gross and net income reports
-
-// Example: Annual revenue report
-const revenue = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: 1672531200,
-    interval_end: 1704067199,
-  },
-});
-```
-
 ## 4. Taxes on Sale
 
 ### FIRPTA (Foreign Investment in Real Property Tax Act)
@@ -177,33 +95,6 @@ const revenue = await stripe.reporting.reportRuns.create({
 | **Exemption** | < $300,000 and buyer uses as residence |
 
 ### Tax Breakdown on Sale
-
-```
-Assume you bought for $400,000 and sell for $600,000
-after 5 years of renting.
-
-Tax calculation:
-
-1. DEPRECIATION RECAPTURE (25% maximum)
-   Depreciation taken over 5 years: $10,909 x 5 = $54,545
-   Tax: $54,545 x 25% = $13,636
-
-2. CAPITAL GAINS (0-20% + 3.8% NIIT if applicable)
-   Sale price: $600,000
-   Adjusted basis: $400,000 - $54,545 = $345,455
-   Gain: $600,000 - $345,455 = $254,545
-   Capital gain: $254,545 - $54,545 = $200,000
-   Tax (20%): $40,000
-
-3. FIRPTA WITHHOLDING (on account)
-   Withheld at closing: $600,000 x 15% = $90,000
-   Actual tax: $13,636 + $40,000 = $53,636
-   Refund requested: $90,000 - $53,636 = $36,364
-
-4. STATE TAX (if applicable)
-   Florida: 0% (no state income tax)
-   California: up to 13.3% of gain
-```
 
 ### How to Reduce Taxes When Selling
 
@@ -227,27 +118,6 @@ Tax calculation:
 | **Spouse** | Unlimited marital deduction | Limited |
 
 ### How Estate Tax Is Calculated
-
-```
-Example: Foreigner with properties in Florida valued at $2,000,000
-
-Without planning:
-- Exemption: $60,000
-- Taxable base: $1,940,000
-- Estate tax: $1,940,000 x 40% = $776,000
-- Your heirs pay: $776,000 to the IRS
-
-With planning (LLC + holding):
-- The LLC owns the properties
-- The LLC is owned by an international holding
-- The foreigner is a shareholder of the holding
-- Holding shares are NOT "US assets"
-- Estate tax: $0
-
-Another option: Irrevocable Trust
-- Assets in trust are not owned by the foreigner
-- Estate tax: $0
-```
 
 ### Assets That Trigger Estate Tax
 
@@ -306,29 +176,6 @@ Another option: Irrevocable Trust
 
 ### How to Use a Tax Treaty
 
-```
-If your country has a treaty with the US:
-
-1. Identify the treaty article that applies to your case
-   - Real estate gains: Article 13
-   - Real estate income: Article 6
-   - Interest/Dividends: Articles 10-11
-
-2. File Form 8833 (disclosure) with your 1040-NR
-   - You must inform the IRS that you are using a treaty
-   - Without this form, the IRS applies standard rates
-
-3. Example with Spain-US treaty:
-   - Florida rental income: Taxed in the US
-   - Also must declare in Spain (personal obligation)
-   - But you can credit taxes paid in the US
-   - No double taxation
-
-4. FIRPTA exemption:
-   - Canada treaty allows selling up to $1M without withholding
-   - Other treaties: do not exempt FIRPTA
-```
-
 ## 8. Taxes by Structure
 
 ### Structure Comparison
@@ -342,53 +189,6 @@ If your country has a treaty with the US:
 | **C-Corp** | 21% corporate | 15% withholding | ❌ Protected | High |
 
 ### The Recommended Structure for Foreigners
-
-```
-For foreign investors with over $60K in US assets:
-
-RECOMMENDED STRUCTURE:
-1. LLC in Florida (operates property, collects rent via Stripe)
-2. International holding (Panama / Netherlands) owns the LLC
-3. You are a shareholder of the holding, not of the LLC
-
-BENEFITS:
-- Income tax: Paid on rent (same as personal)
-- FIRPTA: Still applies (the LLC sells)
-- Estate tax: ❌ NOT APPLICABLE (holding shares are not US assets)
-- Stripe: The LLC has Stripe, the holding receives dividends
-
-ADDITIONAL COST:
-- Holding: $500-2,000/year
-- International accountant: $1,000-3,000/year
-```
-
-```javascript
-// Stripe in LLC + Holding structure
-// The operating LLC has Stripe
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Florida Properties LLC', // Operating LLC
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX',
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// The LLC can transfer profits to the holding
-const transfer = await stripe.transfers.create({
-  amount: 1000000, // $10,000
-  currency: 'usd',
-  destination: '{{CONNECTED_ACCOUNT_HOLDING}}',
-  description: 'Profit distribution to holding',
-});
-```
 
 ## 9. Tax Calendar for Foreigners
 
@@ -407,28 +207,6 @@ const transfer = await stripe.transfers.create({
 
 ### Annual Checklist
 
-```
-JANUARY:
-- [ ] Receive 1099-K from Stripe (if applicable)
-- [ ] Receive bank interest 1099
-- [ ] Review property tax
-
-FEBRUARY-MARCH:
-- [ ] Gather deductible expenses
-- [ ] Calculate depreciation
-- [ ] Prepare 1040-NR with CPA
-
-APRIL-JUNE:
-- [ ] File 1040-NR
-- [ ] Pay taxes
-- [ ] Request extension if needed
-
-JULY-DECEMBER:
-- [ ] Pay estimated taxes (if applicable)
-- [ ] Review legal structure
-- [ ] Plan sales or 1031 exchanges
-```
-
 ## 10. Tax Reduction Strategies
 
 ### Strategy Summary
@@ -445,31 +223,6 @@ JULY-DECEMBER:
 | **Life insurance** | Estate tax | Exempt |
 
 ### Total Savings Example
-
-```
-Foreign investor with:
-- Florida property: $500,000
-- Annual rent: $48,000
-- Total US assets: $2,000,000
-- Plans to sell in 5 years
-- Has heirs in home country
-
-WITHOUT PLANNING:
-- Annual income tax (5 years): $24,000
-- FIRPTA on sale: $75,000 withheld
-- Capital gains tax: $20,000
-- Estate tax upon death: $776,000
-- TOTAL: ~$895,000 in taxes
-
-WITH PLANNING:
-- Annual income tax (with depreciation + W-8ECI): $500/year
-- FIRPTA: $75,000 withheld, $50,000 refunded
-- Capital gains: $20,000
-- Estate tax: $0 (via holding)
-- TOTAL: ~$45,500 in taxes
-
-SAVINGS: ~$849,500
-```
 
 ## 11. Frequently Asked Questions
 

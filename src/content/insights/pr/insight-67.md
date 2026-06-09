@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Faturar Internacionalmente: Guia Completo 2026"
 description: "Como faturar internacionalmente"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Fatura internacional com dólares, euros e outros símbolos de moeda"
 ---
 
@@ -64,22 +64,6 @@ Uma fatura internacional é um documento comercial emitido por um vendedor a um 
 | **Impostos** | Stripe Tax integrado |
 | **Faturamento recorrente** | Sim |
 | **Personalização** | Marca branca, templates |
-
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-const invoice = await stripe.invoices.create({
-  customer: customer.id,
-  currency: 'usd',
-  collection_method: 'send_invoice',
-  days_until_due: 30,
-  automatic_tax: { enabled: true },
-  custom_fields: [{
-    name: 'PO Number',
-    value: 'PO-2026-001'
-  }]
-});
-```
 
 ### PayPal Invoicing
 
@@ -233,29 +217,6 @@ Se você fatura clientes na União Europeia ou no Brasil, deve cumprir com LGPD/
 | **Dunning** | Stripe gerencia tentativas |
 
 ### Exemplo: Assinatura SaaS Internacional
-
-```
-Plano: $99/mês USD
-Cliente: Empresa na Alemanha
-Cálculo:
-  Subtotal: $99.00 USD
-  IVA (Reverse Charge): $0.00 (B2B, cliente declara)
-  Total: $99.00 USD
-```
-
-```javascript
-// Fatura recorrente internacional
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{ price: 'price_saas_monthly_usd' }],
-  automatic_tax: { enabled: true },
-  collection_method: 'charge_automatically',
-  currency: 'usd',
-  payment_settings: {
-    payment_method_types: ['card', 'us_bank_account'],
-  },
-});
-```
 
 ## 10. Perguntas Frequentes
 

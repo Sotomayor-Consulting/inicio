@@ -1,7 +1,7 @@
----
+﻿---
 title: "O Que Acontece Se Você Perder o Good Standing: Guia 2026"
 description: "Saiba o que acontece quando sua LLC ou corporação perde o good standing e como recuperá-lo"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/annual-report.png"
 cardImageAlt: "Cronologia de perda de good standing mostrando período de carência, status inadimplente, suspensão e dissolução administrativa com caminho de reinstalação e verificações no portal SOS estadual"
 ---
 
@@ -64,41 +64,6 @@ O good standing é perdido quando uma empresa não cumpre suas obrigações de c
 6. **Não manter um endereço físico** — alguns estados exigem um endereço físico no estado. Usar apenas uma PO Box pode causar problemas.
 
 ### A Cascata: De Inadimplente a Dissolvido
-
-```
-GOOD STANDING LOSS TIMELINE
-
-  ┌─────────────────────────────────────────────────────────────┐
-  │                    GOOD STANDING                          │
-  │  All filings current, all fees paid, agent on file        │
-  └──────────┬──────────────────────────────────────┬─────────┘
-             │                                      │
-             │ Miss deadline                         │ Agent resigns
-             ▼                                      ▼
-  ┌──────────────────────┐            ┌──────────────────────┐
-  │    DELINQUENT        │            │   AGENT RESIGNED     │
-  │ 30-90 days past due  │            │ No agent on file     │
-  │ Late fees accruing   │            │ State notices bounce │
-  └──────────┬───────────┘            └──────────┬───────────┘
-             │                                    │
-             └──────────┬─────────────────────────┘
-                        ▼
-  ┌──────────────────────────────────────────────┐
-  │               SUSPENDED                      │
-  │ 90 days - 1 year past due                    │
-  │ Cannot conduct business, sue, or get loans   │
-  │ Personal liability exposure begins           │
-  └─────────────────────┬────────────────────────┘
-                        │
-                        ▼
-  ┌──────────────────────────────────────────────┐
-  │         ADMINISTRATIVELY DISSOLVED           │
-  │ 1-2+ years past due                          │
-  │ Entity no longer exists in state records     │
-  │ Name may be taken by another business        │
-  │ Full reinstatement required                  │
-  └──────────────────────────────────────────────┘
-```
 
 ### Cronologia por Estado
 
@@ -180,43 +145,6 @@ Quando um autor pede a um tribunal para desconsiderar o véu corporativo após p
 
 ### Veil Piercing Risk Calculator
 
-```javascript
-// Veil Piercing Risk Assessment for Non-Compliant Entities
-const assessPiercingRisk = (entity) => {
-  let score = 0;
-  const factors = [];
-
-  if (entity.status === 'Dissolved') { score += 40; factors.push('Entity dissolved - critical risk (+40)'); }
-  else if (entity.status === 'Suspended') { score += 30; factors.push('Entity suspended - high risk (+30)'); }
-  else if (entity.status === 'Delinquent') { score += 15; factors.push('Entity delinquent - moderate risk (+15)'); }
-
-  if (entity.operatingWhileSuspended) { score += 25; factors.push('Operating while non-compliant (+25)'); }
-  if (entity.commingledFunds) { score += 20; factors.push('Commingled personal and business funds (+20)'); }
-  if (!entity.separateBankAccount) { score += 15; factors.push('No separate business bank account (+15)'); }
-  if (entity.personalGuarantees) { score += 10; factors.push('Signed personal guarantees (+10)'); }
-  if (entity.missedMeetings) { score += 5; factors.push('Failed to hold required meetings (+5)'); }
-
-  let riskLevel;
-  if (score >= 60) { riskLevel = 'Critical - veil piercing highly likely'; }
-  else if (score >= 35) { riskLevel = 'High - veil piercing probable'; }
-  else if (score >= 15) { riskLevel = 'Moderate - veil piercing possible'; }
-  else { riskLevel = 'Low - veil piercing unlikely'; }
-
-  return { score, riskLevel, factors };
-};
-
-// Example
-const myEntity = {
-  status: 'Suspended',
-  operatingWhileSuspended: true,
-  commingledFunds: true,
-  separateBankAccount: true,
-  personalGuarantees: false,
-  missedMeetings: true
-};
-console.log(assessPiercingRisk(myEntity));
-```
-
 ## 5. Como Verificar Se Sua Entidade Está em Good Standing
 
 ### Verificação de Status no Site do SOS por Estado
@@ -259,45 +187,6 @@ Ao consultar sua entidade, você geralmente verá um dos seguintes indicadores d
 | "Inativo" | Entidade não está realizando negócios atualmente | Pode precisar dissolver adequadamente ou reativar |
 
 ### Bulk Good Standing Check Tool
-
-```javascript
-// Batch check good standing status for multiple entities
-const checkGoodStanding = (entities) => {
-  const statusRules = {
-    'Good Standing': { color: 'green', action: 'None needed' },
-    'Delinquent': { color: 'yellow', action: 'File past due reports + pay fees within 30 days' },
-    'Suspended': { color: 'orange', action: 'File all reports + pay reinstatement fee immediately' },
-    'Dissolved': { color: 'red', action: 'Apply for reinstatement or form new entity' }
-  };
-
-  return entities.map(e => {
-    const today = new Date();
-    const due = new Date(e.lastFiled);
-    const monthsSinceFiling = (today.getFullYear() - due.getFullYear()) * 12 + (today.getMonth() - due.getMonth());
-
-    let status = 'Good Standing';
-    if (monthsSinceFiling > 24) status = 'Dissolved';
-    else if (monthsSinceFiling > 12) status = 'Suspended';
-    else if (monthsSinceFiling > e.gracePeriodMonths) status = 'Delinquent';
-
-    return {
-      entity: e.name,
-      state: e.state,
-      status,
-      action: statusRules[status].action,
-      priority: statusRules[status].color
-    };
-  });
-};
-
-// Example
-const myEntities = [
-  { name: 'Acme LLC', state: 'DE', lastFiled: '2026-02-15', gracePeriodMonths: 2 },
-  { name: 'Beta Corp', state: 'FL', lastFiled: '2024-11-01', gracePeriodMonths: 1 },
-  { name: 'Gamma LLC', state: 'CA', lastFiled: '2023-06-01', gracePeriodMonths: 2 }
-];
-console.table(checkGoodStanding(myEntities));
-```
 
 ## 6. Como Recuperar o Good Standing
 
@@ -411,92 +300,9 @@ A maioria das entidades suspensas ou dissolvidas exige um pedido formal de reins
 
 ### Reinstatement Cost Calculator
 
-```javascript
-// Calculate total reinstatement cost based on state, years missed, and entity type
-const reinstatementCost = (state, yearsMissed, entityType) => {
-  const stateFees = {
-    'Delaware': { annualReport: 0, lateFee: 200, reinstatement: 200, franchiseTax: { 'LLC': 0, 'Corporation': 300 } },
-    'California': { annualReport: { 'LLC': 20, 'Corporation': 25 }, lateFee: 0, reinstatement: 0, franchiseTax: { 'LLC': 800, 'Corporation': 800 } },
-    'Florida': { annualReport: { 'LLC': 138.75, 'Corporation': 150 }, lateFee: 400, reinstatement: 400, franchiseTax: 0 },
-    'Texas': { annualReport: 0, lateFee: 50, reinstatement: 50, franchiseTax: 0 },
-    'New York': { annualReport: { 'LLC': 9, 'Corporation': 9 }, lateFee: 0, reinstatement: 0, franchiseTax: 0 },
-    'Nevada': { annualReport: 150, lateFee: 75, reinstatement: 75, franchiseTax: 0 },
-    'Illinois': { annualReport: 75, lateFee: 100, reinstatement: 100, franchiseTax: 0 },
-    'Georgia': { annualReport: 50, lateFee: 25, reinstatement: 25, franchiseTax: 0 },
-    'Washington': { annualReport: 60, lateFee: 30, reinstatement: 30, franchiseTax: 0 },
-    'Wyoming': { annualReport: 60, lateFee: 60, reinstatement: 60, franchiseTax: 0 }
-  };
-
-  const fees = stateFees[state];
-  if (!fees) return { state, error: 'State not in reference table' };
-
-  const annualFee = typeof fees.annualReport === 'object' ? fees.annualReport[entityType] : fees.annualReport;
-  const franchise = typeof fees.franchiseTax === 'object' ? fees.franchiseTax[entityType] : fees.franchiseTax;
-  const lateFeeTotal = fees.lateFee * yearsMissed;
-  const annualDue = annualFee * yearsMissed;
-  const franchiseDue = franchise * yearsMissed;
-  const total = lateFeeTotal + annualDue + franchiseDue + fees.reinstatement;
-
-  return {
-    state, entityType, yearsMissed,
-    breakdown: { annualReportFees: annualDue, lateFees: lateFeeTotal, franchiseTax: franchiseDue, reinstatement: fees.reinstatement },
-    total: Math.round(total * 100) / 100
-  };
-};
-
-// Example
-console.log(reinstatementCost('California', 3, 'LLC'));
-console.log(reinstatementCost('Florida', 2, 'LLC'));
-console.log(reinstatementCost('Delaware', 4, 'Corporation'));
-```
-
 ## 8. Como Prevenir a Perda de Good Standing no Futuro
 
 ### Lista de Verificação de Monitoramento de Conformidade
-
-```javascript
-// Good standing monitoring system
-const createMonitoringSystem = () => {
-  const entities = [];
-
-  return {
-    addEntity: (name, state, annualReportMonth, entityType) => {
-      entities.push({
-        id: entities.length + 1,
-        name, state, annualReportMonth, entityType,
-        lastFiled: null,
-        status: 'Pending'
-      });
-    },
-    getUpcomingDeadlines: (months = 3) => {
-      const today = new Date();
-      const deadlines = [];
-      entities.forEach(e => {
-        const dueMonth = e.annualReportMonth;
-        const dueYear = today.getFullYear();
-        const dueDate = new Date(dueYear, dueMonth - 1, 1);
-        const monthsUntilDue = (dueDate.getFullYear() - today.getFullYear()) * 12 + (dueDate.getMonth() - today.getMonth());
-        if (monthsUntilDue >= 0 && monthsUntilDue <= months) {
-          deadlines.push({ entity: e.name, state: e.state, dueDate: dueDate.toISOString().split('T')[0], daysRemaining: Math.ceil((dueDate - today) / (1000 * 60 * 60 * 24)) });
-        }
-      });
-      return deadlines.sort((a, b) => a.daysRemaining - b.daysRemaining);
-    },
-    checkAll: () => {
-      return entities.map(e => ({
-        name: e.name, state: e.state, nextDue: e.annualReportMonth + '/1/' + new Date().getFullYear(),
-        status: e.lastFiled ? 'Monitored' : 'Needs Initial Filing'
-      }));
-    }
-  };
-};
-
-// Example
-const monitor = createMonitoringSystem();
-monitor.addEntity('Acme LLC', 'Delaware', 3, 'LLC');
-monitor.addEntity('Beta Corp', 'Florida', 5, 'Corporation');
-console.log('Upcoming deadlines:', JSON.stringify(monitor.getUpcomingDeadlines()));
-```
 
 ### Melhores Práticas para Manter o Good Standing
 

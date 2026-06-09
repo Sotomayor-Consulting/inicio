@@ -1,4 +1,4 @@
----
+﻿---
 title: "Qué Estructuras Usan los Empresarios Internacionales: Guía 2026"
 description: "Qué estructuras usan empresarios internacionales"
 cardImage: "@/images/insights/blog-2.avif"
@@ -51,43 +51,7 @@ La LLC es la estructura más popular entre emprendedores internacionales, especi
 
 ### ¿Para Qué Sirve?
 
-```
-LLC en EE. UU. → Ideal para:
-  ├── Facturar a clientes internacionales
-  ├── Operar un SaaS o e-commerce global
-  ├── Recibir pagos con Stripe
-  ├── Contratar contractors
-  └── Tener cuenta bancaria empresarial en EE. UU.
-```
-
 ### Cómo Configurar Stripe con una LLC
-
-```javascript
-// Stripe: Conectar cuenta de LLC con Stripe
-// La LLC debe estar constituida antes de crear la cuenta Stripe
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Tu Empresa LLC',
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX', // EIN
-    address: {
-      line1: '1201 N Market St',
-      city: 'Wilmington',
-      state: 'DE',
-      postal_code: '19801',
-      country: 'US',
-    },
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-```
 
 ### Ventajas y Desventajas
 
@@ -116,37 +80,7 @@ La corporación tradicional de EE. UU. Es la estructura preferida por startups q
 
 ### ¿Para Qué Sirve?
 
-```
-C-Corp en Delaware → Ideal para:
-  ├── Startups que buscan inversión de VCs
-  ├── Empresas que planean salir a bolsa (IPO)
-  ├── Negocios con empleados y opciones de stock
-  ├── Empresas que necesitan emitir acciones
-  └── Negocios que planean adquirir otras empresas
-```
-
 ### Stripe Atlas para C-Corp
-
-```javascript
-// Stripe Atlas: Forma una C-Corp en Delaware
-// Incluye: Constitución, EIN, Cuenta bancaria, Stripe
-
-// Stripe Atlas configura automáticamente:
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Tu Startup Inc.',
-    structure: 'corporation',
-  },
-});
-
-// Stripe Atlas también configura:
-// - Resolución de junta directiva
-// - Acuerdo de accionistas
-// - Asignación de stock (founder shares)
-```
 
 ### Ventajas y Desventajas
 
@@ -175,37 +109,7 @@ La IBC es una estructura offshore utilizada para negocios internacionales, princ
 
 ### ¿Para Qué Sirve?
 
-```
-IBC → Ideal para:
-  ├── Holding de activos (propiedad intelectual, inversiones)
-  ├── Negocios que operan fuera del país de constitución
-  ├── Facturación internacional B2B
-  ├── Protección de patrimonio
-  └── Estructuras multicapa con holding
-```
-
 ### IBC y Stripe
-
-```javascript
-// Stripe con IBC: No todas las IBC pueden usar Stripe directamente
-// Stripe tiene restricciones por país
-
-// Si tu IBC es de Panamá:
-// Stripe acepta empresas panameñas con cuenta bancaria en EE. UU.
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'PA', // Panamá
-  business_type: 'company',
-  company: {
-    name: 'Tu Holding International Corp.',
-    structure: 'ibc',
-  },
-});
-
-// Nota: BVI, Seychelles no están soportados por Stripe directamente
-// Solución: IBC como holding + LLC operativa con Stripe
-```
 
 ### Ventajas y Desventajas
 
@@ -234,36 +138,7 @@ Un trust es una relación fiduciaria donde un trustee administra bienes para ben
 
 ### ¿Para Qué Sirve?
 
-```
-Trust → Ideal para:
-  ├── Protección de activos a largo plazo
-  ├── Planificación de sucesión y herencia
-  ├── Proteger activos de demandas futuras
-  ├── Beneficiarios en múltiples jurisdicciones
-  └── Estructuras de holding complejas
-```
-
 ### Trusts y Stripe
-
-```javascript
-// Stripe y Trust: Stripe no abre cuentas directamente a trusts
-// El trust es propietario de la LLC/C-Corp que tiene Stripe
-
-// Estructura recomendada:
-// TRUST (propietario)
-//   └── LLC (titular de la cuenta Stripe)
-
-// Stripe ve a la LLC como el merchant
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Operating Company LLC',
-    // El trust es el miembro/socio de la LLC
-  },
-});
-```
 
 ## 6. Fundación de Interés Privado (Foundation)
 
@@ -282,15 +157,6 @@ Similar a un trust pero con personalidad jurídica propia. Popular en Panamá, L
 
 ### ¿Para Qué Sirve?
 
-```
-Fundación → Ideal para:
-  ├── Proteger patrimonio personal
-  ├── Dueña de acciones de empresas operativas
-  ├── Planificación sucesoral (evita sucesión testamentaria)
-  ├── Separación de control y beneficio
-  └── Blindaje patrimonial en países de civil law
-```
-
 ## 7. Holding Company
 
 ### ¿Qué es una Holding?
@@ -307,51 +173,7 @@ La holding es una empresa diseñada para ser dueña de otras empresas (subsidiar
 
 ### Estructura Típica
 
-```
-HOLDING (Países Bajos / Delaware)
-  Dueña de:
-  ├── IP (código, marca, patentes)
-  ├── Acciones de la operativa
-  └── Activos estratégicos
-       │
-       ▼
-OPERATIVA (EE. UU. / LLC)
-  ├── Stripe (procesa pagos de clientes)
-  ├── Contratos operativos
-  └── Empleados y operación
-       │
-       ▼
-FACTURACIÓN (IBC / Panamá, si aplica)
-  ├── Facturación B2B internacional
-  └── Licencias de IP desde la holding
-```
-
 ### Stripe con Estructura de Holding
-
-```javascript
-// Stripe en estructura holding + operativa
-// La cuenta Stripe pertenece a la empresa operativa
-// La holding es dueña de la operativa
-
-// 1. La operativa tiene Stripe
-const operatingAccount = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Operating Company LLC',
-    structure: 'llc',
-  },
-});
-
-// 2. La operativa paga regalías/dividendos a la holding
-const transfer = await stripe.transfers.create({
-  amount: 500000, // $5,000
-  currency: 'usd',
-  destination: '{{CONNECTED_ACCOUNT_HOLDING}}',
-  description: 'Royalty payment - IP license',
-});
-```
 
 ### Ventajas de la Estructura Holding
 
@@ -404,95 +226,15 @@ const transfer = await stripe.transfers.create({
 
 ### e-Residency de Estonia
 
-```javascript
-// Estonia e-Residency: Empresa digital de la UE
-// Stripe acepta empresas estonias (OÜ)
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'EE', // Estonia
-  business_type: 'company',
-  company: {
-    name: 'Tu Empresa OÜ',
-    structure: 'private_limited_company',
-    tax_id: 'EEXXXXXXX',
-    address: {
-      line1: 'Harju maakond, Tallinn',
-      country: 'EE',
-    },
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// Ventajas: 0% de impuesto sobre ganancias reinvertidas
-// Pago de impuestos solo al distribuir dividendos
-```
-
 ## 10. Estructura Recomendada por Etapa
 
 ### Fase 1: Emprendedor Individual ($0-50K/año)
 
-```
-Estructura simple:
-LLC en Wyoming o Nuevo México
-  └── Stripe
-  └── Cuenta bancaria empresarial (Mercury/Relay)
-
-Costo: ~$200-500/año
-```
-
 ### Fase 2: Negocio en Crecimiento ($50K-500K/año)
-
-```
-LLC en Delaware
-  ├── Stripe
-  ├── Cuenta bancaria (Mercury/ Brex)
-  ├── Procesador de pagos adicional (PayPal, Wise)
-  └── Seguro de responsabilidad
-
-Costo: ~$500-1,500/año
-```
 
 ### Fase 3: Startup con Inversión ($500K+)
 
-```
-C-Corp en Delaware
-  ├── Stripe
-  ├── Cuenta bancaria (SVB, Mercury)
-  ├── Junta directiva
-  ├── Cap table (accionistas, opciones)
-  ├── Seguros: E&O, D&O, Ciberseguridad
-  └── Abogados corporativos
-
-Costo: ~$3,000-10,000+/año
-```
-
 ### Fase 4: Empresa Internacional Establecida
-
-```
-HOLDING (Países Bajos / Delaware / Panamá)
-  ├── IP de la empresa
-  ├── Acciones de subsidiarias
-  │
-  ├── OPERATIVA 1 (EE. UU. - LLC)
-  │   ├── Stripe
-  │   └── Mercado principal
-  │
-  ├── OPERATIVA 2 (UE - BV/Ltd)
-  │   ├── Stripe (UE)
-  │   └── Mercado europeo
-  │
-  ├── OPERATIVA 3 (LatAm)
-  │   └── Stripe (Brasil, México)
-  │
-  └── TRUST/FUNDACIÓN (protección de activos)
-      └── Dueño de las acciones de la holding
-
-Costo: ~$5,000-20,000+/año
-```
 
 ## 11. Checklist de Implementación
 

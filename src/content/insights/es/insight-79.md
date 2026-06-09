@@ -1,7 +1,7 @@
----
+﻿---
 title: "Protección Patrimonial para Inversionistas: Guía 2026"
 description: "Protección patrimonial para inversionistas"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
 cardImageAlt: "Escudo protector sobre un portafolio de inversiones: bienes raíces, acciones, bonos, criptoactivos y cuentas internacionales"
 ---
 
@@ -65,43 +65,6 @@ En esta guía, explicamos **cómo proteger tu patrimonio como inversionista** en
 
 ### LLC para Inversiones
 
-```javascript
-// Stripe Connect: Si tu LLC de inversión cobra dividendos o rentas
-// Stripe puede recibir pagos de socios o inquilinos
-
-const account = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  business_type: 'company',
-  business_profile: {
-    url: 'https://tufondo.inversiones',
-    product_description: 'Fondo de inversión inmobiliario',
-  },
-  company: {
-    name: 'Fondo Inmobiliario LLC',
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX',
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// Stripe para cobrar aportes de inversionistas
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Aporte al Fondo - Serie A' },
-      unit_amount: 1000000, // $10,000
-    },
-    quantity: 1,
-  }],
-});
-```
-
 | Estructura | Mejor Para | Protección |
 |-----------|-----------|-----------|
 | **LLC** | Bienes raíces, inversiones activas | Alta |
@@ -111,24 +74,6 @@ const session = await stripe.checkout.sessions.create({
 | **IBC (offshore)** | Diversificación internacional | Alta |
 
 ### LLC para Cada Propiedad
-
-```
-Estructura recomendada para inversionistas inmobiliarios:
-
-TÚ (personal)
-  └── Trust revocable (testamento, evitar sucesión)
-       │
-       ├── LLC #1 → Propiedad 1 (Casa en Miami)
-       ├── LLC #2 → Propiedad 2 (Departamento en NY)
-       ├── LLC #3 → Propiedad 3 (Terreno en Texas)
-       └── LLC #4 → Propiedades de menor valor (pool)
-
-Beneficios:
-- Cada propiedad aísla su propio riesgo
-- Una demanda en la Prop 1 no toca la Prop 2
-- LLCs con seguro de responsabilidad por separado
-- Trust evita la sucesión testamentaria
-```
 
 ## 4. Seguros para Inversionistas
 
@@ -147,14 +92,6 @@ Beneficios:
 
 ### Paraguas de Responsabilidad (Umbrella Policy)
 
-```
-Umbrella Policy: $1-5 millones de cobertura
-- Extiende cobertura por encima de tus seguros existentes
-- Cubre: auto, hogar, propiedades de alquiler
-- Costo: ~$200-500/año por $1M adicional
-- Recomendado para inversionistas con patrimonio > $500K
-```
-
 ## 5. Diversificación Internacional
 
 ### Por Qué Diversificar por Jurisdicción
@@ -169,48 +106,7 @@ Umbrella Policy: $1-5 millones de cobertura
 
 ### Estructura Internacional para Inversionistas
 
-```
-HOLDING (Panamá / Países Bajos / Delaware)
-  Dueña de:
-  ├── Cuenta de inversiones (Interactive Brokers)
-  ├── Participaciones en LLCs inmobiliarias
-  ├── Criptoactivos (cartera corporativa)
-  └── Banco internacional (Suiza / Singapur)
-       │
-       ▼
-FAMILY OFFICE / TRUST
-  ├── Administra todo el patrimonio
-  ├── Distribuye ingresos a beneficiarios
-  ├── Planifica la sucesión
-  └── Coordina seguros y cumplimiento
-```
-
 ### Stripe para Inversiones Internacionales
-
-```javascript
-// Stripe: Si tu estructura recibe inversiones o rentas globales
-// Stripe soporta más de 135 monedas
-
-// Cobrar rentas de propiedades internacionales
-const rentPayment = await stripe.paymentIntents.create({
-  amount: 350000, // $3,500
-  currency: 'usd',
-  payment_method_types: ['card'],
-  description: 'Renta mensual - Propiedad Madrid',
-  metadata: {
-    property_id: 'MAD-001',
-    investor_id: 'INV-001',
-  },
-});
-
-// Stripe Tax para cumplimiento fiscal automático
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive',
-    // Stripe calcula impuestos automáticamente
-  },
-});
-```
 
 ## 6. Protección de Activos Específicos
 
@@ -244,29 +140,6 @@ await stripe.tax.settings.update({
 | **Seguro de custodia** | Algunos exchanges ofrecen seguro |
 | **Sucesión** | Plan de acceso para herederos |
 
-```javascript
-// Stripe: Cobrar por servicios de asesoría de inversiones
-// Los asesores pueden cobrar honorarios con Stripe
-
-const session = await stripe.checkout.sessions.create({
-  mode: 'subscription',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      recurring: { interval: 'month' },
-      product_data: { name: 'Asesoría de Inversiones - Plan Premium' },
-      unit_amount: 50000, // $500/mes
-    },
-    quantity: 1,
-  }],
-  metadata: {
-    client_id: 'CLI-001',
-    service_type: 'investment_advisory',
-    aum: '5000000', // $5M bajo gestión
-  },
-});
-```
-
 ## 7. Trusts para Inversionistas
 
 ### Trust Revocable vs. Irrevocable
@@ -283,88 +156,15 @@ const session = await stripe.checkout.sessions.create({
 
 ### Asset Protection Trust (APT)
 
-```
-APT en jurisdicción offshore:
-- Islas Cook, Nevis, Islas Caimán
-- Trust irrevocable
-- Tú eres beneficiario (no propietario)
-- Un trustee profesional administra
-- Los acreedores no pueden alcanzar los activos
-- Período de "look-back": 2-4 años
-
-Requisitos:
-1. El trust debe crearse antes de la demanda
-2. No puedes ser el trustee
-3. Debe tener un propósito válido (no solo evadir)
-```
-
 ## 8. Estrategias por Tipo de Inversionista
 
 ### Inversionista Inmobiliario
 
-```
-Estrategia recomendada:
-├── LLC por propiedad (o por grupo de propiedades)
-├── Seguro de responsabilidad: $2M por propiedad
-├── Umbrella policy: $5M
-├── Trust revocable para evitar sucesión
-├── LLC en estado con protecciones (Florida, Texas, Wyoming)
-└── Evaluar: Asset Protection Trust si patrimonio > $5M
-```
-
 ### Inversionista de Mercados Financieros
-
-```
-Estrategia recomendada:
-├── Cuentas separadas: personal vs. inversiones
-├── Interactive Brokers o custodia internacional
-├── Cuentas TOD (Transfer on Death)
-├── 401(k) / IRA protegidas por ERISA
-├── LLC/S-Corp para inversiones activas (trading)
-├── Seguro E&O si asesoras a terceros
-└── Evaluar: Trust para patrimonio > $3M
-```
 
 ### Inversionista en Criptoactivos
 
-```
-Estrategia recomendada:
-├── Cold wallet (Ledger/Trezor) para el 90%+ de los fondos
-├── Cartera multifirma para fondos compartidos
-├── LLC o IBC para tenencia corporativa
-├── Seguro de custodia (si aplica)
-├── Plan de sucesión digital (claves para herederos)
-├── No mantener cripto en exchanges
-└── Evaluar: Trust offshore si patrimonio > $2M
-```
-
 ### Family Office (Patrimonio > $10M)
-
-```
-Estructura completa:
-├── HOLDING (Delaware / Países Bajos)
-│   ├── Dueña de todas las inversiones
-│   ├── Dueña de la IP familiar
-│   └── Dueña de las propiedades
-│
-├── TRUST IRREVOCABLE (Islas Cook / Nevis)
-│   └── Dueño de las acciones de la holding
-│
-├── FAMILY OFFICE (administra todo)
-│   ├── Inversiones, contabilidad, impuestos
-│   ├── Seguros, cumplimiento, legal
-│   └── Sucesión, filantropía
-│
-├── CUENTAS BANCARIAS (3+ jurisdicciones)
-│   ├── EE. UU. (Mercury, SVB)
-│   ├── Suiza / Singapur
-│   └── UAE / Panamá
-│
-└── SEGUROS:
-    ├── D&O, E&O, Responsabilidad, Ciberseguridad
-    ├── Umbrella policy: $10M+
-    └── Seguro de vida (Irrevocable Life Insurance Trust)
-```
 
 ## 9. Errores Comunes
 

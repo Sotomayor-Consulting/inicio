@@ -1,4 +1,4 @@
-﻿---
+---
 title: "IRS Business Master File: How It Works and Why It Matters for Your LLC"
 description: "Complete guide to the IRS Business Master File, the master database that determines your LLC's tax status and compliance history."
 cardImage: "@/images/insights/bussines-master-file.png"
@@ -86,9 +86,9 @@ The BMF is the IRS's source of truth about your LLC. If the data in the BMF does
 
 ### Common cases
 
-- You changed your address and did not update the BMF → the IRS sends an audit notice to the old address, you do not receive it, and they impose a penalty for not responding.
-- Your name on the EIN is "Sotomayor Consulting LLC" but your Certificate of Formation says "Sotomayor Consulting LLC." (with period) → discrepancies that can trigger alerts.
-- Your LLC changed from single-member to multi-member and you did not update the EIN → the IRS has an incorrect record.
+- You changed your address and did not update the BMF ? the IRS sends an audit notice to the old address, you do not receive it, and they impose a penalty for not responding.
+- Your name on the EIN is "Sotomayor Consulting LLC" but your Certificate of Formation says "Sotomayor Consulting LLC." (with period) ? discrepancies that can trigger alerts.
+- Your LLC changed from single-member to multi-member and you did not update the EIN ? the IRS has an incorrect record.
 
 ## How to update the BMF
 

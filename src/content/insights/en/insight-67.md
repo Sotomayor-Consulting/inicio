@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Invoice Internationally: Complete Guide 2026"
 description: "How to invoice internationally"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "International invoice with dollars, euros and other currency symbols"
 ---
 
@@ -64,22 +64,6 @@ An international invoice is a commercial document issued by a seller to a buyer 
 | **Taxes** | Stripe Tax integrated |
 | **Recurring billing** | Yes |
 | **Customization** | White label, templates |
-
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-const invoice = await stripe.invoices.create({
-  customer: customer.id,
-  currency: 'usd',
-  collection_method: 'send_invoice',
-  days_until_due: 30,
-  automatic_tax: { enabled: true },
-  custom_fields: [{
-    name: 'PO Number',
-    value: 'PO-2026-001'
-  }]
-});
-```
 
 ### PayPal Invoicing
 
@@ -233,29 +217,6 @@ If invoicing clients in the European Union, you must comply with GDPR:
 | **Dunning** | Stripe handles retries |
 
 ### Example: International SaaS Subscription
-
-```
-Plan: $99/month USD
-Client: Company in Germany
-Calculation:
-  Subtotal: $99.00 USD
-  VAT (Reverse Charge): $0.00 (B2B, client declares)
-  Total: $99.00 USD
-```
-
-```javascript
-// Recurring international invoice
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{ price: 'price_saas_monthly_usd' }],
-  automatic_tax: { enabled: true },
-  collection_method: 'charge_automatically',
-  currency: 'usd',
-  payment_settings: {
-    payment_method_types: ['card', 'us_bank_account'],
-  },
-});
-```
 
 ## 10. Frequently Asked Questions
 

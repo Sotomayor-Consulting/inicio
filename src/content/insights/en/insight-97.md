@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Internationalize a Brand: 2026 Guide"
 description: "How to internationalize a brand"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/internacionalizar-una-marca.png"
 cardImageAlt: "Brand internationalization: global strategy with ccTLD domain, cultural adaptation, Stripe multi-currency, local landing, and omnichannel presence"
 ---
 
@@ -28,52 +28,6 @@ In this guide, we explain **how to internationalize a brand** in 2026: from doma
 
 ### Why Internationalize Your Brand
 
-```
-BENEFITS OF INTERNATIONALIZING:
-
-✅ GROWTH
-   - Access to 7.5B+ people (vs 50-200M in LATAM)
-   - Higher purchasing power markets (US, EU)
-   - Geographic risk diversification
-
-✅ REVENUE
-   - USD, EUR, GBP: strong currencies
-   - Higher prices in developed markets
-   - Stripe processes 135+ currencies automatically
-
-✅ COMPETITIVENESS
-   - Compete with global brands on equal footing
-   - Premium positioning outside LATAM
-   - Entry barrier for local competitors
-
-✅ VALUATION
-   - International brand is worth 3-10x more than local
-   - Attracts foreign investment
-   - Stronger due diligence
-```
-
-```javascript
-// Stripe: The financial enabler of your global brand
-
-// A single checkout for 135+ currencies
-const session = await stripe.checkout.sessions.create({
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Premium Subscription',
-        description: 'Global access to your platform',
-      },
-      unit_amount: 9900,
-      recurring: { interval: 'month' },
-    },
-    quantity: 1,
-  }],
-  payment_method_types: ['card', 'link', 'ideal', 'bacs_debit'],
-  locale: 'auto',
-});
-```
-
 ## 2. Domain and URL Strategy
 
 ### ccTLD vs Subdirectories vs Subdomains
@@ -87,42 +41,6 @@ const session = await stripe.checkout.sessions.create({
 | **ccTLD + redirect** | brand.de → brand.com/de | ✅ Local SEO + unified brand | $$ Medium | Medium |
 
 ### 2026 Recommendation
-
-```
-RECOMMENDED STRATEGY: SUBDIRECTORIES + HREFLANG
-
-brand.com/              → Global (English)
-brand.com/es/           → Spain (Spanish)
-brand.com/mx/           → Mexico (Spanish)
-brand.com/pt-br/        → Brazil (Portuguese)
-brand.com/de/           → Germany (German)
-brand.com/fr/           → France (French)
-
-ADVANTAGES:
-- Single domain (.com) → concentrated authority
-- Easy to manage
-- GA4 measures everything together
-- Stripe configures prices per currency easily
-
-HOW TO DO IT:
-1. Buy brand.com (Cloudflare or Namecheap)
-2. Configure subdirectories per country/language
-3. Implement hreflang in <head> of each page
-4. Use Stripe Tax for local taxes
-5. Configure local prices in Stripe
-```
-
-```javascript
-// hreflang: Tell Google which language to show per country
-
-<!-- In <head> of your website -->
-<link rel="alternate" href="https://brand.com/" hreflang="x-default" />
-<link rel="alternate" href="https://brand.com/en/" hreflang="en" />
-<link rel="alternate" href="https://brand.com/es/" hreflang="es" />
-<link rel="alternate" href="https://brand.com/pt-br/" hreflang="pt-br" />
-<link rel="alternate" href="https://brand.com/de/" hreflang="de" />
-<link rel="alternate" href="https://brand.com/fr/" hreflang="fr" />
-```
 
 ## 3. Cultural Brand Adaptation
 
@@ -140,72 +58,6 @@ HOW TO DO IT:
 | **Testimonials** | Global ones only | Local customers in each market |
 
 ### Cultural Adaptation Examples
-
-```
-CULTURAL ADAPTATION BY MARKET:
-
-UNITED STATES:
-- Tone: direct, clear value proposition
-- Colors: corporate, trust
-- Prices: USD, no VAT (sales tax added at checkout)
-- Payment method: card + Link
-- Legal: English terms, CCPA compliance
-
-BRAZIL:
-- Tone: warm, friendly
-- Colors: vibrant, welcoming
-- Prices: BRL with taxes included
-- Payment method: Pix + boleto + card
-- Legal: LGPD compliance, Portuguese legal terms
-
-GERMANY:
-- Tone: formal, precise, data-driven
-- Colors: clean, minimalist
-- Prices: EUR with VAT (MwSt.)
-- Payment method: giropay + SEPA
-- Legal: GDPR compliance, German terms
-
-JAPAN:
-- Tone: very formal, respectful
-- Colors: subtle, harmonious
-- Prices: JPY, tax-inclusive
-- Payment method: Konbini + LINE Pay
-- Legal: APPI compliance, formal Japanese
-```
-
-```javascript
-// Stripe: Local payment methods = real adaptation
-
-const session = await stripe.checkout.sessions.create({
-  line_items: [/* ... */],
-  payment_method_types: [
-    'card',
-    // Per market:
-    ...(country === 'BR' ? ['pix'] : []),
-    ...(country === 'MX' ? ['oxxo'] : []),
-    ...(country === 'NL' ? ['ideal'] : []),
-    ...(country === 'DE' ? ['giropay'] : []),
-    ...(country === 'JP' ? ['konbini'] : []),
-    ...(country === 'AU' ? ['bacs_debit'] : []),
-  ],
-  locale: getStripeLocale(country), // 'en', 'es', 'pt-BR', 'de', etc.
-  currency: getLocalCurrency(country), // 'brl', 'mxn', 'eur', etc.
-});
-
-// Stripe Tax calculates local taxes automatically
-const taxCalculation = await stripe.tax.calculations.create({
-  currency: 'usd',
-  customer_details: {
-    address: {
-      country: 'DE', // Customer in Germany
-    },
-  },
-  line_items: [{
-    amount: 9900,
-    reference: 'Premium Subscription',
-  }],
-});
-```
 
 ## 4. Global Payment Infrastructure
 
@@ -227,62 +79,6 @@ const taxCalculation = await stripe.tax.calculations.create({
 
 ### Pricing Configuration by Market
 
-```
-INTERNATIONAL PRICING STRATEGY:
-
-1. BASE PRICE IN USD
-   Example: $99/month in US
-
-2. PURCHASING POWER PARITY (PPP) FACTOR
-   Brazil (BRL): 0.44x → ~R$150/month
-   Mexico (MXN): 0.48x → ~$950/month
-   Colombia (COP): 0.37x → ~$140,000/month
-   Europe (EUR): 1.05x → ~€90/month
-
-3. MARKET ADJUSTMENT
-   Local competitors
-   Willingness to pay
-   Local acquisition costs
-
-4. LOCAL TAXES
-   Stripe Tax calculates automatically
-   VAT (EU): 19-27%
-   IVA (LATAM): 16-21%
-   Sales Tax (US): varies by state
-```
-
-```javascript
-// Stripe: Local prices per market
-
-// Create prices in different currencies
-const prices = {
-  usd: await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: 9900,
-    currency: 'usd',
-    recurring: { interval: 'month' },
-  }),
-  brl: await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: 15000, // R$150 (PPP adjusted)
-    currency: 'brl',
-    recurring: { interval: 'month' },
-  }),
-  mxn: await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: 95000, // $950 MXN
-    currency: 'mxn',
-    recurring: { interval: 'month' },
-  }),
-  eur: await stripe.prices.create({
-    product: '{{PRODUCT_ID}}',
-    unit_amount: 9000, // €90
-    currency: 'eur',
-    recurring: { interval: 'month' },
-  }),
-};
-```
-
 ## 5. Multinational SEO
 
 ### How Google Sees Your International Brand
@@ -299,33 +95,6 @@ const prices = {
 | **Reviews** | Local only | Local reviews in each market |
 
 ### Global Brand SEO Checklist
-
-```
-MULTINATIONAL SEO CHECKLIST:
-
-□ hreflang implemented on all pages
-□ URLs with subdirectories (/es/, /pt-br/, /de/)
-□ Professionally translated content (not Google Translate)
-□ Keywords researched per market (not translated keywords)
-□ Google Search Console configured per country
-□ Separate sitemaps per language in robots.txt
-□ Schema markup in each language
-□ Backlinks from each target market
-□ Google Business Profile per country (if applicable)
-□ Local reviews per market
-□ Load speed: CDN + local servers
-□ Core Web Vitals per region
-```
-
-```javascript
-// Multilingual sitemap in robots.txt
-
-Sitemap: https://brand.com/sitemap.xml
-Sitemap: https://brand.com/es/sitemap.xml
-Sitemap: https://brand.com/pt-br/sitemap.xml
-Sitemap: https://brand.com/de/sitemap.xml
-Sitemap: https://brand.com/fr/sitemap.xml
-```
 
 ## 6. Global Social Media
 
@@ -346,67 +115,6 @@ Sitemap: https://brand.com/fr/sitemap.xml
 
 ### Market-by-Market Strategy
 
-```
-STRATEGY BY MARKET:
-
-LATAM (COLOMBIA, MEXICO, PERU, CHILE):
-- Instagram + WhatsApp are primary channels
-- Content in local Spanish (local slang per country)
-- Facebook Ads with budget segmented by city
-- WhatsApp Business API for sales and support
-
-BRAZIL:
-- Instagram + WhatsApp dominate
-- Content in Brazilian Portuguese (not Portugal)
-- YouTube for tutorials and reviews
-- Pix as payment method (Stripe supports it)
-
-UNITED STATES:
-- LinkedIn for B2B, Instagram/TikTok for B2C
-- Newsletter as primary channel (Substack, Beehiiv)
-- Stripe + Link for ultra-fast checkout
-- Content in native English
-
-EUROPE:
-- LinkedIn for professional B2B
-- GDPR compliance required
-- Local payment methods (iDEAL, giropay)
-- Content in each local language
-
-JAPAN:
-- LINE for customer communication
-- Konbini (convenience store payment)
-- Very formal tone
-- Local approval requires time and patience
-```
-
-```javascript
-// Stripe: Payment methods = adaptation to each social network
-
-// WhatsApp (LATAM): charge with Stripe Payment Link
-const paymentLink = await stripe.paymentLinks.create({
-  line_items: [{
-    price: '{{PRICE_ID_USD}}',
-    quantity: 1,
-  }],
-  payment_method_types: ['card', 'oxxo', 'pse'],
-});
-
-// Instagram (Brazil): Stripe + Pix
-const session = await stripe.checkout.sessions.create({
-  payment_method_types: ['pix'],
-  currency: 'brl',
-  line_items: [/* ... */],
-});
-
-// LinkedIn (US/EU): Stripe + Link
-const session = await stripe.checkout.sessions.create({
-  payment_method_types: ['card', 'link'],
-  currency: 'usd',
-  line_items: [/* ... */],
-});
-```
-
 ## 7. Global Content and Storytelling
 
 ### From Translation to Local Creation
@@ -419,34 +127,6 @@ const session = await stripe.checkout.sessions.create({
 | **Local storytelling** | Emotional connection | Stories of local customers |
 
 ### Global Content Strategy
-
-```
-INTERNATIONAL CONTENT PYRAMID:
-
-LEVEL 1: GLOBAL CONTENT (TRANSLATE)
-   - Technical documentation
-   - Product specs
-   - Policies and terms
-   → Professional translation to each language
-
-LEVEL 2: LOCALIZED CONTENT (ADAPT)
-   - Educational blog posts
-   - Guides and tutorials
-   - Email marketing
-   → Adapt examples and use cases to local market
-
-LEVEL 3: LOCAL CONTENT (CREATE)
-   - Local case studies
-   - Local customer testimonials
-   - Content about local events
-   → Created specifically for each market
-
-RULES:
-1. Translating is the minimum, localizing is the standard
-2. Each market deserves its own storytelling
-3. Local examples convert 3x more
-4. Testimonials in the local language build more trust
-```
 
 ## 8. Global Legal and Compliance
 
@@ -465,46 +145,6 @@ RULES:
 
 ### International Legal Checklist
 
-```
-LEGAL CHECKLIST:
-
-□ Terms of service per market (not generic)
-□ Privacy policy per regulation (GDPR, LGPD, CCPA)
-□ Data registration (if applicable in Argentina, Uruguay)
-□ Cookie consent notice (OneTrust/Cookiebot)
-□ DPO appointed (required in EU if processing data at scale)
-□ Stripe Tax configured for local taxes
-□ W-8BEN-E for double taxation treaties
-□ Contracts in the customer's local language
-□ Trademarks registered in each target market
-□ Local partner due diligence
-```
-
-```javascript
-// Stripe Tax: Automatic tax compliance per market
-
-// Stripe calculates and collects taxes in each country
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive', // Tax is added to price
-  },
-});
-
-// In checkout, Stripe detects customer location
-const session = await stripe.checkout.sessions.create({
-  line_items: [{
-    price: '{{PRICE_ID_USD}}',
-    quantity: 1,
-    tax_behavior: 'exclusive',
-  }],
-  automatic_tax: { enabled: true },
-  // Stripe collects the correct tax:
-  // - VAT 21% if customer is from Spain
-  // - GST 5% if customer is from Singapore
-  // - No tax if customer is from Panama
-});
-```
-
 ## 9. International Sales Channels
 
 ### Go-to-Market Strategy by Region
@@ -519,50 +159,6 @@ const session = await stripe.checkout.sessions.create({
 | **Australia/NZ** | Website + Stripe Checkout | Card, BACS | LinkedIn, Google Ads |
 
 ### Stripe Payment Link: Your International Sales Channel
-
-```
-STRIPE PAYMENT LINK = YOUR BEST GLOBAL ALLY:
-
-BENEFITS:
-✅ No website needed (ideal for WhatsApp)
-✅ Automatically detects buyer location
-✅ Shows price in local currency
-✅ Offers local payment methods
-✅ Sends receipt in customer's language
-✅ 135+ currencies supported
-
-HOW TO USE IT:
-1. Create a Payment Link in Stripe Dashboard
-2. Share it via WhatsApp, Instagram, email
-3. Stripe handles everything: local price, local payment, local receipt
-4. You receive USD in your Stripe account (no local bank accounts needed)
-
-EXAMPLE:
-A customer in Mexico receives a WhatsApp link
-→ Sees the price in MXN
-→ Pays with OXXO
-→ Receives receipt in Spanish
-→ You receive the USD equivalent
-→ Without doing anything extra
-```
-
-```javascript
-// Stripe Payment Link: Sell in any market without a website
-
-const paymentLink = await stripe.paymentLinks.create({
-  line_items: [{
-    price: '{{PRICE_ID_USD}}',
-    quantity: 1,
-  }],
-  after_completion: {
-    type: 'redirect',
-    redirect: { url: 'https://brand.com/thank-you' },
-  },
-});
-
-// Share: https://buy.stripe.com/5kA9DF3gJ1cC4o8
-// Stripe detects country, shows local currency, offers local methods
-```
 
 ## 10. Common Mistakes When Internationalizing a Brand
 
@@ -585,87 +181,9 @@ const paymentLink = await stripe.paymentLinks.create({
 
 ### Phase 1: Research and Strategy (Days 1-30)
 
-```
-WEEK 1: ANALYSIS
-□ Research 3-5 target markets
-□ Analyze competitors in each market
-□ Assess demand and willingness to pay
-□ Identify entry barriers
-
-WEEK 2: STRATEGY
-□ Define market entry order
-□ Set PPP prices per market
-□ Choose domain strategy
-□ Plan cultural adaptation
-
-WEEK 3: LEGAL
-□ Register trademark in target markets (Madrid Protocol)
-□ Implement GDPR/LGPD/CCPA compliance
-□ Configure Stripe Tax for local taxes
-□ Hire local lawyer in primary market
-
-WEEK 4: INFRASTRUCTURE
-□ Configure subdirectories per market
-□ Implement hreflang across the entire site
-□ Connect Stripe multi-currency
-□ Configure CDN for global speed
-```
-
 ### Phase 2: Adaptation and Content (Days 31-60)
 
-```
-WEEK 5: TRANSLATION AND LOCALIZATION
-□ Translate full website for first market
-□ Localize examples and case studies
-□ Adapt tone and style to market
-□ Translate legal terms and policies
-
-WEEK 6: GLOBAL PAYMENTS
-□ Configure local payment methods (Pix, OXXO, iDEAL)
-□ Test checkout in each currency
-□ Configure Stripe Billing multi-currency
-□ Verify Stripe Tax in each country
-
-WEEK 7: LOCAL MARKETING
-□ Create social media profiles per market
-□ Adapt content strategy
-□ Configure Google Ads per country
-□ Configure Google Business Profile (if applicable)
-
-WEEK 8: FIRST CUSTOMERS
-□ Launch beta in new market
-□ Offer launch discount
-□ Collect feedback from first customers
-□ Adjust pricing and positioning
-```
-
 ### Phase 3: Scalability and Optimization (Days 61-90)
-
-```
-WEEK 9: MULTILINGUAL SUPPORT
-□ Configure Zendesk/Intercom multilingual
-□ Hire support in local language
-□ Create knowledge base in each language
-□ Document FAQ per market
-
-WEEK 10: GLOBAL METRICS
-□ Configure GA4 per subdirectory
-□ Configure Stripe Reporting per currency
-□ Define KPIs per market
-□ Global vs local dashboard
-
-WEEK 11: OPTIMIZATION
-□ Analyze data from first weeks
-□ Adjust prices based on real conversion
-□ Optimize checkout per market
-□ Iterate on local content
-
-WEEK 12: NEXT MARKETS
-□ Repeat process with next market
-□ Document lessons learned
-□ Create internationalization playbook
-□ Scale to 5+ markets
-```
 
 ## 12. Brand Internationalization Checklist
 

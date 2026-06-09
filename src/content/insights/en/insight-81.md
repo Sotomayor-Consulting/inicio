@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Invest in Florida as a Foreigner: Guide 2026"
 description: "How to invest in Florida as a foreigner"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/métodos y cumplimiento.png"
 cardImageAlt: "Map of Florida with icons of properties, LLC, dollars, airplane, and international flags around it"
 ---
 
@@ -52,46 +52,6 @@ In this guide, we explain **how to invest in Florida as a foreigner** in 2026: l
 
 ### LLC for Foreign Investors
 
-```javascript
-// Stripe: Collect rent with Florida LLC
-// Stripe requires EIN or ITIN
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Florida Properties LLC',
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX', // IRS EIN
-    address: {
-      line1: '1000 Brickell Ave',
-      city: 'Miami',
-      state: 'FL',
-      postal_code: '33131',
-      country: 'US',
-    },
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// Stripe for monthly rent collection
-const rentPayment = await stripe.paymentIntents.create({
-  amount: 300000, // $3,000
-  currency: 'usd',
-  payment_method_types: ['card'],
-  description: 'Monthly rent - Apt 3B',
-  metadata: {
-    property_id: 'MIA-APT-3B',
-    tenant_id: 'TEN-001',
-    month: '2026-06',
-  },
-});
-```
-
 ### Florida LLC vs. Delaware LLC
 
 | Aspect | Florida LLC | Delaware LLC |
@@ -104,26 +64,6 @@ const rentPayment = await stripe.paymentIntents.create({
 | **Recommendation** | ✅ Best for FL properties | For holdings or VC investment |
 
 ### LLC Per Property vs. One LLC
-
-```
-Option 1: LLC per property
-├── LLC #1: Miami Beach house
-├── LLC #2: Orlando condo
-├── LLC #3: Tampa townhouse
-├── Cost: 3 LLCs x $139 = $417/year
-└── Benefit: Isolates each property's risk
-
-Option 2: One LLC for all
-├── Florida Properties LLC
-│   ├── Miami Beach house
-│   ├── Orlando condo
-│   └── Tampa townhouse
-├── Cost: 1 LLC = $139/year
-└── Risk: Lawsuit on one property exposes all
-
-Recommendation: LLC per property if you have 3+ properties
-or if any property has high risk (pool, vacation rental).
-```
 
 ## 3. Financing for Foreigners
 
@@ -139,43 +79,7 @@ or if any property has high risk (pool, vacation rental).
 
 ### DSCR Loan for Foreign Investors
 
-```
-DSCR (Debt Service Coverage Ratio) = Rental income / Mortgage payment
-
-DSCR > 1.0 = Property pays for itself
-DSCR > 1.2 = Easy approval
-DSCR < 1.0 = Need to contribute more capital
-
-Advantages for foreigners:
-- No SSN needed
-- No ITIN needed
-- No personal income needed
-- Only rental potential counts
-- Close in LLC (not personal name)
-
-Typical requirements:
-- 30-40% down payment
-- 6-12 months liquid reserves
-- Appraised property
-- US bank account
-```
-
 ### EIN and ITIN
-
-```
-EIN (Employer Identification Number):
-- Required for business bank account
-- Required for Stripe
-- Required for tax filing
-- Free, apply to IRS with SS-4
-- Registered agent can apply if you have no SSN
-
-ITIN (Individual Taxpayer Identification Number):
-- Required if filing taxes as an individual
-- Required for personal mortgages
-- Process: IRS Form W-7
-- Time: 7-11 weeks
-```
 
 ## 4. Taxes for Foreign Investors in Florida
 
@@ -191,28 +95,6 @@ ITIN (Individual Taxpayer Identification Number):
 
 ### FIRPTA (Foreign Investment in Real Property Tax Act)
 
-```javascript
-// FIRPTA: When selling, the buyer withholds 15%
-// of the sale price and sends it to the IRS
-
-/*
-Example:
-Sale price: $500,000
-FIRPTA withholding: $75,000 (15%)
-
-You can request a withholding certificate
-if:
-- Property sells for under $300,000
-- Buyer will use it as residence
-- No actual capital gain
-
-Recommendation:
-- Get ITIN before selling
-- Hire a CPA specialized in FIRPTA
-- Refund process can take 6-12 months
-*/
-```
-
 ### Florida Taxes
 
 | Tax | Applies? | Note |
@@ -224,25 +106,6 @@ Recommendation:
 | **Intangible tax** | ❌ No | Eliminated in 2007 |
 
 ### 1031 Exchange
-
-```
-1031 Exchange: Defer capital gains by selling and reinvesting.
-
-Requirements:
-- Sell an investment property
-- Buy another investment property of equal or greater value
-- 45 days to identify new property
-- 180 days to close
-- Use a qualified intermediary
-
-Applies to foreigners: Yes, but FIRPTA still applies.
-
-Strategy:
-- Sell Florida property
-- Buy higher-value property
-- Defer capital gains tax
-- Repeat until death (step-up in basis)
-```
 
 ## 5. Property Management
 
@@ -259,34 +122,6 @@ Strategy:
 | **Stripe** | Use theirs or yours | You manage Stripe |
 
 ### Stripe for Rent Collection
-
-```javascript
-// Stripe: Ideal for monthly rent collection
-// Set up recurring subscriptions
-
-// Create monthly rent subscription
-const subscription = await stripe.subscriptions.create({
-  customer: 'cus_tenant_id',
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Monthly Rent - Apt 3B' },
-      recurring: { interval: 'month' },
-      unit_amount: 300000, // $3,000
-    },
-    quantity: 1,
-  }],
-  payment_behavior: 'default_incomplete',
-  metadata: {
-    property_id: 'MIA-APT-3B',
-    tenant_name: 'John Doe',
-  },
-});
-
-// Stripe sends receipt automatically
-// Stripe handles invoices, retrying, and dunning
-// Stripe Tax calculates taxes if applicable
-```
 
 ### Insurance for Florida Properties
 
@@ -305,60 +140,9 @@ const subscription = await stripe.subscriptions.create({
 
 ### Tenancy by Entirety
 
-```
-Tenancy by Entirety: Protection available only for married couples.
-
-How it works:
-- Both spouses own 100%
-- A creditor of one spouse cannot seize the property
-- Only a joint debt of both spouses can reach it
-- Automatic if property is in both spouses' names
-
-Requirements:
-- Must be legally married
-- Property must be in Florida
-- Does not apply to LLCs (only personal name)
-- Upon divorce, converts to tenancy in common
-
-Advantage: The strongest protection for marriages in the US.
-```
-
 ### Florida LLC + Tenancy by Entirety
 
-```
-Recommended structure for married foreign couples:
-
-YOU and YOUR SPOUSE (married)
-  └── Florida LLC (both are members)
-       └── Property
-
-Tenancy by entirety doesn't apply directly in the LLC,
-but the LLC already protects:
-- Personal lawsuit: Does not touch the property
-- Property lawsuit: Does not touch personal assets
-
-Plus:
-- Both control the LLC
-- Succession protection: If one dies, the other continues
-- No Florida probate for the LLC
-```
-
 ### Homestead Exemption
-
-```
-Homestead Exemption in Florida:
-
-Primary residence protection:
-- Unlimited in value (no cap in Florida)
-- Protects from creditors (except mortgage, taxes, HOA)
-- Requires: Florida residency and using property as home
-
-Does not apply to investment properties (only primary residence).
-
-For foreign investors:
-- If you move to Florida, your primary home is protected
-- Your rental properties: need LLC
-```
 
 ## 7. Estate Planning for Florida Properties
 
@@ -373,28 +157,6 @@ For foreign investors:
 | **Foreign** | Complex if heirs live abroad | Simple |
 
 ### Succession Strategies
-
-```
-Option 1: LLC (recommended)
-├── LLC owns the property
-├── You are an LLC member
-├── Upon death, your shares pass to heirs
-├── No probate for the property
-└── Stripe: update beneficial owner
-
-Option 2: Revocable trust
-├── Trust owns the property
-├── You are trustee during life
-├── Upon death, successor trustee manages
-├── Avoids probate completely
-└── Stripe: LLC inside the trust
-
-Option 3: Land trust
-├── Total anonymity
-├── Land trust is not public
-├── Designated beneficiary inherits
-└── Similar to trust but specific for real estate
-```
 
 ## 8. Common Mistakes When Investing in Florida
 

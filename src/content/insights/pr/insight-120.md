@@ -1,7 +1,7 @@
----
+﻿---
 title: "Lista Anual de Cumplimiento para LLC: Guía 2026"
 description: "Lista de cotejo de cumplimiento anual para LLC que cubre requisitos federales, estatales y locales"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/métodos y cumplimiento.png"
 cardImageAlt: "Lista de cotejo de cumplimiento anual para LLC que muestra tareas mensuales, fechas límite de informes anuales, calendario de pagos de impuestos, requisitos de agente registrado y panel de cumplimiento multiestatal"
 ---
 
@@ -196,47 +196,6 @@ Si tu LLC opera en múltiples estados, es posible que necesites calificar como e
 
 ## 6. Calendario de Cumplimento Mes a Mes
 
-```javascript
-// Annual LLC Compliance Calendar Generator
-const complianceCalendar = (state, formationDate, hasEmployees, hasMultiStateOps) => {
-  const fd = new Date(formationDate);
-  const annivMonth = fd.getMonth() + 1;
-  const annivDay = fd.getDate();
-  const calendar = [];
-
-  const tasks = {
-    1: ['File Form W-2 and W-3 (if employees)', 'File Form 940 (FUTA) by Jan 31', 'Review BOI report for updates'],
-    2: ['File Form 1099-NEC (if paid contractors $600+)', 'Prepare tax documents for CPA', 'Review business licenses for renewal']
-  };
-
-  if (annivMonth === 1 || annivMonth === 2) {
-    tasks[annivMonth].push('File annual report with SOS — due this month');
-  }
-
-  tasks[3] = ['File Form 1065 or 1120-S by March 15 (if applicable)', 'Review Q1 estimated tax payments', 'Check foreign qualification renewals']
-  tasks[4] = ['File Schedule C or Form 1120 by April 15 (if applicable)', 'File annual report (AL, GA, NE, NH, TN, DC)', 'Pay Q1 estimated taxes due Apr 15']
-  tasks[5] = ['File annual report (AR, FL, TX)', 'Review California FTB compliance', 'Pay Q2 estimated taxes due Jun 15']
-  tasks[6] = ['File annual report (DE, KY, ME)', 'Review mid-year compliance status', 'Update registered agent if needed']
-  tasks[7] = ['File annual report (WV)', 'Review business license renewals', 'Check multi-state nexus thresholds']
-  tasks[8] = ['Review Q3 estimated tax payments', 'Prepare for fall filing season', 'Verify good standing in all states']
-  tasks[9] = ['Pay Q3 estimated taxes due Sep 15', 'Review BOI reporting requirements', 'Start gathering tax documents']
-  tasks[10] = ['Review annual report calendar for next year', 'Check foreign qualification deadlines', 'Plan year-end tax strategy']
-  tasks[11] = ['Pay Q4 estimated taxes due Dec 15', 'Review LLC operating agreement', 'Prepare 1099 contractor list']
-  tasks[12] = ['File annual report (MN)', 'Review full year compliance', 'Set up next year compliance calendar']
-
-  // Add anniversary-based state tasks
-  if (annivMonth >= 3 && annivMonth <= 12) {
-    tasks[annivMonth].push('File SOS annual report — due this month (anniversary-based state)');
-  }
-
-  return Object.entries(tasks).map(([month, items]) => ({ month: parseInt(month), tasks: items }));
-};
-
-// Example
-const cal = complianceCalendar('Florida', '2020-06-15', true, true);
-cal.forEach(m => { console.log('Month ' + m.month + ':'); m.tasks.forEach(t => console.log('  - ' + t)); });
-```
-
 ### Lista de Cotejo Mensual de Referencia Rápida
 
 | Mes | Fechas Límite Clave | Acciones |
@@ -255,57 +214,6 @@ cal.forEach(m => { console.log('Month ' + m.month + ':'); m.tasks.forEach(t => c
 | **Diciembre** | Informe MN (31 dic); revisión de fin de año | Radica informe MN; revisa cumplimiento anual; establece calendario del próximo año |
 
 ## 7. Calculadora de Puntuación de Cumplimiento de LLC
-
-```javascript
-// Calculate your LLC compliance score based on completed tasks
-const complianceScore = (answers) => {
-  let score = 0;
-  const maxScore = 100;
-  const results = [];
-
-  const categories = [
-    { weight: 20, label: 'Annual report filed on time', check: answers.annualReportFiled },
-    { weight: 15, label: 'Franchise tax / annual fee paid', check: answers.feesPaid },
-    { weight: 10, label: 'Registered agent current', check: answers.agentCurrent },
-    { weight: 15, label: 'Federal tax returns filed on time', check: answers.taxReturnsFiled },
-    { weight: 10, label: 'State tax returns filed', check: answers.stateTaxFiled },
-    { weight: 5, label: 'BOI report filed with FinCEN', check: answers.boiFiled },
-    { weight: 10, label: 'Business licenses current', check: answers.licensesCurrent },
-    { weight: 5, label: 'Operating agreement in place', check: answers.operatingAgreement },
-    { weight: 5, label: 'Separate business bank account', check: answers.separateAccount },
-    { weight: 5, label: 'Multi-state compliance current', check: answers.multiStateOk }
-  ];
-
-  categories.forEach(c => {
-    if (c.check) { score += c.weight; results.push({ ...c, status: 'Pass' }); }
-    else { results.push({ ...c, status: 'Fail' }); }
-  });
-
-  let grade;
-  if (score >= 90) grade = 'A — Excellent compliance';
-  else if (score >= 75) grade = 'B — Good compliance, minor gaps';
-  else if (score >= 60) grade = 'C — Moderate compliance risk';
-  else if (score >= 40) grade = 'D — High compliance risk';
-  else grade = 'F — Critical compliance risk';
-
-  return { score, grade, maxScore, details: results };
-};
-
-// Example
-const myCompliance = {
-  annualReportFiled: true,
-  feesPaid: true,
-  agentCurrent: true,
-  taxReturnsFiled: true,
-  stateTaxFiled: false,
-  boiFiled: true,
-  licensesCurrent: true,
-  operatingAgreement: true,
-  separateAccount: true,
-  multiStateOk: true
-};
-console.log(complianceScore(myCompliance));
-```
 
 ### Qué Significa Tu Puntuación
 

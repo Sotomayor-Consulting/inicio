@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Reducir Disputas y Chargebacks en Stripe: Guía 2026"
 description: "Cómo reducir disputas y chargebacks en Stripe"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Escudo de protección con íconos de disputas, chargebacks y soluciones"
 ---
 
@@ -46,14 +46,6 @@ En esta guía, explicamos **cómo reducir disputas y chargebacks en Stripe** en 
 | **Otros** | 5% | Error del comerciante, monto incorrecto, etc. |
 
 ### Razones por las que los Clientes Disputan en Lugar de Contactarte
-
-```
-Cliente insatisfecho
-       ↓
-¿Puede contactar fácilmente al vendedor?
-  ├── Sí → Solicita reembolso → Resolución amigable
-  └── No → Contacta al banco → Disputa / Chargeback
-```
 
 **Estadística:** El 70% de los clientes que disputan no contactaron al vendedor primero. La razón principal: no encontraron información de contacto clara.
 
@@ -160,15 +152,6 @@ Configura respuestas automáticas para:
 
 ### Cómo Responder una Disputa en Stripe
 
-```
-1. Stripe Dashboard → Disputas → Ver detalle
-2. Revisa el motivo de la disputa
-3. Prepara evidencia específica para ese motivo
-4. Sube documentos (PDF, imágenes, capturas)
-5. Escribe una explicación clara y concisa
-6. Envía la respuesta (plazo: 7-21 días según motivo)
-```
-
 ### Evidencia por Tipo de Disputa
 
 | Motivo de Disputa | Evidencia Clave |
@@ -184,11 +167,6 @@ Configura respuestas automáticas para:
 ### Cómo Funciona 3D Secure
 
 3D Secure agrega una capa extra de verificación:
-
-```
-Compra normal:       Tarjeta → Pago aprobado (sin verificación extra)
-Compra con 3DS:      Tarjeta → Código SMS/Biométrico → Pago aprobado
-```
 
 ### Beneficios de 3D Secure
 

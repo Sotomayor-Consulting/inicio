@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Connect Stripe with Shopify: Step by Step Guide 2026"
 description: "How to connect Stripe with Shopify"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Stripe and Shopify logos side by side with connection arrow"
 ---
 
@@ -132,14 +132,6 @@ If Shopify Payments isn't available in your country, you can integrate Stripe di
 ### Multiple Currencies (Shopify Markets)
 
 Shopify Markets allows you to sell in different currencies:
-
-```
-Main store: USD
-  ├── US Market: USD
-  ├── Europe Market: EUR, GBP
-  ├── Canada Market: CAD
-  └── Brazil Market: BRL
-```
 
 **How to configure:**
 1. Shopify admin → Settings → Markets

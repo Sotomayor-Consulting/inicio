@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Finance Properties in the US as a Foreigner: 2026 Guide"
 description: "How to finance properties in the US as a foreigner"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Financing options for foreigners in the US: DSCR loan, conventional, hard money, seller financing, private lending"
 ---
 
@@ -23,52 +23,11 @@ In this guide, we explain **how to finance properties in the US as a foreigner**
 
 ### Are You Eligible?
 
-```
-Do you have SSN or ITIN?
-├── Yes → Do you have US credit history?
-│   ├── Yes → Conventional / Portfolio / DSCR
-│   └── No → DSCR / Hard Money / Private
-└── No → Do you have rental income?
-    ├── Yes → DSCR Loan (best option)
-    └── No → Hard Money / Cash / Seller Financing
-```
-
-```javascript
-// Stripe does not originate loans, but generates income reports
-// that banks and lenders use to approve DSCR loans
-
-// Rental income report for the lender
-const report = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 31536000, // 12 months
-    interval_end: Math.floor(Date.now() / 1000),
-    columns: ['created', 'amount', 'description', 'status'],
-  },
-});
-
-// Download this report and present it to the bank
-```
-
 ## 2. DSCR Loan: The Best Option for Foreigners
 
 ### What Is a DSCR Loan?
 
 DSCR stands for **Debt Service Coverage Ratio**. It is a loan based on the property's cash flow, NOT on your personal income. The lender evaluates:
-
-```
-DSCR = Net rental income / Monthly loan payment
-
-Example:
-Monthly rent: $3,500
-Monthly payment (mortgage + insurance + tax): $2,800
-DSCR = $3,500 / $2,800 = 1.25
-
-Typical requirement: DSCR ≥ 1.0
-
-If DSCR = 1.25, the loan is approved
-If DSCR < 1.0, you need more down payment
-```
 
 ### Requirements for Foreigners
 
@@ -92,20 +51,6 @@ If DSCR < 1.0, you need more down payment
 | **No US history** | 8-10% | 30-35% | 1.25 |
 
 ### How Stripe Helps with DSCR
-
-```
-Stripe generates income reports that demonstrate DSCR:
-
-1. Set up Stripe on your LLC
-2. Collect rents through Stripe for 12 months
-3. Download the transaction report
-4. Present the report to the lender + tax returns
-
-This is especially useful if:
-- You don't have W-2 or personal tax returns in the US
-- Your income comes from multiple properties
-- You want to demonstrate consistent income
-```
 
 ## 3. Conventional Loan
 
@@ -158,23 +103,6 @@ Short-term, high-rate loan based on the property's value (not your credit). Idea
 
 ### When to Use Hard Money
 
-```
-Ideal scenario:
-- Buy a property for $200,000
-- Need $50,000 in repairs
-- ARV (value after repair): $350,000
-- Hard money loan: 70% of ARV = $245,000
-- Use $200,000 to buy + $45,000 for repairs
-- Sell in 12 months for $350,000
-- Pay off loan + interest (~$220,000)
-- Profit: $130,000 before costs
-
-NOT ideal scenario:
-- Long-term rental property
-- DSCR loan is better: rate 8% vs 12%, term 30 years
-- Hard money only if temporary (flip or bridge)
-```
-
 ### Hard Money vs DSCR Comparison
 
 | Aspect | Hard Money | DSCR Loan |
@@ -185,24 +113,6 @@ NOT ideal scenario:
 | **Approval** | 3-7 days | 2-4 weeks |
 | **Down payment** | 20-30% | 20-35% |
 | **Monthly payment** | Interest only (IO) | Amortized |
-
-```javascript
-// Stripe helps you demonstrate income to refinance
-// from hard money to DSCR loan after repairs
-
-// Rental income report after renovation
-const rentalIncome = await stripe.checkout.sessions.list({
-  limit: 100,
-  created: { gte: Math.floor(Date.now() / 1000) - 7776000 }, // last 90 days
-});
-
-// With 90 days of consistent rent, you can refinance
-const totalRentals = rentalIncome.data.reduce((sum, session) => {
-  return session.payment_status === 'paid' ? sum + session.amount_total : sum;
-}, 0);
-
-console.log(`Total collected in 90 days: $${(totalRentals / 100).toFixed(2)}`);
-```
 
 ## 5. Seller Financing
 
@@ -251,20 +161,6 @@ Private investors (individuals or funds) who lend money for real estate projects
 
 ### How to Find Private Lenders
 
-```
-1. Real estate investing groups (BiggerPockets, Facebook)
-2. Local investor meetups
-3. Referrals from real estate agents
-4. Real estate attorneys (have contacts)
-5. Crowdfunding platforms (Fundrise, CrowdStreet)
-
-Typical requirements:
-- Real estate experience (or partner with experience)
-- Well-documented deal (pro forma, ARV, budget)
-- Clear exit strategy (sale, refinance, rental)
-- Personal contribution (20-30% of the deal)
-```
-
 ## 7. Portfolio Loan
 
 ### What Is a Portfolio Loan?
@@ -301,118 +197,13 @@ A loan that the bank **does not sell to Fannie Mae/Freddie Mac** but keeps on it
 
 ### Short-Term Rental (Airbnb/VRBO) Financing
 
-```
-For short-term rental properties, DSCR is calculated differently:
-
-Projected annual rent: $60,000
-Estimated occupancy: 70%
-Adjusted rent: $60,000 x 70% = $42,000
-
-Monthly payment (PITI): $3,500
-Annual payment: $42,000
-
-DSCR = $42,000 / $42,000 = 1.0
-
-Additional requirements:
-- Down payment: 30-35% (higher than LTR)
-- Rate: 8-11%
-- Short-term rental experience (desirable)
-- Pro forma with occupancy and rates
-```
-
-```javascript
-// Stripe for short-term rental financing
-
-// Stripe integrates with PMS (Property Management) systems
-// and generates occupancy and income reports
-
-// Set up Stripe for Airbnb/VRBO payments
-const account = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// Stripe Connect integrates with platforms like:
-// - Hostaway
-// - Guesty
-// - Lodgify
-// - Uplisting
-
-// Stripe income reports support your DSCR application
-```
-
 ## 9. Step by Step to Finance as a Foreigner
 
 ### Route 1: DSCR Loan (Recommended)
 
-```
-STEP 1: Choose property
-- Search for properties with potential DSCR ≥ 1.25
-- Calculate market rent vs. estimated monthly payment
-
-STEP 2: Form LLC
-- Create LLC in the property state
-- Obtain EIN from the IRS
-
-STEP 3: Open bank account
-- At a US bank that accepts foreigners
-- Deposit funds for down payment + reserves
-
-STEP 4: Set up Stripe
-- Connect Stripe with the LLC
-- If you already have tenants, collect rents via Stripe
-
-STEP 5: Find DSCR lender
-- Compare at least 3 lenders
-- Request pre-approval (soft credit pull)
-
-STEP 6: Close the purchase
-- Provide documentation (bank statements, Stripe reports)
-- Sign and close in 2-4 weeks
-```
-
 ### Route 2: Hard Money → Refinance to DSCR
 
-```
-STEP 1: Buy with hard money
-- Ideal for properties needing repair
-- Fast close (3-7 days)
-
-STEP 2: Repair and rent
-- Use the loan for renovation
-- Get tenants quickly
-- Set up Stripe to collect rent
-
-STEP 3: Generate rental history
-- Collect rent for 3-6 months via Stripe
-- Demonstrate DSCR ≥ 1.0
-
-STEP 4: Refinance to DSCR
-- Find a DSCR lender
-- Use the new value (ARV) for appraisal
-- Cash out or lower the rate
-```
-
 ### Route 3: Cash → Refinance (Delayed Financing)
-
-```
-STEP 1: Buy with cash
-- Offers stronger negotiating power
-- Fast close, no financing contingencies
-
-STEP 2: Rent and generate history
-- Set up Stripe to collect rent
-- Generate 6-12 months of history
-
-STEP 3: Delayed Financing Exception
-- FHA allows cash-out refinance within 6 months of cash purchase
-- You can recover up to 75% of the purchase value
-- No seasoning period required
-```
 
 ## 10. Lender Comparison for Foreigners
 
@@ -427,16 +218,6 @@ STEP 3: Delayed Financing Exception
 | **Kiavi** | DSCR + Fix & Flip | 20-30% | 7.5-9.5% | Online |
 
 ### Tips for Choosing a Lender
-
-```
-1. Look for lenders specialized in foreign investors
-2. Ask if they accept ITIN (better than not requiring it)
-3. Compare APRs (includes points and origination fees)
-4. Check prepayment penalties (avoid > 3 years)
-5. Ask about DSCR on short-term rental properties
-6. Read reviews on BiggerPockets or Google
-7. Get pre-approval before making offers
-```
 
 ## 11. Frequently Asked Questions
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Receber Pagamentos Internacionais: Guia Completo para 2026"
 description: "Receber pagamentos internacionais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Mapa-múndi com setas de pagamento e dinheiro chegando em diferentes países"
 ---
 
@@ -151,41 +151,15 @@ Processadores que permitem receber pagamentos de cartões de crédito de qualque
 
 ### 4.1 Estrutura Básica: Conta Multimoeda
 
-```
-Cliente → Transferência local → Conta multimoeda (Wise, Payoneer)
-                                    ↓
-                            Conversão para moeda local
-                                    ↓
-                            Sua conta bancária local
-```
-
 **Ideal para:** Freelancers, profissionais, pequenas empresas
 **Custo:** 0.5% - 2.5% do valor total
 
 ### 4.2 Estrutura Avançada: Empresa nos EUA + Stripe
 
-```
-Cliente → Cartão de crédito → Stripe (conta LLC)
-                                    ↓
-                            Conta bancária nos EUA (Mercury)
-                                    ↓
-                            Wise (conversão)
-                                    ↓
-                            Sua conta bancária local
-```
-
 **Ideal para:** E-commerce, SaaS, assinaturas
 **Custo:** 2.9% + $0.30 (Stripe) + 0.6% (Wise) = ~3.5%
 
 ### 4.3 Estrutura Internacional: Holding + Subsidiárias
-
-```
-Cliente → Stripe Connect → Holding Internacional (Canadá/EUA)
-                                 ↓
-                         Subsidiária local (se aplicável)
-                                 ↓
-                         Distribuição de lucros
-```
 
 **Ideal para:** Empresas com operação em múltiplos países
 **Custo:** Variável (depende da estrutura)

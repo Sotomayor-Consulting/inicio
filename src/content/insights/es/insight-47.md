@@ -49,14 +49,6 @@ Esto significa que un no residente puede invertir a través de una LP canadiense
 Una LP canadiense puede ser utilizada como vehículo para invertir en Estados Unidos con ventajas fiscales:
 
 ### Estructura típica para inversionistas no estadounidenses:
-```
-Inversionista Extranjero
-         ↓ (Limited Partner)
-LP Canadiense (invierte en EE. UU.)
-         ↓
-LLC estadounidense u otros activos en EE. UU.
-```
-
 ### Ventajas para inversionistas globales:
 - El inversionista evita tener que crear una estructura directa en EE. UU.
 - La LP canadiense actúa como "escudo" fiscal intermedio
@@ -107,14 +99,6 @@ La LP canadiense es especialmente popular para inversiones inmobiliarias:
 - Permite la agrupación de capital de múltiples inversores
 
 ### Estructura típica:
-```
-LP Canadiense (vehículo de inversión)
-         ↓
-LLC en EE. UU. (titular de la propiedad)
-         ↓
-Propiedad inmobiliaria en EE. UU.
-```
-
 ## 7. Costos de Formación y Mantenimiento
 
 En comparación con otras estructuras internacionales, la LP canadiense es relativamente económica:

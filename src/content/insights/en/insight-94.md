@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Charge Clients in Different Countries: 2026 Guide"
 description: "How to charge clients in different countries"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Global map with multiple currencies and payment methods: USD, EUR, BRL, MXN, Pix, OXXO, iDEAL, with Stripe as processing hub and automatic conversion"
 ---
 
@@ -23,44 +23,6 @@ In this guide, we explain **how to charge clients in different countries** in 20
 
 ### Why Customers Prefer to Pay in Their Currency
 
-```
-REASONS:
-✅ They know exactly how much they're paying
-✅ Avoid hidden bank conversion fees
-✅ Trust: a price in their currency feels "local"
-✅ Budgeting: they can compare with local alternatives
-✅ Local payment methods: Pix, OXXO, iDEAL only work
-   when checkout is configured for that country
-
-Stripe handles all this automatically:
-→ Detects customer's country by IP
-→ Shows price in their currency (if you set local prices)
-→ Shows local payment methods
-→ Translates checkout to local language
-```
-
-```javascript
-// Stripe: Automatic local pricing
-
-// Create USD price with local options
-const price = await stripe.prices.create({
-  currency: 'usd',
-  unit_amount: 9900, // $99 USD base
-  product: '{{PRODUCT_ID}}',
-  recurring: { interval: 'month' },
-  currency_options: {
-    eur: { unit_amount: 9900 },    // €99 for Europe
-    mxn: { unit_amount: 180000 },  // $1,800 MXN for Mexico
-    brl: { unit_amount: 35000 },   // R$350 for Brazil
-    gbp: { unit_amount: 8500 },    // £85 for UK
-    cop: { unit_amount: 180000 },  // $180,000 COP for Colombia
-    ars: { unit_amount: 1800000 }, // $18,000 ARS for Argentina
-  },
-});
-
-// Stripe automatically charges in the customer's local currency
-```
-
 ## 2. Multi-Currency Setup in Stripe
 
 ### How It Works
@@ -75,46 +37,6 @@ const price = await stripe.prices.create({
 | **Stripe Tax** | Calculates local taxes | automatic_tax: true |
 
 ### Step-by-Step: Configure Global Prices
-
-```
-1. Create product in Stripe Dashboard
-2. Create base price in USD
-3. Add currency_options for each country
-4. Configure Stripe Tax for local taxes
-5. Configure Checkout with locale: 'auto'
-6. Stripe does the rest automatically
-
-PRACTICAL EXAMPLE:
-
-Product: Premium Subscription
-Base price: $99 USD
-
-Country  | Currency | Local Price | Factor
-─────────┼──────────┼─────────────┼───────
-US       | USD      | $99.00      | 1.00x
-Europe   | EUR      | €99.00      | 1.00x (+VAT)
-UK       | GBP      | £85.00      | 0.86x
-Mexico   | MXN      | $1,800.00   | 0.70x
-Brazil   | BRL      | R$350.00    | 0.57x
-Colombia | COP      | $180,000    | 0.55x
-Chile    | CLP      | $55,000     | 0.60x
-Peru     | PEN      | S/280       | 0.65x
-```
-
-```javascript
-// Stripe: Customer sees price in their currency automatically
-
-const session = await stripe.checkout.sessions.create({
-  line_items: [{
-    price: '{{PRICE_ID_WITH_OPTIONS}}',
-    quantity: 1,
-  }],
-  mode: 'subscription',
-  locale: 'auto',                     // Stripe translates to customer's language
-  automatic_tax: { enabled: true },   // Stripe calculates local taxes
-  customer_creation: 'always',        // Save customer for future invoices
-});
-```
 
 ## 3. Payment Methods by Country
 
@@ -135,48 +57,6 @@ const session = await stripe.checkout.sessions.create({
 
 ### How to Configure Local Payment Methods
 
-```
-IN STRIPE DASHBOARD:
-1. Settings → Payment methods
-2. Activate the methods you need:
-   - Pix (Brazil)
-   - OXXO (Mexico)
-   - SPEI (Mexico)
-   - iDEAL (Netherlands)
-   - Bancontact (Belgium)
-   - PSE (Colombia)
-   - Webpay (Chile)
-   - SEPA (Europe)
-3. Stripe shows them automatically based on customer's country
-
-Stripe activates all relevant payment methods per country.
-You don't have to do anything else.
-```
-
-```javascript
-// Stripe: Dynamic payment methods by country
-
-// Stripe detects customer's country and shows appropriate methods
-const session = await stripe.checkout.sessions.create({
-  line_items: [{ price: '{{PRICE_ID}}', quantity: 1 }],
-  payment_method_types: [
-    'card',       // Global
-    'link',       // Global
-    'pix',        // Brazil
-    'oxxo',       // Mexico
-    'spei',       // Mexico
-    'ideal',      // Netherlands
-    'bancontact', // Belgium
-    'sepa_debit', // Europe
-    'p24',        // Poland
-    'eps',        // Austria
-    'sofort',     // Germany/Austria
-    'boleto',     // Brazil
-  ],
-  locale: 'auto',
-});
-```
-
 ## 4. International Invoicing with Stripe Invoicing
 
 ### Invoices in Multiple Currencies
@@ -193,54 +73,7 @@ const session = await stripe.checkout.sessions.create({
 
 ### Example: Invoice a European Client
 
-```javascript
-// Create invoice in EUR for European customer
-const invoice = await stripe.invoices.create({
-  customer: '{{EU_CUSTOMER_ID}}',
-  currency: 'eur',
-  collection_method: 'charge_automatically',
-  automatic_tax: { enabled: true },        // Automatic VAT
-  pending_invoice_items: [{
-    price: '{{PRICE_ID_EUR}}',              // Price in EUR
-    quantity: 1,
-  }],
-  days_until_due: 30,
-  custom_fields: [{
-    name: 'VAT ID',
-    value: '{{CUSTOMER_VAT_ID}}',
-  }],
-});
-
-// Stripe sends the invoice to the customer
-// Stripe charges automatically
-// Stripe calculates and remits VAT
-```
-
 ### Invoicing for Non-Stripe Customers
-
-```
-NOT ALL CLIENTS WANT TO PAY BY CARD:
-
-OPTION 1: STRIPE INVOICING (RECOMMENDED)
-- Send a payment link by email
-- Client pays by card, ACH, or local method
-- Stripe records the payment automatically
-
-OPTION 2: STRIPE CHECKOUT LINKS
-- Generate a payment link
-- Send via WhatsApp, email, Slack
-- Client opens, pays, done
-
-OPTION 3: WIRE TRANSFER (MANUAL)
-- For large amounts (+$10,000)
-- Stripe doesn't process wires
-- Wise or direct bank transfer
-
-OPTION 4: STRIPE + WISE
-- Stripe for recurring payments
-- Wise for large one-time payments
-- Ideal combination for variable amounts
-```
 
 ## 5. Global Subscriptions with Stripe Billing
 
@@ -257,64 +90,7 @@ OPTION 4: STRIPE + WISE
 
 ### How to Implement Per-Country Pricing
 
-```javascript
-// Stripe Billing: One product, multiple per-country prices
-
-// Create the product
-const product = await stripe.products.create({
-  name: 'Premium Plan',
-});
-
-// Create USD price (base)
-const usdPrice = await stripe.prices.create({
-  product: product.id,
-  currency: 'usd',
-  unit_amount: 9900,
-  recurring: { interval: 'month' },
-});
-
-// Create local prices for each country
-const localPrices = await stripe.prices.create({
-  product: product.id,
-  currency: 'usd', // Billing currency stays USD
-  unit_amount: 9900,
-  recurring: { interval: 'month' },
-  currency_options: {
-    brl: { unit_amount: 35000 },     // R$350
-    mxn: { unit_amount: 180000 },    // $1,800 MXN
-    eur: { unit_amount: 9900 },      // €99
-    gbp: { unit_amount: 8500 },      // £85
-    cop: { unit_amount: 180000 },    // $180,000 COP
-  },
-});
-
-// Stripe automatically assigns the correct price
-// based on the customer's currency/location
-```
-
 ### Global Dunning Management
-
-```
-WHAT HAPPENS WHEN A PAYMENT FAILS?
-
-Stripe Billing handles automatically:
-✅ Smart retries (3-5 attempts)
-✅ Email to customer in their language
-✅ Payment method update
-✅ Automatic downgrade/cancellation
-
-RECOVERY RATE BY COUNTRY:
-- US: 60-70% (ACH + card)
-- Europe: 50-60% (SEPA + card)
-- Brazil: 70-80% (Pix never fails)
-- LATAM general: 40-50% (card)
-
-IMPROVE YOUR COLLECTIONS:
-1. Activate Stripe Smart Retries
-2. Configure dunning emails in multiple languages
-3. Offer local payment methods (Pix, OXXO)
-4. Upcoming expiration reminders
-```
 
 ## 6. Currency Conversion and FX
 
@@ -328,46 +104,6 @@ IMPROVE YOUR COLLECTIONS:
 | **Local currency price** | Charges in local currency, converts to USD | Stripe rate | Converted USD |
 
 ### FX Optimization
-
-```
-STRATEGY TO MINIMIZE FX LOSSES:
-
-1. INVOICE IN USD WHENEVER POSSIBLE
-   → No conversion = no loss
-   → US clients expect USD
-   → International clients accept USD
-
-2. USE CURRENCY_OPTIONS IN STRIPE
-   → Customer sees price in their currency
-   → Stripe charges in local currency
-   → Stripe converts to USD
-   → Stripe's markup is lower than the customer's bank
-
-3. WISE + STRIPE FOR LARGE AMOUNTS
-   → Stripe: recurring payments (card)
-   → Wise: large one-time payments (wire)
-   → Wise has better rate (0.4-0.8% vs 1-3% banks)
-
-4. ACCUMULATE BALANCE AND CONVERT WHEN FX IS FAVORABLE
-   → Stripe holds USD automatically
-   → Accumulate until exchange rate improves
-   → Wise withdraws and converts at optimal moment
-```
-
-```javascript
-// Stripe: Control conversion timing
-
-// Stripe holds the balance in original currency until you decide
-const balance = await stripe.balance.retrieve();
-
-// Each currency has its own available amount
-balance.available.forEach(currency => {
-  console.log(`${currency.currency.toUpperCase()}: $${currency.amount / 100}`);
-});
-
-// Stripe converts automatically to USD when withdrawing
-// Or you can hold balances in multiple currencies with Stripe Treasury
-```
 
 ## 7. International Taxes by Country
 
@@ -386,46 +122,6 @@ balance.available.forEach(currency => {
 
 ### How to Configure Global Taxes
 
-```
-STEP 1: REGISTER IN EACH COUNTRY
-→ Stripe Tax does NOT register your company automatically
-→ You must register for VAT in EU, GST in UK, Sales Tax in US
-→ Stripe Tax calculates and collects the correct tax
-
-STEP 2: ACTIVATE STRIPE TAX
-→ Settings → Tax → Enable
-→ Configure tax behavior (exclusive/inclusive)
-→ Stripe detects customer location
-
-STEP 3: STRIPE REPORTS
-→ Stripe generates reports for each jurisdiction
-→ Your CPA uses those reports to file
-→ Stripe does NOT remit taxes for you
-
-IMPORTANT FOR LATAM:
-→ Stripe Tax works best for US, EU, UK, Australia
-→ For LATAM (Brazil, Mexico, Colombia), consult your local CPA
-→ Stripe can calculate but may not remit in all cases
-```
-
-```javascript
-// Stripe Tax: Calculate tax for each country
-
-const session = await stripe.checkout.sessions.create({
-  line_items: [{ price: '{{PRICE_ID}}', quantity: 1 }],
-  automatic_tax: { enabled: true },
-  customer_details: {
-    address: {
-      country: 'DE', // Customer in Germany
-    },
-  },
-});
-
-// Stripe calculates: $99 + 19% VAT (Germany) = €117.81
-console.log(`Total: ${session.amount_total / 100} ${session.currency}`);
-console.log(`Tax: ${session.total_details.amount_tax / 100}`);
-```
-
 ## 8. Stripe Connect for Paying Third Parties
 
 ### When You Need to Pay Sellers, Contractors, or Partners
@@ -439,89 +135,11 @@ console.log(`Tax: ${session.total_details.amount_tax / 100}`);
 
 ### Pay People in Different Countries
 
-```javascript
-// Stripe Connect: Pay contractors in different countries
-
-// Each contractor has their connected account in their country
-const contractorBR = await stripe.accounts.create({
-  type: 'express',
-  country: 'BR', // Contractor in Brazil
-  business_type: 'individual',
-});
-
-const contractorCO = await stripe.accounts.create({
-  type: 'express',
-  country: 'CO', // Contractor in Colombia
-  business_type: 'individual',
-});
-
-const contractorMX = await stripe.accounts.create({
-  type: 'express',
-  country: 'MX', // Contractor in Mexico
-  business_type: 'individual',
-});
-
-// Pay everyone from one platform
-await stripe.transfers.create({
-  amount: 150000, // $1,500
-  currency: 'usd',
-  destination: contractorBR.id,
-});
-
-// Stripe handles: currency conversion, local compliance, 1099/1042-S reports
-```
-
 ## 9. Pricing Strategies by Country
 
 ### How to Define Local Prices
 
-```
-FACTORS FOR ADJUSTING PRICES BY COUNTRY:
-
-1. PURCHASING POWER (PPP)
-   → GDP per capita adjusted by PPP
-   → Example: Brazil PPP = 0.57x vs US
-   → Brazil price = $99 x 0.57 = R$317
-
-2. LOCAL TAXES
-   → VAT in Europe (17-27%)
-   → Sales Tax in US (0-10%)
-   → IVA in LATAM (16-19%)
-   → Stripe Tax calculates automatically
-
-3. LOCAL COMPETITION
-   → Are there cheaper local alternatives?
-   → How much do competitors charge?
-   → Adjust to be competitive
-
-4. CUSTOMER ACQUISITION COST (CAC)
-   → CAC in US vs LATAM vs Europe
-   → Adjust prices based on cost of selling in each country
-
-5. PAYMENT METHOD
-   → Pix in Brazil = 0% chargeback, +35% conversion
-   → Card in LATAM = 2-5% chargeback
-   → Offer discount for Pix/SPEI (2-5%)
-```
-
 ### Example Price Matrix
-
-```
-SAAS PLAN: $99/month base
-
-COUNTRY  | CURRENCY | LOCAL PRICE | FACTOR | TAX   | FINAL PRICE
-─────────┼──────────┼─────────────┼────────┼───────┼─────────────
-US       | USD      | $99.00      | 1.00x  | 0%    | $99.00
-DE       | EUR      | €99.00      | 1.00x  | 19%   | €117.81
-UK       | GBP      | £85.00      | 0.86x  | 20%   | £102.00
-BR       | BRL      | R$317.00    | 0.57x  | 0%*   | R$317.00
-MX       | MXN      | $1,800.00   | 0.70x  | 16%   | $2,088.00
-CO       | COP      | $180,000    | 0.55x  | 19%   | $214,200
-CL       | CLP      | $55,000     | 0.60x  | 19%   | $65,450
-
-*Digital services from foreign company to Brazilian consumer
-may have IOF or other taxes
-```
 
 ## 10. Common Mistakes When Charging Globally
 
@@ -542,73 +160,15 @@ may have IOF or other taxes
 
 ### Your Stack for Global Charging
 
-```
-┌──────────────────────────────────────┐
-│         STRIPE PAYMENTS               │
-│  Accepts +135 currencies, +40 methods │
-│  Pix, OXXO, iDEAL, PSE, SEPA, ACH    │
-└──────────────┬───────────────────────┘
-               │
-┌──────────────┴───────────────────────┐
-│         STRIPE BILLING                │
-│  Global subscriptions, dunning        │
-│  Per-country pricing, Smart Retries   │
-└──────────────┬───────────────────────┘
-               │
-┌──────────────┴───────────────────────┐
-│         STRIPE TAX                    │
-│  VAT, GST, Sales Tax automatic        │
-│  Reports by jurisdiction              │
-└──────────────┬───────────────────────┘
-               │
-┌──────────────┴───────────────────────┐
-│         WISE / MERCURY                │
-│  Optimal FX conversion                │
-│  Withdraw to local bank               │
-└──────────────────────────────────────┘
-
-ALL INTEGRATED:
-Stripe → Wise → Your local bank
-Without lifting a finger
-```
-
 ## 12. Action Plan for Global Charging
 
 ### Day 1-3: Initial Setup
 
-```
-□ Activate Stripe Payments (multi-currency)
-□ Configure local payment methods (Pix, OXXO, iDEAL, etc.)
-□ Create product and prices with currency_options
-□ Configure Stripe Tax
-```
-
 ### Day 4-7: Invoicing and Subscriptions
-
-```
-□ Configure Stripe Invoicing
-□ Configure Stripe Billing for subscriptions
-□ Define per-country prices (price matrix)
-□ Configure automatic dunning
-```
 
 ### Day 8-14: Optimization
 
-```
-□ Configure Stripe Radar (international anti-fraud)
-□ Configure webhooks for payment notifications
-□ Integrate Wise for FX conversion
-□ Test complete payment flow in 3 countries
-```
-
 ### Day 15-30: Launch
-
-```
-□ Train team on multi-currency
-□ Create documentation for international clients
-□ Launch campaign in new market
-□ Monitor conversion and adjust prices
-```
 
 ## 13. Checklist for Global Charging
 

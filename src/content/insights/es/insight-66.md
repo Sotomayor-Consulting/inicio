@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Funciona Stripe Tax: Guía Completa 2026"
 description: "Cómo funciona Stripe Tax"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Stripe Tax dashboard mostrando cálculo de impuestos y reportes fiscales"
 ---
 
@@ -109,17 +109,6 @@ Stripe Tax está disponible en:
 
 ### Cómo Asignar Categorías
 
-```
-1. Stripe Dashboard → Productos → Stripe Tax
-2. Selecciona un producto existente
-3. Asigna la categoría fiscal:
-   ├── "Producto digital"
-   ├── "Producto físico"
-   ├── "Servicio"
-   └── "Exento"
-4. Stripe aplica la tasa correcta automáticamente
-```
-
 ### Ejemplos de Tasas por País
 
 | País | Producto Digital | Producto Físico |
@@ -148,29 +137,7 @@ Durante el checkout, Stripe Tax:
 
 ### Ejemplo Visual en Checkout
 
-```
-Subtotal:                    $100.00
-IVA (21%):                   $21.00
-Total:                       $121.00
-```
-
 ### Código de Integración
-
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-// Stripe Tax se activa automáticamente si configurado
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price: 'price_digital_product',
-    quantity: 1,
-  }],
-  automatic_tax: { enabled: true }, // Activa Stripe Tax
-  customer: customer.id,
-  success_url: 'https://tusitio.com/success',
-});
-```
 
 ## 6. Stripe Tax para Suscripciones
 
@@ -187,25 +154,6 @@ Stripe Tax también funciona con suscripciones:
 | **Factura única** | Impuesto calculado por item |
 
 ### Ejemplo: Suscripción SaaS
-
-```
-Plan: $29.00/mes
-Ubicación del cliente: España
-Cálculo:
-  Base: $29.00
-  IVA (21%): $6.09
-  Total mensual: $35.09
-```
-
-```javascript
-// Suscripción con Stripe Tax
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{ price: 'price_saas_monthly' }],
-  automatic_tax: { enabled: true },
-  collection_method: 'charge_automatically',
-});
-```
 
 ## 7. Reportes y Declaración Fiscal
 
@@ -227,23 +175,6 @@ const subscription = await stripe.subscriptions.create({
 4. Exporta a CSV para tu contador
 
 ### Preparación para tu Declaración
-
-```javascript
-// Obtener resumen de impuestos para un período
-const taxSummary = await stripe.tax.transactions.summary({
-  period: {
-    start: Math.floor(new Date('2026-01-01').getTime() / 1000),
-    end: Math.floor(new Date('2026-03-31').getTime() / 1000),
-  },
-  // Filtra por país si es necesario
-  // product_category: 'digital_goods',
-});
-
-// Resumen incluye:
-// - Total tax collected
-// - Tax rate breakdown
-// - Jurisdiction breakdown
-```
 
 ## 8. Stripe Tax por Región
 

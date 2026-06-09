@@ -1,4 +1,4 @@
-ï»¿---
+---
 title: "How Much Does It Cost to Maintain an LLC in the U.S.? Complete Cost Guide"
 description: "Discover how much it costs to maintain an LLC in the U.S.: registered agent, annual report, taxes, accounting, and more. Real costs by state."
 cardImage: "@/images/insights/cuanto-cuesta-mantener-una-llc.png"
@@ -109,9 +109,9 @@ A simple LLC with no complex operations:
 | Item | Annual cost |
 |------|-------------|
 | Registered agent | $100 |
-| State report | $60â€“$139 |
-| Informational filings | $200â€“$500 |
-| **Approximate total** | **$360â€“$739** |
+| State report | $60–$139 |
+| Informational filings | $200–$500 |
+| **Approximate total** | **$360–$739** |
 
 ### Intermediate scenario
 
@@ -119,11 +119,11 @@ If the company has bank activity, Stripe, e-commerce, or members:
 
 | Item | Annual cost |
 |------|-------------|
-| Registered agent | $100â€“$200 |
-| State report | $60â€“$300 |
-| Tax filings | $500â€“$1500 |
-| Monthly bookkeeping | $600â€“$1800 |
-| **Approximate total** | **$1260â€“$3800** |
+| Registered agent | $100–$200 |
+| State report | $60–$300 |
+| Tax filings | $500–$1500 |
+| Monthly bookkeeping | $600–$1800 |
+| **Approximate total** | **$1260–$3800** |
 
 ### Advanced scenario
 
@@ -131,12 +131,12 @@ Companies with employees, physical operations, inventory, or holding structures:
 
 | Item | Annual cost |
 |------|-------------|
-| Registered agent | $200â€“$300 |
-| State report + taxes | $300â€“$800+ |
-| Tax filings | $1500â€“$5000+ |
-| Monthly bookkeeping | $1800â€“$6000+ |
-| Licenses and permits | $100â€“$1000+ |
-| **Approximate total** | **$3900â€“$13100+** |
+| Registered agent | $200–$300 |
+| State report + taxes | $300–$800+ |
+| Tax filings | $1500–$5000+ |
+| Monthly bookkeeping | $1800–$6000+ |
+| Licenses and permits | $100–$1000+ |
+| **Approximate total** | **$3900–$13100+** |
 
 ## What happens if I don't maintain my LLC?
 

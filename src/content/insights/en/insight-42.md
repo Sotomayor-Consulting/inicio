@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Justify International Transfers: Guide to Avoid Tax Problems"
 description: "Justification of international transfers"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/cumplimiento-fiscal.png"
 cardImageAlt: "International bank transfer between countries with supporting documents"
 ---
 
@@ -172,22 +172,6 @@ If your bank requests information about an international transfer:
 An organized system will allow you to respond quickly to any inquiry:
 
 ### Suggested structure:
-```
-International Transfers/
-├── Year/
-│   ├── Received/
-│   │   ├── Client A/
-│   │   │   ├── SWIFT Receipt
-│   │   │   ├── Invoice
-│   │   │   ├── Contract
-│   │   │   └── Correspondence
-│   │   └── Client B/
-│   ├── Sent/
-│   │   ├── Supplier X/
-│   │   └── Investment Y/
-│   └── Between own accounts/
-```
-
 ### Recommended tools:
 - **Google Drive / Dropbox**: For cloud storage
 - **QuickBooks / Xero**: For accounting records

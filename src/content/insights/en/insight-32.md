@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Tax Evasion vs Tax Planning: The Line Every Entrepreneur Must Know"
 description: "Key differences between tax evasion (illegal) and tax planning (legal), how to ensure you stay on the right side, and protect your LLC."
-cardImage: "@/images/insights/evasión-vs-planficación-fiscal.png"
+cardImage: "@/images/insights/evasi�n-vs-planficaci�n-fiscal.png"
 cardImageAlt: "Scale with money on one side and law book on the other"
 ---
 
@@ -13,7 +13,7 @@ In this guide, we explain what distinguishes one from the other, with concrete e
 
 | Aspect | Tax Planning | Tax Evasion |
 |--------|-------------|-------------|
-| **Legality** | ✅ Legal | ❌ Illegal |
+| **Legality** | ? Legal | ? Illegal |
 | **Goal** | Pay what is fair under the law | Pay less than the law requires |
 | **Method** | Use legal gaps and tax incentives | Hide income or inflate expenses |
 | **Risk** | Low (if done correctly) | High (penalties, jail, business closure) |
@@ -22,9 +22,9 @@ In this guide, we explain what distinguishes one from the other, with concrete e
 
 ### The traffic light metaphor
 
-- **🟢 Tax planning:** Use the rules in your favor to pay the minimum required by law.
-- **🟡 Tax avoidance:** Use legal gaps aggressively (gray area, not recommended).
-- **🔴 Tax evasion:** Break the law to pay less tax.
+- **?? Tax planning:** Use the rules in your favor to pay the minimum required by law.
+- **?? Tax avoidance:** Use legal gaps aggressively (gray area, not recommended).
+- **?? Tax evasion:** Break the law to pay less tax.
 
 ## What is tax planning?
 
@@ -42,27 +42,27 @@ It is the process of organizing your finances and business structure to **pay th
 
 ### Legitimate examples of tax planning
 
-✅ **Choosing the right state for your LLC.**
+? **Choosing the right state for your LLC.**
    - Choosing Wyoming over Delaware to save $240/year in franchise tax.
    - Legal basis: Freedom to choose where to form.
 
-✅ **Using the right tax structure.**
+? **Using the right tax structure.**
    - Single-member LLC as disregarded entity to avoid double taxation.
    - Legal basis: IRS allows this classification.
 
-✅ **Taking advantage of business deductions.**
+? **Taking advantage of business deductions.**
    - Deducting software, equipment, internet, and necessary services.
    - Legal basis: Section 162 of the Internal Revenue Code.
 
-✅ **Claiming tax credits.**
+? **Claiming tax credits.**
    - Foreign Tax Credit for taxes paid in the U.S.
    - Legal basis: Internal Revenue Code Section 901.
 
-✅ **Using international tax treaties.**
+? **Using international tax treaties.**
    - Reducing withholding on interest and royalties.
    - Legal basis: Tax treaty between your country and the U.S.
 
-✅ **Separating business lines into different LLCs.**
+? **Separating business lines into different LLCs.**
    - Protecting assets of one line from liabilities of another.
    - Legal basis: U.S. corporate law.
 
@@ -82,27 +82,27 @@ It is the illegal action of **not paying the taxes that the law requires**, by h
 
 ### Examples of tax evasion
 
-❌ **Not declaring LLC income.**
+? **Not declaring LLC income.**
    - Receiving payments in a personal account and not reporting them to the IRS or local authority.
    - Consequence: Tax fraud, penalties up to 75% of unpaid taxes.
 
-❌ **Using fake invoices to inflate expenses.**
+? **Using fake invoices to inflate expenses.**
    - Buying invoices from nonexistent suppliers to reduce taxable profit.
    - Consequence: Criminal offense, possible jail time.
 
-❌ **Transferring assets to relatives to avoid taxes.**
+? **Transferring assets to relatives to avoid taxes.**
    - Putting the LLC in a relative's name with no real economic capacity.
    - Consequence: The IRS can ignore the transfer and apply penalties.
 
-❌ **Intentionally not filing Form 5472.**
+? **Intentionally not filing Form 5472.**
    - Hiding transactions between the owner and the LLC.
    - Consequence: $25,000 penalty per year.
 
-❌ **Declaring the LLC has no income when it does.**
+? **Declaring the LLC has no income when it does.**
    - Reporting $0 in income when the LLC received payments.
    - Consequence: IRS audit, penalties, and possible criminal action.
 
-❌ **Using the LLC to hide personal assets from creditors.**
+? **Using the LLC to hide personal assets from creditors.**
    - Transferring personal assets to the LLC to prevent a creditor from claiming them.
    - Consequence: A judge can reverse the transfer (fraudulent conveyance).
 
@@ -112,13 +112,13 @@ Between planning and evasion there is a **gray area** where some practices use l
 
 ### Examples of tax avoidance
 
-⚠️ **Forming the LLC in one state and physically operating in another.**
+?? **Forming the LLC in one state and physically operating in another.**
    - Legal, but if there is no real economic purpose, the IRS may question it.
 
-⚠️ **Paying yourself a low salary from the LLC to avoid taxes.**
+?? **Paying yourself a low salary from the LLC to avoid taxes.**
    - Legal if the salary is at market rate; illegal if artificially low.
 
-⚠️ **Using complex offshore structures with no economic purpose.**
+?? **Using complex offshore structures with no economic purpose.**
    - If the only reason is to avoid taxes, it may be considered abusive avoidance.
 
 ### Risks of aggressive avoidance
@@ -133,14 +133,14 @@ Between planning and evasion there is a **gray area** where some practices use l
 
 | Action | Planning | Avoidance | Evasion |
 |--------|----------|-----------|---------|
-| Choosing Wyoming for your LLC | ✅ | ❌ | ❌ |
-| Deducting real business expenses | ✅ | ❌ | ❌ |
-| Using tax treaty to reduce withholding | ✅ | ❌ | ❌ |
-| Not declaring income from a client | ❌ | ❌ | ❌ |
-| Invoicing under LLC but operating as individual | ❌ | ⚠️ If no purpose | ❌ |
-| Creating LLC in Delaware without operating there | ❌ | ⚠️ | ❌ |
-| Transferring assets to LLC to avoid seizure | ❌ | ❌ | ❌ |
-| Deducting personal expenses as business | ❌ | ❌ | ❌ |
+| Choosing Wyoming for your LLC | ? | ? | ? |
+| Deducting real business expenses | ? | ? | ? |
+| Using tax treaty to reduce withholding | ? | ? | ? |
+| Not declaring income from a client | ? | ? | ? |
+| Invoicing under LLC but operating as individual | ? | ?? If no purpose | ? |
+| Creating LLC in Delaware without operating there | ? | ?? | ? |
+| Transferring assets to LLC to avoid seizure | ? | ? | ? |
+| Deducting personal expenses as business | ? | ? | ? |
 
 ## Consequences of tax evasion
 
@@ -196,7 +196,7 @@ Between planning and evasion there is a **gray area** where some practices use l
 
 ## Practical cases
 
-### Case 1: Tax planning (✅ legal)
+### Case 1: Tax planning (? legal)
 
 **Situation:** Ana, a designer in Mexico, LLC in Wyoming.
 
@@ -208,9 +208,9 @@ Between planning and evasion there is a **gray area** where some practices use l
 - Has a separate account for the LLC.
 - Consults with a CPA annually.
 
-**Result:** ✅ Legal tax planning. Pays ~$9,000 in taxes in Mexico on $60,000 income. No problems with the IRS.
+**Result:** ? Legal tax planning. Pays ~$9,000 in taxes in Mexico on $60,000 income. No problems with the IRS.
 
-### Case 2: Tax evasion (❌ illegal)
+### Case 2: Tax evasion (? illegal)
 
 **Situation:** Pedro, a consultant in Colombia, LLC in Florida.
 
@@ -221,9 +221,9 @@ Between planning and evasion there is a **gray area** where some practices use l
 - Pays personal expenses from the LLC account.
 - Has no accounting.
 
-**Result:** ❌ Tax evasion. The IRS sends a letter for the unfiled 5472. Colombia detects him through a bank cross-check. IRS penalty: $25,000. Colombia penalty: $15,000. Total: $40,000 in penalties + back taxes + interest.
+**Result:** ? Tax evasion. The IRS sends a letter for the unfiled 5472. Colombia detects him through a bank cross-check. IRS penalty: $25,000. Colombia penalty: $15,000. Total: $40,000 in penalties + back taxes + interest.
 
-### Case 3: Aggressive avoidance (⚠️ gray area)
+### Case 3: Aggressive avoidance (?? gray area)
 
 **Situation:** Carlos, an entrepreneur in Argentina, LLC in Delaware.
 

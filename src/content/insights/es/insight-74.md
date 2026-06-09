@@ -1,7 +1,7 @@
----
+﻿---
 title: "Riesgos de Operar sin Estructura Legal: Guía 2026"
 description: "Riesgos de operar sin estructura legal"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.png"
 cardImageAlt: "Persona caminando sobre una cuerda floja sin red de protección, simbolizando los riesgos de operar sin estructura legal"
 ---
 
@@ -73,36 +73,6 @@ En esta guía, explicamos **los riesgos de operar sin estructura legal** en 2026
 
 ### Ejemplo: Contratación de Servicios
 
-```javascript
-// Cliente empresarial necesita factura con RFC/EIN de empresa
-// Sin estructura: No puedes emitirla → Pierdes el contrato
-
-// Con estructura (LLC):
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Consultoría Profesional',
-      },
-      unit_amount: 500000,
-    },
-    quantity: 1,
-  }],
-  // La factura se emite a nombre de la LLC
-  invoice_creation: {
-    enabled: true,
-    invoice_data: {
-      custom_fields: [{
-        name: 'EIN',
-        value: 'XX-XXXXXXX', // EIN de la LLC
-      }],
-    },
-  },
-});
-```
-
 ## 4. Riesgos con Stripe y Pasarelas de Pago
 
 ### Stripe sin Estructura Legal
@@ -140,20 +110,6 @@ const session = await stripe.checkout.sessions.create({
 
 ### Escenario: Quieres Vender tu Negocio
 
-```
-Sin estructura:
-- No tienes una entidad que vender
-- Los ingresos son personales (W-2 o honorarios)
-- No hay due diligence posible
-- Valor: 0.5× ingresos anuales
-
-Con estructura (LLC):
-- Entidad con historial financiero
-- Contratos, clientes, IP en la empresa
-- Due diligence clara
-- Valor: 3-5× ingresos anuales
-```
-
 ## 6. Riesgos de Propiedad Intelectual
 
 ### IP sin Protección
@@ -179,21 +135,6 @@ Con estructura (LLC):
 ## 8. Riesgos de Sucesión
 
 ### ¿Qué Pasa con tu Negocio si Falleces?
-
-```
-Sin estructura legal:
-- El negocio no existe legalmente
-- Tus herederos no pueden continuar
-- Los ingresos se pierden
-- Stripe cierra la cuenta
-- Clientes pierden acceso al servicio
-
-Con estructura (LLC o corporación):
-- La empresa continúa existiendo
-- Los herederos heredan las participaciones
-- Stripe permanece activo
-- Clientes sin interrupción
-```
 
 ## 9. Casos de la Vida Real
 

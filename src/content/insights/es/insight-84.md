@@ -1,7 +1,7 @@
----
+﻿---
 title: "Qué Impuestos Paga un Extranjero en Real Estate: Guía 2026"
 description: "Qué impuestos paga un extranjero en real estate"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Ciclo de impuestos para extranjero en real estate: compra, tenencia, alquiler y venta con iconos de IRS, FIRPTA y property tax"
 ---
 
@@ -33,24 +33,6 @@ En esta guía, explicamos **todos los impuestos que un extranjero paga al invert
 
 > Importante: El extranjero no paga impuestos especiales por comprar. Los costos de cierre (closing costs) son los mismos que para un residente, generalmente 3-5% del precio de compra.
 
-```javascript
-// Stripe: Stripe no participa en la compra de propiedades
-// Stripe se usa para cobrar rentas UNA VEZ que eres propietario
-
-// Pero Stripe puede ayudarte a ahorrar para el closing:
-const savingsGoal = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Ahorro para compra de propiedad' },
-      unit_amount: 500000, // $5,000
-    },
-    quantity: 1,
-  }],
-});
-```
-
 ## 2. Property Tax (Impuesto Predial)
 
 ### ¿Qué es el Property Tax?
@@ -67,23 +49,6 @@ Es un impuesto anual basado en el valor de la propiedad. Lo pagan TODOS los prop
 | **Massachusetts** | 1.12% | $4,480 |
 
 ### Cómo se Calcula
-
-```
-Valor tasado (assessed value) x Tasa de millage = Property tax anual
-
-Ejemplo en Florida:
-Valor de propiedad: $400,000
-Exención de homestead: NO aplica (es inversión, no residencia)
-Valor tasado: $400,000
-Millage rate: 20 mills (2% o 0.02)
-Property tax: $400,000 x 0.02 = $8,000/año
-
-El property tax se paga al county tax collector.
-Generalmente se paga en noviembre (anual) o en dos cuotas.
-
-Deducción fiscal: El property tax es 100% deducible
-en tu declaración de impuestos (Schedule E).
-```
 
 ### ¿Qué Pasa si No Pagas?
 
@@ -117,53 +82,6 @@ en tu declaración de impuestos (Schedule E).
 
 ### Ejemplo de Cálculo
 
-```
-Propiedad: $400,000, 100% financiada con hipoteca DSCR
-Renta anual: $42,000 ($3,500/mes)
-Gastos operativos: $12,000 (seguro, tax, mantenimiento)
-Interés hipotecario: $18,000
-Depreciación: $10,909
-
-Cálculo del impuesto:
-
-Sin W-8ECI (retención 30% sobre bruto):
-  - Retención: $42,000 x 30% = $12,600
-  - Impuesto final: $12,600 (no hay devolución)
-
-Con W-8ECI (tasa marginal sobre neto):
-  - Ingreso bruto: $42,000
-  - Gastos: -$12,000
-  - Interés: -$18,000
-  - Depreciación: -$10,909
-  - Ingreso neto: $1,091
-  - Impuesto (10%): $109
-
-Ahorro con W-8ECI: $12,491/año
-```
-
-```javascript
-// Stripe: Calcular el impuesto estimado sobre rentas
-
-// Stripe Tax puede calcular impuestos automáticamente
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive',
-  },
-});
-
-// Stripe Dashboard → Impuestos → Reportes
-// Stripe genera reportes de ingresos brutos y netos
-
-// Ejemplo: Reporte de ingresos anual
-const revenue = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: 1672531200,
-    interval_end: 1704067199,
-  },
-});
-```
-
 ## 4. Impuestos en la Venta
 
 ### FIRPTA (Foreign Investment in Real Property Tax Act)
@@ -177,33 +95,6 @@ const revenue = await stripe.reporting.reportRuns.create({
 | **Exención** | < $300,000 y comprador usa como residencia |
 
 ### Desglose de Impuestos en la Venta
-
-```
-Supongamos que compraste por $400,000 y vendes por $600,000
-después de 5 años de tenerla en alquiler.
-
-Cálculo de impuestos:
-
-1. DEPRECIACIÓN RECUPERADA (25% máximo)
-   Depreciación tomada en 5 años: $10,909 x 5 = $54,545
-   Impuesto: $54,545 x 25% = $13,636
-
-2. GANANCIA DE CAPITAL (0-20% + 3.8% NIIT si aplica)
-   Precio de venta: $600,000
-   Base ajustada: $400,000 - $54,545 = $345,455
-   Ganancia: $600,000 - $345,455 = $254,545
-   Ganancia de capital: $254,545 - $54,545 = $200,000
-   Impuesto (20%): $40,000
-
-3. RETENCIÓN FIRPTA (a cuenta)
-   Retenido al cerrar: $600,000 x 15% = $90,000
-   Impuesto real: $13,636 + $40,000 = $53,636
-   Reembolso a solicitar: $90,000 - $53,636 = $36,364
-
-4. IMPUESTO ESTATAL (si aplica)
-   Florida: 0% (no hay state income tax)
-   California: hasta 13.3% de la ganancia
-```
 
 ### Cómo Reducir Impuestos al Vender
 
@@ -227,27 +118,6 @@ Cálculo de impuestos:
 | **Cónyuge** | Exención marital ilimitada | Limitada |
 
 ### ¿Cómo se Calcula el Estate Tax?
-
-```
-Ejemplo: Extranjero con propiedades en Florida valoradas en $2,000,000
-
-Sin planificación:
-- Exención: $60,000
-- Base imponible: $1,940,000
-- Estate tax: $1,940,000 x 40% = $776,000
-- Tus herederos pagan: $776,000 al IRS
-
-Con planificación (LLC + holding):
-- La LLC es dueña de las propiedades
-- La LLC es propiedad de una holding internacional
-- El extranjero es accionista de la holding
-- Las acciones de la holding NO son "activos en EE. UU."
-- Estate tax: $0
-
-Otra opción: Trust irrevocable
-- Los activos en trust no son propiedad del extranjero
-- Estate tax: $0
-```
 
 ### Activos que Disparan el Estate Tax
 
@@ -306,29 +176,6 @@ Otra opción: Trust irrevocable
 
 ### Cómo Usar un Tratado Fiscal
 
-```
-Si tu país tiene tratado con EE. UU.:
-
-1. Identifica el artículo del tratado que aplica a tu caso
-   - Ganancias inmobiliarias: Artículo 13
-   - Rentas inmobiliarias: Artículo 6
-   - Intereses/Dividendos: Artículos 10-11
-
-2. Presenta Form 8833 (disclosure) con tu 1040-NR
-   - Debes informar al IRS que estás usando un tratado
-   - Sin este formulario, el IRS aplica tasas estándar
-
-3. Ejemplo con tratado España-EE. UU.:
-   - Renta de propiedad en Florida: Tributas en EE. UU.
-   - También debes declarar en España (obligación personal)
-   - Pero puedes acreditar el impuesto pagado en EE. UU.
-   - No pagas dos veces
-
-4. Exención de FIRPTA:
-   - El tratado con Canadá permite vender hasta $1M sin retención
-   - Otros tratados: no eximen FIRPTA
-```
-
 ## 8. Impuestos Según la Estructura
 
 ### Comparación por Estructura
@@ -342,53 +189,6 @@ Si tu país tiene tratado con EE. UU.:
 | **C-Corp** | 21% corporativo | 15% retención | ❌ Protegido | Alta |
 
 ### La Estructura Recomendada para Extranjeros
-
-```
-Para inversores extranjeros con más de $60K en activos US:
-
-ESTRUCTURA RECOMENDADA:
-1. LLC en Florida (opera la propiedad, cobra rentas con Stripe)
-2. Holding internacional (Panamá / Países Bajos) dueña de la LLC
-3. Tú eres accionista de la holding, no de la LLC
-
-BENEFICIOS:
-- Income tax: Se paga sobre rentas (igual que personal)
-- FIRPTA: Sigue aplicando (la LLC vende)
-- Estate tax: ❌ NO APLICA (las acciones de holding no son activos US)
-- Stripe: La LLC tiene Stripe, la holding recibe dividendos
-
-COSTO ADICIONAL:
-- Holding: $500-2,000/año
-- Contador internacional: $1,000-3,000/año
-```
-
-```javascript
-// Stripe en estructura LLC + Holding
-// La LLC operativa tiene Stripe
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Florida Properties LLC', // LLC operativa
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX',
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// La LLC puede transferir ganancias a la holding
-const transfer = await stripe.transfers.create({
-  amount: 1000000, // $10,000
-  currency: 'usd',
-  destination: '{{CONNECTED_ACCOUNT_HOLDING}}',
-  description: 'Distribución de ganancias a holding',
-});
-```
 
 ## 9. Calendario Fiscal del Extranjero
 
@@ -407,28 +207,6 @@ const transfer = await stripe.transfers.create({
 
 ### Checklist Anual
 
-```
-ENERO:
-- [ ] Recibir 1099-K de Stripe (si aplica)
-- [ ] Recibir 1099 de intereses bancarios
-- [ ] Revisar property tax
-
-FEBRERO-MARZO:
-- [ ] Recopilar gastos deducibles
-- [ ] Calcular depreciación
-- [ ] Preparar 1040-NR con CPA
-
-ABRIL-JUNIO:
-- [ ] Presentar 1040-NR
-- [ ] Pagar impuestos
-- [ ] Solicitar extensión si es necesario
-
-JULIO-DICIEMBRE:
-- [ ] Pagar estimated taxes (si aplica)
-- [ ] Revisar estructura legal
-- [ ] Planificar ventas o 1031 exchanges
-```
-
 ## 10. Estrategias para Reducir Impuestos
 
 ### Resumen de Estrategias
@@ -445,31 +223,6 @@ JULIO-DICIEMBRE:
 | **Seguro de vida** | Estate tax | Exento |
 
 ### Ejemplo de Ahorro Total
-
-```
-Inversor extranjero con:
-- Propiedad en Florida: $500,000
-- Renta anual: $48,000
-- Patrimonio total en EE. UU.: $2,000,000
-- Planea vender en 5 años
-- Tiene herederos en su país
-
-SIN PLANIFICACIÓN:
-- Income tax anual (5 años): $24,000
-- FIRPTA al vender: $75,000 retenidos
-- Capital gains tax: $20,000
-- Estate tax al fallecer: $776,000
-- TOTAL: ~$895,000 en impuestos
-
-CON PLANIFICACIÓN:
-- Income tax anual (con depreciación + W-8ECI): $500/año
-- FIRPTA: $75,000 retenidos, $50,000 devueltos
-- Capital gains: $20,000
-- Estate tax: $0 (vía holding)
-- TOTAL: ~$45,500 en impuestos
-
-AHORRO: ~$849,500
-```
 
 ## 11. Preguntas Frecuentes
 

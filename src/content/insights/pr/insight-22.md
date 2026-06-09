@@ -1,225 +1,225 @@
-ï»¿---
-title: "LLC Disregarded Entity vs Partnership: Qual Escolher para seu NegÃ³cio?"
+---
+title: "LLC Disregarded Entity vs Partnership: Qual Escolher para seu Negócio?"
 description: "Comparativo completo entre os regimes fiscais disregarded entity e partnership para LLCs, e como escolher o adequado para seu caso."
 cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership.png"
-cardImageAlt: "ComparaÃ§Ã£o de duas estruturas fiscais com Ã­cones"
+cardImageAlt: "Comparação de duas estruturas fiscais com ícones"
 ----
 
-Ao constituir uma LLC nos Estados Unidos, um dos aspectos mais importantes â€”e menos compreendidosâ€” Ã© como ela tributa fiscalmente. Por padrÃ£o, o IRS classifica as LLCs de duas maneiras: **disregarded entity** (entidade nÃ£o considerada) ou **partnership** (sociedade).
+Ao constituir uma LLC nos Estados Unidos, um dos aspectos mais importantes —e menos compreendidos— é como ela tributa fiscalmente. Por padrão, o IRS classifica as LLCs de duas maneiras: **disregarded entity** (entidade não considerada) ou **partnership** (sociedade).
 
-A diferenÃ§a entre ambas afeta diretamente quanto vocÃª paga de impostos, como reporta suas receitas e quais obrigaÃ§Ãµes fiscais vocÃª tem. Neste artigo, explicamos tudo o que vocÃª precisa saber para escolher a opÃ§Ã£o correta.
+A diferença entre ambas afeta diretamente quanto você paga de impostos, como reporta suas receitas e quais obrigações fiscais você tem. Neste artigo, explicamos tudo o que você precisa saber para escolher a opção correta.
 
 ## O que significa cada regime?
 
-### Disregarded Entity (Entidade NÃ£o Considerada)
+### Disregarded Entity (Entidade Não Considerada)
 
-Aplica-se automaticamente Ã s **single-member LLCs** (LLC de um Ãºnico membro). O IRS "ignora" a LLC como entidade separada para fins fiscais.
+Aplica-se automaticamente às **single-member LLCs** (LLC de um único membro). O IRS "ignora" a LLC como entidade separada para fins fiscais.
 
 **Como funciona?**
 
-- A LLC nÃ£o apresenta uma declaraÃ§Ã£o de impostos separada.
-- O proprietÃ¡rio reporta as receitas e despesas da LLC em sua declaraÃ§Ã£o pessoal.
-- No caso de proprietÃ¡rios estrangeiros (nÃ£o residentes), apresenta-se o FormulÃ¡rio 5472 como declaraÃ§Ã£o informativa.
+- A LLC não apresenta uma declaração de impostos separada.
+- O proprietário reporta as receitas e despesas da LLC em sua declaração pessoal.
+- No caso de proprietários estrangeiros (não residentes), apresenta-se o Formulário 5472 como declaração informativa.
 
-**Para proprietÃ¡rios estrangeiros:** O IRS nÃ£o exige uma declaraÃ§Ã£o de imposto de renda nos EUA se a LLC nÃ£o tiver atividade em solo americano (nÃ£o tiver "effectively connected income" ou ECI). No entanto, vocÃª deve apresentar o FormulÃ¡rio 5472 anualmente.
+**Para proprietários estrangeiros:** O IRS não exige uma declaração de imposto de renda nos EUA se a LLC não tiver atividade em solo americano (não tiver "effectively connected income" ou ECI). No entanto, você deve apresentar o Formulário 5472 anualmente.
 
 ### Partnership (Sociedade)
 
-Aplica-se automaticamente Ã s **multi-member LLCs** (LLC de dois ou mais membros).
+Aplica-se automaticamente às **multi-member LLCs** (LLC de dois ou mais membros).
 
 **Como funciona?**
 
-- A LLC apresenta uma declaraÃ§Ã£o informativa (FormulÃ¡rio 1065).
-- Cada sÃ³cio recebe um Schedule K-1 que reporta sua participaÃ§Ã£o nos lucros ou prejuÃ­zos.
-- Cada sÃ³cio reporta sua parte em sua declaraÃ§Ã£o pessoal.
+- A LLC apresenta uma declaração informativa (Formulário 1065).
+- Cada sócio recebe um Schedule K-1 que reporta sua participação nos lucros ou prejuízos.
+- Cada sócio reporta sua parte em sua declaração pessoal.
 
-**Para proprietÃ¡rios estrangeiros:** Se vocÃª Ã© sÃ³cio de uma multi-member LLC, a LLC deve apresentar o FormulÃ¡rio 1065 e cada sÃ³cio estrangeiro deve apresentar sua declaraÃ§Ã£o pessoal (possivelmente FormulÃ¡rio 1040-NR).
+**Para proprietários estrangeiros:** Se você é sócio de uma multi-member LLC, a LLC deve apresentar o Formulário 1065 e cada sócio estrangeiro deve apresentar sua declaração pessoal (possivelmente Formulário 1040-NR).
 
-## Comparativo rÃ¡pido
+## Comparativo rápido
 
 | Aspecto | Disregarded Entity | Partnership |
 |---------|-------------------|-------------|
-| **NÃºmero de membros** | 1 | 2+ |
-| **DeclaraÃ§Ã£o da LLC** | NÃ£o aplica | FormulÃ¡rio 1065 |
-| **Reporte do proprietÃ¡rio** | Na declaraÃ§Ã£o pessoal | Schedule K-1 |
-| **FormulÃ¡rio 5472** | Sim (proprietÃ¡rio estrangeiro) | Depende |
-| **Complexidade fiscal** | Baixa | MÃ©dia |
-| **Custo de compliance** | Baixo | MÃ©dio |
-| **ProteÃ§Ã£o liability** | Igual | Igual |
-| **Flexibilidade de distribuiÃ§Ã£o** | N/A | Alta |
-| **Ideal para** | Freelancers, proprietÃ¡rios Ãºnicos | SÃ³cios, agÃªncias |
+| **Número de membros** | 1 | 2+ |
+| **Declaração da LLC** | Não aplica | Formulário 1065 |
+| **Reporte do proprietário** | Na declaração pessoal | Schedule K-1 |
+| **Formulário 5472** | Sim (proprietário estrangeiro) | Depende |
+| **Complexidade fiscal** | Baixa | Média |
+| **Custo de compliance** | Baixo | Médio |
+| **Proteção liability** | Igual | Igual |
+| **Flexibilidade de distribuição** | N/A | Alta |
+| **Ideal para** | Freelancers, proprietários únicos | Sócios, agências |
 
 ## Qual escolher?
 
 ### Escolha Disregarded Entity se:
 
-1. **VocÃª Ã© o Ãºnico proprietÃ¡rio** da LLC.
+1. **Você é o único proprietário** da LLC.
 2. **Tem receitas moderadas** e quer simplicidade fiscal.
-3. **Ã‰ estrangeiro** e quer minimizar obrigaÃ§Ãµes fiscais nos EUA.
-4. **NÃ£o planeja ter investidores** ou sÃ³cios adicionais.
+3. **É estrangeiro** e quer minimizar obrigações fiscais nos EUA.
+4. **Não planeja ter investidores** ou sócios adicionais.
 5. **Quer menor custo** de contabilidade e compliance.
 
 ### Escolha Partnership se:
 
-1. **Tem dois ou mais sÃ³cios** no negÃ³cio.
-2. **Quer distribuir lucros** de forma flexÃ­vel (nÃ£o necessariamente equitativa).
+1. **Tem dois ou mais sócios** no negócio.
+2. **Quer distribuir lucros** de forma flexível (não necessariamente equitativa).
 3. **Planeja crescer** e eventualmente incorporar investidores.
 4. **Aceita maior complexidade fiscal** em troca de flexibilidade.
-5. **Precisa de prejuÃ­zos** que os sÃ³cios possam deduzir em suas declaraÃ§Ãµes pessoais.
+5. **Precisa de prejuízos** que os sócios possam deduzir em suas declarações pessoais.
 
-## Aprofundando: Disregarded Entity para proprietÃ¡rios estrangeiros
+## Aprofundando: Disregarded Entity para proprietários estrangeiros
 
-Este Ã© o regime mais comum para empreendedores latino-americanos que constituem uma LLC nos EUA. Ã‰ importante entender suas implicaÃ§Ãµes.
+Este é o regime mais comum para empreendedores latino-americanos que constituem uma LLC nos EUA. É importante entender suas implicações.
 
 ### Vantagens
 
 | Vantagem | Detalhe |
 |----------|---------|
-| **Simplicidade** | Sem declaraÃ§Ã£o da LLC, apenas FormulÃ¡rio 5472 |
-| **Baixo custo** | NÃ£o precisa de CPA caro para a declaraÃ§Ã£o |
-| **Sem dupla tributaÃ§Ã£o** | As receitas tributam apenas no seu paÃ­s de residÃªncia |
-| **Privacidade** | Menos informaÃ§Ã£o reportada ao IRS |
-| **FÃ¡cil administraÃ§Ã£o** | Sem K-1, sem contabilidade complexa |
+| **Simplicidade** | Sem declaração da LLC, apenas Formulário 5472 |
+| **Baixo custo** | Não precisa de CPA caro para a declaração |
+| **Sem dupla tributação** | As receitas tributam apenas no seu país de residência |
+| **Privacidade** | Menos informação reportada ao IRS |
+| **Fácil administração** | Sem K-1, sem contabilidade complexa |
 
 ### Desvantagens
 
 | Desvantagem | Detalhe |
 |-------------|---------|
-| **Sem separaÃ§Ã£o fiscal** | O IRS vÃª a LLC e o proprietÃ¡rio como a mesma entidade |
-| **Sem prejuÃ­zos dedutÃ­veis** | NÃ£o pode ter prejuÃ­zos que beneficiem a empresa |
-| **Limitado a um proprietÃ¡rio** | NÃ£o pode ter sÃ³cios sem mudar de regime |
+| **Sem separação fiscal** | O IRS vê a LLC e o proprietário como a mesma entidade |
+| **Sem prejuízos dedutíveis** | Não pode ter prejuízos que beneficiem a empresa |
+| **Limitado a um proprietário** | Não pode ter sócios sem mudar de regime |
 
-### ObrigaÃ§Ãµes fiscais
+### Obrigações fiscais
 
-Se vocÃª Ã© estrangeiro com uma single-member LLC:
+Se você é estrangeiro com uma single-member LLC:
 
-1. **FormulÃ¡rio 5472:** Deve apresentÃ¡-lo anualmente antes de 15 de abril (com extensÃ£o atÃ© 15 de outubro). A multa por nÃ£o apresentÃ¡-lo Ã© de **$25.000** por ano.
-2. **Pro-forma 1120:** Embora nÃ£o seja obrigatÃ³rio, muitos contadores recomendam apresentar uma declaraÃ§Ã£o pro-forma 1120 para estabelecer uma base fiscal sÃ³lida.
-3. **FBAR (FinCEN Form 114):** Se a soma de suas contas financeiras no exterior (incluindo a conta bancÃ¡ria da LLC) exceder $10.000 em qualquer momento do ano, vocÃª deve apresentar o FBAR.
-4. **FATCA (Form 8938):** Se seus ativos financeiros especificados no exterior excederem certos limites (geralmente $50.000 para solteiros), deve apresentar este formulÃ¡rio.
+1. **Formulário 5472:** Deve apresentá-lo anualmente antes de 15 de abril (com extensão até 15 de outubro). A multa por não apresentá-lo é de **$25.000** por ano.
+2. **Pro-forma 1120:** Embora não seja obrigatório, muitos contadores recomendam apresentar uma declaração pro-forma 1120 para estabelecer uma base fiscal sólida.
+3. **FBAR (FinCEN Form 114):** Se a soma de suas contas financeiras no exterior (incluindo a conta bancária da LLC) exceder $10.000 em qualquer momento do ano, você deve apresentar o FBAR.
+4. **FATCA (Form 8938):** Se seus ativos financeiros especificados no exterior excederem certos limites (geralmente $50.000 para solteiros), deve apresentar este formulário.
 
-### Disregarded entity Ã© a melhor opÃ§Ã£o?
+### Disregarded entity é a melhor opção?
 
-Para a maioria dos freelancers e proprietÃ¡rios Ãºnicos, **sim**. Ã‰ simples, econÃ´mica e eficaz. No entanto, se planeja escalar rapidamente, ter investidores ou gerar prejuÃ­zos significativos no inÃ­cio, pode considerar outros regimes.
+Para a maioria dos freelancers e proprietários únicos, **sim**. É simples, econômica e eficaz. No entanto, se planeja escalar rapidamente, ter investidores ou gerar prejuízos significativos no início, pode considerar outros regimes.
 
 ## Aprofundando: Partnership para multi-member LLCs
 
-Se vocÃª tem sÃ³cios, o IRS exige que tribute como partnership (a menos que opte por ser tratado como corporation, que Ã© outro tema).
+Se você tem sócios, o IRS exige que tribute como partnership (a menos que opte por ser tratado como corporation, que é outro tema).
 
 ### Vantagens
 
 | Vantagem | Detalhe |
 |----------|---------|
-| **Flexibilidade na distribuiÃ§Ã£o** | Pode distribuir lucros em diferentes proporÃ§Ãµes |
-| **PrejuÃ­zos dedutÃ­veis** | Os sÃ³cios podem deduzir prejuÃ­zos em suas declaraÃ§Ãµes pessoais |
-| **Aportes de capital** | EstruturaÃ§Ã£o fÃ¡cil de aportes de sÃ³cios |
-| **Escalabilidade** | FÃ¡cil adicionar ou retirar sÃ³cios |
-| **TransparÃªncia** | Cada sÃ³cio sabe sua participaÃ§Ã£o exata |
+| **Flexibilidade na distribuição** | Pode distribuir lucros em diferentes proporções |
+| **Prejuízos dedutíveis** | Os sócios podem deduzir prejuízos em suas declarações pessoais |
+| **Aportes de capital** | Estruturação fácil de aportes de sócios |
+| **Escalabilidade** | Fácil adicionar ou retirar sócios |
+| **Transparência** | Cada sócio sabe sua participação exata |
 
 ### Desvantagens
 
 | Desvantagem | Detalhe |
 |-------------|---------|
-| **Maior complexidade fiscal** | FormulÃ¡rio 1065, K-1, contabilidade mais detalhada |
-| **Custo mais alto** | Precisa de um CPA para preparar a declaraÃ§Ã£o |
-| **ObrigaÃ§Ãµes para proprietÃ¡rios estrangeiros** | Cada sÃ³cio estrangeiro deve apresentar declaraÃ§Ã£o |
-| **Prazos estritos** | 1065 vence em 15 de marÃ§o (sem extensÃ£o) |
-| **PossÃ­vel dupla tributaÃ§Ã£o** | Se nÃ£o estruturar bem, pode pagar impostos nos EUA e no seu paÃ­s |
+| **Maior complexidade fiscal** | Formulário 1065, K-1, contabilidade mais detalhada |
+| **Custo mais alto** | Precisa de um CPA para preparar a declaração |
+| **Obrigações para proprietários estrangeiros** | Cada sócio estrangeiro deve apresentar declaração |
+| **Prazos estritos** | 1065 vence em 15 de março (sem extensão) |
+| **Possível dupla tributação** | Se não estruturar bem, pode pagar impostos nos EUA e no seu país |
 
-### ConsideraÃ§Ãµes para sÃ³cios estrangeiros
+### Considerações para sócios estrangeiros
 
-Se vocÃª tem uma multi-member LLC com sÃ³cios estrangeiros:
+Se você tem uma multi-member LLC com sócios estrangeiros:
 
-1. **A LLC deve apresentar o FormulÃ¡rio 1065** anualmente.
-2. **Cada sÃ³cio estrangeiro recebe um K-1** e deve reportar sua parte.
-3. **Os sÃ³cios estrangeiros podem precisar apresentar o FormulÃ¡rio 1040-NR** se tiverem receitas efetivamente conectadas (ECI).
-4. **RetenÃ§Ã£o de impostos:** A LLC pode ter que reter impostos para sÃ³cios estrangeiros em certos casos.
+1. **A LLC deve apresentar o Formulário 1065** anualmente.
+2. **Cada sócio estrangeiro recebe um K-1** e deve reportar sua parte.
+3. **Os sócios estrangeiros podem precisar apresentar o Formulário 1040-NR** se tiverem receitas efetivamente conectadas (ECI).
+4. **Retenção de impostos:** A LLC pode ter que reter impostos para sócios estrangeiros em certos casos.
 
 ## Posso mudar de regime?
 
-Sim, mas com limitaÃ§Ãµes.
+Sim, mas com limitações.
 
 ### De Disregarded Entity para Partnership
 
-Ocorre automaticamente quando vocÃª adiciona um segundo membro Ã  sua LLC.
+Ocorre automaticamente quando você adiciona um segundo membro à sua LLC.
 
 **O que deve fazer?**
 
 1. Atualizar o Operating Agreement.
 2. Obter um novo EIN (o IRS exige um novo para multi-member LLCs).
-3. Notificar seu banco sobre a mudanÃ§a de estrutura (possÃ­vel documentaÃ§Ã£o adicional).
-4. A partir da mudanÃ§a, apresentar FormulÃ¡rio 1065.
+3. Notificar seu banco sobre a mudança de estrutura (possível documentação adicional).
+4. A partir da mudança, apresentar Formulário 1065.
 
 ### De Partnership para Disregarded Entity
 
-Ocorre quando um sÃ³cio compra a participaÃ§Ã£o do outro e fica apenas um membro.
+Ocorre quando um sócio compra a participação do outro e fica apenas um membro.
 
 **O que deve fazer?**
 
 1. Atualizar o Operating Agreement.
 2. Obter um novo EIN.
 3. Notificar o banco.
-4. A partir da mudanÃ§a, apresentar apenas FormulÃ¡rio 5472 (se for estrangeiro).
+4. A partir da mudança, apresentar apenas Formulário 5472 (se for estrangeiro).
 
 ### De qualquer um para Corporation (S-Corp ou C-Corp)
 
-Uma LLC pode optar por ser tratada como corporation fiscalmente apresentando o FormulÃ¡rio 8832 (para C-Corp) ou o FormulÃ¡rio 2553 (para S-Corp). Esta Ã© uma decisÃ£o estratÃ©gica que deve ser avaliada com um contador.
+Uma LLC pode optar por ser tratada como corporation fiscalmente apresentando o Formulário 8832 (para C-Corp) ou o Formulário 2553 (para S-Corp). Esta é uma decisão estratégica que deve ser avaliada com um contador.
 
-## Tabela de decisÃ£o
+## Tabela de decisão
 
-| Sua situaÃ§Ã£o | Regime recomendado | RazÃ£o |
+| Sua situação | Regime recomendado | Razão |
 |-------------|-------------------|-------|
 | Freelancer individual, receitas < $100k/ano | Disregarded Entity | Simplicidade, baixo custo |
 | Freelancer individual, receitas > $100k/ano | Disregarded Entity (avaliar S-Corp) | Economia fiscal potencial |
-| Dois ou mais sÃ³cios, mesmo percentual | Partnership | Exigido pelo IRS |
-| Dois ou mais sÃ³cios, percentuais diferentes | Partnership | Flexibilidade de distribuiÃ§Ã£o |
-| SÃ³cio estrangeiro + sÃ³cio americano | Partnership (com assessoria) | Compliance transfronteiriÃ§o |
-| ProprietÃ¡rio Ãºnico, planeja ter investidores | Disregarded Entity (inicial), depois Partnership | Escalabilidade |
-| AgÃªncia com mÃºltiplos funcionÃ¡rios | Partnership ou S-Corp | ProteÃ§Ã£o e eficiÃªncia |
+| Dois ou mais sócios, mesmo percentual | Partnership | Exigido pelo IRS |
+| Dois ou mais sócios, percentuais diferentes | Partnership | Flexibilidade de distribuição |
+| Sócio estrangeiro + sócio americano | Partnership (com assessoria) | Compliance transfronteiriço |
+| Proprietário único, planeja ter investidores | Disregarded Entity (inicial), depois Partnership | Escalabilidade |
+| Agência com múltiplos funcionários | Partnership ou S-Corp | Proteção e eficiência |
 
-## Caso prÃ¡tico: Freelancer vs AgÃªncia com sÃ³cios
+## Caso prático: Freelancer vs Agência com sócios
 
 ### Caso 1: Carlos, freelancer individual
 
-Carlos Ã© designer web no Peru. Tem sua LLC em Wyoming e trabalha sozinho.
+Carlos é designer web no Peru. Tem sua LLC em Wyoming e trabalha sozinho.
 
 | Aspecto | Sua escolha |
 |---------|-------------|
 | **Regime** | Disregarded Entity |
 | **EIN** | 1 (single-member) |
-| **DeclaraÃ§Ã£o anual** | FormulÃ¡rio 5472 |
-| **Custo fiscal anual** | ~$200 (preparaÃ§Ã£o do 5472) |
+| **Declaração anual** | Formulário 5472 |
+| **Custo fiscal anual** | ~$200 (preparação do 5472) |
 | **Complexidade** | Baixa |
 
 **Resultado:** Carlos paga ~$200/ano em compliance fiscal, reporta seu 5472, e as receitas da LLC tributam apenas no Peru.
 
-### Caso 2: AgÃªncia de Maria e JoÃ£o
+### Caso 2: Agência de Maria e João
 
-Maria e JoÃ£o sÃ£o sÃ³cios ao 50% numa agÃªncia de marketing digital com LLC na FlÃ³rida.
+Maria e João são sócios ao 50% numa agência de marketing digital com LLC na Flórida.
 
 | Aspecto | Sua escolha |
 |---------|-------------|
 | **Regime** | Partnership |
 | **EIN** | 1 (multi-member) |
-| **DeclaraÃ§Ã£o anual** | FormulÃ¡rio 1065 + K-1 para cada sÃ³cio |
-| **Custo fiscal anual** | ~$1.500 (preparaÃ§Ã£o do 1065 + K-1s) |
-| **Complexidade** | MÃ©dia |
+| **Declaração anual** | Formulário 1065 + K-1 para cada sócio |
+| **Custo fiscal anual** | ~$1.500 (preparação do 1065 + K-1s) |
+| **Complexidade** | Média |
 
-**Resultado:** Maria e JoÃ£o pagam ~$1.500/ano, tÃªm contabilidade mais detalhada, mas podem distribuir lucros flexivelmente e deduzir prejuÃ­zos se houver.
+**Resultado:** Maria e João pagam ~$1.500/ano, têm contabilidade mais detalhada, mas podem distribuir lucros flexivelmente e deduzir prejuízos se houver.
 
-## ConclusÃ£o
+## Conclusão
 
-A escolha entre disregarded entity e partnership depende da sua estrutura de negÃ³cio:
+A escolha entre disregarded entity e partnership depende da sua estrutura de negócio:
 
-- **Single-member LLC = Disregarded Entity** por padrÃ£o. Simples, econÃ´mica, ideal para freelancers e proprietÃ¡rios Ãºnicos.
-- **Multi-member LLC = Partnership** por padrÃ£o. FlexÃ­vel, escalÃ¡vel, ideal para agÃªncias com sÃ³cios.
+- **Single-member LLC = Disregarded Entity** por padrão. Simples, econômica, ideal para freelancers e proprietários únicos.
+- **Multi-member LLC = Partnership** por padrão. Flexível, escalável, ideal para agências com sócios.
 
-Ambos os regimes oferecem a mesma proteÃ§Ã£o de responsabilidade limitada. A diferenÃ§a estÃ¡ na complexidade fiscal e na flexibilidade.
+Ambos os regimes oferecem a mesma proteção de responsabilidade limitada. A diferença está na complexidade fiscal e na flexibilidade.
 
-Se vocÃª Ã© proprietÃ¡rio Ãºnico, fique com disregarded entity. Se tem sÃ³cios ou planeja ter, aceite a complexidade adicional do partnership e busque um bom CPA.
+Se você é proprietário único, fique com disregarded entity. Se tem sócios ou planeja ter, aceite a complexidade adicional do partnership e busque um bom CPA.
 
 ## Precisa de ajuda para escolher o regime fiscal da sua LLC?
 
-Na **Sotomayor Consulting International**, assessoramos vocÃª sobre a estrutura fiscal mais adequada para sua LLC conforme seu paÃ­s de residÃªncia, tipo de negÃ³cio e objetivos.
+Na **Sotomayor Consulting International**, assessoramos você sobre a estrutura fiscal mais adequada para sua LLC conforme seu país de residência, tipo de negócio e objetivos.
 
-**Agende uma consultoria gratuita** e garanta que escolha o regime correto desde o inÃ­cio.
+**Agende uma consultoria gratuita** e garanta que escolha o regime correto desde o início.

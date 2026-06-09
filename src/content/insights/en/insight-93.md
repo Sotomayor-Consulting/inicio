@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Sell Globally from Latin America: 2026 Guide"
 description: "How to sell globally from Latin America"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/internacionalizar-una-marca.png"
 cardImageAlt: "Map of Latin America with digital export arrows to the US, Europe, and Asia, with icons of Stripe, Shopify, Mercado Pago and global payment methods"
 ---
 
@@ -24,43 +24,6 @@ In this guide, we explain **how to sell globally from Latin America** in 2026: f
 
 ### Advantages of Selling from LATAM
 
-```
-✅ ADVANTAGES:
-- Low cost of living = high margins
-- Skilled talent at competitive cost
-- Time zone proximity to the US
-- Tax treaties with the US and Europe
-- Local payment methods (Pix, OXXO, SPEI, Mercado Pago)
-- Stripe available in 20+ LATAM countries
-
-⚠️ CHALLENGES:
-- Inflation and local currency devaluation
-- Exchange controls (Argentina, Venezuela)
-- Country risk affects bank accounts
-- Difficulty opening accounts abroad
-- Local taxes on global income
-
-SOLUTION: US LLC + Stripe + Wise
-```
-
-```javascript
-// Stripe: Charge in USD from LATAM to the world
-
-// Create checkout session for US client
-const session = await stripe.checkout.sessions.create({
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Software Subscription' },
-      unit_amount: 9900, // $99 USD
-    },
-    quantity: 1,
-  }],
-  payment_method_types: ['card', 'link'],
-  locale: 'auto',
-});
-```
-
 ## 2. Legal Structure for Global Selling
 
 ### Options for LATAM Entrepreneurs
@@ -73,35 +36,6 @@ const session = await stripe.checkout.sessions.create({
 | **Wise account + local invoice** | Low | $0 | Freelancers, small amounts |
 
 ### Recommended: US LLC + Stripe
-
-```
-GLOBAL SELLING FLOW FROM LATAM:
-
-1. Stripe Atlas → Delaware LLC (3-7 days)
-2. Stripe account → charge in USD
-3. Wise Business → convert USD to local currency
-4. Withdraw to your local bank (ARS, BRL, MXN, COP...)
-
-BENEFITS:
-✅ Charge in USD without exchange controls
-✅ Stripe accepts +135 currencies and payment methods
-✅ Convert when the exchange rate favors you
-✅ No amount limits (vs personal accounts)
-✅ LLC protection: personal assets separated
-```
-
-```javascript
-// Stripe: Charge in USD, convert when you want
-
-// Stripe holds your balance in USD
-// Convert to local currency when the exchange rate is favorable
-
-const balance = await stripe.balance.retrieve();
-console.log(`USD Balance: $${balance.available[0].amount / 100}`);
-
-// Wise automatically collects from Stripe
-// and sends to your local bank
-```
 
 ## 3. Global Payment Methods with Stripe
 
@@ -122,39 +56,6 @@ console.log(`USD Balance: $${balance.available[0].amount / 100}`);
 
 ### Pix: The Payment Method That Revolutionized Brazil
 
-```
-PIX IN BRAZIL:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-- 140M+ active users in Brazil
-- Instant payments 24/7 (including weekends)
-- Stripe accepts Pix since 2023
-- No chargebacks (like cash)
-- +35% conversion for Brazilian customers
-
-HOW TO ACTIVATE PIX IN STRIPE:
-1. Stripe Dashboard → Settings → Payment methods
-2. Activate Pix (available for Brazil accounts)
-3. Stripe shows the Pix QR code at checkout
-4. Customer scans with their banking app
-5. Instant payment
-
-If you sell to Brazil and DON'T have Pix: you're losing 35%+ of sales
-```
-
-```javascript
-// Stripe: Accept Pix (Brazil), OXXO (Mexico), iDEAL (Europe)
-
-// Stripe detects customer location and shows
-// local payment methods automatically
-
-const session = await stripe.checkout.sessions.create({
-  line_items: [{ price: '{{PRICE_ID}}', quantity: 1 }],
-  payment_method_types: ['card', 'link', 'pix', 'oxxo', 'ideal'],
-  locale: 'auto', // Stripe adapts checkout to customer's country
-});
-```
-
 ## 4. Logistics for Global Sales
 
 ### Digital vs Physical Products
@@ -172,46 +73,7 @@ const session = await stripe.checkout.sessions.create({
 
 ### Fulfillment Centers for LATAM
 
-```
-IF YOU SELL PHYSICAL PRODUCTS TO THE US:
-
-OPTION 1: SHIPBOB
-- Receive your inventory in Miami
-- They store, pack, and ship
-- Integration with Shopify + Stripe
-- Cost: $3-8 per order
-
-OPTION 2: FLEXPORT
-- Complete global logistics
-- Ideal for large volumes (100+ orders/month)
-- Cost: variable
-
-OPTION 3: AMAZON FBA
-- Amazon warehouse
-- Prime shipping included
-- Must create Amazon Seller account
-- Stripe for direct payments (optional)
-
-FLOW:
-Factory in LATAM → Ship to Miami fulfillment → Stripe charges in USD
-                           → ShipBob delivers to US customer
-                           → You see the balance in Stripe
-```
-
 ### How to Use Stripe for Logistics
-
-```javascript
-// Stripe: Link payments with fulfillment orders
-
-// When a customer pays, send the order to ShipBob
-const order = await stripe.checkout.sessions.retrieve('{{SESSION_ID}}');
-console.log(`Customer: ${order.customer_details.name}`);
-console.log(`Product: ${order.line_items.data[0].description}`);
-console.log(`Total: $${order.amount_total / 100}`);
-
-// Automation with webhooks
-// Stripe → Webhook → ShipBob API → Shipping → Customer receives
-```
 
 ## 5. Global Marketing from LATAM
 
@@ -228,56 +90,7 @@ console.log(`Total: $${order.amount_total / 100}`);
 
 ### Stripe for Marketing and Analytics
 
-```javascript
-// Stripe: Customer data for campaign segmentation
-
-// Stripe tells you what product each customer buys
-// Use this data to segment your marketing campaigns
-
-// Example: Send offer to customers who bought Basic Plan
-const customers = await stripe.customers.list({
-  limit: 100,
-});
-
-// Stripe Reporting gives insights by country, product, currency
-const report = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 7776000, // 90 days
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-
-// With this data, decide which market is growing most
-// and where to invest in ads
-```
-
 ### Pricing and Checkout Localization
-
-```
-LOCALIZATION STRATEGY:
-
-Stripe does 80% of the work automatically:
-✅ Detects customer's country
-✅ Shows price in local currency
-✅ Shows local payment methods
-✅ Translates checkout
-
-YOU ONLY NEED:
-✅ Define per-currency prices (Stripe Price API)
-✅ Configure Stripe Tax for local taxes
-✅ Adjust pricing by purchasing power
-
-EXAMPLE LOCALIZED PRICES:
-
-SaaS Product: $99 USD base
-
-US      → $99 USD (no changes)
-Brazil  → R$350 (Stripe shows in BRL, pays with Pix)
-Mexico  → $1,800 MXN (pays with card or SPEI)
-Europe  → €99 EUR (VAT included, Stripe Tax)
-Colombia → $180,000 COP (pays with PSE)
-```
 
 ## 6. Currency Conversion and FX
 
@@ -291,35 +104,6 @@ Colombia → $180,000 COP (pays with PSE)
 | **Multi-currency account (HSBC)** | Low | $50-100/month | High |
 
 ### Recommended Flow
-
-```
-1. Customer pays in USD, EUR, or GBP → Stripe
-2. Stripe holds the balance in USD
-3. When the exchange rate is favorable:
-   → Wise withdraws from Stripe (USD)
-   → Wise converts to your local currency (BRL, MXN, COP, ARS)
-   → Wise sends to your local bank
-4. You control the conversion timing
-
-BENEFIT: If you wait for the best exchange rate,
-you can earn 5-15% extra on each conversion.
-
-With Stripe + Wise: full control over FX
-```
-
-```javascript
-// Stripe + Wise: Control when to convert
-
-// Stripe holds USD until you decide to convert
-const balance = await stripe.balance.retrieve();
-const usdBalance = balance.available[0].amount / 100;
-
-console.log(`You have $${usdBalance} USD available`);
-console.log('Wait for the best exchange rate to convert');
-
-// When FX is favorable, withdraw to Wise
-// Wise automatically converts to your local currency
-```
 
 ## 7. Platforms for Global Selling
 
@@ -345,31 +129,6 @@ console.log('Wait for the best exchange rate to convert');
 
 ### Marketplaces
 
-```
-SELLING ON GLOBAL MARKETPLACES:
-
-AMAZON:
-- Seller Central: sell to US, Europe, Japan
-- FBA: Amazon stores and ships
-- Stripe not required (Amazon pays directly)
-- Ideal for physical products
-
-ETSY:
-- Crafts, personalized products
-- Stripe for payments (integrated)
-- Global audience
-
-GUMROAD / LEMON SQUEEZY:
-- Digital products, courses
-- Handle international taxes
-- Stripe as processor
-
-APP MARKETPLACES:
-- App Store (Apple) → 70/30 split
-- Google Play → 85/15 split
-- Stripe for in-app payments (platform-dependent)
-```
-
 ## 8. Tax Compliance for LATAM Sellers
 
 ### Taxes When Selling Globally
@@ -385,172 +144,23 @@ APP MARKETPLACES:
 
 ### What Every LATAM Seller Must Know
 
-```
-GOLDEN RULES FOR SELLING GLOBALLY:
-
-1. If you invoice from your US LLC:
-   → Pay 21% corporate in the US (or less)
-   → Declare in your country (with credit for taxes paid)
-   → No double taxation if there's a treaty
-
-2. If you invoice as an individual from your country:
-   → US client withholds 30% (without W-8BEN)
-   → Or 0-15% (with W-8BEN and treaty)
-   → Declare in your country as global income
-
-3. If you sell on marketplaces (Amazon, Etsy):
-   → The platform reports your income to the IRS
-   → Amazon/Etsy issue 1099-K if you sell +$20K/year
-   → You must declare that income in your country
-
-RECOMMENDATION:
-Always sell from a US LLC + Stripe
-+ international CPA = everything in order
-```
-
-```javascript
-// Stripe Tax: Automate global taxes
-
-// Stripe calculates the correct tax for each customer
-const checkout = await stripe.checkout.sessions.create({
-  line_items: [{
-    price: '{{PRICE_ID}}',
-    quantity: 1,
-  }],
-  automatic_tax: { enabled: true },
-});
-
-console.log(`Tax charged: $${checkout.total_details.amount_tax / 100}`);
-console.log(`Customer country: ${checkout.customer_details.address.country}`);
-
-// Stripe generates reports for filing taxes in each jurisdiction
-```
-
 ## 9. Success Stories from LATAM
 
 ### Case 1: Mexican SaaS Selling to the US
 
-```
-COMPANY: Mexican billing SaaS
-FOUNDERS: 2 entrepreneurs in Mexico City
-
-BEFORE:
-- Billed in MXN to local clients
-- MRR: $8,000/month
-- Paid 35% income tax as individuals
-- No legal protection
-- US clients couldn't hire them (no EIN)
-
-AFTER (with US LLC + Stripe):
-- Stripe Atlas → Delaware LLC
-- Stripe Billing → USD subscriptions
-- Local pricing: $99 USD, $1,800 MXN, €99 EUR
-- Stripe Tax → automatic VAT
-- Deel → US-based contractor
-
-RESULT:
-- MRR: $45,000/month (5.6x in 8 months)
-- 60% of revenue from the US
-- LLC protects their assets
-- Dropped from 35% to 21% tax rate
-- Stripe automates all billing
-```
-
 ### Case 2: Colombian E-commerce Selling Coffee Globally
 
-```
-COMPANY: Colombian coffee shop
-FOUNDER: Entrepreneur in Bogotá
-
-BEFORE:
-- Sold only locally in COP
-- Revenue: $15,000/month
-- No international presence
-- International competitors winning clients
-
-AFTER (with Shopify + Stripe + ShipBob):
-- LLC in Wyoming (Stripe Atlas)
-- Shopify + Stripe → global checkout
-- ShipBob → Miami fulfillment
-- Stripe Tax → automatic sales tax
-- Prices in USD, EUR, GBP
-
-RESULT:
-- Sales: $65,000/month (4.3x in 6 months)
-- 55% revenue from US, 15% from Europe
-- 2-5 day shipping to anywhere in the US
-- Stripe handles all payment methods
-```
-
 ### Case 3: Argentine Consultant with Global Clients
-
-```
-COMPANY: Software consultancy from Buenos Aires
-FOUNDER: Senior engineer
-
-BEFORE:
-- Billed as individual (monotributo)
-- US clients withheld 30% (no W-8BEN)
-- Revenue: $10,000/month
-- No legal protection
-- Exchanged USD to ARS at official rate (lost 40%)
-
-AFTER:
-- LLC in Wyoming (Stripe Atlas)
-- Stripe Invoicing → bill in USD
-- Wise → receive USD, convert when wanted
-- W-8BEN-E → 0% withholding
-
-RESULT:
-- Revenue: $25,000/month (2.5x in 4 months)
-- 0% withholding on US payments
-- Wise converts at MEP rate (no exchange control)
-- LLC protects assets
-- Stripe automates invoicing and collection
-```
 
 ## 10. Action Plan: 30 Days to Sell Globally
 
 ### Week 1: Legal Structure
 
-```
-□ Stripe Atlas → LLC in Delaware or Wyoming ($500)
-□ Get EIN from IRS (3-7 days)
-□ Open Mercury or Wise Business account ($0)
-□ Request Stripe Issuing card for expenses
-□ Configure Stripe Payments
-```
-
 ### Week 2: Store or SaaS
-
-```
-□ Choose platform (Shopify, WooCommerce, Stripe Billing)
-□ Set up products/pricing in USD
-□ Configure Stripe Tax for global taxes
-□ Configure local payment methods (Pix, OXXO, iDEAL)
-□ Configure Stripe Radar (anti-fraud)
-```
 
 ### Week 3: Logistics (if selling physical products)
 
-```
-□ Choose fulfillment center (ShipBob, Flexport)
-□ Send inventory to Miami
-□ Configure Shopify + ShipBob + Stripe integration
-□ Configure Stripe to link orders with shipments
-□ Test complete purchase flow
-```
-
 ### Week 4: Marketing and Launch
-
-```
-□ Define target market (US, Europe, LATAM)
-□ Create Google Ads or Facebook Ads campaign
-□ Configure Stripe for conversion tracking
-□ SEO for English terms
-□ Email marketing to existing list
-□ LAUNCH
-```
 
 ## 11. Checklist for Selling Globally from LATAM
 

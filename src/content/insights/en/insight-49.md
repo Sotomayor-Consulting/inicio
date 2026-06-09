@@ -5,7 +5,7 @@ cardImage: "@/images/insights/cumplimiento-fiscal.png"
 cardImageAlt: "Entrepreneur analyzing financial charts and tax documents"
 ---
 
-**Tax protection** is a set of legal strategies that allow entrepreneurs to reduce their tax burden, protect their assets, and keep their businesses in compliance with the law. Unlike tax evasion (illegal), tax protection uses the very instruments that the law provides to pay only the tax due — no more, no less.
+**Tax protection** is a set of legal strategies that allow entrepreneurs to reduce their tax burden, protect their assets, and keep their businesses in compliance with the law. Unlike tax evasion (illegal), tax protection uses the very instruments that the law provides to pay only the tax due � no more, no less.
 
 In this complete guide, we explain the main tax protection strategies for entrepreneurs, from basic tax planning to advanced international structures.
 
@@ -25,10 +25,10 @@ In this complete guide, we explain the main tax protection strategies for entrep
 
 ### Why is it important?
 
-- **Legal reduction of the tax burden** — savings of 30% to 60% in some cases
-- **Asset protection** — shielding against tax executions
-- **Legal certainty** — peace of mind to do business without tax risks
-- **Competitiveness** — more resources to reinvest in the business
+- **Legal reduction of the tax burden** � savings of 30% to 60% in some cases
+- **Asset protection** � shielding against tax executions
+- **Legal certainty** � peace of mind to do business without tax risks
+- **Competitiveness** � more resources to reinvest in the business
 
 ## 2. Basic Tax Protection Strategies
 
@@ -98,14 +98,6 @@ The asset holding company is one of the most efficient structures for entreprene
 An offshore company can be used as part of an international tax protection strategy:
 
 **Typical structure:**
-
-```
-Entrepreneur
-    ↓
-International Holding (offshore)
-    ↓
-Operating Company (home country)
-```
 
 **Tax advantages:**
 - Tax deferral: taxes are paid only when profits are repatriated
@@ -216,7 +208,7 @@ Tax treaties to avoid double taxation allow:
 
 ## Conclusion
 
-**Tax protection for entrepreneurs** is not just about paying less taxes — it is about **paying the right tax** within the law, protecting the assets built through hard work, and ensuring business continuity across generations.
+**Tax protection for entrepreneurs** is not just about paying less taxes � it is about **paying the right tax** within the law, protecting the assets built through hard work, and ensuring business continuity across generations.
 
 Strategies range from simple choices like the ideal tax regime to sophisticated structures such as international holdings and estate planning. The common denominator is professional planning and diligent execution with specialized advisory.
 

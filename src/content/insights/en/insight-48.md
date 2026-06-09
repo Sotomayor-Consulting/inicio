@@ -1,7 +1,7 @@
----
+﻿---
 title: "How a Holding Structure Works: Complete Guide"
 description: "Holding Structure - Complete Guide"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/que es una holding.png"
 cardImageAlt: "Holding corporate structure with connections between companies"
 ---
 
@@ -21,16 +21,6 @@ A **holding company** is an entity created with the primary purpose of **holding
 - **Asset protection:** Isolates risks across group companies
 
 ### Simple Example:
-
-```
-Family/Partners
-       ↓ (equity)
-Holding Company (parent)
-       ↓ (holdings)
-┌──────┼──────┐
-↓      ↓      ↓
-Company A (Operations) │ Company B (Real Estate) │ Company C (Investments)
-```
 
 ## 2. Types of Holding Companies
 
@@ -144,14 +134,6 @@ An **international holding company** is incorporated in a different country from
 
 ### 5.1 Cross-Border Investments
 
-```
-Investor (Latam/Europe)
-           ↓
-International Holding (Canada/US/Netherlands)
-           ↓
-Operating Subsidiaries (target country)
-```
-
 ### 5.2 Tax Advantages
 
 - **Double taxation treaties:** Reduce or eliminate withholding tax on dividends
@@ -196,13 +178,6 @@ If the holding company is used to defraud creditors or simulate transactions, co
 
 ### Recommended Structure
 
-```
-Family Holding (domestic or foreign)
-  ├── 50% interests — Child A
-  ├── 50% interests — Child B
-  └── Life usufruct — Parents
-```
-
 ### Succession Advantages
 
 - **Avoids probate:** Interests are already registered in the heirs' names
@@ -228,12 +203,6 @@ Family Holding (domestic or foreign)
 **Scenario:** Latin American investor wants to invest $5 million in US commercial real estate.
 
 **Solution:**
-```
-Canadian LP Holding
-       ↓
-US LLC (property owner)
-```
-
 **Result:** The investor has no US tax presence, leverages the Canada-US tax treaty, and reduces the tax burden on returns.
 
 ### Example 3: Family Business Holding
@@ -241,13 +210,6 @@ US LLC (property owner)
 **Scenario:** Family owns a manufacturing plant, a farm, and a real estate company.
 
 **Solution:**
-```
-Family Holding
-  ├── Manufacturing Inc.
-  ├── Farm Inc.
-  └── Real Estate Inc.
-```
-
 **Result:** Centralized management, planned succession, isolated risks.
 
 ## 9. Steps to Implement Your Holding Company

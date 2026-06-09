@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Use Stripe for Subscriptions: Complete Guide 2026"
 description: "How to use Stripe for subscriptions"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Stripe dashboard showing active subscriptions and recurring revenue chart"
 ---
 
@@ -88,66 +88,9 @@ In this guide, we explain **how to use Stripe for subscriptions** in 2026, from 
 
 Stripe Checkout is a hosted payment page you can integrate with minimal code:
 
-```html
-<!-- Subscription button -->
-<button id="subscribe-btn">Subscribe for $29/month</button>
-
-<script src="https://js.stripe.com/v3/"></script>
-<script>
-  const stripe = Stripe('pk_test_...');
-
-  document.getElementById('subscribe-btn').addEventListener('click', async () => {
-    const response = await fetch('/create-checkout-session', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ priceId: 'price_12345' }),
-    });
-    const session = await response.json();
-    await stripe.redirectToCheckout({ sessionId: session.id });
-  });
-</script>
-```
-
-```javascript
-// Node.js server
-const stripe = require('stripe')('sk_test_...');
-
-app.post('/create-checkout-session', async (req, res) => {
-  const session = await stripe.checkout.sessions.create({
-    mode: 'subscription',
-    line_items: [{ price: 'price_12345', quantity: 1 }],
-    success_url: 'https://yoursite.com/success',
-    cancel_url: 'https://yoursite.com/cancelled',
-  });
-  res.json({ id: session.id });
-});
-```
-
 ### Method 3: Stripe Billing API (Full Code)
 
 For complete control over the subscription experience:
-
-```javascript
-// 1. Create customer
-const customer = await stripe.customers.create({
-  email: 'customer@email.com',
-  name: 'John Smith',
-});
-
-// 2. Create subscription
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{ price: 'price_12345' }],
-  trial_period_days: 7,
-  payment_behavior: 'default_incomplete',
-  expand: ['latest_invoice.payment_intent'],
-});
-
-// 3. Confirm payment with client_secret
-const clientSecret = subscription.latest_invoice.payment_intent.client_secret;
-
-// Send client_secret to frontend to confirm
-```
 
 ## 4. Plans and Pricing
 
@@ -205,17 +148,6 @@ The Customer Portal lets your customers self-manage:
 
 **How to enable it:**
 
-```javascript
-// Create Customer Portal session
-const session = await stripe.billingPortal.sessions.create({
-  customer: customer.id,
-  return_url: 'https://yoursite.com/account',
-});
-
-// Redirect customer
-res.redirect(session.url);
-```
-
 ### Plan Changes (Upgrade/Downgrade)
 
 Stripe handles plan changes automatically:
@@ -252,17 +184,6 @@ Set up automatic emails for each stage:
 
 Stripe Smart Retries uses machine learning to choose the best time to retry:
 
-```
-Payment failed → Smart Retries analyzes:
-  ├── Customer history
-  ├── Card type
-  ├── Issuing bank
-  ├── Time of day
-  └── Day of week
-       ↓
-Retries at optimal moment → +15% recovery
-```
-
 ## 7. Key Subscription Metrics
 
 ### KPIs You Should Monitor
@@ -280,15 +201,6 @@ Retries at optimal moment → +15% recovery
 
 Stripe Dashboard shows you:
 
-```
-MRR: $12,450        ↑ 12% vs previous month
-Active customers: 423
-New: 28             ↑ 8%
-Cancellations: 12   ↓ 3%
-Churn Rate: 2.8%
-Average revenue: $29.43/customer
-```
-
 ## 8. Customer Retention
 
 ### Strategies to Reduce Churn
@@ -302,21 +214,6 @@ Average revenue: $29.43/customer
 | **Proactive support** | High | Detect low usage patterns |
 
 ### Offering Discounts to Prevent Cancellations
-
-```javascript
-// Create retention coupon
-const coupon = await stripe.coupons.create({
-  percent_off: 30,
-  duration: 'repeating',
-  duration_in_months: 3,
-});
-
-// Apply to customer's subscription
-const subscription = await stripe.subscriptions.update(
-  subscriptionId,
-  { coupon: coupon.id }
-);
-```
 
 ### Recovering Canceled Customers
 
@@ -352,17 +249,6 @@ const subscription = await stripe.subscriptions.update(
 ### Issue 3: Subscription Canceled by Mistake
 
 **Solution:**
-
-```javascript
-// Reactivate canceled subscription
-const subscription = await stripe.subscriptions.update(
-  subId,
-  {
-    cancel_at_period_end: false,
-    // Subscription remains active until period end
-  }
-);
-```
 
 ### Issue 4: Incorrect Taxes
 

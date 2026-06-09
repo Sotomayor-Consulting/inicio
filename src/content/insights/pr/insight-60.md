@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Usar Stripe para Assinaturas: Guia Completo 2026"
 description: "Como usar Stripe para assinaturas"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Dashboard do Stripe mostrando assinaturas ativas e gráfico de receita recorrente"
 ---
 
@@ -88,66 +88,9 @@ Neste guia, explicamos **como usar Stripe para assinaturas** em 2026, desde a co
 
 Stripe Checkout é uma página de pagamento hospedada que você pode integrar com pouco código:
 
-```html
-<!-- Botão de assinatura -->
-<button id="subscribe-btn">Assinar por R$29/mês</button>
-
-<script src="https://js.stripe.com/v3/"></script>
-<script>
-  const stripe = Stripe('pk_test_...');
-
-  document.getElementById('subscribe-btn').addEventListener('click', async () => {
-    const response = await fetch('/create-checkout-session', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ priceId: 'price_12345' }),
-    });
-    const session = await response.json();
-    await stripe.redirectToCheckout({ sessionId: session.id });
-  });
-</script>
-```
-
-```javascript
-// Servidor Node.js
-const stripe = require('stripe')('sk_test_...');
-
-app.post('/create-checkout-session', async (req, res) => {
-  const session = await stripe.checkout.sessions.create({
-    mode: 'subscription',
-    line_items: [{ price: 'price_12345', quantity: 1 }],
-    success_url: 'https://seusite.com/sucesso',
-    cancel_url: 'https://seusite.com/cancelado',
-  });
-  res.json({ id: session.id });
-});
-```
-
 ### Método 3: Stripe Billing API (Código Completo)
 
 Para controle total sobre a experiência de assinatura:
-
-```javascript
-// 1. Criar cliente
-const customer = await stripe.customers.create({
-  email: 'cliente@email.com',
-  name: 'João Silva',
-});
-
-// 2. Criar assinatura
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{ price: 'price_12345' }],
-  trial_period_days: 7,
-  payment_behavior: 'default_incomplete',
-  expand: ['latest_invoice.payment_intent'],
-});
-
-// 3. Confirmar pagamento com client_secret
-const clientSecret = subscription.latest_invoice.payment_intent.client_secret;
-
-// Envie client_secret ao frontend para confirmar
-```
 
 ## 4. Planos e Preços
 
@@ -205,17 +148,6 @@ O Customer Portal permite que seus clientes se autogerenciem:
 
 **Como ativar:**
 
-```javascript
-// Criar sessão do Customer Portal
-const session = await stripe.billingPortal.sessions.create({
-  customer: customer.id,
-  return_url: 'https://seusite.com/conta',
-});
-
-// Redirecionar o cliente
-res.redirect(session.url);
-```
-
 ### Mudanças de Plano (Upgrade/Downgrade)
 
 Stripe lida com mudanças de plano automaticamente:
@@ -252,17 +184,6 @@ Configure emails automáticos para cada etapa:
 
 Stripe Smart Retries usa machine learning para escolher o melhor momento para tentar:
 
-```
-Pagamento falhou → Smart Retries analisa:
-  ├── Histórico do cliente
-  ├── Tipo de cartão
-  ├── Banco emissor
-  ├── Hora do dia
-  └── Dia da semana
-       ↓
-Tenta no momento ideal → +15% recuperação
-```
-
 ## 7. Métricas Principais de Assinaturas
 
 ### KPIs que Você Deve Monitorar
@@ -280,15 +201,6 @@ Tenta no momento ideal → +15% recuperação
 
 Stripe Dashboard mostra:
 
-```
-MRR: R$ 62.250        ↑ 12% vs mês anterior
-Clientes ativos: 423
-Novos: 28              ↑ 8%
-Cancelamentos: 12      ↓ 3%
-Churn Rate: 2,8%
-Receita média: R$ 147,15/cliente
-```
-
 ## 8. Retenção de Clientes
 
 ### Estratégias para Reduzir Churn
@@ -302,21 +214,6 @@ Receita média: R$ 147,15/cliente
 | **Suporte proativo** | Alto | Detectar padrões de uso baixos |
 
 ### Oferecer Descontos para Evitar Cancelamentos
-
-```javascript
-// Criar cupom para retenção
-const coupon = await stripe.coupons.create({
-  percent_off: 30,
-  duration: 'repeating',
-  duration_in_months: 3,
-});
-
-// Aplicar à assinatura do cliente
-const subscription = await stripe.subscriptions.update(
-  subscriptionId,
-  { coupon: coupon.id }
-);
-```
 
 ### Recuperação de Clientes Cancelados
 
@@ -352,17 +249,6 @@ const subscription = await stripe.subscriptions.update(
 ### Problema 3: Assinatura Cancelada por Engano
 
 **Solução:**
-
-```javascript
-// Reativar assinatura cancelada
-const subscription = await stripe.subscriptions.update(
-  subId,
-  {
-    cancel_at_period_end: false,
-    // A assinatura continua ativa até o fim do período
-  }
-);
-```
 
 ### Problema 4: Impostos Incorretos
 

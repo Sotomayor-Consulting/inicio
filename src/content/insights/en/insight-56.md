@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Charge by Card from Any Country: Complete Guide 2026"
 description: "Charge by card from any country"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Credit cards from different countries with globe in background"
 ---
 
@@ -12,20 +12,6 @@ In this guide, we explain **how to charge by card from any country** in 2026, th
 ## 1. How International Card Payments Work
 
 ### Basic Flow
-
-```
-Customer → Enters card details → Payment gateway
-                                        ↓
-                              Processor (Stripe, PayPal, etc.)
-                                        ↓
-                              Card network (Visa, Mastercard, Amex)
-                                        ↓
-                              Issuing bank (customer's bank)
-                                        ↓
-                              Approval or decline
-                                        ↓
-                              If approved: credit to your account
-```
 
 ### Players Involved
 
@@ -297,13 +283,6 @@ It's an additional security layer that verifies the buyer's identity. The custom
 ### 8.2 Smart Payment Retry
 
 When a card is declined, retry with strategy:
-
-```
-Attempt 1: Immediate (may have been temporary error)
-Attempt 2: 2 hours later (customer may have resolved with bank)
-Attempt 3: 24 hours later (limit may have renewed)
-Attempt 4: 72 hours later (final attempt)
-```
 
 ### 8.3 Multiple Payment Methods
 

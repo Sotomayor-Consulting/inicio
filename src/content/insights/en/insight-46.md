@@ -1,7 +1,7 @@
----
+﻿---
 title: "What Is an International Holding Company? Complete Guide to Global Corporate Structures"
 description: "Complete guide to international holding companies"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/que es una holding.png"
 cardImageAlt: "Global corporate structure with holding companies in multiple countries"
 ---
 
@@ -46,16 +46,6 @@ A typical international holding structure is organized in levels:
 - Report to the intermediate or top holding
 
 ### Graphic example:
-```
-Top Holding (Country A)
-        ↓
-Intermediate Holding (Country B)
-        ↓
-Subsidiary 1 (Country C)  →  Latin America operations
-Subsidiary 2 (Country D)  →  European operations
-Subsidiary 3 (Country E)  →  Asian operations
-```
-
 ## 3. Tax Advantages of an International Holding
 
 International holding companies offer significant tax benefits when properly structured:

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Que Impostos um Estrangeiro Paga em Real Estate: Guia 2026"
 description: "Que impostos um estrangeiro paga em real estate"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Ciclo de impostos para estrangeiro em real estate: compra, posse, aluguel e venda com ícones do IRS, FIRPTA e property tax"
 ---
 
@@ -33,24 +33,6 @@ Neste guia, explicamos **todos os impostos que um estrangeiro paga ao investir e
 
 > Importante: O estrangeiro não paga impostos especiais por comprar. Os custos de fechamento (closing costs) são os mesmos que para um residente, geralmente 3-5% do preço de compra.
 
-```javascript
-// Stripe: Stripe não participa na compra de propriedades
-// Stripe é usado para cobrar aluguéis APÓS ser proprietário
-
-// Mas Stripe pode ajudar a economizar para o closing:
-const savingsGoal = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Economia para compra de propriedade' },
-      unit_amount: 500000, // $5.000
-    },
-    quantity: 1,
-  },
-}]);
-```
-
 ## 2. Property Tax (Imposto Predial)
 
 ### O que é o Property Tax?
@@ -67,23 +49,6 @@ const savingsGoal = await stripe.checkout.sessions.create({
 | **Massachusetts** | 1,12% | $4.480 |
 
 ### Como é Calculado
-
-```
-Valor avaliado (assessed value) x Taxa de millage = Property tax anual
-
-Exemplo na Flórida:
-Valor da propriedade: $400.000
-Exenção de homestead: NÃO aplica (é investimento, não residência)
-Valor avaliado: $400.000
-Millage rate: 20 mills (2% ou 0,02)
-Property tax: $400.000 x 0,02 = $8.000/ano
-
-O property tax é pago ao county tax collector.
-Geralmente pago em novembro (anual) ou em duas parcelas.
-
-Dedução fiscal: O property tax é 100% dedutível
-na sua declaração de impostos (Schedule E).
-```
 
 ### O que Acontece se Não Pagar?
 
@@ -117,53 +82,6 @@ na sua declaração de impostos (Schedule E).
 
 ### Exemplo de Cálculo
 
-```
-Propriedade: $400.000, 100% financiada com hipoteca DSCR
-Aluguel anual: $42.000 ($3.500/mês)
-Despesas operacionais: $12.000 (seguro, tax, manutenção)
-Juros hipotecários: $18.000
-Depreciação: $10.909
-
-Cálculo do imposto:
-
-Sem W-8ECI (retenção de 30% sobre o bruto):
-  - Retenção: $42.000 x 30% = $12.600
-  - Imposto final: $12.600 (sem reembolso)
-
-Com W-8ECI (alíquota marginal sobre o líquido):
-  - Renda bruta: $42.000
-  - Despesas: -$12.000
-  - Juros: -$18.000
-  - Depreciação: -$10.909
-  - Renda líquida: $1.091
-  - Imposto (10%): $109
-
-Economia com W-8ECI: $12.491/ano
-```
-
-```javascript
-// Stripe: Calcular o imposto estimado sobre aluguéis
-
-// Stripe Tax pode calcular impostos automaticamente
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive',
-  },
-});
-
-// Stripe Dashboard → Impostos → Relatórios
-// Stripe gera relatórios de receitas brutas e líquidas
-
-// Exemplo: Relatório de receita anual
-const revenue = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: 1672531200,
-    interval_end: 1704067199,
-  },
-});
-```
-
 ## 4. Impostos na Venda
 
 ### FIRPTA (Foreign Investment in Real Property Tax Act)
@@ -177,33 +95,6 @@ const revenue = await stripe.reporting.reportRuns.create({
 | **Isenção** | < $300.000 e comprador usa como residência |
 
 ### Detalhamento dos Impostos na Venda
-
-```
-Suponha que comprou por $400.000 e vende por $600.000
-após 5 anos de aluguel.
-
-Cálculo dos impostos:
-
-1. DEPRECIAÇÃO RECUPERADA (25% máximo)
-   Depreciação tomada em 5 anos: $10.909 x 5 = $54.545
-   Imposto: $54.545 x 25% = $13.636
-
-2. GANHO DE CAPITAL (0-20% + 3,8% NIIT se aplicável)
-   Preço de venda: $600.000
-   Base ajustada: $400.000 - $54.545 = $345.455
-   Ganho: $600.000 - $345.455 = $254.545
-   Ganho de capital: $254.545 - $54.545 = $200.000
-   Imposto (20%): $40.000
-
-3. RETENÇÃO FIRPTA (por conta)
-   Retido no fechamento: $600.000 x 15% = $90.000
-   Imposto real: $13.636 + $40.000 = $53.636
-   Reembolso a solicitar: $90.000 - $53.636 = $36.364
-
-4. IMPOSTO ESTADUAL (se aplicável)
-   Flórida: 0% (sem state income tax)
-   Califórnia: até 13,3% do ganho
-```
 
 ### Como Reduzir Impostos ao Vender
 
@@ -227,27 +118,6 @@ Cálculo dos impostos:
 | **Cônjuge** | Dedução marital ilimitada | Limitada |
 
 ### Como o Estate Tax é Calculado
-
-```
-Exemplo: Estrangeiro com propriedades na Flórida avaliadas em $2.000.000
-
-Sem planejamento:
-- Isenção: $60.000
-- Base tributável: $1.940.000
-- Estate tax: $1.940.000 x 40% = $776.000
-- Seus herdeiros pagam: $776.000 ao IRS
-
-Com planejamento (LLC + holding):
-- A LLC é dona das propriedades
-- A LLC é propriedade de uma holding internacional
-- O estrangeiro é acionista da holding
-- As ações da holding NÃO são "ativos nos EUA"
-- Estate tax: $0
-
-Outra opção: Trust irrevogável
-- Os ativos no trust não são propriedade do estrangeiro
-- Estate tax: $0
-```
 
 ### Ativos que Disparam o Estate Tax
 
@@ -306,29 +176,6 @@ Outra opção: Trust irrevogável
 
 ### Como Usar um Tratado Fiscal
 
-```
-Se seu país tem tratado com os EUA:
-
-1. Identifique o artigo do tratado que se aplica ao seu caso
-   - Ganhos imobiliários: Artigo 13
-   - Rendimentos imobiliários: Artigo 6
-   - Juros/Dividendos: Artigos 10-11
-
-2. Apresente Form 8833 (disclosure) com seu 1040-NR
-   - Você deve informar ao IRS que está usando um tratado
-   - Sem este formulário, o IRS aplica alíquotas padrão
-
-3. Exemplo com tratado Espanha-EUA:
-   - Aluguel na Flórida: Tributado nos EUA
-   - Também deve declarar na Espanha (obrigação pessoal)
-   - Mas pode creditar o imposto pago nos EUA
-   - Sem dupla tributação
-
-4. Isenção de FIRPTA:
-   - O tratado com Canadá permite vender até $1M sem retenção
-   - Outros tratados: não isentam FIRPTA
-```
-
 ## 8. Impostos Segundo a Estrutura
 
 ### Comparação por Estrutura
@@ -342,53 +189,6 @@ Se seu país tem tratado com os EUA:
 | **C-Corp** | 21% corporativo | 15% retenção | ❌ Protegido | Alta |
 
 ### A Estrutura Recomendada para Estrangeiros
-
-```
-Para investidores estrangeiros com mais de $60K em ativos nos EUA:
-
-ESTRUTURA RECOMENDADA:
-1. LLC na Flórida (opera a propriedade, cobra aluguéis com Stripe)
-2. Holding internacional (Panamá / Países Baixos) proprietária da LLC
-3. Você é acionista da holding, não da LLC
-
-BENEFÍCIOS:
-- Income tax: Pago sobre aluguéis (igual que pessoal)
-- FIRPTA: Continua aplicando (a LLC vende)
-- Estate tax: ❌ NÃO APLICA (ações da holding não são ativos americanos)
-- Stripe: A LLC tem Stripe, a holding recebe dividendos
-
-CUSTO ADICIONAL:
-- Holding: $500-2.000/ano
-- Contador internacional: $1.000-3.000/ano
-```
-
-```javascript
-// Stripe em estrutura LLC + Holding
-// A LLC operacional tem Stripe
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Florida Properties LLC', // LLC operacional
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX',
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// A LLC pode transferir lucros para a holding
-const transfer = await stripe.transfers.create({
-  amount: 1000000, // $10.000
-  currency: 'usd',
-  destination: '{{CONNECTED_ACCOUNT_HOLDING}}',
-  description: 'Distribuição de lucros para holding',
-});
-```
 
 ## 9. Calendário Fiscal do Estrangeiro
 
@@ -407,28 +207,6 @@ const transfer = await stripe.transfers.create({
 
 ### Checklist Anual
 
-```
-JANEIRO:
-- [ ] Receber 1099-K do Stripe (se aplicável)
-- [ ] Receber 1099 de juros bancários
-- [ ] Revisar property tax
-
-FEVEREIRO-MARÇO:
-- [ ] Reunir despesas dedutíveis
-- [ ] Calcular depreciação
-- [ ] Preparar 1040-NR com CPA
-
-ABRIL-JUNHO:
-- [ ] Apresentar 1040-NR
-- [ ] Pagar impostos
-- [ ] Solicitar extensão se necessário
-
-JULHO-DEZEMBRO:
-- [ ] Pagar estimated taxes (se aplicável)
-- [ ] Revisar estrutura legal
-- [ ] Planejar vendas ou 1031 exchanges
-```
-
 ## 10. Estratégias para Reduzir Impostos
 
 ### Resumo de Estratégias
@@ -445,31 +223,6 @@ JULHO-DEZEMBRO:
 | **Seguro de vida** | Estate tax | Isento |
 
 ### Exemplo de Economia Total
-
-```
-Investidor estrangeiro com:
-- Propriedade na Flórida: $500.000
-- Aluguel anual: $48.000
-- Patrimônio total nos EUA: $2.000.000
-- Planeja vender em 5 anos
-- Tem herdeiros em seu país
-
-SEM PLANEJAMENTO:
-- Income tax anual (5 anos): $24.000
-- FIRPTA ao vender: $75.000 retidos
-- Capital gains tax: $20.000
-- Estate tax ao falecer: $776.000
-- TOTAL: ~$895.000 em impostos
-
-COM PLANEJAMENTO:
-- Income tax anual (com depreciação + W-8ECI): $500/ano
-- FIRPTA: $75.000 retidos, $50.000 reembolsados
-- Capital gains: $20.000
-- Estate tax: $0 (via holding)
-- TOTAL: ~$45.500 em impostos
-
-ECONOMIA: ~$849.500
-```
 
 ## 11. Perguntas Frequentes
 

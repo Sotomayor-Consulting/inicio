@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Proteger Ativos Digitais: Guia Completo 2026"
 description: "Como proteger ativos digitais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/protección-de-activos-digitales.png"
 cardImageAlt: "Escudo digital protegendo ícones de ativos como código, marcas, domínios, dados e criptomoedas"
 ---
 
@@ -50,40 +50,7 @@ Neste guia, explicamos **como proteger ativos digitais** em 2026: propriedade in
 
 ### Transferência de IP para a Empresa
 
-```javascript
-// Stripe: A IP deve estar em nome da empresa, não pessoal
-// A empresa cobra por licenças de uso da IP
-
-// Faturamento por licença de software
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Licença Software - Enterprise',
-        description: 'Licença anual - IP de propriedade da empresa',
-      },
-      unit_amount: 99900, // $999
-    },
-    quantity: 1,
-  }],
-  metadata: {
-    license_type: 'enterprise',
-    ip_owner: 'Sua Empresa LLC',
-  },
-});
-```
-
 ### Cessão de Direitos
-
-```
-Contrato de Cessão de Direitos:
-- Como fundador, você cede o código e a IP para a empresa
-- A empresa é a proprietária legal
-- Você é funcionário ou contratado
-- Sem este contrato: a IP é sua pessoalmente, não da empresa
-```
 
 ## 3. Segurança Técnica
 
@@ -97,23 +64,6 @@ Contrato de Cessão de Direitos:
 | **GitHub/GitLab** | 2FA, SSH keys, deploy keys |
 | **Domínios** | Lock de transferência, 2FA no registrar |
 | **Redes sociais** | 2FA, acesso de equipe, senhas únicas |
-
-```javascript
-// Stripe: Configuração de segurança
-// Stripe Dashboard → Configurações → Segurança
-
-// API: Restringir chaves por IP
-const apiKey = await stripe.apiKeys.create({
-  name: 'Production - Restricted',
-});
-
-// Webhook: Assinado e verificado
-const event = stripe.webhooks.constructEvent(
-  req.body,
-  req.headers['stripe-signature'],
-  'whsec_your_webhook_secret'
-);
-```
 
 ### Gerenciamento de Senhas
 
@@ -136,20 +86,6 @@ const event = stripe.webhooks.constructEvent(
 ## 4. Estrutura Legal para Ativos Digitais
 
 ### Onde Registrar os Ativos
-
-```
-HOLDING (Proprietária da IP)
-  ├── Código fonte
-  ├── Marcas registradas
-  ├── Patentes
-  ├── Domínios
-  └── Licenças
-
-OPERACIONAL (Opera o negócio)
-  ├── Stripe (cobra por licenças da IP)
-  ├── Relacionamento com clientes
-  └── Dados operacionais
-```
 
 ### Contratos Necessários
 
@@ -174,43 +110,7 @@ OPERACIONAL (Opera o negócio)
 | **Radar** | Regras antifraude personalizadas |
 | **API keys rotacionadas** | Rotacionar chaves periodicamente |
 
-```javascript
-// Stripe: Configurar acesso de equipe
-// Stripe Dashboard → Configurações → Usuários
-
-// Papéis recomendados:
-// - Admin: Apenas o dono/CTO
-// - Developer: Só API, sem Dashboard financeiro
-// - Analyst: Só relatórios de leitura
-// - Support: Só dados de clientes
-
-// Rotação de API keys
-const newKey = await stripe.apiKeys.create({
-  name: 'Production Q2 2026',
-});
-
-// Desativar chave anterior
-await stripe.apiKeys.update('sk_old_key', {
-  active: false,
-});
-```
-
 ### Stripe Atlas para Proteger Ativos
-
-```javascript
-// Stripe Atlas: Forme a empresa que será dona dos ativos
-// A empresa (LLC) é a proprietária legal de:
-// - Conta Stripe
-// - IP registrada
-// - Contratos com clientes
-// - Dados de clientes
-
-// Stripe Atlas inclui:
-// - Formação de LLC
-// - EIN
-// - Conta bancária empresarial
-// - Stripe configurado
-```
 
 ## 6. Seguros para Ativos Digitais
 
@@ -248,33 +148,7 @@ await stripe.apiKeys.update('sk_old_key', {
 
 ### Como Criar um Plano de Sucessão Digital
 
-```
-Documento: Plano de Sucessão Digital
-1. Lista de todos os ativos digitais
-2. Localização das senhas (gestor de senhas)
-3. Pessoa designada para cada ativo
-4. Instruções legais (testamento digital)
-5. Advogado com acesso ao plano
-
-Ferramentas:
-- Gestor de senhas (acesso de emergência)
-- Testamento digital (documento legal)
-- Carta de instruções (não legal, mas útil)
-```
-
 ### Stripe: Designar Sucessor
-
-```javascript
-// Stripe: Não há função nativa de sucessor
-// mas você pode configurar:
-// 1. Compartilhar acesso com co-fundador ou cônjuge
-// 2. Ter as credenciais no gestor de senhas
-// 3. Incluir Stripe no plano de sucessão digital
-
-// Recomendação: Mínimo 2 pessoas com acesso
-// Stripe Dashboard → Configurações → Usuários
-// Adicionar: Cofundador ou cônjuge como Admin
-```
 
 ## 8. Proteção de Dados de Clientes
 
@@ -287,20 +161,6 @@ Ferramentas:
 | **CCPA** | Califórnia, EUA | $7.500 por violação |
 
 ### Stripe e a Proteção de Dados
-
-```javascript
-// Stripe é PCI-DSS Level 1 (máxima segurança)
-// Stripe gerencia dados sensíveis, você não os armazena
-
-// Stripe não compartilha dados de clientes sem autorização
-// LGPD/GDPR: Stripe atua como Data Processor
-
-// Configurar retenção de dados no Stripe
-// Stripe Dashboard → Configurações → Dados
-
-// Solicitar exclusão de dados de um cliente
-await stripe.customers.del('cus_xxx');
-```
 
 ## 9. Monitoramento e Manutenção
 
@@ -315,25 +175,6 @@ await stripe.customers.del('cus_xxx');
 | **Anual** | Auditoria de segurança, renovar registros de IP |
 
 ### Stripe Radar para Monitoramento
-
-```javascript
-// Stripe Radar: Monitoramento automático de fraude
-
-// Revisar atividade suspeita
-const reviews = await stripe.radar.reviews.list({
-  limit: 10,
-});
-
-// Configurar regras personalizadas
-const rule = await stripe.radar.rules.create({
-  name: 'Alertar sobre transações > $10.000',
-  action: 'review',
-  conditions: {
-    amount: { operator: 'greater_than', value: 1000000 },
-    currency: { operator: 'equals', value: 'usd' },
-  },
-});
-```
 
 ## 10. Perguntas Frequentes
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Differences Between an LLC and a Corporation: Which One to Choose?"
 description: "Learn the key differences between an LLC and a Corporation in the U.S.: taxation, formalities, investment, and which one best fits your business."
 cardImage: "@/images/insights/diferencias-entre-llc-y-corporacion.png"

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Manejar Reembolsos Correctamente en Stripe: Guía 2026"
 description: "Cómo manejar reembolsos correctamente en Stripe"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Proceso de reembolso de Stripe con flechas que indican devolución de dinero"
 ---
 
@@ -74,32 +74,9 @@ Los productos digitales tienen consideraciones especiales:
 
 ### Método 1: Stripe Dashboard (Manual)
 
-```
-1. Stripe Dashboard → Pagos → Busca la transacción
-2. Haz clic en los "..." → Reembolsar
-3. Selecciona: Reembolso total o parcial
-4. Opcional: Razón del reembolso (visible solo para ti)
-5. Confirma → Stripe procesa el reembolso
-```
-
 **Tiempo:** 2 minutos
 
 ### Método 2: API de Stripe (Automático)
-
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-// Reembolso total
-const refund = await stripe.refunds.create({
-  payment_intent: 'pi_1234567890',
-});
-
-// Reembolso parcial
-const partialRefund = await stripe.refunds.create({
-  payment_intent: 'pi_1234567890',
-  amount: 2500, // $25.00 en centavos
-});
-```
 
 ### Método 3: Reembolso desde el Dashboard de Transacciones
 
@@ -179,20 +156,6 @@ const partialRefund = await stripe.refunds.create({
 
 ### Cómo Hacer un Reembolso Parcial
 
-```javascript
-const stripe = require('stripe')('sk_test_...');
-
-// Reembolso parcial de $25.00
-const refund = await stripe.refunds.create({
-  payment_intent: 'pi_1234567890',
-  amount: 2500, // $25.00 en centavos
-  metadata: {
-    reason: 'Devolución parcial de producto',
-    order_id: 'ORD-12345',
-  },
-});
-```
-
 ## 7. Reembolsos y Contabilidad
 
 ### Cómo Registrar Reembolsos
@@ -234,39 +197,9 @@ const refund = await stripe.refunds.create({
 
 ### Manejo de Solicitudes de Reembolso
 
-```
-Cliente solicita reembolso
-       ↓
-1. Escucha y entiende el motivo
-2. Ofrece soluciones alternativas:
-   ├── Cambio por otro producto
-   ├── Crédito en tienda
-   ├── Descuento en próxima compra
-   └── Soporte adicional / capacitación
-3. Si insiste en reembolso → Reembolsa sin demora
-```
-
 ### Automatización de Reembolsos
 
 Configura reglas automáticas para reembolsos simples:
-
-```javascript
-// Ejemplo: Reembolso automático si el cliente solicita dentro de 7 días
-app.post('/refund-request', async (req, res) => {
-  const { orderId, email } = req.body;
-  const order = await getOrder(orderId);
-
-  if (daysSince(order.createdAt) <= 7) {
-    const refund = await stripe.refunds.create({
-      payment_intent: order.paymentIntentId,
-    });
-    await sendRefundConfirmation(email, refund);
-    res.json({ status: 'refunded', refund });
-  } else {
-    res.json({ status: 'requires_review' });
-  }
-});
-```
 
 ## 9. Errores Comunes al Manejar Reembolsos
 
@@ -288,12 +221,6 @@ app.post('/refund-request', async (req, res) => {
 | **Reembolso en 15+ días** | Alto riesgo de chargeback |
 
 ### Error #3: No Comunicar el Reembolso
-
-```
-Cliente solicita reembolso → Tú lo procesas → ¿Le avisas?
-                                ├── Sí → Cliente tranquilo
-                                └── No → Cliente cree que lo ignoraste → Disputa
-```
 
 ### Error #4: Reembolsar sin Política Clara
 

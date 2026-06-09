@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Generate Passive Income with Properties in the US: 2026 Guide"
 description: "How to generate passive income with properties in the US"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/real-state.png"
 cardImageAlt: "Passive income spectrum with properties: REITs, crowdfunding, turnkey, LTR, STR, with Stripe and automatic money flow icons"
 ---
 
@@ -25,53 +25,6 @@ In this guide, we explain **how to generate passive income with properties in th
 | **Flip (active)** | ❌ 0% passive | Variable (lump sum) | 40+ hours/week | High |
 
 ### There Is No 100% Passive Income
-
-```
-Reality about passive income:
-
-✅ REAL PASSIVE INCOME:
-- REITs: the management team does everything
-- Crowdfunding: the sponsor does everything
-- Turnkey + PM: you only review statements
-
-⚠️ SEMI-PASSIVE INCOME:
-- LTR with PM: strategic decisions + taxes
-- STR with PM: more management (dynamic pricing, reviews)
-- LLC management: annual reports, registered agent
-
-❌ ACTIVE INCOME (not passive):
-- Being a landlord without PM
-- Doing repairs yourself
-- Managing tenants directly
-- Flipping properties
-
-Goal: reach 90%+ passivity
-Using: turnkey properties + property manager + Stripe
-```
-
-```javascript
-// Stripe: Automation is key for passive income
-
-// Stripe can collect rent automatically each month
-// Without you having to do anything
-
-// Set up monthly subscription for tenant
-const subscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}', // Tenant ID
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Monthly Rent - Orlando Condo' },
-      unit_amount: 350000, // $3,500/month
-      recurring: { interval: 'month' },
-    },
-  }],
-  payment_behavior: 'default_incomplete',
-});
-
-// Stripe collects automatically each month
-// You only review the monthly report
-```
 
 ## 2. REITs (Real Estate Investment Trusts)
 
@@ -106,23 +59,6 @@ const subscription = await stripe.subscriptions.create({
 | ✅ Diversification | ❌ No tax depreciation (for foreigners) |
 | ✅ No LLC needed | ❌ No leverage (no mortgage) |
 
-```javascript
-// Stripe does not invest in REITs directly
-// But you can use Stripe to receive dividends
-
-// Set up Stripe Connect to receive brokerage payments
-const account = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  capabilities: {
-    transfers: { requested: true },
-  },
-});
-
-// Dividends arrive automatically
-// Stripe generates tax reports (1099-DIV)
-```
-
 ## 3. Real Estate Crowdfunding
 
 ### Collective Investment in Projects
@@ -147,21 +83,6 @@ const account = await stripe.accounts.create({
 
 ### How It Works
 
-```
-1. Register on the platform
-2. Review available projects
-3. Invest in those that interest you
-4. The project sponsor buys, manages and sells
-5. You receive periodic payments (monthly or at end)
-
-Example with Fundrise:
-- Invest $5,000 in an apartment fund
-- The fund buys 3 apartment complexes
-- You receive quarterly dividends (~$100-150)
-- Upon sale (5-7 years), you receive capital gain
-- Estimated total: 9-12% annual compound
-```
-
 ## 4. Turnkey Properties (LTR with Property Manager)
 
 ### The Most Popular Option for Passive Income
@@ -175,76 +96,7 @@ Example with Fundrise:
 
 ### The Passive Income Flow with Turnkey
 
-```
-You invest → Buy rehabbed property
-  → Property Manager places tenant
-  → Tenant pays rent to Stripe (automatic)
-  → PM takes their fee (8-12%)
-  → PM pays mortgage, insurance, tax (if applicable)
-  → PM sends profit to your bank account
-  → You receive monthly report
-  → Your CPA prepares 1040-NR annually
-
-YOUR WORK:
-- Review monthly report (10 minutes)
-- Pay annual taxes (with your CPA)
-- Strategic decisions (sale, refinance)
-- Total: 1-2 hours per month
-```
-
 ### Real Numerical Example
-
-```
-Turnkey property in Orlando, FL:
-- Purchase price: $250,000
-- Down payment (30%): $75,000
-- DSCR loan: $175,000 at 8%
-
-INCOME:
-- Monthly rent: $2,800
-- Vacancy (5%): -$140
-- Effective income: $2,660
-
-EXPENSES (managed by PM):
-- Mortgage (P&I): $1,284
-- Property tax: $250
-- Insurance: $150
-- HOA: $100
-- Property manager (10%): $266
-- Maintenance (10%): $266
-- Total expenses: $2,316
-
-MONTHLY CASH FLOW:
-$2,660 - $2,316 = $344/month
-
-YIELD:
-- Annual cash flow: $4,128
-- Cash on cash: $4,128 / $75,000 = 5.5%
-- + Appreciation (3-5% annual in Florida)
-- + Tax depreciation (~$6,000/year)
-- + Mortgage paydown (amortization)
-- Estimated total return: 10-15% annual
-```
-
-```javascript
-// Stripe: Set up automatic collection with PM
-
-// The property manager uses Stripe to collect from tenant
-// Stripe sends payment to the LLC
-// Stripe generates monthly report
-
-// Monthly income report
-const monthlyReport = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 2592000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-
-// You just open the report and review
-// That's passive income!
-```
 
 ## 5. Short-Term Rentals (STR) Passive
 
@@ -261,36 +113,6 @@ const monthlyReport = await stripe.reporting.reportRuns.create({
 
 ### Cost of Passivity in STR
 
-```
-For fully passive STR, you need:
-
-1. STR-SPECIALIZED PROPERTY MANAGER
-   - Manages bookings (Airbnb, VRBO, Booking.com)
-   - Coordinates cleaning between guests
-   - Handles check-in/out
-   - Dynamic pricing
-   - Cost: 20-30% of revenue (vs 8-12% for LTR)
-
-2. MANAGEMENT SOFTWARE
-   - PM must use software like Hostaway, Guesty, Uplisting
-   - Integration with Stripe for payments
-   - Synchronized calendar across platforms
-
-3. PROFESSIONAL MAINTENANCE
-   - Reliable cleaning team
-   - Backup handyman
-   - Automatic supplies (Amazon Subscribe & Save)
-
-EXAMPLE:
-- STR in Orlando: $350/night, 70% occupancy
-- Monthly income: $350 x 30 x 70% = $7,350
-- Less platform fees (15%): $1,102
-- Less PM (25%): $1,837
-- Less cleaning, supplies, utilities: $1,500
-- Net monthly: ~$2,900
-- vs LTR: ~$2,800 gross, $344 net
-```
-
 ## 6. House Hacking: Live Free + Income
 
 ### The Entry Strategy
@@ -304,47 +126,7 @@ EXAMPLE:
 
 ### House Hacking Example
 
-```
-Duplex in Tampa, FL:
-- Price: $350,000
-- FHA down payment (3.5%): $12,250 (if resident)
-- DSCR down payment (25%): $87,500 (if foreigner)
-- Monthly mortgage: $2,400 (PITI)
-
-INCOME:
-- Unit A (you live): $0
-- Unit B (rent): $2,000/month
-
-FLOW:
-- Mortgage: $2,400
-- Rent Unit B: -$2,000
-- Your housing cost: $400/month (vs $1,500+ rent)
-
-SAVING: $1,100/month in housing
-CASH FLOW: -$400/month (but you live almost free)
-
-After 1 year:
-- Refinance or buy another property
-- Unit A also gets rented when you move out
-```
-
 ### House Hacking as a Platform
-
-```
-Scaling strategy:
-
-YEAR 1: Buy duplex, live in unit A, rent B
-  - Save $1,100/month in housing
-  - Pay less mortgage
-
-YEAR 2: Refinance or save for second property
-  - Buy triplex, live in one, rent two
-  - Rent both units of original duplex
-
-YEAR 3: Repeat
-  - After 5 properties, you have real passive income
-  - You no longer need to live in the properties
-```
 
 ## 7. Rent-to-Rent
 
@@ -358,25 +140,6 @@ YEAR 3: Repeat
 | **Passivity** | 70% (with STR PM) |
 
 ### How It Works
-
-```
-1. Find a landlord who allows subletting
-2. Sign annual lease: $2,000/month
-3. Furnish the property (investment: $5,000-15,000)
-4. List on Airbnb: $200/night
-5. Occupancy: 60% → $3,600/month
-6. Monthly profit: $3,600 - $2,000 - expenses = $800-1,200
-
-ADVANTAGES:
-- No mortgage, no property tax, no owner's insurance
-- Low initial investment
-- Can scale fast
-
-DISADVANTAGES:
-- Need landlord permission
-- Risk of non-renewal
-- Lower margin than owning
-```
 
 ## 8. Private Lending
 
@@ -392,25 +155,6 @@ DISADVANTAGES:
 
 ### How It Works
 
-```
-You lend $100,000 to a flipper (12% interest)
-→ The flipper buys, repairs and sells a property
-→ Pays you monthly interest: $1,000/month
-→ Upon sale (12 months), returns your $100,000
-→ Total profit: $12,000 in 12 months (12% ROI)
-
-REQUIREMENTS:
-- Due diligence on the investor
-- First mortgage on the property
-- Loan agreement signed by attorney
-- Title and title insurance
-
-RISKS:
-- If flipper doesn't sell, you foreclose
-- If property depreciates, you lose capital
-- Legal process if default
-```
-
 ## 9. Triple Net Lease (NNN)
 
 ### The Holy Grail of Passive Income
@@ -424,49 +168,6 @@ RISKS:
 | **Passivity** | 99% (almost absolute) |
 
 ### NNN Advantages
-
-```
-✅ COMPLETELY PASSIVE:
-- Tenant pays everything (insurance, tax, maintenance)
-- You just collect the rent check each month
-- No maintenance calls
-- No problem tenants (they are corporations)
-
-✅ LONG-TERM CONTRACTS:
-- 10-25 years with renewal options
-- Annual rent increases (2-3%)
-- Investment-grade tenants
-
-✅ Stripe:
-- Automatic monthly payments
-- Stripe can generate invoices
-- Tax reports
-
-DISADVANTAGES:
-- High investment ($500K-$5M+)
-- Low yield (4-8%)
-- Illiquidity (hard to sell fast)
-- Vacant tenant risk (if chain goes bankrupt)
-```
-
-```javascript
-// Stripe for NNN: Automatic commercial rent collection
-
-// Set up recurring invoice for corporate tenant
-const invoice = await stripe.invoices.create({
-  customer: '{{CORPORATE_TENANT_ID}}',
-  auto_advance: true,
-  collection_method: 'charge_automatically',
-  pending_invoice_items: [{
-    price: '{{PRICE_ID_NNN_RENT}}',
-    quantity: 1,
-  }],
-  due_date: Math.floor(Date.now() / 1000) + 2592000, // 30 days
-});
-
-// Stripe collects automatically each month
-// Without your intervention
-```
 
 ## 10. How to Automate with Stripe
 
@@ -483,54 +184,6 @@ const invoice = await stripe.invoices.create({
 | **Automatic payments** | Mortgage, insurance, tax | ✅ Automated clearing house |
 
 ### Your Monthly Routine (1-2 hours)
-
-```
-DAY 1: REVIEW INCOME (15 minutes)
-- Open Stripe Dashboard
-- Review last month's income
-- Verify all payments were collected
-- Download monthly report
-
-DAY 15: REVIEW PM REPORT (30 minutes)
-- Review occupancy (STR) or tenant status (LTR)
-- Approve major expenses (if applicable)
-- Review DSCR for each property
-
-END OF MONTH: UPDATE RECORDS (15 minutes)
-- Update income/expense spreadsheet
-- Verify mortgage and insurance payments
-- Archive reports for taxes
-
-TOTAL: 1-2 hours per month for 3-5 properties
-```
-
-```javascript
-// Stripe: Your best ally for passive income
-
-// 1. Stripe collects automatically
-await stripe.subscriptions.create({
-  customer: '{{TENANT}}',
-  items: [{ price: '{{MONTHLY_RENT_PRICE}}' }],
-  payment_behavior: 'default_incomplete',
-});
-
-// 2. Stripe reconciles automatically
-const balance = await stripe.balance.retrieve();
-console.log(`Available balance: $${balance.available[0].amount / 100}`);
-
-// 3. Stripe reports automatically
-const report = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 2592000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-
-// 4. Stripe integrates with PM software
-// Hostaway, Guesty, Lodgify, Uplisting
-// Everything synced automatically
-```
 
 ## 11. Frequently Asked Questions
 

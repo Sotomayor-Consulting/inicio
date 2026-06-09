@@ -1,7 +1,7 @@
----
+﻿---
 title: "Risks of Operating Without a Legal Structure: Guide 2026"
 description: "Risks of operating without a legal structure"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.png"
 cardImageAlt: "Person walking on a tightrope without a safety net, symbolizing the risks of operating without a legal structure"
 ---
 
@@ -72,35 +72,6 @@ In this guide, we explain **the risks of operating without a legal structure** i
 
 ### Example: Client Contracting
 
-```javascript
-// Enterprise client needs invoice with company EIN
-// Without structure: You can't issue it → You lose the contract
-
-// With structure (LLC):
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Professional Consulting',
-      },
-      unit_amount: 500000,
-    },
-    quantity: 1,
-  }],
-  invoice_creation: {
-    enabled: true,
-    invoice_data: {
-      custom_fields: [{
-        name: 'EIN',
-        value: 'XX-XXXXXXX', // LLC EIN
-      }],
-    },
-  },
-});
-```
-
 ## 4. Risks with Stripe and Payment Gateways
 
 ### Stripe Without Legal Structure
@@ -138,20 +109,6 @@ const session = await stripe.checkout.sessions.create({
 
 ### Scenario: Selling Your Business
 
-```
-Without structure:
-- No entity to sell
-- Income is personal (W-2 or freelance)
-- No due diligence possible
-- Value: 0.5× annual revenue
-
-With structure (LLC):
-- Entity with financial history
-- Contracts, clients, IP in the company
-- Clear due diligence
-- Value: 3-5× annual revenue
-```
-
 ## 6. Intellectual Property Risks
 
 ### Unprotected IP
@@ -177,21 +134,6 @@ With structure (LLC):
 ## 8. Succession Risks
 
 ### What Happens to Your Business If You Die?
-
-```
-Without legal structure:
-- The business doesn't legally exist
-- Your heirs can't continue
-- Income is lost
-- Stripe closes the account
-- Clients lose access to service
-
-With structure (LLC or corporation):
-- The company continues to exist
-- Heirs inherit the shares
-- Stripe remains active
-- Clients have no interruption
-```
 
 ## 9. Real-Life Cases
 

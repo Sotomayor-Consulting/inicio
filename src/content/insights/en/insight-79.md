@@ -1,7 +1,7 @@
----
+﻿---
 title: "Asset Protection for Investors: Complete Guide 2026"
 description: "Asset protection for investors"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
 cardImageAlt: "Protective shield over an investment portfolio: real estate, stocks, bonds, crypto assets, and international accounts"
 ---
 
@@ -65,43 +65,6 @@ In this guide, we explain **how to protect your assets as an investor** in 2026:
 
 ### LLC for Investments
 
-```javascript
-// Stripe Connect: If your investment LLC collects dividends or rents
-// Stripe can receive payments from partners or tenants
-
-const account = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  business_type: 'company',
-  business_profile: {
-    url: 'https://yourfund.investments',
-    product_description: 'Real estate investment fund',
-  },
-  company: {
-    name: 'Real Estate Fund LLC',
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX',
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-
-// Stripe to collect investor contributions
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Fund Contribution - Series A' },
-      unit_amount: 1000000, // $10,000
-    },
-    quantity: 1,
-  }],
-});
-```
-
 | Structure | Best For | Protection |
 |-----------|---------|-----------|
 | **LLC** | Real estate, active investments | High |
@@ -111,24 +74,6 @@ const session = await stripe.checkout.sessions.create({
 | **IBC (offshore)** | International diversification | High |
 
 ### LLC for Each Property
-
-```
-Recommended structure for real estate investors:
-
-YOU (personal)
-  └── Revocable trust (will, avoid probate)
-       │
-       ├── LLC #1 → Property 1 (Miami house)
-       ├── LLC #2 → Property 2 (NY apartment)
-       ├── LLC #3 → Property 3 (Texas land)
-       └── LLC #4 → Lower-value properties (pool)
-
-Benefits:
-- Each property isolates its own risk
-- A lawsuit on Prop 1 doesn't touch Prop 2
-- Separate liability insurance per LLC
-- Trust avoids probate
-```
 
 ## 4. Insurance for Investors
 
@@ -147,14 +92,6 @@ Benefits:
 
 ### Umbrella Policy
 
-```
-Umbrella Policy: $1-5 million coverage
-- Extends coverage above your existing policies
-- Covers: auto, home, rental properties
-- Cost: ~$200-500/year per $1M additional
-- Recommended for investors with net worth > $500K
-```
-
 ## 5. International Diversification
 
 ### Why Diversify by Jurisdiction
@@ -169,48 +106,7 @@ Umbrella Policy: $1-5 million coverage
 
 ### International Structure for Investors
 
-```
-HOLDING (Panama / Netherlands / Delaware)
-  Owns:
-  ├── Investment account (Interactive Brokers)
-  ├── Interests in real estate LLCs
-  ├── Crypto assets (corporate wallet)
-  └── International bank (Switzerland / Singapore)
-       │
-       ▼
-FAMILY OFFICE / TRUST
-  ├── Manages all wealth
-  ├── Distributes income to beneficiaries
-  ├── Plans succession
-  └── Coordinates insurance and compliance
-```
-
 ### Stripe for International Investments
-
-```javascript
-// Stripe: If your structure receives global investments or rents
-// Stripe supports 135+ currencies
-
-// Collect rent from international properties
-const rentPayment = await stripe.paymentIntents.create({
-  amount: 350000, // $3,500
-  currency: 'usd',
-  payment_method_types: ['card'],
-  description: 'Monthly rent - Madrid Property',
-  metadata: {
-    property_id: 'MAD-001',
-    investor_id: 'INV-001',
-  },
-});
-
-// Stripe Tax for automatic compliance
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive',
-    // Stripe calculates taxes automatically
-  },
-});
-```
 
 ## 6. Specific Asset Protection
 
@@ -244,29 +140,6 @@ await stripe.tax.settings.update({
 | **Custody insurance** | Some exchanges offer insurance |
 | **Succession** | Access plan for heirs |
 
-```javascript
-// Stripe: Charge for investment advisory services
-// Advisors can collect fees with Stripe
-
-const session = await stripe.checkout.sessions.create({
-  mode: 'subscription',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      recurring: { interval: 'month' },
-      product_data: { name: 'Investment Advisory - Premium Plan' },
-      unit_amount: 50000, // $500/month
-    },
-    quantity: 1,
-  }],
-  metadata: {
-    client_id: 'CLI-001',
-    service_type: 'investment_advisory',
-    aum: '5000000', // $5M under management
-  },
-});
-```
-
 ## 7. Trusts for Investors
 
 ### Revocable vs. Irrevocable Trust
@@ -283,88 +156,15 @@ const session = await stripe.checkout.sessions.create({
 
 ### Asset Protection Trust (APT)
 
-```
-APT in offshore jurisdiction:
-- Cook Islands, Nevis, Cayman Islands
-- Irrevocable trust
-- You are beneficiary (not owner)
-- Professional trustee administers
-- Creditors cannot reach the assets
-- Look-back period: 2-4 years
-
-Requirements:
-1. Trust must be created before the lawsuit
-2. You cannot be the trustee
-3. Must have a valid purpose (not just evasion)
-```
-
 ## 8. Strategies by Investor Type
 
 ### Real Estate Investor
 
-```
-Recommended strategy:
-├── LLC per property (or per group)
-├── Liability insurance: $2M per property
-├── Umbrella policy: $5M
-├── Revocable trust to avoid probate
-├── LLC in protective state (FL, TX, WY)
-└── Consider: Asset Protection Trust if net worth > $5M
-```
-
 ### Financial Markets Investor
-
-```
-Recommended strategy:
-├── Separate accounts: personal vs. investments
-├── Interactive Brokers or international custody
-├── TOD accounts (Transfer on Death)
-├── 401(k) / IRA protected by ERISA
-├── LLC/S-Corp for active trading
-├── E&O insurance if advising others
-└── Consider: Trust for net worth > $3M
-```
 
 ### Crypto Investor
 
-```
-Recommended strategy:
-├── Cold wallet (Ledger/Trezor) for 90%+ of funds
-├── Multi-signature wallet for shared funds
-├── LLC or IBC for corporate holdings
-├── Custody insurance (if applicable)
-├── Digital succession plan (keys for heirs)
-├── Avoid keeping crypto on exchanges
-└── Consider: Offshore trust if net worth > $2M
-```
-
 ### Family Office (Net Worth > $10M)
-
-```
-Complete structure:
-├── HOLDING (Delaware / Netherlands)
-│   ├── Owns all investments
-│   ├── Owns family IP
-│   └── Owns properties
-│
-├── IRREVOCABLE TRUST (Cook Islands / Nevis)
-│   └── Owns holding shares
-│
-├── FAMILY OFFICE (manages everything)
-│   ├── Investments, accounting, taxes
-│   ├── Insurance, compliance, legal
-│   └── Succession, philanthropy
-│
-├── BANK ACCOUNTS (3+ jurisdictions)
-│   ├── US (Mercury, SVB)
-│   ├── Switzerland / Singapore
-│   └── UAE / Panama
-│
-└── INSURANCE:
-    ├── D&O, E&O, Liability, Cyber
-    ├── Umbrella policy: $10M+
-    └── Life insurance (Irrevocable Life Insurance Trust)
-```
 
 ## 9. Common Mistakes
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Benefícios de Comprar Propriedades com LLC: Guia 2026"
 description: "Benefícios de comprar propriedades com LLC"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/beneficio-llc.png"
 cardImageAlt: "Ícone de LLC protegendo uma casa, com escudo, gráficos de impostos e setas de benefícios distribuídas ao redor"
 ---
 
@@ -24,19 +24,6 @@ O benefício principal de uma LLC é separar seu patrimônio pessoal do patrimô
 | **Ação frívola** | Seguro + patrimônio exposto | LLC paga, você não |
 
 ### Como Funciona a Proteção
-
-```
-Sem LLC:
-VOCÊ (pessoa)
-└── Propriedade (seu nome)
-    └── Ação judicial → Penhora da propriedade + seus ativos pessoais
-
-Com LLC:
-VOCÊ (pessoa)
-└── LLC (proprietária da propriedade)
-    └── Ação judicial → Só ativos da LLC
-    └── Seus ativos pessoais → Protegidos
-```
 
 ### Limites da Proteção
 
@@ -65,52 +52,7 @@ VOCÊ (pessoa)
 
 ### Como Maximizar o Anonimato
 
-```
-Estratégia de anonimato total:
-
-Opção 1: LLC em Wyoming + Land Trust
-├── Land Trust da Flórida (não público) é dono da propriedade
-├── LLC de Wyoming (anônima) é dona do Land Trust
-├── Você é membro da LLC de Wyoming
-└── Ninguém sabe que você é dono da propriedade
-
-Opção 2: LLC no Novo México + Agente registrado
-├── LLC do Novo México (sem membros públicos)
-├── Agente registrado recebe documentos legais
-├── Você é o membro, mas não aparece em nenhum registro
-└── Stripe: Configurado com EIN da LLC
-
-Opção 3: LLC em Wyoming + Trust revogável
-├── Trust revogável é dono da propriedade
-├── LLC de Wyoming administra a propriedade
-└── Stripe: Cobra aluguéis em nome da LLC
-```
-
 ### Stripe e Privacidade
-
-```javascript
-// Stripe: A conta Stripe está em nome da LLC, não pessoal
-// Os aluguéis entram na conta bancária da LLC
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Wyoming Properties LLC', // Nome da LLC
-    structure: 'llc',
-    tax_id: 'XX-XXXXXXX',
-  },
-  business_profile: {
-    url: 'https://wyomingproperties.com',
-    product_description: 'Gestão de propriedades de investimento',
-  },
-  capabilities: {
-    card_payments: { requested: true },
-    transfers: { requested: true },
-  },
-});
-```
 
 ## 3. Benefícios Fiscais
 
@@ -141,38 +83,6 @@ const account = await stripe.accounts.create({
 
 ### Exemplo de Economia Fiscal
 
-```
-Propriedade de aluguel: $300.000
-Aluguel anual: $36.000 ($3.000/mês)
-
-Sem LLC (como pessoa):
-Receita: $36.000
-Deduções: $12.000 (juros, tax, seguro)
-Depreciação: $10.909 (300K / 27.5)
-Receita líquida: $13.091
-Imposto (22%): $2.880
-
-Com LLC (mesmos números, mas protegido):
-Mesmos cálculos fiscais
-VANTAGEM: Pode eleger tributação S-Corp
-- Economiza ~$2.000-3.000/ano em self-employment tax
-- Maior flexibilidade para deduções de viagens e veículo
-```
-
-```javascript
-// Stripe: Relatório de receitas anual para seu CPA
-// Stripe gera Form 1099-K se ultrapassar $5.000 em receitas
-
-// Exportar transações para contabilidade
-const transactions = await stripe.balanceTransactions.list({
-  limit: 100,
-  created: { gte: 1672531200 }, // 1 Jan 2026
-});
-
-// Stripe Tax: Calcula impostos automaticamente
-// Stripe Dashboard → Impostos → Configurações
-```
-
 ## 4. Planejamento Sucessório
 
 ### A LLC Como Ferramenta de Sucessão
@@ -187,26 +97,6 @@ const transactions = await stripe.balanceTransactions.list({
 
 ### Como Funciona a Sucessão com LLC
 
-```
-ANTES DE FALECER:
-VOCÊ é o único membro da LLC
-  └── LLC é proprietária da propriedade
-
-EM SEU TESTAMENTO:
-Indica quem recebe suas ações da LLC
-
-DEPOIS DE FALECER:
-SEUS HERDEIROS recebem as ações da LLC
-  └── LLC continua sendo proprietária da propriedade
-  └── Stripe continua operando (atualiza beneficial owner)
-  └── Sem necessidade de transferir a propriedade
-
-VANTAGEM:
-- Não há mudança de título da propriedade
-- Stripe: Só atualizar o dono no Stripe Dashboard
-- Os inquilinos continuam pagando sem interrupção
-```
-
 ## 5. Credibilidade Profissional
 
 ### Por Que uma LLC Inspira Confiança
@@ -219,29 +109,6 @@ VANTAGEM:
 | **Fornecedores** | Contratantes duvidam | Contratos formais |
 | **Bancos** | Crédito pessoal limitado | Crédito empresarial |
 | **Seguros** | Apólice pessoal | Apólice comercial |
-
-```javascript
-// Stripe: A LLC pode emitir faturas profissionais
-const invoice = await stripe.invoices.create({
-  customer: 'cus_tenant',
-  collection_method: 'charge_automatically',
-  description: 'Aluguel Mensal - Miami Beach Apt 3B - Junho 2026',
-  custom_fields: [{
-    name: 'Propriedade',
-    value: 'Miami Beach Apt 3B',
-  }, {
-    name: 'LLC',
-    value: 'Miami Properties LLC',
-  }],
-  metadata: {
-    property_id: 'MIA-3B',
-    document_type: 'rental_invoice',
-  },
-});
-
-// Stripe envia a fatura profissional ao inquilino
-await stripe.invoices.sendInvoice(invoice.id);
-```
 
 ## 6. Flexibilidade com Múltiplos Proprietários
 
@@ -256,104 +123,11 @@ await stripe.invoices.sendInvoice(invoice.id);
 
 ### Multi-member LLC
 
-```
-Multi-member LLC para coinvestimento:
-
-SÓCIOS:
-├── Sócio A: 50% ($250K)
-├── Sócio B: 30% ($150K)
-└── Sócio C: 20% ($100K)
-
-Benefícios:
-- Operating agreement define distribuição de lucros
-- Não necessariamente proporcional ao aporte
-- Stripe Connect pode distribuir pagamentos automaticamente
-- Cada sócio declara seu % em sua declaração pessoal
-- Se um sócio é processado, a LLC não é afetada
-
-Operating Agreement deve incluir:
-- Aportes de capital
-- Distribuição de lucros e perdas
-- Direito de preferência (right of first refusal)
-- Saída de sócios (buy-sell agreement)
-- Votação e controle
-```
-
 ### Series LLC
-
-```
-Series LLC: Uma LLC que contém "séries" independentes.
-
-ESTRUTURA:
-Master LLC
-  ├── Series A: Propriedade em Miami
-  ├── Series B: Propriedade em Orlando
-  ├── Series C: Propriedade em Tampa
-  └── Cada série tem sua própria proteção
-
-VANTAGENS:
-- Um único relatório anual
-- Cada série é isolada das outras
-- Custo menor que LLCs separadas
-- Ideal para 5+ propriedades
-
-DESVANTAGENS:
-- Não reconhecida em todos os estados
-- Flórida: Reconhecida
-- Alguns bancos não financiam series LLCs
-
-RECOMENDAÇÃO:
-- 1-3 propriedades: LLCs separadas
-- 4+ propriedades: Avaliar Series LLC
-```
 
 ## 7. Stripe e a LLC
 
 ### Integração Completa
-
-```javascript
-// Stripe + LLC: A combinação perfeita para propriedades de aluguel
-
-// 1. Cobrar aluguéis com Stripe
-const subscription = await stripe.subscriptions.create({
-  customer: 'cus_tenant',
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: { name: 'Aluguel Mensal - Casa 5A' },
-      recurring: { interval: 'month' },
-      unit_amount: 400000, // $4.000
-    },
-    quantity: 1,
-  }],
-  metadata: {
-    llc_name: 'Miami Properties LLC',
-    property: 'Casa 5A',
-  },
-});
-
-// 2. Stripe Connect para distribuir a sócios
-// A LLC recebe, Stripe Connect distribui para cada sócio
-const payout = await stripe.payouts.create({
-  amount: 300000, // Distribuição para sócio A
-  currency: 'usd',
-  destination: 'ba_socio_A',
-  metadata: {
-    llc_distribution: true,
-    partner: 'Sócio A',
-    period: '2026-Q2',
-  },
-});
-
-// 3. Stripe Tax para impostos
-const taxCalculation = await stripe.tax.calculations.create({
-  currency: 'usd',
-  line_items: [{
-    amount: 400000,
-    tax_behavior: 'exclusive',
-  }],
-});
-```
 
 ### Vantagens do Stripe para LLCs
 

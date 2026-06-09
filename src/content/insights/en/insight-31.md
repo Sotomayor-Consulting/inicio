@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Legally Avoid Double Taxation: Strategies for Your LLC"
 description: "Legal strategies to avoid paying taxes twice on the same income when operating a U.S. LLC from abroad."
 cardImage: "@/images/insights/estrategias-para tu-llc.png"
@@ -22,11 +22,11 @@ Without a proper strategy, you could pay taxes in both countries.
 
 | Situation | Double taxation? |
 |-----------|-----------------|
-| LLC without ECI, foreign owner | ❌ No (only taxed in your country) |
-| LLC with ECI, foreign owner, no treaty | ⚠️ Possible |
-| LLC with ECI, foreign owner, with treaty | ✅ Avoidable with strategy |
-| LLC taxed as corporation, foreign owner | ⚠️ Possible (dividends) |
-| Multi-member LLC with foreign partners | ⚠️ Depends on treaty |
+| LLC without ECI, foreign owner | ? No (only taxed in your country) |
+| LLC with ECI, foreign owner, no treaty | ?? Possible |
+| LLC with ECI, foreign owner, with treaty | ? Avoidable with strategy |
+| LLC taxed as corporation, foreign owner | ?? Possible (dividends) |
+| Multi-member LLC with foreign partners | ?? Depends on treaty |
 
 ## Mechanisms to avoid double taxation
 
@@ -101,10 +101,10 @@ If your LLC elects to be taxed as a **C-Corporation**, it pays 21% corporate tax
 
 | Situation | Disregarded Entity | C-Corp |
 |-----------|-------------------|--------|
-| Low income without ECI | ✅ Best option | ❌ Not beneficial |
-| High income with ECI | ❌ Double taxation | ✅ Best option |
-| Owner in treaty country | ✅ Depends | ✅ May work |
-| Owner in non-treaty country | ✅ Best option | ⚠️ Evaluate |
+| Low income without ECI | ? Best option | ? Not beneficial |
+| High income with ECI | ? Double taxation | ? Best option |
+| Owner in treaty country | ? Depends | ? May work |
+| Owner in non-treaty country | ? Best option | ?? Evaluate |
 
 **C-Corp example:**
 - LLC profit: $100,000.
@@ -242,7 +242,7 @@ Your country may treat the LLC differently than the U.S., creating hybrid mismat
 - U.S.: No tax (no ECI, files only 5472).
 - Mexico: Declares $60,000 as global income.
 - **Total tax:** Only pays in Mexico (~$9,000).
-- **Double taxation:** ❌ No.
+- **Double taxation:** ? No.
 
 ### Case 2: Colombia (no treaty, with ECI)
 

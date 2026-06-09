@@ -1,7 +1,7 @@
----
+﻿---
 title: "Qué Revisar Antes de Invertir en EE. UU. siendo Extranjero: Guía 2026"
 description: "Qué revisar antes de invertir en EE. UU. siendo extranjero"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/inversión-extranjera.png"
 cardImageAlt: "Lista de verificación pre-inversión para extranjeros en EE. UU.: estructura legal, impuestos, financiamiento, ubicación, seguros, Stripe"
 ---
 
@@ -25,51 +25,6 @@ En esta guía, presentamos **qué revisar antes de invertir en EE. UU. siendo ex
 
 ### Calcula tu Capacidad Real
 
-```
-EFECTIVO DISPONIBLE:
-- Ahorros para down payment: $__________
-- Closing costs (3-5% del precio): $__________
-- Reservas (3-12 meses): $__________
-- Reparaciones/renovaciones: $__________
-- Total necesario: $__________
-
-INGRESOS MENSUALES PROYECTADOS:
-- Renta estimada: $__________
-- Vacancia (5-10%): -$__________
-- Renta neta: $__________
-
-GASTOS MENSUALES PROYECTADOS:
-- Hipoteca (P&I): $__________
-- Property tax: $__________
-- Seguro: $__________
-- HOA: $__________
-- Property management (8-12%): $__________
-- Mantenimiento (10% renta): $__________
-- Total gastos: $__________
-
-DSCR = Renta neta / Gastos totales (con hipoteca)
-DSCR = $__________ / $__________ = __________
-✓ Necesitas DSCR ≥ 1.0, ideal ≥ 1.25
-```
-
-```javascript
-// Stripe: Usa Stripe para proyectar ingresos
-// si ya tienes propiedades similares operando
-
-// Analiza transacciones históricas
-const transactions = await stripe.checkout.sessions.list({
-  limit: 100,
-  created: { gte: Math.floor(Date.now() / 1000) - 31536000 },
-});
-
-const totalIncome = transactions.data
-  .filter(t => t.payment_status === 'paid')
-  .reduce((sum, t) => sum + t.amount_total, 0);
-
-const avgMonthly = (totalIncome / 100) / 12;
-console.log(`Ingreso mensual promedio: $${avgMonthly.toFixed(2)}`);
-```
-
 ## 2. Revisar la Estructura Legal
 
 ### Opciones de Estructura
@@ -82,22 +37,6 @@ console.log(`Ingreso mensual promedio: $${avgMonthly.toFixed(2)}`);
 | **LLC + Holding + Trust** | ✅ Máxima | ✅ Máxima | ❌ Protegido | $4,000-8,000 | Alta |
 
 ### Checklist Legal Pre-Compra
-
-```
-Antes de hacer una oferta, revisa:
-
-ESTRUCTURA:
-- [ ] ¿Necesito LLC en este estado?
-- [ ] ¿Formo la LLC antes o después de comprar?
-- [ ] ¿Necesito holding internacional para estate tax?
-- [ ] ¿Qué dice el tratado fiscal con mi país?
-
-DOCUMENTACIÓN:
-- [ ] ¿Tengo EIN del IRS?
-- [ ] ¿Tengo ITIN o SSN?
-- [ ] ¿Tengo cuenta bancaria en EE. UU.?
-- [ ] ¿Tengo un agente registered agent para la LLC?
-```
 
 ## 3. Revisar el Estado y la Ubicación
 
@@ -115,47 +54,6 @@ DOCUMENTACIÓN:
 
 ### Micro-Ubicación: Qué Revisar en el Vecindario
 
-```
-Al evaluar una propiedad específica, revisa:
-
-1. ZONIFICACIÓN (ZONING)
-   - ¿Uso residencial, comercial o mixto?
-   - ¿Permite short-term rental?
-   - ¿Hay restricciones de HOA?
-
-2. DEMANDA DE ALQUILER
-   - Tasa de vacancia en el área
-   - Renta promedio por tipo de propiedad
-   - Ocupación en short-term rental (AirDNA, Mashvisor)
-   - Cercanía a empleadores, escuelas, transporte
-
-3. RIESGOS NATURALES
-   - ¿Flood zone? (FEMA flood map)
-   - ¿Zona de huracán?
-   - ¿Historial de desastres naturales?
-
-4. INFRAESTRUCTURA
-   - Edad de la propiedad (techo, HVAC, plomería, eléctrico)
-   - Calidad de escuelas (afecta valor de reventa)
-   - Desarrollo futuro (nuevas construcciones, empleadores)
-```
-
-```javascript
-// Stripe: Para validar demanda, puedes crear
-// una landing page con Stripe para medir interés
-
-// Pero más práctico: usa Stripe con datos de propiedades existentes
-// Reporte de ingresos por código postal
-const report = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    columns: ['created', 'amount', 'description', 'customer'],
-    interval_start: Math.floor(Date.now() / 1000) - 7776000,
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-```
-
 ## 4. Revisar el Financiamiento
 
 ### Opciones de Préstamo por Perfil
@@ -170,51 +68,7 @@ const report = await stripe.reporting.reportRuns.create({
 
 ### Preguntas Clave al Lender
 
-```
-Antes de aceptar un préstamo, pregunta:
-
-1. TASA Y COSTOS
-   - ¿Cuál es la tasa fija vs. ajustable?
-   - ¿Cuántos puntos de origination?
-   - ¿APR completo (incluye todos los fees)?
-
-2. REQUISITOS
-   - ¿Aceptan ITIN o solo SSN?
-   - ¿Cuál es el DSCR mínimo requerido?
-   - ¿Cuántas reservas exigen (meses)?
-
-3. RESTRICCIONES
-   - ¿Hay prepayment penalty? ¿Por cuánto tiempo?
-   - ¿Permite cash-out refinance?
-   - ¿Permite short-term rental?
-
-4. PLAZOS
-   - ¿Cuánto tarda el cierre?
-   - ¿Cuánto tiempo toma el pre-approval?
-```
-
 ### Calculadora de Pago Mensual
-
-```
-Para una propiedad de $400,000 con DSCR loan:
-
-Precio: $400,000
-Down payment (30%): $120,000
-Monto del préstamo: $280,000
-Tasa: 8%
-Plazo: 30 años
-
-Pago mensual (P&I): $2,055
-Property tax (1%): $333/mes
-Seguro: $333/mes
-Total PITI: $2,721/mes
-
-Renta necesaria para DSCR 1.25:
-$2,721 x 1.25 = $3,401/mes en renta
-
-Si la propiedad alquila por $3,500/mes:
-DSCR = $3,500 / $2,721 = 1.29 ✓
-```
 
 ## 5. Revisar los Impuestos
 
@@ -231,30 +85,6 @@ DSCR = $3,500 / $2,721 = 1.29 ✓
 
 ### Preguntas Fiscales Clave
 
-```
-Antes de invertir, revisa con tu CPA:
-
-1. ESTRUCTURA FISCAL
-   - ¿Debo presentar W-8ECI para evitar retención del 30%?
-   - ¿Qué deductions aplican (depreciación, repairs, interest)?
-   - ¿Debo pagar estimated taxes trimestrales?
-
-2. TRATADO FISCAL
-   - ¿Mi país tiene tratado con EE. UU.?
-   - ¿El tratado reduce FIRPTA o capital gains?
-   - ¿Puedo acreditar impuestos pagados en EE. UU.?
-
-3. ESTATE TAX
-   - ¿Mis activos en EE. UU. superan $60,000?
-   - ¿Necesito holding internacional o trust?
-   - ¿Qué pasa con mis herederos?
-
-4. PLANIFICACIÓN
-   - ¿Debo hacer cost segregation?
-   - ¿Es mejor 1031 exchange al vender?
-   - ¿Cuándo debo empezar a declarar?
-```
-
 ## 6. Revisar los Seguros
 
 ### Seguros Mínimos Requeridos
@@ -268,51 +98,6 @@ Antes de invertir, revisa con tu CPA:
 | **Umbrella policy** | ⚠️ Recomendado (2+ propiedades) | $300-1,000 |
 
 ### Cobertura Recomendada por Tipo de Propiedad
-
-```
-CASA UNIFAMILIAR (LTR):
-- Property insurance: Valor de reconstrucción
-- Liability: $1-2M
-- Hurricane deductible: 2% (no más de 5%)
-
-CONDOMINIO:
-- Walls-in coverage (interior)
-- Master policy del HOA cubre exterior
-- Liability: $500K-1M
-- Loss assessment coverage
-
-SHORT-TERM RENTAL (Airbnb):
-- Property insurance: Cobertura especial para STR
-- Liability: $2M+ (mayor riesgo)
-- Loss of income: Cubre cancelaciones
-- Hurricane: Obligatorio
-
-PROPIEDAD COMERCIAL:
-- Property insurance: Valor de reconstrucción
-- Liability: $2-5M
-- Business interruption
-- Workers comp (si tienes empleados)
-```
-
-```javascript
-// Stripe: Automatiza el pago de seguros
-// para que nunca se te venza la póliza
-
-const insuranceSubscription = await stripe.subscriptions.create({
-  customer: '{{CUSTOMER_ID}}',
-  items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Property Insurance - Florida LLC',
-        description: 'Póliza anual pagada mensualmente',
-      },
-      unit_amount: 35000, // $350/mes
-      recurring: { interval: 'month' },
-    },
-  }],
-});
-```
 
 ## 7. Revisar las Restricciones Legales Locales
 
@@ -328,34 +113,6 @@ const insuranceSubscription = await stripe.subscriptions.create({
 | **Homestead exemption** | Property appraiser | Solo para residencia, no inversión |
 
 ### Ejemplo: Restricciones de Short-Term Rental en Florida
-
-```
-CIUDADES CON RESTRICCIONES EN FLORIDA 2026:
-
-Miami Beach:
-- Prohibido en zonas residenciales (menos de 6 meses + 1 día)
-- Multas de hasta $20,000 por infracción
-- Registro obligatorio
-
-Orlando:
-- Permitido con registro
-- Límite de 2 unidades por propietario en áreas residenciales
-- Impuesto de turista (Tourist Development Tax): 6%
-
-Tampa:
-- Permitido con registro
-- Sin límite de días
-- Inspección de seguridad requerida
-
-Fort Lauderdale:
-- Permitido solo en zonas comerciales
-- Prohibido en la mayoría de zonas residenciales
-
-Key West:
-- Límite de 28 días de alquiler por estancia
-- Registro obligatorio
-- Cupo limitado de licencias
-```
 
 ## 8. Revisar el Property Management
 
@@ -374,33 +131,6 @@ Key West:
 
 ### Preguntas para un Property Manager
 
-```
-Antes de contratar un property manager, pregúntale:
-
-EXPERIENCIA:
-- ¿Cuántos años llevan en el negocio?
-- ¿Cuántas propiedades administran?
-- ¿Trabajan con propietarios extranjeros?
-- ¿Tienen licencia de real estate en Florida?
-
-SERVICIOS:
-- ¿Incluye marketing y listing?
-- ¿Cómo seleccionan inquilinos? (background check, credit check)
-- ¿Cómo manejan reparaciones de emergencia?
-- ¿Con qué frecuencia inspeccionan la propiedad?
-
-COSTOS:
-- ¿Cuál es el porcentaje de administración?
-- ¿Cobran leasing fee (1 mes de renta)?
-- ¿Cobran por reparaciones? (markup)
-- ¿Hay cargo por desalojo?
-
-REPORTES:
-- ¿Dan reportes mensuales de ingresos/gastos?
-- ¿Integran con Stripe para cobros?
-- ¿Proveen documentación para taxes?
-```
-
 ## 9. Revisar la Estrategia de Salida
 
 ### Opciones de Salida
@@ -416,89 +146,11 @@ REPORTES:
 
 ### Preguntas de Salida
 
-```
-Antes de comprar, pregúntate:
-
-1. ¿Cuándo planeas vender?
-   - Menos de 2 años: mejor flip o hard money
-   - 2-5 años: DSCR con plan de refinanciar
-   - 5+ años: buy & hold con depreciación
-
-2. ¿Cómo afecta FIRPTA tu salida?
-   - 15% retenido sobre precio de venta total
-   - Puedes solicitar reducción (8288-B)
-   - 1031 Exchange difiere el impuesto
-
-3. ¿Venderás la propiedad o la LLC?
-   - Vender propiedad: FIRPTA 15%
-   - Vender LLC: podría no aplicar FIRPTA
-   - Vender holding: fuera de jurisdicción US
-
-4. ¿Cómo afecta la venta a tu estructura?
-   - Si vendes una LLC, la estructura sigue intacta
-   - Si vendes todas, puedes disolver la estructura
-   - Si cambias de estado, necesitas nueva LLC
-```
-
 ## 10. Revisar la Documentación y el Cronograma
 
 ### Documentos que Necesitas Tener
 
-```
-DOCUMENTACIÓN PERSONAL:
-- [ ] Pasaporte vigente
-- [ ] ITIN o SSN (carta del IRS)
-- [ ] Comprobante de domicilio en tu país
-- [ ] Referencias bancarias
-- [ ] Comprobante de ingresos (si aplica)
-
-DOCUMENTACIÓN DE LA ESTRUCTURA:
-- [ ] Certificado de formación de LLC
-- [ ] EIN del IRS (carta CP 575)
-- [ ] Operating Agreement de la LLC
-- [ ] Registered Agent agreement
-- [ ] Cuenta bancaria de la LLC
-- [ ] Stripe account configurada
-
-DOCUMENTACIÓN PARA LA COMPRA:
-- [ ] Pre-approval letter del lender
-- [ ] Bank statements (fondos disponibles)
-- [ ] Prueba de origen de fondos
-- [ ] Contrato de compra revisado por abogado
-
-DOCUMENTACIÓN FISCAL:
-- [ ] W-7 (solicitud de ITIN)
-- [ ] W-8ECI (para el banco/lender)
-- [ ] W-9 de la LLC
-- [ ] Tratado fiscal (si aplica)
-```
-
 ### Cronograma Típico para un Extranjero
-
-```
-MES 1: PREPARACIÓN
-- Semana 1-2: Definir presupuesto y estrategia
-- Semana 2-3: Formar LLC y obtener EIN
-- Semana 3-4: Solicitar ITIN (si no lo tienes)
-- Semana 4: Abrir cuenta bancaria
-
-MES 2: BÚSQUEDA Y PRE-APPROVAL
-- Semana 1-2: Conseguir pre-approval de lender
-- Semana 2-3: Buscar propiedades con agente local
-- Semana 3-4: Visitar propiedades (virtual o presencial)
-
-MES 3: OFERTA Y DEBIDA DILIGENCIA
-- Semana 1: Hacer oferta
-- Semana 2: Due diligence (inspección, título, HOA docs)
-- Semana 3: Finalizar financiamiento
-- Semana 4: Cerrar compra
-
-MES 4: POST-CIERRE
-- Semana 1: Configurar Stripe
-- Semana 2: Contratar property manager (si aplica)
-- Semana 3: Listar propiedad para alquiler
-- Semana 4: Primeros inquilinos
-```
 
 ## 11. Preguntas Frecuentes Pre-Inversión
 

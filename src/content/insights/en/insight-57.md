@@ -1,7 +1,7 @@
----
+﻿---
 title: "What Stripe Needs to Approve Your Account: Complete Guide 2026"
 description: "What Stripe needs to approve your account"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Stripe approval screen with documents and green checkmark"
 ---
 
@@ -12,12 +12,6 @@ In this guide, we explain **exactly what Stripe needs to approve your account in
 ## 1. The Stripe Approval Process
 
 ### Approval Stages
-
-```
-Signup → Identity verification → Documentation → Risk analysis → Approval
-   ↓               ↓                  ↓               ↓             ↓
-5 minutes      10-15 minutes      24-72 hours     24-48 hours    1-5 days
-```
 
 ### Types of Review
 

@@ -1,7 +1,7 @@
----
+﻿---
 title: "Signs Your Business Needs International Structure: 2026 Guide"
 description: "Signs your business needs international structure"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/internacionalizar-una-marca.png"
 cardImageAlt: "Business diagnostic traffic light with warning signs: personal accounts, local billing, legal exposure, with Stripe icons and international structure as solution"
 ---
 
@@ -24,38 +24,6 @@ In this guide, we explain the **signs your business needs international structur
 
 ### The Most Important Sign
 
-```
-Sign #1 that you need international structure:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  "You're paying more in taxes than you would
-   pay with a US LLC + international structure"
-
-If your effective individual tax rate exceeds 21%
-(the US corporate rate), you're losing money
-EVERY MONTH you delay structuring.
-```
-
-```javascript
-// Stripe: The first sign is when Stripe asks for structure
-
-// Stripe requires EIN/Tax ID for business accounts
-// If you already have recurring revenue, you need structure
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'corporation',
-  business_profile: {
-    name: 'Your Company LLC',
-    url: 'https://yourcompany.com',
-  },
-  company: {
-    tax_id: 'XX-XXXXXXX', // Without EIN, you can't create this account
-  },
-});
-```
-
 ## 2. Financial Signs
 
 ### Sign #1: Your Revenue Grows but So Do Your Taxes
@@ -71,67 +39,7 @@ const account = await stripe.accounts.create({
 
 ### Sign #2: Your Clients Are Abroad
 
-```
-Do you invoice clients in the US, Europe, or LATAM?
-Do you use PayPal, Wise, or personal transfers?
-Do your clients ask for an invoice with EIN or Tax ID?
-
-IF YOU ANSWERED YES TO ANY:
-→ You need a US LLC to invoice professionally
-→ You need Stripe to charge as a business
-→ You need an EIN so clients can deduct taxes
-
-BILLING US CLIENTS AS AN INDIVIDUAL:
-❌ No EIN = 30% withholding (W-8BEN)
-❌ No LLC = no legal protection
-❌ No Stripe = no automatic recurring billing
-❌ No professionalism = you lose big clients
-```
-
 ### Sign #3: You Mix Personal and Business Finances
-
-```
-Do you use your personal account to:
-□ Receive client payments?
-□ Pay business expenses?
-□ Buy SaaS tools?
-□ Pay contractors?
-
-Do you use your personal card for:
-□ Business travel?
-□ Client meals?
-□ Business subscriptions?
-
-If you answered YES to ANY:
-→ Your legal liability is unlimited
-→ Your accounting is a mess
-→ The IRS or your local tax authority can question everything
-→ You're losing tax deductions
-
-SOLUTION: US LLC + Mercury account + Stripe Issuing card
-```
-
-```javascript
-// Stripe Issuing: Separate business from personal expenses
-
-// Create corporate cards for business spending
-const card = await stripe.issuing.cards.create({
-  cardholder: '{{CARDHOLDER_ID}}',
-  currency: 'usd',
-  type: 'virtual',
-  status: 'active',
-  spending_controls: {
-    spending_limits: [{
-      amount: 1000000, // $10,000 monthly
-      interval: 'monthly',
-      categories: ['saas', 'advertising', 'travel'],
-    }],
-  },
-});
-
-// All expenses are recorded automatically
-// Separated from your personal spending
-```
 
 ## 3. Tax Signs
 
@@ -151,267 +59,27 @@ const card = await stripe.issuing.cards.create({
 
 ### Sign #5: You Don't Have an International CPA
 
-```
-Does your local accountant understand:
-□ Delaware LLC?
-□ W-8BEN / W-8BEN-E?
-□ 1040-NR?
-□ Transfer pricing?
-□ FATCA?
-□ FBAR?
-□ Tax treaties?
-
-If your accountant looks at you blankly:
-→ You need an international CPA urgently
-→ Your current tax structure is probably wrong
-→ You might be overpaying taxes
-
-A GOOD INTERNATIONAL CPA:
-✅ Tells you if you need LLC or C-Corp
-✅ Handles your 1040-NR + local filing
-✅ Optimizes your global tax structure
-✅ Saves you 2-5x their annual cost
-```
-
 ### Sign #6: You Don't Know What a W-8BEN or W-8BEN-E Is
-
-```
-W-8BEN (individual):
-━━━━━━━━━━━━━━━━━━━━━
-- Used when billing the US as an individual
-- Reduces withholding from 30% to 0-15%
-- Expires every 3 years
-- Without it: 30% withheld on every invoice
-
-W-8BEN-E (entity):
-━━━━━━━━━━━━━━━━━━━━━
-- Used when your LLC/C-Corp bills the US
-- Applies US tax treaties with your country
-- Stripe Atlas helps you get it
-
-DON'T KNOW WHICH ONE TO USE?
-→ Clear sign you need international structure
-→ An international CPA resolves this in 1 hour
-```
-
-```javascript
-// Stripe: With international structure, taxes become automatic
-
-// With your LLC, Stripe asks for W-8BEN-E and handles withholding
-// Stripe Tax calculates taxes automatically
-
-const taxCalculation = await stripe.tax.calculations.create({
-  currency: 'usd',
-  line_items: [{
-    amount: 100000, // $1,000
-    reference: 'L1',
-    tax_behavior: 'inclusive',
-  }],
-  customer_details: {
-    address: {
-      country: 'US',
-      state: 'FL',
-    },
-  },
-});
-
-// Stripe tells you exactly what taxes to charge
-// Without international structure, this doesn't work
-```
 
 ## 4. Legal Signs
 
 ### Sign #7: Your Personal Assets Are at Risk
 
-```
-Do you operate as an individual (sole proprietorship)?
-Do you have no LLC or corporation?
-
-IF SOMEONE SUES YOU:
-❌ They can take your house
-❌ They can take your car
-❌ They can take your personal savings
-❌ They can take your investments
-❌ EVERYTHING you own is at risk
-
-WITH A US LLC:
-✅ Only the LLC is liable
-✅ Your personal assets are protected
-✅ The plaintiff can only claim what's in the LLC
-✅ Your personal wealth is safe
-
-RISK BY BUSINESS TYPE:
-- SaaS with client data → HIGH (GDPR, CCPA)
-- Consulting → MEDIUM
-- E-commerce → HIGH (product liability)
-- Marketplace → VERY HIGH (user disputes)
-- Professional services → MEDIUM-HIGH
-```
-
 ### Sign #8: You Have Employees or Contractors
-
-```
-Do you work with contractors in multiple countries?
-Do you pay them through Wise, PayPal, or personal transfer?
-
-WITHOUT INTERNATIONAL STRUCTURE:
-❌ Risk of IRS classifying them as employees
-❌ Possible fines for not paying payroll taxes
-❌ No formal contractor agreements
-❌ No intellectual property protection
-
-WITH INTERNATIONAL STRUCTURE:
-✅ EOR (Deel/Remote) handles global compliance
-✅ Stripe Connect pays contractors automatically
-✅ Formal contracts with each contractor
-✅ IP assignment agreements
-
-IF YOU HAVE 3+ CONTRACTORS ABROAD:
-→ Urgent: you need international structure
-→ EOR + Stripe Connect = complete solution
-```
-
-```javascript
-// Stripe Connect: Pay contractors from your LLC
-
-// Each contractor receives professional payments
-const transfer = await stripe.transfers.create({
-  amount: 250000, // $2,500
-  currency: 'usd',
-  destination: '{{CONTRACTOR_ACCOUNT_ID}}',
-  transfer_group: 'ORDER_95',
-});
-
-// Stripe issues 1099-NEC for each contractor
-// IRS receives the report automatically
-// You stay compliant with tax obligations
-```
 
 ## 5. Growth Signs
 
 ### Sign #9: You Want to Scale or Raise Investment
 
-```
-Are you seeking VC or Angel Investment?
-Do you plan to sell your business in the future?
-
-INVESTORS EXPECT:
-✅ Delaware C-Corp (not LLC, not individual)
-✅ Clean cap table
-✅ Formally issued shares
-✅ IRS EIN
-✅ Business bank account
-✅ Stripe processing payments
-✅ All contracts in order
-
-WITHOUT INTERNATIONAL STRUCTURE:
-❌ Investors can't invest
-❌ You can't issue shares
-❌ Due diligence fails
-❌ Valuation reduced 50-80%
-
-WITH STRIPE ATLAS + C-CORP:
-✅ Ready for investment in weeks
-✅ Cap table in Carta/Pulley
-✅ Shares for founders and employees
-✅ Series A ready
-```
-
 ### Sign #10: Clients Ask for EIN Invoices
 
-```
-Do US clients ask you for:
-□ W-9?
-□ Invoice with Tax ID?
-□ EIN?
-□ "I need to deduct this expense"?
-
-THIS MEANS:
-→ Your client wants to deduct what they pay you
-→ Without EIN, they can't
-→ Without EIN, they prefer another provider
-
-IF 2+ CLIENTS HAVE ASKED ABOUT EIN:
-→ You should already have a US LLC
-→ Stripe Atlas solves this in 3-7 days
-→ You're losing clients by not having one
-```
-
 ### Sign #11: Your Competitors Have Better Presence
-
-```
-COMPETITOR A:
-- Delaware LLC
-- Stripe Payments
-- Mercury account
-- .com website with legal terms
-- USD pricing
-
-YOU:
-- Individual
-- Personal PayPal
-- Local bank account
-- No legal terms
-- Local currency pricing
-
-WHO DO YOU THINK WINS THE CLIENT?
-
-International structure is NOT just about taxes:
-✅ It's credibility
-✅ It's trust
-✅ It's professionalism
-✅ It's scalability
-```
 
 ## 6. The Exact Moment to Structure
 
 ### Recommended Timeline
 
-```
-REVENUE PHASE             | RECOMMENDED ACTION
-──────────────────────────┼──────────────────────────────
-$0 - $1,000/month         | Operate as individual
-$1,000 - $5,000/month     | Monitor, save for LLC
-$5,000 - $10,000/month    | ✅ FORM LLC (Stripe Atlas)
-$10,000 - $30,000/month   | ✅ Mercury account + Stripe
-$30,000 - $50,000/month   | ✅ Hire international CPA
-$50,000 - $100,000/month  | ✅ Consider C-Corp + investment
-$100,000+/month           | ✅ Full structure (holding + subsidiaries)
-```
-
 ### Don't Wait for the "Perfect Moment"
-
-```
-COMMON MISTAKE:
-"I'll wait until I'm billing $10K/month to structure"
-
-REALITY:
-❌ You lost $5,000-15,000 in unnecessary taxes
-❌ You lost clients asking for EIN
-❌ You accumulated 1-2 years of messy accounting
-❌ Legal risk during that entire period
-
-THE RIGHT APPROACH:
-✅ When you bill $5K/month consistently → LLC
-✅ Cost is $500 (Stripe Atlas) + $300/year
-✅ Tax savings start from month 1
-✅ Legal protection starts from day 1
-✅ Stripe + Mercury + CPA = everything integrated
-```
-
-```javascript
-// Stripe: When you structure, everything becomes automatic
-
-// Your revenue goes directly to your Stripe account (LLC)
-const balance = await stripe.balance.retrieve();
-console.log(`Available balance: $${balance.available[0].amount / 100}`);
-
-// Stripe issues 1099-K automatically
-// Your CPA receives the reports
-// Your tax filing becomes simple
-
-// Without structure: Stripe can't issue 1099-K to your personal name
-```
 
 ## 7. Cost vs Benefit of Structuring
 
@@ -429,72 +97,13 @@ console.log(`Available balance: $${balance.available[0].amount / 100}`);
 
 ### Return on Investment
 
-```
-ROI OF INTERNATIONAL STRUCTURE:
-
-WITH $100,000/YEAR REVENUE:
-
-TAX SAVINGS:
-- As individual (35%): $35,000
-- With US LLC (21%): $21,000
-- Tax savings: $14,000/year
-
-DEDUCTION SAVINGS:
-- Business expense deductions: ~$10,000
-- Equipment depreciation: ~$2,000
-- Home office, travel: ~$5,000
-- Total deductions: ~$17,000
-
-ADDITIONAL BENEFITS:
-- Legal protection: priceless
-- Credibility: more clients
-- Stripe: automatic recurring payments
-- Scalability: ready for VC
-
-STRUCTURE COST:
--$3,000/year (CPA, registered agent, fees)
-
-NET ANNUAL RETURN:
-$14,000 (tax savings) + $17,000 (deductions) - $3,000 (costs)
-= $28,000/year NET benefit
-
-ROI: 900%+
-```
-
 ## 8. The Path Forward
 
 ### Step 1: Diagnosis (This Week)
 
-```
-□ Calculate your current effective tax rate
-□ List your income from the last 12 months
-□ Identify foreign clients
-□ Check if you mix personal/business finances
-□ Ask 3 clients if they need your EIN
-□ Consult with an international CPA
-```
-
 ### Step 2: Formation (Next 2 Weeks)
 
-```
-□ Stripe Atlas → Delaware LLC ($500)
-□ Receive EIN from IRS (3-7 days)
-□ Open Mercury or Brex account ($0)
-□ Configure Stripe Payments
-□ Migrate clients to your new LLC
-□ Update contracts and invoices
-```
-
 ### Step 3: Operation (First 3 Months)
-
-```
-□ Hire international CPA
-□ Configure Stripe Tax (if applicable)
-□ Configure Stripe Billing (recurring)
-□ Separate expenses with Stripe Issuing
-□ Set up Deel if you have contractors
-□ Review tax treaties with your country
-```
 
 ## 9. Frequently Asked Questions
 

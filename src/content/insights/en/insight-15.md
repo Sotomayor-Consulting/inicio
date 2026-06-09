@@ -1,4 +1,4 @@
-﻿---
+---
 title: "How to Use an LLC to Sell International Services: Practical Guide"
 description: "Learn how to use your U.S. LLC to sell international services, earn in dollars, invoice global clients, and grow your business."
 cardImage: "@/images/insights/como-usa-una-llc.png"

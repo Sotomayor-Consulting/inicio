@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Abrir Stripe desde Latinoamérica: Guía Paso a Paso"
 description: "Abrir Stripe desde Latinoamérica"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Interfaz de Stripe en un notebook con banderas de Latinoamérica"
 ---
 
@@ -91,16 +91,6 @@ La forma más común y recomendada es constituir una empresa en los Estados Unid
 **Stripe Connect** permite que plataformas creen cuentas Stripe para sus usuarios finales. Algunas plataformas latinoamericanas actúan como intermediarias.
 
 #### Cómo funciona:
-
-```
-Emprendedor LATAM
-    ↓
-Plataforma socia (ej: DLocal, Payoneer)
-    ↓
-Stripe (procesamiento)
-    ↓
-Cliente final
-```
 
 #### Ventajas
 - ✅ Menos burocracia

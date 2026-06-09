@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Open Stripe from Latin America: Step-by-Step Guide"
 description: "Open Stripe from Latin America"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Stripe interface on a laptop with Latin American flags"
 ---
 
@@ -91,16 +91,6 @@ The most common and recommended approach is incorporating a company in the Unite
 **Stripe Connect** allows platforms to create Stripe accounts for their end users. Some Latin American platforms act as intermediaries.
 
 #### How it works:
-
-```
-LATAM Entrepreneur
-    ↓
-Partner Platform (e.g., DLocal, Payoneer)
-    ↓
-Stripe (processing)
-    ↓
-End customer
-```
 
 #### Advantages
 - ✅ Less bureaucracy

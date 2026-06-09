@@ -1,7 +1,7 @@
----
+﻿---
 title: "O que é uma Holding Internacional? Guia Completo sobre Estruturas Corporativas Globais"
 description: "Guia completo sobre holdings internacionais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/que es una holding.png"
 cardImageAlt: "Estrutura corporativa global com empresas holding em vários países"
 ---
 
@@ -46,16 +46,6 @@ Uma estrutura holding internacional típica organiza-se em níveis:
 - Reportam à holding intermediária ou principal
 
 ### Exemplo gráfico:
-```
-Holding Principal (País A)
-        ↓
-Holding Intermediária (País B)
-        ↓
-Subsidiária 1 (País C)  →  Operações na América Latina
-Subsidiária 2 (País D)  →  Operações na Europa
-Subsidiária 3 (País E)  →  Operações na Ásia
-```
-
 ## 3. Vantagens Fiscais de uma Holding Internacional
 
 As holdings internacionais oferecem importantes benefícios fiscais quando estruturadas corretamente:

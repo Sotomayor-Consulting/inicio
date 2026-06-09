@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Funciona uma Estrutura Holding: Guia Completo"
 description: "Estrutura Holding - Guia Completo"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/que es una holding.png"
 cardImageAlt: "Estrutura corporativa holding com conexões entre empresas"
 ---
 
@@ -21,16 +21,6 @@ Uma **holding** é uma sociedade criada com o propósito principal de **particip
 - **Proteção patrimonial:** Isola riscos entre as empresas do grupo
 
 ### Exemplo simples:
-
-```
-Família/Sócios
-       ↓ (quotas)
-Holding (controladora)
-       ↓ (participações)
-┌──────┼──────┐
-↓      ↓      ↓
-Empresa A (OP) │ Empresa B (Imóveis) │ Empresa C (Investimentos)
-```
 
 ## 2. Tipos de Holding
 
@@ -150,14 +140,6 @@ Uma **holding internacional** é uma empresa constituída em um país diferente 
 
 ### 5.1 Investimentos Cross-Border
 
-```
-Investidor (Brasil/Europa)
-           ↓
-Holding Internacional (Canadá/EUA/Holanda)
-           ↓
-Subsidiárias operacionais (país-alvo)
-```
-
 ### 5.2 Vantagens Fiscais
 
 - **Tratados de dupla tributação:** Reduzem ou eliminam a retenção na fonte sobre dividendos
@@ -202,13 +184,6 @@ Se a holding for usada para fraudar credores ou simular operações, os tribunai
 
 ### Estrutura Recomendada
 
-```
-Holding Familiar (Brasil ou exterior)
-  ├── 50% quotas — Filho A
-  ├── 50% quotas — Filho B
-  └── Usufruto vitalício — Pais
-```
-
 ### Vantagens Sucessórias
 
 - **Evita inventário:** As quotas já estão em nome dos herdeiros
@@ -240,12 +215,6 @@ Holding Familiar (Brasil ou exterior)
 **Cenário:** Investidor brasileiro quer investir US$ 5 milhões em imóveis comerciais nos EUA.
 
 **Solução:**
-```
-Holding LP Canadense
-       ↓
-LLC nos EUA (proprietária dos imóveis)
-```
-
 **Resultado:** O investidor não tem presença fiscal nos EUA, aproveita tratado Canadá-EUA, e reduz a carga tributária sobre os rendimentos.
 
 ### Exemplo 3: Holding Empresarial Familiar
@@ -253,13 +222,6 @@ LLC nos EUA (proprietária dos imóveis)
 **Cenário:** Família com indústria, fazenda e imobiliária.
 
 **Solução:**
-```
-Holding Familiar
-  ├── Indústria Ltda.
-  ├── Fazenda Ltda.
-  └── Imobiliária Ltda.
-```
-
 **Resultado:** Gestão centralizada, sucessão planejada, riscos isolados.
 
 ## 9. Passos para Implementar sua Holding

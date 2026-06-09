@@ -104,14 +104,6 @@ Combinar una LLC con un trust (fideicomiso) añade otra capa de protección.
 
 **Estructura típica:**
 
-```
-Trust (propietario)
-    ↓
-LLC (titular de activos)
-    ↓
-Activos (cuentas, propiedades, inversiones)
-```
-
 **Beneficios:**
 - El trust es el dueño de la LLC, no tú personalmente.
 - Los activos del trust están protegidos de tus acreedores personales.
@@ -129,14 +121,6 @@ Activos (cuentas, propiedades, inversiones)
 ### Estrategia 3: LLC en estado favorable + cuenta bancaria offshore
 
 **Estructura:**
-```
-LLC en Wyoming (protección)
-    ↓
-Cuenta bancaria en EE.UU. (Mercury, Relay)
-    ↓
-Cuenta en Wise Business (múltiples divisas)
-```
-
 **Beneficios:**
 - La LLC protege los activos de acreedores.
 - La cuenta en EE.UU. está fuera del alcance de autoridades locales.

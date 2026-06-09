@@ -1,7 +1,7 @@
----
+﻿---
 title: "Holding vs Empresa Operativa: Diferencias y Estructura 2026"
 description: "Holding vs empresa operativa"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/que es una holding.png"
 cardImageAlt: "Diagrama de estructura corporativa mostrando una holding en la cima con múltiples empresas operativas debajo"
 ---
 
@@ -62,39 +62,7 @@ Una **empresa operativa** es la sociedad que realiza la actividad comercial real
 
 ### Estructura Típica
 
-```
-Dueños (personas físicas)
-       │
-       ▼
-  ┌─────────────┐
-  │   HOLDING   │  ← Propietaria de las subsidiarias
-  │  (EE. UU. o  │     Recibe dividendos, regalías
-  │   offshore)  │     Sin operaciones, sin riesgo
-  └─────────────┘
-       │
-       ├────────────────────────────────┐
-       ▼                                ▼
-┌─────────────────┐          ┌─────────────────┐
-│  OPERATIVA 1    │          │  OPERATIVA 2    │
-│  (EE. UU. /     │          │  (LATAM /       │
-│   país A)       │          │   país B)       │
-│  ─ Factura a    │          │  ─ Factura a    │
-│    clientes     │          │    clientes     │
-│  ─ Tiene        │          │  ─ Tiene        │
-│    empleados    │          │    empleados    │
-│  ─ Stripe       │          │  ─ Stripe       │
-│  ─ Riesgo       │          │  ─ Riesgo       │
-└─────────────────┘          └─────────────────┘
-```
-
 ### Ejemplo Práctico
-
-```
-Holding: Sotomayor Holding LLC (Wyoming)
-  ├── Sotomayor Consulting LLC (EE. UU.) → Stripe → Clientes globales
-  ├── Sotomayor LATAM S.A.S. (Colombia) → Clientes LATAM
-  └── Sotomayor Europe Ltd (Reino Unido) → Clientes Europa
-```
 
 ## 5. Beneficios de la Estructura Holding
 
@@ -119,126 +87,17 @@ Holding: Sotomayor Holding LLC (Wyoming)
 
 ### Ejemplo: Regalías por IP
 
-```javascript
-// La operativa paga regalías a la holding por uso de IP
-// La holding recibe el ingreso sin riesgo operativo
-
-// Stripe cobra en la operativa
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Licencia de Software',
-      },
-      unit_amount: 100000, // $1,000
-    },
-    quantity: 1,
-  }],
-});
-
-// La operativa paga 5% de regalía a la holding
-// $50 van a la holding como regalía (deducible para operativa)
-// $950 quedan en la operativa (sujeto a impuestos locales)
-```
-
 ## 6. Holding con Stripe
 
 ### Stripe en la Operativa
 
-```javascript
-// Stripe va en la empresa operativa, no en la holding
-// La operativa factura, cobra y tiene la relación con clientes
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Empresa Operativa LLC', // No la holding
-    tax_id: 'XX-XXXXXXX',
-  },
-});
-
-// Los pagos van a la cuenta bancaria de la operativa
-// La operativa luego distribuye dividendos/regalías a la holding
-```
-
 ### Stripe Connect para Múltiples Operativas
-
-```javascript
-// Stripe Connect: Cada operativa puede tener su propia cuenta
-// La holding centraliza el reporting
-
-// Operativa 1: US
-const accountUS = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  business_type: 'company',
-});
-
-// Operativa 2: Colombia
-const accountCO = await stripe.accounts.create({
-  type: 'express',
-  country: 'CO',
-  business_type: 'company',
-});
-
-// Stripe permite ver todas desde un solo Dashboard
-```
 
 ## 7. Flujo de Dinero en la Estructura
 
 ### Cómo Circula el Dinero
 
-```
-Cliente → Stripe → Cuenta bancaria Operativa
-                         │
-                         ▼
-                  ┌──────────────┐
-                  │  OPERATIVA   │
-                  │  ─ Paga      │
-                  │    gastos    │
-                  │  ─ Paga      │
-                  │    regalías  │
-                  │    a holding │
-                  │  ─ Paga      │
-                  │    impuestos │
-                  └──────┬───────┘
-                         │ Regalías / Dividendos
-                         ▼
-                  ┌──────────────┐
-                  │   HOLDING    │
-                  │  ─ Recibe    │
-                  │    regalías  │
-                  │  ─ Invierte  │
-                  │  ─ Protege   │
-                  │    activos   │
-                  └──────────────┘
-```
-
 ### Regalías desde Operativa a Holding
-
-```javascript
-// Stripe: No maneja directamente regalías entre empresas
-// pero puedes usar Transferencias para simularlo
-
-// 1. Stripe cobra al cliente → Cuenta de la operativa
-// 2. La operativa transfiere regalía a la holding
-
-const transfer = await stripe.transfers.create({
-  amount: 5000, // $50 (5% de regalía sobre $1,000)
-  currency: 'usd',
-  destination: 'ba_cuenta_holding',
-  transfer_group: 'ROYALTY-2026-01',
-  metadata: {
-    type: 'royalty',
-    invoice_ref: 'INV-2026-001',
-    ip_license: 'SOFTWARE-LICENSE-001',
-  },
-});
-```
 
 ## 8. Casos de Uso Recomendados
 

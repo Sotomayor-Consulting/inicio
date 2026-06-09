@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Open International Operations: 2026 Guide"
 description: "How to open international operations"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/negocios-internacionales.png"
 cardImageAlt: "World map with expansion icons: Delaware company formation, bank accounts, global hiring, Stripe payments, and virtual offices connected"
 ---
 
@@ -20,52 +20,6 @@ In this guide, we explain **how to open international operations** in 2026: from
 | **Level 3: Global presence** | Offices, employees, subsidiaries in multiple countries | Delaware holding + EU subsidiary + EOR in LATAM |
 
 ### Benefits of International Operations
-
-```
-BENEFITS OF OPENING INTERNATIONAL OPERATIONS:
-
-✅ INVOICE IN USD, EUR, GBP
-   - No exchange controls
-   - Clients can pay locally
-   - Favorable exchange rates
-
-✅ ASSET PROTECTION
-   - LLC/CORP separates personal assets
-   - Holding structure protects assets
-   - International estate planning
-
-✅ HIRE GLOBAL TALENT
-   - Access to the best talent worldwide
-   - Competitive costs by country
-   - 24/7 teams (follow the sun)
-
-✅ TAX OPTIMIZATION
-   - Corporate rates from 0-21%
-   - International tax planning
-   - Double taxation treaties
-
-✅ CAPITAL ACCESS
-   - International VCs and investors
-   - Banks in US, Europe, Asia
-   - Global credit lines
-```
-
-```javascript
-// Stripe: The first step to international operations
-
-// Stripe Atlas incorporates you in Delaware
-// Stripe Payments lets you charge globally
-
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'corporation',
-  business_profile: {
-    name: 'Global Operations LLC',
-    url: 'https://globalops.com',
-  },
-});
-```
 
 ## 2. Choosing Jurisdictions
 
@@ -86,76 +40,11 @@ const account = await stripe.accounts.create({
 
 ### Recommendation by Business Type
 
-```
-DIGITAL ENTREPRENEUR (FREELANCER / SOLOPRENEUR):
-→ LLC in Wyoming ($500 Stripe Atlas)
-→ Mercury account ($0)
-→ Stripe Payments
-→ Wise Business for FX
-→ Total cost: ~$800/year
-
-SAAS STARTUP (SEEKING INVESTMENT):
-→ C-Corp in Delaware ($500 Stripe Atlas)
-→ Mercury or Brex account ($0)
-→ Stripe Billing + Tax
-→ Deel for global hiring
-→ Total cost: ~$5,000/year
-
-COMPANY WITH PHYSICAL OPERATIONS:
-→ Delaware C-Corp (holding)
-→ Local subsidiary in each operating country
-→ Local bank accounts
-→ EOR for countries without subsidiary
-→ International CPA + local lawyers
-→ Total cost: $20,000+/year
-```
-
 ## 3. Company Formation
 
 ### Stripe Atlas: Your Gateway to the US
 
-```
-WHAT'S INCLUDED WITH STRIPE ATLAS?
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-✅ LLC or C-Corp formation in Delaware
-✅ EIN (Employer Identification Number) from IRS
-✅ Stripe bank account to charge clients
-✅ Corporate resolution and founder certificate
-✅ Certificate of formation
-✅ Operating agreement (LLC) or Bylaws (C-Corp)
-✅ W-8BEN-E (for non-residents)
-✅ Access to Mercury, Brex, AWS, Google Cloud, Notion
-
-COST: $500 (one-time)
-TIME: 3-7 business days
-REQUIREMENT: Valid passport or ID
-
-ALTERNATIVES:
-- Firstbase: $329 + $199/year (similar to Atlas)
-- LegalZoom: $149 + filing fees (no EIN included)
-- Local lawyer: $2,000-5,000 (customized)
-```
-
 ### Step-by-Step: Form Your US Company
-
-```javascript
-// Stripe Atlas: Programmatic incorporation
-
-// 1. Start the process at stripe.com/atlas
-// 2. Complete the questionnaire (name, type, address)
-// 3. Pay $500
-// 4. Stripe forms the LLC/C-Corp in Delaware (3-7 days)
-// 5. You receive: EIN, corporate documents, Stripe account
-// 6. Open Mercury or Brex account (1-3 days)
-// 7. Configure Stripe Payments
-
-// Once formed, your Stripe account is ready
-const account = await stripe.accounts.retrieve('{{ACCOUNT_ID}}');
-console.log(`Company: ${account.company.name}`);
-console.log(`EIN: ${account.company.tax_id}`);
-console.log(`Country: ${account.country}`);
-```
 
 ## 4. International Bank Accounts
 
@@ -171,34 +60,6 @@ console.log(`Country: ${account.country}`);
 | **Revolut Business** | UK/Lithuania | $0-100/month | European SMBs | ✅ Integration |
 
 ### Recommended Banking Flow
-
-```
-MONEY FLOW IN INTERNATIONAL OPERATIONS:
-
-CLIENTS (global)
-     ↓ Pay in USD, EUR, GBP
-STRIPE PAYMENTS
-     ↓ Stripe holds in USD
-MERCURY / WISE
-     ↓ Convert FX when you want
-YOUR LOCAL BANK
-     ↓ Withdraw in your local currency
-BUSINESS EXPENSES
-```
-
-```javascript
-// Stripe + Mercury: International banking stack
-
-// Stripe receives payments from global clients
-const balance = await stripe.balance.retrieve();
-console.log(`Stripe balance: $${balance.available[0].amount / 100}`);
-
-// Mercury holds USD for operational expenses
-// (Stripe sends automatically to Mercury)
-
-// Wise converts to local currency when FX is favorable
-// Mercury → Wise → Conversion → Local bank
-```
 
 ## 5. Global Hiring
 
@@ -224,24 +85,6 @@ console.log(`Stripe balance: $${balance.available[0].amount / 100}`);
 
 ### How to Integrate EOR with Stripe Connect
 
-```javascript
-// Stripe Connect: Pay your EOR automatically
-
-// Deel/Remote/Oyster have connected accounts
-// You pay from your US LLC automatically
-
-const transfer = await stripe.transfers.create({
-  amount: 599000, // $5,990 (10 employees x $599 Deel)
-  currency: 'usd',
-  destination: '{{EOR_ACCOUNT_ID}}',
-  description: 'Global payroll - June 2026',
-});
-
-// Deel pays each employee in their local currency
-// Deel handles: payroll, taxes, benefits, compliance
-// You just pay one monthly invoice to Deel
-```
-
 ## 6. Payment Infrastructure
 
 ### Stripe for Global Operations
@@ -259,27 +102,6 @@ const transfer = await stripe.transfers.create({
 
 ### Recommended Payment Architecture
 
-```
-PAYMENT STRUCTURE FOR INTERNATIONAL OPERATIONS:
-
-REVENUE:
-  Global clients → Stripe Payments (USD) → Mercury (USD)
-
-OPERATING EXPENSES:
-  Mercury → Stripe Issuing (team cards)
-  Mercury → Stripe Connect (contractor payments)
-  Mercury → Deel (global payroll)
-
-PERSONAL EXPENSES:
-  Mercury → Wise (FX conversion) → Your local bank
-
-TAXES:
-  Stripe Tax → Reports → CPA → IRS + local authority
-
-ALL FROM ONE PLATFORM:
-  Stripe Dashboard to see revenue, expenses, taxes
-```
-
 ## 7. International Tax Compliance
 
 ### Taxes When Operating Globally
@@ -296,51 +118,6 @@ ALL FROM ONE PLATFORM:
 
 ### Recommended Tax Structure
 
-```
-DIGITAL COMPANY OPERATING GLOBALLY:
-
-TYPICAL STRUCTURE:
-
-Holding (Delaware C-Corp or International)
-    │
-    ├── Operating LLC (US)
-    │     └── Invoice US and global clients
-    │
-    ├── European Subsidiary (if applicable)
-    │     └── Invoice EU clients (VAT handling)
-    │
-    └── EOR (Deel/Remote) for employees
-          └── Employees in LATAM, Europe, Asia
-
-BENEFITS:
-- Global revenue → 21% CIT in US (or less)
-- No permanent establishment in countries without subsidiary
-- Documented transfer pricing
-- Double taxation avoided with treaties
-```
-
-```javascript
-// Stripe Tax: Automated tax compliance
-
-// Stripe calculates and reports taxes by jurisdiction
-await stripe.tax.settings.update({
-  defaults: {
-    tax_behavior: 'exclusive',
-  },
-});
-
-// Each transaction has the correct tax
-const transactions = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 2592000, // 30 days
-    interval_end: Math.floor(Date.now() / 1000),
-  },
-});
-
-// Your CPA uses these reports for filings
-```
-
 ## 8. Virtual Office and Physical Presence
 
 ### Global Presence Options
@@ -355,92 +132,13 @@ const transactions = await stripe.reporting.reportRuns.create({
 
 ### Tools Stack for Remote Operations
 
-```
-ESSENTIAL TOOLS FOR INTERNATIONAL OPERATIONS:
-
-COMMUNICATION:
-- Slack: team communication
-- Zoom/Google Meet: video calls
-- Loom: async messages
-
-PROJECTS:
-- Notion: documentation and wiki
-- Linear/Jira: project management
-- Asana: task tracking
-
-FINANCE:
-- Stripe: global payments
-- Mercury: US banking
-- Wise: FX and transfers
-- QuickBooks/Xero: accounting
-
-LEGAL:
-- Stripe Atlas: incorporation
-- Deel: global hiring
-- Docusign: digital contracts
-- Northwest: registered agent
-
-PRODUCTIVITY:
-- Google Workspace: email and docs
-- 1Password: password management
-- Cloudflare: DNS and security
-- Vercel/Netlify: hosting
-```
-
 ## 9. 90-Day Plan to Open Operations
 
 ### Month 1: Foundation
 
-```
-WEEK 1-2: LEGAL STRUCTURE
-□ Define primary jurisdiction (US recommended)
-□ Stripe Atlas → LLC or C-Corp in Delaware ($500)
-□ Get EIN from IRS (3-7 days)
-□ Hire Registered Agent (Northwest, ZenBusiness)
-□ Get virtual address (iPostal1, Regus)
-
-WEEK 3-4: BANKING AND PAYMENTS
-□ Open Mercury or Brex account ($0)
-□ Configure Stripe Payments
-□ Configure Stripe Tax
-□ Configure Stripe Billing (if applicable)
-□ Configure Wise Business for FX
-```
-
 ### Month 2: Operations
 
-```
-WEEK 5-6: HIRING
-□ Choose EOR (Deel, Remote, Oyster)
-□ Hire first employees/contractors
-□ Configure Stripe Connect for payments
-□ Configure Stripe Issuing for team cards
-
-WEEK 7-8: INFRASTRUCTURE
-□ Configure Google Workspace
-□ Configure Slack + channels by country
-□ Configure Notion with documentation
-□ Configure QuickBooks/Xero accounting
-□ Hire international CPA
-```
-
 ### Month 3: Growth
-
-```
-WEEK 9-10: COMPLIANCE
-□ Register VAT in EU (if applicable)
-□ Document transfer pricing
-□ Configure Stripe Identity (KYC)
-□ GDPR privacy policy
-□ Multi-language terms of service
-
-WEEK 11-12: OPTIMIZATION
-□ Review tax structure with CPA
-□ Optimize FX flow (Stripe → Wise → local bank)
-□ Configure Stripe Reporting for decisions
-□ Plan expansion to next jurisdiction
-□ Hire global corporate attorney
-```
 
 ## 10. Common Mistakes When Opening Operations
 
@@ -461,103 +159,11 @@ WEEK 11-12: OPTIMIZATION
 
 ### Case 1: Brazilian SaaS Global Expansion
 
-```
-COMPANY: Brazilian payments SaaS
-FOUNDERS: 3 in São Paulo
-
-BEFORE:
-- Company in Brazil (CNPJ)
-- Billed in BRL to local clients
-- MRR: $30,000/month
-- Taxes: 34% (Lucro Real)
-- No international presence
-
-INTERNATIONAL OPERATIONS:
-1. Stripe Atlas → C-Corp in Delaware (holding)
-2. Brazilian subsidiary (local operations)
-3. Mercury → US bank account
-4. Stripe Billing → USD subscriptions
-5. Stripe Tax → automatic VAT for EU clients
-6. Deel → 2 employees in Portugal, 1 in Colombia
-
-RESULT:
-- MRR: $120,000/month (4x in 12 months)
-- 50% of revenue in USD (US and Europe)
-- Effective tax dropped from 34% to ~15%
-- Stripe handles payments in 20+ countries
-- Deel handles global employee compliance
-```
-
 ### Case 2: Mexican Consulting Firm US Operation
-
-```
-COMPANY: Mexican IT consulting firm
-FOUNDER: Entrepreneur in Mexico City
-
-BEFORE:
-- Individual with business activity
-- Billed in MXN to local clients
-- Revenue: $20,000/month
-- No legal protection
-- US clients couldn't hire them
-
-INTERNATIONAL OPERATIONS:
-1. Stripe Atlas → LLC in Wyoming
-2. Mercury → US bank account
-3. Stripe Invoicing → bill in USD to US clients
-4. Wise → USD to MXN conversion (real exchange rate)
-5. Deel → US-based contractor (business development)
-6. International CPA → 1040-NR + local filing
-
-RESULT:
-- Revenue: $60,000/month (3x in 6 months)
-- 70% of revenue in USD
-- LLC protects personal assets
-- Wise saves 10-15% vs traditional banks
-- Stripe automates invoicing and collection
-```
 
 ## 12. Complete Tech Stack
 
 ### Your Stack for International Operations
-
-```
-┌────────────────────────────────────────────┐
-│         INCORPORATION                       │
-│  Stripe Atlas ($500) → Delaware LLC/C-Corp  │
-│  Northwest Registered Agent ($100/year)     │
-│  iPostal1 ($10/month) virtual address       │
-├────────────────────────────────────────────┤
-│         BANKING                             │
-│  Mercury ($0) → US Account                 │
-│  Wise Business ($0) → FX and multi-currency│
-│  Stripe Treasury (integrated)              │
-├────────────────────────────────────────────┤
-│         PAYMENTS                            │
-│  Stripe Payments → Charge globally         │
-│  Stripe Billing → Subscriptions            │
-│  Stripe Connect → Pay contractors          │
-│  Stripe Tax → Automatic taxes              │
-├────────────────────────────────────────────┤
-│         HIRING                              │
-│  Deel ($599/employee) → Global EOR         │
-│  Stripe Issuing → Corporate cards          │
-├────────────────────────────────────────────┤
-│         ACCOUNTING                          │
-│  QuickBooks / Xero → Books                 │
-│  International CPA → Taxes                 │
-├────────────────────────────────────────────┤
-│         OPERATIONS                          │
-│  Google Workspace → Email + Docs           │
-│  Slack → Communication                     │
-│  Notion → Documentation                    │
-│  Linear → Projects                         │
-│  1Password → Security                      │
-└────────────────────────────────────────────┘
-
-TOTAL ANNUAL COST: ~$5,000-15,000/year
-RETURN: Tax savings + international growth = 10x+
-```
 
 ## 13. Checklist for Opening International Operations
 

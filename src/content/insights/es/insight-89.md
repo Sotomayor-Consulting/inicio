@@ -1,7 +1,7 @@
----
+﻿---
 title: "Real Estate como Vehículo de Migración a EE. UU.: Guía 2026"
 description: "Real estate como vehículo de migración a EE. UU."
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/real-state.png"
 cardImageAlt: "Mapa de EE. UU. con ruta de migración: visados E-2, EB-5, L-1, y cómo la inversión inmobiliaria abre caminos migratorios"
 ---
 
@@ -22,45 +22,6 @@ En esta guía, explicamos **cómo usar el real estate como vehículo de migraci�
 | **F-1 (OPT)** | Estudiante | Sin mínimo | 1-3 años | ⚠️ Limitado | ⚠️ Posible (H-1B) |
 
 ### ¿Puedo Obtener una Visa Solo por Comprar una Propiedad?
-
-```
-Respuesta corta: NO.
-
-Comprar una propiedad residencial en EE. UU. NO te da derecho
-a ninguna visa. Necesitas una visa válida para residir.
-
-PERO: el real estate PUEDE ser la base para:
-
-1. VISA E-2: Si tu país tiene tratado, invertir en una
-   empresa activa (ej: property management, short-term rentals)
-   que opere propiedades puede calificar.
-
-2. VISA EB-5: Invertir en un proyecto de real estate
-   comercial que genere 10 empleos.
-
-3. VISA L-1: Si tu empresa extranjera compra propiedades
-   y te transfieren para administrarlas.
-
-4. RENTA PASIVA (B-1): Puedes visitar para supervisar
-   tu inversión, pero no trabajar activamente.
-```
-
-```javascript
-// Stripe: Stripe puede demostrar ingresos activos
-// para solicitudes de visa E-2 (negocio operativo)
-
-// Reporte de ingresos para la solicitud de visa
-const visaIncomeReport = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 31536000,
-    interval_end: Math.floor(Date.now() / 1000),
-    columns: ['created', 'amount', 'description', 'customer_email', 'status'],
-  },
-});
-
-// Ingresos activos (no pasivos) demuestran negocio en funcionamiento
-```
 
 ## 2. Visa E-2: Inversor por Tratado
 
@@ -90,75 +51,7 @@ La visa E-2 permite a ciudadanos de países con tratado de comercio con EE. UU. 
 
 ### Requisitos para Visa E-2 con Real Estate
 
-```
-REQUISITOS CLAVE:
-
-1. INVERSIÓN SUSTANCIAL
-   - No hay monto mínimo legal, pero $100,000+ es la práctica
-   - La inversión debe ser "sustancial" (proporcional al negocio)
-   - Debe estar en riesgo (no es un depósito bancario)
-
-2. NEGOCIO ACTIVO (NO PASIVO)
-   - Comprar una casa y alquilarla NO califica (renta pasiva)
-   - Tener un negocio de short-term rentals SÍ califica
-   - Property management + renovations SÍ califica
-   - Desarrollo inmobiliario SÍ califica
-
-3. MARGINALIDAD
-   - El negocio debe generar suficiente ingreso para vivir
-   - No puede ser "marginal" (no puede depender de otro empleo)
-
-4. CONTROL
-   - Debes poseer al menos 50% del negocio
-   - O tener control operativo
-
-EJEMPLO QUE CALIFICA:
-- LLC que opera 3 short-term rentals
-- Contratos con plataformas (Airbnb, VRBO)
-- Stripe configurado para cobros
-- Ingreso neto: $60,000+/año
-- Inversión: $200,000 (compra + renovación)
-
-EJEMPLO QUE NO CALIFICA:
-- Comprar una casa unifamiliar con inquilino a largo plazo
-- Sin actividad operativa
-- Ingreso pasivo solamente
-- Inversión: cualquier monto
-```
-
 ### Paso a Paso para Visa E-2 con Real Estate
-
-```
-1. VERIFICAR TRATADO
-   - Confirmar que tu país tiene tratado E-2 con EE. UU.
-
-2. ESTRUCTURAR EL NEGOCIO
-   - Formar LLC con EIN
-   - El negocio NO es "holding properties" sino "operating rentals"
-   - Configurar Stripe para cobros
-
-3. INVERTIR
-   - Comprar propiedades para short-term rental
-   - O negocio de property management
-   - O desarrollo/renovación de propiedades
-
-4. DEMOSTRAR NEGOCIO ACTIVO
-   - Contratos de arrendamiento
-   - Ingresos por Stripe
-   - Marketing activo (Airbnb listings, website)
-   - Empleados (si aplica)
-
-5. SOLICITAR VISA
-   - Completar Formulario DS-160
-   - Presentar evidencia de inversión
-   - Business plan
-   - Entrevista en consulado/embajada de EE. UU.
-
-6. MANTENER
-   - Renovar E-2 cada 2-5 años
-   - Demostrar que el negocio sigue activo
-   - Pagar taxes anualmente
-```
 
 ## 3. Visa EB-5: Inversionista Inmigrante
 
@@ -177,66 +70,7 @@ La visa EB-5 es un camino directo a la Green Card (residencia permanente) median
 
 ### EB-5 y Real Estate: Ejemplos
 
-```
-EB-5 DIRECTO CON REAL ESTATE:
-
-Inviertes $1,050,000 en:
-- Un hotel de 20 habitaciones en Florida
-- Empleas: 10+ personas (recepcionistas, limpieza, mantenimiento)
-- Tú gestionas el hotel
-- Requisito: crear 10 empleos directos a tiempo completo
-
-EB-5 CENTRO REGIONAL CON REAL ESTATE:
-
-Inviertes $800,000 en:
-- Un centro regional que desarrolla un complejo de apartamentos
-- El centro regional contabiliza empleos directos e indirectos
-- No necesitas gestionar nada
-- Riesgo: el proyecto debe tener éxito
-
-REQUISITOS EB-5:
-1. La inversión debe estar "en riesgo" (no garantizada)
-2. Debes demostrar origen lícito de fondos
-3. La inversión debe crearse dentro de 2 años
-4. Debes generar 10 empleos a tiempo completo
-```
-
 ### Paso a Paso para EB-5
-
-```
-1. ELEGIR ESTRUCTURA
-   - EB-5 Directo (más control, más inversión)
-   - EB-5 Centro Regional (menos control, menos inversión, más popular)
-
-2. PREPARAR ORIGEN DE FONDOS
-   - Demostrar que los fondos vienen de fuentes legales
-   - Documentación: tax returns, escrituras, contratos, estados de cuenta
-   - Traducciones certificadas
-
-3. INVERTIR
-   - Transferir los fondos a la entidad EB-5
-   - La inversión debe estar "en riesgo"
-
-4. PRESENTAR I-526
-   - Petición de inversionista inmigrante
-   - Evidencia de inversión y creación de empleos
-   - Tiempo: 12-24 meses (puede variar)
-
-5. GREEN CARD CONDICIONAL
-   - Si I-526 es aprobada
-   - Residencia por 2 años
-
-6. PRESENTAR I-829
-   - Después de 2 años, demostrar que se crearon 10 empleos
-   - Si se aprueba: Green Card permanente
-   - Tiempo: 12-24 meses
-
-PLAZO TOTAL: 3-5 años para Green Card permanente
-COSTO APROXIMADO:
-- Inversión: $800,000-$1,050,000
-- Legal fees: $30,000-75,000
-- Administrative fees: $5,000-10,000
-```
 
 ## 4. Visa L-1: Transferencia Intracompañía
 
@@ -252,28 +86,6 @@ Permite a empresas extranjeras transferir ejecutivos o gerentes a su oficina en 
 | **Real estate** | Subsidiaria de property management | Técnico especializado |
 
 ### Cómo Usar Real Estate para Visa L-1
-
-```
-ESTRUCTURA:
-
-Tu empresa en tu país (matriz)
-  └── Nueva empresa en EE. UU. (subsidiaria)
-        └── Compra y opera propiedades
-        └── Tú eres transferido como gerente
-
-REQUISITOS:
-1. La empresa extranjera debe existir y estar activa
-2. Debes haber trabajado 1 año en la empresa extranjera
-3. La subsidiaria US debe ser una extensión real del negocio
-4. Debes desempeñar funciones ejecutivas o gerenciales
-
-EJEMPLO:
-- Tienes una empresa de construcción en tu país
-- Abres una subsidiaria en Florida (US)
-- La subsidiaria compra terrenos y desarrolla propiedades
-- Te transfieren como gerente general
-- Puedes obtener L-1A → luego EB-1C → Green Card
-```
 
 ## 5. B-1/B-2: Visitante para Supervisar Inversiones
 
@@ -292,20 +104,6 @@ EJEMPLO:
 
 ### Límites del B-1/B-2
 
-```
-MÁXIMO 6 MESES por visita
-NO PUEDES trabajar (generar ingresos activos)
-SÍ PUEDES gestionar inversiones pasivas
-
-Para extranjeros con propiedades en EE. UU.:
-- Puedes visitar para supervisar tu inversión
-- Reunirte con property manager y CPA
-- Inspeccionar propiedades
-- Pero NO puedes cobrar rentas ni hacer maintenance
-
-Si necesitas estar más tiempo: E-2, L-1 o EB-5
-```
-
 ## 6. Visa de Estudiante (F-1) y Real Estate
 
 ### ¿Puede un Estudiante Internacional Invertir en Real Estate?
@@ -320,83 +118,9 @@ Si necesitas estar más tiempo: E-2, L-1 o EB-5
 
 ### Estrategia F-1 + Real Estate
 
-```
-Muchos estudiantes internacionales compran propiedades
-mientras estudian, siguiendo esta estrategia:
-
-1. Comprar una propiedad cerca de la universidad
-2. Vivir en una habitación, alquilar las otras (house hacking)
-3. La renta de las otras habitaciones paga la hipoteca
-4. Al graduarse, venden o mantienen como inversión
-
-VENTAJAS:
-- Vivienda gratuita o reducida durante estudios
-- Construyen historial crediticio
-- La propiedad se aprecia durante sus estudios
-- Pueden continuar invirtiendo después con OPT/STEM OPT
-
-LIMITACIONES:
-- No pueden trabajar activamente en el negocio
-- Deben usar property manager si no pueden gestionar
-- No pueden usar la propiedad como Airbnb si viola su estatus
-```
-
 ## 7. Estructuración de la Inversión para Migración
 
 ### Lo que Busca USCIS
-
-```
-USCIS (Servicio de Ciudadanía e Inmigración) evalúa:
-
-1. INVERSIÓN EN RIESGO
-   - No puedes recuperar el capital fácilmente
-   - Stripe demuestra ingresos operativos
-   - La LLC tiene gastos operativos reales
-
-2. NEGOCIO ACTIVO (para E-2 y L-1)
-   - Stripe transactions → ingresos recurrentes
-   - Gastos operativos → management, marketing, reparaciones
-   - Empleados (si aplica)
-   - Presencia física (oficina o propiedades)
-
-3. CREACIÓN DE EMPLEOS (para EB-5)
-   - Nómina de empleados
-   - Formularios W-2 y 1099
-   - Contratos laborales
-
-4. ORIGEN LÍCITO DE FONDOS
-   - Bank statements
-   - Tax returns
-   - Escrituras de propiedades vendidas
-   - Contratos comerciales
-```
-
-```javascript
-// Stripe para demostrar actividad del negocio
-
-// 1. Reporte de transacciones para USCIS
-const report = await stripe.reporting.reportRuns.create({
-  report_type: 'itemized_transactions',
-  parameters: {
-    interval_start: Math.floor(Date.now() / 1000) - 31536000,
-    interval_end: Math.floor(Date.now() / 1000),
-    columns: [
-      'created',
-      'amount',
-      'description',
-      'customer',
-      'payment_intent',
-      'status',
-    ],
-  },
-});
-
-// 2. Stripe Connect para demostrar estructura multi-LLC
-// 3. Stripe Tax para demostrar cumplimiento fiscal
-
-// Stripe Dashboard → Reports → Downloads
-// Todo queda registrado para la solicitud de visa
-```
 
 ## 8. Comparación de Visas: ¿Cuál te Conviene?
 
@@ -416,32 +140,6 @@ const report = await stripe.reporting.reportRuns.create({
 
 ### Recomendación por Perfil
 
-```
-PERFIL 1: INVERSOR CON CAPITAL MODERADO ($100K-$500K)
-→ Visa E-2 (si tu país tiene tratado)
-  - Invierte en short-term rentals
-  - Negocio activo de property management
-  - Renovable indefinidamente
-
-PERFIL 2: INVERSOR CON ALTO CAPITAL ($800K+)
-→ Visa EB-5 (camino a Green Card)
-  - Inversión en centro regional o proyecto directo
-  - Residencia permanente para ti y tu familia
-  - Riesgo: la inversión debe crear 10 empleos
-
-PERFIL 3: EMPRESARIO CON NEGOCIO INTERNACIONAL
-→ Visa L-1
-  - Abre subsidiaria en EE. UU. para real estate
-  - Transferencia intracompañía
-  - Camino a Green Card vía EB-1C
-
-PERFIL 4: INVERSOR QUE SOLO QUIERE VISITAR
-→ Visa B-1/B-2
-  - Sin inversión mínima
-  - Para supervisar propiedades existentes
-  - No permite trabajar ni residir
-```
-
 ## 9. Costos Asociados a Cada Visa
 
 ### Desglose de Costos
@@ -455,26 +153,6 @@ PERFIL 4: INVERSOR QUE SOLO QUIERE VISITAR
 
 ### Tiempo Estimado por Visa
 
-```
-E-2 (país con tratado):
-- Preparación: 1-3 meses
-- Proceso consular: 2-4 semanas
-- Total: 2-4 meses
-
-EB-5:
-- Preparación (origen de fondos): 3-6 meses
-- I-526: 12-24 meses
-- Consular processing: 3-6 meses
-- Green Card condicional: 2 años
-- I-829 (permanente): 12-24 meses
-- Total: 3-5 años
-
-L-1:
-- Preparación: 1-3 meses
-- I-129: 2-4 meses (regular) o 15 días (premium)
-- Total: 3-6 meses
-```
-
 ## 10. Riesgos y Consideraciones
 
 ### Riesgos Migratorios
@@ -487,31 +165,6 @@ L-1:
 | **Cambio político** | Bajo (tratado vigente) | Bajo (ley establecida) | Bajo |
 
 ### Consideraciones Importantes
-
-```
-1. REAL ESTATE POR SÍ SOLO NO DA VISA
-   - Comprar una casa NO te da derecho a visa
-   - Necesitas un negocio ACTIVO o inversión calificada
-
-2. NO USES REAL ESTATE PARA TRABAJAR SIN VISA
-   - Gestionar propiedades (cobrar, firmar contratos) sin visa es ilegal
-   - Puede resultar en deportación y prohibición de entrada
-
-3. EL ORIGEN DE FONDOS ES CRÍTICO
-   - USCIS investiga el origen de los fondos
-   - Especialmente en EB-5
-   - Ten toda la documentación lista
-
-4. LA ESTRUCTURA IMPORTA
-   - Para E-2: LLC operativa con Stripe
-   - Para EB-5: Nueva entidad comercial (no LLC personal)
-   - Para L-1: Subsidiaria de tu empresa extranjera
-
-5. CONSULTA SIEMPRE CON ABOGADO DE INMIGRACIÓN
-   - Este artículo es informativo, no asesoría legal
-   - Cada caso es único
-   - Las leyes migratorias cambian frecuentemente
-```
 
 ## 11. Preguntas Frecuentes
 

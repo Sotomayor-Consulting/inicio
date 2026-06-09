@@ -1,293 +1,293 @@
-ï»¿---
-title: "EvasÃ£o vs Planejamento Fiscal: A Linha que Todo Empreendedor Deve Conhecer"
-description: "As diferenÃ§as fundamentais entre evasÃ£o fiscal (ilegal) e planejamento fiscal (legal), como garantir que vocÃª estÃ¡ do lado correto e proteger sua LLC."
-cardImage: "@/images/insights/evasiÃ³n-vs-planficaciÃ³n-fiscal.png"
-cardImageAlt: "BalanÃ§a com dinheiro de um lado e livro de leis do outro"
+---
+title: "Evasão vs Planejamento Fiscal: A Linha que Todo Empreendedor Deve Conhecer"
+description: "As diferenças fundamentais entre evasão fiscal (ilegal) e planejamento fiscal (legal), como garantir que você está do lado correto e proteger sua LLC."
+cardImage: "@/images/insights/evasión-vs-planficación-fiscal.png"
+cardImageAlt: "Balança com dinheiro de um lado e livro de leis do outro"
 ---
 
-Um dos conceitos mais confusos para empreendedores internacionais com LLCs Ã© a diferenÃ§a entre **evasÃ£o fiscal** (ilegal) e **planejamento fiscal** (legal). A linha pode parecer fina, mas as consequÃªncias de cruzÃ¡-la sÃ£o radicalmente diferentes.
+Um dos conceitos mais confusos para empreendedores internacionais com LLCs é a diferença entre **evasão fiscal** (ilegal) e **planejamento fiscal** (legal). A linha pode parecer fina, mas as consequências de cruzá-la são radicalmente diferentes.
 
-Neste guia, explicamos o que distingue uma da outra, com exemplos concretos para que vocÃª esteja sempre do lado correto da lei.
+Neste guia, explicamos o que distingue uma da outra, com exemplos concretos para que você esteja sempre do lado correto da lei.
 
-## A diferenÃ§a fundamental
+## A diferença fundamental
 
-| Aspecto | Planejamento Fiscal | EvasÃ£o Fiscal |
+| Aspecto | Planejamento Fiscal | Evasão Fiscal |
 |---------|--------------------|--------------|
-| **Legalidade** | âœ… Legal | âŒ Ilegal |
+| **Legalidade** | ? Legal | ? Ilegal |
 | **Objetivo** | Pagar o justo segundo a lei | Pagar menos do que a lei exige |
-| **MÃ©todo** | Usar brechas legais e incentivos fiscais | Ocultar receitas ou inflar despesas |
-| **Risco** | Baixo (se feito corretamente) | Alto (multas, prisÃ£o, fechamento do negÃ³cio) |
-| **Resultado** | OtimizaÃ§Ã£o fiscal sustentÃ¡vel | Problemas com o IRS e autoridades locais |
-| **Exemplo** | Escolher Wyoming por leis favorÃ¡veis | NÃ£o declarar as receitas da LLC |
+| **Método** | Usar brechas legais e incentivos fiscais | Ocultar receitas ou inflar despesas |
+| **Risco** | Baixo (se feito corretamente) | Alto (multas, prisão, fechamento do negócio) |
+| **Resultado** | Otimização fiscal sustentável | Problemas com o IRS e autoridades locais |
+| **Exemplo** | Escolher Wyoming por leis favoráveis | Não declarar as receitas da LLC |
 
-### A metÃ¡fora do semÃ¡foro
+### A metáfora do semáforo
 
-- **ğŸŸ¢ Planejamento fiscal:** Usar as regras a seu favor para pagar o mÃ­nimo exigido por lei.
-- **ğŸŸ¡ ElisÃ£o fiscal:** Usar brechas legais de maneira agressiva (zona cinzenta, nÃ£o recomendada).
-- **ğŸ”´ EvasÃ£o fiscal:** Romper a lei para pagar menos impostos.
+- **?? Planejamento fiscal:** Usar as regras a seu favor para pagar o mínimo exigido por lei.
+- **?? Elisão fiscal:** Usar brechas legais de maneira agressiva (zona cinzenta, não recomendada).
+- **?? Evasão fiscal:** Romper a lei para pagar menos impostos.
 
-## O que Ã© planejamento fiscal?
+## O que é planejamento fiscal?
 
-Ã‰ o processo de organizar suas finanÃ§as e sua estrutura empresarial para **pagar os impostos mÃ­nimos exigidos por lei**, aproveitando deduÃ§Ãµes, crÃ©ditos fiscais, tratados internacionais e estruturas legais.
+É o processo de organizar suas finanças e sua estrutura empresarial para **pagar os impostos mínimos exigidos por lei**, aproveitando deduções, créditos fiscais, tratados internacionais e estruturas legais.
 
-### CaracterÃ­sticas
+### Características
 
-| CaracterÃ­stica | DescriÃ§Ã£o |
+| Característica | Descrição |
 |---------------|-----------|
-| **TransparÃªncia** | Todas as receitas sÃ£o declaradas |
+| **Transparência** | Todas as receitas são declaradas |
 | **Legalidade** | Usam-se mecanismos previstos por lei |
-| **DocumentaÃ§Ã£o** | Tudo estÃ¡ respaldado com faturas, contratos e registros |
-| **Sustentabilidade** | A estratÃ©gia mantÃ©m-se ao longo do tempo |
+| **Documentação** | Tudo está respaldado com faturas, contratos e registros |
+| **Sustentabilidade** | A estratégia mantém-se ao longo do tempo |
 | **Profissional** | Feito com assessoria de contadores e advogados |
 
-### Exemplos legÃ­timos de planejamento fiscal
+### Exemplos legítimos de planejamento fiscal
 
-âœ… **Escolher o estado correto para sua LLC.**
+? **Escolher o estado correto para sua LLC.**
    - Escolher Wyoming em vez de Delaware para poupar $240/ano em franchise tax.
    - Base legal: Liberdade de escolher onde constituir.
 
-âœ… **Usar a estrutura fiscal adequada.**
-   - Single-member LLC como disregarded entity para evitar dupla tributaÃ§Ã£o.
-   - Base legal: IRS permite esta classificaÃ§Ã£o.
+? **Usar a estrutura fiscal adequada.**
+   - Single-member LLC como disregarded entity para evitar dupla tributação.
+   - Base legal: IRS permite esta classificação.
 
-âœ… **Aproveitar deduÃ§Ãµes empresariais.**
-   - Deducir software, equipamentos, internet e serviÃ§os necessÃ¡rios para o negÃ³cio.
+? **Aproveitar deduções empresariais.**
+   - Deducir software, equipamentos, internet e serviços necessários para o negócio.
    - Base legal: Section 162 do Internal Revenue Code.
 
-âœ… **Reclamar crÃ©ditos fiscais.**
+? **Reclamar créditos fiscais.**
    - Foreign Tax Credit por impostos pagos nos EUA.
    - Base legal: Internal Revenue Code Section 901.
 
-âœ… **Usar tratados fiscais internacionais.**
-   - Reduzir retenÃ§Ãµes sobre juros e royalties.
-   - Base legal: Tratado fiscal entre seu paÃ­s e os EUA.
+? **Usar tratados fiscais internacionais.**
+   - Reduzir retenções sobre juros e royalties.
+   - Base legal: Tratado fiscal entre seu país e os EUA.
 
-âœ… **Separar linhas de negÃ³cio em diferentes LLCs.**
+? **Separar linhas de negócio em diferentes LLCs.**
    - Proteger os ativos de uma linha das responsabilidades de outra.
    - Base legal: Direito corporativo americano.
 
-## O que Ã© evasÃ£o fiscal?
+## O que é evasão fiscal?
 
-Ã‰ a aÃ§Ã£o ilegal de **nÃ£o pagar os impostos que a lei exige**, mediante ocultaÃ§Ã£o de receitas, superestimaÃ§Ã£o de despesas, uso de faturas falsas ou transferÃªncia de ativos para evitar seu reporte.
+É a ação ilegal de **não pagar os impostos que a lei exige**, mediante ocultação de receitas, superestimação de despesas, uso de faturas falsas ou transferência de ativos para evitar seu reporte.
 
-### CaracterÃ­sticas
+### Características
 
-| CaracterÃ­stica | DescriÃ§Ã£o |
+| Característica | Descrição |
 |---------------|-----------|
-| **OcultaÃ§Ã£o** | Receitas nÃ£o declaradas |
-| **Ilegalidade** | ViolaÃ§Ã£o direta da lei |
-| **Falta de documentaÃ§Ã£o** | Sem respaldo real das transaÃ§Ãµes |
-| **Risco alto** | Multas, prisÃ£o, fechamento do negÃ³cio |
-| **InsustentÃ¡vel** | Mais cedo ou mais tarde o fisco detecta |
+| **Ocultação** | Receitas não declaradas |
+| **Ilegalidade** | Violação direta da lei |
+| **Falta de documentação** | Sem respaldo real das transações |
+| **Risco alto** | Multas, prisão, fechamento do negócio |
+| **Insustentável** | Mais cedo ou mais tarde o fisco detecta |
 
-### Exemplos de evasÃ£o fiscal
+### Exemplos de evasão fiscal
 
-âŒ **NÃ£o declarar receitas da LLC.**
-   - Receber pagamentos numa conta pessoal e nÃ£o reportÃ¡-los ao IRS nem Ã  autoridade local.
-   - ConsequÃªncia: Fraude fiscal, multas de atÃ© 75% dos impostos nÃ£o pagos.
+? **Não declarar receitas da LLC.**
+   - Receber pagamentos numa conta pessoal e não reportá-los ao IRS nem à autoridade local.
+   - Consequência: Fraude fiscal, multas de até 75% dos impostos não pagos.
 
-âŒ **Usar faturas falsas para inflar despesas.**
-   - Comprar faturas de fornecedores inexistentes para reduzir o lucro tributÃ¡vel.
-   - ConsequÃªncia: Crime penal, possÃ­vel prisÃ£o.
+? **Usar faturas falsas para inflar despesas.**
+   - Comprar faturas de fornecedores inexistentes para reduzir o lucro tributável.
+   - Consequência: Crime penal, possível prisão.
 
-âŒ **Transferir ativos para familiares para evitar impostos.**
-   - Colocar a LLC em nome de um familiar sem capacidade econÃ´mica real.
-   - ConsequÃªncia: O IRS pode ignorar a transferÃªncia e aplicar multas.
+? **Transferir ativos para familiares para evitar impostos.**
+   - Colocar a LLC em nome de um familiar sem capacidade econômica real.
+   - Consequência: O IRS pode ignorar a transferência e aplicar multas.
 
-âŒ **NÃ£o apresentar o FormulÃ¡rio 5472 de propÃ³sito.**
-   - Ocultar transaÃ§Ãµes entre o proprietÃ¡rio e a LLC.
-   - ConsequÃªncia: Multa de $25.000 por ano.
+? **Não apresentar o Formulário 5472 de propósito.**
+   - Ocultar transações entre o proprietário e a LLC.
+   - Consequência: Multa de $25.000 por ano.
 
-âŒ **Declarar que a LLC nÃ£o tem receitas quando tem.**
+? **Declarar que a LLC não tem receitas quando tem.**
    - Reportar $0 em receitas quando a LLC recebeu pagamentos.
-   - ConsequÃªncia: Auditoria do IRS, multas e possÃ­vel aÃ§Ã£o penal.
+   - Consequência: Auditoria do IRS, multas e possível ação penal.
 
-âŒ **Usar a LLC para ocultar ativos pessoais de credores.**
+? **Usar a LLC para ocultar ativos pessoais de credores.**
    - Transferir bens pessoais para a LLC para evitar que um credor os reclame.
-   - ConsequÃªncia: Um juiz pode reverter a transferÃªncia (fraudulent conveyance).
+   - Consequência: Um juiz pode reverter a transferência (fraudulent conveyance).
 
-## Zona cinzenta: ElisÃ£o fiscal agressiva
+## Zona cinzenta: Elisão fiscal agressiva
 
-Entre o planejamento e a evasÃ£o existe uma **zona cinzenta** onde algumas prÃ¡ticas usam brechas legais de maneira que a lei nÃ£o proÃ­be explicitamente mas que nÃ£o foram previstas pelo legislador.
+Entre o planejamento e a evasão existe uma **zona cinzenta** onde algumas práticas usam brechas legais de maneira que a lei não proíbe explicitamente mas que não foram previstas pelo legislador.
 
-### Exemplos de elisÃ£o fiscal
+### Exemplos de elisão fiscal
 
-âš ï¸ **Constituir a LLC num estado e operar fisicamente noutro.**
-   - Legal, mas se nÃ£o houver propÃ³sito econÃ´mico real, o IRS pode questionar.
+?? **Constituir a LLC num estado e operar fisicamente noutro.**
+   - Legal, mas se não houver propósito econômico real, o IRS pode questionar.
 
-âš ï¸ **Pagar-se um salÃ¡rio baixo pela LLC para evitar impostos.**
-   - Legal se o salÃ¡rio for de mercado; ilegal se artificialmente baixo.
+?? **Pagar-se um salário baixo pela LLC para evitar impostos.**
+   - Legal se o salário for de mercado; ilegal se artificialmente baixo.
 
-âš ï¸ **Usar estruturas offshore complexas sem propÃ³sito econÃ´mico.**
-   - Se a Ãºnica razÃ£o Ã© evitar impostos, pode ser considerado elisÃ£o abusiva.
+?? **Usar estruturas offshore complexas sem propósito econômico.**
+   - Se a única razão é evitar impostos, pode ser considerado elisão abusiva.
 
-### Riscos da elisÃ£o agressiva
+### Riscos da elisão agressiva
 
-- O IRS pode aplicar a **doutrina do propÃ³sito econÃ´mico** (economic substance doctrine).
-- Os tribunais podem ignorar a estrutura se nÃ£o tiver propÃ³sito comercial real.
-- VocÃª pode acabar pagando os impostos mais multas e juros.
+- O IRS pode aplicar a **doutrina do propósito econômico** (economic substance doctrine).
+- Os tribunais podem ignorar a estrutura se não tiver propósito comercial real.
+- Você pode acabar pagando os impostos mais multas e juros.
 
-> **Regra geral:** Se a estrutura nÃ£o tem sentido comercial alÃ©m de poupar impostos, estÃ¡ na zona de risco.
+> **Regra geral:** Se a estrutura não tem sentido comercial além de poupar impostos, está na zona de risco.
 
 ## Tabela comparativa detalhada
 
-| AÃ§Ã£o | Planejamento | ElisÃ£o | EvasÃ£o |
+| Ação | Planejamento | Elisão | Evasão |
 |------|-------------|--------|--------|
-| Escolher Wyoming para sua LLC | âœ… | âŒ | âŒ |
-| Deducir despesas reais do negÃ³cio | âœ… | âŒ | âŒ |
-| Usar tratado fiscal para reduzir retenÃ§Ã£o | âœ… | âŒ | âŒ |
-| NÃ£o declarar receitas de um cliente | âŒ | âŒ | âŒ |
-| Faturar em nome da LLC mas operar como pessoa fÃ­sica | âŒ | âš ï¸ Se sem propÃ³sito | âŒ |
-| Criar LLC em Delaware sem operar lÃ¡ sÃ³ por privacidade | âŒ | âš ï¸ | âŒ |
-| Transferir ativos para a LLC para evitar penhora | âŒ | âŒ | âŒ |
-| Deducir despesas pessoais como empresariais | âŒ | âŒ | âŒ |
+| Escolher Wyoming para sua LLC | ? | ? | ? |
+| Deducir despesas reais do negócio | ? | ? | ? |
+| Usar tratado fiscal para reduzir retenção | ? | ? | ? |
+| Não declarar receitas de um cliente | ? | ? | ? |
+| Faturar em nome da LLC mas operar como pessoa física | ? | ?? Se sem propósito | ? |
+| Criar LLC em Delaware sem operar lá só por privacidade | ? | ?? | ? |
+| Transferir ativos para a LLC para evitar penhora | ? | ? | ? |
+| Deducir despesas pessoais como empresariais | ? | ? | ? |
 
-## ConsequÃªncias da evasÃ£o fiscal
+## Consequências da evasão fiscal
 
 ### Para o IRS (EUA)
 
-| ConsequÃªncia | Detalhe |
+| Consequência | Detalhe |
 |-------------|---------|
-| **Multas civis** | AtÃ© 75% dos impostos nÃ£o pagos |
+| **Multas civis** | Até 75% dos impostos não pagos |
 | **Juros** | Desde a data de vencimento original |
-| **Auditoria** | InvestigaÃ§Ã£o completa das suas finanÃ§as |
-| **AcusaÃ§Ãµes criminais** | AtÃ© 5 anos de prisÃ£o por fraude fiscal |
+| **Auditoria** | Investigação completa das suas finanças |
+| **Acusações criminais** | Até 5 anos de prisão por fraude fiscal |
 | **Fechamento da LLC** | O IRS pode revogar o EIN |
-| **ExtradiÃ§Ã£o** | PossÃ­vel se o valor for significativo |
+| **Extradição** | Possível se o valor for significativo |
 
-### Para seu paÃ­s de residÃªncia
+### Para seu país de residência
 
-| ConsequÃªncia | Detalhe |
+| Consequência | Detalhe |
 |-------------|---------|
-| **Multas** | VariÃ¡veis por paÃ­s (atÃ© 300% do imposto nÃ£o pago) |
-| **AcusaÃ§Ãµes criminais** | PrisÃ£o na maioria dos paÃ­ses por evasÃ£o fiscal |
-| **Penhora de contas** | No seu paÃ­s e potencialmente nos EUA |
-| **ProibiÃ§Ã£o de operar** | NÃ£o pode ser diretor de empresas |
+| **Multas** | Variáveis por país (até 300% do imposto não pago) |
+| **Acusações criminais** | Prisão na maioria dos países por evasão fiscal |
+| **Penhora de contas** | No seu país e potencialmente nos EUA |
+| **Proibição de operar** | Não pode ser diretor de empresas |
 | **Perda da LLC** | O estado pode dissolver a LLC |
 
 ### Custo reputacional
 
-- NÃ£o poderÃ¡ abrir contas bancÃ¡rias no futuro.
-- Os bancos (Mercury, Relay) colocarÃ£o vocÃª em listas negras.
-- Dificuldade para encontrar investidores ou sÃ³cios.
-- Problemas para obter vistos ou residÃªncia nos EUA.
+- Não poderá abrir contas bancárias no futuro.
+- Os bancos (Mercury, Relay) colocarão você em listas negras.
+- Dificuldade para encontrar investidores ou sócios.
+- Problemas para obter vistos ou residência nos EUA.
 
-## Como garantir que estÃ¡ do lado correto
+## Como garantir que está do lado correto
 
-### PrincÃ­pios de planejamento fiscal Ã©tico
+### Princípios de planejamento fiscal ético
 
-1. **Declare todas as suas receitas.** Sempre. Em todos os paÃ­ses onde tiver obrigaÃ§Ã£o.
-2. **Documente tudo.** Faturas, contratos, recibos. Se nÃ£o estÃ¡ documentado, nÃ£o existe.
-3. **Use estruturas com propÃ³sito econÃ´mico real.** A LLC deve ter um negÃ³cio genuÃ­no.
-4. **Pague o que a lei exige, nem mais nem menos.** O planejamento busca pagar o mÃ­nimo legal, nÃ£o evadir.
-5. **Consulte profissionais.** Um CPA e um advogado fiscal sÃ£o investimento, nÃ£o despesa.
-6. **Revise sua estrutura regularmente.** As leis mudam; o que hoje Ã© legal pode nÃ£o ser amanhÃ£.
+1. **Declare todas as suas receitas.** Sempre. Em todos os países onde tiver obrigação.
+2. **Documente tudo.** Faturas, contratos, recibos. Se não está documentado, não existe.
+3. **Use estruturas com propósito econômico real.** A LLC deve ter um negócio genuíno.
+4. **Pague o que a lei exige, nem mais nem menos.** O planejamento busca pagar o mínimo legal, não evadir.
+5. **Consulte profissionais.** Um CPA e um advogado fiscal são investimento, não despesa.
+6. **Revise sua estrutura regularmente.** As leis mudam; o que hoje é legal pode não ser amanhã.
 
-### Perguntas para autoavaliaÃ§Ã£o
+### Perguntas para autoavaliação
 
 | Pergunta | Se a resposta fizer duvidar... |
 |----------|-------------------------------|
-| Declara todas as receitas da sua LLC? | Pode ser evasÃ£o |
-| Tem documentaÃ§Ã£o real das suas despesas? | Pode ser evasÃ£o |
-| Sua LLC tem um negÃ³cio real? | Pode ser elisÃ£o abusiva |
-| Usa a conta bancÃ¡ria da LLC sÃ³ para despesas do negÃ³cio? | Misturar finanÃ§as = risco |
-| Apresenta todos os formulÃ¡rios exigidos pelo IRS? | Incumprimento = multas |
-| Sabe como seu paÃ­s trata sua LLC para fins fiscais? | Desconhecimento = risco |
+| Declara todas as receitas da sua LLC? | Pode ser evasão |
+| Tem documentação real das suas despesas? | Pode ser evasão |
+| Sua LLC tem um negócio real? | Pode ser elisão abusiva |
+| Usa a conta bancária da LLC só para despesas do negócio? | Misturar finanças = risco |
+| Apresenta todos os formulários exigidos pelo IRS? | Incumprimento = multas |
+| Sabe como seu país trata sua LLC para fins fiscais? | Desconhecimento = risco |
 
-## Casos prÃ¡ticos
+## Casos práticos
 
-### Caso 1: Planejamento fiscal (âœ… legal)
+### Caso 1: Planejamento fiscal (? legal)
 
-**SituaÃ§Ã£o:** Ana, designer no MÃ©xico, LLC em Wyoming.
+**Situação:** Ana, designer no México, LLC em Wyoming.
 
 **O que faz:**
-- Declara todas as receitas da LLC no MÃ©xico.
-- Apresenta o FormulÃ¡rio 5472 todos os anos.
+- Declara todas as receitas da LLC no México.
+- Apresenta o Formulário 5472 todos os anos.
 - Deduz despesas reais: software, internet, equipamento.
-- Usa o tratado MÃ©xico-EUA para reduzir retenÃ§Ãµes.
+- Usa o tratado México-EUA para reduzir retenções.
 - Tem conta separada para a LLC.
 - Consulta um CPA anualmente.
 
-**Resultado:** âœ… Planejamento fiscal legal. Paga ~$9.000 de impostos no MÃ©xico sobre $60.000 de receitas. Sem problemas com o IRS.
+**Resultado:** ? Planejamento fiscal legal. Paga ~$9.000 de impostos no México sobre $60.000 de receitas. Sem problemas com o IRS.
 
-### Caso 2: EvasÃ£o fiscal (âŒ ilegal)
+### Caso 2: Evasão fiscal (? ilegal)
 
-**SituaÃ§Ã£o:** Pedro, consultor na ColÃ´mbia, LLC na FlÃ³rida.
+**Situação:** Pedro, consultor na Colômbia, LLC na Flórida.
 
 **O que faz:**
-- Recebe pagamentos de clientes na sua conta pessoal na ColÃ´mbia.
-- NÃ£o declara as receitas da LLC nem nos EUA nem na ColÃ´mbia.
-- NÃ£o apresenta o FormulÃ¡rio 5472.
+- Recebe pagamentos de clientes na sua conta pessoal na Colômbia.
+- Não declara as receitas da LLC nem nos EUA nem na Colômbia.
+- Não apresenta o Formulário 5472.
 - Paga despesas pessoais pela conta da LLC.
-- NÃ£o tem contabilidade.
+- Não tem contabilidade.
 
-**Resultado:** âŒ EvasÃ£o fiscal. O IRS envia uma carta pelo 5472 nÃ£o apresentado. A ColÃ´mbia detecta-o por um cruzamento bancÃ¡rio. Multa do IRS: $25.000. Multa na ColÃ´mbia: $15.000. Total: $40.000 em multas + impostos atrasados + juros.
+**Resultado:** ? Evasão fiscal. O IRS envia uma carta pelo 5472 não apresentado. A Colômbia detecta-o por um cruzamento bancário. Multa do IRS: $25.000. Multa na Colômbia: $15.000. Total: $40.000 em multas + impostos atrasados + juros.
 
-### Caso 3: ElisÃ£o agressiva (âš ï¸ zona cinzenta)
+### Caso 3: Elisão agressiva (?? zona cinzenta)
 
-**SituaÃ§Ã£o:** Carlos, empresÃ¡rio na Argentina, LLC em Delaware.
+**Situação:** Carlos, empresário na Argentina, LLC em Delaware.
 
 **O que faz:**
-- Constitui a LLC em Delaware sÃ³ por privacidade (nÃ£o opera lÃ¡).
-- NÃ£o tem Operating Agreement.
-- Fatura atravÃ©s da LLC mas o negÃ³cio Ã© 100% da Argentina.
-- NÃ£o tem presenÃ§a fÃ­sica nos EUA.
+- Constitui a LLC em Delaware só por privacidade (não opera lá).
+- Não tem Operating Agreement.
+- Fatura através da LLC mas o negócio é 100% da Argentina.
+- Não tem presença física nos EUA.
 
-**AnÃ¡lise:**
-- A estrutura Ã© legal (escolher estado Ã© liberdade do contribuinte).
+**Análise:**
+- A estrutura é legal (escolher estado é liberdade do contribuinte).
 - Mas se o IRS ou a Argentina questionarem, pode ter problemas.
-- **Risco baixo** se cumprir todas as obrigaÃ§Ãµes fiscais.
-- **Risco mÃ©dio** se nÃ£o tiver documentaÃ§Ã£o adequada.
+- **Risco baixo** se cumprir todas as obrigações fiscais.
+- **Risco médio** se não tiver documentação adequada.
 
 ## Mitos comuns
 
-### Mito 1: "Se a LLC nÃ£o paga impostos nos EUA, nÃ£o tenho que declarar nada"
+### Mito 1: "Se a LLC não paga impostos nos EUA, não tenho que declarar nada"
 
-**Realidade:** A LLC nÃ£o paga impostos nos EUA (se Ã© disregarded entity sem ECI), mas **vocÃª** deve declarar as receitas no seu paÃ­s de residÃªncia.
+**Realidade:** A LLC não paga impostos nos EUA (se é disregarded entity sem ECI), mas **você** deve declarar as receitas no seu país de residência.
 
-### Mito 2: "A LLC Ã© uma estrutura para nÃ£o pagar impostos"
+### Mito 2: "A LLC é uma estrutura para não pagar impostos"
 
-**Realidade:** A LLC Ã© uma estrutura legal para **organizar seu negÃ³cio**, nÃ£o para evadir impostos. As receitas da LLC tributam no seu paÃ­s de residÃªncia.
+**Realidade:** A LLC é uma estrutura legal para **organizar seu negócio**, não para evadir impostos. As receitas da LLC tributam no seu país de residência.
 
-### Mito 3: "Se o contador diz, Ã© legal"
+### Mito 3: "Se o contador diz, é legal"
 
-**Realidade:** Nem todos os contadores conhecem tributaÃ§Ã£o internacional. Um mau conselho pode levÃ¡-lo Ã  evasÃ£o sem saber.
+**Realidade:** Nem todos os contadores conhecem tributação internacional. Um mau conselho pode levá-lo à evasão sem saber.
 
-### Mito 4: "Enquanto nÃ£o meauditarem, estou bem"
+### Mito 4: "Enquanto não meauditarem, estou bem"
 
-**Realidade:** O IRS e as autoridades fiscais tÃªm sistemas de cruzamento de dados. A probabilidade de ser detetado aumenta com o tempo.
+**Realidade:** O IRS e as autoridades fiscais têm sistemas de cruzamento de dados. A probabilidade de ser detetado aumenta com o tempo.
 
-### Mito 5: "LLCs sÃ£o para lavar dinheiro"
+### Mito 5: "LLCs são para lavar dinheiro"
 
-**Realidade:** Este mito danifica a reputaÃ§Ã£o de quem usa LLCs legitimamente. As LLCs sÃ£o estruturas legais e respeitadas em todo o mundo.
+**Realidade:** Este mito danifica a reputação de quem usa LLCs legitimamente. As LLCs são estruturas legais e respeitadas em todo o mundo.
 
-## Checklist: EstÃ¡ do lado correto?
+## Checklist: Está do lado correto?
 
-- [ ] Declara todas as receitas da sua LLC no seu paÃ­s de residÃªncia.
-- [ ] Apresenta todos os formulÃ¡rios exigidos pelo IRS (5472, 1065, etc.).
-- [ ] Tem documentaÃ§Ã£o (faturas, contratos) de todas as transaÃ§Ãµes.
-- [ ] A conta bancÃ¡ria da LLC Ã© usada sÃ³ para despesas do negÃ³cio.
-- [ ] NÃ£o mistura despesas pessoais com a LLC.
-- [ ] Sua LLC tem um propÃ³sito comercial real.
+- [ ] Declara todas as receitas da sua LLC no seu país de residência.
+- [ ] Apresenta todos os formulários exigidos pelo IRS (5472, 1065, etc.).
+- [ ] Tem documentação (faturas, contratos) de todas as transações.
+- [ ] A conta bancária da LLC é usada só para despesas do negócio.
+- [ ] Não mistura despesas pessoais com a LLC.
+- [ ] Sua LLC tem um propósito comercial real.
 - [ ] Consulta um CPA ou contador qualificado.
 - [ ] Revisa sua estrutura fiscal pelo menos uma vez por ano.
-- [ ] Sabe como seu paÃ­s de residÃªncia trata a LLC fiscalmente.
-- [ ] NÃ£o tem receitas nÃ£o declaradas em nenhum paÃ­s.
+- [ ] Sabe como seu país de residência trata a LLC fiscalmente.
+- [ ] Não tem receitas não declaradas em nenhum país.
 
-## ConclusÃ£o
+## Conclusão
 
-A diferenÃ§a entre evasÃ£o e planejamento fiscal Ã© clara:
+A diferença entre evasão e planejamento fiscal é clara:
 
-- **Planejamento fiscal:** Usar as regras a seu favor. Ã‰ legal, Ã©tico e sustentÃ¡vel.
-- **EvasÃ£o fiscal:** Romper as regras. Ã‰ ilegal, arriscado e tem consequÃªncias graves.
-- **ElisÃ£o agressiva:** Jogar na zona cinzenta. NÃ£o recomendada sem assessoria especializada.
+- **Planejamento fiscal:** Usar as regras a seu favor. É legal, ético e sustentável.
+- **Evasão fiscal:** Romper as regras. É ilegal, arriscado e tem consequências graves.
+- **Elisão agressiva:** Jogar na zona cinzenta. Não recomendada sem assessoria especializada.
 
-**A chave para estar do lado correto:** Declare todas as suas receitas, documente todas as suas transaÃ§Ãµes, use estruturas com propÃ³sito econÃ´mico real e consulte profissionais.
+**A chave para estar do lado correto:** Declare todas as suas receitas, documente todas as suas transações, use estruturas com propósito econômico real e consulte profissionais.
 
-NÃ£o vale a pena arriscar seu patrimÃ´nio, sua liberdade e sua reputaÃ§Ã£o para poupar impostos ilegalmente. O planejamento fiscal legal permite dormir tranquilo.
+Não vale a pena arriscar seu patrimônio, sua liberdade e sua reputação para poupar impostos ilegalmente. O planejamento fiscal legal permite dormir tranquilo.
 
-## Precisa de garantir que sua estrutura fiscal Ã© legal?
+## Precisa de garantir que sua estrutura fiscal é legal?
 
-Na **Sotomayor Consulting International**, ajudamos vocÃª a desenhar uma estratÃ©gia de planejamento fiscal que cumpra todas as leis nos EUA e no seu paÃ­s de residÃªncia.
+Na **Sotomayor Consulting International**, ajudamos você a desenhar uma estratégia de planejamento fiscal que cumpra todas as leis nos EUA e no seu país de residência.
 
 **Agende uma consultoria gratuita** e mantenha-se do lado correto da lei.

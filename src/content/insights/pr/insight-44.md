@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Gerenciar Pagamentos Internacionais Corretamente: Guia Prático de Métodos e Conformidade"
 description: "Gestão de pagamentos internacionais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "Diferentes métodos de pagamento internacional com mapas e dispositivos digitais"
 ---
 
@@ -61,18 +61,6 @@ Uma estrutura eficiente de contas facilita o gerenciamento de pagamentos:
 - **Conta PayPal** (para pagamentos pequenos e recorrentes)
 
 ### Estratégia de fluxo:
-```
-Cliente internacional
-       ↓
-Plataforma de pagamento (Wise, PayPal, Stripe)
-       ↓
-Conta bancária nos EUA (LLC ou pessoal)
-       ↓
-Distribuição para conta pessoal (owner's draw)
-       ↓
-Conta local em seu país (despesas)
-```
-
 ## 4. Faturamento para Pagamentos Internacionais
 
 Uma fatura correta é a base de um pagamento internacional bem documentado:

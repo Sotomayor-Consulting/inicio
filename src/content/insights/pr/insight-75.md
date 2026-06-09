@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Evitar Ações Judiciais Pessoais: Guia Completo 2026"
 description: "Como evitar ações judiciais pessoais"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/llc-mal-estructurada.png"
 cardImageAlt: "Escudo legal protegendo uma pessoa de ações judiciais, com ícones de contratos, seguros e estrutura corporativa"
 ---
 
@@ -46,27 +46,6 @@ Neste guia, explicamos **como evitar ações judiciais pessoais** em 2026: estru
 | **Velo corporativo** | Não existe | Protege se mantido |
 | **Custo mensal** | $0 | ~$15-30/mês (manutenção) |
 
-```javascript
-// Stripe: Os pagamentos vão para a LLC, não para você pessoalmente
-// Isso reforça o velo corporativo
-const account = await stripe.accounts.create({
-  type: 'standard',
-  country: 'US',
-  business_type: 'company',
-  company: {
-    name: 'Sua Empresa LLC',
-    tax_id: 'XX-XXXXXXX',
-  },
-  external_account: {
-    object: 'bank_account',
-    country: 'US',
-    currency: 'usd',
-    account_number: '000123456789', // Conta da LLC
-    routing_number: '110000000',
-  },
-});
-```
-
 ### Como Manter o Velo Corporativo
 
 | Prática | Descrição | Impacto |
@@ -94,35 +73,7 @@ const account = await stripe.accounts.create({
 
 ### Exemplo: Limitação de Responsabilidade
 
-```
-Cláusula de Limitação de Responsabilidade:
-
-Em nenhum caso [Sua Empresa LLC] será responsável perante o Cliente
-por danos indiretos, incidentais, especiais ou consequenciais
-que excedam o valor total pago pelo Cliente nos 12 meses
-anteriores ao evento que deu origem à reivindicação.
-```
-
 ### Contratos Digitais com Stripe
-
-```javascript
-// Stripe Checkout com aceitação de termos
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price: 'price_consulting',
-    quantity: 1,
-  }],
-  consent_collection: {
-    terms_of_service: 'required',
-  },
-  custom_text: {
-    terms_of_service_acceptance: {
-      text: 'Aceito os Termos e Condições da Sua Empresa LLC',
-    },
-  },
-});
-```
 
 ## 4. Terceira Linha de Defesa: Seguros
 
@@ -137,17 +88,6 @@ const session = await stripe.checkout.sessions.create({
 | **Tech E&O** | Bugs, downtime, perda de dados | $1.500-6.000/ano | SaaS, desenvolvimento de software |
 
 ### Como Contratar Seguros
-
-```javascript
-// Stripe pode cobrar os prêmios de seguro mensais
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{
-    price: 'price_insurance_eo', // Seguro E&O
-  }],
-  collection_method: 'charge_automatically',
-});
-```
 
 ## 5. Quarta Linha de Defesa: Operação Profissional
 
@@ -165,25 +105,6 @@ const subscription = await stripe.subscriptions.create({
 
 ### Stripe e a Documentação
 
-```javascript
-// Stripe registra cada transação com metadata
-// Isso cria um registro imutável de pagamentos e serviços
-
-const paymentIntent = await stripe.paymentIntents.create({
-  amount: 500000,
-  currency: 'usd',
-  metadata: {
-    contract_id: 'CONT-2026-001',
-    project_name: 'Consultoria Estratégica',
-    client_approval_date: '2026-01-15',
-    scope: 'Fase 1 - Diagnóstico',
-  },
-  description: 'Pagamento conforme contrato CONT-2026-001',
-});
-
-// Esse registro serve como evidência em caso de disputa
-```
-
 ## 6. Gestão de Disputas com Clientes
 
 ### Antes de Escalar
@@ -198,30 +119,6 @@ const paymentIntent = await stripe.paymentIntents.create({
 
 ### Stripe Disputas (Chargebacks)
 
-```javascript
-// Stripe gerencia disputas automaticamente
-// Ter documentação é chave para vencer
-
-// Stripe Dashboard → Disputas
-// Evidência necessária:
-// - Contrato assinado
-// - Comunicações com o cliente
-// - Entregas enviadas
-// - Política de reembolso
-
-// Stripe API: Responder disputa
-await stripe.disputes.update('dp_xxx', {
-  evidence: {
-    customer_name: 'Cliente XYZ',
-    customer_email: 'cliente@email.com',
-    contract_id: 'CONT-2026-001',
-    service_description: 'Consultoria estratégica',
-    delivery_date: '2026-01-20',
-    customer_signature: 'data:image/png;base64,...',
-  },
-});
-```
-
 ## 7. Proteção de Dados e Privacidade
 
 ### Regulamentações Relevantes
@@ -234,31 +131,6 @@ await stripe.disputes.update('dp_xxx', {
 | **Leis locais** | Cada país | Varia por jurisdição |
 
 ### Stripe e a Proteção de Dados
-
-```javascript
-// Stripe gerencia dados sensíveis por você (PCI-DSS)
-// Nunca armazene números de cartão no seu servidor
-
-// Stripe Elements: Os dados vão direto para o Stripe
-const elements = stripe.elements();
-const card = elements.create('card');
-
-// Você só recebe um token ou payment method ID
-card.on('ready', () => {
-  // Stripe gerencia a segurança, não você
-});
-
-// Para cumprir com LGPD:
-const customer = await stripe.customers.create({
-  email: 'cliente@email.com',
-  name: 'Cliente XYZ',
-  metadata: {
-    consent_date: '2026-01-15',
-    consent_version: 'v2',
-    marketing_opt_in: 'false',
-  },
-});
-```
 
 ## 8. Resolução de Disputas: Arbitragem vs. Julgamento
 
@@ -274,13 +146,6 @@ const customer = await stripe.customers.create({
 
 ### Cláusula de Arbitragem Recomendada
 
-```
-Qualquer disputa decorrente deste contrato será resolvida por
-arbitragem vinculante administrada por [Câmara de Arbitragem],
-em [cidade, estado]. O árbitro não poderá conceder danos punitivos
-nem valores superiores à limitação de responsabilidade estabelecida.
-```
-
 ## 9. Stripe como Ferramenta de Prevenção
 
 ### Como Stripe Ajuda a Evitar Ações Judiciais
@@ -295,19 +160,6 @@ nem valores superiores à limitação de responsabilidade estabelecida.
 | **Disputas** | Sistema automatizado de chargebacks |
 | **Metadata** | Registro de cada transação para disputas |
 | **Stripe Atlas** | Forma sua LLC, primeira camada de proteção |
-
-```javascript
-// Stripe Radar: Regras personalizadas antifraude
-const radarRule = await stripe.radar.rules.create({
-  name: 'Bloquear transações de alto risco',
-  description: 'Bloqueia países com alto índice de fraude',
-  action: 'block',
-  conditions: {
-    amount: { operator: 'greater_than', value: 100000 },
-    card_country: { operator: 'in', value: ['XX', 'YY'] },
-  },
-});
-```
 
 ## 10. Perguntas Frequentes
 

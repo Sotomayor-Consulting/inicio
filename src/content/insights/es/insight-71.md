@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Proteger tu Patrimonio Internacionalmente: Guía 2026"
 description: "Cómo proteger tu patrimonio internacionalmente"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
 cardImageAlt: "Escudo protector sobre un mapa mundial con iconos de activos financieros, propiedades e inversiones"
 ---
 
@@ -47,27 +47,6 @@ En esta guía, explicamos **cómo proteger tu patrimonio internacionalmente** en
 | **Impuestos** | Solo en EE. UU. si hay actividad allí |
 | **Tiempo de creación** | 1-2 semanas |
 
-```javascript
-// Ejemplo: Facturación a través de LLC
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Consultoría Internacional',
-      },
-      unit_amount: 500000, // $5,000
-    },
-    quantity: 1,
-  }],
-  // La LLC recibe el pago directamente
-  payment_intent_data: {
-    application_fee_amount: 0,
-  },
-});
-```
-
 ### International Business Company (IBC)
 
 | Característica | Detalle |
@@ -104,13 +83,6 @@ const session = await stripe.checkout.sessions.create({
 
 ### Profesional Digital / Solopreneur
 
-```
-Persona Física (tu país)
-  └── LLC en Wyoming (facturación internacional)
-       └── Cuenta bancaria en Mercury / Relay
-            └── Stripe (procesa pagos → LLC)
-```
-
 | Beneficio | Descripción |
 |-----------|-------------|
 | **Protección** | Activos personales separados |
@@ -119,14 +91,6 @@ Persona Física (tu país)
 
 ### Empresa SaaS / Tecnología
 
-```
-LLC Holding (EE. UU.)
-  ├── Subsidiaria en país A (desarrollo)
-  ├── Subsidiaria en país B (ventas LATAM)
-  ├── Subsidiaria en país C (ventas Europa)
-  └── IP Holding (propiedad intelectual)
-```
-
 | Beneficio | Descripción |
 |-----------|-------------|
 | **Protección IP** | Patentes y copyright en jurisdicción segura |
@@ -134,14 +98,6 @@ LLC Holding (EE. UU.)
 | **Limitación de riesgo** | Cada subsidiaria aísla riesgos |
 
 ### Alto Patrimonio / Familia
-
-```
-Trust Familiar (Islas Cook o Nevada)
-  ├── LLC Holding (bienes raíces)
-  ├── LLC Inversiones (portafolio financiero)
-  ├── Fundación (filantropía)
-  └── Corporación operativa (negocio activo)
-```
 
 ## 4. Stripe como Herramienta de Protección
 
@@ -155,14 +111,6 @@ Stripe Atlas permite formar una empresa en EE. UU. (Delaware C-Corp o LLC) direc
 | **Incluye** | Registro, EIN, cuenta bancaria Mercury, Stripe |
 | **Tiempo** | 1-2 semanas |
 | **Ideal para** | Fundadores internacionales, startups |
-
-```javascript
-// Stripe Atlas: Forma tu LLC y comienza a facturar
-// 1. Registro en stripe.com/atlas
-// 2. Recibes EIN y cuenta bancaria
-// 3. Conectas Stripe Payments
-// 4. Facturas internacionalmente desde tu LLC
-```
 
 ### Stripe Connect para Marketplaces
 
@@ -208,18 +156,6 @@ Si operas un marketplace, Stripe Connect permite que cada vendedor tenga su prop
 | **Seguro de vida** | Protección familiar | 10-20× ingresos anuales |
 | **Seguro de salud internacional** | Gastos médicos en el extranjero | Cobertura global |
 
-```javascript
-// Stripe no ofrece seguros directamente, pero puedes
-// integrar pagos de primas de seguro:
-const session = await stripe.checkout.sessions.create({
-  mode: 'subscription',
-  line_items: [{
-    price: 'price_insurance_monthly',
-    quantity: 1,
-  }],
-});
-```
-
 ## 7. Propiedad Intelectual Internacional
 
 ### Protección de IP
@@ -233,13 +169,6 @@ const session = await stripe.checkout.sessions.create({
 | **Datos** | Contratos + encriptación | Global |
 
 ### Holding de IP
-
-```
-IP Holding Company (Delaware o Wyoming)
-  ├── Licencia a Operating Company (pago de regalías)
-  ├── Protege el código, marca y patentes
-  └── Las regalías son ingreso de la holding
-```
 
 ## 8. Cumplimiento Fiscal Internacional
 

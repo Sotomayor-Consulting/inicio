@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Receive International Payments: Complete Guide for 2026"
 description: "Receive international payments"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/pagos-internacionales.png"
 cardImageAlt: "World map with payment arrows and money arriving in different countries"
 ---
 
@@ -151,41 +151,15 @@ Processors that allow receiving credit card payments from any country.
 
 ### 4.1 Basic Structure: Multi-Currency Account
 
-```
-Client → Local transfer → Multi-currency account (Wise, Payoneer)
-                                ↓
-                        Conversion to local currency
-                                ↓
-                        Your local bank account
-```
-
 **Ideal for:** Freelancers, professionals, small businesses
 **Cost:** 0.5% - 2.5% of total amount
 
 ### 4.2 Advanced Structure: US Company + Stripe
 
-```
-Client → Credit card → Stripe (LLC account)
-                                ↓
-                        US bank account (Mercury)
-                                ↓
-                        Wise (conversion)
-                                ↓
-                        Your local bank account
-```
-
 **Ideal for:** E-commerce, SaaS, subscriptions
 **Cost:** 2.9% + $0.30 (Stripe) + 0.6% (Wise) = ~3.5%
 
 ### 4.3 International Structure: Holding + Subsidiaries
-
-```
-Client → Stripe Connect → International Holding (Canada/US)
-                                 ↓
-                         Local subsidiary (if applicable)
-                                 ↓
-                         Profit distribution
-```
 
 **Ideal for:** Multi-country operations
 **Cost:** Variable (depends on structure)

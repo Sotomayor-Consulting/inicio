@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Funciona una Estructura Holding: Guía Completa"
 description: "Estructura Holding - Guía Completa"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/que es una holding.png"
 cardImageAlt: "Estructura corporativa holding con conexiones entre empresas"
 ---
 
@@ -21,16 +21,6 @@ Una **holding** es una sociedad creada con el propósito principal de **particip
 - **Protección patrimonial:** Aísla riesgos entre las empresas del grupo
 
 ### Ejemplo simple:
-
-```
-Familia/Socios
-       ↓ (participaciones)
-Holding (controladora)
-       ↓ (participaciones)
-┌──────┼──────┐
-↓      ↓      ↓
-Empresa A (Operativa) │ Empresa B (Inmuebles) │ Empresa C (Inversiones)
-```
 
 ## 2. Tipos de Holding
 
@@ -144,14 +134,6 @@ Una **holding internacional** es una empresa constituida en un país diferente a
 
 ### 5.1 Inversiones Transfronterizas
 
-```
-Inversionista (Latam/Europa)
-           ↓
-Holding Internacional (Canadá/EE.UU./Países Bajos)
-           ↓
-Subsidiarias operativas (país destino)
-```
-
 ### 5.2 Ventajas Fiscales
 
 - **Tratados de doble tributación:** Reducen o eliminan la retención en fuente sobre dividendos
@@ -196,13 +178,6 @@ Si la holding se usa para defraudar acreedores o simular operaciones, los tribun
 
 ### Estructura Recomendada
 
-```
-Holding Familiar (nacional o extranjera)
-  ├── 50% participaciones — Hijo A
-  ├── 50% participaciones — Hijo B
-  └── Usufructo vitalicio — Padres
-```
-
 ### Ventajas Sucesorias
 
 - **Evita sucesión judicial:** Las participaciones ya están a nombre de los herederos
@@ -228,12 +203,6 @@ Holding Familiar (nacional o extranjera)
 **Escenario:** Inversionista latinoamericano quiere invertir $5 millones en inmuebles comerciales en EE. UU.
 
 **Solución:**
-```
-Holding LP Canadiense
-       ↓
-LLC en EE. UU. (dueña de los inmuebles)
-```
-
 **Resultado:** El inversionista no tiene presencia fiscal en EE. UU., aprovecha el tratado Canadá-EE. UU., y reduce la carga tributaria sobre los rendimientos.
 
 ### Ejemplo 3: Holding Empresarial Familiar
@@ -241,13 +210,6 @@ LLC en EE. UU. (dueña de los inmuebles)
 **Escenario:** Familia con industria, finca e inmobiliaria.
 
 **Solución:**
-```
-Holding Familiar
-  ├── Industria S.A.
-  ├── Finca S.A.
-  └── Inmobiliaria S.A.
-```
-
 **Resultado:** Gestión centralizada, sucesión planeada, riesgos aislados.
 
 ## 9. Pasos para Implementar tu Holding

@@ -49,14 +49,6 @@ This means a non-resident can invest through a Canadian LP and **have no Canadia
 A Canadian LP can be used as a vehicle to invest in the United States with tax advantages:
 
 ### Typical structure for non-U.S. investors:
-```
-Foreign Investor
-         ↓ (Limited Partner)
-Canadian LP (invests in the U.S.)
-         ↓
-U.S. LLC or other U.S. assets
-```
-
 ### Advantages for global investors:
 - The investor avoids creating a direct U.S. structure
 - The Canadian LP acts as an intermediate tax "shield"
@@ -107,14 +99,6 @@ The Canadian LP is especially popular for real estate investments:
 - Allows pooling capital from multiple investors
 
 ### Typical structure:
-```
-Canadian LP (investment vehicle)
-         ↓
-U.S. LLC (property owner)
-         ↓
-U.S. real estate property
-```
-
 ## 7. Formation and Maintenance Costs
 
 Compared to other international structures, the Canadian LP is relatively inexpensive:

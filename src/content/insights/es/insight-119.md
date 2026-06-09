@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Recuperar una Empresa Administrativamente Disuelta: Guía 2026"
 description: "Guía paso a paso para reinstalar su LLC o corporación después de una disolución administrativa"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/annual-report.png"
 cardImageAlt: "Diagrama de flujo del proceso de reinstalación que muestra pasos desde identificar la disolución hasta presentar informes atrasados, pagar tarifas, enviar solicitud y restaurar el good standing"
 ---
 
@@ -105,57 +105,6 @@ Si encuentra un aviso, generalmente indicará:
 ## 3. El Proceso de Reinstalación: Paso a Paso
 
 ### Descripción General del Proceso de Reinstalación
-
-```
-REINSTATEMENT PROCESS FLOW
-
-  1. CONFIRM STATUS
-     └─ Check SOS website → Confirm "Administratively Dissolved"
-     └─ Note the dissolution date and reason
-     └─ Verify reinstatement window
-        │
-  2. GATHER DOCUMENTS
-     └─ Entity name and file number
-     └─ Previous annual reports (if available)
-     └─ Registered agent information
-     └─ Officer/director or manager/member list
-     └─ EIN confirmation
-        │
-  3. FILE PAST-DUE REPORTS
-     └─ File every annual/biennial report missed
-     └─ Most states allow online filing for multiple years
-     └─ Each report requires current business information
-        │
-  4. PAY ALL FEES
-     └─ Annual report fees (per missed year)
-     └─ Late fees / penalties (per missed filing)
-     └─ Reinstatement fee (one-time)
-     └─ Franchise tax back payments (if applicable)
-     └─ Interest on overdue amounts (if applicable)
-        │
-  5. OBTAIN TAX CLEARANCE (IF REQUIRED)
-     └─ Some states require tax clearance from the revenue department
-     └─ File any missing state tax returns
-     └─ Pay any outstanding tax balances
-        │
-  6. SUBMIT REINSTATEMENT APPLICATION
-     └─ Complete reinstatement form
-     └─ Attach proof of filings and payments
-     └─ Pay reinstatement fee
-     └─ Submit online or by mail
-        │
-  7. WAIT FOR PROCESSING
-     └─ Processing time: 1 day to 8 weeks depending on state
-     └─ Check SOS website for status update
-     └─ Download certificate of reinstatement
-        │
-  8. RESTORE OPERATIONS
-     └─ Confirm good standing on SOS website
-     └─ Contact bank to unfreeze accounts (if frozen)
-     └─ Renew business licenses
-     └─ Update registered agent if needed
-     └─ Resume business operations
-```
 
 ### Guía Detallada Paso a Paso
 
@@ -277,92 +226,7 @@ Una vez que se apruebe la reinstalación, tome estos pasos para reanudar el nego
 
 ## 4. Reinstatement Cost Calculator
 
-```javascript
-// Total reinstatement cost estimator
-const estimateReinstatement = (state, yearsDissolved, entityType, includeFranchiseTax = true) => {
-  const fees = {
-    'Delaware': { annualFee: 0, lateFee: 200, reinstatement: 200, franchise: { 'LLC': 0, 'Corporation': 300 } },
-    'California': { annualFee: { 'LLC': 20, 'Corporation': 25 }, lateFee: 0, reinstatement: 0, franchise: { 'LLC': 800, 'Corporation': 800 } },
-    'Florida': { annualFee: { 'LLC': 138.75, 'Corporation': 150 }, lateFee: 400, reinstatement: 400, franchise: 0 },
-    'Texas': { annualFee: 0, lateFee: 50, reinstatement: 50, franchise: 0 },
-    'New York': { annualFee: { 'LLC': 9, 'Corporation': 9 }, lateFee: 0, reinstatement: 0, franchise: 0 },
-    'Nevada': { annualFee: 150, lateFee: 75, reinstatement: 75, franchise: 0 },
-    'Illinois': { annualFee: 75, lateFee: 100, reinstatement: 100, franchise: 0 },
-    'Georgia': { annualFee: 50, lateFee: 25, reinstatement: 25, franchise: 0 },
-    'Washington': { annualFee: 60, lateFee: 30, reinstatement: 30, franchise: 0 },
-    'Wyoming': { annualFee: 60, lateFee: 60, reinstatement: 60, franchise: 0 },
-    'Colorado': { annualFee: 10, lateFee: 0, reinstatement: 0, franchise: 0 },
-    'Massachusetts': { annualFee: 500, lateFee: 0, reinstatement: 0, franchise: 0 }
-  };
-
-  const s = fees[state];
-  if (!s) return { state, error: 'State data not available' };
-
-  const annual = typeof s.annualFee === 'object' ? s.annualFee[entityType] : s.annualFee;
-  const fran = includeFranchiseTax && typeof s.franchise === 'object' ? s.franchise[entityType] : (includeFranchiseTax ? s.franchise : 0);
-  const breakdown = {
-    annualReportFees: annual * yearsDissolved,
-    lateFees: s.lateFee * yearsDissolved,
-    franchiseTax: fran * yearsDissolved,
-    reinstatementFee: s.reinstatement
-  };
-  breakdown.total = Object.values(breakdown).reduce((a, b) => a + b, 0);
-  return { state, yearsDissolved, entityType, breakdown, total: Math.round(breakdown.total * 100) / 100 };
-};
-
-// Examples
-console.log(estimateReinstatement('California', 3, 'LLC'));
-console.log(estimateReinstatement('Florida', 2, 'LLC'));
-console.log(estimateReinstatement('Delaware', 4, 'Corporation'));
-```
-
 ## 5. Reinstatement Checklist Tool
-
-```javascript
-// Reinstatement checklist progress tracker
-const reinstatementChecklist = () => {
-  const checklist = [
-    { step: 1, task: 'Confirm entity status on SOS website', done: false },
-    { step: 1, task: 'Note dissolution date and reinstatement deadline', done: false },
-    { step: 2, task: 'Gather Certificate of Formation / Articles of Incorporation', done: false },
-    { step: 2, task: 'Obtain current registered agent information', done: false },
-    { step: 2, task: 'Prepare officer/director or manager/member list', done: false },
-    { step: 3, task: 'File all past-due annual/biennial reports', done: false },
-    { step: 3, task: 'Pay annual report filing fees for each missed year', done: false },
-    { step: 4, task: 'Pay late fees and penalties for each missed filing', done: false },
-    { step: 4, task: 'Pay reinstatement application fee', done: false },
-    { step: 5, task: 'File missing state tax returns (if required)', done: false },
-    { step: 5, task: 'Pay outstanding tax balances (if required)', done: false },
-    { step: 5, task: 'Obtain tax clearance letter (if required)', done: false },
-    { step: 6, task: 'Complete reinstatement application form', done: false },
-    { step: 6, task: 'Attach proof of filings and payments', done: false },
-    { step: 6, task: 'Submit reinstatement application', done: false },
-    { step: 7, task: 'Confirm reinstatement on SOS website', done: false },
-    { step: 7, task: 'Download certificate of reinstatement', done: false },
-    { step: 8, task: 'Verify good standing on SOS website', done: false },
-    { step: 8, task: 'Contact bank to unfreeze accounts', done: false },
-    { step: 8, task: 'Renew business licenses', done: false },
-    { step: 8, task: 'Notify clients and vendors', done: false },
-    { step: 8, task: 'Set up compliance monitoring system', done: false }
-  ];
-
-  return {
-    getAll: () => checklist,
-    markDone: (index) => { checklist[index].done = true; },
-    getProgress: () => {
-      const done = checklist.filter(i => i.done).length;
-      return { completed: done, total: checklist.length, percent: Math.round(done / checklist.length * 100) };
-    },
-    getByStep: (step) => checklist.filter(i => i.step === step),
-    getPendingByStep: (step) => checklist.filter(i => i.step === step && !i.done)
-  };
-};
-
-// Example
-const myReinstatement = reinstatementChecklist();
-console.log('Total steps:', myReinstatement.getAll().length);
-console.log('Pending in step 3:', myReinstatement.getPendingByStep(3).length);
-```
 
 ## 6. Reinstalar vs. Formar una Nueva Entidad
 
@@ -413,37 +277,6 @@ Una vez que haya reinstalado su entidad, tome estos pasos para asegurarse de que
 8. **Mantenga los registros de propiedad actualizados** — actualice la información de oficiales/directores rápidamente
 
 ### Compliance Calendar Template
-
-```javascript
-// Post-reinstatement compliance scheduler
-const complianceScheduler = (formationDate, state, annualReportMonth) => {
-  const today = new Date();
-  const year = today.getFullYear();
-  const reminders = [];
-
-  [-60, -30, 0].forEach(daysOffset => {
-    const dueDate = new Date(year, annualReportMonth - 1, 1);
-    dueDate.setDate(dueDate.getDate() + daysOffset);
-    if (dueDate > today) {
-      const label = daysOffset === 0 ? 'DEADLINE' : (daysOffset < 0 ? Math.abs(daysOffset) + ' days before' : '');
-      reminders.push({ date: dueDate.toISOString().split('T')[0], label: 'Annual report ' + label, action: daysOffset === 0 ? 'File today' : 'Prepare filing' });
-    }
-  });
-
-  [1, 4, 7, 10].forEach(month => {
-    const checkDate = new Date(year, month - 1, 15);
-    if (checkDate > today) {
-      reminders.push({ date: checkDate.toISOString().split('T')[0], label: 'Quarterly SOS status check', action: 'Verify good standing on SOS website' });
-    }
-  });
-
-  return reminders.sort((a, b) => new Date(a.date) - new Date(b.date));
-};
-
-// Example
-const schedule = complianceScheduler('2020-03-15', 'Delaware', 3);
-console.table(schedule);
-```
 
 ## Conclusión
 

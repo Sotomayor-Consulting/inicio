@@ -1,7 +1,7 @@
----
+﻿---
 title: "Stripe para SaaS: Guia Completo de Integração 2026"
 description: "Stripe para SaaS"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Dashboard do Stripe mostrando assinaturas SaaS e métricas de faturamento recorrente"
 ---
 
@@ -44,15 +44,6 @@ Neste guia, explicamos **como usar o Stripe para SaaS** em 2026: configuração,
 | **Ideal para** | SaaS simples, produto único |
 | **Implementação** | Um único preço de assinatura |
 
-```javascript
-const price = await stripe.prices.create({
-  unit_amount: 2900,
-  currency: 'usd',
-  recurring: { interval: 'month' },
-  product: 'prod_saas_basic',
-});
-```
-
 ### Preço por Usuário (Per Seat)
 
 | Característica | Descrição |
@@ -60,18 +51,6 @@ const price = await stripe.prices.create({
 | **Preço** | $X por usuário/mês |
 | **Ideal para** | SaaS colaborativos, equipes |
 | **Implementação** | Preço base + quantidade variável |
-
-```javascript
-// Preço por assento: $15/usuário/mês
-const price = await stripe.prices.create({
-  unit_amount: 1500,
-  currency: 'usd',
-  recurring: { interval: 'month' },
-  product: 'prod_saas_seat',
-  billing_scheme: 'per_unit',
-  tax_behavior: 'inclusive',
-});
-```
 
 ### Preço por Uso (Usage-based)
 
@@ -81,22 +60,6 @@ const price = await stripe.prices.create({
 | **Ideal para** | APIs, armazenamento, SMS, chamadas |
 | **Implementação** | Métrica de uso a faturar |
 
-```javascript
-// Preço por uso: $0,05 por chamada de API
-const price = await stripe.prices.create({
-  unit_amount: 5,
-  currency: 'usd',
-  recurring: { interval: 'month', usage_type: 'metered' },
-  product: 'prod_saas_api',
-});
-
-// Reportar uso do cliente
-await stripe.subscriptionItems.createUsageRecord(
-  'si_subscription_item_id',
-  { quantity: 1500, timestamp: Math.floor(Date.now() / 1000) }
-);
-```
-
 ### Preço por Níveis (Tiered Pricing)
 
 | Nível | Preço |
@@ -105,49 +68,9 @@ await stripe.subscriptionItems.createUsageRecord(
 | 1.001 - 10.000 unidades | $0,08/unidade |
 | 10.001+ unidades | $0,05/unidade |
 
-```javascript
-const price = await stripe.prices.create({
-  currency: 'usd',
-  recurring: { interval: 'month' },
-  product: 'prod_saas_tiered',
-  billing_scheme: 'tiered',
-  tiers_mode: 'graduated',
-  tiers: [
-    { up_to: 1000, unit_amount: 10 },
-    { up_to: 10000, unit_amount: 8 },
-    { up_to: 'inf', unit_amount: 5 },
-  ],
-});
-```
-
 ## 3. Configuração de Assinaturas SaaS
 
 ### Fluxo Básico de Assinatura
-
-```
-1. Cliente seleciona plano → 2. Stripe Checkout → 3. Pagamento bem-sucedido
-→ 4. Stripe cria assinatura → 5. Acesso concedido ao SaaS
-```
-
-```javascript
-const session = await stripe.checkout.sessions.create({
-  mode: 'subscription',
-  line_items: [{
-    price: 'price_saas_monthly',
-    quantity: 1,
-  }],
-  subscription_data: {
-    trial_period_days: 14,
-    metadata: {
-      plan_name: 'Pro',
-      client_id: 'client_123',
-    },
-  },
-  success_url: 'https://seusaas.com/dashboard',
-  cancel_url: 'https://seusaas.com/pricing',
-  automatic_tax: { enabled: true },
-});
-```
 
 ### Períodos de Teste (Trials)
 
@@ -156,19 +79,6 @@ const session = await stripe.checkout.sessions.create({
 | **Trial padrão** | `trial_period_days: 14` | 14 dias grátis ao criar assinatura |
 | **Trial sem cartão** | `trial_settings.end_behavior.missing_payment_method: 'cancel'` | Não requer cartão para o trial |
 | **Trial estendido** | Webhook `customer.subscription.updated` | Estender manualmente |
-
-```javascript
-const subscription = await stripe.subscriptions.create({
-  customer: customer.id,
-  items: [{ price: 'price_saas_monthly' }],
-  trial_period_days: 30,
-  trial_settings: {
-    end_behavior: {
-      missing_payment_method: 'cancel',
-    },
-  },
-});
-```
 
 ## 4. Stripe Customer Portal
 
@@ -184,17 +94,6 @@ O **Customer Portal** permite que seus clientes gerenciem sua assinatura sem int
 | **Cancelar assinatura** | Autoatendimento |
 | **Baixar recibos** | Para contabilidade |
 
-```javascript
-// Criar sessão do Customer Portal
-const session = await stripe.billingPortal.sessions.create({
-  customer: customer.id,
-  return_url: 'https://seusaas.com/account',
-});
-
-// Redirecionar cliente
-redirect(session.url);
-```
-
 ## 5. Webhooks para SaaS
 
 ### Eventos Chave do Stripe
@@ -208,59 +107,9 @@ redirect(session.url);
 | `invoice.payment_failed` | Pagamento falhou | Notificar, tentar novamente |
 | `customer.created` | Novo cliente | Registrar no CRM |
 
-```javascript
-const express = require('express');
-const app = express();
-
-// Webhook handler
-app.post('/webhook', express.raw({ type: 'application/json' }), (req, res) => {
-  const sig = req.headers['stripe-signature'];
-  let event;
-
-  try {
-    event = stripe.webhooks.constructEvent(req.body, sig, 'whsec_...');
-  } catch (err) {
-    return res.status(400).send(`Webhook Error: ${err.message}`);
-  }
-
-  switch (event.type) {
-    case 'customer.subscription.created':
-      handleSubscriptionCreated(event.data.object);
-      break;
-    case 'customer.subscription.updated':
-      handleSubscriptionUpdated(event.data.object);
-      break;
-    case 'customer.subscription.deleted':
-      handleSubscriptionDeleted(event.data.object);
-      break;
-    case 'invoice.payment_succeeded':
-      handlePaymentSucceeded(event.data.object);
-      break;
-    case 'invoice.payment_failed':
-      handlePaymentFailed(event.data.object);
-      break;
-  }
-
-  res.json({ received: true });
-});
-```
-
 ## 6. Gestão de Clientes SaaS
 
 ### Metadados para Organizar Clientes
-
-```javascript
-const customer = await stripe.customers.create({
-  email: 'cliente@exemplo.com',
-  name: 'Empresa ABC',
-  metadata: {
-    plan: 'pro',
-    client_id: 'abc_123',
-    industry: 'fintech',
-    signup_date: '2026-01-15',
-  },
-});
-```
 
 ### Segmentação por Plano
 
@@ -269,14 +118,6 @@ const customer = await stripe.customers.create({
 | **Starter** | $19/mês | 3 usuários | Básico |
 | **Professional** | $49/mês | 10 usuários | Avançado |
 | **Enterprise** | $199/mês | Ilimitados | Personalizado |
-
-```javascript
-// Obter todos os clientes no plano Pro
-const subscriptions = await stripe.subscriptions.list({
-  price: 'price_saas_pro_monthly',
-  status: 'active',
-});
-```
 
 ## 7. Dunning e Recuperação de Pagamentos
 
@@ -293,29 +134,7 @@ O Stripe gerencia automaticamente as tentativas de pagamento falhas com **Smart 
 
 ### Notificações ao Cliente
 
-```javascript
-// Webhook para pagamento falho
-case 'invoice.payment_failed':
-  const invoice = event.data.object;
-  const customer = await stripe.customers.retrieve(invoice.customer);
-
-  // Enviar email ao cliente
-  await sendEmail({
-    to: customer.email,
-    subject: 'Seu pagamento falhou - Atualize seu método de pagamento',
-    body: `Olá ${customer.name}, não conseguimos processar seu pagamento de ${invoice.amount_due / 100} ${invoice.currency}. Por favor, atualize seu método de pagamento.`,
-  });
-  break;
-```
-
 ### Configuração de Dunning no Stripe
-
-```
-Stripe Dashboard → Configurações → Faturamento → Dunning
-- ✅ Smart Retries (ativado)
-- ✅ Enviar emails automáticos do Stripe
-- ❌ Marcar assinatura como não paga após X dias (ajustável)
-```
 
 ## 8. Relatórios e Métricas SaaS
 
@@ -329,25 +148,6 @@ Stripe Dashboard → Configurações → Faturamento → Dunning
 | **LTV** | Lifetime Value | MRR médio × vida útil do cliente |
 | **CAC** | Customer Acquisition Cost | Gastos de marketing / clientes novos |
 
-```javascript
-// Obter assinaturas ativas
-const activeSubs = await stripe.subscriptions.list({
-  status: 'active',
-  limit: 100,
-});
-
-// Calcular MRR básico
-const mrr = activeSubs.data.reduce((total, sub) => {
-  const items = sub.items.data;
-  const subTotal = items.reduce((sum, item) => {
-    return sum + (item.price.unit_amount || 0);
-  }, 0);
-  return total + subTotal;
-}, 0);
-
-console.log(`MRR: $${mrr / 100}`);
-```
-
 ## 9. Stripe Connect para SaaS Marketplace
 
 ### Modelos de Plataforma
@@ -357,26 +157,6 @@ console.log(`MRR: $${mrr / 100}`);
 | **Platform** | Você cobra diretamente e paga fornecedores | Stripe cobra 2,9% + $0,30 |
 | **Marketplace** | Você conecta compradores e vendedores | Stripe cobra 0,25% + $0,30 |
 | **Standalone** | Cada vendedor tem conta Stripe própria | Stripe cobra taxas padrão |
-
-```javascript
-// Onboarding de vendedor com Stripe Connect
-const account = await stripe.accounts.create({
-  type: 'express',
-  country: 'US',
-  email: 'fornecedor@exemplo.com',
-  capabilities: {
-    transfers: { requested: true },
-  },
-});
-
-// Criar link de onboarding
-const link = await stripe.accountLinks.create({
-  account: account.id,
-  refresh_url: 'https://seusaas.com/reauth',
-  return_url: 'https://seusaas.com/success',
-  type: 'account_onboarding',
-});
-```
 
 ## 10. Perguntas Frequentes
 

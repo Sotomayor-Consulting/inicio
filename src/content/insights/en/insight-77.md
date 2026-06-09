@@ -1,7 +1,7 @@
----
+﻿---
 title: "How to Protect Digital Assets: Complete Guide 2026"
 description: "How to protect digital assets"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/protección-de-activos-digitales.png"
 cardImageAlt: "Digital shield protecting icons of assets like code, brands, domains, data, and cryptocurrencies"
 ---
 
@@ -50,40 +50,7 @@ In this guide, we explain **how to protect digital assets** in 2026: intellectua
 
 ### Transferring IP to the Company
 
-```javascript
-// Stripe: IP must be under the company name, not personal
-// The company charges for IP usage licenses
-
-// Billing for software license
-const session = await stripe.checkout.sessions.create({
-  mode: 'payment',
-  line_items: [{
-    price_data: {
-      currency: 'usd',
-      product_data: {
-        name: 'Software License - Enterprise',
-        description: 'Annual software license - company-owned IP',
-      },
-      unit_amount: 99900, // $999
-    },
-    quantity: 1,
-  }],
-  metadata: {
-    license_type: 'enterprise',
-    ip_owner: 'Your Company LLC',
-  },
-});
-```
-
 ### Rights Assignment
-
-```
-IP Assignment Agreement:
-- As founder, you assign code and IP to the company
-- The company is the legal owner
-- You are an employee or contractor
-- Without this: IP is yours personally, not the company's
-```
 
 ## 3. Technical Security
 
@@ -97,23 +64,6 @@ IP Assignment Agreement:
 | **GitHub/GitLab** | 2FA, SSH keys, deploy keys |
 | **Domains** | Transfer lock, 2FA at registrar |
 | **Social media** | 2FA, team access, unique passwords |
-
-```javascript
-// Stripe: Security configuration
-// Stripe Dashboard → Settings → Security
-
-// API: Restrict keys by IP
-const apiKey = await stripe.apiKeys.create({
-  name: 'Production - Restricted',
-});
-
-// Webhook: Signed and verified
-const event = stripe.webhooks.constructEvent(
-  req.body,
-  req.headers['stripe-signature'],
-  'whsec_your_webhook_secret'
-);
-```
 
 ### Password Management
 
@@ -136,20 +86,6 @@ const event = stripe.webhooks.constructEvent(
 ## 4. Legal Structure for Digital Assets
 
 ### Where to Register Assets
-
-```
-HOLDING (IP Owner)
-  ├── Source code
-  ├── Registered trademarks
-  ├── Patents
-  ├── Domains
-  └── Licenses
-
-OPERATING (Runs the business)
-  ├── Stripe (collects for IP licenses)
-  ├── Client relationships
-  └── Operational data
-```
 
 ### Required Contracts
 
@@ -174,43 +110,7 @@ OPERATING (Runs the business)
 | **Radar** | Custom anti-fraud rules |
 | **Rotated API keys** | Rotate keys periodically |
 
-```javascript
-// Stripe: Configure team access
-// Stripe Dashboard → Settings → Users
-
-// Recommended roles:
-// - Admin: Only owner/CTO
-// - Developer: API only, no financial Dashboard
-// - Analyst: Read-only reports
-// - Support: Customer data only
-
-// API key rotation
-const newKey = await stripe.apiKeys.create({
-  name: 'Production Q2 2026',
-});
-
-// Deactivate old key
-await stripe.apiKeys.update('sk_old_key', {
-  active: false,
-});
-```
-
 ### Stripe Atlas for Asset Protection
-
-```javascript
-// Stripe Atlas: Form the company that will own the assets
-// The company (LLC) is the legal owner of:
-// - Stripe account
-// - Registered IP
-// - Client contracts
-// - Customer data
-
-// Stripe Atlas includes:
-// - LLC formation
-// - EIN
-// - Business bank account
-// - Stripe configured
-```
 
 ## 6. Insurance for Digital Assets
 
@@ -248,33 +148,7 @@ await stripe.apiKeys.update('sk_old_key', {
 
 ### How to Create a Digital Succession Plan
 
-```
-Document: Digital Succession Plan
-1. List of all digital assets
-2. Password location (password manager)
-3. Designated person for each asset
-4. Legal instructions (digital will)
-5. Lawyer with access to the plan
-
-Tools:
-- Password manager (emergency access)
-- Digital will (legal document)
-- Letter of instruction (not legal, but useful)
-```
-
 ### Stripe: Designating a Successor
-
-```javascript
-// Stripe: No native successor function
-// but you can configure:
-// 1. Share access with co-founder or spouse
-// 2. Keep credentials in password manager
-// 3. Include Stripe in digital succession plan
-
-// Recommendation: Minimum 2 people with access
-// Stripe Dashboard → Settings → Users
-// Add: Co-founder or spouse as Admin
-```
 
 ## 8. Customer Data Protection
 
@@ -287,20 +161,6 @@ Tools:
 | **LGPD** | Brazil | 2% revenue (max R$50M) |
 
 ### Stripe and Data Protection
-
-```javascript
-// Stripe is PCI-DSS Level 1 (highest security)
-// Stripe handles sensitive data, you don't store it
-
-// Stripe doesn't share customer data without authorization
-// GDPR: Stripe acts as Data Processor
-
-// Configure data retention in Stripe
-// Stripe Dashboard → Settings → Data
-
-// Request customer data deletion
-await stripe.customers.del('cus_xxx');
-```
 
 ## 9. Monitoring and Maintenance
 
@@ -315,25 +175,6 @@ await stripe.customers.del('cus_xxx');
 | **Annually** | Security audit, renew IP registrations |
 
 ### Stripe Radar for Monitoring
-
-```javascript
-// Stripe Radar: Automatic fraud monitoring
-
-// Review suspicious activity
-const reviews = await stripe.radar.reviews.list({
-  limit: 10,
-});
-
-// Configure custom rules
-const rule = await stripe.radar.rules.create({
-  name: 'Alert on transactions > $10,000',
-  action: 'review',
-  conditions: {
-    amount: { operator: 'greater_than', value: 1000000 },
-    currency: { operator: 'equals', value: 'usd' },
-  },
-});
-```
 
 ## 10. Frequently Asked Questions
 

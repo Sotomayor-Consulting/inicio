@@ -1,7 +1,7 @@
----
+﻿---
 title: "Stripe para Agências de Marketing: Guia Completo 2026"
 description: "Stripe para agências de marketing"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/stripe.png"
 cardImageAlt: "Agência de marketing digital com dashboard do Stripe mostrando pagamentos de clientes"
 ---
 
@@ -97,26 +97,6 @@ O modelo mais comum para agências:
 
 **Como configurar pagamentos por marcos:**
 
-```javascript
-// Criar fatura com pagamentos parciais programados
-const invoice = await stripe.invoices.create({
-  customer: customer.id,
-  collection_method: 'send_invoice',
-  days_until_due: 15,
-  payment_settings: {
-    payment_method_types: ['card'],
-  },
-});
-
-// Adicionar itens com datas de vencimento diferentes
-await stripe.invoiceItems.create({
-  customer: customer.id,
-  invoice: invoice.id,
-  amount: 500000, // R$5.000 - primeiro marco
-  description: "50% inicial - Landing Page",
-});
-```
-
 ### Faturamento por Hora
 
 Para agências que cobram por hora:
@@ -145,13 +125,6 @@ Stripe Connect permite que agências:
 
 ### Modelo de Plataforma
 
-```
-Agência recebe o pagamento do cliente (R$25.000)
-  ├── 70% para a agência (R$17.500)
-  ├── 20% para o subcontractor SEO (R$5.000)
-  └── 10% para o designer freelance (R$2.500)
-```
-
 ### Como Configurar Stripe Connect
 
 | Passo | Ação |
@@ -161,22 +134,6 @@ Agência recebe o pagamento do cliente (R$25.000)
 | 3 | Registre seus subcontractores como contas conectadas |
 | 4 | Defina a divisão de pagamento por transação |
 | 5 | Stripe distribui automaticamente |
-
-```javascript
-// Exemplo: Dividir pagamento entre agência e subcontractor
-const session = await stripe.checkout.Session.create({
-  payment_method_types: ['card'],
-  line_items: [{ price: 'price_agency_service', quantity: 1 }],
-  payment_intent_data: {
-    application_fee_amount: 1750000, // R$17.500 para a agência
-    transfer_data: {
-      destination: '{{CONNECTED_ACCOUNT_ID}}', // Subcontractor
-    },
-  },
-  mode: 'payment',
-  success_url: 'https://suaagencia.com/sucesso',
-});
-```
 
 ## 5. Faturamento Automático para Clientes
 
@@ -190,20 +147,6 @@ const session = await stripe.checkout.Session.create({
 
 ### Envio Automático de Faturas
 
-```
-Cliente registrado
-       ↓
-Dia 1: Stripe cria fatura recorrente
-       ↓
-Dia 1: Stripe envia fatura por email
-       ↓
-Dia 15: Data de vencimento
-       ↓
-Dia 16: Stripe tenta cobrança automática (se configurado)
-       ↓
-Dia 20: Lembrete de pagamento atrasado
-```
-
 ### Customer Portal para Clientes
 
 Seus clientes podem:
@@ -212,14 +155,6 @@ Seus clientes podem:
 - Atualizar método de pagamento
 - Baixar faturas
 - Mudar de plano
-
-```javascript
-// Criar sessão do portal para o cliente
-const session = await stripe.billingPortal.sessions.create({
-  customer: customer.id,
-  return_url: 'https://suaagencia.com/dashboard',
-});
-```
 
 ## 6. Gestão de Múltiplas Moedas
 
@@ -252,44 +187,7 @@ const session = await stripe.billingPortal.sessions.create({
 
 ### Fluxo de Onboarding de Clientes
 
-```
-1. Cliente preenche formulário de contratação
-        ↓
-2. API do Stripe cria o cliente no Stripe
-        ↓
-3. Stripe envia fatura inicial ou link de pagamento
-        ↓
-4. Cliente paga → Stripe notifica a agência
-        ↓
-5. Webhook ativa CRM e ferramentas internas
-        ↓
-6. Cliente recebe acesso ao portal
-```
-
 ### Webhooks para Automação
-
-```javascript
-// Ouvir eventos do Stripe
-app.post('/webhook', express.raw({ type: 'application/json' }), (req, res) => {
-  const event = stripe.webhooks.constructEvent(
-    req.body, req.headers['stripe-signature'], webhookSecret
-  );
-
-  switch (event.type) {
-    case 'invoice.payment_succeeded':
-      // Ativar serviços do cliente
-      break;
-    case 'customer.subscription.updated':
-      // Sincronizar com CRM
-      break;
-    case 'customer.subscription.deleted':
-      // Desativar serviços
-      break;
-  }
-
-  res.json({ received: true });
-});
-```
 
 ### Integrações Recomendadas
 
@@ -317,16 +215,6 @@ app.post('/webhook', express.raw({ type: 'application/json' }), (req, res) => {
 ### Dashboard do Stripe para Agências
 
 Stripe Dashboard mostra:
-
-```
-MRR: R$92.500        ↑ 8% vs mês anterior
-Clientes ativos: 24
-Novos: 3             ↑ 15%
-Cancelamentos: 1     ↓ 5%
-Churn Rate: 4,2%
-Média/cliente: R$3.854
-Pagamentos atrasados: 2 (8,3%)
-```
 
 ### Exportação de Relatórios
 
