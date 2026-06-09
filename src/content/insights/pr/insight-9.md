@@ -41,12 +41,9 @@ A maioria dos estados exige que a LLC apresente um relat�rio anual para se man
 
 ### Exemplos por estado
 
-| Estado | Custo Anual | Notas |
-|--------|-------------|-------|
-| **Wyoming** | $60 m�nimo | Taxa baseada em ativos ou m�nimo de $60 |
-| **Fl�rida** | $138,75 | Multa de $400 por atraso se n�o apresentado a tempo |
-| **Delaware** | $300 | N�o exige relat�rio anual, mas tem Franchise Tax fixo |
-
+- **Wyoming:** $60 m�nimo -- Taxa baseada em ativos ou m�nimo de $60
+- **Fl�rida:** $138,75 -- Multa de $400 por atraso se n�o apresentado a tempo
+- **Delaware:** $300 -- N�o exige relat�rio anual, mas tem Franchise Tax fixo
 ## Franchise Tax ou Taxas Estaduais
 
 Alguns estados cobram impostos ou taxas anuais simplesmente por manter a empresa ativa. Isto n�o significa necessariamente que a LLC est� pagando imposto sobre a receita. Muitas vezes � apenas um custo estadual de manuten��o.
@@ -106,38 +103,29 @@ Isso depende muito do modelo de neg�cio e do estado.
 
 Uma LLC simples sem opera��o complexa:
 
-| Item | Custo anual |
-|------|-------------|
-| Agente registrado | $100 |
-| Relat�rio estadual | $60�$139 |
-| Declara��es informativas | $200�$500 |
-| **Total aproximado** | **$360�$739** |
-
+- **Agente registrado:** $100
+- **Relat�rio estadual:** $60�$139
+- **Declara��es informativas:** $200�$500
+- **Total aproximado:** **$360�$739**
 ### Cen�rio intermedi�rio
 
 Se a empresa tem movimento banc�rio, Stripe, e-commerce ou s�cios:
 
-| Item | Custo anual |
-|------|-------------|
-| Agente registrado | $100�$200 |
-| Relat�rio estadual | $60�$300 |
-| Declara��es fiscais | $500�$1500 |
-| Contabilidade mensal | $600�$1800 |
-| **Total aproximado** | **$1260�$3800** |
-
+- **Agente registrado:** $100�$200
+- **Relat�rio estadual:** $60�$300
+- **Declara��es fiscais:** $500�$1500
+- **Contabilidade mensal:** $600�$1800
+- **Total aproximado:** **$1260�$3800**
 ### Cen�rio avan�ado
 
 Empresas com funcion�rios, opera��o f�sica, invent�rio ou estrutura holding:
 
-| Item | Custo anual |
-|------|-------------|
-| Agente registrado | $200�$300 |
-| Relat�rio estadual + taxas | $300�$800+ |
-| Declara��es fiscais | $1500�$5000+ |
-| Contabilidade mensal | $1800�$6000+ |
-| Licen�as e autoriza��es | $100�$1000+ |
-| **Total aproximado** | **$3900�$13100+** |
-
+- **Agente registrado:** $200�$300
+- **Relat�rio estadual + taxas:** $300�$800+
+- **Declara��es fiscais:** $1500�$5000+
+- **Contabilidade mensal:** $1800�$6000+
+- **Licen�as e autoriza��es:** $100�$1000+
+- **Total aproximado:** **$3900�$13100+**
 ## O que acontece se eu n�o mantiver minha LLC?
 
 N�o cumprir as obriga��es pode gerar:

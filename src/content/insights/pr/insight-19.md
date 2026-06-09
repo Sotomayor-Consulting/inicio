@@ -37,12 +37,9 @@ Esta � uma das consequ�ncias mais graves e menos conhecidas. Para uma LLC de
 
 Cada estado tem suas pr�prias penalidades:
 
-| Estado | Multa por atraso | Consequ�ncia adicional |
-|--------|-----------------|----------------------|
-| **Wyoming** | $50�$150 | Suspens�o da LLC |
-| **Fl�rida** | $400 | Suspens�o e perda de bom estado |
-| **Delaware** | $200 + juros | Suspens�o e cobran�as adicionais |
-
+- **Wyoming:** $50�$150 -- Suspens�o da LLC
+- **Fl�rida:** $400 -- Suspens�o e perda de bom estado
+- **Delaware:** $200 + juros -- Suspens�o e cobran�as adicionais
 ### Suspens�o ou dissolu��o da LLC
 
 Se n�o apresentar o Annual Report por v�rios anos, o estado pode:
@@ -114,14 +111,11 @@ Se a LLC n�o est� gerando benef�cios que justifiquem sua manuten��o, p
 
 ## Mitos comuns sobre n�o declarar
 
-| Mito | Realidade |
-|------|-----------|
-| "O IRS n�o rastreia LLCs de estrangeiros" | O IRS tem acordos com dezenas de pa�ses |
-| "Se n�o tive receitas, n�o tenho que declarar" | Os formul�rios informativos podem ser obrigat�rios sem receitas |
-| "Posso dissolver a LLC e esquecer" | As obriga��es fiscais existem enquanto a LLC esteve ativa |
-| "Nunca v�o me encontrar" | Bancos e fintechs reportam atividade ao IRS |
-| "S� preciso pagar o que devo" | Tamb�m h� multas e formul�rios n�o apresentados |
-
+- **"O IRS n�o rastreia LLCs de estrangeiros":** O IRS tem acordos com dezenas de pa�ses
+- **"Se n�o tive receitas, n�o tenho que declarar":** Os formul�rios informativos podem ser obrigat�rios sem receitas
+- **"Posso dissolver a LLC e esquecer":** As obriga��es fiscais existem enquanto a LLC esteve ativa
+- **"Nunca v�o me encontrar":** Bancos e fintechs reportam atividade ao IRS
+- **"S� preciso pagar o que devo":** Tamb�m h� multas e formul�rios n�o apresentados
 ## Quanto tempo o IRS tem para reclamar?
 
 O IRS geralmente tem **3 anos** para auditar uma declara��o apresentada. No entanto:

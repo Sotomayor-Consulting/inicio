@@ -38,14 +38,11 @@ When opening the account, you provided information about your LLC and its owners
 
 Bank algorithms monitor transaction patterns. Certain behaviors can trigger alerts:
 
-| Activity | Why it is suspicious |
-|-----------|----------------------|
-| Frequent cash deposits | Possible money laundering |
-| Transfers from personal accounts without explanation | Mixing personal and business funds |
-| Multiple small transfers | Possible structuring (smurfing) |
-| Transactions to high-risk countries | Possible sanctions violation |
-| Prolonged inactivity followed by sudden activity | Possible account misuse |
-
+- **Frequent cash deposits:** Possible money laundering
+- **Transfers from personal accounts without explanation:** Mixing personal and business funds
+- **Multiple small transfers:** Possible structuring (smurfing)
+- **Transactions to high-risk countries:** Possible sanctions violation
+- **Prolonged inactivity followed by sudden activity:** Possible account misuse
 ### 3. Not keeping the LLC in compliance
 
 Both Mercury and Relay may request proof that your LLC is in good standing. If your LLC is suspended for not filing the Annual Report, the bank may freeze or close your account.
@@ -123,26 +120,20 @@ If the LLC was suspended:
 
 If the account was permanently closed, consider these alternatives:
 
-| Bank/Fintech | Ideal for | Remote opening |
-|--------------|-----------|----------------|
-| **Wise Business** | International payments, multiple currencies | Yes |
-| **Novo** | Small businesses, accounting integration | Yes |
-| **Stripe Treasury** | Businesses already using Stripe | Yes |
-| **Payoneer** | Freelancers and marketplaces | Yes |
-| **Traditional bank account** | Businesses with physical operations | Depends on bank |
-
+- **Wise Business:** International payments, multiple currencies -- Yes
+- **Novo:** Small businesses, accounting integration -- Yes
+- **Stripe Treasury:** Businesses already using Stripe -- Yes
+- **Payoneer:** Freelancers and marketplaces -- Yes
+- **Traditional bank account:** Businesses with physical operations -- Depends on bank
 ## Comparison table: Mercury vs Relay policies
 
-| Aspect | Mercury | Relay |
-|--------|---------|-------|
-| **Remote opening** | Yes | Yes |
-| **Requests Operating Agreement** | Frequently | Occasionally |
-| **Periodic verification** | Annual | Annual |
-| **Support for foreigners** | Good | Good |
-| **Inactivity limit** | 90 days without activity | 60 days without activity |
-| **USD accounts** | Yes | Yes |
-| **Stripe integration** | Native | Via connection |
-
+- **Remote opening:** Yes -- Yes
+- **Requests Operating Agreement:** Frequently -- Occasionally
+- **Periodic verification:** Annual -- Annual
+- **Support for foreigners:** Good -- Good
+- **Inactivity limit:** 90 days without activity -- 60 days without activity
+- **USD accounts:** Yes -- Yes
+- **Stripe integration:** Native -- Via connection
 ## Common mistakes leading to closure
 
 - **Not reading bank emails:** Many entrepreneurs ignore compliance emails because they are in English or look like spam.

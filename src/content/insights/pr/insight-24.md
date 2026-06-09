@@ -36,37 +36,31 @@ Mesmo assim, se a LLC teve despesas, investimentos ou transa��es, geralmente
 
 ## Componentes do Formul�rio 1065
 
-| Componente | Descri��o |
-|------------|-----------|
-| **P�gina 1** | Informa��o geral da LLC: nome, EIN, endere�o, data de constitui��o |
-| **Schedule A** | Custo de bens vendidos (se aplic�vel) |
-| **Schedule B** | Informa��o sobre a propriedade da LLC |
-| **Schedule K** | Totais de receitas, despesas, cr�ditos e dedu��es a n�vel de LLC |
-| **Schedule M-1** | Reconcilia��o de receitas cont�beis vs fiscais |
-| **Schedule M-2** | An�lise de conta de capital dos s�cios |
-| **Schedule K-1** | Participa��o individual de cada s�cio em receitas, despesas, cr�ditos e dedu��es |
-
+- **P�gina 1:** Informa��o geral da LLC: nome, EIN, endere�o, data de constitui��o
+- **Schedule A:** Custo de bens vendidos (se aplic�vel)
+- **Schedule B:** Informa��o sobre a propriedade da LLC
+- **Schedule K:** Totais de receitas, despesas, cr�ditos e dedu��es a n�vel de LLC
+- **Schedule M-1:** Reconcilia��o de receitas cont�beis vs fiscais
+- **Schedule M-2:** An�lise de conta de capital dos s�cios
+- **Schedule K-1:** Participa��o individual de cada s�cio em receitas, despesas, cr�ditos e dedu��es
 ## Schedule K-1: O documento principal para cada s�cio
 
 O **Schedule K-1** � o documento mais importante para os s�cios de uma multi-member LLC. Cada s�cio recebe um, contendo:
 
 ### Informa��o inclu�da no K-1
 
-| Caixa | Informa��o |
-|-------|-----------|
-| **Box 1** | Receitas ordin�rias (preju�zos) do neg�cio |
-| **Box 2** | Ganhos de capital l�quidos |
-| **Box 3** | Ganhos de capital l�quidos de longo prazo |
-| **Box 4** | Receitas de aluguel |
-| **Box 5** | Juros |
-| **Box 6a** | Dividendos ordin�rios |
-| **Box 6b** | Dividendos qualificados |
-| **Box 7** | Royalties |
-| **Box 8** | Receitas de partnerships ou trusts |
-| **Box 9a** | Dedu��es de receitas comerciais (Section 199A) |
-| **Box 10** | Outras receitas |
-| **Box 11-20** | Dedu��es, cr�ditos e outra informa��o |
-
+- **Box 1:** Receitas ordin�rias (preju�zos) do neg�cio
+- **Box 2:** Ganhos de capital l�quidos
+- **Box 3:** Ganhos de capital l�quidos de longo prazo
+- **Box 4:** Receitas de aluguel
+- **Box 5:** Juros
+- **Box 6a:** Dividendos ordin�rios
+- **Box 6b:** Dividendos qualificados
+- **Box 7:** Royalties
+- **Box 8:** Receitas de partnerships ou trusts
+- **Box 9a:** Dedu��es de receitas comerciais (Section 199A)
+- **Box 10:** Outras receitas
+- **Box 11-20:** Dedu��es, cr�ditos e outra informa��o
 ### O que o s�cio faz com o K-1?
 
 Cada s�cio deve reportar a informa��o de seu K-1 em sua declara��o de impostos pessoal:
@@ -76,13 +70,10 @@ Cada s�cio deve reportar a informa��o de seu K-1 em sua declara��o de 
 
 ## Prazos principais
 
-| Evento | Data limite |
-|--------|-------------|
-| **Formul�rio 1065** (sem extens�o) | 15 de mar�o |
-| **Formul�rio 7004** (solicita��o de extens�o) | 15 de mar�o |
-| **1065 com extens�o** | 15 de setembro |
-| **K-1 para os s�cios** | Deve ser emitido antes dos s�cios apresentarem suas declara��es |
-
+- **Formul�rio 1065** (sem extens�o):** 15 de mar�o
+- **Formul�rio 7004** (solicita��o de extens�o):** 15 de mar�o
+- **1065 com extens�o:** 15 de setembro
+- **K-1 para os s�cios:** Deve ser emitido antes dos s�cios apresentarem suas declara��es
 > **Diferen�a principal do 5472:** O 1065 � apresentado ao IRS em data diferente e tem regras de extens�o distintas.
 
 ## Passo a passo para preparar o Formul�rio 1065
@@ -98,13 +89,10 @@ Cada s�cio deve reportar a informa��o de seu K-1 em sua declara��o de 
 
 Determine a n�vel de LLC:
 
-| Categoria | Exemplos |
-|-----------|----------|
-| **Receitas** | Vendas, servi�os, juros, outras receitas |
-| **Despesas** | Sal�rios, aluguel, marketing, software, viagens, deprecia��o |
-| **Dedu��es** | Section 179, planos de aposentadoria, etc. |
-| **Cr�ditos** | Cr�ditos fiscais aplic�veis |
-
+- **Receitas:** Vendas, servi�os, juros, outras receitas
+- **Despesas:** Sal�rios, aluguel, marketing, software, viagens, deprecia��o
+- **Dedu��es:** Section 179, planos de aposentadoria, etc.
+- **Cr�ditos:** Cr�ditos fiscais aplic�veis
 ### Passo 3: Distribua entre os s�cios
 
 Segundo o percentual de participa��o de cada s�cio (definido no Operating Agreement), distribua:
@@ -129,16 +117,13 @@ Cada s�cio deve receber seu K-1 a tempo de apresentar sua declara��o pesso
 
 ## Diferen�as principais: 1065 vs 5472
 
-| Aspecto | Formul�rio 1065 | Formul�rio 5472 |
-|---------|----------------|-----------------|
-| **Quem apresenta?** | Multi-member LLCs | Single-member LLCs (propriet�rio estrangeiro) |
-| **Tipo de declara��o** | Informativa (ganhos/perdas) | Informativa (transa��es) |
-| **Data limite** | 15 de mar�o | 15 de abril |
-| **Extens�o** | At� 15 de setembro | At� 15 de outubro |
-| **K-1** | Sim, para cada s�cio | N�o aplica |
-| **Multa por n�o apresentar** | $220 por m�s por s�cio | $25.000 por ano |
-| **Complexidade** | M�dia-Alta | Baixa-M�dia |
-
+- **Quem apresenta?:** Multi-member LLCs -- Single-member LLCs (propriet�rio estrangeiro)
+- **Tipo de declara��o:** Informativa (ganhos/perdas) -- Informativa (transa��es)
+- **Data limite:** 15 de mar�o -- 15 de abril
+- **Extens�o:** At� 15 de setembro -- At� 15 de outubro
+- **K-1:** Sim, para cada s�cio -- N�o aplica
+- **Multa por n�o apresentar:** $220 por m�s por s�cio -- $25.000 por ano
+- **Complexidade:** M�dia-Alta -- Baixa-M�dia
 ## Obriga��es para s�cios estrangeiros
 
 Se sua multi-member LLC tem s�cios estrangeiros n�o residentes:
@@ -192,14 +177,11 @@ Um 1065 sem assinatura � inv�lido. O Tax Matters Partner deve assinar.
 
 **Situa��o:** Maria e Jo�o s�o s�cios ao 50% de uma ag�ncia de marketing digital com LLC na Fl�rida. Em 2024:
 
-| Conceito | Valor |
-|----------|-------|
-| Receitas totais | $120.000 |
-| Despesas operacionais | $70.000 |
-| Lucro l�quido | $50.000 |
-| Aporta��o de cada s�cio | $5.000 |
-| Distribui��o a cada s�cio | $20.000 |
-
+- **Receitas totais:** $120.000
+- **Despesas operacionais:** $70.000
+- **Lucro l�quido:** $50.000
+- **Aporta��o de cada s�cio:** $5.000
+- **Distribui��o a cada s�cio:** $20.000
 ### O que a LLC deve fazer
 
 1. Preparar o Formul�rio 1065 com os totais.
@@ -221,13 +203,10 @@ O Formul�rio 1065 � significativamente mais complexo que o 5472. Para a maio
 
 ### Custos t�picos
 
-| Servi�o | Custo estimado |
-|---------|---------------|
-| Prepara��o do 1065 + K-1 (2 s�cios) | $800 - $1.500 |
-| Por s�cio adicional | $100 - $200 |
-| Prepara��o da declara��o pessoal do s�cio | $300 - $800 |
-| Assessoria durante o ano | $100 - $300/m�s |
-
+- **Prepara��o do 1065 + K-1 (2 s�cios):** $800 - $1.500
+- **Por s�cio adicional:** $100 - $200
+- **Prepara��o da declara��o pessoal do s�cio:** $300 - $800
+- **Assessoria durante o ano:** $100 - $300/m�s
 ## Checklist anual
 
 - [ ] Reunir demonstra��es financeiras da LLC (P&L, Balan�o).

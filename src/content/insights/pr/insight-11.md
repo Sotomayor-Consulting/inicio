@@ -59,12 +59,9 @@ Esta � uma das diferen�as mais importantes.
 
 ## Diferen�a #3: Propriedade da empresa
 
-| Aspecto | LLC | Corporation |
-|---------|-----|-------------|
-| **Propriet�rios** | Membros (members) | Acionistas (shareholders) |
-| **Participa��o** | Percentagens no Operating Agreement | A��es emitidas |
-| **Transfer�ncia** | Exige acordo dos membros | Livre transfer�ncia de a��es |
-
+- **Propriet�rios:** Membros (members) -- Acionistas (shareholders)
+- **Participa��o:** Percentagens no Operating Agreement -- A��es emitidas
+- **Transfer�ncia:** Exige acordo dos membros -- Livre transfer�ncia de a��es
 ## Diferen�a #4: Investidores e crescimento
 
 **LLC:** Funciona muito bem para neg�cios pequenos e m�dios, empresas familiares, consultores, opera��es digitais e e-commerce.
@@ -85,17 +82,14 @@ Esta � uma das diferen�as mais importantes.
 
 ## Tabela comparativa
 
-| Aspecto | LLC | Corporation |
-|---------|-----|-------------|
-| **Tributa��o** | Flex�vel (pass-through) | Dupla tributa��o (C-Corp) |
-| **Formalidades** | Baixas | Altas |
-| **Propriet�rios** | Membros | Acionistas |
-| **A��es** | N�o emite | Emite a��es |
-| **Investimento** | Limitado | Ideal para VC |
-| **Estrangeiros** | Muito popular | Poss�vel mas mais complexo |
-| **Manuten��o** | Simples | Mais custosa |
-| **Melhor para** | Freelancers, digital, PMEs | Startups, investimento, IPO |
-
+- **Tributa��o:** Flex�vel (pass-through) -- Dupla tributa��o (C-Corp)
+- **Formalidades:** Baixas -- Altas
+- **Propriet�rios:** Membros -- Acionistas
+- **A��es:** N�o emite -- Emite a��es
+- **Investimento:** Limitado -- Ideal para VC
+- **Estrangeiros:** Muito popular -- Poss�vel mas mais complexo
+- **Manuten��o:** Simples -- Mais custosa
+- **Melhor para:** Freelancers, digital, PMEs -- Startups, investimento, IPO
 ## Qual � mais adequada?
 
 ### Uma LLC pode ser ideal se:

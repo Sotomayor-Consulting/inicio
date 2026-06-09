@@ -13,64 +13,49 @@ Neste guia, explicamos **como evitar ações judiciais pessoais** em 2026: estru
 
 ### Causas Comuns de Ações Judiciais
 
-| Causa | Descrição | Frequência |
-|-------|-----------|-----------|
-| **Quebra de contrato** | Não entregar o prometido no prazo | Muito alta |
-| **Responsabilidade profissional** | Erro em consultoria, design, desenvolvimento | Alta |
-| **Propriedade intelectual** | Uso não autorizado de conteúdo, código, marca | Média |
-| **Privacidade de dados** | Vazamento de dados de clientes | Crescente |
-| **Concorrência desleal** | Acusações de cópia ou sabotagem | Média |
-| **Não pagamento** | Não pagar fornecedores ou colaboradores | Alta |
-| **Demissão injusta** | Se tem funcionários, riscos trabalhistas | Alta |
-
+- **Quebra de contrato:** Não entregar o prometido no prazo -- Muito alta
+- **Responsabilidade profissional:** Erro em consultoria, design, desenvolvimento -- Alta
+- **Propriedade intelectual:** Uso não autorizado de conteúdo, código, marca -- Média
+- **Privacidade de dados:** Vazamento de dados de clientes -- Crescente
+- **Concorrência desleal:** Acusações de cópia ou sabotagem -- Média
+- **Não pagamento:** Não pagar fornecedores ou colaboradores -- Alta
+- **Demissão injusta:** Se tem funcionários, riscos trabalhistas -- Alta
 ### Perfis com Maior Risco
 
-| Perfil | Risco | Razão |
-|--------|-------|-------|
-| **Consultor / Freelancer** | Alto | Responsabilidade profissional direta |
-| **SaaS / Software** | Alto | Dados de clientes, disponibilidade do serviço |
-| **Agência de marketing** | Médio-Alto | Resultados não garantidos, propriedade intelectual |
-| **E-commerce** | Médio | Produtos defeituosos, devoluções |
-| **Coach / Mentor** | Alto | Expectativas do cliente, resultados não mensuráveis |
-
+- **Consultor / Freelancer:** Alto -- Responsabilidade profissional direta
+- **SaaS / Software:** Alto -- Dados de clientes, disponibilidade do serviço
+- **Agência de marketing:** Médio-Alto -- Resultados não garantidos, propriedade intelectual
+- **E-commerce:** Médio -- Produtos defeituosos, devoluções
+- **Coach / Mentor:** Alto -- Expectativas do cliente, resultados não mensuráveis
 > Ações judiciais nem sempre são por erros reais. Muitas são oportunistas: pessoas que veem um negócio bem-sucedido e buscam compensação.
 
 ## 2. Primeira Linha de Defesa: Estrutura Legal
 
 ### A LLC como Escudo
 
-| Aspecto | Sem LLC | Com LLC |
-|---------|---------|---------|
-| **Ação de $100.000** | Você responde com casa, carro, economias pessoais | Só a LLC responde |
-| **Credores** | Vão contra seu patrimônio pessoal | Vão contra a empresa |
-| **Velo corporativo** | Não existe | Protege se mantido |
-| **Custo mensal** | $0 | ~$15-30/mês (manutenção) |
-
+- **Ação de $100.000:** Você responde com casa, carro, economias pessoais -- Só a LLC responde
+- **Credores:** Vão contra seu patrimônio pessoal -- Vão contra a empresa
+- **Velo corporativo:** Não existe -- Protege se mantido
+- **Custo mensal:** $0 -- ~$15-30/mês (manutenção)
 ### Como Manter o Velo Corporativo
 
-| Prática | Descrição | Impacto |
-|---------|-----------|---------|
-| **Contas separadas** | Nunca misture fundos pessoais com empresariais | Essencial |
-| **Contratos em nome da LLC** | Todos os contratos com clientes assinam com a LLC | Essencial |
-| **Notas fiscais da LLC** | Notas com CNPJ/EIN da empresa | Essencial |
-| **Atas e registros** | Mantenha atas de reuniões e decisões | Importante |
-| **Capital adequado** | Não subcapitalize a empresa | Importante |
-| **Stripe em nome da LLC** | Conta Stripe empresarial, não pessoal | Essencial |
-
+- **Contas separadas:** Nunca misture fundos pessoais com empresariais -- Essencial
+- **Contratos em nome da LLC:** Todos os contratos com clientes assinam com a LLC -- Essencial
+- **Notas fiscais da LLC:** Notas com CNPJ/EIN da empresa -- Essencial
+- **Atas e registros:** Mantenha atas de reuniões e decisões -- Importante
+- **Capital adequado:** Não subcapitalize a empresa -- Importante
+- **Stripe em nome da LLC:** Conta Stripe empresarial, não pessoal -- Essencial
 ## 3. Segunda Linha de Defesa: Contratos Sólidos
 
 ### Cláusulas Essenciais
 
-| Cláusula | Propósito | Protege Contra |
-|----------|-----------|----------------|
-| **Limitação de responsabilidade** | Limita exposição ao valor do contrato | Ações milionárias |
-| **Indenização** | Cliente indeniza por uso incorreto do trabalho | Responsabilidade indireta |
-| **Propriedade intelectual** | Especifica quem é dono do quê | Disputas de IP |
-| **Confidencialidade** | Protege informações sensíveis | Vazamentos |
-| **Resolução de disputas** | Arbitragem em vez de julgamento | Custos legais |
-| **Rescisão** | Condições claras para cancelar | Quebra de contrato |
-| **Força maior** | Eventos fora do seu controle | Desastres, pandemia |
-
+- **Limitação de responsabilidade:** Limita exposição ao valor do contrato -- Ações milionárias
+- **Indenização:** Cliente indeniza por uso incorreto do trabalho -- Responsabilidade indireta
+- **Propriedade intelectual:** Especifica quem é dono do quê -- Disputas de IP
+- **Confidencialidade:** Protege informações sensíveis -- Vazamentos
+- **Resolução de disputas:** Arbitragem em vez de julgamento -- Custos legais
+- **Rescisão:** Condições claras para cancelar -- Quebra de contrato
+- **Força maior:** Eventos fora do seu controle -- Desastres, pandemia
 ### Exemplo: Limitação de Responsabilidade
 
 ### Contratos Digitais com Stripe
@@ -79,88 +64,70 @@ Neste guia, explicamos **como evitar ações judiciais pessoais** em 2026: estru
 
 ### Seguros Essenciais para Empreendedores
 
-| Seguro | Cobertura | Custo Aprox. | Quem Precisa |
-|--------|-----------|-------------|-------------|
-| **Responsabilidade profissional (E&O)** | Erros em serviços profissionais | $500-2.000/ano | Consultores, agências, freelancers |
-| **Responsabilidade geral** | Danos a terceiros, acidentes | $300-800/ano | Quem tem escritório físico |
-| **Cibersegurança** | Vazamento de dados, hackers | $1.000-5.000/ano | SaaS, e-commerce, dados de clientes |
-| **D&O (Diretores e Oficiais)** | Decisões gerenciais incorretas | $1.000-5.000/ano | Startups com investimento |
-| **Tech E&O** | Bugs, downtime, perda de dados | $1.500-6.000/ano | SaaS, desenvolvimento de software |
-
+- **Responsabilidade profissional (E&O):** Erros em serviços profissionais -- $500-2.000/ano -- Consultores, agências, freelancers
+- **Responsabilidade geral:** Danos a terceiros, acidentes -- $300-800/ano -- Quem tem escritório físico
+- **Cibersegurança:** Vazamento de dados, hackers -- $1.000-5.000/ano -- SaaS, e-commerce, dados de clientes
+- **D&O (Diretores e Oficiais):** Decisões gerenciais incorretas -- $1.000-5.000/ano -- Startups com investimento
+- **Tech E&O:** Bugs, downtime, perda de dados -- $1.500-6.000/ano -- SaaS, desenvolvimento de software
 ### Como Contratar Seguros
 
 ## 5. Quarta Linha de Defesa: Operação Profissional
 
 ### Práticas que Reduzem Risco de Ações
 
-| Prática | Descrição |
-|---------|-----------|
-| **Documente tudo** | Emails, acordos, mudanças de escopo, aprovações |
-| **Comunicação clara** | Expectativas realistas, atualizações periódicas |
-| **Não prometa resultados** | Especialmente em marketing, consultoria, coaching |
-| **Registre aprovações** | Cada entrega aprovada por escrito |
-| **Política de privacidade** | Transparente sobre uso de dados |
-| **Termos de serviço** | Claros, acessíveis, atualizados |
-| **Faturamento profissional** | Stripe com notas fiscais detalhadas |
-
+- **Documente tudo:** Emails, acordos, mudanças de escopo, aprovações
+- **Comunicação clara:** Expectativas realistas, atualizações periódicas
+- **Não prometa resultados:** Especialmente em marketing, consultoria, coaching
+- **Registre aprovações:** Cada entrega aprovada por escrito
+- **Política de privacidade:** Transparente sobre uso de dados
+- **Termos de serviço:** Claros, acessíveis, atualizados
+- **Faturamento profissional:** Stripe com notas fiscais detalhadas
 ### Stripe e a Documentação
 
 ## 6. Gestão de Disputas com Clientes
 
 ### Antes de Escalar
 
-| Passo | Ação |
-|-------|------|
-| **1** | Ouça ativamente, não se coloque na defensiva |
-| **2** | Documente tudo que o cliente diz |
-| **3** | Revise o contrato: o que diz sobre esta situação? |
-| **4** | Proponha uma solução razoável |
-| **5** | Se houver acordo, documente por escrito |
-
+- **1:** Ouça ativamente, não se coloque na defensiva
+- **2:** Documente tudo que o cliente diz
+- **3:** Revise o contrato: o que diz sobre esta situação?
+- **4:** Proponha uma solução razoável
+- **5:** Se houver acordo, documente por escrito
 ### Stripe Disputas (Chargebacks)
 
 ## 7. Proteção de Dados e Privacidade
 
 ### Regulamentações Relevantes
 
-| Regulamentação | Aplica-se a | Obrigações |
-|---------------|------------|-----------|
-| **LGPD** | Clientes no Brasil | Consentimento, direito ao esquecimento, notificar vazamentos |
-| **GDPR** | Clientes na União Europeia | Consentimento, direito ao apagamento, notificar violações |
-| **CCPA** | Clientes na Califórnia (EUA) | Direito de saber, direito de excluir |
-| **Leis locais** | Cada país | Varia por jurisdição |
-
+- **LGPD:** Clientes no Brasil -- Consentimento, direito ao esquecimento, notificar vazamentos
+- **GDPR:** Clientes na União Europeia -- Consentimento, direito ao apagamento, notificar violações
+- **CCPA:** Clientes na Califórnia (EUA) -- Direito de saber, direito de excluir
+- **Leis locais:** Cada país -- Varia por jurisdição
 ### Stripe e a Proteção de Dados
 
 ## 8. Resolução de Disputas: Arbitragem vs. Julgamento
 
 ### Arbitragem
 
-| Aspecto | Arbitragem | Julgamento |
-|---------|-----------|------------|
-| **Custo** | $2.000-10.000 | $10.000-100.000+ |
-| **Duração** | 3-6 meses | 1-3 anos |
-| **Privacidade** | Confidencial | Público |
-| **Recurso** | Limitado | Amplo |
-| **Decisão** | Vinculante | Vinculante com recurso |
-
+- **Custo:** $2.000-10.000 -- $10.000-100.000+
+- **Duração:** 3-6 meses -- 1-3 anos
+- **Privacidade:** Confidencial -- Público
+- **Recurso:** Limitado -- Amplo
+- **Decisão:** Vinculante -- Vinculante com recurso
 ### Cláusula de Arbitragem Recomendada
 
 ## 9. Stripe como Ferramenta de Prevenção
 
 ### Como Stripe Ajuda a Evitar Ações Judiciais
 
-| Função do Stripe | Como Protege |
-|-----------------|-------------|
-| **Stripe Checkout** | Checkout profissional reduz disputas |
-| **Stripe Invoicing** | Notas fiscais claras com termos |
-| **Stripe Tax** | Impostos calculados corretamente |
-| **3D Secure** | Verificação do comprador, reduz fraudes |
-| **Radar** | Detecta transações fraudulentas |
-| **Disputas** | Sistema automatizado de chargebacks |
-| **Metadata** | Registro de cada transação para disputas |
-| **Stripe Atlas** | Forma sua LLC, primeira camada de proteção |
-
+- **Stripe Checkout:** Checkout profissional reduz disputas
+- **Stripe Invoicing:** Notas fiscais claras com termos
+- **Stripe Tax:** Impostos calculados corretamente
+- **3D Secure:** Verificação do comprador, reduz fraudes
+- **Radar:** Detecta transações fraudulentas
+- **Disputas:** Sistema automatizado de chargebacks
+- **Metadata:** Registro de cada transação para disputas
+- **Stripe Atlas:** Forma sua LLC, primeira camada de proteção
 ## 10. Perguntas Frequentes
 
 ### Uma LLC me protege de todas as ações judiciais?
@@ -195,15 +162,12 @@ A cada 12 meses, ou quando seu modelo de negócio mudar. Também após mudanças
 
 ### Resumo em 6 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Forme uma LLC ou corporação (Stripe Atlas) | 1-2 semanas |
-| **2** | Contrate seguros (E&O, geral, cibersegurança) | 1 semana |
-| **3** | Atualize seus contratos com limitação de responsabilidade | 1-2 dias |
-| **4** | Configure Stripe em nome da sua empresa | 1 dia |
-| **5** | Implemente termos de serviço e política de privacidade | 1 semana |
-| **6** | Estabeleça processos de documentação de projetos | 1 dia |
-
+- **1:** Forme uma LLC ou corporação (Stripe Atlas) -- 1-2 semanas
+- **2:** Contrate seguros (E&O, geral, cibersegurança) -- 1 semana
+- **3:** Atualize seus contratos com limitação de responsabilidade -- 1-2 dias
+- **4:** Configure Stripe em nome da sua empresa -- 1 dia
+- **5:** Implemente termos de serviço e política de privacidade -- 1 semana
+- **6:** Estabeleça processos de documentação de projetos -- 1 dia
 ### Checklist Antiações Judiciais
 
 - [ ] LLC ou corporação formada e ativa

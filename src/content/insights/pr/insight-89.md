@@ -13,14 +13,11 @@ Neste guia, explicamos **como usar o real estate como veículo de migração par
 
 ### Panorama Geral
 
-| Visto | Tipo | Valor Mínimo | Prazo | Permite Trabalhar | Caminho para Green Card |
-|-------|------|-------------|-------|-------------------|------------------------|
-| **E-2** | Não imigrante | $100.000+ (recomendado) | 2-5 anos (renovável) | ✅ Sim | ❌ Não direto |
-| **EB-5** | Imigrante | $800.000-$1.050.000 | 2 anos condicional → permanente | ✅ Sim | ✅ Sim |
-| **L-1A** | Não imigrante | Sem mínimo (empresa ativa) | 1-7 anos | ✅ Sim | ✅ Sim (EB-1C) |
-| **B-1/B-2** | Visitante | Sem mínimo | 6 meses | ❌ Não | ❌ Não |
-| **F-1 (OPT)** | Estudante | Sem mínimo | 1-3 anos | ⚠️ Limitado | ⚠️ Possível (H-1B) |
-
+- **E-2:** Não imigrante -- $100.000+ (recomendado) -- 2-5 anos (renovável) -- ✅ Sim -- ❌ Não direto
+- **EB-5:** Imigrante -- $800.000-$1.050.000 -- 2 anos condicional → permanente -- ✅ Sim -- ✅ Sim
+- **L-1A:** Não imigrante -- Sem mínimo (empresa ativa) -- 1-7 anos -- ✅ Sim -- ✅ Sim (EB-1C)
+- **B-1/B-2:** Visitante -- Sem mínimo -- 6 meses -- ❌ Não -- ❌ Não
+- **F-1 (OPT):** Estudante -- Sem mínimo -- 1-3 anos -- ⚠️ Limitado -- ⚠️ Possível (H-1B)
 ### Posso Obter um Visto Só por Comprar uma Propriedade?
 
 ## 2. Visto E-2: Investidor por Tratado
@@ -31,24 +28,21 @@ O visto E-2 permite que cidadãos de países com tratado de comércio com os EUA
 
 ### Países com Tratado E-2 (Seleção)
 
-| País | Tratado E-2? | Valor Recomendado | Notas |
-|------|-------------|-------------------|-------|
-| **Espanha** | ✅ Sim | $100.000+ | Boa opção |
-| **Reino Unido** | ✅ Sim | $100.000+ | Muito comum |
-| **Canadá** | ✅ Sim | $80.000+ | TN visa também disponível |
-| **México** | ✅ Sim | $100.000+ | |
-| **Argentina** | ❌ Não | N/A | Não qualifica |
-| **Brasil** | ❌ Não | N/A | Não qualifica |
-| **Colômbia** | ❌ Não | N/A | Não qualifica |
-| **Panamá** | ❌ Não | N/A | Não qualifica |
-| **Chile** | ✅ Sim | $80.000+ | |
-| **Uruguai** | ❌ Não | N/A | Não qualifica |
-| **Peru** | ❌ Não | N/A | Não qualifica |
-| **França** | ✅ Sim | $100.000+ | |
-| **Alemanha** | ✅ Sim | $80.000+ | |
-| **Itália** | ✅ Sim | $100.000+ | |
-| **Países Baixos** | ✅ Sim | $80.000+ | |
-
+- **Espanha:** ✅ Sim -- $100.000+ -- Boa opção
+- **Reino Unido:** ✅ Sim -- $100.000+ -- Muito comum
+- **Canadá:** ✅ Sim -- $80.000+ -- TN visa também disponível
+- **México:** ✅ Sim -- $100.000+ -- 
+- **Argentina:** ❌ Não -- N/A -- Não qualifica
+- **Brasil:** ❌ Não -- N/A -- Não qualifica
+- **Colômbia:** ❌ Não -- N/A -- Não qualifica
+- **Panamá:** ❌ Não -- N/A -- Não qualifica
+- **Chile:** ✅ Sim -- $80.000+ -- 
+- **Uruguai:** ❌ Não -- N/A -- Não qualifica
+- **Peru:** ❌ Não -- N/A -- Não qualifica
+- **França:** ✅ Sim -- $100.000+ -- 
+- **Alemanha:** ✅ Sim -- $80.000+ -- 
+- **Itália:** ✅ Sim -- $100.000+ -- 
+- **Países Baixos:** ✅ Sim -- $80.000+ -- 
 ### Requisitos para Visto E-2 com Real Estate
 
 ### Passo a Passo para Visto E-2 com Real Estate
@@ -59,15 +53,12 @@ O visto E-2 permite que cidadãos de países com tratado de comércio com os EUA
 
 O visto EB-5 é um caminho direto para o Green Card (residência permanente) através de um investimento que gere pelo menos 10 empregos nos EUA.
 
-| Aspecto | EB-5 Direto | EB-5 Centro Regional |
-|---------|------------|---------------------|
-| **Investimento** | $1.050.000 (ou $800.000 em TEA) | $800.000 (em TEA) |
-| **Empregos** | 10 empregos diretos (seus funcionários) | 10 empregos diretos + indiretos |
-| **Gestão** | Você deve gerir o negócio ativamente | Gestão passiva (fundo) |
-| **Real estate** | Hotel, complexo, desenvolvimento próprio | Projetos imobiliários do centro regional |
-| **Risco** | Seu negócio (mais controle) | O projeto (menos controle) |
-| **Prazo Green Card** | 2-3 anos (condicional) | 2-3 anos (condicional) |
-
+- **Investimento:** $1.050.000 (ou $800.000 em TEA) -- $800.000 (em TEA)
+- **Empregos:** 10 empregos diretos (seus funcionários) -- 10 empregos diretos + indiretos
+- **Gestão:** Você deve gerir o negócio ativamente -- Gestão passiva (fundo)
+- **Real estate:** Hotel, complexo, desenvolvimento próprio -- Projetos imobiliários do centro regional
+- **Risco:** Seu negócio (mais controle) -- O projeto (menos controle)
+- **Prazo Green Card:** 2-3 anos (condicional) -- 2-3 anos (condicional)
 ### EB-5 e Real Estate: Exemplos
 
 ### Passo a Passo para EB-5
@@ -78,44 +69,35 @@ O visto EB-5 é um caminho direto para o Green Card (residência permanente) atr
 
 Permite que empresas estrangeiras transfiram executivos ou gerentes para seu escritório nos EUA. Se sua empresa estrangeira investir em real estate nos EUA e criar uma subsidiária, você pode qualificar.
 
-| Aspecto | L-1A (Executivo/Gerente) | L-1B (Conhecimento Especializado) |
-|---------|-------------------------|----------------------------------|
-| **Prazo máximo** | 7 anos | 5 anos |
-| **Caminho para Green Card** | ✅ Sim (EB-1C) | ⚠️ Limitado |
-| **Requisito** | 1 ano na empresa estrangeira | 1 ano na empresa estrangeira |
-| **Real estate** | Subsidiária de property management | Técnico especializado |
-
+- **Prazo máximo:** 7 anos -- 5 anos
+- **Caminho para Green Card:** ✅ Sim (EB-1C) -- ⚠️ Limitado
+- **Requisito:** 1 ano na empresa estrangeira -- 1 ano na empresa estrangeira
+- **Real estate:** Subsidiária de property management -- Técnico especializado
 ### Como Usar Real Estate para Visto L-1
 
 ## 5. B-1/B-2: Visitante para Supervisionar Investimentos
 
 ### O que Pode e Não Pode Fazer com B-1/B-2
 
-| Atividade | Permitido | Não Permitido |
-|-----------|-----------|---------------|
-| **Comprar propriedades** | ✅ Sim | |
-| **Participar de fechamentos (closings)** | ✅ Sim | |
-| **Reunir-se com property manager** | ✅ Sim | |
-| **Supervisionar reparos** | ✅ Sim | |
-| **Cobrar aluguéis** | | ❌ Trabalho não autorizado |
-| **Assinar contratos de locação** | | ❌ Trabalho não autorizado |
-| **Fazer reparos você mesmo** | | ❌ Trabalho não autorizado |
-| **Vender propriedades** | ✅ Sim | |
-
+- **Comprar propriedades:** ✅ Sim -- 
+- **Participar de fechamentos (closings):** ✅ Sim -- 
+- **Reunir-se com property manager:** ✅ Sim -- 
+- **Supervisionar reparos:** ✅ Sim -- 
+- **Cobrar aluguéis:**  -- ❌ Trabalho não autorizado
+- **Assinar contratos de locação:**  -- ❌ Trabalho não autorizado
+- **Fazer reparos você mesmo:**  -- ❌ Trabalho não autorizado
+- **Vender propriedades:** ✅ Sim -- 
 ### Limitações do B-1/B-2
 
 ## 6. Visto de Estudante (F-1) e Real Estate
 
 ### Um Estudante Internacional Pode Investir em Real Estate?
 
-| Aspecto | Resposta |
-|---------|----------|
-| **Pode comprar propriedades?** | ✅ Sim |
-| **Pode receber aluguéis?** | ✅ Sim (renda passiva) |
-| **Pode operar um negócio imobiliário?** | ❌ Não (viola status F-1) |
-| **Pode usar OPT para real estate?** | ⚠️ Depende (deve ser relacionado à sua carreira) |
-| **Pode ter uma LLC?** | ✅ Sim (como investidor passivo) |
-
+- **Pode comprar propriedades?:** ✅ Sim
+- **Pode receber aluguéis?:** ✅ Sim (renda passiva)
+- **Pode operar um negócio imobiliário?:** ❌ Não (viola status F-1)
+- **Pode usar OPT para real estate?:** ⚠️ Depende (deve ser relacionado à sua carreira)
+- **Pode ter uma LLC?:** ✅ Sim (como investidor passivo)
 ### Estratégia F-1 + Real Estate
 
 ## 7. Estruturação do Investimento para Migração
@@ -126,44 +108,35 @@ Permite que empresas estrangeiras transfiram executivos ou gerentes para seu esc
 
 ### Tabela Comparativa
 
-| Fator | E-2 | EB-5 | L-1 | B-1/B-2 |
-|-------|-----|------|-----|---------|
-| **Investimento mínimo** | $100.000+ | $800.000+ | Sem mínimo | $0 |
-| **Prazo** | 2-5 anos (renovável) | Permanente | 1-7 anos | 6 meses |
-| **Green Card** | ❌ Não | ✅ Sim | ✅ Via EB-1C | ❌ Não |
-| **Trabalhar** | ✅ Sim | ✅ Sim | ✅ Sim | ❌ Não |
-| **Países limitados** | ✅ Só tratado | ❌ Todos | ❌ Todos | ❌ Todos |
-| **Tempo de processo** | 2-4 meses | 2-5 anos | 4-8 meses | 1-3 meses |
-| **Risco** | Baixo (recupera investimento) | Alto (investimento em risco) | Baixo | Nenhum |
-| **Real estate passivo** | ❌ Não qualifica | ⚠️ Centro regional | ❌ Não qualifica | ✅ Sim |
-| **Real estate ativo** | ✅ Qualifica | ✅ Qualifica | ✅ Qualifica | ❌ Não |
-
+- **Investimento mínimo:** $100.000+ -- $800.000+ -- Sem mínimo -- $0
+- **Prazo:** 2-5 anos (renovável) -- Permanente -- 1-7 anos -- 6 meses
+- **Green Card:** ❌ Não -- ✅ Sim -- ✅ Via EB-1C -- ❌ Não
+- **Trabalhar:** ✅ Sim -- ✅ Sim -- ✅ Sim -- ❌ Não
+- **Países limitados:** ✅ Só tratado -- ❌ Todos -- ❌ Todos -- ❌ Todos
+- **Tempo de processo:** 2-4 meses -- 2-5 anos -- 4-8 meses -- 1-3 meses
+- **Risco:** Baixo (recupera investimento) -- Alto (investimento em risco) -- Baixo -- Nenhum
+- **Real estate passivo:** ❌ Não qualifica -- ⚠️ Centro regional -- ❌ Não qualifica -- ✅ Sim
+- **Real estate ativo:** ✅ Qualifica -- ✅ Qualifica -- ✅ Qualifica -- ❌ Não
 ### Recomendação por Perfil
 
 ## 9. Custos Associados a Cada Visto
 
 ### Detalhamento de Custos
 
-| Visto | Investimento | Honorários Legais | Taxas Governo | Total Estimado |
-|-------|------------|------------------|--------------|---------------|
-| **E-2** | $100.000+ | $5.000-15.000 | $205 (DS-160) | $105.205+ |
-| **EB-5** | $800.000+ | $30.000-75.000 | $3.675 (I-526 + DS-260) | $833.675+ |
-| **L-1** | Varia | $5.000-20.000 | $460 (I-129) | $5.460+ |
-| **B-1/B-2** | $0 | $0-500 | $185 | $185-685 |
-
+- **E-2:** $100.000+ -- $5.000-15.000 -- $205 (DS-160) -- $105.205+
+- **EB-5:** $800.000+ -- $30.000-75.000 -- $3.675 (I-526 + DS-260) -- $833.675+
+- **L-1:** Varia -- $5.000-20.000 -- $460 (I-129) -- $5.460+
+- **B-1/B-2:** $0 -- $0-500 -- $185 -- $185-685
 ### Tempo Estimado por Visto
 
 ## 10. Riscos e Considerações
 
 ### Riscos Migratórios
 
-| Risco | E-2 | EB-5 | L-1 |
-|-------|-----|------|-----|
-| **Negação** | Baixo (se investir substancialmente) | Médio (origem dos fundos complexa) | Baixo (se cumprir requisitos) |
-| **Perda do investimento** | Baixo (propriedades podem ser vendidas) | Alto (investimento em risco) | Baixo |
-| **Revogação** | Médio (se negócio parar de operar) | Baixo (se já tiver Green Card) | Médio (se fecharem subsidiária) |
-| **Mudança política** | Baixo (tratado vigente) | Baixo (lei estabelecida) | Baixo |
-
+- **Negação:** Baixo (se investir substancialmente) -- Médio (origem dos fundos complexa) -- Baixo (se cumprir requisitos)
+- **Perda do investimento:** Baixo (propriedades podem ser vendidas) -- Alto (investimento em risco) -- Baixo
+- **Revogação:** Médio (se negócio parar de operar) -- Baixo (se já tiver Green Card) -- Médio (se fecharem subsidiária)
+- **Mudança política:** Baixo (tratado vigente) -- Baixo (lei estabelecida) -- Baixo
 ### Considerações Importantes
 
 ## 11. Perguntas Frequentes

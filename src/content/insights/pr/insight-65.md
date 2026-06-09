@@ -13,76 +13,55 @@ Neste guia, explicamos **como usar Stripe para coaches e consultores** em 2026: 
 
 ### Vantagens Principais
 
-| Vantagem | Descrição |
-|----------|-----------|
-| **Pagamentos globais** | Aceite clientes de qualquer país |
-| **Faturamento profissional** | Faturas personalizadas para cada sessão |
-| **Assinaturas** | Programas de coaching com pagamentos recorrentes |
-| **Links de pagamento** | Cobre sem precisar de site |
-| **Múltiplas moedas** | Cobre em USD, EUR, BRL, etc. |
-| **Agendamento** | Ideal para sessões recorrentes semanais/mensais |
-| **Checkout sem código** | Stripe Checkout pronto em minutos |
-
+- **Pagamentos globais:** Aceite clientes de qualquer país
+- **Faturamento profissional:** Faturas personalizadas para cada sessão
+- **Assinaturas:** Programas de coaching com pagamentos recorrentes
+- **Links de pagamento:** Cobre sem precisar de site
+- **Múltiplas moedas:** Cobre em USD, EUR, BRL, etc.
+- **Agendamento:** Ideal para sessões recorrentes semanais/mensais
+- **Checkout sem código:** Stripe Checkout pronto em minutos
 ### Stripe vs Outras Plataformas para Coaches
 
-| Plataforma | Taxa | Ideal para |
-|-----------|------|------------|
-| **Stripe direto** | 2.9% + $0.30 | Coaches técnicos ou com site |
-| **Calendly + Stripe** | $10/mês + Stripe | Agendamento + pagamentos |
-| **PayPal** | 4.4% + $0.30 | Pagamentos simples |
-| **Kajabi** | A partir de $149/mês | Plataforma tudo-em-um |
-
+- **Stripe direto:** 2.9% + $0.30 -- Coaches técnicos ou com site
+- **Calendly + Stripe:** $10/mês + Stripe -- Agendamento + pagamentos
+- **PayPal:** 4.4% + $0.30 -- Pagamentos simples
+- **Kajabi:** A partir de $149/mês -- Plataforma tudo-em-um
 > **Stripe oferece controle total** sobre suas cobranças sem custos fixos, ideal para coaches iniciantes ou com prática estabelecida.
 
 ## 2. Configuração Rápida para Coaches
 
 ### Passo 1: Crie sua Conta Stripe
 
-| Tipo de Conta | Para |
-|---------------|------|
-| **Individual** | Coaches e consultores independentes |
-| **Empresa** | Consultorias constituídas formalmente |
-
+- **Individual:** Coaches e consultores independentes
+- **Empresa:** Consultorias constituídas formalmente
 ### Passo 2: Escolha seu Método de Cobrança
 
-| Método | Como Funciona | Ideal para |
-|--------|--------------|------------|
-| **Link de pagamento** | Compartilhe um link com o cliente | Sessões individuais |
-| **Fatura** | Envie uma fatura por email | Programas e pacotes |
-| **Checkout integrado** | Botão de pagamento no site | Site próprio |
-| **Assinatura** | Cobrança recorrente automática | Programas mensais |
-
+- **Link de pagamento:** Compartilhe um link com o cliente -- Sessões individuais
+- **Fatura:** Envie uma fatura por email -- Programas e pacotes
+- **Checkout integrado:** Botão de pagamento no site -- Site próprio
+- **Assinatura:** Cobrança recorrente automática -- Programas mensais
 ### Passo 3: Conecte seu Banco
 
 Configure sua conta bancária para receber os pagamentos. Stripe faz transferências automáticas:
 
-| Frequência de Pagamento | Quando Você Recebe |
-|------------------------|-------------------|
-| **Diária** | Cada dia útil (disponível em alguns países) |
-| **Semanal** | Cada semana (padrão) |
-| **Mensal** | Cada mês |
-
+- **Diária:** Cada dia útil (disponível em alguns países)
+- **Semanal:** Cada semana (padrão)
+- **Mensal:** Cada mês
 ## 3. Modelos de Cobrança para Coaches
 
 ### Sessão Individual
 
-| Tipo de Sessão | Preço Recomendado |
-|---------------|-------------------|
-| **Sessão de descoberta** | $0 - $50 (grátis ou baixo investimento) |
-| **Sessão individual** | R$500 - R$2.500 |
-| **Sessão em grupo** | R$150 - R$500 por pessoa |
-| **Chamada estratégica** | R$1.000 - R$5.000 |
-
+- **Sessão de descoberta:** $0 - $50 (grátis ou baixo investimento)
+- **Sessão individual:** R$500 - R$2.500
+- **Sessão em grupo:** R$150 - R$500 por pessoa
+- **Chamada estratégica:** R$1.000 - R$5.000
 **Como cobrar:**
 
 ### Pacote de Sessões
 
-| Pacote | Sessões | Preço | Economia |
-|--------|---------|-------|----------|
-| **Básico** | 4 sessões | R$2.500 (R$625/sessão) | 17% |
-| **Profissional** | 8 sessões | R$4.500 (R$562/sessão) | 25% |
-| **Premium** | 12 sessões | R$6.000 (R$500/sessão) | 33% |
-
+- **Básico:** 4 sessões -- R$2.500 (R$625/sessão) -- 17%
+- **Profissional:** 8 sessões -- R$4.500 (R$562/sessão) -- 25%
+- **Premium:** 12 sessões -- R$6.000 (R$500/sessão) -- 33%
 **Configuração no Stripe:**
 1. Crie um produto para cada pacote
 2. Preço fixo (pagamento único)
@@ -90,58 +69,43 @@ Configure sua conta bancária para receber os pagamentos. Stripe faz transferên
 
 ### Programas por Assinatura
 
-| Programa | Mensalidade | O que Inclui |
-|---------|------------|-------------|
-| **Membresia mensal** | R$497/mês | 1 sessão em grupo + conteúdo + comunidade |
-| **Programa de 3 meses** | R$1.497/mês | 2 sessões individuais + suporte WhatsApp |
-| **Retainer consultoria** | R$7.500/mês | 4 sessões + revisão de materiais |
-
+- **Membresia mensal:** R$497/mês -- 1 sessão em grupo + conteúdo + comunidade
+- **Programa de 3 meses:** R$1.497/mês -- 2 sessões individuais + suporte WhatsApp
+- **Retainer consultoria:** R$7.500/mês -- 4 sessões + revisão de materiais
 **Configurar assinatura recorrente:**
 
 ### Programa com Pagamentos por Marco
 
-| Marco | Mês | Valor |
-|-------|-----|-------|
-| **Início** | Mês 1 | R$2.500 (50%) |
-| **Metade** | Mês 2 | R$1.500 (30%) |
-| **Encerramento** | Mês 3 | R$1.000 (20%) |
-
+- **Início:** Mês 1 -- R$2.500 (50%)
+- **Metade:** Mês 2 -- R$1.500 (30%)
+- **Encerramento:** Mês 3 -- R$1.000 (20%)
 ## 4. Links de Pagamento para Coaches
 
 ### Por Que Usar Links de Pagamento
 
-| Vantagem | Descrição |
-|---------|-----------|
-| **Sem site** | Funciona apenas com um link |
-| **Compartilhar fácil** | WhatsApp, email, Instagram, LinkedIn |
-| **Pagamento rápido** | Cliente paga em 2 cliques |
-| **Personalizável** | Adicione seu logo e cores |
-
+- **Sem site:** Funciona apenas com um link
+- **Compartilhar fácil:** WhatsApp, email, Instagram, LinkedIn
+- **Pagamento rápido:** Cliente paga em 2 cliques
+- **Personalizável:** Adicione seu logo e cores
 ### Como Criar um Link de Pagamento
 
 ### Exemplos de Links para Coaches
 
-| Serviço | Texto do Link |
-|---------|--------------|
-| **Sessão individual** | "Agende sua sessão de coaching aqui" |
-| **Pacote 4 sessões** | "Inicie seu programa de transformação" |
-| **Membresia mensal** | "Entre para a comunidade exclusiva" |
-| **Chamada estratégica** | "Reserve sua consultoria estratégica" |
-
+- **Sessão individual:** "Agende sua sessão de coaching aqui"
+- **Pacote 4 sessões:** "Inicie seu programa de transformação"
+- **Membresia mensal:** "Entre para a comunidade exclusiva"
+- **Chamada estratégica:** "Reserve sua consultoria estratégica"
 ## 5. Faturamento para Coaches
 
 ### Faturas Profissionais
 
 Stripe gera faturas personalizadas:
 
-| Elemento | Personalização |
-|----------|---------------|
-| **Logo** | Logo do seu negócio de coaching |
-| **Cores** | Cores da sua marca |
-| **Dados fiscais** | CNPJ ou CPF |
-| **Mensagem** | "Obrigado por confiar no seu processo" |
-| **Moeda** | USD, EUR, BRL, etc. |
-
+- **Logo:** Logo do seu negócio de coaching
+- **Cores:** Cores da sua marca
+- **Dados fiscais:** CNPJ ou CPF
+- **Mensagem:** "Obrigado por confiar no seu processo"
+- **Moeda:** USD, EUR, BRL, etc.
 ### Envio Automático de Faturas
 
 Configure Stripe para enviar faturas automaticamente após cada pagamento:
@@ -153,13 +117,10 @@ Configure Stripe para enviar faturas automaticamente após cada pagamento:
 
 ### Faturas para Clientes Internacionais
 
-| Moeda | País do Cliente |
-|-------|----------------|
-| **USD** | EUA, América Latina, Ásia |
-| **EUR** | Europa |
-| **BRL** | Brasil |
-| **MXN** | México |
-
+- **USD:** EUA, América Latina, Ásia
+- **EUR:** Europa
+- **BRL:** Brasil
+- **MXN:** México
 ## 6. Stripe Checkout no seu Site
 
 ### Integração Simples
@@ -181,11 +142,8 @@ O Customer Portal permite que seus clientes:
 
 Se você tem uma plataforma onde múltiplos coaches oferecem serviços:
 
-| Coach | Comissão | Recebe |
-|-------|----------|--------|
-| **Você (plataforma)** | 30% | R$150 de uma sessão de R$500 |
-| **Coach convidado** | 70% | R$350 pela sessão |
-
+- **Você (plataforma):** 30% -- R$150 de uma sessão de R$500
+- **Coach convidado:** 70% -- R$350 pela sessão
 ### Configuração Básica
 
 1. Stripe Dashboard → Connect → Configurar
@@ -203,65 +161,47 @@ Configure Stripe para enviar lembretes automáticos:
 
 ### Integrações Recomendadas
 
-| Ferramenta | Para Que |
-|-----------|---------|
-| **Calendly** | Agendar sessões e cobrar |
-| **Zoom** | Sessões online |
-| **Google Calendar** | Sincronizar datas de pagamento |
-| **Mailchimp** | Email marketing para clientes |
-| **Zapier** | Automatizar processos |
-
+- **Calendly:** Agendar sessões e cobrar
+- **Zoom:** Sessões online
+- **Google Calendar:** Sincronizar datas de pagamento
+- **Mailchimp:** Email marketing para clientes
+- **Zapier:** Automatizar processos
 ## 9. Dicas para Coaches no Stripe
 
 ### 1. Ofereça Várias Opções de Pagamento
 
-| Opção | Por Que |
-|-------|---------|
-| **Cartão de crédito** | Mais usado globalmente |
-| **Apple Pay / Google Pay** | Pagamento rápido pelo celular |
-| **Link (Stripe)** | Pagamento com um clique |
-| **Pix (Brasil)** | Pagamento instantâneo |
-
+- **Cartão de crédito:** Mais usado globalmente
+- **Apple Pay / Google Pay:** Pagamento rápido pelo celular
+- **Link (Stripe):** Pagamento com um clique
+- **Pix (Brasil):** Pagamento instantâneo
 ### 2. Use Períodos de Teste para Membresias
 
 Atraia clientes com testes gratuitos:
 
-| Duração | Propósito |
-|---------|-----------|
-| **7 dias** | Teste rápido |
-| **14 dias** | Tempo para explorar o programa |
-| **30 dias** | Compromisso mais longo |
-
+- **7 dias:** Teste rápido
+- **14 dias:** Tempo para explorar o programa
+- **30 dias:** Compromisso mais longo
 ### 3. Defina uma Política de Cancelamento Clara
 
-| Aspecto | Recomendação |
-|---------|--------------|
-| **Cancelamento de sessão** | 24-48 horas de aviso |
-| **Reembolso de pacote** | Proporcional por sessões não usadas |
-| **Membresia** | Cancelamento a qualquer momento |
-| **Programa completo** | Não reembolsável após iniciado |
-
+- **Cancelamento de sessão:** 24-48 horas de aviso
+- **Reembolso de pacote:** Proporcional por sessões não usadas
+- **Membresia:** Cancelamento a qualquer momento
+- **Programa completo:** Não reembolsável após iniciado
 ### 4. Use Descritores de Cobrança Claros
 
 O nome que aparece no extrato bancário do cliente:
 
-| Correto | Incorreto |
-|---------|-----------|
-| "COACHING COM MARIA" | "PAY-SOLUTIONS-LLC" |
-| "CONSULTORIA ABC" | "STRIPE-CHARGE-123" |
-
+- **"COACHING COM MARIA":** "PAY-SOLUTIONS-LLC"
+- **"CONSULTORIA ABC":** "STRIPE-CHARGE-123"
 ## 10. Passo a Passo Rápido
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Crie sua conta Stripe e verifique-a | 30 min |
-| **2** | Defina seus serviços e preços | 30 min |
-| **3** | Crie produtos e links de pagamento | 20 min |
-| **4** | Configure faturamento automático | 15 min |
-| **5** | Compartilhe seus links com clientes | 10 min |
-
+- **1:** Crie sua conta Stripe e verifique-a -- 30 min
+- **2:** Defina seus serviços e preços -- 30 min
+- **3:** Crie produtos e links de pagamento -- 20 min
+- **4:** Configure faturamento automático -- 15 min
+- **5:** Compartilhe seus links com clientes -- 10 min
 ### Checklist para Coaches
 
 - [ ] Conta Stripe verificada

@@ -15,27 +15,21 @@ In this guide, we explain **exactly what Stripe needs to approve your account in
 
 ### Types of Review
 
-| Type | Simple Accounts | Complex Accounts |
-|------|----------------|-----------------|
-| **Timeline** | 24-72 hours | 1-4 weeks |
-| **Documents** | ID + Proof of address | + Company documents + BOI + Licenses |
-| **Verification** | Basic selfie | Video selfie + additional documentation |
-| **Risk analysis** | Automatic (ML) | Manual + automatic |
-
+- **Timeline:** 24-72 hours -- 1-4 weeks
+- **Documents:** ID + Proof of address -- + Company documents + BOI + Licenses
+- **Verification:** Basic selfie -- Video selfie + additional documentation
+- **Risk analysis:** Automatic (ML) -- Manual + automatic
 > **Fact:** Most accounts are approved within 24-48 hours. Rejected accounts typically have documentation or information inconsistency issues.
 
 ## 2. Basic Requirements (All Accounts)
 
 ### Mandatory Personal Documents
 
-| Document | Requirements | Details |
-|----------|-------------|---------|
-| **Identity document** | Valid, with photo, not expired | Passport, driver's license, national ID |
-| **Proof of address** | Less than 3 months old | Utility bill, phone bill, internet bill, or bank statement |
-| **Date of birth** | Over 18 years old | Verified with document |
-| **Phone number** | Valid (preferably in your name) | Used for 2FA verification |
-| **Email** | Verified access | Stripe sends confirmations and alerts |
-
+- **Identity document:** Valid, with photo, not expired -- Passport, driver's license, national ID
+- **Proof of address:** Less than 3 months old -- Utility bill, phone bill, internet bill, or bank statement
+- **Date of birth:** Over 18 years old -- Verified with document
+- **Phone number:** Valid (preferably in your name) -- Used for 2FA verification
+- **Email:** Verified access -- Stripe sends confirmations and alerts
 ### Personal Information
 
 - Full name (exactly as on document)
@@ -48,42 +42,33 @@ In this guide, we explain **exactly what Stripe needs to approve your account in
 
 Stripe **always** verifies your website or application. Minimum requirements:
 
-| Requirement | Mandatory? | Details |
-|-------------|-----------|---------|
-| **Live website** | ✅ Yes | Cannot be "under construction" |
-| **Privacy policy** | ✅ Yes | Explain how data is handled |
-| **Terms of service** | ✅ Yes | Rules for using the service |
-| **Refund policy** | ✅ Yes | Return timelines and conditions |
-| **Contact information** | ✅ Yes | Email, phone, or form |
-| **Clear product description** | ✅ Yes | What you sell or offer |
-| **SSL/HTTPS** | ✅ Yes | Mandatory security |
-
+- **Live website:** ✅ Yes -- Cannot be "under construction"
+- **Privacy policy:** ✅ Yes -- Explain how data is handled
+- **Terms of service:** ✅ Yes -- Rules for using the service
+- **Refund policy:** ✅ Yes -- Return timelines and conditions
+- **Contact information:** ✅ Yes -- Email, phone, or form
+- **Clear product description:** ✅ Yes -- What you sell or offer
+- **SSL/HTTPS:** ✅ Yes -- Mandatory security
 > **Tip:** If you don't have a website, use Stripe Payment Links. Stripe can approve accounts with just links, but verification is more rigorous.
 
 ## 3. Requirements for Business Accounts
 
 ### Company Documents
 
-| Document | Description | Where to Get |
-|----------|-------------|--------------|
-| **Certificate of incorporation** | Proves the company legally exists | Companies Registry, Secretary of State |
-| **EIN (Employer Identification Number)** | Business tax ID number | IRS (free) |
-| **Business proof of address** | Utility bill or lease agreement | Service provider, real estate agency |
-| **Articles of incorporation** | Document defining company structure | Lawyer or accountant |
-| **Register of Directors** | List of directors (some countries) | Company or regulatory agency |
-
+- **Certificate of incorporation:** Proves the company legally exists -- Companies Registry, Secretary of State
+- **EIN (Employer Identification Number):** Business tax ID number -- IRS (free)
+- **Business proof of address:** Utility bill or lease agreement -- Service provider, real estate agency
+- **Articles of incorporation:** Document defining company structure -- Lawyer or accountant
+- **Register of Directors:** List of directors (some countries) -- Company or regulatory agency
 ### Ultimate Beneficial Owner (UBO) Information
 
 For business accounts, Stripe requires:
 
-| Information | Details |
-|-------------|---------|
-| **Full name** | Of each owner with >25% stake |
-| **Date of birth** | Of each owner |
-| **Address** | Residential address of each owner |
-| **Identity document** | Copy for each owner |
-| **Ownership percentage** | How much each owns |
-
+- **Full name:** Of each owner with >25% stake
+- **Date of birth:** Of each owner
+- **Address:** Residential address of each owner
+- **Identity document:** Copy for each owner
+- **Ownership percentage:** How much each owns
 > **BOI (Beneficial Ownership Information):** Since 2024, US companies must report beneficial owners to FinCEN. Stripe may request this documentation.
 
 ## 4. Business Types and Specific Requirements
@@ -131,13 +116,10 @@ For business accounts, Stripe requires:
 
 ### Verification Methods in 2026
 
-| Method | Description | Time |
-|--------|-------------|------|
-| **Static selfie** | Photo of face + document | 2-5 minutes |
-| **Video selfie** | Short video saying your name | 3-5 minutes |
-| **Live document** | Real-time photo of document | 1-2 minutes |
-| **Biometrics** | Facial recognition | Instant |
-
+- **Static selfie:** Photo of face + document -- 2-5 minutes
+- **Video selfie:** Short video saying your name -- 3-5 minutes
+- **Live document:** Real-time photo of document -- 1-2 minutes
+- **Biometrics:** Facial recognition -- Instant
 ### Tips to Pass Verification
 
 1. **Proper lighting** — natural light or well-lit environment
@@ -148,44 +130,32 @@ For business accounts, Stripe requires:
 
 ### Common Verification Errors
 
-| Error | Cause | Solution |
-|-------|-------|----------|
-| **Illegible document** | Blurry photo or glare | Use scanner or good lighting |
-| **Cut-off document** | Corners not showing | Frame the entire document |
-| **Face not recognized** | Significant physical change | Update document first |
-| **Expired document** | Validity date passed | Renew before verifying |
-| **Low-light selfie** | Dark environment | Turn on lights or use flash |
-
+- **Illegible document:** Blurry photo or glare -- Use scanner or good lighting
+- **Cut-off document:** Corners not showing -- Frame the entire document
+- **Face not recognized:** Significant physical change -- Update document first
+- **Expired document:** Validity date passed -- Renew before verifying
+- **Low-light selfie:** Dark environment -- Turn on lights or use flash
 ## 6. Bank Account
 
 ### Bank Account Requirements
 
-| Requirement | Details |
-|-------------|---------|
-| **Ownership** | Same name as Stripe account (person or business) |
-| **Country** | Same country where Stripe account is registered |
-| **Type** | Checking account (not savings in some countries) |
-| **Currency** | Local currency of the Stripe account country |
-| **Status** | Active and in good standing |
-
+- **Ownership:** Same name as Stripe account (person or business)
+- **Country:** Same country where Stripe account is registered
+- **Type:** Checking account (not savings in some countries)
+- **Currency:** Local currency of the Stripe account country
+- **Status:** Active and in good standing
 ### Accepted Accounts
 
-| Account Type | Stripe | Notes |
-|-------------|--------|-------|
-| **Personal account** | ✅ Yes (for individuals) | As long as the name matches |
-| **Business account** | ✅ Yes (for companies) | Company name must match |
-| **Digital bank account** | ✅ Yes (Nubank, Mercury, etc.) | Digital banks are accepted |
-| **Savings account** | ❌ No (in most countries) | Use checking account |
-| **Joint account** | ✅ Yes | Account must be in the holder's name |
-
+- **Personal account:** ✅ Yes (for individuals) -- As long as the name matches
+- **Business account:** ✅ Yes (for companies) -- Company name must match
+- **Digital bank account:** ✅ Yes (Nubank, Mercury, etc.) -- Digital banks are accepted
+- **Savings account:** ❌ No (in most countries) -- Use checking account
+- **Joint account:** ✅ Yes -- Account must be in the holder's name
 ### Bank Account Linking
 
-| Method | Description | Time |
-|--------|-------------|------|
-| **Micro-deposits** | Stripe deposits 2 random amounts | 1-2 business days |
-| **Bank login** | Instant verification via API | Instant |
-| **Bank statement** | Manual statement upload | 1-2 business days |
-
+- **Micro-deposits:** Stripe deposits 2 random amounts -- 1-2 business days
+- **Bank login:** Instant verification via API -- Instant
+- **Bank statement:** Manual statement upload -- 1-2 business days
 ## 7. Common Rejection Reasons
 
 ### Reason 1: Illegible or Invalid Document
@@ -220,14 +190,11 @@ For business accounts, Stripe requires:
 
 ### Rejection Reasons Table
 
-| Reason | Frequency | How to Avoid |
-|--------|-----------|--------------|
-| **Illegible document** | 30% | Use scanner, good lighting |
-| **Inconsistent information** | 25% | Verify names and addresses |
-| **Incomplete website** | 20% | Have complete site with policies |
-| **Unsupported business** | 15% | Check business list |
-| **Unsupported location** | 10% | Consider US LLC |
-
+- **Illegible document:** 30% -- Use scanner, good lighting
+- **Inconsistent information:** 25% -- Verify names and addresses
+- **Incomplete website:** 20% -- Have complete site with policies
+- **Unsupported business:** 15% -- Check business list
+- **Unsupported location:** 10% -- Consider US LLC
 ## 8. How to Speed Up Approval
 
 ### Pre-Registration Checklist
@@ -263,14 +230,11 @@ Stripe sends an email explaining the reason. Read it carefully.
 
 ### Step 2: Fix the Problem
 
-| Reason | Action |
-|--------|--------|
-| Illegible document | Send clear photos with scanner |
-| Inconsistent information | Correct the data in registration |
-| Incomplete website | Complete the site and request re-review |
-| Unsupported business | Consider another platform |
-| Unsupported location | Create a US LLC |
-
+- **Illegible document:** Send clear photos with scanner
+- **Inconsistent information:** Correct the data in registration
+- **Incomplete website:** Complete the site and request re-review
+- **Unsupported business:** Consider another platform
+- **Unsupported location:** Create a US LLC
 ### Step 3: Request Re-Review
 
 - Access the Stripe dashboard
@@ -291,36 +255,24 @@ If Stripe definitively rejects:
 
 ### Brazil
 
-| Type | Document | Details |
-|------|----------|---------|
-| **Identity** | RG, CNH or Passport | Valid, with photo |
-| **Residence** | Utility bill or bank statement | Less than 3 months |
-| **Company** | CNPJ, Articles of Incorporation | When applicable |
-
+- **Identity:** RG, CNH or Passport -- Valid, with photo
+- **Residence:** Utility bill or bank statement -- Less than 3 months
+- **Company:** CNPJ, Articles of Incorporation -- When applicable
 ### Mexico
 
-| Type | Document | Details |
-|------|----------|---------|
-| **Identity** | INE, Passport or Professional License | Valid |
-| **Residence** | Utility bill or account statement | Less than 3 months |
-| **Company** | RFC, Acta Constitutiva | When applicable |
-
+- **Identity:** INE, Passport or Professional License -- Valid
+- **Residence:** Utility bill or account statement -- Less than 3 months
+- **Company:** RFC, Acta Constitutiva -- When applicable
 ### USA (LLC)
 
-| Type | Document | Details |
-|------|----------|---------|
-| **Identity** | Passport or Driver's License | Valid |
-| **Residence** | Utility bill or bank statement | Less than 3 months |
-| **Company** | EIN Confirmation Letter, Articles of Organization, BOI | Mandatory |
-
+- **Identity:** Passport or Driver's License -- Valid
+- **Residence:** Utility bill or bank statement -- Less than 3 months
+- **Company:** EIN Confirmation Letter, Articles of Organization, BOI -- Mandatory
 ### Europe
 
-| Type | Document | Details |
-|------|----------|---------|
-| **Identity** | Passport or national ID card | Valid |
-| **Residence** | Utility bill or bank statement | Less than 3 months |
-| **Company** | Certificate of Incorporation, VAT Number | When applicable |
-
+- **Identity:** Passport or national ID card -- Valid
+- **Residence:** Utility bill or bank statement -- Less than 3 months
+- **Company:** Certificate of Incorporation, VAT Number -- When applicable
 ## Final Approval Checklist
 
 ### Before You Start

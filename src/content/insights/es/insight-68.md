@@ -1,203 +1,161 @@
-ï»¿---
-title: "Stripe para SaaS: GuÃ­a Completa de IntegraciÃ³n 2026"
+---
+title: "Stripe para SaaS: Guía Completa de Integración 2026"
 description: "Stripe para SaaS"
 cardImage: "@/images/insights/stripe.png"
-cardImageAlt: "Dashboard de Stripe mostrando suscripciones SaaS y mÃ©tricas de facturaciÃ³n recurrente"
+cardImageAlt: "Dashboard de Stripe mostrando suscripciones SaaS y métricas de facturación recurrente"
 ---
 
-**Stripe para SaaS** es la combinaciÃ³n ideal para negocios de software como servicio que necesitan facturaciÃ³n recurrente, gestiÃ³n de suscripciones y pagos internacionales. Stripe ofrece herramientas nativas que simplifican todo el ciclo de facturaciÃ³n SaaS.
+**Stripe para SaaS** es la combinación ideal para negocios de software como servicio que necesitan facturación recurrente, gestión de suscripciones y pagos internacionales. Stripe ofrece herramientas nativas que simplifican todo el ciclo de facturación SaaS.
 
-En esta guÃ­a, explicamos **cÃ³mo usar Stripe para SaaS** en 2026: configuraciÃ³n, modelos de precios, facturaciÃ³n recurrente y mejores prÃ¡cticas.
+En esta guía, explicamos **cómo usar Stripe para SaaS** en 2026: configuración, modelos de precios, facturación recurrente y mejores prácticas.
 
-## 1. Â¿Por QuÃ© Stripe para SaaS?
+## 1. ¿Por Qué Stripe para SaaS?
 
 ### Ventajas Clave
 
-| Ventaja | DescripciÃ³n |
-|---------|-------------|
-| **FacturaciÃ³n recurrente** | Suscripciones automÃ¡ticas diarias, semanales, mensuales o anuales |
-| **MÃºltiples modelos de precio** | Planes fijos, por usuario, por uso, hÃ­bridos |
-| **Stripe Tax integrado** | CÃ¡lculo automÃ¡tico de impuestos globales |
-| **Stripe Billing** | GestiÃ³n completa de facturaciÃ³n |
-| **Customer Portal** | AutogestiÃ³n para clientes (cambiar plan, pagar facturas) |
-| **MÃºltiples monedas** | 135+ monedas soportadas |
-| **Reporting** | Reportes detallados de MRR, ARR, ingresos |
-
+- **Facturación recurrente:** Suscripciones automáticas diarias, semanales, mensuales o anuales
+- **Múltiples modelos de precio:** Planes fijos, por usuario, por uso, híbridos
+- **Stripe Tax integrado:** Cálculo automático de impuestos globales
+- **Stripe Billing:** Gestión completa de facturación
+- **Customer Portal:** Autogestión para clientes (cambiar plan, pagar facturas)
+- **Múltiples monedas:** 135+ monedas soportadas
+- **Reporting:** Reportes detallados de MRR, ARR, ingresos
 ### Stripe para SaaS vs Alternativas
 
-| SoluciÃ³n | Precio | Ideal para |
-|----------|--------|-----------|
-| **Stripe Billing** | 0.5% por factura recurrente | Startups y empresas globales |
-| **Recurly** | Desde $99/mes | SaaS con facturaciÃ³n compleja |
-| **Chargebee** | Desde $249/mes | SaaS mediana y enterprise |
-| **Paddle** | 5% + $0.50 | SaaS sin entidad legal propia |
-
-> **Stripe Billing es la opciÃ³n mÃ¡s flexible** si quieres control total sobre tu facturaciÃ³n sin pagar mensualidades fijas.
+- **Stripe Billing:** 0.5% por factura recurrente -- Startups y empresas globales
+- **Recurly:** Desde $99/mes -- SaaS con facturación compleja
+- **Chargebee:** Desde $249/mes -- SaaS mediana y enterprise
+- **Paddle:** 5% + $0.50 -- SaaS sin entidad legal propia
+> **Stripe Billing es la opción más flexible** si quieres control total sobre tu facturación sin pagar mensualidades fijas.
 
 ## 2. Modelos de Precios SaaS con Stripe
 
 ### Plan Fijo (Flat Rate)
 
-| CaracterÃ­stica | DescripciÃ³n |
-|---------------|-------------|
-| **Precio** | Un solo precio por perÃ­odo (ej. $29/mes) |
-| **Ideal para** | SaaS simple, producto Ãºnico |
-| **ImplementaciÃ³n** | Un solo precio de suscripciÃ³n |
-
+- **Precio:** Un solo precio por período (ej. $29/mes)
+- **Ideal para:** SaaS simple, producto único
+- **Implementación:** Un solo precio de suscripción
 ### Precio por Usuario (Per Seat)
 
-| CaracterÃ­stica | DescripciÃ³n |
-|---------------|-------------|
-| **Precio** | $X por usuario/mes |
-| **Ideal para** | SaaS colaborativos, equipos |
-| **ImplementaciÃ³n** | Precio base + cantidad variable |
-
+- **Precio:** $X por usuario/mes
+- **Ideal para:** SaaS colaborativos, equipos
+- **Implementación:** Precio base + cantidad variable
 ### Precio por Uso (Usage-based)
 
-| CaracterÃ­stica | DescripciÃ³n |
-|---------------|-------------|
-| **Precio** | $X por unidad consumida |
-| **Ideal para** | APIs, almacenamiento, SMS, llamadas |
-| **ImplementaciÃ³n** | MÃ©trica de uso a facturar |
-
+- **Precio:** $X por unidad consumida
+- **Ideal para:** APIs, almacenamiento, SMS, llamadas
+- **Implementación:** Métrica de uso a facturar
 ### Precio por Niveles (Tiered Pricing)
 
-| Nivel | Precio |
-|-------|--------|
-| 0 - 1,000 unidades | $0.10/unidad |
-| 1,001 - 10,000 unidades | $0.08/unidad |
-| 10,001+ unidades | $0.05/unidad |
+- **0 - 1,000 unidades:** $0.10/unidad
+- **1,001 - 10,000 unidades:** $0.08/unidad
+- **10,001+ unidades:** $0.05/unidad
+## 3. Configuración de Suscripciones SaaS
 
-## 3. ConfiguraciÃ³n de Suscripciones SaaS
+### Flujo Básico de Suscripción
 
-### Flujo BÃ¡sico de SuscripciÃ³n
+### Períodos de Prueba (Trials)
 
-### PerÃ­odos de Prueba (Trials)
-
-| Tipo | ConfiguraciÃ³n | DescripciÃ³n |
-|------|--------------|-------------|
-| **Trial estÃ¡ndar** | `trial_period_days: 14` | 14 dÃ­as gratis al crear suscripciÃ³n |
-| **Trial sin tarjeta** | `trial_settings.end_behavior.missing_payment_method: 'cancel'` | No requiere tarjeta para el trial |
-| **Trial extendido** | Webhook `customer.subscription.updated` | Extiende manualmente |
-
+- **Trial estándar:** `trial_period_days: 14` -- 14 días gratis al crear suscripción
+- **Trial sin tarjeta:** `trial_settings.end_behavior.missing_payment_method: 'cancel'` -- No requiere tarjeta para el trial
+- **Trial extendido:** Webhook `customer.subscription.updated` -- Extiende manualmente
 ## 4. Stripe Customer Portal
 
-### Portal de AutogestiÃ³n para Clientes
+### Portal de Autogestión para Clientes
 
-El **Customer Portal** permite a tus clientes gestionar su suscripciÃ³n sin intervenciÃ³n tuya:
+El **Customer Portal** permite a tus clientes gestionar su suscripción sin intervención tuya:
 
-| FunciÃ³n | DescripciÃ³n |
-|---------|-------------|
-| **Cambiar plan** | Upgrade o downgrade sin contacto |
-| **Actualizar mÃ©todo de pago** | Nueva tarjeta o cuenta bancaria |
-| **Ver facturas** | Historial completo |
-| **Cancelar suscripciÃ³n** | Autoservicio |
-| **Descargar recibos** | Para contabilidad |
-
+- **Cambiar plan:** Upgrade o downgrade sin contacto
+- **Actualizar método de pago:** Nueva tarjeta o cuenta bancaria
+- **Ver facturas:** Historial completo
+- **Cancelar suscripción:** Autoservicio
+- **Descargar recibos:** Para contabilidad
 ## 5. Webhooks para SaaS
 
 ### Eventos Clave de Stripe
 
-| Evento | CuÃ¡ndo Ocurre | AcciÃ³n Recomendada |
-|--------|---------------|-------------------|
-| `customer.subscription.created` | Nueva suscripciÃ³n | Activar cuenta, enviar email |
-| `customer.subscription.updated` | Cambio de plan / renovaciÃ³n | Actualizar acceso |
-| `customer.subscription.deleted` | CancelaciÃ³n | Desactivar cuenta |
-| `invoice.payment_succeeded` | Pago exitoso | Enviar recibo |
-| `invoice.payment_failed` | Pago fallido | Notificar, reintentar |
-| `customer.created` | Nuevo cliente | Registrar en CRM |
-
-## 6. GestiÃ³n de Clientes SaaS
+- **`customer.subscription.created`:** Nueva suscripción -- Activar cuenta, enviar email
+- **`customer.subscription.updated`:** Cambio de plan / renovación -- Actualizar acceso
+- **`customer.subscription.deleted`:** Cancelación -- Desactivar cuenta
+- **`invoice.payment_succeeded`:** Pago exitoso -- Enviar recibo
+- **`invoice.payment_failed`:** Pago fallido -- Notificar, reintentar
+- **`customer.created`:** Nuevo cliente -- Registrar en CRM
+## 6. Gestión de Clientes SaaS
 
 ### Metadatos para Organizar Clientes
 
-### SegmentaciÃ³n por Plan
+### Segmentación por Plan
 
-| Plan | Precio | Usuarios | CaracterÃ­sticas |
-|------|--------|----------|-----------------|
-| **Starter** | $19/mes | 3 usuarios | BÃ¡sico |
-| **Professional** | $49/mes | 10 usuarios | Avanzado |
-| **Enterprise** | $199/mes | Ilimitados | Personalizado |
-
-## 7. Dunning y RecuperaciÃ³n de Pagos
+- **Starter:** $19/mes -- 3 usuarios -- Básico
+- **Professional:** $49/mes -- 10 usuarios -- Avanzado
+- **Enterprise:** $199/mes -- Ilimitados -- Personalizado
+## 7. Dunning y Recuperación de Pagos
 
 ### Estrategia de Reintentos
 
-Stripe maneja automÃ¡ticamente los reintentos de pago fallidos con **Smart Retries**:
+Stripe maneja automáticamente los reintentos de pago fallidos con **Smart Retries**:
 
-| Intento | DÃ­as despuÃ©s | AcciÃ³n |
-|---------|-------------|--------|
-| **1** | 3 dÃ­as | Stripe reintenta automÃ¡ticamente |
-| **2** | 5 dÃ­as | Segundo reintento |
-| **3** | 7 dÃ­as | Tercer reintento |
-| **Final** | 14 dÃ­as | SuscripciÃ³n se pausa o cancela |
-
+- **1:** 3 días -- Stripe reintenta automáticamente
+- **2:** 5 días -- Segundo reintento
+- **3:** 7 días -- Tercer reintento
+- **Final:** 14 días -- Suscripción se pausa o cancela
 ### Notificaciones al Cliente
 
-### ConfiguraciÃ³n de Dunning en Stripe
+### Configuración de Dunning en Stripe
 
-## 8. Reportes y MÃ©tricas SaaS
+## 8. Reportes y Métricas SaaS
 
-### MÃ©tricas Clave desde Stripe
+### Métricas Clave desde Stripe
 
-| MÃ©trica | DescripciÃ³n | CÃ³mo Obtenerla |
-|---------|-------------|----------------|
-| **MRR** | Monthly Recurring Revenue | Dashboard â†’ Revenue |
-| **ARR** | Annual Recurring Revenue | MRR Ã— 12 |
-| **Churn Rate** | % de cancelaciones | Suscripciones canceladas / activas |
-| **LTV** | Lifetime Value | MRR promedio Ã— vida Ãºtil del cliente |
-| **CAC** | Customer Acquisition Cost | Gastos de marketing / clientes nuevos |
-
+- **MRR:** Monthly Recurring Revenue -- Dashboard ? Revenue
+- **ARR:** Annual Recurring Revenue -- MRR × 12
+- **Churn Rate:** % de cancelaciones -- Suscripciones canceladas / activas
+- **LTV:** Lifetime Value -- MRR promedio × vida útil del cliente
+- **CAC:** Customer Acquisition Cost -- Gastos de marketing / clientes nuevos
 ## 9. Stripe Connect para SaaS Marketplace
 
 ### Modelos de Plataforma
 
-| Modelo | DescripciÃ³n | ComisiÃ³n |
-|--------|-------------|----------|
-| **Platform** | Cobras directamente y pagas a proveedores | Stripe cobra 2.9% + $0.30 |
-| **Marketplace** | Conectas compradores y vendedores | Stripe cobra 0.25% + $0.30 |
-| **Standalone** | Cada vendedor tiene cuenta Stripe propia | Stripe cobra tarifas estÃ¡ndar |
-
+- **Platform:** Cobras directamente y pagas a proveedores -- Stripe cobra 2.9% + $0.30
+- **Marketplace:** Conectas compradores y vendedores -- Stripe cobra 0.25% + $0.30
+- **Standalone:** Cada vendedor tiene cuenta Stripe propia -- Stripe cobra tarifas estándar
 ## 10. Preguntas Frecuentes
 
-### Â¿Stripe es adecuado para SaaS pequeÃ±os?
+### ¿Stripe es adecuado para SaaS pequeños?
 
-SÃ­. Stripe Billing no tiene costo fijo mensual, solo un porcentaje por transacciÃ³n. Ideal desde el primer cliente.
+Sí. Stripe Billing no tiene costo fijo mensual, solo un porcentaje por transacción. Ideal desde el primer cliente.
 
-### Â¿CÃ³mo manejo upgrades y downgrades de plan?
+### ¿Cómo manejo upgrades y downgrades de plan?
 
-Stripe calcula automÃ¡ticamente los crÃ©ditos prorrateados. Configura `proration_behavior: 'create_prorations'` en la suscripciÃ³n.
+Stripe calcula automáticamente los créditos prorrateados. Configura `proration_behavior: 'create_prorations'` en la suscripción.
 
-### Â¿Puedo tener mÃºltiples monedas en mis suscripciones?
+### ¿Puedo tener múltiples monedas en mis suscripciones?
 
-SÃ­. Stripe permite crear precios en diferentes monedas para un mismo producto y asignarlos por ubicaciÃ³n del cliente.
+Sí. Stripe permite crear precios en diferentes monedas para un mismo producto y asignarlos por ubicación del cliente.
 
-### Â¿Stripe maneja impuestos para SaaS?
+### ¿Stripe maneja impuestos para SaaS?
 
-SÃ­. Stripe Tax calcula automÃ¡ticamente IVA, GST, sales tax y otros impuestos en cada suscripciÃ³n.
+Sí. Stripe Tax calcula automáticamente IVA, GST, sales tax y otros impuestos en cada suscripción.
 
-### Â¿QuÃ© pasa si el cliente no paga?
+### ¿Qué pasa si el cliente no paga?
 
-Stripe reintenta automÃ¡ticamente con Smart Retries. DespuÃ©s de varios intentos, la suscripciÃ³n se cancela y puedes desactivar el acceso.
+Stripe reintenta automáticamente con Smart Retries. Después de varios intentos, la suscripción se cancela y puedes desactivar el acceso.
 
-## 11. Paso a Paso RÃ¡pido
+## 11. Paso a Paso Rápido
 
 ### Resumen en 6 Pasos
 
-| Paso | AcciÃ³n | Tiempo |
-|------|--------|--------|
-| **1** | Crea tu cuenta Stripe y activa Stripe Billing | 1 dÃ­a |
-| **2** | Define tus modelos de precio (planos, por usuario, por uso) | 1-2 dÃ­as |
-| **3** | Implementa Stripe Checkout con `mode: 'subscription'` | 2-3 dÃ­as |
-| **4** | Configura webhooks para gestionar el ciclo de vida | 1-2 dÃ­as |
-| **5** | Activa el Customer Portal para autogestiÃ³n | 1 dÃ­a |
-| **6** | Configura Stripe Tax y Dunning | 1 dÃ­a |
-
-### Checklist de ConfiguraciÃ³n
+- **1:** Crea tu cuenta Stripe y activa Stripe Billing -- 1 día
+- **2:** Define tus modelos de precio (planos, por usuario, por uso) -- 1-2 días
+- **3:** Implementa Stripe Checkout con `mode: 'subscription'` -- 2-3 días
+- **4:** Configura webhooks para gestionar el ciclo de vida -- 1-2 días
+- **5:** Activa el Customer Portal para autogestión -- 1 día
+- **6:** Configura Stripe Tax y Dunning -- 1 día
+### Checklist de Configuración
 
 - [ ] Stripe Billing activado en Dashboard
 - [ ] Modelos de precio creados (prices API)
-- [ ] Checkout de suscripciÃ³n implementado
+- [ ] Checkout de suscripción implementado
 - [ ] Webhooks configurados y probados
 - [ ] Customer Portal activado
 - [ ] Stripe Tax configurado
@@ -205,10 +163,10 @@ Stripe reintenta automÃ¡ticamente con Smart Retries. DespuÃ©s de varios intentos
 - [ ] Sistema de provisioning (activar/desactivar acceso) listo
 - [ ] Reportes de MRR/ARR configurados
 
-## ConclusiÃ³n
+## Conclusión
 
-**Stripe para SaaS** ofrece todo lo necesario para gestionar suscripciones, facturaciÃ³n recurrente e impuestos globales sin plataformas intermediarias. Con Stripe Billing, Customer Portal, Smart Retries y Stripe Tax, puedes escalar tu SaaS internacionalmente con una sola integraciÃ³n.
+**Stripe para SaaS** ofrece todo lo necesario para gestionar suscripciones, facturación recurrente e impuestos globales sin plataformas intermediarias. Con Stripe Billing, Customer Portal, Smart Retries y Stripe Tax, puedes escalar tu SaaS internacionalmente con una sola integración.
 
-La clave del Ã©xito estÃ¡ en elegir el modelo de precio adecuado, configurar webhooks correctamente y ofrecer autogestiÃ³n al cliente a travÃ©s del Customer Portal.
+La clave del éxito está en elegir el modelo de precio adecuado, configurar webhooks correctamente y ofrecer autogestión al cliente a través del Customer Portal.
 
-En **Sotomayor Consulting International**, te ayudamos a integrar Stripe para tu SaaS, incluyendo configuraciÃ³n de suscripciones, modelos de precio complejos, Stripe Tax y optimizaciÃ³n de ingresos recurrentes. ContÃ¡ctanos para una consultorÃ­a personalizada.
+En **Sotomayor Consulting International**, te ayudamos a integrar Stripe para tu SaaS, incluyendo configuración de suscripciones, modelos de precio complejos, Stripe Tax y optimización de ingresos recurrentes. Contáctanos para una consultoría personalizada.

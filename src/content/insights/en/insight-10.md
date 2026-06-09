@@ -93,12 +93,9 @@ It depends on several factors such as business type, physical presence in the U.
 
 The most commonly used states are:
 
-| State | Main advantage |
-|-------|----------------|
-| **Wyoming** | Low costs, privacy, simple process |
-| **Florida** | Commercial proximity to LATAM |
-| **Delaware** | Corporate reputation, ideal for holdings |
-
+- **Wyoming:** Low costs, privacy, simple process
+- **Florida:** Commercial proximity to LATAM
+- **Delaware:** Corporate reputation, ideal for holdings
 Each has different advantages depending on the operating model.
 
 ## Will an LLC help me earn in dollars?

@@ -15,15 +15,12 @@ In this guide, we explain **how to charge by card from any country** in 2026, th
 
 ### Players Involved
 
-| Player | Role | Examples |
-|--------|------|----------|
-| **Customer** | Buyer with international card | Individual or business |
-| **Gateway** | Captures card data securely | Stripe, Checkout, Braintree |
-| **Processor** | Processes the transaction | Stripe, Adyen, Fiserv |
-| **Card network** | Network connecting banks | Visa, Mastercard, American Express |
-| **Issuing bank** | Customer's bank that issued the card | Chase, Santander, Itaú |
-| **Acquiring bank** | Seller's bank | Local or international acquirer |
-
+- **Customer:** Buyer with international card -- Individual or business
+- **Gateway:** Captures card data securely -- Stripe, Checkout, Braintree
+- **Processor:** Processes the transaction -- Stripe, Adyen, Fiserv
+- **Card network:** Network connecting banks -- Visa, Mastercard, American Express
+- **Issuing bank:** Customer's bank that issued the card -- Chase, Santander, Itaú
+- **Acquiring bank:** Seller's bank -- Local or international acquirer
 ### Why Card Payments Differ by Country
 
 - **Local rules:** Each country has specific rules for card payments
@@ -35,15 +32,12 @@ In this guide, we explain **how to charge by card from any country** in 2026, th
 
 ### 2.1 Stripe
 
-| Feature | Details |
-|---------|---------|
-| **Available countries** | 40+ (more via LLC) |
-| **Accepted cards** | Visa, Mastercard, Amex, Discover, JCB, Diners |
-| **Currencies** | 135+ |
-| **Fee** | 2.9% + $0.30 (+1.5% for international cards) |
-| **3D Secure** | Native (Stripe Radar) |
-| **Chargeback** | $15 |
-
+- **Available countries:** 40+ (more via LLC)
+- **Accepted cards:** Visa, Mastercard, Amex, Discover, JCB, Diners
+- **Currencies:** 135+
+- **Fee:** 2.9% + $0.30 (+1.5% for international cards)
+- **3D Secure:** Native (Stripe Radar)
+- **Chargeback:** $15
 **Ideal for:** E-commerce, SaaS, subscriptions, digital businesses
 
 **Advantages:** Excellent API, embedded checkout, multiple currencies, fraud prevention tools
@@ -52,15 +46,12 @@ In this guide, we explain **how to charge by card from any country** in 2026, th
 
 ### 2.2 PayPal
 
-| Feature | Details |
-|---------|---------|
-| **Available countries** | 200+ (payer) / 200+ (seller) |
-| **Accepted cards** | Visa, Mastercard, Amex, Discover |
-| **Currencies** | 25+ |
-| **Fee** | 2.99% + $0.49 (+1.5% international) |
-| **3D Secure** | Native |
-| **Chargeback** | $20 |
-
+- **Available countries:** 200+ (payer) / 200+ (seller)
+- **Accepted cards:** Visa, Mastercard, Amex, Discover
+- **Currencies:** 25+
+- **Fee:** 2.99% + $0.49 (+1.5% international)
+- **3D Secure:** Native
+- **Chargeback:** $20
 **Ideal for:** Freelancers, marketplaces, businesses in any country
 
 **Advantages:** Available in almost all countries, easy to set up
@@ -68,50 +59,38 @@ In this guide, we explain **how to charge by card from any country** in 2026, th
 
 ### 2.3 Mercado Pago
 
-| Feature | Details |
-|---------|---------|
-| **Available countries** | 7 (LATAM) |
-| **Accepted cards** | Visa, Mastercard, Amex, Hipercard, Elo |
-| **Currencies** | LATAM local currencies |
-| **Fee** | 3% - 6% |
-| **3D Secure** | Native |
-| **Chargeback** | Variable |
-
+- **Available countries:** 7 (LATAM)
+- **Accepted cards:** Visa, Mastercard, Amex, Hipercard, Elo
+- **Currencies:** LATAM local currencies
+- **Fee:** 3% - 6%
+- **3D Secure:** Native
+- **Chargeback:** Variable
 **Ideal for:** Businesses with customers in Latin America
 
 **Advantages:** Boleto, Pix (Brazil), cash payments, installments
 
 ### 2.4 Other Platforms
 
-| Platform | Fee | Countries | Differentiator |
-|----------|------|-----------|----------------|
-| **Adyen** | Negotiable | 150+ currencies | High volume, enterprise |
-| **Square** | 2.6% + $0.10 | USA, Canada, Japan, Europe | In-person + online |
-| **2Checkout** | 3.5% + $0.35 | 200+ | Digital resellers |
-| **Paddle** | 5% + $0.50 | Global | SaaS (includes VAT) |
-| **Braintree** | 2.9% + $0.30 | 45+ | Owned by PayPal |
-
+- **Adyen:** Negotiable -- 150+ currencies -- High volume, enterprise
+- **Square:** 2.6% + $0.10 -- USA, Canada, Japan, Europe -- In-person + online
+- **2Checkout:** 3.5% + $0.35 -- 200+ -- Digital resellers
+- **Paddle:** 5% + $0.50 -- Global -- SaaS (includes VAT)
+- **Braintree:** 2.9% + $0.30 -- 45+ -- Owned by PayPal
 ## 3. International Processing Costs
 
 ### Fee Comparison
 
-| Platform | Base Fee | International | Conversion | Chargeback | Total (e.g., $100) |
-|----------|---------|--------------|------------|------------|-------------------|
-| **Stripe** | 2.9% + $0.30 | +1.5% | 1% | $15 | $5.70 |
-| **PayPal** | 2.99% + $0.49 | +1.5% | 2.5-4% | $20 | $7.48 |
-| **Mercado Pago** | 3-6% | Included | Included | Variable | $3 - $6 |
-| **Adyen** | Negotiable | Negotiable | Negotiable | Negotiable | Negotiable |
-
+- **Stripe:** 2.9% + $0.30 -- +1.5% -- 1% -- $15 -- $5.70
+- **PayPal:** 2.99% + $0.49 -- +1.5% -- 2.5-4% -- $20 -- $7.48
+- **Mercado Pago:** 3-6% -- Included -- Included -- Variable -- $3 - $6
+- **Adyen:** Negotiable -- Negotiable -- Negotiable -- Negotiable -- Negotiable
 ### Hidden Costs
 
-| Cost | Description | Typical Value |
-|------|-------------|---------------|
-| **Currency conversion** | Spread on real exchange rate | 1% - 4% |
-| **International network fee** | Network fee per cross-border transaction | 0.5% - 1% |
-| **Issuing bank fee** | Customer's bank fee for international transactions | Variable |
-| **Chargeback** | Fee when customer disputes | $15 - $25 |
-| **Refund** | Transaction fee not refunded | Loss of fee |
-
+- **Currency conversion:** Spread on real exchange rate -- 1% - 4%
+- **International network fee:** Network fee per cross-border transaction -- 0.5% - 1%
+- **Issuing bank fee:** Customer's bank fee for international transactions -- Variable
+- **Chargeback:** Fee when customer disputes -- $15 - $25
+- **Refund:** Transaction fee not refunded -- Loss of fee
 ### Tip: How to Reduce Costs
 
 1. **Process in the customer's currency** to avoid forced conversion
@@ -151,22 +130,16 @@ For countries where Stripe isn't available, form an LLC in the US and create you
 
 Some platforms offer accounts with virtual cards that can be used to process payments.
 
-| Platform | Features | Ideal for |
-|----------|---------|-----------|
-| **Payoneer** | US, UK, Europe account + card | Marketplaces, freelancers |
-| **Wise** | Multi-currency account + business card | Professionals, small businesses |
-| **Revolut Business** | Multi-currency account + virtual card | Digital businesses |
-
+- **Payoneer:** US, UK, Europe account + card -- Marketplaces, freelancers
+- **Wise:** Multi-currency account + business card -- Professionals, small businesses
+- **Revolut Business:** Multi-currency account + virtual card -- Digital businesses
 ### Option 4: Payment Links (No Website)
 
 If you don't have a website, you can create payment links to charge by card.
 
-| Platform | Feature | Fee |
-|----------|---------|-----|
-| **Stripe Payment Links** | Customizable payment link | 2.9% + $0.30 |
-| **PayPal.Me** | Simple payment link | 2.99% + $0.49 |
-| **Mercado Pago Link** | LATAM payment link | 3-6% |
-
+- **Stripe Payment Links:** Customizable payment link -- 2.9% + $0.30
+- **PayPal.Me:** Simple payment link -- 2.99% + $0.49
+- **Mercado Pago Link:** LATAM payment link -- 3-6%
 ## 5. 3D Secure and Fraud Prevention
 
 ### What is 3D Secure?
@@ -175,12 +148,9 @@ It's an additional security layer that verifies the buyer's identity. The custom
 
 ### Versions
 
-| Version | Description | Adoption in 2026 |
-|---------|-------------|------------------|
-| **3DS 1.0** | Redirect, poor experience | Nearly extinct |
-| **3DS 2.0** | Frictionless authentication, biometrics | Standard in Europe (PSD2) |
-| **3DS 2.3** | More data shared, less friction | Being implemented |
-
+- **3DS 1.0:** Redirect, poor experience -- Nearly extinct
+- **3DS 2.0:** Frictionless authentication, biometrics -- Standard in Europe (PSD2)
+- **3DS 2.3:** More data shared, less friction -- Being implemented
 ### Why It Matters for International Payments
 
 - **Reduces chargebacks** — authenticated transactions cannot be disputed as "unrecognized"
@@ -191,41 +161,29 @@ It's an additional security layer that verifies the buyer's identity. The custom
 
 ### North America (US and Canada)
 
-| Processor | Cards | 3DS | Currency |
-|-----------|-------|-----|----------|
-| **Stripe** | All | ✅ Native | USD, CAD |
-| **Square** | All | ✅ | USD, CAD |
-| **Authorize.net** | All | ✅ | USD, CAD |
-
+- **Stripe:** All -- ✅ Native -- USD, CAD
+- **Square:** All -- ✅ -- USD, CAD
+- **Authorize.net:** All -- ✅ -- USD, CAD
 **Particularities:** Credit cards are the dominant method. Amex has strong presence. 3DS is optional (not mandatory like in Europe).
 
 ### Europe
 
-| Processor | Cards | 3DS | Currency |
-|-----------|-------|-----|----------|
-| **Stripe** | All | ✅ Mandatory (PSD2) | EUR, GBP, etc. |
-| **Adyen** | All | ✅ Mandatory | EUR, GBP, etc. |
-
+- **Stripe:** All -- ✅ Mandatory (PSD2) -- EUR, GBP, etc.
+- **Adyen:** All -- ✅ Mandatory -- EUR, GBP, etc.
 **Particularities:** PSD2 requires strong authentication (SCA) for most transactions. 3DS 2.0 is the standard.
 
 ### Latin America
 
-| Processor | Cards | 3DS | Currency |
-|-----------|-------|-----|----------|
-| **Stripe** | All (MX, BR) | ✅ | MXN, BRL |
-| **Mercado Pago** | All + local brands | ✅ | Local currencies |
-| **DLocal** | All | ✅ | Local currencies |
-
+- **Stripe:** All (MX, BR) -- ✅ -- MXN, BRL
+- **Mercado Pago:** All + local brands -- ✅ -- Local currencies
+- **DLocal:** All -- ✅ -- Local currencies
 **Particularities:** Installments (Brazil, Mexico) are common and expected. Boleto and Pix in Brazil.
 
 ### Asia
 
-| Processor | Cards | 3DS | Currency |
-|-----------|-------|-----|----------|
-| **Stripe** | All (select countries) | ✅ | JPY, SGD, HKD, AUD |
-| **PayPal** | All | ✅ | Multiple |
-| **Alipay/WeChat Pay** | Local wallets | ✅ | CNY |
-
+- **Stripe:** All (select countries) -- ✅ -- JPY, SGD, HKD, AUD
+- **PayPal:** All -- ✅ -- Multiple
+- **Alipay/WeChat Pay:** Local wallets -- ✅ -- CNY
 **Particularities:** In China, Alipay and WeChat Pay dominate. In Japan, cards are popular.
 
 ## 7. Common Problems and Solutions
@@ -272,14 +230,11 @@ It's an additional security layer that verifies the buyer's identity. The custom
 
 ### 8.1 Checkout Optimization
 
-| Practice | Approval Impact |
-|----------|----------------|
-| **Single-page checkout** | +5-10% |
-| **Multiple card brands** | +3-5% |
-| **Optimized 3D Secure** | +5-15% |
-| **Automatic retry** | +3-8% |
-| **Local methods** | +10-20% (per region) |
-
+- **Single-page checkout:** +5-10%
+- **Multiple card brands:** +3-5%
+- **Optimized 3D Secure:** +5-15%
+- **Automatic retry:** +3-8%
+- **Local methods:** +10-20% (per region)
 ### 8.2 Smart Payment Retry
 
 When a card is declined, retry with strategy:
@@ -333,14 +288,11 @@ Always offer more than one option:
 
 ## 10. Trends for 2026
 
-| Trend | Impact |
-|-------|--------|
-| **Biometric authentication** | 3DS with biometrics reduces friction and fraud |
-| **Instant payments** | Card being replaced by instant transfers in some markets |
-| **AI in fraud prevention** | ML analyzes patterns in real time |
-| **Embedded finance** | Payments integrated into any platform |
-| **Digital wallets** | Apple Pay, Google Pay become standard |
-
+- **Biometric authentication:** 3DS with biometrics reduces friction and fraud
+- **Instant payments:** Card being replaced by instant transfers in some markets
+- **AI in fraud prevention:** ML analyzes patterns in real time
+- **Embedded finance:** Payments integrated into any platform
+- **Digital wallets:** Apple Pay, Google Pay become standard
 ## Conclusion
 
 **Charging by card from any country** in 2026 is entirely possible with the right tools. The choice of processor depends on your country of origin, your customers' countries, and your business type.

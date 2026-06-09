@@ -1,219 +1,189 @@
-Ôªø---
-title: "C√≥mo Internacionalizar una Marca: Gu√≠a 2026"
-description: "C√≥mo internacionalizar una marca"
+---
+title: "CÛmo Internacionalizar una Marca: GuÌa 2026"
+description: "CÛmo internacionalizar una marca"
 cardImage: "@/images/insights/internacionalizar-una-marca.png"
-cardImageAlt: "Internacionalizaci√≥n de marca: estrategia global con dominio ccTLD, adaptaci√≥n cultural, Stripe multimoeda, aterrizaje local y presencia omnicanal"
+cardImageAlt: "InternacionalizaciÛn de marca: estrategia global con dominio ccTLD, adaptaciÛn cultural, Stripe multimoeda, aterrizaje local y presencia omnicanal"
 ---
 
-**Internacionalizar una marca** es el proceso de adaptar tu identidad, mensaje y presencia para operar en m√∫ltiples pa√≠ses y culturas. No se trata solo de traducir un sitio web ‚Äî implica repensar el posicionamiento, los canales, la moneda, los m√©todos de pago y hasta el nombre de la marca para cada mercado.
+**Internacionalizar una marca** es el proceso de adaptar tu identidad, mensaje y presencia para operar en m˙ltiples paÌses y culturas. No se trata solo de traducir un sitio web ó implica repensar el posicionamiento, los canales, la moneda, los mÈtodos de pago y hasta el nombre de la marca para cada mercado.
 
-En esta gu√≠a, explicamos **c√≥mo internacionalizar una marca** en 2026: desde la estrategia de dominio y la adaptaci√≥n cultural hasta la infraestructura de pagos, el SEO multinacional y el plan de lanzamiento por mercado.
+En esta guÌa, explicamos **cÛmo internacionalizar una marca** en 2026: desde la estrategia de dominio y la adaptaciÛn cultural hasta la infraestructura de pagos, el SEO multinacional y el plan de lanzamiento por mercado.
 
-## 1. ¬øQu√© Significa Internacionalizar una Marca?
+## 1. øQuÈ Significa Internacionalizar una Marca?
 
 ### De Marca Local a Marca Global
 
-| Aspecto | Marca Local | Marca Internacional |
-|---------|------------|-------------------|
-| **Audiencia** | Un pa√≠s, un idioma | M√∫ltiples pa√≠ses, culturas e idiomas |
-| **Dominio** | .com.co, .com.mx, .com.ar | ccTLD por mercado o .com + subdirectorios |
-| **Idioma** | Solo espa√±ol | Espa√±ol + ingl√©s + portugu√©s + otros |
-| **Moneda** | Una moneda local | M√∫ltiples monedas (USD, EUR, BRL, MXN) |
-| **Pagos** | Transferencia o efectivo | Stripe multimoeda + m√©todos locales |
-| **Precios** | Un solo precio global | Precios localizados (PPP) |
-| **Marketing** | Canales locales | SEO multinacional + ads por mercado |
-| **Legal** | Legislaci√≥n local | Cumplimiento GDPR, CCPA, LGPD |
-| **Soporte** | Un idioma, un horario | Multiling√ºe, 24/7 |
-| **Log√≠stica** | Local | Env√≠os internacionales + fulfillment local |
-
-### Por Qu√© Internacionalizar tu Marca
+- **Audiencia:** Un paÌs, un idioma -- M˙ltiples paÌses, culturas e idiomas
+- **Dominio:** .com.co, .com.mx, .com.ar -- ccTLD por mercado o .com + subdirectorios
+- **Idioma:** Solo espaÒol -- EspaÒol + inglÈs + portuguÈs + otros
+- **Moneda:** Una moneda local -- M˙ltiples monedas (USD, EUR, BRL, MXN)
+- **Pagos:** Transferencia o efectivo -- Stripe multimoeda + mÈtodos locales
+- **Precios:** Un solo precio global -- Precios localizados (PPP)
+- **Marketing:** Canales locales -- SEO multinacional + ads por mercado
+- **Legal:** LegislaciÛn local -- Cumplimiento GDPR, CCPA, LGPD
+- **Soporte:** Un idioma, un horario -- Multiling¸e, 24/7
+- **LogÌstica:** Local -- EnvÌos internacionales + fulfillment local
+### Por QuÈ Internacionalizar tu Marca
 
 ## 2. Estrategia de Dominio y URL
 
 ### ccTLD vs Subdirectorios vs Subdominios
 
-| Estrategia | Ejemplo | SEO | Costo | Complejidad |
-|-----------|---------|-----|-------|-------------|
-| **ccTLD** | marca.co, marca.com.mx | ‚úÖ Excelente para SEO local | $$$ Alto (cada dominio) | Alta |
-| **Subdirectorios** | marca.com/es, marca.com/pt-br | ‚úÖ Bueno para SEO multinacional | $ Bajo | Media |
-| **Subdominios** | es.marca.com, br.marca.com | ‚ö†Ô∏è Medio | $ Bajo | Media |
-| **.com + hreflang** | marca.com con etiquetas hreflang | ‚úÖ Bueno | $ Muy bajo | Baja |
-| **ccTLD + redirecci√≥n** | marca.de ‚Üí marca.com/de | ‚úÖ SEO local + marca unificada | $$ Medio | Media |
+- **ccTLD:** marca.co, marca.com.mx -- ? Excelente para SEO local -- $$$ Alto (cada dominio) -- Alta
+- **Subdirectorios:** marca.com/es, marca.com/pt-br -- ? Bueno para SEO multinacional -- $ Bajo -- Media
+- **Subdominios:** es.marca.com, br.marca.com -- ?? Medio -- $ Bajo -- Media
+- **.com + hreflang:** marca.com con etiquetas hreflang -- ? Bueno -- $ Muy bajo -- Baja
+- **ccTLD + redirecciÛn:** marca.de ? marca.com/de -- ? SEO local + marca unificada -- $$ Medio -- Media
+### RecomendaciÛn 2026
 
-### Recomendaci√≥n 2026
+## 3. AdaptaciÛn Cultural de la Marca
 
-## 3. Adaptaci√≥n Cultural de la Marca
+### M·s All· de la TraducciÛn
 
-### M√°s All√° de la Traducci√≥n
-
-| Elemento | Traducci√≥n Literal | Adaptaci√≥n Cultural |
-|----------|-------------------|-------------------|
-| **Nombre** | El mismo en todos los mercados | Adaptado si tiene connotaciones negativas |
-| **Colores** | Sin cambios | Blanco=luto en Asia, rojo=sangre en algunos pa√≠ses |
-| **Im√°genes** | Mismas fotos globales | Modelos locales, contextos locales |
-| **S√≠mbolos** | Gestos/iconos universales | OK=ofensa en Brasil, pulgar arriba=grosero en Medio Oriente |
-| **Tono** | Formal en todos los pa√≠ses | Formal en Jap√≥n/Alemania, casual en US/Colombia |
-| **Humor** | Traducir chistes | Humor local (no traducible) |
-| **Ejemplos** | Casos de uso gen√©ricos | Casos de uso relevantes por mercado |
-| **Testimonios** | Solos los globales | Clientes locales en cada mercado |
-
-### Ejemplos de Adaptaci√≥n
+- **Nombre:** El mismo en todos los mercados -- Adaptado si tiene connotaciones negativas
+- **Colores:** Sin cambios -- Blanco=luto en Asia, rojo=sangre en algunos paÌses
+- **Im·genes:** Mismas fotos globales -- Modelos locales, contextos locales
+- **SÌmbolos:** Gestos/iconos universales -- OK=ofensa en Brasil, pulgar arriba=grosero en Medio Oriente
+- **Tono:** Formal en todos los paÌses -- Formal en JapÛn/Alemania, casual en US/Colombia
+- **Humor:** Traducir chistes -- Humor local (no traducible)
+- **Ejemplos:** Casos de uso genÈricos -- Casos de uso relevantes por mercado
+- **Testimonios:** Solos los globales -- Clientes locales en cada mercado
+### Ejemplos de AdaptaciÛn
 
 ## 4. Infraestructura de Pagos Global
 
-### De un Solo M√©todo a Pagos Globales
+### De un Solo MÈtodo a Pagos Globales
 
-| Mercado | Moneda | M√©todo Principal | M√©todos Alternos | Stripe |
-|---------|--------|-----------------|------------------|--------|
-| **Global** | USD | Card + Link | Apple Pay, Google Pay | ‚úÖ |
-| **Brasil** | BRL | Pix | Cart√£o, boleto | ‚úÖ Pix |
-| **M√©xico** | MXN | Card | OXXO, SPEI | ‚úÖ OXXO |
-| **Colombia** | COP | Transferencia | PSE, Nequi, Daviplata | ‚úÖ PSE |
-| **Argentina** | ARS | Card | Mercado Pago, transferencia | ‚úÖ |
-| **Chile** | CLP | Card | Webpay, transferencia | ‚úÖ Webpay |
-| **Per√∫** | PEN | Card | Yape, Plin, transferencia | ‚úÖ |
-| **Europa** | EUR | SEPA | Giropay, iDEAL, Bancontact | ‚úÖ SEPA |
-| **UK** | GBP | Card | BACS Direct Debit | ‚úÖ BACS |
-| **Jap√≥n** | JPY | Card | Konbini, LINE Pay | ‚úÖ Konbini |
-| **Australia** | AUD | Card | BACS Direct Debit | ‚úÖ |
-
-### Configuraci√≥n de Precios por Mercado
+- **Global:** USD -- Card + Link -- Apple Pay, Google Pay -- ?
+- **Brasil:** BRL -- Pix -- Cart„o, boleto -- ? Pix
+- **MÈxico:** MXN -- Card -- OXXO, SPEI -- ? OXXO
+- **Colombia:** COP -- Transferencia -- PSE, Nequi, Daviplata -- ? PSE
+- **Argentina:** ARS -- Card -- Mercado Pago, transferencia -- ?
+- **Chile:** CLP -- Card -- Webpay, transferencia -- ? Webpay
+- **Per˙:** PEN -- Card -- Yape, Plin, transferencia -- ?
+- **Europa:** EUR -- SEPA -- Giropay, iDEAL, Bancontact -- ? SEPA
+- **UK:** GBP -- Card -- BACS Direct Debit -- ? BACS
+- **JapÛn:** JPY -- Card -- Konbini, LINE Pay -- ? Konbini
+- **Australia:** AUD -- Card -- BACS Direct Debit -- ?
+### ConfiguraciÛn de Precios por Mercado
 
 ## 5. SEO Multinacional
 
-### C√≥mo Google ve tu Marca Internacional
+### CÛmo Google ve tu Marca Internacional
 
-| Factor SEO | Marca Local | Marca Internacional |
-|-----------|------------|-------------------|
-| **hreflang** | No implementado | Etiquetas en cada p√°gina |
-| **Contenido** | Un idioma | Traducci√≥n profesional por mercado |
-| **Backlinks** | De un pa√≠s | Backlinks de cada mercado objetivo |
-| **Dominio** | ccTLD local | .com + subdirectorios |
-| **Google Search Console** | Un property | Un property por pa√≠s/idioma |
-| **Sitemaps** | Un sitemap | Sitemaps separados por idioma |
-| **Schema markup** | En un idioma | Multiling√ºe (Organization, Product) |
-| **Reviews** | Solo locales | Reviews locales en cada mercado |
-
+- **hreflang:** No implementado -- Etiquetas en cada p·gina
+- **Contenido:** Un idioma -- TraducciÛn profesional por mercado
+- **Backlinks:** De un paÌs -- Backlinks de cada mercado objetivo
+- **Dominio:** ccTLD local -- .com + subdirectorios
+- **Google Search Console:** Un property -- Un property por paÌs/idioma
+- **Sitemaps:** Un sitemap -- Sitemaps separados por idioma
+- **Schema markup:** En un idioma -- Multiling¸e (Organization, Product)
+- **Reviews:** Solo locales -- Reviews locales en cada mercado
 ### Checklist SEO para Marca Global
 
 ## 6. Redes Sociales Globales
 
 ### Estrategia por Plataforma y Mercado
 
-| Plataforma | US/EU | LATAM | Brasil | Asia |
-|-----------|-------|-------|--------|------|
-| **LinkedIn** | ‚úÖ B2B profesional | ‚úÖ B2B formal | ‚úÖ B2B en portugu√©s | ‚ö†Ô∏è Medio |
-| **Twitter/X** | ‚úÖ Noticias, producto | ‚úÖ Comunidad | ‚ö†Ô∏è Menor adopci√≥n | ‚úÖ Popular |
-| **Instagram** | ‚úÖ Visual, historias | ‚úÖ Alta adopci√≥n | ‚úÖ Muy alto engagement | ‚úÖ |
-| **TikTok** | ‚úÖ Gen Z | ‚úÖ Alto crecimiento | ‚úÖ Muy alto | ‚úÖ |
-| **YouTube** | ‚úÖ Tutoriales | ‚úÖ Contenido educativo | ‚úÖ Alto consumo | ‚úÖ |
-| **Facebook** | ‚ö†Ô∏è Audiencia mayor | ‚úÖ Grupos, marketplace | ‚úÖ Muy alto | ‚ö†Ô∏è Bajo |
-| **WhatsApp** | ‚ö†Ô∏è Bajo | ‚úÖ Muy alto (ventas) | ‚úÖ Muy alto | ‚úÖ |
-| **LINE** | N/A | N/A | N/A | ‚úÖ (Jap√≥n) |
-| **WeChat** | N/A | ‚ö†Ô∏è Bajo | N/A | ‚úÖ (China) |
-| **KakaoTalk** | N/A | N/A | N/A | ‚úÖ (Corea) |
-
+- **LinkedIn:** ? B2B profesional -- ? B2B formal -- ? B2B en portuguÈs -- ?? Medio
+- **Twitter/X:** ? Noticias, producto -- ? Comunidad -- ?? Menor adopciÛn -- ? Popular
+- **Instagram:** ? Visual, historias -- ? Alta adopciÛn -- ? Muy alto engagement -- ?
+- **TikTok:** ? Gen Z -- ? Alto crecimiento -- ? Muy alto -- ?
+- **YouTube:** ? Tutoriales -- ? Contenido educativo -- ? Alto consumo -- ?
+- **Facebook:** ?? Audiencia mayor -- ? Grupos, marketplace -- ? Muy alto -- ?? Bajo
+- **WhatsApp:** ?? Bajo -- ? Muy alto (ventas) -- ? Muy alto -- ?
+- **LINE:** N/A -- N/A -- N/A -- ? (JapÛn)
+- **WeChat:** N/A -- ?? Bajo -- N/A -- ? (China)
+- **KakaoTalk:** N/A -- N/A -- N/A -- ? (Corea)
 ### Estrategia por Mercado
 
 ## 7. Contenido y Storytelling Global
 
-### De Traducci√≥n a Creaci√≥n Local
+### De TraducciÛn a CreaciÛn Local
 
-| Enfoque | Resultado | Ejemplo |
-|---------|-----------|---------|
-| **Traducir contenido** | Gen√©rico, pierde impacto | Mismo blog post traducido |
-| **Localizar contenido** | Relevante, conecta | Casos de estudio locales |
-| **Crear contenido por mercado** | M√°ximo impacto | Blog posts creados para cada audiencia |
-| **Storytelling local** | Conexi√≥n emocional | Historias de clientes locales |
-
+- **Traducir contenido:** GenÈrico, pierde impacto -- Mismo blog post traducido
+- **Localizar contenido:** Relevante, conecta -- Casos de estudio locales
+- **Crear contenido por mercado:** M·ximo impacto -- Blog posts creados para cada audiencia
+- **Storytelling local:** ConexiÛn emocional -- Historias de clientes locales
 ### Estrategia de Contenido Global
 
 ## 8. Legal y Compliance Global
 
 ### Regulaciones por Mercado
 
-| Mercado | Regulaci√≥n | Requisito | Penalizaci√≥n |
-|---------|-----------|-----------|-------------|
-| **Uni√≥n Europea** | GDPR | Consentimiento, DPO, derecho al olvido | Hasta ‚Ç¨20M o 4% ingresos |
-| **Brasil** | LGPD | Consentimiento, aviso de privacidad | Hasta 2% ingresos en Brasil |
-| **California (US)** | CCPA | Opt-out de venta de datos | $2.500-7.500 por violaci√≥n |
-| **M√©xico** | LFPDPPP | Aviso de privacidad, ARCO | Multas administrativas |
-| **Colombia** | Ley 1581 | Autorizaci√≥n, aviso de privacidad | Hasta 2.000 SMLV |
-| **Argentina** | PDPA | Registro de bases de datos, consentimiento | Multas variables |
-| **Jap√≥n** | APPI | Consentimiento, seguridad de datos | Multas y penalizaciones |
-| **UK** | UK GDPR | Similar a GDPR UE | Hasta ¬£17.5M o 4% |
-
+- **UniÛn Europea:** GDPR -- Consentimiento, DPO, derecho al olvido -- Hasta Ä20M o 4% ingresos
+- **Brasil:** LGPD -- Consentimiento, aviso de privacidad -- Hasta 2% ingresos en Brasil
+- **California (US):** CCPA -- Opt-out de venta de datos -- $2.500-7.500 por violaciÛn
+- **MÈxico:** LFPDPPP -- Aviso de privacidad, ARCO -- Multas administrativas
+- **Colombia:** Ley 1581 -- AutorizaciÛn, aviso de privacidad -- Hasta 2.000 SMLV
+- **Argentina:** PDPA -- Registro de bases de datos, consentimiento -- Multas variables
+- **JapÛn:** APPI -- Consentimiento, seguridad de datos -- Multas y penalizaciones
+- **UK:** UK GDPR -- Similar a GDPR UE -- Hasta £17.5M o 4%
 ### Checklist Legal Internacional
 
 ## 9. Canales de Venta Internacionales
 
-### Estrategia Go-to-Market por Regi√≥n
+### Estrategia Go-to-Market por RegiÛn
 
-| Mercado | Canal Principal | Stripe | Marketing |
-|---------|---------------|--------|-----------|
-| **US/Canad√°** | Website + Stripe Checkout | Card, Link, Apple Pay | LinkedIn, Newsletter, Google Ads |
-| **LATAM** | WhatsApp + Stripe Payment Link | OXXO, PSE, Pix | Instagram, Facebook Ads |
-| **Brasil** | Instagram + Stripe Checkout | Pix, Cart√£o | Instagram, YouTube, WhatsApp |
-| **Europa** | Website + LinkedIn | SEPA, iDEAL, Card | LinkedIn, Google Ads, Events |
-| **UK** | Website + Stripe Checkout | Card, BACS | LinkedIn, Newsletter |
-| **Australia/NZ** | Website + Stripe Checkout | Card, BACS | LinkedIn, Google Ads |
-
+- **US/Canad·:** Website + Stripe Checkout -- Card, Link, Apple Pay -- LinkedIn, Newsletter, Google Ads
+- **LATAM:** WhatsApp + Stripe Payment Link -- OXXO, PSE, Pix -- Instagram, Facebook Ads
+- **Brasil:** Instagram + Stripe Checkout -- Pix, Cart„o -- Instagram, YouTube, WhatsApp
+- **Europa:** Website + LinkedIn -- SEPA, iDEAL, Card -- LinkedIn, Google Ads, Events
+- **UK:** Website + Stripe Checkout -- Card, BACS -- LinkedIn, Newsletter
+- **Australia/NZ:** Website + Stripe Checkout -- Card, BACS -- LinkedIn, Google Ads
 ### Stripe Payment Link: Tu Canal de Venta Internacional
 
 ## 10. Errores Comunes al Internacionalizar una Marca
 
 ### Lo que NO Hacer
 
-| Error | Consecuencia | Soluci√≥n |
-|-------|-------------|---------|
-| **Traducir literalmente** | Mensaje sin impacto, errores culturales | Adaptaci√≥n cultural, no traducci√≥n |
-| **Un solo m√©todo de pago** | Pierdes clientes que no usan tarjeta | Stripe con m√©todos locales |
-| **Precio √∫nico global** | Caro para LATAM, barato para US/EU | Precios PPP por mercado |
-| **Ignorar regulaciones** | Multas GDPR, LGPD, CCPA | Compliance legal por mercado |
-| **Dominio .com nada m√°s** | SEO local d√©bil | Subdirectorios + hreflang |
-| **Mismo tono en todos los mercados** | No conectas con cada cultura | Tono adaptado por mercado |
-| **Sin soporte en idioma local** | Mala experiencia, churn alto | Soporte multiling√ºe |
-| **Misma estrategia de contenido** | No resuena localmente | Contenido local, no traducido |
-| **Ignorar festivos locales** | Campa√±as fuera de timing | Calendario de marketing por mercado |
-| **Marca registrada solo en tu pa√≠s** | Alguien m√°s registra tu marca afuera | Registro internacional (Madrid Protocol) |
+- **Traducir literalmente:** Mensaje sin impacto, errores culturales -- AdaptaciÛn cultural, no traducciÛn
+- **Un solo mÈtodo de pago:** Pierdes clientes que no usan tarjeta -- Stripe con mÈtodos locales
+- **Precio ˙nico global:** Caro para LATAM, barato para US/EU -- Precios PPP por mercado
+- **Ignorar regulaciones:** Multas GDPR, LGPD, CCPA -- Compliance legal por mercado
+- **Dominio .com nada m·s:** SEO local dÈbil -- Subdirectorios + hreflang
+- **Mismo tono en todos los mercados:** No conectas con cada cultura -- Tono adaptado por mercado
+- **Sin soporte en idioma local:** Mala experiencia, churn alto -- Soporte multiling¸e
+- **Misma estrategia de contenido:** No resuena localmente -- Contenido local, no traducido
+- **Ignorar festivos locales:** CampaÒas fuera de timing -- Calendario de marketing por mercado
+- **Marca registrada solo en tu paÌs:** Alguien m·s registra tu marca afuera -- Registro internacional (Madrid Protocol)
+## 11. Plan de 90 DÌas para Internacionalizar tu Marca
 
-## 11. Plan de 90 D√≠as para Internacionalizar tu Marca
+### Fase 1: InvestigaciÛn y Estrategia (DÌas 1-30)
 
-### Fase 1: Investigaci√≥n y Estrategia (D√≠as 1-30)
+### Fase 2: AdaptaciÛn y Contenido (DÌas 31-60)
 
-### Fase 2: Adaptaci√≥n y Contenido (D√≠as 31-60)
+### Fase 3: Escalabilidad y OptimizaciÛn (DÌas 61-90)
 
-### Fase 3: Escalabilidad y Optimizaci√≥n (D√≠as 61-90)
-
-## 12. Checklist de Internacionalizaci√≥n de Marca
+## 12. Checklist de InternacionalizaciÛn de Marca
 
 ### ESTRATEGIA:
 - [ ] 3-5 mercados objetivo identificados
-- [ ] An√°lisis de competidores por mercado
+- [ ] An·lisis de competidores por mercado
 - [ ] Estrategia de entrada definida (orden de mercados)
 - [ ] Precios PPP por mercado
-- [ ] Plan de adaptaci√≥n cultural por pa√≠s
+- [ ] Plan de adaptaciÛn cultural por paÌs
 
 ### DOMINIO Y WEBSITE:
 - [ ] Dominio .com principal
-- [ ] Subdirectorios por pa√≠s/idioma (/es/, /pt-br/, /de/)
+- [ ] Subdirectorios por paÌs/idioma (/es/, /pt-br/, /de/)
 - [ ] hreflang implementado en todo el sitio
 - [ ] CDN configurado (Cloudflare, Fastly)
-- [ ] Velocidad de carga < 2s en cada regi√≥n
+- [ ] Velocidad de carga < 2s en cada regiÛn
 - [ ] Website traducido profesionalmente a cada idioma
 
 ### INFRAESTRUCTURA DE PAGOS:
 - [ ] Stripe Payments multimoeda (135+ monedas)
-- [ ] M√©todos de pago locales (Pix, OXXO, iDEAL, Konbini)
-- [ ] Stripe Tax configurado por pa√≠s
+- [ ] MÈtodos de pago locales (Pix, OXXO, iDEAL, Konbini)
+- [ ] Stripe Tax configurado por paÌs
 - [ ] Stripe Billing con precios en moneda local
 - [ ] Stripe Invoicing con facturas localizadas
-- [ ] Stripe Reporting por moneda/pa√≠s
+- [ ] Stripe Reporting por moneda/paÌs
 
 ### LEGAL Y COMPLIANCE:
 - [ ] Marca registrada en mercados objetivo (Madrid Protocol)
-- [ ] T√©rminos de servicio por mercado
-- [ ] Pol√≠tica de privacidad GDPR/LGPD/CCPA
+- [ ] TÈrminos de servicio por mercado
+- [ ] PolÌtica de privacidad GDPR/LGPD/CCPA
 - [ ] Aviso de cookies con consentimiento
 - [ ] W-8BEN-E para tratados fiscales
 - [ ] Abogado local en mercado principal
@@ -223,23 +193,23 @@ En esta gu√≠a, explicamos **c√≥mo internacionalizar una marca** en 2026: desde l
 - [ ] Contenido localizado (no solo traducido)
 - [ ] Casos de estudio locales
 - [ ] Estrategia SEO multinacional
-- [ ] Google Search Console por pa√≠s
-- [ ] Campa√±as de ads por mercado
+- [ ] Google Search Console por paÌs
+- [ ] CampaÒas de ads por mercado
 
 ### OPERACIONES:
-- [ ] Soporte multiling√ºe configurado
+- [ ] Soporte multiling¸e configurado
 - [ ] Knowledge base en cada idioma
 - [ ] Stripe Connect para contractors locales
-- [ ] Log√≠stica local (si aplica producto f√≠sico)
+- [ ] LogÌstica local (si aplica producto fÌsico)
 - [ ] Calendario de marketing por mercado
-- [ ] Dashboard de m√©tricas globales vs locales
+- [ ] Dashboard de mÈtricas globales vs locales
 
-## Conclusi√≥n
+## ConclusiÛn
 
-**Internacionalizar una marca** es el proceso m√°s transformador que puede experimentar un negocio digital. Pasar de operar en un mercado local a competir globalmente requiere repensar cada aspecto de tu negocio: desde el dominio y la infraestructura de pagos hasta el tono de voz y el compliance legal.
+**Internacionalizar una marca** es el proceso m·s transformador que puede experimentar un negocio digital. Pasar de operar en un mercado local a competir globalmente requiere repensar cada aspecto de tu negocio: desde el dominio y la infraestructura de pagos hasta el tono de voz y el compliance legal.
 
-La tecnolog√≠a ha eliminado la mayor√≠a de las barreras: Stripe procesa pagos en 135+ monedas con m√©todos locales en cada pa√≠s, las etiquetas hreflang le dicen a Google qu√© contenido mostrar a qui√©n, y plataformas como Shopify, Vercel y Cloudflare hacen que tener presencia global sea cuesti√≥n de d√≠as, no meses.
+La tecnologÌa ha eliminado la mayorÌa de las barreras: Stripe procesa pagos en 135+ monedas con mÈtodos locales en cada paÌs, las etiquetas hreflang le dicen a Google quÈ contenido mostrar a quiÈn, y plataformas como Shopify, Vercel y Cloudflare hacen que tener presencia global sea cuestiÛn de dÌas, no meses.
 
-El error m√°s com√∫n es pensar que internacionalizar es "traducir el sitio a ingl√©s". La realidad es mucho m√°s profunda: precios locales, m√©todos de pago locales, contenido local, soporte local, y compliance local. Cada mercado merece una experiencia que se sienta nativa.
+El error m·s com˙n es pensar que internacionalizar es "traducir el sitio a inglÈs". La realidad es mucho m·s profunda: precios locales, mÈtodos de pago locales, contenido local, soporte local, y compliance local. Cada mercado merece una experiencia que se sienta nativa.
 
-En la **Sotomayor Consulting International**, te ayudamos a internacionalizar tu marca: desde la selecci√≥n de mercados y la estrategia de dominio hasta la infraestructura de pagos globales y el plan de lanzamiento pa√≠s por pa√≠s. Cont√°ctanos para una consultor√≠a personalizada.
+En la **Sotomayor Consulting International**, te ayudamos a internacionalizar tu marca: desde la selecciÛn de mercados y la estrategia de dominio hasta la infraestructura de pagos globales y el plan de lanzamiento paÌs por paÌs. Cont·ctanos para una consultorÌa personalizada.

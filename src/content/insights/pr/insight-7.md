@@ -132,15 +132,12 @@ Nem tudo � positivo. Uma LLC pode n�o ser a melhor op��o se:
 
 ## Tabela Comparativa: LLC vs. Outras Estruturas
 
-| Aspecto | LLC | C-Corp | Empresa no seu pa�s |
-|---------|-----|--------|--------------------|
-| Prote��o patrimonial | Alta | Alta | Vari�vel |
-| Custo de constitui��o | Baixo�M�dio | Alto | Vari�vel |
-| Manuten��o anual | $150�$1000+ | $500�$2000+ | Vari�vel |
-| Acesso a Stripe/PayPal EUA | Sim | Sim | Limitado |
-| Ideal para estrangeiros | Sim | Depende | Depende |
-| Flexibilidade fiscal | Alta | Baixa | Vari�vel |
-
+- **Prote��o patrimonial:** Alta -- Alta -- Vari�vel
+- **Custo de constitui��o:** Baixo�M�dio -- Alto -- Vari�vel
+- **Manuten��o anual:** $150�$1000+ -- $500�$2000+ -- Vari�vel
+- **Acesso a Stripe/PayPal EUA:** Sim -- Sim -- Limitado
+- **Ideal para estrangeiros:** Sim -- Depende -- Depende
+- **Flexibilidade fiscal:** Alta -- Baixa -- Vari�vel
 ## Conclus�o
 
 Uma LLC pode ser uma ferramenta transformadora para empreendedores latino-americanos que buscam:

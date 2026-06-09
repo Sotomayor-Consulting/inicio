@@ -13,12 +13,9 @@ In this guide, we explain **how to structure properties for asset protection** i
 
 ### The 3 Pillars
 
-| Pillar | Description |
-|--------|-------------|
-| **Separation** | Each property in a distinct legal entity |
-| **Shielding** | Entities have no relationship (no cross-guarantees) |
-| **Succession planning** | Assets pass to heirs without tax or probate |
-
+- **Separation:** Each property in a distinct legal entity
+- **Shielding:** Entities have no relationship (no cross-guarantees)
+- **Succession planning:** Assets pass to heirs without tax or probate
 ### The Golden Rule
 
 ## 2. Structure Level 1: One Property
@@ -27,24 +24,18 @@ In this guide, we explain **how to structure properties for asset protection** i
 
 ### Why This Structure?
 
-| Component | Function | Protection |
-|-----------|----------|------------|
-| **Florida Property LLC** | Operates property, collects rent | Limits liability to this property |
-| **International Holding** | Owns the LLC | Eliminates estate tax (> $60K) |
-| **Revocable Trust** | Owns the holding | Avoids probate, defines succession |
-| **Stripe (LLC EIN)** | Collects rent | No mixing of personal income |
-
+- **Florida Property LLC:** Operates property, collects rent -- Limits liability to this property
+- **International Holding:** Owns the LLC -- Eliminates estate tax (> $60K)
+- **Revocable Trust:** Owns the holding -- Avoids probate, defines succession
+- **Stripe (LLC EIN):** Collects rent -- No mixing of personal income
 ### Cost of This Structure
 
-| Component | Initial Cost | Annual Cost |
-|-----------|-------------|-------------|
-| **LLC in Florida** | $150-400 | $138.75 |
-| **Holding in Panama** | $1,000-2,000 | $500-1,500 |
-| **Trust in US** | $2,000-5,000 | $0-500 |
-| **International CPA** | $0 | $1,000-3,000 |
-| **Registered Agent (LLC)** | $0 | $100-300 |
-| **Total** | **$3,150-7,400** | **$1,739-5,439** |
-
+- **LLC in Florida:** $150-400 -- $138.75
+- **Holding in Panama:** $1,000-2,000 -- $500-1,500
+- **Trust in US:** $2,000-5,000 -- $0-500
+- **International CPA:** $0 -- $1,000-3,000
+- **Registered Agent (LLC):** $0 -- $100-300
+- **Total:** **$3,150-7,400** -- **$1,739-5,439**
 ## 3. Structure Level 2: Multiple Properties
 
 ### The Recommended Multi-Layer Architecture
@@ -57,41 +48,32 @@ In this guide, we explain **how to structure properties for asset protection** i
 
 ### Detailed Comparison
 
-| Aspect | Individual LLC Per Property | Collective LLC (multiple properties) |
-|--------|----------------------------|-------------------------------------|
-| **Protection** | ✅ Maximum (total isolation) | ❌ One lawsuit exposes all |
-| **Annual cost** | $138.75 + RA each | $138.75 + RA (only one) |
-| **Complexity** | High (multiple filings) | Low (one filing) |
-| **Loans** | Individual (easier) | Can bundle properties |
-| **Sale** | Sell the LLC (no FIRPTA if structured well) | Hard to sell one property |
-| **Insurance** | Individual policy | Collective policy (more expensive) |
-| **Stripe** | Separate account | One account (mixes income) |
-
+- **Protection:** ✅ Maximum (total isolation) -- ❌ One lawsuit exposes all
+- **Annual cost:** $138.75 + RA each -- $138.75 + RA (only one)
+- **Complexity:** High (multiple filings) -- Low (one filing)
+- **Loans:** Individual (easier) -- Can bundle properties
+- **Sale:** Sell the LLC (no FIRPTA if structured well) -- Hard to sell one property
+- **Insurance:** Individual policy -- Collective policy (more expensive)
+- **Stripe:** Separate account -- One account (mixes income)
 ### When to Use Each Option
 
 ## 5. International Holding: The Ultimate Shield
 
 ### Why an International Holding?
 
-| Benefit | Explanation |
-|---------|-------------|
-| **Estate tax** | Holding shares are NOT US assets |
-| **Privacy** | Real owner does not appear in US public records |
-| **Asset seizure protection** | Seizing foreign holding shares is very difficult |
-| **Tax flexibility** | You can accumulate profits in the holding without distributing |
-| **Succession** | Shares are inherited per the holding country's law |
-
+- **Estate tax:** Holding shares are NOT US assets
+- **Privacy:** Real owner does not appear in US public records
+- **Asset seizure protection:** Seizing foreign holding shares is very difficult
+- **Tax flexibility:** You can accumulate profits in the holding without distributing
+- **Succession:** Shares are inherited per the holding country's law
 ### Recommended Jurisdictions
 
-| Jurisdiction | Annual Cost | Privacy | Estate Tax | Reputation |
-|-------------|-------------|---------|-----------|-----------|
-| **Panama** | $500-1,500 | ✅ High | ❌ N/A | ✅ Good |
-| **Netherlands** | $2,000-5,000 | ⚠️ Medium | ❌ N/A | ✅ Excellent |
-| **BVI** | $1,000-2,500 | ✅ High | ❌ N/A | ✅ Good |
-| **Cayman Islands** | $2,000-4,000 | ✅ High | ❌ N/A | ✅ Excellent |
-| **Uruguay** | $1,500-3,000 | ⚠️ Medium | ❌ N/A | ✅ Good |
-| **Delaware (US)** | $300-500 | ⚠️ Low | ✅ Exposed | ✅ Excellent |
-
+- **Panama:** $500-1,500 -- ✅ High -- ❌ N/A -- ✅ Good
+- **Netherlands:** $2,000-5,000 -- ⚠️ Medium -- ❌ N/A -- ✅ Excellent
+- **BVI:** $1,000-2,500 -- ✅ High -- ❌ N/A -- ✅ Good
+- **Cayman Islands:** $2,000-4,000 -- ✅ High -- ❌ N/A -- ✅ Excellent
+- **Uruguay:** $1,500-3,000 -- ⚠️ Medium -- ❌ N/A -- ✅ Good
+- **Delaware (US):** $300-500 -- ⚠️ Low -- ✅ Exposed -- ✅ Excellent
 > IMPORTANT: A Delaware holding does NOT protect from estate tax because it is a US entity. For estate tax protection, the holding must be outside the US.
 
 ### How Money Flows
@@ -100,15 +82,12 @@ In this guide, we explain **how to structure properties for asset protection** i
 
 ### Revocable vs. Irrevocable Trust
 
-| Aspect | Revocable Trust | Irrevocable Trust |
-|--------|----------------|-------------------|
-| **Control** | You control (can change) | You lose control (cannot change) |
-| **Protection** | ❌ Low (assets are yours) | ✅ High (assets are not yours) |
-| **Estate tax** | ❌ Exposed | ✅ Protected |
-| **Probate** | ✅ Avoids it | ✅ Avoids it |
-| **Cost** | $2,000-5,000 | $3,000-10,000 |
-| **Use** | Simple succession | Protection + succession |
-
+- **Control:** You control (can change) -- You lose control (cannot change)
+- **Protection:** ❌ Low (assets are yours) -- ✅ High (assets are not yours)
+- **Estate tax:** ❌ Exposed -- ✅ Protected
+- **Probate:** ✅ Avoids it -- ✅ Avoids it
+- **Cost:** $2,000-5,000 -- $3,000-10,000
+- **Use:** Simple succession -- Protection + succession
 ### Structure with Trust
 
 ### Example: Irrevocable Trust in Cook Islands
@@ -117,31 +96,25 @@ In this guide, we explain **how to structure properties for asset protection** i
 
 ### The Structure + Insurance Combination
 
-| Layer | Protects Against | Cost |
-|-------|-----------------|------|
-| **LLC** | Minor lawsuits (up to property value) | $138.75/year |
-| **Liability insurance (LLC policy)** | $1-2M per incident | $500-2,000/year |
-| **Umbrella policy** | $1-5M additional | $300-1,000/year |
-| **Irrevocable trust** | Creditor seizure | $1,500-5,000/year |
-| **International holding** | Estate tax + international seizure | $500-2,000/year |
-
+- **LLC:** Minor lawsuits (up to property value) -- $138.75/year
+- **Liability insurance (LLC policy):** $1-2M per incident -- $500-2,000/year
+- **Umbrella policy:** $1-5M additional -- $300-1,000/year
+- **Irrevocable trust:** Creditor seizure -- $1,500-5,000/year
+- **International holding:** Estate tax + international seizure -- $500-2,000/year
 ### Recommendation by Profile
 
 ## 8. Common Structuring Mistakes
 
 ### What NOT to Do
 
-| Mistake | Why It Is Dangerous |
-|---------|-------------------|
-| **Being a direct LLC member** | You become the lawsuit target |
-| **Cross-guarantees between LLCs** | Bank can execute against all if one defaults |
-| **One LLC for all properties** | One lawsuit exposes your entire portfolio |
-| **Not separating Stripe by LLC** | Mixes income, loses protection |
-| **Holding in Delaware (not international)** | Does not protect from estate tax |
-| **Having insurance without LLC** | LLC alone is not enough |
-| **Not maintaining the LLC** | Expired annual report = dissolved entity |
-| **Signing contracts in personal name** | Pierces the corporate veil |
-
+- **Being a direct LLC member:** You become the lawsuit target
+- **Cross-guarantees between LLCs:** Bank can execute against all if one defaults
+- **One LLC for all properties:** One lawsuit exposes your entire portfolio
+- **Not separating Stripe by LLC:** Mixes income, loses protection
+- **Holding in Delaware (not international):** Does not protect from estate tax
+- **Having insurance without LLC:** LLC alone is not enough
+- **Not maintaining the LLC:** Expired annual report = dissolved entity
+- **Signing contracts in personal name:** Pierces the corporate veil
 ### Incorrect Structure Example
 
 ## 9. Integrated Succession Planning
@@ -150,23 +123,17 @@ In this guide, we explain **how to structure properties for asset protection** i
 
 ### Succession by Structure
 
-| Structure | Probate | US Estate Tax | Succession Cost | Time |
-|-----------|---------|--------------|----------------|------|
-| **Personal name** | ✅ Yes | ✅ 40% (> $60K) | $5,000-20,000 | 6-18 months |
-| **LLC only** | ✅ Yes | ✅ 40% | $5,000-20,000 | 6-18 months |
-| **LLC + International holding** | ❌ No | ❌ $0 | $1,000-3,000 | 1-3 months |
-| **LLC + Holding + Trust** | ❌ No | ❌ $0 | $500-2,000 | 2-6 weeks |
-
+- **Personal name:** ✅ Yes -- ✅ 40% (> $60K) -- $5,000-20,000 -- 6-18 months
+- **LLC only:** ✅ Yes -- ✅ 40% -- $5,000-20,000 -- 6-18 months
+- **LLC + International holding:** ❌ No -- ❌ $0 -- $1,000-3,000 -- 1-3 months
+- **LLC + Holding + Trust:** ❌ No -- ❌ $0 -- $500-2,000 -- 2-6 weeks
 ## 10. Costs vs. Benefits
 
 ### Return on Investment Analysis
 
-| Structure Level | Annual Cost | Protection | Who It Is For |
-|----------------|------------|-----------|--------------|
-| **Basic** (LLC only) | $500-1,000 | ⚠️ Partial | 1 property, < $200K |
-| **Intermediate** (LLC + Holding) | $2,000-4,000 | ✅ High | 2-3 properties, $200K-$1M |
-| **Advanced** (LLC + Holding + Trust) | $4,000-8,000 | ✅ Maximum | 4+ properties, > $1M |
-
+- **Basic** (LLC only):** $500-1,000 -- ⚠️ Partial -- 1 property, < $200K
+- **Intermediate** (LLC + Holding):** $2,000-4,000 -- ✅ High -- 2-3 properties, $200K-$1M
+- **Advanced** (LLC + Holding + Trust):** $4,000-8,000 -- ✅ Maximum -- 4+ properties, > $1M
 ## 11. Frequently Asked Questions
 
 ### Do I need an LLC for each property?

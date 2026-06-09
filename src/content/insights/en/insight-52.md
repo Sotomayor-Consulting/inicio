@@ -13,44 +13,35 @@ In this guide, we explain all the **requirements to open and maintain a Stripe a
 
 ### Key Changes
 
-| Change | Description | Impact |
-|--------|-------------|--------|
-| **Enhanced identity verification** | Stripe now requires video selfie or biometrics for high-risk accounts | More security, slower process |
-| **BOI mandatory** | Beneficial Ownership Information required for all US business accounts | New businesses must file |
-| **Expanded country support** | Stripe added more Asian and African countries | More options, but LATAM still limited |
-| **Updated fees** | New charges for international cards and currency conversion | Slightly higher costs |
-| **Risk ML** | Stripe uses advanced AI to detect fraud and high-risk businesses | Fewer false positives, but more rigor |
-| **Stripe Identity 2.0** | New version of the identity verification service | Mandatory verification in more cases |
-
+- **Enhanced identity verification:** Stripe now requires video selfie or biometrics for high-risk accounts -- More security, slower process
+- **BOI mandatory:** Beneficial Ownership Information required for all US business accounts -- New businesses must file
+- **Expanded country support:** Stripe added more Asian and African countries -- More options, but LATAM still limited
+- **Updated fees:** New charges for international cards and currency conversion -- Slightly higher costs
+- **Risk ML:** Stripe uses advanced AI to detect fraud and high-risk businesses -- Fewer false positives, but more rigor
+- **Stripe Identity 2.0:** New version of the identity verification service -- Mandatory verification in more cases
 > **Note:** Stripe's verification rules in 2026 are stricter than ever. Having the correct documentation from the start is essential to avoid blocks.
 
 ## 2. Basic Requirements to Create an Account
 
 ### For Individuals (Sole Proprietor)
 
-| Requirement | Details |
-|------------|---------|
-| **Identity document** | Valid passport or government-issued ID (with photo) |
-| **Proof of address** | Utility bill or bank statement (less than 3 months old) |
-| **Date of birth** | Over 18 years old |
-| **Phone number** | Valid and verifiable |
-| **Email** | Cannot be temporary (Gmail, Outlook, etc. are accepted) |
-| **Website or online presence** | Site, app, online store, or marketplace profile |
-| **Bank account** | In the country where the Stripe account will be registered |
-| **Selfie/Facial verification** | Required in 2026 for most accounts |
-
+- **Identity document:** Valid passport or government-issued ID (with photo)
+- **Proof of address:** Utility bill or bank statement (less than 3 months old)
+- **Date of birth:** Over 18 years old
+- **Phone number:** Valid and verifiable
+- **Email:** Cannot be temporary (Gmail, Outlook, etc. are accepted)
+- **Website or online presence:** Site, app, online store, or marketplace profile
+- **Bank account:** In the country where the Stripe account will be registered
+- **Selfie/Facial verification:** Required in 2026 for most accounts
 ### For Businesses
 
-| Requirement | Details |
-|------------|---------|
-| **Company registration** | Certificate of incorporation or equivalent |
-| **EIN (US) or equivalent** | Business tax identification number |
-| **Business address** | Physical address (not PO Box in many cases) |
-| **Beneficial owner documents** | ID for all owners with over 25% stake |
-| **Business bank account** | In the company's name |
-| **Company proof of address** | Utility bill or lease agreement |
-| **Website or app** | With contact information and policies |
-
+- **Company registration:** Certificate of incorporation or equivalent
+- **EIN (US) or equivalent:** Business tax identification number
+- **Business address:** Physical address (not PO Box in many cases)
+- **Beneficial owner documents:** ID for all owners with over 25% stake
+- **Business bank account:** In the company's name
+- **Company proof of address:** Utility bill or lease agreement
+- **Website or app:** With contact information and policies
 ## 3. Accepted and Restricted Business Types
 
 ### Automatically Supported Businesses
@@ -130,11 +121,8 @@ In 2026, Stripe uses:
 
 ### United States and Canada
 
-| Country | Identity Document | Business Document |
-|---------|-----------------|-------------------|
-| **USA** | Passport, Driver's License or State ID | EIN Confirmation Letter, Articles of Organization |
-| **Canada** | Passport or Driver's License | Articles of Incorporation, Business Number |
-
+- **USA:** Passport, Driver's License or State ID -- EIN Confirmation Letter, Articles of Organization
+- **Canada:** Passport or Driver's License -- Articles of Incorporation, Business Number
 ### Europe
 
 - **Passport** or national ID card
@@ -144,59 +132,44 @@ In 2026, Stripe uses:
 
 ### Latin America
 
-| Country | Identity Document | Proof of Address |
-|---------|-----------------|------------------|
-| **Brazil** | RG, CNH or Passport | Utility bill or bank statement |
-| **Mexico** | INE, Passport or Professional License | Utility bill or account statement |
-| **Chile** | ID Card (RUT) or Passport | Utility bill or account statement |
-| **Colombia** | Citizenship Card or Passport | Utility bill or bank statement |
-| **Peru** | DNI or Passport | Utility bill or phone bill |
-| **Argentina** | DNI or Passport | Service bill or card statement |
-
+- **Brazil:** RG, CNH or Passport -- Utility bill or bank statement
+- **Mexico:** INE, Passport or Professional License -- Utility bill or account statement
+- **Chile:** ID Card (RUT) or Passport -- Utility bill or account statement
+- **Colombia:** Citizenship Card or Passport -- Utility bill or bank statement
+- **Peru:** DNI or Passport -- Utility bill or phone bill
+- **Argentina:** DNI or Passport -- Service bill or card statement
 ## 6. Specific Requirements by Account Type
 
 ### Standard Account (Stripe Payments)
 
-| Requirement | Mandatory? |
-|------------|-----------|
-| Identity document | ✅ Yes |
-| Proof of address | ✅ Yes |
-| Website or app | ✅ Yes |
-| Bank account | ✅ Yes |
-| EIN (US company) | ✅ Yes |
-| BOI (US company) | ✅ Yes (since 2024) |
-| Facial verification | ✅ Yes (2026) |
-
+- **Identity document:** ✅ Yes
+- **Proof of address:** ✅ Yes
+- **Website or app:** ✅ Yes
+- **Bank account:** ✅ Yes
+- **EIN (US company):** ✅ Yes
+- **BOI (US company):** ✅ Yes (since 2024)
+- **Facial verification:** ✅ Yes (2026)
 ### Stripe Connect Account (Platforms)
 
-| Requirement | Mandatory? |
-|------------|-----------|
-| All Standard requirements | ✅ Yes |
-| Platform agreement | ✅ Yes |
-| Compliance policies | ✅ Yes |
-| User due diligence | ✅ Yes |
-| Sub-merchant KYC | ✅ Yes |
-
+- **All Standard requirements:** ✅ Yes
+- **Platform agreement:** ✅ Yes
+- **Compliance policies:** ✅ Yes
+- **User due diligence:** ✅ Yes
+- **Sub-merchant KYC:** ✅ Yes
 ### Stripe Atlas Account
 
-| Requirement | Mandatory? |
-|------------|-----------|
-| Valid passport | ✅ Yes |
-| $500 payment | ✅ Yes |
-| Beneficiary information | ✅ Yes |
-| Business proposal | ✅ Yes |
-
+- **Valid passport:** ✅ Yes
+- **$500 payment:** ✅ Yes
+- **Beneficiary information:** ✅ Yes
+- **Business proposal:** ✅ Yes
 ## 7. Ongoing Obligations in 2026
 
 ### Account Maintenance
 
-| Obligation | Frequency | Description |
-|-----------|-----------|-------------|
-| **Data update** | Whenever it changes | Keep address, phone, and documents current |
-| **Periodic verification** | Annual or biennial | Stripe may request re-verification |
-| **Activity declaration** | Annual | Report transaction volume and type |
-| **Updated proof of address** | When requested | Document less than 3 months old |
-
+- **Data update:** Whenever it changes -- Keep address, phone, and documents current
+- **Periodic verification:** Annual or biennial -- Stripe may request re-verification
+- **Activity declaration:** Annual -- Report transaction volume and type
+- **Updated proof of address:** When requested -- Document less than 3 months old
 ### Compliance
 
 - **BOI (Beneficial Ownership Information):** Mandatory for all US companies since 2024
@@ -206,15 +179,12 @@ In 2026, Stripe uses:
 
 ### Fees in 2026
 
-| Service | Fee |
-|---------|-----|
-| **Online transactions (card)** | 2.9% + $0.30 (standard) |
-| **International cards** | +1.5% |
-| **Currency conversion** | 1% |
-| **Stripe Identity** | $1.50 per verification |
-| **Stripe Connect** | 0.25% + $0.25 per transfer |
-| **Chargeback** | $15.00 |
-
+- **Online transactions (card):** 2.9% + $0.30 (standard)
+- **International cards:** +1.5%
+- **Currency conversion:** 1%
+- **Stripe Identity:** $1.50 per verification
+- **Stripe Connect:** 0.25% + $0.25 per transfer
+- **Chargeback:** $15.00
 ## 8. Common Opening Mistakes
 
 ### Mistake 1: Illegible Documents

@@ -13,121 +13,97 @@ In this guide, we explain **how to prepare your business to grow globally** in 2
 
 ### The Case for Going Global
 
-| Reason | Impact |
-|--------|--------|
-| **Market Size** | 8 billion potential customers vs 50-500 million in a single country |
-| **Revenue Diversification** | Reduce dependency on a single economy or currency |
-| **Stronger Currency** | Earn in USD, EUR, GBP — protect against local devaluation |
-| **Competitive Advantage** | Compete with global brands on equal footing |
-| **Business Valuation** | International businesses are valued 3-10x higher than local ones |
-| **Talent Access** | Hire the best talent from anywhere in the world |
-
+- **Market Size:** 8 billion potential customers vs 50-500 million in a single country
+- **Revenue Diversification:** Reduce dependency on a single economy or currency
+- **Stronger Currency:** Earn in USD, EUR, GBP — protect against local devaluation
+- **Competitive Advantage:** Compete with global brands on equal footing
+- **Business Valuation:** International businesses are valued 3-10x higher than local ones
+- **Talent Access:** Hire the best talent from anywhere in the world
 ### When Is Your Business Ready?
 
 ## 2. Phase 1: Entity Structure
 
 ### Choose Your Global Business Structure
 
-| Structure | Best For | Complexity | Cost | Tax Implications |
-|-----------|----------|-----------|------|-----------------|
-| **U.S. LLC** | Digital businesses, e-commerce, freelancers | Low | $350-$500 initial | Pass-through, no U.S. tax on foreign income |
-| **U.S. C-Corp** | VC-backed startups, fundraising | Medium | $500-$1,000 initial | Corporate tax, investor-friendly |
-| **International Holding Company** | Multi-country operations | High | $2,000-$5,000+ | Tax optimization, dividend control |
-| **Branch Office** | Existing company expanding abroad | Medium | Varies by country | Subject to local taxes |
-
+- **U.S. LLC:** Digital businesses, e-commerce, freelancers -- Low -- $350-$500 initial -- Pass-through, no U.S. tax on foreign income
+- **U.S. C-Corp:** VC-backed startups, fundraising -- Medium -- $500-$1,000 initial -- Corporate tax, investor-friendly
+- **International Holding Company:** Multi-country operations -- High -- $2,000-$5,000+ -- Tax optimization, dividend control
+- **Branch Office:** Existing company expanding abroad -- Medium -- Varies by country -- Subject to local taxes
 ### Why Start with a U.S. LLC
 
 ## 3. Phase 2: Banking and Financial Infrastructure
 
 ### Multi-Currency Banking Strategy
 
-| Account Type | Purpose | Recommended Provider |
-|-------------|---------|---------------------|
-| **USD Operating Account** | Daily business operations | Mercury or Relay |
-| **USD Savings/Yield** | Earn interest on reserves | Mercury Treasury (4-5% APY) |
-| **Multi-Currency Account** | Receive and hold foreign currencies | Wise Business |
-| **EUR Account** | European operations | Wise or Mercury |
-| **GBP Account** | UK operations | Wise or Mercury |
-| **Local Accounts** | Country-specific operations | Local banks per market |
-
+- **USD Operating Account:** Daily business operations -- Mercury or Relay
+- **USD Savings/Yield:** Earn interest on reserves -- Mercury Treasury (4-5% APY)
+- **Multi-Currency Account:** Receive and hold foreign currencies -- Wise Business
+- **EUR Account:** European operations -- Wise or Mercury
+- **GBP Account:** UK operations -- Wise or Mercury
+- **Local Accounts:** Country-specific operations -- Local banks per market
 ### Setting Up Your Financial Stack
 
 ## 4. Phase 3: Legal and Compliance Readiness
 
 ### Global Compliance Requirements
 
-| Area | Requirement | Action |
-|------|-------------|--------|
-| **U.S. Tax** | Form 5472 (annual) | File with CPA annually |
-| **International Tax** | Transfer pricing documentation | Consult international tax specialist |
-| **Data Privacy** | GDPR (EU), LGPD (Brazil), CCPA (California) | Update privacy policy, implement consent |
-| **Intellectual Property** | Trademark registration | Madrid Protocol for international registration |
-| **Contracts** | Terms of service per market | Localize for each target country |
-| **Employment** | Contractor vs employee classification | Verify classification in each jurisdiction |
-
+- **U.S. Tax:** Form 5472 (annual) -- File with CPA annually
+- **International Tax:** Transfer pricing documentation -- Consult international tax specialist
+- **Data Privacy:** GDPR (EU), LGPD (Brazil), CCPA (California) -- Update privacy policy, implement consent
+- **Intellectual Property:** Trademark registration -- Madrid Protocol for international registration
+- **Contracts:** Terms of service per market -- Localize for each target country
+- **Employment:** Contractor vs employee classification -- Verify classification in each jurisdiction
 ### Legal Checklist for Global Growth
 
 ## 5. Phase 4: Market Selection Strategy
 
 ### How to Choose Your First International Markets
 
-| Factor | What to Evaluate |
-|--------|-----------------|
-| **Demand** | Is there proven demand for your product? |
-| **Language** | Do you speak the language or can you hire locally? |
-| **Payment Methods** | Does Stripe support local payment methods? |
-| **Competition** | Who are the local competitors? |
-| **Regulation** | What are the entry barriers and regulations? |
-| **Cost** | What is the cost of customer acquisition? |
-| **Time Zone** | Can you support customers in that time zone? |
-
+- **Demand:** Is there proven demand for your product?
+- **Language:** Do you speak the language or can you hire locally?
+- **Payment Methods:** Does Stripe support local payment methods?
+- **Competition:** Who are the local competitors?
+- **Regulation:** What are the entry barriers and regulations?
+- **Cost:** What is the cost of customer acquisition?
+- **Time Zone:** Can you support customers in that time zone?
 ### Market Entry Prioritization
 
 ## 6. Phase 5: Operational Readiness
 
 ### Building a Global Operations Framework
 
-| Area | Local Operation | Global Operation |
-|------|----------------|-----------------|
-| **Team** | Local hires only | Remote + local contractors |
-| **Communication** | One language, one channel | Multilingual, multi-channel |
-| **Support** | 9-5 local time | 24/7 or extended hours |
-| **Tools** | Local software | Global SaaS (Slack, Notion, Linear) |
-| **Payments** | Local payroll | International payroll (Deel, Wise) |
-| **Legal** | Local lawyer | Network of international lawyers |
-
+- **Team:** Local hires only -- Remote + local contractors
+- **Communication:** One language, one channel -- Multilingual, multi-channel
+- **Support:** 9-5 local time -- 24/7 or extended hours
+- **Tools:** Local software -- Global SaaS (Slack, Notion, Linear)
+- **Payments:** Local payroll -- International payroll (Deel, Wise)
+- **Legal:** Local lawyer -- Network of international lawyers
 ### Tools for Global Operations
 
 ## 7. Phase 6: Marketing and Brand Preparation
 
 ### Global Brand Strategy
 
-| Element | Local Brand | Global Brand |
-|---------|------------|-------------|
-| **Name** | Same globally | Adapted if needed |
-| **Domain** | .com.co, .com.mx | .com + subdirectories |
-| **Colors** | Local preferences | Universal appeal |
-| **Tone** | Local communication style | Culturally adapted per market |
-| **SEO** | Local keywords | Multinational SEO + hreflang |
-| **Social Media** | Local platforms | Platform per market |
-
+- **Name:** Same globally -- Adapted if needed
+- **Domain:** .com.co, .com.mx -- .com + subdirectories
+- **Colors:** Local preferences -- Universal appeal
+- **Tone:** Local communication style -- Culturally adapted per market
+- **SEO:** Local keywords -- Multinational SEO + hreflang
+- **Social Media:** Local platforms -- Platform per market
 ### Pre-Launch Marketing Checklist
 
 ## 8. Common Mistakes When Preparing for Global Growth
 
 ### What NOT to Do
 
-| Mistake | Consequence | Solution |
-|---------|-------------|---------|
-| **Expanding too fast** | Burnout, cash flow issues | Enter 1-2 markets at a time |
-| **Ignoring local regulations** | Fines, legal issues | Research compliance before entry |
-| **Translating instead of localizing** | Poor conversion, cultural errors | Adapt content, don't just translate |
-| **Single currency pricing** | Lost sales in price-sensitive markets | Implement PPP pricing |
-| **No local payment methods** | Abandoned carts | Enable Stripe local methods |
-| **Using personal accounts** | Frozen funds, tax problems | Dedicated business structure |
-| **Skipping legal setup** | Personal liability, tax penalties | Form LLC or local entity first |
-| **No compliance plan** | IRS penalties, state suspension | Schedule annual filings |
-
+- **Expanding too fast:** Burnout, cash flow issues -- Enter 1-2 markets at a time
+- **Ignoring local regulations:** Fines, legal issues -- Research compliance before entry
+- **Translating instead of localizing:** Poor conversion, cultural errors -- Adapt content, don't just translate
+- **Single currency pricing:** Lost sales in price-sensitive markets -- Implement PPP pricing
+- **No local payment methods:** Abandoned carts -- Enable Stripe local methods
+- **Using personal accounts:** Frozen funds, tax problems -- Dedicated business structure
+- **Skipping legal setup:** Personal liability, tax penalties -- Form LLC or local entity first
+- **No compliance plan:** IRS penalties, state suspension -- Schedule annual filings
 ## 9. Complete Global Growth Preparation Checklist
 
 ### ENTITY AND LEGAL

@@ -36,35 +36,29 @@ Even so, if the LLC had expenses, investments, or transactions, it generally mus
 
 ## Components of Form 1065
 
-| Component | Description |
-|------------|-------------|
-| **Page 1** | General LLC information: name, EIN, address, formation date |
-| **Schedule A** | Cost of goods sold (if applicable) |
-| **Schedule B** | Information about LLC ownership |
-| **Schedule K** | LLC-level totals of income, expenses, credits, and deductions |
-| **Schedule M-1** | Reconciliation of book vs tax income |
-| **Schedule M-2** | Analysis of partners' capital accounts |
-| **Schedule K-1** | Each partner's individual share of income, expenses, credits, and deductions |
-
+- **Page 1:** General LLC information: name, EIN, address, formation date
+- **Schedule A:** Cost of goods sold (if applicable)
+- **Schedule B:** Information about LLC ownership
+- **Schedule K:** LLC-level totals of income, expenses, credits, and deductions
+- **Schedule M-1:** Reconciliation of book vs tax income
+- **Schedule M-2:** Analysis of partners' capital accounts
+- **Schedule K-1:** Each partner's individual share of income, expenses, credits, and deductions
 ## Schedule K-1: The key document for each partner
 
 The **Schedule K-1** is the most important document for multi-member LLC partners. Each partner receives one, containing:
 
 ### Information included in the K-1
 
-| Box | Information |
-|---------|-------------|
-| **Box 1** | Ordinary business income (loss) |
-| **Box 2** | Net rental real estate income |
-| **Box 3** | Other net rental income |
-| **Box 4** | Interest income |
-| **Box 5a** | Ordinary dividends |
-| **Box 5b** | Qualified dividends |
-| **Box 6** | Royalties |
-| **Box 7** | Other income |
-| **Box 8** | Section 199A deduction |
-| **Box 9-13** | Deductions, credits, and other information |
-
+- **Box 1:** Ordinary business income (loss)
+- **Box 2:** Net rental real estate income
+- **Box 3:** Other net rental income
+- **Box 4:** Interest income
+- **Box 5a:** Ordinary dividends
+- **Box 5b:** Qualified dividends
+- **Box 6:** Royalties
+- **Box 7:** Other income
+- **Box 8:** Section 199A deduction
+- **Box 9-13:** Deductions, credits, and other information
 ### What does the partner do with the K-1?
 
 Each partner must report the information from their K-1 on their personal tax return:
@@ -74,13 +68,10 @@ Each partner must report the information from their K-1 on their personal tax re
 
 ## Key deadlines
 
-| Event | Deadline |
-|--------|---------|
-| **Form 1065** (without extension) | March 15 |
-| **Form 7004** (extension request) | March 15 |
-| **1065 with extension** | September 15 |
-| **K-1 to partners** | Must be issued before partners file their returns |
-
+- **Form 1065** (without extension):** March 15
+- **Form 7004** (extension request):** March 15
+- **1065 with extension:** September 15
+- **K-1 to partners:** Must be issued before partners file their returns
 > **Key difference from Form 5472:** Form 1065 is filed with the IRS on a different date and has different extension rules.
 
 ## Step-by-step to prepare Form 1065
@@ -96,13 +87,10 @@ Each partner must report the information from their K-1 on their personal tax re
 
 Determine at the LLC level:
 
-| Category | Examples |
-|-----------|----------|
-| **Income** | Sales, services, interest, other income |
-| **Expenses** | Salaries, rent, marketing, software, travel, depreciation |
-| **Deductions** | Section 179, retirement plans, etc. |
-| **Credits** | Applicable tax credits |
-
+- **Income:** Sales, services, interest, other income
+- **Expenses:** Salaries, rent, marketing, software, travel, depreciation
+- **Deductions:** Section 179, retirement plans, etc.
+- **Credits:** Applicable tax credits
 ### Step 3: Distribute among partners
 
 According to each partner's ownership percentage (defined in the Operating Agreement), distribute:
@@ -127,16 +115,13 @@ Each partner must receive their K-1 in time to file their personal return.
 
 ## Key differences: 1065 vs 5472
 
-| Aspect | Form 1065 | Form 5472 |
-|---------|----------------|-----------------|
-| **Who files?** | Multi-member LLCs | Single-member LLCs (foreign owner) |
-| **Return type** | Informational (income/losses) | Informational (transactions) |
-| **Deadline** | March 15 | April 15 |
-| **Extension** | Until September 15 | Until October 15 |
-| **K-1** | Yes, for each partner | N/A |
-| **Penalty for not filing** | $220 per month per partner | $25,000 per year |
-| **Complexity** | Medium-High | Low-Medium |
-
+- **Who files?:** Multi-member LLCs -- Single-member LLCs (foreign owner)
+- **Return type:** Informational (income/losses) -- Informational (transactions)
+- **Deadline:** March 15 -- April 15
+- **Extension:** Until September 15 -- Until October 15
+- **K-1:** Yes, for each partner -- N/A
+- **Penalty for not filing:** $220 per month per partner -- $25,000 per year
+- **Complexity:** Medium-High -- Low-Medium
 ## Obligations for foreign partners
 
 If your multi-member LLC has non-resident foreign partners:
@@ -190,14 +175,11 @@ An unsigned Form 1065 is invalid. The Tax Matters Partner must sign.
 
 **Situation:** Maria and Juan are 50% partners in a digital marketing agency with an LLC in Florida. In 2024:
 
-| Concept | Amount |
-|----------|-------|
-| Total income | $120,000 |
-| Operating expenses | $70,000 |
-| Net profit | $50,000 |
-| Each partner's contribution | $5,000 |
-| Distribution to each partner | $20,000 |
-
+- **Total income:** $120,000
+- **Operating expenses:** $70,000
+- **Net profit:** $50,000
+- **Each partner's contribution:** $5,000
+- **Distribution to each partner:** $20,000
 ### What the LLC must do
 
 1. Prepare Form 1065 with totals.
@@ -219,13 +201,10 @@ Form 1065 is significantly more complex than Form 5472. For most multi-member LL
 
 ### Typical costs
 
-| Service | Estimated cost |
-|----------|---------------|
-| Form 1065 + K-1 preparation (2 partners) | $800 - $1,500 |
-| Per additional partner | $100 - $200 |
-| Partner personal return preparation | $300 - $800 |
-| Year-round advisory | $100 - $300/month |
-
+- **Form 1065 + K-1 preparation (2 partners):** $800 - $1,500
+- **Per additional partner:** $100 - $200
+- **Partner personal return preparation:** $300 - $800
+- **Year-round advisory:** $100 - $300/month
 ## Annual checklist
 
 - [ ] Gather LLC financial statements (P&L, Balance Sheet).

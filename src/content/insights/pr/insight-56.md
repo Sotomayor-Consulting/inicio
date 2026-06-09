@@ -15,15 +15,12 @@ Neste guia, explicamos **como cobrar com cartão de qualquer país** em 2026, as
 
 ### Atores Envolvidos
 
-| Ator | Papel | Exemplos |
-|------|-------|----------|
-| **Cliente** | Comprador com cartão internacional | Pessoa física ou jurídica |
-| **Gateway** | Captura os dados do cartão com segurança | Stripe, Checkout, Braintree |
-| **Processador** | Processa a transação | Stripe, Adyen, Fiserv |
-| **Bandeira** | Rede que conecta bancos | Visa, Mastercard, American Express |
-| **Banco emissor** | Banco do cliente que emitiu o cartão | Chase, Santander, Itaú |
-| **Banco adquirente** | Banco do vendedor | Adquirente local ou internacional |
-
+- **Cliente:** Comprador com cartão internacional -- Pessoa física ou jurídica
+- **Gateway:** Captura os dados do cartão com segurança -- Stripe, Checkout, Braintree
+- **Processador:** Processa a transação -- Stripe, Adyen, Fiserv
+- **Bandeira:** Rede que conecta bancos -- Visa, Mastercard, American Express
+- **Banco emissor:** Banco do cliente que emitiu o cartão -- Chase, Santander, Itaú
+- **Banco adquirente:** Banco do vendedor -- Adquirente local ou internacional
 ### Por que Cobrar com Cartão é Diferente em Cada País?
 
 - **Regras locais:** Cada país tem regras específicas para pagamentos com cartão
@@ -35,15 +32,12 @@ Neste guia, explicamos **como cobrar com cartão de qualquer país** em 2026, as
 
 ### 2.1 Stripe
 
-| Característica | Detalhes |
-|---------------|----------|
-| **Países disponíveis** | 40+ (mais via LLC) |
-| **Cartões aceitos** | Visa, Mastercard, Amex, Discover, JCB, Diners |
-| **Moedas** | 135+ |
-| **Taxa** | 2.9% + $0.30 (+1.5% para cartões internacionais) |
-| **3D Secure** | Nativo (Stripe Radar) |
-| **Chargeback** | $15 |
-
+- **Países disponíveis:** 40+ (mais via LLC)
+- **Cartões aceitos:** Visa, Mastercard, Amex, Discover, JCB, Diners
+- **Moedas:** 135+
+- **Taxa:** 2.9% + $0.30 (+1.5% para cartões internacionais)
+- **3D Secure:** Nativo (Stripe Radar)
+- **Chargeback:** $15
 **Ideal para:** E-commerce, SaaS, assinaturas, negócios digitais
 
 **Vantagens:** API excelente, checkout integrado, múltiplas moedas, ferramentas de prevenção de fraude
@@ -52,15 +46,12 @@ Neste guia, explicamos **como cobrar com cartão de qualquer país** em 2026, as
 
 ### 2.2 PayPal
 
-| Característica | Detalhes |
-|---------------|----------|
-| **Países disponíveis** | 200+ (pagador) / 200+ (vendedor) |
-| **Cartões aceitos** | Visa, Mastercard, Amex, Discover |
-| **Moedas** | 25+ |
-| **Taxa** | 2.99% + $0.49 (+1.5% internacional) |
-| **3D Secure** | Nativo |
-| **Chargeback** | $20 |
-
+- **Países disponíveis:** 200+ (pagador) / 200+ (vendedor)
+- **Cartões aceitos:** Visa, Mastercard, Amex, Discover
+- **Moedas:** 25+
+- **Taxa:** 2.99% + $0.49 (+1.5% internacional)
+- **3D Secure:** Nativo
+- **Chargeback:** $20
 **Ideal para:** Freelancers, marketplaces, negócios em qualquer país
 
 **Vantagens:** Disponível em quase todos os países, fácil de configurar
@@ -68,50 +59,38 @@ Neste guia, explicamos **como cobrar com cartão de qualquer país** em 2026, as
 
 ### 2.3 Mercado Pago
 
-| Característica | Detalhes |
-|---------------|----------|
-| **Países disponíveis** | 7 (LATAM) |
-| **Cartões aceitos** | Visa, Mastercard, Amex, Hipercard, Elo |
-| **Moedas** | Moedas locais LATAM |
-| **Taxa** | 3% - 6% |
-| **3D Secure** | Nativo |
-| **Chargeback** | Variável |
-
+- **Países disponíveis:** 7 (LATAM)
+- **Cartões aceitos:** Visa, Mastercard, Amex, Hipercard, Elo
+- **Moedas:** Moedas locais LATAM
+- **Taxa:** 3% - 6%
+- **3D Secure:** Nativo
+- **Chargeback:** Variável
 **Ideal para:** Negócios com clientes na América Latina
 
 **Vantagens:** Boleto, Pix (Brasil), pagamentos em dinheiro, parcelamento
 
 ### 2.4 Outras Plataformas
 
-| Plataforma | Taxa | Países | Diferencial |
-|-----------|------|--------|-------------|
-| **Adyen** | Negociável | 150+ moedas | Alto volume, empresas |
-| **Square** | 2.6% + $0.10 | EUA, Canadá, Japão, Europa | Presencial + online |
-| **2Checkout** | 3.5% + $0.35 | 200+ | Revendedores digitais |
-| **Paddle** | 5% + $0.50 | Global | SaaS (inclui VAT) |
-| **Braintree** | 2.9% + $0.30 | 45+ | Propriedade do PayPal |
-
+- **Adyen:** Negociável -- 150+ moedas -- Alto volume, empresas
+- **Square:** 2.6% + $0.10 -- EUA, Canadá, Japão, Europa -- Presencial + online
+- **2Checkout:** 3.5% + $0.35 -- 200+ -- Revendedores digitais
+- **Paddle:** 5% + $0.50 -- Global -- SaaS (inclui VAT)
+- **Braintree:** 2.9% + $0.30 -- 45+ -- Propriedade do PayPal
 ## 3. Custos de Processamento Internacional
 
 ### Comparativo de Taxas
 
-| Plataforma | Taxa Base | Internacional | Conversão | Chargeback | Total (ex: $100) |
-|-----------|-----------|--------------|-----------|------------|------------------|
-| **Stripe** | 2.9% + $0.30 | +1.5% | 1% | $15 | $5.70 |
-| **PayPal** | 2.99% + $0.49 | +1.5% | 2.5-4% | $20 | $7.48 |
-| **Mercado Pago** | 3-6% | Inclusa | Inclusa | Variável | $3 - $6 |
-| **Adyen** | Negociável | Negociável | Negociável | Negociável | Negociável |
-
+- **Stripe:** 2.9% + $0.30 -- +1.5% -- 1% -- $15 -- $5.70
+- **PayPal:** 2.99% + $0.49 -- +1.5% -- 2.5-4% -- $20 -- $7.48
+- **Mercado Pago:** 3-6% -- Inclusa -- Inclusa -- Variável -- $3 - $6
+- **Adyen:** Negociável -- Negociável -- Negociável -- Negociável -- Negociável
 ### Custos Ocultos
 
-| Custo | Descrição | Valor Típico |
-|------|-----------|-------------|
-| **Conversão de moeda** | Spread sobre a taxa de câmbio real | 1% - 4% |
-| **Taxa de bandeira internacional** | Taxa da bandeira por transação跨境 | 0.5% - 1% |
-| **Taxa de banco emissor** | Taxa do banco do cliente para transações internacionais | Variável |
-| **Chargeback** | Taxa quando o cliente contesta | $15 - $25 |
-| **Reembolso** | Taxa de transação não é reembolsada | Perda da taxa |
-
+- **Conversão de moeda:** Spread sobre a taxa de câmbio real -- 1% - 4%
+- **Taxa de bandeira internacional:** Taxa da bandeira por transação跨境 -- 0.5% - 1%
+- **Taxa de banco emissor:** Taxa do banco do cliente para transações internacionais -- Variável
+- **Chargeback:** Taxa quando o cliente contesta -- $15 - $25
+- **Reembolso:** Taxa de transação não é reembolsada -- Perda da taxa
 ### Dica: Como Reduzir Custos
 
 1. **Processe na moeda do cliente** para evitar conversão forçada
@@ -151,22 +130,16 @@ Para países onde Stripe não está disponível, constitua uma LLC nos EUA e cri
 
 Algumas plataformas oferecem contas com cartões virtuais que podem ser usados para processar pagamentos.
 
-| Plataforma | Recursos | Ideal para |
-|-----------|---------|------------|
-| **Payoneer** | Conta nos EUA, UK, Europa + cartão | Marketplaces, freelancers |
-| **Wise** | Conta multimoeda + cartão empresarial | Profissionais, pequenas empresas |
-| **Revolut Business** | Conta multimoeda + cartão virtual | Empresas digitais |
-
+- **Payoneer:** Conta nos EUA, UK, Europa + cartão -- Marketplaces, freelancers
+- **Wise:** Conta multimoeda + cartão empresarial -- Profissionais, pequenas empresas
+- **Revolut Business:** Conta multimoeda + cartão virtual -- Empresas digitais
 ### Opção 4: Links de Pagamento (Sem Site)
 
 Se você não tem site, pode criar links de pagamento para cobrar com cartão.
 
-| Plataforma | Recurso | Taxa |
-|-----------|---------|------|
-| **Stripe Payment Links** | Link de pagamento personalizado | 2.9% + $0.30 |
-| **PayPal.Me** | Link simples para pagamento | 2.99% + $0.49 |
-| **Mercado Pago Link** | Link de pagamento LATAM | 3-6% |
-
+- **Stripe Payment Links:** Link de pagamento personalizado -- 2.9% + $0.30
+- **PayPal.Me:** Link simples para pagamento -- 2.99% + $0.49
+- **Mercado Pago Link:** Link de pagamento LATAM -- 3-6%
 ## 5. 3D Secure e Prevenção de Fraudes
 
 ### O que é 3D Secure?
@@ -175,12 +148,9 @@ Se você não tem site, pode criar links de pagamento para cobrar com cartão.
 
 ### Versões
 
-| Versão | Descrição | Adoção em 2026 |
-|--------|-----------|----------------|
-| **3DS 1.0** | Redirecionamento, experiência ruim | Quase extinto |
-| **3DS 2.0** | Autenticação sem fricção, biometria | Padrão na Europa (PSD2) |
-| **3DS 2.3** | Mais dados compartilhados, menos atrito | Em implementação |
-
+- **3DS 1.0:** Redirecionamento, experiência ruim -- Quase extinto
+- **3DS 2.0:** Autenticação sem fricção, biometria -- Padrão na Europa (PSD2)
+- **3DS 2.3:** Mais dados compartilhados, menos atrito -- Em implementação
 ### Por que é Importante para Pagamentos Internacionais?
 
 - **Reduz chargebacks** — transações autenticadas não podem ser contestadas como "não reconhecidas"
@@ -195,43 +165,31 @@ Se você não tem site, pode criar links de pagamento para cobrar com cartão.
 
 ### América do Norte (EUA e Canadá)
 
-| Processador | Cartões | 3DS | Moeda |
-|------------|---------|-----|-------|
-| **Stripe** | Todos | ✅ Nativo | USD, CAD |
-| **Square** | Todos | ✅ | USD, CAD |
-| **Authorize.net** | Todos | ✅ | USD, CAD |
-| **Adyen** | Todos | ✅ | USD, CAD |
-
+- **Stripe:** Todos -- ✅ Nativo -- USD, CAD
+- **Square:** Todos -- ✅ -- USD, CAD
+- **Authorize.net:** Todos -- ✅ -- USD, CAD
+- **Adyen:** Todos -- ✅ -- USD, CAD
 **Particularidades:** Cartões de crédito são o método dominante. Amex tem forte presença. 3DS é opcional (não obrigatório como na Europa).
 
 ### Europa
 
-| Processador | Cartões | 3DS | Moeda |
-|------------|---------|-----|-------|
-| **Stripe** | Todos | ✅ Obrigatório (PSD2) | EUR, GBP, etc. |
-| **Adyen** | Todos | ✅ Obrigatório | EUR, GBP, etc. |
-| **Braintree** | Todos | ✅ Obrigatório | EUR, GBP, etc. |
-
+- **Stripe:** Todos -- ✅ Obrigatório (PSD2) -- EUR, GBP, etc.
+- **Adyen:** Todos -- ✅ Obrigatório -- EUR, GBP, etc.
+- **Braintree:** Todos -- ✅ Obrigatório -- EUR, GBP, etc.
 **Particularidades:** PSD2 exige autenticação forte (SCA) para a maioria das transações. 3DS 2.0 é o padrão. Métodos locais como iDEAL (Holanda), Sofort (Alemanha) e Bancontact (Bélgica) são populares.
 
 ### América Latina
 
-| Processador | Cartões | 3DS | Moeda |
-|------------|---------|-----|-------|
-| **Stripe** | Todos (MX, BR) | ✅ | MXN, BRL |
-| **Mercado Pago** | Todos + bandeiras locais | ✅ | Moedas locais |
-| **DLocal** | Todos | ✅ | Moedas locais |
-
+- **Stripe:** Todos (MX, BR) -- ✅ -- MXN, BRL
+- **Mercado Pago:** Todos + bandeiras locais -- ✅ -- Moedas locais
+- **DLocal:** Todos -- ✅ -- Moedas locais
 **Particularidades:** Parcelamento (Brasil, México) é comum e esperado pelos clientes. Boleto e Pix no Brasil. Efectivo em outros países.
 
 ### Ásia
 
-| Processador | Cartões | 3DS | Moeda |
-|------------|---------|-----|-------|
-| **Stripe** | Todos (países selecionados) | ✅ | JPY, SGD, HKD, AUD |
-| **PayPal** | Todos | ✅ | Várias |
-| **Alipay/WeChat Pay** | Carteiras locais | ✅ | CNY |
-
+- **Stripe:** Todos (países selecionados) -- ✅ -- JPY, SGD, HKD, AUD
+- **PayPal:** Todos -- ✅ -- Várias
+- **Alipay/WeChat Pay:** Carteiras locais -- ✅ -- CNY
 **Particularidades:** Na China, Alipay e WeChat Pay dominam. No Japão, cartões são populares mas métodos locais como Konbini e Pay-easy são comuns.
 
 ## 7. Problemas Comuns e Soluções
@@ -278,14 +236,11 @@ Se você não tem site, pode criar links de pagamento para cobrar com cartão.
 
 ### 8.1 Otimização do Checkout
 
-| Prática | Impacto na Aprovação |
-|---------|---------------------|
-| **Checkout em uma página** | +5-10% |
-| **Múltiplas bandeiras** | +3-5% |
-| **3D Secure otimizado** | +5-15% |
-| **Retentativa automática** | +3-8% |
-| **Métodos locais** | +10-20% (por região) |
-
+- **Checkout em uma página:** +5-10%
+- **Múltiplas bandeiras:** +3-5%
+- **3D Secure otimizado:** +5-15%
+- **Retentativa automática:** +3-8%
+- **Métodos locais:** +10-20% (por região)
 ### 8.2 Retentativa de Pagamento (Smart Retry)
 
 Quando um cartão é recusado, tente novamente com estratégia:
@@ -339,14 +294,11 @@ Ofereça sempre mais de uma opção:
 
 ## 10. Tendências para 2026
 
-| Tendência | Impacto |
-|-----------|---------|
-| **Autenticação biométrica** | 3DS com biometria reduz atrito e fraude |
-| **Pagamentos instantâneos** | Cartão sendo substituído por transfers instantâneas em alguns mercados |
-| **IA em prevenção de fraude** | ML analisa padrões em tempo real |
-| **Embedded finance** | Pagamentos integrados em qualquer plataforma |
-| **Carteiras digitais** | Apple Pay, Google Pay se tornam padrão |
-
+- **Autenticação biométrica:** 3DS com biometria reduz atrito e fraude
+- **Pagamentos instantâneos:** Cartão sendo substituído por transfers instantâneas em alguns mercados
+- **IA em prevenção de fraude:** ML analisa padrões em tempo real
+- **Embedded finance:** Pagamentos integrados em qualquer plataforma
+- **Carteiras digitais:** Apple Pay, Google Pay se tornam padrão
 ## Conclusão
 
 **Cobrar com cartão de qualquer país** em 2026 é perfeitamente possível com as ferramentas certas. A escolha do processador depende do seu país de origem, dos países dos seus clientes e do tipo de negócio.

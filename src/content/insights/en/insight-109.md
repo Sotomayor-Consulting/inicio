@@ -15,19 +15,16 @@ In this guide, we cover **how to reduce operational burden with technology in 20
 
 ### Common Operational Pain Points
 
-| Area | Manual Task | Time Spent (weekly) | Automation Opportunity |
-|------|------------|-------------------|----------------------|
-| **Finance** | Invoice creation & sending | 8-12 hours | Auto-generation + Stripe links |
-| **Finance** | Payment reconciliation | 6-10 hours | Stripe auto-reconciliation |
-| **Sales** | Lead data entry into CRM | 5-8 hours | Webhook auto-capture |
-| **Sales** | Quote generation | 4-6 hours | Template + CRM automation |
-| **HR** | Employee onboarding docs | 3-5 hours | Self-service portal + workflows |
-| **Operations** | Inventory tracking | 6-8 hours | Odoo real-time sync |
-| **Customer Support** | Ticket routing | 4-6 hours | AI auto-routing |
-| **Reporting** | Weekly/monthly reports | 4-8 hours | Automated dashboard generation |
-| **Compliance** | Document collection & filing | 5-10 hours | Automated document workflows |
-| **IT** | User account provisioning | 3-5 hours | SSO + auto-provisioning |
-
+- **Finance:** Invoice creation & sending -- 8-12 hours -- Auto-generation + Stripe links
+- **Finance:** Payment reconciliation -- 6-10 hours -- Stripe auto-reconciliation
+- **Sales:** Lead data entry into CRM -- 5-8 hours -- Webhook auto-capture
+- **Sales:** Quote generation -- 4-6 hours -- Template + CRM automation
+- **HR:** Employee onboarding docs -- 3-5 hours -- Self-service portal + workflows
+- **Operations:** Inventory tracking -- 6-8 hours -- Odoo real-time sync
+- **Customer Support:** Ticket routing -- 4-6 hours -- AI auto-routing
+- **Reporting:** Weekly/monthly reports -- 4-8 hours -- Automated dashboard generation
+- **Compliance:** Document collection & filing -- 5-10 hours -- Automated document workflows
+- **IT:** User account provisioning -- 3-5 hours -- SSO + auto-provisioning
 ### The True Cost of Manual Operations
 
 ## 2. Identifying Automation Opportunities
@@ -40,15 +37,12 @@ In this guide, we cover **how to reduce operational burden with technology in 20
 
 ### Workflow Automation Platforms
 
-| Platform | Best For | Complexity | Pricing | Key Features |
-|----------|---------|------------|---------|--------------|
-| **Zapier** | Simple integrations | Beginner | Free-$299/mo | 7,000+ apps, multi-step workflows |
-| **Make (Integromat)** | Complex workflows | Intermediate | Free-$299/mo | Visual builder, data transformation |
-| **n8n** | Custom, self-hosted | Advanced | Free (self-hosted) | Open-source, full control |
-| **Power Automate** | Microsoft ecosystem | Intermediate | $15-$100/user/mo | Deep Office 365 integration |
-| **Workato** | Enterprise scale | Advanced | Custom pricing | Enterprise ERP connectors |
-| **Odoo Automation** | Odoo ecosystem | Beginner | Included | Native Odoo workflows |
-
+- **Zapier:** Simple integrations -- Beginner -- Free-$299/mo -- 7,000+ apps, multi-step workflows
+- **Make (Integromat):** Complex workflows -- Intermediate -- Free-$299/mo -- Visual builder, data transformation
+- **n8n:** Custom, self-hosted -- Advanced -- Free (self-hosted) -- Open-source, full control
+- **Power Automate:** Microsoft ecosystem -- Intermediate -- $15-$100/user/mo -- Deep Office 365 integration
+- **Workato:** Enterprise scale -- Advanced -- Custom pricing -- Enterprise ERP connectors
+- **Odoo Automation:** Odoo ecosystem -- Beginner -- Included -- Native Odoo workflows
 ### Common Automations by Department
 
 ### Building a Workflow Automation

@@ -17,14 +17,11 @@ An **annual report** (also called a Statement of Information, Annual Registratio
 
 ### What Annual Reports Are NOT
 
-| What It Is | What It Is Not |
-|-----------|----------------|
-| An information update for the state | A tax return (IRS or state) |
-| A confirmation of business details | A financial audit or P&L statement |
-| A requirement to maintain good standing | A one-time filing (most states require it regularly) |
-| A filing with the Secretary of State | A report for shareholders or investors |
-| A document that verifies your business exists | A document that reports business performance |
-
+- **An information update for the state:** A tax return (IRS or state)
+- **A confirmation of business details:** A financial audit or P&L statement
+- **A requirement to maintain good standing:** A one-time filing (most states require it regularly)
+- **A filing with the Secretary of State:** A report for shareholders or investors
+- **A document that verifies your business exists:** A document that reports business performance
 ### Purpose of the Annual Report
 
 The state uses annual reports to:
@@ -47,16 +44,13 @@ For the business owner, filing the annual report:
 
 A common point of confusion is the difference between an annual report and a franchise tax. They are related but distinct:
 
-| Aspect | Annual Report | Franchise Tax |
-|--------|--------------|---------------|
-| **Nature** | Information filing | Tax payment |
-| **Purpose** | Update business details | Revenue generation for the state |
-| **Based on** | Basic entity info | Income, assets, or flat fee |
-| **Filing frequency** | Annual or biennial | Annual |
-| **Late penalty** | Late fee + dissolution risk | Interest + penalties + liens |
-| **Deductible** | Filing fee is a business expense | Tax payment may be deductible |
-| **Filed with** | Secretary of State | State Department of Revenue / Franchise Tax Board |
-
+- **Nature:** Information filing -- Tax payment
+- **Purpose:** Update business details -- Revenue generation for the state
+- **Based on:** Basic entity info -- Income, assets, or flat fee
+- **Filing frequency:** Annual or biennial -- Annual
+- **Late penalty:** Late fee + dissolution risk -- Interest + penalties + liens
+- **Deductible:** Filing fee is a business expense -- Tax payment may be deductible
+- **Filed with:** Secretary of State -- State Department of Revenue / Franchise Tax Board
 **In some states, the annual report and franchise tax are combined into a single filing.** For example, Delaware requires both a franchise tax payment and an annual report filing, while California requires a Statement of Information (annual report) plus a separate $800 minimum franchise tax.
 
 ## 2. What Information Is Required
@@ -65,19 +59,16 @@ A common point of confusion is the difference between an annual report and a fra
 
 While the exact form varies by state, most annual reports require the following information:
 
-| Field | Description | Example |
-|-------|-------------|---------|
-| **Business Name** | Exact legal name as registered | "Acme Consulting LLC" |
-| **EIN or SOS ID** | State filing number or Federal EIN | "2025-000123456" |
-| **Principal Office Address** | Physical street address (no PO Box in some states) | "123 Main St, Suite 200" |
-| **Mailing Address** | Separate mailing address if different | "PO Box 456" |
-| **Registered Agent Name** | Individual or company authorized to receive legal mail | "John Smith" |
-| **Registered Agent Address** | Physical street address in the state of formation | "456 Oak Ave" |
-| **Manager/Member Names** | Names and addresses of managers (LLC) or officers/directors (corp) | "Jane Doe, CEO" |
-| **Business Purpose** | Brief description (some states require SIC/NAICS code) | "Management consulting" |
-| **Shares Outstanding** | Corporations only: number of authorized and issued shares | "1,000 shares" |
-| **Filing Fee Payment** | Credit card, E-check, or mail-in check | "Visa / $75" |
-
+- **Business Name:** Exact legal name as registered -- "Acme Consulting LLC"
+- **EIN or SOS ID:** State filing number or Federal EIN -- "2025-000123456"
+- **Principal Office Address:** Physical street address (no PO Box in some states) -- "123 Main St, Suite 200"
+- **Mailing Address:** Separate mailing address if different -- "PO Box 456"
+- **Registered Agent Name:** Individual or company authorized to receive legal mail -- "John Smith"
+- **Registered Agent Address:** Physical street address in the state of formation -- "456 Oak Ave"
+- **Manager/Member Names:** Names and addresses of managers (LLC) or officers/directors (corp) -- "Jane Doe, CEO"
+- **Business Purpose:** Brief description (some states require SIC/NAICS code) -- "Management consulting"
+- **Shares Outstanding:** Corporations only: number of authorized and issued shares -- "1,000 shares"
+- **Filing Fee Payment:** Credit card, E-check, or mail-in check -- "Visa / $75"
 ### Sample Annual Report Form
 
 `
@@ -98,61 +89,58 @@ Before filing, gather these documents:
 
 ### Fee and Deadline Table
 
-| State | Filing Name | Fee | Due Date | Frequency |
-|-------|------------|-----|----------|-----------|
-| Alabama | Annual Report | $50 | Annually on anniversary of formation | Annual |
-| Alaska | Biennial Report | $100 | Jan 2 of even years (LLC) / odd years (corp) | Biennial |
-| Arizona | Annual Report | $45 | Anniversary date of formation | Annual |
-| Arkansas | Franchise Tax Report | $150 | May 1 | Annual |
-| California | Statement of Information | $20 (LLC) / $25 (corp) | Anniversary of registration | Annual/biennial |
-| Colorado | Periodic Report | $10 | Each year by the end of the month of formation | Annual |
-| Connecticut | Annual Report | $80 | Anniversary of formation | Annual |
-| Delaware | Annual Report | $300 min (corp) / $0 (LLC no tax) | Mar 1 (corp) / Jun 1 (LLC) | Annual |
-| Florida | Annual Report | $138.75 (LLC) / $150 (corp) | May 1 | Annual |
-| Georgia | Annual Registration | $50 (LLC) / $50 (corp) | Apr 1 | Annual |
-| Hawaii | Annual Report | $15 (LLC) / $30 (corp) | Quarter of registration | Annual |
-| Idaho | Annual Report | $0 (LLC) / $0 (corp) | Anniversary of formation | Annual |
-| Illinois | Annual Report | $75 (LLC) / $75 (corp) | Anniversary of formation | Annual |
-| Indiana | Business Entity Report | $50 (LLC) / $50 (corp) | Anniversary of formation | Annual |
-| Iowa | Annual Report | $45 (LLC) / $45 (corp) | Apr 1 (or anniversary) | Annual |
-| Kansas | Annual Report | $50 (LLC) / $50 (corp) | Anniversary of formation | Annual |
-| Kentucky | Annual Report | $15 (LLC) / $15 (corp) | Jun 30 | Annual |
-| Louisiana | Annual Report | $35 (LLC) / $35 (corp) | Anniversary of formation | Annual |
-| Maine | Annual Report | $85 (LLC) / $150 (corp) | Jun 1 | Annual |
-| Maryland | Annual Report | $300 (LLC) / $300 (corp) | Apr 15 | Annual |
-| Massachusetts | Annual Report | $500 (LLC) / $500 (corp) | Anniversary of formation | Annual |
-| Michigan | Annual Report | $25 (LLC) / $25 (corp) | Feb 15 | Annual |
-| Minnesota | Annual Report | $0 (online) / $50 (mail) | Dec 31 | Annual |
-| Mississippi | Annual Report | $50 (LLC) / $50 (corp) | Anniversary of formation | Annual |
-| Missouri | Annual Report | $0 (LLC) / $0 (corp) | Anniversary of formation | Annual |
-| Montana | Annual Report | $15 (LLC) / $15 (corp) | Apr 15 | Annual |
-| Nebraska | Biennial Report | $10 (LLC) / $10 (corp) | Apr 1 (odd/even by entity) | Biennial |
-| Nevada | Annual Report | $150 (LLC) / $150 (corp) | Last day of anniversary month | Annual |
-| New Hampshire | Annual Report | $100 (LLC) / $100 (corp) | Apr 1 | Annual |
-| New Jersey | Annual Report | $75 (LLC) / $75 (corp) | Anniversary of formation | Annual |
-| New Mexico | Annual Report | $0 (LLC) / $0 (corp) | Anniversary of formation | Annual |
-| New York | Biennial Statement | $9 (LLC) / $9 (corp) | Anniversary of formation (every 2 years) | Biennial |
-| North Carolina | Annual Report | $200 (LLC) / $200 (corp) | Apr 15 | Annual |
-| North Dakota | Annual Report | $50 (LLC) / $50 (corp) | Anniversary of formation | Annual |
-| Ohio | Biennial Report | $0 (LLC) / $0 (corp) | Anniversary of formation (odd years) | Biennial |
-| Oklahoma | Annual Certificate | $25 (LLC) / $25 (corp) | Anniversary of formation | Annual |
-| Oregon | Annual Report | $100 (LLC) / $100 (corp) | Anniversary of formation | Annual |
-| Pennsylvania | Decennial Report | $7 (LLC) / $7 (corp) | Every 10 years from formation | Decennial |
-| Rhode Island | Annual Report | $50 (LLC) / $50 (corp) | Anniversary of formation | Annual |
-| South Carolina | Annual Report | $0 (LLC) / $25 (corp) | Anniversary of formation | Annual |
-| South Dakota | Annual Report | $50 (LLC) / $50 (corp) | Anniversary of formation | Annual |
-| Tennessee | Annual Report | $300 (LLC) / $300 (corp) | Anniversary of formation (by Apr 1 cutoff) | Annual |
-| Texas | Franchise Tax Report | $0 min (no tax due) | May 15 | Annual |
-| Utah | Annual Report | $15 (LLC) / $15 (corp) | Anniversary of formation | Annual |
-| Vermont | Annual Report | $35 (LLC) / $75 (corp) | Anniversary of formation | Annual |
-| Virginia | Annual Report | $50 (LLC) / $50 (corp) | Anniversary of formation | Annual |
-| Washington | Annual Report | $60 (LLC) / $60 (corp) | End of anniversary month | Annual |
-| West Virginia | Annual Report | $25 (LLC) / $25 (corp) | Jul 1 | Annual |
-| Wisconsin | Annual Report | $25 (LLC) / $25 (corp) | Anniversary of formation (end of quarter) | Annual |
-| Wyoming | Annual Report | $60 (LLC) / $60 (corp) | First day of anniversary month | Annual |
-| DC (Washington DC) | Biennial Report | $0 (LLC) / $0 (corp) | Apr 1 (even years) | Biennial |
-| Puerto Rico | Annual Report | $125 (LLC) / $125 (corp) | Apr 15 | Annual |
-
+- **Alabama:** Annual Report -- $50 -- Annually on anniversary of formation -- Annual
+- **Alaska:** Biennial Report -- $100 -- Jan 2 of even years (LLC) / odd years (corp) -- Biennial
+- **Arizona:** Annual Report -- $45 -- Anniversary date of formation -- Annual
+- **Arkansas:** Franchise Tax Report -- $150 -- May 1 -- Annual
+- **California:** Statement of Information -- $20 (LLC) / $25 (corp) -- Anniversary of registration -- Annual/biennial
+- **Colorado:** Periodic Report -- $10 -- Each year by the end of the month of formation -- Annual
+- **Connecticut:** Annual Report -- $80 -- Anniversary of formation -- Annual
+- **Delaware:** Annual Report -- $300 min (corp) / $0 (LLC no tax) -- Mar 1 (corp) / Jun 1 (LLC) -- Annual
+- **Florida:** Annual Report -- $138.75 (LLC) / $150 (corp) -- May 1 -- Annual
+- **Georgia:** Annual Registration -- $50 (LLC) / $50 (corp) -- Apr 1 -- Annual
+- **Hawaii:** Annual Report -- $15 (LLC) / $30 (corp) -- Quarter of registration -- Annual
+- **Idaho:** Annual Report -- $0 (LLC) / $0 (corp) -- Anniversary of formation -- Annual
+- **Illinois:** Annual Report -- $75 (LLC) / $75 (corp) -- Anniversary of formation -- Annual
+- **Indiana:** Business Entity Report -- $50 (LLC) / $50 (corp) -- Anniversary of formation -- Annual
+- **Iowa:** Annual Report -- $45 (LLC) / $45 (corp) -- Apr 1 (or anniversary) -- Annual
+- **Kansas:** Annual Report -- $50 (LLC) / $50 (corp) -- Anniversary of formation -- Annual
+- **Kentucky:** Annual Report -- $15 (LLC) / $15 (corp) -- Jun 30 -- Annual
+- **Louisiana:** Annual Report -- $35 (LLC) / $35 (corp) -- Anniversary of formation -- Annual
+- **Maine:** Annual Report -- $85 (LLC) / $150 (corp) -- Jun 1 -- Annual
+- **Maryland:** Annual Report -- $300 (LLC) / $300 (corp) -- Apr 15 -- Annual
+- **Massachusetts:** Annual Report -- $500 (LLC) / $500 (corp) -- Anniversary of formation -- Annual
+- **Michigan:** Annual Report -- $25 (LLC) / $25 (corp) -- Feb 15 -- Annual
+- **Minnesota:** Annual Report -- $0 (online) / $50 (mail) -- Dec 31 -- Annual
+- **Mississippi:** Annual Report -- $50 (LLC) / $50 (corp) -- Anniversary of formation -- Annual
+- **Missouri:** Annual Report -- $0 (LLC) / $0 (corp) -- Anniversary of formation -- Annual
+- **Montana:** Annual Report -- $15 (LLC) / $15 (corp) -- Apr 15 -- Annual
+- **Nebraska:** Biennial Report -- $10 (LLC) / $10 (corp) -- Apr 1 (odd/even by entity) -- Biennial
+- **Nevada:** Annual Report -- $150 (LLC) / $150 (corp) -- Last day of anniversary month -- Annual
+- **New Hampshire:** Annual Report -- $100 (LLC) / $100 (corp) -- Apr 1 -- Annual
+- **New Jersey:** Annual Report -- $75 (LLC) / $75 (corp) -- Anniversary of formation -- Annual
+- **New Mexico:** Annual Report -- $0 (LLC) / $0 (corp) -- Anniversary of formation -- Annual
+- **New York:** Biennial Statement -- $9 (LLC) / $9 (corp) -- Anniversary of formation (every 2 years) -- Biennial
+- **North Carolina:** Annual Report -- $200 (LLC) / $200 (corp) -- Apr 15 -- Annual
+- **North Dakota:** Annual Report -- $50 (LLC) / $50 (corp) -- Anniversary of formation -- Annual
+- **Ohio:** Biennial Report -- $0 (LLC) / $0 (corp) -- Anniversary of formation (odd years) -- Biennial
+- **Oklahoma:** Annual Certificate -- $25 (LLC) / $25 (corp) -- Anniversary of formation -- Annual
+- **Oregon:** Annual Report -- $100 (LLC) / $100 (corp) -- Anniversary of formation -- Annual
+- **Pennsylvania:** Decennial Report -- $7 (LLC) / $7 (corp) -- Every 10 years from formation -- Decennial
+- **Rhode Island:** Annual Report -- $50 (LLC) / $50 (corp) -- Anniversary of formation -- Annual
+- **South Carolina:** Annual Report -- $0 (LLC) / $25 (corp) -- Anniversary of formation -- Annual
+- **South Dakota:** Annual Report -- $50 (LLC) / $50 (corp) -- Anniversary of formation -- Annual
+- **Tennessee:** Annual Report -- $300 (LLC) / $300 (corp) -- Anniversary of formation (by Apr 1 cutoff) -- Annual
+- **Texas:** Franchise Tax Report -- $0 min (no tax due) -- May 15 -- Annual
+- **Utah:** Annual Report -- $15 (LLC) / $15 (corp) -- Anniversary of formation -- Annual
+- **Vermont:** Annual Report -- $35 (LLC) / $75 (corp) -- Anniversary of formation -- Annual
+- **Virginia:** Annual Report -- $50 (LLC) / $50 (corp) -- Anniversary of formation -- Annual
+- **Washington:** Annual Report -- $60 (LLC) / $60 (corp) -- End of anniversary month -- Annual
+- **West Virginia:** Annual Report -- $25 (LLC) / $25 (corp) -- Jul 1 -- Annual
+- **Wisconsin:** Annual Report -- $25 (LLC) / $25 (corp) -- Anniversary of formation (end of quarter) -- Annual
+- **Wyoming:** Annual Report -- $60 (LLC) / $60 (corp) -- First day of anniversary month -- Annual
+- **DC (Washington DC):** Biennial Report -- $0 (LLC) / $0 (corp) -- Apr 1 (even years) -- Biennial
+- **Puerto Rico:** Annual Report -- $125 (LLC) / $125 (corp) -- Apr 15 -- Annual
 ### Annual Report Fee Calculator
 
 ### Annual Report Due Date Lookup
@@ -172,29 +160,23 @@ Before filing, gather these documents:
 
 ### Online Filing Portal URLs
 
-| State | Portal URL |
-|-------|-----------|
-| Delaware | https://icis.corp.delaware.gov |
-| Florida | https://dos.sunbiz.org |
-| California | https://bizfileonline.sos.ca.gov |
-| Texas | https://mytax.texas.gov |
-| New York | https://apps.dos.ny.gov |
-| Nevada | https://www.nvsos.gov |
-| Wyoming | https://wyobiz.wy.gov |
-| Colorado | https://www.sos.state.co.us/biz |
-| Illinois | https://www.ilsos.gov/corporatellc |
-| Georgia | https://ecorp.sos.ga.gov |
-
+- **Delaware:** https://icis.corp.delaware.gov
+- **Florida:** https://dos.sunbiz.org
+- **California:** https://bizfileonline.sos.ca.gov
+- **Texas:** https://mytax.texas.gov
+- **New York:** https://apps.dos.ny.gov
+- **Nevada:** https://www.nvsos.gov
+- **Wyoming:** https://wyobiz.wy.gov
+- **Colorado:** https://www.sos.state.co.us/biz
+- **Illinois:** https://www.ilsos.gov/corporatellc
+- **Georgia:** https://ecorp.sos.ga.gov
 ### Filing Options
 
-| Method | Processing Time | Convenience Fee | Best For |
-|--------|----------------|-----------------|----------|
-| **Online** | Instant to 24 hours | ~2-3% credit card fee | Most business owners |
-| **Mail** | 2-6 weeks | No fee (check) | Those without online access |
-| **In-person** | Same day | No fee | Same-day confirmation needed |
-| **Third-party service** | 1-3 business days | $25-200 service fee | Multi-state filers |
-| **Registered agent service** | Same day to 2 days | Included in service fee | Businesses with agent services |
-
+- **Online:** Instant to 24 hours -- ~2-3% credit card fee -- Most business owners
+- **Mail:** 2-6 weeks -- No fee (check) -- Those without online access
+- **In-person:** Same day -- No fee -- Same-day confirmation needed
+- **Third-party service:** 1-3 business days -- $25-200 service fee -- Multi-state filers
+- **Registered agent service:** Same day to 2 days -- Included in service fee -- Businesses with agent services
 ### Pro Tips for Filing
 
 - **File early in your filing window** — portals experience high traffic near deadlines
@@ -208,29 +190,23 @@ Before filing, gather these documents:
 
 Failing to file your annual report on time triggers a cascade of consequences that grow more severe the longer you wait:
 
-| Time After Deadline | Status | Consequence |
-|--------------------|--------|-------------|
-| **1-30 days** | Late | Late fee assessed ($10-$200 depending on state) |
-| **31-90 days** | Delinquent | Loss of good standing; interest accrues on fees |
-| **90-365 days** | Suspended | Cannot conduct business, sue, or obtain financing |
-| **1-2 years** | Administratively dissolved | Entity no longer exists in state records |
-| **2+ years** | Forfeited | Name becomes available for others to register |
-
+- **1-30 days:** Late -- Late fee assessed ($10-$200 depending on state)
+- **31-90 days:** Delinquent -- Loss of good standing; interest accrues on fees
+- **90-365 days:** Suspended -- Cannot conduct business, sue, or obtain financing
+- **1-2 years:** Administratively dissolved -- Entity no longer exists in state records
+- **2+ years:** Forfeited -- Name becomes available for others to register
 ### Penalty and Reinstatement Costs
 
-| State | Late Fee | Reinstatement Fee | Max Time to Reinstate |
-|-------|---------|-------------------|----------------------|
-| Delaware | $200 | $200 + current year fee | 5 years |
-| California | $0 (SOS) | $0 + back fees | 4 years (CT Corp) |
-| Florida | $400 | $400 + back fees | Indefinite |
-| New York | $0 | $0 + back filing | 2 years |
-| Nevada | $75 | $75 + back fees | 1 year |
-| Texas | $50 | $50 + back fees | Indefinite |
-| Illinois | $100 | $100 + back fees | 5 years |
-| Georgia | $25 | $25 + back fees | Indefinite |
-| Washington | $30 | $30 + back fees | Indefinite |
-| Wyoming | $60 late | $60 + back fees | Indefinite |
-
+- **Delaware:** $200 -- $200 + current year fee -- 5 years
+- **California:** $0 (SOS) -- $0 + back fees -- 4 years (CT Corp)
+- **Florida:** $400 -- $400 + back fees -- Indefinite
+- **New York:** $0 -- $0 + back filing -- 2 years
+- **Nevada:** $75 -- $75 + back fees -- 1 year
+- **Texas:** $50 -- $50 + back fees -- Indefinite
+- **Illinois:** $100 -- $100 + back fees -- 5 years
+- **Georgia:** $25 -- $25 + back fees -- Indefinite
+- **Washington:** $30 -- $30 + back fees -- Indefinite
+- **Wyoming:** $60 late -- $60 + back fees -- Indefinite
 ### What "Administrative Dissolution" Means
 
 Administrative dissolution is the state's process of involuntarily terminating a business entity for failing to file annual reports or pay required fees. When this happens:
@@ -258,17 +234,14 @@ In most states, reinstatement retroactively restores the entity as if it had nev
 
 Business owners often confuse these three compliance obligations. Here is how they differ:
 
-| Aspect | Annual Report | Business License | Franchise Tax |
-|--------|--------------|-----------------|---------------|
-| **What it is** | Information filing with the state | Permission to operate locally | Tax for the privilege of doing business |
-| **Filing authority** | Secretary of State | City or county government | State revenue department |
-| **Frequency** | Annual or biennial | Annual | Annual |
-| **Fee range** | $0-$500 | $25-$5,000+ | $0-$800+ |
-| **Purpose** | Update public records | Regulate local business activity | Generate state revenue |
-| **Consequence of non-filing** | Loss of good standing, dissolution | Inability to operate legally, fines | Interest, penalties, liens |
-| **Requirements by entity type** | LLCs and corporations only | Most business types | Varies widely by state |
-| **Tax deductible** | Filing fee is deductible | License fee is deductible | Payment is deductible |
-
+- **What it is:** Information filing with the state -- Permission to operate locally -- Tax for the privilege of doing business
+- **Filing authority:** Secretary of State -- City or county government -- State revenue department
+- **Frequency:** Annual or biennial -- Annual -- Annual
+- **Fee range:** $0-$500 -- $25-$5,000+ -- $0-$800+
+- **Purpose:** Update public records -- Regulate local business activity -- Generate state revenue
+- **Consequence of non-filing:** Loss of good standing, dissolution -- Inability to operate legally, fines -- Interest, penalties, liens
+- **Requirements by entity type:** LLCs and corporations only -- Most business types -- Varies widely by state
+- **Tax deductible:** Filing fee is deductible -- License fee is deductible -- Payment is deductible
 ### How They Interact
 
 In practice, a business must comply with all three. For example:
@@ -313,17 +286,14 @@ In practice, a business must comply with all three. For example:
 
 ### Recommended Filing Schedule
 
-| Timing | Action |
-|--------|--------|
-| **90 days before due date** | Set calendar reminder; verify current business details |
-| **60 days before due date** | Confirm registered agent is current; update officer/member list |
-| **30 days before due date** | File the annual report online; save confirmation |
-| **15 days before due date** | Verify filing was accepted; check SOS records for updated status |
-| **Due date** | Deadline — no further action if already confirmed |
-| **After filing** | Download and save the confirmation receipt |
-| **30 days after filing** | Verify good standing on SOS website |
-| **90 days before NEXT due date** | Start the cycle again |
-
+- **90 days before due date:** Set calendar reminder; verify current business details
+- **60 days before due date:** Confirm registered agent is current; update officer/member list
+- **30 days before due date:** File the annual report online; save confirmation
+- **15 days before due date:** Verify filing was accepted; check SOS records for updated status
+- **Due date:** Deadline — no further action if already confirmed
+- **After filing:** Download and save the confirmation receipt
+- **30 days after filing:** Verify good standing on SOS website
+- **90 days before NEXT due date:** Start the cycle again
 ### Entity Status Tracking
 
 ## Conclusion

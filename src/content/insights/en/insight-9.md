@@ -41,12 +41,9 @@ Most states require the LLC to file an annual report to remain active. This repo
 
 ### Examples by state
 
-| State | Annual Cost | Notes |
-|-------|------------|-------|
-| **Wyoming** | $60 minimum | Fee based on assets or $60 minimum |
-| **Florida** | $138.75 | $400 late penalty if not filed on time |
-| **Delaware** | $300 | No Annual Report required but fixed Franchise Tax |
-
+- **Wyoming:** $60 minimum -- Fee based on assets or $60 minimum
+- **Florida:** $138.75 -- $400 late penalty if not filed on time
+- **Delaware:** $300 -- No Annual Report required but fixed Franchise Tax
 ## Franchise Tax or State Fees
 
 Some states charge annual taxes or fees simply for keeping the company active. This does not necessarily mean the LLC is paying income tax. Often it is simply a state maintenance cost.
@@ -106,38 +103,29 @@ This depends heavily on the business model and the state.
 
 A simple LLC with no complex operations:
 
-| Item | Annual cost |
-|------|-------------|
-| Registered agent | $100 |
-| State report | $60�$139 |
-| Informational filings | $200�$500 |
-| **Approximate total** | **$360�$739** |
-
+- **Registered agent:** $100
+- **State report:** $60�$139
+- **Informational filings:** $200�$500
+- **Approximate total:** **$360�$739**
 ### Intermediate scenario
 
 If the company has bank activity, Stripe, e-commerce, or members:
 
-| Item | Annual cost |
-|------|-------------|
-| Registered agent | $100�$200 |
-| State report | $60�$300 |
-| Tax filings | $500�$1500 |
-| Monthly bookkeeping | $600�$1800 |
-| **Approximate total** | **$1260�$3800** |
-
+- **Registered agent:** $100�$200
+- **State report:** $60�$300
+- **Tax filings:** $500�$1500
+- **Monthly bookkeeping:** $600�$1800
+- **Approximate total:** **$1260�$3800**
 ### Advanced scenario
 
 Companies with employees, physical operations, inventory, or holding structures:
 
-| Item | Annual cost |
-|------|-------------|
-| Registered agent | $200�$300 |
-| State report + taxes | $300�$800+ |
-| Tax filings | $1500�$5000+ |
-| Monthly bookkeeping | $1800�$6000+ |
-| Licenses and permits | $100�$1000+ |
-| **Approximate total** | **$3900�$13100+** |
-
+- **Registered agent:** $200�$300
+- **State report + taxes:** $300�$800+
+- **Tax filings:** $1500�$5000+
+- **Monthly bookkeeping:** $1800�$6000+
+- **Licenses and permits:** $100�$1000+
+- **Approximate total:** **$3900�$13100+**
 ## What happens if I don't maintain my LLC?
 
 Failing to meet obligations can result in:

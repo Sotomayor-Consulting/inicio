@@ -47,15 +47,12 @@ Nem todos os rendimentos digitais s�o tratados da mesma forma. O IRS os classi
 
 A **fonte do rendimento** determina se voc� tributa nos EUA:
 
-| Tipo de Rendimento | Fonte | Tributa nos EUA? |
-|---|---|---|
-| Servi�os prestados dos EUA | Americana | Sim |
-| Servi�os prestados do exterior | Estrangeira | Depende da resid�ncia |
-| Royalties por uso de propriedade nos EUA | Americana | Sim |
-| Royalties por uso de propriedade no exterior | Estrangeira | Depende da resid�ncia |
-| Venda de produtos dos EUA | Americana | Sim |
-| Criptomoedas (venda em exchange dos EUA) | Depende da resid�ncia | Depende |
-
+- **Servi�os prestados dos EUA:** Americana -- Sim
+- **Servi�os prestados do exterior:** Estrangeira -- Depende da resid�ncia
+- **Royalties por uso de propriedade nos EUA:** Americana -- Sim
+- **Royalties por uso de propriedade no exterior:** Estrangeira -- Depende da resid�ncia
+- **Venda de produtos dos EUA:** Americana -- Sim
+- **Criptomoedas (venda em exchange dos EUA):** Depende da resid�ncia -- Depende
 ## 3. Limites de Reporte: Formul�rios 1099
 
 As plataformas digitais s�o obrigadas a reportar seus rendimentos ao IRS por meio de formul�rios 1099:
@@ -136,13 +133,10 @@ Se voc� recebe rendimentos por meio de plataformas estrangeiras (como Binance,
 
 Se voc� espera dever mais de **$1.000** ao IRS ao apresentar sua declara��o anual, deve fazer pagamentos trimestrais estimados:
 
-| Per�odo | Data limite |
-|---|---|
-| Janeiro � Mar�o | 15 de abril |
-| Abril � Maio | 15 de junho |
-| Junho � Agosto | 15 de setembro |
-| Setembro � Dezembro | 15 de janeiro (ano seguinte) |
-
+- **Janeiro � Mar�o:** 15 de abril
+- **Abril � Maio:** 15 de junho
+- **Junho � Agosto:** 15 de setembro
+- **Setembro � Dezembro:** 15 de janeiro (ano seguinte)
 ### Consequ�ncias de n�o pagar:
 - Multa por pagamento insuficiente (Underpayment Penalty)
 - Juros sobre o saldo n�o pago

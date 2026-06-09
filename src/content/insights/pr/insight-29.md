@@ -13,15 +13,12 @@ Neste guia, explicamos os problemas mais comuns de estrutura��o, como detect
 
 Uma LLC mal estruturada � aquela que n�o cumpre um ou mais dos requisitos legais, fiscais ou operacionais necess�rios para funcionar corretamente. Isso pode dever-se a:
 
-| Causa | Descri��o |
-|-------|-----------|
-| **Constitui��o incorreta** | Estado errado, tipo de entidade incorreto, erros nos documentos |
-| **Documenta��o incompleta** | Falta de Operating Agreement, EIN incorreto, Registered Agent inadequado |
-| **Classifica��o fiscal incorreta** | Single-member tratada como partnership, ou vice-versa |
-| **Incumprimento cont�nuo** | Annual Reports n�o apresentados, 5472 n�o apresentado, endere�o desatualizado |
-| **Estrutura de s�cios incorreta** | Percentagens mal definidas, acordos verbais sem documentar |
-| **Mistura de finan�as** | Contas n�o separadas, despesas pessoais pela LLC |
-
+- **Constitui��o incorreta:** Estado errado, tipo de entidade incorreto, erros nos documentos
+- **Documenta��o incompleta:** Falta de Operating Agreement, EIN incorreto, Registered Agent inadequado
+- **Classifica��o fiscal incorreta:** Single-member tratada como partnership, ou vice-versa
+- **Incumprimento cont�nuo:** Annual Reports n�o apresentados, 5472 n�o apresentado, endere�o desatualizado
+- **Estrutura de s�cios incorreta:** Percentagens mal definidas, acordos verbais sem documentar
+- **Mistura de finan�as:** Contas n�o separadas, despesas pessoais pela LLC
 ## Problemas mais comuns
 
 ### 1. Estado de constitui��o incorreto
@@ -33,13 +30,10 @@ Uma LLC mal estruturada � aquela que n�o cumpre um ou mais dos requisitos le
 - "Delaware tem as melhores leis corporativas."
 
 **Consequ�ncias:**
-| Aspecto | Delaware | Wyoming/Florida |
-|---------|----------|----------------|
-| **Custo de forma��o** | Alto ($300-500) | Baixo ($100-200) |
-| **Custo anual** | $300 (franchise tax) | $60-138,75 (Annual Report) |
-| **Privacidade** | Baixa (informa��o p�blica) | Alta (Wyoming) |
-| **Ideal para** | Empresas com investidores | Freelancers, ag�ncias pequenas |
-
+- **Custo de forma��o:** Alto ($300-500) -- Baixo ($100-200)
+- **Custo anual:** $300 (franchise tax) -- $60-138,75 (Annual Report)
+- **Privacidade:** Baixa (informa��o p�blica) -- Alta (Wyoming)
+- **Ideal para:** Empresas com investidores -- Freelancers, ag�ncias pequenas
 **Solu��o:** Avalie sua situa��o. Para a maioria dos empreendedores individuais ou ag�ncias pequenas, Wyoming ou Fl�rida s�o melhores op��es.
 
 ### 2. Falta de Operating Agreement
@@ -71,13 +65,10 @@ Uma LLC mal estruturada � aquela que n�o cumpre um ou mais dos requisitos le
 - O agente que ajudou com o EIN n�o perguntou detalhes.
 
 **Consequ�ncias:**
-| O que solicitou | O que o IRS registrou | Problema |
-|----------------|----------------------|----------|
-| Single-member LLC | Disregarded entity (correto) | Sem problema |
-| Single-member LLC | Partnership (incorreto) | IRS espera Formul�rio 1065, n�o 5472 |
-| Multi-member LLC | Disregarded entity (incorreto) | IRS espera 5472, n�o 1065 |
-| LLC | Corporation (incorreto) | LLC deve pagar imposto corporativo |
-
+- **Single-member LLC:** Disregarded entity (correto) -- Sem problema
+- **Single-member LLC:** Partnership (incorreto) -- IRS espera Formul�rio 1065, n�o 5472
+- **Multi-member LLC:** Disregarded entity (incorreto) -- IRS espera 5472, n�o 1065
+- **LLC:** Corporation (incorreto) -- LLC deve pagar imposto corporativo
 **Solu��o:** Verifique sua classifica��o fiscal no IRS. Se incorreta, solicite uma corre��o ou um novo EIN.
 
 ### 4. Operating Agreement que n�o reflete a realidade
@@ -213,45 +204,36 @@ Uma LLC mal estruturada � aquela que n�o cumpre um ou mais dos requisitos le
 
 Responda a estas perguntas:
 
-| Pergunta | Sim (bem) | N�o (problema) |
-|----------|-----------|----------------|
-| Tem um Operating Agreement por escrito? | ? | ? |
-| O nome da LLC coincide exatamente em todos os documentos? | ? | ? |
-| Tem conta banc�ria separada para a LLC? | ? | ? |
-| Usa a conta da LLC apenas para despesas empresariais? | ? | ? |
-| Sabe qual formul�rio do IRS deve apresentar (5472 ou 1065)? | ? | ? |
-| Apresentou todas as declara��es exigidas a tempo? | ? | ? |
-| Seu Registered Agent � um servi�o profissional? | ? | ? |
-| Seus s�cios t�m um acordo assinado? | ? | ? |
-| Apresentou o BOI ao FinCEN? | ? | ? |
-| Sabe como seu pa�s trata fiscalmente sua LLC? | ? | ? |
-| Seu endere�o est� atualizado no IRS? | ? | ? |
-| Tem um plano de sa�da ou sucess�o? | ? | ? |
-
+- **Tem um Operating Agreement por escrito?:** ? -- ?
+- **O nome da LLC coincide exatamente em todos os documentos?:** ? -- ?
+- **Tem conta banc�ria separada para a LLC?:** ? -- ?
+- **Usa a conta da LLC apenas para despesas empresariais?:** ? -- ?
+- **Sabe qual formul�rio do IRS deve apresentar (5472 ou 1065)?:** ? -- ?
+- **Apresentou todas as declara��es exigidas a tempo?:** ? -- ?
+- **Seu Registered Agent � um servi�o profissional?:** ? -- ?
+- **Seus s�cios t�m um acordo assinado?:** ? -- ?
+- **Apresentou o BOI ao FinCEN?:** ? -- ?
+- **Sabe como seu pa�s trata fiscalmente sua LLC?:** ? -- ?
+- **Seu endere�o est� atualizado no IRS?:** ? -- ?
+- **Tem um plano de sa�da ou sucess�o?:** ? -- ?
 **Se respondeu "N�o" a 3 ou mais perguntas, sua LLC provavelmente precisa de reestrutura��o.**
 
 ## Como corrigir uma LLC mal estruturada
 
 ### Corre��es simples
 
-| Problema | Solu��o | Custo |
-|----------|---------|-------|
-| Falta de Operating Agreement | Redigi-lo e faz�-lo assinar por todos os s�cios | $200 - $500 |
-| EIN incorreto | Solicitar corre��o ou novo EIN | $0 (diretamente com IRS) |
-| Registered Agent inadequado | Mudar para um servi�o profissional | $50 - $150/ano |
-| Endere�o desatualizado | Apresentar Formul�rio 8822-B | $0 |
-| Classifica��o fiscal incorreta | Solicitar corre��o ao IRS | $0 - $500 (com CPA) |
-
+- **Falta de Operating Agreement:** Redigi-lo e faz�-lo assinar por todos os s�cios -- $200 - $500
+- **EIN incorreto:** Solicitar corre��o ou novo EIN -- $0 (diretamente com IRS)
+- **Registered Agent inadequado:** Mudar para um servi�o profissional -- $50 - $150/ano
+- **Endere�o desatualizado:** Apresentar Formul�rio 8822-B -- $0
+- **Classifica��o fiscal incorreta:** Solicitar corre��o ao IRS -- $0 - $500 (com CPA)
 ### Corre��es complexas
 
-| Problema | Solu��o | Custo | Tempo |
-|----------|---------|-------|-------|
-| Estado incorreto | Converter ou migrar LLC para outro estado | $500 - $2.000 | 2-4 semanas |
-| Reestrutura��o de s�cios | Novo Operating Agreement + nova estrutura fiscal | $1.000 - $3.000 | 2-4 semanas |
-| Desajuste h�brido internacional | Reestrutura��o fiscal com contadores em ambos os pa�ses | $2.000 - $5.000 | 4-8 semanas |
-| LLC dissolvida por incumprimento | Reinstala��o + regulariza��o | $500 - $3.000 | 2-6 semanas |
-| Mudan�a de classifica��o fiscal | Filing do Formul�rio 8832 ou 2553 | $500 - $1.500 | 4-8 semanas |
-
+- **Estado incorreto:** Converter ou migrar LLC para outro estado -- $500 - $2.000 -- 2-4 semanas
+- **Reestrutura��o de s�cios:** Novo Operating Agreement + nova estrutura fiscal -- $1.000 - $3.000 -- 2-4 semanas
+- **Desajuste h�brido internacional:** Reestrutura��o fiscal com contadores em ambos os pa�ses -- $2.000 - $5.000 -- 4-8 semanas
+- **LLC dissolvida por incumprimento:** Reinstala��o + regulariza��o -- $500 - $3.000 -- 2-6 semanas
+- **Mudan�a de classifica��o fiscal:** Filing do Formul�rio 8832 ou 2553 -- $500 - $1.500 -- 4-8 semanas
 ### Quando � melhor fechar e come�ar de novo
 
 �s vezes � mais barato e r�pido fechar a LLC mal estruturada e constituir uma nova corretamente.

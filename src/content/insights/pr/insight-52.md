@@ -13,44 +13,35 @@ Neste guia, explicamos todos os **requisitos para abrir e manter uma conta Strip
 
 ### Principais Mudanças
 
-| Mudança | Descrição | Impacto |
-|---------|-----------|---------|
-| **Verificação reforçada de identidade** | Stripe agora exige vídeo-selfie ou biometria para contas de alto risco | Maior segurança, processo mais lento |
-| **BOI obrigatório** | Beneficial Ownership Information exigido para todas as contas empresariais nos EUA | Novas empresas precisam apresentar |
-| **Suporte expandido a países** | Stripe adicionou mais países da Ásia e África | Mais opções, mas LATAM ainda limitado |
-| **Taxas atualizadas** | Novas tarifas para cartões internacionais e conversão de moeda | Custos ligeiramente maiores |
-| **Machine Learning de risco** | Stripe usa IA avançada para detectar fraudes e negócios de alto risco | Menos falsos positivos, mas mais rigor |
-| **Stripe Identity 2.0** | Nova versão do serviço de verificação de identidade | Verificação obrigatória em mais casos |
-
+- **Verificação reforçada de identidade:** Stripe agora exige vídeo-selfie ou biometria para contas de alto risco -- Maior segurança, processo mais lento
+- **BOI obrigatório:** Beneficial Ownership Information exigido para todas as contas empresariais nos EUA -- Novas empresas precisam apresentar
+- **Suporte expandido a países:** Stripe adicionou mais países da Ásia e África -- Mais opções, mas LATAM ainda limitado
+- **Taxas atualizadas:** Novas tarifas para cartões internacionais e conversão de moeda -- Custos ligeiramente maiores
+- **Machine Learning de risco:** Stripe usa IA avançada para detectar fraudes e negócios de alto risco -- Menos falsos positivos, mas mais rigor
+- **Stripe Identity 2.0:** Nova versão do serviço de verificação de identidade -- Verificação obrigatória em mais casos
 > **Atenção:** As regras de verificação do Stripe em 2026 são mais rigorosas do que nunca. Ter a documentação correta desde o início é essencial para evitar bloqueios.
 
 ## 2. Requisitos Básicos para Criar Conta
 
 ### Para Pessoa Física (Individual)
 
-| Requisito | Detalhes |
-|-----------|----------|
-| **Documento de identidade** | Passaporte ou RG válido (com foto) |
-| **Comprovante de residência** | Conta de luz, água ou telefone (menos de 3 meses) |
-| **Data de nascimento** | Maior de 18 anos |
-| **Número de telefone** | Válido e verificável |
-| **E-mail** | Não pode ser temporário (Gmail, Outlook, etc. são aceitos) |
-| **Site ou presença online** | Site, app, loja virtual ou perfil em marketplace |
-| **Conta bancária** | No país onde a conta Stripe será registrada |
-| **Selfie/Verificação facial** | Exigido em 2026 para a maioria das contas |
-
+- **Documento de identidade:** Passaporte ou RG válido (com foto)
+- **Comprovante de residência:** Conta de luz, água ou telefone (menos de 3 meses)
+- **Data de nascimento:** Maior de 18 anos
+- **Número de telefone:** Válido e verificável
+- **E-mail:** Não pode ser temporário (Gmail, Outlook, etc. são aceitos)
+- **Site ou presença online:** Site, app, loja virtual ou perfil em marketplace
+- **Conta bancária:** No país onde a conta Stripe será registrada
+- **Selfie/Verificação facial:** Exigido em 2026 para a maioria das contas
 ### Para Pessoa Jurídica (Empresa)
 
-| Requisito | Detalhes |
-|-----------|----------|
-| **Registro da empresa** | Certificado de constituição ou equivalente |
-| **EIN (EUA) ou equivalente** | Número de identificação fiscal da empresa |
-| **Endereço comercial** | Endereço físico (não Caixa Postal em muitos casos) |
-| **Documentos dos beneficiários finais** | Identificação de todos com mais de 25% de participação |
-| **Conta bancária empresarial** | Em nome da empresa |
-| **Comprovante de endereço da empresa** | Conta de serviços ou contrato de aluguel |
-| **Site ou aplicativo** | Com informações de contato e políticas |
-
+- **Registro da empresa:** Certificado de constituição ou equivalente
+- **EIN (EUA) ou equivalente:** Número de identificação fiscal da empresa
+- **Endereço comercial:** Endereço físico (não Caixa Postal em muitos casos)
+- **Documentos dos beneficiários finais:** Identificação de todos com mais de 25% de participação
+- **Conta bancária empresarial:** Em nome da empresa
+- **Comprovante de endereço da empresa:** Conta de serviços ou contrato de aluguel
+- **Site ou aplicativo:** Com informações de contato e políticas
 ## 3. Tipos de Negócio Aceitos e Restritos
 
 ### Negócios com Suporte Automático
@@ -130,22 +121,16 @@ Em 2026, o Stripe utiliza:
 
 ### América Latina
 
-| País | Documento de Identidade | Comprovante de Residência |
-|------|------------------------|--------------------------|
-| **Brasil** | RG, CNH ou Passaporte | Conta de luz, água, telefone ou extrato bancário |
-| **México** | INE, Passaporte ou Cédula Profissional | Recibo de luz, água ou estado de conta |
-| **Chile** | Cédula de Identidad (RUT) ou Passaporte | Boleta de servicios o estado de cuenta |
-| **Colômbia** | Cédula de Ciudadanía ou Passaporte | Recibo de servicios públicos o extracto bancario |
-| **Peru** | DNI ou Passaporte | Recibo de luz, agua o teléfono |
-| **Argentina** | DNI ou Passaporte | Factura de servicio o resumen de tarjeta |
-
+- **Brasil:** RG, CNH ou Passaporte -- Conta de luz, água, telefone ou extrato bancário
+- **México:** INE, Passaporte ou Cédula Profissional -- Recibo de luz, água ou estado de conta
+- **Chile:** Cédula de Identidad (RUT) ou Passaporte -- Boleta de servicios o estado de cuenta
+- **Colômbia:** Cédula de Ciudadanía ou Passaporte -- Recibo de servicios públicos o extracto bancario
+- **Peru:** DNI ou Passaporte -- Recibo de luz, agua o teléfono
+- **Argentina:** DNI ou Passaporte -- Factura de servicio o resumen de tarjeta
 ### EUA e Canadá
 
-| País | Documento de Identidade | Documento Empresarial |
-|------|------------------------|----------------------|
-| **EUA** | Passaporte, Driver's License ou State ID | EIN Confirmation Letter, Articles of Organization |
-| **Canadá** | Passaporte ou Driver's License | Articles of Incorporation, Business Number |
-
+- **EUA:** Passaporte, Driver's License ou State ID -- EIN Confirmation Letter, Articles of Organization
+- **Canadá:** Passaporte ou Driver's License -- Articles of Incorporation, Business Number
 ### Europa
 
 - **Passaporte** ou carteira de identidade nacional
@@ -157,46 +142,34 @@ Em 2026, o Stripe utiliza:
 
 ### Conta Standard (Stripe Payments)
 
-| Requisito | Obrigatório? |
-|-----------|-------------|
-| Documento de identidade | ✅ Sim |
-| Comprovante de residência | ✅ Sim |
-| Site ou aplicativo | ✅ Sim |
-| Conta bancária | ✅ Sim |
-| EIN (empresa nos EUA) | ✅ Sim |
-| BOI (empresa nos EUA) | ✅ Sim (desde 2024) |
-| Verificação facial | ✅ Sim (2026) |
-
+- **Documento de identidade:** ✅ Sim
+- **Comprovante de residência:** ✅ Sim
+- **Site ou aplicativo:** ✅ Sim
+- **Conta bancária:** ✅ Sim
+- **EIN (empresa nos EUA):** ✅ Sim
+- **BOI (empresa nos EUA):** ✅ Sim (desde 2024)
+- **Verificação facial:** ✅ Sim (2026)
 ### Conta Stripe Connect (Plataformas)
 
-| Requisito | Obrigatório? |
-|-----------|-------------|
-| Todos os requisitos Standard | ✅ Sim |
-| Contrato de plataforma | ✅ Sim |
-| Políticas de compliance | ✅ Sim |
-| Due diligence dos usuários | ✅ Sim |
-| KYC dos sub-merchants | ✅ Sim |
-
+- **Todos os requisitos Standard:** ✅ Sim
+- **Contrato de plataforma:** ✅ Sim
+- **Políticas de compliance:** ✅ Sim
+- **Due diligence dos usuários:** ✅ Sim
+- **KYC dos sub-merchants:** ✅ Sim
 ### Conta Stripe Atlas
 
-| Requisito | Obrigatório? |
-|-----------|-------------|
-| Passaporte válido | ✅ Sim |
-| Pagamento de $500 | ✅ Sim |
-| Informações dos beneficiários | ✅ Sim |
-| Proposta de negócio | ✅ Sim |
-
+- **Passaporte válido:** ✅ Sim
+- **Pagamento de $500:** ✅ Sim
+- **Informações dos beneficiários:** ✅ Sim
+- **Proposta de negócio:** ✅ Sim
 ## 7. Obrigações Contínuas em 2026
 
 ### Manutenção da Conta
 
-| Obrigação | Frequência | Descrição |
-|-----------|-----------|-----------|
-| **Atualização de dados** | Sempre que mudar | Manter endereço, telefone e documentos atualizados |
-| **Verificação periódica** | Anual ou bienal | Stripe pode solicitar reverificação |
-| **Declaração de atividades** | Anual | Informar o volume e tipo de transações |
-| **Comprovante de endereço atualizado** | Quando solicitado | Documento com menos de 3 meses |
-
+- **Atualização de dados:** Sempre que mudar -- Manter endereço, telefone e documentos atualizados
+- **Verificação periódica:** Anual ou bienal -- Stripe pode solicitar reverificação
+- **Declaração de atividades:** Anual -- Informar o volume e tipo de transações
+- **Comprovante de endereço atualizado:** Quando solicitado -- Documento com menos de 3 meses
 ### Compliance
 
 - **BOI (Beneficial Ownership Information):** Obrigatório para todas as empresas nos EUA desde 2024
@@ -206,15 +179,12 @@ Em 2026, o Stripe utiliza:
 
 ### Taxas em 2026
 
-| Serviço | Taxa |
-|---------|------|
-| **Transações online (cartão)** | 2.9% + $0.30 (padrão) |
-| **Cartões internacionais** | +1.5% |
-| **Conversão de moeda** | 1% |
-| **Stripe Identity** | $1.50 por verificação |
-| **Stripe Connect** | 0.25% + $0.25 por transferência |
-| **Chargeback** | $15.00 |
-
+- **Transações online (cartão):** 2.9% + $0.30 (padrão)
+- **Cartões internacionais:** +1.5%
+- **Conversão de moeda:** 1%
+- **Stripe Identity:** $1.50 por verificação
+- **Stripe Connect:** 0.25% + $0.25 por transferência
+- **Chargeback:** $15.00
 ## 8. Erros Comuns na Abertura
 
 ### Erro 1: Documentos Ilegíveis

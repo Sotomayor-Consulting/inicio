@@ -20,14 +20,11 @@ Without a proper strategy, you could pay taxes in both countries.
 
 ## When does double taxation occur?
 
-| Situation | Double taxation? |
-|-----------|-----------------|
-| LLC without ECI, foreign owner | ? No (only taxed in your country) |
-| LLC with ECI, foreign owner, no treaty | ?? Possible |
-| LLC with ECI, foreign owner, with treaty | ? Avoidable with strategy |
-| LLC taxed as corporation, foreign owner | ?? Possible (dividends) |
-| Multi-member LLC with foreign partners | ?? Depends on treaty |
-
+- **LLC without ECI, foreign owner:** ? No (only taxed in your country)
+- **LLC with ECI, foreign owner, no treaty:** ?? Possible
+- **LLC with ECI, foreign owner, with treaty:** ? Avoidable with strategy
+- **LLC taxed as corporation, foreign owner:** ?? Possible (dividends)
+- **Multi-member LLC with foreign partners:** ?? Depends on treaty
 ## Mechanisms to avoid double taxation
 
 ### 1. Foreign Tax Credit
@@ -59,16 +56,13 @@ If your country of residence allows tax credits for taxes paid abroad, you can a
 
 If your country has a tax treaty with the U.S., you can reduce or eliminate tax withholdings.
 
-| Country | Treaty? | Main benefit |
-|---------|---------|-------------|
-| Mexico | Yes | 0% withholding on interest, tax credit |
-| Chile | Yes (2024) | Reduced withholding on royalties and interest |
-| Argentina | Yes | Reduced rates on dividends, interest, royalties |
-| Spain | Yes | Tax credit, exemption for certain income |
-| Colombia | No | No treaty protection |
-| Peru | No | No treaty protection |
-| Brazil | No (suspended) | No treaty protection |
-
+- **Mexico:** Yes -- 0% withholding on interest, tax credit
+- **Chile:** Yes (2024) -- Reduced withholding on royalties and interest
+- **Argentina:** Yes -- Reduced rates on dividends, interest, royalties
+- **Spain:** Yes -- Tax credit, exemption for certain income
+- **Colombia:** No -- No treaty protection
+- **Peru:** No -- No treaty protection
+- **Brazil:** No (suspended) -- No treaty protection
 **To access treaty benefits:**
 1. Obtain a **Certificate of Tax Residence** in your country.
 2. File Form W-8BEN with the IRS or bank.
@@ -99,13 +93,10 @@ If your LLC elects to be taxed as a **C-Corporation**, it pays 21% corporate tax
 
 **When is it beneficial?**
 
-| Situation | Disregarded Entity | C-Corp |
-|-----------|-------------------|--------|
-| Low income without ECI | ? Best option | ? Not beneficial |
-| High income with ECI | ? Double taxation | ? Best option |
-| Owner in treaty country | ? Depends | ? May work |
-| Owner in non-treaty country | ? Best option | ?? Evaluate |
-
+- **Low income without ECI:** ? Best option -- ? Not beneficial
+- **High income with ECI:** ? Double taxation -- ? Best option
+- **Owner in treaty country:** ? Depends -- ? May work
+- **Owner in non-treaty country:** ? Best option -- ?? Evaluate
 **C-Corp example:**
 - LLC profit: $100,000.
 - Corporate tax (21%): $21,000.
@@ -147,55 +138,40 @@ If you have flexibility in choosing where you are tax resident, you can optimize
 
 ### If you reside in Mexico (with treaty)
 
-| Strategy | Benefit |
-|----------|---------|
-| Disregarded Entity without ECI | Taxed only in Mexico |
-| Foreign Tax Credit | Avoids double taxation if U.S. tax applies |
-| W-8BEN | Reduces U.S. withholding |
-| Treaty | Reduced rates on interest (0%) and royalties |
-
+- **Disregarded Entity without ECI:** Taxed only in Mexico
+- **Foreign Tax Credit:** Avoids double taxation if U.S. tax applies
+- **W-8BEN:** Reduces U.S. withholding
+- **Treaty:** Reduced rates on interest (0%) and royalties
 **Recommended structure:** LLC disregarded entity + Mexican return with tax credit.
 
 ### If you reside in Colombia (no treaty)
 
-| Strategy | Benefit |
-|----------|---------|
-| Disregarded Entity without ECI | Taxed only in Colombia |
-| Foreign Tax Credit (if applicable) | Credit for U.S. taxes paid |
-| Avoid ECI | No U.S. return needed |
-| Evaluate C-Corp | For high income cases |
-
+- **Disregarded Entity without ECI:** Taxed only in Colombia
+- **Foreign Tax Credit (if applicable):** Credit for U.S. taxes paid
+- **Avoid ECI:** No U.S. return needed
+- **Evaluate C-Corp:** For high income cases
 **Recommended structure:** LLC disregarded entity, operate from Colombia, no ECI.
 
 ### If you reside in Argentina (with treaty)
 
-| Strategy | Benefit |
-|----------|---------|
-| Argentina-U.S. Treaty | Double taxation protection |
-| Foreign Tax Credit | Credit for U.S. taxes paid |
-| Transparent structure | LLC is not a corporation under treaty |
-| U.S. account | Protection against currency controls |
-
+- **Argentina-U.S. Treaty:** Double taxation protection
+- **Foreign Tax Credit:** Credit for U.S. taxes paid
+- **Transparent structure:** LLC is not a corporation under treaty
+- **U.S. account:** Protection against currency controls
 **Recommended structure:** LLC disregarded entity + trust (asset protection).
 
 ### If you reside in Peru (no treaty)
 
-| Strategy | Benefit |
-|----------|---------|
-| Disregarded Entity without ECI | Taxed only in Peru |
-| Avoid U.S. presence | No U.S. obligations |
-| Evaluate local treatment | LLC may be a corporation in Peru |
-
+- **Disregarded Entity without ECI:** Taxed only in Peru
+- **Avoid U.S. presence:** No U.S. obligations
+- **Evaluate local treatment:** LLC may be a corporation in Peru
 **Recommended structure:** LLC disregarded entity, operate from Peru.
 
 ### If you reside in Brazil (no treaty)
 
-| Strategy | Benefit |
-|----------|---------|
-| Disregarded Entity without ECI | Taxed only in Brazil |
-| Evaluate C-Corp | If income is high |
-| Consult Brazilian treatment | Brazil may treat LLC as corporation |
-
+- **Disregarded Entity without ECI:** Taxed only in Brazil
+- **Evaluate C-Corp:** If income is high
+- **Consult Brazilian treatment:** Brazil may treat LLC as corporation
 **Recommended structure:** Evaluate case by case with a Brazilian accountant.
 
 ## Mistakes that cause double taxation
@@ -274,15 +250,12 @@ Your country may treat the LLC differently than the U.S., creating hybrid mismat
 
 ## Strategy comparison table
 
-| Strategy | Complexity | Cost | Effectiveness | Ideal for |
-|----------|-----------|------|---------------|-----------|
-| Disregarded without ECI | Low | Low | High | All cases |
-| Foreign Tax Credit | Medium | Low | High | Countries with tax credit |
-| Tax treaty | Medium | Low | High | Treaty countries |
-| C-Corp | High | High | Medium | High income with ECI |
-| Territorial residence | High | High | High | Those who can relocate |
-| Trust + LLC | High | High | High | Large asset portfolios |
-
+- **Disregarded without ECI:** Low -- Low -- High -- All cases
+- **Foreign Tax Credit:** Medium -- Low -- High -- Countries with tax credit
+- **Tax treaty:** Medium -- Low -- High -- Treaty countries
+- **C-Corp:** High -- High -- Medium -- High income with ECI
+- **Territorial residence:** High -- High -- High -- Those who can relocate
+- **Trust + LLC:** High -- High -- High -- Large asset portfolios
 ## Anti-double taxation checklist
 
 - [ ] Determine if your LLC generates ECI in the U.S.

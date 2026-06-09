@@ -1,211 +1,160 @@
-Ôªø---
-title: "Errores Comunes al Invertir en Florida siendo Extranjero: Gu√≠a 2026"
+---
+title: "Errores Comunes al Invertir en Florida siendo Extranjero: GuÌa 2026"
 description: "Errores comunes al invertir en Florida siendo extranjero"
-cardImage: "@/images/insights/inversi√≥n-extranjera.png"
-cardImageAlt: "Se√±ales de error y advertencia sobre inversi√≥n en Florida: LLC, property tax, FIRPTA, estate tax, hurricane insurance"
+cardImage: "@/images/insights/inversiÛn-extranjera.png"
+cardImageAlt: "SeÒales de error y advertencia sobre inversiÛn en Florida: LLC, property tax, FIRPTA, estate tax, hurricane insurance"
 ---
 
-**Invertir en Florida siendo extranjero** ofrece ventajas √∫nicas: cero state income tax, alta demanda de alquiler, y un mercado s√≥lido. Pero tambi√©n tiene trampas que pueden costarte miles de d√≥lares si no las conoces.
+**Invertir en Florida siendo extranjero** ofrece ventajas ˙nicas: cero state income tax, alta demanda de alquiler, y un mercado sÛlido. Pero tambiÈn tiene trampas que pueden costarte miles de dÛlares si no las conoces.
 
-En esta gu√≠a, explicamos **los errores m√°s comunes al invertir en Florida siendo extranjero** en 2026: desde no formar LLC hasta ignorar el estate tax, pasando por errores en financiamiento, seguros, impuestos y estructura legal.
+En esta guÌa, explicamos **los errores m·s comunes al invertir en Florida siendo extranjero** en 2026: desde no formar LLC hasta ignorar el estate tax, pasando por errores en financiamiento, seguros, impuestos y estructura legal.
 
 ## 1. No Formar una LLC
 
-### El Error M√°s Com√∫n y Costoso
+### El Error M·s Com˙n y Costoso
 
-| Error | Consecuencia |
-|-------|-------------|
-| **Comprar a nombre personal** | Responsabilidad ilimitada: si te demandan, tus bienes personales est√°n en riesgo |
-| **Comprar con LLC de otro estado** | La LLC de Delaware o Wyoming cuesta m√°s en Florida (foreign LLC registration) |
-| **No mantener la LLC** | Perder protecci√≥n legal si no separas finanzas |
-
-### Por Qu√© es un Error
+- **Comprar a nombre personal:** Responsabilidad ilimitada: si te demandan, tus bienes personales est·n en riesgo
+- **Comprar con LLC de otro estado:** La LLC de Delaware o Wyoming cuesta m·s en Florida (foreign LLC registration)
+- **No mantener la LLC:** Perder protecciÛn legal si no separas finanzas
+### Por QuÈ es un Error
 
 ### Costo de No Tener LLC
 
-| Situaci√≥n | Sin LLC | Con LLC |
-|-----------|---------|---------|
-| **Formaci√≥n** | $0 | $150-400 (una vez) |
-| **Annual report** | $0 | $138.75/a√±o |
-| **Protecci√≥n legal** | ‚ùå Ninguna | ‚úÖ Limitada a la LLC |
-| **Privacidad** | ‚ùå Tu nombre en registros p√∫blicos | ‚úÖ LLC como propietaria |
-| **Estate tax** | ‚úÖ Expuesto | ‚úÖ Con holding, protegido |
-
+- **FormaciÛn:** $0 -- $150-400 (una vez)
+- **Annual report:** $0 -- $138.75/aÒo
+- **ProtecciÛn legal:** ? Ninguna -- ? Limitada a la LLC
+- **Privacidad:** ? Tu nombre en registros p˙blicos -- ? LLC como propietaria
+- **Estate tax:** ? Expuesto -- ? Con holding, protegido
 ## 2. Ignorar el Estate Tax (Impuesto a la Herencia)
 
 ### El Error que Puede Costar el 40% de tu Patrimonio
 
-| Creencias Err√≥neas | Realidad |
-|-------------------|----------|
-| "Eso solo aplica a millonarios" | ‚úÖ Aplica desde $60,000 en activos US |
-| "La LLC me protege" | ‚ö†Ô∏è Depende: si eres miembro directo, los activos de la LLC cuentan |
-| "No pienso morirme pronto" | ‚úÖ El impuesto aplica cuando fallezcas, sin importar tu edad |
-| "En mi pa√≠s no hay estate tax" | ‚úÖ EE. UU. cobra sobre activos dentro de su territorio |
+- **"Eso solo aplica a millonarios":** ? Aplica desde $60,000 en activos US
+- **"La LLC me protege":** ?? Depende: si eres miembro directo, los activos de la LLC cuentan
+- **"No pienso morirme pronto":** ? El impuesto aplica cuando fallezcas, sin importar tu edad
+- **"En mi paÌs no hay estate tax":** ? EE. UU. cobra sobre activos dentro de su territorio
+### El C·lculo que Duele
 
-### El C√°lculo que Duele
+### SoluciÛn
 
-### Soluci√≥n
-
-| Estructura | Protecci√≥n Estate Tax | Costo Anual |
-|-----------|---------------------|-------------|
-| **Nombre personal** | ‚ùå No | $0 |
-| **LLC sola** | ‚ö†Ô∏è Parcial (depende) | $138.75 + fees |
-| **LLC + Trust** | ‚úÖ S√≠ | $500-2,000 |
-| **LLC + Holding extranjera** | ‚úÖ S√≠ (recomendada) | $500-2,000 |
-
+- **Nombre personal:** ? No -- $0
+- **LLC sola:** ?? Parcial (depende) -- $138.75 + fees
+- **LLC + Trust:** ? SÌ -- $500-2,000
+- **LLC + Holding extranjera:** ? SÌ (recomendada) -- $500-2,000
 ## 3. No Obtener ITIN o Hacerlo Tarde
 
-### Por Qu√© es un Error
+### Por QuÈ es un Error
 
-| Error | Consecuencia |
-|-------|-------------|
-| **No tramitar ITIN** | No puedes presentar W-8ECI ‚Üí pagas 30% sobre ingresos brutos |
-| **ITIN tard√≠o** | Pierdes meses de deducciones y depreciaci√≥n |
-| **No renovar ITIN** | Se desactiva si no presentas tax returns por 3 a√±os |
-| **Usar ITIN incorrecto** | El IRS rechaza tu declaraci√≥n |
-
+- **No tramitar ITIN:** No puedes presentar W-8ECI ? pagas 30% sobre ingresos brutos
+- **ITIN tardÌo:** Pierdes meses de deducciones y depreciaciÛn
+- **No renovar ITIN:** Se desactiva si no presentas tax returns por 3 aÒos
+- **Usar ITIN incorrecto:** El IRS rechaza tu declaraciÛn
 ### El Costo de No Tener ITIN
 
-### C√≥mo Evitar Este Error
+### CÛmo Evitar Este Error
 
 ## 4. Subestimar el Property Tax
 
 ### El Impuesto que Nunca Desaparece
 
-| Error | Realidad |
-|-------|----------|
-| "El property tax es bajo" | ‚úÖ En Florida es 0.8-1.2%, pero sube con el valor de la propiedad |
-| "Ya est√° incluido en el pago mensual" | ‚úÖ Solo si tienes escrow. Si no, debes pagarlo por separado |
-| "El homestead exemption aplica" | ‚ùå Solo si es tu residencia principal, no para inversi√≥n |
+- **"El property tax es bajo":** ? En Florida es 0.8-1.2%, pero sube con el valor de la propiedad
+- **"Ya est· incluido en el pago mensual":** ? Solo si tienes escrow. Si no, debes pagarlo por separado
+- **"El homestead exemption aplica":** ? Solo si es tu residencia principal, no para inversiÛn
+### Ejemplo de SubestimaciÛn
 
-### Ejemplo de Subestimaci√≥n
+- **Casa unifamiliar $400K:** $4,000-5,000/aÒo
+- **Condominio $300K:** $3,000-3,600/aÒo
+- **Townhouse $350K:** $3,500-4,200/aÒo
+- **Multifamiliar $600K:** $6,000-7,200/aÒo
+## 5. No Tener el Seguro de Hurac·n Adecuado
 
-| Tipo de Propiedad | Property Tax Promedio (Florida) |
-|------------------|-------------------------------|
-| **Casa unifamiliar $400K** | $4,000-5,000/a√±o |
-| **Condominio $300K** | $3,000-3,600/a√±o |
-| **Townhouse $350K** | $3,500-4,200/a√±o |
-| **Multifamiliar $600K** | $6,000-7,200/a√±o |
+### Un Error Potencialmente CatastrÛfico
 
-## 5. No Tener el Seguro de Hurac√°n Adecuado
-
-### Un Error Potencialmente Catastr√≥fico
-
-| Error | Consecuencia |
-|-------|-------------|
-| **Seguro b√°sico sin cobertura de hurac√°n** | No cubre da√±os por viento/hurac√°n |
-| **Deducible muy bajo** | Prima muy cara |
-| **Deducible muy alto** | Pagas $10,000+ de tu bolsillo antes que el seguro pague |
-| **No tener flood insurance** | Da√±os por agua NO est√°n cubiertos en p√≥liza regular |
-| **Infravalorar la propiedad** | Si el valor de reconstrucci√≥n sube, no est√°s cubierto |
-
+- **Seguro b·sico sin cobertura de hurac·n:** No cubre daÒos por viento/hurac·n
+- **Deducible muy bajo:** Prima muy cara
+- **Deducible muy alto:** Pagas $10,000+ de tu bolsillo antes que el seguro pague
+- **No tener flood insurance:** DaÒos por agua NO est·n cubiertos en pÛliza regular
+- **Infravalorar la propiedad:** Si el valor de reconstrucciÛn sube, no est·s cubierto
 ### Costos Reales de Seguro en Florida 2026
 
-| Tipo de Propiedad | Seguro Anual (con hurac√°n) | Flood Insurance |
-|------------------|---------------------------|----------------|
-| **Casa $400K (costa)** | $4,000-8,000 | $700-2,000 |
-| **Casa $400K (interior)** | $2,500-4,500 | $400-800 |
-| **Condominio $300K** | $1,500-3,000 (master policy cubre exterior) | $400-700 |
-| **Propiedad comercial** | $5,000-15,000 | $1,000-5,000 |
+- **Casa $400K (costa):** $4,000-8,000 -- $700-2,000
+- **Casa $400K (interior):** $2,500-4,500 -- $400-800
+- **Condominio $300K:** $1,500-3,000 (master policy cubre exterior) -- $400-700
+- **Propiedad comercial:** $5,000-15,000 -- $1,000-5,000
+### Deducibles TÌpicos de Hurac·n
 
-### Deducibles T√≠picos de Hurac√°n
-
-## 6. Elegir la Ubicaci√≥n Incorrecta
+## 6. Elegir la UbicaciÛn Incorrecta
 
 ### No Todas las Zonas de Florida son Iguales
 
-| Error | Consecuencia |
-|-------|-------------|
-| **Comprar en flood zone sin saberlo** | Flood insurance obligatorio + caro |
-| **Zona con HOA restrictivo** | No puedes hacer short-term rental |
-| **√Årea con baja demanda** | Vacancia alta, DSCR bajo |
-| **Zona de alto riesgo de hurac√°n** | Seguro car√≠simo o imposible |
-| **County con impuestos altos** | Property tax > 1.5% |
-
+- **Comprar en flood zone sin saberlo:** Flood insurance obligatorio + caro
+- **Zona con HOA restrictivo:** No puedes hacer short-term rental
+- **¡rea con baja demanda:** Vacancia alta, DSCR bajo
+- **Zona de alto riesgo de hurac·n:** Seguro carÌsimo o imposible
+- **County con impuestos altos:** Property tax > 1.5%
 ### Zonas Recomendadas vs. Evitar
 
-| Zona | Rentabilidad | Property Tax | Seguro | Short-term Rental |
-|------|-------------|-------------|--------|------------------|
-| **Orlando** | ‚úÖ Alta | 0.9-1.1% | Medio | ‚úÖ Permitido |
-| **Tampa** | ‚úÖ Alta | 1.0-1.2% | Medio-Alto | ‚úÖ Permitido |
-| **Miami** | ‚úÖ Alta | 0.9-1.1% | Alto | ‚ö†Ô∏è Restricciones |
-| **Jacksonville** | ‚úÖ Media-Alta | 1.1-1.3% | Medio | ‚úÖ Permitido |
-| **Naples** | ‚úÖ Alta | 0.7-0.9% | Alto | ‚ö†Ô∏è Restricciones |
-| **Panama City Beach** | ‚ö†Ô∏è Estacional | 0.8-1.0% | Alto | ‚úÖ Permitido |
-| **Zona rural** | ‚ùå Baja | 0.6-0.8% | Bajo | ‚ö†Ô∏è Permitido |
-
+- **Orlando:** ? Alta -- 0.9-1.1% -- Medio -- ? Permitido
+- **Tampa:** ? Alta -- 1.0-1.2% -- Medio-Alto -- ? Permitido
+- **Miami:** ? Alta -- 0.9-1.1% -- Alto -- ?? Restricciones
+- **Jacksonville:** ? Media-Alta -- 1.1-1.3% -- Medio -- ? Permitido
+- **Naples:** ? Alta -- 0.7-0.9% -- Alto -- ?? Restricciones
+- **Panama City Beach:** ?? Estacional -- 0.8-1.0% -- Alto -- ? Permitido
+- **Zona rural:** ? Baja -- 0.6-0.8% -- Bajo -- ?? Permitido
 ## 7. No Entender las Reglas de HOA y Covenants
 
 ### Un Error que Mata la Rentabilidad
 
-| Error | Costo |
-|-------|-------|
-| **Comprar en comunidad con HOA que proh√≠be alquileres** | $0 ingresos por renta |
-| **HOA que limita alquileres a m√≠nimo 30 d√≠as** | No puedes hacer Airbnb |
-| **HOA con cuotas altas** | $300-1,000/mes que no consideraste |
-| **Special assessments** | $5,000-30,000 de golpe por reparaciones |
-
+- **Comprar en comunidad con HOA que prohÌbe alquileres:** $0 ingresos por renta
+- **HOA que limita alquileres a mÌnimo 30 dÌas:** No puedes hacer Airbnb
+- **HOA con cuotas altas:** $300-1,000/mes que no consideraste
+- **Special assessments:** $5,000-30,000 de golpe por reparaciones
 ### Lo que Debes Revisar Antes de Comprar
 
 ## 8. Usar el Tipo de Financiamiento Incorrecto
 
 ### Errores Comunes de Financiamiento
 
-| Error | Por Qu√© es Malo |
-|-------|----------------|
-| **Usar conventional loan sin cr√©dito US** | Te rechazan o pagas tasa muy alta |
-| **Hard money para LTR (long-term rental)** | Tasa 12% + plazo 12 meses = insostenible |
-| **No considerar DSCR loan** | La mejor opci√≥n para extranjeros |
-| **Financiar al m√°ximo (m√≠nimo down)** | DSCR bajo, tasa alta, riesgo alto |
-| **No tener pre-approval** | Pierdes propiedades frente a compradores con cash |
-
+- **Usar conventional loan sin crÈdito US:** Te rechazan o pagas tasa muy alta
+- **Hard money para LTR (long-term rental):** Tasa 12% + plazo 12 meses = insostenible
+- **No considerar DSCR loan:** La mejor opciÛn para extranjeros
+- **Financiar al m·ximo (mÌnimo down):** DSCR bajo, tasa alta, riesgo alto
+- **No tener pre-approval:** Pierdes propiedades frente a compradores con cash
 ### Lo que Debes Hacer
 
 ## 9. Olvidar el Impuesto al Vender (FIRPTA)
 
 ### El Error que Congela tu Dinero
 
-| Error | Consecuencia |
-|-------|-------------|
-| **No saber que FIRPTA existe** | Te retienen 15% del precio TOTAL de venta |
-| **No planificar la venta** | El 15% retenido puede tardar meses en devolverse |
-| **No tener asesor√≠a** | Podr√≠as pagar m√°s impuestos de lo necesario |
+- **No saber que FIRPTA existe:** Te retienen 15% del precio TOTAL de venta
+- **No planificar la venta:** El 15% retenido puede tardar meses en devolverse
+- **No tener asesorÌa:** PodrÌas pagar m·s impuestos de lo necesario
+### CÛmo FIRPTA Afecta tu Venta
 
-### C√≥mo FIRPTA Afecta tu Venta
-
-| Estrategia | Resultado |
-|-----------|----------|
-| **No planificar** | $75,000 retenidos, esperas 6-12 meses por devoluci√≥n |
-| **Solicitar 8288-B** | IRS puede reducir la retenci√≥n si demuestras que es excesiva |
-| **1031 Exchange** | No pagas FIRPTA si reinviertes en otra propiedad |
-| **Estructurar con LLC + holding** | FIRPTA sigue aplicando (la LLC vende) |
-
+- **No planificar:** $75,000 retenidos, esperas 6-12 meses por devoluciÛn
+- **Solicitar 8288-B:** IRS puede reducir la retenciÛn si demuestras que es excesiva
+- **1031 Exchange:** No pagas FIRPTA si reinviertes en otra propiedad
+- **Estructurar con LLC + holding:** FIRPTA sigue aplicando (la LLC vende)
 ## 10. No Considerar los Costos de Cierre (Closing Costs)
 
-### M√°s Caro de lo que Parece
+### M·s Caro de lo que Parece
 
-| Error | Costo Adicional |
-|-------|----------------|
-| **Pensar que solo pagas el down payment** | Closing costs = 3-5% del precio |
-| **No incluir prepaids (seguro, tax, intereses)** | $5,000-15,000 adicionales |
-| **No comparar title companies** | Diferencias de $500-2,000 |
-| **No negociar que el vendedor pague algunos costs** | Podr√≠as ahorrar $5,000-10,000 |
-
+- **Pensar que solo pagas el down payment:** Closing costs = 3-5% del precio
+- **No incluir prepaids (seguro, tax, intereses):** $5,000-15,000 adicionales
+- **No comparar title companies:** Diferencias de $500-2,000
+- **No negociar que el vendedor pague algunos costs:** PodrÌas ahorrar $5,000-10,000
 ### Desglose Real de Closing Costs
 
 ## 11. No Tener un Equipo Local de Confianza
 
 ### El Error de Hacerlo Solo
 
-| Error | Riesgo |
-|-------|--------|
-| **Usar agente que no trabaja con extranjeros** | No entiende FIRPTA, W-8ECI, ni estructura legal |
-| **No tener CPA especializado** | Pagas impuestos de m√°s o presentas mal |
-| **No tener abogado de bienes ra√≠ces** | Firmas contratos sin entender las implicaciones |
-| **No tener property manager** | Manejar propiedades desde otro pa√≠s es estresante |
-| **Contratar al contratista m√°s barato** | Reparaciones mal hechas, problemas a futuro |
-
-### Tu Equipo M√≠nimo en Florida
+- **Usar agente que no trabaja con extranjeros:** No entiende FIRPTA, W-8ECI, ni estructura legal
+- **No tener CPA especializado:** Pagas impuestos de m·s o presentas mal
+- **No tener abogado de bienes raÌces:** Firmas contratos sin entender las implicaciones
+- **No tener property manager:** Manejar propiedades desde otro paÌs es estresante
+- **Contratar al contratista m·s barato:** Reparaciones mal hechas, problemas a futuro
+### Tu Equipo MÌnimo en Florida
 
 ## 12. Checklist para Evitar Errores
 
@@ -215,9 +164,9 @@ En esta gu√≠a, explicamos **los errores m√°s comunes al invertir en Florida sien
 - [ ] Abrir cuenta bancaria en EE. UU. a nombre de la LLC
 - [ ] Configurar Stripe a nombre de la LLC (no personal)
 - [ ] Calcular DSCR realista antes de ofertar
-- [ ] Verificar restricciones de HOA (alquileres, m√≠nimo de d√≠as)
-- [ ] Revisar flood zone y riesgo de hurac√°n
-- [ ] Obtener seguro con cobertura de hurac√°n y flood
+- [ ] Verificar restricciones de HOA (alquileres, mÌnimo de dÌas)
+- [ ] Revisar flood zone y riesgo de hurac·n
+- [ ] Obtener seguro con cobertura de hurac·n y flood
 - [ ] Presupuestar closing costs (3-5% + prepaids)
 - [ ] Planificar estate tax (holding o trust)
 - [ ] Contratar agente, CPA, abogado y property manager
@@ -225,10 +174,10 @@ En esta gu√≠a, explicamos **los errores m√°s comunes al invertir en Florida sien
 - [ ] Tener 6-12 meses de reservas
 - [ ] No mezclar finanzas personales con la LLC
 
-## Conclusi√≥n
+## ConclusiÛn
 
-**Los errores al invertir en Florida siendo extranjero** son predecibles y evitables. Los m√°s costosos son no formar LLC, ignorar el estate tax, no obtener ITIN, subestimar el property tax, tener seguro inadecuado contra huracanes, elegir mala ubicaci√≥n, ignorar HOA, usar financiamiento incorrecto, olvidar FIRPTA, no presupuestar closing costs, y no tener un equipo local de confianza.
+**Los errores al invertir en Florida siendo extranjero** son predecibles y evitables. Los m·s costosos son no formar LLC, ignorar el estate tax, no obtener ITIN, subestimar el property tax, tener seguro inadecuado contra huracanes, elegir mala ubicaciÛn, ignorar HOA, usar financiamiento incorrecto, olvidar FIRPTA, no presupuestar closing costs, y no tener un equipo local de confianza.
 
-La clave del √©xito es planificar desde el d√≠a uno: estructura legal correcta, equipo profesional local, seguro adecuado, financiamiento apropiado, y conocimiento completo de los impuestos que aplican en cada etapa de la inversi√≥n.
+La clave del Èxito es planificar desde el dÌa uno: estructura legal correcta, equipo profesional local, seguro adecuado, financiamiento apropiado, y conocimiento completo de los impuestos que aplican en cada etapa de la inversiÛn.
 
-En **Sotomayor Consulting International**, te ayudamos a evitar todos estos errores: desde la formaci√≥n de LLC y obtenci√≥n de ITIN hasta la estructuraci√≥n de holding para estate tax, conexi√≥n con lenders DSCR, configuraci√≥n de Stripe, y asesor√≠a continua en tu inversi√≥n en Florida. Cont√°ctanos para una consultor√≠a personalizada.
+En **Sotomayor Consulting International**, te ayudamos a evitar todos estos errores: desde la formaciÛn de LLC y obtenciÛn de ITIN hasta la estructuraciÛn de holding para estate tax, conexiÛn con lenders DSCR, configuraciÛn de Stripe, y asesorÌa continua en tu inversiÛn en Florida. Cont·ctanos para una consultorÌa personalizada.

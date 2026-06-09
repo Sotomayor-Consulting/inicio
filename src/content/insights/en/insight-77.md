@@ -13,41 +13,32 @@ In this guide, we explain **how to protect digital assets** in 2026: intellectua
 
 ### Types of Digital Assets
 
-| Category | Examples | Value |
-|----------|----------|-------|
-| **Intellectual property** | Source code, patents, trademarks, copyright | High |
-| **Online assets** | Domains, website, social media, stores | High |
-| **Data** | Databases, customer data, analytics | High |
-| **Digital content** | Courses, eBooks, templates, designs | Medium-High |
-| **Infrastructure** | Servers, cloud accounts, APIs | Critical |
-| **Crypto assets** | Bitcoin, Ethereum, NFTs, tokens | Variable |
-| **Digital financial assets** | Stripe, PayPal, Wise, online bank accounts | Critical |
-
+- **Intellectual property:** Source code, patents, trademarks, copyright -- High
+- **Online assets:** Domains, website, social media, stores -- High
+- **Data:** Databases, customer data, analytics -- High
+- **Digital content:** Courses, eBooks, templates, designs -- Medium-High
+- **Infrastructure:** Servers, cloud accounts, APIs -- Critical
+- **Crypto assets:** Bitcoin, Ethereum, NFTs, tokens -- Variable
+- **Digital financial assets:** Stripe, PayPal, Wise, online bank accounts -- Critical
 ### Why They Are Vulnerable
 
-| Risk | Description |
-|------|-------------|
-| **Cyber theft** | Account hacking, phishing, malware |
-| **Loss of access** | Forgotten passwords, death without leaving access |
-| **Lawsuits** | IP disputes, breach of contract |
-| **Technical failures** | Data loss, server downtime |
-| **Regulatory** | Changes in privacy, crypto, IP laws |
-| **Fraud** | Social engineering, scams, impersonation |
-
+- **Cyber theft:** Account hacking, phishing, malware
+- **Loss of access:** Forgotten passwords, death without leaving access
+- **Lawsuits:** IP disputes, breach of contract
+- **Technical failures:** Data loss, server downtime
+- **Regulatory:** Changes in privacy, crypto, IP laws
+- **Fraud:** Social engineering, scams, impersonation
 > In 2026, digital assets represent over 70% of tech company value. Protecting them is protecting your business.
 
 ## 2. Intellectual Property
 
 ### IP Registration
 
-| Asset | Protection Method | Jurisdiction | Cost |
-|-------|------------------|-------------|-------|
-| **Source code** | Copyright + escrow | US (Copyright Office) | $35-55 |
-| **Trademark** | Trademark registration | USPTO, EUIPO | $250-1,000 |
-| **Patent** | Utility or method patent | USPTO, PCT | $5,000-15,000 |
-| **Design** | Copyright + industrial design | US, EU | $50-500 |
-| **Database** | Copyright (compilation) | US | $35-55 |
-
+- **Source code:** Copyright + escrow -- US (Copyright Office) -- $35-55
+- **Trademark:** Trademark registration -- USPTO, EUIPO -- $250-1,000
+- **Patent:** Utility or method patent -- USPTO, PCT -- $5,000-15,000
+- **Design:** Copyright + industrial design -- US, EU -- $50-500
+- **Database:** Copyright (compilation) -- US -- $35-55
 ### Transferring IP to the Company
 
 ### Rights Assignment
@@ -56,96 +47,72 @@ In this guide, we explain **how to protect digital assets** in 2026: intellectua
 
 ### Account Protection
 
-| Account | Security Measure |
-|---------|-----------------|
-| **Stripe** | 2FA, IP whitelist, limited team |
-| **Business email** | 2FA, passkeys, secure recovery |
-| **Cloud (AWS, GCP, Azure)** | IAM roles, MFA, rotated access keys |
-| **GitHub/GitLab** | 2FA, SSH keys, deploy keys |
-| **Domains** | Transfer lock, 2FA at registrar |
-| **Social media** | 2FA, team access, unique passwords |
-
+- **Stripe:** 2FA, IP whitelist, limited team
+- **Business email:** 2FA, passkeys, secure recovery
+- **Cloud (AWS, GCP, Azure):** IAM roles, MFA, rotated access keys
+- **GitHub/GitLab:** 2FA, SSH keys, deploy keys
+- **Domains:** Transfer lock, 2FA at registrar
+- **Social media:** 2FA, team access, unique passwords
 ### Password Management
 
-| Tool | Use | Price |
-|------|-----|-------|
-| **1Password** | Enterprise password management | $8/month per user |
-| **Bitwarden** | Open source password management | $3/month per user |
-| **Dashlane** | Password management + VPN | $8/month |
-
+- **1Password:** Enterprise password management -- $8/month per user
+- **Bitwarden:** Open source password management -- $3/month per user
+- **Dashlane:** Password management + VPN -- $8/month
 ### Digital Asset Backup
 
-| Asset | Backup Method | Frequency |
-|-------|--------------|-----------|
-| **Source code** | Git + remote repo + offline backup | Per commit |
-| **Database** | Automated snapshot + replica | Daily |
-| **Stripe configuration** | Export configurations | Monthly |
-| **Content** | Cloud + local copy | Weekly |
-| **Passwords** | Encrypted export + secure physical copy | Quarterly |
-
+- **Source code:** Git + remote repo + offline backup -- Per commit
+- **Database:** Automated snapshot + replica -- Daily
+- **Stripe configuration:** Export configurations -- Monthly
+- **Content:** Cloud + local copy -- Weekly
+- **Passwords:** Encrypted export + secure physical copy -- Quarterly
 ## 4. Legal Structure for Digital Assets
 
 ### Where to Register Assets
 
 ### Required Contracts
 
-| Contract | Purpose |
-|----------|---------|
-| **Rights assignment** | Transfer IP from founder to company |
-| **License agreement** | Permission for operating to use holding's IP |
-| **NDA (Confidentiality)** | Protect sensitive info with employees/contractors |
-| **Terms of service** | Regulate client use of your product/service |
-| **Privacy policy** | Comply with GDPR, LGPD, CCPA |
-
+- **Rights assignment:** Transfer IP from founder to company
+- **License agreement:** Permission for operating to use holding's IP
+- **NDA (Confidentiality):** Protect sensitive info with employees/contractors
+- **Terms of service:** Regulate client use of your product/service
+- **Privacy policy:** Comply with GDPR, LGPD, CCPA
 ## 5. Stripe as a Digital Asset
 
 ### Protecting Your Stripe Account
 
-| Measure | Description |
-|---------|-------------|
-| **Mandatory 2FA** | Two-factor auth for entire team |
-| **IP whitelist** | Restrict access to company IPs |
-| **Role-based users** | Only give access to those who need it |
-| **Webhook secret** | Sign all notifications |
-| **Radar** | Custom anti-fraud rules |
-| **Rotated API keys** | Rotate keys periodically |
-
+- **Mandatory 2FA:** Two-factor auth for entire team
+- **IP whitelist:** Restrict access to company IPs
+- **Role-based users:** Only give access to those who need it
+- **Webhook secret:** Sign all notifications
+- **Radar:** Custom anti-fraud rules
+- **Rotated API keys:** Rotate keys periodically
 ### Stripe Atlas for Asset Protection
 
 ## 6. Insurance for Digital Assets
 
 ### Recommended Insurance
 
-| Insurance | Covers | Approx. Cost |
-|-----------|--------|-------------|
-| **Cybersecurity** | Hacking, data loss, ransomware | $1,000-5,000/year |
-| **Technology E&O** | Bugs, downtime, client data loss | $1,500-6,000/year |
-| **Intellectual property** | IP infringement defense | $2,000-10,000/year |
-| **Cyber crime** | Fraud, phishing, unauthorized transfers | $1,000-3,000/year |
-
+- **Cybersecurity:** Hacking, data loss, ransomware -- $1,000-5,000/year
+- **Technology E&O:** Bugs, downtime, client data loss -- $1,500-6,000/year
+- **Intellectual property:** IP infringement defense -- $2,000-10,000/year
+- **Cyber crime:** Fraud, phishing, unauthorized transfers -- $1,000-3,000/year
 ### What Cybersecurity Insurance Covers
 
-| Coverage | Description |
-|----------|-------------|
-| **Incident response** | Forensics, customer notification, PR |
-| **Data loss** | Data recovery, restoration costs |
-| **Ransomware** | Ransom payment (if needed), negotiation |
-| **Legal defense** | Lawyer costs for data breach |
-| **Regulatory fines** | GDPR/LGPD non-compliance penalties |
-| **Business interruption** | Revenue loss from cyber attack |
-
+- **Incident response:** Forensics, customer notification, PR
+- **Data loss:** Data recovery, restoration costs
+- **Ransomware:** Ransom payment (if needed), negotiation
+- **Legal defense:** Lawyer costs for data breach
+- **Regulatory fines:** GDPR/LGPD non-compliance penalties
+- **Business interruption:** Revenue loss from cyber attack
 ## 7. Digital Succession Plan
 
 ### What Happens to Your Digital Assets If You Die?
 
-| Asset | No Plan | With Plan |
-|-------|---------|-----------|
-| **Stripe** | Account frozen, funds held | Designated successor accesses |
-| **Domains** | Expire, you lose them | Automatic transfer |
-| **Source code** | Access lost | Repository transferred |
-| **Social media** | Orphaned accounts | Designated admin |
-| **Crypto assets** | Irrecoverable without private key | Access in digital will |
-
+- **Stripe:** Account frozen, funds held -- Designated successor accesses
+- **Domains:** Expire, you lose them -- Automatic transfer
+- **Source code:** Access lost -- Repository transferred
+- **Social media:** Orphaned accounts -- Designated admin
+- **Crypto assets:** Irrecoverable without private key -- Access in digital will
 ### How to Create a Digital Succession Plan
 
 ### Stripe: Designating a Successor
@@ -154,26 +121,20 @@ In this guide, we explain **how to protect digital assets** in 2026: intellectua
 
 ### Privacy Regulations
 
-| Regulation | Scope | Maximum Fine |
-|-----------|-------|-------------|
-| **GDPR** | European Union | €20M or 4% revenue |
-| **CCPA** | California, US | $7,500 per violation |
-| **LGPD** | Brazil | 2% revenue (max R$50M) |
-
+- **GDPR:** European Union -- €20M or 4% revenue
+- **CCPA:** California, US -- $7,500 per violation
+- **LGPD:** Brazil -- 2% revenue (max R$50M)
 ### Stripe and Data Protection
 
 ## 9. Monitoring and Maintenance
 
 ### Protection Routines
 
-| Frequency | Action |
-|-----------|--------|
-| **Daily** | Review Stripe activity, suspicious transactions |
-| **Weekly** | Database backup, review logs |
-| **Monthly** | Rotate API keys, review team access |
-| **Quarterly** | Update passwords, review insurance |
-| **Annually** | Security audit, renew IP registrations |
-
+- **Daily:** Review Stripe activity, suspicious transactions
+- **Weekly:** Database backup, review logs
+- **Monthly:** Rotate API keys, review team access
+- **Quarterly:** Update passwords, review insurance
+- **Annually:** Security audit, renew IP registrations
 ### Stripe Radar for Monitoring
 
 ## 10. Frequently Asked Questions
@@ -206,15 +167,12 @@ Yes. Without trademark registration, anyone can use your name. Register with USP
 
 ### Summary in 6 Steps
 
-| Step | Action | Time |
-|------|--------|------|
-| **1** | Identify all your digital assets (take inventory) | 1-2 days |
-| **2** | Register IP (trademark, code, patents) under company name | 2-4 weeks |
-| **3** | Implement security measures (2FA, password manager, backups) | 1 week |
-| **4** | Purchase cybersecurity and technology E&O insurance | 1 week |
-| **5** | Create a digital succession plan | 1-2 days |
-| **6** | Set up continuous monitoring (Stripe Radar, logs, alerts) | 1 day |
-
+- **1:** Identify all your digital assets (take inventory) -- 1-2 days
+- **2:** Register IP (trademark, code, patents) under company name -- 2-4 weeks
+- **3:** Implement security measures (2FA, password manager, backups) -- 1 week
+- **4:** Purchase cybersecurity and technology E&O insurance -- 1 week
+- **5:** Create a digital succession plan -- 1-2 days
+- **6:** Set up continuous monitoring (Stripe Radar, logs, alerts) -- 1 day
 ### Digital Asset Protection Checklist
 
 - [ ] Complete inventory of digital assets

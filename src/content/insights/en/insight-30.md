@@ -13,16 +13,13 @@ In this guide, we explore how to use LLCs and other international structures to 
 
 ### Common risks for international entrepreneurs
 
-| Risk | Description |
-|------|-------------|
-| **Client lawsuits** | An unsatisfied client can sue your business |
-| **Partner disputes** | Disagreements that end in litigation |
-| **Suppliers or creditors** | Business debts claiming your personal assets |
-| **Tax problems** | The IRS or your country's tax authority can levy accounts |
-| **Divorce or inheritance** | Claims on your assets from personal changes |
-| **Political/economic instability** | Devaluation, capital controls, expropriation in your country |
-| **Professional errors** | Negligence or malpractice lawsuits |
-
+- **Client lawsuits:** An unsatisfied client can sue your business
+- **Partner disputes:** Disagreements that end in litigation
+- **Suppliers or creditors:** Business debts claiming your personal assets
+- **Tax problems:** The IRS or your country's tax authority can levy accounts
+- **Divorce or inheritance:** Claims on your assets from personal changes
+- **Political/economic instability:** Devaluation, capital controls, expropriation in your country
+- **Professional errors:** Negligence or malpractice lawsuits
 ### The basic principle: asset separation
 
 Asset protection is based on a simple principle: **separate your personal assets from your business risks**. If your business is sued or goes bankrupt, your personal assets �home, savings, investments� are protected.
@@ -60,13 +57,10 @@ Depending on your country of residence, assets inside a U.S. LLC can be harder f
 
 Some U.S. states have specific laws protecting assets inside LLCs:
 
-| State | Protection | Detail |
-|--------|-----------|---------|
-| **Wyoming** | Charge order protection | A creditor can only receive LLC distributions, not control assets |
-| **Nevada** | Charge order protection | Similar to Wyoming |
-| **Delaware** | Series LLC | Each series has independent protection |
-| **Florida** | Homestead exemption | Protection of primary residence |
-
+- **Wyoming:** Charge order protection -- A creditor can only receive LLC distributions, not control assets
+- **Nevada:** Charge order protection -- Similar to Wyoming
+- **Delaware:** Series LLC -- Each series has independent protection
+- **Florida:** Homestead exemption -- Protection of primary residence
 **Charge order protection:** This is the legal mechanism that limits what a creditor can do with your LLC. If a creditor wins a lawsuit against you personally, they cannot take your LLC's assets. They can only obtain a "charge order" giving them the right to receive any distributions the LLC makes to you �but they cannot force the LLC to make distributions.
 
 ### 4. Series LLC: protection by business line
@@ -89,13 +83,10 @@ If Series A is sued, Series B and C are protected.
 Instead of having one business in one LLC, you can have multiple LLCs for different assets or business lines.
 
 **Example:**
-| LLC | Purpose | Assets |
-|-----|---------|--------|
-| **Operating LLC** | Business operations | Accounts receivable, contracts |
-| **Property LLC** | Intellectual property | Trademarks, patents, copyrights |
-| **Real Estate LLC** | Real estate | Properties |
-| **Holding LLC** | Investments | Stocks, funds |
-
+- **Operating LLC:** Business operations -- Accounts receivable, contracts
+- **Property LLC:** Intellectual property -- Trademarks, patents, copyrights
+- **Real Estate LLC:** Real estate -- Properties
+- **Holding LLC:** Investments -- Stocks, funds
 **Benefit:** If someone sues the Operating LLC, they cannot reach the real estate or intellectual property.
 
 ### Strategy 2: LLC + Trust
@@ -111,13 +102,10 @@ Combining an LLC with a trust adds another layer of protection.
 - Greater privacy (the trust is not public like the LLC).
 
 **Types of trusts for asset protection:**
-| Trust | Purpose |
-|-------|---------|
-| **Revocable Living Trust** | Avoid probate, privacy |
-| **Irrevocable Trust** | Maximum protection, but you lose control |
-| **Asset Protection Trust** | Designed specifically for protection |
-| **Family Trust** | Protection and inheritance planning |
-
+- **Revocable Living Trust:** Avoid probate, privacy
+- **Irrevocable Trust:** Maximum protection, but you lose control
+- **Asset Protection Trust:** Designed specifically for protection
+- **Family Trust:** Protection and inheritance planning
 ### Strategy 3: LLC in favorable state + offshore bank account
 
 **Structure:**
@@ -130,13 +118,10 @@ Combining an LLC with a trust adds another layer of protection.
 
 For larger asset portfolios, a multi-jurisdictional structure:
 
-| Level | Jurisdiction | Purpose |
-|-------|-------------|---------|
-| **Holding** | Panama, BVI | Owner of subsidiaries |
-| **Operating** | U.S. (Wyoming/Florida) | Business operations |
-| **IP Holding** | Delaware or Nevada | Intellectual property |
-| **Local** | Your country of residence | Local compliance |
-
+- **Holding:** Panama, BVI -- Owner of subsidiaries
+- **Operating:** U.S. (Wyoming/Florida) -- Business operations
+- **IP Holding:** Delaware or Nevada -- Intellectual property
+- **Local:** Your country of residence -- Local compliance
 **Benefits:**
 - Multiple layers of protection.
 - International tax optimization.
@@ -149,13 +134,10 @@ For larger asset portfolios, a multi-jurisdictional structure:
 
 It is important to distinguish between **legal** asset protection and **tax evasion** or **fraud**.
 
-| ? Legal protection | ? Evasion/fraud |
-|-------------------|------------------|
-| Separating personal from business assets | Hiding assets from the IRS |
-| Using legal structures to limit liability | Not declaring income |
-| Planning inheritance and succession | Transferring assets to avoid paying existing debts |
-| Choosing states with favorable laws | Using structures for money laundering |
-
+- **Separating personal from business assets:** Hiding assets from the IRS
+- **Using legal structures to limit liability:** Not declaring income
+- **Planning inheritance and succession:** Transferring assets to avoid paying existing debts
+- **Choosing states with favorable laws:** Using structures for money laundering
 **Asset protection does not exempt you from paying taxes.** You must declare your income in your country of residence and comply with all tax obligations.
 
 ## By country: specific considerations

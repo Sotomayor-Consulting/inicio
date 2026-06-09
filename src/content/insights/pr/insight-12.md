@@ -90,13 +90,10 @@ A pergunta correta �: **segundo minha atividade, resid�ncia fiscal e modelo 
 
 ## Tabela resumo
 
-| Cen�rio | Paga imposto federal? | Apresenta formul�rios? |
-|---------|----------------------|----------------------|
-| Single-member LLC estrangeira sem ECI | N�o | Sim (5472, 1120 pro forma) |
-| Multi-member LLC sem ECI | N�o (pass-through) | Sim (1065, K-1) |
-| LLC com ECI (receitas EUA) | Sim | Sim |
-| LLC que optou por tributar como C-Corp | Sim | Sim |
-
+- **Single-member LLC estrangeira sem ECI:** N�o -- Sim (5472, 1120 pro forma)
+- **Multi-member LLC sem ECI:** N�o (pass-through) -- Sim (1065, K-1)
+- **LLC com ECI (receitas EUA):** Sim -- Sim
+- **LLC que optou por tributar como C-Corp:** Sim -- Sim
 ## Conclus�o
 
 Uma LLC n�o paga impostos automaticamente, mas tamb�m n�o est� isenta de obriga��es. O tratamento fiscal depender� de sua estrutura, atividade, receitas e resid�ncia fiscal.

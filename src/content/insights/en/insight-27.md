@@ -38,13 +38,10 @@ However, most mistakes are avoidable. In this guide, we compile the most common 
 - They change their address and do not receive state notices.
 
 **How to avoid it:**
-| State | Annual Report Due | Penalty for not filing |
-|--------|------------------|----------------------|
-| Wyoming | January 1 | $60 + penalty |
-| Florida | May 1 | $400 |
-| Delaware | March 1 | $200 + penalty |
-| New Mexico | Not required | N/A |
-
+- **Wyoming:** January 1 -- $60 + penalty
+- **Florida:** May 1 -- $400
+- **Delaware:** March 1 -- $200 + penalty
+- **New Mexico:** Not required -- N/A
 - Set calendar reminders.
 - Use a Registered Agent service that notifies you.
 - If you change your address, update it with the state and the IRS.
@@ -171,42 +168,30 @@ However, most mistakes are avoidable. In this guide, we compile the most common 
 
 ### Formation stage
 
-| Mistake | Consequence | How to avoid |
-|---------|-------------|--------------|
-| Choosing the wrong state | Higher cost, worse protection | Wyoming or Florida for most cases |
-| Not drafting an Operating Agreement | Internal disputes, bank problems | Do it before requesting the EIN |
-| Unreliable Registered Agent | Missing important notices | Use a professional service |
-| EIN with incorrect data | Bank and filing problems | Verify everything before submitting SS-4 |
-
+- **Choosing the wrong state:** Higher cost, worse protection -- Wyoming or Florida for most cases
+- **Not drafting an Operating Agreement:** Internal disputes, bank problems -- Do it before requesting the EIN
+- **Unreliable Registered Agent:** Missing important notices -- Use a professional service
+- **EIN with incorrect data:** Bank and filing problems -- Verify everything before submitting SS-4
 ### Operating stage
 
-| Mistake | Consequence | How to avoid |
-|---------|-------------|--------------|
-| Not separating accounts | Legal and banking risk | Always use separate accounts |
-| Not filing 5472 | $25,000 penalty | Schedule it and file every year |
-| Personal expenses on the LLC | Account closure | Use business card |
-| Not documenting transactions | Audit problems | Save invoices and contracts |
-
+- **Not separating accounts:** Legal and banking risk -- Always use separate accounts
+- **Not filing 5472:** $25,000 penalty -- Schedule it and file every year
+- **Personal expenses on the LLC:** Account closure -- Use business card
+- **Not documenting transactions:** Audit problems -- Save invoices and contracts
 ### Compliance stage
 
-| Mistake | Consequence | How to avoid |
-|---------|-------------|--------------|
-| Not filing Annual Report | LLC suspension | Set reminders |
-| Ignoring IRS letters | Penalties and sanctions | Always open and respond |
-| Not updating address | Missing notices | Use Form 8822-B |
-| Not filing BOI | $10,000 penalty | Verify obligation and file |
-
+- **Not filing Annual Report:** LLC suspension -- Set reminders
+- **Ignoring IRS letters:** Penalties and sanctions -- Always open and respond
+- **Not updating address:** Missing notices -- Use Form 8822-B
+- **Not filing BOI:** $10,000 penalty -- Verify obligation and file
 ## The cost of mistakes
 
-| Mistake | Potential penalty or cost |
-|---------|--------------------------|
-| Not filing 5472 | $25,000 per year |
-| Not filing Annual Report | $60 - $400 + reinstatement |
-| Not filing BOI | $10,000 + possible jail |
-| Frozen bank account | Lost income, months of delay |
-| Suspended LLC | Cannot operate, clients leave |
-| IRS audit | Legal costs, penalties, back taxes |
-
+- **Not filing 5472:** $25,000 per year
+- **Not filing Annual Report:** $60 - $400 + reinstatement
+- **Not filing BOI:** $10,000 + possible jail
+- **Frozen bank account:** Lost income, months of delay
+- **Suspended LLC:** Cannot operate, clients leave
+- **IRS audit:** Legal costs, penalties, back taxes
 ## Practical case: What NOT to do
 
 **Situation:** Pablo, an SEO specialist from Peru, formed his LLC in Wyoming in 2022. Here is what he did wrong:

@@ -17,19 +17,16 @@ In this guide, we cover **how to review your business tax status in 2026**: fede
 
 ### Key Items to Check on Your IRS Account
 
-| Check Item | Where to Find It | What to Look For | Red Flag |
-|------------|------------------|------------------|----------|
-| Balance Due | Account transcript | Outstanding balances | Any amount > $0 |
-| Return Filing Status | Return transcript | Return received/processed | "Not filed" for any year |
-| Estimated Tax Payments | Account transcript | Payment history | Missing or late quarterly payments |
-| Penalties Assessed | Account transcript | Penalty codes | Late filing, late payment, or accuracy penalties |
-| Interest Accrued | Account transcript | Interest line items | Growing interest = unresolved balance |
-| Liens Filed | Account transcript | Lien indicators | Federal tax lien notation |
-| Levies Issued | Account transcript | Levy indicators | Levy on bank account or receivables |
-| Identity Protection | IP PIN status | PIN active | No IP PIN = identity theft risk |
-| Payment Plan Status | Account transcript | Installment agreement | Missing or broken agreement |
-| Notice History | Account transcript | CP notice codes | Unresolved notices |
-
+- **Balance Due:** Account transcript -- Outstanding balances -- Any amount > $0
+- **Return Filing Status:** Return transcript -- Return received/processed -- "Not filed" for any year
+- **Estimated Tax Payments:** Account transcript -- Payment history -- Missing or late quarterly payments
+- **Penalties Assessed:** Account transcript -- Penalty codes -- Late filing, late payment, or accuracy penalties
+- **Interest Accrued:** Account transcript -- Interest line items -- Growing interest = unresolved balance
+- **Liens Filed:** Account transcript -- Lien indicators -- Federal tax lien notation
+- **Levies Issued:** Account transcript -- Levy indicators -- Levy on bank account or receivables
+- **Identity Protection:** IP PIN status -- PIN active -- No IP PIN = identity theft risk
+- **Payment Plan Status:** Account transcript -- Installment agreement -- Missing or broken agreement
+- **Notice History:** Account transcript -- CP notice codes -- Unresolved notices
 ### IRS Business Tax Transcript Codes
 
 ## 2. State Tax Compliance Review
@@ -44,17 +41,14 @@ In this guide, we cover **how to review your business tax status in 2026**: fede
 
 ### Local Tax Categories
 
-| Tax Type | Typical Authority | Check Frequency | Common Issues |
-|----------|------------------|----------------|---------------|
-| Business License | City or county | Annual renewal | Operating without license |
-| Gross Receipts Tax | City | Quarterly or annual | Late filing penalties |
-| Property Tax | County | Annual | Business personal property tax |
-| Payroll Tax | City/county | Per pay period | Incorrect withholding |
-| Transient Occupancy Tax | City | Monthly or quarterly | Airbnb/short-term rental |
-| Utility Tax | City | Monthly | Business utility accounts |
-| Signage Permit | City | One-time + renewal | Unpermitted business signs |
-| Zoning Permit | City | One-time | Operating in wrong zone |
-
+- **Business License:** City or county -- Annual renewal -- Operating without license
+- **Gross Receipts Tax:** City -- Quarterly or annual -- Late filing penalties
+- **Property Tax:** County -- Annual -- Business personal property tax
+- **Payroll Tax:** City/county -- Per pay period -- Incorrect withholding
+- **Transient Occupancy Tax:** City -- Monthly or quarterly -- Airbnb/short-term rental
+- **Utility Tax:** City -- Monthly -- Business utility accounts
+- **Signage Permit:** City -- One-time + renewal -- Unpermitted business signs
+- **Zoning Permit:** City -- One-time -- Operating in wrong zone
 ### How to Check Local Tax Compliance
 
 ## 4. Multi-State Nexus Analysis

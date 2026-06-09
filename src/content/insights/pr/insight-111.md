@@ -15,31 +15,25 @@ Neste guia, cobrimos **o que fazer se você nunca declarou impostos em 2026**: p
 
 ### Razões comuns para não declarar
 
-| Motivo | Descrição | Quão comum |
-|--------|-------------|------------|
-| **Sobrecarregado pela complexidade** | Renda empresarial, cripto, contas estrangeiras, deduções | Muito comum |
-| **Medo de não poder pagar** | Deve impostos mas não pode pagar a conta | Motivo mais comum |
-| **Eventos da vida** | Divórcio, morte do cônjuge, doença, perda de emprego | Comum |
-| **Procrastinação** | Perdeu um ano, então virou bola de neve | Extremamente comum |
-| **Acreditar que não deve impostos** | Achou que a renda era muito baixa ou que as perdas cobriam tudo | Moderado |
-| **Má gestão de registros** | Recibos perdidos, sem DRE, não pode reconstruir renda | Comum |
-| **Mau conselho** | Alguém disse "não se preocupe com isso" | Moderado |
-| **Mentalidade de evitação** | Medo, vergonha, ansiedade sobre o processo | Muito comum |
-
+- **Sobrecarregado pela complexidade:** Renda empresarial, cripto, contas estrangeiras, deduções -- Muito comum
+- **Medo de não poder pagar:** Deve impostos mas não pode pagar a conta -- Motivo mais comum
+- **Eventos da vida:** Divórcio, morte do cônjuge, doença, perda de emprego -- Comum
+- **Procrastinação:** Perdeu um ano, então virou bola de neve -- Extremamente comum
+- **Acreditar que não deve impostos:** Achou que a renda era muito baixa ou que as perdas cobriam tudo -- Moderado
+- **Má gestão de registros:** Recibos perdidos, sem DRE, não pode reconstruir renda -- Comum
+- **Mau conselho:** Alguém disse "não se preocupe com isso" -- Moderado
+- **Mentalidade de evitação:** Medo, vergonha, ansiedade sobre o processo -- Muito comum
 ### O efeito bola de neve
 
 ## 2. Os riscos reais do não cumprimento
 
 ### Espectro de aplicação do IRS
 
-| Nível de risco | Cenário | Resultado provável |
-|------------|----------|----------------|
-| **Baixo** | Declarou tarde mas pagou todos os impostos devidos | Apenas multa por declaração tardia (5% ao mês, máx. 25%) |
-| **Moderado** | Não declarou, não deve impostos (reembolso devido) | Sem multa, mas o estatuto de limitações nunca começa; o reembolso pode ser perdido após 3 anos |
-| **Significativo** | Não declarou, deve impostos | Multa por declaração tardia (5%/mês) + pagamento atrasado (0,5%/mês); juros compostos diários |
-| **Alto** | Não declarou, deve impostos significativos, recebeu avisos do IRS | Declaração substituta (SFR) apresentada pelo IRS — geralmente desfavorável; penhoras e gravames possíveis |
-| **Grave** | Anos sem declarar com impostos substanciais devidos | Encaminhamento para investigação criminal possível (raro, mas real para grandes valores) |
-
+- **Baixo:** Declarou tarde mas pagou todos os impostos devidos -- Apenas multa por declaração tardia (5% ao mês, máx. 25%)
+- **Moderado:** Não declarou, não deve impostos (reembolso devido) -- Sem multa, mas o estatuto de limitações nunca começa; o reembolso pode ser perdido após 3 anos
+- **Significativo:** Não declarou, deve impostos -- Multa por declaração tardia (5%/mês) + pagamento atrasado (0,5%/mês); juros compostos diários
+- **Alto:** Não declarou, deve impostos significativos, recebeu avisos do IRS -- Declaração substituta (SFR) apresentada pelo IRS — geralmente desfavorável; penhoras e gravames possíveis
+- **Grave:** Anos sem declarar com impostos substanciais devidos -- Encaminhamento para investigação criminal possível (raro, mas real para grandes valores)
 ### A armadilha do estatuto de limitações
 
 ### Declaração substituta (SFR)

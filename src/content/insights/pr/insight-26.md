@@ -24,36 +24,30 @@ Um **tratado de dupla tributa��o** � um acordo entre dois pa�ses para ev
 
 A aplica��o de tratados a LLCs � complexa porque o IRS trata as LLCs de maneira diferente conforme sua classifica��o fiscal:
 
-| Classifica��o fiscal | Como o tratado v� |
-|--------------------|------------------|
-| **Disregarded Entity** (single-member) | O IRS ignora a LLC; o propriet�rio � o contribuinte. O tratado se aplica segundo o pa�s do propriet�rio. |
-| **Partnership** (multi-member) | A LLC n�o paga impostos; os s�cios reportam sua parte. O tratado se aplica segundo o pa�s de cada s�cio. |
-| **Corporation (S-Corp ou C-Corp)** | A LLC paga impostos como corpora��o. O tratado se aplica � LLC como entidade. |
-
+- **Disregarded Entity** (single-member):** O IRS ignora a LLC; o propriet�rio � o contribuinte. O tratado se aplica segundo o pa�s do propriet�rio.
+- **Partnership** (multi-member):** A LLC n�o paga impostos; os s�cios reportam sua parte. O tratado se aplica segundo o pa�s de cada s�cio.
+- **Corporation (S-Corp ou C-Corp):** A LLC paga impostos como corpora��o. O tratado se aplica � LLC como entidade.
 > **Consequ�ncia pr�tica:** A maioria dos empreendedores latino-americanos opera como disregarded entity, portanto o tratado se aplica conforme seu pa�s de resid�ncia.
 
 ## Pa�ses com tratado fiscal com os EUA
 
 Os EUA t�m tratados fiscais com mais de 60 pa�ses. Para a Am�rica Latina, os tratados vigentes s�o:
 
-| Pa�s | Tratado vigente | Taxa de reten��o sobre juros | Taxa de reten��o sobre royalties |
-|------|----------------|------------------------------|----------------------------------|
-| **M�xico** | Sim | 0% / 4,9% / 10% | 10% |
-| **Col�mbia** | N�o (em negocia��o) | 30% (sem tratado) | 30% (sem tratado) |
-| **Peru** | N�o | 30% (sem tratado) | 30% (sem tratado) |
-| **Chile** | Sim (desde 2024) | 2% / 4% / 10% | 10% / 15% |
-| **Argentina** | Sim | 0% / 3% / 5% / 12,5% | 3% / 5% / 10% / 15% |
-| **Brasil** | N�o (suspenso) | 30% (sem tratado) | 30% (sem tratado) |
-| **Venezuela** | Sim | 4,95% / 10% | 10% / 20% |
-| **Equador** | N�o | 30% (sem tratado) | 30% (sem tratado) |
-| **Costa Rica** | N�o | 30% (sem tratado) | 30% (sem tratado) |
-| **Panam�** | N�o | 30% (sem tratado) | 30% (sem tratado) |
-| **Rep�blica Dominicana** | N�o | 30% (sem tratado) | 30% (sem tratado) |
-| **Uruguai** | N�o | 30% (sem tratado) | 30% (sem tratado) |
-| **Paraguai** | N�o | 30% (sem tratado) | 30% (sem tratado) |
-| **Bol�via** | N�o | 30% (sem tratado) | 30% (sem tratado) |
-| **Espanha** | Sim | 0% / 5% / 10% | 5% / 10% / 15% |
-
+- **M�xico:** Sim -- 0% / 4,9% / 10% -- 10%
+- **Col�mbia:** N�o (em negocia��o) -- 30% (sem tratado) -- 30% (sem tratado)
+- **Peru:** N�o -- 30% (sem tratado) -- 30% (sem tratado)
+- **Chile:** Sim (desde 2024) -- 2% / 4% / 10% -- 10% / 15%
+- **Argentina:** Sim -- 0% / 3% / 5% / 12,5% -- 3% / 5% / 10% / 15%
+- **Brasil:** N�o (suspenso) -- 30% (sem tratado) -- 30% (sem tratado)
+- **Venezuela:** Sim -- 4,95% / 10% -- 10% / 20%
+- **Equador:** N�o -- 30% (sem tratado) -- 30% (sem tratado)
+- **Costa Rica:** N�o -- 30% (sem tratado) -- 30% (sem tratado)
+- **Panam�:** N�o -- 30% (sem tratado) -- 30% (sem tratado)
+- **Rep�blica Dominicana:** N�o -- 30% (sem tratado) -- 30% (sem tratado)
+- **Uruguai:** N�o -- 30% (sem tratado) -- 30% (sem tratado)
+- **Paraguai:** N�o -- 30% (sem tratado) -- 30% (sem tratado)
+- **Bol�via:** N�o -- 30% (sem tratado) -- 30% (sem tratado)
+- **Espanha:** Sim -- 0% / 5% / 10% -- 5% / 10% / 15%
 > **Nota importante:** Mesmo que seu pa�s n�o tenha tratado, voc� pode ter obriga��es fiscais reduzidas se sua LLC n�o gerar "Effectively Connected Income" (ECI) nos EUA.
 
 ## Como cada tipo de renda � afetado
@@ -106,23 +100,17 @@ Um tema cr�tico para empreendedores latino-americanos � que **nem todos os p
 
 ### Se seu pa�s tem tratado com os EUA (M�xico, Chile, Argentina, Espanha)
 
-| A��o | Benef�cio |
-|------|-----------|
-| Verificar se o tratado se aplica a disregarded entities | Redu��o ou elimina��o de reten��es |
-| Solicitar o certificado de resid�ncia fiscal no seu pa�s | Acessar os benef�cios do tratado |
-| Estruturar pagamentos para qualificar sob o tratado | Menores taxas de reten��o sobre juros e royalties |
-| Avaliar se sua LLC deve tributar como corporation | Simplificar a aplica��o do tratado |
-
+- **Verificar se o tratado se aplica a disregarded entities:** Redu��o ou elimina��o de reten��es
+- **Solicitar o certificado de resid�ncia fiscal no seu pa�s:** Acessar os benef�cios do tratado
+- **Estruturar pagamentos para qualificar sob o tratado:** Menores taxas de reten��o sobre juros e royalties
+- **Avaliar se sua LLC deve tributar como corporation:** Simplificar a aplica��o do tratado
 ### Se seu pa�s N�O tem tratado com os EUA (Col�mbia, Peru, Brasil, Equador, etc.)
 
-| A��o | Benef�cio |
-|------|-----------|
-| Manter a LLC como disregarded entity | As receitas tributam apenas no seu pa�s |
-| N�o gerar ECI nos EUA | Evitar a declara��o de impostos nos EUA |
-| Usar a LLC apenas para receber receitas | Minimizar exposi��o fiscal |
-| Avaliar se a LLC deve tributar como corporation | Prote��o em caso de desajuste h�brido |
-| Consultar com um contador local | Entender como seu pa�s v� a LLC |
-
+- **Manter a LLC como disregarded entity:** As receitas tributam apenas no seu pa�s
+- **N�o gerar ECI nos EUA:** Evitar a declara��o de impostos nos EUA
+- **Usar a LLC apenas para receber receitas:** Minimizar exposi��o fiscal
+- **Avaliar se a LLC deve tributar como corporation:** Prote��o em caso de desajuste h�brido
+- **Consultar com um contador local:** Entender como seu pa�s v� a LLC
 ## Casos pr�ticos por pa�s
 
 ### Caso 1: M�xico (com tratado)

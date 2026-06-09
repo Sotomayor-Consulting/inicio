@@ -17,39 +17,30 @@ A dissolução administrativa é o processo do estado de encerrar involuntariame
 
 ### Gatilhos Comuns para Dissolução Administrativa
 
-| Gatilho | Descrição | Frequência |
-|---------|-------------|-----------|
-| Annual report não arquivado | Entidade não arquivou um ou mais relatórios anuais/bienais | Causa #1 |
-| Franchise tax não pago | Entidade não pagou o franchise tax estadual ou taxa anual | Causa #2 |
-| Renúncia do agente registrado | Agente renunciou e entidade não nomeou substituto | Comum |
-| Não responder a avisos | Entidade ignorou lembretes de conformidade estaduais | Comum |
-| Não conformidade fiscal estadual | Entidade não apresentou declarações fiscais estaduais | Varia por estado |
-| Falha em manter endereço | Entidade não tem mais endereço físico válido no estado | Menos comum |
-| Fusão ou conversão não concluída | Entidade iniciou mas não concluiu uma fusão | Raro |
-
+- **Annual report não arquivado:** Entidade não arquivou um ou mais relatórios anuais/bienais -- Causa #1
+- **Franchise tax não pago:** Entidade não pagou o franchise tax estadual ou taxa anual -- Causa #2
+- **Renúncia do agente registrado:** Agente renunciou e entidade não nomeou substituto -- Comum
+- **Não responder a avisos:** Entidade ignorou lembretes de conformidade estaduais -- Comum
+- **Não conformidade fiscal estadual:** Entidade não apresentou declarações fiscais estaduais -- Varia por estado
+- **Falha em manter endereço:** Entidade não tem mais endereço físico válido no estado -- Menos comum
+- **Fusão ou conversão não concluída:** Entidade iniciou mas não concluiu uma fusão -- Raro
 ### O Que Acontece Quando uma Entidade é Dissolvida Administrativamente
 
-| Aspecto | Antes da Dissolução | Após a Dissolução |
-|--------|-------------------|-------------------|
-| **Status legal** | LLC ou corporação ativa | Entidade não existe mais nos registros estaduais |
-| **Proteção de responsabilidade** | Proprietários protegidos de responsabilidade pessoal | Proprietários pessoalmente responsáveis por novas dívidas |
-| **Direito de processar** | Entidade pode processar em tribunal | Entidade não pode processar ou se defender |
-| **Direito de contratar** | Entidade pode assinar contratos | Contratos podem ser anuláveis |
-| **Nome comercial** | Nome está reservado para a entidade | Outro negócio pode tomar o nome |
-| **Contas bancárias** | Entidade pode ter contas | Bancos podem congelar contas |
-| **Licenças** | Entidade pode ter licenças | Licenças podem ser revogadas |
-| **Obrigações fiscais** | Entidade declara impostos normalmente | Entidade ainda pode dever impostos mas não pode operar |
-| **Reinstalação** | Não necessária | Reinstalação retroativa disponível na maioria dos estados |
-
+- **Status legal:** LLC ou corporação ativa -- Entidade não existe mais nos registros estaduais
+- **Proteção de responsabilidade:** Proprietários protegidos de responsabilidade pessoal -- Proprietários pessoalmente responsáveis por novas dívidas
+- **Direito de processar:** Entidade pode processar em tribunal -- Entidade não pode processar ou se defender
+- **Direito de contratar:** Entidade pode assinar contratos -- Contratos podem ser anuláveis
+- **Nome comercial:** Nome está reservado para a entidade -- Outro negócio pode tomar o nome
+- **Contas bancárias:** Entidade pode ter contas -- Bancos podem congelar contas
+- **Licenças:** Entidade pode ter licenças -- Licenças podem ser revogadas
+- **Obrigações fiscais:** Entidade declara impostos normalmente -- Entidade ainda pode dever impostos mas não pode operar
+- **Reinstalação:** Não necessária -- Reinstalação retroativa disponível na maioria dos estados
 ### Distinção Importante: Dissolução Administrativa vs. Judicial
 
-| Tipo | Quem Inicia | Razão | Reinstalação |
-|------|--------------|--------|---------------|
-| **Dissolução Administrativa** | Secretário de Estado | Não conformidade (arquivamentos perdidos, taxas não pagas) | Relativamente simples |
-| **Dissolução Judicial** | Ordem judicial | Fraude, impasse, atividade ilegal | Difícil ou impossível |
-| **Dissolução Voluntária** | Proprietários da empresa | Fechamento do negócio | Não possível (entidade é encerrada por escolha) |
-| **Dissolução Involuntária** | Estado ou terceiro | Falência, evasão fiscal, abandono | Possível mas complexa |
-
+- **Dissolução Administrativa:** Secretário de Estado -- Não conformidade (arquivamentos perdidos, taxas não pagas) -- Relativamente simples
+- **Dissolução Judicial:** Ordem judicial -- Fraude, impasse, atividade ilegal -- Difícil ou impossível
+- **Dissolução Voluntária:** Proprietários da empresa -- Fechamento do negócio -- Não possível (entidade é encerrada por escolha)
+- **Dissolução Involuntária:** Estado ou terceiro -- Falência, evasão fiscal, abandono -- Possível mas complexa
 ## 2. Como Confirmar que Sua Entidade Está Administrativamente Dissolvida
 
 ### Passo 1: Verifique o Site do Secretário de Estado
@@ -80,28 +71,25 @@ If you find a notice, it will typically state:
 
 ### Passo 3: Determine a Janela de Reinstalação
 
-| Estado | Janela de Reinstalação | Após o Fechamento da Janela |
-|-------|---------------------|--------------------|
-| Delaware | 5 anos | Deve apresentar nova entidade ou solicitar reinstalação tardia |
-| California | 4 anos (CT Corp) / indefinido (SOS) | Nome pode ser perdido após 4 anos |
-| Florida | Indefinido | Sem limite de tempo, mas taxas atrasadas acumulam |
-| Texas | Indefinido | Sem limite de tempo |
-| New York | 2 anos | Deve apresentar nova entidade ou solicitar ao tribunal |
-| Nevada | 1 ano | Nome liberado após 1 ano |
-| Illinois | 5 anos | Nova entidade exigida após 5 anos |
-| Georgia | Indefinido | Sem limite de tempo |
-| Washington | Indefinido | Sem limite de tempo |
-| Wyoming | Indefinido | Sem limite de tempo |
-| Colorado | 5 anos | Nova entidade exigida após 5 anos |
-| Massachusetts | 5 anos | Nome liberado após 5 anos |
-| New Jersey | 5 anos | Nova entidade exigida após 5 anos |
-| Ohio | 5 anos | Nome liberado após 5 anos |
-| Michigan | Indefinido | Sem limite de tempo |
-| Pennsylvania | 5 anos | Nova entidade exigida após 5 anos |
-| Tennessee | 5 anos | Nova entidade exigida após 5 anos |
-| North Carolina | 5 anos | Nome liberado após 5 anos |
-| Puerto Rico | 5 anos | Nova entidade exigida após 5 anos |
-
+- **Delaware:** 5 anos -- Deve apresentar nova entidade ou solicitar reinstalação tardia
+- **California:** 4 anos (CT Corp) / indefinido (SOS) -- Nome pode ser perdido após 4 anos
+- **Florida:** Indefinido -- Sem limite de tempo, mas taxas atrasadas acumulam
+- **Texas:** Indefinido -- Sem limite de tempo
+- **New York:** 2 anos -- Deve apresentar nova entidade ou solicitar ao tribunal
+- **Nevada:** 1 ano -- Nome liberado após 1 ano
+- **Illinois:** 5 anos -- Nova entidade exigida após 5 anos
+- **Georgia:** Indefinido -- Sem limite de tempo
+- **Washington:** Indefinido -- Sem limite de tempo
+- **Wyoming:** Indefinido -- Sem limite de tempo
+- **Colorado:** 5 anos -- Nova entidade exigida após 5 anos
+- **Massachusetts:** 5 anos -- Nome liberado após 5 anos
+- **New Jersey:** 5 anos -- Nova entidade exigida após 5 anos
+- **Ohio:** 5 anos -- Nome liberado após 5 anos
+- **Michigan:** Indefinido -- Sem limite de tempo
+- **Pennsylvania:** 5 anos -- Nova entidade exigida após 5 anos
+- **Tennessee:** 5 anos -- Nova entidade exigida após 5 anos
+- **North Carolina:** 5 anos -- Nome liberado após 5 anos
+- **Puerto Rico:** 5 anos -- Nova entidade exigida após 5 anos
 ## 3. O Processo de Reinstalação: Passo a Passo
 
 ### Visão Geral do Processo de Reinstalação
@@ -116,16 +104,13 @@ Se a entidade foi dissolvida além do permitido pela janela de reinstalação, t
 
 #### Passo 2: Reúna os Documentos Necessários
 
-| Documento | Propósito | Onde Obter |
-|----------|---------|-----------------|
-| Certificado de Formação / Artigos de Incorporação | Confirmar nome e número de arquivo da entidade | Seus registros ou site do SOS |
-| Annual report anterior (se disponível) | Referência para arquivar relatórios vencidos | Site do SOS ou seus registros |
-| Informações de contato do agente registrado | Exigido para todos os arquivamentos | Seu agente ou registros do SOS |
-| Lista de diretores ou gerentes/membros | Exigido para pedido de reinstalação | Seus registros comerciais |
-| Carta de confirmação do EIN (CP 575) | Verificação de ID fiscal federal | Registros do IRS |
-| Recibos de franchise tax de anos anteriores (se aplicável) | Comprovante de pagamentos passados | FTB ou departamento de receita |
-| Declarações fiscais estaduais (se exigido) | Pré-requisito para autorização fiscal | Declarações fiscais anteriores |
-
+- **Certificado de Formação / Artigos de Incorporação:** Confirmar nome e número de arquivo da entidade -- Seus registros ou site do SOS
+- **Annual report anterior (se disponível):** Referência para arquivar relatórios vencidos -- Site do SOS ou seus registros
+- **Informações de contato do agente registrado:** Exigido para todos os arquivamentos -- Seu agente ou registros do SOS
+- **Lista de diretores ou gerentes/membros:** Exigido para pedido de reinstalação -- Seus registros comerciais
+- **Carta de confirmação do EIN (CP 575):** Verificação de ID fiscal federal -- Registros do IRS
+- **Recibos de franchise tax de anos anteriores (se aplicável):** Comprovante de pagamentos passados -- FTB ou departamento de receita
+- **Declarações fiscais estaduais (se exigido):** Pré-requisito para autorização fiscal -- Declarações fiscais anteriores
 #### Passo 3: Arquivar Todos os Relatórios Vencidos
 
 Você deve arquivar cada annual report ou relatório bienal perdido durante o período de dissolução. A maioria dos estados permite arquivar vários anos de uma vez pelo portal online.
@@ -145,16 +130,13 @@ Você deve arquivar cada annual report ou relatório bienal perdido durante o pe
 
 O custo total da reinstalação inclui vários componentes:
 
-| Componente da Taxa | Faixa de Valor | Notas |
-|--------------|-------------|-------|
-| Taxas de arquivamento de annual report | $0 - $500 por ano | Cada ano perdido deve ser pago |
-| Multas por atraso | $10 - $400 por arquivamento | Avaliadas por relatório perdido |
-| Taxa de reinstalação | $0 - $500 | Taxa única de solicitação |
-| Pagamentos atrasados de franchise tax | $0 - $800+ por ano | Apenas em estados com franchise tax |
-| Juros sobre taxas vencidas | Varia | Alguns estados cobram juros compostos |
-| Taxas de agente registrado | $50 - $300 por ano | Se precisar nomear um agente |
-| Taxas de cópia certificada | $5 - $50 | Para o certificado de reinstalação |
-
+- **Taxas de arquivamento de annual report:** $0 - $500 por ano -- Cada ano perdido deve ser pago
+- **Multas por atraso:** $10 - $400 por arquivamento -- Avaliadas por relatório perdido
+- **Taxa de reinstalação:** $0 - $500 -- Taxa única de solicitação
+- **Pagamentos atrasados de franchise tax:** $0 - $800+ por ano -- Apenas em estados com franchise tax
+- **Juros sobre taxas vencidas:** Varia -- Alguns estados cobram juros compostos
+- **Taxas de agente registrado:** $50 - $300 por ano -- Se precisar nomear um agente
+- **Taxas de cópia certificada:** $5 - $50 -- Para o certificado de reinstalação
 #### Passo 5: Obter Autorização Fiscal (Se Necessário)
 
 Alguns estados exigem autorização fiscal antes de reinstalar uma entidade. Isso significa:
@@ -191,26 +173,23 @@ The reinstatement application is the formal request to restore your entity to ac
 
 Processing times vary significantly by state:
 
-| State | Processing Time | Method | Rush Available |
-|-------|----------------|--------|---------------|
-| Delaware | 1-2 business days | Online | Yes (same day) |
-| California | 1-4 weeks | Mail or online | No |
-| Florida | 1-2 weeks | Online | Yes (expedited) |
-| Texas | 1-2 weeks | Online | No |
-| New York | 2-4 weeks | Mail or in-person | Yes (in-person) |
-| Nevada | 1-3 business days | Online | Yes |
-| Illinois | 2-4 weeks | Mail | No |
-| Georgia | 1-2 weeks | Online | Yes |
-| Washington | 1-2 weeks | Online | No |
-| Wyoming | 1-2 business days | Online | Yes |
-| Colorado | 1-3 business days | Online | No |
-| Massachusetts | 2-4 weeks | Mail | No |
-| New Jersey | 2-4 weeks | Mail | No |
-| Pennsylvania | 1-2 weeks | Online | No |
-| Ohio | 1-2 weeks | Online | No |
-| Arizona | 1-2 weeks | Online | No |
-| Oregon | 2-4 weeks | Mail | No |
-
+- **Delaware:** 1-2 business days -- Online -- Yes (same day)
+- **California:** 1-4 weeks -- Mail or online -- No
+- **Florida:** 1-2 weeks -- Online -- Yes (expedited)
+- **Texas:** 1-2 weeks -- Online -- No
+- **New York:** 2-4 weeks -- Mail or in-person -- Yes (in-person)
+- **Nevada:** 1-3 business days -- Online -- Yes
+- **Illinois:** 2-4 weeks -- Mail -- No
+- **Georgia:** 1-2 weeks -- Online -- Yes
+- **Washington:** 1-2 weeks -- Online -- No
+- **Wyoming:** 1-2 business days -- Online -- Yes
+- **Colorado:** 1-3 business days -- Online -- No
+- **Massachusetts:** 2-4 weeks -- Mail -- No
+- **New Jersey:** 2-4 weeks -- Mail -- No
+- **Pennsylvania:** 1-2 weeks -- Online -- No
+- **Ohio:** 1-2 weeks -- Online -- No
+- **Arizona:** 1-2 weeks -- Online -- No
+- **Oregon:** 2-4 weeks -- Mail -- No
 #### Passo 8: Restaurar Operações
 
 Once reinstatement is approved, take these steps to resume business:
@@ -232,20 +211,17 @@ Once reinstatement is approved, take these steps to resume business:
 
 Em alguns casos, a reinstalação pode não ser a melhor opção. Veja como decidir:
 
-| Fator | Reinstalar Entidade Existente | Formar uma Nova Entidade |
-|--------|-------------------------|-------------------|
-| **Time** | 1 day to 8 weeks | 1-2 business days |
-| **Custo** | $0 - $5,000+ (taxas atrasadas) | $50 - $800 (taxa de arquivamento) |
-| **Name preservation** | Keeps original name | Name must be available for new entity |
-| **EIN preservation** | Keeps same EIN | Must obtain new EIN |
-| **Bank accounts** | Existing accounts can be unfrozen | Must open new accounts |
-| **Contracts** | Existing contracts remain valid | New entity must re-sign contracts |
-| **Licenses** | Existing licenses can be reinstated | Must apply for new licenses |
-| **Liability protection** | Restored retroactively | Starts fresh from formation date |
-| **Tax history** | Tax history preserved | New tax ID, no history |
-| **Credit history** | Business credit history preserved | New entity, no credit history |
-| **Complexity** | Moderate (multiple filings) | Simple (one formation filing) |
-
+- **Time:** 1 day to 8 weeks -- 1-2 business days
+- **Custo:** $0 - $5,000+ (taxas atrasadas) -- $50 - $800 (taxa de arquivamento)
+- **Name preservation:** Keeps original name -- Name must be available for new entity
+- **EIN preservation:** Keeps same EIN -- Must obtain new EIN
+- **Bank accounts:** Existing accounts can be unfrozen -- Must open new accounts
+- **Contracts:** Existing contracts remain valid -- New entity must re-sign contracts
+- **Licenses:** Existing licenses can be reinstated -- Must apply for new licenses
+- **Liability protection:** Restored retroactively -- Starts fresh from formation date
+- **Tax history:** Tax history preserved -- New tax ID, no history
+- **Credit history:** Business credit history preserved -- New entity, no credit history
+- **Complexity:** Moderate (multiple filings) -- Simple (one formation filing)
 ### Quando Reinstalar
 
 - The entity has valuable contracts, licenses, or intellectual property that would be difficult to transfer

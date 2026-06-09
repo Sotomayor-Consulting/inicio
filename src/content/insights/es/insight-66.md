@@ -1,274 +1,232 @@
-ï»¿---
-title: "CÃ³mo Funciona Stripe Tax: GuÃ­a Completa 2026"
-description: "CÃ³mo funciona Stripe Tax"
+---
+title: "Cómo Funciona Stripe Tax: Guía Completa 2026"
+description: "Cómo funciona Stripe Tax"
 cardImage: "@/images/insights/stripe.png"
-cardImageAlt: "Stripe Tax dashboard mostrando cÃ¡lculo de impuestos y reportes fiscales"
+cardImageAlt: "Stripe Tax dashboard mostrando cálculo de impuestos y reportes fiscales"
 ---
 
-**Stripe Tax** es una herramienta integrada en Stripe que calcula, cobra y reporta impuestos como IVA, GST y sales tax automÃ¡ticamente en tus transacciones. Ya no necesitas integrar servicios de terceros ni calcular impuestos manualmente.
+**Stripe Tax** es una herramienta integrada en Stripe que calcula, cobra y reporta impuestos como IVA, GST y sales tax automáticamente en tus transacciones. Ya no necesitas integrar servicios de terceros ni calcular impuestos manualmente.
 
-En esta guÃ­a, explicamos **cÃ³mo funciona Stripe Tax** en 2026: activaciÃ³n, configuraciÃ³n, paÃ­ses soportados y mejores prÃ¡cticas.
+En esta guía, explicamos **cómo funciona Stripe Tax** en 2026: activación, configuración, países soportados y mejores prácticas.
 
-## 1. Â¿QuÃ© es Stripe Tax?
+## 1. ¿Qué es Stripe Tax?
 
-### DefiniciÃ³n
+### Definición
 
-Stripe Tax es un mÃ³dulo de Stripe que automatiza el cÃ¡lculo y cobro de impuestos en cada transacciÃ³n. Detecta la ubicaciÃ³n del comprador, aplica la tasa impositiva correcta y genera reportes para tu declaraciÃ³n fiscal.
+Stripe Tax es un módulo de Stripe que automatiza el cálculo y cobro de impuestos en cada transacción. Detecta la ubicación del comprador, aplica la tasa impositiva correcta y genera reportes para tu declaración fiscal.
 
 ### Lo que Stripe Tax Hace
 
-| FunciÃ³n | DescripciÃ³n |
-|---------|-------------|
-| **Calcula impuestos** | Tasa correcta segÃºn producto y ubicaciÃ³n del cliente |
-| **Cobra impuestos** | Agrega el impuesto al monto total en el checkout |
-| **Reporta** | Genera reportes detallados para tu contador |
-| **Actualiza tasas** | Tasas actualizadas automÃ¡ticamente |
-| **Soporta mÃºltiples jurisdicciones** | IVA, GST, VAT, sales tax, etc. |
-
+- **Calcula impuestos:** Tasa correcta según producto y ubicación del cliente
+- **Cobra impuestos:** Agrega el impuesto al monto total en el checkout
+- **Reporta:** Genera reportes detallados para tu contador
+- **Actualiza tasas:** Tasas actualizadas automáticamente
+- **Soporta múltiples jurisdicciones:** IVA, GST, VAT, sales tax, etc.
 ### Lo que Stripe Tax NO Hace
 
-| No Hace | ExplicaciÃ³n |
-|---------|-------------|
-| **No declara impuestos** | Debes presentar tus declaraciones fiscales |
-| **No paga impuestos** | TÃº eres responsable de pagar a la autoridad fiscal |
-| **No reemplaza a un contador** | Siempre consulta con un profesional |
+- **No declara impuestos:** Debes presentar tus declaraciones fiscales
+- **No paga impuestos:** Tú eres responsable de pagar a la autoridad fiscal
+- **No reemplaza a un contador:** Siempre consulta con un profesional
+> **Stripe Tax simplifica el cálculo**, pero no reemplaza la asesoría fiscal profesional. Siempre consulta con tu contador.
 
-> **Stripe Tax simplifica el cÃ¡lculo**, pero no reemplaza la asesorÃ­a fiscal profesional. Siempre consulta con tu contador.
-
-## 2. Â¿Por QuÃ© Usar Stripe Tax?
+## 2. ¿Por Qué Usar Stripe Tax?
 
 ### Beneficios Clave
 
-| Beneficio | DescripciÃ³n |
-|-----------|-------------|
-| **AutomatizaciÃ³n** | Stripe calcula impuestos en cada venta sin intervenciÃ³n manual |
-| **PrecisiÃ³n** | Tasas actualizadas en tiempo real segÃºn la ubicaciÃ³n del cliente |
-| **Ahorro de tiempo** | Elimina hojas de cÃ¡lculo y cÃ¡lculos manuales |
-| **Cobertura global** | Soporta mÃ¡s de 100 paÃ­ses y todos los estados de EE. UU. |
-| **IntegraciÃ³n nativa** | No requiere plugins ni servicios externos |
-| **Reportes listos** | Datos exportables para tu declaraciÃ³n fiscal |
-
+- **Automatización:** Stripe calcula impuestos en cada venta sin intervención manual
+- **Precisión:** Tasas actualizadas en tiempo real según la ubicación del cliente
+- **Ahorro de tiempo:** Elimina hojas de cálculo y cálculos manuales
+- **Cobertura global:** Soporta más de 100 países y todos los estados de EE. UU.
+- **Integración nativa:** No requiere plugins ni servicios externos
+- **Reportes listos:** Datos exportables para tu declaración fiscal
 ### Stripe Tax vs Alternativas
 
-| SoluciÃ³n | Costo | IntegraciÃ³n |
-|----------|-------|-------------|
-| **Stripe Tax** | 0.5% por transacciÃ³n (o gratis con Stripe Billing) | Nativa |
-| **TaxJar** | Desde $19/mes | API externa |
-| **Avalara** | Desde $100/mes | API externa |
-| **Manual** | Horas de trabajo + riesgo de error | N/A |
+- **Stripe Tax:** 0.5% por transacción (o gratis con Stripe Billing) -- Nativa
+- **TaxJar:** Desde $19/mes -- API externa
+- **Avalara:** Desde $100/mes -- API externa
+- **Manual:** Horas de trabajo + riesgo de error -- N/A
+> **Stripe Tax es la opción más sencilla** si ya usas Stripe. Se activa con unos clics y no requiere desarrollo adicional.
 
-> **Stripe Tax es la opciÃ³n mÃ¡s sencilla** si ya usas Stripe. Se activa con unos clics y no requiere desarrollo adicional.
-
-## 3. CÃ³mo Activar Stripe Tax
+## 3. Cómo Activar Stripe Tax
 
 ### Paso 1: Verifica Disponibilidad
 
-Stripe Tax estÃ¡ disponible en:
+Stripe Tax está disponible en:
 
-| RegiÃ³n | Impuestos Soportados |
-|--------|---------------------|
-| **EE. UU.** | Sales tax (todos los estados que cobran) |
-| **UniÃ³n Europea** | IVA / VAT |
-| **Reino Unido** | VAT |
-| **Suiza** | VAT |
-| **CanadÃ¡** | GST/HST |
-| **Australia** | GST |
-| **Nueva Zelanda** | GST |
-| **Singapur** | GST |
-| **JapÃ³n** | Consumption Tax |
-| **Noruega** | VAT |
-| **SudÃ¡frica** | VAT |
-
+- **EE. UU.:** Sales tax (todos los estados que cobran)
+- **Unión Europea:** IVA / VAT
+- **Reino Unido:** VAT
+- **Suiza:** VAT
+- **Canadá:** GST/HST
+- **Australia:** GST
+- **Nueva Zelanda:** GST
+- **Singapur:** GST
+- **Japón:** Consumption Tax
+- **Noruega:** VAT
+- **Sudáfrica:** VAT
 ### Paso 2: Activa Stripe Tax en Dashboard
 
-1. Stripe Dashboard â†’ Productos â†’ Stripe Tax
+1. Stripe Dashboard ? Productos ? Stripe Tax
 2. Haz clic en **Activar Stripe Tax**
-3. Configura tu paÃ­s de registro y datos fiscales
-4. Define las categorÃ­as de producto
+3. Configura tu país de registro y datos fiscales
+4. Define las categorías de producto
 
 ### Paso 3: Configura tus Ajustes Fiscales
 
-| ConfiguraciÃ³n | QuÃ© Debes Hacer |
-|--------------|-----------------|
-| **PaÃ­s de origen** | Donde estÃ¡ registrada tu empresa |
-| **NÃºmero fiscal** | EIN, VAT ID, RFC o equivalente |
-| **CategorÃ­as de producto** | Clasifica tus productos (digital, fÃ­sico, servicio) |
-| **Exenciones** | Configura si vendes a empresas con VAT ID vÃ¡lido |
+- **País de origen:** Donde está registrada tu empresa
+- **Número fiscal:** EIN, VAT ID, RFC o equivalente
+- **Categorías de producto:** Clasifica tus productos (digital, físico, servicio)
+- **Exenciones:** Configura si vendes a empresas con VAT ID válido
+## 4. Categorías de Producto y Tasas
 
-## 4. CategorÃ­as de Producto y Tasas
+### Categorías Fiscales en Stripe
 
-### CategorÃ­as Fiscales en Stripe
+- **Productos digitales:** Software, cursos, eBooks, descargas -- Gravable en mayoría de países
+- **Productos físicos:** Ropa, libros, electrónicos -- Gravable, tasa varía por país
+- **Servicios:** Consultoría, coaching, diseño -- Gravable en algunos países
+- **Suscripciones:** SaaS, membresías -- Gravable según el tipo de producto
+- **Productos exentos:** Educación acreditada, salud -- No gravable
+### Cómo Asignar Categorías
 
-| CategorÃ­a | Ejemplos | Tratamiento Fiscal |
-|-----------|---------|-------------------|
-| **Productos digitales** | Software, cursos, eBooks, descargas | Gravable en mayorÃ­a de paÃ­ses |
-| **Productos fÃ­sicos** | Ropa, libros, electrÃ³nicos | Gravable, tasa varÃ­a por paÃ­s |
-| **Servicios** | ConsultorÃ­a, coaching, diseÃ±o | Gravable en algunos paÃ­ses |
-| **Suscripciones** | SaaS, membresÃ­as | Gravable segÃºn el tipo de producto |
-| **Productos exentos** | EducaciÃ³n acreditada, salud | No gravable |
+### Ejemplos de Tasas por País
 
-### CÃ³mo Asignar CategorÃ­as
-
-### Ejemplos de Tasas por PaÃ­s
-
-| PaÃ­s | Producto Digital | Producto FÃ­sico |
-|------|-----------------|-----------------|
-| **EspaÃ±a** | 21% IVA | 21% IVA |
-| **MÃ©xico** | 16% IVA | 16% IVA |
-| **Colombia** | 19% IVA | 19% IVA |
-| **Chile** | 19% IVA | 19% IVA |
-| **Argentina** | 21% IVA | 21% IVA |
-| **EE. UU. (California)** | 0% (digital) | 7.25%+ |
-| **Brasil** | Variable (ICMS) | Variable (ICMS) |
-| **Reino Unido** | 20% VAT | 20% VAT |
-
-> **Nota:** Las tasas pueden variar segÃºn el producto y la ubicaciÃ³n exacta. Stripe Tax actualiza las tasas automÃ¡ticamente.
+- **España:** 21% IVA -- 21% IVA
+- **México:** 16% IVA -- 16% IVA
+- **Colombia:** 19% IVA -- 19% IVA
+- **Chile:** 19% IVA -- 19% IVA
+- **Argentina:** 21% IVA -- 21% IVA
+- **EE. UU. (California):** 0% (digital) -- 7.25%+
+- **Brasil:** Variable (ICMS) -- Variable (ICMS)
+- **Reino Unido:** 20% VAT -- 20% VAT
+> **Nota:** Las tasas pueden variar según el producto y la ubicación exacta. Stripe Tax actualiza las tasas automáticamente.
 
 ## 5. Stripe Tax en el Checkout
 
-### CÃ³mo se Muestra el Impuesto al Cliente
+### Cómo se Muestra el Impuesto al Cliente
 
 Durante el checkout, Stripe Tax:
 
-1. Detecta la ubicaciÃ³n del cliente por IP o direcciÃ³n de envÃ­o
+1. Detecta la ubicación del cliente por IP o dirección de envío
 2. Calcula la tasa impositiva correcta
 3. Muestra el desglose: subtotal + impuesto = total
 4. Cobra el impuesto junto con el producto
 
 ### Ejemplo Visual en Checkout
 
-### CÃ³digo de IntegraciÃ³n
+### Código de Integración
 
 ## 6. Stripe Tax para Suscripciones
 
-### FacturaciÃ³n Recurrente con Impuestos
+### Facturación Recurrente con Impuestos
 
-Stripe Tax tambiÃ©n funciona con suscripciones:
+Stripe Tax también funciona con suscripciones:
 
-| Evento | Stripe Tax Calcula |
-|--------|-------------------|
-| **CreaciÃ³n de suscripciÃ³n** | Impuesto en el primer pago |
-| **RenovaciÃ³n mensual** | Impuesto en cada renovaciÃ³n |
-| **Upgrade de plan** | Impuesto ajustado automÃ¡ticamente |
-| **Cambio de paÃ­s** | Stripe detecta nueva tasa si el cliente se muda |
-| **Factura Ãºnica** | Impuesto calculado por item |
+- **Creación de suscripción:** Impuesto en el primer pago
+- **Renovación mensual:** Impuesto en cada renovación
+- **Upgrade de plan:** Impuesto ajustado automáticamente
+- **Cambio de país:** Stripe detecta nueva tasa si el cliente se muda
+- **Factura única:** Impuesto calculado por item
+### Ejemplo: Suscripción SaaS
 
-### Ejemplo: SuscripciÃ³n SaaS
-
-## 7. Reportes y DeclaraciÃ³n Fiscal
+## 7. Reportes y Declaración Fiscal
 
 ### Reportes que Genera Stripe Tax
 
-| Reporte | Contenido |
-|---------|-----------|
-| **Resumen fiscal** | Total de impuestos cobrados por perÃ­odo |
-| **Desglose por paÃ­s** | Impuestos cobrados en cada jurisdicciÃ³n |
-| **Desglose por tasa** | Monto por cada tasa impositiva |
-| **Transacciones** | Lista detallada de transacciones con impuestos |
-| **Facturas** | Facturas con impuestos desglosados |
+- **Resumen fiscal:** Total de impuestos cobrados por período
+- **Desglose por país:** Impuestos cobrados en cada jurisdicción
+- **Desglose por tasa:** Monto por cada tasa impositiva
+- **Transacciones:** Lista detallada de transacciones con impuestos
+- **Facturas:** Facturas con impuestos desglosados
+### Cómo Acceder a los Reportes
 
-### CÃ³mo Acceder a los Reportes
-
-1. Stripe Dashboard â†’ Stripe Tax â†’ Reportes
-2. Selecciona el perÃ­odo (mes, trimestre, aÃ±o)
-3. Filtra por paÃ­s, producto o tasa
+1. Stripe Dashboard ? Stripe Tax ? Reportes
+2. Selecciona el período (mes, trimestre, año)
+3. Filtra por país, producto o tasa
 4. Exporta a CSV para tu contador
 
-### PreparaciÃ³n para tu DeclaraciÃ³n
+### Preparación para tu Declaración
 
-## 8. Stripe Tax por RegiÃ³n
+## 8. Stripe Tax por Región
 
-### UniÃ³n Europea (IVA)
+### Unión Europea (IVA)
 
-| PaÃ­s | Tasa EstÃ¡ndar | Tasa Reducida |
-|------|--------------|---------------|
-| **Alemania** | 19% | 7% |
-| **Francia** | 20% | 10% / 5.5% |
-| **Italia** | 22% | 10% / 5% |
-| **EspaÃ±a** | 21% | 10% / 4% |
-| **PaÃ­ses Bajos** | 21% | 9% |
-| **Portugal** | 23% | 13% / 6% |
-
+- **Alemania:** 19% -- 7%
+- **Francia:** 20% -- 10% / 5.5%
+- **Italia:** 22% -- 10% / 5%
+- **España:** 21% -- 10% / 4%
+- **Países Bajos:** 21% -- 9%
+- **Portugal:** 23% -- 13% / 6%
 **Reglas especiales UE:**
-- **Ventas a consumidores:** Aplica IVA del paÃ­s del cliente
-- **Ventas a empresas (B2B):** No cobres IVA si el cliente tiene VAT ID vÃ¡lido
-- **Umbrales:** Cada paÃ­s tiene un umbral anual para registrarse
+- **Ventas a consumidores:** Aplica IVA del país del cliente
+- **Ventas a empresas (B2B):** No cobres IVA si el cliente tiene VAT ID válido
+- **Umbrales:** Cada país tiene un umbral anual para registrarse
 
 ### Estados Unidos (Sales Tax)
 
-| Estado | Tasa Estatal | Tasas Locales |
-|--------|-------------|---------------|
-| **California** | 7.25% | + hasta 3% local |
-| **Texas** | 6.25% | + hasta 2% local |
-| **Nueva York** | 4% | + hasta 4.875% local |
-| **Florida** | 6% | + hasta 1.5% local |
-| **Washington** | 6.5% | + hasta 4% local |
-
+- **California:** 7.25% -- + hasta 3% local
+- **Texas:** 6.25% -- + hasta 2% local
+- **Nueva York:** 4% -- + hasta 4.875% local
+- **Florida:** 6% -- + hasta 1.5% local
+- **Washington:** 6.5% -- + hasta 4% local
 **Reglas especiales EE. UU.:**
-- **Nexus:** Debes cobrar sales tax solo en estados donde tengas presencia fÃ­sica
+- **Nexus:** Debes cobrar sales tax solo en estados donde tengas presencia física
 - **Productos digitales:** Muchos estados no gravan productos digitales
 - **Marketplace:** Si vendes en marketplaces, ellos pueden cobrar el tax
 
-### AmÃ©rica Latina
+### América Latina
 
-| PaÃ­s | Impuesto | Tasa |
-|------|----------|------|
-| **MÃ©xico** | IVA | 16% |
-| **Brasil** | ICMS / ISS | Variable (7-18% interestatal) |
-| **Chile** | IVA | 19% |
-| **Colombia** | IVA | 19% |
-| **Argentina** | IVA | 21% |
-| **PerÃº** | IGV | 18% |
-
+- **México:** IVA -- 16%
+- **Brasil:** ICMS / ISS -- Variable (7-18% interestatal)
+- **Chile:** IVA -- 19%
+- **Colombia:** IVA -- 19%
+- **Argentina:** IVA -- 21%
+- **Perú:** IGV -- 18%
 ## 9. Preguntas Frecuentes
 
-### Â¿Stripe Tax funciona con todas las monedas?
+### ¿Stripe Tax funciona con todas las monedas?
 
-SÃ­. Stripe Tax calcula el impuesto en la moneda local del cliente. Si cobras en otra moneda, Stripe convierte el impuesto.
+Sí. Stripe Tax calcula el impuesto en la moneda local del cliente. Si cobras en otra moneda, Stripe convierte el impuesto.
 
-### Â¿Puedo eximir a clientes B2B?
+### ¿Puedo eximir a clientes B2B?
 
-SÃ­. Configura Stripe Tax para validar VAT IDs. Si el cliente ingresa un VAT ID vÃ¡lido, Stripe no cobra IVA.
+Sí. Configura Stripe Tax para validar VAT IDs. Si el cliente ingresa un VAT ID válido, Stripe no cobra IVA.
 
-### Â¿Stripe Tax declara los impuestos por mÃ­?
+### ¿Stripe Tax declara los impuestos por mí?
 
-No. Stripe Tax calcula y cobra, pero tÃº debes declarar y pagar los impuestos a las autoridades fiscales.
+No. Stripe Tax calcula y cobra, pero tú debes declarar y pagar los impuestos a las autoridades fiscales.
 
-### Â¿QuÃ© pasa si la tasa cambia?
+### ¿Qué pasa si la tasa cambia?
 
-Stripe Tax actualiza las tasas automÃ¡ticamente. No necesitas hacer nada.
+Stripe Tax actualiza las tasas automáticamente. No necesitas hacer nada.
 
-### Â¿Stripe Tax soporta impuestos locales?
+### ¿Stripe Tax soporta impuestos locales?
 
-SÃ­. En EE. UU., Stripe Tax soporta impuestos estatales y locales. En otros paÃ­ses, soporta las tasas nacionales y regionales.
+Sí. En EE. UU., Stripe Tax soporta impuestos estatales y locales. En otros países, soporta las tasas nacionales y regionales.
 
-## 10. Paso a Paso RÃ¡pido
+## 10. Paso a Paso Rápido
 
 ### Resumen en 5 Pasos
 
-| Paso | AcciÃ³n | Tiempo |
-|------|--------|--------|
-| **1** | Activa Stripe Tax en tu Dashboard | 5 min |
-| **2** | Configura tu paÃ­s y nÃºmero fiscal | 10 min |
-| **3** | Asigna categorÃ­as fiscales a tus productos | 15 min |
-| **4** | Activa `automatic_tax` en tu integraciÃ³n | 10 min |
-| **5** | Revisa reportes mensuales para tu declaraciÃ³n | 15 min/mes |
-
-### Checklist de ConfiguraciÃ³n
+- **1:** Activa Stripe Tax en tu Dashboard -- 5 min
+- **2:** Configura tu país y número fiscal -- 10 min
+- **3:** Asigna categorías fiscales a tus productos -- 15 min
+- **4:** Activa `automatic_tax` en tu integración -- 10 min
+- **5:** Revisa reportes mensuales para tu declaración -- 15 min/mes
+### Checklist de Configuración
 
 - [ ] Stripe Tax activado en Dashboard
-- [ ] PaÃ­s de registro configurado
-- [ ] NÃºmero fiscal agregado (VAT ID, EIN, RFC)
-- [ ] CategorÃ­as fiscales asignadas a cada producto
-- [ ] `automatic_tax: { enabled: true }` en el cÃ³digo
+- [ ] País de registro configurado
+- [ ] Número fiscal agregado (VAT ID, EIN, RFC)
+- [ ] Categorías fiscales asignadas a cada producto
+- [ ] `automatic_tax: { enabled: true }` en el código
 - [ ] Exenciones B2B configuradas (si aplica)
 - [ ] Reportes fiscales revisados
 - [ ] Consulta con contador sobre obligaciones locales
 
-## ConclusiÃ³n
+## Conclusión
 
-**Stripe Tax** simplifica drÃ¡sticamente el cÃ¡lculo y cobro de impuestos en tus ventas online. Con configuraciÃ³n mÃ­nima, puedes cumplir con las obligaciones fiscales en mÃ¡s de 100 paÃ­ses sin integrar servicios externos ni calcular tasas manualmente.
+**Stripe Tax** simplifica drásticamente el cálculo y cobro de impuestos en tus ventas online. Con configuración mínima, puedes cumplir con las obligaciones fiscales en más de 100 países sin integrar servicios externos ni calcular tasas manualmente.
 
-Recuerda que Stripe Tax calcula y cobra, pero la declaraciÃ³n y pago de impuestos sigue siendo tu responsabilidad. Siempre consulta con un contador profesional.
+Recuerda que Stripe Tax calcula y cobra, pero la declaración y pago de impuestos sigue siendo tu responsabilidad. Siempre consulta con un contador profesional.
 
-En **Sotomayor Consulting International**, asesoramos a negocios online en la configuraciÃ³n de Stripe Tax y cumplimiento fiscal internacional, incluyendo la creaciÃ³n de empresas en EE. UU. para optimizar tu estructura fiscal. ContÃ¡ctanos para una consultorÃ­a personalizada.
+En **Sotomayor Consulting International**, asesoramos a negocios online en la configuración de Stripe Tax y cumplimiento fiscal internacional, incluyendo la creación de empresas en EE. UU. para optimizar tu estructura fiscal. Contáctanos para una consultoría personalizada.

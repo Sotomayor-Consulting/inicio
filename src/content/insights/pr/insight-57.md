@@ -15,27 +15,21 @@ Neste guia, explicamos **exatamente o que o Stripe precisa para aprovar sua cont
 
 ### Tipos de Análise
 
-| Tipo | Contas Simples | Contas Complexas |
-|------|---------------|------------------|
-| **Prazo** | 24-72 horas | 1-4 semanas |
-| **Documentos** | Identidade + Comprovante de residência | + Documentos da empresa + BOI + Licenças |
-| **Verificação** | Selfie básica | Vídeo-selfie + documentação adicional |
-| **Análise de risco** | Automática (ML) | Manual + automática |
-
+- **Prazo:** 24-72 horas -- 1-4 semanas
+- **Documentos:** Identidade + Comprovante de residência -- + Documentos da empresa + BOI + Licenças
+- **Verificação:** Selfie básica -- Vídeo-selfie + documentação adicional
+- **Análise de risco:** Automática (ML) -- Manual + automática
 > **Fato:** A maioria das contas é aprovada em 24-48 horas. Contas recusadas geralmente têm problemas de documentação ou inconsistência de informações.
 
 ## 2. Requisitos Básicos (Todas as Contas)
 
 ### Documentos Pessoais Obrigatórios
 
-| Documento | Requisitos | Detalhes |
-|-----------|-----------|----------|
-| **Documento de identidade** | Válido, com foto, não vencido | Passaporte, RG, CNH, Cédula de identidade |
-| **Comprovante de residência** | Menos de 3 meses | Conta de luz, água, telefone, internet ou extrato bancário |
-| **Data de nascimento** | Maior de 18 anos | Verificada com o documento |
-| **Número de telefone** | Válido, em seu nome (preferencialmente) | Usado para verificação 2FA |
-| **E-mail** | Acesso verificado | Stripe envia confirmações e alertas |
-
+- **Documento de identidade:** Válido, com foto, não vencido -- Passaporte, RG, CNH, Cédula de identidade
+- **Comprovante de residência:** Menos de 3 meses -- Conta de luz, água, telefone, internet ou extrato bancário
+- **Data de nascimento:** Maior de 18 anos -- Verificada com o documento
+- **Número de telefone:** Válido, em seu nome (preferencialmente) -- Usado para verificação 2FA
+- **E-mail:** Acesso verificado -- Stripe envia confirmações e alertas
 ### Informações Pessoais
 
 - Nome completo (exatamente como no documento)
@@ -48,42 +42,33 @@ Neste guia, explicamos **exatamente o que o Stripe precisa para aprovar sua cont
 
 O Stripe **sempre** verifica seu site ou aplicativo. Requisitos mínimos:
 
-| Requisito | Obrigatório? | Detalhes |
-|-----------|-------------|----------|
-| **Site no ar** | ✅ Sim | Não pode estar "em construção" |
-| **Política de privacidade** | ✅ Sim | Explicar como dados são tratados |
-| **Termos de serviço** | ✅ Sim | Regras de uso do serviço |
-| **Política de reembolso** | ✅ Sim | Prazos e condições de devolução |
-| **Informações de contato** | ✅ Sim | E-mail, telefone ou formulário |
-| **Descrição clara do produto** | ✅ Sim | O que você vende ou oferece |
-| **SSL/HTTPS** | ✅ Sim | Segurança obrigatória |
-
+- **Site no ar:** ✅ Sim -- Não pode estar "em construção"
+- **Política de privacidade:** ✅ Sim -- Explicar como dados são tratados
+- **Termos de serviço:** ✅ Sim -- Regras de uso do serviço
+- **Política de reembolso:** ✅ Sim -- Prazos e condições de devolução
+- **Informações de contato:** ✅ Sim -- E-mail, telefone ou formulário
+- **Descrição clara do produto:** ✅ Sim -- O que você vende ou oferece
+- **SSL/HTTPS:** ✅ Sim -- Segurança obrigatória
 > **Dica:** Se você não tem site, use Stripe Payment Links (links de pagamento). O Stripe pode aprovar contas apenas com links, mas a verificação é mais rigorosa.
 
 ## 3. Requisitos para Contas Empresariais
 
 ### Documentos da Empresa
 
-| Documento | Descrição | Onde Obter |
-|-----------|-----------|------------|
-| **Certificado de constituição** | Comprova que a empresa existe legalmente | Junta Comercial, Secretary of State |
-| **EIN (Employer Identification Number)** | Número de identificação fiscal da empresa | IRS (gratuito) |
-| **Comprovante de endereço comercial** | Conta de serviços ou contrato de aluguel | Prestadora de serviços, imobiliária |
-| **Contrato social ou estatuto** | Documento que define a estrutura da empresa | Advogado ou contador |
-| **Register of Directors** | Lista dos diretores (alguns países) | Empresa ou agência reguladora |
-
+- **Certificado de constituição:** Comprova que a empresa existe legalmente -- Junta Comercial, Secretary of State
+- **EIN (Employer Identification Number):** Número de identificação fiscal da empresa -- IRS (gratuito)
+- **Comprovante de endereço comercial:** Conta de serviços ou contrato de aluguel -- Prestadora de serviços, imobiliária
+- **Contrato social ou estatuto:** Documento que define a estrutura da empresa -- Advogado ou contador
+- **Register of Directors:** Lista dos diretores (alguns países) -- Empresa ou agência reguladora
 ### Informações dos Beneficiários Finais (UBO)
 
 Para contas empresariais, o Stripe exige:
 
-| Informação | Detalhes |
-|-----------|----------|
-| **Nome completo** | De cada beneficiário com >25% de participação |
-| **Data de nascimento** | De cada beneficiário |
-| **Endereço** | Residencial de cada beneficiário |
-| **Documento de identidade** | Cópia de cada beneficiário |
-| **Participação percentual** | Quanto cada um possui |
-
+- **Nome completo:** De cada beneficiário com >25% de participação
+- **Data de nascimento:** De cada beneficiário
+- **Endereço:** Residencial de cada beneficiário
+- **Documento de identidade:** Cópia de cada beneficiário
+- **Participação percentual:** Quanto cada um possui
 > **BOI (Beneficial Ownership Information):** Desde 2024, empresas nos EUA precisam reportar beneficiários finais ao FinCEN. O Stripe pode solicitar essa documentação.
 
 ## 4. Tipos de Negócio e Requisitos Específicos
@@ -131,13 +116,10 @@ Para contas empresariais, o Stripe exige:
 
 ### Métodos de Verificação em 2026
 
-| Método | Descrição | Tempo |
-|--------|-----------|-------|
-| **Selfie estática** | Foto do rosto + documento | 2-5 minutos |
-| **Vídeo-selfie** | Vídeo curto falando seu nome | 3-5 minutos |
-| **Documento ao vivo** | Foto do documento em tempo real | 1-2 minutos |
-| **Biometria** | Reconhecimento facial | Instantâneo |
-
+- **Selfie estática:** Foto do rosto + documento -- 2-5 minutos
+- **Vídeo-selfie:** Vídeo curto falando seu nome -- 3-5 minutos
+- **Documento ao vivo:** Foto do documento em tempo real -- 1-2 minutos
+- **Biometria:** Reconhecimento facial -- Instantâneo
 ### Dicas para Passar na Verificação
 
 1. **Iluminação adequada** — luz natural ou ambiente bem iluminado
@@ -148,44 +130,32 @@ Para contas empresariais, o Stripe exige:
 
 ### Erros Comuns na Verificação
 
-| Erro | Causa | Solução |
-|------|-------|---------|
-| **Documento ilegível** | Foto borrada ou com reflexo | Use scanner ou boa iluminação |
-| **Documento cortado** | Cantos não aparecem na foto | Enquadre todo o documento |
-| **Rosto não reconhecido** | Mudança física significativa | Atualize o documento primeiro |
-| **Documento vencido** | Data de validade expirada | Renove antes de verificar |
-| **Selfie com pouca luz** | Ambiente escuro | Ligue luzes ou use flash |
-
+- **Documento ilegível:** Foto borrada ou com reflexo -- Use scanner ou boa iluminação
+- **Documento cortado:** Cantos não aparecem na foto -- Enquadre todo o documento
+- **Rosto não reconhecido:** Mudança física significativa -- Atualize o documento primeiro
+- **Documento vencido:** Data de validade expirada -- Renove antes de verificar
+- **Selfie com pouca luz:** Ambiente escuro -- Ligue luzes ou use flash
 ## 6. Conta Bancária
 
 ### Requisitos da Conta Bancária
 
-| Requisito | Detalhes |
-|-----------|----------|
-| **Titularidade** | Mesmo nome da conta Stripe (pessoa ou empresa) |
-| **País** | Mesmo país onde a conta Stripe está registrada |
-| **Tipo** | Conta corrente (não poupança em alguns países) |
-| **Moeda** | Moeda local do país da conta Stripe |
-| **Status** | Ativa e em situação regular |
-
+- **Titularidade:** Mesmo nome da conta Stripe (pessoa ou empresa)
+- **País:** Mesmo país onde a conta Stripe está registrada
+- **Tipo:** Conta corrente (não poupança em alguns países)
+- **Moeda:** Moeda local do país da conta Stripe
+- **Status:** Ativa e em situação regular
 ### Contas Aceitas
 
-| Tipo de Conta | Stripe | Notas |
-|--------------|--------|-------|
-| **Conta pessoal** | ✅ Sim (para pessoas físicas) | Desde que o nome corresponda |
-| **Conta empresarial** | ✅ Sim (para empresas) | Nome da empresa deve corresponder |
-| **Conta digital** | ✅ Sim (Nubank, Inter, Mercury, etc.) | Bancos digitais são aceitos |
-| **Conta poupança** | ❌ Não (na maioria dos países) | Use conta corrente |
-| **Conta conjunta** | ✅ Sim | Conta precisa estar no nome do titular |
-
+- **Conta pessoal:** ✅ Sim (para pessoas físicas) -- Desde que o nome corresponda
+- **Conta empresarial:** ✅ Sim (para empresas) -- Nome da empresa deve corresponder
+- **Conta digital:** ✅ Sim (Nubank, Inter, Mercury, etc.) -- Bancos digitais são aceitos
+- **Conta poupança:** ❌ Não (na maioria dos países) -- Use conta corrente
+- **Conta conjunta:** ✅ Sim -- Conta precisa estar no nome do titular
 ### Vinculação Bancária
 
-| Método | Descrição | Tempo |
-|--------|-----------|-------|
-| **Microdepósitos** | Stripe deposita 2 valores aleatórios | 1-2 dias úteis |
-| **Login bancário** | Verificação instantânea via API | Instantâneo |
-| **Extrato bancário** | Upload manual de extrato | 1-2 dias úteis |
-
+- **Microdepósitos:** Stripe deposita 2 valores aleatórios -- 1-2 dias úteis
+- **Login bancário:** Verificação instantânea via API -- Instantâneo
+- **Extrato bancário:** Upload manual de extrato -- 1-2 dias úteis
 ## 7. Motivos Comuns de Recusa
 
 ### Motivo 1: Documento Ilegível ou Inválido
@@ -220,14 +190,11 @@ Para contas empresariais, o Stripe exige:
 
 ### Tabela de Motivos de Recusa
 
-| Motivo | Frequência | Como Evitar |
-|--------|-----------|-------------|
-| **Documento ilegível** | 30% | Use scanner, boa iluminação |
-| **Informações inconsistentes** | 25% | Verifique nomes e endereços |
-| **Site incompleto** | 20% | Tenha site completo com políticas |
-| **Negócio não suportado** | 15% | Verifique lista de negócios |
-| **Localização não suportada** | 10% | Considere LLC nos EUA |
-
+- **Documento ilegível:** 30% -- Use scanner, boa iluminação
+- **Informações inconsistentes:** 25% -- Verifique nomes e endereços
+- **Site incompleto:** 20% -- Tenha site completo com políticas
+- **Negócio não suportado:** 15% -- Verifique lista de negócios
+- **Localização não suportada:** 10% -- Considere LLC nos EUA
 ## 8. Como Acelerar a Aprovação
 
 ### Checklist Pré-Cadastro
@@ -263,14 +230,11 @@ O Stripe envia um e-mail explicando o motivo. Leia com atenção.
 
 ### Passo 2: Corrija o Problema
 
-| Motivo | Ação |
-|--------|------|
-| Documento ilegível | Envie fotos nítidas com scanner |
-| Informações inconsistentes | Corrija os dados no cadastro |
-| Site incompleto | Complete o site e solicite reanálise |
-| Negócio não suportado | Considere outra plataforma |
-| Localização não suportada | Crie uma LLC nos EUA |
-
+- **Documento ilegível:** Envie fotos nítidas com scanner
+- **Informações inconsistentes:** Corrija os dados no cadastro
+- **Site incompleto:** Complete o site e solicite reanálise
+- **Negócio não suportado:** Considere outra plataforma
+- **Localização não suportada:** Crie uma LLC nos EUA
 ### Passo 3: Solicite Reanálise
 
 - Acesse o dashboard do Stripe
@@ -291,36 +255,24 @@ Se o Stripe recusar definitivamente:
 
 ### Brasil
 
-| Tipo | Documento | Detalhes |
-|------|-----------|----------|
-| **Identidade** | RG, CNH ou Passaporte | Válido, com foto |
-| **Residência** | Conta de luz, água, telefone ou extrato bancário | Menos de 3 meses |
-| **Empresa** | CNPJ, Contrato Social, Inscrição Estadual | Quando aplicável |
-
+- **Identidade:** RG, CNH ou Passaporte -- Válido, com foto
+- **Residência:** Conta de luz, água, telefone ou extrato bancário -- Menos de 3 meses
+- **Empresa:** CNPJ, Contrato Social, Inscrição Estadual -- Quando aplicável
 ### México
 
-| Tipo | Documento | Detalhes |
-|------|-----------|----------|
-| **Identidade** | INE, Passaporte ou Cédula Profissional | Válido |
-| **Residência** | Recibo de luz, água, estado de cuenta | Menos de 3 meses |
-| **Empresa** | RFC, Acta Constitutiva, Comprobante de Domicilio | Quando aplicável |
-
+- **Identidade:** INE, Passaporte ou Cédula Profissional -- Válido
+- **Residência:** Recibo de luz, água, estado de cuenta -- Menos de 3 meses
+- **Empresa:** RFC, Acta Constitutiva, Comprobante de Domicilio -- Quando aplicável
 ### EUA (LLC)
 
-| Tipo | Documento | Detalhes |
-|------|-----------|----------|
-| **Identidade** | Passaporte ou Driver's License | Válido |
-| **Residência** | Utility bill ou bank statement | Menos de 3 meses |
-| **Empresa** | EIN Confirmation Letter, Articles of Organization, BOI | Obrigatório |
-
+- **Identidade:** Passaporte ou Driver's License -- Válido
+- **Residência:** Utility bill ou bank statement -- Menos de 3 meses
+- **Empresa:** EIN Confirmation Letter, Articles of Organization, BOI -- Obrigatório
 ### Europa
 
-| Tipo | Documento | Detalhes |
-|------|-----------|----------|
-| **Identidade** | Passaporte ou carteira de identidade nacional | Válido |
-| **Residência** | Utility bill ou bank statement | Menos de 3 meses |
-| **Empresa** | Certificate of Incorporation, VAT Number | Quando aplicável |
-
+- **Identidade:** Passaporte ou carteira de identidade nacional -- Válido
+- **Residência:** Utility bill ou bank statement -- Menos de 3 meses
+- **Empresa:** Certificate of Incorporation, VAT Number -- Quando aplicável
 ## Checklist Final de Aprovação
 
 ### Antes de Começar

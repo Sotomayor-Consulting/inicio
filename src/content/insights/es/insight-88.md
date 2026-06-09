@@ -1,195 +1,168 @@
-Ôªø---
-title: "Qu√© Revisar Antes de Invertir en EE. UU. siendo Extranjero: Gu√≠a 2026"
-description: "Qu√© revisar antes de invertir en EE. UU. siendo extranjero"
-cardImage: "@/images/insights/inversi√≥n-extranjera.png"
-cardImageAlt: "Lista de verificaci√≥n pre-inversi√≥n para extranjeros en EE. UU.: estructura legal, impuestos, financiamiento, ubicaci√≥n, seguros, Stripe"
+---
+title: "QuÈ Revisar Antes de Invertir en EE. UU. siendo Extranjero: GuÌa 2026"
+description: "QuÈ revisar antes de invertir en EE. UU. siendo extranjero"
+cardImage: "@/images/insights/inversiÛn-extranjera.png"
+cardImageAlt: "Lista de verificaciÛn pre-inversiÛn para extranjeros en EE. UU.: estructura legal, impuestos, financiamiento, ubicaciÛn, seguros, Stripe"
 ---
 
-**Invertir en EE. UU. siendo extranjero** requiere revisar una serie de factores cr√≠ticos antes de comprometer capital: desde la estructura legal y fiscal hasta el financiamiento, la ubicaci√≥n, los seguros, las restricciones locales y la estrategia de salida. Un error en cualquiera de estos puntos puede costar miles de d√≥lares.
+**Invertir en EE. UU. siendo extranjero** requiere revisar una serie de factores crÌticos antes de comprometer capital: desde la estructura legal y fiscal hasta el financiamiento, la ubicaciÛn, los seguros, las restricciones locales y la estrategia de salida. Un error en cualquiera de estos puntos puede costar miles de dÛlares.
 
-En esta gu√≠a, presentamos **qu√© revisar antes de invertir en EE. UU. siendo extranjero** en 2026: una checklist completa con 10 √°reas cr√≠ticas que todo inversor debe evaluar antes de comprar.
+En esta guÌa, presentamos **quÈ revisar antes de invertir en EE. UU. siendo extranjero** en 2026: una checklist completa con 10 ·reas crÌticas que todo inversor debe evaluar antes de comprar.
 
 ## 1. Revisar tu Perfil como Inversor
 
-### Autoevaluaci√≥n Inicial
+### AutoevaluaciÛn Inicial
 
-| Pregunta | Por Qu√© es Importante |
-|----------|----------------------|
-| **¬øTienes SSN o ITIN?** | Determina opciones de financiamiento y formularios fiscales |
-| **¬øTienes historial crediticio en EE. UU.?** | Afecta tasa y tipo de pr√©stamo |
-| **¬øCu√°l es tu presupuesto total?** | Define rango de propiedades y down payment |
-| **¬øPlazo de inversi√≥n?** | Corto (flip) vs. largo (alquiler) cambia todo |
-| **¬øDesde qu√© pa√≠s inviertes?** | Afecta tratados fiscales, estructura y banking |
-| **¬øTienes experiencia en real estate?** | Determina si necesitas socio o property manager |
-| **¬øObjetivo: renta, apreciaci√≥n o ambas?** | Define ubicaci√≥n, tipo de propiedad y financiamiento |
-
+- **øTienes SSN o ITIN?:** Determina opciones de financiamiento y formularios fiscales
+- **øTienes historial crediticio en EE. UU.?:** Afecta tasa y tipo de prÈstamo
+- **øCu·l es tu presupuesto total?:** Define rango de propiedades y down payment
+- **øPlazo de inversiÛn?:** Corto (flip) vs. largo (alquiler) cambia todo
+- **øDesde quÈ paÌs inviertes?:** Afecta tratados fiscales, estructura y banking
+- **øTienes experiencia en real estate?:** Determina si necesitas socio o property manager
+- **øObjetivo: renta, apreciaciÛn o ambas?:** Define ubicaciÛn, tipo de propiedad y financiamiento
 ### Calcula tu Capacidad Real
 
 ## 2. Revisar la Estructura Legal
 
 ### Opciones de Estructura
 
-| Estructura | Protecci√≥n | Privacidad | Estate Tax | Costo Anual | Complejidad |
-|-----------|-----------|-----------|-----------|-------------|-------------|
-| **Nombre personal** | ‚ùå Ninguna | ‚ùå P√∫blica | ‚úÖ Expuesto | $0 | M√≠nima |
-| **LLC sola** | ‚úÖ Limitada | ‚úÖ Propietario es LLC | ‚ö†Ô∏è Expuesto (> $60K) | $500-1,000 | Baja |
-| **LLC + Holding internacional** | ‚úÖ Alta | ‚úÖ Alta | ‚ùå Protegido | $2,000-4,000 | Media |
-| **LLC + Holding + Trust** | ‚úÖ M√°xima | ‚úÖ M√°xima | ‚ùå Protegido | $4,000-8,000 | Alta |
-
+- **Nombre personal:** ? Ninguna -- ? P˙blica -- ? Expuesto -- $0 -- MÌnima
+- **LLC sola:** ? Limitada -- ? Propietario es LLC -- ?? Expuesto (> $60K) -- $500-1,000 -- Baja
+- **LLC + Holding internacional:** ? Alta -- ? Alta -- ? Protegido -- $2,000-4,000 -- Media
+- **LLC + Holding + Trust:** ? M·xima -- ? M·xima -- ? Protegido -- $4,000-8,000 -- Alta
 ### Checklist Legal Pre-Compra
 
-## 3. Revisar el Estado y la Ubicaci√≥n
+## 3. Revisar el Estado y la UbicaciÛn
 
-### Comparaci√≥n por Estado
+### ComparaciÛn por Estado
 
-| Factor | Florida | Texas | Nueva York | California |
-|--------|---------|-------|-----------|------------|
-| **State income tax** | 0% | 0% | 4-10.9% | 1-13.3% |
-| **Property tax** | 0.8-1.2% | 1.6-2.2% | 1.4% | 0.77% |
-| **Transfer tax (compra)** | 0.7% | 0.5-1.5% | 1.825% | 0.11% |
-| **Short-term rental** | ‚úÖ Permitido* | ‚úÖ Permitido* | ‚ö†Ô∏è Restringido | ‚ö†Ô∏è Restringido |
-| **Protecci√≥n LLC** | ‚úÖ Buena | ‚úÖ Buena | ‚úÖ Buena | ‚ö†Ô∏è Media |
-| **Seguro hurac√°n** | Alto | Medio | Bajo | Bajo |
-| **Costo de vida** | Medio | Bajo | Alto | Muy alto |
-
-### Micro-Ubicaci√≥n: Qu√© Revisar en el Vecindario
+- **State income tax:** 0% -- 0% -- 4-10.9% -- 1-13.3%
+- **Property tax:** 0.8-1.2% -- 1.6-2.2% -- 1.4% -- 0.77%
+- **Transfer tax (compra):** 0.7% -- 0.5-1.5% -- 1.825% -- 0.11%
+- **Short-term rental:** ? Permitido* -- ? Permitido* -- ?? Restringido -- ?? Restringido
+- **ProtecciÛn LLC:** ? Buena -- ? Buena -- ? Buena -- ?? Media
+- **Seguro hurac·n:** Alto -- Medio -- Bajo -- Bajo
+- **Costo de vida:** Medio -- Bajo -- Alto -- Muy alto
+### Micro-UbicaciÛn: QuÈ Revisar en el Vecindario
 
 ## 4. Revisar el Financiamiento
 
-### Opciones de Pr√©stamo por Perfil
+### Opciones de PrÈstamo por Perfil
 
-| Tu Perfil | Mejor Opci√≥n | Down Payment | Tasa (2026) |
-|-----------|-------------|-------------|-------------|
-| **Sin SSN/ITIN, sin cr√©dito US** | DSCR Loan | 25-35% | 7-9% |
-| **Con ITIN, sin cr√©dito US** | DSCR Loan / ITIN Mortgage | 20-30% | 7-10% |
-| **Con SSN, buen cr√©dito US** | Conventional / DSCR | 20-25% | 6-8% |
-| **Efectivo disponible** | Cash (luego refinancia) | 100% | 0% |
-| **Flip/corto plazo** | Hard Money | 20-30% | 10-15% |
-
+- **Sin SSN/ITIN, sin crÈdito US:** DSCR Loan -- 25-35% -- 7-9%
+- **Con ITIN, sin crÈdito US:** DSCR Loan / ITIN Mortgage -- 20-30% -- 7-10%
+- **Con SSN, buen crÈdito US:** Conventional / DSCR -- 20-25% -- 6-8%
+- **Efectivo disponible:** Cash (luego refinancia) -- 100% -- 0%
+- **Flip/corto plazo:** Hard Money -- 20-30% -- 10-15%
 ### Preguntas Clave al Lender
 
 ### Calculadora de Pago Mensual
 
 ## 5. Revisar los Impuestos
 
-### Impuestos que Afectan tu Inversi√≥n
+### Impuestos que Afectan tu InversiÛn
 
-| Impuesto | Cu√°ndo | Tasa | Qui√©n |
-|----------|--------|------|-------|
-| **Property tax** | Anual | 0.8-2.2% (seg√∫n estado) | Todos los propietarios |
-| **Income tax (rentas)** | Anual (1040-NR) | 10-37% | Extranjeros con rentas |
-| **FIRPTA** | Al vender | 15% retenci√≥n | Extranjeros |
-| **Capital gains** | Al vender | 0-20% | Todos |
-| **Depreciation recapture** | Al vender | Hasta 25% | Todos |
-| **Estate tax** | Al fallecer | 18-40% | Extranjeros > $60K |
-
+- **Property tax:** Anual -- 0.8-2.2% (seg˙n estado) -- Todos los propietarios
+- **Income tax (rentas):** Anual (1040-NR) -- 10-37% -- Extranjeros con rentas
+- **FIRPTA:** Al vender -- 15% retenciÛn -- Extranjeros
+- **Capital gains:** Al vender -- 0-20% -- Todos
+- **Depreciation recapture:** Al vender -- Hasta 25% -- Todos
+- **Estate tax:** Al fallecer -- 18-40% -- Extranjeros > $60K
 ### Preguntas Fiscales Clave
 
 ## 6. Revisar los Seguros
 
-### Seguros M√≠nimos Requeridos
+### Seguros MÌnimos Requeridos
 
-| Tipo de Seguro | Obligatorio | Costo Anual |
-|---------------|------------|-------------|
-| **Property insurance (vivienda)** | ‚úÖ S√≠ (si hay hipoteca) | $1,500-8,000 |
-| **Hurricane/windstorm** | ‚úÖ S√≠ (en zonas de riesgo) | $1,000-5,000 adicional |
-| **Flood insurance** | ‚ö†Ô∏è Si est√° en flood zone (FEMA) | $400-2,000 |
-| **Liability insurance** | ‚úÖ Muy recomendado | $500-2,000 |
-| **Umbrella policy** | ‚ö†Ô∏è Recomendado (2+ propiedades) | $300-1,000 |
-
+- **Property insurance (vivienda):** ? SÌ (si hay hipoteca) -- $1,500-8,000
+- **Hurricane/windstorm:** ? SÌ (en zonas de riesgo) -- $1,000-5,000 adicional
+- **Flood insurance:** ?? Si est· en flood zone (FEMA) -- $400-2,000
+- **Liability insurance:** ? Muy recomendado -- $500-2,000
+- **Umbrella policy:** ?? Recomendado (2+ propiedades) -- $300-1,000
 ### Cobertura Recomendada por Tipo de Propiedad
 
 ## 7. Revisar las Restricciones Legales Locales
 
 ### Lo que Debes Investigar
 
-| Restricci√≥n | D√≥nde Revisar | Por Qu√© es Importante |
-|------------|--------------|----------------------|
-| **Zoning (zonificaci√≥n)** | County zoning department | Determina uso permitido |
-| **HOA restrictions** | CC&Rs de la comunidad | Puede prohibir alquileres |
-| **Short-term rental laws** | Ciudad/County ordinances | Algunas √°reas proh√≠ben Airbnb |
-| **Rent control** | Leyes locales | Limita incrementos de renta |
-| **Business license** | City/county | Requerido para alquilar |
-| **Homestead exemption** | Property appraiser | Solo para residencia, no inversi√≥n |
-
+- **Zoning (zonificaciÛn):** County zoning department -- Determina uso permitido
+- **HOA restrictions:** CC&Rs de la comunidad -- Puede prohibir alquileres
+- **Short-term rental laws:** Ciudad/County ordinances -- Algunas ·reas prohÌben Airbnb
+- **Rent control:** Leyes locales -- Limita incrementos de renta
+- **Business license:** City/county -- Requerido para alquilar
+- **Homestead exemption:** Property appraiser -- Solo para residencia, no inversiÛn
 ### Ejemplo: Restricciones de Short-Term Rental en Florida
 
 ## 8. Revisar el Property Management
 
-### ¬øAutogestionar o Contratar?
+### øAutogestionar o Contratar?
 
-| Aspecto | Autogesti√≥n | Property Manager |
-|---------|------------|-----------------|
-| **Costo** | 0% (tu tiempo) | 8-12% de la renta |
-| **Control** | Total | Limitado |
-| **Tiempo** | 5-15 horas/semana | ~1 hora/semana |
-| **Idioma** | Necesitas ingl√©s | Ellos lo manejan |
-| **Disponibilidad** | 24/7 (emergencias) | 24/7 (profesional) |
-| **Inquilinos** | T√∫ los buscas | Ellos los encuentran |
-| **Mantenimiento** | T√∫ coordinas | Ellos coordinan |
-| **Legal** | T√∫ manejas desalojos | Ellos tienen abogados |
-
+- **Costo:** 0% (tu tiempo) -- 8-12% de la renta
+- **Control:** Total -- Limitado
+- **Tiempo:** 5-15 horas/semana -- ~1 hora/semana
+- **Idioma:** Necesitas inglÈs -- Ellos lo manejan
+- **Disponibilidad:** 24/7 (emergencias) -- 24/7 (profesional)
+- **Inquilinos:** T˙ los buscas -- Ellos los encuentran
+- **Mantenimiento:** T˙ coordinas -- Ellos coordinan
+- **Legal:** T˙ manejas desalojos -- Ellos tienen abogados
 ### Preguntas para un Property Manager
 
 ## 9. Revisar la Estrategia de Salida
 
 ### Opciones de Salida
 
-| Estrategia | Plazo | Impuestos | Complejidad |
-|-----------|-------|-----------|-------------|
-| **Vender en el mercado** | 3-12 meses | FIRPTA + capital gains | Baja |
-| **1031 Exchange** | 45-180 d√≠as | Diferir impuestos | Media |
-| **Vender la LLC (membership interest)** | 30-60 d√≠as | Potencialmente sin FIRPTA | Alta |
-| **Refinanciar (cash-out)** | 30-60 d√≠as | Sin impuesto (no es venta) | Baja |
-| **Alquilar y hold (buy & hold)** | 5+ a√±os | Depreciaci√≥n + apreciaci√≥n | Baja |
-| **Donar a herederos** | Al fallecer | Estate tax | Alta |
-
+- **Vender en el mercado:** 3-12 meses -- FIRPTA + capital gains -- Baja
+- **1031 Exchange:** 45-180 dÌas -- Diferir impuestos -- Media
+- **Vender la LLC (membership interest):** 30-60 dÌas -- Potencialmente sin FIRPTA -- Alta
+- **Refinanciar (cash-out):** 30-60 dÌas -- Sin impuesto (no es venta) -- Baja
+- **Alquilar y hold (buy & hold):** 5+ aÒos -- DepreciaciÛn + apreciaciÛn -- Baja
+- **Donar a herederos:** Al fallecer -- Estate tax -- Alta
 ### Preguntas de Salida
 
-## 10. Revisar la Documentaci√≥n y el Cronograma
+## 10. Revisar la DocumentaciÛn y el Cronograma
 
 ### Documentos que Necesitas Tener
 
-### Cronograma T√≠pico para un Extranjero
+### Cronograma TÌpico para un Extranjero
 
-## 11. Preguntas Frecuentes Pre-Inversi√≥n
+## 11. Preguntas Frecuentes Pre-InversiÛn
 
-### ¬øCu√°nto dinero necesito para empezar?
+### øCu·nto dinero necesito para empezar?
 
-M√≠nimo $100,000-150,000 para una propiedad de $400,000 (25-30% down + closing costs + reservas). Si tienes menos, considera mercados m√°s baratos (Midwest, Texas inland).
+MÌnimo $100,000-150,000 para una propiedad de $400,000 (25-30% down + closing costs + reservas). Si tienes menos, considera mercados m·s baratos (Midwest, Texas inland).
 
-### ¬øPuedo invertir sin visitar EE. UU.?
+### øPuedo invertir sin visitar EE. UU.?
 
-S√≠, es com√∫n. Puedes hacer due diligence virtual (video tour, inspector local, agente de confianza). Pero es recomendable visitar al menos una vez.
+SÌ, es com˙n. Puedes hacer due diligence virtual (video tour, inspector local, agente de confianza). Pero es recomendable visitar al menos una vez.
 
-### ¬øCu√°nto tiempo toma todo el proceso?
+### øCu·nto tiempo toma todo el proceso?
 
-2-4 meses desde que decides invertir hasta que cierras la compra. Formar LLC e ITIN toma 4-8 semanas. La b√∫squeda y cierre toman otras 4-8 semanas.
+2-4 meses desde que decides invertir hasta que cierras la compra. Formar LLC e ITIN toma 4-8 semanas. La b˙squeda y cierre toman otras 4-8 semanas.
 
-### ¬øQu√© pasa si no hablo ingl√©s?
+### øQuÈ pasa si no hablo inglÈs?
 
-Necesitas un equipo que hable tu idioma: agente biling√ºe, CPA que hable espa√±ol/portugu√©s, property manager biling√ºe. Muchos profesionales en Florida atienden a inversores latinos.
+Necesitas un equipo que hable tu idioma: agente biling¸e, CPA que hable espaÒol/portuguÈs, property manager biling¸e. Muchos profesionales en Florida atienden a inversores latinos.
 
-### ¬øStripe es obligatorio para cobrar rentas?
+### øStripe es obligatorio para cobrar rentas?
 
-No es obligatorio, pero es la mejor opci√≥n: acepta pagos de inquilinos autom√°ticamente, genera reportes para taxes, se integra con property management, y evita que mezcles rentas con finanzas personales.
+No es obligatorio, pero es la mejor opciÛn: acepta pagos de inquilinos autom·ticamente, genera reportes para taxes, se integra con property management, y evita que mezcles rentas con finanzas personales.
 
-### ¬øCu√°l es el error m√°s com√∫n de los principiantes?
+### øCu·l es el error m·s com˙n de los principiantes?
 
 Comprar sin estructura legal (sin LLC), sin entender FIRPTA, sin considerar estate tax, y sin tener reservas suficientes para imprevistos (reparaciones, vacancia, huracanes).
 
-## 12. Checklist Definitiva Pre-Inversi√≥n
+## 12. Checklist Definitiva Pre-InversiÛn
 
-### FASE 1: PLANIFICACI√ìN (1 mes antes)
+### FASE 1: PLANIFICACI”N (1 mes antes)
 - [ ] Definir presupuesto total (compra + costos + reservas)
 - [ ] Elegir estrategia (LTR, STR, flip, buy & hold)
 - [ ] Seleccionar estado y ciudad objetivo
 - [ ] Investigar impuestos del estado (property tax, income tax)
 - [ ] Consultar con CPA internacional
-- [ ] Consultar con abogado de bienes ra√≠ces
+- [ ] Consultar con abogado de bienes raÌces
 
 ### FASE 2: ESTRUCTURA LEGAL (2 meses antes)
-- [ ] Formar LLC en el estado de inversi√≥n
+- [ ] Formar LLC en el estado de inversiÛn
 - [ ] Obtener EIN del IRS (CP 575)
 - [ ] Solicitar ITIN (W-7) si no lo tienes
 - [ ] Abrir cuenta bancaria US a nombre de la LLC
@@ -201,12 +174,12 @@ Comprar sin estructura legal (sin LLC), sin entender FIRPTA, sin considerar esta
 - [ ] Solicitar pre-approval de 2-3 lenders
 - [ ] Comparar tasas, puntos y prepayment penalties
 - [ ] Tener fondos listos en cuenta US
-- [ ] Preparar documentaci√≥n de origen de fondos
+- [ ] Preparar documentaciÛn de origen de fondos
 
-### FASE 4: B√öSQUEDA Y DEBIDA DILIGENCIA (3-4 semanas)
-- [ ] Contratar agente de bienes ra√≠ces local
+### FASE 4: B⁄SQUEDA Y DEBIDA DILIGENCIA (3-4 semanas)
+- [ ] Contratar agente de bienes raÌces local
 - [ ] Verificar zoning y restricciones de HOA
-- [ ] Solicitar inspecci√≥n de propiedad
+- [ ] Solicitar inspecciÛn de propiedad
 - [ ] Revisar flood zone (FEMA map)
 - [ ] Cotizar seguros (property, hurricane, flood, liability)
 - [ ] Verificar demanda de alquiler en la zona
@@ -215,23 +188,23 @@ Comprar sin estructura legal (sin LLC), sin entender FIRPTA, sin considerar esta
 ### FASE 5: CIERRE (1-2 semanas)
 - [ ] Revisar contrato de compra con abogado
 - [ ] Confirmar funding del lender
-- [ ] Transferir fondos a t√≠tulo/escrow
+- [ ] Transferir fondos a tÌtulo/escrow
 - [ ] Firmar documentos de cierre
 - [ ] Registrar LLC como propietaria
 - [ ] Activar Stripe para cobrar rentas
 
 ### FASE 6: POST-CIERRE (primer mes)
-- [ ] Contratar property manager (o configurar autogesti√≥n)
+- [ ] Contratar property manager (o configurar autogestiÛn)
 - [ ] Listar propiedad para alquiler
-- [ ] Configurar pago autom√°tico de hipoteca
-- [ ] Configurar pago autom√°tico de seguros
-- [ ] Presentar W-8ECI para evitar retenci√≥n del 30%
+- [ ] Configurar pago autom·tico de hipoteca
+- [ ] Configurar pago autom·tico de seguros
+- [ ] Presentar W-8ECI para evitar retenciÛn del 30%
 - [ ] Agendar recordatorio de taxes (1040-NR + Schedule E)
 
-## Conclusi√≥n
+## ConclusiÛn
 
-**Revisar todos estos factores antes de invertir en EE. UU.** marca la diferencia entre una inversi√≥n exitosa y una costosa lecci√≥n. Un inversor preparado revisa su estructura legal, el financiamiento disponible, los impuestos aplicables, los seguros necesarios, las restricciones locales, el property management, la estrategia de salida, y tiene toda la documentaci√≥n en orden.
+**Revisar todos estos factores antes de invertir en EE. UU.** marca la diferencia entre una inversiÛn exitosa y una costosa lecciÛn. Un inversor preparado revisa su estructura legal, el financiamiento disponible, los impuestos aplicables, los seguros necesarios, las restricciones locales, el property management, la estrategia de salida, y tiene toda la documentaciÛn en orden.
 
-La inversi√≥n en real estate en EE. UU. ofrece oportunidades incre√≠bles para extranjeros, pero el √©xito est√° en los detalles que revisas antes de comprometer tu capital. T√≥mate el tiempo necesario para evaluar cada punto de esta gu√≠a.
+La inversiÛn en real estate en EE. UU. ofrece oportunidades increÌbles para extranjeros, pero el Èxito est· en los detalles que revisas antes de comprometer tu capital. TÛmate el tiempo necesario para evaluar cada punto de esta guÌa.
 
-En **Sotomayor Consulting International**, te acompa√±amos en cada paso de tu inversi√≥n: desde la planificaci√≥n inicial y estructura legal hasta la configuraci√≥n de Stripe, conexi√≥n con lenders, selecci√≥n de propiedades y asesor√≠a continua. Cont√°ctanos para una consultor√≠a personalizada.
+En **Sotomayor Consulting International**, te acompaÒamos en cada paso de tu inversiÛn: desde la planificaciÛn inicial y estructura legal hasta la configuraciÛn de Stripe, conexiÛn con lenders, selecciÛn de propiedades y asesorÌa continua. Cont·ctanos para una consultorÌa personalizada.

@@ -29,17 +29,14 @@ You must file Form 5472 if you meet **all** of these conditions:
 
 Any transaction between the LLC (U.S. related party) and the owner (foreign related party) must be reported. Examples:
 
-| Transaction | Reportable? |
-|-------------|-------------|
-| Initial capital contribution | Yes |
-| Fund transfer from owner to LLC | Yes |
-| Fund withdrawal from LLC to owner | Yes |
-| Personal expense paid from LLC | Yes |
-| Loan from owner to LLC | Yes |
-| Loan from LLC to owner | Yes |
-| Service payment from owner to LLC | Yes |
-| Asset purchase between owner and LLC | Yes |
-
+- **Initial capital contribution:** Yes
+- **Fund transfer from owner to LLC:** Yes
+- **Fund withdrawal from LLC to owner:** Yes
+- **Personal expense paid from LLC:** Yes
+- **Loan from owner to LLC:** Yes
+- **Loan from LLC to owner:** Yes
+- **Service payment from owner to LLC:** Yes
+- **Asset purchase between owner and LLC:** Yes
 > **General rule:** If there was any money movement between you and your LLC during the year, you must file Form 5472.
 
 ## Who does NOT need to file?
@@ -53,25 +50,19 @@ You do not need to file Form 5472 if:
 
 ## Filing deadlines
 
-| Event | Deadline |
-|--------|---------|
-| Standard deadline | April 15 |
-| Automatic extension | October 15 |
-| Additional extension (with justification) | Possible but not automatic |
-
+- **Standard deadline:** April 15
+- **Automatic extension:** October 15
+- **Additional extension (with justification):** Possible but not automatic
 Form 5472 is filed together with **Form 1120** (pro-forma). Even if the LLC does not pay taxes, it must file the 1120 as a vehicle for the 5472.
 
 > **IMPORTANT:** There is no automatic extension for the 5472 alone. The extension to October 15 applies if you file Form 7004 to extend the 1120.
 
 ## Penalties for not filing
 
-| Violation | Penalty |
-|-----------|---------|
-| Failure to file 5472 | $25,000 per year |
-| Incomplete or incorrect filing | $25,000 per year |
-| Failure to file after IRS notice | $25,000 per additional year |
-| Late filing without valid extension | $25,000 |
-
+- **Failure to file 5472:** $25,000 per year
+- **Incomplete or incorrect filing:** $25,000 per year
+- **Failure to file after IRS notice:** $25,000 per additional year
+- **Late filing without valid extension:** $25,000
 The penalty applies **for each tax year** not filed. If you have not filed for 3 years, the potential penalty is $75,000.
 
 > **Important note:** The IRS has intensified scrutiny of Form 5472 filings in recent years. More and more foreign LLC owners are receiving compliance letters.
@@ -95,33 +86,27 @@ Download the latest Form 5472 from IRS.gov. You will also need Form 1120 (pro-fo
 
 Form 5472 has several parts:
 
-| Part | Description |
-|------|-------------|
-| **Part I** | LLC information (name, EIN, address) |
-| **Part II** | Foreign owner information (name, address, country) |
-| **Part III** | Type of reportable transactions (transaction codes) |
-| **Part IV** | Monetary amounts of each transaction |
-| **Part V** | Additional information if applicable |
-
+- **Part I:** LLC information (name, EIN, address)
+- **Part II:** Foreign owner information (name, address, country)
+- **Part III:** Type of reportable transactions (transaction codes)
+- **Part IV:** Monetary amounts of each transaction
+- **Part V:** Additional information if applicable
 ### Step 4: Determine transaction codes
 
 The IRS assigns specific codes for each transaction type:
 
-| Code | Transaction type |
-|------|-----------------|
-| **01** | Sales of tangible property |
-| **02** | Sales of real property |
-| **03** | Leases of tangible property |
-| **04** | Leases of real property |
-| **05** | Interest |
-| **06** | Services performed |
-| **07** | Services received |
-| **08** | Commissions |
-| **09** | Royalties |
-| **10** | Reimbursements |
-| **11** | Insurance |
-| **12** | Other amounts (general use) |
-
+- **01:** Sales of tangible property
+- **02:** Sales of real property
+- **03:** Leases of tangible property
+- **04:** Leases of real property
+- **05:** Interest
+- **06:** Services performed
+- **07:** Services received
+- **08:** Commissions
+- **09:** Royalties
+- **10:** Reimbursements
+- **11:** Insurance
+- **12:** Other amounts (general use)
 For most single-member LLCs, the most common code is **12** (Other amounts), which covers capital contributions and withdrawals.
 
 ### Step 5: Prepare the pro-forma Form 1120

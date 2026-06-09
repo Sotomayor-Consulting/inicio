@@ -20,16 +20,13 @@ El **Common Reporting Standard (CRS)** es un estándar internacional desarrollad
 
 Aunque CRS y FATCA persiguen objetivos similares, existen diferencias clave:
 
-| Aspecto | CRS | FATCA |
-|---|---|---|
-| **Organismo** | OCDE (multilateral) | EE. UU. (unilateral) |
-| **Participación** | Más de 100 países | EE. UU. y países con IGA |
-| **Tipo de intercambio** | Automático y multilateral | Automático y bilateral |
-| **Base legal** | Acuerdo Multilateral entre Autoridades Competentes (MCAA) | Acuerdos Intergubernamentales (IGA) |
-| **Umbrales** | Generalmente no aplican (cuentas preexistentes de personas con bajo valor pueden estar exentas) | Varían según el formulario |
-| **Información reportada** | Saldos, ingresos (intereses, dividendos), productos financieros | Similar + titulares de cuentas |
-| **Participación de EE. UU.** | EE. UU. no participa en CRS (tiene su propio sistema FATCA) | Obligatorio para instituciones financieras globales |
-
+- **Organismo:** OCDE (multilateral) -- EE. UU. (unilateral)
+- **Participación:** Más de 100 países -- EE. UU. y países con IGA
+- **Tipo de intercambio:** Automático y multilateral -- Automático y bilateral
+- **Base legal:** Acuerdo Multilateral entre Autoridades Competentes (MCAA) -- Acuerdos Intergubernamentales (IGA)
+- **Umbrales:** Generalmente no aplican (cuentas preexistentes de personas con bajo valor pueden estar exentas) -- Varían según el formulario
+- **Información reportada:** Saldos, ingresos (intereses, dividendos), productos financieros -- Similar + titulares de cuentas
+- **Participación de EE. UU.:** EE. UU. no participa en CRS (tiene su propio sistema FATCA) -- Obligatorio para instituciones financieras globales
 > **Dato clave:** EE. UU. **no** ha adoptado el CRS. En su lugar, utiliza FATCA para recibir información de otros países, pero no intercambia automáticamente información bajo CRS.
 
 ## 3. ¿Qué Información se Intercambia Bajo CRS?

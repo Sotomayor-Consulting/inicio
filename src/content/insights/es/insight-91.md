@@ -1,220 +1,178 @@
-Ôªø---
-title: "C√≥mo Expandir tu Negocio Internacionalmente: Gu√≠a 2026"
-description: "C√≥mo expandir tu negocio internacionalmente"
-cardImage: "@/images/insights/inversi√≥n-extranjera.png"
-cardImageAlt: "Mapa mundial con conexiones de expansi√≥n empresarial: oficinas, pagos transfronterizos, contrataci√≥n global, con iconos de Stripe y estructuras legales internacionales"
+---
+title: "CÛmo Expandir tu Negocio Internacionalmente: GuÌa 2026"
+description: "CÛmo expandir tu negocio internacionalmente"
+cardImage: "@/images/insights/inversiÛn-extranjera.png"
+cardImageAlt: "Mapa mundial con conexiones de expansiÛn empresarial: oficinas, pagos transfronterizos, contrataciÛn global, con iconos de Stripe y estructuras legales internacionales"
 ---
 
-**Expandir tu negocio internacionalmente** es el siguiente paso despu√©s de validar tu modelo de negocio local. Pero la expansi√≥n internacional no es solo abrir una oficina en otro pa√≠s: implica estructura legal, impuestos transfronterizos, cobros internacionales, contrataci√≥n global, compliance y m√°s.
+**Expandir tu negocio internacionalmente** es el siguiente paso despuÈs de validar tu modelo de negocio local. Pero la expansiÛn internacional no es solo abrir una oficina en otro paÌs: implica estructura legal, impuestos transfronterizos, cobros internacionales, contrataciÛn global, compliance y m·s.
 
-En esta gu√≠a, explicamos **c√≥mo expandir tu negocio internacionalmente** en 2026: desde las estructuras legales y fiscales hasta la infraestructura de pagos con Stripe y la contrataci√≥n de talento global.
+En esta guÌa, explicamos **cÛmo expandir tu negocio internacionalmente** en 2026: desde las estructuras legales y fiscales hasta la infraestructura de pagos con Stripe y la contrataciÛn de talento global.
 
-## 1. ¬øPor Qu√© Expandir tu Negocio Internacionalmente?
+## 1. øPor QuÈ Expandir tu Negocio Internacionalmente?
 
-### Razones Estrat√©gicas
+### Razones EstratÈgicas
 
-| Raz√≥n | Beneficio | Ejemplo |
-|-------|-----------|---------|
-| **Diversificaci√≥n geogr√°fica** | Reducir riesgo pa√≠s | SaaS argentino factura desde EE. UU. |
-| **Acceso a nuevos mercados** | Multiplicar TAM (Total Addressable Market) | E-commerce mexicano vende a LATAM y EE. UU. |
-| **Optimizaci√≥n fiscal** | Tasas impositivas m√°s bajas | Holding en Delaware + operaciones en LATAM |
-| **Talento global** | Contratar donde sea m√°s competitivo | Developers en LATAM, ventas en EE. UU. |
-| **Ventaja competitiva** | Presencia global = credibilidad | Clientes prefieren empresa con oficina en Miami |
-| **Acceso a capital** | Inversores internacionales | VC en EE. UU. invierte en startup latinoamericana |
+- **DiversificaciÛn geogr·fica:** Reducir riesgo paÌs -- SaaS argentino factura desde EE. UU.
+- **Acceso a nuevos mercados:** Multiplicar TAM (Total Addressable Market) -- E-commerce mexicano vende a LATAM y EE. UU.
+- **OptimizaciÛn fiscal:** Tasas impositivas m·s bajas -- Holding en Delaware + operaciones en LATAM
+- **Talento global:** Contratar donde sea m·s competitivo -- Developers en LATAM, ventas en EE. UU.
+- **Ventaja competitiva:** Presencia global = credibilidad -- Clientes prefieren empresa con oficina en Miami
+- **Acceso a capital:** Inversores internacionales -- VC en EE. UU. invierte en startup latinoamericana
+### MÈtricas Clave para Saber si Est·s Listo
 
-### M√©tricas Clave para Saber si Est√°s Listo
+## 2. Estructuras Legales para ExpansiÛn Internacional
 
-## 2. Estructuras Legales para Expansi√≥n Internacional
+### ComparaciÛn de Estructuras
 
-### Comparaci√≥n de Estructuras
-
-| Estructura | Complejidad | Costo Anual | Protecci√≥n | Ideal Para |
-|-----------|------------|------------|------------|-----------|
-| **LLC en EE. UU. (Stripe Atlas)** | Baja | $300-800 | Alta | Startups digitales, freelancers, SaaS |
-| **C-Corp en EE. UU. (Delaware)** | Media | $1,000-3,000 | Alta | Startups que buscan VC |
-| **Filial local (Subsidiary)** | Alta | $5,000-15,000 | Alta | Empresas con operaciones f√≠sicas |
-| **Sucursal (Branch)** | Media | $3,000-8,000 | Media | Empresas que necesitan presencia local |
-| **Oficina de representaci√≥n** | Baja | $2,000-5,000 | Baja | Empresas explorando el mercado |
-| **EOR (Employer of Record)** | Muy baja | $500-1,000/mes | Alta | Contratar talento sin estructura propia |
-
-### Stripe Atlas: La Forma M√°s R√°pida de Incorporarse en EE. UU.
+- **LLC en EE. UU. (Stripe Atlas):** Baja -- $300-800 -- Alta -- Startups digitales, freelancers, SaaS
+- **C-Corp en EE. UU. (Delaware):** Media -- $1,000-3,000 -- Alta -- Startups que buscan VC
+- **Filial local (Subsidiary):** Alta -- $5,000-15,000 -- Alta -- Empresas con operaciones fÌsicas
+- **Sucursal (Branch):** Media -- $3,000-8,000 -- Media -- Empresas que necesitan presencia local
+- **Oficina de representaciÛn:** Baja -- $2,000-5,000 -- Baja -- Empresas explorando el mercado
+- **EOR (Employer of Record):** Muy baja -- $500-1,000/mes -- Alta -- Contratar talento sin estructura propia
+### Stripe Atlas: La Forma M·s R·pida de Incorporarse en EE. UU.
 
 ### Delaware vs Wyoming vs Florida
 
-| Estado | LLC Popular | Ventaja Fiscal | Anonimato | Costo Anual |
-|--------|------------|---------------|-----------|-------------|
-| **Delaware** | ‚úÖ M√°s usado | Sin impuesto estatal a ingresos fuera del estado | Medio | $300 + $200 franchise tax |
-| **Wyoming** | ‚úÖ Creciente | Sin franchise tax, sin impuesto corporativo | Alto (miembros no aparecen) | $60 |
-| **Florida** | ‚ùå Menos usado | Sin impuesto personal estatal | Bajo | $140 |
-| **Nevada** | ‚úÖ Buena opci√≥n | Sin impuesto corporativo, sin franchise tax | Alto | $350 |
-
+- **Delaware:** ? M·s usado -- Sin impuesto estatal a ingresos fuera del estado -- Medio -- $300 + $200 franchise tax
+- **Wyoming:** ? Creciente -- Sin franchise tax, sin impuesto corporativo -- Alto (miembros no aparecen) -- $60
+- **Florida:** ? Menos usado -- Sin impuesto personal estatal -- Bajo -- $140
+- **Nevada:** ? Buena opciÛn -- Sin impuesto corporativo, sin franchise tax -- Alto -- $350
 ## 3. Infrastructure de Pagos Internacionales
 
 ### Stripe para Negocios Globales
 
-| Servicio | Funci√≥n | Beneficio |
-|----------|---------|-----------|
-| **Stripe Payments** | Cobrar tarjetas en +135 monedas | Sin conversi√≥n manual |
-| **Stripe Connect** | Marketplace y plataformas | Pagar a sellers internacionales |
-| **Stripe Tax** | Calcular impuestos globales | VAT, GST, sales tax autom√°tico |
-| **Stripe Invoicing** | Facturaci√≥n internacional | Env√≠a invoices en m√∫ltiples monedas |
-| **Stripe Billing** | Suscripciones globales | Precios por pa√≠s (local pricing) |
-| **Stripe Issuing** | Tarjetas corporativas | Gastos internacionales |
-| **Stripe Treasury** | Cuentas bancarias integradas | Recibir y retener fondos en m√∫ltiples monedas |
-| **Stripe Atlas** | Incorporaci√≥n en EE. UU. | Empresa en Delaware en d√≠as |
-
-### Precios Din√°micos por Pa√≠s (Local Pricing)
+- **Stripe Payments:** Cobrar tarjetas en +135 monedas -- Sin conversiÛn manual
+- **Stripe Connect:** Marketplace y plataformas -- Pagar a sellers internacionales
+- **Stripe Tax:** Calcular impuestos globales -- VAT, GST, sales tax autom·tico
+- **Stripe Invoicing:** FacturaciÛn internacional -- EnvÌa invoices en m˙ltiples monedas
+- **Stripe Billing:** Suscripciones globales -- Precios por paÌs (local pricing)
+- **Stripe Issuing:** Tarjetas corporativas -- Gastos internacionales
+- **Stripe Treasury:** Cuentas bancarias integradas -- Recibir y retener fondos en m˙ltiples monedas
+- **Stripe Atlas:** IncorporaciÛn en EE. UU. -- Empresa en Delaware en dÌas
+### Precios Din·micos por PaÌs (Local Pricing)
 
 ### Stripe Connect para Pagar Globalmente
 
-## 4. Contrataci√≥n Global
+## 4. ContrataciÛn Global
 
 ### EOR (Employer of Record) vs Filial Propia
 
-| Aspecto | EOR (Deel, Remote, Oyster) | Filial Propia (Subsidiary) |
-|---------|---------------------------|----------------------------|
-| **Costo mensual** | $500-1,000/empleado | $5,000-15,000/mes + setup |
-| **Tiempo de setup** | 1-3 d√≠as | 3-6 meses |
-| **Complejidad legal** | M√≠nima (ellos manejan todo) | Alta (abogados locales, registros) |
-| **Compliance** | ‚úÖ Cobertura total | ‚úÖ Control total |
-| **Equity** | ‚úÖ Opciones disponibles | ‚úÖ F√°cil de emitir |
-| **Beneficios** | Planes estandarizados | Personalizados |
-| **Ideal para** | 1-50 empleados en m√∫ltiples pa√≠ses | 50+ empleados en un pa√≠s |
-
+- **Costo mensual:** $500-1,000/empleado -- $5,000-15,000/mes + setup
+- **Tiempo de setup:** 1-3 dÌas -- 3-6 meses
+- **Complejidad legal:** MÌnima (ellos manejan todo) -- Alta (abogados locales, registros)
+- **Compliance:** ? Cobertura total -- ? Control total
+- **Equity:** ? Opciones disponibles -- ? F·cil de emitir
+- **Beneficios:** Planes estandarizados -- Personalizados
+- **Ideal para:** 1-50 empleados en m˙ltiples paÌses -- 50+ empleados en un paÌs
 ### Mejores Plataformas de EOR 2026
 
-| Plataforma | Pa√≠ses Cubiertos | Costo | Ideal Para |
-|-----------|-----------------|-------|------------|
-| **Deel** | 150+ | $599/mes por empleado | Equipos globales, contractors |
-| **Remote** | 80+ | $599/mes por empleado | Equipos remotos |
-| **Oyster** | 130+ | $499/mes por empleado | Startups, equipos peque√±os |
-| **Rippling** | 50+ | $500/mes por empleado | Empresas con HR existente |
-| **Multiplier** | 100+ | $400/mes por empleado | Presupuesto ajustado |
-
-### C√≥mo Integrar EOR con Stripe
+- **Deel:** 150+ -- $599/mes por empleado -- Equipos globales, contractors
+- **Remote:** 80+ -- $599/mes por empleado -- Equipos remotos
+- **Oyster:** 130+ -- $499/mes por empleado -- Startups, equipos pequeÒos
+- **Rippling:** 50+ -- $500/mes por empleado -- Empresas con HR existente
+- **Multiplier:** 100+ -- $400/mes por empleado -- Presupuesto ajustado
+### CÛmo Integrar EOR con Stripe
 
 ## 5. Tax Compliance Internacional
 
-### Impuestos Clave en Expansi√≥n Global
+### Impuestos Clave en ExpansiÛn Global
 
-| Impuesto | Qu√© es | C√≥mo lo Maneja Stripe |
-|----------|--------|----------------------|
-| **VAT (Europa)** | IVA europeo 17-27% | Stripe Tax calcula, cobra y remite |
-| **GST (Australia, NZ, Singapur)** | IVA local 7-15% | Stripe Tax lo maneja autom√°ticamente |
-| **Sales Tax (EE. UU.)** | Impuesto estatal 0-10% | Stripe Tax o TaxJar/Avalara |
-| **Withholding Tax** | Retenci√≥n sobre dividendos/regal√≠as | Requiere tratado fiscal y W-8BEN-E |
-| **Transfer Pricing** | Precios entre empresas relacionadas | Documentaci√≥n con tu CPA |
-| **CIT (Corporate Income Tax)** | Impuesto a ganancias corporativas | Depende de la estructura |
-| **Digital Services Tax** | Impuesto a servicios digitales | Aplica en UK, Francia, Italia, Espa√±a |
-
-### Estrategia Fiscal para Expansi√≥n Global
+- **VAT (Europa):** IVA europeo 17-27% -- Stripe Tax calcula, cobra y remite
+- **GST (Australia, NZ, Singapur):** IVA local 7-15% -- Stripe Tax lo maneja autom·ticamente
+- **Sales Tax (EE. UU.):** Impuesto estatal 0-10% -- Stripe Tax o TaxJar/Avalara
+- **Withholding Tax:** RetenciÛn sobre dividendos/regalÌas -- Requiere tratado fiscal y W-8BEN-E
+- **Transfer Pricing:** Precios entre empresas relacionadas -- DocumentaciÛn con tu CPA
+- **CIT (Corporate Income Tax):** Impuesto a ganancias corporativas -- Depende de la estructura
+- **Digital Services Tax:** Impuesto a servicios digitales -- Aplica en UK, Francia, Italia, EspaÒa
+### Estrategia Fiscal para ExpansiÛn Global
 
 ## 6. Banking y Finanzas Internacionales
 
 ### Cuentas Bancarias para Negocios Globales
 
-| Servicio | Tipo | Ideal Para | Costo |
-|----------|------|-----------|-------|
-| **Mercury** | Cuenta en EE. UU. | Startups tecnol√≥gicas | Gratis |
-| **Brex** | Cuenta en EE. UU. | Startups con VC | Gratis |
-| **Wise Business** | Multi-moneda | Freelancers, SMBs | $0 + conversi√≥n 0.4-0.8% |
-| **Stripe Treasury** | Integrada con Stripe | Empresas que usan Stripe | Variable |
-| **HSBC Global** | Multi-pa√≠s | Empresas con presencia f√≠sica | $50-100/mes |
-| **Revolut Business** | Multi-moneda | SMBs europeas | $0-100/mes |
-
-### C√≥mo Recibir Pagos Internacionales
+- **Mercury:** Cuenta en EE. UU. -- Startups tecnolÛgicas -- Gratis
+- **Brex:** Cuenta en EE. UU. -- Startups con VC -- Gratis
+- **Wise Business:** Multi-moneda -- Freelancers, SMBs -- $0 + conversiÛn 0.4-0.8%
+- **Stripe Treasury:** Integrada con Stripe -- Empresas que usan Stripe -- Variable
+- **HSBC Global:** Multi-paÌs -- Empresas con presencia fÌsica -- $50-100/mes
+- **Revolut Business:** Multi-moneda -- SMBs europeas -- $0-100/mes
+### CÛmo Recibir Pagos Internacionales
 
 ## 7. Compliance y Regulaciones Globales
 
-### Regulaciones Clave por Regi√≥n
+### Regulaciones Clave por RegiÛn
 
-| Regi√≥n | Regulaci√≥n | Qu√© Requiere | Stripe Ayuda |
-|--------|-----------|-------------|-------------|
-| **UE** | GDPR | Protecci√≥n de datos personales | Stripe es compliant |
-| **UE** | PSD2/SCA | Autenticaci√≥n de dos factores | Stripe maneja SCA |
-| **UE** | VAT MOSS | Declaraci√≥n trimestral de VAT digital | Stripe Tax reporta |
-| **EE. UU.** | KYC/AML | Verificaci√≥n de identidad de clientes | Stripe Identity |
-| **EE. UU.** | FACTA | Reporte de cuentas en el exterior | Tu CPA maneja |
-| **LATAM** | Regulaciones locales | RFC (MX), CNPJ (BR), RUT (CL) | Var√≠a por pa√≠s |
-| **Global** | OFAC/Sanctions | No hacer negocios con pa√≠ses sancionados | Stripe bloquea autom√°ticamente |
-
+- **UE:** GDPR -- ProtecciÛn de datos personales -- Stripe es compliant
+- **UE:** PSD2/SCA -- AutenticaciÛn de dos factores -- Stripe maneja SCA
+- **UE:** VAT MOSS -- DeclaraciÛn trimestral de VAT digital -- Stripe Tax reporta
+- **EE. UU.:** KYC/AML -- VerificaciÛn de identidad de clientes -- Stripe Identity
+- **EE. UU.:** FACTA -- Reporte de cuentas en el exterior -- Tu CPA maneja
+- **LATAM:** Regulaciones locales -- RFC (MX), CNPJ (BR), RUT (CL) -- VarÌa por paÌs
+- **Global:** OFAC/Sanctions -- No hacer negocios con paÌses sancionados -- Stripe bloquea autom·ticamente
 ### AML/KYC para Negocios Globales
 
 ## 8. Estrategias de Entrada por Tipo de Negocio
 
 ### SaaS / Digital Products
 
-| Paso | Acci√≥n | Stripe |
-|------|--------|--------|
-| 1 | Incorpora LLC en EE. UU. (Stripe Atlas) | ‚úÖ Atlas |
-| 2 | Abre cuenta en Mercury o Stripe | ‚úÖ Payments |
-| 3 | Configura suscripciones globales | ‚úÖ Billing |
-| 4 | Precios locales por moneda | ‚úÖ Price API |
-| 5 | Stripe Tax autom√°tico | ‚úÖ Tax |
-| 6 | Contrata v√≠a EOR (Deel/Remote) | ‚úÖ Connect |
-
+- **1:** Incorpora LLC en EE. UU. (Stripe Atlas) -- ? Atlas
+- **2:** Abre cuenta en Mercury o Stripe -- ? Payments
+- **3:** Configura suscripciones globales -- ? Billing
+- **4:** Precios locales por moneda -- ? Price API
+- **5:** Stripe Tax autom·tico -- ? Tax
+- **6:** Contrata vÌa EOR (Deel/Remote) -- ? Connect
 ### E-commerce / Dropshipping
 
-| Paso | Acci√≥n | Stripe |
-|------|--------|--------|
-| 1 | LLC en EE. UU. para procesar pagos | ‚úÖ Atlas |
-| 2 | Shopify + Stripe para checkout global | ‚úÖ Payments |
-| 3 | Stripe Tax para sales tax/VAT | ‚úÖ Tax |
-| 4 | Fulfillment en EE. UU. (ShipBob) | ‚úÖ Connect |
-| 5 | Stripe Radar contra fraude | ‚úÖ Radar |
-
+- **1:** LLC en EE. UU. para procesar pagos -- ? Atlas
+- **2:** Shopify + Stripe para checkout global -- ? Payments
+- **3:** Stripe Tax para sales tax/VAT -- ? Tax
+- **4:** Fulfillment en EE. UU. (ShipBob) -- ? Connect
+- **5:** Stripe Radar contra fraude -- ? Radar
 ### Marketplace / Plataforma
 
-| Paso | Acci√≥n | Stripe |
-|------|--------|--------|
-| 1 | C-Corp en EE. UU. para atraer inversi√≥n | ‚úÖ Atlas |
-| 2 | Stripe Connect para pagar a sellers | ‚úÖ Connect |
-| 3 | Verificaci√≥n KYC de sellers | ‚úÖ Identity |
-| 4 | Stripe Tax por transacci√≥n | ‚úÖ Tax |
-| 5 | Stripe Issuing para tarjetas corporativas | ‚úÖ Issuing |
+- **1:** C-Corp en EE. UU. para atraer inversiÛn -- ? Atlas
+- **2:** Stripe Connect para pagar a sellers -- ? Connect
+- **3:** VerificaciÛn KYC de sellers -- ? Identity
+- **4:** Stripe Tax por transacciÛn -- ? Tax
+- **5:** Stripe Issuing para tarjetas corporativas -- ? Issuing
+### ConsultorÌa / Servicios
 
-### Consultor√≠a / Servicios
+- **1:** LLC en EE. UU. para facturar global -- ? Atlas
+- **2:** Stripe Invoicing para facturar en USD -- ? Invoicing
+- **3:** Stripe Connect para pagar contractors -- ? Connect
+- **4:** Wise Business para recibir en EUR, GBP -- ó
+- **5:** DUA (Digital Union Agreement) + CPA -- ó
+## 9. Plan de ExpansiÛn Paso a Paso
 
-| Paso | Acci√≥n | Stripe |
-|------|--------|--------|
-| 1 | LLC en EE. UU. para facturar global | ‚úÖ Atlas |
-| 2 | Stripe Invoicing para facturar en USD | ‚úÖ Invoicing |
-| 3 | Stripe Connect para pagar contractors | ‚úÖ Connect |
-| 4 | Wise Business para recibir en EUR, GBP | ‚Äî |
-| 5 | DUA (Digital Union Agreement) + CPA | ‚Äî |
-
-## 9. Plan de Expansi√≥n Paso a Paso
-
-### Fase 1: Preparaci√≥n (Mes 1)
+### Fase 1: PreparaciÛn (Mes 1)
 
 ### Fase 2: Operaciones Locales (Meses 2-3)
 
 ### Fase 3: Crecimiento (Meses 4-12)
 
-## 10. Errores Comunes en Expansi√≥n Internacional
+## 10. Errores Comunes en ExpansiÛn Internacional
 
 ### Lo que NO Debes Hacer
 
-| Error | Consecuencia | C√≥mo Evitarlo |
-|-------|-------------|---------------|
-| **No estructurar impuestos** | Doble tributaci√≥n, multas | CPA internacional desde el d√≠a 1 |
-| **Ignorar VAT/GST** | Devoluciones, auditor√≠as | Stripe Tax automatizado |
-| **Mezclar ingresos personales/empresariales** | Pierdes protecci√≥n LLC | Cuenta bancaria separada |
-| **No tener W-8BEN-E** | Retenci√≥n del 30% en EE. UU. | Stripe Atlas lo incluye |
-| **Contratar sin EOR** | Permanent establishment, multas | Usa Deel/Remote |
-| **Precios sin ajuste local** | Bajas conversiones | Precios por moneda en Stripe |
-| **Ignorar GDPR** | Multas de hasta ‚Ç¨20M | Stripe es GDPR compliant |
-| **No documentar transfer pricing** | Ajustes fiscales, intereses | Documentaci√≥n con tu CPA |
-
+- **No estructurar impuestos:** Doble tributaciÛn, multas -- CPA internacional desde el dÌa 1
+- **Ignorar VAT/GST:** Devoluciones, auditorÌas -- Stripe Tax automatizado
+- **Mezclar ingresos personales/empresariales:** Pierdes protecciÛn LLC -- Cuenta bancaria separada
+- **No tener W-8BEN-E:** RetenciÛn del 30% en EE. UU. -- Stripe Atlas lo incluye
+- **Contratar sin EOR:** Permanent establishment, multas -- Usa Deel/Remote
+- **Precios sin ajuste local:** Bajas conversiones -- Precios por moneda en Stripe
+- **Ignorar GDPR:** Multas de hasta Ä20M -- Stripe es GDPR compliant
+- **No documentar transfer pricing:** Ajustes fiscales, intereses -- DocumentaciÛn con tu CPA
 ## 11. Casos de Uso Reales
 
-### Caso 1: SaaS Latinoamericano Expansi√≥n a EE. UU.
+### Caso 1: SaaS Latinoamericano ExpansiÛn a EE. UU.
 
-### Caso 2: E-commerce Colombiano Expansi√≥n Regional
+### Caso 2: E-commerce Colombiano ExpansiÛn Regional
 
-## 12. Checklist de Expansi√≥n Internacional
+## 12. Checklist de ExpansiÛn Internacional
 
-### PREPARACI√ìN LEGAL:
+### PREPARACI”N LEGAL:
 - [ ] Definir estructura: LLC vs C-Corp vs Filial
 - [ ] Incorporar empresa en EE. UU. (Stripe Atlas)
 - [ ] Obtener EIN del IRS
@@ -226,34 +184,34 @@ En esta gu√≠a, explicamos **c√≥mo expandir tu negocio internacionalmente** en 20
 - [ ] Configurar Stripe Payments (multi-moneda)
 - [ ] Configurar Stripe Billing (suscripciones)
 - [ ] Configurar Stripe Tax (impuestos globales)
-- [ ] Configurar precios locales por pa√≠s
+- [ ] Configurar precios locales por paÌs
 - [ ] Configurar Stripe Connect (si aplica)
 - [ ] Configurar Stripe Radar (anti-fraude)
 
-### CONTRATACI√ìN:
+### CONTRATACI”N:
 - [ ] Elegir EOR (Deel, Remote, Oyster)
 - [ ] Definir primeros roles a contratar
-- [ ] Establecer pol√≠tica de compensaci√≥n global
-- [ ] Configurar payroll autom√°tico
+- [ ] Establecer polÌtica de compensaciÛn global
+- [ ] Configurar payroll autom·tico
 
 ### COMPLIANCE:
-- [ ] Registros VAT/GST en pa√≠ses donde vendes
+- [ ] Registros VAT/GST en paÌses donde vendes
 - [ ] Documentar transfer pricing
-- [ ] Pol√≠tica de privacidad GDPR-compliant
-- [ ] T√©rminos de servicio multi-idioma
+- [ ] PolÌtica de privacidad GDPR-compliant
+- [ ] TÈrminos de servicio multi-idioma
 - [ ] Stripe Identity para KYC (si aplica)
 
 ### CRECIMIENTO:
-- [ ] Landing pages localizadas por pa√≠s
+- [ ] Landing pages localizadas por paÌs
 - [ ] SEO internacional (hreflang tags)
 - [ ] Marketing en cada mercado (ads locales)
 - [ ] Soporte en idioma local
-- [ ] Analytics por pa√≠s (Stripe Reporting)
+- [ ] Analytics por paÌs (Stripe Reporting)
 
-## Conclusi√≥n
+## ConclusiÛn
 
-**Expandir tu negocio internacionalmente** en 2026 es m√°s accesible que nunca gracias a herramientas como Stripe Atlas (incorporaci√≥n), Stripe Payments (pagos globales), Stripe Tax (impuestos) y plataformas de EOR como Deel (contrataci√≥n). La clave est√° en estructurar correctamente desde el d√≠a uno: la empresa, los impuestos, los pagos y el equipo.
+**Expandir tu negocio internacionalmente** en 2026 es m·s accesible que nunca gracias a herramientas como Stripe Atlas (incorporaciÛn), Stripe Payments (pagos globales), Stripe Tax (impuestos) y plataformas de EOR como Deel (contrataciÛn). La clave est· en estructurar correctamente desde el dÌa uno: la empresa, los impuestos, los pagos y el equipo.
 
-No necesitas abrir oficinas en cada pa√≠s. Con una LLC en EE. UU., Stripe para pagos, Deel para contrataci√≥n y un buen CPA internacional, puedes operar globalmente desde tu laptop.
+No necesitas abrir oficinas en cada paÌs. Con una LLC en EE. UU., Stripe para pagos, Deel para contrataciÛn y un buen CPA internacional, puedes operar globalmente desde tu laptop.
 
-En **Sotomayor Consulting International**, te ayudamos a dise√±ar e implementar tu estrategia de expansi√≥n internacional: desde la estructura legal y fiscal hasta la infraestructura de pagos con Stripe y la contrataci√≥n de talento global. Cont√°ctanos para una consultor√≠a personalizada.
+En **Sotomayor Consulting International**, te ayudamos a diseÒar e implementar tu estrategia de expansiÛn internacional: desde la estructura legal y fiscal hasta la infraestructura de pagos con Stripe y la contrataciÛn de talento global. Cont·ctanos para una consultorÌa personalizada.

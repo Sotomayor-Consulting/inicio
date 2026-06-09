@@ -13,48 +13,36 @@ Neste guia, explicamos **como usar Stripe para vender cursos digitais** em 2026,
 
 ### Vantagens Principais
 
-| Vantagem | Descrição |
-|----------|-----------|
-| **Pagamentos recorrentes** | Assinaturas mensais, trimestrais ou anuais |
-| **Múltiplas moedas** | Cobrança em USD, EUR, BRL e 130+ moedas |
-| **Checkout integrado** | Stripe Checkout pronto para usar sem código |
-| **3D Secure** | Proteção contra fraudes e chargebacks |
-| **Relatórios detalhados** | Dashboard com métricas de receita e assinantes |
-| **Integrações** | Conecta com Teachable, Thinkific, Kajabi, Hotmart |
-| **Pagamentos globais** | Aceita cartões de 195+ países |
-
+- **Pagamentos recorrentes:** Assinaturas mensais, trimestrais ou anuais
+- **Múltiplas moedas:** Cobrança em USD, EUR, BRL e 130+ moedas
+- **Checkout integrado:** Stripe Checkout pronto para usar sem código
+- **3D Secure:** Proteção contra fraudes e chargebacks
+- **Relatórios detalhados:** Dashboard com métricas de receita e assinantes
+- **Integrações:** Conecta com Teachable, Thinkific, Kajabi, Hotmart
+- **Pagamentos globais:** Aceita cartões de 195+ países
 ### Stripe vs Outras Plataformas para Cursos
 
-| Plataforma | Comissão | Ideal para |
-|------------|----------|------------|
-| **Stripe direto** | 2.9% + $0.30 | Criadores técnicos ou com desenvolvimento próprio |
-| **Teachable** | 5% + Stripe (Grátis) / $0 (Pro) | Criadores que querem plataforma tudo-em-um |
-| **Thinkific** | 0% (Stripe separado) | Cursos com marketing integrado |
-| **Hotmart** | 10-20% | Mercado latino-americano |
-| **Kajabi** | 0% (Stripe separado) | Negócios digitais completos |
-
+- **Stripe direto:** 2.9% + $0.30 -- Criadores técnicos ou com desenvolvimento próprio
+- **Teachable:** 5% + Stripe (Grátis) / $0 (Pro) -- Criadores que querem plataforma tudo-em-um
+- **Thinkific:** 0% (Stripe separado) -- Cursos com marketing integrado
+- **Hotmart:** 10-20% -- Mercado latino-americano
+- **Kajabi:** 0% (Stripe separado) -- Negócios digitais completos
 > **Stripe direto te dá o controle total** sobre seus preços, branding e dados de clientes, com as menores taxas do mercado.
 
 ## 2. Requisitos para Vender Cursos com Stripe
 
 ### Requisitos da Conta Stripe
 
-| Requisito | Detalhes |
-|-----------|----------|
-| **Conta Stripe ativa** | Verificada e aprovada |
-| **País suportado** | Stripe disponível em 45+ países |
-| **Documentos** | ID, comprovante de residência, dados bancários |
-| **Conta bancária** | Para receber os pagamentos |
-
+- **Conta Stripe ativa:** Verificada e aprovada
+- **País suportado:** Stripe disponível em 45+ países
+- **Documentos:** ID, comprovante de residência, dados bancários
+- **Conta bancária:** Para receber os pagamentos
 ### Requisitos do Curso
 
-| Requisito | Detalhes |
-|-----------|----------|
-| **Conteúdo original** | Stripe verifica se não é material proibido |
-| **Preço definido** | Pagamento único, assinatura ou membresia |
-| **Plataforma de entrega** | Onde os alunos acessarão o curso |
-| **Políticas claras** | Termos, reembolsos e privacidade |
-
+- **Conteúdo original:** Stripe verifica se não é material proibido
+- **Preço definido:** Pagamento único, assinatura ou membresia
+- **Plataforma de entrega:** Onde os alunos acessarão o curso
+- **Políticas claras:** Termos, reembolsos e privacidade
 ### Negócios Não Permitidos no Stripe
 
 Stripe não permite cursos sobre:
@@ -88,13 +76,10 @@ Stripe Checkout é uma página de pagamento pré-construída que você pode comp
 
 As plataformas de cursos se integram ao Stripe para processar pagamentos:
 
-| Plataforma | Integração Stripe | Assinaturas | Taxa Adicional |
-|------------|------------------|-------------|----------------|
-| **Teachable** | Nativa | ✅ Sim | 0% (Pro) / 5% (Grátis) |
-| **Thinkific** | Nativa | ✅ Sim | 0% |
-| **Kajabi** | Nativa | ✅ Sim | 0% |
-| **Podia** | Nativa | ✅ Sim | 0% |
-
+- **Teachable:** Nativa -- ✅ Sim -- 0% (Pro) / 5% (Grátis)
+- **Thinkific:** Nativa -- ✅ Sim -- 0%
+- **Kajabi:** Nativa -- ✅ Sim -- 0%
+- **Podia:** Nativa -- ✅ Sim -- 0%
 **Como configurar:**
 1. Crie sua conta na plataforma escolhida
 2. Vá em Configurações → Pagamentos
@@ -116,14 +101,11 @@ Se você tem sua própria plataforma, pode integrar Stripe via API:
 
 ### Modelos de Pagamento para Cursos Digitais
 
-| Modelo | Descrição | Ideal para |
-|--------|-----------|------------|
-| **Pagamento único** | O aluno paga uma vez e acessa vitalício | Cursos completos, bootcamps |
-| **Assinatura mensal** | Pagamento recorrente a cada mês | Membresias, academias, comunidades |
-| **Assinatura anual** | Pagamento anual com desconto | Programas anuais, certificações |
-| **Pagamento por módulo** | Pague ao desbloquear cada módulo | Cursos extensos, programas passo a passo |
-| **Aluguel temporário** | Acesso por tempo limitado | Exames, preparação para certificações |
-
+- **Pagamento único:** O aluno paga uma vez e acessa vitalício -- Cursos completos, bootcamps
+- **Assinatura mensal:** Pagamento recorrente a cada mês -- Membresias, academias, comunidades
+- **Assinatura anual:** Pagamento anual com desconto -- Programas anuais, certificações
+- **Pagamento por módulo:** Pague ao desbloquear cada módulo -- Cursos extensos, programas passo a passo
+- **Aluguel temporário:** Acesso por tempo limitado -- Exames, preparação para certificações
 ### Configurar Assinaturas no Stripe
 
 **Passo 1: Criar um produto com assinatura**
@@ -133,13 +115,10 @@ Se você tem sua própria plataforma, pode integrar Stripe via API:
 
 **Passo 2: Configurar o ciclo de faturamento**
 
-| Configuração | Opções |
-|--------------|--------|
-| **Frequência** | Mensal, trimestral, anual |
-| **Período de teste** | 7, 14 ou 30 dias grátis |
-| **Faturamento** | Automático no mesmo dia a cada mês |
-| **Cancelamento** | O aluno cancela pelo portal |
-
+- **Frequência:** Mensal, trimestral, anual
+- **Período de teste:** 7, 14 ou 30 dias grátis
+- **Faturamento:** Automático no mesmo dia a cada mês
+- **Cancelamento:** O aluno cancela pelo portal
 **Passo 3: Testar em modo de teste**
 - Use cartão de teste: `4242 4242 4242 4242`
 - Verifique se a assinatura é criada corretamente
@@ -162,13 +141,10 @@ Stripe Customer Portal permite que seus alunos:
 
 ### Tipos de Desconto no Stripe
 
-| Tipo | Como Funciona | Exemplo |
-|------|--------------|---------|
-| **Porcentagem** | % de desconto sobre o preço | 20% OFF |
-| **Valor fixo** | Desconto em reais | R$10 OFF |
-| **Período grátis** | Meses sem cobrança | 1 mês grátis |
-| **Preço personalizado** | Preço especial para um aluno | R$99 em vez de R$149 |
-
+- **Porcentagem:** % de desconto sobre o preço -- 20% OFF
+- **Valor fixo:** Desconto em reais -- R$10 OFF
+- **Período grátis:** Meses sem cobrança -- 1 mês grátis
+- **Preço personalizado:** Preço especial para um aluno -- R$99 em vez de R$149
 ### Criar Cupons no Stripe
 
 1. Stripe Dashboard → Cupons → Adicionar cupom
@@ -182,13 +158,10 @@ Stripe Customer Portal permite que seus alunos:
 
 Stripe gera faturas automáticas para cada pagamento:
 
-| Benefício | Descrição |
-|-----------|-----------|
-| **Faturas por email** | Stripe envia fatura ao aluno automaticamente |
-| **Personalização** | Adicione seu logo, dados fiscais e mensagens |
-| **Múltiplas moedas** | Fatura na moeda do pagamento |
-| **IVA/GST** | Stripe calcula impostos automaticamente |
-
+- **Faturas por email:** Stripe envia fatura ao aluno automaticamente
+- **Personalização:** Adicione seu logo, dados fiscais e mensagens
+- **Múltiplas moedas:** Fatura na moeda do pagamento
+- **IVA/GST:** Stripe calcula impostos automaticamente
 ### Configurar Faturas
 
 1. Stripe Dashboard → Configurações → Faturamento
@@ -204,12 +177,9 @@ Se você tem uma plataforma onde múltiplos instrutores vendem cursos, Stripe Co
 
 ### Modelos de Pagamento
 
-| Modelo | Descrição | Comissão Plataforma |
-|--------|-----------|---------------------|
-| **Destino direto** | O pagamento vai direto ao instrutor | Você cobra comissão separada |
-| **Destino separado** | Você recebe o pagamento e distribui | Você controla os valores |
-| **Plataforma** | Você recebe tudo e paga instrutores | Maior controle |
-
+- **Destino direto:** O pagamento vai direto ao instrutor -- Você cobra comissão separada
+- **Destino separado:** Você recebe o pagamento e distribui -- Você controla os valores
+- **Plataforma:** Você recebe tudo e paga instrutores -- Maior controle
 ### Configurar Stripe Connect
 
 1. Stripe Dashboard → Connect → Configurar
@@ -221,24 +191,18 @@ Se você tem uma plataforma onde múltiplos instrutores vendem cursos, Stripe Co
 
 ### Melhores Práticas para seu Checkout
 
-| Prática | Impacto |
-|---------|---------|
-| **Mostrar preço na moeda local** | +15-20% conversão |
-| **Apple Pay / Google Pay** | +5-10% conversão (mobile) |
-| **Garantia de devolução visível** | +10-15% confiança |
-| **Pagamento em 1 passo** | +10-20% conversão |
-| **Depoimentos perto do botão de pagamento** | +5-10% conversão |
-
+- **Mostrar preço na moeda local:** +15-20% conversão
+- **Apple Pay / Google Pay:** +5-10% conversão (mobile)
+- **Garantia de devolução visível:** +10-15% confiança
+- **Pagamento em 1 passo:** +10-20% conversão
+- **Depoimentos perto do botão de pagamento:** +5-10% conversão
 ### Reduzir Chargebacks
 
-| Medida | Efetividade |
-|--------|-------------|
-| **3D Secure ativado** | Alta |
-| **Descrição clara na fatura** | Média-Alta |
-| **Política de reembolso visível** | Alta |
-| **Notificações de cobrança** | Média |
-| **Suporte ao aluno rápido** | Alta |
-
+- **3D Secure ativado:** Alta
+- **Descrição clara na fatura:** Média-Alta
+- **Política de reembolso visível:** Alta
+- **Notificações de cobrança:** Média
+- **Suporte ao aluno rápido:** Alta
 ## 9. Solução de Problemas Comuns
 
 ### Problema 1: Pagamento Recusado
@@ -281,14 +245,11 @@ Se você tem uma plataforma onde múltiplos instrutores vendem cursos, Stripe Co
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Crie sua conta Stripe e verifique-a | 24-72 horas |
-| **2** | Crie seu curso na plataforma escolhida | 1-7 dias |
-| **3** | Conecte Stripe como processador de pagamento | 15 min |
-| **4** | Configure preços e assinaturas | 30 min |
-| **5** | Teste o fluxo de pagamento e lance | 1 hora |
-
+- **1:** Crie sua conta Stripe e verifique-a -- 24-72 horas
+- **2:** Crie seu curso na plataforma escolhida -- 1-7 dias
+- **3:** Conecte Stripe como processador de pagamento -- 15 min
+- **4:** Configure preços e assinaturas -- 30 min
+- **5:** Teste o fluxo de pagamento e lance -- 1 hora
 ### Checklist Pós-Configuração
 
 - [ ] Verificar se o Stripe Checkout funciona corretamente

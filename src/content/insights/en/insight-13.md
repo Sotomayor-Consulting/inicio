@@ -41,11 +41,8 @@ The EIN helps the company have its own tax identity before the IRS and financial
 
 **No.** This is a very common confusion.
 
-| Number | For whom | Use |
-|--------|----------|-----|
-| **SSN** (Social Security Number) | Individuals | Personal identification |
-| **EIN** (Employer Identification Number) | Businesses | Business tax identification |
-
+- **SSN** (Social Security Number):** Individuals -- Personal identification
+- **EIN** (Employer Identification Number):** Businesses -- Business tax identification
 A company can have an EIN even if the owner does not have an SSN.
 
 ## Can a foreigner obtain an EIN?

@@ -13,16 +13,13 @@ Neste guia, exploramos como usar LLCs e outras estruturas internacionais para pr
 
 ### Riscos comuns para empreendedores internacionais
 
-| Risco | Descriï¿½ï¿½o |
-|-------|-----------|
-| **Aï¿½ï¿½es judiciais de clientes** | Um cliente insatisfeito pode processar seu negï¿½cio |
-| **Disputas com sï¿½cios** | Desentendimentos que terminam em litï¿½gios |
-| **Fornecedores ou credores** | Dï¿½vidas comerciais que reclamam seus bens pessoais |
-| **Problemas fiscais** | O IRS ou a autoridade fiscal do seu paï¿½s pode penhorar contas |
-| **Divï¿½rcio ou heranï¿½a** | Reclamaï¿½ï¿½es sobre seu patrimï¿½nio por mudanï¿½as pessoais |
-| **Instabilidade polï¿½tica/econï¿½mica** | Desvalorizaï¿½ï¿½o, controles de capital, expropriaï¿½ï¿½o no seu paï¿½s |
-| **Erros profissionais** | Aï¿½ï¿½es judiciais por negligï¿½ncia ou mï¿½ prï¿½tica |
-
+- **Aï¿½ï¿½es judiciais de clientes:** Um cliente insatisfeito pode processar seu negï¿½cio
+- **Disputas com sï¿½cios:** Desentendimentos que terminam em litï¿½gios
+- **Fornecedores ou credores:** Dï¿½vidas comerciais que reclamam seus bens pessoais
+- **Problemas fiscais:** O IRS ou a autoridade fiscal do seu paï¿½s pode penhorar contas
+- **Divï¿½rcio ou heranï¿½a:** Reclamaï¿½ï¿½es sobre seu patrimï¿½nio por mudanï¿½as pessoais
+- **Instabilidade polï¿½tica/econï¿½mica:** Desvalorizaï¿½ï¿½o, controles de capital, expropriaï¿½ï¿½o no seu paï¿½s
+- **Erros profissionais:** Aï¿½ï¿½es judiciais por negligï¿½ncia ou mï¿½ prï¿½tica
 ### O princï¿½pio bï¿½sico: separaï¿½ï¿½o patrimonial
 
 A proteï¿½ï¿½o patrimonial baseia-se num princï¿½pio simples: **separar seus bens pessoais dos riscos do seu negï¿½cio**. Se seu negï¿½cio for processado ou falir, seus bens pessoais ï¿½casa, poupanï¿½as, investimentosï¿½ estï¿½o protegidos.
@@ -60,13 +57,10 @@ Dependendo do seu paï¿½s de residï¿½ncia, os ativos dentro de uma LLC americana 
 
 Alguns estados dos EUA tï¿½m leis especï¿½ficas que protegem os ativos dentro de LLCs:
 
-| Estado | Proteï¿½ï¿½o | Detalhe |
-|--------|----------|---------|
-| **Wyoming** | Charge order protection | Um credor sï¿½ pode receber distribuiï¿½ï¿½es da LLC, nï¿½o controlar os ativos |
-| **Nevada** | Charge order protection | Similar a Wyoming |
-| **Delaware** | Series LLC | Cada sï¿½rie tem proteï¿½ï¿½o independente |
-| **Florida** | Homestead exemption | Proteï¿½ï¿½o da residï¿½ncia principal |
-
+- **Wyoming:** Charge order protection -- Um credor sï¿½ pode receber distribuiï¿½ï¿½es da LLC, nï¿½o controlar os ativos
+- **Nevada:** Charge order protection -- Similar a Wyoming
+- **Delaware:** Series LLC -- Cada sï¿½rie tem proteï¿½ï¿½o independente
+- **Florida:** Homestead exemption -- Proteï¿½ï¿½o da residï¿½ncia principal
 **Charge order protection:** ï¿½ o mecanismo legal que limita o que um credor pode fazer com sua LLC. Se um credor ganhar uma aï¿½ï¿½o contra vocï¿½ pessoalmente, nï¿½o pode tomar os ativos de sua LLC. Sï¿½ pode obter uma "charge order" que lhe dï¿½ direito a receber quaisquer distribuiï¿½ï¿½es que a LLC lhe faï¿½a ï¿½mas nï¿½o pode obrigar a LLC a fazer distribuiï¿½ï¿½es.
 
 ### 4. Series LLC: proteï¿½ï¿½o por linhas de negï¿½cio
@@ -89,13 +83,10 @@ Se a Sï¿½rie A for processada, as Sï¿½ries B e C estï¿½o protegidas.
 Em vez de ter um ï¿½nico negï¿½cio numa LLC, vocï¿½ pode ter mï¿½ltiplas LLCs para diferentes ativos ou linhas de negï¿½cio.
 
 **Exemplo:**
-| LLC | Propï¿½sito | Ativos |
-|-----|-----------|--------|
-| **Operating LLC** | Operaï¿½ï¿½o do negï¿½cio | Contas a receber, contratos |
-| **Property LLC** | Propriedade intelectual | Marcas, patentes, direitos autorais |
-| **Real Estate LLC** | Imï¿½veis | Propriedades |
-| **Holding LLC** | Investimentos | Aï¿½ï¿½es, fundos |
-
+- **Operating LLC:** Operaï¿½ï¿½o do negï¿½cio -- Contas a receber, contratos
+- **Property LLC:** Propriedade intelectual -- Marcas, patentes, direitos autorais
+- **Real Estate LLC:** Imï¿½veis -- Propriedades
+- **Holding LLC:** Investimentos -- Aï¿½ï¿½es, fundos
 **Benefï¿½cio:** Se alguï¿½m processar a Operating LLC, nï¿½o pode alcanï¿½ar os imï¿½veis nem a propriedade intelectual.
 
 ### Estratï¿½gia 2: LLC + Trust
@@ -111,13 +102,10 @@ Combinar uma LLC com um trust (fideicomisso) adiciona outra camada de proteï¿½ï¿
 - Maior privacidade (o trust nï¿½o ï¿½ pï¿½blico como a LLC).
 
 **Tipos de trust para proteï¿½ï¿½o patrimonial:**
-| Trust | Propï¿½sito |
-|-------|-----------|
-| **Revocable Living Trust** | Evitar inventï¿½rio, privacidade |
-| **Irrevocable Trust** | Mï¿½xima proteï¿½ï¿½o, mas perde controle |
-| **Asset Protection Trust** | Desenhado especificamente para proteï¿½ï¿½o |
-| **Family Trust** | Proteï¿½ï¿½o e planejamento hereditï¿½rio |
-
+- **Revocable Living Trust:** Evitar inventï¿½rio, privacidade
+- **Irrevocable Trust:** Mï¿½xima proteï¿½ï¿½o, mas perde controle
+- **Asset Protection Trust:** Desenhado especificamente para proteï¿½ï¿½o
+- **Family Trust:** Proteï¿½ï¿½o e planejamento hereditï¿½rio
 ### Estratï¿½gia 3: LLC em estado favorï¿½vel + conta bancï¿½ria offshore
 
 **Estrutura:**
@@ -130,13 +118,10 @@ Combinar uma LLC com um trust (fideicomisso) adiciona outra camada de proteï¿½ï¿
 
 Para patrimï¿½nios maiores, uma estrutura multijurisdicional:
 
-| Nï¿½vel | Jurisdiï¿½ï¿½o | Propï¿½sito |
-|-------|------------|-----------|
-| **Holding** | Panamï¿½, Ilhas Virgens Britï¿½nicas | Proprietï¿½ria das subsidiï¿½rias |
-| **Operating** | EUA (Wyoming/Florida) | Operaï¿½ï¿½o do negï¿½cio |
-| **IP Holding** | Delaware ou Nevada | Propriedade intelectual |
-| **Local** | Seu paï¿½s de residï¿½ncia | Cumprimento local |
-
+- **Holding:** Panamï¿½, Ilhas Virgens Britï¿½nicas -- Proprietï¿½ria das subsidiï¿½rias
+- **Operating:** EUA (Wyoming/Florida) -- Operaï¿½ï¿½o do negï¿½cio
+- **IP Holding:** Delaware ou Nevada -- Propriedade intelectual
+- **Local:** Seu paï¿½s de residï¿½ncia -- Cumprimento local
 **Benefï¿½cios:**
 - Camadas mï¿½ltiplas de proteï¿½ï¿½o.
 - Otimizaï¿½ï¿½o fiscal internacional.
@@ -149,13 +134,10 @@ Para patrimï¿½nios maiores, uma estrutura multijurisdicional:
 
 ï¿½ importante distinguir entre proteï¿½ï¿½o patrimonial **legal** e **evasï¿½o fiscal** ou **fraude**.
 
-| ? Proteï¿½ï¿½o legal | ? Evasï¿½o/fraude |
-|------------------|-----------------|
-| Separar ativos pessoais de empresariais | Ocultar ativos do IRS |
-| Usar estruturas legais para limitar responsabilidade | Nï¿½o declarar receitas |
-| Planejar heranï¿½a e sucessï¿½o | Transferir ativos para evitar pagar dï¿½vidas existentes |
-| Escolher estados com leis favorï¿½veis | Usar estruturas para lavagem de dinheiro |
-
+- **Separar ativos pessoais de empresariais:** Ocultar ativos do IRS
+- **Usar estruturas legais para limitar responsabilidade:** Nï¿½o declarar receitas
+- **Planejar heranï¿½a e sucessï¿½o:** Transferir ativos para evitar pagar dï¿½vidas existentes
+- **Escolher estados com leis favorï¿½veis:** Usar estruturas para lavagem de dinheiro
 **A proteï¿½ï¿½o patrimonial nï¿½o o exime de pagar impostos.** Vocï¿½ deve declarar suas receitas no seu paï¿½s de residï¿½ncia e cumprir com todas as obrigaï¿½ï¿½es fiscais.
 
 ## Por paï¿½s: consideraï¿½ï¿½es especï¿½ficas

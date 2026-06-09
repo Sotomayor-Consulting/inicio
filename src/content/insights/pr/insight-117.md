@@ -17,14 +17,11 @@ An **annual report** (also called a Statement of Information, Annual Registratio
 
 ### O Que os Annual Reports NÃO São
 
-| O Que É | O Que Não É |
-|-----------|----------------|
-| Uma atualização de informações para o estado | Uma declaração de imposto (IRS ou estadual) |
-| Uma confirmação de detalhes comerciais | Uma auditoria financeira ou demonstração de resultados |
-| Um requisito para manter situação regular | Um arquivamento único (a maioria dos estados exige regularmente) |
-| Um arquivamento no Secretário de Estado | Um relatório para acionistas ou investidores |
-| Um documento que verifica que sua empresa existe | Um documento que relata o desempenho do negócio |
-
+- **Uma atualização de informações para o estado:** Uma declaração de imposto (IRS ou estadual)
+- **Uma confirmação de detalhes comerciais:** Uma auditoria financeira ou demonstração de resultados
+- **Um requisito para manter situação regular:** Um arquivamento único (a maioria dos estados exige regularmente)
+- **Um arquivamento no Secretário de Estado:** Um relatório para acionistas ou investidores
+- **Um documento que verifica que sua empresa existe:** Um documento que relata o desempenho do negócio
 ### Propósito do Annual Report
 
 O estado usa os annual reports para:
@@ -47,16 +44,13 @@ Para o proprietário da empresa, arquivar o annual report:
 
 Um ponto comum de confusão é a diferença entre um annual report e um franchise tax. Eles são relacionados mas distintos:
 
-| Aspecto | Annual Report | Franchise Tax |
-|--------|--------------|---------------|
-| **Natureza** | Arquivamento de informações | Pagamento de imposto |
-| **Propósito** | Atualizar detalhes comerciais | Geração de receita para o estado |
-| **Baseado em** | Informações básicas da entidade | Renda, ativos ou taxa fixa |
-| **Frequência de arquivamento** | Anual ou bienal | Anual |
-| **Multa por atraso** | Taxa de atraso + risco de dissolução | Juros + multas + ônus |
-| **Dedutível** | A taxa de arquivamento é uma despesa comercial | O pagamento de imposto pode ser dedutível |
-| **Arquivado em** | Secretário de Estado | Departamento de Receita Estadual / Franchise Tax Board |
-
+- **Natureza:** Arquivamento de informações -- Pagamento de imposto
+- **Propósito:** Atualizar detalhes comerciais -- Geração de receita para o estado
+- **Baseado em:** Informações básicas da entidade -- Renda, ativos ou taxa fixa
+- **Frequência de arquivamento:** Anual ou bienal -- Anual
+- **Multa por atraso:** Taxa de atraso + risco de dissolução -- Juros + multas + ônus
+- **Dedutível:** A taxa de arquivamento é uma despesa comercial -- O pagamento de imposto pode ser dedutível
+- **Arquivado em:** Secretário de Estado -- Departamento de Receita Estadual / Franchise Tax Board
 **Em alguns estados, o annual report e o franchise tax são combinados em um único arquivamento.** Por exemplo, Delaware exige tanto um pagamento de franchise tax quanto um arquivamento de annual report, enquanto a Califórnia exige uma Statement of Information (annual report) mais um franchise tax mínimo separado de $800.
 
 ## 2. Quais Informações São Necessárias
@@ -65,19 +59,16 @@ Um ponto comum de confusão é a diferença entre um annual report e um franchis
 
 While the exact form varies by state, most annual reports require the following information:
 
-| Campo | Descrição | Exemplo |
-|-------|-------------|---------|
-| **Nome Comercial** | Nome legal exato conforme registrado | "Acme Consulting LLC" |
-| **EIN ou ID do SOS** | Número de arquivamento estadual ou EIN federal | "2025-000123456" |
-| **Endereço do Escritório Principal** | Endereço físico (sem PO Box em alguns estados) | "123 Main St, Suite 200" |
-| **Endereço Postal** | Endereço postal separado se diferente | "PO Box 456" |
-| **Nome do Agente Registrado** | Pessoa ou empresa autorizada a receber correspondência legal | "John Smith" |
-| **Endereço do Agente Registrado** | Endereço físico no estado de formação | "456 Oak Ave" |
-| **Nomes de Gerentes/Membros** | Nomes e endereços de gerentes (LLC) ou diretores (corp) | "Jane Doe, CEO" |
-| **Propósito Comercial** | Descrição breve (alguns estados exigem código SIC/NAICS) | "Consultoria de gestão" |
-| **Ações em Circulação** | Apenas corporações: número de ações autorizadas e emitidas | "1,000 ações" |
-| **Pagamento da Taxa de Arquivamento** | Cartão de crédito, cheque eletrônico ou cheque pelos correios | "Visa / $75" |
-
+- **Nome Comercial:** Nome legal exato conforme registrado -- "Acme Consulting LLC"
+- **EIN ou ID do SOS:** Número de arquivamento estadual ou EIN federal -- "2025-000123456"
+- **Endereço do Escritório Principal:** Endereço físico (sem PO Box em alguns estados) -- "123 Main St, Suite 200"
+- **Endereço Postal:** Endereço postal separado se diferente -- "PO Box 456"
+- **Nome do Agente Registrado:** Pessoa ou empresa autorizada a receber correspondência legal -- "John Smith"
+- **Endereço do Agente Registrado:** Endereço físico no estado de formação -- "456 Oak Ave"
+- **Nomes de Gerentes/Membros:** Nomes e endereços de gerentes (LLC) ou diretores (corp) -- "Jane Doe, CEO"
+- **Propósito Comercial:** Descrição breve (alguns estados exigem código SIC/NAICS) -- "Consultoria de gestão"
+- **Ações em Circulação:** Apenas corporações: número de ações autorizadas e emitidas -- "1,000 ações"
+- **Pagamento da Taxa de Arquivamento:** Cartão de crédito, cheque eletrônico ou cheque pelos correios -- "Visa / $75"
 ### Formulário de Exemplo de Annual Report
 
 `
@@ -98,61 +89,58 @@ Antes de arquivar, reúna estes documentos:
 
 ### Tabela de Taxas e Prazos
 
-| Estado | Nome do Arquivamento | Taxa | Data de Vencimento | Frequência |
-|-------|------------|-----|----------|-----------|
-| Alabama | Annual Report | $50 | Anualmente no aniversário de formação | Anual |
-| Alaska | Biennial Report | $100 | 2 Jan de anos pares (LLC) / ímpares (corp) | Bienal |
-| Arizona | Annual Report | $45 | Data de aniversário de formação | Anual |
-| Arkansas | Franchise Tax Report | $150 | 1 Mai | Anual |
-| California | Statement of Information | $20 (LLC) / $25 (corp) | Aniversário do registro | Anual/bienal |
-| Colorado | Periodic Report | $10 | A cada ano até o final do mês de formação | Anual |
-| Connecticut | Annual Report | $80 | Aniversário de formação | Anual |
-| Delaware | Annual Report | $300 mín (corp) / $0 (LLC sem imposto) | 1 Mar (corp) / 1 Jun (LLC) | Anual |
-| Florida | Annual Report | $138.75 (LLC) / $150 (corp) | 1 Mai | Anual |
-| Georgia | Annual Registration | $50 (LLC) / $50 (corp) | 1 Abr | Anual |
-| Hawaii | Annual Report | $15 (LLC) / $30 (corp) | Trimestre de registro | Anual |
-| Idaho | Annual Report | $0 (LLC) / $0 (corp) | Aniversário de formação | Anual |
-| Illinois | Annual Report | $75 (LLC) / $75 (corp) | Aniversário de formação | Anual |
-| Indiana | Business Entity Report | $50 (LLC) / $50 (corp) | Aniversário de formação | Anual |
-| Iowa | Annual Report | $45 (LLC) / $45 (corp) | 1 Abr (ou aniversário) | Anual |
-| Kansas | Annual Report | $50 (LLC) / $50 (corp) | Aniversário de formação | Anual |
-| Kentucky | Annual Report | $15 (LLC) / $15 (corp) | 30 Jun | Anual |
-| Louisiana | Annual Report | $35 (LLC) / $35 (corp) | Aniversário de formação | Anual |
-| Maine | Annual Report | $85 (LLC) / $150 (corp) | 1 Jun | Anual |
-| Maryland | Annual Report | $300 (LLC) / $300 (corp) | 15 Abr | Anual |
-| Massachusetts | Annual Report | $500 (LLC) / $500 (corp) | Aniversário de formação | Anual |
-| Michigan | Annual Report | $25 (LLC) / $25 (corp) | 15 Fev | Anual |
-| Minnesota | Annual Report | $0 (online) / $50 (correio) | 31 Dez | Anual |
-| Mississippi | Annual Report | $50 (LLC) / $50 (corp) | Aniversário de formação | Anual |
-| Missouri | Annual Report | $0 (LLC) / $0 (corp) | Aniversário de formação | Anual |
-| Montana | Annual Report | $15 (LLC) / $15 (corp) | 15 Abr | Anual |
-| Nebraska | Biennial Report | $10 (LLC) / $10 (corp) | 1 Abr (ímpar/par por entidade) | Bienal |
-| Nevada | Annual Report | $150 (LLC) / $150 (corp) | Último dia do mês de aniversário | Anual |
-| New Hampshire | Annual Report | $100 (LLC) / $100 (corp) | 1 Abr | Anual |
-| New Jersey | Annual Report | $75 (LLC) / $75 (corp) | Aniversário de formação | Anual |
-| New Mexico | Annual Report | $0 (LLC) / $0 (corp) | Aniversário de formação | Anual |
-| New York | Biennial Statement | $9 (LLC) / $9 (corp) | Aniversário de formação (a cada 2 anos) | Bienal |
-| North Carolina | Annual Report | $200 (LLC) / $200 (corp) | 15 Abr | Anual |
-| North Dakota | Annual Report | $50 (LLC) / $50 (corp) | Aniversário de formação | Anual |
-| Ohio | Biennial Report | $0 (LLC) / $0 (corp) | Aniversário de formação (anos ímpares) | Bienal |
-| Oklahoma | Annual Certificate | $25 (LLC) / $25 (corp) | Aniversário de formação | Anual |
-| Oregon | Annual Report | $100 (LLC) / $100 (corp) | Aniversário de formação | Anual |
-| Pennsylvania | Decennial Report | $7 (LLC) / $7 (corp) | A cada 10 anos da formação | Decenal |
-| Rhode Island | Annual Report | $50 (LLC) / $50 (corp) | Aniversário de formação | Anual |
-| South Carolina | Annual Report | $0 (LLC) / $25 (corp) | Aniversário de formação | Anual |
-| South Dakota | Annual Report | $50 (LLC) / $50 (corp) | Aniversário de formação | Anual |
-| Tennessee | Annual Report | $300 (LLC) / $300 (corp) | Aniversário de formação (corte em 1 Abr) | Anual |
-| Texas | Franchise Tax Report | $0 mín (sem imposto devido) | 15 Mai | Anual |
-| Utah | Annual Report | $15 (LLC) / $15 (corp) | Aniversário de formação | Anual |
-| Vermont | Annual Report | $35 (LLC) / $75 (corp) | Aniversário de formação | Anual |
-| Virginia | Annual Report | $50 (LLC) / $50 (corp) | Aniversário de formação | Anual |
-| Washington | Annual Report | $60 (LLC) / $60 (corp) | Final do mês de aniversário | Anual |
-| West Virginia | Annual Report | $25 (LLC) / $25 (corp) | 1 Jul | Anual |
-| Wisconsin | Annual Report | $25 (LLC) / $25 (corp) | Aniversário de formação (final do trimestre) | Anual |
-| Wyoming | Annual Report | $60 (LLC) / $60 (corp) | Primeiro dia do mês de aniversário | Anual |
-| DC (Washington DC) | Biennial Report | $0 (LLC) / $0 (corp) | 1 Abr (anos pares) | Bienal |
-| Puerto Rico | Annual Report | $125 (LLC) / $125 (corp) | 15 Abr | Anual |
-
+- **Alabama:** Annual Report -- $50 -- Anualmente no aniversário de formação -- Anual
+- **Alaska:** Biennial Report -- $100 -- 2 Jan de anos pares (LLC) / ímpares (corp) -- Bienal
+- **Arizona:** Annual Report -- $45 -- Data de aniversário de formação -- Anual
+- **Arkansas:** Franchise Tax Report -- $150 -- 1 Mai -- Anual
+- **California:** Statement of Information -- $20 (LLC) / $25 (corp) -- Aniversário do registro -- Anual/bienal
+- **Colorado:** Periodic Report -- $10 -- A cada ano até o final do mês de formação -- Anual
+- **Connecticut:** Annual Report -- $80 -- Aniversário de formação -- Anual
+- **Delaware:** Annual Report -- $300 mín (corp) / $0 (LLC sem imposto) -- 1 Mar (corp) / 1 Jun (LLC) -- Anual
+- **Florida:** Annual Report -- $138.75 (LLC) / $150 (corp) -- 1 Mai -- Anual
+- **Georgia:** Annual Registration -- $50 (LLC) / $50 (corp) -- 1 Abr -- Anual
+- **Hawaii:** Annual Report -- $15 (LLC) / $30 (corp) -- Trimestre de registro -- Anual
+- **Idaho:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversário de formação -- Anual
+- **Illinois:** Annual Report -- $75 (LLC) / $75 (corp) -- Aniversário de formação -- Anual
+- **Indiana:** Business Entity Report -- $50 (LLC) / $50 (corp) -- Aniversário de formação -- Anual
+- **Iowa:** Annual Report -- $45 (LLC) / $45 (corp) -- 1 Abr (ou aniversário) -- Anual
+- **Kansas:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversário de formação -- Anual
+- **Kentucky:** Annual Report -- $15 (LLC) / $15 (corp) -- 30 Jun -- Anual
+- **Louisiana:** Annual Report -- $35 (LLC) / $35 (corp) -- Aniversário de formação -- Anual
+- **Maine:** Annual Report -- $85 (LLC) / $150 (corp) -- 1 Jun -- Anual
+- **Maryland:** Annual Report -- $300 (LLC) / $300 (corp) -- 15 Abr -- Anual
+- **Massachusetts:** Annual Report -- $500 (LLC) / $500 (corp) -- Aniversário de formação -- Anual
+- **Michigan:** Annual Report -- $25 (LLC) / $25 (corp) -- 15 Fev -- Anual
+- **Minnesota:** Annual Report -- $0 (online) / $50 (correio) -- 31 Dez -- Anual
+- **Mississippi:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversário de formação -- Anual
+- **Missouri:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversário de formação -- Anual
+- **Montana:** Annual Report -- $15 (LLC) / $15 (corp) -- 15 Abr -- Anual
+- **Nebraska:** Biennial Report -- $10 (LLC) / $10 (corp) -- 1 Abr (ímpar/par por entidade) -- Bienal
+- **Nevada:** Annual Report -- $150 (LLC) / $150 (corp) -- Último dia do mês de aniversário -- Anual
+- **New Hampshire:** Annual Report -- $100 (LLC) / $100 (corp) -- 1 Abr -- Anual
+- **New Jersey:** Annual Report -- $75 (LLC) / $75 (corp) -- Aniversário de formação -- Anual
+- **New Mexico:** Annual Report -- $0 (LLC) / $0 (corp) -- Aniversário de formação -- Anual
+- **New York:** Biennial Statement -- $9 (LLC) / $9 (corp) -- Aniversário de formação (a cada 2 anos) -- Bienal
+- **North Carolina:** Annual Report -- $200 (LLC) / $200 (corp) -- 15 Abr -- Anual
+- **North Dakota:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversário de formação -- Anual
+- **Ohio:** Biennial Report -- $0 (LLC) / $0 (corp) -- Aniversário de formação (anos ímpares) -- Bienal
+- **Oklahoma:** Annual Certificate -- $25 (LLC) / $25 (corp) -- Aniversário de formação -- Anual
+- **Oregon:** Annual Report -- $100 (LLC) / $100 (corp) -- Aniversário de formação -- Anual
+- **Pennsylvania:** Decennial Report -- $7 (LLC) / $7 (corp) -- A cada 10 anos da formação -- Decenal
+- **Rhode Island:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversário de formação -- Anual
+- **South Carolina:** Annual Report -- $0 (LLC) / $25 (corp) -- Aniversário de formação -- Anual
+- **South Dakota:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversário de formação -- Anual
+- **Tennessee:** Annual Report -- $300 (LLC) / $300 (corp) -- Aniversário de formação (corte em 1 Abr) -- Anual
+- **Texas:** Franchise Tax Report -- $0 mín (sem imposto devido) -- 15 Mai -- Anual
+- **Utah:** Annual Report -- $15 (LLC) / $15 (corp) -- Aniversário de formação -- Anual
+- **Vermont:** Annual Report -- $35 (LLC) / $75 (corp) -- Aniversário de formação -- Anual
+- **Virginia:** Annual Report -- $50 (LLC) / $50 (corp) -- Aniversário de formação -- Anual
+- **Washington:** Annual Report -- $60 (LLC) / $60 (corp) -- Final do mês de aniversário -- Anual
+- **West Virginia:** Annual Report -- $25 (LLC) / $25 (corp) -- 1 Jul -- Anual
+- **Wisconsin:** Annual Report -- $25 (LLC) / $25 (corp) -- Aniversário de formação (final do trimestre) -- Anual
+- **Wyoming:** Annual Report -- $60 (LLC) / $60 (corp) -- Primeiro dia do mês de aniversário -- Anual
+- **DC (Washington DC):** Biennial Report -- $0 (LLC) / $0 (corp) -- 1 Abr (anos pares) -- Bienal
+- **Puerto Rico:** Annual Report -- $125 (LLC) / $125 (corp) -- 15 Abr -- Anual
 ### Calculadora de Taxas de Annual Report
 
 ### Consulta de Data de Vencimento de Annual Report
@@ -172,29 +160,23 @@ Antes de arquivar, reúna estes documentos:
 
 ### URLs de Portais de Arquivamento Online
 
-| Estado | URL do Portal |
-|-------|-----------|
-| Delaware | https://icis.corp.delaware.gov |
-| Florida | https://dos.sunbiz.org |
-| California | https://bizfileonline.sos.ca.gov |
-| Texas | https://mytax.texas.gov |
-| New York | https://apps.dos.ny.gov |
-| Nevada | https://www.nvsos.gov |
-| Wyoming | https://wyobiz.wy.gov |
-| Colorado | https://www.sos.state.co.us/biz |
-| Illinois | https://www.ilsos.gov/corporatellc |
-| Georgia | https://ecorp.sos.ga.gov |
-
+- **Delaware:** https://icis.corp.delaware.gov
+- **Florida:** https://dos.sunbiz.org
+- **California:** https://bizfileonline.sos.ca.gov
+- **Texas:** https://mytax.texas.gov
+- **New York:** https://apps.dos.ny.gov
+- **Nevada:** https://www.nvsos.gov
+- **Wyoming:** https://wyobiz.wy.gov
+- **Colorado:** https://www.sos.state.co.us/biz
+- **Illinois:** https://www.ilsos.gov/corporatellc
+- **Georgia:** https://ecorp.sos.ga.gov
 ### Opções de Arquivamento
 
-| Método | Tempo de Processamento | Taxa de Conveniência | Melhor Para |
-|--------|----------------|-----------------|----------|
-| **Online** | Instantâneo a 24 horas | ~2-3% taxa de cartão de crédito | A maioria dos proprietários de empresas |
-| **Correio** | 2-6 semanas | Sem taxa (cheque) | Aqueles sem acesso online |
-| **Presencial** | Mesmo dia | Sem taxa | Confirmação no mesmo dia necessária |
-| **Serviço terceirizado** | 1-3 dias úteis | $25-200 taxa de serviço | Arquivadores multiestaduais |
-| **Serviço de agente registrado** | Mesmo dia a 2 dias | Incluído na taxa de serviço | Empresas com serviços de agente |
-
+- **Online:** Instantâneo a 24 horas -- ~2-3% taxa de cartão de crédito -- A maioria dos proprietários de empresas
+- **Correio:** 2-6 semanas -- Sem taxa (cheque) -- Aqueles sem acesso online
+- **Presencial:** Mesmo dia -- Sem taxa -- Confirmação no mesmo dia necessária
+- **Serviço terceirizado:** 1-3 dias úteis -- $25-200 taxa de serviço -- Arquivadores multiestaduais
+- **Serviço de agente registrado:** Mesmo dia a 2 dias -- Incluído na taxa de serviço -- Empresas com serviços de agente
 ### Dicas Profissionais para Arquivamento
 
 - **Arquive no início da sua janela** — os portais têm alto tráfego perto dos prazos
@@ -208,29 +190,23 @@ Antes de arquivar, reúna estes documentos:
 
 Não arquivar seu annual report no prazo desencadeia uma cascata de consequências que se tornam mais severas quanto mais você espera:
 
-| Tempo Após o Prazo | Status | Consequência |
-|--------------------|--------|-------------|
-| **1-30 dias** | Atrasado | Multa por atraso avaliada ($10-$200 dependendo do estado) |
-| **31-90 dias** | Inadimplente | Perda de situação regular; juros acumulam sobre taxas |
-| **90-365 dias** | Suspenso | Não pode conduzir negócios, processar ou obter financiamento |
-| **1-2 anos** | Dissolvido administrativamente | Entidade não existe mais nos registros estaduais |
-| **2+ anos** | Perdido | Nome fica disponível para outros registrarem |
-
+- **1-30 dias:** Atrasado -- Multa por atraso avaliada ($10-$200 dependendo do estado)
+- **31-90 dias:** Inadimplente -- Perda de situação regular; juros acumulam sobre taxas
+- **90-365 dias:** Suspenso -- Não pode conduzir negócios, processar ou obter financiamento
+- **1-2 anos:** Dissolvido administrativamente -- Entidade não existe mais nos registros estaduais
+- **2+ anos:** Perdido -- Nome fica disponível para outros registrarem
 ### Custos de Multas e Reinstalação
 
-| Estado | Multa por Atraso | Taxa de Reinstalação | Tempo Máximo para Reinstalar |
-|-------|---------|-------------------|----------------------|
-| Delaware | $200 | $200 + taxa do ano atual | 5 anos |
-| California | $0 (SOS) | $0 + taxas atrasadas | 4 anos (CT Corp) |
-| Florida | $400 | $400 + taxas atrasadas | Indefinido |
-| New York | $0 | $0 + arquivamento atrasado | 2 anos |
-| Nevada | $75 | $75 + taxas atrasadas | 1 ano |
-| Texas | $50 | $50 + taxas atrasadas | Indefinido |
-| Illinois | $100 | $100 + taxas atrasadas | 5 anos |
-| Georgia | $25 | $25 + taxas atrasadas | Indefinido |
-| Washington | $30 | $30 + taxas atrasadas | Indefinido |
-| Wyoming | $60 atrasado | $60 + taxas atrasadas | Indefinido |
-
+- **Delaware:** $200 -- $200 + taxa do ano atual -- 5 anos
+- **California:** $0 (SOS) -- $0 + taxas atrasadas -- 4 anos (CT Corp)
+- **Florida:** $400 -- $400 + taxas atrasadas -- Indefinido
+- **New York:** $0 -- $0 + arquivamento atrasado -- 2 anos
+- **Nevada:** $75 -- $75 + taxas atrasadas -- 1 ano
+- **Texas:** $50 -- $50 + taxas atrasadas -- Indefinido
+- **Illinois:** $100 -- $100 + taxas atrasadas -- 5 anos
+- **Georgia:** $25 -- $25 + taxas atrasadas -- Indefinido
+- **Washington:** $30 -- $30 + taxas atrasadas -- Indefinido
+- **Wyoming:** $60 atrasado -- $60 + taxas atrasadas -- Indefinido
 ### O Que Significa "Dissolução Administrativa"
 
 A dissolução administrativa é o processo do estado de encerrar involuntariamente uma entidade empresarial por não arquivar annual reports ou pagar taxas exigidas. Quando isso acontece:
@@ -258,17 +234,14 @@ Na maioria dos estados, a reinstalação restaura retroativamente a entidade com
 
 Proprietários de empresas frequentemente confundem essas três obrigações de conformidade. Veja como elas diferem:
 
-| Aspecto | Annual Report | Business License | Franchise Tax |
-|--------|--------------|-----------------|---------------|
-| **O que é** | Arquivamento de informações no estado | Permissão para operar localmente | Imposto pelo privilégio de fazer negócios |
-| **Autoridade de arquivamento** | Secretário de Estado | Governo da cidade ou condado | Departamento de receita estadual |
-| **Frequência** | Anual ou bienal | Anual | Anual |
-| **Faixa de taxa** | $0-$500 | $25-$5,000+ | $0-$800+ |
-| **Propósito** | Atualizar registros públicos | Regular a atividade comercial local | Gerar receita estadual |
-| **Consequência de não arquivar** | Perda de situação regular, dissolução | Incapacidade de operar legalmente, multas | Juros, multas, ônus |
-| **Exigências por tipo de entidade** | Apenas LLCs e corporações | A maioria dos tipos de negócio | Varia amplamente por estado |
-| **Dedutível** | A taxa de arquivamento é dedutível | A taxa de licença é dedutível | O pagamento é dedutível |
-
+- **O que é:** Arquivamento de informações no estado -- Permissão para operar localmente -- Imposto pelo privilégio de fazer negócios
+- **Autoridade de arquivamento:** Secretário de Estado -- Governo da cidade ou condado -- Departamento de receita estadual
+- **Frequência:** Anual ou bienal -- Anual -- Anual
+- **Faixa de taxa:** $0-$500 -- $25-$5,000+ -- $0-$800+
+- **Propósito:** Atualizar registros públicos -- Regular a atividade comercial local -- Gerar receita estadual
+- **Consequência de não arquivar:** Perda de situação regular, dissolução -- Incapacidade de operar legalmente, multas -- Juros, multas, ônus
+- **Exigências por tipo de entidade:** Apenas LLCs e corporações -- A maioria dos tipos de negócio -- Varia amplamente por estado
+- **Dedutível:** A taxa de arquivamento é dedutível -- A taxa de licença é dedutível -- O pagamento é dedutível
 ### Como Eles Interagem
 
 Na prática, uma empresa deve cumprir todos os três. Por exemplo:
@@ -313,17 +286,14 @@ Na prática, uma empresa deve cumprir todos os três. Por exemplo:
 
 ### Cronograma de Arquivamento Recomendado
 
-| Momento | Ação |
-|--------|--------|
-| **90 dias antes do prazo** | Configurar lembrete de calendário; verificar detalhes comerciais atuais |
-| **60 dias antes do prazo** | Confirmar que o agente registrado está atualizado; atualizar lista de diretores/membros |
-| **30 dias antes do prazo** | Arquivar o annual report online; salvar confirmação |
-| **15 dias antes do prazo** | Verificar se o arquivamento foi aceito; consultar registros do SOS para status atualizado |
-| **Data de vencimento** | Prazo final — sem ação adicional se já confirmado |
-| **Após arquivar** | Baixar e salvar o recibo de confirmação |
-| **30 dias após arquivar** | Verificar situação regular no site do SOS |
-| **90 dias antes do PRÓXIMO prazo** | Começar o ciclo novamente |
-
+- **90 dias antes do prazo:** Configurar lembrete de calendário; verificar detalhes comerciais atuais
+- **60 dias antes do prazo:** Confirmar que o agente registrado está atualizado; atualizar lista de diretores/membros
+- **30 dias antes do prazo:** Arquivar o annual report online; salvar confirmação
+- **15 dias antes do prazo:** Verificar se o arquivamento foi aceito; consultar registros do SOS para status atualizado
+- **Data de vencimento:** Prazo final — sem ação adicional se já confirmado
+- **Após arquivar:** Baixar e salvar o recibo de confirmação
+- **30 dias após arquivar:** Verificar situação regular no site do SOS
+- **90 dias antes do PRÓXIMO prazo:** Começar o ciclo novamente
 ### Rastreamento de Status da Entidade
 
 ## Conclusão

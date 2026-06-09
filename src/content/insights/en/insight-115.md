@@ -43,57 +43,48 @@ In this guide, we cover **how to know if your LLC is at risk in 2026**: the thre
 
 ### Top 10 Veil Piercing Red Flags
 
-| # | Red Flag | Risk Level | Fix |
-|---|----------|------------|-----|
-| 1 | No separate business bank account | Critical | Open a dedicated business account immediately |
-| 2 | Using personal account for business income | Critical | Redirect all income to business account |
-| 3 | No operating agreement | High | Draft and sign an operating agreement retroactively |
-| 4 | Late or missing annual reports | High | File all missing reports and set reminders |
-| 5 | No separate business credit card | Medium | Get a business credit card |
-| 6 | Personal guarantees on business debts | Medium | Negotiate removal or limit exposure |
-| 7 | Undocumented member loans | Medium | Document all loans with written agreements |
-| 8 | Business insurance in personal name | Medium | Transfer policies to LLC name |
-| 9 | Contracts signed in personal name | Medium | Re-sign contracts in LLC name where possible |
-| 10 | No meeting minutes or records | Low-Medium | Start documenting decisions going forward |
-
+- **1:** No separate business bank account -- Critical -- Open a dedicated business account immediately
+- **2:** Using personal account for business income -- Critical -- Redirect all income to business account
+- **3:** No operating agreement -- High -- Draft and sign an operating agreement retroactively
+- **4:** Late or missing annual reports -- High -- File all missing reports and set reminders
+- **5:** No separate business credit card -- Medium -- Get a business credit card
+- **6:** Personal guarantees on business debts -- Medium -- Negotiate removal or limit exposure
+- **7:** Undocumented member loans -- Medium -- Document all loans with written agreements
+- **8:** Business insurance in personal name -- Medium -- Transfer policies to LLC name
+- **9:** Contracts signed in personal name -- Medium -- Re-sign contracts in LLC name where possible
+- **10:** No meeting minutes or records -- Low-Medium -- Start documenting decisions going forward
 ## 4. The True Cost of a Delinquent LLC
 
 ### Cost Breakdown by Stage and State
 
 ### Hidden Costs of a Delinquent LLC
 
-| Cost Category | Direct Cost | Hidden Cost | Total Impact |
-|---------------|-------------|-------------|--------------|
-| Loss of liability protection | $0 | Potentially unlimited | Loss of personal asset protection |
-| Inability to sue or enforce contracts | $0 | Lost revenue | Variable |
-| Bank account freeze | $0 | Business disruption | Days to weeks of downtime |
-| Inability to obtain financing | $0 | Lost growth | Variable |
-| Loss of business name | $0 | Rebranding costs | $500 - $5,000 |
-| Professional fees to reinstate | $500 - $3,000 | $0 | $500 - $3,000 |
-| Tax liens (public record) | $0 | Credit damage | Long-term |
-| Missed business opportunities | $0 | Lost contracts | Variable |
-| Stress and management distraction | $0 | Lost productivity | Variable |
-
+- **Loss of liability protection:** $0 -- Potentially unlimited -- Loss of personal asset protection
+- **Inability to sue or enforce contracts:** $0 -- Lost revenue -- Variable
+- **Bank account freeze:** $0 -- Business disruption -- Days to weeks of downtime
+- **Inability to obtain financing:** $0 -- Lost growth -- Variable
+- **Loss of business name:** $0 -- Rebranding costs -- $500 - $5,000
+- **Professional fees to reinstate:** $500 - $3,000 -- $0 -- $500 - $3,000
+- **Tax liens (public record):** $0 -- Credit damage -- Long-term
+- **Missed business opportunities:** $0 -- Lost contracts -- Variable
+- **Stress and management distraction:** $0 -- Lost productivity -- Variable
 ## 5. State-by-State Risk Assessment
 
 ### Highest Risk States for LLC Compliance
 
-| Risk Rank | State | Annual Requirements | Penalty Severity | Reinstatement Difficulty | Overall Risk |
-|-----------|-------|---------------------|------------------|-------------------------|--------------|
-| 1 | California | Annual report + $800 franchise tax | Severe | Difficult | Critical |
-| 2 | Florida | Annual report ($138.75) | High | Moderate | High |
-| 3 | Delaware | Franchise tax ($300 minimum) | Moderate | Easy (with payment) | High |
-| 4 | New York | Biennial report ($9) | Moderate | Moderate | Moderate |
-| 5 | Nevada | Annual list ($150) | Moderate | Moderate | Moderate |
-| 6 | Illinois | Annual report | Moderate | Moderate | Moderate |
-| 7 | Massachusetts | Annual report | Moderate | Moderate | Moderate |
-| 8 | Oregon | Annual report | Moderate | Easy | Low-Moderate |
-| 9 | Washington | Annual report | Moderate | Easy | Low-Moderate |
-| 10 | Texas | No annual report (most exempt) | Low | Easy | Low |
-| 11 | Wyoming | Annual report ($60) | Low | Easy | Low |
-| 12 | Colorado | Annual report ($25) | Low | Easy | Low |
-| 13 | Arizona | Annual report ($35) | Low | Easy | Low |
-
+- **1:** California -- Annual report + $800 franchise tax -- Severe -- Difficult -- Critical
+- **2:** Florida -- Annual report ($138.75) -- High -- Moderate -- High
+- **3:** Delaware -- Franchise tax ($300 minimum) -- Moderate -- Easy (with payment) -- High
+- **4:** New York -- Biennial report ($9) -- Moderate -- Moderate -- Moderate
+- **5:** Nevada -- Annual list ($150) -- Moderate -- Moderate -- Moderate
+- **6:** Illinois -- Annual report -- Moderate -- Moderate -- Moderate
+- **7:** Massachusetts -- Annual report -- Moderate -- Moderate -- Moderate
+- **8:** Oregon -- Annual report -- Moderate -- Easy -- Low-Moderate
+- **9:** Washington -- Annual report -- Moderate -- Easy -- Low-Moderate
+- **10:** Texas -- No annual report (most exempt) -- Low -- Easy -- Low
+- **11:** Wyoming -- Annual report ($60) -- Low -- Easy -- Low
+- **12:** Colorado -- Annual report ($25) -- Low -- Easy -- Low
+- **13:** Arizona -- Annual report ($35) -- Low -- Easy -- Low
 
 ### Threat 3: State Penalty Escalation
 
@@ -111,57 +102,48 @@ In this guide, we cover **how to know if your LLC is at risk in 2026**: the thre
 
 ### Top 10 Veil Piercing Red Flags
 
-| # | Red Flag | Risk Level | Fix |
-|---|----------|------------|-----|
-| 1 | No separate business bank account | Critical | Open a dedicated business account immediately |
-| 2 | Using personal account for business income | Critical | Redirect all income to business account |
-| 3 | No operating agreement | High | Draft and sign an operating agreement retroactively |
-| 4 | Late or missing annual reports | High | File all missing reports and set reminders |
-| 5 | No separate business credit card | Medium | Get a business credit card |
-| 6 | Personal guarantees on business debts | Medium | Negotiate removal or limit exposure |
-| 7 | Undocumented member loans | Medium | Document all loans with written agreements |
-| 8 | Business insurance in personal name | Medium | Transfer policies to LLC name |
-| 9 | Contracts signed in personal name | Medium | Re-sign contracts in LLC name where possible |
-| 10 | No meeting minutes or records | Low-Medium | Start documenting decisions going forward |
-
+- **1:** No separate business bank account -- Critical -- Open a dedicated business account immediately
+- **2:** Using personal account for business income -- Critical -- Redirect all income to business account
+- **3:** No operating agreement -- High -- Draft and sign an operating agreement retroactively
+- **4:** Late or missing annual reports -- High -- File all missing reports and set reminders
+- **5:** No separate business credit card -- Medium -- Get a business credit card
+- **6:** Personal guarantees on business debts -- Medium -- Negotiate removal or limit exposure
+- **7:** Undocumented member loans -- Medium -- Document all loans with written agreements
+- **8:** Business insurance in personal name -- Medium -- Transfer policies to LLC name
+- **9:** Contracts signed in personal name -- Medium -- Re-sign contracts in LLC name where possible
+- **10:** No meeting minutes or records -- Low-Medium -- Start documenting decisions going forward
 ## 4. The True Cost of a Delinquent LLC
 
 ### Cost Breakdown by Stage and State
 
 ### Hidden Costs of a Delinquent LLC
 
-| Cost Category | Direct Cost | Hidden Cost | Total Impact |
-|---------------|-------------|-------------|--------------|
-| Loss of liability protection | $0 | Potentially unlimited | Loss of personal asset protection |
-| Inability to sue or enforce contracts | $0 | Lost revenue | Variable |
-| Bank account freeze | $0 | Business disruption | Days to weeks of downtime |
-| Inability to obtain financing | $0 | Lost growth | Variable |
-| Loss of business name | $0 | Rebranding costs | $500 - $5,000 |
-| Professional fees to reinstate | $500 - $3,000 | $0 | $500 - $3,000 |
-| Tax liens (public record) | $0 | Credit damage | Long-term |
-| Missed business opportunities | $0 | Lost contracts | Variable |
-| Stress and management distraction | $0 | Lost productivity | Variable |
-
+- **Loss of liability protection:** $0 -- Potentially unlimited -- Loss of personal asset protection
+- **Inability to sue or enforce contracts:** $0 -- Lost revenue -- Variable
+- **Bank account freeze:** $0 -- Business disruption -- Days to weeks of downtime
+- **Inability to obtain financing:** $0 -- Lost growth -- Variable
+- **Loss of business name:** $0 -- Rebranding costs -- $500 - $5,000
+- **Professional fees to reinstate:** $500 - $3,000 -- $0 -- $500 - $3,000
+- **Tax liens (public record):** $0 -- Credit damage -- Long-term
+- **Missed business opportunities:** $0 -- Lost contracts -- Variable
+- **Stress and management distraction:** $0 -- Lost productivity -- Variable
 ## 5. State-by-State Risk Assessment
 
 ### Highest Risk States for LLC Compliance
 
-| Risk Rank | State | Annual Requirements | Penalty Severity | Reinstatement Difficulty | Overall Risk |
-|-----------|-------|---------------------|------------------|-------------------------|--------------|
-| 1 | California | Annual report + $800 franchise tax | Severe | Difficult | Critical |
-| 2 | Florida | Annual report ($138.75) | High | Moderate | High |
-| 3 | Delaware | Franchise tax ($300 minimum) | Moderate | Easy (with payment) | High |
-| 4 | New York | Biennial report ($9) | Moderate | Moderate | Moderate |
-| 5 | Nevada | Annual list ($150) | Moderate | Moderate | Moderate |
-| 6 | Illinois | Annual report | Moderate | Moderate | Moderate |
-| 7 | Massachusetts | Annual report | Moderate | Moderate | Moderate |
-| 8 | Oregon | Annual report | Moderate | Easy | Low-Moderate |
-| 9 | Washington | Annual report | Moderate | Easy | Low-Moderate |
-| 10 | Texas | No annual report (most exempt) | Low | Easy | Low |
-| 11 | Wyoming | Annual report ($60) | Low | Easy | Low |
-| 12 | Colorado | Annual report ($25) | Low | Easy | Low |
-| 13 | Arizona | Annual report ($35) | Low | Easy | Low |
-
+- **1:** California -- Annual report + $800 franchise tax -- Severe -- Difficult -- Critical
+- **2:** Florida -- Annual report ($138.75) -- High -- Moderate -- High
+- **3:** Delaware -- Franchise tax ($300 minimum) -- Moderate -- Easy (with payment) -- High
+- **4:** New York -- Biennial report ($9) -- Moderate -- Moderate -- Moderate
+- **5:** Nevada -- Annual list ($150) -- Moderate -- Moderate -- Moderate
+- **6:** Illinois -- Annual report -- Moderate -- Moderate -- Moderate
+- **7:** Massachusetts -- Annual report -- Moderate -- Moderate -- Moderate
+- **8:** Oregon -- Annual report -- Moderate -- Easy -- Low-Moderate
+- **9:** Washington -- Annual report -- Moderate -- Easy -- Low-Moderate
+- **10:** Texas -- No annual report (most exempt) -- Low -- Easy -- Low
+- **11:** Wyoming -- Annual report ($60) -- Low -- Easy -- Low
+- **12:** Colorado -- Annual report ($25) -- Low -- Easy -- Low
+- **13:** Arizona -- Annual report ($35) -- Low -- Easy -- Low
 
 ## 6. How to Run an LLC Health Check
 

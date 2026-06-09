@@ -26,11 +26,8 @@ Uma **holding** é uma sociedade criada com o propósito principal de **particip
 
 ### 2.1 Holding Pura vs. Mista
 
-| Tipo | Descrição | Exemplo de uso |
-|------|-----------|----------------|
-| **Holding Pura** | Apenas participa de outras empresas, sem atividade operacional | Veículo de investimento familiar |
-| **Holding Mista** | Além de participar, exerce atividade empresarial própria | Grupo que também presta serviços |
-
+- **Holding Pura:** Apenas participa de outras empresas, sem atividade operacional -- Veículo de investimento familiar
+- **Holding Mista:** Além de participar, exerce atividade empresarial própria -- Grupo que também presta serviços
 ### 2.2 Holding de Controle vs. Holding de Investimento
 
 - **Holding de Controle:** Detém a maioria do capital votante e dirige as subsidiárias
@@ -56,11 +53,8 @@ O benefício mais buscado. Ao separar os ativos em diferentes empresas:
 
 ### 3.2 Otimização Tributária
 
-| Estrutura | Carga Tributária |
-|-----------|------------------|
-| Sem holding | Empresa paga IRPJ + CSLL sobre o lucro + distribuição de dividendos (em alguns países) |
-| Com holding | Possibilidade de planejamento com regimes favoráveis (lucro presumido, transfer pricing, etc.) |
-
+- **Sem holding:** Empresa paga IRPJ + CSLL sobre o lucro + distribuição de dividendos (em alguns países)
+- **Com holding:** Possibilidade de planejamento com regimes favoráveis (lucro presumido, transfer pricing, etc.)
 **Exemplo prático:** Uma holding no exterior (holding internacional) pode reduzir significativamente a carga tributária sobre investimentos cross-border, aproveitando tratados para evitar dupla tributação.
 
 ### 3.3 Planejamento Sucessório
@@ -94,14 +88,11 @@ Cada objetivo leva a um modelo diferente.
 
 ### Passo 2: Escolha da Jurisdição
 
-| Jurisdição | Vantagens | Desvantagens |
-|------------|-----------|--------------|
-| **Brasil** | Simplicidade, baixo custo de manutenção | Carga tributária alta |
-| **EUA (Delaware, Wyoming)** | Flexibilidade, privacidade | Custo de manutenção anual, BOI |
-| **Canadá** | Tratados fiscais favoráveis | GP residente obrigatório |
-| **Panamá** | Holding internacional, sigilo | Reputação, custos de compliance |
-| **Europa (Holanda, Luxemburgo)** | Rede de tratados ampla | Custos elevados, auditoria |
-
+- **Brasil:** Simplicidade, baixo custo de manutenção -- Carga tributária alta
+- **EUA (Delaware, Wyoming):** Flexibilidade, privacidade -- Custo de manutenção anual, BOI
+- **Canadá:** Tratados fiscais favoráveis -- GP residente obrigatório
+- **Panamá:** Holding internacional, sigilo -- Reputação, custos de compliance
+- **Europa (Holanda, Luxemburgo):** Rede de tratados ampla -- Custos elevados, auditoria
 ### Passo 3: Constituição da Holding
 
 #### Documentos necessários:
@@ -148,14 +139,11 @@ Uma **holding internacional** é uma empresa constituída em um país diferente 
 
 ### 5.3 Jurisdições Populares para Holding Internacional
 
-| País | Tributação | Custo Anual | Privacidade |
-|------|------------|-------------|-------------|
-| **Canadá (LP)** | Pass-through (sem imposto na entidade) | $1.300 - $3.700 CAD | Alta |
-| **EUA (LLC)** | Pass-through (se eleita) | $500 - $2.000 USD | Média |
-| **Holanda** | 25% IR, isenção participation exemption | €5.000 - €15.000 | Baixa |
-| **Luxemburgo** | 24,9% IR, holding rules | €10.000 - €30.000 | Baixa |
-| **Panamá** | Territorial (só renda local) | $1.000 - $3.000 | Média |
-
+- **Canadá (LP):** Pass-through (sem imposto na entidade) -- $1.300 - $3.700 CAD -- Alta
+- **EUA (LLC):** Pass-through (se eleita) -- $500 - $2.000 USD -- Média
+- **Holanda:** 25% IR, isenção participation exemption -- €5.000 - €15.000 -- Baixa
+- **Luxemburgo:** 24,9% IR, holding rules -- €10.000 - €30.000 -- Baixa
+- **Panamá:** Territorial (só renda local) -- $1.000 - $3.000 -- Média
 ## 6. Riscos e Desvantagens
 
 ### 6.1 Custos de Manutenção

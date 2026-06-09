@@ -15,15 +15,12 @@ Neste guia, cobrimos **como automatizar o acompanhamento de leads em 2026**: des
 
 ### Por que os leads se perdem
 
-| Problema | Impacto | Solução automatizada |
-|---------|--------|-------------------|
-| **Resposta lenta** | 35-50% dos leads vão para o concorrente que responde primeiro | Resposta automática instantânea + SMS |
-| **Sem acompanhamento** | 80% das vendas precisam de 5+ contatos, representante médio faz 2 | Sequências multicanal automatizadas |
-| **Má qualificação** | Equipe de vendas perde 50% do tempo com leads não qualificados | Pontuação IA + roteamento |
-| **Silos de dados** | Leads em ferramentas diferentes, sem visão única | CRM unificado com sincronização automática |
-| **Contato inconsistente** | Cada representante segue seu próprio processo | Fluxos de trabalho automatizados padronizados |
-| **Sem análises** | Não é possível medir o que funciona | Dashboard de acompanhamento em tempo real |
-
+- **Resposta lenta:** 35-50% dos leads vão para o concorrente que responde primeiro -- Resposta automática instantânea + SMS
+- **Sem acompanhamento:** 80% das vendas precisam de 5+ contatos, representante médio faz 2 -- Sequências multicanal automatizadas
+- **Má qualificação:** Equipe de vendas perde 50% do tempo com leads não qualificados -- Pontuação IA + roteamento
+- **Silos de dados:** Leads em ferramentas diferentes, sem visão única -- CRM unificado com sincronização automática
+- **Contato inconsistente:** Cada representante segue seu próprio processo -- Fluxos de trabalho automatizados padronizados
+- **Sem análises:** Não é possível medir o que funciona -- Dashboard de acompanhamento em tempo real
 ### O custo de um mau acompanhamento de leads
 
 ## 2. Automação de captura de leads
@@ -40,14 +37,11 @@ Neste guia, cobrimos **como automatizar o acompanhamento de leads em 2026**: des
 
 ### Critérios de pontuação por canal
 
-| Canal | Pontuação alta (80-100) | Pontuação média (50-79) | Pontuação baixa (0-49) |
-|---------|-------------------|--------------------|------------------|
-| **Site** | Visitou preços + solicitou demo | Visitou blog + baixou conteúdo | Rebotou após 1 página |
-| **WhatsApp** | Respondeu + perguntou preços | Leu mensagens + reagiu com emoji | Entregue mas não lido |
-| **Email** | Clicou no link + respondeu | Abriu 3+ emails | Nunca abriu |
-| **Stripe** | Checkout incompleto com email | Visualizou página de checkout | Visitou landing page |
-| **LinkedIn** | Interagiu com anúncio + enviou formulário | Visualizou perfil | Impressed only |
-
+- **Site:** Visitou preços + solicitou demo -- Visitou blog + baixou conteúdo -- Rebotou após 1 página
+- **WhatsApp:** Respondeu + perguntou preços -- Leu mensagens + reagiu com emoji -- Entregue mas não lido
+- **Email:** Clicou no link + respondeu -- Abriu 3+ emails -- Nunca abriu
+- **Stripe:** Checkout incompleto com email -- Visualizou página de checkout -- Visitou landing page
+- **LinkedIn:** Interagiu com anúncio + enviou formulário -- Visualizou perfil -- Impressed only
 ## 4. Sequências automatizadas de acompanhamento
 
 ### Sequenciamento multicanal
@@ -68,19 +62,16 @@ Neste guia, cobrimos **como automatizar o acompanhamento de leads em 2026**: des
 
 ### Métricas-chave de acompanhamento
 
-| Métrica | Fórmula | Meta | O que indica |
-|--------|---------|--------|-------------------|
-| **Tempo de resposta** | Time from capture to first contato | < 5 min | Velocidade da equipe |
-| **Distribuição de pontuação** | % quentes / mornos / frios | 20% quentes, 50% mornos, 30% frios | Qualidade dos leads recebidos |
-| **Taxa de conclusão de sequência** | % leads that complete sequência | > 40% | Effectiveness of sequências |
-| **Canal Conversion** | Leads by fonte → opportunity | Varia | Canais com melhor desempenho |
-| **Taxa de resfriamento** | % leads que esfriam com o tempo | < 10%/semana | Rapidez com que perdem interesse |
-| **Adesão ao acompanhamento** | % etapas executadas no prazo | > 95% | Confiabilidade da automação |
-| **Taxa de contato** | % leads contactados | > 60% | Qualidade dos dados + eficácia do canal |
-| **Taxa de agendamento** | % leads que agendam reunião | > 15% | Eficácia da qualificação + mensagens |
-| **Taxa de abandono Stripe** | % checkouts incompletos | < 40% | Problemas de preço ou UX |
-| **Custo por lead** | Gasto total / leads gerados | Decrescente | Eficiência de aquisição |
-
+- **Tempo de resposta:** Time from capture to first contato -- < 5 min -- Velocidade da equipe
+- **Distribuição de pontuação:** % quentes / mornos / frios -- 20% quentes, 50% mornos, 30% frios -- Qualidade dos leads recebidos
+- **Taxa de conclusão de sequência:** % leads that complete sequência -- > 40% -- Effectiveness of sequências
+- **Canal Conversion:** Leads by fonte → opportunity -- Varia -- Canais com melhor desempenho
+- **Taxa de resfriamento:** % leads que esfriam com o tempo -- < 10%/semana -- Rapidez com que perdem interesse
+- **Adesão ao acompanhamento:** % etapas executadas no prazo -- > 95% -- Confiabilidade da automação
+- **Taxa de contato:** % leads contactados -- > 60% -- Qualidade dos dados + eficácia do canal
+- **Taxa de agendamento:** % leads que agendam reunião -- > 15% -- Eficácia da qualificação + mensagens
+- **Taxa de abandono Stripe:** % checkouts incompletos -- < 40% -- Problemas de preço ou UX
+- **Custo por lead:** Gasto total / leads gerados -- Decrescente -- Eficiência de aquisição
 ### Dashboard em tempo real
 
 ## 8. Integração total: Automação completa de acompanhamento

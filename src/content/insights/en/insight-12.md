@@ -90,13 +90,10 @@ The right question is: **based on my activity, tax residency, and business model
 
 ## Summary table
 
-| Scenario | Pays federal tax? | Files forms? |
-|----------|-----------------|-------------|
-| Single-member foreign LLC without ECI | No | Yes (5472, 1120 pro forma) |
-| Multi-member LLC without ECI | No (pass-through) | Yes (1065, K-1) |
-| LLC with ECI (U.S. income) | Yes | Yes |
-| LLC electing C-Corp taxation | Yes | Yes |
-
+- **Single-member foreign LLC without ECI:** No -- Yes (5472, 1120 pro forma)
+- **Multi-member LLC without ECI:** No (pass-through) -- Yes (1065, K-1)
+- **LLC with ECI (U.S. income):** Yes -- Yes
+- **LLC electing C-Corp taxation:** Yes -- Yes
 ## Conclusion
 
 An LLC does not automatically pay taxes, but it is not exempt from obligations either. The tax treatment will depend on its structure, activity, income, and tax residency.

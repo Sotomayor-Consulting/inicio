@@ -22,12 +22,9 @@ Uma LLC permite que voc� opere como uma empresa americana aos olhos de seus cl
 
 O primeiro passo � escolher o estado onde incorporar sua LLC. Para neg�cios de servi�os internacionais, os estados mais recomendados s�o:
 
-| Estado | Vantagem | Custo anual |
-|--------|----------|-------------|
-| **Wyoming** | Privacidade, baixo custo, sem imposto estadual | $60 |
-| **Fl�rida** | Proximidade com a Am�rica Latina, imagem comercial | $138.75 |
-| **Delaware** | Ideal se planeja buscar investimento | $300 |
-
+- **Wyoming:** Privacidade, baixo custo, sem imposto estadual -- $60
+- **Fl�rida:** Proximidade com a Am�rica Latina, imagem comercial -- $138.75
+- **Delaware:** Ideal se planeja buscar investimento -- $300
 **Recomenda��o:** Se seu neg�cio � 100% digital e n�o tem opera��o f�sica nos EUA, Wyoming costuma ser a melhor op��o por seus baixos custos de manuten��o e privacidade.
 
 ## Passo 2: Obter o EIN
@@ -119,17 +116,14 @@ Pode ter receitas de fonte americana (ECI) e estar sujeito a impostos federais. 
 
 ## Tipos de servi�os vendidos com sucesso com uma LLC
 
-| Tipo de servi�o | Exemplos |
-|----------------|----------|
-| **Marketing digital** | Publicidade, SEO, redes sociais, conte�do |
-| **Consultoria** | Neg�cios, estrat�gia, finan�as, tecnologia |
-| **Desenvolvimento de software** | Aplicativos web, mobile, SaaS |
-| **Design gr�fico e UX/UI** | Branding, interfaces, experi�ncia do usu�rio |
-| **Reda��o e tradu��o** | Conte�do, copywriting, tradu��o profissional |
-| **Coaching e forma��o** | Cursos online, mentorias, workshops |
-| **Assist�ncia virtual** | Suporte administrativo, gest�o de projetos |
-| **Produ��o audiovisual** | Edi��o de v�deo, anima��o, fotografia |
-
+- **Marketing digital:** Publicidade, SEO, redes sociais, conte�do
+- **Consultoria:** Neg�cios, estrat�gia, finan�as, tecnologia
+- **Desenvolvimento de software:** Aplicativos web, mobile, SaaS
+- **Design gr�fico e UX/UI:** Branding, interfaces, experi�ncia do usu�rio
+- **Reda��o e tradu��o:** Conte�do, copywriting, tradu��o profissional
+- **Coaching e forma��o:** Cursos online, mentorias, workshops
+- **Assist�ncia virtual:** Suporte administrativo, gest�o de projetos
+- **Produ��o audiovisual:** Edi��o de v�deo, anima��o, fotografia
 ## Erros comuns ao usar uma LLC para vender servi�os
 
 ### Misturar receitas pessoais com empresariais

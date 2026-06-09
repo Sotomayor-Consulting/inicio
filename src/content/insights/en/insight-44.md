@@ -13,17 +13,14 @@ Below, we present a complete guide on international payment methods, their tax a
 
 Each payment method has distinct characteristics. Knowing them will help you choose the most appropriate one:
 
-| Method | Speed | Cost | Ideal for | Tax Reporting |
-|---|---|---|---|---|
-| **SWIFT (Bank transfer)** | 1-5 days | Medium-High ($25-50) | Large payments, bank accounts | Traceable, documented |
-| **ACH (U.S.)** | 1-3 days | Low ($0-3) | Domestic U.S. payments | Traceable |
-| **PayPal** | Instant | High (3-5% + fixed) | Small payments, freelancers | 1099-K if applicable |
-| **Wise (TransferWise)** | 1-2 days | Low (0.5-1.5%) | Medium payments, real exchange rate | Traceable |
-| **Payoneer** | 1-3 days | Medium (1-3%) | Freelancers, marketplaces | 1099-K if applicable |
-| **Cryptocurrencies** | Minutes | Low-Variable | Fast payments, tech-savvy | Manual report (Form 8949) |
-| **International check** | 7-21 days | Medium ($10-30) | Occasional payments | Traceable |
-| **Western Union / MoneyGram** | Minutes | High (5-10%) | Urgent payments, no bank | Manual report |
-
+- **SWIFT (Bank transfer):** 1-5 days -- Medium-High ($25-50) -- Large payments, bank accounts -- Traceable, documented
+- **ACH (U.S.):** 1-3 days -- Low ($0-3) -- Domestic U.S. payments -- Traceable
+- **PayPal:** Instant -- High (3-5% + fixed) -- Small payments, freelancers -- 1099-K if applicable
+- **Wise (TransferWise):** 1-2 days -- Low (0.5-1.5%) -- Medium payments, real exchange rate -- Traceable
+- **Payoneer:** 1-3 days -- Medium (1-3%) -- Freelancers, marketplaces -- 1099-K if applicable
+- **Cryptocurrencies:** Minutes -- Low-Variable -- Fast payments, tech-savvy -- Manual report (Form 8949)
+- **International check:** 7-21 days -- Medium ($10-30) -- Occasional payments -- Traceable
+- **Western Union / MoneyGram:** Minutes -- High (5-10%) -- Urgent payments, no bank -- Manual report
 ## 2. Tax Implications of Each Method
 
 The payment method affects how it is reported:

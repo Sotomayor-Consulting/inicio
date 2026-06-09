@@ -13,12 +13,9 @@ Neste guia, explicamos **como estruturar propriedades para proteção patrimonia
 
 ### Os 3 Pilares
 
-| Pilar | Descrição |
-|-------|-----------|
-| **Separação** | Cada propriedade em uma entidade legal distinta |
-| **Blindagem** | As entidades não têm relação entre si (sem garantias cruzadas) |
-| **Planejamento sucessório** | Os ativos passam a herdeiros sem imposto ou probate |
-
+- **Separação:** Cada propriedade em uma entidade legal distinta
+- **Blindagem:** As entidades não têm relação entre si (sem garantias cruzadas)
+- **Planejamento sucessório:** Os ativos passam a herdeiros sem imposto ou probate
 ### A Regra de Ouro
 
 ## 2. Estrutura Nível 1: Uma Propriedade
@@ -27,24 +24,18 @@ Neste guia, explicamos **como estruturar propriedades para proteção patrimonia
 
 ### Por Que Esta Estrutura?
 
-| Componente | Função | Proteção |
-|-----------|--------|----------|
-| **Florida Property LLC** | Opera a propriedade, recebe aluguéis | Limita responsabilidade a esta propriedade |
-| **Holding Internacional** | É proprietária da LLC | Elimina o estate tax (> $60K) |
-| **Trust Revogável** | Proprietário da holding | Evita probate, define sucessão |
-| **Stripe (EIN da LLC)** | Recebe aluguéis | Não mistura receitas pessoais |
-
+- **Florida Property LLC:** Opera a propriedade, recebe aluguéis -- Limita responsabilidade a esta propriedade
+- **Holding Internacional:** É proprietária da LLC -- Elimina o estate tax (> $60K)
+- **Trust Revogável:** Proprietário da holding -- Evita probate, define sucessão
+- **Stripe (EIN da LLC):** Recebe aluguéis -- Não mistura receitas pessoais
 ### Custo desta Estrutura
 
-| Componente | Custo Inicial | Custo Anual |
-|-----------|-------------|-------------|
-| **LLC na Flórida** | $150-400 | $138,75 |
-| **Holding no Panamá** | $1.000-2.000 | $500-1.500 |
-| **Trust nos EUA** | $2.000-5.000 | $0-500 |
-| **CPA internacional** | $0 | $1.000-3.000 |
-| **Registered Agent (LLC)** | $0 | $100-300 |
-| **Total** | **$3.150-7.400** | **$1.739-5.439** |
-
+- **LLC na Flórida:** $150-400 -- $138,75
+- **Holding no Panamá:** $1.000-2.000 -- $500-1.500
+- **Trust nos EUA:** $2.000-5.000 -- $0-500
+- **CPA internacional:** $0 -- $1.000-3.000
+- **Registered Agent (LLC):** $0 -- $100-300
+- **Total:** **$3.150-7.400** -- **$1.739-5.439**
 ## 3. Estrutura Nível 2: Múltiplas Propriedades
 
 ### A Arquitetura Multicamadas Recomendada
@@ -57,41 +48,32 @@ Neste guia, explicamos **como estruturar propriedades para proteção patrimonia
 
 ### Comparação Detalhada
 
-| Aspecto | LLC Individual por Propriedade | LLC Coletiva (várias propriedades) |
-|---------|-------------------------------|------------------------------------|
-| **Proteção** | ✅ Máxima (isolamento total) | ❌ Um processo expõe todas |
-| **Custo anual** | $138,75 + RA cada | $138,75 + RA (só uma) |
-| **Complexidade** | Alta (múltiplos filings) | Baixa (um filing) |
-| **Empréstimos** | Individuais (mais fácil) | Pode agrupar propriedades |
-| **Venda** | Vende a LLC (sem FIRPTA se bem estruturada) | Difícil vender uma propriedade |
-| **Seguros** | Apólice individual | Apólice coletiva (mais cara) |
-| **Stripe** | Conta separada | Uma conta (mistura receitas) |
-
+- **Proteção:** ✅ Máxima (isolamento total) -- ❌ Um processo expõe todas
+- **Custo anual:** $138,75 + RA cada -- $138,75 + RA (só uma)
+- **Complexidade:** Alta (múltiplos filings) -- Baixa (um filing)
+- **Empréstimos:** Individuais (mais fácil) -- Pode agrupar propriedades
+- **Venda:** Vende a LLC (sem FIRPTA se bem estruturada) -- Difícil vender uma propriedade
+- **Seguros:** Apólice individual -- Apólice coletiva (mais cara)
+- **Stripe:** Conta separada -- Uma conta (mistura receitas)
 ### Quando Usar Cada Opção
 
 ## 5. Holding Internacional: A Blindagem Definitiva
 
 ### Por Que uma Holding Internacional?
 
-| Benefício | Explicação |
-|-----------|-----------|
-| **Estate tax** | As ações da holding NÃO são ativos nos EUA |
-| **Privacidade** | O proprietário real não aparece em registros públicos dos EUA |
-| **Proteção contra penhoras** | Penhorar ações de uma holding estrangeira é muito difícil |
-| **Flexibilidade fiscal** | Você pode acumular lucros na holding sem distribuir |
-| **Sucessão** | As ações são herdadas conforme a lei do país da holding |
-
+- **Estate tax:** As ações da holding NÃO são ativos nos EUA
+- **Privacidade:** O proprietário real não aparece em registros públicos dos EUA
+- **Proteção contra penhoras:** Penhorar ações de uma holding estrangeira é muito difícil
+- **Flexibilidade fiscal:** Você pode acumular lucros na holding sem distribuir
+- **Sucessão:** As ações são herdadas conforme a lei do país da holding
 ### Jurisdições Recomendadas
 
-| Jurisdição | Custo Anual | Privacidade | Estate Tax | Reputação |
-|-----------|-------------|-----------|-----------|----------|
-| **Panamá** | $500-1.500 | ✅ Alta | ❌ N/A | ✅ Boa |
-| **Países Baixos** | $2.000-5.000 | ⚠️ Média | ❌ N/A | ✅ Excelente |
-| **BVI** | $1.000-2.500 | ✅ Alta | ❌ N/A | ✅ Boa |
-| **Ilhas Cayman** | $2.000-4.000 | ✅ Alta | ❌ N/A | ✅ Excelente |
-| **Uruguai** | $1.500-3.000 | ⚠️ Média | ❌ N/A | ✅ Boa |
-| **Delaware (EUA)** | $300-500 | ⚠️ Baixa | ✅ Exposto | ✅ Excelente |
-
+- **Panamá:** $500-1.500 -- ✅ Alta -- ❌ N/A -- ✅ Boa
+- **Países Baixos:** $2.000-5.000 -- ⚠️ Média -- ❌ N/A -- ✅ Excelente
+- **BVI:** $1.000-2.500 -- ✅ Alta -- ❌ N/A -- ✅ Boa
+- **Ilhas Cayman:** $2.000-4.000 -- ✅ Alta -- ❌ N/A -- ✅ Excelente
+- **Uruguai:** $1.500-3.000 -- ⚠️ Média -- ❌ N/A -- ✅ Boa
+- **Delaware (EUA):** $300-500 -- ⚠️ Baixa -- ✅ Exposto -- ✅ Excelente
 > IMPORTANTE: Uma holding em Delaware NÃO protege do estate tax porque é uma entidade americana. Para proteção contra estate tax, a holding deve estar fora dos EUA.
 
 ### Como o Dinheiro Flui
@@ -100,15 +82,12 @@ Neste guia, explicamos **como estruturar propriedades para proteção patrimonia
 
 ### Trust Revogável vs. Irrevogável
 
-| Aspecto | Trust Revogável | Trust Irrevogável |
-|---------|----------------|-------------------|
-| **Controle** | Você controla (pode mudar) | Perde controle (não pode mudar) |
-| **Proteção** | ❌ Baixa (ativos são seus) | ✅ Alta (ativos não são seus) |
-| **Estate tax** | ❌ Exposto | ✅ Protegido |
-| **Probate** | ✅ Evita | ✅ Evita |
-| **Custo** | $2.000-5.000 | $3.000-10.000 |
-| **Uso** | Sucessão simples | Proteção + sucessão |
-
+- **Controle:** Você controla (pode mudar) -- Perde controle (não pode mudar)
+- **Proteção:** ❌ Baixa (ativos são seus) -- ✅ Alta (ativos não são seus)
+- **Estate tax:** ❌ Exposto -- ✅ Protegido
+- **Probate:** ✅ Evita -- ✅ Evita
+- **Custo:** $2.000-5.000 -- $3.000-10.000
+- **Uso:** Sucessão simples -- Proteção + sucessão
 ### Estrutura com Trust
 
 ### Exemplo: Trust Irrevogável nas Ilhas Cook
@@ -117,31 +96,25 @@ Neste guia, explicamos **como estruturar propriedades para proteção patrimonia
 
 ### A Combinação Estrutura + Seguro
 
-| Camada | Protege Contra | Custo |
-|--------|---------------|-------|
-| **LLC** | Processos menores (até o valor da propriedade) | $138,75/ano |
-| **Liability insurance (apólice LLC)** | $1-2M por incidente | $500-2.000/ano |
-| **Umbrella policy** | $1-5M adicionais | $300-1.000/ano |
-| **Trust irrevogável** | Penhora de credores | $1.500-5.000/ano |
-| **Holding internacional** | Estate tax + penhora internacional | $500-2.000/ano |
-
+- **LLC:** Processos menores (até o valor da propriedade) -- $138,75/ano
+- **Liability insurance (apólice LLC):** $1-2M por incidente -- $500-2.000/ano
+- **Umbrella policy:** $1-5M adicionais -- $300-1.000/ano
+- **Trust irrevogável:** Penhora de credores -- $1.500-5.000/ano
+- **Holding internacional:** Estate tax + penhora internacional -- $500-2.000/ano
 ### Recomendação por Perfil
 
 ## 8. Erros Comuns ao Estruturar
 
 ### O que NÃO Fazer
 
-| Erro | Por Que é Perigoso |
-|------|-------------------|
-| **Ser membro direto da LLC** | Você se torna o alvo de processos |
-| **Garantias cruzadas entre LLCs** | Um banco pode executar contra todas se uma falhar |
-| **Uma LLC para todas as propriedades** | Um processo expõe todo seu portfólio |
-| **Não separar Stripe por LLC** | Mistura receitas, perde proteção |
-| **Holding em Delaware (não internacional)** | Não protege do estate tax |
-| **Não ter seguro + LLC** | A LLC sozinha não é suficiente |
-| **Não manter a LLC em dia** | Annual report vencido = entidade dissolvida |
-| **Assinar contratos em nome pessoal** | Perfura o véu corporativo |
-
+- **Ser membro direto da LLC:** Você se torna o alvo de processos
+- **Garantias cruzadas entre LLCs:** Um banco pode executar contra todas se uma falhar
+- **Uma LLC para todas as propriedades:** Um processo expõe todo seu portfólio
+- **Não separar Stripe por LLC:** Mistura receitas, perde proteção
+- **Holding em Delaware (não internacional):** Não protege do estate tax
+- **Não ter seguro + LLC:** A LLC sozinha não é suficiente
+- **Não manter a LLC em dia:** Annual report vencido = entidade dissolvida
+- **Assinar contratos em nome pessoal:** Perfura o véu corporativo
 ### Exemplo de Estrutura Incorreta
 
 ## 9. Planejamento Sucessório Integrado
@@ -150,23 +123,17 @@ Neste guia, explicamos **como estruturar propriedades para proteção patrimonia
 
 ### Sucessão por Estrutura
 
-| Estrutura | Probate | Estate Tax US | Custo Sucessão | Tempo |
-|-----------|---------|--------------|---------------|-------|
-| **Nome pessoal** | ✅ Sim | ✅ 40% (> $60K) | $5.000-20.000 | 6-18 meses |
-| **LLC sozinha** | ✅ Sim | ✅ 40% | $5.000-20.000 | 6-18 meses |
-| **LLC + Holding internacional** | ❌ Não | ❌ $0 | $1.000-3.000 | 1-3 meses |
-| **LLC + Holding + Trust** | ❌ Não | ❌ $0 | $500-2.000 | 2-6 semanas |
-
+- **Nome pessoal:** ✅ Sim -- ✅ 40% (> $60K) -- $5.000-20.000 -- 6-18 meses
+- **LLC sozinha:** ✅ Sim -- ✅ 40% -- $5.000-20.000 -- 6-18 meses
+- **LLC + Holding internacional:** ❌ Não -- ❌ $0 -- $1.000-3.000 -- 1-3 meses
+- **LLC + Holding + Trust:** ❌ Não -- ❌ $0 -- $500-2.000 -- 2-6 semanas
 ## 10. Custos vs. Benefícios
 
 ### Análise de Retorno do Investimento
 
-| Nível de Estrutura | Custo Anual | Proteção | Para Quem |
-|-------------------|------------|---------|-----------|
-| **Básico** (LLC sozinha) | $500-1.000 | ⚠️ Parcial | 1 propriedade, < $200K |
-| **Intermediário** (LLC + Holding) | $2.000-4.000 | ✅ Alta | 2-3 propriedades, $200K-$1M |
-| **Avançado** (LLC + Holding + Trust) | $4.000-8.000 | ✅ Máxima | 4+ propriedades, > $1M |
-
+- **Básico** (LLC sozinha):** $500-1.000 -- ⚠️ Parcial -- 1 propriedade, < $200K
+- **Intermediário** (LLC + Holding):** $2.000-4.000 -- ✅ Alta -- 2-3 propriedades, $200K-$1M
+- **Avançado** (LLC + Holding + Trust):** $4.000-8.000 -- ✅ Máxima -- 4+ propriedades, > $1M
 ## 11. Perguntas Frequentes
 
 ### Preciso de uma LLC para cada propriedade?

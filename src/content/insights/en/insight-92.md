@@ -13,28 +13,22 @@ In this guide, we explain the **signs your business needs international structur
 
 ### The Cost of NOT Having Structure
 
-| Without Structure | With International Structure |
-|------------------|------------------------------|
-| You pay 30-45% taxes as an individual | You pay 0-21% as a US corporation |
-| Unlimited liability: personal assets at risk | LLC protection: you only lose what you invest |
-| Hard to collect from abroad (personal account) | Stripe + business account = global payments |
-| No international credibility | Delaware LLC = global trust |
-| Can't issue shares or attract investment | C-Corp ready for VC |
-| No estate planning | Trust + holding = multi-generational legacy |
-
+- **You pay 30-45% taxes as an individual:** You pay 0-21% as a US corporation
+- **Unlimited liability: personal assets at risk:** LLC protection: you only lose what you invest
+- **Hard to collect from abroad (personal account):** Stripe + business account = global payments
+- **No international credibility:** Delaware LLC = global trust
+- **Can't issue shares or attract investment:** C-Corp ready for VC
+- **No estate planning:** Trust + holding = multi-generational legacy
 ### The Most Important Sign
 
 ## 2. Financial Signs
 
 ### Sign #1: Your Revenue Grows but So Do Your Taxes
 
-| Annual Income | As Individual (LATAM) | With US LLC | Difference |
-|--------------|---------------------|------------|------------|
-| $50,000 | $15,000-22,500 (30-45%) | $7,500-10,500 (15-21%) | $7,500-12,000 |
-| $100,000 | $30,000-45,000 | $15,000-21,000 | $15,000-24,000 |
-| $200,000 | $70,000-100,000 | $34,000-42,000 | $36,000-58,000 |
-| $500,000 | $200,000-275,000 | $85,000-105,000 | $115,000-170,000 |
-
+- **$50,000:** $15,000-22,500 (30-45%) -- $7,500-10,500 (15-21%) -- $7,500-12,000
+- **$100,000:** $30,000-45,000 -- $15,000-21,000 -- $15,000-24,000
+- **$200,000:** $70,000-100,000 -- $34,000-42,000 -- $36,000-58,000
+- **$500,000:** $200,000-275,000 -- $85,000-105,000 -- $115,000-170,000
 **When to act?** When your monthly revenue consistently exceeds $5,000-10,000/month.
 
 ### Sign #2: Your Clients Are Abroad
@@ -45,16 +39,13 @@ In this guide, we explain the **signs your business needs international structur
 
 ### Sign #4: You Pay High Taxes with No Benefits
 
-| Country | Max Individual Rate | US Corporate Rate | Potential Savings |
-|---------|-------------------|-------------------|-------------------|
-| Argentina | 35% | 21% | 14% |
-| Brazil | 27.5% | 21% | 6.5% |
-| Chile | 40% | 21% | 19% |
-| Colombia | 39% | 21% | 18% |
-| Mexico | 35% | 21% | 14% |
-| Peru | 30% | 21% | 9% |
-| Uruguay | 36% | 21% | 15% |
-
+- **Argentina:** 35% -- 21% -- 14%
+- **Brazil:** 27.5% -- 21% -- 6.5%
+- **Chile:** 40% -- 21% -- 19%
+- **Colombia:** 39% -- 21% -- 18%
+- **Mexico:** 35% -- 21% -- 14%
+- **Peru:** 30% -- 21% -- 9%
+- **Uruguay:** 36% -- 21% -- 15%
 **The golden rule:** If your local tax rate exceeds 21%, a US LLC will save you money even after structure costs.
 
 ### Sign #5: You Don't Have an International CPA
@@ -85,16 +76,13 @@ In this guide, we explain the **signs your business needs international structur
 
 ### Investment vs Return
 
-| Item | Annual Cost | Benefit |
-|------|------------|---------|
-| Stripe Atlas | $500 (one-time) | Delaware LLC + EIN |
-| Registered Agent | $100-300 | LLC annual compliance |
-| International CPA | $1,500-5,000 | 1040-NR filing + optimization |
-| Mercury/Brex | $0 | Business bank account |
-| Stripe Payments | 2.9% + $0.30 | Process global payments |
-| Deel (if applicable) | $7,200/year per employee | Global EOR |
-| **Total investment** | **$2,100-5,800** | |
-
+- **Stripe Atlas:** $500 (one-time) -- Delaware LLC + EIN
+- **Registered Agent:** $100-300 -- LLC annual compliance
+- **International CPA:** $1,500-5,000 -- 1040-NR filing + optimization
+- **Mercury/Brex:** $0 -- Business bank account
+- **Stripe Payments:** 2.9% + $0.30 -- Process global payments
+- **Deel (if applicable):** $7,200/year per employee -- Global EOR
+- **Total investment:** **$2,100-5,800** -- 
 ### Return on Investment
 
 ## 8. The Path Forward

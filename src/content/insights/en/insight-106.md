@@ -13,44 +13,35 @@ In this guide, we cover **how to apply AI to customer support in 2026**, includi
 
 ### How AI Changes Customer Support
 
-| Metric | Traditional Support | AI-Powered Support | Improvement |
-|--------|-------------------|-------------------|-------------|
-| **First Response Time** | 4-24 hours | < 30 seconds | 99% faster |
-| **Resolution Time** | 24-72 hours | 1-4 hours | 80%+ faster |
-| **First Contact Resolution** | 50-60% | 80-90% | +30% |
-| **Tickets per Agent** | 20-40/day | 100-300/day | 5x more |
-| **Cost per Ticket** | $5-$15 | $1-$3 | 70% lower |
-| **Customer Satisfaction** | 3.5-4.0 / 5 | 4.2-4.8 / 5 | +20% |
-| **24/7 Coverage** | Shift-dependent | Always available | Always on |
-| **Languages Supported** | 1-2 languages | 50+ languages | Global reach |
-
+- **First Response Time:** 4-24 hours -- < 30 seconds -- 99% faster
+- **Resolution Time:** 24-72 hours -- 1-4 hours -- 80%+ faster
+- **First Contact Resolution:** 50-60% -- 80-90% -- +30%
+- **Tickets per Agent:** 20-40/day -- 100-300/day -- 5x more
+- **Cost per Ticket:** $5-$15 -- $1-$3 -- 70% lower
+- **Customer Satisfaction:** 3.5-4.0 / 5 -- 4.2-4.8 / 5 -- +20%
+- **24/7 Coverage:** Shift-dependent -- Always available -- Always on
+- **Languages Supported:** 1-2 languages -- 50+ languages -- Global reach
 ### Where AI Adds the Most Value
 
 ## 2. AI Chatbots: The Frontline of Support
 
 ### Chatbot Tiers
 
-| Tier | Capability | Technology | Resolution Rate | Best For |
-|------|-----------|------------|----------------|----------|
-| **Tier 1** | FAQ bot, keyword matching | Rules + basic NLP | 30-40% | Basic questions, hours |
-| **Tier 2** | Intent recognition, context-aware | LLM + embeddings | 50-70% | Product support, orders |
-| **Tier 3** | Multi-turn conversation, actions | LLM + function calling | 70-85% | Complex workflows |
-| **Tier 4** | Proactive, personalized, predictive | AI agent + memory | 85-95% | Enterprise support |
-
+- **Tier 1:** FAQ bot, keyword matching -- Rules + basic NLP -- 30-40% -- Basic questions, hours
+- **Tier 2:** Intent recognition, context-aware -- LLM + embeddings -- 50-70% -- Product support, orders
+- **Tier 3:** Multi-turn conversation, actions -- LLM + function calling -- 70-85% -- Complex workflows
+- **Tier 4:** Proactive, personalized, predictive -- AI agent + memory -- 85-95% -- Enterprise support
 ### Building an AI Chatbot for Support
 
 ## 3. Sentiment Analysis and Prioritization
 
 ### Why Sentiment Analysis Matters
 
-| Sentiment | Customer State | Priority | Action |
-|-----------|---------------|----------|--------|
-| **Frustrated** | "This is the third time I'm calling about this!" | Critical | Route to senior agent immediately |
-| **Urgent** | "My account is blocked and I need it today" | High | Fast-track, SLA: 15 min |
-| **Neutral** | "I have a question about my order" | Normal | Standard queue, SLA: 2 hours |
-| **Satisfied** | "Everything's great, just a quick question" | Low | Can wait, SLA: 24 hours |
-| **Confused** | "I don't understand how this works" | Medium | Educational response needed |
-
+- **Frustrated:** "This is the third time I'm calling about this!" -- Critical -- Route to senior agent immediately
+- **Urgent:** "My account is blocked and I need it today" -- High -- Fast-track, SLA: 15 min
+- **Neutral:** "I have a question about my order" -- Normal -- Standard queue, SLA: 2 hours
+- **Satisfied:** "Everything's great, just a quick question" -- Low -- Can wait, SLA: 24 hours
+- **Confused:** "I don't understand how this works" -- Medium -- Educational response needed
 ### Implementing Sentiment Analysis
 
 ## 4. AI Agent Assist Tools
@@ -73,17 +64,14 @@ In this guide, we cover **how to apply AI to customer support in 2026**, includi
 
 ### Metrics That Matter
 
-| Metric | Traditional | AI-Powered | What It Measures |
-|--------|-----------|-----------|-----------------|
-| **Auto-Resolution Rate** | 0% | 40-70% | % of tickets resolved by AI without human |
-| **First Response Time** | 4-24 hours | < 30 seconds | Time from ticket creation to first reply |
-| **Resolution Time** | 24-72 hours | 1-4 hours | Time to close ticket |
-| **Agent Productivity** | 20-40 tickets/day | 100-300 tickets/day | Tickets closed per agent per day |
-| **CSAT Score** | 3.5-4.0 / 5 | 4.2-4.8 / 5 | Customer satisfaction rating |
-| **Cost per Ticket** | $5-$15 | $1-$3 | Total support cost divided by tickets |
-| **Reopen Rate** | 10-20% | 3-8% | % of tickets reopened after closure |
-| **Language Coverage** | 1-2 | 50+ | Languages supported |
-
+- **Auto-Resolution Rate:** 0% -- 40-70% -- % of tickets resolved by AI without human
+- **First Response Time:** 4-24 hours -- < 30 seconds -- Time from ticket creation to first reply
+- **Resolution Time:** 24-72 hours -- 1-4 hours -- Time to close ticket
+- **Agent Productivity:** 20-40 tickets/day -- 100-300 tickets/day -- Tickets closed per agent per day
+- **CSAT Score:** 3.5-4.0 / 5 -- 4.2-4.8 / 5 -- Customer satisfaction rating
+- **Cost per Ticket:** $5-$15 -- $1-$3 -- Total support cost divided by tickets
+- **Reopen Rate:** 10-20% -- 3-8% -- % of tickets reopened after closure
+- **Language Coverage:** 1-2 -- 50+ -- Languages supported
 ## 9. Stripe + AI Support Integration
 
 ### Payment-Related Support Automation
@@ -92,17 +80,14 @@ In this guide, we cover **how to apply AI to customer support in 2026**, includi
 
 ### Recommended AI Support Tools
 
-| Category | Tool | Pricing | Best For |
-|----------|------|---------|----------|
-| **Chatbot Platform** | Intercom / Zendesk AI / Tidio | $39-$500/mo | All-in-one support AI |
-| **LLM Provider** | OpenAI / Anthropic / Cohere | Pay per token | Custom AI support logic |
-| **Knowledge Base AI** | Guru / Notion AI / Confluence AI | $10-$50/user/mo | AI-powered KB search |
-| **Sentiment Analysis** | MonkeyLearn / Lexalytics | $100-$500/mo | Customer emotion tracking |
-| **Translation** | DeepL API / Google Translate | Pay per character | Multilingual support |
-| **Stripe Integration** | Stripe API + Webhooks | Free + usage | Payment support automation |
-| **AI Agent Assist** | Intercom Fin / Zendesk AI Agents | $50-$200/mo | Agent productivity tools |
-| **Analytics** | Stripe Sigma / Metabase / Tableau | $0-$500/mo | Support metrics dashboard |
-
+- **Chatbot Platform:** Intercom / Zendesk AI / Tidio -- $39-$500/mo -- All-in-one support AI
+- **LLM Provider:** OpenAI / Anthropic / Cohere -- Pay per token -- Custom AI support logic
+- **Knowledge Base AI:** Guru / Notion AI / Confluence AI -- $10-$50/user/mo -- AI-powered KB search
+- **Sentiment Analysis:** MonkeyLearn / Lexalytics -- $100-$500/mo -- Customer emotion tracking
+- **Translation:** DeepL API / Google Translate -- Pay per character -- Multilingual support
+- **Stripe Integration:** Stripe API + Webhooks -- Free + usage -- Payment support automation
+- **AI Agent Assist:** Intercom Fin / Zendesk AI Agents -- $50-$200/mo -- Agent productivity tools
+- **Analytics:** Stripe Sigma / Metabase / Tableau -- $0-$500/mo -- Support metrics dashboard
 ### Implementation Roadmap
 
 ## Conclusion

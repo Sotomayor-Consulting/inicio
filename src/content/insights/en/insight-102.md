@@ -13,32 +13,26 @@ In this guide, we explain **how to use WhatsApp to sell more** in 2026: from set
 
 ### The WhatsApp Advantage
 
-| Metric | Email | Social Media | WhatsApp |
-|--------|-------|-------------|----------|
-| **Open Rate** | 20-30% | 5-10% | 90-98% |
-| **Response Time** | Hours-days | Hours-days | Minutes |
-| **Personalization** | Medium | Low | Very High |
-| **Trust Level** | Medium | Low | High (personal number) |
-| **Conversion Rate** | 2-5% | 1-3% | 10-40% |
-| **Cost** | Free-$200/mo | $100-$10K/mo | Free-$50/mo |
-
+- **Open Rate:** 20-30% -- 5-10% -- 90-98%
+- **Response Time:** Hours-days -- Hours-days -- Minutes
+- **Personalization:** Medium -- Low -- Very High
+- **Trust Level:** Medium -- Low -- High (personal number)
+- **Conversion Rate:** 2-5% -- 1-3% -- 10-40%
+- **Cost:** Free-$200/mo -- $100-$10K/mo -- Free-$50/mo
 ### How WhatsApp Changes the Sales Dynamic
 
 ## 2. Step 1: Set Up WhatsApp for Business
 
 ### WhatsApp Business vs WhatsApp API
 
-| Feature | WhatsApp Business (Free) | WhatsApp Business API (Paid) |
-|---------|------------------------|----------------------------|
-| **Best For** | Solo entrepreneurs, small teams | Growing businesses, teams of 3+ |
-| **Price** | Free | $0.005-$0.08 per message |
-| **Accounts** | 1 phone number | Multiple agents |
-| **Automation** | Quick replies, labels | Chatbots, CRM integration |
-| **Catalog** | Yes (basic) | Yes (advanced) |
-| **Analytics** | Basic | Detailed |
-| **API Access** | No | Yes (Stripe, Zapier, CRM) |
-| **Team Management** | Limited | Full multi-agent |
-
+- **Best For:** Solo entrepreneurs, small teams -- Growing businesses, teams of 3+
+- **Price:** Free -- $0.005-$0.08 per message
+- **Accounts:** 1 phone number -- Multiple agents
+- **Automation:** Quick replies, labels -- Chatbots, CRM integration
+- **Catalog:** Yes (basic) -- Yes (advanced)
+- **Analytics:** Basic -- Detailed
+- **API Access:** No -- Yes (Stripe, Zapier, CRM)
+- **Team Management:** Limited -- Full multi-agent
 ### WhatsApp Business Setup Checklist
 
 ## 3. Step 2: Build Your WhatsApp Sales Funnel
@@ -51,28 +45,22 @@ In this guide, we explain **how to use WhatsApp to sell more** in 2026: from set
 
 ### WhatsApp Automation Levels
 
-| Level | Automation | Best For | Tools |
-|-------|-----------|----------|-------|
-| **Level 1** | Quick replies + labels | Solopreneurs | WhatsApp Business app |
-| **Level 2** | Auto-replies + catalog | Small teams | WhatsApp Business + Zapier |
-| **Level 3** | Chatbot + CRM integration | Growing business | WhatsApp API + Intercom |
-| **Level 4** | Full AI sales chatbot | Scale business | WhatsApp API + AI chatbot |
-| **Level 5** | Omnichannel automation | Enterprise | WhatsApp API + CRM + AI |
-
+- **Level 1:** Quick replies + labels -- Solopreneurs -- WhatsApp Business app
+- **Level 2:** Auto-replies + catalog -- Small teams -- WhatsApp Business + Zapier
+- **Level 3:** Chatbot + CRM integration -- Growing business -- WhatsApp API + Intercom
+- **Level 4:** Full AI sales chatbot -- Scale business -- WhatsApp API + AI chatbot
+- **Level 5:** Omnichannel automation -- Enterprise -- WhatsApp API + CRM + AI
 ### Building a WhatsApp Sales Chatbot
 
 ## 5. Step 4: WhatsApp + Stripe Payment Integration
 
 ### Why Payments in WhatsApp Matter
 
-| Benefit | Without WhatsApp Payments | With WhatsApp Payments |
-|---------|--------------------------|----------------------|
-| **Time to Pay** | Hours-days (invoice, email) | Seconds (Stripe link) |
-| **Abandonment** | 60-80% (leaving chat to pay) | 5-10% (pays in chat) |
-| **Conversion** | Low (friction to pay) | High (instant payment) |
-| **Customer Experience** | Disjointed (chat → email → pay) | Seamless (all in chat) |
-| **Tracking** | Manual | Automatic (Stripe + CRM) |
-
+- **Time to Pay:** Hours-days (invoice, email) -- Seconds (Stripe link)
+- **Abandonment:** 60-80% (leaving chat to pay) -- 5-10% (pays in chat)
+- **Conversion:** Low (friction to pay) -- High (instant payment)
+- **Customer Experience:** Disjointed (chat → email → pay) -- Seamless (all in chat)
+- **Tracking:** Manual -- Automatic (Stripe + CRM)
 ### How to Accept Payments on WhatsApp
 
 ## 6. Step 5: WhatsApp Sales Sequences
@@ -83,51 +71,42 @@ In this guide, we explain **how to use WhatsApp to sell more** in 2026: from set
 
 ### WhatsApp Broadcast Strategies
 
-| Campaign Type | Description | Best For |
-|--------------|-------------|----------|
-| **Promotional** | Offers, discounts, new products | All customers |
-| **Educational** | Tips, guides, industry insights | Leads + customers |
-| **Transactional** | Order updates, receipts, reminders | Active customers |
-| **Re-engagement** | "We miss you" campaigns | Inactive customers |
-| **Event** | Webinars, launches, live sales | Warm leads |
-| **Referral** | "Share with a friend" campaigns | Loyal customers |
-
+- **Promotional:** Offers, discounts, new products -- All customers
+- **Educational:** Tips, guides, industry insights -- Leads + customers
+- **Transactional:** Order updates, receipts, reminders -- Active customers
+- **Re-engagement:** "We miss you" campaigns -- Inactive customers
+- **Event:** Webinars, launches, live sales -- Warm leads
+- **Referral:** "Share with a friend" campaigns -- Loyal customers
 ### WhatsApp Campaign Best Practices
 
 ## 8. Step 7: Measure and Optimize
 
 ### WhatsApp Sales Metrics
 
-| Metric | What It Measures | Good Benchmark |
-|--------|-----------------|----------------|
-| **Messages per Day** | Volume of conversations | 50-200+ per agent |
-| **Response Time** | Speed of first reply | < 5 minutes |
-| **Conversion Rate** | Chat → Sale | 10-40% |
-| **Average Order Value** | Revenue per sale | Varies by industry |
-| **Revenue per Chat** | Value of conversations | $50-$500+ |
-| **Customer Satisfaction** | CSAT or NPS | 4.5+ / 5 |
-| **Opt-out Rate** | Unsubscribes | < 2% |
-| **Click-Through Rate** | Link clicks | 15-40% |
-
+- **Messages per Day:** Volume of conversations -- 50-200+ per agent
+- **Response Time:** Speed of first reply -- < 5 minutes
+- **Conversion Rate:** Chat → Sale -- 10-40%
+- **Average Order Value:** Revenue per sale -- Varies by industry
+- **Revenue per Chat:** Value of conversations -- $50-$500+
+- **Customer Satisfaction:** CSAT or NPS -- 4.5+ / 5
+- **Opt-out Rate:** Unsubscribes -- < 2%
+- **Click-Through Rate:** Link clicks -- 15-40%
 ### WhatsApp Sales Dashboard
 
 ## 9. Common WhatsApp Sales Mistakes
 
 ### What NOT to Do
 
-| Mistake | Consequence | Solution |
-|---------|-------------|---------|
-| **Using personal number** | Mixing personal/business, privacy issues | Dedicated business number |
-| **No business profile** | Looks unprofessional | Complete profile with catalog |
-| **Slow response time** | Lost sales | Auto-replies + chatbot |
-| **No payment integration** | Customers can't pay in chat | Stripe Payment Links |
-| **Sending spam** | Blocked, reported | Opt-in only, value-first |
-| **No follow-up system** | Leads go cold | Automated sequences |
-| **No CRM integration** | Lost customer data | Connect WhatsApp to CRM |
-| **No catalog** | Manual pricing quotes | Upload products to WhatsApp |
-| **One-size messages** | Low engagement | Segment and personalize |
-| **No analytics** | Can't improve | Track all metrics |
-
+- **Using personal number:** Mixing personal/business, privacy issues -- Dedicated business number
+- **No business profile:** Looks unprofessional -- Complete profile with catalog
+- **Slow response time:** Lost sales -- Auto-replies + chatbot
+- **No payment integration:** Customers can't pay in chat -- Stripe Payment Links
+- **Sending spam:** Blocked, reported -- Opt-in only, value-first
+- **No follow-up system:** Leads go cold -- Automated sequences
+- **No CRM integration:** Lost customer data -- Connect WhatsApp to CRM
+- **No catalog:** Manual pricing quotes -- Upload products to WhatsApp
+- **One-size messages:** Low engagement -- Segment and personalize
+- **No analytics:** Can't improve -- Track all metrics
 ## 10. Complete WhatsApp Sales Checklist
 
 ### SETUP (Week 1)

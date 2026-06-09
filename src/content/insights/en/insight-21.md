@@ -15,15 +15,12 @@ The nature of digital marketing �USD income, international clients, intangible
 
 ### Key benefits
 
-| Benefit | Impact on your business |
-|---------|----------------------|
-| **Asset protection** | Separates personal assets from business risks |
-| **Professional credibility** | Invoice with EIN, business bank account, professional profile |
-| **Platform access** | Stripe, PayPal Business, Mercury, Relay require legal structure |
-| **Tax flexibility** | Optimize your tax burden legally |
-| **Privacy** | Some states protect your identity as a member |
-| **Scalability** | Easy to add partners, employees, or sell the company |
-
+- **Asset protection:** Separates personal assets from business risks
+- **Professional credibility:** Invoice with EIN, business bank account, professional profile
+- **Platform access:** Stripe, PayPal Business, Mercury, Relay require legal structure
+- **Tax flexibility:** Optimize your tax burden legally
+- **Privacy:** Some states protect your identity as a member
+- **Scalability:** Easy to add partners, employees, or sell the company
 ## Use cases by business type
 
 ### Digital marketing agency
@@ -195,17 +192,14 @@ The LLC does not exempt you from paying taxes in your country. You must declare 
 
 ## Integration with marketing platforms
 
-| Platform | LLC Requirement | Benefit |
-|----------|----------------|---------|
-| **Stripe** | Required for business account | Lower fees, higher limits |
-| **PayPal Business** | Recommended | Business account, invoicing |
-| **Google Ads** | Recommended | Formal billing, higher limits |
-| **Meta Ads** | Recommended | Business payment management |
-| **Upwork** | Required for agency | Agency profile, team |
-| **Shopify** | Recommended | Professional store, gateways |
-| **Amazon FBA** | Required for pro seller | Professional account, protection |
-| **Mercury/Relay** | Required | Business bank account |
-
+- **Stripe:** Required for business account -- Lower fees, higher limits
+- **PayPal Business:** Recommended -- Business account, invoicing
+- **Google Ads:** Recommended -- Formal billing, higher limits
+- **Meta Ads:** Recommended -- Business payment management
+- **Upwork:** Required for agency -- Agency profile, team
+- **Shopify:** Recommended -- Professional store, gateways
+- **Amazon FBA:** Required for pro seller -- Professional account, protection
+- **Mercury/Relay:** Required -- Business bank account
 ## Common mistakes when setting up an LLC for digital marketing
 
 ### Mistake 1: No Operating Agreement

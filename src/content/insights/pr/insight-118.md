@@ -24,32 +24,26 @@ Good standing é um status legal concedido pelo estado a entidades empresariais 
 
 ### Por Que o Good Standing é Importante
 
-| Razão | Por Que é Importante | Impacto de Perdê-lo |
-|--------|----------------|---------------------|
-| **Proteção legal** | O escudo de responsabilidade da LLC/corporação depende do status ativo | Proprietários tornam-se pessoalmente responsáveis por dívidas |
-| **Financiamento** | Bancos exigem good standing para empréstimos e linhas de crédito | Não pode obter financiamento empresarial |
-| **Contratos** | Contrapartes verificam o status antes de assinar | Contratos podem ser anuláveis |
-| **Licenciamento** | Licenças profissionais e comerciais exigem entidade ativa | Não pode obter ou renovar licenças |
-| **Ações judiciais** | Apenas entidades em good standing podem processar na maioria dos estados | Não pode executar contratos ou proteger PI |
-| **Créditos fiscais** | Incentivos fiscais estaduais exigem good standing | Perde elegibilidade para créditos e isenções |
-| **Investidores** | Verificações de due diligence confirmam o status da entidade | Investidores não financiarão uma entidade não conforme |
-| **Venda do negócio** | Compradores verificam o status durante a aquisição | Não pode vender a entidade empresarial |
-
+- **Proteção legal:** O escudo de responsabilidade da LLC/corporação depende do status ativo -- Proprietários tornam-se pessoalmente responsáveis por dívidas
+- **Financiamento:** Bancos exigem good standing para empréstimos e linhas de crédito -- Não pode obter financiamento empresarial
+- **Contratos:** Contrapartes verificam o status antes de assinar -- Contratos podem ser anuláveis
+- **Licenciamento:** Licenças profissionais e comerciais exigem entidade ativa -- Não pode obter ou renovar licenças
+- **Ações judiciais:** Apenas entidades em good standing podem processar na maioria dos estados -- Não pode executar contratos ou proteger PI
+- **Créditos fiscais:** Incentivos fiscais estaduais exigem good standing -- Perde elegibilidade para créditos e isenções
+- **Investidores:** Verificações de due diligence confirmam o status da entidade -- Investidores não financiarão uma entidade não conforme
+- **Venda do negócio:** Compradores verificam o status durante a aquisição -- Não pode vender a entidade empresarial
 ### Como é "Não Estar em Good Standing"
 
 Ao verificar o status da sua entidade no site do Secretário de Estado, você pode ver um destes status:
 
-| Status | Significado | Gravidade |
-|--------|---------|----------|
-| Ativo / Good Standing | Todos os arquivamentos em dia, entidade válida | Nenhuma |
-| Ativo / Não em Good Standing | Faltam arquivamentos ou taxas não pagas | Moderada |
-| Inadimplente | Arquivamentos vencidos, multas acumulando | Moderada a Alta |
-| Suspenso / Perdido | Direitos da entidade revogados pelo estado | Alta |
-| Dissolvido Administrativamente | Entidade não existe mais nos registros estaduais | Crítica |
-| Dissolvido Involuntariamente | Dissolvido por ordem judicial ou ação estatal | Crítica |
-| Revogado | Qualificação de entidade estrangeira revogada | Alta |
-| Cancelado | Entidade cancelada pelo estado | Crítica |
-
+- **Ativo / Good Standing:** Todos os arquivamentos em dia, entidade válida -- Nenhuma
+- **Ativo / Não em Good Standing:** Faltam arquivamentos ou taxas não pagas -- Moderada
+- **Inadimplente:** Arquivamentos vencidos, multas acumulando -- Moderada a Alta
+- **Suspenso / Perdido:** Direitos da entidade revogados pelo estado -- Alta
+- **Dissolvido Administrativamente:** Entidade não existe mais nos registros estaduais -- Crítica
+- **Dissolvido Involuntariamente:** Dissolvido por ordem judicial ou ação estatal -- Crítica
+- **Revogado:** Qualificação de entidade estrangeira revogada -- Alta
+- **Cancelado:** Entidade cancelada pelo estado -- Crítica
 ## 2. Como Você Perde o Good Standing
 
 ### Causas Comuns
@@ -67,47 +61,38 @@ O good standing é perdido quando uma empresa não cumpre suas obrigações de c
 
 ### Cronologia por Estado
 
-| Estado | Inadimplente Após | Suspenso Após | Dissolvido Após |
-|-------|-----------------|-----------------|-----------------|
-| Delaware | 60 dias | 1 ano | 3 anos |
-| California | 60 dias | 6 meses | 4 anos |
-| Florida | 30 dias | 90 dias | 2 anos |
-| Texas | 30 dias | 90 dias | 3 anos |
-| New York | 30 dias | 60 dias | 2 anos |
-| Nevada | 30 dias | 90 dias | 1 ano |
-| Illinois | 60 dias | 90 dias | 5 anos |
-| Georgia | 45 dias | 90 dias | 3 anos |
-| Washington | 30 dias | 60 dias | 2 anos |
-| Wyoming | 60 dias | 90 dias | 3 anos |
-| Colorado | 30 dias | 60 dias | 1 ano |
-| Massachusetts | 30 dias | 90 dias | 5 anos |
-| Pennsylvania | N/A (apenas decenal) | N/A | 10 anos |
-
+- **Delaware:** 60 dias -- 1 ano -- 3 anos
+- **California:** 60 dias -- 6 meses -- 4 anos
+- **Florida:** 30 dias -- 90 dias -- 2 anos
+- **Texas:** 30 dias -- 90 dias -- 3 anos
+- **New York:** 30 dias -- 60 dias -- 2 anos
+- **Nevada:** 30 dias -- 90 dias -- 1 ano
+- **Illinois:** 60 dias -- 90 dias -- 5 anos
+- **Georgia:** 45 dias -- 90 dias -- 3 anos
+- **Washington:** 30 dias -- 60 dias -- 2 anos
+- **Wyoming:** 60 dias -- 90 dias -- 3 anos
+- **Colorado:** 30 dias -- 60 dias -- 1 ano
+- **Massachusetts:** 30 dias -- 90 dias -- 5 anos
+- **Pennsylvania:** N/A (apenas decenal) -- N/A -- 10 anos
 ## 3. Consequências de Perder o Good Standing
 
 ### Consequências Legais
 
-| Consequência | Descrição | Impacto no Mundo Real |
-|------------|-------------|-------------------|
-| **Perda de proteção de responsabilidade** | Véu corporativo perfurado automaticamente em alguns estados | Ativos pessoais em risco por dívidas comerciais |
-| **Não pode processar em tribunal** | A maioria dos estados proíbe ações de entidades suspensas | Não pode cobrar faturas não pagas ou executar contratos |
-| **Ainda pode ser processado** | A entidade pode ser processada mas não pode se defender efetivamente | Julgamentos à revelia prováveis |
-| **Contratos anuláveis** | Contrapartes podem anular contratos com entidades não conformes | Perda de receita e responsabilidade legal |
-| **Responsabilidade pessoal por novas dívidas** | Proprietários pessoalmente responsáveis por dívidas durante suspensão | Risco de falência pessoal |
-| **Perda de proteção do nome** | Nome comercial fica disponível para outros registrarem | Complicações de marca e trademark |
-
+- **Perda de proteção de responsabilidade:** Véu corporativo perfurado automaticamente em alguns estados -- Ativos pessoais em risco por dívidas comerciais
+- **Não pode processar em tribunal:** A maioria dos estados proíbe ações de entidades suspensas -- Não pode cobrar faturas não pagas ou executar contratos
+- **Ainda pode ser processado:** A entidade pode ser processada mas não pode se defender efetivamente -- Julgamentos à revelia prováveis
+- **Contratos anuláveis:** Contrapartes podem anular contratos com entidades não conformes -- Perda de receita e responsabilidade legal
+- **Responsabilidade pessoal por novas dívidas:** Proprietários pessoalmente responsáveis por dívidas durante suspensão -- Risco de falência pessoal
+- **Perda de proteção do nome:** Nome comercial fica disponível para outros registrarem -- Complicações de marca e trademark
 ### Consequências Financeiras
 
-| Consequência | Faixa de Custo | Detalhes |
-|------------|-----------|---------|
-| Multas por atraso | $10 - $400 por relatório | Estados avaliam multas por cada arquivamento perdido |
-| Taxas de reinstalação | $0 - $500+ | Taxa para solicitar reinstalação após dissolução |
-| Taxas de arquivamento atrasado | $50 - $800 por ano | Deve arquivar todos os annual reports perdidos com taxas |
-| Custos legais | $500 - $5,000+ | Honorários advocatícios para reinstalação e questões de responsabilidade |
-| Perda de receita comercial | Varia | Não pode contratar, faturar ou operar legalmente |
-| Negativa de financiamento | Varia | Empréstimos e linhas de crédito negados ou revogados |
-| Reinstalação de multas fiscais | Varia | Alguns estados impõem multas fiscais adicionais |
-
+- **Multas por atraso:** $10 - $400 por relatório -- Estados avaliam multas por cada arquivamento perdido
+- **Taxas de reinstalação:** $0 - $500+ -- Taxa para solicitar reinstalação após dissolução
+- **Taxas de arquivamento atrasado:** $50 - $800 por ano -- Deve arquivar todos os annual reports perdidos com taxas
+- **Custos legais:** $500 - $5,000+ -- Honorários advocatícios para reinstalação e questões de responsabilidade
+- **Perda de receita comercial:** Varia -- Não pode contratar, faturar ou operar legalmente
+- **Negativa de financiamento:** Varia -- Empréstimos e linhas de crédito negados ou revogados
+- **Reinstalação de multas fiscais:** Varia -- Alguns estados impõem multas fiscais adicionais
 ### Consequências Operacionais
 
 - **Contas bancárias podem ser congeladas** quando o banco descobre o status suspenso/dissolvido
@@ -124,15 +109,12 @@ Esta é a consequência mais perigosa de perder o good standing. Quando sua LLC 
 
 ### Como a Desconsideração do Vél Funciona Após Perda de Good Standing
 
-| Cenário | Proteção de Responsabilidade | Nível de Risco |
-|----------|---------------------|------------|
-| Entidade em good standing | Proteção forte | Baixo |
-| Entidade inadimplente mas não suspensa | Proteção moderada | Médio |
-| Entidade suspensa | Proteção fraca ou nenhuma | Alto |
-| Entidade dissolvida administrativamente | Sem proteção | Crítico |
-| Entidade dissolvida involuntariamente | Sem proteção | Crítico |
-| Entidade reinstalada retroativamente | Proteção restaurada retroativamente | Baixo (após reinstalação) |
-
+- **Entidade em good standing:** Proteção forte -- Baixo
+- **Entidade inadimplente mas não suspensa:** Proteção moderada -- Médio
+- **Entidade suspensa:** Proteção fraca ou nenhuma -- Alto
+- **Entidade dissolvida administrativamente:** Sem proteção -- Crítico
+- **Entidade dissolvida involuntariamente:** Sem proteção -- Crítico
+- **Entidade reinstalada retroativamente:** Proteção restaurada retroativamente -- Baixo (após reinstalação)
 ### O Que os Tribunais Consideram
 
 Quando um autor pede a um tribunal para desconsiderar o véu corporativo após perda de good standing, os tribunais geralmente consideram:
@@ -149,43 +131,37 @@ Quando um autor pede a um tribunal para desconsiderar o véu corporativo após p
 
 ### Verificação de Status no Site do SOS por Estado
 
-| Estado | URL de Busca Empresarial do SOS | Buscar Por |
-|-------|-----------------------|-----------|
-| Delaware | https://icis.corp.delaware.gov | Nome da entidade ou número de arquivo |
-| California | https://bizfileonline.sos.ca.gov | Nome da entidade ou ID do SOS |
-| Florida | https://dos.sunbiz.org | Nome da entidade |
-| Texas | https://mytax.texas.gov | EIN or SOS ID |
-| New York | https://apps.dos.ny.gov | Entity name |
-| Nevada | https://esos.nvsos.gov | Entity name or file number |
-| Illinois | https://www.ilsos.gov/corporatellc | Entity name |
-| Georgia | https://ecorp.sos.ga.gov | Entity name or control number |
-| Colorado | https://www.sos.state.co.us/biz | Entity name or ID |
-| Washington | https://ccfs.sos.wa.gov | Entity name or UBI number |
-| Wyoming | https://wyobiz.wy.gov | Entity name or filing ID |
-| New Jersey | https://www.njportal.com/DOR/businessname | Entity name |
-| Massachusetts | https://corp.sec.state.ma.us | Entity name or ID |
-| Pennsylvania | https://file.dos.pa.gov | Entity name or ID |
-| Michigan | https://cofs.lara.state.mi.us | Entity name or ID |
-| Virginia | https://cis.scc.virginia.gov | Entity name or SCC ID |
-| Arizona | https://ecorp.azsos.gov | Entity name or file number |
-| Maryland | https://egov.maryland.gov/businessexpress | Entity name or ID |
-| Minnesota | https://mblsportal.sos.state.mn.us | Entity name or file number |
-| Oregon | https://sos.oregon.gov/business | Entity name or SOS ID |
-
+- **Delaware:** https://icis.corp.delaware.gov -- Nome da entidade ou número de arquivo
+- **California:** https://bizfileonline.sos.ca.gov -- Nome da entidade ou ID do SOS
+- **Florida:** https://dos.sunbiz.org -- Nome da entidade
+- **Texas:** https://mytax.texas.gov -- EIN or SOS ID
+- **New York:** https://apps.dos.ny.gov -- Entity name
+- **Nevada:** https://esos.nvsos.gov -- Entity name or file number
+- **Illinois:** https://www.ilsos.gov/corporatellc -- Entity name
+- **Georgia:** https://ecorp.sos.ga.gov -- Entity name or control number
+- **Colorado:** https://www.sos.state.co.us/biz -- Entity name or ID
+- **Washington:** https://ccfs.sos.wa.gov -- Entity name or UBI number
+- **Wyoming:** https://wyobiz.wy.gov -- Entity name or filing ID
+- **New Jersey:** https://www.njportal.com/DOR/businessname -- Entity name
+- **Massachusetts:** https://corp.sec.state.ma.us -- Entity name or ID
+- **Pennsylvania:** https://file.dos.pa.gov -- Entity name or ID
+- **Michigan:** https://cofs.lara.state.mi.us -- Entity name or ID
+- **Virginia:** https://cis.scc.virginia.gov -- Entity name or SCC ID
+- **Arizona:** https://ecorp.azsos.gov -- Entity name or file number
+- **Maryland:** https://egov.maryland.gov/businessexpress -- Entity name or ID
+- **Minnesota:** https://mblsportal.sos.state.mn.us -- Entity name or file number
+- **Oregon:** https://sos.oregon.gov/business -- Entity name or SOS ID
 ### O Que Procurar na Página de Status
 
 Ao consultar sua entidade, você geralmente verá um dos seguintes indicadores de status:
 
-| Mensagem de Status | O Que Significa | Próximo Passo |
-|---------------|--------------|-----------|
-| "Ativo" / "Good Standing" | Todos os requisitos de conformidade cumpridos | Nenhuma ação necessária |
-| "Ativo - Não em Good Standing" | Faltam arquivamentos ou taxas não pagas | Arquivar relatórios inadimplentes imediatamente |
-| "Inadimplente" | Vencido, multas acumulando | Arquivar relatórios + pagar taxas + multas |
-| "Suspenso" / "Perdido" | Direitos revogados pelo estado | Arquivar todos os relatórios + pagar reinstalação |
-| "Dissolvido" / "Cancelado" | Entidade não existe mais | Solicitar reinstalação ou formar nova entidade |
-| "Revogado" | Qualificação estrangeira revogada | Solicitar reinstalação de status estrangeiro |
-| "Inativo" | Entidade não está realizando negócios atualmente | Pode precisar dissolver adequadamente ou reativar |
-
+- **"Ativo" / "Good Standing":** Todos os requisitos de conformidade cumpridos -- Nenhuma ação necessária
+- **"Ativo - Não em Good Standing":** Faltam arquivamentos ou taxas não pagas -- Arquivar relatórios inadimplentes imediatamente
+- **"Inadimplente":** Vencido, multas acumulando -- Arquivar relatórios + pagar taxas + multas
+- **"Suspenso" / "Perdido":** Direitos revogados pelo estado -- Arquivar todos os relatórios + pagar reinstalação
+- **"Dissolvido" / "Cancelado":** Entidade não existe mais -- Solicitar reinstalação ou formar nova entidade
+- **"Revogado":** Qualificação estrangeira revogada -- Solicitar reinstalação de status estrangeiro
+- **"Inativo":** Entidade não está realizando negócios atualmente -- Pode precisar dissolver adequadamente ou reativar
 ### Bulk Good Standing Check Tool
 
 ## 6. Como Recuperar o Good Standing
@@ -209,15 +185,12 @@ Você deve arquivar cada annual report ou relatório bienal perdido. A maioria d
 
 ### Passo 3: Pagar Todas as Taxas Pendentes
 
-| Tipo de Taxa | Faixa de Valor | Notas |
-|----------|-------------|-------|
-| Taxa de annual report | $0 - $500 por ano | Varia por estado, deve pagar por cada ano perdido |
-| Multa por atraso | $10 - $400 por relatório | Avaliada por cada arquivamento perdido |
-| Taxa de reinstalação | $0 - $500 | Taxa única de solicitação de reinstalação |
-| Pagamentos atrasados de franchise tax | $0 - $800+ por ano | Apenas em estados com franchise tax |
-| Juros sobre taxas não pagas | Varia | Alguns estados cobram juros sobre taxas vencidas |
-| Taxa de agente registrado | $50 - $300 por ano | Se precisar designar um novo agente |
-
+- **Taxa de annual report:** $0 - $500 por ano -- Varia por estado, deve pagar por cada ano perdido
+- **Multa por atraso:** $10 - $400 por relatório -- Avaliada por cada arquivamento perdido
+- **Taxa de reinstalação:** $0 - $500 -- Taxa única de solicitação de reinstalação
+- **Pagamentos atrasados de franchise tax:** $0 - $800+ por ano -- Apenas em estados com franchise tax
+- **Juros sobre taxas não pagas:** Varia -- Alguns estados cobram juros sobre taxas vencidas
+- **Taxa de agente registrado:** $50 - $300 por ano -- Se precisar designar um novo agente
 ### Passo 4: Enviar Pedido de Reinstalação (Se Necessário)
 
 A maioria das entidades suspensas ou dissolvidas exige um pedido formal de reinstalação. Isso geralmente inclui:
@@ -231,73 +204,67 @@ A maioria das entidades suspensas ou dissolvidas exige um pedido formal de reins
 
 ### Passo 5: Aguardar Processamento
 
-| Estado | Tempo de Processamento | Método |
-|-------|----------------|--------|
-| Delaware | 1-2 dias úteis | Online (instantâneo para alguns arquivamentos) |
-| California | 1-4 semanas | Correio ou online |
-| Florida | 1-2 semanas | Online (mais rápido) ou correio |
-| Texas | 1-2 semanas | Online |
-| New York | 2-4 semanas | Correio ou presencial |
-| Nevada | 1-3 dias úteis | Online |
-| Illinois | 2-4 semanas | Correio |
-| Georgia | 1-2 semanas | Online |
-| Washington | 1-2 semanas | Online |
-| Wyoming | 1-2 dias úteis | Online |
-| Colorado | 1-3 dias úteis | Online |
-
+- **Delaware:** 1-2 dias úteis -- Online (instantâneo para alguns arquivamentos)
+- **California:** 1-4 semanas -- Correio ou online
+- **Florida:** 1-2 semanas -- Online (mais rápido) ou correio
+- **Texas:** 1-2 semanas -- Online
+- **New York:** 2-4 semanas -- Correio ou presencial
+- **Nevada:** 1-3 dias úteis -- Online
+- **Illinois:** 2-4 semanas -- Correio
+- **Georgia:** 1-2 semanas -- Online
+- **Washington:** 1-2 semanas -- Online
+- **Wyoming:** 1-2 dias úteis -- Online
+- **Colorado:** 1-3 dias úteis -- Online
 ## 7. Referência de Reinstalação por Estado
 
 ### Requisitos e Custos de Reinstalação
 
-| Estado | Taxa de Reinstalação | Tempo Máximo para Reinstalar | Arquivamento Atrasado Exigido | Notas Adicionais |
-|-------|------------------|----------------------|---------------------|-----------------|
-| Delaware | $200 (corp) / $200 (LLC) | 5 anos | Sim, todos os anos perdidos | Franchise tax deve estar em dia |
-| California | $0 (taxa SOS) | 4 anos (CT Corp) | Sim, todos os anos perdidos | Autorização fiscal do FTB exigida |
-| Florida | $400 | Indefinido | Sim, todos os anos perdidos | Deve também apresentar declarações fiscais estaduais |
-| Texas | $50 | Indefinido | Sim, todos os anos perdidos | Autorização fiscal do Contador exigida |
-| New York | $0 | 2 anos | Sim, todos os anos perdidos | Deve apresentar declarações fiscais atrasadas |
-| Nevada | $75 | 1 ano | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas + multas |
-| Illinois | $100 | 5 anos | Sim, todos os anos perdidos | Autorização do AG pode ser exigida |
-| Georgia | $25 | Indefinido | Sim, todos os anos perdidos | Deve estar em dia com todos os arquivamentos |
-| Washington | $30 | Indefinido | Sim, todos os anos perdidos | Autorização de receita exigida |
-| Wyoming | $60 | Indefinido | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas |
-| Colorado | $0 | 5 anos | Sim, todos os anos perdidos | Deve arquivar relatórios periódicos |
-| Massachusetts | $0 | 5 anos | Sim, todos os anos perdidos | Deve resolver quaisquer questões fiscais |
-| New Jersey | $75 | 5 anos | Sim, todos os anos perdidos | Deve arquivar todos os annual reports passados |
-| Pennsylvania | $0 | 5 anos | Sim, todos os anos perdidos | Relatório decenal deve estar em dia |
-| Ohio | $0 | 5 anos | Sim, todos os anos perdidos | Deve arquivar relatórios bienais passados |
-| Michigan | $0 | Indefinido | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas |
-| Minnesota | $0 | Indefinido | Sim, todos os anos perdidos | Reinstalação online disponível |
-| Arizona | $0 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Maryland | $0 | 5 anos | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas |
-| Virginia | $0 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Oregon | $100 | Indefinido | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas |
-| Tennessee | $300 (mín) | 5 anos | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas + multas |
-| North Carolina | $200 | 5 anos | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| South Carolina | $0 | Indefinido | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas |
-| Louisiana | $35 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Kentucky | $15 | Indefinido | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas + multas |
-| Oklahoma | $25 | Indefinido | Sim, todos os anos perdidos | Deve arquivar certificados anuais passados |
-| Connecticut | $80 | Indefinido | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas |
-| Iowa | $45 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Alaska | $100 | 5 anos | Sim, todos os anos perdidos | Deve arquivar relatórios bienais passados |
-| Hawaii | $15 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Idaho | $0 | Indefinido | Sim, todos os anos perdidos | Reinstalação online disponível |
-| Kansas | $50 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Maine | $85 (LLC) | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Nebraska | $10 | Indefinido | Sim, todos os anos perdidos | Deve arquivar relatórios bienais passados |
-| New Hampshire | $100 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| New Mexico | $0 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| North Dakota | $50 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Rhode Island | $50 | Indefinido | Sim, todos os anos perdidos | Deve pagar todas as taxas atrasadas |
-| South Dakota | $50 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Utah | $15 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Vermont | $35 (LLC) | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| West Virginia | $25 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| Wisconsin | $25 | Indefinido | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-| DC | $0 | Indefinido | Sim, todos os anos perdidos | Deve arquivar relatórios bienais passados |
-| Puerto Rico | $125 | 5 anos | Sim, todos os anos perdidos | Deve arquivar annual reports passados |
-
+- **Delaware:** $200 (corp) / $200 (LLC) -- 5 anos -- Sim, todos os anos perdidos -- Franchise tax deve estar em dia
+- **California:** $0 (taxa SOS) -- 4 anos (CT Corp) -- Sim, todos os anos perdidos -- Autorização fiscal do FTB exigida
+- **Florida:** $400 -- Indefinido -- Sim, todos os anos perdidos -- Deve também apresentar declarações fiscais estaduais
+- **Texas:** $50 -- Indefinido -- Sim, todos os anos perdidos -- Autorização fiscal do Contador exigida
+- **New York:** $0 -- 2 anos -- Sim, todos os anos perdidos -- Deve apresentar declarações fiscais atrasadas
+- **Nevada:** $75 -- 1 ano -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas + multas
+- **Illinois:** $100 -- 5 anos -- Sim, todos os anos perdidos -- Autorização do AG pode ser exigida
+- **Georgia:** $25 -- Indefinido -- Sim, todos os anos perdidos -- Deve estar em dia com todos os arquivamentos
+- **Washington:** $30 -- Indefinido -- Sim, todos os anos perdidos -- Autorização de receita exigida
+- **Wyoming:** $60 -- Indefinido -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas
+- **Colorado:** $0 -- 5 anos -- Sim, todos os anos perdidos -- Deve arquivar relatórios periódicos
+- **Massachusetts:** $0 -- 5 anos -- Sim, todos os anos perdidos -- Deve resolver quaisquer questões fiscais
+- **New Jersey:** $75 -- 5 anos -- Sim, todos os anos perdidos -- Deve arquivar todos os annual reports passados
+- **Pennsylvania:** $0 -- 5 anos -- Sim, todos os anos perdidos -- Relatório decenal deve estar em dia
+- **Ohio:** $0 -- 5 anos -- Sim, todos os anos perdidos -- Deve arquivar relatórios bienais passados
+- **Michigan:** $0 -- Indefinido -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas
+- **Minnesota:** $0 -- Indefinido -- Sim, todos os anos perdidos -- Reinstalação online disponível
+- **Arizona:** $0 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Maryland:** $0 -- 5 anos -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas
+- **Virginia:** $0 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Oregon:** $100 -- Indefinido -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas
+- **Tennessee:** $300 (mín) -- 5 anos -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas + multas
+- **North Carolina:** $200 -- 5 anos -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **South Carolina:** $0 -- Indefinido -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas
+- **Louisiana:** $35 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Kentucky:** $15 -- Indefinido -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas + multas
+- **Oklahoma:** $25 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar certificados anuais passados
+- **Connecticut:** $80 -- Indefinido -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas
+- **Iowa:** $45 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Alaska:** $100 -- 5 anos -- Sim, todos os anos perdidos -- Deve arquivar relatórios bienais passados
+- **Hawaii:** $15 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Idaho:** $0 -- Indefinido -- Sim, todos os anos perdidos -- Reinstalação online disponível
+- **Kansas:** $50 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Maine:** $85 (LLC) -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Nebraska:** $10 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar relatórios bienais passados
+- **New Hampshire:** $100 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **New Mexico:** $0 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **North Dakota:** $50 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Rhode Island:** $50 -- Indefinido -- Sim, todos os anos perdidos -- Deve pagar todas as taxas atrasadas
+- **South Dakota:** $50 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Utah:** $15 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Vermont:** $35 (LLC) -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **West Virginia:** $25 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **Wisconsin:** $25 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
+- **DC:** $0 -- Indefinido -- Sim, todos os anos perdidos -- Deve arquivar relatórios bienais passados
+- **Puerto Rico:** $125 -- 5 anos -- Sim, todos os anos perdidos -- Deve arquivar annual reports passados
 ### Reinstatement Cost Calculator
 
 ## 8. Como Prevenir a Perda de Good Standing no Futuro

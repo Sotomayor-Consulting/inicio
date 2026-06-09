@@ -38,14 +38,11 @@ Ao abrir a conta, você forneceu informações sobre sua LLC e seus proprietári
 
 Os algoritmos dos bancos monitoram padrões de transações. Certos comportamentos podem ativar alertas:
 
-| Atividade | Por que é suspeita |
-|-----------|-------------------|
-| Depósitos em dinheiro frequentes | Possível lavagem de dinheiro |
-| Transferências de contas pessoais sem explicação | Mistura de fundos pessoais e empresariais |
-| Múltiplas transferências pequenas | Possível estruturamento (smurfing) |
-| Transações para países de alto risco | Possível violação de sanções |
-| Inatividade prolongada seguida de atividade súbita | Possível uso indevido da conta |
-
+- **Depósitos em dinheiro frequentes:** Possível lavagem de dinheiro
+- **Transferências de contas pessoais sem explicação:** Mistura de fundos pessoais e empresariais
+- **Múltiplas transferências pequenas:** Possível estruturamento (smurfing)
+- **Transações para países de alto risco:** Possível violação de sanções
+- **Inatividade prolongada seguida de atividade súbita:** Possível uso indevido da conta
 ### 3. Não manter a LLC em conformidade
 
 Tanto Mercury quanto Relay podem solicitar comprovantes de que sua LLC está em bom estado. Se sua LLC for suspensa por não apresentar o Annual Report, o banco pode congelar ou fechar sua conta.
@@ -123,26 +120,20 @@ Se a LLC foi suspensa:
 
 Se a conta foi fechada definitivamente, considere estas alternativas:
 
-| Banco/Fintech | Ideal para | Abertura remota |
-|--------------|------------|-----------------|
-| **Wise Business** | Pagamentos internacionais, múltiplas divisas | Sim |
-| **Novo** | Pequenas empresas, integração contábil | Sim |
-| **Stripe Treasury** | Negócios que já usam Stripe | Sim |
-| **Payoneer** | Freelancers e marketplaces | Sim |
-| **Conta bancária tradicional** | Empresas com operação física | Depende do banco |
-
+- **Wise Business:** Pagamentos internacionais, múltiplas divisas -- Sim
+- **Novo:** Pequenas empresas, integração contábil -- Sim
+- **Stripe Treasury:** Negócios que já usam Stripe -- Sim
+- **Payoneer:** Freelancers e marketplaces -- Sim
+- **Conta bancária tradicional:** Empresas com operação física -- Depende do banco
 ## Tabela comparativa: Políticas de Mercury vs Relay
 
-| Aspecto | Mercury | Relay |
-|---------|---------|-------|
-| **Abertura remota** | Sim | Sim |
-| **Solicita Operating Agreement** | Com frequência | Ocasionalmente |
-| **Verificação periódica** | Anual | Anual |
-| **Suporte para estrangeiros** | Bom | Bom |
-| **Limite de inatividade** | 90 dias sem atividade | 60 dias sem atividade |
-| **Contas em USD** | Sim | Sim |
-| **Integração com Stripe** | Nativa | Por conexão |
-
+- **Abertura remota:** Sim -- Sim
+- **Solicita Operating Agreement:** Com frequência -- Ocasionalmente
+- **Verificação periódica:** Anual -- Anual
+- **Suporte para estrangeiros:** Bom -- Bom
+- **Limite de inatividade:** 90 dias sem atividade -- 60 dias sem atividade
+- **Contas em USD:** Sim -- Sim
+- **Integração com Stripe:** Nativa -- Por conexão
 ## Erros comuns que levam ao fechamento
 
 - **Não ler o e-mail do banco:** Muitos empreendedores ignoram os e-mails de compliance porque estão em inglês ou parecem spam.

@@ -26,11 +26,8 @@ A **holding company** is an entity created with the primary purpose of **holding
 
 ### 2.1 Pure vs. Mixed Holding
 
-| Type | Description | Use Case |
-|------|-------------|----------|
-| **Pure Holding** | Only holds interests in other companies, no operating activity | Family investment vehicle |
-| **Mixed Holding** | Holds interests and also conducts its own business operations | Group that also provides services |
-
+- **Pure Holding:** Only holds interests in other companies, no operating activity -- Family investment vehicle
+- **Mixed Holding:** Holds interests and also conducts its own business operations -- Group that also provides services
 ### 2.2 Control Holding vs. Investment Holding
 
 - **Control Holding:** Holds majority voting capital and directs subsidiaries
@@ -56,11 +53,8 @@ The most sought-after benefit. By separating assets into different companies:
 
 ### 3.2 Tax Optimization
 
-| Structure | Tax Burden |
-|-----------|------------|
-| Without holding | Company pays corporate income tax on profits + dividend withholding tax |
-| With holding | Potential for tax planning with favorable regimes |
-
+- **Without holding:** Company pays corporate income tax on profits + dividend withholding tax
+- **With holding:** Potential for tax planning with favorable regimes
 **Practical example:** An offshore holding company (international holding) can significantly reduce the tax burden on cross-border investments by leveraging tax treaties to avoid double taxation.
 
 ### 3.3 Estate Planning
@@ -94,14 +88,11 @@ Each objective leads to a different model.
 
 ### Step 2: Choose the Jurisdiction
 
-| Jurisdiction | Advantages | Disadvantages |
-|-------------|-----------|---------------|
-| **Latin America** | Simplicity, low maintenance cost | High tax burden in some countries |
-| **USA (Delaware, Wyoming)** | Flexibility, privacy | Annual maintenance cost, BOI reporting |
-| **Canada** | Favorable tax treaties | Resident GP required |
-| **Panama** | International holding, confidentiality | Reputation, compliance costs |
-| **Europe (Netherlands, Luxembourg)** | Broad treaty network | High costs, audit requirements |
-
+- **Latin America:** Simplicity, low maintenance cost -- High tax burden in some countries
+- **USA (Delaware, Wyoming):** Flexibility, privacy -- Annual maintenance cost, BOI reporting
+- **Canada:** Favorable tax treaties -- Resident GP required
+- **Panama:** International holding, confidentiality -- Reputation, compliance costs
+- **Europe (Netherlands, Luxembourg):** Broad treaty network -- High costs, audit requirements
 ### Step 3: Incorporate the Holding Company
 
 #### Required Documents:
@@ -142,14 +133,11 @@ An **international holding company** is incorporated in a different country from
 
 ### 5.3 Popular Jurisdictions for International Holding
 
-| Country | Taxation | Annual Cost | Privacy |
-|---------|----------|-------------|---------|
-| **Canada (LP)** | Pass-through (no entity-level tax) | $1,300 - $3,700 CAD | High |
-| **USA (LLC)** | Pass-through (if elected) | $500 - $2,000 USD | Medium |
-| **Netherlands** | 25% CIT, participation exemption | €5,000 - €15,000 | Low |
-| **Luxembourg** | 24.9% CIT, holding rules | €10,000 - €30,000 | Low |
-| **Panama** | Territorial (only local income) | $1,000 - $3,000 | Medium |
-
+- **Canada (LP):** Pass-through (no entity-level tax) -- $1,300 - $3,700 CAD -- High
+- **USA (LLC):** Pass-through (if elected) -- $500 - $2,000 USD -- Medium
+- **Netherlands:** 25% CIT, participation exemption -- €5,000 - €15,000 -- Low
+- **Luxembourg:** 24.9% CIT, holding rules -- €10,000 - €30,000 -- Low
+- **Panama:** Territorial (only local income) -- $1,000 - $3,000 -- Medium
 ## 6. Risks and Disadvantages
 
 ### 6.1 Maintenance Costs

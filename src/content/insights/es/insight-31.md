@@ -1,314 +1,287 @@
-Ôªø---
-title: "C√≥mo Evitar la Doble Tributaci√≥n Legalmente: Estrategias para tu LLC"
+---
+title: "CÛmo Evitar la Doble TributaciÛn Legalmente: Estrategias para tu LLC"
 description: "Estrategias legales para evitar pagar impuestos dos veces por los mismos ingresos cuando operas con una LLC en EE.UU. desde el extranjero."
 cardImage: "@/images/insights/estrategias-para tu-llc.png"
-cardImageAlt: "Balanza fiscal equilibrada entre dos pa√≠ses"
+cardImageAlt: "Balanza fiscal equilibrada entre dos paÌses"
 ---
 
-Uno de los mayores temores de los emprendedores internacionales con una LLC en Estados Unidos es la **doble tributaci√≥n**: pagar impuestos en EE.UU. y otra vez en su pa√≠s de residencia por los mismos ingresos.
+Uno de los mayores temores de los emprendedores internacionales con una LLC en Estados Unidos es la **doble tributaciÛn**: pagar impuestos en EE.UU. y otra vez en su paÌs de residencia por los mismos ingresos.
 
-La buena noticia es que existen mecanismos legales para evitarlo. En esta gu√≠a explicamos las estrategias m√°s efectivas para que no pagues impuestos dos veces.
+La buena noticia es que existen mecanismos legales para evitarlo. En esta guÌa explicamos las estrategias m·s efectivas para que no pagues impuestos dos veces.
 
-## ¬øQu√© es la doble tributaci√≥n?
+## øQuÈ es la doble tributaciÛn?
 
-Ocurre cuando dos pa√≠ses reclaman el derecho de gravar la misma renta. En el caso de una LLC estadounidense operada por un extranjero:
+Ocurre cuando dos paÌses reclaman el derecho de gravar la misma renta. En el caso de una LLC estadounidense operada por un extranjero:
 
 - **EE.UU.** puede reclamar impuestos si la LLC genera ingresos en territorio estadounidense (ECI).
-- **Tu pa√≠s de residencia** reclama impuestos porque t√∫, como residente fiscal, debes declarar tus ingresos globales.
+- **Tu paÌs de residencia** reclama impuestos porque t˙, como residente fiscal, debes declarar tus ingresos globales.
 
-Sin una estrategia adecuada, podr√≠as pagar impuestos en ambos pa√≠ses.
+Sin una estrategia adecuada, podrÌas pagar impuestos en ambos paÌses.
 
-## ¬øCu√°ndo ocurre la doble tributaci√≥n?
+## øCu·ndo ocurre la doble tributaciÛn?
 
-| Situaci√≥n | ¬øDoble tributaci√≥n? |
-|-----------|-------------------|
-| LLC sin ECI, due√±o extranjero | ‚ùå No (solo tributas en tu pa√≠s) |
-| LLC con ECI, due√±o extranjero, sin tratado | ‚ö†Ô∏è Posible |
-| LLC con ECI, due√±o extranjero, con tratado | ‚úÖ Evitable con estrategia |
-| LLC tribute como corporation, due√±o extranjero | ‚ö†Ô∏è Posible (dividendos) |
-| Multi-member LLC con socios extranjeros | ‚ö†Ô∏è Depende del tratado |
+- **LLC sin ECI, dueÒo extranjero:** ? No (solo tributas en tu paÌs)
+- **LLC con ECI, dueÒo extranjero, sin tratado:** ?? Posible
+- **LLC con ECI, dueÒo extranjero, con tratado:** ? Evitable con estrategia
+- **LLC tribute como corporation, dueÒo extranjero:** ?? Posible (dividendos)
+- **Multi-member LLC con socios extranjeros:** ?? Depende del tratado
+## Mecanismos para evitar la doble tributaciÛn
 
-## Mecanismos para evitar la doble tributaci√≥n
+### 1. Foreign Tax Credit (CrÈdito Fiscal por Impuestos Pagados en el Extranjero)
 
-### 1. Foreign Tax Credit (Cr√©dito Fiscal por Impuestos Pagados en el Extranjero)
+Si tu paÌs de residencia permite crÈditos fiscales por impuestos pagados en el extranjero, puedes evitar la doble tributaciÛn.
 
-Si tu pa√≠s de residencia permite cr√©ditos fiscales por impuestos pagados en el extranjero, puedes evitar la doble tributaci√≥n.
-
-**¬øC√≥mo funciona?**
+**øCÛmo funciona?**
 
 1. Tu LLC paga impuestos en EE.UU. (si tiene ECI).
-2. Cuando declaras los mismos ingresos en tu pa√≠s, restas los impuestos ya pagados en EE.UU.
-3. Solo pagas la diferencia si la tasa de tu pa√≠s es mayor.
+2. Cuando declaras los mismos ingresos en tu paÌs, restas los impuestos ya pagados en EE.UU.
+3. Solo pagas la diferencia si la tasa de tu paÌs es mayor.
 
 **Ejemplo:**
 - Ingreso: $50,000.
 - Impuesto pagado en EE.UU.: $5,000 (10%).
-- Impuesto en tu pa√≠s: $15,000 (30%).
-- Con Foreign Tax Credit: pagas $15,000 - $5,000 = $10,000 en tu pa√≠s.
+- Impuesto en tu paÌs: $15,000 (30%).
+- Con Foreign Tax Credit: pagas $15,000 - $5,000 = $10,000 en tu paÌs.
 - **Total pagado:** $15,000 (no $20,000).
 
-**¬øD√≥nde aplica?**
-- M√©xico: S√≠ (cr√©dito fiscal por impuestos pagados en el extranjero).
-- Colombia: S√≠.
-- Argentina: S√≠.
-- Chile: S√≠.
-- Per√∫: Depende.
+**øDÛnde aplica?**
+- MÈxico: SÌ (crÈdito fiscal por impuestos pagados en el extranjero).
+- Colombia: SÌ.
+- Argentina: SÌ.
+- Chile: SÌ.
+- Per˙: Depende.
 - Brasil: Limitado.
 
 ### 2. Treaty Benefits (Beneficios de Tratados Fiscales)
 
-Si tu pa√≠s tiene un tratado fiscal con EE.UU., puedes reducir o eliminar las retenciones de impuestos.
+Si tu paÌs tiene un tratado fiscal con EE.UU., puedes reducir o eliminar las retenciones de impuestos.
 
-| Pa√≠s | ¬øTratado? | Beneficio principal |
-|------|-----------|-------------------|
-| M√©xico | S√≠ | Retenci√≥n 0% sobre intereses, cr√©dito fiscal |
-| Chile | S√≠ (2024) | Retenci√≥n reducida sobre regal√≠as e intereses |
-| Argentina | S√≠ | Tasas reducidas en dividendos, intereses y regal√≠as |
-| Espa√±a | S√≠ | Cr√©dito fiscal, exenci√≥n de ciertos ingresos |
-| Colombia | No | Sin protecci√≥n de tratado |
-| Per√∫ | No | Sin protecci√≥n de tratado |
-| Brasil | No (suspendido) | Sin protecci√≥n de tratado |
-
+- **MÈxico:** SÌ -- RetenciÛn 0% sobre intereses, crÈdito fiscal
+- **Chile:** SÌ (2024) -- RetenciÛn reducida sobre regalÌas e intereses
+- **Argentina:** SÌ -- Tasas reducidas en dividendos, intereses y regalÌas
+- **EspaÒa:** SÌ -- CrÈdito fiscal, exenciÛn de ciertos ingresos
+- **Colombia:** No -- Sin protecciÛn de tratado
+- **Per˙:** No -- Sin protecciÛn de tratado
+- **Brasil:** No (suspendido) -- Sin protecciÛn de tratado
 **Para acceder a los beneficios del tratado:**
-1. Obt√©n un **Certificado de Residencia Fiscal** en tu pa√≠s.
+1. ObtÈn un **Certificado de Residencia Fiscal** en tu paÌs.
 2. Presenta el formulario W-8BEN ante el IRS o el banco.
 3. Verifica que el tratado aplique a tu tipo de ingreso.
 4. Documenta tu estructura fiscal.
 
 ### 3. Estructura Disregarded Entity (sin ECI)
 
-Si tu LLC es una **disregarded entity** (single-member) y **no genera ECI** en EE.UU., los ingresos solo tributan en tu pa√≠s de residencia.
+Si tu LLC es una **disregarded entity** (single-member) y **no genera ECI** en EE.UU., los ingresos solo tributan en tu paÌs de residencia.
 
-**¬øQu√© es ECI (Effectively Connected Income)?**
+**øQuÈ es ECI (Effectively Connected Income)?**
 
 Ingresos efectivamente conectados con un negocio en EE.UU. Incluye:
 - Ingresos por servicios prestados desde EE.UU.
-- Ingresos por ventas en EE.UU. con presencia f√≠sica.
-- Ingresos por bienes ra√≠ces en EE.UU.
+- Ingresos por ventas en EE.UU. con presencia fÌsica.
+- Ingresos por bienes raÌces en EE.UU.
 
-**¬øQu√© NO es ECI?**
-- Servicios prestados desde tu pa√≠s de residencia.
+**øQuÈ NO es ECI?**
+- Servicios prestados desde tu paÌs de residencia.
 - Ingresos pasivos (intereses, dividendos) con ciertas excepciones.
-- Ventas desde fuera de EE.UU. sin presencia f√≠sica.
+- Ventas desde fuera de EE.UU. sin presencia fÌsica.
 
-**Estrategia:** Si operas tu LLC desde tu pa√≠s de residencia y todos los servicios se prestan desde all√≠, generalmente no hay ECI y solo tributas en tu pa√≠s.
+**Estrategia:** Si operas tu LLC desde tu paÌs de residencia y todos los servicios se prestan desde allÌ, generalmente no hay ECI y solo tributas en tu paÌs.
 
 ### 4. Estructura Corporation (C-Corp)
 
-Si tu LLC elige tributar como **C-Corporation**, paga el 21% de impuesto corporativo en EE.UU. Luego, las distribuciones a due√±os extranjeros est√°n sujetas a retenci√≥n del 30% (o menos si hay tratado).
+Si tu LLC elige tributar como **C-Corporation**, paga el 21% de impuesto corporativo en EE.UU. Luego, las distribuciones a dueÒos extranjeros est·n sujetas a retenciÛn del 30% (o menos si hay tratado).
 
-**¬øCu√°ndo conviene?**
+**øCu·ndo conviene?**
 
-| Situaci√≥n | Disregarded Entity | C-Corp |
-|-----------|-------------------|--------|
-| Ingresos bajos sin ECI | ‚úÖ Mejor opci√≥n | ‚ùå No conviene |
-| Ingresos altos con ECI | ‚ùå Doble tributaci√≥n | ‚úÖ Mejor opci√≥n |
-| Due√±o en pa√≠s con tratado | ‚úÖ Depende | ‚úÖ Puede convenir |
-| Due√±o en pa√≠s sin tratado | ‚úÖ Mejor opci√≥n | ‚ö†Ô∏è Evaluar |
-
+- **Ingresos bajos sin ECI:** ? Mejor opciÛn -- ? No conviene
+- **Ingresos altos con ECI:** ? Doble tributaciÛn -- ? Mejor opciÛn
+- **DueÒo en paÌs con tratado:** ? Depende -- ? Puede convenir
+- **DueÒo en paÌs sin tratado:** ? Mejor opciÛn -- ?? Evaluar
 **Ejemplo de C-Corp:**
 - Ganancia de la LLC: $100,000.
 - Impuesto corporativo (21%): $21,000.
-- Distribuci√≥n al due√±o: $79,000.
-- Retenci√≥n (30% si no hay tratado): $23,700.
-- Neto al due√±o: $55,300.
+- DistribuciÛn al dueÒo: $79,000.
+- RetenciÛn (30% si no hay tratado): $23,700.
+- Neto al dueÒo: $55,300.
 - **Tasa efectiva:** 44.7%.
 
-**Con tratado (ej: M√©xico, tasa 10% sobre dividendos):**
-- Retenci√≥n: $7,900.
-- Neto al due√±o: $71,100.
+**Con tratado (ej: MÈxico, tasa 10% sobre dividendos):**
+- RetenciÛn: $7,900.
+- Neto al dueÒo: $71,100.
 - **Tasa efectiva:** 28.9%.
 
 ### 5. Estructura Multi-Member con K-1
 
-Si tienes socios, cada uno reporta su parte de los ingresos en su declaraci√≥n personal. El tratado fiscal aplica seg√∫n el pa√≠s de cada socio.
+Si tienes socios, cada uno reporta su parte de los ingresos en su declaraciÛn personal. El tratado fiscal aplica seg˙n el paÌs de cada socio.
 
-**Ventaja:** Los socios en pa√≠ses con tratado pueden reclamar cr√©ditos fiscales por los impuestos pagados por la LLC.
+**Ventaja:** Los socios en paÌses con tratado pueden reclamar crÈditos fiscales por los impuestos pagados por la LLC.
 
-### 6. Planificaci√≥n de la residencia fiscal
+### 6. PlanificaciÛn de la residencia fiscal
 
-Si tienes flexibilidad para elegir d√≥nde resides fiscalmente, puedes optimizar tu estructura.
+Si tienes flexibilidad para elegir dÛnde resides fiscalmente, puedes optimizar tu estructura.
 
 **Consideraciones:**
-- Algunos pa√≠ses gravan ingresos globales (residencia fiscal).
-- Otros gravan solo ingresos generados dentro del pa√≠s (territorial).
-- Algunos pa√≠ses tienen exenci√≥n para ingresos de fuente extranjera.
+- Algunos paÌses gravan ingresos globales (residencia fiscal).
+- Otros gravan solo ingresos generados dentro del paÌs (territorial).
+- Algunos paÌses tienen exenciÛn para ingresos de fuente extranjera.
 
-**Pa√≠ses con sistema territorial (solo gravan ingresos locales):**
-- Panam√°.
+**PaÌses con sistema territorial (solo gravan ingresos locales):**
+- Panam·.
 - Costa Rica (parcial).
 - Paraguay.
 - Hong Kong.
 - Singapur (parcial).
 
-**Si resides en un pa√≠s territorial:** Los ingresos de tu LLC en EE.UU. no tributan en tu pa√≠s, eliminando la doble tributaci√≥n.
+**Si resides en un paÌs territorial:** Los ingresos de tu LLC en EE.UU. no tributan en tu paÌs, eliminando la doble tributaciÛn.
 
-## Estrategias por pa√≠s
+## Estrategias por paÌs
 
-### Si resides en M√©xico (con tratado)
+### Si resides en MÈxico (con tratado)
 
-| Estrategia | Beneficio |
-|-----------|-----------|
-| Disregarded Entity sin ECI | Tributas solo en M√©xico |
-| Foreign Tax Credit | Evitas doble tributaci√≥n si hay impuesto en EE.UU. |
-| W-8BEN | Reduces retenciones en EE.UU. |
-| Tratado | Tasas reducidas sobre intereses (0%) y regal√≠as |
-
-**Estructura recomendada:** LLC disregarded entity + declaraci√≥n en M√©xico con cr√©dito fiscal.
+- **Disregarded Entity sin ECI:** Tributas solo en MÈxico
+- **Foreign Tax Credit:** Evitas doble tributaciÛn si hay impuesto en EE.UU.
+- **W-8BEN:** Reduces retenciones en EE.UU.
+- **Tratado:** Tasas reducidas sobre intereses (0%) y regalÌas
+**Estructura recomendada:** LLC disregarded entity + declaraciÛn en MÈxico con crÈdito fiscal.
 
 ### Si resides en Colombia (sin tratado)
 
-| Estrategia | Beneficio |
-|-----------|-----------|
-| Disregarded Entity sin ECI | Tributas solo en Colombia |
-| Foreign Tax Credit (si aplica) | Cr√©dito por impuestos pagados en EE.UU. |
-| Evitar ECI | No declaras en EE.UU. |
-| Evaluar C-Corp | En casos de ingresos altos |
-
+- **Disregarded Entity sin ECI:** Tributas solo en Colombia
+- **Foreign Tax Credit (si aplica):** CrÈdito por impuestos pagados en EE.UU.
+- **Evitar ECI:** No declaras en EE.UU.
+- **Evaluar C-Corp:** En casos de ingresos altos
 **Estructura recomendada:** LLC disregarded entity, operar desde Colombia, sin ECI.
 
 ### Si resides en Argentina (con tratado)
 
-| Estrategia | Beneficio |
-|-----------|-----------|
-| Tratado Argentina-EE.UU. | Protecci√≥n contra doble tributaci√≥n |
-| Foreign Tax Credit | Cr√©dito por impuestos pagados en EE.UU. |
-| Estructura transparente | La LLC no es corporaci√≥n ante el tratado |
-| Cuenta en EE.UU. | Protecci√≥n contra controles de cambio |
+- **Tratado Argentina-EE.UU.:** ProtecciÛn contra doble tributaciÛn
+- **Foreign Tax Credit:** CrÈdito por impuestos pagados en EE.UU.
+- **Estructura transparente:** La LLC no es corporaciÛn ante el tratado
+- **Cuenta en EE.UU.:** ProtecciÛn contra controles de cambio
+**Estructura recomendada:** LLC disregarded entity + trust (protecciÛn patrimonial).
 
-**Estructura recomendada:** LLC disregarded entity + trust (protecci√≥n patrimonial).
+### Si resides en Per˙ (sin tratado)
 
-### Si resides en Per√∫ (sin tratado)
-
-| Estrategia | Beneficio |
-|-----------|-----------|
-| Disregarded Entity sin ECI | Tributas solo en Per√∫ |
-| Evitar presencia en EE.UU. | Sin obligaciones en EE.UU. |
-| Evaluar tratamiento local | La LLC puede ser corporaci√≥n en Per√∫ |
-
-**Estructura recomendada:** LLC disregarded entity, operaci√≥n desde Per√∫.
+- **Disregarded Entity sin ECI:** Tributas solo en Per˙
+- **Evitar presencia en EE.UU.:** Sin obligaciones en EE.UU.
+- **Evaluar tratamiento local:** La LLC puede ser corporaciÛn en Per˙
+**Estructura recomendada:** LLC disregarded entity, operaciÛn desde Per˙.
 
 ### Si resides en Brasil (sin tratado)
 
-| Estrategia | Beneficio |
-|-----------|-----------|
-| Disregarded Entity sin ECI | Tributas solo en Brasil |
-| Evaluar C-Corp | Si los ingresos son altos |
-| Consultar tratamiento brasile√±o | Brasil puede tratar LLC como corporaci√≥n |
+- **Disregarded Entity sin ECI:** Tributas solo en Brasil
+- **Evaluar C-Corp:** Si los ingresos son altos
+- **Consultar tratamiento brasileÒo:** Brasil puede tratar LLC como corporaciÛn
+**Estructura recomendada:** Evaluar caso a caso con contador brasileÒo.
 
-**Estructura recomendada:** Evaluar caso a caso con contador brasile√±o.
-
-## Errores que causan doble tributaci√≥n
+## Errores que causan doble tributaciÛn
 
 ### Error 1: Tener ECI innecesariamente
 
-Si tienes presencia f√≠sica en EE.UU. (oficina, empleados, servidores), generas ECI y debes pagar impuestos en EE.UU.
+Si tienes presencia fÌsica en EE.UU. (oficina, empleados, servidores), generas ECI y debes pagar impuestos en EE.UU.
 
-**Soluci√≥n:** Opera tu negocio desde tu pa√≠s de residencia. No tengas oficina, empleados ni activos en EE.UU. m√°s all√° de la cuenta bancaria.
+**SoluciÛn:** Opera tu negocio desde tu paÌs de residencia. No tengas oficina, empleados ni activos en EE.UU. m·s all· de la cuenta bancaria.
 
 ### Error 2: No reclamar el Foreign Tax Credit
 
-Si pagaste impuestos en EE.UU. pero no los declaraste en tu pa√≠s, puedes estar pagando dos veces.
+Si pagaste impuestos en EE.UU. pero no los declaraste en tu paÌs, puedes estar pagando dos veces.
 
-**Soluci√≥n:** Declara los impuestos pagados en EE.UU. en tu declaraci√≥n local y reclama el cr√©dito fiscal.
+**SoluciÛn:** Declara los impuestos pagados en EE.UU. en tu declaraciÛn local y reclama el crÈdito fiscal.
 
 ### Error 3: No tener el certificado de residencia fiscal
 
 Sin este certificado, no puedes acceder a los beneficios del tratado fiscal.
 
-**Soluci√≥n:** Solicita el certificado de residencia fiscal en tu pa√≠s (generalmente emitido por la autoridad tributaria local).
+**SoluciÛn:** Solicita el certificado de residencia fiscal en tu paÌs (generalmente emitido por la autoridad tributaria local).
 
 ### Error 4: Usar la estructura incorrecta
 
-Una single-member LLC con ingresos altos en EE.UU. podr√≠a beneficiarse de tributar como C-Corp.
+Una single-member LLC con ingresos altos en EE.UU. podrÌa beneficiarse de tributar como C-Corp.
 
-**Soluci√≥n:** Eval√∫a tu situaci√≥n con un CPA. No asumas que una estructura es mejor que otra sin hacer los n√∫meros.
+**SoluciÛn:** Eval˙a tu situaciÛn con un CPA. No asumas que una estructura es mejor que otra sin hacer los n˙meros.
 
 ### Error 5: Ignorar el tratamiento fiscal local
 
-Tu pa√≠s puede tratar la LLC de manera diferente a EE.UU., creando desajustes h√≠bridos.
+Tu paÌs puede tratar la LLC de manera diferente a EE.UU., creando desajustes hÌbridos.
 
-**Soluci√≥n:** Consulta con un contador en tu pa√≠s antes de estructurar.
+**SoluciÛn:** Consulta con un contador en tu paÌs antes de estructurar.
 
-## Casos pr√°cticos
+## Casos pr·cticos
 
-### Caso 1: M√©xico (con tratado, sin ECI)
+### Caso 1: MÈxico (con tratado, sin ECI)
 
-**Situaci√≥n:** Sof√≠a, dise√±adora en M√©xico, LLC en Wyoming, $60,000/a√±o, todo desde M√©xico.
+**SituaciÛn:** SofÌa, diseÒadora en MÈxico, LLC en Wyoming, $60,000/aÒo, todo desde MÈxico.
 
 **Estructura:** Disregarded entity.
 
 **Resultado fiscal:**
 - EE.UU.: No paga impuestos (sin ECI, presenta solo 5472).
-- M√©xico: Declara los $60,000 como ingresos globales.
-- **Impuesto total:** Solo paga en M√©xico (~$9,000).
-- **Doble tributaci√≥n:** ‚ùå No.
+- MÈxico: Declara los $60,000 como ingresos globales.
+- **Impuesto total:** Solo paga en MÈxico (~$9,000).
+- **Doble tributaciÛn:** ? No.
 
 ### Caso 2: Colombia (sin tratado, con ECI)
 
-**Situaci√≥n:** Carlos, consultor en Colombia, LLC en Florida, alquil√≥ un coworking en Miami y contrata freelancers en EE.UU.
+**SituaciÛn:** Carlos, consultor en Colombia, LLC en Florida, alquilÛ un coworking en Miami y contrata freelancers en EE.UU.
 
 **Estructura:** Disregarded entity.
 
 **Resultado fiscal:**
-- EE.UU.: Tiene ECI (presencia f√≠sica en Miami). Debe presentar 1040-NR.
+- EE.UU.: Tiene ECI (presencia fÌsica en Miami). Debe presentar 1040-NR.
 - Colombia: Declara los mismos ingresos.
-- **Sin estrategia:** Pagar√≠a en EE.UU. (~$8,000) y en Colombia (~$12,000). Total: $20,000 sobre $60,000 = 33%.
+- **Sin estrategia:** PagarÌa en EE.UU. (~$8,000) y en Colombia (~$12,000). Total: $20,000 sobre $60,000 = 33%.
 
-**Soluci√≥n:**
+**SoluciÛn:**
 - Reclama Foreign Tax Credit en Colombia por los $8,000 pagados en EE.UU.
 - Paga en Colombia: $12,000 - $8,000 = $4,000.
 - **Total:** $8,000 + $4,000 = $12,000 (20% efectivo).
 
-### Caso 3: Argentina (con tratado, planeaci√≥n)
+### Caso 3: Argentina (con tratado, planeaciÛn)
 
-**Situaci√≥n:** Martina, consultora en Argentina, LLC en Wyoming, $80,000/a√±o.
+**SituaciÛn:** Martina, consultora en Argentina, LLC en Wyoming, $80,000/aÒo.
 
 **Estructura:** Disregarded entity + trust.
 
 **Resultado fiscal:**
 - EE.UU.: No paga impuestos (sin ECI).
 - Argentina: Declara los $80,000.
-- **Tratado:** Aplica el tratado Argentina-EE.UU. para evitar doble tributaci√≥n.
+- **Tratado:** Aplica el tratado Argentina-EE.UU. para evitar doble tributaciÛn.
 - Si tuviera ingresos pasivos, el tratado reduce las retenciones.
 
 ## Tabla comparativa de estrategias
 
-| Estrategia | Complejidad | Costo | Efectividad | Ideal para |
-|-----------|-------------|-------|-------------|-----------|
-| Disregarded sin ECI | Baja | Bajo | Alta | Todos los casos |
-| Foreign Tax Credit | Media | Bajo | Alta | Pa√≠ses con cr√©dito fiscal |
-| Tratado fiscal | Media | Bajo | Alta | Pa√≠ses con tratado |
-| C-Corp | Alta | Alto | Media | Ingresos altos con ECI |
-| Residencia territorial | Alta | Alto | Alta | Quien puede reubicarse |
-| Trust + LLC | Alta | Alto | Alta | Patrimonios grandes |
-
-## Checklist anti-doble tributaci√≥n
+- **Disregarded sin ECI:** Baja -- Bajo -- Alta -- Todos los casos
+- **Foreign Tax Credit:** Media -- Bajo -- Alta -- PaÌses con crÈdito fiscal
+- **Tratado fiscal:** Media -- Bajo -- Alta -- PaÌses con tratado
+- **C-Corp:** Alta -- Alto -- Media -- Ingresos altos con ECI
+- **Residencia territorial:** Alta -- Alto -- Alta -- Quien puede reubicarse
+- **Trust + LLC:** Alta -- Alto -- Alta -- Patrimonios grandes
+## Checklist anti-doble tributaciÛn
 
 - [ ] Determinar si tu LLC genera ECI en EE.UU.
-- [ ] Verificar si tu pa√≠s tiene tratado fiscal con EE.UU.
-- [ ] Obtener certificado de residencia fiscal en tu pa√≠s.
+- [ ] Verificar si tu paÌs tiene tratado fiscal con EE.UU.
+- [ ] Obtener certificado de residencia fiscal en tu paÌs.
 - [ ] Presentar formulario W-8BEN si aplica.
 - [ ] Reclamar Foreign Tax Credit si pagaste impuestos en EE.UU.
-- [ ] Evaluar si la estructura C-Corp es m√°s eficiente.
+- [ ] Evaluar si la estructura C-Corp es m·s eficiente.
 - [ ] Consultar con contador local y contador en EE.UU.
 - [ ] Documentar tu estrategia fiscal por escrito.
 - [ ] Revisar la estrategia anualmente.
 
-## Conclusi√≥n
+## ConclusiÛn
 
-La doble tributaci√≥n es evitable en la mayor√≠a de los casos. La clave est√° en:
+La doble tributaciÛn es evitable en la mayorÌa de los casos. La clave est· en:
 
-1. **No generar ECI innecesariamente** (opera desde tu pa√≠s).
-2. **Aprovechar los tratados fiscales** si tu pa√≠s tiene uno.
+1. **No generar ECI innecesariamente** (opera desde tu paÌs).
+2. **Aprovechar los tratados fiscales** si tu paÌs tiene uno.
 3. **Reclamar el Foreign Tax Credit** si pagaste impuestos en EE.UU.
-4. **Elegir la estructura correcta** (disregarded vs C-Corp seg√∫n tu caso).
-5. **Consultar con profesionales** en ambos pa√≠ses.
+4. **Elegir la estructura correcta** (disregarded vs C-Corp seg˙n tu caso).
+5. **Consultar con profesionales** en ambos paÌses.
 
-Con la estrategia adecuada, la mayor√≠a de los emprendedores internacionales pagan impuestos solo en su pa√≠s de residencia, eliminando completamente la doble tributaci√≥n.
+Con la estrategia adecuada, la mayorÌa de los emprendedores internacionales pagan impuestos solo en su paÌs de residencia, eliminando completamente la doble tributaciÛn.
 
-## ¬øNecesitas ayuda para evitar la doble tributaci√≥n?
+## øNecesitas ayuda para evitar la doble tributaciÛn?
 
-En **Sotomayor Consulting International** te ayudamos a dise√±ar una estrategia fiscal que evite la doble tributaci√≥n y optimice tu carga impositiva.
+En **Sotomayor Consulting International** te ayudamos a diseÒar una estrategia fiscal que evite la doble tributaciÛn y optimice tu carga impositiva.
 
-**Agende una asesor√≠a gratuita** y paga solo lo que debes, no el doble.
+**Agende una asesorÌa gratuita** y paga solo lo que debes, no el doble.

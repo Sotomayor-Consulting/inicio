@@ -11,15 +11,12 @@ In this guide, we explain what distinguishes one from the other, with concrete e
 
 ## The fundamental difference
 
-| Aspect | Tax Planning | Tax Evasion |
-|--------|-------------|-------------|
-| **Legality** | ? Legal | ? Illegal |
-| **Goal** | Pay what is fair under the law | Pay less than the law requires |
-| **Method** | Use legal gaps and tax incentives | Hide income or inflate expenses |
-| **Risk** | Low (if done correctly) | High (penalties, jail, business closure) |
-| **Result** | Sustainable tax optimization | Problems with IRS and local authorities |
-| **Example** | Choosing Wyoming for favorable laws | Not declaring LLC income |
-
+- **Legality:** ? Legal -- ? Illegal
+- **Goal:** Pay what is fair under the law -- Pay less than the law requires
+- **Method:** Use legal gaps and tax incentives -- Hide income or inflate expenses
+- **Risk:** Low (if done correctly) -- High (penalties, jail, business closure)
+- **Result:** Sustainable tax optimization -- Problems with IRS and local authorities
+- **Example:** Choosing Wyoming for favorable laws -- Not declaring LLC income
 ### The traffic light metaphor
 
 - **?? Tax planning:** Use the rules in your favor to pay the minimum required by law.
@@ -32,14 +29,11 @@ It is the process of organizing your finances and business structure to **pay th
 
 ### Characteristics
 
-| Characteristic | Description |
-|---------------|-------------|
-| **Transparency** | All income is declared |
-| **Legality** | Mechanisms provided by law are used |
-| **Documentation** | Everything is backed by invoices, contracts, and records |
-| **Sustainability** | The strategy is maintained over time |
-| **Professional** | Done with advice from accountants and lawyers |
-
+- **Transparency:** All income is declared
+- **Legality:** Mechanisms provided by law are used
+- **Documentation:** Everything is backed by invoices, contracts, and records
+- **Sustainability:** The strategy is maintained over time
+- **Professional:** Done with advice from accountants and lawyers
 ### Legitimate examples of tax planning
 
 ? **Choosing the right state for your LLC.**
@@ -72,14 +66,11 @@ It is the illegal action of **not paying the taxes that the law requires**, by h
 
 ### Characteristics
 
-| Characteristic | Description |
-|---------------|-------------|
-| **Concealment** | Undeclared income |
-| **Illegality** | Direct violation of the law |
-| **Lack of documentation** | No real backing for transactions |
-| **High risk** | Penalties, jail, business closure |
-| **Unsustainable** | Sooner or later the tax authority detects it |
-
+- **Concealment:** Undeclared income
+- **Illegality:** Direct violation of the law
+- **Lack of documentation:** No real backing for transactions
+- **High risk:** Penalties, jail, business closure
+- **Unsustainable:** Sooner or later the tax authority detects it
 ### Examples of tax evasion
 
 ? **Not declaring LLC income.**
@@ -131,40 +122,31 @@ Between planning and evasion there is a **gray area** where some practices use l
 
 ## Detailed comparison table
 
-| Action | Planning | Avoidance | Evasion |
-|--------|----------|-----------|---------|
-| Choosing Wyoming for your LLC | ? | ? | ? |
-| Deducting real business expenses | ? | ? | ? |
-| Using tax treaty to reduce withholding | ? | ? | ? |
-| Not declaring income from a client | ? | ? | ? |
-| Invoicing under LLC but operating as individual | ? | ?? If no purpose | ? |
-| Creating LLC in Delaware without operating there | ? | ?? | ? |
-| Transferring assets to LLC to avoid seizure | ? | ? | ? |
-| Deducting personal expenses as business | ? | ? | ? |
-
+- **Choosing Wyoming for your LLC:** ? -- ? -- ?
+- **Deducting real business expenses:** ? -- ? -- ?
+- **Using tax treaty to reduce withholding:** ? -- ? -- ?
+- **Not declaring income from a client:** ? -- ? -- ?
+- **Invoicing under LLC but operating as individual:** ? -- ?? If no purpose -- ?
+- **Creating LLC in Delaware without operating there:** ? -- ?? -- ?
+- **Transferring assets to LLC to avoid seizure:** ? -- ? -- ?
+- **Deducting personal expenses as business:** ? -- ? -- ?
 ## Consequences of tax evasion
 
 ### For the IRS (U.S.)
 
-| Consequence | Detail |
-|-------------|---------|
-| **Civil penalties** | Up to 75% of unpaid taxes |
-| **Interest** | From the original due date |
-| **Audit** | Full investigation of your finances |
-| **Criminal charges** | Up to 5 years in prison for tax fraud |
-| **LLC closure** | The IRS can revoke the EIN |
-| **Extradition** | Possible if the amount is significant |
-
+- **Civil penalties:** Up to 75% of unpaid taxes
+- **Interest:** From the original due date
+- **Audit:** Full investigation of your finances
+- **Criminal charges:** Up to 5 years in prison for tax fraud
+- **LLC closure:** The IRS can revoke the EIN
+- **Extradition:** Possible if the amount is significant
 ### For your country of residence
 
-| Consequence | Detail |
-|-------------|---------|
-| **Penalties** | Variable by country (up to 300% of unpaid tax) |
-| **Criminal charges** | Jail in most countries for tax evasion |
-| **Account seizure** | In your country and potentially the U.S. |
-| **Business ban** | Cannot be a director of companies |
-| **LLC loss** | The state can dissolve the LLC |
-
+- **Penalties:** Variable by country (up to 300% of unpaid tax)
+- **Criminal charges:** Jail in most countries for tax evasion
+- **Account seizure:** In your country and potentially the U.S.
+- **Business ban:** Cannot be a director of companies
+- **LLC loss:** The state can dissolve the LLC
 ### Reputational cost
 
 - You will not be able to open bank accounts in the future.
@@ -185,15 +167,12 @@ Between planning and evasion there is a **gray area** where some practices use l
 
 ### Self-assessment questions
 
-| Question | If the answer makes you hesitate... |
-|----------|----------------------------------|
-| Do you declare all your LLC income? | May be evasion |
-| Do you have real documentation for your expenses? | May be evasion |
-| Does your LLC have a real business? | May be abusive avoidance |
-| Do you use the LLC bank account only for business expenses? | Mixing finances = risk |
-| Do you file all forms required by the IRS? | Non-compliance = penalties |
-| Do you know how your country treats your LLC for tax purposes? | Ignorance = risk |
-
+- **Do you declare all your LLC income?:** May be evasion
+- **Do you have real documentation for your expenses?:** May be evasion
+- **Does your LLC have a real business?:** May be abusive avoidance
+- **Do you use the LLC bank account only for business expenses?:** Mixing finances = risk
+- **Do you file all forms required by the IRS?:** Non-compliance = penalties
+- **Do you know how your country treats your LLC for tax purposes?:** Ignorance = risk
 ## Practical cases
 
 ### Case 1: Tax planning (? legal)

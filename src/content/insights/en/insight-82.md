@@ -15,41 +15,32 @@ In this guide, we explain **all the benefits of buying properties with an LLC** 
 
 The main benefit of an LLC is separating your personal assets from the property's assets. If a tenant gets injured, a contractor sues you, or someone claims damages, only the assets inside the LLC are at risk.
 
-| Scenario | Without LLC (Personal Name) | With LLC |
-|----------|----------------------------|---------|
-| **Tenant gets injured** | They sue you personally | They sue the LLC |
-| **Contractor doesn't get paid** | Personal garnishment | Only LLC assets |
-| **Accident on property** | Your house, car, savings at risk | Your personal assets intact |
-| **Mortgage default** | Affects your personal credit | Affects LLC credit |
-| **Frivolous lawsuit** | Insurance + personal assets exposed | LLC pays, you don't |
-
+- **Tenant gets injured:** They sue you personally -- They sue the LLC
+- **Contractor doesn't get paid:** Personal garnishment -- Only LLC assets
+- **Accident on property:** Your house, car, savings at risk -- Your personal assets intact
+- **Mortgage default:** Affects your personal credit -- Affects LLC credit
+- **Frivolous lawsuit:** Insurance + personal assets exposed -- LLC pays, you don't
 ### How Protection Works
 
 ### Limits of Protection
 
-| Limitation | Explanation |
-|-----------|-------------|
-| **Personal guarantee** | If you signed the mortgage personally, they can pursue you |
-| **Fraud** | Using LLC for illegal activities voids protection |
-| **Commingling funds** | Mixing personal and LLC money (commingling) |
-| **Inadequate capitalization** | If LLC has insufficient capital, court may "pierce the veil" |
-| **Insufficient insurance** | LLC protects, but insurance pays first. Without insurance, still at risk |
-
+- **Personal guarantee:** If you signed the mortgage personally, they can pursue you
+- **Fraud:** Using LLC for illegal activities voids protection
+- **Commingling funds:** Mixing personal and LLC money (commingling)
+- **Inadequate capitalization:** If LLC has insufficient capital, court may "pierce the veil"
+- **Insufficient insurance:** LLC protects, but insurance pays first. Without insurance, still at risk
 > To maintain LLC protection: separate bank account, separate accounting, contracts in LLC name, and adequate insurance.
 
 ## 2. Privacy and Anonymity
 
 ### How Private Is an LLC?
 
-| State | Members Public? | Anonymity Level |
-|-------|----------------|-----------------|
-| **Delaware** | Yes (names on record) | Low |
-| **Florida** | Yes (names on Sunbiz) | Low |
-| **Wyoming** | No (members not recorded) | High |
-| **New Mexico** | No (no member registry) | Maximum |
-| **Nevada** | No (members not recorded) | High |
-| **Texas** | Yes (names on record) | Low |
-
+- **Delaware:** Yes (names on record) -- Low
+- **Florida:** Yes (names on Sunbiz) -- Low
+- **Wyoming:** No (members not recorded) -- High
+- **New Mexico:** No (no member registry) -- Maximum
+- **Nevada:** No (members not recorded) -- High
+- **Texas:** Yes (names on record) -- Low
 ### How to Maximize Anonymity
 
 ### Stripe and Privacy
@@ -58,69 +49,54 @@ The main benefit of an LLC is separating your personal assets from the property'
 
 ### LLC Tax Flexibility
 
-| Aspect | LLC | Corporation (C-Corp) |
-|--------|-----|---------------------|
-| **Taxation type** | Pass-through (owners report) | Double taxation |
-| **Deductions** | Interest, depreciation, repairs, travel | Same |
-| **Losses** | Pass to personal return | Stay in corporation |
-| **Self-employment tax** | Applies to active income | Reasonable salary + dividends |
-| **Tax election** | Can elect S-Corp or C-Corp | C-Corp only |
-
+- **Taxation type:** Pass-through (owners report) -- Double taxation
+- **Deductions:** Interest, depreciation, repairs, travel -- Same
+- **Losses:** Pass to personal return -- Stay in corporation
+- **Self-employment tax:** Applies to active income -- Reasonable salary + dividends
+- **Tax election:** Can elect S-Corp or C-Corp -- C-Corp only
 ### Tax Deductions for LLC Properties
 
-| Deduction | Description |
-|-----------|-------------|
-| **Mortgage interest** | All loan interest on the property |
-| **Depreciation** | 27.5 years for residential (3.636% annual) |
-| **Repairs and maintenance** | Direct property upkeep costs |
-| **Property tax** | Real estate taxes paid |
-| **Insurance** | All property insurance premiums |
-| **Travel** | Travel to inspect or manage the property |
-| **Professional fees** | Lawyer, accountant, property manager |
-| **Marketing** | Advertising, photos, listing fees |
-| **HOA fees** | Homeowners association dues |
-| **Utilities** | If paid by owner |
-
+- **Mortgage interest:** All loan interest on the property
+- **Depreciation:** 27.5 years for residential (3.636% annual)
+- **Repairs and maintenance:** Direct property upkeep costs
+- **Property tax:** Real estate taxes paid
+- **Insurance:** All property insurance premiums
+- **Travel:** Travel to inspect or manage the property
+- **Professional fees:** Lawyer, accountant, property manager
+- **Marketing:** Advertising, photos, listing fees
+- **HOA fees:** Homeowners association dues
+- **Utilities:** If paid by owner
 ### Tax Savings Example
 
 ## 4. Estate Planning
 
 ### The LLC as a Succession Tool
 
-| Aspect | Without LLC | With LLC |
-|--------|------------|---------|
-| **Property inheritance** | Probate in the state where property is | LLC avoids probate |
-| **Multiple heirs** | Complicated division | Each heir receives LLC % |
-| **Foreigners** | Complex probate if heirs live abroad | LLC shares transfer easily |
-| **Control** | Heirs decide | You set rules in operating agreement |
-| **Time** | 6-18 months probate | 1-2 months transfer |
-
+- **Property inheritance:** Probate in the state where property is -- LLC avoids probate
+- **Multiple heirs:** Complicated division -- Each heir receives LLC %
+- **Foreigners:** Complex probate if heirs live abroad -- LLC shares transfer easily
+- **Control:** Heirs decide -- You set rules in operating agreement
+- **Time:** 6-18 months probate -- 1-2 months transfer
 ### How LLC Succession Works
 
 ## 5. Professional Credibility
 
 ### Why an LLC Inspires Trust
 
-| Aspect | Personal Owner | LLC |
-|---------|---------------|-----|
-| **Rental contracts** | "John Doe" | "Miami Properties LLC" |
-| **Stripe/Processor** | Personal account | Business account |
-| **Tenants** | Question professionalism | More trust |
-| **Vendors** | Contractors doubt | Formal contracts |
-| **Banks** | Limited personal credit | Business credit |
-| **Insurance** | Personal policy | Commercial policy |
-
+- **Rental contracts:** "John Doe" -- "Miami Properties LLC"
+- **Stripe/Processor:** Personal account -- Business account
+- **Tenants:** Question professionalism -- More trust
+- **Vendors:** Contractors doubt -- Formal contracts
+- **Banks:** Limited personal credit -- Business credit
+- **Insurance:** Personal policy -- Commercial policy
 ## 6. Multi-Owner Flexibility
 
 ### The LLC for Group Investments
 
-| Structure | Use |
-|-----------|-----|
-| **Single-member LLC** | One owner (you) |
-| **Multi-member LLC** | Multiple investors |
-| **Series LLC** | One LLC with separate series per property |
-| **Joint venture LLC** | Between two companies or individuals |
-
+- **Single-member LLC:** One owner (you)
+- **Multi-member LLC:** Multiple investors
+- **Series LLC:** One LLC with separate series per property
+- **Joint venture LLC:** Between two companies or individuals
 ### Multi-member LLC
 
 ### Series LLC
@@ -131,84 +107,66 @@ The main benefit of an LLC is separating your personal assets from the property'
 
 ### Stripe Advantages for LLCs
 
-| Feature | Benefit |
-|---------|---------|
-| **Recurring billing** | Automatic monthly rent collection |
-| **Stripe Tax** | Automatic tax calculation |
-| **Stripe Connect** | Distribution to multiple members |
-| **Stripe Dashboard** | LLC financial reports |
-| **Stripe Invoices** | Professional tenant invoices |
-| **ACH payments** | Direct bank transfers |
-| **Disputes (chargebacks)** | Professional dispute handling |
-| **1099-K** | Income reporting to IRS |
-
+- **Recurring billing:** Automatic monthly rent collection
+- **Stripe Tax:** Automatic tax calculation
+- **Stripe Connect:** Distribution to multiple members
+- **Stripe Dashboard:** LLC financial reports
+- **Stripe Invoices:** Professional tenant invoices
+- **ACH payments:** Direct bank transfers
+- **Disputes (chargebacks):** Professional dispute handling
+- **1099-K:** Income reporting to IRS
 ## 8. Comparison: LLC vs Other Structures
 
 ### Comparative Table
 
-| Aspect | Personal Name | LLC | Trust | C-Corp | S-Corp |
-|--------|---------------|-----|-------|--------|--------|
-| **Asset protection** | ❌ None | ✅ Excellent | ✅ Good | ✅ Excellent | ✅ Excellent |
-| **Formation cost** | $0 | $100-500 | $500-2,000 | $200-1,000 | $200-1,000 |
-| **Annual cost** | $0 | $100-800 | $0-500 | $400-2,000 | $400-2,000 |
-| **Privacy** | ❌ Public | ⚠️ Depends | ✅ High | ❌ Public | ❌ Public |
-| **Avoids probate** | ❌ No | ⚠️ Partial | ✅ Yes | ⚠️ Partial | ⚠️ Partial |
-| **Multi-owner** | ❌ Hard | ✅ Easy | ✅ Easy | ✅ Easy | ⚠️ Limited |
-| **Stripe compatible** | ✅ Yes | ✅ Yes | ❌ Indirect | ✅ Yes | ✅ Yes |
-| **Tax flexibility** | ✅ Yes | ✅ Excellent | ⚠️ Limited | ❌ Double | ✅ Good |
-| **Easy mortgage** | ✅ Yes | ⚠️ DSCR | ❌ Hard | ⚠️ Hard | ⚠️ Hard |
-| **Future sale (FIRPTA)** | ✅ Direct | ✅ Direct | ⚠️ Complex | ⚠️ Complex | ⚠️ Complex |
-
+- **Asset protection:** ❌ None -- ✅ Excellent -- ✅ Good -- ✅ Excellent -- ✅ Excellent
+- **Formation cost:** $0 -- $100-500 -- $500-2,000 -- $200-1,000 -- $200-1,000
+- **Annual cost:** $0 -- $100-800 -- $0-500 -- $400-2,000 -- $400-2,000
+- **Privacy:** ❌ Public -- ⚠️ Depends -- ✅ High -- ❌ Public -- ❌ Public
+- **Avoids probate:** ❌ No -- ⚠️ Partial -- ✅ Yes -- ⚠️ Partial -- ⚠️ Partial
+- **Multi-owner:** ❌ Hard -- ✅ Easy -- ✅ Easy -- ✅ Easy -- ⚠️ Limited
+- **Stripe compatible:** ✅ Yes -- ✅ Yes -- ❌ Indirect -- ✅ Yes -- ✅ Yes
+- **Tax flexibility:** ✅ Yes -- ✅ Excellent -- ⚠️ Limited -- ❌ Double -- ✅ Good
+- **Easy mortgage:** ✅ Yes -- ⚠️ DSCR -- ❌ Hard -- ⚠️ Hard -- ⚠️ Hard
+- **Future sale (FIRPTA):** ✅ Direct -- ✅ Direct -- ⚠️ Complex -- ⚠️ Complex -- ⚠️ Complex
 ### When to Use Each Structure
 
-| Situation | Recommended Structure |
-|-----------|----------------------|
-| **1 rental property** | LLC |
-| **3+ properties** | Separate LLCs or Series LLC |
-| **High-risk property** | LLC (pool, vacation rental) |
-| **Primary residence** | Revocable trust |
-| **Investment with partners** | Multi-member LLC |
-| **Total anonymity** | Land Trust + LLC (WY/NM) |
-| **Net worth > $5M** | Irrevocable trust + LLC |
-| **Future sale planned** | LLC |
-
+- **1 rental property:** LLC
+- **3+ properties:** Separate LLCs or Series LLC
+- **High-risk property:** LLC (pool, vacation rental)
+- **Primary residence:** Revocable trust
+- **Investment with partners:** Multi-member LLC
+- **Total anonymity:** Land Trust + LLC (WY/NM)
+- **Net worth > $5M:** Irrevocable trust + LLC
+- **Future sale planned:** LLC
 ## 9. Myths and Realities
 
-| Myth | Reality |
-|------|---------|
-| **"The LLC automatically protects everything"** | Only protects if you maintain fund and operation separation |
-| **"I don't need insurance with an LLC"** | False. Insurance pays the first $X, LLC protects the rest |
-| **"Having an LLC is too expensive"** | Costs $100-800/year. A lawsuit without LLC can cost $100K+ |
-| **"I can't get a mortgage with an LLC"** | You can, with DSCR loan or portfolio loan |
-| **"LLC isn't for personal property"** | Correct, use a trust for your home, LLC for investment |
-| **"Forming an LLC in my state is best"** | Depends. WY/NM give anonymity, FL/TX are better for operating |
-| **"The LLC avoids all taxes"** | No. The LLC doesn't avoid taxes, it structures them better |
-| **"With an LLC I can't be sued"** | You can be sued personally for other reasons, and the LLC for the property |
-
+- **"The LLC automatically protects everything":** Only protects if you maintain fund and operation separation
+- **"I don't need insurance with an LLC":** False. Insurance pays the first $X, LLC protects the rest
+- **"Having an LLC is too expensive":** Costs $100-800/year. A lawsuit without LLC can cost $100K+
+- **"I can't get a mortgage with an LLC":** You can, with DSCR loan or portfolio loan
+- **"LLC isn't for personal property":** Correct, use a trust for your home, LLC for investment
+- **"Forming an LLC in my state is best":** Depends. WY/NM give anonymity, FL/TX are better for operating
+- **"The LLC avoids all taxes":** No. The LLC doesn't avoid taxes, it structures them better
+- **"With an LLC I can't be sued":** You can be sued personally for other reasons, and the LLC for the property
 ## 10. LLC Costs and Maintenance
 
 ### Costs by State
 
-| State | Formation | Annual Report | Registered Agent | Total Year 1 | Annual Total |
-|-------|----------|--------------|-----------------|-------------|-------------|
-| **Florida** | $125 | $138.75 | $50-150 | $325-425 | $189-289 |
-| **Delaware** | $90 | $300 (franchise) | $50-200 | $240-390 | $350-500 |
-| **Wyoming** | $100 | $60 (report) | $50-150 | $250-350 | $110-210 |
-| **New Mexico** | $50 | $0 (no report) | $50-150 | $150-200 | $50-150 |
-| **Texas** | $300 | $0 (no report) | $50-150 | $400-450 | $50-150 |
-
+- **Florida:** $125 -- $138.75 -- $50-150 -- $325-425 -- $189-289
+- **Delaware:** $90 -- $300 (franchise) -- $50-200 -- $240-390 -- $350-500
+- **Wyoming:** $100 -- $60 (report) -- $50-150 -- $250-350 -- $110-210
+- **New Mexico:** $50 -- $0 (no report) -- $50-150 -- $150-200 -- $50-150
+- **Texas:** $300 -- $0 (no report) -- $50-150 -- $400-450 -- $50-150
 ### Additional Expenses
 
-| Item | Annual Cost |
-|------|------------|
-| **EIN (IRS)** | Free |
-| **Business bank account** | Free (Mercury, Relay) |
-| **Stripe (processing)** | 2.9% + $0.30 per transaction |
-| **Accountant (CPA)** | $500-2,000 |
-| **Property manager** | 8-12% of rents |
-| **Liability insurance** | $500-2,000 |
-| **Local business license** | $50-200 |
-
+- **EIN (IRS):** Free
+- **Business bank account:** Free (Mercury, Relay)
+- **Stripe (processing):** 2.9% + $0.30 per transaction
+- **Accountant (CPA):** $500-2,000
+- **Property manager:** 8-12% of rents
+- **Liability insurance:** $500-2,000
+- **Local business license:** $50-200
 ## 11. Checklist: Should You Buy with an LLC?
 
 ### Questions to Decide

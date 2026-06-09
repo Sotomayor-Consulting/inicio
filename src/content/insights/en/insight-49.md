@@ -15,12 +15,9 @@ In this complete guide, we explain the main tax protection strategies for entrep
 
 ### Fundamental Concepts
 
-| Concept | Description |
-|---------|-------------|
-| **Tax evasion** | Illegal action to avoid paying taxes (fraud, concealment) |
-| **Tax avoidance** | Use of legal loopholes to reduce taxes (gray area) |
-| **Tax planning** | Advance and legal organization of operations to optimize tax burden |
-
+- **Tax evasion:** Illegal action to avoid paying taxes (fraud, concealment)
+- **Tax avoidance:** Use of legal loopholes to reduce taxes (gray area)
+- **Tax planning:** Advance and legal organization of operations to optimize tax burden
 > **Golden rule:** Tax protection must be **preventive**, not corrective. Planning before acting is legal; trying to fix afterwards can be considered fraud.
 
 ### Why is it important?
@@ -36,12 +33,9 @@ In this complete guide, we explain the main tax protection strategies for entrep
 
 Choosing the right tax regime is the most important decision for any company's tax protection.
 
-| Regime | Maximum Annual Revenue | Typical Burden | Ideal for |
-|--------|----------------------|--------------|-----------|
-| **Simplified Regime** | Varies by country | 4% to 15% | Micro and small businesses |
-| **Presumed Profit** | Varies by country | 11% to 14% | Service and trade companies |
-| **Actual Profit** | No limit | 15% to 34% | Companies with variable margins or high expenses |
-
+- **Simplified Regime:** Varies by country -- 4% to 15% -- Micro and small businesses
+- **Presumed Profit:** Varies by country -- 11% to 14% -- Service and trade companies
+- **Actual Profit:** No limit -- 15% to 34% -- Companies with variable margins or high expenses
 ### 2.2 Strategic Profit Distribution
 
 In many countries, profits distributed to shareholders have significant tax benefits.
@@ -71,12 +65,9 @@ Maximizing tax deductions is one of the simplest forms of tax protection:
 
 Entrepreneurs can choose between different retirement regimes:
 
-| Option | Contribution | Benefit |
-|--------|-------------|---------|
-| **Social Security** | Percentage on salary | Public pension |
-| **Individual Retirement Account** | Tax-deductible (with limits) | Retirement supplement |
-| **Company Pension Plan** | Deductible for the company | Benefits for employees and shareholders |
-
+- **Social Security:** Percentage on salary -- Public pension
+- **Individual Retirement Account:** Tax-deductible (with limits) -- Retirement supplement
+- **Company Pension Plan:** Deductible for the company -- Benefits for employees and shareholders
 ## 3. Advanced Tax Protection Structures
 
 ### 3.1 Asset Holding Company
@@ -140,13 +131,10 @@ Estate planning allows transferring assets to heirs with reduced tax burden:
 
 ### 5.1 What to AVOID
 
-| Mistake | Consequence |
-|---------|-------------|
-| Distributing profits without regular accounting | Deduction disallowed by tax authority |
-| Mixing personal and business expenses | Deduction disallowed and fines |
-| Using offshore companies without reporting | Significant penalties and possible criminal prosecution |
-| Not doing annual tax planning | Lost tax savings opportunities |
-
+- **Distributing profits without regular accounting:** Deduction disallowed by tax authority
+- **Mixing personal and business expenses:** Deduction disallowed and fines
+- **Using offshore companies without reporting:** Significant penalties and possible criminal prosecution
+- **Not doing annual tax planning:** Lost tax savings opportunities
 ### 5.2 Legislative Change Risks
 
 - Ongoing tax reforms in various countries
@@ -159,11 +147,8 @@ Estate planning allows transferring assets to heirs with reduced tax burden:
 
 ### 6.1 Tax Residence vs. Source
 
-| Principle | Description | Strategy |
-|-----------|------------|----------|
-| **Residence** | Country taxes worldwide income of resident | Choose strategic tax residence |
-| **Source** | Country taxes income generated in its territory | Structure to reduce source taxation |
-
+- **Residence:** Country taxes worldwide income of resident -- Choose strategic tax residence
+- **Source:** Country taxes income generated in its territory -- Structure to reduce source taxation
 ### 6.2 International Tax Treaties
 
 Tax treaties to avoid double taxation allow:
@@ -197,13 +182,10 @@ Tax treaties to avoid double taxation allow:
 
 ## 8. Essential Professionals for Tax Protection
 
-| Professional | Role |
-|-------------|------|
-| **Specialized accountant** | Tax planning and accounting |
-| **Tax attorney** | Corporate structuring and tax litigation |
-| **International consultant** | Offshore structures and treaties |
-| **Financial planner** | Estate and retirement planning |
-
+- **Specialized accountant:** Tax planning and accounting
+- **Tax attorney:** Corporate structuring and tax litigation
+- **International consultant:** Offshore structures and treaties
+- **Financial planner:** Estate and retirement planning
 > **Cost vs. Benefit:** Investing in specialized tax protection advisory typically yields a 5x to 20x return on the amount invested in tax savings.
 
 ## Conclusion

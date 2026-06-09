@@ -65,12 +65,9 @@ Canada offers certain corporate privacy advantages:
 - LP financial information is private (not filed publicly)
 
 ### Comparison with the U.S.:
-| Aspect | Canadian LP | U.S. LLC |
-|---|---|---|
-| Partner registration | Private (LP not registered) | Generally private in most states |
-| Financial information | Private | Private in most states |
-| Beneficial ownership reporting | Federal reporting (since 2024) | BOI (Corporate Transparency Act) |
-
+- **Partner registration:** Private (LP not registered) -- Generally private in most states
+- **Financial information:** Private -- Private in most states
+- **Beneficial ownership reporting:** Federal reporting (since 2024) -- BOI (Corporate Transparency Act)
 > **Important note:** Since 2024, Canada is implementing a federal beneficial ownership registry, which reduces anonymity. However, it remains more private than many structures in other jurisdictions.
 
 ## 5. Flexibility in Profit Distribution
@@ -104,14 +101,11 @@ The Canadian LP is especially popular for real estate investments:
 Compared to other international structures, the Canadian LP is relatively inexpensive:
 
 ### Estimated costs:
-| Concept | Cost |
-|---|---|
-| Formation (provincial registration) | $200 - $500 CAD |
-| Registered office (annual) | $200 - $400 CAD |
-| Annual return (provincial) | $100 - $300 CAD |
-| Accounting and tax (annual) | $1,000 - $3,000 CAD |
-| **Total annual maintenance** | **$1,300 - $3,700+ CAD** |
-
+- **Formation (provincial registration):** $200 - $500 CAD
+- **Registered office (annual):** $200 - $400 CAD
+- **Annual return (provincial):** $100 - $300 CAD
+- **Accounting and tax (annual):** $1,000 - $3,000 CAD
+- **Total annual maintenance:** **$1,300 - $3,700+ CAD**
 ### Advantage over European holdings:
 - Significantly cheaper than a Netherlands, Luxembourg, or Switzerland holding
 - No mandatory external audit requirements
@@ -138,15 +132,12 @@ Compared to other international structures, the Canadian LP is relatively inexpe
 
 ## 9. Comparison with Other Structures
 
-| Aspect | Canadian LP | U.S. LLC | European Holding |
-|---|---|---|---|
-| **Annual cost** | $1,300 - $3,700 CAD | $500 - $2,000 USD | $9,500 - $54,000+ |
-| **Partner privacy** | High (not public) | Medium | Low (public in EU) |
-| **Non-resident taxation** | Favorable (if no business in Canada) | Depends on state | Depends on country |
-| **Treaty access** | Canada-U.S. favorable | U.S. treaty network | Country's treaty network |
-| **Asset protection** | High (LP) | High (LLC) | High |
-| **Complexity** | Medium | Low-Medium | High |
-
+- **Annual cost:** $1,300 - $3,700 CAD -- $500 - $2,000 USD -- $9,500 - $54,000+
+- **Partner privacy:** High (not public) -- Medium -- Low (public in EU)
+- **Non-resident taxation:** Favorable (if no business in Canada) -- Depends on state -- Depends on country
+- **Treaty access:** Canada-U.S. favorable -- U.S. treaty network -- Country's treaty network
+- **Asset protection:** High (LP) -- High (LLC) -- High
+- **Complexity:** Medium -- Low-Medium -- High
 ## 10. Who Is a Canadian LP Ideal For?
 
 ### Ideal for:

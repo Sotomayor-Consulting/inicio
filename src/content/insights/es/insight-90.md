@@ -1,129 +1,102 @@
-Ôªø---
-title: "C√≥mo Generar Ingresos Pasivos con Propiedades en EE. UU.: Gu√≠a 2026"
-description: "C√≥mo generar ingresos pasivos con propiedades en EE. UU."
+---
+title: "CÛmo Generar Ingresos Pasivos con Propiedades en EE. UU.: GuÌa 2026"
+description: "CÛmo generar ingresos pasivos con propiedades en EE. UU."
 cardImage: "@/images/insights/real-state.png"
-cardImageAlt: "Espectro de ingresos pasivos con propiedades: REITs, crowdfunding, turnkey, LTR, STR, con iconos de Stripe y flujo de dinero autom√°tico"
+cardImageAlt: "Espectro de ingresos pasivos con propiedades: REITs, crowdfunding, turnkey, LTR, STR, con iconos de Stripe y flujo de dinero autom·tico"
 ---
 
-**Generar ingresos pasivos con propiedades en EE. UU.** es el sue√±o de todo inversor: rentas que llegan autom√°ticamente cada mes sin que tengas que levantar un dedo. La realidad es que existen diferentes niveles de "pasividad", desde completamente pasivo (REITs, crowdfunding) hasta semi-pasivo (turnkey properties con property manager, long-term rentals).
+**Generar ingresos pasivos con propiedades en EE. UU.** es el sueÒo de todo inversor: rentas que llegan autom·ticamente cada mes sin que tengas que levantar un dedo. La realidad es que existen diferentes niveles de "pasividad", desde completamente pasivo (REITs, crowdfunding) hasta semi-pasivo (turnkey properties con property manager, long-term rentals).
 
-En esta gu√≠a, explicamos **c√≥mo generar ingresos pasivos con propiedades en EE. UU.** en 2026: desde la estrategia m√°s pasiva hasta la m√°s activa, con ejemplos, n√∫meros reales, y c√≥mo Stripe automatiza el cobro de rentas.
+En esta guÌa, explicamos **cÛmo generar ingresos pasivos con propiedades en EE. UU.** en 2026: desde la estrategia m·s pasiva hasta la m·s activa, con ejemplos, n˙meros reales, y cÛmo Stripe automatiza el cobro de rentas.
 
 ## 1. El Espectro de la Pasividad
 
 ### De 100% Pasivo a 100% Activo
 
-| Estrategia | Nivel de Pasividad | Ingreso Mensual (por $100K) | Tiempo Requerido | Riesgo |
-|-----------|-------------------|---------------------------|-----------------|--------|
-| **REITs** | ‚úÖ 100% pasivo | $500-800 (dividendos) | 0 horas/mes | Medio |
-| **Crowdfunding inmobiliario** | ‚úÖ 95% pasivo | $700-1,200 | 0.5 horas/mes | Medio-Alto |
-| **Turnkey LTR (con PM)** | ‚úÖ 90% pasivo | $600-1,000 | 1-2 horas/mes | Bajo-Medio |
-| **Turnkey STR (con PM)** | ‚ö†Ô∏è 80% pasivo | $800-1,500 | 2-4 horas/mes | Medio |
-| **LTR con PM propio** | ‚ö†Ô∏è 70% pasivo | $700-1,100 | 3-5 horas/mes | Bajo |
-| **STR con PM propio** | ‚ö†Ô∏è 60% pasivo | $900-1,800 | 5-10 horas/mes | Medio |
-| **House hacking** | ‚ùå 50% pasivo | $500-1,000 (vivienda gratis) | 5-15 horas/mes | Bajo |
-| **Flip (activo)** | ‚ùå 0% pasivo | Variable (lump sum) | 40+ horas/semana | Alto |
-
+- **REITs:** ? 100% pasivo -- $500-800 (dividendos) -- 0 horas/mes -- Medio
+- **Crowdfunding inmobiliario:** ? 95% pasivo -- $700-1,200 -- 0.5 horas/mes -- Medio-Alto
+- **Turnkey LTR (con PM):** ? 90% pasivo -- $600-1,000 -- 1-2 horas/mes -- Bajo-Medio
+- **Turnkey STR (con PM):** ?? 80% pasivo -- $800-1,500 -- 2-4 horas/mes -- Medio
+- **LTR con PM propio:** ?? 70% pasivo -- $700-1,100 -- 3-5 horas/mes -- Bajo
+- **STR con PM propio:** ?? 60% pasivo -- $900-1,800 -- 5-10 horas/mes -- Medio
+- **House hacking:** ? 50% pasivo -- $500-1,000 (vivienda gratis) -- 5-15 horas/mes -- Bajo
+- **Flip (activo):** ? 0% pasivo -- Variable (lump sum) -- 40+ horas/semana -- Alto
 ### No Existe el Ingreso 100% Pasivo
 
 ## 2. REITs (Real Estate Investment Trusts)
 
-### La Opci√≥n M√°s Pasiva
+### La OpciÛn M·s Pasiva
 
-| Aspecto | Detalle |
-|---------|---------|
-| **Qu√© es** | Empresa que posee y opera bienes ra√≠ces que generan ingresos. Compras acciones y recibes dividendos. |
-| **Inversi√≥n m√≠nima** | $0 (puedes comprar 1 acci√≥n) |
-| **Rendimiento t√≠pico** | 4-12% anual en dividendos |
-| **Liquidez** | Alta (se vende en bolsa) |
-| **Impuestos** | 15-30% sobre dividendos (depende de tu pa√≠s) |
-| **Pasividad** | 100% (todo lo hace el equipo gestor) |
-
+- **QuÈ es:** Empresa que posee y opera bienes raÌces que generan ingresos. Compras acciones y recibes dividendos.
+- **InversiÛn mÌnima:** $0 (puedes comprar 1 acciÛn)
+- **Rendimiento tÌpico:** 4-12% anual en dividendos
+- **Liquidez:** Alta (se vende en bolsa)
+- **Impuestos:** 15-30% sobre dividendos (depende de tu paÌs)
+- **Pasividad:** 100% (todo lo hace el equipo gestor)
 ### REITs Recomendados para 2026
 
-| REIT | Sector | Dividend Yield | Market Cap |
-|------|--------|---------------|------------|
-| **Realty Income (O)** | Retail/comercial | 5.5% | $45B+ |
-| **Equity Residential (EQR)** | Apartamentos | 4.2% | $25B+ |
-| **Prologis (PLD)** | Log√≠stica/industrial | 3.2% | $100B+ |
-| **VICI Properties (VICI)** | Entretenimiento | 5.8% | $35B+ |
-| **Digital Realty (DLR)** | Data centers | 3.5% | $50B+ |
-
+- **Realty Income (O):** Retail/comercial -- 5.5% -- $45B+
+- **Equity Residential (EQR):** Apartamentos -- 4.2% -- $25B+
+- **Prologis (PLD):** LogÌstica/industrial -- 3.2% -- $100B+
+- **VICI Properties (VICI):** Entretenimiento -- 5.8% -- $35B+
+- **Digital Realty (DLR):** Data centers -- 3.5% -- $50B+
 ### Ventajas y Desventajas
 
-| Ventajas | Desventajas |
-|----------|------------|
-| ‚úÖ 100% pasivo | ‚ùå No controlas las propiedades |
-| ‚úÖ Alta liquidez | ‚ùå Sujeto a volatilidad del mercado |
-| ‚úÖ Inversi√≥n m√≠nima baja | ‚ùå Dividendos gravados como ingreso ordinario |
-| ‚úÖ Diversificaci√≥n | ‚ùå No hay depreciaci√≥n fiscal (para extranjeros) |
-| ‚úÖ No necesitas LLC | ‚ùå No hay apalancamiento (no usas hipoteca) |
-
+- **? 100% pasivo:** ? No controlas las propiedades
+- **? Alta liquidez:** ? Sujeto a volatilidad del mercado
+- **? InversiÛn mÌnima baja:** ? Dividendos gravados como ingreso ordinario
+- **? DiversificaciÛn:** ? No hay depreciaciÛn fiscal (para extranjeros)
+- **? No necesitas LLC:** ? No hay apalancamiento (no usas hipoteca)
 ## 3. Crowdfunding Inmobiliario
 
-### Inversi√≥n Colectiva en Proyectos
+### InversiÛn Colectiva en Proyectos
 
-| Aspecto | Detalle |
-|---------|---------|
-| **Qu√© es** | Plataformas donde m√∫ltiples inversores se unen para financiar proyectos inmobiliarios |
-| **Inversi√≥n m√≠nima** | $500-$25,000 (seg√∫n plataforma) |
-| **Rendimiento t√≠pico** | 8-15% anual |
-| **Plazo** | 6-36 meses (por proyecto) |
-| **Pasividad** | 95% (el sponsor gestiona todo) |
-
+- **QuÈ es:** Plataformas donde m˙ltiples inversores se unen para financiar proyectos inmobiliarios
+- **InversiÛn mÌnima:** $500-$25,000 (seg˙n plataforma)
+- **Rendimiento tÌpico:** 8-15% anual
+- **Plazo:** 6-36 meses (por proyecto)
+- **Pasividad:** 95% (el sponsor gestiona todo)
 ### Plataformas Populares 2026
 
-| Plataforma | M√≠nimo | Rendimiento | Tipo de Proyecto |
-|-----------|--------|------------|-----------------|
-| **Fundrise** | $10 | 8-12% | Cartera diversificada |
-| **CrowdStreet** | $25,000 | 12-18% | Proyectos comerciales |
-| **RealtyMogul** | $5,000 | 8-14% | Multifamiliar, comercial |
-| **YieldStreet** | $5,000 | 9-15% | Deuda inmobiliaria |
-| **Groundfloor** | $10 | 7-12% | Pr√©stamos de corto plazo |
-
-### C√≥mo Funciona
+- **Fundrise:** $10 -- 8-12% -- Cartera diversificada
+- **CrowdStreet:** $25,000 -- 12-18% -- Proyectos comerciales
+- **RealtyMogul:** $5,000 -- 8-14% -- Multifamiliar, comercial
+- **YieldStreet:** $5,000 -- 9-15% -- Deuda inmobiliaria
+- **Groundfloor:** $10 -- 7-12% -- PrÈstamos de corto plazo
+### CÛmo Funciona
 
 ## 4. Turnkey Properties (LTR con Property Manager)
 
-### La Opci√≥n M√°s Popular para Ingreso Pasivo
+### La OpciÛn M·s Popular para Ingreso Pasivo
 
-| Aspecto | Detalle |
-|---------|---------|
-| **Qu√© es** | Propiedades listas para alquilar (rehabilitadas, con inquilino o listas para poner) + property manager que las gestiona |
-| **Inversi√≥n t√≠pica** | $100,000-400,000 por propiedad |
-| **Rendimiento neto** | 6-10% anual (cash-on-cash) |
-| **Pasividad** | 90% (solo revisas reportes y taxes) |
-
+- **QuÈ es:** Propiedades listas para alquilar (rehabilitadas, con inquilino o listas para poner) + property manager que las gestiona
+- **InversiÛn tÌpica:** $100,000-400,000 por propiedad
+- **Rendimiento neto:** 6-10% anual (cash-on-cash)
+- **Pasividad:** 90% (solo revisas reportes y taxes)
 ### El Flujo de Ingreso Pasivo con Turnkey
 
-### Ejemplo Num√©rico Real
+### Ejemplo NumÈrico Real
 
 ## 5. Short-Term Rentals (STR) Pasivos
 
 ### STR con Property Manager
 
-| Aspecto | LTR | STR (con PM) |
-|---------|-----|-------------|
-| **Ingreso bruto** | $2,800/mes | $4,500/mes |
-| **Gastos operativos** | 50-60% | 55-70% |
-| **Ingreso neto** | $344/mes | $600-1,000/mes |
-| **Pasividad** | 90% | 80% |
-| **Gesti√≥n del PM** | Baja (inquilino estable) | Alta (check-in/out, limpieza) |
-| **Stripe** | Suscripci√≥n mensual | Pago por reserva |
-
+- **Ingreso bruto:** $2,800/mes -- $4,500/mes
+- **Gastos operativos:** 50-60% -- 55-70%
+- **Ingreso neto:** $344/mes -- $600-1,000/mes
+- **Pasividad:** 90% -- 80%
+- **GestiÛn del PM:** Baja (inquilino estable) -- Alta (check-in/out, limpieza)
+- **Stripe:** SuscripciÛn mensual -- Pago por reserva
 ### Costo de la Pasividad en STR
 
 ## 6. House Hacking: Vive Gratis + Ingreso
 
 ### La Estrategia de Entrada
 
-| Aspecto | Detalle |
-|---------|---------|
-| **Qu√© es** | Comprar una propiedad multifamiliar (2-4 unidades), vivir en una unidad y alquilar las otras |
-| **Inversi√≥n** | Baja (hipoteca FHA o DSCR) |
-| **Pasividad** | 50% (eres vecino de tus inquilinos) |
-| **Beneficio** | Vivienda gratis + flujo de caja |
-
+- **QuÈ es:** Comprar una propiedad multifamiliar (2-4 unidades), vivir en una unidad y alquilar las otras
+- **InversiÛn:** Baja (hipoteca FHA o DSCR)
+- **Pasividad:** 50% (eres vecino de tus inquilinos)
+- **Beneficio:** Vivienda gratis + flujo de caja
 ### Ejemplo de House Hacking
 
 ### House Hacking como Plataforma
@@ -132,84 +105,72 @@ En esta gu√≠a, explicamos **c√≥mo generar ingresos pasivos con propiedades en EE
 
 ### Estrategia Sin Capital
 
-| Aspecto | Detalle |
-|---------|---------|
-| **Qu√© es** | Alquilar una propiedad a largo plazo y subalquilarla a corto plazo (STR) |
-| **Inversi√≥n** | Baja (dep√≥sito + primer mes) |
-| **Riesgo** | Alto (el contrato debe permitir subarriendo) |
-| **Pasividad** | 70% (con PM para STR) |
-
-### C√≥mo Funciona
+- **QuÈ es:** Alquilar una propiedad a largo plazo y subalquilarla a corto plazo (STR)
+- **InversiÛn:** Baja (depÛsito + primer mes)
+- **Riesgo:** Alto (el contrato debe permitir subarriendo)
+- **Pasividad:** 70% (con PM para STR)
+### CÛmo Funciona
 
 ## 8. Notas Privadas (Private Lending)
 
 ### Ser el Banco
 
-| Aspecto | Detalle |
-|---------|---------|
-| **Qu√© es** | Prestar dinero a otros inversores inmobiliarios con la propiedad como garant√≠a |
-| **Inversi√≥n m√≠nima** | $50,000+ |
-| **Rendimiento** | 9-15% anual |
-| **Plazo** | 6-24 meses |
-| **Pasividad** | 95% (solo cobras intereses) |
-
-### C√≥mo Funciona
+- **QuÈ es:** Prestar dinero a otros inversores inmobiliarios con la propiedad como garantÌa
+- **InversiÛn mÌnima:** $50,000+
+- **Rendimiento:** 9-15% anual
+- **Plazo:** 6-24 meses
+- **Pasividad:** 95% (solo cobras intereses)
+### CÛmo Funciona
 
 ## 9. Triple Net Lease (NNN)
 
 ### El Santo Grial del Ingreso Pasivo
 
-| Aspecto | Detalle |
-|---------|---------|
-| **Qu√© es** | Propiedad comercial donde el inquilino paga TODO: renta + insurance + taxes + maintenance |
-| **Tipo de inquilinos** | Cadenas nacionales (Starbucks, Walgreens, CVS, McDonald's) |
-| **Rendimiento** | 4-8% anual |
-| **Plazo** | 10-25 a√±os |
-| **Pasividad** | 99% (casi absoluta) |
-
+- **QuÈ es:** Propiedad comercial donde el inquilino paga TODO: renta + insurance + taxes + maintenance
+- **Tipo de inquilinos:** Cadenas nacionales (Starbucks, Walgreens, CVS, McDonald's)
+- **Rendimiento:** 4-8% anual
+- **Plazo:** 10-25 aÒos
+- **Pasividad:** 99% (casi absoluta)
 ### Ventajas del NNN
 
-## 10. C√≥mo Automatizar con Stripe
+## 10. CÛmo Automatizar con Stripe
 
 ### El Stack de Ingreso Pasivo
 
-| Componente | Funci√≥n | Automatizaci√≥n |
-|-----------|---------|---------------|
-| **Stripe** | Cobro de rentas | ‚úÖ 100% autom√°tico |
-| **Stripe Tax** | C√°lculo de impuestos | ‚úÖ Autom√°tico |
-| **Stripe Reporting** | Reportes mensuales | ‚úÖ Generaci√≥n autom√°tica |
-| **Property Manager** | Gesti√≥n de inquilinos | ‚úÖ Ellos hacen todo |
-| **CPA** | Declaraci√≥n anual | ‚úÖ Anual |
-| **Registered Agent** | Compliance LLC | ‚úÖ Anual |
-| **Pagos autom√°ticos** | Hipoteca, seguro, tax | ‚úÖ Automated clearing house |
-
+- **Stripe:** Cobro de rentas -- ? 100% autom·tico
+- **Stripe Tax:** C·lculo de impuestos -- ? Autom·tico
+- **Stripe Reporting:** Reportes mensuales -- ? GeneraciÛn autom·tica
+- **Property Manager:** GestiÛn de inquilinos -- ? Ellos hacen todo
+- **CPA:** DeclaraciÛn anual -- ? Anual
+- **Registered Agent:** Compliance LLC -- ? Anual
+- **Pagos autom·ticos:** Hipoteca, seguro, tax -- ? Automated clearing house
 ### Tu Rutina Mensual (1-2 horas)
 
 ## 11. Preguntas Frecuentes
 
-### ¬øCu√°nto dinero necesito para generar $1,000/mes en ingresos pasivos?
+### øCu·nto dinero necesito para generar $1,000/mes en ingresos pasivos?
 
-Depende de la estrategia: REITs ($150,000-300,000 en dividendos al 4-8%), crowdfunding ($100,000-150,000 al 8-12%), turnkey LTR ($150,000-250,000 en down payments), STR ($100,000-200,000). La regla general: $100,000 invertidos generan $500-1,500/mes seg√∫n la estrategia.
+Depende de la estrategia: REITs ($150,000-300,000 en dividendos al 4-8%), crowdfunding ($100,000-150,000 al 8-12%), turnkey LTR ($150,000-250,000 en down payments), STR ($100,000-200,000). La regla general: $100,000 invertidos generan $500-1,500/mes seg˙n la estrategia.
 
-### ¬øQu√© estrategia es m√°s pasiva?
+### øQuÈ estrategia es m·s pasiva?
 
 REITs (100% pasivo) seguido de crowdfunding (95%) y NNN leases (99%). Turnkey con property manager es 90% pasivo. STR con PM es 80% pasivo. House hacking es 50% pasivo.
 
-### ¬øStripe reemplaza al property manager?
+### øStripe reemplaza al property manager?
 
-No. Stripe automatiza el cobro, pero el PM gestiona inquilinos, reparaciones, y el d√≠a a d√≠a. Stripe + PM = la combinaci√≥n perfecta para ingresos pasivos.
+No. Stripe automatiza el cobro, pero el PM gestiona inquilinos, reparaciones, y el dÌa a dÌa. Stripe + PM = la combinaciÛn perfecta para ingresos pasivos.
 
-### ¬øPuedo generar ingresos pasivos sin ser propietario?
+### øPuedo generar ingresos pasivos sin ser propietario?
 
-S√≠: REITs, crowdfunding, y private lending no requieren que seas propietario directo. Pero el control y los beneficios fiscales (depreciaci√≥n) son menores.
+SÌ: REITs, crowdfunding, y private lending no requieren que seas propietario directo. Pero el control y los beneficios fiscales (depreciaciÛn) son menores.
 
-### ¬øCu√°nto tiempo toma alcanzar ingresos pasivos significativos?
+### øCu·nto tiempo toma alcanzar ingresos pasivos significativos?
 
-Con la estrategia adecuada (turnkey + PM + Stripe), puedes tener tu primera propiedad generando ingresos pasivos en 3-6 meses desde que empiezas. Para reemplazar un ingreso de $5,000/mes, necesitas 5-10 propiedades (2-5 a√±os).
+Con la estrategia adecuada (turnkey + PM + Stripe), puedes tener tu primera propiedad generando ingresos pasivos en 3-6 meses desde que empiezas. Para reemplazar un ingreso de $5,000/mes, necesitas 5-10 propiedades (2-5 aÒos).
 
-### ¬øLos impuestos afectan el ingreso pasivo?
+### øLos impuestos afectan el ingreso pasivo?
 
-S√≠. Los extranjeros pagan 10-37% sobre ingresos netos (con W-8ECI) o 30% sobre brutos (sin W-8ECI). La depreciaci√≥n reduce significativamente el impuesto. Consulta con un CPA para maximizar tu ingreso neto.
+SÌ. Los extranjeros pagan 10-37% sobre ingresos netos (con W-8ECI) o 30% sobre brutos (sin W-8ECI). La depreciaciÛn reduce significativamente el impuesto. Consulta con un CPA para maximizar tu ingreso neto.
 
 ## 12. Checklist para Ingresos Pasivos
 
@@ -220,38 +181,38 @@ S√≠. Los extranjeros pagan 10-37% sobre ingresos netos (con W-8ECI) o 30% sobre 
 - [ ] Decidir entre LTR, STR, REIT, crowdfunding o NNN
 - [ ] Investigar mercados objetivo
 
-### IMPLEMENTAR AUTOMATIZACI√ìN:
+### IMPLEMENTAR AUTOMATIZACI”N:
 - [ ] Formar LLC para cada propiedad
 - [ ] Abrir cuenta bancaria separada
-- [ ] Configurar Stripe para cobros autom√°ticos
+- [ ] Configurar Stripe para cobros autom·ticos
 - [ ] Configurar Stripe Subscriptions para rentas mensuales
 - [ ] Conectar Stripe con el software del PM
 - [ ] Configurar Stripe Tax (si aplica)
-- [ ] Configurar pagos autom√°ticos (hipoteca, seguro, tax)
+- [ ] Configurar pagos autom·ticos (hipoteca, seguro, tax)
 
-### DELEGAR GESTI√ìN:
+### DELEGAR GESTI”N:
 - [ ] Contratar property manager (LTR 8-12% o STR 20-30%)
 - [ ] Contratar CPA para taxes anuales
 - [ ] Contratar registered agent para LLC
-- [ ] Configurar reportes autom√°ticos mensuales
+- [ ] Configurar reportes autom·ticos mensuales
 - [ ] Revisar reportes 1-2 horas/mes
 
 ### OPTIMIZAR:
-- [ ] Presentar W-8ECI para evitar retenci√≥n del 30%
-- [ ] Maximizar depreciaci√≥n (cost segregation)
+- [ ] Presentar W-8ECI para evitar retenciÛn del 30%
+- [ ] Maximizar depreciaciÛn (cost segregation)
 - [ ] Revisar DSCR anualmente
 - [ ] Refinanciar cuando las tasas bajen
 - [ ] Reinvertir flujo de caja en nuevas propiedades
-- [ ] Escalar: de 1 propiedad a 5+ en 2-3 a√±os
+- [ ] Escalar: de 1 propiedad a 5+ en 2-3 aÒos
 
-## Conclusi√≥n
+## ConclusiÛn
 
-**Generar ingresos pasivos con propiedades en EE. UU.** es completamente alcanzable con la combinaci√≥n correcta de estrategia, estructura y automatizaci√≥n. La clave est√° en tres pilares:
+**Generar ingresos pasivos con propiedades en EE. UU.** es completamente alcanzable con la combinaciÛn correcta de estrategia, estructura y automatizaciÛn. La clave est· en tres pilares:
 
-1. **Estrategia adecuada**: turnkey LTR o STR con property manager para m√°xima pasividad
-2. **Estructura legal**: LLC por propiedad para protecci√≥n
-3. **Automatizaci√≥n**: Stripe para cobros autom√°ticos, reporting y taxes
+1. **Estrategia adecuada**: turnkey LTR o STR con property manager para m·xima pasividad
+2. **Estructura legal**: LLC por propiedad para protecciÛn
+3. **AutomatizaciÛn**: Stripe para cobros autom·ticos, reporting y taxes
 
-El ingreso pasivo no es "cero trabajo", sino "m√≠nimo trabajo estrat√©gico". Con Stripe automatizando los cobros, un property manager gestionando el d√≠a a d√≠a, y un CPA ocup√°ndose de los taxes, tu trabajo se reduce a 1-2 horas al mes revisando reportes y tomando decisiones.
+El ingreso pasivo no es "cero trabajo", sino "mÌnimo trabajo estratÈgico". Con Stripe automatizando los cobros, un property manager gestionando el dÌa a dÌa, y un CPA ocup·ndose de los taxes, tu trabajo se reduce a 1-2 horas al mes revisando reportes y tomando decisiones.
 
-En **Sotomayor Consulting International**, te ayudamos a construir tu portafolio de ingresos pasivos: desde la selecci√≥n de propiedades turnkey y formaci√≥n de LLCs hasta la configuraci√≥n de Stripe para cobros autom√°ticos y la conexi√≥n con property managers de confianza. Cont√°ctanos para una consultor√≠a personalizada.
+En **Sotomayor Consulting International**, te ayudamos a construir tu portafolio de ingresos pasivos: desde la selecciÛn de propiedades turnkey y formaciÛn de LLCs hasta la configuraciÛn de Stripe para cobros autom·ticos y la conexiÛn con property managers de confianza. Cont·ctanos para una consultorÌa personalizada.

@@ -38,15 +38,12 @@ Para cada transferência internacional que você realizar, deve manter:
 - **Taxa de câmbio aplicada** (se aplicável conversão de moeda)
 
 ### Informações que a documentação deve conter:
-| Conceito | Descrição |
-|---|---|
-| Data da transferência | Dia da execução |
-| Valor | Na moeda original e em USD |
-| Remetente | Nome legal, país, conta bancária |
-| Destinatário | Nome legal, país, conta bancária |
-| Conceito | Descrição detalhada do pagamento |
-| Documento suporte | Fatura, contrato, acordo |
-
+- **Data da transferência:** Dia da execução
+- **Valor:** Na moeda original e em USD
+- **Remetente:** Nome legal, país, conta bancária
+- **Destinatário:** Nome legal, país, conta bancária
+- **Conceito:** Descrição detalhada do pagamento
+- **Documento suporte:** Fatura, contrato, acordo
 ## 3. Transferências por Serviços Profissionais
 
 Se você recebe ou envia dinheiro por serviços profissionais, deve justificar:

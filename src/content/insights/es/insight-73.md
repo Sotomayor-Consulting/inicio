@@ -1,235 +1,193 @@
-Ôªø---
-title: "C√≥mo Separar Finanzas Personales y Empresariales: Gu√≠a 2026"
-description: "C√≥mo separar finanzas personales y empresariales"
+---
+title: "CÛmo Separar Finanzas Personales y Empresariales: GuÌa 2026"
+description: "CÛmo separar finanzas personales y empresariales"
 cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership.png"
-cardImageAlt: "Dos alcanc√≠as separadas, una personal y otra empresarial, con billetes fluyendo ordenadamente"
+cardImageAlt: "Dos alcancÌas separadas, una personal y otra empresarial, con billetes fluyendo ordenadamente"
 ---
 
-**Separar finanzas personales y empresariales** es una de las decisiones m√°s importantes para cualquier emprendedor o profesional independiente. Mezclarlas genera problemas fiscales, contables y legales que pueden costarte dinero y tranquilidad.
+**Separar finanzas personales y empresariales** es una de las decisiones m·s importantes para cualquier emprendedor o profesional independiente. Mezclarlas genera problemas fiscales, contables y legales que pueden costarte dinero y tranquilidad.
 
-En esta gu√≠a, explicamos **c√≥mo separar finanzas personales y empresariales** en 2026: cuentas bancarias, facturaci√≥n, contabilidad, impuestos y herramientas como Stripe.
+En esta guÌa, explicamos **cÛmo separar finanzas personales y empresariales** en 2026: cuentas bancarias, facturaciÛn, contabilidad, impuestos y herramientas como Stripe.
 
-## 1. ¬øPor Qu√© es Crucial Separar?
+## 1. øPor QuÈ es Crucial Separar?
 
 ### Riesgos de Mezclar Finanzas
 
-| Riesgo | Descripci√≥n | Impacto |
-|--------|-------------|---------|
-| **Problemas fiscales** | Dificultad para identificar gastos deducibles | Pagar m√°s impuestos o multas |
-| **P√©rdida de protecci√≥n legal** | El velo corporativo se perfora | Activos personales en riesgo |
-| **Contabilidad ca√≥tica** | Transacciones mezcladas sin orden | Horas perdidas en conciliaci√≥n |
-| **Dificultad para escalar** | No sabes si el negocio es rentable | Decisiones equivocadas |
-| **Problemas con inversores** | Falta de transparencia financiera | No consigues financiamiento |
-| **Estr√©s financiero** | No sabes cu√°nto ganas vs. gastas | Ansiedad y malas decisiones |
-
+- **Problemas fiscales:** Dificultad para identificar gastos deducibles -- Pagar m·s impuestos o multas
+- **PÈrdida de protecciÛn legal:** El velo corporativo se perfora -- Activos personales en riesgo
+- **Contabilidad caÛtica:** Transacciones mezcladas sin orden -- Horas perdidas en conciliaciÛn
+- **Dificultad para escalar:** No sabes si el negocio es rentable -- Decisiones equivocadas
+- **Problemas con inversores:** Falta de transparencia financiera -- No consigues financiamiento
+- **EstrÈs financiero:** No sabes cu·nto ganas vs. gastas -- Ansiedad y malas decisiones
 ### Beneficios de Separar
 
-| Beneficio | Descripci√≥n |
-|-----------|-------------|
-| **Claridad financiera** | Sabes exactamente qu√© genera tu negocio |
-| **Protecci√≥n legal** | El velo corporativo se mantiene intacto |
-| **Deducciones claras** | Todos los gastos empresariales son rastreables |
-| **Facilidad contable** | Contabilidad simple, declaraciones r√°pidas |
-| **Profesionalismo** | Clientes y proveedores te toman m√°s en serio |
-| **Escalabilidad** | Bases listas para crecer y atraer inversi√≥n |
-
-> Mezclar finanzas personales y empresariales es la causa #1 de problemas fiscales y legales en emprendedores. Separarlas desde el d√≠a 1 es la decisi√≥n m√°s inteligente que puedes tomar.
+- **Claridad financiera:** Sabes exactamente quÈ genera tu negocio
+- **ProtecciÛn legal:** El velo corporativo se mantiene intacto
+- **Deducciones claras:** Todos los gastos empresariales son rastreables
+- **Facilidad contable:** Contabilidad simple, declaraciones r·pidas
+- **Profesionalismo:** Clientes y proveedores te toman m·s en serio
+- **Escalabilidad:** Bases listas para crecer y atraer inversiÛn
+> Mezclar finanzas personales y empresariales es la causa #1 de problemas fiscales y legales en emprendedores. Separarlas desde el dÌa 1 es la decisiÛn m·s inteligente que puedes tomar.
 
 ## 2. Cuentas Bancarias Separadas
 
 ### Estructura Recomendada
 
-| Cuenta | Prop√≥sito | ¬øD√≥nde? |
-|--------|-----------|---------|
-| **Cuenta empresarial principal** | Recibir ingresos del negocio | Mercury, Relay, Wise, banco local |
-| **Cuenta empresarial de gastos** | Pagar proveedores y gastos | Mismo banco, cuenta secundaria |
-| **Cuenta personal** | Gastos personales | Banco local |
-| **Cuenta de ahorros empresarial** | Reservas e impuestos | Mercury, Wise |
-
-### C√≥mo Configurar Cuentas Separadas
+- **Cuenta empresarial principal:** Recibir ingresos del negocio -- Mercury, Relay, Wise, banco local
+- **Cuenta empresarial de gastos:** Pagar proveedores y gastos -- Mismo banco, cuenta secundaria
+- **Cuenta personal:** Gastos personales -- Banco local
+- **Cuenta de ahorros empresarial:** Reservas e impuestos -- Mercury, Wise
+### CÛmo Configurar Cuentas Separadas
 
 ### Bancos Recomendados para Empresas
 
-| Banco | Tipo | Apertura Remota | Ideal para |
-|-------|------|----------------|-----------|
-| **Mercury** | Digital EE. UU. | S√≠ | LLC, startups tecnol√≥gicas |
-| **Relay** | Digital EE. UU. | S√≠ | M√∫ltiples cuentas, equipos |
-| **Wise Business** | Digital multi-pa√≠s | S√≠ | Freelancers internacionales |
-| **Banco local** | Tradicional | Presencial | Operaciones locales |
-| **HSBC** | Tradicional global | S√≠ | Empresas globales |
-
-## 3. Tarjetas de Cr√©dito Separadas
+- **Mercury:** Digital EE. UU. -- SÌ -- LLC, startups tecnolÛgicas
+- **Relay:** Digital EE. UU. -- SÌ -- M˙ltiples cuentas, equipos
+- **Wise Business:** Digital multi-paÌs -- SÌ -- Freelancers internacionales
+- **Banco local:** Tradicional -- Presencial -- Operaciones locales
+- **HSBC:** Tradicional global -- SÌ -- Empresas globales
+## 3. Tarjetas de CrÈdito Separadas
 
 ### Estrategia de Tarjetas
 
-| Tarjeta | Uso | Beneficio |
-|---------|-----|-----------|
-| **Tarjeta empresarial** | Todos los gastos del negocio | Rastreo autom√°tico, deducciones claras |
-| **Tarjeta personal** | Gastos personales | Sin contaminaci√≥n contable |
-| **Tarjeta virtual** | Suscripciones SaaS, pagos online | Control por proveedor |
-
+- **Tarjeta empresarial:** Todos los gastos del negocio -- Rastreo autom·tico, deducciones claras
+- **Tarjeta personal:** Gastos personales -- Sin contaminaciÛn contable
+- **Tarjeta virtual:** Suscripciones SaaS, pagos online -- Control por proveedor
 ### Stripe Issuing (Tarjetas Corporativas)
 
-## 4. Facturaci√≥n a Nombre de la Empresa
+## 4. FacturaciÛn a Nombre de la Empresa
 
 ### Stripe Invoicing con Datos Empresariales
 
 ### Elementos de una Factura Empresarial
 
-| Campo | Valor Correcto | Error Com√∫n |
-|-------|---------------|-------------|
-| **Emisor** | Tu Empresa LLC, no tu nombre personal | Facturar como persona f√≠sica |
-| **N√∫mero fiscal** | EIN / RFC de la empresa | Usar n√∫mero personal |
-| **Direcci√≥n** | Direcci√≥n registrada de la empresa | Direcci√≥n personal |
-| **Banco** | Cuenta bancaria empresarial | Cuenta personal |
-| **Logo** | Logo de la empresa | Sin logo o logo personal |
-
+- **Emisor:** Tu Empresa LLC, no tu nombre personal -- Facturar como persona fÌsica
+- **N˙mero fiscal:** EIN / RFC de la empresa -- Usar n˙mero personal
+- **DirecciÛn:** DirecciÛn registrada de la empresa -- DirecciÛn personal
+- **Banco:** Cuenta bancaria empresarial -- Cuenta personal
+- **Logo:** Logo de la empresa -- Sin logo o logo personal
 ## 5. Stripe con Entidad Empresarial
 
 ### Configurar Stripe a Nombre de la Empresa
 
 ### Beneficios de Stripe Empresarial
 
-| Beneficio | Personal | Empresarial |
-|-----------|----------|-------------|
-| **Nombre en el checkout** | Tu nombre personal | Nombre de tu empresa |
-| **Facturas** | A nombre personal | A nombre de la empresa |
-| **Reportes** | Mezclados con personales | Claros y separados |
-| **Protecci√≥n** | Sin velo corporativo | Velo corporativo intacto |
-| **Profesionalismo** | Bajo | Alto |
-
+- **Nombre en el checkout:** Tu nombre personal -- Nombre de tu empresa
+- **Facturas:** A nombre personal -- A nombre de la empresa
+- **Reportes:** Mezclados con personales -- Claros y separados
+- **ProtecciÛn:** Sin velo corporativo -- Velo corporativo intacto
+- **Profesionalismo:** Bajo -- Alto
 ## 6. Contabilidad y Software
 
 ### Herramientas Recomendadas
 
-| Herramienta | Funci√≥n | Precio |
-|-------------|---------|--------|
-| **QuickBooks** | Contabilidad completa | Desde $30/mes |
-| **FreshBooks** | Facturaci√≥n + contabilidad | Desde $17/mes |
-| **Xero** | Contabilidad en la nube | Desde $29/mes |
-| **Wave** | Contabilidad gratuita | Gratis |
-| **Bench** | Contabilidad + soporte humano | Desde $249/mes |
+- **QuickBooks:** Contabilidad completa -- Desde $30/mes
+- **FreshBooks:** FacturaciÛn + contabilidad -- Desde $17/mes
+- **Xero:** Contabilidad en la nube -- Desde $29/mes
+- **Wave:** Contabilidad gratuita -- Gratis
+- **Bench:** Contabilidad + soporte humano -- Desde $249/mes
+### IntegraciÛn Stripe + Contabilidad
 
-### Integraci√≥n Stripe + Contabilidad
+### CategorizaciÛn de Transacciones
 
-### Categorizaci√≥n de Transacciones
-
-| Categor√≠a | Ejemplos | Deducible |
-|-----------|----------|-----------|
-| **SaaS y software** | Stripe, AWS, Google Workspace | ‚úÖ |
-| **Marketing** | Facebook Ads, Google Ads | ‚úÖ |
-| **Oficina** | Internet, renta, utilities | ‚úÖ |
-| **Viajes de negocio** | Vuelos, hoteles, comidas | ‚úÖ |
-| **Equipo** | Laptop, monitor, muebles | ‚úÖ |
-| **Servicios profesionales** | Abogados, contadores | ‚úÖ |
-| **Gastos personales** | Supermercado, ropa, ocio | ‚ùå |
-
+- **SaaS y software:** Stripe, AWS, Google Workspace -- ?
+- **Marketing:** Facebook Ads, Google Ads -- ?
+- **Oficina:** Internet, renta, utilities -- ?
+- **Viajes de negocio:** Vuelos, hoteles, comidas -- ?
+- **Equipo:** Laptop, monitor, muebles -- ?
+- **Servicios profesionales:** Abogados, contadores -- ?
+- **Gastos personales:** Supermercado, ropa, ocio -- ?
 ## 7. Salarios y Retiros (Owner's Draw)
 
-### C√≥mo Pagarte a Ti Mismo
+### CÛmo Pagarte a Ti Mismo
 
-| M√©todo | Descripci√≥n | Mejor para |
-|--------|-------------|-----------|
-| **Salario** | N√≥mina mensual fija desde la empresa | LLC con varios miembros |
-| **Owner's draw** | Retiro peri√≥dico de utilidades | Single-member LLC |
-| **Dividendos** | Distribuci√≥n de ganancias | C-Corp |
-| **Reembolso de gastos** | Devoluci√≥n de gastos personales por cuenta de la empresa | Todos |
-
+- **Salario:** NÛmina mensual fija desde la empresa -- LLC con varios miembros
+- **Owner's draw:** Retiro periÛdico de utilidades -- Single-member LLC
+- **Dividendos:** DistribuciÛn de ganancias -- C-Corp
+- **Reembolso de gastos:** DevoluciÛn de gastos personales por cuenta de la empresa -- Todos
 ## 8. Manejo de Impuestos
 
 ### Impuestos Personales vs. Empresariales
 
-| Aspecto | Personal | Empresarial |
-|---------|----------|-------------|
-| **Ingresos** | Salario, dividendos, draws | Ventas, servicios, productos |
-| **Deducciones** | Hipoteca, salud, donaciones | SaaS, marketing, equipo, oficina |
-| **Declaraci√≥n** | Individual (persona f√≠sica) | Corporativa (persona moral) |
-| **Frecuencia** | Anual | Mensual/trimestral (seg√∫n pa√≠s) |
-| **Riesgo** | Bajo si separado | Bajo si contabilidad ordenada |
+- **Ingresos:** Salario, dividendos, draws -- Ventas, servicios, productos
+- **Deducciones:** Hipoteca, salud, donaciones -- SaaS, marketing, equipo, oficina
+- **DeclaraciÛn:** Individual (persona fÌsica) -- Corporativa (persona moral)
+- **Frecuencia:** Anual -- Mensual/trimestral (seg˙n paÌs)
+- **Riesgo:** Bajo si separado -- Bajo si contabilidad ordenada
+### Stripe Tax para SeparaciÛn
 
-### Stripe Tax para Separaci√≥n
+## 9. Checklist de SeparaciÛn Diaria
 
-## 9. Checklist de Separaci√≥n Diaria
+### H·bitos Diarios
 
-### H√°bitos Diarios
+- **Paga gastos empresariales con tarjeta empresarial:** Nunca uses tu tarjeta personal para gastos del negocio
+- **Registra cada transacciÛn:** Usa QuickBooks o similar para categorizar al momento
+- **Revisa semanalmente:** 15 minutos cada viernes para revisar movimientos
+- **Transfiere utilidades periÛdicamente:** Mensual o trimestral, no mezcles fondos
+- **Conserva todos los recibos:** Digitales, organizados por mes y categorÌa
+### SeÒales de que lo Est·s Haciendo Mal
 
-| H√°bito | Descripci√≥n |
-|--------|-------------|
-| **Paga gastos empresariales con tarjeta empresarial** | Nunca uses tu tarjeta personal para gastos del negocio |
-| **Registra cada transacci√≥n** | Usa QuickBooks o similar para categorizar al momento |
-| **Revisa semanalmente** | 15 minutos cada viernes para revisar movimientos |
-| **Transfiere utilidades peri√≥dicamente** | Mensual o trimestral, no mezcles fondos |
-| **Conserva todos los recibos** | Digitales, organizados por mes y categor√≠a |
-
-### Se√±ales de que lo Est√°s Haciendo Mal
-
-| Se√±al | Problema |
-|-------|---------|
-| Pagas suscripciones SaaS con tu tarjeta personal | ‚ùå |
-| Recibes pagos de clientes en tu cuenta personal | ‚ùå |
-| No sabes cu√°nto gasta tu negocio al mes | ‚ùå |
-| Usas la misma tarjeta para todo | ‚ùå |
-| Tus facturas no tienen RFC/EIN de empresa | ‚ùå |
-| Stripe est√° a tu nombre personal, no de la empresa | ‚ùå |
-
+- **Pagas suscripciones SaaS con tu tarjeta personal:** ?
+- **Recibes pagos de clientes en tu cuenta personal:** ?
+- **No sabes cu·nto gasta tu negocio al mes:** ?
+- **Usas la misma tarjeta para todo:** ?
+- **Tus facturas no tienen RFC/EIN de empresa:** ?
+- **Stripe est· a tu nombre personal, no de la empresa:** ?
 ## 10. Preguntas Frecuentes
 
-### ¬øPuedo usar mi cuenta personal para mi negocio mientras empiezo?
+### øPuedo usar mi cuenta personal para mi negocio mientras empiezo?
 
-T√©cnicamente s√≠, pero es un error. Abre una cuenta empresarial desde el d√≠a 1, aunque sean pocas transacciones.
+TÈcnicamente sÌ, pero es un error. Abre una cuenta empresarial desde el dÌa 1, aunque sean pocas transacciones.
 
-### ¬øNecesito una LLC para separar finanzas?
+### øNecesito una LLC para separar finanzas?
 
-No necesariamente, pero ayuda. Incluso como persona f√≠sica con actividad empresarial, debes tener cuentas separadas.
+No necesariamente, pero ayuda. Incluso como persona fÌsica con actividad empresarial, debes tener cuentas separadas.
 
-### ¬øC√≥mo manejo gastos que son personales y empresariales?
+### øCÛmo manejo gastos que son personales y empresariales?
 
-Usa el m√©todo de prorrateo: calcula el porcentaje de uso empresarial y deduce solo esa parte. Documenta todo.
+Usa el mÈtodo de prorrateo: calcula el porcentaje de uso empresarial y deduce solo esa parte. Documenta todo.
 
-### ¬øStripe puede tener m√∫ltiples cuentas?
+### øStripe puede tener m˙ltiples cuentas?
 
-S√≠. Puedes tener una cuenta Stripe personal y otra empresarial, cada una con su propio EIN/RFC y datos bancarios.
+SÌ. Puedes tener una cuenta Stripe personal y otra empresarial, cada una con su propio EIN/RFC y datos bancarios.
 
-### ¬øQu√© hago si ya mezcl√© todo?
+### øQuÈ hago si ya mezclÈ todo?
 
 1. Abre cuenta empresarial ahora
 2. Clasifica transacciones pasadas
 3. Consulta un contador para regularizar
 4. No sigas mezclando
 
-### ¬øCada cu√°nto debo revisar mis finanzas?
+### øCada cu·nto debo revisar mis finanzas?
 
-Semanalmente 15 minutos. Mensualmente una revisi√≥n m√°s profunda. Trimestralmente con tu contador.
+Semanalmente 15 minutos. Mensualmente una revisiÛn m·s profunda. Trimestralmente con tu contador.
 
-## 11. Paso a Paso R√°pido
+## 11. Paso a Paso R·pido
 
 ### Resumen en 5 Pasos
 
-| Paso | Acci√≥n | Tiempo |
-|------|--------|--------|
-| **1** | Abre una cuenta bancaria empresarial (Mercury, Relay o banco local) | 1-2 d√≠as |
-| **2** | Solicita una tarjeta de cr√©dito empresarial | 1-2 semanas |
-| **3** | Configura Stripe a nombre de tu empresa, no personal | 1 d√≠a |
-| **4** | Implementa un software de contabilidad (QuickBooks, FreshBooks) | 1-2 d√≠as |
-| **5** | Define tu pol√≠tica de retiros (salario, draw, dividendos) | 1 d√≠a |
-
-### Checklist de Separaci√≥n
+- **1:** Abre una cuenta bancaria empresarial (Mercury, Relay o banco local) -- 1-2 dÌas
+- **2:** Solicita una tarjeta de crÈdito empresarial -- 1-2 semanas
+- **3:** Configura Stripe a nombre de tu empresa, no personal -- 1 dÌa
+- **4:** Implementa un software de contabilidad (QuickBooks, FreshBooks) -- 1-2 dÌas
+- **5:** Define tu polÌtica de retiros (salario, draw, dividendos) -- 1 dÌa
+### Checklist de SeparaciÛn
 
 - [ ] Cuenta bancaria empresarial abierta
-- [ ] Tarjeta de cr√©dito empresarial activa
+- [ ] Tarjeta de crÈdito empresarial activa
 - [ ] Stripe configurado a nombre de la empresa
 - [ ] Software de contabilidad implementado
 - [ ] Facturas emitidas a nombre de la empresa
 - [ ] Gastos categorizados (empresarial vs. personal)
-- [ ] Pol√≠tica de retiros definida
+- [ ] PolÌtica de retiros definida
 - [ ] Stripe Tax configurado para la empresa
-- [ ] Revisi√≥n semanal agendada
+- [ ] RevisiÛn semanal agendada
 - [ ] Contador informado de la estructura
 
-## Conclusi√≥n
+## ConclusiÛn
 
 **Separar finanzas personales y empresariales** no es un lujo, es una necesidad. Te protege legalmente, simplifica tu contabilidad, te ahorra impuestos y te da claridad financiera para tomar mejores decisiones.
 
-Stripe, combinado con cuentas bancarias empresariales, tarjetas corporativas y un buen software de contabilidad, hace que la separaci√≥n sea autom√°tica y sin esfuerzo.
+Stripe, combinado con cuentas bancarias empresariales, tarjetas corporativas y un buen software de contabilidad, hace que la separaciÛn sea autom·tica y sin esfuerzo.
 
-En **Sotomayor Consulting International**, te ayudamos a estructurar tus finanzas empresariales, incluyendo configuraci√≥n de Stripe corporativo, cuentas bancarias en EE. UU. y sistemas de contabilidad. Cont√°ctanos para una consultor√≠a personalizada.
+En **Sotomayor Consulting International**, te ayudamos a estructurar tus finanzas empresariales, incluyendo configuraciÛn de Stripe corporativo, cuentas bancarias en EE. UU. y sistemas de contabilidad. Cont·ctanos para una consultorÌa personalizada.

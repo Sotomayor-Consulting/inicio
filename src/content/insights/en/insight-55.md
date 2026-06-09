@@ -13,15 +13,12 @@ In this complete guide, we explain **how to receive international payments in 20
 
 ### Main Difficulties
 
-| Challenge | Description | Impact |
-|-----------|-------------|--------|
-| **Exchange rate fees** | Spreads of 1% to 5% on the real rate | Reduction in amount received |
-| **Transfer fees** | Fixed costs of $5 to $50 per transfer | Makes small payments unfeasible |
-| **Settlement times** | 1 to 10 business days | Cash flow affected |
-| **Compliance and KYC** | Documentation required for each country | Bureaucracy and delays |
-| **Geographic limitations** | Platforms not available in all countries | Need for multiple accounts |
-| **Chargebacks and disputes** | Risk of reversal in international sales | Revenue loss |
-
+- **Exchange rate fees:** Spreads of 1% to 5% on the real rate -- Reduction in amount received
+- **Transfer fees:** Fixed costs of $5 to $50 per transfer -- Makes small payments unfeasible
+- **Settlement times:** 1 to 10 business days -- Cash flow affected
+- **Compliance and KYC:** Documentation required for each country -- Bureaucracy and delays
+- **Geographic limitations:** Platforms not available in all countries -- Need for multiple accounts
+- **Chargebacks and disputes:** Risk of reversal in international sales -- Revenue loss
 ### Factors to Consider When Choosing a Method
 
 - **Payer's home country** — where your client is
@@ -37,14 +34,11 @@ In this complete guide, we explain **how to receive international payments in 20
 
 The traditional method, available at virtually any bank worldwide.
 
-| Feature | Details |
-|---------|---------|
-| **Speed** | 2 to 10 business days |
-| **Fees** | $15 - $50 per transfer (sender) + $10 - $25 (receiver) |
-| **Exchange spread** | 1% to 3% (traditional bank) |
-| **Minimum amount** | Usually $50 - $100 |
-| **Best for** | Payments above $1,000 |
-
+- **Speed:** 2 to 10 business days
+- **Fees:** $15 - $50 per transfer (sender) + $10 - $25 (receiver)
+- **Exchange spread:** 1% to 3% (traditional bank)
+- **Minimum amount:** Usually $50 - $100
+- **Best for:** Payments above $1,000
 **Information required from sender:**
 - Full beneficiary name
 - Bank account number
@@ -59,13 +53,10 @@ The traditional method, available at virtually any bank worldwide.
 
 Platforms that process online payments automatically.
 
-| Platform | Fee | Countries | Ideal for |
-|----------|-----|-----------|-----------|
-| **Stripe** | 2.9% + $0.30 | 40+ | E-commerce, SaaS, subscriptions |
-| **PayPal** | 2.99% + $0.49 | 200+ | Freelancers, marketplaces |
-| **Mercado Pago** | 3-6% | 7 (LATAM) | E-commerce in Latin America |
-| **Square** | 2.6% + $0.10 | USA, Canada, Japan, Europe | Small businesses |
-
+- **Stripe:** 2.9% + $0.30 -- 40+ -- E-commerce, SaaS, subscriptions
+- **PayPal:** 2.99% + $0.49 -- 200+ -- Freelancers, marketplaces
+- **Mercado Pago:** 3-6% -- 7 (LATAM) -- E-commerce in Latin America
+- **Square:** 2.6% + $0.10 -- USA, Canada, Japan, Europe -- Small businesses
 **Advantages:** Automated, website integration, multiple currencies
 **Disadvantages:** Percentage fees, chargeback risk, account freezes
 
@@ -73,13 +64,10 @@ Platforms that process online payments automatically.
 
 Accounts that allow you to receive in each country's local currency.
 
-| Platform | Currencies | Local Account in | Exchange Rate |
-|----------|-----------|-----------------|---------------|
-| **Wise** | 50+ | US, UK, Europe, Canada, Australia, etc. | Spread of 0.5% - 1% |
-| **Payoneer** | 10+ | US, UK, Europe, Canada, Japan | Spread of 1% - 2.5% |
-| **Revolut Business** | 30+ | US, UK, Europe | Spread of 0.5% - 1.5% |
-| **Mercury** | 10+ | US | Free (exchange via Wise) |
-
+- **Wise:** 50+ -- US, UK, Europe, Canada, Australia, etc. -- Spread of 0.5% - 1%
+- **Payoneer:** 10+ -- US, UK, Europe, Canada, Japan -- Spread of 1% - 2.5%
+- **Revolut Business:** 30+ -- US, UK, Europe -- Spread of 0.5% - 1.5%
+- **Mercury:** 10+ -- US -- Free (exchange via Wise)
 **How it works:**
 - You receive local bank account details (e.g., a US account with routing number)
 - The client makes a local transfer (no international fees)
@@ -92,14 +80,11 @@ Accounts that allow you to receive in each country's local currency.
 
 Payments in Bitcoin, USDC, USDT, etc.
 
-| Feature | Details |
-|---------|---------|
-| **Speed** | Instant to 1 hour |
-| **Fees** | $0.01 - $5 per transaction |
-| **Volatility** | High (can vary 5-10% in hours) |
-| **Acceptance** | Limited (clients need to have crypto) |
-| **Regulation** | Varies by country |
-
+- **Speed:** Instant to 1 hour
+- **Fees:** $0.01 - $5 per transaction
+- **Volatility:** High (can vary 5-10% in hours)
+- **Acceptance:** Limited (clients need to have crypto)
+- **Regulation:** Varies by country
 **Best for:** Fast international payments, high amounts, countries with currency restrictions
 **Worst for:** Businesses needing price stability
 
@@ -109,44 +94,32 @@ Payments in Bitcoin, USDC, USDT, etc.
 
 Processors that allow receiving credit card payments from any country.
 
-| Processor | Fee | Currencies | Requirements |
-|-----------|-----|-----------|--------------|
-| **Stripe** | 2.9% + $0.30 (+1.5% international) | 135+ | Account in supported country |
-| **PayPal** | 2.99% + $0.49 (+1.5% international) | 25+ | PayPal account |
-| **2Checkout** | 3.5% + $0.35 | 200+ | Account in supported country |
-
+- **Stripe:** 2.9% + $0.30 (+1.5% international) -- 135+ -- Account in supported country
+- **PayPal:** 2.99% + $0.49 (+1.5% international) -- 25+ -- PayPal account
+- **2Checkout:** 3.5% + $0.35 -- 200+ -- Account in supported country
 **Tip:** Use a processor that supports 3D Secure to reduce international chargebacks.
 
 ## 3. Platform Comparison
 
 ### For Freelancers
 
-| Platform | Total Fee (example: $1,000) | Speed | Best For |
-|----------|---------------------------|-------|----------|
-| **PayPal** | $29.90 + 2.5% exchange = ~$54.90 | Instant | Clients with PayPal |
-| **Wise** | ~$5.50 fee + spread ~0.6% = ~$11.50 | 1-2 days | Bank transfers |
-| **Payoneer** | ~$3.00 fee + spread ~2% = ~$23.00 | 1-3 days | Marketplaces (Upwork, Fiverr) |
-| **Stripe** | $29.90 + 1% exchange = ~$39.90 | 2-7 days | Card-paying clients |
-
+- **PayPal:** $29.90 + 2.5% exchange = ~$54.90 -- Instant -- Clients with PayPal
+- **Wise:** ~$5.50 fee + spread ~0.6% = ~$11.50 -- 1-2 days -- Bank transfers
+- **Payoneer:** ~$3.00 fee + spread ~2% = ~$23.00 -- 1-3 days -- Marketplaces (Upwork, Fiverr)
+- **Stripe:** $29.90 + 1% exchange = ~$39.90 -- 2-7 days -- Card-paying clients
 > **Wise is generally the cheapest option** for receiving international payments from clients who can make bank transfers.
 
 ### For E-commerce
 
-| Platform | Fee | Conversion | Chargeback | Ideal for |
-|----------|------|------------|------------|-----------|
-| **Stripe** | 2.9% + $0.30 | 1% | $15 | Supported countries |
-| **PayPal** | 2.99% + $0.49 | 2.5-4% | $20 | Global reach |
-| **Mercado Pago** | 3-6% | Included | Variable | LATAM |
-| **Shopify Payments** | 2.4% + $0.30 (Stripe) | 1% | $15 | Shopify stores |
-
+- **Stripe:** 2.9% + $0.30 -- 1% -- $15 -- Supported countries
+- **PayPal:** 2.99% + $0.49 -- 2.5-4% -- $20 -- Global reach
+- **Mercado Pago:** 3-6% -- Included -- Variable -- LATAM
+- **Shopify Payments:** 2.4% + $0.30 (Stripe) -- 1% -- $15 -- Shopify stores
 ### For SaaS and Subscriptions
 
-| Platform | Recurring Billing | Free Trials | Dunning | Ideal for |
-|----------|-----------------|------------|---------|-----------|
-| **Stripe Billing** | ✅ Excellent | ✅ Yes | ✅ Automatic | Digital businesses |
-| **PayPal Subscriptions** | ✅ Basic | ✅ Yes | ❌ Manual | Small businesses |
-| **Paddle** | ✅ Complete | ✅ Yes | ✅ Automatic | Global SaaS (includes VAT) |
-
+- **Stripe Billing:** ✅ Excellent -- ✅ Yes -- ✅ Automatic -- Digital businesses
+- **PayPal Subscriptions:** ✅ Basic -- ✅ Yes -- ❌ Manual -- Small businesses
+- **Paddle:** ✅ Complete -- ✅ Yes -- ✅ Automatic -- Global SaaS (includes VAT)
 ## 4. Structures for Receiving International Payments
 
 ### 4.1 Basic Structure: Multi-Currency Account
@@ -168,15 +141,12 @@ Processors that allow receiving credit card payments from any country.
 
 ### Exchange Spread by Platform
 
-| Platform | Spread on Real Rate | Fixed Fee | Total Cost for $10,000 |
-|----------|-------------------|-----------|------------------------|
-| **Traditional bank** | 2% - 4% | $10 - $30 | $210 - $430 |
-| **Wise** | 0.5% - 1% | $3 - $10 | $53 - $110 |
-| **PayPal** | 2.5% - 4% | $0 | $250 - $400 |
-| **Payoneer** | 1% - 2.5% | $1.50 | $101 - $251 |
-| **Revolut** | 0.5% - 1.5% | $0 | $50 - $150 |
-| **Interactive Brokers** | 0.2% - 0.5% | $0 (if you have investments) | $20 - $50 |
-
+- **Traditional bank:** 2% - 4% -- $10 - $30 -- $210 - $430
+- **Wise:** 0.5% - 1% -- $3 - $10 -- $53 - $110
+- **PayPal:** 2.5% - 4% -- $0 -- $250 - $400
+- **Payoneer:** 1% - 2.5% -- $1.50 -- $101 - $251
+- **Revolut:** 0.5% - 1.5% -- $0 -- $50 - $150
+- **Interactive Brokers:** 0.2% - 0.5% -- $0 (if you have investments) -- $20 - $50
 ### Tips to Reduce Currency Costs
 
 1. **Receive in the client's currency** and convert when the rate is favorable
@@ -189,16 +159,13 @@ Processors that allow receiving credit card payments from any country.
 
 ### Typically Required Documents
 
-| Document | For | Situation |
-|----------|-----|-----------|
-| **Passport** | Identity verification | Always required |
-| **Proof of address** | Basic KYC | Always required |
-| **Articles of incorporation** | Companies | When applicable |
-| **Business address proof** | Companies | When applicable |
-| **EIN or equivalent** | US companies | Mandatory |
-| **BOI** | US companies | Since 2024 |
-| **Specific licenses** | Regulated businesses | When applicable |
-
+- **Passport:** Identity verification -- Always required
+- **Proof of address:** Basic KYC -- Always required
+- **Articles of incorporation:** Companies -- When applicable
+- **Business address proof:** Companies -- When applicable
+- **EIN or equivalent:** US companies -- Mandatory
+- **BOI:** US companies -- Since 2024
+- **Specific licenses:** Regulated businesses -- When applicable
 ### Tax Obligations
 
 - **Foreign asset declaration** — accounts in foreign banks
@@ -211,14 +178,11 @@ Processors that allow receiving credit card payments from any country.
 
 ### Risks When Receiving International Payments
 
-| Risk | Description | Prevention |
-|------|-------------|------------|
-| **Fraudulent chargeback** | Customer disputes payment after receiving product | 3D Secure, clear descriptor, delivery confirmation |
-| **Fake payment** | Fake payment proof | Verify balance before releasing product |
-| **Bank reversal** | Bank reverses payment weeks later | Wait for full clearance |
-| **Overpayment scam** | Customer pays too much and asks for refund | Never refund before payment clears |
-| **Compromised bank account** | Customer uses stolen account | Verify payer identity |
-
+- **Fraudulent chargeback:** Customer disputes payment after receiving product -- 3D Secure, clear descriptor, delivery confirmation
+- **Fake payment:** Fake payment proof -- Verify balance before releasing product
+- **Bank reversal:** Bank reverses payment weeks later -- Wait for full clearance
+- **Overpayment scam:** Customer pays too much and asks for refund -- Never refund before payment clears
+- **Compromised bank account:** Customer uses stolen account -- Verify payer identity
 ### Best Practices
 
 1. **Always verify** that the payment has cleared before releasing products or services
@@ -299,14 +263,11 @@ Processors that allow receiving credit card payments from any country.
 
 ## 10. Trends for 2026
 
-| Trend | Impact |
-|-------|--------|
-| **Instant cross-border payments** | Reduction from 5 days to seconds |
-| **CBDCs (central bank digital currencies)** | New international payment options |
-| **AI in fraud prevention** | Fewer chargebacks, more security |
-| **International Open Banking** | Direct integration between banks across countries |
-| **Crypto regulation** | More security, less anonymity |
-
+- **Instant cross-border payments:** Reduction from 5 days to seconds
+- **CBDCs (central bank digital currencies):** New international payment options
+- **AI in fraud prevention:** Fewer chargebacks, more security
+- **International Open Banking:** Direct integration between banks across countries
+- **Crypto regulation:** More security, less anonymity
 ## Conclusion
 
 Receiving **international payments** in 2026 is easier and cheaper than ever, but requires choosing the right platforms for each type of transaction.

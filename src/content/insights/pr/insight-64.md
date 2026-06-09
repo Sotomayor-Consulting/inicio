@@ -13,37 +13,28 @@ Neste guia, explicamos **como usar Stripe para agências de marketing** em 2026:
 
 ### Vantagens Principais
 
-| Vantagem | Descrição |
-|----------|-----------|
-| **Faturamento profissional** | Faturas personalizadas com seu logo e dados fiscais |
-| **Cobranças recorrentes** | Assinaturas mensais para retainers e planos |
-| **Múltiplas moedas** | Cobrança em USD, EUR, BRL conforme o cliente |
-| **Stripe Connect** | Para agências que pagam subcontractores ou afiliados |
-| **Relatórios detalhados** | Dashboard com receita, clientes e métricas |
-| **Integração com CRM** | Conecta com HubSpot, Salesforce e mais |
-| **API robusta** | Automatiza faturamento e cobranças |
-
+- **Faturamento profissional:** Faturas personalizadas com seu logo e dados fiscais
+- **Cobranças recorrentes:** Assinaturas mensais para retainers e planos
+- **Múltiplas moedas:** Cobrança em USD, EUR, BRL conforme o cliente
+- **Stripe Connect:** Para agências que pagam subcontractores ou afiliados
+- **Relatórios detalhados:** Dashboard com receita, clientes e métricas
+- **Integração com CRM:** Conecta com HubSpot, Salesforce e mais
+- **API robusta:** Automatiza faturamento e cobranças
 ### Stripe vs Outras Opções para Agências
 
-| Plataforma | Ideal para | Taxa |
-|-----------|-----------|------|
-| **Stripe** | Agências técnicas que querem controle total | 2.9% + $0.30 |
-| **FreshBooks** | Agências pequenas que faturam manualmente | A partir de $17/mês |
-| **QuickBooks** | Contabilidade integrada | A partir de $30/mês |
-| **Bill.com** | Faturamento empresarial | A partir de $45/mês |
-| **HoneyBook** | Agências criativas | A partir de $39/mês |
-
+- **Stripe:** Agências técnicas que querem controle total -- 2.9% + $0.30
+- **FreshBooks:** Agências pequenas que faturam manualmente -- A partir de $17/mês
+- **QuickBooks:** Contabilidade integrada -- A partir de $30/mês
+- **Bill.com:** Faturamento empresarial -- A partir de $45/mês
+- **HoneyBook:** Agências criativas -- A partir de $39/mês
 > **Stripe oferece controle total** sobre seu faturamento sem custos fixos mensais, ideal para agências em crescimento.
 
 ## 2. Configuração do Stripe para sua Agência
 
 ### Passo 1: Crie sua Conta Stripe Business
 
-| Tipo de Conta | Para |
-|---------------|------|
-| **Individual** | Freelancers e consultores individuais |
-| **Empresa (LTDA/EIRELI)** | Agências constituídas formalmente |
-
+- **Individual:** Freelancers e consultores individuais
+- **Empresa (LTDA/EIRELI):** Agências constituídas formalmente
 **Requisitos:**
 - Documento de identidade
 - CNPJ ou equivalente
@@ -60,26 +51,20 @@ Neste guia, explicamos **como usar Stripe para agências de marketing** em 2026:
 
 ### Passo 3: Configure Métodos de Pagamento
 
-| Método | Recomendado para |
-|--------|-----------------|
-| **Cartão de crédito/débito** | Todos os clientes |
-| **Transferência bancária** | Clientes no Brasil |
-| **Apple Pay / Google Pay** | Clientes mobile |
-| **Link (Stripe)** | Pagamento com um clique |
-| **Pix (Brasil)** | Clientes brasileiros |
-
+- **Cartão de crédito/débito:** Todos os clientes
+- **Transferência bancária:** Clientes no Brasil
+- **Apple Pay / Google Pay:** Clientes mobile
+- **Link (Stripe):** Pagamento com um clique
+- **Pix (Brasil):** Clientes brasileiros
 ## 3. Modelos de Cobrança para Agências
 
 ### Retainer Mensal
 
 O modelo mais comum para agências:
 
-| Mês | Serviço | Valor |
-|-----|---------|-------|
-| Mês 1 | Estratégia + Setup | R$12.500 |
-| Mês 2 | Gestão mensal | R$7.500 |
-| Mês 3+ | Retainer contínuo | R$7.500/mês |
-
+- **Mês 1:** Estratégia + Setup -- R$12.500
+- **Mês 2:** Gestão mensal -- R$7.500
+- **Mês 3+:** Retainer contínuo -- R$7.500/mês
 **Configuração no Stripe:**
 1. Crie um produto: "Retainer Mensal Marketing"
 2. Preço recorrente: R$7.500/mês
@@ -88,25 +73,19 @@ O modelo mais comum para agências:
 
 ### Cobrança por Projeto
 
-| Projeto | Valor | Marcos de Pagamento |
-|---------|-------|---------------------|
-| **Landing page** | R$10.000 | 50% início, 50% entrega |
-| **Campanha de anúncios** | R$17.500 | 100% no início |
-| **Auditoria SEO** | R$6.000 | 100% no início |
-| **Branding completo** | R$25.000 | 30/40/30 por marcos |
-
+- **Landing page:** R$10.000 -- 50% início, 50% entrega
+- **Campanha de anúncios:** R$17.500 -- 100% no início
+- **Auditoria SEO:** R$6.000 -- 100% no início
+- **Branding completo:** R$25.000 -- 30/40/30 por marcos
 **Como configurar pagamentos por marcos:**
 
 ### Faturamento por Hora
 
 Para agências que cobram por hora:
 
-| Serviço | Horas | Tarifa | Total |
-|---------|-------|--------|-------|
-| Consultoria estratégica | 10h | R$750/h | R$7.500 |
-| Desenvolvimento web | 20h | R$500/h | R$10.000 |
-| Design gráfico | 8h | R$600/h | R$4.800 |
-
+- **Consultoria estratégica:** 10h -- R$750/h -- R$7.500
+- **Desenvolvimento web:** 20h -- R$500/h -- R$10.000
+- **Design gráfico:** 8h -- R$600/h -- R$4.800
 **Configuração:**
 1. Stripe Dashboard → Faturamento → Criar fatura
 2. Adicione itens com quantidade (horas) e tarifa
@@ -127,24 +106,18 @@ Stripe Connect permite que agências:
 
 ### Como Configurar Stripe Connect
 
-| Passo | Ação |
-|-------|------|
-| 1 | Stripe Dashboard → Connect → Configurar |
-| 2 | Escolha modelo: "Plataforma" |
-| 3 | Registre seus subcontractores como contas conectadas |
-| 4 | Defina a divisão de pagamento por transação |
-| 5 | Stripe distribui automaticamente |
-
+- **1:** Stripe Dashboard → Connect → Configurar
+- **2:** Escolha modelo: "Plataforma"
+- **3:** Registre seus subcontractores como contas conectadas
+- **4:** Defina a divisão de pagamento por transação
+- **5:** Stripe distribui automaticamente
 ## 5. Faturamento Automático para Clientes
 
 ### Assinaturas com Stripe Billing
 
-| Tipo de Retainer | Configuração |
-|-----------------|--------------|
-| **Fixo mensal** | Assinatura de R$7.500/mês |
-| **Variável** | Fatura manual com itens variáveis |
-| **Híbrido** | Base fixa + cobranças adicionais |
-
+- **Fixo mensal:** Assinatura de R$7.500/mês
+- **Variável:** Fatura manual com itens variáveis
+- **Híbrido:** Base fixa + cobranças adicionais
 ### Envio Automático de Faturas
 
 ### Customer Portal para Clientes
@@ -160,13 +133,10 @@ Seus clientes podem:
 
 ### Por Que Agências Precisam de Múltiplas Moedas
 
-| Cenário | Moeda |
-|---------|-------|
-| **Cliente nos EUA** | USD |
-| **Cliente na Europa** | EUR |
-| **Cliente no Brasil** | BRL |
-| **Cliente no México** | MXN |
-
+- **Cliente nos EUA:** USD
+- **Cliente na Europa:** EUR
+- **Cliente no Brasil:** BRL
+- **Cliente no México:** MXN
 ### Configuração de Moedas no Stripe
 
 1. Stripe Dashboard → Configurações → Moedas
@@ -176,13 +146,10 @@ Seus clientes podem:
 
 ### Considerações com Múltiplas Moedas
 
-| Aspecto | Detalhe |
-|---------|---------|
-| **Taxa de câmbio** | Stripe usa taxa de mercado + margem 1-2% |
-| **Conversão automática** | Stripe converte para sua moeda local |
-| **Faturamento** | Cada fatura na moeda do cliente |
-| **Relatórios** | Dashboard mostra tudo na moeda base |
-
+- **Taxa de câmbio:** Stripe usa taxa de mercado + margem 1-2%
+- **Conversão automática:** Stripe converte para sua moeda local
+- **Faturamento:** Cada fatura na moeda do cliente
+- **Relatórios:** Dashboard mostra tudo na moeda base
 ## 7. Automação para Agências
 
 ### Fluxo de Onboarding de Clientes
@@ -191,27 +158,21 @@ Seus clientes podem:
 
 ### Integrações Recomendadas
 
-| Ferramenta | Para Que |
-|-----------|---------|
-| **HubSpot** | Sincronizar clientes e faturas |
-| **Salesforce** | Gestão de vendas e contratos |
-| **Slack** | Notificações de pagamentos |
-| **QuickBooks / Xero** | Contabilidade automática |
-| **Zapier / Make** | Automações sem código |
-
+- **HubSpot:** Sincronizar clientes e faturas
+- **Salesforce:** Gestão de vendas e contratos
+- **Slack:** Notificações de pagamentos
+- **QuickBooks / Xero:** Contabilidade automática
+- **Zapier / Make:** Automações sem código
 ## 8. Relatórios e Métricas para sua Agência
 
 ### KPIs que Você Deve Monitorar
 
-| Métrica | Descrição |
-|---------|-----------|
-| **MRR** | Receita recorrente mensal (retainers) |
-| **Clientes ativos** | Quantos clientes pagam atualmente |
-| **Churn rate** | % de clientes que cancelam |
-| **Média por cliente** | Receita média por cliente |
-| **Dias para receber** | Tempo entre fatura e pagamento |
-| **Pagamentos atrasados** | % de faturas vencidas |
-
+- **MRR:** Receita recorrente mensal (retainers)
+- **Clientes ativos:** Quantos clientes pagam atualmente
+- **Churn rate:** % de clientes que cancelam
+- **Média por cliente:** Receita média por cliente
+- **Dias para receber:** Tempo entre fatura e pagamento
+- **Pagamentos atrasados:** % de faturas vencidas
 ### Dashboard do Stripe para Agências
 
 Stripe Dashboard mostra:
@@ -227,34 +188,25 @@ Stripe Dashboard mostra:
 
 ### Proteção de Dados de Clientes
 
-| Medida | Descrição |
-|--------|-----------|
-| **PCI DSS Level 1** | Stripe cumpre o mais alto nível de segurança |
-| **Tokenização** | Stripe nunca armazena números de cartão no seu servidor |
-| **3D Secure** | Proteção contra fraudes em cada transação |
-| **Criptografia** | Todos os dados trafegam criptografados |
-
+- **PCI DSS Level 1:** Stripe cumpre o mais alto nível de segurança
+- **Tokenização:** Stripe nunca armazena números de cartão no seu servidor
+- **3D Secure:** Proteção contra fraudes em cada transação
+- **Criptografia:** Todos os dados trafegam criptografados
 ### Privacidade e LGPD
 
-| Requisito | Como o Stripe Gerencia |
-|-----------|----------------------|
-| **Consentimento** | Stripe não armazena dados sem consentimento |
-| **Portabilidade** | Exporte dados de clientes facilmente |
-| **Eliminação** | Stripe elimina dados quando solicitado |
-| **Notificação** | Stripe notifica em caso de violação |
-
+- **Consentimento:** Stripe não armazena dados sem consentimento
+- **Portabilidade:** Exporte dados de clientes facilmente
+- **Eliminação:** Stripe elimina dados quando solicitado
+- **Notificação:** Stripe notifica em caso de violação
 ## 10. Passo a Passo Rápido
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Crie sua conta Stripe Business | 30 min |
-| **2** | Configure faturamento e métodos de pagamento | 1 hora |
-| **3** | Crie produtos/serviços com preços | 30 min |
-| **4** | Configure Stripe Connect (se aplicável) | 2 horas |
-| **5** | Integre com suas ferramentas (CRM, contabilidade) | 2-4 horas |
-
+- **1:** Crie sua conta Stripe Business -- 30 min
+- **2:** Configure faturamento e métodos de pagamento -- 1 hora
+- **3:** Crie produtos/serviços com preços -- 30 min
+- **4:** Configure Stripe Connect (se aplicável) -- 2 horas
+- **5:** Integre com suas ferramentas (CRM, contabilidade) -- 2-4 horas
 ### Checklist para sua Agência
 
 - [ ] Conta Stripe Business verificada

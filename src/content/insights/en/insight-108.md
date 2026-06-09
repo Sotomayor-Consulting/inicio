@@ -15,15 +15,12 @@ In this guide, we cover **how to automate lead tracking in 2026**: from lead cap
 
 ### Why Leads Slip Through the Cracks
 
-| Problem | Impact | Automated Solution |
-|---------|--------|-------------------|
-| **Slow response** | 35-50% of leads go to competitor who responds first | Instant auto-reply + SMS |
-| **No follow-up** | 80% of sales need 5+ touches, average rep does 2 | Automated multi-channel sequences |
-| **Poor qualification** | Sales team wastes 50% of time on unqualified leads | AI lead scoring + routing |
-| **Data silos** | Leads in different tools, no single view | Unified CRM with auto-sync |
-| **Inconsistent outreach** | Every rep follows their own process | Standardized automated workflows |
-| **No analytics** | Can't measure what works | Real-time lead tracking dashboard |
-
+- **Slow response:** 35-50% of leads go to competitor who responds first -- Instant auto-reply + SMS
+- **No follow-up:** 80% of sales need 5+ touches, average rep does 2 -- Automated multi-channel sequences
+- **Poor qualification:** Sales team wastes 50% of time on unqualified leads -- AI lead scoring + routing
+- **Data silos:** Leads in different tools, no single view -- Unified CRM with auto-sync
+- **Inconsistent outreach:** Every rep follows their own process -- Standardized automated workflows
+- **No analytics:** Can't measure what works -- Real-time lead tracking dashboard
 ### The Cost of Poor Lead Tracking
 
 ## 2. Lead Capture Automation
@@ -40,14 +37,11 @@ In this guide, we cover **how to automate lead tracking in 2026**: from lead cap
 
 ### Lead Scoring Criteria by Channel
 
-| Channel | High Score (80-100) | Medium Score (50-79) | Low Score (0-49) |
-|---------|-------------------|--------------------|------------------|
-| **Website** | Visited pricing + requested demo | Visited blog + downloaded content | Bounced after 1 page |
-| **WhatsApp** | Replied + asked for pricing | Read messages + emoji reaction | Delivered but unread |
-| **Email** | Clicked link + replied | Opened 3+ emails | Never opened |
-| **Stripe** | Incomplete checkout with email | Viewed checkout page | Visited landing page |
-| **LinkedIn** | Engaged with ad + submitted form | Viewed profile | Impressed only |
-
+- **Website:** Visited pricing + requested demo -- Visited blog + downloaded content -- Bounced after 1 page
+- **WhatsApp:** Replied + asked for pricing -- Read messages + emoji reaction -- Delivered but unread
+- **Email:** Clicked link + replied -- Opened 3+ emails -- Never opened
+- **Stripe:** Incomplete checkout with email -- Viewed checkout page -- Visited landing page
+- **LinkedIn:** Engaged with ad + submitted form -- Viewed profile -- Impressed only
 ## 4. Automated Lead Follow-Up Sequences
 
 ### Multi-Channel Sequencing
@@ -68,19 +62,16 @@ In this guide, we cover **how to automate lead tracking in 2026**: from lead cap
 
 ### Key Lead Tracking Metrics
 
-| Metric | Formula | Target | What It Tells You |
-|--------|---------|--------|-------------------|
-| **Lead Response Time** | Time from capture to first contact | < 5 min | Speed of your team |
-| **Lead Score Distribution** | % hot / warm / cold | 20% hot, 50% warm, 30% cold | Quality of incoming leads |
-| **Sequence Completion Rate** | % leads that complete sequence | > 40% | Effectiveness of sequences |
-| **Channel Conversion** | Leads by source → opportunity | Varies | Best performing channels |
-| **Lead Decay Rate** | % leads going cold over time | < 10%/week | How fast leads lose interest |
-| **Follow-Up Adherence** | % steps executed on time | > 95% | Automation reliability |
-| **Contact Rate** | % leads reached | > 60% | Data quality + channel effectiveness |
-| **Meeting Booking Rate** | % leads that book a meeting | > 15% | Qual + messaging effectiveness |
-| **Stripe Abandonment Rate** | % incomplete checkouts | < 40% | Pricing or UX issues |
-| **Cost Per Lead** | Total spend / leads generated | Decreasing | Efficiency of acquisition |
-
+- **Lead Response Time:** Time from capture to first contact -- < 5 min -- Speed of your team
+- **Lead Score Distribution:** % hot / warm / cold -- 20% hot, 50% warm, 30% cold -- Quality of incoming leads
+- **Sequence Completion Rate:** % leads that complete sequence -- > 40% -- Effectiveness of sequences
+- **Channel Conversion:** Leads by source → opportunity -- Varies -- Best performing channels
+- **Lead Decay Rate:** % leads going cold over time -- < 10%/week -- How fast leads lose interest
+- **Follow-Up Adherence:** % steps executed on time -- > 95% -- Automation reliability
+- **Contact Rate:** % leads reached -- > 60% -- Data quality + channel effectiveness
+- **Meeting Booking Rate:** % leads that book a meeting -- > 15% -- Qual + messaging effectiveness
+- **Stripe Abandonment Rate:** % incomplete checkouts -- < 40% -- Pricing or UX issues
+- **Cost Per Lead:** Total spend / leads generated -- Decreasing -- Efficiency of acquisition
 ### Real-Time Dashboard
 
 ## 8. Putting It All Together: End-to-End Lead Tracking Automation

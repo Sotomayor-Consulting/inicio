@@ -24,15 +24,12 @@ Having an LLC does not mean you or your company are exempt from taxes. Tax oblig
 
 ### Factors that determine if your LLC pays taxes
 
-| Factor | Impact |
-|--------|--------|
-| **Owner's tax residency** | Determines where and how you report income |
-| **Source of income** | Whether income is from U.S. or foreign sources |
-| **Physical presence in U.S.** | Office, employees, inventory within the country |
-| **Type of activity** | Digital services vs. physical products vs. investments |
-| **Number of members** | Single-member vs multi-member has different treatment |
-| **Tax elections** | Electing S-Corp or C-Corp changes everything |
-
+- **Owner's tax residency:** Determines where and how you report income
+- **Source of income:** Whether income is from U.S. or foreign sources
+- **Physical presence in U.S.:** Office, employees, inventory within the country
+- **Type of activity:** Digital services vs. physical products vs. investments
+- **Number of members:** Single-member vs multi-member has different treatment
+- **Tax elections:** Electing S-Corp or C-Corp changes everything
 ## Real LLC taxation scenarios
 
 ### Scenario 1: Foreign LLC with no U.S. operations and no U.S.-source income
@@ -67,15 +64,12 @@ If the LLC made a tax election to be taxed as an S-Corp or C-Corp, the rules cha
 
 Even in the most favorable scenario (no U.S.-source income and no physical presence), your LLC has obligations:
 
-| Obligation | Description |
-|-----------|-------------|
-| **Annual Report** | Annual report in the state of registration |
-| **Registered Agent** | Must remain active all year |
-| **Form 5472** | If single-member LLC owned by a foreigner |
-| **Form 1120 pro forma** | Informational return before the IRS |
-| **State Franchise Tax** | In states like Delaware or California |
-| **Bookkeeping** | Income and expense records |
-
+- **Annual Report:** Annual report in the state of registration
+- **Registered Agent:** Must remain active all year
+- **Form 5472:** If single-member LLC owned by a foreigner
+- **Form 1120 pro forma:** Informational return before the IRS
+- **State Franchise Tax:** In states like Delaware or California
+- **Bookkeeping:** Income and expense records
 ## The danger of opening an LLC without understanding the obligations
 
 Many entrepreneurs open their LLC, obtain the EIN, and then assume "nothing happens" if they do not file forms or declare. This is a recipe for serious problems:
@@ -99,12 +93,9 @@ Many entrepreneurs open their LLC, obtain the EIN, and then assume "nothing happ
 
 ## What "pass-through" and "disregarded entity" really mean
 
-| Term | Means | Does NOT mean |
-|------|-------|---------------|
-| **Pass-through** | Profits pass to members | That nothing needs to be declared |
-| **Disregarded entity** | LLC is ignored as separate entity for tax purposes | That there are no informational obligations |
-| **No corporate tax** | LLC does not pay corporate tax | That the owner pays no taxes |
-
+- **Pass-through:** Profits pass to members -- That nothing needs to be declared
+- **Disregarded entity:** LLC is ignored as separate entity for tax purposes -- That there are no informational obligations
+- **No corporate tax:** LLC does not pay corporate tax -- That the owner pays no taxes
 ## So, is an LLC useless?
 
 **No, it is very useful.** But you need to understand how to use it correctly.
@@ -134,14 +125,11 @@ Before opening an LLC, make sure you understand and budget for these obligations
 
 ## Myths and realities about LLCs and taxes
 
-| Myth | Reality |
-|------|---------|
-| "An LLC pays no taxes" | Depends on the case; may pay or just file informational forms |
-| "If I have no income, I owe nothing" | You may still have informational obligations |
-| "The LLC is for not declaring" | The LLC may increase your reporting obligations |
-| "I only pay once when opening it" | The LLC has annual maintenance costs |
-| "The IRS will never find me" | The IRS has information exchange agreements with many countries |
-
+- **"An LLC pays no taxes":** Depends on the case; may pay or just file informational forms
+- **"If I have no income, I owe nothing":** You may still have informational obligations
+- **"The LLC is for not declaring":** The LLC may increase your reporting obligations
+- **"I only pay once when opening it":** The LLC has annual maintenance costs
+- **"The IRS will never find me":** The IRS has information exchange agreements with many countries
 ## Conclusion
 
 Opening an LLC thinking it automatically pays no taxes is one of the most costly mistakes you can make as an entrepreneur. The reality is:

@@ -13,15 +13,12 @@ Neste guia, explicamos **como acessar o sistema financeiro dos EUA do exterior**
 
 ### Benefícios de Ter uma Conta nos EUA
 
-| Benefício | Por Que é Importante |
-|-----------|---------------------|
-| **Estabilidade do USD** | O dólar é a moeda de reserva mundial, protege contra desvalorizações |
-| **Plataformas de Pagamento Globais** | Stripe, PayPal e outros processadores exigem contas nos EUA |
-| **Acesso a Capital** | Bancos nos EUA oferecem empréstimos, linhas de crédito e adiantamentos |
-| **Credibilidade Internacional** | Uma conta nos EUA gera confiança em clientes globais |
-| **Suporte Multi-Moeda** | Receba e mantenha múltiplas moedas, converta a taxas competitivas |
-| **Oportunidades de Investimento** | Acesso a bolsa, imóveis e outros veículos de investimento |
-
+- **Estabilidade do USD:** O dólar é a moeda de reserva mundial, protege contra desvalorizações
+- **Plataformas de Pagamento Globais:** Stripe, PayPal e outros processadores exigem contas nos EUA
+- **Acesso a Capital:** Bancos nos EUA oferecem empréstimos, linhas de crédito e adiantamentos
+- **Credibilidade Internacional:** Uma conta nos EUA gera confiança em clientes globais
+- **Suporte Multi-Moeda:** Receba e mantenha múltiplas moedas, converta a taxas competitivas
+- **Oportunidades de Investimento:** Acesso a bolsa, imóveis e outros veículos de investimento
 ### Quem Precisa de Acesso Bancário nos EUA
 
 ## 2. Passo 1: Forme uma Entidade Comercial nos EUA
@@ -30,44 +27,32 @@ Neste guia, explicamos **como acessar o sistema financeiro dos EUA do exterior**
 
 A maioria das plataformas financeiras nos EUA exige uma **entidade comercial americana** para abrir uma conta bancária empresarial. As opções mais comuns são:
 
-| Tipo de Entidade | Melhor Para | Características Principais |
-|-----------------|------------|---------------------------|
-| **LLC (Sociedade de Responsabilidade Limitada)** | Maioria dos empreendedores | Proteção de ativos, impostos pass-through, fácil gestão |
-| **Corporação C** | Startups buscando investimento VC | Preferida por investidores, pode emitir ações |
-| **Corporação S** | Residentes nos EUA com LLC | Economia fiscal em renda de autônomo |
-
+- **LLC (Sociedade de Responsabilidade Limitada):** Maioria dos empreendedores -- Proteção de ativos, impostos pass-through, fácil gestão
+- **Corporação C:** Startups buscando investimento VC -- Preferida por investidores, pode emitir ações
+- **Corporação S:** Residentes nos EUA com LLC -- Economia fiscal em renda de autônomo
 ### Estados Recomendados para Estrangeiros
 
-| Estado | Custo de Formação | Taxa Anual | Impostos | Privacidade |
-|--------|------------------|------------|----------|-------------|
-| **Wyoming** | $100 | $60 | Sem imposto estadual | Alta (membros anônimos) |
-| **Delaware** | $90 | $300 | Sem imposto estadual para não residentes | Média |
-| **Novo México** | $50 | $0 | Sem imposto estadual | Muito alta (sem info pública) |
-| **Flórida** | $125 | $138.75 | Sem imposto estadual | Baixa |
-
+- **Wyoming:** $100 -- $60 -- Sem imposto estadual -- Alta (membros anônimos)
+- **Delaware:** $90 -- $300 -- Sem imposto estadual para não residentes -- Média
+- **Novo México:** $50 -- $0 -- Sem imposto estadual -- Muito alta (sem info pública)
+- **Flórida:** $125 -- $138.75 -- Sem imposto estadual -- Baixa
 ## 3. Passo 2: Abra uma Conta Bancária nos EUA
 
 ### Bancos Online para Não Residentes
 
 A forma mais fácil de acessar o sistema bancário dos EUA é através de **bancos online** que aceitam LLCs de propriedade estrangeira:
 
-| Banco | Melhor Para | Requisitos | Contas USD | Características |
-|-------|------------|------------|------------|-----------------|
-| **Mercury** | Startups de tecnologia, SaaS | LLC/EIN nos EUA, passaporte estrangeiro | ✅ Múltiplas contas USD | API, cartões virtuais, segurado FDIC |
-| **Relay** | Pequenos negócios, e-commerce | LLC/EIN nos EUA, passaporte estrangeiro | ✅ Até 20 contas | Subcontas, envelopes, sincronização QuickBooks |
-| **Wise (Business)** | Pagamentos globais, freelancers | LLC/EIN ou sole prop nos EUA | ✅ Multi-moeda | 50+ moedas, taxas baixas |
-| **Novo** | Freelancers, empreendedores individuais | LLC/EIN nos EUA, ITIN ou SSN | ✅ Uma conta corrente | Transferências grátis, integração Stripe |
-| **Brex** | Startups com investimento VC | Corporação nos EUA, financiamento | ✅ Conta empresarial | Cartões corporativos, recompensas, crédito |
-
+- **Mercury:** Startups de tecnologia, SaaS -- LLC/EIN nos EUA, passaporte estrangeiro -- ✅ Múltiplas contas USD -- API, cartões virtuais, segurado FDIC
+- **Relay:** Pequenos negócios, e-commerce -- LLC/EIN nos EUA, passaporte estrangeiro -- ✅ Até 20 contas -- Subcontas, envelopes, sincronização QuickBooks
+- **Wise (Business):** Pagamentos globais, freelancers -- LLC/EIN ou sole prop nos EUA -- ✅ Multi-moeda -- 50+ moedas, taxas baixas
+- **Novo:** Freelancers, empreendedores individuais -- LLC/EIN nos EUA, ITIN ou SSN -- ✅ Uma conta corrente -- Transferências grátis, integração Stripe
+- **Brex:** Startups com investimento VC -- Corporação nos EUA, financiamento -- ✅ Conta empresarial -- Cartões corporativos, recompensas, crédito
 ### Bancos Tradicionais (Mais Difícil para Não Residentes)
 
-| Banco | Requisitos | Considerações Principais |
-|-------|-----------|-------------------------|
-| **Bank of America** | Visita presencial, SSN/ITIN, endereço nos EUA | Difícil sem presença nos EUA |
-| **Chase** | Visita presencial, SSN/ITIN, endereço nos EUA | Exige saldo mínimo |
-| **Wells Fargo** | Visita presencial, SSN/ITIN, endereço nos EUA | Similar a outros bancos tradicionais |
-| **HSBC** | Pode aceitar clientes estrangeiros | Conta global, mínimos altos |
-
+- **Bank of America:** Visita presencial, SSN/ITIN, endereço nos EUA -- Difícil sem presença nos EUA
+- **Chase:** Visita presencial, SSN/ITIN, endereço nos EUA -- Exige saldo mínimo
+- **Wells Fargo:** Visita presencial, SSN/ITIN, endereço nos EUA -- Similar a outros bancos tradicionais
+- **HSBC:** Pode aceitar clientes estrangeiros -- Conta global, mínimos altos
 ### Documentos Necessários para Abrir uma Conta
 
 ## 4. Passo 3: Configure o Processamento de Pagamentos
@@ -76,54 +61,42 @@ A forma mais fácil de acessar o sistema bancário dos EUA é através de **banc
 
 **Stripe** é o processador de pagamentos mais importante para acessar o sistema financeiro dos EUA. Com uma LLC e conta bancária americana, você pode ativar uma conta completa do Stripe.
 
-| Característica | Conta Stripe EUA | Conta Stripe Não-EUA |
-|---------------|-----------------|---------------------|
-| **Moedas** | 135+ moedas | 135+ moedas |
-| **Pagamentos** | USD para conta bancária nos EUA | Moeda local ou USD |
-| **Velocidade de Pagamento** | 2-3 dias úteis | 3-7 dias úteis |
-| **Métodos de Pagamento** | Cartão, ACH, Wire, Link, Apple Pay | Cartão, métodos locais |
-| **Stripe Capital** | ✅ Acesso a empréstimos | ❌ Não disponível |
-| **Stripe Atlas** | ✅ Forme sua LLC | ✅ Disponível |
-| **Stripe Issuing** | ✅ Crie cartões virtuais | ❌ Limitado |
-| **Stripe Tax** | ✅ Conformidade fiscal total nos EUA | ✅ Global |
-
+- **Moedas:** 135+ moedas -- 135+ moedas
+- **Pagamentos:** USD para conta bancária nos EUA -- Moeda local ou USD
+- **Velocidade de Pagamento:** 2-3 dias úteis -- 3-7 dias úteis
+- **Métodos de Pagamento:** Cartão, ACH, Wire, Link, Apple Pay -- Cartão, métodos locais
+- **Stripe Capital:** ✅ Acesso a empréstimos -- ❌ Não disponível
+- **Stripe Atlas:** ✅ Forme sua LLC -- ✅ Disponível
+- **Stripe Issuing:** ✅ Crie cartões virtuais -- ❌ Limitado
+- **Stripe Tax:** ✅ Conformidade fiscal total nos EUA -- ✅ Global
 ### Comparação de Gateways de Pagamento
 
-| Plataforma | Melhor Para | Configuração com LLC | Taxas |
-|-----------|------------|---------------------|-------|
-| **Stripe** | Negócios online, SaaS | ✅ Fácil | 2.9% + $0.30 |
-| **PayPal Business** | E-commerce, freelancers | ✅ Fácil | 2.99% + $0.49 |
-| **Square** | Presencial, varejo | ✅ Exige EIN | 2.6% + $0.10 |
-| **Authorize.net** | Negócios estabelecidos | ✅ Exige conta merchant | $25/mês + taxas |
-| **Adyen** | Empresarial, alto volume | ✅ Exige subscrição | Preço personalizado |
-
+- **Stripe:** Negócios online, SaaS -- ✅ Fácil -- 2.9% + $0.30
+- **PayPal Business:** E-commerce, freelancers -- ✅ Fácil -- 2.99% + $0.49
+- **Square:** Presencial, varejo -- ✅ Exige EIN -- 2.6% + $0.10
+- **Authorize.net:** Negócios estabelecidos -- ✅ Exige conta merchant -- $25/mês + taxas
+- **Adyen:** Empresarial, alto volume -- ✅ Exige subscrição -- Preço personalizado
 ## 5. Passo 4: Construa Crédito Empresarial nos EUA
 
 ### Por Que o Crédito Empresarial é Importante
 
 Construir crédito empresarial nos EUA permite acessar **financiamento, cartões de crédito e melhores termos com fornecedores**. Diferente do crédito pessoal, o crédito empresarial está vinculado ao seu EIN e LLC.
 
-| Bureau de Crédito | Faixa de Pontuação | O que Afeta |
-|-------------------|-------------------|-------------|
-| **Dun & Bradstreet (D&B)** | 0-100 | Crédito de fornecedores, termos comerciais |
-| **Experian Business** | 0-100 | Empréstimos empresariais, cartões de crédito |
-| **Equifax Business** | 0-100 | Empréstimos empresariais, crédito comercial |
-
+- **Dun & Bradstreet (D&B):** 0-100 -- Crédito de fornecedores, termos comerciais
+- **Experian Business:** 0-100 -- Empréstimos empresariais, cartões de crédito
+- **Equifax Business:** 0-100 -- Empréstimos empresariais, crédito comercial
 ### Como Construir Crédito Empresarial como Estrangeiro
 
 ## 6. Passo 5: Gerencie Impostos e Conformidade
 
 ### Obrigações Fiscais para LLCs de Propriedade Estrangeira
 
-| Formulário | Frequência | Quem Deve Apresentar |
-|-----------|-----------|---------------------|
-| **Formulário 5472** | Anual | LLCs de único membro de propriedade estrangeira |
-| **Formulário 1120** | Anual | LLCs de vários membros que elegeram status corporativo |
-| **Formulário 1065** | Anual | LLCs de vários membros (sociedade) |
-| **IRS W-8BEN-E** | A cada 3 anos | Entidades estrangeiras que reivindicam benefícios de tratados |
-| **FBAR** | Anual | Se contas no exterior excederem $10,000 |
-| **Relatórios Estaduais** | Anual/Bienal | Varia por estado (Wyoming: $60, Delaware: $300) |
-
+- **Formulário 5472:** Anual -- LLCs de único membro de propriedade estrangeira
+- **Formulário 1120:** Anual -- LLCs de vários membros que elegeram status corporativo
+- **Formulário 1065:** Anual -- LLCs de vários membros (sociedade)
+- **IRS W-8BEN-E:** A cada 3 anos -- Entidades estrangeiras que reivindicam benefícios de tratados
+- **FBAR:** Anual -- Se contas no exterior excederem $10,000
+- **Relatórios Estaduais:** Anual/Bienal -- Varia por estado (Wyoming: $60, Delaware: $300)
 ### Considerações Fiscais para Estrangeiros
 
 ## 7. Passo 6: Acesse Plataformas de Investimento nos EUA
@@ -132,38 +105,29 @@ Construir crédito empresarial nos EUA permite acessar **financiamento, cartões
 
 Uma vez que você tem uma LLC, conta bancária e EIN nos EUA, pode acessar plataformas de investimento americanas:
 
-| Plataforma | Tipo | Requisitos | Características Principais |
-|-----------|------|-----------|---------------------------|
-| **Interactive Brokers** | Corretagem | LLC, EIN, conta bancária | Ações, opções, futuros, títulos |
-| **Charles Schwab** | Corretagem | LLC, EIN, endereço nos EUA | Ações, ETFs, fundos mútuos |
-| **Mercury Treasury** | Gestão de Caixa | Conta Mercury | 4-5% APY em saldos USD |
-| **Brex Treasury** | Gestão de Caixa | Conta Brex | 4-5% APY em saldos USD |
-| **Rocket Mortgage** | Hipoteca | LLC, EIN, declarações fiscais | Financiamento de propriedades de investimento |
-| **Fundrise** | Crowdfunding Imobiliário | LLC, EIN, conta bancária | Investimentos em imóveis a partir de $10 |
-
+- **Interactive Brokers:** Corretagem -- LLC, EIN, conta bancária -- Ações, opções, futuros, títulos
+- **Charles Schwab:** Corretagem -- LLC, EIN, endereço nos EUA -- Ações, ETFs, fundos mútuos
+- **Mercury Treasury:** Gestão de Caixa -- Conta Mercury -- 4-5% APY em saldos USD
+- **Brex Treasury:** Gestão de Caixa -- Conta Brex -- 4-5% APY em saldos USD
+- **Rocket Mortgage:** Hipoteca -- LLC, EIN, declarações fiscais -- Financiamento de propriedades de investimento
+- **Fundrise:** Crowdfunding Imobiliário -- LLC, EIN, conta bancária -- Investimentos em imóveis a partir de $10
 ### Plataformas de Cripto e Ativos Digitais
 
-| Plataforma | Amigável com Entidade nos EUA | Serviços |
-|-----------|-----------------------------|----------|
-| **Coinbase Commerce** | ✅ Aceita LLCs nos EUA | Pagamentos cripto para negócios |
-| **Circle (USDC)** | ✅ Aceita LLCs nos EUA | Gestão de tesouraria com stablecoins |
-| **Kraken** | ✅ Aceita LLCs nos EUA | Trading e staking de cripto |
-
+- **Coinbase Commerce:** ✅ Aceita LLCs nos EUA -- Pagamentos cripto para negócios
+- **Circle (USDC):** ✅ Aceita LLCs nos EUA -- Gestão de tesouraria com stablecoins
+- **Kraken:** ✅ Aceita LLCs nos EUA -- Trading e staking de cripto
 ## 8. Erros Comuns ao Acessar o Sistema Financeiro dos EUA
 
 ### O que NÃO Fazer
 
-| Erro | Consequência | Solução |
-|------|-------------|---------|
-| **Usar contas pessoais para o negócio** | Contas congeladas, problemas fiscais | Abra uma conta empresarial dedicada |
-| **Ignorar requisitos do IRS** | Multas de $25,000+ pelo Formulário 5472 | Apresente anualmente com um contador |
-| **Escolher o estado errado para a LLC** | Taxas anuais altas, impostos complicados | Wyoming ou Novo México para a maioria |
-| **Não reportar contas no exterior (FBAR)** | Multas de $10,000+ | Apresente FBAR se contas > $10,000 |
-| **Usar exchanges de cripto não reguladas** | Fundos congelados, problemas de conformidade | Use plataformas reguladas (Coinbase, Kraken) |
-| **Misturar contas pessoais e empresariais no Stripe** | Restrições de conta | Dedique uma conta Stripe por LLC |
-| **Pular o serviço de agente registrado** | Perda de bom status | Use um agente registrado profissional |
-| **Não manter um endereço nos EUA** | Fechamento de contas bancárias | Use uma caixa postal virtual ou endereço de agente |
-
+- **Usar contas pessoais para o negócio:** Contas congeladas, problemas fiscais -- Abra uma conta empresarial dedicada
+- **Ignorar requisitos do IRS:** Multas de $25,000+ pelo Formulário 5472 -- Apresente anualmente com um contador
+- **Escolher o estado errado para a LLC:** Taxas anuais altas, impostos complicados -- Wyoming ou Novo México para a maioria
+- **Não reportar contas no exterior (FBAR):** Multas de $10,000+ -- Apresente FBAR se contas > $10,000
+- **Usar exchanges de cripto não reguladas:** Fundos congelados, problemas de conformidade -- Use plataformas reguladas (Coinbase, Kraken)
+- **Misturar contas pessoais e empresariais no Stripe:** Restrições de conta -- Dedique uma conta Stripe por LLC
+- **Pular o serviço de agente registrado:** Perda de bom status -- Use um agente registrado profissional
+- **Não manter um endereço nos EUA:** Fechamento de contas bancárias -- Use uma caixa postal virtual ou endereço de agente
 ## 9. Checklist Completo para Acessar o Sistema Financeiro dos EUA
 
 ### FASE 1: FORMAÇÃO DA EMPRESA (Semana 1-2)

@@ -17,33 +17,27 @@ An international invoice is a commercial document issued by a seller to a buyer 
 
 ### Differences from Domestic Invoices
 
-| Aspect | Domestic Invoice | International Invoice |
-|--------|-----------------|----------------------|
-| **Language** | Local language | Generally English + local language |
-| **Currency** | Local currency | USD, EUR, or other agreed currency |
-| **Taxes** | Local VAT/tax | 0% VAT (export) or destination country VAT |
-| **Regulation** | Local laws | Local laws + international treaties |
-| **Incoterms** | Not applicable | Define shipping responsibility |
-| **Tax IDs** | Local tax ID | Local + international tax ID (VAT ID, EIN) |
-
+- **Language:** Local language -- Generally English + local language
+- **Currency:** Local currency -- USD, EUR, or other agreed currency
+- **Taxes:** Local VAT/tax -- 0% VAT (export) or destination country VAT
+- **Regulation:** Local laws -- Local laws + international treaties
+- **Incoterms:** Not applicable -- Define shipping responsibility
+- **Tax IDs:** Local tax ID -- Local + international tax ID (VAT ID, EIN)
 ## 2. Essential Requirements for an International Invoice
 
 ### Mandatory Fields
 
-| Field | Description |
-|-------|-------------|
-| **Invoice number** | Sequential, unique, defined format |
-| **Issue date** | Day the invoice is issued |
-| **Seller details** | Name, address, tax number (EIN, VAT ID, RFC) |
-| **Buyer details** | Name, address, international tax number |
-| **Description** | Detail of products or services |
-| **Quantity and price** | Units, unit price, subtotal |
-| **Currency** | ISO currency code (USD, EUR, MXN, etc.) |
-| **Taxes** | Breakdown of applied taxes |
-| **Total** | Total amount due |
-| **Payment terms** | Term, method, bank details |
-| **Incoterms** | If applicable for physical products |
-
+- **Invoice number:** Sequential, unique, defined format
+- **Issue date:** Day the invoice is issued
+- **Seller details:** Name, address, tax number (EIN, VAT ID, RFC)
+- **Buyer details:** Name, address, international tax number
+- **Description:** Detail of products or services
+- **Quantity and price:** Units, unit price, subtotal
+- **Currency:** ISO currency code (USD, EUR, MXN, etc.)
+- **Taxes:** Breakdown of applied taxes
+- **Total:** Total amount due
+- **Payment terms:** Term, method, bank details
+- **Incoterms:** If applicable for physical products
 ### Recommended Additional Information
 
 - Buyer's Purchase Order (PO) number
@@ -56,62 +50,47 @@ An international invoice is a commercial document issued by a seller to a buyer 
 
 ### Stripe Invoicing
 
-| Feature | Detail |
-|---------|--------|
-| **Price** | 0.4% - 0.5% per paid invoice |
-| **Currencies** | 135+ currencies |
-| **Payments** | Card, ACH, wire transfer, Apple Pay, Google Pay |
-| **Taxes** | Stripe Tax integrated |
-| **Recurring billing** | Yes |
-| **Customization** | White label, templates |
-
+- **Price:** 0.4% - 0.5% per paid invoice
+- **Currencies:** 135+ currencies
+- **Payments:** Card, ACH, wire transfer, Apple Pay, Google Pay
+- **Taxes:** Stripe Tax integrated
+- **Recurring billing:** Yes
+- **Customization:** White label, templates
 ### PayPal Invoicing
 
-| Feature | Detail |
-|---------|--------|
-| **Price** | 2.99% + $0.49 per transaction |
-| **Currencies** | 25+ currencies |
-| **Payments** | PayPal, card, PayPal balance |
-| **Taxes** | Manual calculation |
-| **Recurring billing** | Yes (subscriptions) |
-| **Customization** | Basic templates |
-
+- **Price:** 2.99% + $0.49 per transaction
+- **Currencies:** 25+ currencies
+- **Payments:** PayPal, card, PayPal balance
+- **Taxes:** Manual calculation
+- **Recurring billing:** Yes (subscriptions)
+- **Customization:** Basic templates
 ### FreshBooks
 
-| Feature | Detail |
-|---------|--------|
-| **Price** | From $17/month |
-| **Currencies** | Multiple |
-| **Payments** | Card, ACH, wire transfer |
-| **Taxes** | Manual setup per client |
-| **Recurring billing** | Yes |
-| **Customization** | High customization |
-
+- **Price:** From $17/month
+- **Currencies:** Multiple
+- **Payments:** Card, ACH, wire transfer
+- **Taxes:** Manual setup per client
+- **Recurring billing:** Yes
+- **Customization:** High customization
 ### QuickBooks
 
-| Feature | Detail |
-|---------|--------|
-| **Price** | From $30/month |
-| **Currencies** | Multiple |
-| **Payments** | Card, ACH, wire transfer |
-| **Taxes** | Auto-configured by country |
-| **Recurring billing** | Yes |
-| **Customization** | High, ideal for accounting |
-
+- **Price:** From $30/month
+- **Currencies:** Multiple
+- **Payments:** Card, ACH, wire transfer
+- **Taxes:** Auto-configured by country
+- **Recurring billing:** Yes
+- **Customization:** High, ideal for accounting
 ## 4. Taxes in International Invoicing
 
 ### Export of Services
 
-| Origin Country | Tax Treatment |
-|---------------|---------------|
-| **Mexico** | 0% IVA (service export) |
-| **Colombia** | 0% IVA (service export) |
-| **Chile** | 0% IVA (service export) |
-| **Argentina** | 0% IVA (service export) |
-| **Peru** | 0% IGV (service export) |
-| **Spain** | 0% IVA (intra-EU B2B) or destination country VAT |
-| **United States** | No sales tax on exports |
-
+- **Mexico:** 0% IVA (service export)
+- **Colombia:** 0% IVA (service export)
+- **Chile:** 0% IVA (service export)
+- **Argentina:** 0% IVA (service export)
+- **Peru:** 0% IGV (service export)
+- **Spain:** 0% IVA (intra-EU B2B) or destination country VAT
+- **United States:** No sales tax on exports
 > **Important:** To apply the 0% VAT rate on service exports, you must issue the invoice correctly and retain documentation proving the client is abroad.
 
 ### Reverse Charge Mechanism
@@ -123,32 +102,23 @@ In international B2B transactions, the **reverse charge** mechanism generally ap
 
 ### When to Charge VAT
 
-| Scenario | Do You Charge VAT? |
-|----------|-------------------|
-| B2B, service export | No (0%, reverse charge) |
-| B2C, sale to EU consumer | Yes, customer's country VAT |
-| B2C, sale outside your country | Depends on country and thresholds |
-| Physical products with shipping | Depends on Incoterms and customs |
-
+- **B2B, service export:** No (0%, reverse charge)
+- **B2C, sale to EU consumer:** Yes, customer's country VAT
+- **B2C, sale outside your country:** Depends on country and thresholds
+- **Physical products with shipping:** Depends on Incoterms and customs
 ## 5. Currencies and Exchange Rates
 
 ### What Currency to Invoice In?
 
-| Currency | Recommended Use |
-|----------|----------------|
-| **USD** | Global standard, ideal for Americas, Asia, Africa |
-| **EUR** | Ideal for European clients |
-| **GBP** | Ideal for UK clients |
-| **Customer's local currency** | Best customer experience |
-
+- **USD:** Global standard, ideal for Americas, Asia, Africa
+- **EUR:** Ideal for European clients
+- **GBP:** Ideal for UK clients
+- **Customer's local currency:** Best customer experience
 ### Exchange Rate Methods
 
-| Method | Description |
-|--------|-------------|
-| **Fixed exchange rate** | Agree a rate with your client and use it on the invoice |
-| **Day's exchange rate** | Use the official rate on the issue date |
-| **Stripe automatic** | Stripe auto-converts upon payment receipt |
-
+- **Fixed exchange rate:** Agree a rate with your client and use it on the invoice
+- **Day's exchange rate:** Use the official rate on the issue date
+- **Stripe automatic:** Stripe auto-converts upon payment receipt
 ### Recommendations
 
 - Always include the exchange rate used if invoicing in a different currency
@@ -159,25 +129,19 @@ In international B2B transactions, the **reverse charge** mechanism generally ap
 
 ### Main Incoterms 2026
 
-| Incoterm | Meaning | Who pays shipping? | Who bears risk? |
-|----------|---------|-------------------|-----------------|
-| **EXW** | Ex Works | Buyer | Buyer |
-| **FOB** | Free on Board | Seller to port | Buyer onward |
-| **CIF** | Cost, Insurance & Freight | Seller | Seller to destination |
-| **DAP** | Delivered at Place | Seller | Seller to destination |
-| **DDP** | Delivered Duty Paid | Seller (includes customs) | Seller |
-
+- **EXW:** Ex Works -- Buyer -- Buyer
+- **FOB:** Free on Board -- Seller to port -- Buyer onward
+- **CIF:** Cost, Insurance & Freight -- Seller -- Seller to destination
+- **DAP:** Delivered at Place -- Seller -- Seller to destination
+- **DDP:** Delivered Duty Paid -- Seller (includes customs) -- Seller
 > The chosen Incoterm affects the invoiced value and who pays import costs. Always define it in writing with your client.
 
 ## 7. Regulations and Compliance
 
 ### FATCA and CRS
 
-| Regulation | Applies To | Obligation |
-|-----------|-----------|-----------|
-| **FATCA** (US) | US client accounts | Report accounts to IRS |
-| **CRS** (Common Reporting Standard) | Clients in OECD countries | Auto-report tax information |
-
+- **FATCA** (US):** US client accounts -- Report accounts to IRS
+- **CRS** (Common Reporting Standard):** Clients in OECD countries -- Auto-report tax information
 ### GDPR and Data Protection
 
 If invoicing clients in the European Union, you must comply with GDPR:
@@ -193,29 +157,23 @@ If invoicing clients in the European Union, you must comply with GDPR:
 
 ## 8. International Payment Methods
 
-| Method | Speed | Fee | Coverage |
-|--------|-------|-----|----------|
-| **Wire transfer (SWIFT)** | 1-5 days | $25-$50 | Global |
-| **Stripe / PayPal** | Instant | 2.9% + $0.30 | 135+ countries |
-| **Wise (TransferWise)** | 1-2 days | 0.4%-1% | 70+ countries |
-| **Cryptocurrencies** | Instant | Variable | Global |
-| **International check** | 7-14 days | $10-$30 | Limited |
-
+- **Wire transfer (SWIFT):** 1-5 days -- $25-$50 -- Global
+- **Stripe / PayPal:** Instant -- 2.9% + $0.30 -- 135+ countries
+- **Wise (TransferWise):** 1-2 days -- 0.4%-1% -- 70+ countries
+- **Cryptocurrencies:** Instant -- Variable -- Global
+- **International check:** 7-14 days -- $10-$30 -- Limited
 > Recommendation: Use Stripe or PayPal for small/medium amounts and SWIFT wire transfer for large amounts.
 
 ## 9. Recurring International Invoicing
 
 ### Global Subscriptions
 
-| Aspect | Recommendation |
-|--------|---------------|
-| **Platform** | Stripe Billing |
-| **Currency** | USD or EUR (stable) |
-| **Taxes** | Stripe Tax integrated |
-| **Country pricing** | Localized pricing (optional) |
-| **Billing** | Automatic, email to client |
-| **Dunning** | Stripe handles retries |
-
+- **Platform:** Stripe Billing
+- **Currency:** USD or EUR (stable)
+- **Taxes:** Stripe Tax integrated
+- **Country pricing:** Localized pricing (optional)
+- **Billing:** Automatic, email to client
+- **Dunning:** Stripe handles retries
 ### Example: International SaaS Subscription
 
 ## 10. Frequently Asked Questions
@@ -248,14 +206,11 @@ Include an arbitration clause in your contracts. Define the applicable jurisdict
 
 ### Summary in 5 Steps
 
-| Step | Action | Time |
-|------|--------|------|
-| **1** | Obtain a valid tax number (EIN, VAT ID, RFC) | 1-4 weeks |
-| **2** | Choose an invoicing platform (Stripe, FreshBooks, QuickBooks) | 1 day |
-| **3** | Configure your international invoice templates | 1-2 days |
-| **4** | Define your currency, payment, and Incoterms policies | 1 day |
-| **5** | Issue your first international invoice | 30 min |
-
+- **1:** Obtain a valid tax number (EIN, VAT ID, RFC) -- 1-4 weeks
+- **2:** Choose an invoicing platform (Stripe, FreshBooks, QuickBooks) -- 1 day
+- **3:** Configure your international invoice templates -- 1-2 days
+- **4:** Define your currency, payment, and Incoterms policies -- 1 day
+- **5:** Issue your first international invoice -- 30 min
 ### Setup Checklist
 
 - [ ] International tax number obtained

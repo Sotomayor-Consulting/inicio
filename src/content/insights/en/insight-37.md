@@ -38,11 +38,8 @@ The main FATCA reporting tool for individuals is **Form 8938**, which must be fi
 
 ### When must you file it?
 
-| Filing Status | Asset Value if Living in the U.S. | Asset Value if Living Abroad |
-|---|---|---|
-| Single or separate filer | More than $50,000 (last day) or $75,000 (any time) | More than $200,000 (last day) or $300,000 (any time) |
-| Married (joint filing) | More than $100,000 (last day) or $150,000 (any time) | More than $400,000 (last day) or $600,000 (any time) |
-
+- **Single or separate filer:** More than $50,000 (last day) or $75,000 (any time) -- More than $200,000 (last day) or $300,000 (any time)
+- **Married (joint filing):** More than $100,000 (last day) or $150,000 (any time) -- More than $400,000 (last day) or $600,000 (any time)
 ### Assets you must report:
 - Foreign bank and investment accounts
 - Stocks, bonds, and securities issued by non-U.S. entities
@@ -54,15 +51,12 @@ The main FATCA reporting tool for individuals is **Form 8938**, which must be fi
 
 One of the most common confusions is the difference between **FATCA** and **FBAR**. Although both require reporting foreign accounts, they are distinct requirements:
 
-| Aspect | FATCA (Form 8938) | FBAR (FinCEN Form 114) |
-|---|---|---|
-| **Purpose** | Report foreign financial assets | Report foreign bank and financial accounts |
-| **Form** | Form 8938 (with your tax return) | FinCEN Form 114 (separate filing) |
-| **Threshold** | Varies by residency and filing status ($50,000 � $600,000) | $10,000 (aggregate value at any time during the year) |
-| **Covered assets** | Accounts, stocks, bonds, funds, insurance, entity interests | Bank accounts, investment accounts, insurance accounts |
-| **Filing** | With your Form 1040 (annual) | Separately, by October 15 (electronic filing) |
-| **Penalty for non-filing** | $10,000 per violation (up to $50,000 for continued violation) | Up to $10,000 for non-willful; up to $100,000 or 50% of balance for willful |
-
+- **Purpose:** Report foreign financial assets -- Report foreign bank and financial accounts
+- **Form:** Form 8938 (with your tax return) -- FinCEN Form 114 (separate filing)
+- **Threshold:** Varies by residency and filing status ($50,000 � $600,000) -- $10,000 (aggregate value at any time during the year)
+- **Covered assets:** Accounts, stocks, bonds, funds, insurance, entity interests -- Bank accounts, investment accounts, insurance accounts
+- **Filing:** With your Form 1040 (annual) -- Separately, by October 15 (electronic filing)
+- **Penalty for non-filing:** $10,000 per violation (up to $50,000 for continued violation) -- Up to $10,000 for non-willful; up to $100,000 or 50% of balance for willful
 > **Important:** You may be required to file **both** forms if you meet each one's thresholds.
 
 ## 5. How Does FATCA Affect Foreign Financial Institutions?

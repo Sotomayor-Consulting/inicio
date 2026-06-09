@@ -15,28 +15,22 @@ In this guide, we cover **how to implement scalable processes in 2026**: process
 
 ### The Five Pillars of Scalable Processes
 
-| Pillar | Description | Why It Matters |
-|--------|------------|----------------|
-| **Standardized** | Documented step-by-step, same outcome every time | Eliminates variation and rework |
-| **Automated** | Technology handles repetitive, rule-based steps | Reduces labor cost and error rate |
-| **Measurable** | Key metrics tracked in real time | Enables data-driven optimization |
-| **Replicable** | Can be taught and delegated | Enables growth without founder bottleneck |
-| **Resilient** | Handles exceptions and edge cases | Maintains quality under pressure |
-
+- **Standardized:** Documented step-by-step, same outcome every time -- Eliminates variation and rework
+- **Automated:** Technology handles repetitive, rule-based steps -- Reduces labor cost and error rate
+- **Measurable:** Key metrics tracked in real time -- Enables data-driven optimization
+- **Replicable:** Can be taught and delegated -- Enables growth without founder bottleneck
+- **Resilient:** Handles exceptions and edge cases -- Maintains quality under pressure
 ### Scalable vs Non-Scalable Processes
 
-| Characteristic | Non-Scalable Process | Scalable Process |
-|---------------|---------------------|------------------|
-| **Documentation** | Tribal knowledge ("ask John") | Written SOP + video walkthrough |
-| **Automation** | 0-10% | 70-90% |
-| **Error rate** | Increases with volume | Stable regardless of volume |
-| **Training time** | 3-6 months | 1-2 weeks |
-| **Cost per unit** | Increases | Decreases |
-| **Processing time** | Linear growth | Logarithmic growth |
-| **Quality control** | Manual review | Automated validation |
-| **Exception handling** | Ad-hoc | Pre-defined playbooks |
-| **Technology stack** | Spreadsheets + email | ERP + automation + integrations |
-
+- **Documentation:** Tribal knowledge ("ask John") -- Written SOP + video walkthrough
+- **Automation:** 0-10% -- 70-90%
+- **Error rate:** Increases with volume -- Stable regardless of volume
+- **Training time:** 3-6 months -- 1-2 weeks
+- **Cost per unit:** Increases -- Decreases
+- **Processing time:** Linear growth -- Logarithmic growth
+- **Quality control:** Manual review -- Automated validation
+- **Exception handling:** Ad-hoc -- Pre-defined playbooks
+- **Technology stack:** Spreadsheets + email -- ERP + automation + integrations
 ### The Scalability Equation
 
 ## 2. Process Design Principles
@@ -53,17 +47,14 @@ In this guide, we cover **how to implement scalable processes in 2026**: process
 
 ### Automation Pattern Catalog
 
-| Pattern | Description | Example | Automation Tool |
-|---------|-------------|---------|-----------------|
-| **Trigger-Action** | One event triggers one action | Form submission → Create CRM lead | Zapier |
-| **Pipeline** | Sequential steps, each feeding the next | Invoice → Approve → Pay → Reconcile | n8n, Make |
-| **Fan-Out** | One event triggers multiple parallel actions | Order placed → Update inventory + notify warehouse + send receipt | Odoo, Make |
-| **Aggregator** | Multiple inputs combine into one output | Daily sales → Calculate → Send report | n8n, Python |
-| **State Machine** | Process with states and transitions | Order: Pending → Paid → Shipped → Delivered | Odoo, AWS Step Functions |
-| **Approval Chain** | Multi-level approval with conditions | Expense: <$100 auto-approve, $100-$1000 manager, >$1000 director | Odoo, Power Automate |
-| **Retry with Backoff** | Failed operation retries with increasing delays | Payment failed → Retry in 1h, 6h, 24h → Escalate | Stripe, Celery |
-| **Dead Letter Queue** | Failed items stored for manual review | Document processing failed → Move to review queue | AWS SQS, Odoo |
-
+- **Trigger-Action:** One event triggers one action -- Form submission → Create CRM lead -- Zapier
+- **Pipeline:** Sequential steps, each feeding the next -- Invoice → Approve → Pay → Reconcile -- n8n, Make
+- **Fan-Out:** One event triggers multiple parallel actions -- Order placed → Update inventory + notify warehouse + send receipt -- Odoo, Make
+- **Aggregator:** Multiple inputs combine into one output -- Daily sales → Calculate → Send report -- n8n, Python
+- **State Machine:** Process with states and transitions -- Order: Pending → Paid → Shipped → Delivered -- Odoo, AWS Step Functions
+- **Approval Chain:** Multi-level approval with conditions -- Expense: <$100 auto-approve, $100-$1000 manager, >$1000 director -- Odoo, Power Automate
+- **Retry with Backoff:** Failed operation retries with increasing delays -- Payment failed → Retry in 1h, 6h, 24h → Escalate -- Stripe, Celery
+- **Dead Letter Queue:** Failed items stored for manual review -- Document processing failed → Move to review queue -- AWS SQS, Odoo
 ### Orchestration Engine
 
 ## 4. Odoo for Scalable Operations
@@ -90,19 +81,16 @@ In this guide, we cover **how to implement scalable processes in 2026**: process
 
 ### Key Scalability Metrics
 
-| Metric | Definition | Target | How to Measure |
-|--------|-----------|--------|----------------|
-| **Cost per Unit** | Total process cost / units processed | Decreasing over time | Odoo costing + time tracking |
-| **Processing Time** | End-to-end cycle time | < 1 hour for standard processes | Odoo timestamp tracking |
-| **Automation Rate** | % of steps automated | > 70% | Process blueprint analysis |
-| **Error Rate** | % of cycles with errors | < 1% | Exception logging |
-| **First Pass Yield** | % of cycles completed without rework | > 95% | Quality checkpoint data |
-| **Capacity Headroom** | Current volume / max capacity | < 70% | Process throughput analysis |
-| **Employee NPS** | Operator satisfaction with process | > 50 | Quarterly surveys |
-| **Training Time** | Time to achieve proficiency | < 2 weeks | Onboarding tracking |
-| **Exception Rate** | % of cycles needing exception handling | < 5% | Exception logging |
-| **Scale Elasticity** | Cost increase per 2x volume | < 20% | Cost tracking at scale |
-
+- **Cost per Unit:** Total process cost / units processed -- Decreasing over time -- Odoo costing + time tracking
+- **Processing Time:** End-to-end cycle time -- < 1 hour for standard processes -- Odoo timestamp tracking
+- **Automation Rate:** % of steps automated -- > 70% -- Process blueprint analysis
+- **Error Rate:** % of cycles with errors -- < 1% -- Exception logging
+- **First Pass Yield:** % of cycles completed without rework -- > 95% -- Quality checkpoint data
+- **Capacity Headroom:** Current volume / max capacity -- < 70% -- Process throughput analysis
+- **Employee NPS:** Operator satisfaction with process -- > 50 -- Quarterly surveys
+- **Training Time:** Time to achieve proficiency -- < 2 weeks -- Onboarding tracking
+- **Exception Rate:** % of cycles needing exception handling -- < 5% -- Exception logging
+- **Scale Elasticity:** Cost increase per 2x volume -- < 20% -- Cost tracking at scale
 ### Scalability Dashboard
 
 ## 8. Implementation Roadmap

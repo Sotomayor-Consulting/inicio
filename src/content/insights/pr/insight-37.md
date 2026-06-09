@@ -38,11 +38,8 @@ O principal instrumento de reporte da FATCA para indiv�duos � o **Formul�r
 
 ### Quando voc� deve apresent�-lo?
 
-| Estado Civil | Valor dos ativos se morar nos EUA | Valor dos ativos se morar no exterior |
-|---|---|---|
-| Solteiro ou declara��o separada | Mais de $50.000 (�ltimo dia) ou $75.000 (qualquer momento) | Mais de $200.000 (�ltimo dia) ou $300.000 (qualquer momento) |
-| Casado (declara��o conjunta) | Mais de $100.000 (�ltimo dia) ou $150.000 (qualquer momento) | Mais de $400.000 (�ltimo dia) ou $600.000 (qualquer momento) |
-
+- **Solteiro ou declara��o separada:** Mais de $50.000 (�ltimo dia) ou $75.000 (qualquer momento) -- Mais de $200.000 (�ltimo dia) ou $300.000 (qualquer momento)
+- **Casado (declara��o conjunta):** Mais de $100.000 (�ltimo dia) ou $150.000 (qualquer momento) -- Mais de $400.000 (�ltimo dia) ou $600.000 (qualquer momento)
 ### Ativos que voc� deve reportar:
 - Contas banc�rias e de investimento no exterior
 - A��es, t�tulos e valores mobili�rios emitidos por entidades n�o americanas
@@ -54,15 +51,12 @@ O principal instrumento de reporte da FATCA para indiv�duos � o **Formul�r
 
 Uma das confus�es mais comuns � a diferen�a entre **FATCA** e **FBAR**. Embora ambas exijam o reporte de contas no exterior, s�o requisitos distintos:
 
-| Aspecto | FATCA (Form 8938) | FBAR (FinCEN Form 114) |
-|---|---|---|
-| **Prop�sito** | Reportar ativos financeiros estrangeiros | Reportar contas banc�rias e financeiras estrangeiras |
-| **Formul�rio** | Form 8938 (com sua declara��o de imposto) | FinCEN Form 114 (separadamente) |
-| **Limite** | Varia conforme resid�ncia e estado civil ($50.000 � $600.000) | $10.000 (valor agregado em qualquer momento do ano) |
-| **Ativos cobertos** | Contas, a��es, t�tulos, fundos, seguros, interesses em entidades | Contas banc�rias, contas de investimento, contas de seguro |
-| **Apresenta��o** | Com seu Form 1040 (anual) | Separadamente, at� 15 de outubro (eletr�nico) |
-| **Multa por n�o apresentar** | $10.000 por infra��o (at� $50.000 por infra��o continuada) | At� $10.000 por infra��o n�o intencional; at� $100.000 ou 50% do saldo por infra��o intencional |
-
+- **Prop�sito:** Reportar ativos financeiros estrangeiros -- Reportar contas banc�rias e financeiras estrangeiras
+- **Formul�rio:** Form 8938 (com sua declara��o de imposto) -- FinCEN Form 114 (separadamente)
+- **Limite:** Varia conforme resid�ncia e estado civil ($50.000 � $600.000) -- $10.000 (valor agregado em qualquer momento do ano)
+- **Ativos cobertos:** Contas, a��es, t�tulos, fundos, seguros, interesses em entidades -- Contas banc�rias, contas de investimento, contas de seguro
+- **Apresenta��o:** Com seu Form 1040 (anual) -- Separadamente, at� 15 de outubro (eletr�nico)
+- **Multa por n�o apresentar:** $10.000 por infra��o (at� $50.000 por infra��o continuada) -- At� $10.000 por infra��o n�o intencional; at� $100.000 ou 50% do saldo por infra��o intencional
 > **Importante:** Voc� pode ser obrigado a apresentar **ambos** os formul�rios se cumprir os limites de cada um.
 
 ## 5. Como a FATCA afeta as Institui��es Financeiras Estrangeiras?

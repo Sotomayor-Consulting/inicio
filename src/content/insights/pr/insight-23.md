@@ -29,17 +29,14 @@ Vocï¿½ deve apresentar o Formulï¿½rio 5472 se cumprir **todas** estas condiï¿½ï¿
 
 Qualquer transaï¿½ï¿½o entre a LLC (parte relacionada americana) e o proprietï¿½rio (parte relacionada estrangeira) deve ser reportada. Exemplos:
 
-| Transaï¿½ï¿½o | Reportï¿½vel? |
-|-----------|-------------|
-| Aportaï¿½ï¿½o de capital inicial | Sim |
-| Transferï¿½ncia de fundos do proprietï¿½rio para a LLC | Sim |
-| Retirada de fundos da LLC para o proprietï¿½rio | Sim |
-| Pagamento de despesas pessoais pela LLC | Sim |
-| Emprï¿½stimo do proprietï¿½rio para a LLC | Sim |
-| Emprï¿½stimo da LLC para o proprietï¿½rio | Sim |
-| Pagamento de serviï¿½os do proprietï¿½rio para a LLC | Sim |
-| Compra de ativos entre proprietï¿½rio e LLC | Sim |
-
+- **Aportaï¿½ï¿½o de capital inicial:** Sim
+- **Transferï¿½ncia de fundos do proprietï¿½rio para a LLC:** Sim
+- **Retirada de fundos da LLC para o proprietï¿½rio:** Sim
+- **Pagamento de despesas pessoais pela LLC:** Sim
+- **Emprï¿½stimo do proprietï¿½rio para a LLC:** Sim
+- **Emprï¿½stimo da LLC para o proprietï¿½rio:** Sim
+- **Pagamento de serviï¿½os do proprietï¿½rio para a LLC:** Sim
+- **Compra de ativos entre proprietï¿½rio e LLC:** Sim
 > **Regra geral:** Se houve movimento de dinheiro entre vocï¿½ e sua LLC no ano, deve apresentar o Formulï¿½rio 5472.
 
 ## Quem Nï¿½O deve apresentï¿½-lo?
@@ -53,25 +50,19 @@ Vocï¿½ nï¿½o deve apresentar o Formulï¿½rio 5472 se:
 
 ## Prazos de apresentaï¿½ï¿½o
 
-| Evento | Data limite |
-|--------|-------------|
-| Data limite padrï¿½o | 15 de abril |
-| Extensï¿½o automï¿½tica | 15 de outubro |
-| Extensï¿½o adicional (com justificativa) | Possï¿½vel mas nï¿½o automï¿½tica |
-
+- **Data limite padrï¿½o:** 15 de abril
+- **Extensï¿½o automï¿½tica:** 15 de outubro
+- **Extensï¿½o adicional (com justificativa):** Possï¿½vel mas nï¿½o automï¿½tica
 O Formulï¿½rio 5472 ï¿½ apresentado junto com o **Formulï¿½rio 1120** (pro-forma). Embora a LLC nï¿½o pague impostos, deve apresentar o 1120 como veï¿½culo para o 5472.
 
 > **IMPORTANTE:** Nï¿½o hï¿½ extensï¿½o automï¿½tica apenas para o 5472. A extensï¿½o para 15 de outubro aplica se vocï¿½ apresentar o Formulï¿½rio 7004 para estender o 1120.
 
 ## Multas por nï¿½o apresentar
 
-| Infraï¿½ï¿½o | Multa |
-|----------|-------|
-| Nï¿½o apresentar o 5472 | $25.000 por ano |
-| Apresentar incompleto ou incorreto | $25.000 por ano |
-| Nï¿½o apresentar apï¿½s notificaï¿½ï¿½o do IRS | $25.000 por ano adicional |
-| Apresentaï¿½ï¿½o tardia sem extensï¿½o vï¿½lida | $25.000 |
-
+- **Nï¿½o apresentar o 5472:** $25.000 por ano
+- **Apresentar incompleto ou incorreto:** $25.000 por ano
+- **Nï¿½o apresentar apï¿½s notificaï¿½ï¿½o do IRS:** $25.000 por ano adicional
+- **Apresentaï¿½ï¿½o tardia sem extensï¿½o vï¿½lida:** $25.000
 A multa aplica-se **por cada ano fiscal** nï¿½o apresentado. Se nï¿½o apresentou por 3 anos, a multa potencial ï¿½ de $75.000.
 
 > **Dado importante:** O IRS tem intensificado a fiscalizaï¿½ï¿½o de Formulï¿½rios 5472 nos ï¿½ltimos anos. Cada vez mais proprietï¿½rios estrangeiros de LLCs estï¿½o recebendo cartas de conformidade.
@@ -95,33 +86,27 @@ Baixe o Formulï¿½rio 5472 mais recente do IRS.gov. Vocï¿½ tambï¿½m precisarï¿½ d
 
 O Formulï¿½rio 5472 tem vï¿½rias partes:
 
-| Parte | Descriï¿½ï¿½o |
-|-------|-----------|
-| **Parte I** | Informaï¿½ï¿½o da LLC (nome, EIN, endereï¿½o) |
-| **Parte II** | Informaï¿½ï¿½o do proprietï¿½rio estrangeiro (nome, endereï¿½o, paï¿½s) |
-| **Parte III** | Tipo de transaï¿½ï¿½es reportï¿½veis (cï¿½digos de transaï¿½ï¿½o) |
-| **Parte IV** | Valores monetï¿½rios de cada transaï¿½ï¿½o |
-| **Parte V** | Informaï¿½ï¿½o adicional se aplicï¿½vel |
-
+- **Parte I:** Informaï¿½ï¿½o da LLC (nome, EIN, endereï¿½o)
+- **Parte II:** Informaï¿½ï¿½o do proprietï¿½rio estrangeiro (nome, endereï¿½o, paï¿½s)
+- **Parte III:** Tipo de transaï¿½ï¿½es reportï¿½veis (cï¿½digos de transaï¿½ï¿½o)
+- **Parte IV:** Valores monetï¿½rios de cada transaï¿½ï¿½o
+- **Parte V:** Informaï¿½ï¿½o adicional se aplicï¿½vel
 ### Passo 4: Determine os cï¿½digos de transaï¿½ï¿½o
 
 O IRS atribui cï¿½digos especï¿½ficos para cada tipo de transaï¿½ï¿½o:
 
-| Cï¿½digo | Tipo de transaï¿½ï¿½o |
-|--------|------------------|
-| **01** | Vendas de bens mï¿½veis |
-| **02** | Vendas de bens imï¿½veis |
-| **03** | Arrendamento de bens mï¿½veis |
-| **04** | Arrendamento de bens imï¿½veis |
-| **05** | Juros |
-| **06** | Serviï¿½os prestados |
-| **07** | Serviï¿½os recebidos |
-| **08** | Comissï¿½es |
-| **09** | Royalties |
-| **10** | Reembolsos |
-| **11** | Seguros |
-| **12** | Outros valores (uso geral) |
-
+- **01:** Vendas de bens mï¿½veis
+- **02:** Vendas de bens imï¿½veis
+- **03:** Arrendamento de bens mï¿½veis
+- **04:** Arrendamento de bens imï¿½veis
+- **05:** Juros
+- **06:** Serviï¿½os prestados
+- **07:** Serviï¿½os recebidos
+- **08:** Comissï¿½es
+- **09:** Royalties
+- **10:** Reembolsos
+- **11:** Seguros
+- **12:** Outros valores (uso geral)
 Para a maioria das LLCs de proprietï¿½rio ï¿½nico, o cï¿½digo mais comum ï¿½ **12** (Other amounts), que cobre aportaï¿½ï¿½es de capital e retiradas.
 
 ### Passo 5: Prepare o Formulï¿½rio 1120 pro-forma

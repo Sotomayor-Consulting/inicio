@@ -24,15 +24,12 @@ Ter uma LLC n�o significa que voc� ou sua empresa estejam isentos de imposto
 
 ### Fatores que determinam se sua LLC paga impostos
 
-| Fator | Impacto |
-|-------|---------|
-| **Resid�ncia fiscal do propriet�rio** | Determina onde e como declara suas receitas |
-| **Fonte das receitas** | Se as receitas s�o de fonte americana ou estrangeira |
-| **Presen�a f�sica nos EUA** | Escrit�rio, funcion�rios, invent�rio dentro do pa�s |
-| **Tipo de atividade** | Servi�os digitais vs. produtos f�sicos vs. investimentos |
-| **N�mero de membros** | Single-member vs multi-member tem tratamento distinto |
-| **Elei��es fiscais** | Se optou por tributar como S-Corp ou C-Corp muda tudo |
-
+- **Resid�ncia fiscal do propriet�rio:** Determina onde e como declara suas receitas
+- **Fonte das receitas:** Se as receitas s�o de fonte americana ou estrangeira
+- **Presen�a f�sica nos EUA:** Escrit�rio, funcion�rios, invent�rio dentro do pa�s
+- **Tipo de atividade:** Servi�os digitais vs. produtos f�sicos vs. investimentos
+- **N�mero de membros:** Single-member vs multi-member tem tratamento distinto
+- **Elei��es fiscais:** Se optou por tributar como S-Corp ou C-Corp muda tudo
 ## Cen�rios reais de tributa��o de uma LLC
 
 ### Cen�rio 1: LLC estrangeira sem opera��o nos EUA e sem receitas de fonte americana
@@ -67,15 +64,12 @@ Se a LLC fez uma elei��o fiscal para tributar como S-Corp ou C-Corp, as regr
 
 Mesmo no cen�rio mais favor�vel (sem receitas de fonte americana e sem presen�a f�sica), sua LLC tem obriga��es:
 
-| Obriga��o | Descri��o |
-|-----------|-----------|
-| **Annual Report** | Relat�rio anual no estado de registro |
-| **Agente Registrado** | Deve manter-se ativo todo o ano |
-| **Formul�rio 5472** | Se for single-member LLC propriedade de estrangeiro |
-| **Formul�rio 1120 pro forma** | Declara��o informativa perante o IRS |
-| **State Franchise Tax** | Em estados como Delaware ou Calif�rnia |
-| **Bookkeeping** | Registro de receitas e despesas |
-
+- **Annual Report:** Relat�rio anual no estado de registro
+- **Agente Registrado:** Deve manter-se ativo todo o ano
+- **Formul�rio 5472:** Se for single-member LLC propriedade de estrangeiro
+- **Formul�rio 1120 pro forma:** Declara��o informativa perante o IRS
+- **State Franchise Tax:** Em estados como Delaware ou Calif�rnia
+- **Bookkeeping:** Registro de receitas e despesas
 ## O perigo de abrir uma LLC sem entender as obriga��es
 
 Muitos empreendedores abrem sua LLC, obt�m o EIN e depois assumem que "n�o acontece nada" se n�o apresentarem formul�rios nem declararem. Esta � uma receita para problemas s�rios:
@@ -99,12 +93,9 @@ Muitos empreendedores abrem sua LLC, obt�m o EIN e depois assumem que "n�o a
 
 ## O que realmente significam "pass-through" e "disregarded entity"
 
-| Termo | Significa | N�o significa |
-|-------|-----------|---------------|
-| **Pass-through** | Os lucros passam para os membros | Que n�o haja nada a declarar |
-| **Disregarded entity** | A LLC � ignorada como entidade separada para impostos | Que n�o haja obriga��es informativas |
-| **N�o corporativo** | A LLC n�o paga imposto corporativo | Que o propriet�rio n�o pague impostos |
-
+- **Pass-through:** Os lucros passam para os membros -- Que n�o haja nada a declarar
+- **Disregarded entity:** A LLC � ignorada como entidade separada para impostos -- Que n�o haja obriga��es informativas
+- **N�o corporativo:** A LLC n�o paga imposto corporativo -- Que o propriet�rio n�o pague impostos
 ## Ent�o, uma LLC n�o serve?
 
 **Serve sim, e muito.** Mas � preciso entender como us�-la corretamente.
@@ -134,14 +125,11 @@ Antes de abrir uma LLC, certifique-se de entender e or�ar estas obriga��es
 
 ## Mitos e realidades sobre LLC e impostos
 
-| Mito | Realidade |
-|------|-----------|
-| "Uma LLC n�o paga impostos" | Depende do caso; pode pagar ou s� apresentar informativos |
-| "Se n�o tenho receitas, n�o devo nada" | Ainda pode ter obriga��es informativas |
-| "A LLC � para n�o declarar" | A LLC pode aumentar suas obriga��es de reporte |
-| "Pago s� uma vez ao abrir" | A LLC tem custos anuais de manuten��o |
-| "O IRS nunca vai me encontrar" | O IRS tem acordos de interc�mbio de informa��o com muitos pa�ses |
-
+- **"Uma LLC n�o paga impostos":** Depende do caso; pode pagar ou s� apresentar informativos
+- **"Se n�o tenho receitas, n�o devo nada":** Ainda pode ter obriga��es informativas
+- **"A LLC � para n�o declarar":** A LLC pode aumentar suas obriga��es de reporte
+- **"Pago s� uma vez ao abrir":** A LLC tem custos anuais de manuten��o
+- **"O IRS nunca vai me encontrar":** O IRS tem acordos de interc�mbio de informa��o com muitos pa�ses
 ## Conclus�o
 
 Abrir uma LLC pensando que automaticamente n�o paga impostos � um dos erros mais custosos que voc� pode cometer como empreendedor. A realidade �:

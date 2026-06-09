@@ -13,59 +13,47 @@ In this guide, we present **what to review before investing in the US as a forei
 
 ### Initial Self-Assessment
 
-| Question | Why It Matters |
-|----------|---------------|
-| **Do you have SSN or ITIN?** | Determines financing options and tax forms |
-| **Do you have US credit history?** | Affects rate and loan type |
-| **What is your total budget?** | Defines property range and down payment |
-| **Investment timeline?** | Short (flip) vs. long (rental) changes everything |
-| **From which country are you investing?** | Affects tax treaties, structure and banking |
-| **Do you have real estate experience?** | Determines need for partner or property manager |
-| **Goal: income, appreciation or both?** | Defines location, property type and financing |
-
+- **Do you have SSN or ITIN?:** Determines financing options and tax forms
+- **Do you have US credit history?:** Affects rate and loan type
+- **What is your total budget?:** Defines property range and down payment
+- **Investment timeline?:** Short (flip) vs. long (rental) changes everything
+- **From which country are you investing?:** Affects tax treaties, structure and banking
+- **Do you have real estate experience?:** Determines need for partner or property manager
+- **Goal: income, appreciation or both?:** Defines location, property type and financing
 ### Calculate Your Real Capacity
 
 ## 2. Review the Legal Structure
 
 ### Structure Options
 
-| Structure | Protection | Privacy | Estate Tax | Annual Cost | Complexity |
-|-----------|-----------|---------|-----------|-------------|-----------|
-| **Personal name** | ❌ None | ❌ Public | ✅ Exposed | $0 | Minimal |
-| **LLC only** | ✅ Limited | ✅ LLC is owner | ⚠️ Exposed (> $60K) | $500-1,000 | Low |
-| **LLC + International holding** | ✅ High | ✅ High | ❌ Protected | $2,000-4,000 | Medium |
-| **LLC + Holding + Trust** | ✅ Maximum | ✅ Maximum | ❌ Protected | $4,000-8,000 | High |
-
+- **Personal name:** ❌ None -- ❌ Public -- ✅ Exposed -- $0 -- Minimal
+- **LLC only:** ✅ Limited -- ✅ LLC is owner -- ⚠️ Exposed (> $60K) -- $500-1,000 -- Low
+- **LLC + International holding:** ✅ High -- ✅ High -- ❌ Protected -- $2,000-4,000 -- Medium
+- **LLC + Holding + Trust:** ✅ Maximum -- ✅ Maximum -- ❌ Protected -- $4,000-8,000 -- High
 ### Pre-Purchase Legal Checklist
 
 ## 3. Review the State and Location
 
 ### State Comparison
 
-| Factor | Florida | Texas | New York | California |
-|--------|---------|-------|----------|------------|
-| **State income tax** | 0% | 0% | 4-10.9% | 1-13.3% |
-| **Property tax** | 0.8-1.2% | 1.6-2.2% | 1.4% | 0.77% |
-| **Transfer tax (purchase)** | 0.7% | 0.5-1.5% | 1.825% | 0.11% |
-| **Short-term rental** | ✅ Allowed* | ✅ Allowed* | ⚠️ Restricted | ⚠️ Restricted |
-| **LLC protection** | ✅ Good | ✅ Good | ✅ Good | ⚠️ Medium |
-| **Hurricane insurance** | High | Medium | Low | Low |
-| **Cost of living** | Medium | Low | High | Very high |
-
+- **State income tax:** 0% -- 0% -- 4-10.9% -- 1-13.3%
+- **Property tax:** 0.8-1.2% -- 1.6-2.2% -- 1.4% -- 0.77%
+- **Transfer tax (purchase):** 0.7% -- 0.5-1.5% -- 1.825% -- 0.11%
+- **Short-term rental:** ✅ Allowed* -- ✅ Allowed* -- ⚠️ Restricted -- ⚠️ Restricted
+- **LLC protection:** ✅ Good -- ✅ Good -- ✅ Good -- ⚠️ Medium
+- **Hurricane insurance:** High -- Medium -- Low -- Low
+- **Cost of living:** Medium -- Low -- High -- Very high
 ### Micro-Location: What to Review in the Neighborhood
 
 ## 4. Review Financing
 
 ### Loan Options by Profile
 
-| Your Profile | Best Option | Down Payment | Rate (2026) |
-|-------------|-------------|-------------|-------------|
-| **No SSN/ITIN, no US credit** | DSCR Loan | 25-35% | 7-9% |
-| **With ITIN, no US credit** | DSCR Loan / ITIN Mortgage | 20-30% | 7-10% |
-| **With SSN, good US credit** | Conventional / DSCR | 20-25% | 6-8% |
-| **Cash available** | Cash (then refinance) | 100% | 0% |
-| **Flip/short-term** | Hard Money | 20-30% | 10-15% |
-
+- **No SSN/ITIN, no US credit:** DSCR Loan -- 25-35% -- 7-9%
+- **With ITIN, no US credit:** DSCR Loan / ITIN Mortgage -- 20-30% -- 7-10%
+- **With SSN, good US credit:** Conventional / DSCR -- 20-25% -- 6-8%
+- **Cash available:** Cash (then refinance) -- 100% -- 0%
+- **Flip/short-term:** Hard Money -- 20-30% -- 10-15%
 ### Key Questions for the Lender
 
 ### Monthly Payment Calculator
@@ -74,76 +62,61 @@ In this guide, we present **what to review before investing in the US as a forei
 
 ### Taxes Affecting Your Investment
 
-| Tax | When | Rate | Who |
-|-----|------|------|-----|
-| **Property tax** | Annual | 0.8-2.2% (per state) | All owners |
-| **Income tax (rents)** | Annual (1040-NR) | 10-37% | Foreigners with rents |
-| **FIRPTA** | Upon sale | 15% withholding | Foreigners |
-| **Capital gains** | Upon sale | 0-20% | Everyone |
-| **Depreciation recapture** | Upon sale | Up to 25% | Everyone |
-| **Estate tax** | Upon death | 18-40% | Foreigners > $60K |
-
+- **Property tax:** Annual -- 0.8-2.2% (per state) -- All owners
+- **Income tax (rents):** Annual (1040-NR) -- 10-37% -- Foreigners with rents
+- **FIRPTA:** Upon sale -- 15% withholding -- Foreigners
+- **Capital gains:** Upon sale -- 0-20% -- Everyone
+- **Depreciation recapture:** Upon sale -- Up to 25% -- Everyone
+- **Estate tax:** Upon death -- 18-40% -- Foreigners > $60K
 ### Key Tax Questions
 
 ## 6. Review Insurance
 
 ### Minimum Required Insurance
 
-| Type of Insurance | Mandatory | Annual Cost |
-|-----------------|-----------|-------------|
-| **Property insurance (dwelling)** | ✅ Yes (if mortgaged) | $1,500-8,000 |
-| **Hurricane/windstorm** | ✅ Yes (in risk zones) | $1,000-5,000 additional |
-| **Flood insurance** | ⚠️ If in flood zone (FEMA) | $400-2,000 |
-| **Liability insurance** | ✅ Highly recommended | $500-2,000 |
-| **Umbrella policy** | ⚠️ Recommended (2+ properties) | $300-1,000 |
-
+- **Property insurance (dwelling):** ✅ Yes (if mortgaged) -- $1,500-8,000
+- **Hurricane/windstorm:** ✅ Yes (in risk zones) -- $1,000-5,000 additional
+- **Flood insurance:** ⚠️ If in flood zone (FEMA) -- $400-2,000
+- **Liability insurance:** ✅ Highly recommended -- $500-2,000
+- **Umbrella policy:** ⚠️ Recommended (2+ properties) -- $300-1,000
 ### Recommended Coverage by Property Type
 
 ## 7. Review Local Legal Restrictions
 
 ### What You Must Investigate
 
-| Restriction | Where to Check | Why It Matters |
-|------------|---------------|----------------|
-| **Zoning** | County zoning department | Determines permitted use |
-| **HOA restrictions** | Community CC&Rs | May prohibit rentals |
-| **Short-term rental laws** | City/County ordinances | Some areas prohibit Airbnb |
-| **Rent control** | Local laws | Limits rent increases |
-| **Business license** | City/county | Required for renting |
-| **Homestead exemption** | Property appraiser | Only for residence, not investment |
-
+- **Zoning:** County zoning department -- Determines permitted use
+- **HOA restrictions:** Community CC&Rs -- May prohibit rentals
+- **Short-term rental laws:** City/County ordinances -- Some areas prohibit Airbnb
+- **Rent control:** Local laws -- Limits rent increases
+- **Business license:** City/county -- Required for renting
+- **Homestead exemption:** Property appraiser -- Only for residence, not investment
 ### Example: Short-Term Rental Restrictions in Florida
 
 ## 8. Review Property Management
 
 ### Self-Manage vs. Hire
 
-| Aspect | Self-Manage | Property Manager |
-|--------|------------|-----------------|
-| **Cost** | 0% (your time) | 8-12% of rent |
-| **Control** | Total | Limited |
-| **Time** | 5-15 hours/week | ~1 hour/week |
-| **Language** | Need English | They handle it |
-| **Availability** | 24/7 (emergencies) | 24/7 (professional) |
-| **Tenants** | You find them | They find them |
-| **Maintenance** | You coordinate | They coordinate |
-| **Legal** | You handle evictions | They have attorneys |
-
+- **Cost:** 0% (your time) -- 8-12% of rent
+- **Control:** Total -- Limited
+- **Time:** 5-15 hours/week -- ~1 hour/week
+- **Language:** Need English -- They handle it
+- **Availability:** 24/7 (emergencies) -- 24/7 (professional)
+- **Tenants:** You find them -- They find them
+- **Maintenance:** You coordinate -- They coordinate
+- **Legal:** You handle evictions -- They have attorneys
 ### Questions for a Property Manager
 
 ## 9. Review the Exit Strategy
 
 ### Exit Options
 
-| Strategy | Timeline | Taxes | Complexity |
-|----------|---------|-------|-----------|
-| **Sell on the market** | 3-12 months | FIRPTA + capital gains | Low |
-| **1031 Exchange** | 45-180 days | Defer taxes | Medium |
-| **Sell the LLC (membership interest)** | 30-60 days | Potentially no FIRPTA | High |
-| **Refinance (cash-out)** | 30-60 days | No tax (not a sale) | Low |
-| **Rent and hold** | 5+ years | Depreciation + appreciation | Low |
-| **Donate to heirs** | Upon death | Estate tax | High |
-
+- **Sell on the market:** 3-12 months -- FIRPTA + capital gains -- Low
+- **1031 Exchange:** 45-180 days -- Defer taxes -- Medium
+- **Sell the LLC (membership interest):** 30-60 days -- Potentially no FIRPTA -- High
+- **Refinance (cash-out):** 30-60 days -- No tax (not a sale) -- Low
+- **Rent and hold:** 5+ years -- Depreciation + appreciation -- Low
+- **Donate to heirs:** Upon death -- Estate tax -- High
 ### Exit Questions
 
 ## 10. Review Documentation and Timeline

@@ -102,10 +102,7 @@ Quando as transações são em moeda estrangeira, você deve documentar a taxa d
 - Ferramentas: OANDA, XE.com, IRS Annual Average Exchange Rates
 
 ### Registro sugerido:
-| Data | Transação | Moeda | Valor Original | Taxa USD | Valor USD | Fonte da Taxa |
-|---|---|---|---|---|---|---|
-| 15/01/2025 | Fatura #001 | EUR | 1.000,00 | 1,03 | 1.030,00 | OANDA |
-
+- **15/01/2025:** Fatura #001 -- EUR -- 1.000,00 -- 1,03 -- 1.030,00 -- OANDA
 ## 6. Documentação de Despesas Internacionais
 
 Se você deduz despesas relacionadas a operações internacionais, deve documentar:

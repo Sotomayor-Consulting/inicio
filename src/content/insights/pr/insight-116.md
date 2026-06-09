@@ -17,19 +17,16 @@ Neste guia, cobrimos **como revisar a situação tributária da sua empresa em 2
 
 ### Itens Chave para Verificar em sua Conta do IRS
 
-| Item a Verificar | Onde Encontrar | O que Procurar | Alerta Vermelho |
-|------------|------------------|------------------|----------|
-| Saldo Devido | Transcrição de conta | Saldos pendentes | Qualquer valor > $0 |
-| Status de Declaração | Transcrição de declaração | Declaração recebida/processada | "Não apresentada" para qualquer ano |
-| Pagamentos de Impostos Estimados | Transcrição de conta | Histórico de pagamentos | Pagamentos trimestrais faltantes ou atrasados |
-| Multas Avaliadas | Transcrição de conta | Códigos de multa | Multas por declaração tardia, pagamento tardio ou precisão |
-| Juros Acumulados | Transcrição de conta | Itens de juros | Juros crescentes = saldo não resolvido |
-| Ônus Registrados | Transcrição de conta | Indicadores de ônus | Notação de ônus fiscal federal |
-| Penhoras Emitidas | Transcrição de conta | Indicadores de penhora | Penhora em conta bancária ou contas a receber |
-| Proteção de Identidade | Status do IP PIN | PIN ativo | Sem IP PIN = risco de roubo de identidade |
-| Status do Plano de Pagamento | Transcrição de conta | Acordo de parcelamento | Acordo faltante ou quebrado |
-| Histórico de Avisos | Transcrição de conta | Códigos de aviso CP | Avisos não resolvidos |
-
+- **Saldo Devido:** Transcrição de conta -- Saldos pendentes -- Qualquer valor > $0
+- **Status de Declaração:** Transcrição de declaração -- Declaração recebida/processada -- "Não apresentada" para qualquer ano
+- **Pagamentos de Impostos Estimados:** Transcrição de conta -- Histórico de pagamentos -- Pagamentos trimestrais faltantes ou atrasados
+- **Multas Avaliadas:** Transcrição de conta -- Códigos de multa -- Multas por declaração tardia, pagamento tardio ou precisão
+- **Juros Acumulados:** Transcrição de conta -- Itens de juros -- Juros crescentes = saldo não resolvido
+- **Ônus Registrados:** Transcrição de conta -- Indicadores de ônus -- Notação de ônus fiscal federal
+- **Penhoras Emitidas:** Transcrição de conta -- Indicadores de penhora -- Penhora em conta bancária ou contas a receber
+- **Proteção de Identidade:** Status do IP PIN -- PIN ativo -- Sem IP PIN = risco de roubo de identidade
+- **Status do Plano de Pagamento:** Transcrição de conta -- Acordo de parcelamento -- Acordo faltante ou quebrado
+- **Histórico de Avisos:** Transcrição de conta -- Códigos de aviso CP -- Avisos não resolvidos
 ### Códigos de Transcrição Tributária Empresarial do IRS
 
 ## 2. Revisão de Conformidade Tributária Estadual
@@ -44,17 +41,14 @@ Neste guia, cobrimos **como revisar a situação tributária da sua empresa em 2
 
 ### Categorias de Impostos Locais
 
-| Tipo de Imposto | Autoridade Típica | Frequência de Verificação | Problemas Comuns |
-|----------|------------------|----------------|---------------|
-| Licença Comercial | Cidade ou condado | Renovação anual | Operar sem licença |
-| Imposto sobre Receitas Brutas | Cidade | Trimestral ou anual | Multas por declaração tardia |
-| Imposto Predial | Condado | Anual | Imposto sobre propriedade pessoal comercial |
-| Imposto sobre Folha | Cidade/condado | Por período de pagamento | Retenção incorreta |
-| Imposto de Ocupação Transitória | Cidade | Mensal ou trimestral | Airbnb/aluguel de curto prazo |
-| Imposto de Utilidades | Cidade | Mensal | Contas de serviços empresariais |
-| Permissão de Letreiros | Cidade | Uma vez + renovação | Letreiros comerciais sem permissão |
-| Permissão de Zoneamento | Cidade | Uma vez | Operar em zona errada |
-
+- **Licença Comercial:** Cidade ou condado -- Renovação anual -- Operar sem licença
+- **Imposto sobre Receitas Brutas:** Cidade -- Trimestral ou anual -- Multas por declaração tardia
+- **Imposto Predial:** Condado -- Anual -- Imposto sobre propriedade pessoal comercial
+- **Imposto sobre Folha:** Cidade/condado -- Por período de pagamento -- Retenção incorreta
+- **Imposto de Ocupação Transitória:** Cidade -- Mensal ou trimestral -- Airbnb/aluguel de curto prazo
+- **Imposto de Utilidades:** Cidade -- Mensal -- Contas de serviços empresariais
+- **Permissão de Letreiros:** Cidade -- Uma vez + renovação -- Letreiros comerciais sem permissão
+- **Permissão de Zoneamento:** Cidade -- Uma vez -- Operar em zona errada
 ### Como Verificar a Conformidade Tributária Local
 
 ## 4. Análise de Nexo Multiestadual

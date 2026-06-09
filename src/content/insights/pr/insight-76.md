@@ -17,15 +17,12 @@ Uma **holding** é uma sociedade que não realiza atividades operacionais direta
 
 ### Características
 
-| Característica | Descrição |
-|---------------|-----------|
-| **Atividade** | Não opera diretamente, possui participações |
-| **Receitas** | Dividendos, ganhos de capital, royalties |
-| **Função** | Controle, proteção, planejamento fiscal |
-| **Estrutura** | Acima das empresas operacionais |
-| **Risco** | Baixo (não tem operações expostas) |
-| **Custos** | Baixos de manutenção |
-
+- **Atividade:** Não opera diretamente, possui participações
+- **Receitas:** Dividendos, ganhos de capital, royalties
+- **Função:** Controle, proteção, planejamento fiscal
+- **Estrutura:** Acima das empresas operacionais
+- **Risco:** Baixo (não tem operações expostas)
+- **Custos:** Baixos de manutenção
 ## 2. O Que é uma Empresa Operacional?
 
 ### Definição
@@ -34,30 +31,24 @@ Uma **empresa operacional** é a sociedade que realiza a atividade comercial rea
 
 ### Características
 
-| Característica | Descrição |
-|---------------|-----------|
-| **Atividade** | Opera o negócio diretamente |
-| **Receitas** | Vendas, serviços, produtos |
-| **Função** | Executar a operação do negócio |
-| **Estrutura** | Abaixo da holding |
-| **Risco** | Alto (exposta a ações, fornecedores, clientes) |
-| **Custos** | Altos de operação |
-
+- **Atividade:** Opera o negócio diretamente
+- **Receitas:** Vendas, serviços, produtos
+- **Função:** Executar a operação do negócio
+- **Estrutura:** Abaixo da holding
+- **Risco:** Alto (exposta a ações, fornecedores, clientes)
+- **Custos:** Altos de operação
 ## 3. Comparação Direta
 
-| Aspecto | Holding | Empresa Operacional |
-|---------|---------|--------------------|
-| **Propósito** | Possuir e controlar | Operar e gerar receitas |
-| **Atividade** | Gestão de investimentos | Venda de produtos/serviços |
-| **Receitas** | Dividendos, royalties | Faturamento a clientes |
-| **Risco legal** | Mínimo | Alto |
-| **Proteção** | Protege os donos | Precisa de proteção |
-| **Funcionários** | Geralmente poucos ou nenhum | Equipe operacional |
-| **Faturamento** | Não fatura ao público | Fatura clientes |
-| **Impostos** | Alíquota corporativa reduzida | Alíquota corporativa padrão |
-| **Stripe** | Não precisa de Stripe | Stripe para cobrar |
-| **Custo manutenção** | $500-2.000/ano | $1.000-5.000+/ano |
-
+- **Propósito:** Possuir e controlar -- Operar e gerar receitas
+- **Atividade:** Gestão de investimentos -- Venda de produtos/serviços
+- **Receitas:** Dividendos, royalties -- Faturamento a clientes
+- **Risco legal:** Mínimo -- Alto
+- **Proteção:** Protege os donos -- Precisa de proteção
+- **Funcionários:** Geralmente poucos ou nenhum -- Equipe operacional
+- **Faturamento:** Não fatura ao público -- Fatura clientes
+- **Impostos:** Alíquota corporativa reduzida -- Alíquota corporativa padrão
+- **Stripe:** Não precisa de Stripe -- Stripe para cobrar
+- **Custo manutenção:** $500-2.000/ano -- $1.000-5.000+/ano
 ## 4. Estrutura Recomendada
 
 ### Estrutura Típica
@@ -68,23 +59,17 @@ Uma **empresa operacional** é a sociedade que realiza a atividade comercial rea
 
 ### Proteção Patrimonial
 
-| Benefício | Descrição |
-|-----------|-----------|
-| **Isolamento de risco** | Cada operacional responde por si mesma |
-| **Proteção de ativos** | A holding possui a IP, marcas, patentes |
-| **Blindagem contra ações** | Processam a operacional, não a holding |
-| **Separação de patrimônio** | Ativos estratégicos na holding, longe do risco operacional |
-
+- **Isolamento de risco:** Cada operacional responde por si mesma
+- **Proteção de ativos:** A holding possui a IP, marcas, patentes
+- **Blindagem contra ações:** Processam a operacional, não a holding
+- **Separação de patrimônio:** Ativos estratégicos na holding, longe do risco operacional
 ### Benefícios Fiscais
 
-| Benefício | Descrição |
-|-----------|-----------|
-| **Consolidação fiscal** | Compensar prejuízos entre operacionais |
-| **Royalties** | Pagar royalties da operacional para holding (dedutível) |
-| **Dividendos** | Dividendos da operacional para holding com alíquota reduzida |
-| **Venda de subsidiárias** | Ganhos de capital na holding com benefício fiscal |
-| **Planejamento internacional** | Estruturar por país conforme alíquotas |
-
+- **Consolidação fiscal:** Compensar prejuízos entre operacionais
+- **Royalties:** Pagar royalties da operacional para holding (dedutível)
+- **Dividendos:** Dividendos da operacional para holding com alíquota reduzida
+- **Venda de subsidiárias:** Ganhos de capital na holding com benefício fiscal
+- **Planejamento internacional:** Estruturar por país conforme alíquotas
 ### Exemplo: Royalties por IP
 
 ## 6. Holding com Stripe
@@ -103,51 +88,36 @@ Uma **empresa operacional** é a sociedade que realiza a atividade comercial rea
 
 ### Para Profissional Digital
 
-| Estrutura | Recomendação |
-|-----------|-------------|
-| **Receitas < $100K/ano** | Apenas LLC operacional (Stripe Atlas) |
-| **Receitas $100K-$500K/ano** | LLC operacional + LLC holding |
-| **Receitas > $500K/ano** | Holding em Delaware + operacionais por país |
-
+- **Receitas < $100K/ano:** Apenas LLC operacional (Stripe Atlas)
+- **Receitas $100K-$500K/ano:** LLC operacional + LLC holding
+- **Receitas > $500K/ano:** Holding em Delaware + operacionais por país
 ### Para SaaS / Tecnologia
 
-| Ativo | Onde Vai |
-|-------|---------|
-| **Código fonte** | Holding (licencia para operacional) |
-| **Marca registrada** | Holding |
-| **Patentes** | Holding |
-| **Contratos com clientes** | Operacional |
-| **Funcionários** | Operacional |
-| **Stripe** | Operacional |
-
+- **Código fonte:** Holding (licencia para operacional)
+- **Marca registrada:** Holding
+- **Patentes:** Holding
+- **Contratos com clientes:** Operacional
+- **Funcionários:** Operacional
+- **Stripe:** Operacional
 ### Para Negócio com Sócios
 
-| Elemento | Holding | Operacional |
-|----------|---------|------------|
-| **Donos** | Sócios são donos da holding | Holding é dona da operacional |
-| **Investimento** | Sócios investem na holding | Holding capitaliza a operacional |
-| **Saída** | Vendem participação na holding | Operacional continua |
-| **Proteção** | Sócios não respondem por dívidas operacionais | Operacional assume riscos |
-
+- **Donos:** Sócios são donos da holding -- Holding é dona da operacional
+- **Investimento:** Sócios investem na holding -- Holding capitaliza a operacional
+- **Saída:** Vendem participação na holding -- Operacional continua
+- **Proteção:** Sócios não respondem por dívidas operacionais -- Operacional assume riscos
 ## 9. Considerações Legais e Fiscais
 
 ### Preços de Transferência
 
-| Regra | Descrição |
-|-------|-----------|
-| **Arm's length principle** | Transações entre holding e operacional devem ser a preço de mercado |
-| **Documentação** | Deve documentar o método de precificação |
-| **Royalties** | Devem ser razoáveis e justificáveis (2-10% conforme indústria) |
-| **Multas** | Preços de transferência incorretos → multas significativas |
-
+- **Arm's length principle:** Transações entre holding e operacional devem ser a preço de mercado
+- **Documentação:** Deve documentar o método de precificação
+- **Royalties:** Devem ser razoáveis e justificáveis (2-10% conforme indústria)
+- **Multas:** Preços de transferência incorretos → multas significativas
 ### Jurisdições Recomendadas
 
-| Função | Jurisdição | Razão |
-|--------|-----------|-------|
-| **Holding** | Delaware, Wyoming, Países Baixos, Suíça | Proteção, tratados fiscais |
-| **Operacional EUA** | Wyoming, Flórida, Texas | Sem imposto estadual corporativo |
-| **Operacional LATAM** | País de residência do fundador | Conformidade local |
-
+- **Holding:** Delaware, Wyoming, Países Baixos, Suíça -- Proteção, tratados fiscais
+- **Operacional EUA:** Wyoming, Flórida, Texas -- Sem imposto estadual corporativo
+- **Operacional LATAM:** País de residência do fundador -- Conformidade local
 ### Requisitos de Substância
 
 > As autoridades fiscais exigem que a holding tenha **substância econômica**: escritório, diretoria, decisões reais na jurisdição. Uma holding sem substância pode ser desconsiderada fiscalmente.
@@ -182,14 +152,11 @@ Sim. Uma holding pode ter apenas ativos financeiros ou IP sem operacional. Mas p
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Avalie se precisa de holding (receitas, múltiplos negócios, proteção) | 1 semana |
-| **2** | Forme a holding em jurisdição adequada (Delaware, WY, Países Baixos) | 2-4 semanas |
-| **3** | Forme a(s) empresa(s) operacional(is) com Stripe | 1-2 semanas |
-| **4** | Transfira IP (marcas, patentes, código) para a holding | 2-4 semanas |
-| **5** | Estabeleça contratos de royalties e preços de transferência | 1-2 semanas |
-
+- **1:** Avalie se precisa de holding (receitas, múltiplos negócios, proteção) -- 1 semana
+- **2:** Forme a holding em jurisdição adequada (Delaware, WY, Países Baixos) -- 2-4 semanas
+- **3:** Forme a(s) empresa(s) operacional(is) com Stripe -- 1-2 semanas
+- **4:** Transfira IP (marcas, patentes, código) para a holding -- 2-4 semanas
+- **5:** Estabeleça contratos de royalties e preços de transferência -- 1-2 semanas
 ### Checklist Holding + Operacional
 
 - [ ] Holding formada em jurisdição adequada

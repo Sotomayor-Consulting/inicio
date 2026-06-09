@@ -65,12 +65,9 @@ O Canad� oferece certas vantagens de privacidade corporativa:
 - As informa��es financeiras da LP s�o privadas (n�o s�o apresentadas ao p�blico)
 
 ### Compara��o com os EUA:
-| Aspecto | LP Canadense | LLC nos EUA |
-|---|---|---|
-| Registro de s�cios | Privado (LP n�o se registra) | Geralmente privado na maioria dos estados |
-| Informa��es financeiras | Privadas | Privadas na maioria dos estados |
-| Reporte de benefici�rios finais | Reporte federal (desde 2024) | BOI (Corporate Transparency Act) |
-
+- **Registro de s�cios:** Privado (LP n�o se registra) -- Geralmente privado na maioria dos estados
+- **Informa��es financeiras:** Privadas -- Privadas na maioria dos estados
+- **Reporte de benefici�rios finais:** Reporte federal (desde 2024) -- BOI (Corporate Transparency Act)
 > **Nota importante:** Desde 2024, o Canad� est� implementando um registro federal de benefici�rios finais, o que reduz o anonimato. No entanto, continua sendo mais privada que muitas estruturas em outras jurisdi��es.
 
 ## 5. Flexibilidade na Distribui��o de Lucros
@@ -104,14 +101,11 @@ A LP canadense � especialmente popular para investimentos imobili�rios:
 Em compara��o com outras estruturas internacionais, a LP canadense � relativamente econ�mica:
 
 ### Custos estimados:
-| Conceito | Custo |
-|---|---|
-| Forma��o (registro provincial) | $200 - $500 CAD |
-| Registered office (anual) | $200 - $400 CAD |
-| Annual return (provincial) | $100 - $300 CAD |
-| Contabilidade e fiscal (anual) | $1.000 - $3.000 CAD |
-| **Total manuten��o anual** | **$1.300 - $3.700+ CAD** |
-
+- **Forma��o (registro provincial):** $200 - $500 CAD
+- **Registered office (anual):** $200 - $400 CAD
+- **Annual return (provincial):** $100 - $300 CAD
+- **Contabilidade e fiscal (anual):** $1.000 - $3.000 CAD
+- **Total manuten��o anual:** **$1.300 - $3.700+ CAD**
 ### Vantagem sobre holdings europeias:
 - Significativamente mais barata que uma holding nos Pa�ses Baixos, Luxemburgo ou Su��a
 - Sem requisitos de auditoria externa obrigat�ria
@@ -138,15 +132,12 @@ Em compara��o com outras estruturas internacionais, a LP canadense � relat
 
 ## 9. Compara��o com Outras Estruturas
 
-| Aspecto | LP Canadense | LLC nos EUA | Holding Europeia |
-|---|---|---|---|
-| **Custo anual** | $1.300 - $3.700 CAD | $500 - $2.000 USD | $9.500 - $54.000+ |
-| **Privacidade dos s�cios** | Alta (n�o p�blico) | M�dia | Baixa (p�blico na UE) |
-| **Tributa��o n�o residentes** | Favor�vel (se n�o faz neg�cio no Canad�) | Depende do estado | Depende do pa�s |
-| **Acesso a tratados** | Canad�-EUA favor�vel | Rede de tratados dos EUA | Rede de tratados do pa�s |
-| **Prote��o de ativos** | Alta (LP) | Alta (LLC) | Alta |
-| **Complexidade** | M�dia | Baixa-M�dia | Alta |
-
+- **Custo anual:** $1.300 - $3.700 CAD -- $500 - $2.000 USD -- $9.500 - $54.000+
+- **Privacidade dos s�cios:** Alta (n�o p�blico) -- M�dia -- Baixa (p�blico na UE)
+- **Tributa��o n�o residentes:** Favor�vel (se n�o faz neg�cio no Canad�) -- Depende do estado -- Depende do pa�s
+- **Acesso a tratados:** Canad�-EUA favor�vel -- Rede de tratados dos EUA -- Rede de tratados do pa�s
+- **Prote��o de ativos:** Alta (LP) -- Alta (LLC) -- Alta
+- **Complexidade:** M�dia -- Baixa-M�dia -- Alta
 ## 10. Para Quem � Ideal uma LP Canadense?
 
 ### Ideal para:

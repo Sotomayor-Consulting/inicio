@@ -55,13 +55,10 @@ In the US, a single-member LLC is treated as a "disregarded entity" (pass-throug
 
 ### Entity Types and Tax Treatment
 
-| Entity Type | US Treatment | Typical Treatment Abroad |
-|-------------|-------------|-------------------------|
-| **LLC (single-member)** | Disregarded entity (pass-through) | Foreign corporation (controlled) |
-| **LLC (multi-member)** | Partnership (pass-through) | Foreign corporation |
-| **Corporation (C-Corp)** | Taxed separately | Foreign corporation |
-| **LP (Limited Partnership)** | Partnership (pass-through) | Foreign corporation |
-
+- **LLC (single-member):** Disregarded entity (pass-through) -- Foreign corporation (controlled)
+- **LLC (multi-member):** Partnership (pass-through) -- Foreign corporation
+- **Corporation (C-Corp):** Taxed separately -- Foreign corporation
+- **LP (Limited Partnership):** Partnership (pass-through) -- Foreign corporation
 ### How to Avoid It
 - Consult an international tax specialist before choosing an entity type
 - Consider using a C-Corp instead of an LLC if you reside in a country that does not recognize pass-through entities
@@ -93,13 +90,10 @@ Entrepreneurs believe dividends and interest paid between group companies are al
 
 ### Withholding Tax Rates (Examples)
 
-| Country | Dividends | Interest | Royalties |
-|---------|-----------|----------|-----------|
-| **USA** | 0%-30% | 0%-30% | 0%-30% |
-| **Canada** | 15%-25% | 15%-25% | 15%-25% |
-| **Brazil** | 0% (exempt) | 15% | 15% |
-| **UK** | 0% | 20% | 20% |
-
+- **USA:** 0%-30% -- 0%-30% -- 0%-30%
+- **Canada:** 15%-25% -- 15%-25% -- 15%-25%
+- **Brazil:** 0% (exempt) -- 15% -- 15%
+- **UK:** 0% -- 20% -- 20%
 ### How to Avoid It
 - Check applicable tax treaty rates
 - Consider structuring through countries with favorable treaty networks
@@ -162,13 +156,10 @@ Entrepreneurs incorporate companies in foreign countries and ignore local obliga
 
 ### Common Obligations by Country
 
-| Country | Main Obligations |
-|---------|-----------------|
-| **USA** | Annual Report, BOI, Federal Tax Return, State Tax Return |
-| **Canada** | Annual Return, T2 Return, GST/HST, Provincial filings |
-| **Panama** | Annual Franchise Tax, Registered Agent, Financial Statements |
-| **UK** | Confirmation Statement, Annual Accounts, Corporation Tax Return |
-
+- **USA:** Annual Report, BOI, Federal Tax Return, State Tax Return
+- **Canada:** Annual Return, T2 Return, GST/HST, Provincial filings
+- **Panama:** Annual Franchise Tax, Registered Agent, Financial Statements
+- **UK:** Confirmation Statement, Annual Accounts, Corporation Tax Return
 ### How to Avoid It
 - Hire local professionals (accountant, lawyer) in each jurisdiction
 - Maintain a calendar of tax and corporate obligations

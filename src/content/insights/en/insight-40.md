@@ -102,10 +102,7 @@ When transactions are in foreign currency, you must document the exchange rate u
 - Tools: OANDA, XE.com, IRS Annual Average Exchange Rates
 
 ### Suggested record:
-| Date | Transaction | Currency | Original Amount | USD Rate | USD Amount | Rate Source |
-|---|---|---|---|---|---|---|
-| 01/15/2025 | Invoice #001 | EUR | 1,000.00 | 1.03 | 1,030.00 | OANDA |
-
+- **01/15/2025:** Invoice #001 -- EUR -- 1,000.00 -- 1.03 -- 1,030.00 -- OANDA
 ## 6. International Expense Documentation
 
 If you deduct expenses related to international operations, you must document:

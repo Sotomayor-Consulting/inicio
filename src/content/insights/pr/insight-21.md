@@ -15,15 +15,12 @@ A natureza do marketing digital �receitas em USD, clientes internacionais, ati
 
 ### Benef�cios principais
 
-| Benef�cio | Impacto no seu neg�cio |
-|-----------|----------------------|
-| **Prote��o patrimonial** | Separa seus bens pessoais dos riscos do neg�cio |
-| **Credibilidade profissional** | Fatura com EIN, conta banc�ria empresarial, perfil profissional |
-| **Acesso a plataformas** | Stripe, PayPal Business, Mercury, Relay exigem estrutura legal |
-| **Flexibilidade fiscal** | Otimiza sua carga tribut�ria legalmente |
-| **Privacidade** | Alguns estados protegem sua identidade como membro |
-| **Escalabilidade** | F�cil adicionar s�cios, funcion�rios ou vender a empresa |
-
+- **Prote��o patrimonial:** Separa seus bens pessoais dos riscos do neg�cio
+- **Credibilidade profissional:** Fatura com EIN, conta banc�ria empresarial, perfil profissional
+- **Acesso a plataformas:** Stripe, PayPal Business, Mercury, Relay exigem estrutura legal
+- **Flexibilidade fiscal:** Otimiza sua carga tribut�ria legalmente
+- **Privacidade:** Alguns estados protegem sua identidade como membro
+- **Escalabilidade:** F�cil adicionar s�cios, funcion�rios ou vender a empresa
 ## Casos de uso por tipo de neg�cio
 
 ### Ag�ncia de marketing digital
@@ -195,17 +192,14 @@ A LLC n�o o isenta de pagar impostos no seu pa�s. Voc� deve declarar as re
 
 ## Integra��o com plataformas de marketing
 
-| Plataforma | Exig�ncia LLC | Benef�cio |
-|------------|---------------|-----------|
-| **Stripe** | Necess�rio para conta empresarial | Tarifas mais baixas, maior limite |
-| **PayPal Business** | Recomendado | Conta empresarial, faturamento |
-| **Google Ads** | Recomendado | Faturamento formal, limites maiores |
-| **Meta Ads** | Recomendado | Gest�o de pagamentos empresarial |
-| **Upwork** | Necess�rio para ag�ncia | Perfil de ag�ncia, equipe |
-| **Shopify** | Recomendado | Loja profissional, gateways |
-| **Amazon FBA** | Necess�rio para vendedor profissional | Conta profissional, prote��o |
-| **Mercury/Relay** | Necess�rio | Conta banc�ria empresarial |
-
+- **Stripe:** Necess�rio para conta empresarial -- Tarifas mais baixas, maior limite
+- **PayPal Business:** Recomendado -- Conta empresarial, faturamento
+- **Google Ads:** Recomendado -- Faturamento formal, limites maiores
+- **Meta Ads:** Recomendado -- Gest�o de pagamentos empresarial
+- **Upwork:** Necess�rio para ag�ncia -- Perfil de ag�ncia, equipe
+- **Shopify:** Recomendado -- Loja profissional, gateways
+- **Amazon FBA:** Necess�rio para vendedor profissional -- Conta profissional, prote��o
+- **Mercury/Relay:** Necess�rio -- Conta banc�ria empresarial
 ## Erros comuns ao montar LLC para marketing digital
 
 ### Erro 1: N�o ter Operating Agreement

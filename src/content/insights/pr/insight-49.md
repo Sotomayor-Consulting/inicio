@@ -15,12 +15,9 @@ Neste guia completo, explicamos as principais estrat�gias de prote��o fisc
 
 ### Conceitos Fundamentais
 
-| Conceito | Descri��o |
-|----------|-----------|
-| **Evas�o fiscal** | A��o ilegal para deixar de pagar impostos (sonega��o, fraude) |
-| **Elis�o fiscal** | Uso de brechas legais para reduzir impostos (zona cinzenta) |
-| **Planejamento tribut�rio** | Organiza��o pr�via e legal das opera��es para otimizar a carga fiscal |
-
+- **Evas�o fiscal:** A��o ilegal para deixar de pagar impostos (sonega��o, fraude)
+- **Elis�o fiscal:** Uso de brechas legais para reduzir impostos (zona cinzenta)
+- **Planejamento tribut�rio:** Organiza��o pr�via e legal das opera��es para otimizar a carga fiscal
 > **Regra de ouro:** A prote��o fiscal deve ser **preventiva**, n�o corretiva. Planejar antes de agir � legal; tentar corrigir depois pode ser considerado fraude.
 
 ### Por que � importante?
@@ -36,12 +33,9 @@ Neste guia completo, explicamos as principais estrat�gias de prote��o fisc
 
 A escolha do regime tribut�rio � a decis�o mais importante para a prote��o fiscal de qualquer empresa.
 
-| Regime | Faturamento Anual M�ximo | Carga T�pica | Ideal para |
-|--------|------------------------|--------------|------------|
-| **Simples Nacional** | At� R$ 4,8 milh�es | 4% a 15% | Micro e pequenas empresas |
-| **Lucro Presumido** | At� R$ 78 milh�es | 11% a 14% | Empresas de servi�os e com�rcio |
-| **Lucro Real** | Sem limite | 15% a 34% | Empresas com margens vari�veis ou despesas elevadas |
-
+- **Simples Nacional:** At� R$ 4,8 milh�es -- 4% a 15% -- Micro e pequenas empresas
+- **Lucro Presumido:** At� R$ 78 milh�es -- 11% a 14% -- Empresas de servi�os e com�rcio
+- **Lucro Real:** Sem limite -- 15% a 34% -- Empresas com margens vari�veis ou despesas elevadas
 **Exemplo pr�tico:** Uma empresa de servi�os com faturamento de R$ 500 mil/ano pode pagar entre:
 - Simples Nacional: ~6% = R$ 30 mil/ano
 - Lucro Presumido: ~13% = R$ 65 mil/ano
@@ -53,11 +47,8 @@ No Brasil, os lucros distribu�dos aos s�cios s�o **isentos de Imposto de R
 
 **Estrat�gia:** Em vez de pagar pr�-labore (tributado pelo IRPF at� 27,5%), distribua lucros periodicamente.
 
-| Estrutura | Tributa��o | L�quido para o S�cio |
-|-----------|-----------|---------------------|
-| Pr�-labore de R$ 30 mil/m�s | IRPF at� 27,5% + INSS 11% | ~R$ 19.500/m�s |
-| Distribui��o de lucros de R$ 30 mil/m�s | Isento | R$ 30.000/m�s |
-
+- **Pr�-labore de R$ 30 mil/m�s:** IRPF at� 27,5% + INSS 11% -- ~R$ 19.500/m�s
+- **Distribui��o de lucros de R$ 30 mil/m�s:** Isento -- R$ 30.000/m�s
 > **Aten��o:** O pr�-labore deve ser compat�vel com o mercado. Distribuir lucros sem pr�-labore pode ser questionado pela Receita Federal.
 
 ### 2.3 Dedu��es Fiscais Permitidas
@@ -84,12 +75,9 @@ Maximizar as dedu��es fiscais � uma das formas mais simples de prote��
 
 Empres�rios podem optar entre diferentes regimes previdenci�rios:
 
-| Op��o | Contribui��o | Benef�cio |
-|-------|-------------|-----------|
-| **INSS (pr�-labore)** | 11% a 20% sobre o sal�rio | Aposentadoria pelo INSS |
-| **PGBL** | At� 12% da renda bruta (dedut�vel IR) | Complemento de aposentadoria |
-| **Previd�ncia complementar empresarial** | Dedut�vel para a empresa | Benef�cios aos funcion�rios e s�cios |
-
+- **INSS (pr�-labore):** 11% a 20% sobre o sal�rio -- Aposentadoria pelo INSS
+- **PGBL:** At� 12% da renda bruta (dedut�vel IR) -- Complemento de aposentadoria
+- **Previd�ncia complementar empresarial:** Dedut�vel para a empresa -- Benef�cios aos funcion�rios e s�cios
 **Estrat�gia:** Empres�rios com alta renda podem reduzir o IR devido aportando em PGBL at� o limite de 12% da renda bruta tribut�vel.
 
 ## 3. Estruturas Avan�adas de Prote��o Fiscal
@@ -160,14 +148,11 @@ O planejamento sucess�rio permite transferir patrim�nio aos herdeiros com re
 
 ### 5.1 O que EVITAR
 
-| Erro | Consequ�ncia |
-|------|-------------|
-| Distribuir lucros sem contabilidade regular | Glosa da dedu��o pela Receita |
-| N�o pagar pr�-labore compat�vel | Desconsidera��o da distribui��o de lucros |
-| Usar empresas offshore sem declarar | Multas de at� 150% e processo criminal |
-| Misturar despesas pessoais com empresariais | Glosa de dedu��es e multas |
-| N�o fazer planejamento tribut�rio anual | Perda de oportunidades de economia fiscal |
-
+- **Distribuir lucros sem contabilidade regular:** Glosa da dedu��o pela Receita
+- **N�o pagar pr�-labore compat�vel:** Desconsidera��o da distribui��o de lucros
+- **Usar empresas offshore sem declarar:** Multas de at� 150% e processo criminal
+- **Misturar despesas pessoais com empresariais:** Glosa de dedu��es e multas
+- **N�o fazer planejamento tribut�rio anual:** Perda de oportunidades de economia fiscal
 ### 5.2 Riscos de Mudan�as Legislativas
 
 - Reforma tribut�ria em andamento (Brasil e outros pa�ses)
@@ -182,11 +167,8 @@ O planejamento sucess�rio permite transferir patrim�nio aos herdeiros com re
 
 A prote��o fiscal internacional se baseia em dois princ�pios:
 
-| Princ�pio | Descri��o | Estrat�gia |
-|-----------|-----------|------------|
-| **Resid�ncia** | O pa�s tributa a renda mundial do residente | Escolher resid�ncia fiscal estrat�gica |
-| **Fonte** | O pa�s tributa a renda gerada em seu territ�rio | Estruturar para reduzir tributa��o na fonte |
-
+- **Resid�ncia:** O pa�s tributa a renda mundial do residente -- Escolher resid�ncia fiscal estrat�gica
+- **Fonte:** O pa�s tributa a renda gerada em seu territ�rio -- Estruturar para reduzir tributa��o na fonte
 ### 6.2 Tratados Internacionais
 
 O Brasil possui tratados para evitar dupla tributa��o com mais de 30 pa�ses. Estes tratados:
@@ -197,13 +179,10 @@ O Brasil possui tratados para evitar dupla tributa��o com mais de 30 pa�se
 
 ### 6.3 Jurisdi��es com Tratados Favor�veis
 
-| Pa�s | Al�quota de Dividendos (Tratado Brasil) | Uso Estrat�gico |
-|------|-----------------------------------------|-----------------|
-| **Canad�** | 15% (ou 5% com participa��o relevante) | Holding para investimentos |
-| **EUA** | 15% (ou 10% com participa��o relevante) | Investimentos em renda fixa e im�veis |
-| **Pa�ses Baixos** | 15% (ou 10% com participa��o relevante) | Holding europeia |
-| **Espanha** | 15% (ou 10% com participa��o relevante) | Opera��es na Europa |
-
+- **Canad�:** 15% (ou 5% com participa��o relevante) -- Holding para investimentos
+- **EUA:** 15% (ou 10% com participa��o relevante) -- Investimentos em renda fixa e im�veis
+- **Pa�ses Baixos:** 15% (ou 10% com participa��o relevante) -- Holding europeia
+- **Espanha:** 15% (ou 10% com participa��o relevante) -- Opera��es na Europa
 ## 7. Checklist de Prote��o Fiscal para Empres�rios
 
 ### Anual
@@ -229,13 +208,10 @@ O Brasil possui tratados para evitar dupla tributa��o com mais de 30 pa�se
 
 ## 8. Profissionais Essenciais para a Prote��o Fiscal
 
-| Profissional | Fun��o |
-|-------------|--------|
-| **Contador especializado** | Planejamento tribut�rio e contabilidade |
-| **Advogado tribut�rio** | Estrutura��o societ�ria e contencioso fiscal |
-| **Consultor internacional** | Estruturas offshore e tratados |
-| **Planejador financeiro** | Planejamento sucess�rio e previdenci�rio |
-
+- **Contador especializado:** Planejamento tribut�rio e contabilidade
+- **Advogado tribut�rio:** Estrutura��o societ�ria e contencioso fiscal
+- **Consultor internacional:** Estruturas offshore e tratados
+- **Planejador financeiro:** Planejamento sucess�rio e previdenci�rio
 > **Custo vs. Benef�cio:** Investir em assessoria especializada em prote��o fiscal geralmente tem um retorno de 5x a 20x o valor investido em economia tribut�ria.
 
 ## Conclus�o

@@ -13,15 +13,12 @@ In this guide, we explain the most common structuring problems, how to detect th
 
 A poorly structured LLC is one that does not meet one or more of the legal, tax, or operational requirements necessary to function correctly. This can be due to:
 
-| Cause | Description |
-|-------|-------------|
-| **Incorrect formation** | Wrong state, wrong entity type, errors in documents |
-| **Incomplete documentation** | Missing Operating Agreement, incorrect EIN, inadequate Registered Agent |
-| **Wrong tax classification** | Single-member treated as partnership, or vice versa |
-| **Ongoing non-compliance** | Annual Reports not filed, 5472 not filed, outdated address |
-| **Incorrect partner structure** | Poorly defined percentages, undocumented verbal agreements |
-| **Mixing finances** | Unseparated accounts, personal expenses from the LLC |
-
+- **Incorrect formation:** Wrong state, wrong entity type, errors in documents
+- **Incomplete documentation:** Missing Operating Agreement, incorrect EIN, inadequate Registered Agent
+- **Wrong tax classification:** Single-member treated as partnership, or vice versa
+- **Ongoing non-compliance:** Annual Reports not filed, 5472 not filed, outdated address
+- **Incorrect partner structure:** Poorly defined percentages, undocumented verbal agreements
+- **Mixing finances:** Unseparated accounts, personal expenses from the LLC
 ## Most common problems
 
 ### 1. Wrong formation state
@@ -33,13 +30,10 @@ A poorly structured LLC is one that does not meet one or more of the legal, tax,
 - "Delaware has the best corporate laws."
 
 **Consequences:**
-| Aspect | Delaware | Wyoming/Florida |
-|---------|----------|----------------|
-| **Formation cost** | High ($300-500) | Low ($100-200) |
-| **Annual cost** | $300 (franchise tax) | $60-138.75 (Annual Report) |
-| **Privacy** | Low (information is public) | High (Wyoming) |
-| **Ideal for** | Companies with investors | Freelancers, small agencies |
-
+- **Formation cost:** High ($300-500) -- Low ($100-200)
+- **Annual cost:** $300 (franchise tax) -- $60-138.75 (Annual Report)
+- **Privacy:** Low (information is public) -- High (Wyoming)
+- **Ideal for:** Companies with investors -- Freelancers, small agencies
 **Solution:** Evaluate your situation. For most individual entrepreneurs or small agencies, Wyoming or Florida are better options.
 
 ### 2. Missing Operating Agreement
@@ -71,13 +65,10 @@ A poorly structured LLC is one that does not meet one or more of the legal, tax,
 - The agent who helped with the EIN did not ask for details.
 
 **Consequences:**
-| What you requested | What the IRS recorded | Problem |
-|-------------------|----------------------|---------|
-| Single-member LLC | Disregarded entity (correct) | No problem |
-| Single-member LLC | Partnership (incorrect) | IRS expects Form 1065, not 5472 |
-| Multi-member LLC | Disregarded entity (incorrect) | IRS expects 5472, not 1065 |
-| LLC | Corporation (incorrect) | LLC must pay corporate tax |
-
+- **Single-member LLC:** Disregarded entity (correct) -- No problem
+- **Single-member LLC:** Partnership (incorrect) -- IRS expects Form 1065, not 5472
+- **Multi-member LLC:** Disregarded entity (incorrect) -- IRS expects 5472, not 1065
+- **LLC:** Corporation (incorrect) -- LLC must pay corporate tax
 **Solution:** Verify your tax classification with the IRS. If incorrect, request a correction or a new EIN.
 
 ### 4. Operating Agreement that does not reflect reality
@@ -213,45 +204,36 @@ A poorly structured LLC is one that does not meet one or more of the legal, tax,
 
 Answer these questions:
 
-| Question | Yes (good) | No (problem) |
-|----------|-----------|--------------|
-| Do you have a written Operating Agreement? | ? | ? |
-| Does the LLC name match exactly on all documents? | ? | ? |
-| Do you have a separate bank account for the LLC? | ? | ? |
-| Do you use the LLC account only for business expenses? | ? | ? |
-| Do you know which IRS form to file (5472 or 1065)? | ? | ? |
-| Have you filed all required returns on time? | ? | ? |
-| Is your Registered Agent a professional service? | ? | ? |
-| Do your partners have a signed agreement? | ? | ? |
-| Have you filed the BOI with FinCEN? | ? | ? |
-| Do you know how your country treats your LLC for tax purposes? | ? | ? |
-| Is your address updated with the IRS? | ? | ? |
-| Do you have an exit or succession plan? | ? | ? |
-
+- **Do you have a written Operating Agreement?:** ? -- ?
+- **Does the LLC name match exactly on all documents?:** ? -- ?
+- **Do you have a separate bank account for the LLC?:** ? -- ?
+- **Do you use the LLC account only for business expenses?:** ? -- ?
+- **Do you know which IRS form to file (5472 or 1065)?:** ? -- ?
+- **Have you filed all required returns on time?:** ? -- ?
+- **Is your Registered Agent a professional service?:** ? -- ?
+- **Do your partners have a signed agreement?:** ? -- ?
+- **Have you filed the BOI with FinCEN?:** ? -- ?
+- **Do you know how your country treats your LLC for tax purposes?:** ? -- ?
+- **Is your address updated with the IRS?:** ? -- ?
+- **Do you have an exit or succession plan?:** ? -- ?
 **If you answered "No" to 3 or more questions, your LLC likely needs restructuring.**
 
 ## How to fix a poorly structured LLC
 
 ### Simple fixes
 
-| Problem | Solution | Cost |
-|---------|----------|------|
-| Missing Operating Agreement | Draft it and have all partners sign | $200 - $500 |
-| Incorrect EIN | Request correction or new EIN | $0 (directly with IRS) |
-| Inadequate Registered Agent | Switch to a professional service | $50 - $150/year |
-| Outdated address | File Form 8822-B | $0 |
-| Wrong tax classification | Request correction from IRS | $0 - $500 (with CPA) |
-
+- **Missing Operating Agreement:** Draft it and have all partners sign -- $200 - $500
+- **Incorrect EIN:** Request correction or new EIN -- $0 (directly with IRS)
+- **Inadequate Registered Agent:** Switch to a professional service -- $50 - $150/year
+- **Outdated address:** File Form 8822-B -- $0
+- **Wrong tax classification:** Request correction from IRS -- $0 - $500 (with CPA)
 ### Complex fixes
 
-| Problem | Solution | Cost | Time |
-|---------|----------|------|------|
-| Wrong state | Convert or migrate LLC to another state | $500 - $2,000 | 2-4 weeks |
-| Partner restructuring | New Operating Agreement + new tax structure | $1,000 - $3,000 | 2-4 weeks |
-| International hybrid mismatch | Tax restructuring with accountants in both countries | $2,000 - $5,000 | 4-8 weeks |
-| Dissolved LLC for non-compliance | Reinstatement + regularization | $500 - $3,000 | 2-6 weeks |
-| Tax classification change | File Form 8832 or 2553 | $500 - $1,500 | 4-8 weeks |
-
+- **Wrong state:** Convert or migrate LLC to another state -- $500 - $2,000 -- 2-4 weeks
+- **Partner restructuring:** New Operating Agreement + new tax structure -- $1,000 - $3,000 -- 2-4 weeks
+- **International hybrid mismatch:** Tax restructuring with accountants in both countries -- $2,000 - $5,000 -- 4-8 weeks
+- **Dissolved LLC for non-compliance:** Reinstatement + regularization -- $500 - $3,000 -- 2-6 weeks
+- **Tax classification change:** File Form 8832 or 2553 -- $500 - $1,500 -- 4-8 weeks
 ### When to close and start over
 
 Sometimes it is cheaper and faster to close the poorly structured LLC and form a new one correctly.

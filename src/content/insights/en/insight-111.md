@@ -15,31 +15,25 @@ In this guide, we cover **what to do if you never filed taxes in 2026**: why peo
 
 ### Common Reasons for Non-Filing
 
-| Reason | Description | How Common |
-|--------|-------------|------------|
-| **Overwhelmed by complexity** | Business income, crypto, foreign accounts, deductions | Very common |
-| **Fear of not being able to pay** | Owe taxes but can't afford the bill | Most common reason |
-| **Life events** | Divorce, death of spouse, illness, job loss | Common |
-| **Procrastination** | Missed one year, then it snowballed | Extremely common |
-| **Belief no tax is owed** | Thought income was too low or losses covered everything | Moderate |
-| **Poor recordkeeping** | Lost receipts, no P&L, can't reconstruct income | Common |
-| **Bad advice** | Someone said "don't worry about it" | Moderate |
-| **Avoidance mindset** | Fear, shame, anxiety about the process | Very common |
-
+- **Overwhelmed by complexity:** Business income, crypto, foreign accounts, deductions -- Very common
+- **Fear of not being able to pay:** Owe taxes but can't afford the bill -- Most common reason
+- **Life events:** Divorce, death of spouse, illness, job loss -- Common
+- **Procrastination:** Missed one year, then it snowballed -- Extremely common
+- **Belief no tax is owed:** Thought income was too low or losses covered everything -- Moderate
+- **Poor recordkeeping:** Lost receipts, no P&L, can't reconstruct income -- Common
+- **Bad advice:** Someone said "don't worry about it" -- Moderate
+- **Avoidance mindset:** Fear, shame, anxiety about the process -- Very common
 ### The Snowball Effect
 
 ## 2. The Real Risks of Non-Compliance
 
 ### IRS Enforcement Spectrum
 
-| Risk Level | Scenario | Likely Outcome |
-|------------|----------|----------------|
-| **Low** | Filed late but paid all tax due | Late filing penalty only (5% per month, max 25%) |
-| **Moderate** | Did not file, no tax owed (refund due) | No penalty — but statute of limitations never starts; refund may be lost after 3 years |
-| **Significant** | Did not file, owe taxes | Late filing (5%/mo) + late payment (0.5%/mo) penalties; interest compounds daily |
-| **High** | Did not file, owe significant tax, received IRS notices | Substitute for Return (SFR) filed by IRS — usually unfavorable; levies and liens possible |
-| **Severe** | Years of non-filing with substantial tax due | Criminal investigation referral is possible (rare, but real for large amounts) |
-
+- **Low:** Filed late but paid all tax due -- Late filing penalty only (5% per month, max 25%)
+- **Moderate:** Did not file, no tax owed (refund due) -- No penalty — but statute of limitations never starts; refund may be lost after 3 years
+- **Significant:** Did not file, owe taxes -- Late filing (5%/mo) + late payment (0.5%/mo) penalties; interest compounds daily
+- **High:** Did not file, owe significant tax, received IRS notices -- Substitute for Return (SFR) filed by IRS — usually unfavorable; levies and liens possible
+- **Severe:** Years of non-filing with substantial tax due -- Criminal investigation referral is possible (rare, but real for large amounts)
 ### The Statute of Limitations Trap
 
 ### Substitute for Return (SFR)

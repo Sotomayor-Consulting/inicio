@@ -11,15 +11,12 @@ Neste guia, explicamos o que distingue uma da outra, com exemplos concretos para
 
 ## A diferenï¿½a fundamental
 
-| Aspecto | Planejamento Fiscal | Evasï¿½o Fiscal |
-|---------|--------------------|--------------|
-| **Legalidade** | ? Legal | ? Ilegal |
-| **Objetivo** | Pagar o justo segundo a lei | Pagar menos do que a lei exige |
-| **Mï¿½todo** | Usar brechas legais e incentivos fiscais | Ocultar receitas ou inflar despesas |
-| **Risco** | Baixo (se feito corretamente) | Alto (multas, prisï¿½o, fechamento do negï¿½cio) |
-| **Resultado** | Otimizaï¿½ï¿½o fiscal sustentï¿½vel | Problemas com o IRS e autoridades locais |
-| **Exemplo** | Escolher Wyoming por leis favorï¿½veis | Nï¿½o declarar as receitas da LLC |
-
+- **Legalidade:** ? Legal -- ? Ilegal
+- **Objetivo:** Pagar o justo segundo a lei -- Pagar menos do que a lei exige
+- **Mï¿½todo:** Usar brechas legais e incentivos fiscais -- Ocultar receitas ou inflar despesas
+- **Risco:** Baixo (se feito corretamente) -- Alto (multas, prisï¿½o, fechamento do negï¿½cio)
+- **Resultado:** Otimizaï¿½ï¿½o fiscal sustentï¿½vel -- Problemas com o IRS e autoridades locais
+- **Exemplo:** Escolher Wyoming por leis favorï¿½veis -- Nï¿½o declarar as receitas da LLC
 ### A metï¿½fora do semï¿½foro
 
 - **?? Planejamento fiscal:** Usar as regras a seu favor para pagar o mï¿½nimo exigido por lei.
@@ -32,14 +29,11 @@ Neste guia, explicamos o que distingue uma da outra, com exemplos concretos para
 
 ### Caracterï¿½sticas
 
-| Caracterï¿½stica | Descriï¿½ï¿½o |
-|---------------|-----------|
-| **Transparï¿½ncia** | Todas as receitas sï¿½o declaradas |
-| **Legalidade** | Usam-se mecanismos previstos por lei |
-| **Documentaï¿½ï¿½o** | Tudo estï¿½ respaldado com faturas, contratos e registros |
-| **Sustentabilidade** | A estratï¿½gia mantï¿½m-se ao longo do tempo |
-| **Profissional** | Feito com assessoria de contadores e advogados |
-
+- **Transparï¿½ncia:** Todas as receitas sï¿½o declaradas
+- **Legalidade:** Usam-se mecanismos previstos por lei
+- **Documentaï¿½ï¿½o:** Tudo estï¿½ respaldado com faturas, contratos e registros
+- **Sustentabilidade:** A estratï¿½gia mantï¿½m-se ao longo do tempo
+- **Profissional:** Feito com assessoria de contadores e advogados
 ### Exemplos legï¿½timos de planejamento fiscal
 
 ? **Escolher o estado correto para sua LLC.**
@@ -72,14 +66,11 @@ Neste guia, explicamos o que distingue uma da outra, com exemplos concretos para
 
 ### Caracterï¿½sticas
 
-| Caracterï¿½stica | Descriï¿½ï¿½o |
-|---------------|-----------|
-| **Ocultaï¿½ï¿½o** | Receitas nï¿½o declaradas |
-| **Ilegalidade** | Violaï¿½ï¿½o direta da lei |
-| **Falta de documentaï¿½ï¿½o** | Sem respaldo real das transaï¿½ï¿½es |
-| **Risco alto** | Multas, prisï¿½o, fechamento do negï¿½cio |
-| **Insustentï¿½vel** | Mais cedo ou mais tarde o fisco detecta |
-
+- **Ocultaï¿½ï¿½o:** Receitas nï¿½o declaradas
+- **Ilegalidade:** Violaï¿½ï¿½o direta da lei
+- **Falta de documentaï¿½ï¿½o:** Sem respaldo real das transaï¿½ï¿½es
+- **Risco alto:** Multas, prisï¿½o, fechamento do negï¿½cio
+- **Insustentï¿½vel:** Mais cedo ou mais tarde o fisco detecta
 ### Exemplos de evasï¿½o fiscal
 
 ? **Nï¿½o declarar receitas da LLC.**
@@ -131,40 +122,31 @@ Entre o planejamento e a evasï¿½o existe uma **zona cinzenta** onde algumas prï¿
 
 ## Tabela comparativa detalhada
 
-| Aï¿½ï¿½o | Planejamento | Elisï¿½o | Evasï¿½o |
-|------|-------------|--------|--------|
-| Escolher Wyoming para sua LLC | ? | ? | ? |
-| Deducir despesas reais do negï¿½cio | ? | ? | ? |
-| Usar tratado fiscal para reduzir retenï¿½ï¿½o | ? | ? | ? |
-| Nï¿½o declarar receitas de um cliente | ? | ? | ? |
-| Faturar em nome da LLC mas operar como pessoa fï¿½sica | ? | ?? Se sem propï¿½sito | ? |
-| Criar LLC em Delaware sem operar lï¿½ sï¿½ por privacidade | ? | ?? | ? |
-| Transferir ativos para a LLC para evitar penhora | ? | ? | ? |
-| Deducir despesas pessoais como empresariais | ? | ? | ? |
-
+- **Escolher Wyoming para sua LLC:** ? -- ? -- ?
+- **Deducir despesas reais do negï¿½cio:** ? -- ? -- ?
+- **Usar tratado fiscal para reduzir retenï¿½ï¿½o:** ? -- ? -- ?
+- **Nï¿½o declarar receitas de um cliente:** ? -- ? -- ?
+- **Faturar em nome da LLC mas operar como pessoa fï¿½sica:** ? -- ?? Se sem propï¿½sito -- ?
+- **Criar LLC em Delaware sem operar lï¿½ sï¿½ por privacidade:** ? -- ?? -- ?
+- **Transferir ativos para a LLC para evitar penhora:** ? -- ? -- ?
+- **Deducir despesas pessoais como empresariais:** ? -- ? -- ?
 ## Consequï¿½ncias da evasï¿½o fiscal
 
 ### Para o IRS (EUA)
 
-| Consequï¿½ncia | Detalhe |
-|-------------|---------|
-| **Multas civis** | Atï¿½ 75% dos impostos nï¿½o pagos |
-| **Juros** | Desde a data de vencimento original |
-| **Auditoria** | Investigaï¿½ï¿½o completa das suas finanï¿½as |
-| **Acusaï¿½ï¿½es criminais** | Atï¿½ 5 anos de prisï¿½o por fraude fiscal |
-| **Fechamento da LLC** | O IRS pode revogar o EIN |
-| **Extradiï¿½ï¿½o** | Possï¿½vel se o valor for significativo |
-
+- **Multas civis:** Atï¿½ 75% dos impostos nï¿½o pagos
+- **Juros:** Desde a data de vencimento original
+- **Auditoria:** Investigaï¿½ï¿½o completa das suas finanï¿½as
+- **Acusaï¿½ï¿½es criminais:** Atï¿½ 5 anos de prisï¿½o por fraude fiscal
+- **Fechamento da LLC:** O IRS pode revogar o EIN
+- **Extradiï¿½ï¿½o:** Possï¿½vel se o valor for significativo
 ### Para seu paï¿½s de residï¿½ncia
 
-| Consequï¿½ncia | Detalhe |
-|-------------|---------|
-| **Multas** | Variï¿½veis por paï¿½s (atï¿½ 300% do imposto nï¿½o pago) |
-| **Acusaï¿½ï¿½es criminais** | Prisï¿½o na maioria dos paï¿½ses por evasï¿½o fiscal |
-| **Penhora de contas** | No seu paï¿½s e potencialmente nos EUA |
-| **Proibiï¿½ï¿½o de operar** | Nï¿½o pode ser diretor de empresas |
-| **Perda da LLC** | O estado pode dissolver a LLC |
-
+- **Multas:** Variï¿½veis por paï¿½s (atï¿½ 300% do imposto nï¿½o pago)
+- **Acusaï¿½ï¿½es criminais:** Prisï¿½o na maioria dos paï¿½ses por evasï¿½o fiscal
+- **Penhora de contas:** No seu paï¿½s e potencialmente nos EUA
+- **Proibiï¿½ï¿½o de operar:** Nï¿½o pode ser diretor de empresas
+- **Perda da LLC:** O estado pode dissolver a LLC
 ### Custo reputacional
 
 - Nï¿½o poderï¿½ abrir contas bancï¿½rias no futuro.
@@ -185,15 +167,12 @@ Entre o planejamento e a evasï¿½o existe uma **zona cinzenta** onde algumas prï¿
 
 ### Perguntas para autoavaliaï¿½ï¿½o
 
-| Pergunta | Se a resposta fizer duvidar... |
-|----------|-------------------------------|
-| Declara todas as receitas da sua LLC? | Pode ser evasï¿½o |
-| Tem documentaï¿½ï¿½o real das suas despesas? | Pode ser evasï¿½o |
-| Sua LLC tem um negï¿½cio real? | Pode ser elisï¿½o abusiva |
-| Usa a conta bancï¿½ria da LLC sï¿½ para despesas do negï¿½cio? | Misturar finanï¿½as = risco |
-| Apresenta todos os formulï¿½rios exigidos pelo IRS? | Incumprimento = multas |
-| Sabe como seu paï¿½s trata sua LLC para fins fiscais? | Desconhecimento = risco |
-
+- **Declara todas as receitas da sua LLC?:** Pode ser evasï¿½o
+- **Tem documentaï¿½ï¿½o real das suas despesas?:** Pode ser evasï¿½o
+- **Sua LLC tem um negï¿½cio real?:** Pode ser elisï¿½o abusiva
+- **Usa a conta bancï¿½ria da LLC sï¿½ para despesas do negï¿½cio?:** Misturar finanï¿½as = risco
+- **Apresenta todos os formulï¿½rios exigidos pelo IRS?:** Incumprimento = multas
+- **Sabe como seu paï¿½s trata sua LLC para fins fiscais?:** Desconhecimento = risco
 ## Casos prï¿½ticos
 
 ### Caso 1: Planejamento fiscal (? legal)

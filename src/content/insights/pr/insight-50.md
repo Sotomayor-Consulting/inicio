@@ -56,13 +56,10 @@ Nos EUA, uma LLC com um ï¿½nico sï¿½cio ï¿½ considerada "disregarded entity" (en
 
 ### Tabela de Tipos Societï¿½rios e Tratamento Fiscal
 
-| Tipo Societï¿½rio | EUA | Brasil (RFB) |
-|----------------|-----|--------------|
-| **LLC (single-member)** | Disregarded entity (pass-through) | Empresa estrangeira (controlada) |
-| **LLC (multi-member)** | Partnership (pass-through) | Empresa estrangeira (controlada) |
-| **Corporation (C-Corp)** | Tributada separadamente | Empresa estrangeira |
-| **LP (Limited Partnership)** | Partnership (pass-through) | Empresa estrangeira |
-
+- **LLC (single-member):** Disregarded entity (pass-through) -- Empresa estrangeira (controlada)
+- **LLC (multi-member):** Partnership (pass-through) -- Empresa estrangeira (controlada)
+- **Corporation (C-Corp):** Tributada separadamente -- Empresa estrangeira
+- **LP (Limited Partnership):** Partnership (pass-through) -- Empresa estrangeira
 ### Como Evitar
 - Consulte um especialista em tributaï¿½ï¿½o internacional antes de escolher o tipo societï¿½rio
 - Considere usar uma Corporation (C-Corp) em vez de LLC se vocï¿½ for residente em um paï¿½s que nï¿½o reconhece pass-through entities
@@ -97,13 +94,10 @@ Empresï¿½rios acreditam que dividendos e juros pagos entre empresas do mesmo gru
 
 ### Alï¿½quotas de Retenï¿½ï¿½o na Fonte (Exemplos)
 
-| Paï¿½s | Dividendos | Juros | Royalties |
-|------|-----------|-------|-----------|
-| **EUA** | 0%-30% | 0%-30% | 0%-30% |
-| **Canadï¿½** | 15%-25% | 15%-25% | 15%-25% |
-| **Brasil** | 0% (isento) | 15% | 15% |
-| **Reino Unido** | 0% | 20% | 20% |
-
+- **EUA:** 0%-30% -- 0%-30% -- 0%-30%
+- **Canadï¿½:** 15%-25% -- 15%-25% -- 15%-25%
+- **Brasil:** 0% (isento) -- 15% -- 15%
+- **Reino Unido:** 0% -- 20% -- 20%
 ### Como Evitar
 - Verifique as alï¿½quotas do tratado fiscal aplicï¿½vel
 - Considere a estruturaï¿½ï¿½o atravï¿½s de paï¿½ses com rede favorï¿½vel de tratados
@@ -179,13 +173,10 @@ Empresï¿½rios constituem empresas em paï¿½ses estrangeiros e ignoram as obrigaï¿
 
 ### Obrigaï¿½ï¿½es Comuns por Paï¿½s
 
-| Paï¿½s | Obrigaï¿½ï¿½es Principais |
-|------|----------------------|
-| **EUA** | Annual Report, BOI, Federal Tax Return (se aplicï¿½vel), State Tax Return |
-| **Canadï¿½** | Annual Return, T2 Return (corporations), GST/HST filing, Provincial filings |
-| **Panamï¿½** | Annual Franchise Tax, Registered Agent renewal, Financial Statements filing |
-| **Reino Unido** | Confirmation Statement, Annual Accounts, Corporation Tax Return |
-
+- **EUA:** Annual Report, BOI, Federal Tax Return (se aplicï¿½vel), State Tax Return
+- **Canadï¿½:** Annual Return, T2 Return (corporations), GST/HST filing, Provincial filings
+- **Panamï¿½:** Annual Franchise Tax, Registered Agent renewal, Financial Statements filing
+- **Reino Unido:** Confirmation Statement, Annual Accounts, Corporation Tax Return
 ### Como Evitar
 - Contrate profissionais locais (contador, advogado) em cada jurisdiï¿½ï¿½o
 - Mantenha um calendï¿½rio de obrigaï¿½ï¿½es fiscais e societï¿½rias

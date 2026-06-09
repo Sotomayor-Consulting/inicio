@@ -23,12 +23,9 @@ Vender online desde a Am�rica Latina usando uma LLC nos EUA oferece vantagens 
 
 Para neg�cios de e-commerce, os estados mais recomendados s�o:
 
-| Estado | Vantagem | Custo anual |
-|--------|----------|-------------|
-| **Wyoming** | Sem imposto estadual, privacidade, baixo custo | $60 |
-| **Fl�rida** | Sem imposto estadual sobre renda pessoal, proximidade LATAM | $138.75 |
-| **Delaware** | Ideal se planeja buscar investimento externo | $300 |
-
+- **Wyoming:** Sem imposto estadual, privacidade, baixo custo -- $60
+- **Fl�rida:** Sem imposto estadual sobre renda pessoal, proximidade LATAM -- $138.75
+- **Delaware:** Ideal se planeja buscar investimento externo -- $300
 **Recomenda��o:** Para a maioria dos neg�cios de e-commerce que operam 100% online sem invent�rio f�sico nos EUA, Wyoming oferece o melhor equil�brio entre custo, privacidade e simplicidade.
 
 > **Nota:** Se planeja armazenar invent�rio nos EUA (Amazon FBA), dever� se registrar como foreign LLC no estado onde estiver localizado o armaz�m, o que pode gerar obriga��es fiscais adicionais.
@@ -55,13 +52,10 @@ Depois de escolher o estado, deve:
 
 ### Plataformas de pagamento
 
-| Plataforma | Vantagem |
-|-----------|----------|
-| **Stripe** | Aceita cart�es, ideal para lojas Shopify personalizadas |
-| **PayPal Business** | Essencial para eBay e mercados internacionais |
-| **Shopify Payments** | Taxas reduzidas, integra��o nativa com Shopify |
-| **Amazon Pay** | Ideal se j� vende na Amazon |
-
+- **Stripe:** Aceita cart�es, ideal para lojas Shopify personalizadas
+- **PayPal Business:** Essencial para eBay e mercados internacionais
+- **Shopify Payments:** Taxas reduzidas, integra��o nativa com Shopify
+- **Amazon Pay:** Ideal se j� vende na Amazon
 ## Passo 4: Configurar sua loja online com a LLC
 
 ### Shopify
@@ -121,13 +115,10 @@ Com uma LLC pode acessar:
 
 ### Fornecedores populares para e-commerce com LLC
 
-| Tipo | Fornecedores |
-|------|-------------|
-| **Fabrica��o** | Alibaba, AliExpress, fornecedores locais |
-| **Fulfillment** | Amazon FBA, ShipBob, ShipMonk |
-| **Dropshipping** | Spocket, Oberlo, CJ Dropshipping |
-| **Imprim�veis** | Printful, Printify, Gooten |
-
+- **Fabrica��o:** Alibaba, AliExpress, fornecedores locais
+- **Fulfillment:** Amazon FBA, ShipBob, ShipMonk
+- **Dropshipping:** Spocket, Oberlo, CJ Dropshipping
+- **Imprim�veis:** Printful, Printify, Gooten
 ## Modelos de e-commerce que funcionam com LLC
 
 **Amazon FBA:** Envie seu invent�rio para a Amazon, eles armazenam, empacotam e enviam. Ideal para produtos f�sicos.
@@ -175,14 +166,11 @@ Stripe, PayPal e outras plataformas podem suspender contas pessoais com alto vol
 
 ## Tabela comparativa: Plataformas de e-commerce e requisitos LLC
 
-| Plataforma | Requer LLC? | Requer EIN? | Ideal para |
-|-----------|-------------|-------------|------------|
-| **Amazon FBA** | Recomendada | Sim | Produtos f�sicos |
-| **Shopify** | Recomendada | Sim (para payments) | Loja pr�pria |
-| **Etsy** | Opcional | Sim (para fiscal) | Artesanato, digitais |
-| **eBay** | Recomendada | Sim (para volume) | Produtos variados |
-| **WooCommerce** | Recomendada | Sim (para Stripe) | Controle total |
-
+- **Amazon FBA:** Recomendada -- Sim -- Produtos f�sicos
+- **Shopify:** Recomendada -- Sim (para payments) -- Loja pr�pria
+- **Etsy:** Opcional -- Sim (para fiscal) -- Artesanato, digitais
+- **eBay:** Recomendada -- Sim (para volume) -- Produtos variados
+- **WooCommerce:** Recomendada -- Sim (para Stripe) -- Controle total
 ## Conclus�o
 
 Usar uma LLC para e-commerce nos Estados Unidos � uma estrat�gia que elimina barreiras geogr�ficas, financeiras e de credibilidade. Permite que voc� opere como uma empresa local no maior mercado do mundo, acesse ferramentas exclusivas e escale seu neg�cio sem as limita��es que enfrenta como pessoa f�sica na Am�rica Latina.

@@ -1,77 +1,71 @@
-ï»¿---
-title: "CÃ³mo Revisar el Estado Tributario de tu Empresa: GuÃ­a 2026"
+---
+title: "Cómo Revisar el Estado Tributario de tu Empresa: Guía 2026"
 description: "Verifique el estado de cumplimiento tributario federal, estatal y local de su empresa para evitar multas"
 cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
-cardImageAlt: "GuÃ­a de revisiÃ³n de estado tributario empresarial que muestra transcripciÃ³n de cuenta del IRS, panel de portal tributario estatal, rastreador de pagos de impuestos estimados, calendario de cumplimiento y anÃ¡lisis de nexo multiestatal"
+cardImageAlt: "Guía de revisión de estado tributario empresarial que muestra transcripción de cuenta del IRS, panel de portal tributario estatal, rastreador de pagos de impuestos estimados, calendario de cumplimiento y análisis de nexo multiestatal"
 ---
 
-**El estado tributario de su empresa afecta todo, desde su capacidad para obtener financiamiento hasta su exposiciÃ³n de responsabilidad personal â€” sin embargo, la mayorÃ­a de los dueÃ±os de negocios solo lo revisan cuando reciben un aviso.** Una revisiÃ³n proactiva del estado tributario revela problemas antes de que se conviertan en problemas: declaraciones no presentadas, saldos impagos, plazos inminentes y brechas de cumplimiento que pueden desencadenar multas.
+**El estado tributario de su empresa afecta todo, desde su capacidad para obtener financiamiento hasta su exposición de responsabilidad personal — sin embargo, la mayoría de los dueños de negocios solo lo revisan cuando reciben un aviso.** Una revisión proactiva del estado tributario revela problemas antes de que se conviertan en problemas: declaraciones no presentadas, saldos impagos, plazos inminentes y brechas de cumplimiento que pueden desencadenar multas.
 
-La buena noticia es que verificar el estado tributario de su empresa es sencillo. La mayorÃ­a de la informaciÃ³n estÃ¡ disponible en lÃ­nea a travÃ©s de los portales del IRS y estatales. Una revisiÃ³n exhaustiva toma 1-2 horas y puede ahorrarle miles en multas.
+La buena noticia es que verificar el estado tributario de su empresa es sencillo. La mayoría de la información está disponible en línea a través de los portales del IRS y estatales. Una revisión exhaustiva toma 1-2 horas y puede ahorrarle miles en multas.
 
-En esta guÃ­a cubrimos **cÃ³mo revisar el estado tributario de su empresa en 2026**: verificaciÃ³n de cuenta tributaria federal, revisiÃ³n de cumplimiento tributario estatal, verificaciÃ³n de impuestos y licencias locales, anÃ¡lisis de nexo multiestatal, estado de impuestos de nÃ³mina, registro de impuesto a las ventas, seguimiento de pagos de impuestos estimados, cÃ³mo leer su transcripciÃ³n tributaria empresarial del IRS, problemas comunes de estado tributario y soluciones, y cÃ³mo construir un calendario de cumplimiento tributario.
+En esta guía cubrimos **cómo revisar el estado tributario de su empresa en 2026**: verificación de cuenta tributaria federal, revisión de cumplimiento tributario estatal, verificación de impuestos y licencias locales, análisis de nexo multiestatal, estado de impuestos de nómina, registro de impuesto a las ventas, seguimiento de pagos de impuestos estimados, cómo leer su transcripción tributaria empresarial del IRS, problemas comunes de estado tributario y soluciones, y cómo construir un calendario de cumplimiento tributario.
 
-## 1. VerificaciÃ³n de Cuenta Tributaria Federal
+## 1. Verificación de Cuenta Tributaria Federal
 
 ### Crear o Acceder a su Cuenta Empresarial del IRS
 
 ### Elementos Clave para Revisar en su Cuenta del IRS
 
-| Elemento a Revisar | DÃ³nde Encontrarlo | QuÃ© Buscar | Alerta Roja |
-|------------|------------------|------------------|----------|
-| Saldo Adeudado | TranscripciÃ³n de cuenta | Saldos pendientes | Cualquier monto > $0 |
-| Estado de DeclaraciÃ³n | TranscripciÃ³n de declaraciÃ³n | DeclaraciÃ³n recibida/procesada | "No presentada" para cualquier aÃ±o |
-| Pagos de Impuestos Estimados | TranscripciÃ³n de cuenta | Historial de pagos | Pagos trimestrales faltantes o tardÃ­os |
-| Multas Evaluadas | TranscripciÃ³n de cuenta | CÃ³digos de multa | Multas por presentaciÃ³n tardÃ­a, pago tardÃ­o o precisiÃ³n |
-| Intereses Acumulados | TranscripciÃ³n de cuenta | Partidas de intereses | InterÃ©s creciente = saldo no resuelto |
-| GravÃ¡menes Presentados | TranscripciÃ³n de cuenta | Indicadores de gravamen | NotaciÃ³n de gravamen fiscal federal |
-| Embargos Emitidos | TranscripciÃ³n de cuenta | Indicadores de embargo | Embargo en cuenta bancaria o cuentas por cobrar |
-| ProtecciÃ³n de Identidad | Estado de IP PIN | PIN activo | Sin IP PIN = riesgo de robo de identidad |
-| Estado del Plan de Pago | TranscripciÃ³n de cuenta | Acuerdo de pago a plazos | Acuerdo faltante o roto |
-| Historial de Avisos | TranscripciÃ³n de cuenta | CÃ³digos de aviso CP | Avisos no resueltos |
+- **Saldo Adeudado:** Transcripción de cuenta -- Saldos pendientes -- Cualquier monto > $0
+- **Estado de Declaración:** Transcripción de declaración -- Declaración recibida/procesada -- "No presentada" para cualquier año
+- **Pagos de Impuestos Estimados:** Transcripción de cuenta -- Historial de pagos -- Pagos trimestrales faltantes o tardíos
+- **Multas Evaluadas:** Transcripción de cuenta -- Códigos de multa -- Multas por presentación tardía, pago tardío o precisión
+- **Intereses Acumulados:** Transcripción de cuenta -- Partidas de intereses -- Interés creciente = saldo no resuelto
+- **Gravámenes Presentados:** Transcripción de cuenta -- Indicadores de gravamen -- Notación de gravamen fiscal federal
+- **Embargos Emitidos:** Transcripción de cuenta -- Indicadores de embargo -- Embargo en cuenta bancaria o cuentas por cobrar
+- **Protección de Identidad:** Estado de IP PIN -- PIN activo -- Sin IP PIN = riesgo de robo de identidad
+- **Estado del Plan de Pago:** Transcripción de cuenta -- Acuerdo de pago a plazos -- Acuerdo faltante o roto
+- **Historial de Avisos:** Transcripción de cuenta -- Códigos de aviso CP -- Avisos no resueltos
+### Códigos de Transcripción Tributaria Empresarial del IRS
 
-### CÃ³digos de TranscripciÃ³n Tributaria Empresarial del IRS
+## 2. Revisión de Cumplimiento Tributario Estatal
 
-## 2. RevisiÃ³n de Cumplimiento Tributario Estatal
+### Verificación de Cuenta Tributaria Estatal por Tipo de Estado
 
-### VerificaciÃ³n de Cuenta Tributaria Estatal por Tipo de Estado
+### Referencia Rápida de Portales Tributarios Estatales
 
-### Referencia RÃ¡pida de Portales Tributarios Estatales
+### Lista de Verificación de Estado Tributario Estatal
 
-### Lista de VerificaciÃ³n de Estado Tributario Estatal
+## 3. Verificación de Impuestos y Licencias Locales
 
-## 3. VerificaciÃ³n de Impuestos y Licencias Locales
+### Categorías de Impuestos Locales
 
-### CategorÃ­as de Impuestos Locales
+- **Licencia Comercial:** Ciudad o condado -- Renovación anual -- Operar sin licencia
+- **Impuesto sobre Ingresos Brutos:** Ciudad -- Trimestral o anual -- Multas por presentación tardía
+- **Impuesto a la Propiedad:** Condado -- Anual -- Impuesto a la propiedad personal comercial
+- **Impuesto de Nómina:** Ciudad/condado -- Por período de pago -- Retención incorrecta
+- **Impuesto de Ocupación Transitoria:** Ciudad -- Mensual o trimestral -- Airbnb/alquiler a corto plazo
+- **Impuesto de Servicios Públicos:** Ciudad -- Mensual -- Cuentas de servicios comerciales
+- **Permiso de Letreros:** Ciudad -- Una vez + renovación -- Letreros comerciales sin permiso
+- **Permiso de Zonificación:** Ciudad -- Una vez -- Operar en zona incorrecta
+### Cómo Verificar el Cumplimiento Tributario Local
 
-| Tipo de Impuesto | Autoridad TÃ­pica | Frecuencia de RevisiÃ³n | Problemas Comunes |
-|----------|------------------|----------------|---------------|
-| Licencia Comercial | Ciudad o condado | RenovaciÃ³n anual | Operar sin licencia |
-| Impuesto sobre Ingresos Brutos | Ciudad | Trimestral o anual | Multas por presentaciÃ³n tardÃ­a |
-| Impuesto a la Propiedad | Condado | Anual | Impuesto a la propiedad personal comercial |
-| Impuesto de NÃ³mina | Ciudad/condado | Por perÃ­odo de pago | RetenciÃ³n incorrecta |
-| Impuesto de OcupaciÃ³n Transitoria | Ciudad | Mensual o trimestral | Airbnb/alquiler a corto plazo |
-| Impuesto de Servicios PÃºblicos | Ciudad | Mensual | Cuentas de servicios comerciales |
-| Permiso de Letreros | Ciudad | Una vez + renovaciÃ³n | Letreros comerciales sin permiso |
-| Permiso de ZonificaciÃ³n | Ciudad | Una vez | Operar en zona incorrecta |
+## 4. Análisis de Nexo Multiestatal
 
-### CÃ³mo Verificar el Cumplimiento Tributario Local
+### Qué Crea Nexo
 
-## 4. AnÃ¡lisis de Nexo Multiestatal
+### Herramienta de Verificación de Nexo
 
-### QuÃ© Crea Nexo
+## 5. Estado de Impuestos de Nómina
 
-### Herramienta de VerificaciÃ³n de Nexo
+### Elementos de Verificación de Impuestos de Nómina
 
-## 5. Estado de Impuestos de NÃ³mina
-
-### Elementos de VerificaciÃ³n de Impuestos de NÃ³mina
-
-### Calendario de Fechas de Vencimiento de Impuestos de NÃ³mina
+### Calendario de Fechas de Vencimiento de Impuestos de Nómina
 
 ## 6. Estado de Registro de Impuesto a las Ventas
 
-### VerificaciÃ³n de Cumplimiento de Impuesto a las Ventas
+### Verificación de Cumplimiento de Impuesto a las Ventas
 
 ## 7. Seguimiento de Pagos de Impuestos Estimados
 
@@ -79,11 +73,11 @@ En esta guÃ­a cubrimos **cÃ³mo revisar el estado tributario de su empresa en 202
 
 ### Rastreador de Pagos de Impuestos Estimados
 
-## 8. CÃ³mo Leer su TranscripciÃ³n Tributaria Empresarial del IRS
+## 8. Cómo Leer su Transcripción Tributaria Empresarial del IRS
 
-### Tipos de TranscripciÃ³n
+### Tipos de Transcripción
 
-### CÃ³mo Solicitar Transcripciones
+### Cómo Solicitar Transcripciones
 
 ## 9. Problemas Comunes de Estado Tributario y Soluciones
 
@@ -101,19 +95,19 @@ En esta guÃ­a cubrimos **cÃ³mo revisar el estado tributario de su empresa en 202
 
 ### Herramienta de Calendario de Cumplimiento
 
-## ConclusiÃ³n
+## Conclusión
 
-**El estado tributario de su empresa no es algo que se revisa una vez al aÃ±o â€” es un documento vivo que requiere atenciÃ³n regular.** Una revisiÃ³n trimestral del estado tributario toma 30-60 minutos y puede prevenir los problemas tributarios mÃ¡s comunes y costosos: declaraciones no presentadas, saldos impagos, pagos estimados perdidos y brechas de cumplimiento multiestatales.
+**El estado tributario de su empresa no es algo que se revisa una vez al año — es un documento vivo que requiere atención regular.** Una revisión trimestral del estado tributario toma 30-60 minutos y puede prevenir los problemas tributarios más comunes y costosos: declaraciones no presentadas, saldos impagos, pagos estimados perdidos y brechas de cumplimiento multiestatales.
 
 Los principios clave para mantener un estado tributario saludable:
 
-- **Revise su cuenta del IRS trimestralmente** â€” revise las transcripciones de cuenta para detectar cambios
-- **Pague a tiempo** â€” configure pagos automÃ¡ticos para impuestos estimados y de nÃ³mina
-- **Presente todas las declaraciones incluso si no puede pagar** â€” las multas por no presentar son mucho peores que las multas por no pagar
-- **Monitoree las obligaciones multiestatales** â€” los umbrales de nexo econÃ³mico activan requisitos de declaraciÃ³n automÃ¡ticamente
-- **Mantenga un calendario tributario** â€” rastree todos los plazos federales, estatales y locales en un solo lugar
-- **Revise con un profesional anualmente** â€” una revisiÃ³n de CPA detecta lo que la autoevaluaciÃ³n pasa por alto
+- **Revise su cuenta del IRS trimestralmente** — revise las transcripciones de cuenta para detectar cambios
+- **Pague a tiempo** — configure pagos automáticos para impuestos estimados y de nómina
+- **Presente todas las declaraciones incluso si no puede pagar** — las multas por no presentar son mucho peores que las multas por no pagar
+- **Monitoree las obligaciones multiestatales** — los umbrales de nexo económico activan requisitos de declaración automáticamente
+- **Mantenga un calendario tributario** — rastree todos los plazos federales, estatales y locales en un solo lugar
+- **Revise con un profesional anualmente** — una revisión de CPA detecta lo que la autoevaluación pasa por alto
 
-**Un estado tributario limpio es uno de los activos mÃ¡s valiosos de su negocio. Permite financiamiento, protege su escudo de responsabilidad y le da tranquilidad para enfocarse en el crecimiento.**
+**Un estado tributario limpio es uno de los activos más valiosos de su negocio. Permite financiamiento, protege su escudo de responsabilidad y le da tranquilidad para enfocarse en el crecimiento.**
 
-En **Sotomayor Consulting International**, ayudamos a propietarios de negocios a revisar y mejorar su estado tributario, desde anÃ¡lisis de cuenta del IRS y cumplimiento tributario estatal hasta planificaciÃ³n de nexo multiestatal y estrategia de impuestos estimados. ContÃ¡ctenos para una revisiÃ³n integral del estado tributario.
+En **Sotomayor Consulting International**, ayudamos a propietarios de negocios a revisar y mejorar su estado tributario, desde análisis de cuenta del IRS y cumplimiento tributario estatal hasta planificación de nexo multiestatal y estrategia de impuestos estimados. Contáctenos para una revisión integral del estado tributario.

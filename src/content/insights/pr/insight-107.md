@@ -13,19 +13,16 @@ Neste guia, cobrimos **como configurar e usar o Odoo para negócios internaciona
 
 ### Odoo vs ERPs legados
 
-| Feature | Odoo | SAP / Oracle / Microsoft Dynamics |
-|---------|------|----------------------------------|
-| **Custo de licença** | Gratuito (Community) ou $20-$40/usuário/mês (Enterprise) | $100-$500+/usuário/mês |
-| **Tempo de implementação** | Semanas a meses | Meses a anos |
-| **Modularidade** | 70+ módulos, instale o que precisa | Monolítico, requer personalização pesada |
-| **Multiempresa** | Suporte nativo multiempresa | Disponível mas complexo |
-| **Multimoeda** | Integrado, taxas em tempo real | Geralmente requer complementos |
-| **Multilíngue** | 50+ idiomas na interface | Idiomas limitados |
-| **Localização fiscal** | 40+ pacotes contábeis por país | Licenciamento por país |
-| **Integrações** | Stripe, PayPal, Shopify, Amazon, etc. | Requer integração personalizada |
-| **Personalização** | Low-code, backend Python | ABAP, linguagens proprietárias |
-| **Nuvem ou On-Premise** | Ambos (Odoo.sh ou auto-hospedado) | Geralmente só nuvem ou on-prem com custo extra |
-
+- **Custo de licença:** Gratuito (Community) ou $20-$40/usuário/mês (Enterprise) -- $100-$500+/usuário/mês
+- **Tempo de implementação:** Semanas a meses -- Meses a anos
+- **Modularidade:** 70+ módulos, instale o que precisa -- Monolítico, requer personalização pesada
+- **Multiempresa:** Suporte nativo multiempresa -- Disponível mas complexo
+- **Multimoeda:** Integrado, taxas em tempo real -- Geralmente requer complementos
+- **Multilíngue:** 50+ idiomas na interface -- Idiomas limitados
+- **Localização fiscal:** 40+ pacotes contábeis por país -- Licenciamento por país
+- **Integrações:** Stripe, PayPal, Shopify, Amazon, etc. -- Requer integração personalizada
+- **Personalização:** Low-code, backend Python -- ABAP, linguagens proprietárias
+- **Nuvem ou On-Premise:** Ambos (Odoo.sh ou auto-hospedado) -- Geralmente só nuvem ou on-prem com custo extra
 ### Módulos internacionais do Odoo
 
 ## 2. Configuração multiempresa no Odoo
@@ -44,17 +41,14 @@ Neste guia, cobrimos **como configurar e usar o Odoo para negócios internaciona
 
 ### Configuração de impostos por país
 
-| Country | Sistema tributário | Odoo Fiscal Localização fiscal Package | Integração Stripe Tax |
-|---------|-----------|----------------------------------|----------------------|
-| **Estados Unidos** | Sales Tax (nível estadual) | Pacote contábil US | Stripe Tax calcula automaticamente |
-| **Brasil** | ICMS, ISS, IPI, PIS, COFINS | Brasilian Localização fiscal (completed) | Configuração manual |
-| **México** | IVA, ISR, IEPS | Mexican Localização fiscal | CFDI via terceiro |
-| **Colômbia** | IVA (19%), ICA, RETEIVA | Colômbian Localização fiscal | Compatível DIAN |
-| **Argentina** | IVA (21%), IIBB | Argentine Localização fiscal | Integração SIFEN |
-| **Chile** | IVA (19%) | Chilean Localização fiscal | Compatível SII |
-| **União Europeia** | VAT (taxas específicas por país) | Relatório VAT UE | Stripe Tax calcula automaticamente |
-| **Reino Unido** | VAT (20%) | Pacote contábil UK | Stripe Tax calcula automaticamente |
-
+- **Estados Unidos:** Sales Tax (nível estadual) -- Pacote contábil US -- Stripe Tax calcula automaticamente
+- **Brasil:** ICMS, ISS, IPI, PIS, COFINS -- Brasilian Localização fiscal (completed) -- Configuração manual
+- **México:** IVA, ISR, IEPS -- Mexican Localização fiscal -- CFDI via terceiro
+- **Colômbia:** IVA (19%), ICA, RETEIVA -- Colômbian Localização fiscal -- Compatível DIAN
+- **Argentina:** IVA (21%), IIBB -- Argentine Localização fiscal -- Integração SIFEN
+- **Chile:** IVA (19%) -- Chilean Localização fiscal -- Compatível SII
+- **União Europeia:** VAT (taxas específicas por país) -- Relatório VAT UE -- Stripe Tax calcula automaticamente
+- **Reino Unido:** VAT (20%) -- Pacote contábil UK -- Stripe Tax calcula automaticamente
 ### Configuração de impostos internacionais
 
 ## 5. CRM e vendas multilíngue
@@ -89,16 +83,13 @@ Neste guia, cobrimos **como configurar e usar o Odoo para negócios internaciona
 
 ### Recomendações de módulos por região
 
-| Região | Módulos essenciais do Odoo | Localização fiscal Package |
-|--------|----------------------|---------------------|
-| **Estados Unidos** | Vendas, Contabilidade, CRM, Inventário, Stripe | Contabilidade US |
-| **Brasil** | Vendas, Contabilidade, CRM, Inventário, Fiscal | Brasilian Localização fiscal (NFe, NFSe, SPED) |
-| **México** | Vendas, Contabilidade, CRM, Inventário, CFDI | Mexican Localização fiscal (CFDI 4.0) |
-| **Colômbia** | Vendas, Contabilidade, CRM, Inventário, DIAN | Colômbian Localização fiscal |
-| **Argentina** | Vendas, Contabilidade, CRM, Inventário, SIFEN | Argentine Localização fiscal |
-| **Chile** | Vendas, Contabilidade, CRM, Inventário, SII | Chilean Localização fiscal |
-| **União Europeia** | Vendas, Contabilidade, CRM, Inventário, VAT | Relatório VAT UE + country packages |
-
+- **Estados Unidos:** Vendas, Contabilidade, CRM, Inventário, Stripe -- Contabilidade US
+- **Brasil:** Vendas, Contabilidade, CRM, Inventário, Fiscal -- Brasilian Localização fiscal (NFe, NFSe, SPED)
+- **México:** Vendas, Contabilidade, CRM, Inventário, CFDI -- Mexican Localização fiscal (CFDI 4.0)
+- **Colômbia:** Vendas, Contabilidade, CRM, Inventário, DIAN -- Colômbian Localização fiscal
+- **Argentina:** Vendas, Contabilidade, CRM, Inventário, SIFEN -- Argentine Localização fiscal
+- **Chile:** Vendas, Contabilidade, CRM, Inventário, SII -- Chilean Localização fiscal
+- **União Europeia:** Vendas, Contabilidade, CRM, Inventário, VAT -- Relatório VAT UE + country packages
 ## 10. Personalização do Odoo para necessidades internacionais
 
 ### Personalizações-chave

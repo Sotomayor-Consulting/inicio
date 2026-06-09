@@ -13,183 +13,135 @@ Neste guia, explicamos **a diferença entre proteger e ocultar patrimônio** em 
 
 ### Proteção Patrimonial
 
-| Aspecto | Descrição |
-|---------|-----------|
-| **Definição** | Estratégia legal para blindar ativos contra riscos previsíveis |
-| **Objetivo** | Preservar o patrimônio para o titular e seus herdeiros |
-| **Transparência** | As autoridades fiscais conhecem a estrutura e os ativos |
-| **Conformidade** | Impostos pagos em cada jurisdição aplicável |
-| **Marco legal** | Amparado por leis de cada país e tratados internacionais |
-
+- **Definição:** Estratégia legal para blindar ativos contra riscos previsíveis
+- **Objetivo:** Preservar o patrimônio para o titular e seus herdeiros
+- **Transparência:** As autoridades fiscais conhecem a estrutura e os ativos
+- **Conformidade:** Impostos pagos em cada jurisdição aplicável
+- **Marco legal:** Amparado por leis de cada país e tratados internacionais
 ### Ocultação Patrimonial
 
-| Aspecto | Descrição |
-|---------|-----------|
-| **Definição** | Ação de esconder ativos para evadir obrigações legais ou fiscais |
-| **Objetivo** | Evitar o pagamento de impostos, dívidas ou responsabilidades |
-| **Transparência** | As autoridades desconhecem a existência dos ativos |
-| **Conformidade** | Declarações fiscais omitidas intencionalmente |
-| **Marco legal** | Ilegal na maioria das jurisdições |
-
+- **Definição:** Ação de esconder ativos para evadir obrigações legais ou fiscais
+- **Objetivo:** Evitar o pagamento de impostos, dívidas ou responsabilidades
+- **Transparência:** As autoridades desconhecem a existência dos ativos
+- **Conformidade:** Declarações fiscais omitidas intencionalmente
+- **Marco legal:** Ilegal na maioria das jurisdições
 > **Regra de ouro:** Se a estrutura é transparente perante as autoridades fiscais do seu país de residência, é proteção. Se você a oculta, é evasão.
 
 ## 2. Comparação Direta
 
-| Aspecto | Proteção | Ocultação |
-|---------|----------|-----------|
-| **Declaração fiscal** | Tudo é declarado | Informação omitida |
-| **Estrutura legal** | LLC, trust, fundação (válidos) | Laranjas, contas não declaradas |
-| **Assessoria** | Advogados e contadores especializados | Pessoas inescrupulosas ou desconhecimento |
-| **Risco legal** | Mínimo (cumpre a lei) | Alto (crime fiscal, lavagem de ativos) |
-| **Custo** | Moderado (assessoria + manutenção) | Variável (subornos, comissões ilegais) |
-| **Tranquilidade** | Alta (tudo está em ordem) | Baixa (medo de ser descoberto) |
-| **Sucessão** | Clara e ordenada | Complicada ou impossível |
-| **Percepção bancária** | Bancos aceitam a estrutura | Bancos fecham contas (AML/KYC) |
-
+- **Declaração fiscal:** Tudo é declarado -- Informação omitida
+- **Estrutura legal:** LLC, trust, fundação (válidos) -- Laranjas, contas não declaradas
+- **Assessoria:** Advogados e contadores especializados -- Pessoas inescrupulosas ou desconhecimento
+- **Risco legal:** Mínimo (cumpre a lei) -- Alto (crime fiscal, lavagem de ativos)
+- **Custo:** Moderado (assessoria + manutenção) -- Variável (subornos, comissões ilegais)
+- **Tranquilidade:** Alta (tudo está em ordem) -- Baixa (medo de ser descoberto)
+- **Sucessão:** Clara e ordenada -- Complicada ou impossível
+- **Percepção bancária:** Bancos aceitam a estrutura -- Bancos fecham contas (AML/KYC)
 ## 3. Linha Tênue: Onde Está o Limite?
 
 ### O Que É Proteção
 
-| Ação | Exemplo |
-|------|---------|
-| Formar uma LLC nos EUA e declará-la no seu país | ✅ Profissional cria LLC em Wyoming e reporta à Receita Federal |
-| Criar um trust e pagar impostos conforme as regras | ✅ Empresário cria trust nos EUA e cumpre com a Receita |
-| Diversificar contas bancárias em múltiplos países | ✅ Contas declaradas na Suíça, EUA e Singapura |
-| Contratar seguros de responsabilidade | ✅ Seguro D&O para proteger ativos corporativos |
-| Separar ativos pessoais de empresariais | ✅ Cada negócio em sua própria entidade legal |
-
+- **Formar uma LLC nos EUA e declará-la no seu país:** ✅ Profissional cria LLC em Wyoming e reporta à Receita Federal
+- **Criar um trust e pagar impostos conforme as regras:** ✅ Empresário cria trust nos EUA e cumpre com a Receita
+- **Diversificar contas bancárias em múltiplos países:** ✅ Contas declaradas na Suíça, EUA e Singapura
+- **Contratar seguros de responsabilidade:** ✅ Seguro D&O para proteger ativos corporativos
+- **Separar ativos pessoais de empresariais:** ✅ Cada negócio em sua própria entidade legal
 ### O Que Não É Proteção (É Ocultação)
 
-| Ação | Exemplo |
-|------|---------|
-| Ter conta no exterior sem declarar | ❌ Conta no Panamá não reportada ao fisco local |
-| Colocar ativos em nome de terceiros | ❌ Casa em nome de familiar para evitar penhora |
-| Usar empresas fantasmas | ❌ Empresa sem atividade real para desviar receitas |
-| Não emitir notas fiscais para evitar impostos | ❌ Vender serviços e receber em conta não declarada |
-| Transferir ativos depois de um processo | ❌ Vender propriedades a preço irrisório quando já há ação judicial |
-
+- **Ter conta no exterior sem declarar:** ❌ Conta no Panamá não reportada ao fisco local
+- **Colocar ativos em nome de terceiros:** ❌ Casa em nome de familiar para evitar penhora
+- **Usar empresas fantasmas:** ❌ Empresa sem atividade real para desviar receitas
+- **Não emitir notas fiscais para evitar impostos:** ❌ Vender serviços e receber em conta não declarada
+- **Transferir ativos depois de um processo:** ❌ Vender propriedades a preço irrisório quando já há ação judicial
 ### Zona Cinzenta
 
-| Situação | Proteção ou Ocultação? |
-|----------|------------------------|
-| LLC em Delaware sem atividade nos EUA, não declarada no seu país | 🟡 Ocultação (você deve declará-la) |
-| Trust nas Ilhas Cook reportado à sua autoridade fiscal | 🟢 Proteção |
-| Conta na Suíça declarada na sua declaração de renda | 🟢 Proteção |
-| Criptomoedas em exchange não declaradas | 🟡 Ocultação (se não declaradas) |
-
+- **LLC em Delaware sem atividade nos EUA, não declarada no seu país:** 🟡 Ocultação (você deve declará-la)
+- **Trust nas Ilhas Cook reportado à sua autoridade fiscal:** 🟢 Proteção
+- **Conta na Suíça declarada na sua declaração de renda:** 🟢 Proteção
+- **Criptomoedas em exchange não declaradas:** 🟡 Ocultação (se não declaradas)
 > **Se você não declara onde deve declarar, não é proteção. É ocultação.**
 
 ## 4. Consequências Legais da Ocultação
 
 ### Penalidades Fiscais
 
-| País | Sanção por Ocultação |
-|------|---------------------|
-| **Brasil** | Multas de até 225% + prisão por sonegação fiscal |
-| **Portugal** | Multas até 100% do imposto omitido |
-| **México** | Multas de até 100% do imposto omitido + prisão |
-| **Colômbia** | Multas até 200% + omissão de ativos é crime penal |
-| **Espanha** | Prisão de 2 a 6 anos se superior a €120.000 |
-| **EUA** | Prisão até 5 anos por evasão fiscal |
-
+- **Brasil:** Multas de até 225% + prisão por sonegação fiscal
+- **Portugal:** Multas até 100% do imposto omitido
+- **México:** Multas de até 100% do imposto omitido + prisão
+- **Colômbia:** Multas até 200% + omissão de ativos é crime penal
+- **Espanha:** Prisão de 2 a 6 anos se superior a €120.000
+- **EUA:** Prisão até 5 anos por evasão fiscal
 ### Penalidades Criminais
 
-| Crime | Descrição | Pena |
-|-------|-----------|------|
-| **Evasão fiscal** | Não pagar impostos devidos | Prisão + multas |
-| **Lavagem de ativos** | Ocultar origem ilícita de fundos | Prisão 5-15 anos |
-| **Falência fraudulenta** | Ocultar ativos em falência | Prisão + nulidade de transferências |
-| **Falsidade documental** | Declarações falsas | Prisão 3-8 anos |
-| **Descumprimento FATCA/CRS** | Não reportar contas estrangeiras | Multas automáticas |
-
+- **Evasão fiscal:** Não pagar impostos devidos -- Prisão + multas
+- **Lavagem de ativos:** Ocultar origem ilícita de fundos -- Prisão 5-15 anos
+- **Falência fraudulenta:** Ocultar ativos em falência -- Prisão + nulidade de transferências
+- **Falsidade documental:** Declarações falsas -- Prisão 3-8 anos
+- **Descumprimento FATCA/CRS:** Não reportar contas estrangeiras -- Multas automáticas
 ## 5. Estruturas Legais de Proteção
 
 ### Estruturas Que Protegem (e são Legais)
 
-| Estrutura | Transparência | Custo | Complexidade |
-|-----------|--------------|-------|-------------|
-| **LLC (EUA)** | Alta (reporta no seu país) | $500/ano | Baixa |
-| **Trust revogável** | Alta (reporta como grantor) | $2.000+/ano | Média |
-| **Trust irrevogável** | Alta (trustee reporta) | $3.000+/ano | Alta |
-| **Fundação privada** | Alta | $1.500+/ano | Média |
-| **Corporação internacional** | Alta (se declarada) | $1.000+/ano | Média |
-
+- **LLC (EUA):** Alta (reporta no seu país) -- $500/ano -- Baixa
+- **Trust revogável:** Alta (reporta como grantor) -- $2.000+/ano -- Média
+- **Trust irrevogável:** Alta (trustee reporta) -- $3.000+/ano -- Alta
+- **Fundação privada:** Alta -- $1.500+/ano -- Média
+- **Corporação internacional:** Alta (se declarada) -- $1.000+/ano -- Média
 ### Como Manter a Transparência
 
 ## 6. Transparência Fiscal Internacional
 
 ### FATCA (Foreign Account Tax Compliance Act)
 
-| Aplica a | Obrigação |
-|----------|-----------|
-| Cidadãos e residentes dos EUA | Reportar contas financeiras fora dos EUA |
-| Bancos estrangeiros | Reportar contas de americanos ao IRS |
-
+- **Cidadãos e residentes dos EUA:** Reportar contas financeiras fora dos EUA
+- **Bancos estrangeiros:** Reportar contas de americanos ao IRS
 ### CRS (Common Reporting Standard)
 
-| Aplica a | Obrigação |
-|----------|-----------|
-| Residentes de países OCDE | Bancos reportam automaticamente ao seu país |
-| Mais de 100 países | Troca automática de informações fiscais |
-
+- **Residentes de países OCDE:** Bancos reportam automaticamente ao seu país
+- **Mais de 100 países:** Troca automática de informações fiscais
 ### Beneficiário Final (UBO)
 
-| Regulamentação | Descrição |
-|---------------|-----------|
-| **UBO (Ultimate Beneficial Owner)** | Toda estrutura deve revelar quem é o dono real |
-| **Registro de beneficiários finais** | Obrigatório na UE, LATAM e cada vez mais países |
-
+- **UBO (Ultimate Beneficial Owner):** Toda estrutura deve revelar quem é o dono real
+- **Registro de beneficiários finais:** Obrigatório na UE, LATAM e cada vez mais países
 > O anonimato bancário desapareceu. Hoje bancos e autoridades fiscais compartilham informações automaticamente. Ocultar é cada vez mais difícil e arriscado.
 
 ## 7. Indicadores de Alerta (Red Flags)
 
 ### Sinais de que Você Pode Estar Ocultando
 
-| Sinal | Problema |
-|-------|---------|
-| Você não declarou sua LLC na sua declaração de renda | ❌ |
-| Você tem uma conta no exterior que não reporta | ❌ |
-| Usa o endereço de um amigo/familiar para receber pagamentos | ❌ |
-| Recebe pagamentos do Stripe e saca para conta não declarada | ❌ |
-| Seus ativos no exterior excedem os limites de declaração | ❌ |
-| Não tem assessoria fiscal internacional | ❌ |
-
+- **Você não declarou sua LLC na sua declaração de renda:** ❌
+- **Você tem uma conta no exterior que não reporta:** ❌
+- **Usa o endereço de um amigo/familiar para receber pagamentos:** ❌
+- **Recebe pagamentos do Stripe e saca para conta não declarada:** ❌
+- **Seus ativos no exterior excedem os limites de declaração:** ❌
+- **Não tem assessoria fiscal internacional:** ❌
 ### Sinais de que Você Está Protegendo Corretamente
 
-| Sinal | Bem |
-|-------|-----|
-| Seu contador local conhece todas as suas estruturas | ✅ |
-| Você declara todas as suas receitas globais | ✅ |
-| Tem um dossiê com documentação de cada entidade | ✅ |
-| Paga impostos em cada país onde tem obrigação | ✅ |
-| Pode explicar sua estrutura fiscal a qualquer autoridade | ✅ |
-| Revisa sua estrutura com um assessor ao menos uma vez ao ano | ✅ |
-
+- **Seu contador local conhece todas as suas estruturas:** ✅
+- **Você declara todas as suas receitas globais:** ✅
+- **Tem um dossiê com documentação de cada entidade:** ✅
+- **Paga impostos em cada país onde tem obrigação:** ✅
+- **Pode explicar sua estrutura fiscal a qualquer autoridade:** ✅
+- **Revisa sua estrutura com um assessor ao menos uma vez ao ano:** ✅
 ## 8. Mitos Comuns
 
-| Mito | Realidade |
-|------|----------|
-| "Uma LLC nos EUA é anônima" | Falso. Bancos e IRS conhecem os beneficiários finais |
-| "Stripe não reporta receitas às autoridades" | Falso. Stripe cumpre FATCA e CRS |
-| "Se não sacar o dinheiro, não preciso declarar" | Falso. Receitas são declaradas quando geradas, não quando sacadas |
-| "Criptomoedas não precisam ser declaradas" | Falso. Muitos países já exigem declaração de criptoativos |
-| "Um trust offshore é ilegal" | Falso. É legal se declarado corretamente |
-| "Só grandes empresas precisam de proteção" | Falso. Todos podem se beneficiar de estrutura legal adequada |
-
+- **"Uma LLC nos EUA é anônima":** Falso. Bancos e IRS conhecem os beneficiários finais
+- **"Stripe não reporta receitas às autoridades":** Falso. Stripe cumpre FATCA e CRS
+- **"Se não sacar o dinheiro, não preciso declarar":** Falso. Receitas são declaradas quando geradas, não quando sacadas
+- **"Criptomoedas não precisam ser declaradas":** Falso. Muitos países já exigem declaração de criptoativos
+- **"Um trust offshore é ilegal":** Falso. É legal se declarado corretamente
+- **"Só grandes empresas precisam de proteção":** Falso. Todos podem se beneficiar de estrutura legal adequada
 ## 9. Passos para Proteger sem Ocultar
 
 ### Guia de Boas Práticas
 
-| Passo | Ação |
-|-------|------|
-| **1** | Consulte um assessor fiscal internacional antes de criar qualquer estrutura |
-| **2** | Escolha jurisdições estáveis e reconhecidas (EUA, UE, Suíça) |
-| **3** | Declare todas as suas estruturas e contas no seu país de residência |
-| **4** | Mantenha documentação completa: atas, notas fiscais, extratos bancários |
-| **5** | Use serviços bancários formais (Mercury, Relay, Wise, HSBC) |
-| **6** | Contrate um contador local que conheça suas estruturas internacionais |
-| **7** | Revise seu plano patrimonial anualmente |
-
+- **1:** Consulte um assessor fiscal internacional antes de criar qualquer estrutura
+- **2:** Escolha jurisdições estáveis e reconhecidas (EUA, UE, Suíça)
+- **3:** Declare todas as suas estruturas e contas no seu país de residência
+- **4:** Mantenha documentação completa: atas, notas fiscais, extratos bancários
+- **5:** Use serviços bancários formais (Mercury, Relay, Wise, HSBC)
+- **6:** Contrate um contador local que conheça suas estruturas internacionais
+- **7:** Revise seu plano patrimonial anualmente
 ## 10. Perguntas Frequentes
 
 ### É ilegal ter uma LLC no exterior?
@@ -220,14 +172,11 @@ Se seu assessor fiscal local a revisou e aprovou, e você a declara corretamente
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Avalie suas estruturas atuais com um assessor internacional | 1-2 semanas |
-| **2** | Regularize qualquer estrutura não declarada | 2-4 semanas |
-| **3** | Implemente proteção legal (LLC, trust, seguros) | 2-4 semanas |
-| **4** | Configure Stripe e bancos com transparência total | 1 semana |
-| **5** | Programe revisão anual da sua estrutura patrimonial | 1 dia/ano |
-
+- **1:** Avalie suas estruturas atuais com um assessor internacional -- 1-2 semanas
+- **2:** Regularize qualquer estrutura não declarada -- 2-4 semanas
+- **3:** Implemente proteção legal (LLC, trust, seguros) -- 2-4 semanas
+- **4:** Configure Stripe e bancos com transparência total -- 1 semana
+- **5:** Programe revisão anual da sua estrutura patrimonial -- 1 dia/ano
 ### Checklist de Transparência
 
 - [ ] Todas as minhas contas bancárias estão declaradas

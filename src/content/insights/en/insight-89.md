@@ -13,14 +13,11 @@ In this guide, we explain **how to use real estate as a migration vehicle to the
 
 ### Overview
 
-| Visa | Type | Minimum Amount | Timeline | Allows Work | Path to Green Card |
-|------|------|--------------|----------|------------|-------------------|
-| **E-2** | Non-immigrant | $100,000+ (recommended) | 2-5 years (renewable) | ✅ Yes | ❌ No direct |
-| **EB-5** | Immigrant | $800,000-$1,050,000 | 2 years conditional → permanent | ✅ Yes | ✅ Yes |
-| **L-1A** | Non-immigrant | No minimum (active company) | 1-7 years | ✅ Yes | ✅ Yes (EB-1C) |
-| **B-1/B-2** | Visitor | No minimum | 6 months | ❌ No | ❌ No |
-| **F-1 (OPT)** | Student | No minimum | 1-3 years | ⚠️ Limited | ⚠️ Possible (H-1B) |
-
+- **E-2:** Non-immigrant -- $100,000+ (recommended) -- 2-5 years (renewable) -- ✅ Yes -- ❌ No direct
+- **EB-5:** Immigrant -- $800,000-$1,050,000 -- 2 years conditional → permanent -- ✅ Yes -- ✅ Yes
+- **L-1A:** Non-immigrant -- No minimum (active company) -- 1-7 years -- ✅ Yes -- ✅ Yes (EB-1C)
+- **B-1/B-2:** Visitor -- No minimum -- 6 months -- ❌ No -- ❌ No
+- **F-1 (OPT):** Student -- No minimum -- 1-3 years -- ⚠️ Limited -- ⚠️ Possible (H-1B)
 ### Can I Get a Visa Just by Buying a Property?
 
 ## 2. E-2 Visa: Treaty Investor
@@ -31,24 +28,21 @@ The E-2 visa allows citizens of treaty countries with the US to live and work in
 
 ### Countries with E-2 Treaty (Selection)
 
-| Country | E-2 Treaty? | Recommended Amount | Notes |
-|---------|------------|-------------------|-------|
-| **Spain** | ✅ Yes | $100,000+ | Good option |
-| **United Kingdom** | ✅ Yes | $100,000+ | Very common |
-| **Canada** | ✅ Yes | $80,000+ | TN visa also available |
-| **Mexico** | ✅ Yes | $100,000+ | |
-| **Argentina** | ❌ No | N/A | Does not qualify |
-| **Brazil** | ❌ No | N/A | Does not qualify |
-| **Colombia** | ❌ No | N/A | Does not qualify |
-| **Panama** | ❌ No | N/A | Does not qualify |
-| **Chile** | ✅ Yes | $80,000+ | |
-| **Uruguay** | ❌ No | N/A | Does not qualify |
-| **Peru** | ❌ No | N/A | Does not qualify |
-| **France** | ✅ Yes | $100,000+ | |
-| **Germany** | ✅ Yes | $80,000+ | |
-| **Italy** | ✅ Yes | $100,000+ | |
-| **Netherlands** | ✅ Yes | $80,000+ | |
-
+- **Spain:** ✅ Yes -- $100,000+ -- Good option
+- **United Kingdom:** ✅ Yes -- $100,000+ -- Very common
+- **Canada:** ✅ Yes -- $80,000+ -- TN visa also available
+- **Mexico:** ✅ Yes -- $100,000+ -- 
+- **Argentina:** ❌ No -- N/A -- Does not qualify
+- **Brazil:** ❌ No -- N/A -- Does not qualify
+- **Colombia:** ❌ No -- N/A -- Does not qualify
+- **Panama:** ❌ No -- N/A -- Does not qualify
+- **Chile:** ✅ Yes -- $80,000+ -- 
+- **Uruguay:** ❌ No -- N/A -- Does not qualify
+- **Peru:** ❌ No -- N/A -- Does not qualify
+- **France:** ✅ Yes -- $100,000+ -- 
+- **Germany:** ✅ Yes -- $80,000+ -- 
+- **Italy:** ✅ Yes -- $100,000+ -- 
+- **Netherlands:** ✅ Yes -- $80,000+ -- 
 ### E-2 Visa Requirements with Real Estate
 
 ### Step by Step for E-2 Visa with Real Estate
@@ -59,15 +53,12 @@ The E-2 visa allows citizens of treaty countries with the US to live and work in
 
 The EB-5 visa is a direct path to a Green Card (permanent residence) through an investment that creates at least 10 jobs in the US.
 
-| Aspect | Direct EB-5 | Regional Center EB-5 |
-|---------|-------------|---------------------|
-| **Investment** | $1,050,000 (or $800,000 in TEA) | $800,000 (in TEA) |
-| **Jobs** | 10 direct jobs (your employees) | 10 direct + indirect jobs |
-| **Management** | You must actively manage the business | Passive management (fund) |
-| **Real estate** | Hotel, complex, own development | Regional center real estate projects |
-| **Risk** | Your business (more control) | The project (less control) |
-| **Green Card timeline** | 2-3 years (conditional) | 2-3 years (conditional) |
-
+- **Investment:** $1,050,000 (or $800,000 in TEA) -- $800,000 (in TEA)
+- **Jobs:** 10 direct jobs (your employees) -- 10 direct + indirect jobs
+- **Management:** You must actively manage the business -- Passive management (fund)
+- **Real estate:** Hotel, complex, own development -- Regional center real estate projects
+- **Risk:** Your business (more control) -- The project (less control)
+- **Green Card timeline:** 2-3 years (conditional) -- 2-3 years (conditional)
 ### EB-5 and Real Estate: Examples
 
 ### Step by Step for EB-5
@@ -78,44 +69,35 @@ The EB-5 visa is a direct path to a Green Card (permanent residence) through an 
 
 Allows foreign companies to transfer executives or managers to their US office. If your foreign company invests in US real estate and creates a subsidiary, you may qualify.
 
-| Aspect | L-1A (Executive/Manager) | L-1B (Specialized Knowledge) |
-|---------|-------------------------|------------------------------|
-| **Maximum term** | 7 years | 5 years |
-| **Path to Green Card** | ✅ Yes (EB-1C) | ⚠️ Limited |
-| **Requirement** | 1 year in foreign company | 1 year in foreign company |
-| **Real estate** | Property management subsidiary | Specialized technician |
-
+- **Maximum term:** 7 years -- 5 years
+- **Path to Green Card:** ✅ Yes (EB-1C) -- ⚠️ Limited
+- **Requirement:** 1 year in foreign company -- 1 year in foreign company
+- **Real estate:** Property management subsidiary -- Specialized technician
 ### How to Use Real Estate for L-1 Visa
 
 ## 5. B-1/B-2: Visitor to Oversee Investments
 
 ### What You Can and Cannot Do with B-1/B-2
 
-| Activity | Allowed | Not Allowed |
-|----------|---------|-------------|
-| **Buy properties** | ✅ Yes | |
-| **Attend closings** | ✅ Yes | |
-| **Meet with property manager** | ✅ Yes | |
-| **Oversee repairs** | ✅ Yes | |
-| **Collect rent** | | ❌ Unauthorized work |
-| **Sign lease agreements** | | ❌ Unauthorized work |
-| **Perform repairs yourself** | | ❌ Unauthorized work |
-| **Sell properties** | ✅ Yes | |
-
+- **Buy properties:** ✅ Yes -- 
+- **Attend closings:** ✅ Yes -- 
+- **Meet with property manager:** ✅ Yes -- 
+- **Oversee repairs:** ✅ Yes -- 
+- **Collect rent:**  -- ❌ Unauthorized work
+- **Sign lease agreements:**  -- ❌ Unauthorized work
+- **Perform repairs yourself:**  -- ❌ Unauthorized work
+- **Sell properties:** ✅ Yes -- 
 ### B-1/B-2 Limitations
 
 ## 6. Student Visa (F-1) and Real Estate
 
 ### Can an International Student Invest in Real Estate?
 
-| Aspect | Answer |
-|---------|--------|
-| **Can they buy properties?** | ✅ Yes |
-| **Can they receive rent?** | ✅ Yes (passive income) |
-| **Can they operate a real estate business?** | ❌ No (violates F-1 status) |
-| **Can they use OPT for real estate?** | ⚠️ Depends (must relate to their career) |
-| **Can they have an LLC?** | ✅ Yes (as a passive investor) |
-
+- **Can they buy properties?:** ✅ Yes
+- **Can they receive rent?:** ✅ Yes (passive income)
+- **Can they operate a real estate business?:** ❌ No (violates F-1 status)
+- **Can they use OPT for real estate?:** ⚠️ Depends (must relate to their career)
+- **Can they have an LLC?:** ✅ Yes (as a passive investor)
 ### F-1 + Real Estate Strategy
 
 ## 7. Structuring the Investment for Immigration
@@ -126,44 +108,35 @@ Allows foreign companies to transfer executives or managers to their US office. 
 
 ### Comparison Table
 
-| Factor | E-2 | EB-5 | L-1 | B-1/B-2 |
-|--------|-----|------|-----|---------|
-| **Minimum investment** | $100,000+ | $800,000+ | No minimum | $0 |
-| **Timeline** | 2-5 years (renewable) | Permanent | 1-7 years | 6 months |
-| **Green Card** | ❌ No | ✅ Yes | ✅ Via EB-1C | ❌ No |
-| **Work allowed** | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
-| **Limited countries** | ✅ Treaty only | ❌ All | ❌ All | ❌ All |
-| **Processing time** | 2-4 months | 2-5 years | 4-8 months | 1-3 months |
-| **Risk** | Low (recover investment) | High (investment at risk) | Low | None |
-| **Passive real estate** | ❌ Does not qualify | ⚠️ Regional center | ❌ Does not qualify | ✅ Yes |
-| **Active real estate** | ✅ Qualifies | ✅ Qualifies | ✅ Qualifies | ❌ No |
-
+- **Minimum investment:** $100,000+ -- $800,000+ -- No minimum -- $0
+- **Timeline:** 2-5 years (renewable) -- Permanent -- 1-7 years -- 6 months
+- **Green Card:** ❌ No -- ✅ Yes -- ✅ Via EB-1C -- ❌ No
+- **Work allowed:** ✅ Yes -- ✅ Yes -- ✅ Yes -- ❌ No
+- **Limited countries:** ✅ Treaty only -- ❌ All -- ❌ All -- ❌ All
+- **Processing time:** 2-4 months -- 2-5 years -- 4-8 months -- 1-3 months
+- **Risk:** Low (recover investment) -- High (investment at risk) -- Low -- None
+- **Passive real estate:** ❌ Does not qualify -- ⚠️ Regional center -- ❌ Does not qualify -- ✅ Yes
+- **Active real estate:** ✅ Qualifies -- ✅ Qualifies -- ✅ Qualifies -- ❌ No
 ### Recommendation by Profile
 
 ## 9. Costs Associated with Each Visa
 
 ### Cost Breakdown
 
-| Visa | Investment | Legal Fees | Government Fees | Estimated Total |
-|------|-----------|-----------|----------------|----------------|
-| **E-2** | $100,000+ | $5,000-15,000 | $205 (DS-160) | $105,205+ |
-| **EB-5** | $800,000+ | $30,000-75,000 | $3,675 (I-526 + DS-260) | $833,675+ |
-| **L-1** | Varies | $5,000-20,000 | $460 (I-129) | $5,460+ |
-| **B-1/B-2** | $0 | $0-500 | $185 | $185-685 |
-
+- **E-2:** $100,000+ -- $5,000-15,000 -- $205 (DS-160) -- $105,205+
+- **EB-5:** $800,000+ -- $30,000-75,000 -- $3,675 (I-526 + DS-260) -- $833,675+
+- **L-1:** Varies -- $5,000-20,000 -- $460 (I-129) -- $5,460+
+- **B-1/B-2:** $0 -- $0-500 -- $185 -- $185-685
 ### Estimated Timeline per Visa
 
 ## 10. Risks and Considerations
 
 ### Immigration Risks
 
-| Risk | E-2 | EB-5 | L-1 |
-|------|-----|------|-----|
-| **Denial** | Low (if you invest substantially) | Medium (source of funds complex) | Low (if requirements met) |
-| **Loss of investment** | Low (properties can be sold) | High (investment at risk) | Low |
-| **Revocation** | Medium (if business stops operating) | Low (if Green Card obtained) | Medium (if subsidiary closes) |
-| **Political change** | Low (treaty in force) | Low (established law) | Low |
-
+- **Denial:** Low (if you invest substantially) -- Medium (source of funds complex) -- Low (if requirements met)
+- **Loss of investment:** Low (properties can be sold) -- High (investment at risk) -- Low
+- **Revocation:** Medium (if business stops operating) -- Low (if Green Card obtained) -- Medium (if subsidiary closes)
+- **Political change:** Low (treaty in force) -- Low (established law) -- Low
 ### Important Considerations
 
 ## 11. Frequently Asked Questions

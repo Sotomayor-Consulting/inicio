@@ -13,12 +13,9 @@ In this guide, we explain **how rental income is taxed in the US** in 2026: inco
 
 ### Resident vs. Non-Resident
 
-| Type | Tax Definition | Taxation |
-|------|---------------|----------|
-| **Tax resident (Green Card or 183+ days)** | Taxed like any US citizen | Worldwide income |
-| **Non-resident (foreigner without presence)** | Only US-sourced income taxed | Only US income |
-| **Non-resident (with presence but < 183 days)** | Only US-sourced income taxed | Only US income |
-
+- **Tax resident (Green Card or 183+ days):** Taxed like any US citizen -- Worldwide income
+- **Non-resident (foreigner without presence):** Only US-sourced income taxed -- Only US income
+- **Non-resident (with presence but < 183 days):** Only US-sourced income taxed -- Only US income
 ### Are You Considered Non-Resident?
 
 `
@@ -41,16 +38,13 @@ For foreign investors:
 
 ### Taxable Income
 
-| Item | Taxable? | Note |
-|------|----------|------|
-| **Monthly rent** | Yes | Main income |
-| **Security deposit** | No | Until you keep it |
-| **Late payment fees** | Yes | Considered income |
-| **Utilities paid by tenant** | Yes | If over base rent |
-| **Vacation rental (Airbnb)** | Yes | Same rules |
-| **Seasonal rental** | Yes | Same rules |
-| **Subsidies (Section 8)** | Yes | Taxable income |
-
+- **Monthly rent:** Yes -- Main income
+- **Security deposit:** No -- Until you keep it
+- **Late payment fees:** Yes -- Considered income
+- **Utilities paid by tenant:** Yes -- If over base rent
+- **Vacation rental (Airbnb):** Yes -- Same rules
+- **Seasonal rental:** Yes -- Same rules
+- **Subsidies (Section 8):** Yes -- Taxable income
 ### What Is NOT Income?
 
 `
@@ -85,28 +79,22 @@ console.log(Gross rental income 2026: {grossRent / 100});
 
 ### Allowed Deductions
 
-| Deduction | Description | Example |
-|-----------|-------------|---------|
-| **Mortgage interest** | Loan interest on the property | ,000/year |
-| **Depreciation** | Building wear and tear (27.5 years) | ,909/year |
-| **Property tax** | Real estate taxes | ,000/year |
-| **Insurance** | All premiums | ,500/year |
-| **Repairs and maintenance** | Fixes, painting, plumbing | ,000/year |
-| **Property manager** | Management fees (8-12%) | ,600/year |
-| **HOA / Condo fees** | Association dues | ,400/year |
-| **Utilities** | If paid by owner | ,200/year |
-| **Travel** | Travel to manage the property | ,000/year |
-| **Legal and accounting** | Lawyer, CPA | ,500/year |
-| **Marketing** | Advertising, photos, listing | /year |
-| **Improvements (not repairs)** | Depreciated, not deducted directly | Per useful life |
-
+- **Mortgage interest:** Loan interest on the property -- ,000/year
+- **Depreciation:** Building wear and tear (27.5 years) -- ,909/year
+- **Property tax:** Real estate taxes -- ,000/year
+- **Insurance:** All premiums -- ,500/year
+- **Repairs and maintenance:** Fixes, painting, plumbing -- ,000/year
+- **Property manager:** Management fees (8-12%) -- ,600/year
+- **HOA / Condo fees:** Association dues -- ,400/year
+- **Utilities:** If paid by owner -- ,200/year
+- **Travel:** Travel to manage the property -- ,000/year
+- **Legal and accounting:** Lawyer, CPA -- ,500/year
+- **Marketing:** Advertising, photos, listing -- /year
+- **Improvements (not repairs):** Depreciated, not deducted directly -- Per useful life
 ### Repairs vs. Capital Improvements
 
-| Type | Definition | Tax Treatment |
-|------|-----------|---------------|
-| **Repair** | Maintains operating condition | 100% deductible this year |
-| **Improvement** | Adds value, extends useful life | Depreciated (27.5 years or more) |
-
+- **Repair:** Maintains operating condition -- 100% deductible this year
+- **Improvement:** Adds value, extends useful life -- Depreciated (27.5 years or more)
 `
 Examples:
 
@@ -129,13 +117,10 @@ IMPROVEMENTS (depreciation):
 
 Depreciation is the most valuable deduction for rental properties. It recognizes that the building wears out over time, allowing you to deduct a portion each year without spending cash.
 
-| Property Type | Useful Life | Annual Depreciation |
-|--------------|------------|-------------------|
-| **Residential (rental)** | 27.5 years | 3.636% of building value |
-| **Commercial** | 39 years | 2.564% of building value |
-| **Land improvements** | 15 years | 6.667% |
-| **Equipment (furniture)** | 5-7 years | 14.29-20% |
-
+- **Residential (rental):** 27.5 years -- 3.636% of building value
+- **Commercial:** 39 years -- 2.564% of building value
+- **Land improvements:** 15 years -- 6.667%
+- **Equipment (furniture):** 5-7 years -- 14.29-20%
 ### Depreciation Calculation
 
 `
@@ -202,11 +187,8 @@ Worth it? Yes, because you deferred taxes for years.
 
 Rental properties are considered a "passive activity" unless you qualify as a real estate professional.
 
-| Type | Definition | Loss Deduction |
-|------|-----------|---------------|
-| **Passive activity** | Rental (default) | Only against passive income |
-| **Real estate professional** | 750+ hours/year + 50% of your time | Can deduct against active income |
-
+- **Passive activity:** Rental (default) -- Only against passive income
+- **Real estate professional:** 750+ hours/year + 50% of your time -- Can deduct against active income
 ### Limitations for Foreigners
 
 `
@@ -231,16 +213,13 @@ Depreciation is still valuable as tax deferral.
 
 ### Main Forms
 
-| Form | Who Uses It | Purpose |
-|------|------------|---------|
-| **1040-NR** | Non-resident alien | Annual tax return |
-| **Schedule E** | All rental property owners | Report income and expenses |
-| **1042-S** | Payer to foreigner | Report withheld income |
-| **W-8BEN** | Foreigner | Certify non-resident status |
-| **W-8ECI** | Foreigner | Income connected to US business |
-| **8288-B** | Buyer from foreigner | FIRPTA withholding exemption |
-| **ITIN application (W-7)** | Foreigner without SSN | Apply for ITIN |
-
+- **1040-NR:** Non-resident alien -- Annual tax return
+- **Schedule E:** All rental property owners -- Report income and expenses
+- **1042-S:** Payer to foreigner -- Report withheld income
+- **W-8BEN:** Foreigner -- Certify non-resident status
+- **W-8ECI:** Foreigner -- Income connected to US business
+- **8288-B:** Buyer from foreigner -- FIRPTA withholding exemption
+- **ITIN application (W-7):** Foreigner without SSN -- Apply for ITIN
 ### Form 1040-NR for Foreign Investors
 
 `
@@ -292,14 +271,11 @@ Recommendation: Get ITIN BEFORE selling a US property.
 
 ### Withholding at Source
 
-| Income Type | Withholding Rate | Form |
-|------------|-----------------|------|
-| **Rental income (gross)** | 30% (without W-8ECI) | 1042-S |
-| **Net rental income (with W-8ECI)** | 0% (you file 1040-NR) | W-8ECI |
-| **Bank interest** | 0% (portfolio interest exemption) | W-8BEN |
-| **Dividends** | 30% (or lower with treaty) | W-8BEN |
-| **Capital gain (sale)** | 15% (FIRPTA) | 8288-B |
-
+- **Rental income (gross):** 30% (without W-8ECI) -- 1042-S
+- **Net rental income (with W-8ECI):** 0% (you file 1040-NR) -- W-8ECI
+- **Bank interest:** 0% (portfolio interest exemption) -- W-8BEN
+- **Dividends:** 30% (or lower with treaty) -- W-8BEN
+- **Capital gain (sale):** 15% (FIRPTA) -- 8288-B
 ### W-8ECI vs. W-8BEN: The Key Decision
 
 `
@@ -341,14 +317,11 @@ const taxSettings = await stripe.tax.settings.retrieve();
 
 FIRPTA (Foreign Investment in Real Property Tax Act) requires the buyer to withhold 15% of the sale price if the seller is a non-resident foreigner.
 
-| Item | Detail |
-|------|--------|
-| **Withholding** | 15% of the TOTAL sale price |
-| **Who withholds** | Buyer (escrow / title company) |
-| **Deadline** | 20 days after closing to IRS |
-| **Form** | 8288 + 8288-A |
-| **Exemption** | < ,000 and buyer uses as residence |
-
+- **Withholding:** 15% of the TOTAL sale price
+- **Who withholds:** Buyer (escrow / title company)
+- **Deadline:** 20 days after closing to IRS
+- **Form:** 8288 + 8288-A
+- **Exemption:** < ,000 and buyer uses as residence
 ### How to Request Reduction or Exemption
 
 `
@@ -404,39 +377,30 @@ With certificate: ,000 withholding (15% of )
 
 ### States With No Income Tax
 
-| State | State Income Tax | Approx. Property Tax |
-|-------|----------------|--------------------|
-| **Florida** | 0% | 0.8-1.2% |
-| **Texas** | 0% | 1.6-2.2% |
-| **Wyoming** | 0% | 0.5-0.7% |
-| **Nevada** | 0% | 0.6-0.9% |
-| **Tennessee** | 0% | 0.6-0.9% |
-
+- **Florida:** 0% -- 0.8-1.2%
+- **Texas:** 0% -- 1.6-2.2%
+- **Wyoming:** 0% -- 0.5-0.7%
+- **Nevada:** 0% -- 0.6-0.9%
+- **Tennessee:** 0% -- 0.6-0.9%
 ### States With Income Tax
 
-| State | Max Rate | Note |
-|-------|---------|------|
-| **California** | 13.3% | High, but strong appreciation |
-| **New York** | 10.9% | Higher property tax |
-| **Illinois** | 4.95% | High property tax (~2%) |
-| **Massachusetts** | 5% | Medium property tax |
-
+- **California:** 13.3% -- High, but strong appreciation
+- **New York:** 10.9% -- Higher property tax
+- **Illinois:** 4.95% -- High property tax (~2%)
+- **Massachusetts:** 5% -- Medium property tax
 > For foreign investors: Florida and Texas are the most popular states because they have no state income tax. You only pay property tax (~1% of value annually).
 
 ## 10. Tax Optimization Strategies
 
 ### Legal Strategies
 
-| Strategy | Description | Potential Savings |
-|----------|------------|-----------------|
-| **Depreciation** | Deduct 3.636% of building value yearly | ,000-15,000/year |
-| **Cost Segregation Study** | Accelerate component depreciation (5-15 years) | ,000-50,000 first year |
-| **1031 Exchange** | Defer capital gains by selling and reinvesting | Unlimited |
-| **Self-directed IRA** | Invest in properties from your IRA | Full deferral |
-| **LLC + S-Corp election** | Save self-employment tax | ,000-5,000/year |
-| **Bonus depreciation** | Accelerated equipment depreciation | Variable |
-| **Travel deductions** | Travel to manage properties | ,000-10,000/year |
-
+- **Depreciation:** Deduct 3.636% of building value yearly -- ,000-15,000/year
+- **Cost Segregation Study:** Accelerate component depreciation (5-15 years) -- ,000-50,000 first year
+- **1031 Exchange:** Defer capital gains by selling and reinvesting -- Unlimited
+- **Self-directed IRA:** Invest in properties from your IRA -- Full deferral
+- **LLC + S-Corp election:** Save self-employment tax -- ,000-5,000/year
+- **Bonus depreciation:** Accelerated equipment depreciation -- Variable
+- **Travel deductions:** Travel to manage properties -- ,000-10,000/year
 ### Cost Segregation Study
 
 `
@@ -484,17 +448,14 @@ const reportRun = await stripe.reporting.reportRuns.create({
 
 ## 11. Common Rental Tax Mistakes
 
-| Mistake | Consequence | Solution |
-|---------|-------------|----------|
-| **Not filing taxes** | Fines, interest, IRS seizure | Always file |
-| **Not using W-8ECI** | Stripe withholds 30% of ALL income | Submit W-8ECI |
-| **Not depreciating** | You overpay taxes | Always depreciate |
-| **Improvement vs repair error** | IRS can audit and reclassify | Consult CPA |
-| **No ITIN** | Can't file or recover FIRPTA | Apply for ITIN |
-| **Mixing personal and LLC accounts** | Lose LLC protection | Separate accounts |
-| **Not reporting sale (FIRPTA)** | Buyer reports anyway, IRS investigates | Report the sale |
-| **Not paying estimated taxes** | Penalties for underpayment | Pay quarterly estimates |
-
+- **Not filing taxes:** Fines, interest, IRS seizure -- Always file
+- **Not using W-8ECI:** Stripe withholds 30% of ALL income -- Submit W-8ECI
+- **Not depreciating:** You overpay taxes -- Always depreciate
+- **Improvement vs repair error:** IRS can audit and reclassify -- Consult CPA
+- **No ITIN:** Can't file or recover FIRPTA -- Apply for ITIN
+- **Mixing personal and LLC accounts:** Lose LLC protection -- Separate accounts
+- **Not reporting sale (FIRPTA):** Buyer reports anyway, IRS investigates -- Report the sale
+- **Not paying estimated taxes:** Penalties for underpayment -- Pay quarterly estimates
 ## 12. Frequently Asked Questions
 
 ### Do I have to file US taxes if my property generates a loss?

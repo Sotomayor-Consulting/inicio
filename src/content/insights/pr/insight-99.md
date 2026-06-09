@@ -13,121 +13,97 @@ Neste guia, explicamos **como preparar sua empresa para crescer globalmente** em
 
 ### O Caso para Ir Global
 
-| Razão | Impacto |
-|-------|---------|
-| **Tamanho do Mercado** | 8 bilhões de clientes potenciais vs 50-500 milhões em um único país |
-| **Diversificação de Receita** | Reduz a dependência de uma única economia ou moeda |
-| **Moeda Mais Forte** | Ganhe em USD, EUR, GBP — proteja-se contra desvalorizações |
-| **Vantagem Competitiva** | Compita com marcas globais em igualdade de condições |
-| **Valorização do Negócio** | Empresas internacionais valem 3-10x mais que as locais |
-| **Acesso a Talentos** | Contrate os melhores talentos de qualquer lugar do mundo |
-
+- **Tamanho do Mercado:** 8 bilhões de clientes potenciais vs 50-500 milhões em um único país
+- **Diversificação de Receita:** Reduz a dependência de uma única economia ou moeda
+- **Moeda Mais Forte:** Ganhe em USD, EUR, GBP — proteja-se contra desvalorizações
+- **Vantagem Competitiva:** Compita com marcas globais em igualdade de condições
+- **Valorização do Negócio:** Empresas internacionais valem 3-10x mais que as locais
+- **Acesso a Talentos:** Contrate os melhores talentos de qualquer lugar do mundo
 ### Quando sua Empresa Está Pronta?
 
 ## 2. Fase 1: Estrutura da Entidade
 
 ### Escolha sua Estrutura Empresarial Global
 
-| Estrutura | Melhor Para | Complexidade | Custo | Implicações Fiscais |
-|-----------|------------|-------------|-------|-------------------|
-| **LLC nos EUA** | Negócios digitais, e-commerce, freelancers | Baixa | $350-$500 inicial | Pass-through, sem imposto nos EUA sobre renda estrangeira |
-| **Corporação C nos EUA** | Startups com investimento VC, captação | Média | $500-$1,000 inicial | Imposto corporativo, amigável para investidores |
-| **Holding Internacional** | Operações multi-país | Alta | $2,000-$5,000+ | Otimização fiscal, controle de dividendos |
-| **Filial** | Empresa existente expandindo para exterior | Média | Varia por país | Sujeita a impostos locais |
-
+- **LLC nos EUA:** Negócios digitais, e-commerce, freelancers -- Baixa -- $350-$500 inicial -- Pass-through, sem imposto nos EUA sobre renda estrangeira
+- **Corporação C nos EUA:** Startups com investimento VC, captação -- Média -- $500-$1,000 inicial -- Imposto corporativo, amigável para investidores
+- **Holding Internacional:** Operações multi-país -- Alta -- $2,000-$5,000+ -- Otimização fiscal, controle de dividendos
+- **Filial:** Empresa existente expandindo para exterior -- Média -- Varia por país -- Sujeita a impostos locais
 ### Por Que Começar com uma LLC nos EUA
 
 ## 3. Fase 2: Infraestrutura Bancária e Financeira
 
 ### Estratégia Bancária Multi-Moeda
 
-| Tipo de Conta | Propósito | Provedor Recomendado |
-|--------------|-----------|---------------------|
-| **Conta Operacional em USD** | Operações diárias do negócio | Mercury ou Relay |
-| **Poupança/Rendimento em USD** | Gere juros sobre reservas | Mercury Treasury (4-5% APY) |
-| **Conta Multi-Moeda** | Receba e mantenha moedas estrangeiras | Wise Business |
-| **Conta em EUR** | Operações europeias | Wise ou Mercury |
-| **Conta em GBP** | Operações no Reino Unido | Wise ou Mercury |
-| **Contas Locais** | Operações específicas por país | Bancos locais por mercado |
-
+- **Conta Operacional em USD:** Operações diárias do negócio -- Mercury ou Relay
+- **Poupança/Rendimento em USD:** Gere juros sobre reservas -- Mercury Treasury (4-5% APY)
+- **Conta Multi-Moeda:** Receba e mantenha moedas estrangeiras -- Wise Business
+- **Conta em EUR:** Operações europeias -- Wise ou Mercury
+- **Conta em GBP:** Operações no Reino Unido -- Wise ou Mercury
+- **Contas Locais:** Operações específicas por país -- Bancos locais por mercado
 ### Configuração do seu Stack Financeiro
 
 ## 4. Fase 3: Preparação Legal e de Conformidade
 
 ### Requisitos de Conformidade Global
 
-| Área | Requisito | Ação |
-|------|-----------|------|
-| **Impostos nos EUA** | Formulário 5472 (anual) | Apresentar com contador anualmente |
-| **Impostos Internacionais** | Documentação de preços de transferência | Consultar especialista fiscal internacional |
-| **Privacidade de Dados** | GDPR (UE), LGPD (Brasil), CCPA (Califórnia) | Atualizar política de privacidade, implementar consentimento |
-| **Propriedade Intelectual** | Registro de marca | Protocolo de Madri para registro internacional |
-| **Contratos** | Termos de serviço por mercado | Localizar para cada país-alvo |
-| **Emprego** | Classificação contratado vs empregado | Verificar classificação em cada jurisdição |
-
+- **Impostos nos EUA:** Formulário 5472 (anual) -- Apresentar com contador anualmente
+- **Impostos Internacionais:** Documentação de preços de transferência -- Consultar especialista fiscal internacional
+- **Privacidade de Dados:** GDPR (UE), LGPD (Brasil), CCPA (Califórnia) -- Atualizar política de privacidade, implementar consentimento
+- **Propriedade Intelectual:** Registro de marca -- Protocolo de Madri para registro internacional
+- **Contratos:** Termos de serviço por mercado -- Localizar para cada país-alvo
+- **Emprego:** Classificação contratado vs empregado -- Verificar classificação em cada jurisdição
 ### Checklist Legal para Crescimento Global
 
 ## 5. Fase 4: Estratégia de Seleção de Mercados
 
 ### Como Escolher seus Primeiros Mercados Internacionais
 
-| Fator | O que Avaliar |
-|-------|--------------|
-| **Demanda** | Há demanda comprovada para seu produto? |
-| **Idioma** | Você fala o idioma ou pode contratar localmente? |
-| **Métodos de Pagamento** | O Stripe suporta métodos de pagamento locais? |
-| **Concorrência** | Quem são os concorrentes locais? |
-| **Regulamentação** | Quais são as barreiras de entrada e regulamentações? |
-| **Custo** | Qual é o custo de aquisição de clientes? |
-| **Fuso Horário** | Você pode dar suporte naquele fuso horário? |
-
+- **Demanda:** Há demanda comprovada para seu produto?
+- **Idioma:** Você fala o idioma ou pode contratar localmente?
+- **Métodos de Pagamento:** O Stripe suporta métodos de pagamento locais?
+- **Concorrência:** Quem são os concorrentes locais?
+- **Regulamentação:** Quais são as barreiras de entrada e regulamentações?
+- **Custo:** Qual é o custo de aquisição de clientes?
+- **Fuso Horário:** Você pode dar suporte naquele fuso horário?
 ### Priorização de Entrada em Mercados
 
 ## 6. Fase 5: Preparação Operacional
 
 ### Construindo um Marco de Operações Globais
 
-| Área | Operação Local | Operação Global |
-|------|---------------|----------------|
-| **Equipe** | Apenas contratações locais | Remoto + contratados locais |
-| **Comunicação** | Um idioma, um canal | Multilíngue, multicanal |
-| **Suporte** | 9-5 horário local | 24/7 ou horário estendido |
-| **Ferramentas** | Software local | SaaS global (Slack, Notion, Linear) |
-| **Pagamentos** | Folha local | Folha internacional (Deel, Wise) |
-| **Jurídico** | Advogado local | Rede de advogados internacionais |
-
+- **Equipe:** Apenas contratações locais -- Remoto + contratados locais
+- **Comunicação:** Um idioma, um canal -- Multilíngue, multicanal
+- **Suporte:** 9-5 horário local -- 24/7 ou horário estendido
+- **Ferramentas:** Software local -- SaaS global (Slack, Notion, Linear)
+- **Pagamentos:** Folha local -- Folha internacional (Deel, Wise)
+- **Jurídico:** Advogado local -- Rede de advogados internacionais
 ### Ferramentas para Operações Globais
 
 ## 7. Fase 6: Preparação de Marketing e Marca
 
 ### Estratégia de Marca Global
 
-| Elemento | Marca Local | Marca Global |
-|---------|------------|-------------|
-| **Nome** | Mesmo globalmente | Adaptado se necessário |
-| **Domínio** | .com.br, .com.mx | .com + subdiretórios |
-| **Cores** | Preferências locais | Atração universal |
-| **Tom** | Estilo local | Adaptado culturalmente por mercado |
-| **SEO** | Palavras-chave locais | SEO multinacional + hreflang |
-| **Redes Sociais** | Plataformas locais | Plataforma por mercado |
-
+- **Nome:** Mesmo globalmente -- Adaptado se necessário
+- **Domínio:** .com.br, .com.mx -- .com + subdiretórios
+- **Cores:** Preferências locais -- Atração universal
+- **Tom:** Estilo local -- Adaptado culturalmente por mercado
+- **SEO:** Palavras-chave locais -- SEO multinacional + hreflang
+- **Redes Sociais:** Plataformas locais -- Plataforma por mercado
 ### Checklist de Marketing Pré-Lançamento
 
 ## 8. Erros Comuns ao se Preparar para o Crescimento Global
 
 ### O que NÃO Fazer
 
-| Erro | Consequência | Solução |
-|------|-------------|---------|
-| **Expandir rápido demais** | Esgotamento, problemas de fluxo de caixa | Entre em 1-2 mercados por vez |
-| **Ignorar regulamentações locais** | Multas, problemas legais | Pesquise conformidade antes de entrar |
-| **Traduzir em vez de localizar** | Baixa conversão, erros culturais | Adapte o conteúdo, não apenas traduza |
-| **Preço único em uma moeda** | Vendas perdidas em mercados sensíveis a preço | Implemente preços PPP |
-| **Sem métodos de pagamento locais** | Carrinhos abandonados | Ative métodos locais do Stripe |
-| **Usar contas pessoais** | Fundos congelados, problemas fiscais | Estrutura empresarial dedicada |
-| **Pular a configuração legal** | Responsabilidade pessoal, multas fiscais | Forme LLC ou entidade local primeiro |
-| **Sem plano de conformidade** | Multas do IRS, suspensão estadual | Programe apresentações anuais |
-
+- **Expandir rápido demais:** Esgotamento, problemas de fluxo de caixa -- Entre em 1-2 mercados por vez
+- **Ignorar regulamentações locais:** Multas, problemas legais -- Pesquise conformidade antes de entrar
+- **Traduzir em vez de localizar:** Baixa conversão, erros culturais -- Adapte o conteúdo, não apenas traduza
+- **Preço único em uma moeda:** Vendas perdidas em mercados sensíveis a preço -- Implemente preços PPP
+- **Sem métodos de pagamento locais:** Carrinhos abandonados -- Ative métodos locais do Stripe
+- **Usar contas pessoais:** Fundos congelados, problemas fiscais -- Estrutura empresarial dedicada
+- **Pular a configuração legal:** Responsabilidade pessoal, multas fiscais -- Forme LLC ou entidade local primeiro
+- **Sem plano de conformidade:** Multas do IRS, suspensão estadual -- Programe apresentações anuais
 ## 9. Checklist Completo de Preparação para Crescimento Global
 
 ### ENTIDADE E LEGAL

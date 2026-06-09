@@ -13,17 +13,14 @@ Understanding how the BMF works is critical because **any error or inconsistency
 
 The BMF is the IRS master record system for business entities. It contains information such as:
 
-| Data | Description |
-|------|-------------|
-| **EIN** | Business tax identification number |
-| **Legal name** | Exact name registered with the IRS |
-| **Entity type** | LLC, Corporation, Partnership, Sole Proprietorship |
-| **Address** | Registered mailing address |
-| **Tax status** | Active, closed, suspended |
-| **Tax year** | Fiscal year closing date |
-| **Returns filed** | Record of forms filed (1120, 1065, 5472, etc.) |
-| **Responsible party** | Registered contact person |
-
+- **EIN:** Business tax identification number
+- **Legal name:** Exact name registered with the IRS
+- **Entity type:** LLC, Corporation, Partnership, Sole Proprietorship
+- **Address:** Registered mailing address
+- **Tax status:** Active, closed, suspended
+- **Tax year:** Fiscal year closing date
+- **Returns filed:** Record of forms filed (1120, 1065, 5472, etc.)
+- **Responsible party:** Registered contact person
 ### What does the IRS use the BMF for?
 
 - Verifying that a business exists for tax purposes.
@@ -76,14 +73,11 @@ The BMF is the IRS's source of truth about your LLC. If the data in the BMF does
 
 ### Problems from outdated data
 
-| Problem | Consequence |
-|----------|-------------|
-| **Incorrect address** | Miss IRS letters, miss deadlines |
-| **Inconsistent name** | Return rejection, audits |
-| **Wrong entity type** | Incorrect tax classification |
-| **Incorrect status** | Difficulty opening bank accounts |
-| **Outdated responsible party** | Notifications sent to wrong person |
-
+- **Incorrect address:** Miss IRS letters, miss deadlines
+- **Inconsistent name:** Return rejection, audits
+- **Wrong entity type:** Incorrect tax classification
+- **Incorrect status:** Difficulty opening bank accounts
+- **Outdated responsible party:** Notifications sent to wrong person
 ### Common cases
 
 - You changed your address and did not update the BMF ? the IRS sends an audit notice to the old address, you do not receive it, and they impose a penalty for not responding.
@@ -128,13 +122,10 @@ The name in the BMF must match **exactly** the Certificate of Formation and the 
 
 When requesting the EIN, you must correctly classify your LLC:
 
-| What you are | SS-4 code |
-|-------------|---------------|
-| Single-member LLC (foreign owner) | Limited Liability Company (coded as disregarded entity) |
-| Multi-member LLC | Limited Liability Company (coded as partnership) |
-| LLC electing S-Corp status | Limited Liability Company (coded as S-Corporation) |
-| LLC electing C-Corp status | Limited Liability Company (coded as C-Corporation) |
-
+- **Single-member LLC (foreign owner):** Limited Liability Company (coded as disregarded entity)
+- **Multi-member LLC:** Limited Liability Company (coded as partnership)
+- **LLC electing S-Corp status:** Limited Liability Company (coded as S-Corporation)
+- **LLC electing C-Corp status:** Limited Liability Company (coded as C-Corporation)
 **If the code is incorrect**, the IRS will treat your LLC as a different entity type with different tax obligations.
 
 ### Error 3: Outdated address
@@ -197,14 +188,11 @@ When you open an account at Mercury, Relay, or similar, they verify your informa
 
 ## BMF vs other databases
 
-| Database | Entity | Purpose |
-|----------|---------|---------|
-| **BMF (IRS)** | Every business with EIN | Master tax record |
-| **Secretary of State** | LLC in specific state | Corporate record (Annual Report) |
-| **FinCEN (BOI)** | Beneficial owners | Ultimate beneficiary ownership registry |
-| **SSA** | Employees | Social security numbers |
-| **DUNS** | Businesses | Commercial identification |
-
+- **BMF (IRS):** Every business with EIN -- Master tax record
+- **Secretary of State:** LLC in specific state -- Corporate record (Annual Report)
+- **FinCEN (BOI):** Beneficial owners -- Ultimate beneficiary ownership registry
+- **SSA:** Employees -- Social security numbers
+- **DUNS:** Businesses -- Commercial identification
 > **Important:** The BMF is independent of the Secretary of State. You can have your LLC active with the state but have tax issues in the BMF, and vice versa.
 
 ## Practical case

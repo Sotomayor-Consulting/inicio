@@ -13,17 +13,14 @@ A seguir, apresentamos um guia completo sobre os métodos de pagamento internaci
 
 Cada método de pagamento tem características distintas. Conhecê-las ajudará você a escolher o mais adequado:
 
-| Método | Velocidade | Custo | Ideal para | Reporte Fiscal |
-|---|---|---|---|---|
-| **SWIFT (Transferência bancária)** | 1-5 dias | Médio-Alto ($25-50) | Pagamentos grandes, contas bancárias | Rastreável, documentado |
-| **ACH (EUA)** | 1-3 dias | Baixo ($0-3) | Pagamentos domésticos nos EUA | Rastreável |
-| **PayPal** | Instantâneo | Alto (3-5% + fixo) | Pagamentos pequenos, freelancers | 1099-K se aplicável |
-| **Wise (TransferWise)** | 1-2 dias | Baixo (0,5-1,5%) | Pagamentos médios, taxa de câmbio real | Rastreável |
-| **Payoneer** | 1-3 dias | Médio (1-3%) | Freelancers, marketplaces | 1099-K se aplicável |
-| **Criptomoedas** | Minutos | Baixo-Variável | Pagamentos rápidos, tech-savvy | Reporte manual (Form 8949) |
-| **Cheque internacional** | 7-21 dias | Médio ($10-30) | Pagamentos ocasionais | Rastreável |
-| **Western Union / MoneyGram** | Minutos | Alto (5-10%) | Pagamentos urgentes, sem banco | Reporte manual |
-
+- **SWIFT (Transferência bancária):** 1-5 dias -- Médio-Alto ($25-50) -- Pagamentos grandes, contas bancárias -- Rastreável, documentado
+- **ACH (EUA):** 1-3 dias -- Baixo ($0-3) -- Pagamentos domésticos nos EUA -- Rastreável
+- **PayPal:** Instantâneo -- Alto (3-5% + fixo) -- Pagamentos pequenos, freelancers -- 1099-K se aplicável
+- **Wise (TransferWise):** 1-2 dias -- Baixo (0,5-1,5%) -- Pagamentos médios, taxa de câmbio real -- Rastreável
+- **Payoneer:** 1-3 dias -- Médio (1-3%) -- Freelancers, marketplaces -- 1099-K se aplicável
+- **Criptomoedas:** Minutos -- Baixo-Variável -- Pagamentos rápidos, tech-savvy -- Reporte manual (Form 8949)
+- **Cheque internacional:** 7-21 dias -- Médio ($10-30) -- Pagamentos ocasionais -- Rastreável
+- **Western Union / MoneyGram:** Minutos -- Alto (5-10%) -- Pagamentos urgentes, sem banco -- Reporte manual
 ## 2. Implicações Fiscais de Cada Método
 
 O método de pagamento afeta como é reportado fiscalmente:

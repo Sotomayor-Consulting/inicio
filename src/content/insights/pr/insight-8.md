@@ -122,15 +122,12 @@ Isto pode causar gastos adicionais e problemas de conformidade.
 
 ## Comparativo r�pido
 
-| Aspecto | Wyoming | Fl�rida | Delaware |
-|---------|---------|---------|----------|
-| **Custo anual m�nimo** | $60 | $138,75 | $300 |
-| **Multa por atraso** | Vari�vel | $400 | N/A |
-| **Relat�rio anual** | Sim | Sim | N�o (s� imposto) |
-| **Privacidade** | Alta | M�dia | M�dia |
-| **Popular para** | Freelancers, digital | LATAM, real estate | Startups, holdings |
-| **Presen�a f�sica exigida** | N�o | Recomendada | N�o |
-
+- **Custo anual m�nimo:** $60 -- $138,75 -- $300
+- **Multa por atraso:** Vari�vel -- $400 -- N/A
+- **Relat�rio anual:** Sim -- Sim -- N�o (s� imposto)
+- **Privacidade:** Alta -- M�dia -- M�dia
+- **Popular para:** Freelancers, digital -- LATAM, real estate -- Startups, holdings
+- **Presen�a f�sica exigida:** N�o -- Recomendada -- N�o
 ## Conclus�o
 
 Wyoming, Fl�rida e Delaware podem ser excelentes op��es, mas cada uma responde a uma necessidade distinta.

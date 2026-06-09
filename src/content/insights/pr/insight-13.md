@@ -41,11 +41,8 @@ O EIN ajuda a empresa a ter identidade tribut�ria pr�pria perante o IRS e in
 
 **N�o.** Esta � uma confus�o muito comum.
 
-| N�mero | Para quem | Uso |
-|--------|-----------|-----|
-| **SSN** (Social Security Number) | Pessoas individuais | Identifica��o pessoal |
-| **EIN** (Employer Identification Number) | Empresas | Identifica��o tribut�ria empresarial |
-
+- **SSN** (Social Security Number):** Pessoas individuais -- Identifica��o pessoal
+- **EIN** (Employer Identification Number):** Empresas -- Identifica��o tribut�ria empresarial
 Uma empresa pode ter EIN mesmo que o propriet�rio n�o tenha SSN.
 
 ## Um estrangeiro pode obter EIN?

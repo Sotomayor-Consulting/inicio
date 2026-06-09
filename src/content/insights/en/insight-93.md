@@ -13,13 +13,10 @@ In this guide, we explain **how to sell globally from Latin America** in 2026: f
 
 ### The TAM Multiplies
 
-| Market | Population | GDP Per Capita | Purchasing Power |
-|--------|-----------|----------------|------------------|
-| **Latin America** | 650M | $9,000 | 1x |
-| **United States** | 335M | $76,000 | 8.4x |
-| **Europe** | 450M | $45,000 | 5x |
-| **Global** | 8,000M | $13,000 | 1.4x |
-
+- **Latin America:** 650M -- $9,000 -- 1x
+- **United States:** 335M -- $76,000 -- 8.4x
+- **Europe:** 450M -- $45,000 -- 5x
+- **Global:** 8,000M -- $13,000 -- 1.4x
 **Selling to the US from LATAM**: your product is worth 5-8x more in dollars.
 
 ### Advantages of Selling from LATAM
@@ -28,49 +25,40 @@ In this guide, we explain **how to sell globally from Latin America** in 2026: f
 
 ### Options for LATAM Entrepreneurs
 
-| Option | Complexity | Cost | Ideal For |
-|--------|-----------|-------|-----------|
-| **Stripe Atlas (US LLC)** | Low | $500 | Most digital businesses |
-| **Local company + Stripe** | Low | $0-500 | Primarily local sales |
-| **International holding** | High | $5,000+ | Revenue over $500K/year |
-| **Wise account + local invoice** | Low | $0 | Freelancers, small amounts |
-
+- **Stripe Atlas (US LLC):** Low -- $500 -- Most digital businesses
+- **Local company + Stripe:** Low -- $0-500 -- Primarily local sales
+- **International holding:** High -- $5,000+ -- Revenue over $500K/year
+- **Wise account + local invoice:** Low -- $0 -- Freelancers, small amounts
 ### Recommended: US LLC + Stripe
 
 ## 3. Global Payment Methods with Stripe
 
 ### Accept What Your Customers Use
 
-| Region | Popular Payment Methods | Stripe Accepts |
-|--------|------------------------|----------------|
-| **United States** | Visa, Mastercard, Amex, ACH, Link | ✅ All |
-| **Europe** | Visa, Mastercard, iDEAL, Sofort, Bancontact, SEPA | ✅ All |
-| **United Kingdom** | Visa, Mastercard, Bacs Direct Debit | ✅ All |
-| **Brazil** | Pix, Boleto, Visa, Mastercard | ✅ Pix and cards |
-| **Mexico** | OXXO, SPEI, Visa, Mastercard | ✅ OXXO, SPEI, cards |
-| **Colombia** | PSE, Visa, Mastercard, Efecty | ✅ PSE, cards |
-| **Argentina** | Visa, Mastercard, Rapipago, Pago Fácil | ✅ Cards |
-| **Chile** | Visa, Mastercard, Webpay, Khipu | ✅ Cards, Webpay |
-| **Peru** | Visa, Mastercard, PagoEfectivo | ✅ Cards |
-| **Australia/NZ** | Visa, Mastercard, BPay | ✅ All |
-
+- **United States:** Visa, Mastercard, Amex, ACH, Link -- ✅ All
+- **Europe:** Visa, Mastercard, iDEAL, Sofort, Bancontact, SEPA -- ✅ All
+- **United Kingdom:** Visa, Mastercard, Bacs Direct Debit -- ✅ All
+- **Brazil:** Pix, Boleto, Visa, Mastercard -- ✅ Pix and cards
+- **Mexico:** OXXO, SPEI, Visa, Mastercard -- ✅ OXXO, SPEI, cards
+- **Colombia:** PSE, Visa, Mastercard, Efecty -- ✅ PSE, cards
+- **Argentina:** Visa, Mastercard, Rapipago, Pago Fácil -- ✅ Cards
+- **Chile:** Visa, Mastercard, Webpay, Khipu -- ✅ Cards, Webpay
+- **Peru:** Visa, Mastercard, PagoEfectivo -- ✅ Cards
+- **Australia/NZ:** Visa, Mastercard, BPay -- ✅ All
 ### Pix: The Payment Method That Revolutionized Brazil
 
 ## 4. Logistics for Global Sales
 
 ### Digital vs Physical Products
 
-| Aspect | Digital Product | Physical Product |
-|--------|----------------|-----------------|
-| **Delivery** | Automatic (email, download) | Shipping (3-15 days) |
-| **Logistics** | Stripe + email | Fulfillment center |
-| **Shipping cost** | $0 | $5-30 per order |
-| **Returns** | Rare | 5-30% of sales |
-| **Customs** | Not applicable | Duties, paperwork |
-| **Margin** | 80-95% | 20-50% |
-| **Scalability** | Unlimited | Limited by logistics |
-| **Stripe** | Stripe Billing + Tax | Stripe Payments + Tax |
-
+- **Delivery:** Automatic (email, download) -- Shipping (3-15 days)
+- **Logistics:** Stripe + email -- Fulfillment center
+- **Shipping cost:** $0 -- $5-30 per order
+- **Returns:** Rare -- 5-30% of sales
+- **Customs:** Not applicable -- Duties, paperwork
+- **Margin:** 80-95% -- 20-50%
+- **Scalability:** Unlimited -- Limited by logistics
+- **Stripe:** Stripe Billing + Tax -- Stripe Payments + Tax
 ### Fulfillment Centers for LATAM
 
 ### How to Use Stripe for Logistics
@@ -79,15 +67,12 @@ In this guide, we explain **how to sell globally from Latin America** in 2026: f
 
 ### Strategies to Reach Global Customers
 
-| Channel | Cost | Reach | Ideal For |
-|---------|------|-------|-----------|
-| **Google Ads** | $1-5 per click | Purchase intent | Products with established demand |
-| **Facebook/Instagram Ads** | $0.5-3 per click | Demographic targeting | Visual products, B2C |
-| **LinkedIn Ads** | $3-8 per click | B2B professionals | Services, consulting, B2B SaaS |
-| **Organic SEO** | $500-2,000/month (content) | Free long-term traffic | Content, educational SaaS |
-| **TikTok Ads** | $0.2-1 per click | Young audience | Viral products, fashion |
-| **Email marketing** | $50-200/month (platform) | Existing customers | Retention and upsells |
-
+- **Google Ads:** $1-5 per click -- Purchase intent -- Products with established demand
+- **Facebook/Instagram Ads:** $0.5-3 per click -- Demographic targeting -- Visual products, B2C
+- **LinkedIn Ads:** $3-8 per click -- B2B professionals -- Services, consulting, B2B SaaS
+- **Organic SEO:** $500-2,000/month (content) -- Free long-term traffic -- Content, educational SaaS
+- **TikTok Ads:** $0.2-1 per click -- Young audience -- Viral products, fashion
+- **Email marketing:** $50-200/month (platform) -- Existing customers -- Retention and upsells
 ### Stripe for Marketing and Analytics
 
 ### Pricing and Checkout Localization
@@ -96,52 +81,40 @@ In this guide, we explain **how to sell globally from Latin America** in 2026: f
 
 ### How to Handle Multiple Currencies
 
-| Strategy | FX Risk | Cost | Complexity |
-|----------|---------|------|------------|
-| **All in USD (Stripe)** | Low (invoice in USD) | 2.9% + $0.30 | Low |
-| **Stripe multi-currency** | Medium (EUR, GBP fluctuate) | 2.9% + $0.30 + 1% conversion | Medium |
-| **Wise Business** | Low (convert when you want) | 0.4-0.8% conversion | Medium |
-| **Multi-currency account (HSBC)** | Low | $50-100/month | High |
-
+- **All in USD (Stripe):** Low (invoice in USD) -- 2.9% + $0.30 -- Low
+- **Stripe multi-currency:** Medium (EUR, GBP fluctuate) -- 2.9% + $0.30 + 1% conversion -- Medium
+- **Wise Business:** Low (convert when you want) -- 0.4-0.8% conversion -- Medium
+- **Multi-currency account (HSBC):** Low -- $50-100/month -- High
 ### Recommended Flow
 
 ## 7. Platforms for Global Selling
 
 ### E-commerce
 
-| Platform | Cost | Ideal For | Stripe |
-|----------|------|-----------|--------|
-| **Shopify** | $29-299/month | Physical and digital stores | ✅ Native |
-| **WooCommerce** | Free (hosting separate) | Full control, customization | ✅ Plugin |
-| **BigCommerce** | $29-299/month | Scalability, B2B | ✅ Native |
-| **Tiendanube** | $29-299/month | LATAM (MX, AR, CO, CL) | ✅ Integration |
-| **Hotmart** | 10-20% commission | Infoproducts, courses | ✅ Internal |
-
+- **Shopify:** $29-299/month -- Physical and digital stores -- ✅ Native
+- **WooCommerce:** Free (hosting separate) -- Full control, customization -- ✅ Plugin
+- **BigCommerce:** $29-299/month -- Scalability, B2B -- ✅ Native
+- **Tiendanube:** $29-299/month -- LATAM (MX, AR, CO, CL) -- ✅ Integration
+- **Hotmart:** 10-20% commission -- Infoproducts, courses -- ✅ Internal
 ### SaaS / Subscriptions
 
-| Platform | Cost | Ideal For | Stripe |
-|----------|------|-----------|--------|
-| **Stripe Billing** | 2.9% + $0.30 | Own subscriptions | ✅ Native |
-| **Recurly** | $0-599/month | Advanced subscriptions | ✅ Integration |
-| **Chargebee** | $0-599/month | Revenue recognition, dunning | ✅ Integration |
-| **Paddle** | 5% + $0.50 | SaaS wanting to delegate taxes | — |
-| **Lemon Squeezy** | 5% + $0.50 | SaaS, digital products | — |
-
+- **Stripe Billing:** 2.9% + $0.30 -- Own subscriptions -- ✅ Native
+- **Recurly:** $0-599/month -- Advanced subscriptions -- ✅ Integration
+- **Chargebee:** $0-599/month -- Revenue recognition, dunning -- ✅ Integration
+- **Paddle:** 5% + $0.50 -- SaaS wanting to delegate taxes -- —
+- **Lemon Squeezy:** 5% + $0.50 -- SaaS, digital products -- —
 ### Marketplaces
 
 ## 8. Tax Compliance for LATAM Sellers
 
 ### Taxes When Selling Globally
 
-| Tax | Applies When | How Stripe Handles It |
-|-----|-------------|----------------------|
-| **Income Tax (US)** | You have LLC/structure in the US | Stripe issues 1099-K |
-| **VAT (Europe)** | You sell to EU consumers | Stripe Tax calculates and collects |
-| **GST (UK, Australia)** | You sell to local consumers | Stripe Tax automated |
-| **Sales Tax (US)** | You have nexus in a state | Stripe Tax or TaxJar |
-| **Local tax (your country)** | You are a local tax resident | Your local CPA files |
-| **Withholding Tax** | You invoice without W-8BEN/E | Stripe withholds 30% |
-
+- **Income Tax (US):** You have LLC/structure in the US -- Stripe issues 1099-K
+- **VAT (Europe):** You sell to EU consumers -- Stripe Tax calculates and collects
+- **GST (UK, Australia):** You sell to local consumers -- Stripe Tax automated
+- **Sales Tax (US):** You have nexus in a state -- Stripe Tax or TaxJar
+- **Local tax (your country):** You are a local tax resident -- Your local CPA files
+- **Withholding Tax:** You invoice without W-8BEN/E -- Stripe withholds 30%
 ### What Every LATAM Seller Must Know
 
 ## 9. Success Stories from LATAM

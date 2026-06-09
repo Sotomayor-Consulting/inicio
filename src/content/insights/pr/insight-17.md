@@ -62,18 +62,15 @@ Um servi�o de assessoria personalizada, como o que oferecemos na Sotomayor Con
 
 ## Tabela comparativa
 
-| Aspecto | Stripe Atlas | Assessoria Personalizada |
-|---------|-------------|--------------------------|
-| **Custo** | $500 (fixo) | Vari�vel segundo o caso |
-| **Estado dispon�vel** | Apenas Delaware | Wyoming, Fl�rida, Delaware e outros |
-| **EIN** | Inclu�do | Inclu�do |
-| **Operating Agreement** | Modelo padr�o | Personalizado |
-| **Assessoria fiscal** | N�o inclui | Inclui an�lise inicial |
-| **Orienta��o banc�ria** | Stripe Treasury | Recomenda��o segundo perfil |
-| **Suporte** | Chat/e-mail gen�rico | Acompanhamento personalizado |
-| **An�lise de estrutura** | N�o | Sim |
-| **Ideal para** | Neg�cios simples em Delaware que usam Stripe | Neg�cios que precisam de estrutura��o real |
-
+- **Custo:** $500 (fixo) -- Vari�vel segundo o caso
+- **Estado dispon�vel:** Apenas Delaware -- Wyoming, Fl�rida, Delaware e outros
+- **EIN:** Inclu�do -- Inclu�do
+- **Operating Agreement:** Modelo padr�o -- Personalizado
+- **Assessoria fiscal:** N�o inclui -- Inclui an�lise inicial
+- **Orienta��o banc�ria:** Stripe Treasury -- Recomenda��o segundo perfil
+- **Suporte:** Chat/e-mail gen�rico -- Acompanhamento personalizado
+- **An�lise de estrutura:** N�o -- Sim
+- **Ideal para:** Neg�cios simples em Delaware que usam Stripe -- Neg�cios que precisam de estrutura��o real
 ## Quando escolher Stripe Atlas?
 
 Stripe Atlas pode ser uma boa op��o se:
@@ -103,13 +100,10 @@ A assessoria personalizada � a melhor op��o se:
 
 ## An�lise de custos a longo prazo
 
-| Cen�rio | Stripe Atlas | Assessoria Personalizada |
-|---------|-------------|--------------------------|
-| **Custo inicial** | $500 | $300�$800 |
-| **Custo anual Delaware** | $300 (Franchise Tax) + agente | Segundo estado escolhido |
-| **Custo de erros** | Potencialmente alto | Minimizado |
-| **Economia fiscal potencial** | N�o avaliada | Analisada |
-
+- **Custo inicial:** $500 -- $300�$800
+- **Custo anual Delaware:** $300 (Franchise Tax) + agente -- Segundo estado escolhido
+- **Custo de erros:** Potencialmente alto -- Minimizado
+- **Economia fiscal potencial:** N�o avaliada -- Analisada
 > **Nota:** O custo inicial da assessoria pode ser similar ou ligeiramente maior, mas a economia em custos de manuten��o anual (escolhendo um estado como Wyoming em vez de Delaware) e a preven��o de erros fiscais pode compensar amplamente a diferen�a.
 
 ## Erros comuns ao escolher Stripe Atlas sem assessoria

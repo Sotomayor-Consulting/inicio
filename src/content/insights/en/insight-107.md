@@ -13,19 +13,16 @@ In this guide, we cover **how to configure and use Odoo for international busine
 
 ### Odoo vs Legacy ERPs
 
-| Feature | Odoo | SAP / Oracle / Microsoft Dynamics |
-|---------|------|----------------------------------|
-| **License Cost** | Free (Community) or $20-$40/user/mo (Enterprise) | $100-$500+/user/mo |
-| **Implementation Time** | Weeks to months | Months to years |
-| **Modularity** | 70+ modules, install what you need | Monolithic, heavy customization required |
-| **Multi-Company** | Native multi-company support | Available but complex |
-| **Multi-Currency** | Built-in, real-time rates | Usually requires add-ons |
-| **Multi-Language** | 50+ languages in UI | Limited languages |
-| **Localization** | 40+ country-specific accounting packages | Per-country licensing |
-| **Integrations** | Stripe, PayPal, Shopify, Amazon, etc. | Custom integration required |
-| **Customization** | Low-code, Python backend | ABAP, proprietary languages |
-| **Cloud or On-Premise** | Both (Odoo.sh or self-hosted) | Usually cloud-only or on-prem at extra cost |
-
+- **License Cost:** Free (Community) or $20-$40/user/mo (Enterprise) -- $100-$500+/user/mo
+- **Implementation Time:** Weeks to months -- Months to years
+- **Modularity:** 70+ modules, install what you need -- Monolithic, heavy customization required
+- **Multi-Company:** Native multi-company support -- Available but complex
+- **Multi-Currency:** Built-in, real-time rates -- Usually requires add-ons
+- **Multi-Language:** 50+ languages in UI -- Limited languages
+- **Localization:** 40+ country-specific accounting packages -- Per-country licensing
+- **Integrations:** Stripe, PayPal, Shopify, Amazon, etc. -- Custom integration required
+- **Customization:** Low-code, Python backend -- ABAP, proprietary languages
+- **Cloud or On-Premise:** Both (Odoo.sh or self-hosted) -- Usually cloud-only or on-prem at extra cost
 ### Odoo's International Modules
 
 ## 2. Setting Up Multi-Company in Odoo
@@ -44,17 +41,14 @@ In this guide, we cover **how to configure and use Odoo for international busine
 
 ### Tax Configuration by Country
 
-| Country | Tax System | Odoo Fiscal Localization Package | Stripe Tax Integration |
-|---------|-----------|----------------------------------|----------------------|
-| **United States** | Sales Tax (state-level) | US Accounting Package | Stripe Tax auto-calculates |
-| **Brazil** | ICMS, ISS, IPI, PIS, COFINS | Brazilian Localization (completed) | Manual configuration |
-| **Mexico** | IVA, ISR, IEPS | Mexican Localization | CFDI via 3rd party |
-| **Colombia** | IVA (19%), ICA, RETEIVA | Colombian Localization | DIAN-compliant |
-| **Argentina** | IVA (21%), IIBB | Argentine Localization | SIFEN integration |
-| **Chile** | IVA (19%) | Chilean Localization | SII-compliant |
-| **European Union** | VAT (country-specific rates) | EU VAT Reporting | Stripe Tax auto-calculates |
-| **United Kingdom** | VAT (20%) | UK Accounting Package | Stripe Tax auto-calculates |
-
+- **United States:** Sales Tax (state-level) -- US Accounting Package -- Stripe Tax auto-calculates
+- **Brazil:** ICMS, ISS, IPI, PIS, COFINS -- Brazilian Localization (completed) -- Manual configuration
+- **Mexico:** IVA, ISR, IEPS -- Mexican Localization -- CFDI via 3rd party
+- **Colombia:** IVA (19%), ICA, RETEIVA -- Colombian Localization -- DIAN-compliant
+- **Argentina:** IVA (21%), IIBB -- Argentine Localization -- SIFEN integration
+- **Chile:** IVA (19%) -- Chilean Localization -- SII-compliant
+- **European Union:** VAT (country-specific rates) -- EU VAT Reporting -- Stripe Tax auto-calculates
+- **United Kingdom:** VAT (20%) -- UK Accounting Package -- Stripe Tax auto-calculates
 ### Setting Up International Taxes
 
 ## 5. Multi-Language CRM and Sales
@@ -89,16 +83,13 @@ In this guide, we cover **how to configure and use Odoo for international busine
 
 ### Module Recommendations by Region
 
-| Region | Essential Odoo Modules | Localization Package |
-|--------|----------------------|---------------------|
-| **United States** | Sales, Accounting, CRM, Inventory, Stripe | US Accounting |
-| **Brazil** | Sales, Accounting, CRM, Inventory, Fiscal | Brazilian Localization (NFe, NFSe, SPED) |
-| **Mexico** | Sales, Accounting, CRM, Inventory, CFDI | Mexican Localization (CFDI 4.0) |
-| **Colombia** | Sales, Accounting, CRM, Inventory, DIAN | Colombian Localization |
-| **Argentina** | Sales, Accounting, CRM, Inventory, SIFEN | Argentine Localization |
-| **Chile** | Sales, Accounting, CRM, Inventory, SII | Chilean Localization |
-| **European Union** | Sales, Accounting, CRM, Inventory, VAT | EU VAT Reporting + country packages |
-
+- **United States:** Sales, Accounting, CRM, Inventory, Stripe -- US Accounting
+- **Brazil:** Sales, Accounting, CRM, Inventory, Fiscal -- Brazilian Localization (NFe, NFSe, SPED)
+- **Mexico:** Sales, Accounting, CRM, Inventory, CFDI -- Mexican Localization (CFDI 4.0)
+- **Colombia:** Sales, Accounting, CRM, Inventory, DIAN -- Colombian Localization
+- **Argentina:** Sales, Accounting, CRM, Inventory, SIFEN -- Argentine Localization
+- **Chile:** Sales, Accounting, CRM, Inventory, SII -- Chilean Localization
+- **European Union:** Sales, Accounting, CRM, Inventory, VAT -- EU VAT Reporting + country packages
 ## 10. Odoo Customization for International Needs
 
 ### Key Customizations

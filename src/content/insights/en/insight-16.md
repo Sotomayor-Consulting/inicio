@@ -23,12 +23,9 @@ Selling online from Latin America using a U.S. LLC offers advantages you simply 
 
 For e-commerce businesses, the most recommended states are:
 
-| State | Advantage | Annual cost |
-|-------|-----------|-------------|
-| **Wyoming** | No state tax, privacy, low cost | $60 |
-| **Florida** | No state personal income tax, LATAM proximity | $138.75 |
-| **Delaware** | Ideal if seeking external investment | $300 |
-
+- **Wyoming:** No state tax, privacy, low cost -- $60
+- **Florida:** No state personal income tax, LATAM proximity -- $138.75
+- **Delaware:** Ideal if seeking external investment -- $300
 **Recommendation:** For most e-commerce businesses operating 100% online with no physical inventory in the U.S., Wyoming offers the best balance of cost, privacy, and simplicity.
 
 > **Note:** If you plan to store inventory in the U.S. (Amazon FBA), you may need to register as a foreign LLC in the state where the warehouse is located, which can create additional tax obligations.
@@ -55,13 +52,10 @@ Once you have chosen the state, you must:
 
 ### Payment platforms
 
-| Platform | Advantage |
-|----------|-----------|
-| **Stripe** | Accepts cards, ideal for custom Shopify stores |
-| **PayPal Business** | Essential for eBay and international marketplaces |
-| **Shopify Payments** | Reduced rates, native Shopify integration |
-| **Amazon Pay** | Ideal if you already sell on Amazon |
-
+- **Stripe:** Accepts cards, ideal for custom Shopify stores
+- **PayPal Business:** Essential for eBay and international marketplaces
+- **Shopify Payments:** Reduced rates, native Shopify integration
+- **Amazon Pay:** Ideal if you already sell on Amazon
 ## Step 4: Set up your online store with the LLC
 
 ### Shopify
@@ -121,13 +115,10 @@ With an LLC you can access:
 
 ### Popular suppliers for e-commerce with LLC
 
-| Type | Suppliers |
-|------|-----------|
-| **Manufacturing** | Alibaba, AliExpress, local suppliers |
-| **Fulfillment** | Amazon FBA, ShipBob, ShipMonk |
-| **Dropshipping** | Spocket, Oberlo, CJ Dropshipping |
-| **Print-on-demand** | Printful, Printify, Gooten |
-
+- **Manufacturing:** Alibaba, AliExpress, local suppliers
+- **Fulfillment:** Amazon FBA, ShipBob, ShipMonk
+- **Dropshipping:** Spocket, Oberlo, CJ Dropshipping
+- **Print-on-demand:** Printful, Printify, Gooten
 ## E-commerce models that work with LLC
 
 **Amazon FBA:** Send your inventory to Amazon, they store, pack, and ship. Ideal for physical products.
@@ -175,14 +166,11 @@ Stripe, PayPal, and other platforms may suspend personal accounts with high volu
 
 ## Comparison table: E-commerce platforms and LLC requirements
 
-| Platform | Requires LLC? | Requires EIN? | Ideal for |
-|----------|--------------|---------------|-----------|
-| **Amazon FBA** | Recommended | Yes | Physical products |
-| **Shopify** | Recommended | Yes (for payments) | Own store |
-| **Etsy** | Optional | Yes (for tax) | Crafts, digital |
-| **eBay** | Recommended | Yes (for volume) | Varied products |
-| **WooCommerce** | Recommended | Yes (for Stripe) | Full control |
-
+- **Amazon FBA:** Recommended -- Yes -- Physical products
+- **Shopify:** Recommended -- Yes (for payments) -- Own store
+- **Etsy:** Optional -- Yes (for tax) -- Crafts, digital
+- **eBay:** Recommended -- Yes (for volume) -- Varied products
+- **WooCommerce:** Recommended -- Yes (for Stripe) -- Full control
 ## Conclusion
 
 Using an LLC for e-commerce in the United States is a strategy that removes geographical, financial, and credibility barriers. It allows you to operate as a local company in the world's largest market, access exclusive tools, and scale your business without the limitations you face as an individual in Latin America.

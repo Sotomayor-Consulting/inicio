@@ -15,36 +15,30 @@ Neste guia, cobrimos **como reinstalar uma LLC inadimplente em 2026**: como as L
 
 ### Causas comuns de inadimplência de LLC
 
-| Causa | Descrição | Frequência |
-|-------|-------------|-----------|
-| **Relatório anual perdido** | Não arquivar o relatório anual ou bienal exigido pelo estado | Mais comum |
-| **Imposto de franquia não pago** | Estados como Califórnia, Delaware, Texas e outros cobram impostos anuais | Muito comum |
-| **Sem agente registrado** | Agente registrado renunciou ou a empresa não manteve um | Comum |
-| **Endereço comercial desatualizado** | Estado enviou avisos para endereço antigo, proprietário nunca os recebeu | Extremamente comum |
-| **Negócio inativo** | Proprietário assumiu que sem atividade não precisa arquivar | Comum |
-| **Prazo perdido após a formação** | Novas LLCs esquecem os requisitos de arquivamento do primeiro ano | Moderado |
-| **Perdido no correio** | Avisos por correio físico do estado foram perdidos ou ignorados | Muito comum |
-| **Proprietário mudou de estado** | Proprietário se mudou mas a LLC permaneceu registrada no estado original | Comum |
-
+- **Relatório anual perdido:** Não arquivar o relatório anual ou bienal exigido pelo estado -- Mais comum
+- **Imposto de franquia não pago:** Estados como Califórnia, Delaware, Texas e outros cobram impostos anuais -- Muito comum
+- **Sem agente registrado:** Agente registrado renunciou ou a empresa não manteve um -- Comum
+- **Endereço comercial desatualizado:** Estado enviou avisos para endereço antigo, proprietário nunca os recebeu -- Extremamente comum
+- **Negócio inativo:** Proprietário assumiu que sem atividade não precisa arquivar -- Comum
+- **Prazo perdido após a formação:** Novas LLCs esquecem os requisitos de arquivamento do primeiro ano -- Moderado
+- **Perdido no correio:** Avisos por correio físico do estado foram perdidos ou ignorados -- Muito comum
+- **Proprietário mudou de estado:** Proprietário se mudou mas a LLC permaneceu registrada no estado original -- Comum
 ### Como a inadimplência acontece
 
 ## 2. Consequências de uma LLC inadimplente
 
 ### Os riscos de operar enquanto inadimplente
 
-| Área de risco | O que acontece | Gravidade |
-|-----------|-------------|----------|
-| **Proteção de responsabilidade** | Bens pessoais podem estar em risco se a LLC não estiver regular | Alto |
-| **Capacidade legal** | Não pode processar ou se defender em tribunal como LLC | Alto |
-| **Execução de contratos** | Contratos podem ser anuláveis ou inexequíveis | Moderado |
-| **Contas bancárias** | Bancos podem congelar ou fechar contas comerciais | Moderado |
-| **Licenças comerciais** | Pode perder licenças profissionais ou comerciais | Alto |
-| **Responsabilidade pessoal** | Credores podem desconsiderar a personalidade jurídica | Crítico |
-| **Reserva de nome** | Outra empresa pode registrar o nome da sua LLC | Moderado |
-| **Multas e juros** | Taxas atrasadas, multas e juros continuam acumulando | Médio |
-| **Implicações fiscais** | Estado pode impor impostos adicionais ou revogar eleições fiscais | Alto |
-| **Crédito empresarial** | Arquivamentos tardios aparecem em relatórios de crédito empresarial | Médio |
-
+- **Proteção de responsabilidade:** Bens pessoais podem estar em risco se a LLC não estiver regular -- Alto
+- **Capacidade legal:** Não pode processar ou se defender em tribunal como LLC -- Alto
+- **Execução de contratos:** Contratos podem ser anuláveis ou inexequíveis -- Moderado
+- **Contas bancárias:** Bancos podem congelar ou fechar contas comerciais -- Moderado
+- **Licenças comerciais:** Pode perder licenças profissionais ou comerciais -- Alto
+- **Responsabilidade pessoal:** Credores podem desconsiderar a personalidade jurídica -- Crítico
+- **Reserva de nome:** Outra empresa pode registrar o nome da sua LLC -- Moderado
+- **Multas e juros:** Taxas atrasadas, multas e juros continuam acumulando -- Médio
+- **Implicações fiscais:** Estado pode impor impostos adicionais ou revogar eleições fiscais -- Alto
+- **Crédito empresarial:** Arquivamentos tardios aparecem em relatórios de crédito empresarial -- Médio
 ### Perda de proteção de responsabilidade
 
 ### Dissolução administrativa vs revogação
@@ -61,19 +55,16 @@ Neste guia, cobrimos **como reinstalar uma LLC inadimplente em 2026**: como as L
 
 ### Conformidade e reinstalação de LLC por estado
 
-| Estado | Taxa anual | Imposto de franquia | Multa por atraso | Taxa de reinstalação | Janela de reinstalação |
-|-------|-----------|---------------|-------------|-------------------|---------------------|
-| **Califórnia** | $20 relatório anual | $800 mínimo | $50 + juros | $150 | 5 anos (LLC revivida) |
-| **Delaware** | $0 (sem relatório anual para LLCs) | $300 mínimo | $200 + 1,5%/mês de juros | $200 | Indefinido |
-| **Texas** | $0 (sem relatório anual) | $0 (sem imposto de franquia para a maioria das LLCs pequenas) | $50 | $75 | Indefinido |
-| **Flórida** | $138,75 relatório anual | Nenhum | $50 + $400 multa por atraso | $100 | 5 years |
-| **Nova York** | $9 relatório bienal | Nenhum | $25 + juros | $200 | Indefinido (with conditions) |
-| **Nevada** | $150 lista anual | Nenhum | $75 + $50/mês | $150 | 5 years |
-| **Wyoming** | $60 relatório anual | Nenhum | $50 + juros | $100 | Indefinido |
-| **Colorado** | $10 relatório anual | Nenhum | $25 | $50 | 5 years |
-| **Arizona** | $0 relatório anual | Nenhum | $35 | $50 | Indefinido |
-| **Illinois** | $75 relatório anual | Nenhum | $25 + juros | $100 | 5 years |
-
+- **Califórnia:** $20 relatório anual -- $800 mínimo -- $50 + juros -- $150 -- 5 anos (LLC revivida)
+- **Delaware:** $0 (sem relatório anual para LLCs) -- $300 mínimo -- $200 + 1,5%/mês de juros -- $200 -- Indefinido
+- **Texas:** $0 (sem relatório anual) -- $0 (sem imposto de franquia para a maioria das LLCs pequenas) -- $50 -- $75 -- Indefinido
+- **Flórida:** $138,75 relatório anual -- Nenhum -- $50 + $400 multa por atraso -- $100 -- 5 years
+- **Nova York:** $9 relatório bienal -- Nenhum -- $25 + juros -- $200 -- Indefinido (with conditions)
+- **Nevada:** $150 lista anual -- Nenhum -- $75 + $50/mês -- $150 -- 5 years
+- **Wyoming:** $60 relatório anual -- Nenhum -- $50 + juros -- $100 -- Indefinido
+- **Colorado:** $10 relatório anual -- Nenhum -- $25 -- $50 -- 5 years
+- **Arizona:** $0 relatório anual -- Nenhum -- $35 -- $50 -- Indefinido
+- **Illinois:** $75 relatório anual -- Nenhum -- $25 + juros -- $100 -- 5 years
 ### Estados de alto risco para proprietários de LLC
 
 ### Reinstalação de LLC na Califórnia (mais complexa)

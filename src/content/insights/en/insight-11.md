@@ -60,12 +60,9 @@ This is one of the most important differences.
 
 ## Difference #3: Company ownership
 
-| Aspect | LLC | Corporation |
-|---------|-----|-------------|
-| **Owners** | Members | Shareholders |
-| **Ownership** | Percentages in Operating Agreement | Issued shares |
-| **Transfer** | Requires member agreement | Free share transfer |
-
+- **Owners:** Members -- Shareholders
+- **Ownership:** Percentages in Operating Agreement -- Issued shares
+- **Transfer:** Requires member agreement -- Free share transfer
 ## Difference #4: Investors and growth
 
 **LLC:** Works well for small and medium businesses, family businesses, consultants, digital operations, and e-commerce.
@@ -86,17 +83,14 @@ This is one of the most important differences.
 
 ## Comparison table
 
-| Aspect | LLC | Corporation |
-|---------|-----|-------------|
-| **Taxation** | Flexible (pass-through) | Double taxation (C-Corp) |
-| **Formalities** | Low | High |
-| **Owners** | Members | Shareholders |
-| **Stock** | Does not issue | Issues stock |
-| **Investment** | Limited | Ideal for VC |
-| **Foreigners** | Very popular | Possible but more complex |
-| **Maintenance** | Simple | More costly |
-| **Best for** | Freelancers, digital, SMEs | Startups, investment, IPO |
-
+- **Taxation:** Flexible (pass-through) -- Double taxation (C-Corp)
+- **Formalities:** Low -- High
+- **Owners:** Members -- Shareholders
+- **Stock:** Does not issue -- Issues stock
+- **Investment:** Limited -- Ideal for VC
+- **Foreigners:** Very popular -- Possible but more complex
+- **Maintenance:** Simple -- More costly
+- **Best for:** Freelancers, digital, SMEs -- Startups, investment, IPO
 ## Which one is better?
 
 ### An LLC may be ideal if:

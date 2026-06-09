@@ -13,28 +13,22 @@ Neste guia, explicamos os **sinais de que seu negócio precisa de estrutura inte
 
 ### O Custo de NÃO Ter Estrutura
 
-| Sem Estrutura | Com Estrutura Internacional |
-|--------------|-----------------------------|
-| Você paga 30-45% de impostos como pessoa física | Paga 0-21% como corporação nos EUA |
-| Risco ilimitado: seus bens pessoais em jogo | Proteção LLC: só perde o que investe |
-| Difícil cobrar do exterior (conta pessoal) | Stripe + conta empresarial = pagamentos globais |
-| Sem credibilidade internacional | LLC em Delaware = confiança global |
-| Não pode emitir ações nem atrair investimento | C-Corp preparada para VC |
-| Sem planejamento patrimonial | Trust + holding = legado multigeracional |
-
+- **Você paga 30-45% de impostos como pessoa física:** Paga 0-21% como corporação nos EUA
+- **Risco ilimitado: seus bens pessoais em jogo:** Proteção LLC: só perde o que investe
+- **Difícil cobrar do exterior (conta pessoal):** Stripe + conta empresarial = pagamentos globais
+- **Sem credibilidade internacional:** LLC em Delaware = confiança global
+- **Não pode emitir ações nem atrair investimento:** C-Corp preparada para VC
+- **Sem planejamento patrimonial:** Trust + holding = legado multigeracional
 ### O Sinal Mais Importante
 
 ## 2. Sinais Financeiros
 
 ### Sinal #1: Sua Receita Cresce mas Seus Impostos Também
 
-| Renda Anual | Como Pessoa Física (LATAM) | Com LLC nos EUA | Diferença |
-|------------|---------------------------|----------------|-----------|
-| $50.000 | $15.000-22.500 (30-45%) | $7.500-10.500 (15-21%) | $7.500-12.000 |
-| $100.000 | $30.000-45.000 | $15.000-21.000 | $15.000-24.000 |
-| $200.000 | $70.000-100.000 | $34.000-42.000 | $36.000-58.000 |
-| $500.000 | $200.000-275.000 | $85.000-105.000 | $115.000-170.000 |
-
+- **$50.000:** $15.000-22.500 (30-45%) -- $7.500-10.500 (15-21%) -- $7.500-12.000
+- **$100.000:** $30.000-45.000 -- $15.000-21.000 -- $15.000-24.000
+- **$200.000:** $70.000-100.000 -- $34.000-42.000 -- $36.000-58.000
+- **$500.000:** $200.000-275.000 -- $85.000-105.000 -- $115.000-170.000
 **Quando agir?** Quando seu faturamento mensal ultrapassar $5.000-10.000/mês de forma consistente.
 
 ### Sinal #2: Seus Clientes Estão no Exterior
@@ -45,16 +39,13 @@ Neste guia, explicamos os **sinais de que seu negócio precisa de estrutura inte
 
 ### Sinal #4: Você Paga Impostos Altos sem Benefícios
 
-| País | Alíquota Máxima Pessoa Física | Alíquota Corporativa EUA | Economia Potencial |
-|------|------------------------------|-------------------------|-------------------|
-| Argentina | 35% | 21% | 14% |
-| Brasil | 27,5% | 21% | 6,5% |
-| Chile | 40% | 21% | 19% |
-| Colômbia | 39% | 21% | 18% |
-| México | 35% | 21% | 14% |
-| Peru | 30% | 21% | 9% |
-| Uruguai | 36% | 21% | 15% |
-
+- **Argentina:** 35% -- 21% -- 14%
+- **Brasil:** 27,5% -- 21% -- 6,5%
+- **Chile:** 40% -- 21% -- 19%
+- **Colômbia:** 39% -- 21% -- 18%
+- **México:** 35% -- 21% -- 14%
+- **Peru:** 30% -- 21% -- 9%
+- **Uruguai:** 36% -- 21% -- 15%
 **A regra de ouro:** Se sua alíquota local ultrapassa 21%, uma LLC nos EUA vai economizar dinheiro mesmo após os custos de estrutura.
 
 ### Sinal #5: Você Não Tem um CPA Internacional
@@ -85,16 +76,13 @@ Neste guia, explicamos os **sinais de que seu negócio precisa de estrutura inte
 
 ### Investimento vs Retorno
 
-| Item | Custo Anual | Benefício |
-|------|------------|-----------|
-| Stripe Atlas | $500 (one-time) | LLC em Delaware + EIN |
-| Registered Agent | $100-300 | Compliance anual da LLC |
-| CPA Internacional | $1.500-5.000 | Declaração 1040-NR + otimização |
-| Mercury/Brex | $0 | Conta bancária empresarial |
-| Stripe Payments | 2,9% + $0,30 | Processar pagamentos globais |
-| Deel (se aplicável) | $7.200/ano por funcionário | EOR global |
-| **Investimento total** | **$2.100-5.800** | |
-
+- **Stripe Atlas:** $500 (one-time) -- LLC em Delaware + EIN
+- **Registered Agent:** $100-300 -- Compliance anual da LLC
+- **CPA Internacional:** $1.500-5.000 -- Declaração 1040-NR + otimização
+- **Mercury/Brex:** $0 -- Conta bancária empresarial
+- **Stripe Payments:** 2,9% + $0,30 -- Processar pagamentos globais
+- **Deel (se aplicável):** $7.200/ano por funcionário -- EOR global
+- **Investimento total:** **$2.100-5.800** -- 
 ### Retorno do Investimento
 
 ## 8. O Caminho a Seguir

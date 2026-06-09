@@ -13,49 +13,37 @@ Neste guia, explicamos **como usar Stripe para assinaturas** em 2026, desde a co
 
 ### Vantagens do Stripe Billing
 
-| Vantagem | Descrição |
-|----------|-----------|
-| **Faturamento recorrente** | Cobranças automáticas diárias, semanais, mensais ou anuais |
-| **Modelos flexíveis** | Assinaturas fixas, por uso, escalonadas ou personalizadas |
-| **Dunning automático** | Stripe tenta pagamentos falhos até 3 vezes |
-| **Customer Portal** | Clientes gerenciam sua assinatura sem sua intervenção |
-| **Múltiplas moedas** | Cobrança em 135+ moedas com conversão automática |
-| **Impostos automatizados** | Stripe calcula IVA, GST e impostos por localização |
-| **Relatórios em tempo real** | Dashboard com MRR, churn, receita e métricas principais |
-
+- **Faturamento recorrente:** Cobranças automáticas diárias, semanais, mensais ou anuais
+- **Modelos flexíveis:** Assinaturas fixas, por uso, escalonadas ou personalizadas
+- **Dunning automático:** Stripe tenta pagamentos falhos até 3 vezes
+- **Customer Portal:** Clientes gerenciam sua assinatura sem sua intervenção
+- **Múltiplas moedas:** Cobrança em 135+ moedas com conversão automática
+- **Impostos automatizados:** Stripe calcula IVA, GST e impostos por localização
+- **Relatórios em tempo real:** Dashboard com MRR, churn, receita e métricas principais
 ### Stripe Billing vs Alternativas
 
-| Plataforma | Taxa | Ideal para |
-|------------|------|------------|
-| **Stripe Billing** | 2.9% + $0.30 + 0.5% (recorrente) | Negócios digitais, SaaS, membresias |
-| **Recurly** | A partir de $99/mês + 1.5% | Empresas com alto volume |
-| **Chargebee** | A partir de $99/mês | Empresas em crescimento |
-| **PayPal Subscriptions** | 4.4% + $0.30 | Pequenos negócios |
-| **Paddle** | 5% + $0.50 | Vendas globais com compliance |
-
+- **Stripe Billing:** 2.9% + $0.30 + 0.5% (recorrente) -- Negócios digitais, SaaS, membresias
+- **Recurly:** A partir de $99/mês + 1.5% -- Empresas com alto volume
+- **Chargebee:** A partir de $99/mês -- Empresas em crescimento
+- **PayPal Subscriptions:** 4.4% + $0.30 -- Pequenos negócios
+- **Paddle:** 5% + $0.50 -- Vendas globais com compliance
 > **Stripe Billing é a opção mais rentável** para startups e PMEs que buscam uma solução completa de assinaturas sem custos fixos mensais.
 
 ## 2. Requisitos para Usar Stripe com Assinaturas
 
 ### Requisitos Técnicos
 
-| Requisito | Detalhes |
-|-----------|----------|
-| **Conta Stripe verificada** | Stripe deve ter aprovado sua conta |
-| **Produto ou serviço definido** | O que você vai cobrar recorrentemente |
-| **Preço e ciclo definidos** | Valor e frequência de cada assinatura |
-| **Plataforma ou site** | Onde os clientes vão se registrar |
-
+- **Conta Stripe verificada:** Stripe deve ter aprovado sua conta
+- **Produto ou serviço definido:** O que você vai cobrar recorrentemente
+- **Preço e ciclo definidos:** Valor e frequência de cada assinatura
+- **Plataforma ou site:** Onde os clientes vão se registrar
 ### Tipos de Assinatura Suportados
 
-| Tipo | Descrição | Exemplo |
-|------|-----------|---------|
-| **Fixa** | Mesmo valor a cada período | R$29/mês |
-| **Por uso** | Cobrança conforme consumo | R$0,10 por chamada de API |
-| **Escalonada** | Preços diferentes por plano | Basic R$29, Pro R$79, Enterprise R$299 |
-| **Personalizada** | Preço único por cliente | R$499/mês para clientes enterprise |
-| **Híbrida** | Base fixa + variável | R$19/mês + R$0,05 por unidade |
-
+- **Fixa:** Mesmo valor a cada período -- R$29/mês
+- **Por uso:** Cobrança conforme consumo -- R$0,10 por chamada de API
+- **Escalonada:** Preços diferentes por plano -- Basic R$29, Pro R$79, Enterprise R$299
+- **Personalizada:** Preço único por cliente -- R$499/mês para clientes enterprise
+- **Híbrida:** Base fixa + variável -- R$19/mês + R$0,05 por unidade
 ## 3. Configuração de Assinaturas no Stripe
 
 ### Método 1: Stripe Dashboard (Sem Código)
@@ -69,14 +57,11 @@ Neste guia, explicamos **como usar Stripe para assinaturas** em 2026, desde a co
 
 #### Passo 2: Configurar o Preço Recorrente
 
-| Campo | Exemplo |
-|-------|---------|
-| **Valor** | R$29,00 |
-| **Moeda** | BRL |
-| **Frequência** | Mensal |
-| **Período de teste** | 7 dias grátis |
-| **Faturamento** | Faturar a cada 1 mês |
-
+- **Valor:** R$29,00
+- **Moeda:** BRL
+- **Frequência:** Mensal
+- **Período de teste:** 7 dias grátis
+- **Faturamento:** Faturar a cada 1 mês
 #### Passo 3: Gerar Link de Pagamento
 
 1. No produto criado, clique em **Criar link de pagamento**
@@ -96,24 +81,18 @@ Para controle total sobre a experiência de assinatura:
 
 ### Modelos de Preços
 
-| Modelo | Como Funciona | Exemplo | Ideal para |
-|--------|---------------|---------|------------|
-| **Preço fixo** | Mesmo valor sempre | R$29/mês | SaaS, membresias |
-| **Por usuário** | Cobrança por assento | R$10/usuário/mês | Equipes, empresas |
-| **Por uso** | Conforme consumo | R$0,50 por GB | Armazenamento, APIs |
-| **Escalonado** | Planos com diferentes recursos | Basic/Pro/Enterprise | Segmentação de mercado |
-| **Freemium** | Grátis + upgrade pago | R$0 / R$29 / R$99 | Aquisição de usuários |
-
+- **Preço fixo:** Mesmo valor sempre -- R$29/mês -- SaaS, membresias
+- **Por usuário:** Cobrança por assento -- R$10/usuário/mês -- Equipes, empresas
+- **Por uso:** Conforme consumo -- R$0,50 por GB -- Armazenamento, APIs
+- **Escalonado:** Planos com diferentes recursos -- Basic/Pro/Enterprise -- Segmentação de mercado
+- **Freemium:** Grátis + upgrade pago -- R$0 / R$29 / R$99 -- Aquisição de usuários
 ### Preços Escalonados no Stripe
 
 **Exemplo: Planos de uma ferramenta SaaS**
 
-| Plano | Preço | Recursos |
-|-------|-------|----------|
-| **Starter** | R$19/mês | 1 usuário, 5GB, suporte email |
-| **Professional** | R$79/mês | 10 usuários, 50GB, suporte prioritário |
-| **Enterprise** | R$299/mês | Usuários ilimitados, 500GB, suporte 24/7 |
-
+- **Starter:** R$19/mês -- 1 usuário, 5GB, suporte email
+- **Professional:** R$79/mês -- 10 usuários, 50GB, suporte prioritário
+- **Enterprise:** R$299/mês -- Usuários ilimitados, 500GB, suporte 24/7
 **Como configurar:**
 1. Stripe Dashboard → Produtos → Adicionar produto
 2. Crie um produto "Plano SaaS"
@@ -122,13 +101,10 @@ Para controle total sobre a experiência de assinatura:
 
 ### Períodos de Teste
 
-| Duração | Propósito | Impacto na Conversão |
-|---------|-----------|----------------------|
-| **7 dias** | Teste rápido, baixa fricção | +15-20% |
-| **14 dias** | Tempo suficiente para explorar | +20-30% |
-| **30 dias** | Compromisso mais longo | +10-15% (menos cadastros) |
-| **Sem cartão** | Fricção zero máxima | +40-50% (mas menos qualificados) |
-
+- **7 dias:** Teste rápido, baixa fricção -- +15-20%
+- **14 dias:** Tempo suficiente para explorar -- +20-30%
+- **30 dias:** Compromisso mais longo -- +10-15% (menos cadastros)
+- **Sem cartão:** Fricção zero máxima -- +40-50% (mas menos qualificados)
 > **Recomendação:** Ofereça 7-14 dias de teste com cartão para equilibrar conversão e qualidade de leads.
 
 ## 5. Gestão de Clientes
@@ -137,40 +113,31 @@ Para controle total sobre a experiência de assinatura:
 
 O Customer Portal permite que seus clientes se autogerenciem:
 
-| Ação do Cliente | Disponível? |
-|----------------|------------|
-| Ver plano atual | ✅ Sim |
-| Mudar de plano | ✅ Sim |
-| Atualizar método de pagamento | ✅ Sim |
-| Cancelar assinatura | ✅ Sim |
-| Baixar faturas | ✅ Sim |
-| Ver histórico de pagamentos | ✅ Sim |
-
+- **Ver plano atual:** ✅ Sim
+- **Mudar de plano:** ✅ Sim
+- **Atualizar método de pagamento:** ✅ Sim
+- **Cancelar assinatura:** ✅ Sim
+- **Baixar faturas:** ✅ Sim
+- **Ver histórico de pagamentos:** ✅ Sim
 **Como ativar:**
 
 ### Mudanças de Plano (Upgrade/Downgrade)
 
 Stripe lida com mudanças de plano automaticamente:
 
-| Mudança | Comportamento | Faturamento |
-|---------|---------------|-------------|
-| **Upgrade** | Mudança imediata | Cobrança proporcional |
-| **Downgrade** | Mudança ao final do período | Próximo ciclo com novo preço |
-| **Cancelamento** | Fim ao final do período | Sem mudanças até a data de corte |
-
+- **Upgrade:** Mudança imediata -- Cobrança proporcional
+- **Downgrade:** Mudança ao final do período -- Próximo ciclo com novo preço
+- **Cancelamento:** Fim ao final do período -- Sem mudanças até a data de corte
 ## 6. Gerenciamento de Pagamentos Falhos (Dunning)
 
 ### Estratégia de Tentativas do Stripe
 
 Stripe tenta automaticamente pagamentos falhos:
 
-| Tentativa | Dias Depois | Ação |
-|-----------|-------------|------|
-| **1** | 3 dias | Stripe tenta a cobrança |
-| **2** | 5 dias | Stripe tenta novamente |
-| **3** | 7 dias | Última tentativa |
-| **Final** | — | Assinatura cancelada por inadimplência |
-
+- **1:** 3 dias -- Stripe tenta a cobrança
+- **2:** 5 dias -- Stripe tenta novamente
+- **3:** 7 dias -- Última tentativa
+- **Final:** — -- Assinatura cancelada por inadimplência
 ### Notificações ao Cliente
 
 Configure emails automáticos para cada etapa:
@@ -188,15 +155,12 @@ Stripe Smart Retries usa machine learning para escolher o melhor momento para te
 
 ### KPIs que Você Deve Monitorar
 
-| Métrica | Descrição | Como Calcular |
-|---------|-----------|---------------|
-| **MRR** | Receita recorrente mensal | Soma de todas as cobranças mensais |
-| **ARR** | Receita recorrente anual | MRR × 12 |
-| **Churn Rate** | % de clientes que cancelam | Cancelamentos / Total de clientes |
-| **LTV** | Valor vitalício do cliente | MRR médio × Vida útil média |
-| **CAC** | Custo de aquisição | Gastos de marketing / Novos clientes |
-| **Retenção** | % de clientes que continuam | 1 - Churn Rate |
-
+- **MRR:** Receita recorrente mensal -- Soma de todas as cobranças mensais
+- **ARR:** Receita recorrente anual -- MRR × 12
+- **Churn Rate:** % de clientes que cancelam -- Cancelamentos / Total de clientes
+- **LTV:** Valor vitalício do cliente -- MRR médio × Vida útil média
+- **CAC:** Custo de aquisição -- Gastos de marketing / Novos clientes
+- **Retenção:** % de clientes que continuam -- 1 - Churn Rate
 ### Dashboard de Assinaturas no Stripe
 
 Stripe Dashboard mostra:
@@ -205,25 +169,19 @@ Stripe Dashboard mostra:
 
 ### Estratégias para Reduzir Churn
 
-| Estratégia | Impacto | Implementação |
-|-----------|---------|---------------|
-| **Emails de re-engagement** | Médio | Automação Stripe + email marketing |
-| **Descontos de retorno** | Alto | Cupom de 30% para clientes que cancelam |
-| **Pesquisas de cancelamento** | Alto | Stripe Webhook + formulário |
-| **Melhoria contínua do produto** | Muito alto | Feedback loop baseado em cancelamentos |
-| **Suporte proativo** | Alto | Detectar padrões de uso baixos |
-
+- **Emails de re-engagement:** Médio -- Automação Stripe + email marketing
+- **Descontos de retorno:** Alto -- Cupom de 30% para clientes que cancelam
+- **Pesquisas de cancelamento:** Alto -- Stripe Webhook + formulário
+- **Melhoria contínua do produto:** Muito alto -- Feedback loop baseado em cancelamentos
+- **Suporte proativo:** Alto -- Detectar padrões de uso baixos
 ### Oferecer Descontos para Evitar Cancelamentos
 
 ### Recuperação de Clientes Cancelados
 
-| Tática | Descrição |
-|--------|-----------|
-| **Email de retenção** | "Sentimos sua falta. Volte com 30% OFF por 3 meses" |
-| **Plano gratuito limitado** | Ofereça versão gratuita enquanto decide |
-| **Pausa de assinatura** | Permita pausar 1-3 meses sem cancelar |
-| **Feedback loop** | "O que você recomenda para melhorarmos?" |
-
+- **Email de retenção:** "Sentimos sua falta. Volte com 30% OFF por 3 meses"
+- **Plano gratuito limitado:** Ofereça versão gratuita enquanto decide
+- **Pausa de assinatura:** Permita pausar 1-3 meses sem cancelar
+- **Feedback loop:** "O que você recomenda para melhorarmos?"
 ## 9. Solução de Problemas Comuns
 
 ### Problema 1: Pagamento Recusado na Renovação
@@ -252,24 +210,18 @@ Stripe Dashboard mostra:
 
 ### Problema 4: Impostos Incorretos
 
-| Problema | Causa | Solução |
-|----------|-------|---------|
-| **Imposto não calculado** | País não configurado | Stripe Tax: configurar regiões |
-| **Imposto duplicado** | Configuração duplicada | Revisar regras de impostos |
-| **Taxa incorreta** | Produto mal categorizado | Atribuir categoria fiscal correta |
-
+- **Imposto não calculado:** País não configurado -- Stripe Tax: configurar regiões
+- **Imposto duplicado:** Configuração duplicada -- Revisar regras de impostos
+- **Taxa incorreta:** Produto mal categorizado -- Atribuir categoria fiscal correta
 ## 10. Passo a Passo Rápido
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Crie seu produto e preço recorrente | 15 min |
-| **2** | Configure Stripe Checkout ou API | 30 min |
-| **3** | Ative o Customer Portal | 10 min |
-| **4** | Configure webhooks e notificações | 15 min |
-| **5** | Teste o fluxo completo e lance | 1 hora |
-
+- **1:** Crie seu produto e preço recorrente -- 15 min
+- **2:** Configure Stripe Checkout ou API -- 30 min
+- **3:** Ative o Customer Portal -- 10 min
+- **4:** Configure webhooks e notificações -- 15 min
+- **5:** Teste o fluxo completo e lance -- 1 hora
 ### Checklist Pós-Configuração
 
 - [ ] Criar produto com preço recorrente

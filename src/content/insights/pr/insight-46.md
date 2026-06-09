@@ -76,18 +76,15 @@ As holdings internacionais oferecem importantes benefícios fiscais quando estru
 
 A escolha da jurisdição é crítica para uma holding internacional:
 
-| Jurisdição | Vantagens | Considerações |
-|---|---|---|
-| **Países Baixos** | Ampla rede de tratados, participation exemption, regime fiscal favorável | Custo de conformidade, substance requirements |
-| **Luxemburgo** | SOPARFI, tratados, flexibilidade | Custos operacionais altos |
-| **Suíça** | Participation deduction, tratados, estabilidade | Custos de vida altos, regulação |
-| **Singapura** | Hub regional Ásia, tratados, isenções | Substance requirements |
-| **Emirados Árabes Unidos** | 0% imposto corporativo (zonas francas), sem withholding tax | Rede de tratados limitada |
-| **Irlanda** | 12,5% corporativo, tratados, talento | Regulação UE em mudança |
-| **Espanha** | Regime ETVE, participation exemption, tratados | Requisitos de substance |
-| **Panamá** | Tributação territorial, sem imposto sobre dividendos estrangeiros | Rede de tratados limitada |
-| **Delaware / EUA** | Flexibilidade corporativa, acesso a mercados de capital | Tributação federal e estadual |
-
+- **Países Baixos:** Ampla rede de tratados, participation exemption, regime fiscal favorável -- Custo de conformidade, substance requirements
+- **Luxemburgo:** SOPARFI, tratados, flexibilidade -- Custos operacionais altos
+- **Suíça:** Participation deduction, tratados, estabilidade -- Custos de vida altos, regulação
+- **Singapura:** Hub regional Ásia, tratados, isenções -- Substance requirements
+- **Emirados Árabes Unidos:** 0% imposto corporativo (zonas francas), sem withholding tax -- Rede de tratados limitada
+- **Irlanda:** 12,5% corporativo, tratados, talento -- Regulação UE em mudança
+- **Espanha:** Regime ETVE, participation exemption, tratados -- Requisitos de substance
+- **Panamá:** Tributação territorial, sem imposto sobre dividendos estrangeiros -- Rede de tratados limitada
+- **Delaware / EUA:** Flexibilidade corporativa, acesso a mercados de capital -- Tributação federal e estadual
 ## 5. Requisitos de Substância Econômica (Economic Substance)
 
 As autoridades fiscais exigem que as holdings tenham **substância econômica real** em seu país de residência:
@@ -156,16 +153,13 @@ Constituir e manter uma holding internacional exige cumprir com:
 Manter uma holding internacional não é gratuito. Os custos típicos incluem:
 
 ### Custos anuais estimados:
-| Conceito | Custo Anual Aproximado |
-|---|---|
-| Registered agent | $500 - $2.000 |
-| Escritório virtual/físico | $1.000 - $12.000 |
-| Diretor local (se necessário) | $2.000 - $10.000 |
-| Contabilidade e auditoria | $3.000 - $15.000 |
-| Preparação de impostos | $2.000 - $10.000 |
-| Conformidade regulatória | $1.000 - $5.000 |
-| **Total estimado** | **$9.500 - $54.000+** |
-
+- **Registered agent:** $500 - $2.000
+- **Escritório virtual/físico:** $1.000 - $12.000
+- **Diretor local (se necessário):** $2.000 - $10.000
+- **Contabilidade e auditoria:** $3.000 - $15.000
+- **Preparação de impostos:** $2.000 - $10.000
+- **Conformidade regulatória:** $1.000 - $5.000
+- **Total estimado:** **$9.500 - $54.000+**
 ### Fatores que afetam o custo:
 - Jurisdição escolhida
 - Complexidade da estrutura

@@ -13,138 +13,105 @@ In this guide, we explain **the risks of operating without a legal structure** i
 
 ### No Corporate Veil
 
-| Situation | With Legal Structure | Without Legal Structure |
-|-----------|---------------------|-----------------------|
-| **Client lawsuit** | Only the company responds | You respond with all personal assets |
-| **Supplier debt** | The company owes, not you | You owe personally |
-| **Contract breach** | They sue the entity | They sue you as a person |
-| **Workplace accident** | Company insurance covers | You pay out of pocket |
-| **Business bankruptcy** | Company goes bankrupt, not you | You go bankrupt personally |
-
+- **Client lawsuit:** Only the company responds -- You respond with all personal assets
+- **Supplier debt:** The company owes, not you -- You owe personally
+- **Contract breach:** They sue the entity -- They sue you as a person
+- **Workplace accident:** Company insurance covers -- You pay out of pocket
+- **Business bankruptcy:** Company goes bankrupt, not you -- You go bankrupt personally
 > **Key fact:** In a lawsuit, an LLC or corporation acts as a shield. Without it, every creditor, dissatisfied client, or conflictive partner can go directly after your home, savings, and personal property.
 
 ### Real Cases
 
-| Case | Without Structure | Consequence |
-|------|-----------------|-------------|
-| **Client sues for breach** | Client sues you personally | Personal account, home, car seized |
-| **Unpaid supplier** | Supplier comes after you | Personal assets on the line |
-| **Professional service error** | Malpractice lawsuit | Personal assets to cover damages |
-| **Partner dispute** | Partner sues you directly | Legal war without corporate protection |
-
+- **Client sues for breach:** Client sues you personally -- Personal account, home, car seized
+- **Unpaid supplier:** Supplier comes after you -- Personal assets on the line
+- **Professional service error:** Malpractice lawsuit -- Personal assets to cover damages
+- **Partner dispute:** Partner sues you directly -- Legal war without corporate protection
 ## 2. Tax Risks
 
 ### Problems with Tax Authorities
 
-| Risk | Description | Impact |
-|------|-------------|--------|
-| **Deductions rejected** | Business expenses mixed with personal | Pay more taxes |
-| **Deeper audits** | High-income individuals audited more often | Time, legal costs, fines |
-| **Higher effective rate** | Individuals often pay higher marginal rates than corps | Up to 20-30% more taxes |
-| **Limited planning** | No structure means fewer tax planning options | Pay more than necessary |
-| **Incorrect invoicing fines** | Poorly issued invoices as individual | Fines and surcharges |
-
+- **Deductions rejected:** Business expenses mixed with personal -- Pay more taxes
+- **Deeper audits:** High-income individuals audited more often -- Time, legal costs, fines
+- **Higher effective rate:** Individuals often pay higher marginal rates than corps -- Up to 20-30% more taxes
+- **Limited planning:** No structure means fewer tax planning options -- Pay more than necessary
+- **Incorrect invoicing fines:** Poorly issued invoices as individual -- Fines and surcharges
 ### Rate Comparison
 
-| Country | Individual Max Rate | Corporate Rate |
-|---------|-------------------|----------------|
-| **Mexico** | 35% | 30% |
-| **Colombia** | 39% | 35% |
-| **United States** | 37% | 21% |
-| **Spain** | 47% | 25% |
-| **United Kingdom** | 45% | 25% |
-| **Brazil** | 27.5% | 15% + 9% CSLL |
-| **Argentina** | 35% | 25% |
-
+- **Mexico:** 35% -- 30%
+- **Colombia:** 39% -- 35%
+- **United States:** 37% -- 21%
+- **Spain:** 47% -- 25%
+- **United Kingdom:** 45% -- 25%
+- **Brazil:** 27.5% -- 15% + 9% CSLL
+- **Argentina:** 35% -- 25%
 > Note: Corporate rates are before dividend taxes. Even with double taxation, a corporate structure is usually more efficient.
 
 ## 3. Client and Supplier Risks
 
 ### Professionalism Perception
 
-| Aspect | With Structure | Without Structure |
-|--------|---------------|------------------|
-| **Client trust** | High (registered company) | Low (natural person) |
-| **Large contracts** | Enterprise clients hire you | Clients hesitate, prefer formal companies |
-| **Suppliers** | Trade credit, better terms | Upfront payment, higher rates |
-| **Invoicing** | Professional invoice with EIN | Simplified invoice without tax data |
-| **Online presence** | Stripe under company name | Stripe under personal name |
-
+- **Client trust:** High (registered company) -- Low (natural person)
+- **Large contracts:** Enterprise clients hire you -- Clients hesitate, prefer formal companies
+- **Suppliers:** Trade credit, better terms -- Upfront payment, higher rates
+- **Invoicing:** Professional invoice with EIN -- Simplified invoice without tax data
+- **Online presence:** Stripe under company name -- Stripe under personal name
 ### Example: Client Contracting
 
 ## 4. Risks with Stripe and Payment Gateways
 
 ### Stripe Without Legal Structure
 
-| Aspect | Personal Stripe | Business Stripe |
-|--------|----------------|-----------------|
-| **Processing limits** | Lower | Higher |
-| **Fund holds** | Higher risk of holds | Lower risk |
-| **Verification** | Less robust | More robust |
-| **Supported countries** | Limited by your residence | Global access |
-| **Multi-user accounts** | No | Yes (team accounts) |
-| **Stripe Atlas** | Not applicable | Forms your LLC |
-
+- **Processing limits:** Lower -- Higher
+- **Fund holds:** Higher risk of holds -- Lower risk
+- **Verification:** Less robust -- More robust
+- **Supported countries:** Limited by your residence -- Global access
+- **Multi-user accounts:** No -- Yes (team accounts)
+- **Stripe Atlas:** Not applicable -- Forms your LLC
 ### Common Problems
 
-| Problem | Without Structure | Consequence |
-|---------|-----------------|-------------|
-| **Stripe freezes funds** | Stripe requests company documents | Can't provide them → Funds held |
-| **Account restricted** | High volume without corporate structure | Stripe asks for EIN you don't have |
-| **Chargebacks** | Direct personal liability | You pay out of pocket |
-| **Identity verification** | Personal docs not always enough | Stripe limits functionality |
-
+- **Stripe freezes funds:** Stripe requests company documents -- Can't provide them → Funds held
+- **Account restricted:** High volume without corporate structure -- Stripe asks for EIN you don't have
+- **Chargebacks:** Direct personal liability -- You pay out of pocket
+- **Identity verification:** Personal docs not always enough -- Stripe limits functionality
 ## 5. Growth and Scalability Risks
 
 ### Barriers to Growth
 
-| Area | Without Structure | With Structure |
-|------|-----------------|----------------|
-| **Investment** | Can't issue shares | Can sell equity |
-| **Partners** | Informal, risky agreements | Formal partnership agreements |
-| **Employees** | Can't legally hire | Can run payroll |
-| **Business sale** | No entity to sell | Sell the company |
-| **International expansion** | Limited by your country | Global subsidiaries |
-| **Intellectual property** | In your name, at risk | In company name, protected |
-
+- **Investment:** Can't issue shares -- Can sell equity
+- **Partners:** Informal, risky agreements -- Formal partnership agreements
+- **Employees:** Can't legally hire -- Can run payroll
+- **Business sale:** No entity to sell -- Sell the company
+- **International expansion:** Limited by your country -- Global subsidiaries
+- **Intellectual property:** In your name, at risk -- In company name, protected
 ### Scenario: Selling Your Business
 
 ## 6. Intellectual Property Risks
 
 ### Unprotected IP
 
-| Asset | Without Structure | Risk |
-|-------|-----------------|------|
-| **Brand** | In personal name | If sued personally, you lose the brand |
-| **Source code** | No assignment of rights | A partner can claim co-authorship |
-| **Patents** | In personal name | Hard to license or sell |
-| **Customer data** | No corporate protection | Data breach liability is personal |
-
+- **Brand:** In personal name -- If sued personally, you lose the brand
+- **Source code:** No assignment of rights -- A partner can claim co-authorship
+- **Patents:** In personal name -- Hard to license or sell
+- **Customer data:** No corporate protection -- Data breach liability is personal
 ## 7. Partnership Risks
 
 ### Problems with Partners
 
-| Situation | Without Structure | Consequence |
-|-----------|-----------------|-------------|
-| **Partner leaves** | No exit agreement | Legal dispute, client loss |
-| **Partner doesn't contribute** | No committed capital | You do all the work, they share profits |
-| **Partner dies** | No defined succession | Heirs claim part of the business |
-| **Dissolution** | No clear process | Each takes what they can |
-
+- **Partner leaves:** No exit agreement -- Legal dispute, client loss
+- **Partner doesn't contribute:** No committed capital -- You do all the work, they share profits
+- **Partner dies:** No defined succession -- Heirs claim part of the business
+- **Dissolution:** No clear process -- Each takes what they can
 ## 8. Succession Risks
 
 ### What Happens to Your Business If You Die?
 
 ## 9. Real-Life Cases
 
-| Case | Situation | Outcome |
-|------|-----------|---------|
-| **Freelancer sued** | Dissatisfied client sues for $50,000 | Lost their home because they had no LLC |
-| **Partner conflict** | Two friends started without agreement | 3 years in court, lost the business |
-| **Unpaid supplier** | $10,000 supplier debt | Personal account seized, couldn't pay rent |
-| **Stripe without structure** | High volume, Stripe requested docs | Account frozen, $30,000 held 6 months |
-| **Death of founder** | Successful entrepreneur dies without structure | Heirs couldn't access Stripe, business lost |
-
+- **Freelancer sued:** Dissatisfied client sues for $50,000 -- Lost their home because they had no LLC
+- **Partner conflict:** Two friends started without agreement -- 3 years in court, lost the business
+- **Unpaid supplier:** $10,000 supplier debt -- Personal account seized, couldn't pay rent
+- **Stripe without structure:** High volume, Stripe requested docs -- Account frozen, $30,000 held 6 months
+- **Death of founder:** Successful entrepreneur dies without structure -- Heirs couldn't access Stripe, business lost
 ## 10. Frequently Asked Questions
 
 ### Can I operate as an individual without problems?
@@ -175,14 +142,11 @@ It's never too late. Form an LLC now, separate your finances, notify clients, an
 
 ### Summary in 5 Steps
 
-| Step | Action | Time |
-|------|--------|------|
-| **1** | Assess your current risk exposure | 1 day |
-| **2** | Form an LLC (Stripe Atlas, LegalZoom, FirstBase) | 1-2 weeks |
-| **3** | Obtain EIN and open business bank account | 1 week |
-| **4** | Transfer clients and Stripe to the new entity | 1-2 weeks |
-| **5** | Purchase insurance (liability, D&O, cyber) | 1 week |
-
+- **1:** Assess your current risk exposure -- 1 day
+- **2:** Form an LLC (Stripe Atlas, LegalZoom, FirstBase) -- 1-2 weeks
+- **3:** Obtain EIN and open business bank account -- 1 week
+- **4:** Transfer clients and Stripe to the new entity -- 1-2 weeks
+- **5:** Purchase insurance (liability, D&O, cyber) -- 1 week
 ### Formalization Checklist
 
 - [ ] LLC or corporation formed

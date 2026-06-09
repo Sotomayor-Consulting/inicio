@@ -13,90 +13,66 @@ Neste guia, explicamos **como proteger seu patrimônio internacionalmente** em 2
 
 ### Riscos ao seu Patrimônio
 
-| Risco | Descrição | Impacto Potencial |
-|-------|-----------|-------------------|
-| **Processos judiciais** | Ações civis, responsabilidade profissional | Perda total de ativos |
-| **Divórcio** | Separação conjugal | 50% do patrimônio |
-| **Cobrança de credores** | Dívidas não garantidas | Penhora de contas e bens |
-| **Crise econômica** | Desvalorização, inflação, falência bancária | Perda de poder aquisitivo |
-| **Instabilidade política** | Expropriação, controle de capitais | Bloqueio de ativos |
-| **Problemas fiscais** | Fiscalização agressiva | Multas e penalidades |
-
+- **Processos judiciais:** Ações civis, responsabilidade profissional -- Perda total de ativos
+- **Divórcio:** Separação conjugal -- 50% do patrimônio
+- **Cobrança de credores:** Dívidas não garantidas -- Penhora de contas e bens
+- **Crise econômica:** Desvalorização, inflação, falência bancária -- Perda de poder aquisitivo
+- **Instabilidade política:** Expropriação, controle de capitais -- Bloqueio de ativos
+- **Problemas fiscais:** Fiscalização agressiva -- Multas e penalidades
 ### Princípios de Proteção Patrimonial
 
-| Princípio | Descrição |
-|-----------|-----------|
-| **Diversificação jurisdicional** | Não concentrar ativos em um único país |
-| **Separação de ativos** | Ativos pessoais vs. empresariais separados |
-| **Uso de veículos legais** | Trusts, LLC, corporações, fundações |
-| **Planejamento antecipado** | Proteger antes que o risco surja |
-| **Conformidade fiscal** | Transparência com autoridades fiscais |
-
+- **Diversificação jurisdicional:** Não concentrar ativos em um único país
+- **Separação de ativos:** Ativos pessoais vs. empresariais separados
+- **Uso de veículos legais:** Trusts, LLC, corporações, fundações
+- **Planejamento antecipado:** Proteger antes que o risco surja
+- **Conformidade fiscal:** Transparência com autoridades fiscais
 > Proteção patrimonial não é evasão fiscal. É a organização legal e transparente dos seus ativos para blindá-los contra riscos previsíveis.
 
 ## 2. Veículos de Proteção Patrimonial
 
 ### Limited Liability Company (LLC) nos EUA
 
-| Característica | Detalhe |
-|---------------|---------|
-| **Jurisdição** | Wyoming, Delaware, Nevada, Flórida |
-| **Proteção** | Ativos pessoais separados da empresa |
-| **Anonimato** | Alto (Wyoming não exige publicação de membros) |
-| **Custo** | $100-$500/ano de manutenção |
-| **Impostos** | Apenas nos EUA se houver atividade lá |
-| **Tempo de criação** | 1-2 semanas |
-
+- **Jurisdição:** Wyoming, Delaware, Nevada, Flórida
+- **Proteção:** Ativos pessoais separados da empresa
+- **Anonimato:** Alto (Wyoming não exige publicação de membros)
+- **Custo:** $100-$500/ano de manutenção
+- **Impostos:** Apenas nos EUA se houver atividade lá
+- **Tempo de criação:** 1-2 semanas
 ### International Business Company (IBC)
 
-| Característica | Detalhe |
-|---------------|---------|
-| **Jurisdição** | Panamá, Ilhas Virgens Britânicas, Belize |
-| **Proteção** | Alta confidencialidade |
-| **Anonimato** | Muito alto (acionistas não públicos) |
-| **Custo** | $500-$1,500/ano |
-| **Impostos** | 0% offshore se não houver atividade local |
-| **Tempo de criação** | 1-3 semanas |
-
+- **Jurisdição:** Panamá, Ilhas Virgens Britânicas, Belize
+- **Proteção:** Alta confidencialidade
+- **Anonimato:** Muito alto (acionistas não públicos)
+- **Custo:** $500-$1,500/ano
+- **Impostos:** 0% offshore se não houver atividade local
+- **Tempo de criação:** 1-3 semanas
 ### Trusts
 
-| Característica | Detalhe |
-|---------------|---------|
-| **Jurisdição** | Ilhas Cayman, Bahamas, Ilhas Cook, EUA |
-| **Estrutura** | Settlor → Trustee → Beneficiários |
-| **Proteção** | Máxima (ativos saem do seu patrimônio legal) |
-| **Custo** | $2,000-$5,000/ano |
-| **Privacidade** | Total |
-| **Tempo de criação** | 2-4 semanas |
-
+- **Jurisdição:** Ilhas Cayman, Bahamas, Ilhas Cook, EUA
+- **Estrutura:** Settlor → Trustee → Beneficiários
+- **Proteção:** Máxima (ativos saem do seu patrimônio legal)
+- **Custo:** $2,000-$5,000/ano
+- **Privacidade:** Total
+- **Tempo de criação:** 2-4 semanas
 ### Fundações de Interesse Privado
 
-| Característica | Detalhe |
-|---------------|---------|
-| **Jurisdição** | Panamá, Liechtenstein, Suíça |
-| **Estrutura** | Fundador → Conselho → Beneficiários |
-| **Proteção** | Alta |
-| **Custo** | $1,000-$3,000/ano |
-| **Uso típico** | Planejamento sucessório, patrimônio familiar |
-
+- **Jurisdição:** Panamá, Liechtenstein, Suíça
+- **Estrutura:** Fundador → Conselho → Beneficiários
+- **Proteção:** Alta
+- **Custo:** $1,000-$3,000/ano
+- **Uso típico:** Planejamento sucessório, patrimônio familiar
 ## 3. Estrutura Recomendada por Perfil
 
 ### Profissional Digital / Solopreneur
 
-| Benefício | Descrição |
-|-----------|-----------|
-| **Proteção** | Ativos pessoais separados |
-| **Eficiência fiscal** | Só paga impostos onde fatura |
-| **Simplicidade** | Fácil de criar e manter |
-
+- **Proteção:** Ativos pessoais separados
+- **Eficiência fiscal:** Só paga impostos onde fatura
+- **Simplicidade:** Fácil de criar e manter
 ### Empresa SaaS / Tecnologia
 
-| Benefício | Descrição |
-|-----------|-----------|
-| **Proteção IP** | Patentes e copyright em jurisdição segura |
-| **Otimização fiscal** | Receitas onde a alíquota é menor |
-| **Limitação de risco** | Cada subsidiária isola riscos |
-
+- **Proteção IP:** Patentes e copyright em jurisdição segura
+- **Otimização fiscal:** Receitas onde a alíquota é menor
+- **Limitação de risco:** Cada subsidiária isola riscos
 ### Alto Patrimônio / Família
 
 ## 4. Stripe como Ferramenta de Proteção
@@ -105,101 +81,74 @@ Neste guia, explicamos **como proteger seu patrimônio internacionalmente** em 2
 
 Stripe Atlas permite formar uma empresa nos EUA (Delaware C-Corp ou LLC) diretamente da plataforma:
 
-| Característica | Detalhe |
-|---------------|---------|
-| **Custo** | $500 (C-Corp) / $500 (LLC) |
-| **Inclui** | Registro, EIN, conta bancária Mercury, Stripe |
-| **Tempo** | 1-2 semanas |
-| **Ideal para** | Fundadores internacionais, startups |
-
+- **Custo:** $500 (C-Corp) / $500 (LLC)
+- **Inclui:** Registro, EIN, conta bancária Mercury, Stripe
+- **Tempo:** 1-2 semanas
+- **Ideal para:** Fundadores internacionais, startups
 ### Stripe Connect para Marketplaces
 
 Se você opera um marketplace, Stripe Connect permite que cada vendedor tenha sua própria conta Stripe, isolando riscos:
 
-| Modelo | Proteção |
-|--------|----------|
-| **Standalone** | Cada vendedor tem conta Stripe independente |
-| **Express** | Stripe gerencia onboarding, você recebe comissão |
-| **Platform** | Você é o merchant of record, maior responsabilidade |
-
+- **Standalone:** Cada vendedor tem conta Stripe independente
+- **Express:** Stripe gerencia onboarding, você recebe comissão
+- **Platform:** Você é o merchant of record, maior responsabilidade
 ## 5. Bancos Internacionais
 
 ### Contas Bancárias para Não Residentes
 
-| Banco | Jurisdição | Abertura Remota | Depósito Mínimo |
-|-------|-----------|----------------|-----------------|
-| **Mercury** | EUA | Sim | $0 |
-| **Relay** | EUA | Sim | $0 |
-| **Wise** | Multi-país | Sim | $0 |
-| **HSBC** | Global | Sim | $5,000 |
-| **Banco Sabadell** | Espanha | Sim | €0 |
-| **Bank of America** | EUA | Limitada | $100 |
-
+- **Mercury:** EUA -- Sim -- $0
+- **Relay:** EUA -- Sim -- $0
+- **Wise:** Multi-país -- Sim -- $0
+- **HSBC:** Global -- Sim -- $5,000
+- **Banco Sabadell:** Espanha -- Sim -- €0
+- **Bank of America:** EUA -- Limitada -- $100
 ### Benefícios da Bancária Multi-jurisdicional
 
-| Benefício | Descrição |
-|-----------|-----------|
-| **Diversificação** | Não depende de um único sistema bancário |
-| **Acesso a múltiplas moedas** | USD, EUR, GBP, CHF, etc. |
-| **Proteção cambial** | Ativos em moedas fortes |
-| **Facilidade de cobrança** | Stripe → Conta EUA → Transferência |
-
+- **Diversificação:** Não depende de um único sistema bancário
+- **Acesso a múltiplas moedas:** USD, EUR, GBP, CHF, etc.
+- **Proteção cambial:** Ativos em moedas fortes
+- **Facilidade de cobrança:** Stripe → Conta EUA → Transferência
 ## 6. Seguros para Proteção Patrimonial
 
 ### Tipos de Seguro Recomendados
 
-| Seguro | Protege Contra | Cobertura Recomendada |
-|--------|---------------|----------------------|
-| **Responsabilidade profissional** | Processos por erros no serviço | $1-5 milhões |
-| **Responsabilidade geral** | Acidentes, danos a terceiros | $1-2 milhões |
-| **Diretores e oficiais (D&O)** | Processos contra executivos | $1-5 milhões |
-| **Seguro de vida** | Proteção familiar | 10-20× renda anual |
-| **Saúde internacional** | Despesas médicas no exterior | Cobertura global |
-
+- **Responsabilidade profissional:** Processos por erros no serviço -- $1-5 milhões
+- **Responsabilidade geral:** Acidentes, danos a terceiros -- $1-2 milhões
+- **Diretores e oficiais (D&O):** Processos contra executivos -- $1-5 milhões
+- **Seguro de vida:** Proteção familiar -- 10-20× renda anual
+- **Saúde internacional:** Despesas médicas no exterior -- Cobertura global
 ## 7. Propriedade Intelectual Internacional
 
 ### Proteção de IP
 
-| Ativo | Método de Proteção | Jurisdição Recomendada |
-|-------|-------------------|------------------------|
-| **Patentes** | Registro PCT + nacional | EUA, Europa, Japão |
-| **Marcas** | Registro USPTO + EUIPO | EUA, União Europeia |
-| **Direitos autorais** | Registro no Copyright Office | EUA |
-| **Código fonte** | Escrow + licenças | EUA |
-| **Dados** | Contratos + criptografia | Global |
-
+- **Patentes:** Registro PCT + nacional -- EUA, Europa, Japão
+- **Marcas:** Registro USPTO + EUIPO -- EUA, União Europeia
+- **Direitos autorais:** Registro no Copyright Office -- EUA
+- **Código fonte:** Escrow + licenças -- EUA
+- **Dados:** Contratos + criptografia -- Global
 ### Holding de IP
 
 ## 8. Conformidade Fiscal Internacional
 
 ### FATCA e CRS
 
-| Regulamentação | Obrigação |
-|---------------|-----------|
-| **FATCA** | Reportar contas no exterior ao IRS se for cidadão/residente EUA |
-| **CRS** | Bancos reportam automaticamente ao seu país de residência fiscal |
-
+- **FATCA:** Reportar contas no exterior ao IRS se for cidadão/residente EUA
+- **CRS:** Bancos reportam automaticamente ao seu país de residência fiscal
 ### Estruturas Transparentes
 
-| Estrutura | Transparência Fiscal |
-|-----------|---------------------|
-| **LLC (single-member)** | Transparente (reporta na declaração pessoal) |
-| **LLC (multi-member)** | Partnership (reporta como sociedade) |
-| **C-Corp** | Entidade separada (paga impostos corporativos) |
-| **Trust** | Depende do tipo (grantor vs. non-grantor) |
-
+- **LLC (single-member):** Transparente (reporta na declaração pessoal)
+- **LLC (multi-member):** Partnership (reporta como sociedade)
+- **C-Corp:** Entidade separada (paga impostos corporativos)
+- **Trust:** Depende do tipo (grantor vs. non-grantor)
 > Toda estrutura de proteção deve cumprir as leis fiscais do seu país de residência. A opacidade fiscal é ilegal e arriscada.
 
 ## 9. Erros Comuns
 
-| Erro | Consequência | Como Evitar |
-|------|-------------|-------------|
-| **Proteger quando já há processo** | Fraude concursal, juiz reverte | Fazer antes que o risco surja |
-| **Estrutura muito complexa** | Custos altos, difícil de gerenciar | Ir do simples ao complexo |
-| **Não declarar estruturas** | Multas fiscais, penais | Assessorar-se com contador internacional |
-| **Usar jurisdições de alto risco** | Bancos rejeitam transferências | Jurisdições estáveis e reconhecidas |
-| **Não ter seguro** | Ativos pessoais expostos | Seguro de responsabilidade desde o dia 1 |
-
+- **Proteger quando já há processo:** Fraude concursal, juiz reverte -- Fazer antes que o risco surja
+- **Estrutura muito complexa:** Custos altos, difícil de gerenciar -- Ir do simples ao complexo
+- **Não declarar estruturas:** Multas fiscais, penais -- Assessorar-se com contador internacional
+- **Usar jurisdições de alto risco:** Bancos rejeitam transferências -- Jurisdições estáveis e reconhecidas
+- **Não ter seguro:** Ativos pessoais expostos -- Seguro de responsabilidade desde o dia 1
 ## 10. Perguntas Frequentes
 
 ### É legal ter uma LLC nos EUA sendo residente de outro país?
@@ -230,15 +179,12 @@ Criptomoedas podem diversificar, mas são voláteis e não substituem uma estrut
 
 ### Resumo em 6 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Avalie sua exposição a riscos atual | 1 semana |
-| **2** | Consulte um assessor patrimonial internacional | 1-2 semanas |
-| **3** | Escolha a estrutura legal adequada (LLC, trust, etc.) | 1-2 semanas |
-| **4** | Forme a entidade e obtenha EIN/número fiscal | 2-4 semanas |
-| **5** | Abra contas bancárias internacionais | 1-2 semanas |
-| **6** | Transfira ativos e opere da estrutura | 2-4 semanas |
-
+- **1:** Avalie sua exposição a riscos atual -- 1 semana
+- **2:** Consulte um assessor patrimonial internacional -- 1-2 semanas
+- **3:** Escolha a estrutura legal adequada (LLC, trust, etc.) -- 1-2 semanas
+- **4:** Forme a entidade e obtenha EIN/número fiscal -- 2-4 semanas
+- **5:** Abra contas bancárias internacionais -- 1-2 semanas
+- **6:** Transfira ativos e opere da estrutura -- 2-4 semanas
 ### Checklist de Proteção Patrimonial
 
 - [ ] Avaliação de riscos concluída

@@ -13,72 +13,54 @@ Neste guia, explicamos **como otimizar conversões de pagamento** em 2026: estra
 
 ### O Impacto do Abandono de Carrinho
 
-| Estatística | Dado |
-|-------------|------|
-| **Taxa média de abandono** | 70-80% |
-| **Por formulários longos** | 22% abandona |
-| **Por custos ocultos** | 48% abandona ao ver encargos extras |
-| **Por falta de métodos de pagamento** | 9% abandona |
-| **Por erros do site** | 17% abandona |
-
+- **Taxa média de abandono:** 70-80%
+- **Por formulários longos:** 22% abandona
+- **Por custos ocultos:** 48% abandona ao ver encargos extras
+- **Por falta de métodos de pagamento:** 9% abandona
+- **Por erros do site:** 17% abandona
 ### Benefícios de Otimizar
 
-| Benefício | Impacto |
-|-----------|---------|
-| **Aumento de receita** | +10-35% sem tráfego adicional |
-| **Melhor experiência do usuário** | Checkout rápido e sem atrito |
-| **Menos abandono** | Redução de 10-50% em carrinhos abandonados |
-| **Maior confiança** | Clientes se sentem seguros ao pagar |
-
+- **Aumento de receita:** +10-35% sem tráfego adicional
+- **Melhor experiência do usuário:** Checkout rápido e sem atrito
+- **Menos abandono:** Redução de 10-50% em carrinhos abandonados
+- **Maior confiança:** Clientes se sentem seguros ao pagar
 > Cada 1% de melhoria na conversão pode representar milhares de dólares em receita adicional. É a otimização com melhor ROI em um negócio online.
 
 ## 2. Estratégias de Checkout
 
 ### Checkout em Página Única
 
-| Elemento | Recomendação |
-|----------|--------------|
-| **Campos** | Apenas os essenciais (email, cartão, endereço) |
-| **Design** | Uma coluna, sem distrações |
-| **Progresso** | Barra de progresso visual |
-| **Autocompletar** | Autofill e sugestões de endereço |
-
+- **Campos:** Apenas os essenciais (email, cartão, endereço)
+- **Design:** Uma coluna, sem distrações
+- **Progresso:** Barra de progresso visual
+- **Autocompletar:** Autofill e sugestões de endereço
 ### Checkout Convidado (Guest Checkout)
 
-| Estratégia | Descrição |
-|------------|-------------|
-| **Guest checkout** | Permitir comprar sem criar conta |
-| **Conta opcional** | Oferecer criar conta após o pagamento |
-| **Social login** | Google, Apple ou Facebook para acelerar |
-
+- **Guest checkout:** Permitir comprar sem criar conta
+- **Conta opcional:** Oferecer criar conta após o pagamento
+- **Social login:** Google, Apple ou Facebook para acelerar
 ### Autofill e Endereços Salvos
 
 ## 3. Métodos de Pagamento
 
 ### Oferecer os Métodos Corretos
 
-| Região | Métodos Recomendados |
-|--------|---------------------|
-| **Global** | Cartão (Visa, MC, Amex) + PayPal |
-| **EUA** | Cartão + ACH + Apple Pay + Google Pay |
-| **Europa** | Cartão + PayPal + Bancontact, iDEAL, Sofort |
-| **América Latina** | Cartão + OXXO (MX), Pix (BR), Mercado Pago, boleto |
-| **Ásia** | Cartão + Alipay, WeChat Pay, GrabPay |
-
+- **Global:** Cartão (Visa, MC, Amex) + PayPal
+- **EUA:** Cartão + ACH + Apple Pay + Google Pay
+- **Europa:** Cartão + PayPal + Bancontact, iDEAL, Sofort
+- **América Latina:** Cartão + OXXO (MX), Pix (BR), Mercado Pago, boleto
+- **Ásia:** Cartão + Alipay, WeChat Pay, GrabPay
 ### Stripe Payment Method Integration
 
 ## 4. Design UI/UX do Checkout
 
 ### Princípios de Design
 
-| Princípio | Descrição |
-|-----------|-------------|
-| **Simplicidade** | Menos campos = mais conversão |
-| **Clareza** | Preços transparentes, sem custos ocultos |
-| **Confiança** | Selos de segurança, SSL, logos de pagamento |
-| **Velocidade** | Checkout em menos de 10 segundos |
-| **Responsivo** | Otimizado para mobile primeiro |
-
+- **Simplicidade:** Menos campos = mais conversão
+- **Clareza:** Preços transparentes, sem custos ocultos
+- **Confiança:** Selos de segurança, SSL, logos de pagamento
+- **Velocidade:** Checkout em menos de 10 segundos
+- **Responsivo:** Otimizado para mobile primeiro
 ### Melhores Práticas Visuais
 
 ### Stripe Checkout Personalizado
@@ -87,40 +69,31 @@ Neste guia, explicamos **como otimizar conversões de pagamento** em 2026: estra
 
 ### Elementos de Pagamento
 
-| Elemento | Uso |
-|----------|-----|
-| **Card Element** | Campos de cartão estilizáveis |
-| **Payment Element** | UI completa de métodos de pagamento |
-| **Address Element** | Autocompletar de endereço |
-| **Link Authentication Element** | Autenticação com Link |
-
+- **Card Element:** Campos de cartão estilizáveis
+- **Payment Element:** UI completa de métodos de pagamento
+- **Address Element:** Autocompletar de endereço
+- **Link Authentication Element:** Autenticação com Link
 ## 6. Redução de Atrito
 
 ### Campos do Formulário
 
-| Campo | Necessário? | Alternativa |
-|-------|------------|-------------|
-| **Email** | Sim | Autofill |
-| **Nome** | Sim | Autofill |
-| **Telefone** | Não | Só se necessário para entrega |
-| **Endereço** | Depende | Apenas para produtos físicos |
-| **Criar senha** | Não | Oferecer após o pagamento |
-| **Confirmar email** | Não | Validação automática |
-
+- **Email:** Sim -- Autofill
+- **Nome:** Sim -- Autofill
+- **Telefone:** Não -- Só se necessário para entrega
+- **Endereço:** Depende -- Apenas para produtos físicos
+- **Criar senha:** Não -- Oferecer após o pagamento
+- **Confirmar email:** Não -- Validação automática
 ### Botão de Pagamento
 
 ## 7. Tratamento de Erros e 3D Secure
 
 ### Erros Comuns no Checkout
 
-| Erro | Causa | Solução |
-|-------|-------|---------|
-| **Cartão recusado** | Fundos insuficientes, limite | Sugerir outro método de pagamento |
-| **3D Secure falhou** | Autenticação do banco | Tentar novamente ou usar outro método |
-| **CVV incorreto** | Erro de digitação | Validar em linha |
-| **Endereço não confere** | AVS failure | Verificar dados |
-| **Limite de tentativas** | Muitas tentativas | Bloquear temporariamente, contatar suporte |
-
+- **Cartão recusado:** Fundos insuficientes, limite -- Sugerir outro método de pagamento
+- **3D Secure falhou:** Autenticação do banco -- Tentar novamente ou usar outro método
+- **CVV incorreto:** Erro de digitação -- Validar em linha
+- **Endereço não confere:** AVS failure -- Verificar dados
+- **Limite de tentativas:** Muitas tentativas -- Bloquear temporariamente, contatar suporte
 ### 3D Secure
 
 ### Tratamento de Falhas
@@ -129,46 +102,34 @@ Neste guia, explicamos **como otimizar conversões de pagamento** em 2026: estra
 
 ### O Que Medir
 
-| Métrica | Definição | Meta |
-|---------|-----------|------|
-| **Taxa de conversão** | Completos / Visitantes | > 3-5% |
-| **Taxa de abandono** | Não completos / Iniciados | < 70% |
-| **Tempo de checkout** | Do início ao pagamento | < 60 segundos |
-| **Taxa de erro** | Transações falhas / total | < 5% |
-| **Método de pagamento usado** | Distribuição por método | - |
-
+- **Taxa de conversão:** Completos / Visitantes -- > 3-5%
+- **Taxa de abandono:** Não completos / Iniciados -- < 70%
+- **Tempo de checkout:** Do início ao pagamento -- < 60 segundos
+- **Taxa de erro:** Transações falhas / total -- < 5%
+- **Método de pagamento usado:** Distribuição por método -- -
 ### Testes A/B Recomendados
 
-| Variável a Testar | A (Controle) | B (Variante) |
-|-------------------|------------|-------------|
-| **Layout** | Checkout em páginas separadas | Checkout em página única |
-| **Campos** | Todos os campos | Apenas essenciais |
-| **Métodos** | Apenas cartão | Cartão + PayPal + Link |
-| **Botão** | "Pagar" | "Finalizar pedido" |
-| **Garantia** | Sem garantia | Selo de garantia visível |
-
+- **Layout:** Checkout em páginas separadas -- Checkout em página única
+- **Campos:** Todos os campos -- Apenas essenciais
+- **Métodos:** Apenas cartão -- Cartão + PayPal + Link
+- **Botão:** "Pagar" -- "Finalizar pedido"
+- **Garantia:** Sem garantia -- Selo de garantia visível
 ## 9. Stripe Checkout vs Payment Elements
 
 ### Comparação
 
-| Aspecto | Stripe Checkout | Payment Elements |
-|---------|----------------|-----------------|
-| **Esforço** | Mínimo (redirecionamento) | Médio (integração) |
-| **Personalização** | Básica (cores, logo) | Alta (controle total) |
-| **Métodos de pagamento** | Automático | Manual |
-| **Idioma** | Automático | Configurável |
-| **Conversão** | Otimizada pelo Stripe | Depende da sua UI |
-| **Mobile** | Otimizado | Responsivo |
-
+- **Esforço:** Mínimo (redirecionamento) -- Médio (integração)
+- **Personalização:** Básica (cores, logo) -- Alta (controle total)
+- **Métodos de pagamento:** Automático -- Manual
+- **Idioma:** Automático -- Configurável
+- **Conversão:** Otimizada pelo Stripe -- Depende da sua UI
+- **Mobile:** Otimizado -- Responsivo
 ### Quando Usar Cada Um
 
-| Situação | Recomendação |
-|-----------|--------------|
-| **MVP ou lançamento rápido** | Stripe Checkout |
-| **Marca personalizada** | Payment Elements |
-| **Alta complexidade** | Payment Elements |
-| **Múltiplos métodos de pagamento** | Stripe Checkout |
-
+- **MVP ou lançamento rápido:** Stripe Checkout
+- **Marca personalizada:** Payment Elements
+- **Alta complexidade:** Payment Elements
+- **Múltiplos métodos de pagamento:** Stripe Checkout
 ## 10. Perguntas Frequentes
 
 ### Devo forçar 3D Secure em todos os pagamentos?
@@ -195,14 +156,11 @@ Sim. Stripe Link salva os dados do cliente para compras futuras, reduzindo o tem
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Analise sua taxa de abandono atual e pontos de atrito | 1 semana |
-| **2** | Implemente checkout em página única com campos mínimos | 2-3 dias |
-| **3** | Adicione 3-5 métodos de pagamento conforme seu mercado | 1-2 dias |
-| **4** | Configure Stripe Elements com design personalizado | 2-3 dias |
-| **5** | Ative testes A/B e monitore métricas semanalmente | Contínuo |
-
+- **1:** Analise sua taxa de abandono atual e pontos de atrito -- 1 semana
+- **2:** Implemente checkout em página única com campos mínimos -- 2-3 dias
+- **3:** Adicione 3-5 métodos de pagamento conforme seu mercado -- 1-2 dias
+- **4:** Configure Stripe Elements com design personalizado -- 2-3 dias
+- **5:** Ative testes A/B e monitore métricas semanalmente -- Contínuo
 ### Checklist de Otimização
 
 - [ ] Checkout em página única

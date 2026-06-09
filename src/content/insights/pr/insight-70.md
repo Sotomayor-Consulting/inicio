@@ -13,25 +13,19 @@ Neste guia, explicamos **como projetar uma imagem profissional com Stripe** em 2
 
 ### O Impacto da Percepção
 
-| Aspecto | Checkout Genérico | Checkout Profissional |
-|---------|------------------|----------------------|
-| **Confiança** | 40% dos clientes duvidam | 85% confiam imediatamente |
-| **Taxa de conversão** | 2-3% | 5-8% |
-| **Percepção da marca** | Genérica, impessoal | Profissional, confiável |
-| **Valor percebido** | Menor | Maior, justifica melhores preços |
-| **Recompra** | Baixa | Alta |
-
+- **Confiança:** 40% dos clientes duvidam -- 85% confiam imediatamente
+- **Taxa de conversão:** 2-3% -- 5-8%
+- **Percepção da marca:** Genérica, impessoal -- Profissional, confiável
+- **Valor percebido:** Menor -- Maior, justifica melhores preços
+- **Recompra:** Baixa -- Alta
 ### Sinais de Profissionalismo
 
-| Sinal | Impacto |
-|-------|---------|
-| **Domínio personalizado** | Inspira confiança (não stripe.com/genérico) |
-| **Faturas com seu logo** | Reforça sua marca |
-| **Emails profissionais** | Comunicação consistente |
-| **Portal do cliente** | Autogestão e transparência |
-| **Múltiplas moedas** | Presença global |
-| **Checkout com seu design** | Experiência de marca completa |
-
+- **Domínio personalizado:** Inspira confiança (não stripe.com/genérico)
+- **Faturas com seu logo:** Reforça sua marca
+- **Emails profissionais:** Comunicação consistente
+- **Portal do cliente:** Autogestão e transparência
+- **Múltiplas moedas:** Presença global
+- **Checkout com seu design:** Experiência de marca completa
 > Seu checkout é a última impressão que o cliente tem antes de comprar. Uma experiência profissional aumenta a conversão e a percepção de valor.
 
 ## 2. Checkout com Marca Personalizada
@@ -48,17 +42,14 @@ Neste guia, explicamos **como projetar uma imagem profissional com Stripe** em 2
 
 ### Elementos de uma Fatura Profissional
 
-| Elemento | Descrição |
-|----------|-----------|
-| **Logo da empresa** | Topo, visível |
-| **Dados fiscais completos** | CNPJ/EIN, endereço, registro |
-| **Numeração clara** | INV-2026-001 ou similar |
-| **Descrição detalhada** | Serviço/produto, quantidade, preço |
-| **Detalhamento de impostos** | IVA/imposto discriminado |
-| **Condições de pagamento** | Prazo, método, dados bancários |
-| **Footer profissional** | Agradecimento, termos, contato |
-| **Marca d'água** | Sutil, com o logo |
-
+- **Logo da empresa:** Topo, visível
+- **Dados fiscais completos:** CNPJ/EIN, endereço, registro
+- **Numeração clara:** INV-2026-001 ou similar
+- **Descrição detalhada:** Serviço/produto, quantidade, preço
+- **Detalhamento de impostos:** IVA/imposto discriminado
+- **Condições de pagamento:** Prazo, método, dados bancários
+- **Footer profissional:** Agradecimento, termos, contato
+- **Marca d'água:** Sutil, com o logo
 ### Envio Automático de Faturas
 
 O Stripe envia automaticamente as faturas por email com sua marca:
@@ -73,28 +64,22 @@ O **Customer Portal** do Stripe pode ser personalizado para coincidir com sua ma
 
 ### Configuração de Emails Transacionais
 
-| Tipo de Email | Personalização |
-|---------------|----------------|
-| **Confirmação de pagamento** | Logo, cores, tom da marca |
-| **Fatura** | Template com marca |
-| **Recibo** | Detalhamento profissional |
-| **Pagamento falhou** | Tom amigável, instruções |
-| **Assinatura criada** | Boas-vindas com instruções |
-| **Cancelamento** | Confirmação e retenção |
-
+- **Confirmação de pagamento:** Logo, cores, tom da marca
+- **Fatura:** Template com marca
+- **Recibo:** Detalhamento profissional
+- **Pagamento falhou:** Tom amigável, instruções
+- **Assinatura criada:** Boas-vindas com instruções
+- **Cancelamento:** Confirmação e retenção
 ### Envio de Emails via Stripe
 
 ## 6. Domínio Personalizado e URLs
 
 ### Configurar Domínio Personalizado
 
-| Benefício | Descrição |
-|-----------|-----------|
-| **Confiança** | Clientes veem seu domínio, não stripe.com |
-| **Marca** | URL consistente com seu site |
-| **Profissionalismo** | Checkout em checkout.seudominio.com |
-| **SEO indireto** | Maior credibilidade |
-
+- **Confiança:** Clientes veem seu domínio, não stripe.com
+- **Marca:** URL consistente com seu site
+- **Profissionalismo:** Checkout em checkout.seudominio.com
+- **SEO indireto:** Maior credibilidade
 ## 7. Múltiplas Moedas e Localização
 
 ### Preços Localizados
@@ -107,43 +92,31 @@ O **Customer Portal** do Stripe pode ser personalizado para coincidir com sua ma
 
 Stripe Apps permite adicionar funcionalidade personalizada ao seu Dashboard do Stripe:
 
-| Tipo de App | Exemplo |
-|-------------|---------|
-| **Painel de controle** | Resumo de métricas do seu negócio |
-| **Notificações** | Alertas personalizados |
-| **Integrações** | Conectar com seu CRM ou ERP |
-| **Visualizações de dados** | Relatórios personalizados |
-
+- **Painel de controle:** Resumo de métricas do seu negócio
+- **Notificações:** Alertas personalizados
+- **Integrações:** Conectar com seu CRM ou ERP
+- **Visualizações de dados:** Relatórios personalizados
 ## 9. Casos de Uso por Tipo de Negócio
 
 ### SaaS Profissional
 
-| Elemento | Configuração |
-|----------|--------------|
-| **Checkout** | Payment Elements com marca |
-| **Faturas** | Automáticas com logo |
-| **Portal** | Customer Portal com seu domínio |
-| **Emails** | Transacionais com sua marca |
-| **Moedas** | USD, EUR, moedas locais |
-
+- **Checkout:** Payment Elements com marca
+- **Faturas:** Automáticas com logo
+- **Portal:** Customer Portal com seu domínio
+- **Emails:** Transacionais com sua marca
+- **Moedas:** USD, EUR, moedas locais
 ### Consultoria e Serviços
 
-| Elemento | Configuração |
-|----------|--------------|
-| **Checkout** | Stripe Checkout personalizado |
-| **Faturas** | Envio manual com campos personalizados |
-| **Depósitos** | Pagamento parcial + saldo |
-| **Contratos** | Integração com DocuSign ou HelloSign |
-
+- **Checkout:** Stripe Checkout personalizado
+- **Faturas:** Envio manual com campos personalizados
+- **Depósitos:** Pagamento parcial + saldo
+- **Contratos:** Integração com DocuSign ou HelloSign
 ### E-commerce
 
-| Elemento | Configuração |
-|----------|--------------|
-| **Checkout** | Payment Elements integrado |
-| **Faturas** | Automáticas por pedido |
-| **Multi-moeda** | Preços por país |
-| **Impostos** | Stripe Tax com alíquotas locais |
-
+- **Checkout:** Payment Elements integrado
+- **Faturas:** Automáticas por pedido
+- **Multi-moeda:** Preços por país
+- **Impostos:** Stripe Tax com alíquotas locais
 ## 10. Perguntas Frequentes
 
 ### Quanto custa personalizar o Stripe?
@@ -174,14 +147,11 @@ Sim. Stripe Checkout suporta mais de 30 idiomas automaticamente conforme o naveg
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Configure sua marca no Stripe Dashboard (logo, cores, domínio) | 1 hora |
-| **2** | Personalize Stripe Checkout com cores, logo e textos | 1-2 dias |
-| **3** | Configure faturas profissionais com logo e rodapé | 1 dia |
-| **4** | Ative o Customer Portal com sua marca | 1 dia |
-| **5** | Configure emails transacionais e domínio personalizado | 1 dia |
-
+- **1:** Configure sua marca no Stripe Dashboard (logo, cores, domínio) -- 1 hora
+- **2:** Personalize Stripe Checkout com cores, logo e textos -- 1-2 dias
+- **3:** Configure faturas profissionais com logo e rodapé -- 1 dia
+- **4:** Ative o Customer Portal com sua marca -- 1 dia
+- **5:** Configure emails transacionais e domínio personalizado -- 1 dia
 ### Checklist de Imagem Profissional
 
 - [ ] Logo configurado no Stripe Dashboard

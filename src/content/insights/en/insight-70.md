@@ -13,25 +13,19 @@ In this guide, we explain **how to project a professional image with Stripe** in
 
 ### The Impact of Perception
 
-| Aspect | Generic Checkout | Professional Checkout |
-|--------|------------------|---------------------|
-| **Trust** | 40% of customers hesitate | 85% trust immediately |
-| **Conversion rate** | 2-3% | 5-8% |
-| **Brand perception** | Generic, impersonal | Professional, reliable |
-| **Perceived value** | Lower | Higher, justifies better pricing |
-| **Repeat purchase** | Low | High |
-
+- **Trust:** 40% of customers hesitate -- 85% trust immediately
+- **Conversion rate:** 2-3% -- 5-8%
+- **Brand perception:** Generic, impersonal -- Professional, reliable
+- **Perceived value:** Lower -- Higher, justifies better pricing
+- **Repeat purchase:** Low -- High
 ### Professionalism Signals
 
-| Signal | Impact |
-|--------|--------|
-| **Custom domain** | Inspires trust (not stripe.com/generic) |
-| **Invoices with your logo** | Reinforces your brand |
-| **Professional emails** | Consistent communication |
-| **Customer portal** | Self-service and transparency |
-| **Multiple currencies** | Global presence |
-| **Branded checkout** | Complete brand experience |
-
+- **Custom domain:** Inspires trust (not stripe.com/generic)
+- **Invoices with your logo:** Reinforces your brand
+- **Professional emails:** Consistent communication
+- **Customer portal:** Self-service and transparency
+- **Multiple currencies:** Global presence
+- **Branded checkout:** Complete brand experience
 > Your checkout is the last impression the customer has before buying. A professional experience increases conversion and perceived value.
 
 ## 2. Branded Checkout
@@ -48,17 +42,14 @@ In this guide, we explain **how to project a professional image with Stripe** in
 
 ### Elements of a Professional Invoice
 
-| Element | Description |
-|---------|-------------|
-| **Company logo** | Top, visible |
-| **Full tax details** | EIN, address, registration |
-| **Clear numbering** | INV-2026-001 or similar |
-| **Detailed description** | Service/product, quantity, price |
-| **Tax breakdown** | VAT/tax itemized |
-| **Payment terms** | Term, method, bank details |
-| **Professional footer** | Thank you, terms, contact |
-| **Watermark** | Subtle, with logo |
-
+- **Company logo:** Top, visible
+- **Full tax details:** EIN, address, registration
+- **Clear numbering:** INV-2026-001 or similar
+- **Detailed description:** Service/product, quantity, price
+- **Tax breakdown:** VAT/tax itemized
+- **Payment terms:** Term, method, bank details
+- **Professional footer:** Thank you, terms, contact
+- **Watermark:** Subtle, with logo
 ### Automatic Invoice Emails
 
 Stripe automatically sends invoice emails with your brand:
@@ -73,28 +64,22 @@ The Stripe **Customer Portal** can be customized to match your brand:
 
 ### Transactional Email Setup
 
-| Email Type | Customization |
-|------------|---------------|
-| **Payment confirmation** | Logo, colors, brand tone |
-| **Invoice** | Branded template |
-| **Receipt** | Professional breakdown |
-| **Failed payment** | Friendly tone, instructions |
-| **Subscription created** | Welcome with instructions |
-| **Cancellation** | Confirmation and retention |
-
+- **Payment confirmation:** Logo, colors, brand tone
+- **Invoice:** Branded template
+- **Receipt:** Professional breakdown
+- **Failed payment:** Friendly tone, instructions
+- **Subscription created:** Welcome with instructions
+- **Cancellation:** Confirmation and retention
 ### Sending Emails via Stripe
 
 ## 6. Custom Domain and URLs
 
 ### Set Up a Custom Domain
 
-| Benefit | Description |
-|---------|-------------|
-| **Trust** | Customers see your domain, not stripe.com |
-| **Brand** | Consistent URL with your site |
-| **Professionalism** | Checkout at checkout.yourdomain.com |
-| **Indirect SEO** | Higher credibility |
-
+- **Trust:** Customers see your domain, not stripe.com
+- **Brand:** Consistent URL with your site
+- **Professionalism:** Checkout at checkout.yourdomain.com
+- **Indirect SEO:** Higher credibility
 ## 7. Multiple Currencies and Localization
 
 ### Localized Pricing
@@ -107,43 +92,31 @@ The Stripe **Customer Portal** can be customized to match your brand:
 
 Stripe Apps lets you add custom functionality to your Stripe Dashboard:
 
-| App Type | Example |
-|----------|---------|
-| **Dashboard** | Custom business metrics overview |
-| **Notifications** | Personalized alerts |
-| **Integrations** | Connect with your CRM or ERP |
-| **Data visualizations** | Custom reports |
-
+- **Dashboard:** Custom business metrics overview
+- **Notifications:** Personalized alerts
+- **Integrations:** Connect with your CRM or ERP
+- **Data visualizations:** Custom reports
 ## 9. Use Cases by Business Type
 
 ### Professional SaaS
 
-| Element | Configuration |
-|---------|---------------|
-| **Checkout** | Payment Elements with branding |
-| **Invoices** | Automatic with logo |
-| **Portal** | Customer Portal with your domain |
-| **Emails** | Branded transactional |
-| **Currencies** | USD, EUR, local currencies |
-
+- **Checkout:** Payment Elements with branding
+- **Invoices:** Automatic with logo
+- **Portal:** Customer Portal with your domain
+- **Emails:** Branded transactional
+- **Currencies:** USD, EUR, local currencies
 ### Consulting and Services
 
-| Element | Configuration |
-|---------|---------------|
-| **Checkout** | Custom Stripe Checkout |
-| **Invoices** | Manual send with custom fields |
-| **Deposits** | Partial payment + balance |
-| **Contracts** | DocuSign or HelloSign integration |
-
+- **Checkout:** Custom Stripe Checkout
+- **Invoices:** Manual send with custom fields
+- **Deposits:** Partial payment + balance
+- **Contracts:** DocuSign or HelloSign integration
 ### E-commerce
 
-| Element | Configuration |
-|---------|---------------|
-| **Checkout** | Integrated Payment Elements |
-| **Invoices** | Automatic per order |
-| **Multi-currency** | Prices by country |
-| **Taxes** | Stripe Tax with local rates |
-
+- **Checkout:** Integrated Payment Elements
+- **Invoices:** Automatic per order
+- **Multi-currency:** Prices by country
+- **Taxes:** Stripe Tax with local rates
 ## 10. Frequently Asked Questions
 
 ### How much does Stripe customization cost?
@@ -174,14 +147,11 @@ Yes. Stripe Checkout supports 30+ languages automatically based on the customer'
 
 ### Summary in 5 Steps
 
-| Step | Action | Time |
-|------|--------|------|
-| **1** | Configure your brand in Stripe Dashboard (logo, colors, domain) | 1 hour |
-| **2** | Customize Stripe Checkout with colors, logo, and text | 1-2 days |
-| **3** | Configure professional invoices with logo and footer | 1 day |
-| **4** | Activate the Customer Portal with your brand | 1 day |
-| **5** | Configure transactional emails and custom domain | 1 day |
-
+- **1:** Configure your brand in Stripe Dashboard (logo, colors, domain) -- 1 hour
+- **2:** Customize Stripe Checkout with colors, logo, and text -- 1-2 days
+- **3:** Configure professional invoices with logo and footer -- 1 day
+- **4:** Activate the Customer Portal with your brand -- 1 day
+- **5:** Configure transactional emails and custom domain -- 1 day
 ### Professional Image Checklist
 
 - [ ] Logo configured in Stripe Dashboard

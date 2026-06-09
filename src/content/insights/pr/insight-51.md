@@ -20,22 +20,19 @@ O Stripe opera com licenças bancárias e de pagamento específicas em cada paí
 
 ### Países Suportados Diretamente na América Latina
 
-| País | Suporte Direto Stripe |
-|------|----------------------|
-| **México** | ✅ Sim |
-| **Brasil** | ✅ Sim |
-| **Chile** | ❌ Não |
-| **Colômbia** | ❌ Não |
-| **Peru** | ❌ Não |
-| **Argentina** | ❌ Não |
-| **Equador** | ❌ Não |
-| **Venezuela** | ❌ Não |
-| **Uruguai** | ❌ Não |
-| **Paraguai** | ❌ Não |
-| **Bolívia** | ❌ Não |
-| **América Central** | ❌ Não (exceto alguns via parcerias) |
-| **República Dominicana** | ❌ Não |
-
+- **México:** ✅ Sim
+- **Brasil:** ✅ Sim
+- **Chile:** ❌ Não
+- **Colômbia:** ❌ Não
+- **Peru:** ❌ Não
+- **Argentina:** ❌ Não
+- **Equador:** ❌ Não
+- **Venezuela:** ❌ Não
+- **Uruguai:** ❌ Não
+- **Paraguai:** ❌ Não
+- **Bolívia:** ❌ Não
+- **América Central:** ❌ Não (exceto alguns via parcerias)
+- **República Dominicana:** ❌ Não
 > **Nota:** Para México e Brasil, é possível criar conta diretamente no Stripe com documentos locais. Para os demais países, é necessário usar uma estrutura alternativa.
 
 ## 2. Estruturas para Acessar o Stripe
@@ -67,15 +64,12 @@ A forma mais comum e recomendada é constituir uma empresa nos Estados Unidos e 
 
 #### Custo Estimado
 
-| Item | Custo |
-|------|-------|
-| **Registro da LLC** | $100 - $500 (taxas estaduais) |
-| **Registered Agent** | $100 - $300/ano |
-| **EIN** | Gratuito (IRS) |
-| **Conta bancária** | Gratuita (Mercury, Relay) |
-| **Taxa Stripe** | 2.9% + $0.30 por transação |
-| **Manutenção anual** | $300 - $1.000/ano |
-
+- **Registro da LLC:** $100 - $500 (taxas estaduais)
+- **Registered Agent:** $100 - $300/ano
+- **EIN:** Gratuito (IRS)
+- **Conta bancária:** Gratuita (Mercury, Relay)
+- **Taxa Stripe:** 2.9% + $0.30 por transação
+- **Manutenção anual:** $300 - $1.000/ano
 #### Vantagens
 - ✅ Solução legal e estabelecida
 - ✅ Acesso a todo o ecossistema Stripe
@@ -143,13 +137,10 @@ O **Stripe Atlas** é um serviço do próprio Stripe que ajuda empreendedores a 
 
 ### Nos EUA
 
-| Obrigação | Frequência | Descrição |
-|-----------|-----------|-----------|
-| **Annual Report** | Anual | Relatório anual para o estado |
-| **BOI (FinCEN)** | Uma vez + alterações | Reporte de beneficiário final |
-| **Federal Tax Return** | Anual | Declaração de impostos federais (Form 1120 ou 1040 Schedule C) |
-| **State Tax Return** | Anual | Declaração de impostos estaduais (quando aplicável) |
-
+- **Annual Report:** Anual -- Relatório anual para o estado
+- **BOI (FinCEN):** Uma vez + alterações -- Reporte de beneficiário final
+- **Federal Tax Return:** Anual -- Declaração de impostos federais (Form 1120 ou 1040 Schedule C)
+- **State Tax Return:** Anual -- Declaração de impostos estaduais (quando aplicável)
 ### No País de Origem
 
 - **Declaração de ativos no exterior:** A LLC deve ser declarada como empresa controlada no exterior
@@ -160,28 +151,22 @@ O **Stripe Atlas** é um serviço do próprio Stripe que ajuda empreendedores a 
 
 ## 5. Bancos para Conta Empresarial nos EUA
 
-| Banco | Residente Fora dos EUA? | Taxa Mensal | Abrir Remoto? |
-|-------|------------------------|-------------|---------------|
-| **Mercury** | ✅ Sim | $0 | ✅ Sim |
-| **Relay** | ✅ Sim | $0 | ✅ Sim |
-| **Novo** | ❌ Não (exceto casos específicos) | $0 | ✅ Sim |
-| **Brex** | ✅ Sim (com investimento) | $0 | ✅ Sim |
-| **Wise Business** | ✅ Sim | $0 | ✅ Sim |
-| **Payoneer** | ✅ Sim | $0 | ✅ Sim |
-
+- **Mercury:** ✅ Sim -- $0 -- ✅ Sim
+- **Relay:** ✅ Sim -- $0 -- ✅ Sim
+- **Novo:** ❌ Não (exceto casos específicos) -- $0 -- ✅ Sim
+- **Brex:** ✅ Sim (com investimento) -- $0 -- ✅ Sim
+- **Wise Business:** ✅ Sim -- $0 -- ✅ Sim
+- **Payoneer:** ✅ Sim -- $0 -- ✅ Sim
 ## 6. Alternativas ao Stripe na América Latina
 
 Se você não quer ou não pode usar as estruturas acima, existem alternativas de pagamento disponíveis diretamente na América Latina:
 
-| Plataforma | Países | Taxas | Ideal para |
-|-----------|--------|-------|------------|
-| **Mercado Pago** | Brasil, México, Argentina, Chile, Colômbia, Peru, Uruguai | 3-6% | E-commerce na América Latina |
-| **Paypal** | Maioria dos países LATAM | 2.9-4.4% + taxa fixa | Pagamentos internacionais |
-| **Payoneer** | Maioria dos países LATAM | 1-3% | Freelancers e marketplaces |
-| **DLocal** | 30+ países LATAM | 2-5% | Empresas com operação em múltiplos países |
-| **Ebanx** | Brasil e América Latina | 2-5% | E-commerce e serviços digitais |
-| **Cuentas Digitales** | Varia por país | Variável | Soluções locais |
-
+- **Mercado Pago:** Brasil, México, Argentina, Chile, Colômbia, Peru, Uruguai -- 3-6% -- E-commerce na América Latina
+- **Paypal:** Maioria dos países LATAM -- 2.9-4.4% + taxa fixa -- Pagamentos internacionais
+- **Payoneer:** Maioria dos países LATAM -- 1-3% -- Freelancers e marketplaces
+- **DLocal:** 30+ países LATAM -- 2-5% -- Empresas com operação em múltiplos países
+- **Ebanx:** Brasil e América Latina -- 2-5% -- E-commerce e serviços digitais
+- **Cuentas Digitales:** Varia por país -- Variável -- Soluções locais
 ## 7. Riscos e Cuidados
 
 ### O que EVITAR

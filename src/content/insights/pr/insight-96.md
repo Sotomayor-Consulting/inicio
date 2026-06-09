@@ -13,19 +13,16 @@ Neste guia, explicamos **como profissionalizar um negócio digital** em 2026: de
 
 ### De Informal a Profissional
 
-| Aspecto | Informal (Side Project) | Profissional (Empresa) |
-|---------|------------------------|----------------------|
-| **Estrutura legal** | Pessoa física, sem proteção | LLC ou Corp nos EUA |
-| **Finanças** | Conta pessoal, PayPal, Wise | Mercury + Stripe + QuickBooks |
-| **Pagamentos** | Transferência manual ou PayPal | Stripe Payments automático |
-| **Faturamento** | Sem fatura ou fatura básica | Stripe Invoicing profissional |
-| **Contratos** | Verbais ou WhatsApp | Docusign + termos legais |
-| **Website** | Landing page básica | Site profissional com termos |
-| **Email** | @gmail.com, @hotmail.com | @suaempresa.com |
-| **Impostos** | "Depois vejo" ou sem declarar | CPA internacional + compliance |
-| **Equipe** | Freelancers sem contrato | EOR + contractors formais |
-| **Métricas** | "Acho que ganhei isso" | Stripe Reporting + dashboard |
-
+- **Estrutura legal:** Pessoa física, sem proteção -- LLC ou Corp nos EUA
+- **Finanças:** Conta pessoal, PayPal, Wise -- Mercury + Stripe + QuickBooks
+- **Pagamentos:** Transferência manual ou PayPal -- Stripe Payments automático
+- **Faturamento:** Sem fatura ou fatura básica -- Stripe Invoicing profissional
+- **Contratos:** Verbais ou WhatsApp -- Docusign + termos legais
+- **Website:** Landing page básica -- Site profissional com termos
+- **Email:** @gmail.com, @hotmail.com -- @suaempresa.com
+- **Impostos:** "Depois vejo" ou sem declarar -- CPA internacional + compliance
+- **Equipe:** Freelancers sem contrato -- EOR + contractors formais
+- **Métricas:** "Acho que ganhei isso" -- Stripe Reporting + dashboard
 ### Por Que Profissionalizar
 
 ## 2. Estrutura Legal
@@ -38,128 +35,104 @@ Neste guia, explicamos **como profissionalizar um negócio digital** em 2026: de
 
 ### De Cobranças Manuais a Automáticas
 
-| Método Informal | Método Profissional | Stripe |
-|----------------|--------------------|--------|
-| PayPal pessoal | Stripe Payments | ✅ Automático |
-| Transferência bancária | Stripe Invoicing | ✅ Faturas automáticas |
-| Cobrança manual mensal | Stripe Billing | ✅ Assinaturas |
-| Sem fatura | Stripe Invoicing + Tax | ✅ Fatura + impostos |
-| Sem relatórios | Stripe Reporting | ✅ Dashboard |
-
+- **PayPal pessoal:** Stripe Payments -- ✅ Automático
+- **Transferência bancária:** Stripe Invoicing -- ✅ Faturas automáticas
+- **Cobrança manual mensal:** Stripe Billing -- ✅ Assinaturas
+- **Sem fatura:** Stripe Invoicing + Tax -- ✅ Fatura + impostos
+- **Sem relatórios:** Stripe Reporting -- ✅ Dashboard
 ### Configurar Stripe para seu Negócio Profissional
 
 ## 4. Contabilidade e Finanças
 
 ### De Excel a QuickBooks
 
-| Aspecto | Informal | Profissional |
-|---------|----------|-------------|
-| **Registros** | Excel ou memória | QuickBooks / Xero |
-| **Conciliação** | Manual mensal | Automática (Stripe → QuickBooks) |
-| **Impostos** | "Vejo em abril" | CPA mensal/trimestral |
-| **Despesas** | Cartão pessoal | Stripe Issuing + Mercury |
-| **Orçamento** | Não existe | Dashboard financeiro |
-| **Relatórios** | Nenhum | P&L, Balanço, Fluxo de Caixa |
-
+- **Registros:** Excel ou memória -- QuickBooks / Xero
+- **Conciliação:** Manual mensal -- Automática (Stripe → QuickBooks)
+- **Impostos:** "Vejo em abril" -- CPA mensal/trimestral
+- **Despesas:** Cartão pessoal -- Stripe Issuing + Mercury
+- **Orçamento:** Não existe -- Dashboard financeiro
+- **Relatórios:** Nenhum -- P&L, Balanço, Fluxo de Caixa
 ### Stack Financeiro Profissional
 
 ## 5. Branding e Presença Online
 
 ### De "@gmail.com" a "@suaempresa.com"
 
-| Elemento | Informal | Profissional |
-|----------|----------|-------------|
-| **Email** | @gmail.com, @hotmail.com | @suaempresa.com (Google Workspace) |
-| **Domínio** | seudominio.com (básico) | seudominio.com (profissional) |
-| **Website** | Landing page simples | Site completo + blog |
-| **Logo** | Feito no Canva ou sem logo | Logo profissional |
-| **Redes sociais** | Pessoais | Perfis empresariais |
-| **Apresentações** | Sem marca | Deck profissional |
-
+- **Email:** @gmail.com, @hotmail.com -- @suaempresa.com (Google Workspace)
+- **Domínio:** seudominio.com (básico) -- seudominio.com (profissional)
+- **Website:** Landing page simples -- Site completo + blog
+- **Logo:** Feito no Canva ou sem logo -- Logo profissional
+- **Redes sociais:** Pessoais -- Perfis empresariais
+- **Apresentações:** Sem marca -- Deck profissional
 ### Checklist de Branding Profissional
 
 ## 6. Equipe e Contratação
 
 ### De Freelancers a Equipe Profissional
 
-| Aspecto | Informal | Profissional |
-|---------|----------|-------------|
-| **Contratação** | "Te transfiro por PayPal" | Deel / EOR formal |
-| **Contratos** | WhatsApp ou nada | Docusign + contrato formal |
-| **Pagamentos** | Variável, sem programação | Quinzenal/mensal fixo |
-| **Benefícios** | Nenhum | Plano de saúde, equity (se aplicável) |
-| **PI** | Não atribuída | IP assignment agreement |
-| **NDA** | Não | Sim, para informações sensíveis |
-
+- **Contratação:** "Te transfiro por PayPal" -- Deel / EOR formal
+- **Contratos:** WhatsApp ou nada -- Docusign + contrato formal
+- **Pagamentos:** Variável, sem programação -- Quinzenal/mensal fixo
+- **Benefícios:** Nenhum -- Plano de saúde, equity (se aplicável)
+- **PI:** Não atribuída -- IP assignment agreement
+- **NDA:** Não -- Sim, para informações sensíveis
 ### Como Profissionalizar sua Equipe
 
 ## 7. Customer Experience Profissional
 
 ### De "Cliente, o que precisa?" a "Onboarding Profissional"
 
-| Aspecto | Informal | Profissional |
-|---------|----------|-------------|
-| **Onboarding** | "Te mando um link de pagamento" | Email de boas-vindas + documentação |
-| **Suporte** | WhatsApp pessoal | Zendesk / Intercom / Crisp |
-| **Faturamento** | "Passo a fatura depois" | Stripe Invoicing automático |
-| **Comunicação** | Sem programação | Newsletters periódicas |
-| **Feedback** | "Tudo bem?" | NPS + pesquisas automáticas |
-
+- **Onboarding:** "Te mando um link de pagamento" -- Email de boas-vindas + documentação
+- **Suporte:** WhatsApp pessoal -- Zendesk / Intercom / Crisp
+- **Faturamento:** "Passo a fatura depois" -- Stripe Invoicing automático
+- **Comunicação:** Sem programação -- Newsletters periódicas
+- **Feedback:** "Tudo bem?" -- NPS + pesquisas automáticas
 ### Fluxo de Cliente Profissional
 
 ## 8. Métricas e Reporting
 
 ### De "Acho que ganhei isso" a "Dashboard em Tempo Real"
 
-| Métrica | Informal | Profissional |
-|---------|----------|-------------|
-| **MRR/ARR** | Não calculado | Stripe Reporting |
-| **Churn** | "2 clientes saíram" | Taxa de cancelamento mensal |
-| **LTV** | Não calculado | Customer Lifetime Value |
-| **CAC** | "Gastei em anúncios" | Custo de aquisição real |
-| **Margem** | Não calculado | Margem bruta e líquida |
-| **Fluxo de caixa** | "Dá para fim do mês" | Projeção de 12 meses |
-
+- **MRR/ARR:** Não calculado -- Stripe Reporting
+- **Churn:** "2 clientes saíram" -- Taxa de cancelamento mensal
+- **LTV:** Não calculado -- Customer Lifetime Value
+- **CAC:** "Gastei em anúncios" -- Custo de aquisição real
+- **Margem:** Não calculado -- Margem bruta e líquida
+- **Fluxo de caixa:** "Dá para fim do mês" -- Projeção de 12 meses
 ### Métricas-Chave para Negócio Digital
 
 ## 9. Ferramentas Profissionais por Categoria
 
 ### O Stack do Negócio Digital Profissional
 
-| Categoria | Ferramenta | Custo | Por Quê |
-|-----------|-----------|-------|---------|
-| **Email** | Google Workspace | $6/mês | @suaempresa.com |
-| **Domínio** | Cloudflare / Namecheap | $10/ano | .com profissional |
-| **Hospedagem** | Vercel / Netlify | $0-20/mês | Site rápido |
-| **Pagamentos** | Stripe | 2,9% + $0,30 | Global, multimoeda |
-| **Contabilidade** | QuickBooks / Xero | $15-30/mês | Tax-ready |
-| **CRM** | HubSpot / Pipedrive | $0-50/mês | Gestão de clientes |
-| **Suporte** | Intercom / Crisp | $0-100/mês | Chat + tickets |
-| **Contratação** | Deel | $599/func/mês | EOR global |
-| **Contratos** | Docusign | $10-40/mês | Assinaturas digitais |
-| **Projetos** | Linear / Notion | $0-20/mês | Organização |
-| **Senhas** | 1Password | $8/mês | Segurança |
-| **Analytics** | Stripe + GA4 | $0 | Métricas completas |
-
+- **Email:** Google Workspace -- $6/mês -- @suaempresa.com
+- **Domínio:** Cloudflare / Namecheap -- $10/ano -- .com profissional
+- **Hospedagem:** Vercel / Netlify -- $0-20/mês -- Site rápido
+- **Pagamentos:** Stripe -- 2,9% + $0,30 -- Global, multimoeda
+- **Contabilidade:** QuickBooks / Xero -- $15-30/mês -- Tax-ready
+- **CRM:** HubSpot / Pipedrive -- $0-50/mês -- Gestão de clientes
+- **Suporte:** Intercom / Crisp -- $0-100/mês -- Chat + tickets
+- **Contratação:** Deel -- $599/func/mês -- EOR global
+- **Contratos:** Docusign -- $10-40/mês -- Assinaturas digitais
+- **Projetos:** Linear / Notion -- $0-20/mês -- Organização
+- **Senhas:** 1Password -- $8/mês -- Segurança
+- **Analytics:** Stripe + GA4 -- $0 -- Métricas completas
 ### Custo Total para Profissionalizar
 
 ## 10. Erros Comuns ao Profissionalizar
 
 ### O que NÃO Fazer
 
-| Erro | Consequência | Solução |
-|------|-------------|---------|
-| **Não constituir empresa** | Risco legal ilimitado | Stripe Atlas ($500) |
-| **Continuar com Gmail pessoal** | Pouco profissional | Google Workspace ($6/mês) |
-| **Não ter termos legais** | Responsabilidade ilimitada | Termly ou advogado |
-| **Misturar finanças** | Contabilidade impossível | Mercury + Stripe Issuing |
-| **Não contratar CPA** | Erros fiscais, multas | CPA internacional |
-| **Não automatizar cobranças** | Faturamento manual, erros | Stripe Billing |
-| **Não medir métricas** | Decisões sem dados | Stripe Reporting |
-| **Não ter contratos** | Disputas, perda de PI | Docusign |
-| **Suportar por WhatsApp** | Caos, clientes insatisfeitos | Intercom / Crisp |
-| **Preços em moeda única** | Perde clientes globais | Preços locais Stripe |
-
+- **Não constituir empresa:** Risco legal ilimitado -- Stripe Atlas ($500)
+- **Continuar com Gmail pessoal:** Pouco profissional -- Google Workspace ($6/mês)
+- **Não ter termos legais:** Responsabilidade ilimitada -- Termly ou advogado
+- **Misturar finanças:** Contabilidade impossível -- Mercury + Stripe Issuing
+- **Não contratar CPA:** Erros fiscais, multas -- CPA internacional
+- **Não automatizar cobranças:** Faturamento manual, erros -- Stripe Billing
+- **Não medir métricas:** Decisões sem dados -- Stripe Reporting
+- **Não ter contratos:** Disputas, perda de PI -- Docusign
+- **Suportar por WhatsApp:** Caos, clientes insatisfeitos -- Intercom / Crisp
+- **Preços em moeda única:** Perde clientes globais -- Preços locais Stripe
 ## 11. Plano de 30 Dias para Profissionalizar
 
 ### Semana 1: Legal e Finanças

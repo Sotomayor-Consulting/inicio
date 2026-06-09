@@ -122,15 +122,12 @@ This can cause additional expenses and compliance issues.
 
 ## Quick comparison
 
-| Aspect | Wyoming | Florida | Delaware |
-|---------|---------|---------|----------|
-| **Minimum annual cost** | $60 | $138.75 | $300 |
-| **Late penalty** | Varies | $400 | N/A |
-| **Annual report** | Yes | Yes | No (tax only) |
-| **Privacy** | High | Medium | Medium |
-| **Popular for** | Freelancers, digital | LATAM, real estate | Startups, holdings |
-| **Physical presence required** | No | Recommended | No |
-
+- **Minimum annual cost:** $60 -- $138.75 -- $300
+- **Late penalty:** Varies -- $400 -- N/A
+- **Annual report:** Yes -- Yes -- No (tax only)
+- **Privacy:** High -- Medium -- Medium
+- **Popular for:** Freelancers, digital -- LATAM, real estate -- Startups, holdings
+- **Physical presence required:** No -- Recommended -- No
 ## Conclusion
 
 Wyoming, Florida, and Delaware can all be excellent options, but each one responds to a different need.

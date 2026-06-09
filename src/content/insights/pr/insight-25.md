@@ -13,17 +13,14 @@ Entender como funciona o BMF ï¿½ essencial porque **qualquer erro ou inconsistï¿
 
 O BMF ï¿½ o sistema de registro mestre do IRS para entidades comerciais. Contï¿½m informaï¿½ï¿½es como:
 
-| Dado | Descriï¿½ï¿½o |
-|------|-----------|
-| **EIN** | Nï¿½mero de identificaï¿½ï¿½o fiscal da empresa |
-| **Nome legal** | Nome exato registrado perante o IRS |
-| **Tipo de entidade** | LLC, Corporation, Partnership, Sole Proprietorship |
-| **Endereï¿½o** | Endereï¿½o postal registrado |
-| **Status fiscal** | Ativo, fechado, suspenso |
-| **Ano fiscal** | Data de encerramento do ano fiscal |
-| **Declaraï¿½ï¿½es apresentadas** | Registro de formulï¿½rios apresentados (1120, 1065, 5472, etc.) |
-| **Responsï¿½vel** | Pessoa de contato registrada |
-
+- **EIN:** Nï¿½mero de identificaï¿½ï¿½o fiscal da empresa
+- **Nome legal:** Nome exato registrado perante o IRS
+- **Tipo de entidade:** LLC, Corporation, Partnership, Sole Proprietorship
+- **Endereï¿½o:** Endereï¿½o postal registrado
+- **Status fiscal:** Ativo, fechado, suspenso
+- **Ano fiscal:** Data de encerramento do ano fiscal
+- **Declaraï¿½ï¿½es apresentadas:** Registro de formulï¿½rios apresentados (1120, 1065, 5472, etc.)
+- **Responsï¿½vel:** Pessoa de contato registrada
 ### Para que o IRS usa o BMF?
 
 - Verificar que uma empresa existe fiscalmente.
@@ -76,14 +73,11 @@ O BMF ï¿½ a fonte de verdade do IRS sobre sua LLC. Se os dados no BMF nï¿½o coin
 
 ### Problemas por dados desatualizados
 
-| Problema | Consequï¿½ncia |
-|----------|--------------|
-| **Endereï¿½o incorreto** | Nï¿½o recebe cartas do IRS, perde prazos |
-| **Nome inconsistente** | Rejeiï¿½ï¿½o de declaraï¿½ï¿½es, auditorias |
-| **Tipo de entidade incorreto** | Classificaï¿½ï¿½o fiscal errada |
-| **Status incorreto** | Dificuldade para abrir contas bancï¿½rias |
-| **Responsï¿½vel desatualizado** | Notificaï¿½ï¿½es para pessoa errada |
-
+- **Endereï¿½o incorreto:** Nï¿½o recebe cartas do IRS, perde prazos
+- **Nome inconsistente:** Rejeiï¿½ï¿½o de declaraï¿½ï¿½es, auditorias
+- **Tipo de entidade incorreto:** Classificaï¿½ï¿½o fiscal errada
+- **Status incorreto:** Dificuldade para abrir contas bancï¿½rias
+- **Responsï¿½vel desatualizado:** Notificaï¿½ï¿½es para pessoa errada
 ### Casos comuns
 
 - Vocï¿½ mudou de endereï¿½o e nï¿½o atualizou o BMF ? o IRS envia um aviso de auditoria para o endereï¿½o antigo, vocï¿½ nï¿½o o recebe, e aplicam uma multa por nï¿½o responder.
@@ -128,13 +122,10 @@ O nome no BMF deve coincidir **exatamente** com o Certificate of Formation e com
 
 Ao solicitar o EIN, vocï¿½ deve classificar corretamente sua LLC:
 
-| O que vocï¿½ ï¿½ | Cï¿½digo no SS-4 |
-|-------------|----------------|
-| Single-member LLC (proprietï¿½rio estrangeiro) | Limited Liability Company (codificado como disregarded entity) |
-| Multi-member LLC | Limited Liability Company (codificado como partnership) |
-| LLC que optou por S-Corp | Limited Liability Company (codificado como S-Corporation) |
-| LLC que optou por C-Corp | Limited Liability Company (codificado como C-Corporation) |
-
+- **Single-member LLC (proprietï¿½rio estrangeiro):** Limited Liability Company (codificado como disregarded entity)
+- **Multi-member LLC:** Limited Liability Company (codificado como partnership)
+- **LLC que optou por S-Corp:** Limited Liability Company (codificado como S-Corporation)
+- **LLC que optou por C-Corp:** Limited Liability Company (codificado como C-Corporation)
 **Se o cï¿½digo estiver incorreto**, o IRS tratarï¿½ sua LLC como um tipo de entidade diferente, com obrigaï¿½ï¿½es fiscais distintas.
 
 ### Erro 3: Endereï¿½o desatualizado
@@ -197,14 +188,11 @@ Ao abrir uma conta no Mercury, Relay ou similar, eles verificam suas informaï¿½ï
 
 ## BMF vs outras bases de dados
 
-| Base de dados | Entidade | Propï¿½sito |
-|--------------|----------|-----------|
-| **BMF (IRS)** | Toda empresa com EIN | Registro fiscal mestre |
-| **Secretaria de Estado** | LLC em estado especï¿½fico | Registro corporativo (Annual Report) |
-| **FinCEN (BOI)** | Beneficial owners | Registro de beneficiï¿½rios finais |
-| **SSA** | Funcionï¿½rios | Nï¿½meros de seguranï¿½a social |
-| **DUNS** | Empresas | Identificaï¿½ï¿½o comercial |
-
+- **BMF (IRS):** Toda empresa com EIN -- Registro fiscal mestre
+- **Secretaria de Estado:** LLC em estado especï¿½fico -- Registro corporativo (Annual Report)
+- **FinCEN (BOI):** Beneficial owners -- Registro de beneficiï¿½rios finais
+- **SSA:** Funcionï¿½rios -- Nï¿½meros de seguranï¿½a social
+- **DUNS:** Empresas -- Identificaï¿½ï¿½o comercial
 > **Importante:** O BMF ï¿½ independente da Secretaria de Estado. Vocï¿½ pode ter sua LLC ativa no estado mas ter problemas fiscais no BMF, e vice-versa.
 
 ## Caso prï¿½tico

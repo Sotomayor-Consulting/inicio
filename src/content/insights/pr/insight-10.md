@@ -93,12 +93,9 @@ Depender� de v�rios fatores como tipo de neg�cio, presen�a f�sica ou n
 
 Os estados mais utilizados s�o:
 
-| Estado | Vantagem principal |
-|--------|-------------------|
-| **Wyoming** | Custos baixos, privacidade, processo simples |
-| **Fl�rida** | Proximidade comercial com a Am�rica Latina |
-| **Delaware** | Reputa��o corporativa, ideal para holdings |
-
+- **Wyoming:** Custos baixos, privacidade, processo simples
+- **Fl�rida:** Proximidade comercial com a Am�rica Latina
+- **Delaware:** Reputa��o corporativa, ideal para holdings
 Cada um tem vantagens diferentes segundo o modelo operacional.
 
 ## Uma LLC me ajuda a receber em d�lares?

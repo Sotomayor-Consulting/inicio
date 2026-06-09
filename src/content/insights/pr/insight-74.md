@@ -13,138 +13,105 @@ Neste guia, explicamos **os riscos de operar sem estrutura legal** em 2026: expo
 
 ### Sem Velo Corporativo
 
-| Situação | Com Estrutura Legal | Sem Estrutura Legal |
-|----------|--------------------|--------------------|
-| **Processo de um cliente** | Só a empresa responde | Você responde com todo seu patrimônio pessoal |
-| **Dívida com fornecedores** | A empresa deve, não você | Você deve pessoalmente |
-| **Quebra de contrato** | Processam a entidade | Processam você como pessoa |
-| **Acidente de trabalho** | Seguro da empresa cobre | Você paga do seu bolso |
-| **Falência do negócio** | A empresa falência, você não | Você falência pessoalmente |
-
+- **Processo de um cliente:** Só a empresa responde -- Você responde com todo seu patrimônio pessoal
+- **Dívida com fornecedores:** A empresa deve, não você -- Você deve pessoalmente
+- **Quebra de contrato:** Processam a entidade -- Processam você como pessoa
+- **Acidente de trabalho:** Seguro da empresa cobre -- Você paga do seu bolso
+- **Falência do negócio:** A empresa falência, você não -- Você falência pessoalmente
 > **Dato chave:** Em um processo, uma LLC ou corporação age como escudo. Sem ela, cada credor, cliente insatisfeito ou sócio conflituoso pode ir diretamente contra sua casa, suas economias e seus bens pessoais.
 
 ### Casos Reais
 
-| Caso | Sem Estrutura | Consequência |
-|------|--------------|-------------|
-| **Cliente processa por descumprimento** | Cliente processa você pessoalmente | Penhora de conta pessoal, casa, carro |
-| **Fornecedor não pago** | Fornecedor cobra de você | Seu patrimônio pessoal responde |
-| **Erro em serviço profissional** | Ação por má prática | Ativos pessoais para cobrir indenização |
-| **Separacão de sócio** | Sócio processa você diretamente | Guerra legal sem proteção corporativa |
-
+- **Cliente processa por descumprimento:** Cliente processa você pessoalmente -- Penhora de conta pessoal, casa, carro
+- **Fornecedor não pago:** Fornecedor cobra de você -- Seu patrimônio pessoal responde
+- **Erro em serviço profissional:** Ação por má prática -- Ativos pessoais para cobrir indenização
+- **Separacão de sócio:** Sócio processa você diretamente -- Guerra legal sem proteção corporativa
 ## 2. Riscos Fiscais
 
 ### Problemas com Autoridades Fiscais
 
-| Risco | Descrição | Impacto |
-|-------|-----------|---------|
-| **Deduções rejeitadas** | Despesas empresariais misturadas com pessoais | Paga mais impostos |
-| **Fiscalização mais profunda** | Pessoas físicas com alta renda são auditadas com frequência | Tempo, custos legais, multas |
-| **Maior alíquota efetiva** | Pessoas físicas pagam alíquotas marginais mais altas que corporações | Até 20-30% mais impostos |
-| **Dificuldade para planejar** | Sem estrutura, opções de planejamento fiscal são limitadas | Paga mais do que necessário |
-| **Multas por emitir notas incorretas** | Notas fiscais mal emitidas como pessoa física | Multas e acréscimos |
-
+- **Deduções rejeitadas:** Despesas empresariais misturadas com pessoais -- Paga mais impostos
+- **Fiscalização mais profunda:** Pessoas físicas com alta renda são auditadas com frequência -- Tempo, custos legais, multas
+- **Maior alíquota efetiva:** Pessoas físicas pagam alíquotas marginais mais altas que corporações -- Até 20-30% mais impostos
+- **Dificuldade para planejar:** Sem estrutura, opções de planejamento fiscal são limitadas -- Paga mais do que necessário
+- **Multas por emitir notas incorretas:** Notas fiscais mal emitidas como pessoa física -- Multas e acréscimos
 ### Comparação de Alíquotas
 
-| País | Alíquota Pessoa Física (máxima) | Alíquota Corporativa |
-|------|-------------------------------|--------------------|
-| **Brasil** | 27,5% | 15% + 9% CSLL |
-| **Portugal** | 48% | 21% |
-| **México** | 35% | 30% |
-| **Colômbia** | 39% | 35% |
-| **Espanha** | 47% | 25% |
-| **EUA** | 37% | 21% |
-| **Argentina** | 35% | 25% |
-
+- **Brasil:** 27,5% -- 15% + 9% CSLL
+- **Portugal:** 48% -- 21%
+- **México:** 35% -- 30%
+- **Colômbia:** 39% -- 35%
+- **Espanha:** 47% -- 25%
+- **EUA:** 37% -- 21%
+- **Argentina:** 35% -- 25%
 > Nota: As alíquotas corporativas são antes de impostos sobre dividendos. Mesmo com dupla tributação, uma estrutura corporativa geralmente é mais eficiente.
 
 ## 3. Riscos com Clientes e Fornecedores
 
 ### Percepção de Profissionalismo
 
-| Aspecto | Com Estrutura | Sem Estrutura |
-|---------|--------------|---------------|
-| **Confiança do cliente** | Alta (empresa registrada) | Baixa (pessoa natural) |
-| **Contratos grandes** | Clientes empresariais contratam | Clientes duvidam, preferem empresas formais |
-| **Fornecedores** | Crédito comercial, melhores condições | Pagamento adiantado, taxas mais altas |
-| **Faturamento** | Nota fiscal profissional com CNPJ | Nota simplificada ou sem dados fiscais |
-| **Presença online** | Stripe em nome da empresa | Stripe em nome pessoal |
-
+- **Confiança do cliente:** Alta (empresa registrada) -- Baixa (pessoa natural)
+- **Contratos grandes:** Clientes empresariais contratam -- Clientes duvidam, preferem empresas formais
+- **Fornecedores:** Crédito comercial, melhores condições -- Pagamento adiantado, taxas mais altas
+- **Faturamento:** Nota fiscal profissional com CNPJ -- Nota simplificada ou sem dados fiscais
+- **Presença online:** Stripe em nome da empresa -- Stripe em nome pessoal
 ### Exemplo: Contratação de Serviços
 
 ## 4. Riscos com Stripe e Gateways de Pagamento
 
 ### Stripe sem Estrutura Legal
 
-| Aspecto | Stripe Pessoal | Stripe Empresarial |
-|---------|---------------|-------------------|
-| **Limites de processamento** | Menores | Maiores |
-| **Retenção de fundos** | Maior risco de retenção | Menor risco |
-| **Verificação** | Menos robusta | Mais robusta |
-| **Países suportados** | Limitado pelo seu país de residência | Acesso global |
-| **Contas multi-usuário** | Não | Sim (team accounts) |
-| **Stripe Atlas** | Não aplica | Forma sua LLC |
-
+- **Limites de processamento:** Menores -- Maiores
+- **Retenção de fundos:** Maior risco de retenção -- Menor risco
+- **Verificação:** Menos robusta -- Mais robusta
+- **Países suportados:** Limitado pelo seu país de residência -- Acesso global
+- **Contas multi-usuário:** Não -- Sim (team accounts)
+- **Stripe Atlas:** Não aplica -- Forma sua LLC
 ### Problemas Comuns
 
-| Problema | Sem Estrutura | Consequência |
-|----------|--------------|-------------|
-| **Stripe congela fundos** | Stripe solicita documentos da empresa | Não pode fornecer → Fundos retidos |
-| **Conta restrita** | Alto volume sem estrutura corporativa | Stripe pede CNPJ/EIN que você não tem |
-| **Chargebacks** | Responsabilidade pessoal direta | Você paga do seu bolso |
-| **Verificação de identidade** | Documentos pessoais nem sempre suficientes | Stripe limita funcionalidade |
-
+- **Stripe congela fundos:** Stripe solicita documentos da empresa -- Não pode fornecer → Fundos retidos
+- **Conta restrita:** Alto volume sem estrutura corporativa -- Stripe pede CNPJ/EIN que você não tem
+- **Chargebacks:** Responsabilidade pessoal direta -- Você paga do seu bolso
+- **Verificação de identidade:** Documentos pessoais nem sempre suficientes -- Stripe limita funcionalidade
 ## 5. Riscos de Crescimento e Escalabilidade
 
 ### Barreiras para Crescer
 
-| Área | Sem Estrutura | Com Estrutura |
-|------|--------------|---------------|
-| **Investimento** | Não pode emitir ações | Pode vender participações |
-| **Sócios** | Contratos informais, arriscados | Acordos formais de sócios |
-| **Funcionários** | Não pode contratar legalmente | Pode ter folha de pagamento |
-| **Venda do negócio** | Não há entidade para vender | Vende a empresa |
-| **Expansão internacional** | Limitado pelo seu país | Subsidiárias globais |
-| **Propriedade intelectual** | Em seu nome pessoal, risco | Em nome da empresa, protegida |
-
+- **Investimento:** Não pode emitir ações -- Pode vender participações
+- **Sócios:** Contratos informais, arriscados -- Acordos formais de sócios
+- **Funcionários:** Não pode contratar legalmente -- Pode ter folha de pagamento
+- **Venda do negócio:** Não há entidade para vender -- Vende a empresa
+- **Expansão internacional:** Limitado pelo seu país -- Subsidiárias globais
+- **Propriedade intelectual:** Em seu nome pessoal, risco -- Em nome da empresa, protegida
 ### Cenário: Quer Vender Seu Negócio
 
 ## 6. Riscos de Propriedade Intelectual
 
 ### IP sem Proteção
 
-| Ativo | Sem Estrutura | Risco |
-|-------|--------------|-------|
-| **Marca** | Em nome pessoal | Se processarem a pessoa, perde a marca |
-| **Código fonte** | Sem cessão de direitos | Um sócio pode reivindicar coautoria |
-| **Patentes** | Em nome pessoal | Difícil licenciar ou vender |
-| **Dados de clientes** | Sem proteção corporativa | Responsabilidade por vazamento é pessoal |
-
+- **Marca:** Em nome pessoal -- Se processarem a pessoa, perde a marca
+- **Código fonte:** Sem cessão de direitos -- Um sócio pode reivindicar coautoria
+- **Patentes:** Em nome pessoal -- Difícil licenciar ou vender
+- **Dados de clientes:** Sem proteção corporativa -- Responsabilidade por vazamento é pessoal
 ## 7. Riscos de Associação
 
 ### Problemas com Sócios
 
-| Situação | Sem Estrutura | Consequência |
-|----------|--------------|-------------|
-| **Sócio sai** | Sem acordo de saída | Disputa legal, perda de clientes |
-| **Sócio não contribui** | Sem capital comprometido | Você faz tudo, ele tem direito a lucros |
-| **Morte de um sócio** | Sucessão não definida | Herdeiros reclamam parte do negócio |
-| **Dissolução** | Sem processo claro | Cada um leva o que pode |
-
+- **Sócio sai:** Sem acordo de saída -- Disputa legal, perda de clientes
+- **Sócio não contribui:** Sem capital comprometido -- Você faz tudo, ele tem direito a lucros
+- **Morte de um sócio:** Sucessão não definida -- Herdeiros reclamam parte do negócio
+- **Dissolução:** Sem processo claro -- Cada um leva o que pode
 ## 8. Riscos de Sucessão
 
 ### O Que Acontece com Seu Negócio se Você Falecer?
 
 ## 9. Casos da Vida Real
 
-| Caso | Situação | Resultado |
-|------|----------|-----------|
-| **Freelancer processado** | Cliente insatisfeito processa por $50.000 | Perdeu a casa porque não tinha LLC |
-| **Sócio conflituoso** | Dois amigos começaram sem acordo | 3 anos em tribunal, perderam o negócio |
-| **Fornecedor não pago** | Dívida de $10.000 com fornecedor | Penhoraram conta pessoal, não pagou aluguel |
-| **Stripe sem estrutura** | Alto volume, Stripe pediu documentos | Conta congelada, $30.000 retidos 6 meses |
-| **Falecimento** | Empreendedor bem-sucedido morre sem estrutura | Herdeiros não acessaram Stripe, negócio perdido |
-
+- **Freelancer processado:** Cliente insatisfeito processa por $50.000 -- Perdeu a casa porque não tinha LLC
+- **Sócio conflituoso:** Dois amigos começaram sem acordo -- 3 anos em tribunal, perderam o negócio
+- **Fornecedor não pago:** Dívida de $10.000 com fornecedor -- Penhoraram conta pessoal, não pagou aluguel
+- **Stripe sem estrutura:** Alto volume, Stripe pediu documentos -- Conta congelada, $30.000 retidos 6 meses
+- **Falecimento:** Empreendedor bem-sucedido morre sem estrutura -- Herdeiros não acessaram Stripe, negócio perdido
 ## 10. Perguntas Frequentes
 
 ### Posso operar como pessoa física sem problemas?
@@ -175,14 +142,11 @@ Nunca é tarde. Forme uma LLC agora, separe suas finanças, notifique seus clien
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Avalie sua exposição a riscos atual | 1 dia |
-| **2** | Forme uma LLC (Stripe Atlas, LegalZoom, FirstBase) | 1-2 semanas |
-| **3** | Obtenha EIN e abra conta bancária empresarial | 1 semana |
-| **4** | Transfira clientes e Stripe para a nova entidade | 1-2 semanas |
-| **5** | Contrate seguros (responsabilidade, D&O, cibernético) | 1 semana |
-
+- **1:** Avalie sua exposição a riscos atual -- 1 dia
+- **2:** Forme uma LLC (Stripe Atlas, LegalZoom, FirstBase) -- 1-2 semanas
+- **3:** Obtenha EIN e abra conta bancária empresarial -- 1 semana
+- **4:** Transfira clientes e Stripe para a nova entidade -- 1-2 semanas
+- **5:** Contrate seguros (responsabilidade, D&O, cibernético) -- 1 semana
 ### Checklist de Formalização
 
 - [ ] LLC ou corporação formada

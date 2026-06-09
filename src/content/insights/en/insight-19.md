@@ -37,12 +37,9 @@ This is one of the most serious and least known consequences. For a single-membe
 
 Each state has its own penalties:
 
-| State | Late penalty | Additional consequence |
-|-------|-------------|----------------------|
-| **Wyoming** | $50�$150 | LLC suspension |
-| **Florida** | $400 | Suspension and loss of good standing |
-| **Delaware** | $200 + interest | Suspension and additional charges |
-
+- **Wyoming:** $50�$150 -- LLC suspension
+- **Florida:** $400 -- Suspension and loss of good standing
+- **Delaware:** $200 + interest -- Suspension and additional charges
 ### LLC suspension or dissolution
 
 If you do not file the Annual Report for several years, the state can:
@@ -114,14 +111,11 @@ If the LLC is not generating benefits that justify its maintenance, it may be be
 
 ## Common myths about not filing
 
-| Myth | Reality |
-|------|---------|
-| "The IRS does not track foreigner-owned LLCs" | The IRS has agreements with dozens of countries |
-| "If I had no income, I do not have to file" | Informational forms may be mandatory without income |
-| "I can dissolve the LLC and forget about it" | Tax obligations exist while the LLC was active |
-| "They will never find me" | Banks and fintechs report activity to the IRS |
-| "I only need to pay what I owe" | There are also penalties and unfiled forms |
-
+- **"The IRS does not track foreigner-owned LLCs":** The IRS has agreements with dozens of countries
+- **"If I had no income, I do not have to file":** Informational forms may be mandatory without income
+- **"I can dissolve the LLC and forget about it":** Tax obligations exist while the LLC was active
+- **"They will never find me":** Banks and fintechs report activity to the IRS
+- **"I only need to pay what I owe":** There are also penalties and unfiled forms
 ## How long does the IRS have to claim?
 
 The IRS generally has **3 years** to audit a filed return. However:

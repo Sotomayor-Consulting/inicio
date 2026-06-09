@@ -1,143 +1,119 @@
-Ôªø---
-title: "C√≥mo Cobrar Clientes en Diferentes Pa√≠ses: Gu√≠a 2026"
-description: "C√≥mo cobrar clientes en diferentes pa√≠ses"
+---
+title: "CÛmo Cobrar Clientes en Diferentes PaÌses: GuÌa 2026"
+description: "CÛmo cobrar clientes en diferentes paÌses"
 cardImage: "@/images/insights/pagos-internacionales.png"
-cardImageAlt: "Mapa global con m√∫ltiples monedas y m√©todos de pago: USD, EUR, BRL, MXN, Pix, OXXO, iDEAL, con Stripe como centro de procesamiento y conversi√≥n autom√°tica"
+cardImageAlt: "Mapa global con m˙ltiples monedas y mÈtodos de pago: USD, EUR, BRL, MXN, Pix, OXXO, iDEAL, con Stripe como centro de procesamiento y conversiÛn autom·tica"
 ---
 
-**Cobrar clientes en diferentes pa√≠ses** es uno de los mayores desaf√≠os para emprendedores que venden globalmente. Cada pa√≠s tiene su moneda, sus m√©todos de pago preferidos, sus regulaciones fiscales y su poder adquisitivo.
+**Cobrar clientes en diferentes paÌses** es uno de los mayores desafÌos para emprendedores que venden globalmente. Cada paÌs tiene su moneda, sus mÈtodos de pago preferidos, sus regulaciones fiscales y su poder adquisitivo.
 
-En esta gu√≠a, explicamos **c√≥mo cobrar clientes en diferentes pa√≠ses** en 2026: desde la configuraci√≥n multi-moneda en Stripe hasta los m√©todos de pago locales, impuestos internacionales y conversi√≥n de divisas.
+En esta guÌa, explicamos **cÛmo cobrar clientes en diferentes paÌses** en 2026: desde la configuraciÛn multi-moneda en Stripe hasta los mÈtodos de pago locales, impuestos internacionales y conversiÛn de divisas.
 
-## 1. Por Qu√© es Importante Cobrar en la Moneda Local
+## 1. Por QuÈ es Importante Cobrar en la Moneda Local
 
 ### El Impacto de Mostrar Precios Locales
 
-| Estrategia | Tasa de Conversi√≥n | Abandono de Carrito |
-|-----------|-------------------|-------------------|
-| Precio solo en USD | 2-3% | 70-80% |
-| Precio en moneda local | 5-10% | 40-50% |
-| Precio local + m√©todo de pago local | 10-20% | 20-30% |
-
+- **Precio solo en USD:** 2-3% -- 70-80%
+- **Precio en moneda local:** 5-10% -- 40-50%
+- **Precio local + mÈtodo de pago local:** 10-20% -- 20-30%
 **Dato clave:** Mostrar el precio en la moneda local del cliente puede duplicar o triplicar tus ventas.
 
-### Por Qu√© los Clientes Prefieren Pagar en su Moneda
+### Por QuÈ los Clientes Prefieren Pagar en su Moneda
 
-## 2. Configuraci√≥n Multi-Moneda en Stripe
+## 2. ConfiguraciÛn Multi-Moneda en Stripe
 
-### C√≥mo Funciona
+### CÛmo Funciona
 
-| Componente | Qu√© Hace | C√≥mo Configurarlo |
-|-----------|---------|------------------|
-| **Stripe Payments** | Acepta pagos en +135 monedas | Activado por defecto |
-| **Stripe Price API** | Define precios por moneda | Crear price con currency_options |
-| **Stripe Checkout** | Mustra precio local + m√©todos | Locale: auto |
-| **Stripe Customer** | Almacena moneda preferida | customer.preferred_locales |
-| **Stripe Invoicing** | Facturas en m√∫ltiples monedas | Crear invoice con currency |
-| **Stripe Tax** | Calcula impuestos locales | automatic_tax: true |
-
+- **Stripe Payments:** Acepta pagos en +135 monedas -- Activado por defecto
+- **Stripe Price API:** Define precios por moneda -- Crear price con currency_options
+- **Stripe Checkout:** Mustra precio local + mÈtodos -- Locale: auto
+- **Stripe Customer:** Almacena moneda preferida -- customer.preferred_locales
+- **Stripe Invoicing:** Facturas en m˙ltiples monedas -- Crear invoice con currency
+- **Stripe Tax:** Calcula impuestos locales -- automatic_tax: true
 ### Paso a Paso: Configurar Precios Globales
 
-## 3. M√©todos de Pago por Pa√≠s
+## 3. MÈtodos de Pago por PaÌs
 
-### Los M√©todos que Cada Pa√≠s Prefiere
+### Los MÈtodos que Cada PaÌs Prefiere
 
-| Pa√≠s | M√©todo #1 | M√©todo #2 | M√©todo #3 | Stripe lo Acepta |
-|------|----------|-----------|-----------|-----------------|
-| **EE. UU.** | Visa/Mastercard | ACH | Link | ‚úÖ Todos |
-| **Reino Unido** | Visa/Mastercard | Bacs Direct Debit | ‚Äî | ‚úÖ Todos |
-| **Europa** | iDEAL (NL) | Tarjeta | SEPA | ‚úÖ Todos |
-| **Brasil** | Pix | Tarjeta | Boleto | ‚úÖ Todos |
-| **M√©xico** | Tarjeta | OXXO | SPEI | ‚úÖ Todos |
-| **Colombia** | Tarjeta | PSE | Efecty | ‚úÖ PSE y tarjetas |
-| **Argentina** | Tarjeta | Rapipago | Pago F√°cil | ‚úÖ Tarjetas |
-| **Chile** | Webpay | Tarjeta | Khipu | ‚úÖ Webpay y tarjetas |
-| **Per√∫** | Tarjeta | PagoEfectivo | ‚Äî | ‚úÖ Tarjetas |
-| **Australia** | Tarjeta | BPay | ‚Äî | ‚úÖ Todos |
+- **EE. UU.:** Visa/Mastercard -- ACH -- Link -- ? Todos
+- **Reino Unido:** Visa/Mastercard -- Bacs Direct Debit -- ó -- ? Todos
+- **Europa:** iDEAL (NL) -- Tarjeta -- SEPA -- ? Todos
+- **Brasil:** Pix -- Tarjeta -- Boleto -- ? Todos
+- **MÈxico:** Tarjeta -- OXXO -- SPEI -- ? Todos
+- **Colombia:** Tarjeta -- PSE -- Efecty -- ? PSE y tarjetas
+- **Argentina:** Tarjeta -- Rapipago -- Pago F·cil -- ? Tarjetas
+- **Chile:** Webpay -- Tarjeta -- Khipu -- ? Webpay y tarjetas
+- **Per˙:** Tarjeta -- PagoEfectivo -- ó -- ? Tarjetas
+- **Australia:** Tarjeta -- BPay -- ó -- ? Todos
+### CÛmo Configurar MÈtodos de Pago Locales
 
-### C√≥mo Configurar M√©todos de Pago Locales
+## 4. FacturaciÛn Internacional con Stripe Invoicing
 
-## 4. Facturaci√≥n Internacional con Stripe Invoicing
+### Facturas en M˙ltiples Monedas
 
-### Facturas en M√∫ltiples Monedas
-
-| Caracter√≠stica | Stripe Invoicing |
-|---------------|-----------------|
-| Monedas soportadas | +50 monedas |
-| Conversi√≥n autom√°tica | ‚úÖ (a USD a tu tipo de cambio) |
-| Impuestos locales | ‚úÖ Stripe Tax integrado |
-| Env√≠o autom√°tico | ‚úÖ Email o link |
-| Pagos recurrentes | ‚úÖ Subscription invoices |
-| Memo personalizado | ‚úÖ Notas, t√©rminos, n√∫meros de factura |
-| Records de pago | ‚úÖ Autom√°ticos |
-
+- **Monedas soportadas:** +50 monedas
+- **ConversiÛn autom·tica:** ? (a USD a tu tipo de cambio)
+- **Impuestos locales:** ? Stripe Tax integrado
+- **EnvÌo autom·tico:** ? Email o link
+- **Pagos recurrentes:** ? Subscription invoices
+- **Memo personalizado:** ? Notas, tÈrminos, n˙meros de factura
+- **Records de pago:** ? Autom·ticos
 ### Ejemplo: Facturar a Cliente en Europa
 
-### Facturaci√≥n para Clientes sin Stripe
+### FacturaciÛn para Clientes sin Stripe
 
 ## 5. Suscripciones Globales con Stripe Billing
 
-### Precios Diferentes por Pa√≠s para SaaS
+### Precios Diferentes por PaÌs para SaaS
 
-| Pa√≠s | Precio Mensual | Ajuste vs USD | Raz√≥n |
-|------|---------------|--------------|-------|
-| **EE. UU.** | $99 USD | 1.00x | Mercado principal |
-| **Europa** | ‚Ç¨99 EUR | 1.10x (VAT incl.) | VAT entre 17-27% |
-| **Brasil** | R$350 | 0.57x | Poder adquisitivo + Pix |
-| **M√©xico** | $1,800 MXN | 0.70x | Mercado estrat√©gico |
-| **Colombia** | $180,000 COP | 0.55x | Poder adquisitivo |
-| **India** | ‚Çπ4,000 | 0.50x | Mercado masivo |
-
-### C√≥mo Implementar Precios por Pa√≠s
+- **EE. UU.:** $99 USD -- 1.00x -- Mercado principal
+- **Europa:** Ä99 EUR -- 1.10x (VAT incl.) -- VAT entre 17-27%
+- **Brasil:** R$350 -- 0.57x -- Poder adquisitivo + Pix
+- **MÈxico:** $1,800 MXN -- 0.70x -- Mercado estratÈgico
+- **Colombia:** $180,000 COP -- 0.55x -- Poder adquisitivo
+- **India:** ?4,000 -- 0.50x -- Mercado masivo
+### CÛmo Implementar Precios por PaÌs
 
 ### Dunning Management Global
 
-## 6. Conversi√≥n de Divisas y FX
+## 6. ConversiÛn de Divisas y FX
 
-### C√≥mo Maneja Stripe la Conversi√≥n
+### CÛmo Maneja Stripe la ConversiÛn
 
-| Escenario | Stripe Hace | Tasa de Cambio | T√∫ Recibes |
-|-----------|------------|---------------|-------------|
-| **Cliente paga en USD** | Nada (ya est√° en USD) | N/A | USD exacto |
-| **Cliente paga en EUR** | Convierte EUR ‚Üí USD | Tasa Stripe (0.5-1% markup) | USD convertido |
-| **Cliente paga en BRL** | Convierte BRL ‚Üí USD | Tasa Stripe | USD convertido |
-| **Precio en moneda local** | Cobra en moneda local, convierte a USD | Tasa Stripe | USD convertido |
+- **Cliente paga en USD:** Nada (ya est· en USD) -- N/A -- USD exacto
+- **Cliente paga en EUR:** Convierte EUR ? USD -- Tasa Stripe (0.5-1% markup) -- USD convertido
+- **Cliente paga en BRL:** Convierte BRL ? USD -- Tasa Stripe -- USD convertido
+- **Precio en moneda local:** Cobra en moneda local, convierte a USD -- Tasa Stripe -- USD convertido
+### OptimizaciÛn de FX
 
-### Optimizaci√≥n de FX
+## 7. Impuestos Internacionales por PaÌs
 
-## 7. Impuestos Internacionales por Pa√≠s
+### Stripe Tax: AutomatizaciÛn de Impuestos Globales
 
-### Stripe Tax: Automatizaci√≥n de Impuestos Globales
-
-| Regi√≥n | Impuesto | Tasa | Stripe Tax lo Calcula |
-|--------|---------|------|----------------------|
-| **EE. UU.** | Sales Tax | 0-10% (seg√∫n estado) | ‚úÖ S√≠ (con registro) |
-| **Europa** | VAT | 17-27% (seg√∫n pa√≠s) | ‚úÖ S√≠ (con registro) |
-| **Reino Unido** | VAT | 20% | ‚úÖ S√≠ |
-| **Australia** | GST | 10% | ‚úÖ S√≠ |
-| **Brasil** | ICMS/ISS | 7-18% | ‚ö†Ô∏è Parcial (integraci√≥n) |
-| **M√©xico** | IVA | 16% | ‚ö†Ô∏è Parcial |
-| **Colombia** | IVA | 19% | ‚ö†Ô∏è Parcial |
-| **Chile** | IVA | 19% | ‚ö†Ô∏è Parcial |
-
-### C√≥mo Configurar Impuestos Globales
+- **EE. UU.:** Sales Tax -- 0-10% (seg˙n estado) -- ? SÌ (con registro)
+- **Europa:** VAT -- 17-27% (seg˙n paÌs) -- ? SÌ (con registro)
+- **Reino Unido:** VAT -- 20% -- ? SÌ
+- **Australia:** GST -- 10% -- ? SÌ
+- **Brasil:** ICMS/ISS -- 7-18% -- ?? Parcial (integraciÛn)
+- **MÈxico:** IVA -- 16% -- ?? Parcial
+- **Colombia:** IVA -- 19% -- ?? Parcial
+- **Chile:** IVA -- 19% -- ?? Parcial
+### CÛmo Configurar Impuestos Globales
 
 ## 8. Stripe Connect para Pagar a Terceros
 
 ### Cuando Necesitas Pagar a Sellers, Contractors o Partners
 
-| Escenario | Stripe Connect | Flujo |
-|-----------|---------------|-------|
-| **Marketplace** | Connect + Platform fees | Cobras al comprador, pagas al seller |
-| **Plataforma SaaS** | Connect + Destination charges | Cobras al cliente, pagas al contractor |
-| **Agencia** | Connect + Transfers | Cobras al cliente, pagas al freelancer |
-| **E-commerce** | Connect + Split payments | Cobras al comprador, divides entre sellers |
+- **Marketplace:** Connect + Platform fees -- Cobras al comprador, pagas al seller
+- **Plataforma SaaS:** Connect + Destination charges -- Cobras al cliente, pagas al contractor
+- **Agencia:** Connect + Transfers -- Cobras al cliente, pagas al freelancer
+- **E-commerce:** Connect + Split payments -- Cobras al comprador, divides entre sellers
+### Pagar a Personas en Diferentes PaÌses
 
-### Pagar a Personas en Diferentes Pa√≠ses
+## 9. Estrategias de Precios por PaÌs
 
-## 9. Estrategias de Precios por Pa√≠s
-
-### C√≥mo Definir Precios Locales
+### CÛmo Definir Precios Locales
 
 ### Ejemplo de Matriz de Precios
 
@@ -145,69 +121,66 @@ En esta gu√≠a, explicamos **c√≥mo cobrar clientes en diferentes pa√≠ses** en 202
 
 ### Lo que NO Debes Hacer
 
-| Error | Consecuencia | Soluci√≥n |
-|-------|-------------|----------|
-| **Un solo precio en USD** | Bajas conversiones (70% abandono) | Precios locales por pa√≠s |
-| **Ignorar m√©todos de pago locales** | Pierdes 35-50% del mercado | Pix, OXXO, iDEAL, PSE |
-| **No configurar Stripe Tax** | Multas por VAT/GST no cobrado | Stripe Tax autom√°tico |
-| **Mala conversi√≥n FX** | Pierdes 2-5% en cada transacci√≥n | Stripe + Wise |
-| **No manejar dunning** | Pierdes 30-50% de suscripciones | Stripe Smart Retries |
-| **Mezclar monedas en facturas** | Confusi√≥n, retrasos en pagos | Una moneda por factura |
-| **Ignorar chargebacks** | P√©rdidas, cuenta en riesgo | Stripe Radar + 3D Secure |
-| **No tener t√©rminos de servicio por pa√≠s** | Riesgo legal | T√©rminos multi-idioma |
-
-## 11. Stack Tecnol√≥gico Recomendado
+- **Un solo precio en USD:** Bajas conversiones (70% abandono) -- Precios locales por paÌs
+- **Ignorar mÈtodos de pago locales:** Pierdes 35-50% del mercado -- Pix, OXXO, iDEAL, PSE
+- **No configurar Stripe Tax:** Multas por VAT/GST no cobrado -- Stripe Tax autom·tico
+- **Mala conversiÛn FX:** Pierdes 2-5% en cada transacciÛn -- Stripe + Wise
+- **No manejar dunning:** Pierdes 30-50% de suscripciones -- Stripe Smart Retries
+- **Mezclar monedas en facturas:** ConfusiÛn, retrasos en pagos -- Una moneda por factura
+- **Ignorar chargebacks:** PÈrdidas, cuenta en riesgo -- Stripe Radar + 3D Secure
+- **No tener tÈrminos de servicio por paÌs:** Riesgo legal -- TÈrminos multi-idioma
+## 11. Stack TecnolÛgico Recomendado
 
 ### Tu Stack para Cobrar Globalmente
 
-## 12. Plan de Acci√≥n para Cobrar Globalmente
+## 12. Plan de AcciÛn para Cobrar Globalmente
 
-### D√≠a 1-3: Configuraci√≥n Inicial
+### DÌa 1-3: ConfiguraciÛn Inicial
 
-### D√≠a 4-7: Facturaci√≥n y Suscripciones
+### DÌa 4-7: FacturaciÛn y Suscripciones
 
-### D√≠a 8-14: Optimizaci√≥n
+### DÌa 8-14: OptimizaciÛn
 
-### D√≠a 15-30: Lanzamiento
+### DÌa 15-30: Lanzamiento
 
 ## 13. Checklist para Cobrar Globalmente
 
 ### INFRAESTRUCTURA DE PAGOS:
 - [ ] Stripe Payments activado (multi-moneda)
-- [ ] M√©todos de pago locales activados (Pix, OXXO, iDEAL, PSE, SEPA)
-- [ ] Precios con currency_options por pa√≠s
+- [ ] MÈtodos de pago locales activados (Pix, OXXO, iDEAL, PSE, SEPA)
+- [ ] Precios con currency_options por paÌs
 - [ ] Stripe Tax configurado
 - [ ] Stripe Radar activo
 
-### FACTURACI√ìN:
+### FACTURACI”N:
 - [ ] Stripe Invoicing configurado
 - [ ] Plantillas de factura por moneda
 - [ ] Stripe Billing para suscripciones
-- [ ] Dunning autom√°tico configurado
+- [ ] Dunning autom·tico configurado
 - [ ] Email de factura en idioma del cliente
 
-### FX Y CONVERSI√ìN:
+### FX Y CONVERSI”N:
 - [ ] Wise Business configurado
-- [ ] Estrategia de conversi√≥n definida
+- [ ] Estrategia de conversiÛn definida
 - [ ] Stripe Treasury (si aplica)
-- [ ] Pol√≠tica de precios por pa√≠s documentada
+- [ ] PolÌtica de precios por paÌs documentada
 
 ### COMPLIANCE:
 - [ ] Stripe Tax activo para impuestos
-- [ ] Registros VAT/GST en pa√≠ses donde vendes
-- [ ] T√©rminos de servicio multi-idioma
-- [ ] Pol√≠tica de privacidad GDPR
+- [ ] Registros VAT/GST en paÌses donde vendes
+- [ ] TÈrminos de servicio multi-idioma
+- [ ] PolÌtica de privacidad GDPR
 - [ ] CPA internacional revisando estructura
 
-## Conclusi√≥n
+## ConclusiÛn
 
-**Cobrar clientes en diferentes pa√≠ses** en 2026 es m√°s simple que nunca gracias a Stripe. Con una configuraci√≥n multi-moneda, m√©todos de pago locales, Stripe Tax para impuestos y Wise para conversi√≥n FX, puedes ofrecer una experiencia de pago local en cada pa√≠s sin tener presencia f√≠sica all√≠.
+**Cobrar clientes en diferentes paÌses** en 2026 es m·s simple que nunca gracias a Stripe. Con una configuraciÛn multi-moneda, mÈtodos de pago locales, Stripe Tax para impuestos y Wise para conversiÛn FX, puedes ofrecer una experiencia de pago local en cada paÌs sin tener presencia fÌsica allÌ.
 
-La clave est√° en tres pilares:
-1. **Precios locales**: cada pa√≠s ve el precio en su moneda
-2. **M√©todos locales**: Pix, OXXO, iDEAL, PSE seg√∫n el pa√≠s
-3. **Impuestos autom√°ticos**: Stripe Tax calcula VAT, GST, sales tax
+La clave est· en tres pilares:
+1. **Precios locales**: cada paÌs ve el precio en su moneda
+2. **MÈtodos locales**: Pix, OXXO, iDEAL, PSE seg˙n el paÌs
+3. **Impuestos autom·ticos**: Stripe Tax calcula VAT, GST, sales tax
 
-No necesitas un banco en cada pa√≠s ni una empresa en cada mercado. Con Stripe, tu checkout se adapta autom√°ticamente a cada cliente, sin importar d√≥nde est√©.
+No necesitas un banco en cada paÌs ni una empresa en cada mercado. Con Stripe, tu checkout se adapta autom·ticamente a cada cliente, sin importar dÛnde estÈ.
 
-En **Sotomayor Consulting International**, te ayudamos a configurar tu infraestructura de cobros globales: desde Stripe multi-moneda y m√©todos de pago locales hasta la estrategia de precios por pa√≠s y compliance fiscal internacional. Cont√°ctanos para una consultor√≠a personalizada.
+En **Sotomayor Consulting International**, te ayudamos a configurar tu infraestructura de cobros globales: desde Stripe multi-moneda y mÈtodos de pago locales hasta la estrategia de precios por paÌs y compliance fiscal internacional. Cont·ctanos para una consultorÌa personalizada.

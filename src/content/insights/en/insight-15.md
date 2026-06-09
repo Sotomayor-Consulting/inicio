@@ -22,12 +22,9 @@ An LLC allows you to operate as a U.S. company in the eyes of your clients, bank
 
 The first step is choosing the state to incorporate your LLC. For international service businesses, the most recommended states are:
 
-| State | Advantage | Annual cost |
-|-------|-----------|-------------|
-| **Wyoming** | Privacy, low cost, no state tax | $60 |
-| **Florida** | Proximity to LATAM, business image | $138.75 |
-| **Delaware** | Ideal if seeking investment | $300 |
-
+- **Wyoming:** Privacy, low cost, no state tax -- $60
+- **Florida:** Proximity to LATAM, business image -- $138.75
+- **Delaware:** Ideal if seeking investment -- $300
 **Recommendation:** If your business is 100% digital with no physical U.S. operations, Wyoming is usually the best choice for its low maintenance costs and privacy.
 
 ## Step 2: Obtain the EIN
@@ -119,17 +116,14 @@ You may have U.S.-source income (ECI) and be subject to federal taxes. In this c
 
 ## Types of services successfully sold with an LLC
 
-| Service type | Examples |
-|-------------|----------|
-| **Digital marketing** | Advertising, SEO, social media, content |
-| **Consulting** | Business, strategy, finance, technology |
-| **Software development** | Web apps, mobile apps, SaaS |
-| **Graphic design & UX/UI** | Branding, interfaces, user experience |
-| **Writing & translation** | Content, copywriting, professional translation |
-| **Coaching & training** | Online courses, mentorship, workshops |
-| **Virtual assistance** | Administrative support, project management |
-| **Audiovisual production** | Video editing, animation, photography |
-
+- **Digital marketing:** Advertising, SEO, social media, content
+- **Consulting:** Business, strategy, finance, technology
+- **Software development:** Web apps, mobile apps, SaaS
+- **Graphic design & UX/UI:** Branding, interfaces, user experience
+- **Writing & translation:** Content, copywriting, professional translation
+- **Coaching & training:** Online courses, mentorship, workshops
+- **Virtual assistance:** Administrative support, project management
+- **Audiovisual production:** Video editing, animation, photography
 ## Common mistakes when using an LLC to sell services
 
 ### Mixing personal and business income

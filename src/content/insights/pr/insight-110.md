@@ -15,28 +15,22 @@ Neste guia, cobrimos **como implementar processos escaláveis em 2026**: princí
 
 ### Os cinco pilares dos processos escaláveis
 
-| Pilar | Descrição | Por que importa |
-|--------|------------|----------------|
-| **Padronizado** | Documentado passo a passo, mesmo resultado toda vez | Elimina variação e retrabalho |
-| **Automatizado** | A tecnologia lida com passos repetitivos baseados em regras | Reduz custo de mão de obra e taxa de erro |
-| **Mensurável** | Métricas-chave rastreadas em tempo real | Permite otimização baseada em dados |
-| **Replicável** | Pode ser ensinado e delegado | Permite crescimento sem gargalo do fundador |
-| **Resiliente** | Lida com exceções e casos limite | Mantém qualidade sob pressão |
-
+- **Padronizado:** Documentado passo a passo, mesmo resultado toda vez -- Elimina variação e retrabalho
+- **Automatizado:** A tecnologia lida com passos repetitivos baseados em regras -- Reduz custo de mão de obra e taxa de erro
+- **Mensurável:** Métricas-chave rastreadas em tempo real -- Permite otimização baseada em dados
+- **Replicável:** Pode ser ensinado e delegado -- Permite crescimento sem gargalo do fundador
+- **Resiliente:** Lida com exceções e casos limite -- Mantém qualidade sob pressão
 ### Processos escaláveis vs não escaláveis
 
-| Característica | Processo não escalável | Processo escalável |
-|---------------|---------------------|------------------|
-| **Documentação** | Conhecimento tribal ("pergunte ao João") | POE escrito + tutorial em vídeo |
-| **Automação** | 0-10% | 70-90% |
-| **Taxa de erro** | Aumenta com o volume | Estável independentemente do volume |
-| **Tempo de treinamento** | 3-6 meses | 1-2 semanas |
-| **Custo por unidade** | Aumenta | Diminui |
-| **Tempo de processamento** | Crescimento linear | Crescimento logarítmico |
-| **Controle de qualidade** | Revisão manual | Automatizado validation |
-| **Tratamento de exceções** | Ad-hoc | Manuais predefinidos |
-| **Stack tecnológica** | Planilhas + email | ERP + automação + integrações |
-
+- **Documentação:** Conhecimento tribal ("pergunte ao João") -- POE escrito + tutorial em vídeo
+- **Automação:** 0-10% -- 70-90%
+- **Taxa de erro:** Aumenta com o volume -- Estável independentemente do volume
+- **Tempo de treinamento:** 3-6 meses -- 1-2 semanas
+- **Custo por unidade:** Aumenta -- Diminui
+- **Tempo de processamento:** Crescimento linear -- Crescimento logarítmico
+- **Controle de qualidade:** Revisão manual -- Automatizado validation
+- **Tratamento de exceções:** Ad-hoc -- Manuais predefinidos
+- **Stack tecnológica:** Planilhas + email -- ERP + automação + integrações
 ### A equação de escalabilidade
 
 ## 2. Princípios de design de processos
@@ -53,17 +47,14 @@ Neste guia, cobrimos **como implementar processos escaláveis em 2026**: princí
 
 ### Catálogo de padrões de automação
 
-| Padrão | Descrição | Exemplo | Automação Tool |
-|---------|-------------|---------|-----------------|
-| **Gatilho-Ação** | Um evento dispara uma ação | Envio de formulário → Criar lead no CRM | Zapier |
-| **Pipeline** | Passos sequenciais, cada um alimenta o próximo | Fatura → Aprovar → Pagar → Conciliar | n8n, Make |
-| **Fan-Out** | Um evento dispara múltiplas ações paralelas | Order placed → Update inventory + notify warehouse + send receipt | Odoo, Make |
-| **Agregador** | Múltiplas entradas combinadas em uma saída | Vendas diárias → Calcular → Enviar relatório | n8n, Python |
-| **Máquina de estados** | Processo com estados e transições | Pedido: Pendente → Pago → Enviado → Entregue | Odoo, AWS Step Functions |
-| **Cadeia de aprovação** | Aprovação multinível com condições | Despesa: <$100 auto-aprovar, $100-$1000 gerente, >$1000 diretor | Odoo, Power Automate |
-| **Retentativa com backoff** | Operação falha retenta com atrasos crescentes | Pagamento falhou → Tentar novamente em 1h, 6h, 24h → Escalar | Stripe, Celery |
-| **Fila de mensagens mortas** | Itens com falha armazenados para revisão manual | Processamento de documento falhou → Mover para fila de revisão | AWS SQS, Odoo |
-
+- **Gatilho-Ação:** Um evento dispara uma ação -- Envio de formulário → Criar lead no CRM -- Zapier
+- **Pipeline:** Passos sequenciais, cada um alimenta o próximo -- Fatura → Aprovar → Pagar → Conciliar -- n8n, Make
+- **Fan-Out:** Um evento dispara múltiplas ações paralelas -- Order placed → Update inventory + notify warehouse + send receipt -- Odoo, Make
+- **Agregador:** Múltiplas entradas combinadas em uma saída -- Vendas diárias → Calcular → Enviar relatório -- n8n, Python
+- **Máquina de estados:** Processo com estados e transições -- Pedido: Pendente → Pago → Enviado → Entregue -- Odoo, AWS Step Functions
+- **Cadeia de aprovação:** Aprovação multinível com condições -- Despesa: <$100 auto-aprovar, $100-$1000 gerente, >$1000 diretor -- Odoo, Power Automate
+- **Retentativa com backoff:** Operação falha retenta com atrasos crescentes -- Pagamento falhou → Tentar novamente em 1h, 6h, 24h → Escalar -- Stripe, Celery
+- **Fila de mensagens mortas:** Itens com falha armazenados para revisão manual -- Processamento de documento falhou → Mover para fila de revisão -- AWS SQS, Odoo
 ### Motor de orquestração
 
 ## 4. Odoo para operações escaláveis
@@ -90,19 +81,16 @@ Neste guia, cobrimos **como implementar processos escaláveis em 2026**: princí
 
 ### Métricas-chave de escalabilidade
 
-| Métrica | Definição | Meta | Como medir |
-|--------|-----------|--------|----------------|
-| **Custo por unidade** | Custo total do processo / unidades processadas | Decrescente ao longo do tempo | Custeio Odoo + controle de tempo |
-| **Processing Time** | Tempo de ciclo ponta a ponta | < 1 hora para processos padrão | Rastreamento de timestamp no Odoo |
-| **Automação Rate** | % de passos automatizados | > 70% | Análise de blueprint de processo |
-| **Error Rate** | % de ciclos com erros | < 1% | Registro de exceções |
-| **Rendimento de primeira passagem** | % de ciclos concluídos sem retrabalho | > 95% | Dados de pontos de verificação de qualidade |
-| **Margem de capacidade** | Volume atual / capacidade máxima | < 70% | Análise de throughput do processo |
-| **NPS do funcionário** | Satisfação do operador com o processo | > 50 | Pesquisas trimestrais |
-| **Tempo de treinamento** | Tempo para atingir proficiência | < 2 semanas | Acompanhamento de integração |
-| **Taxa de exceção** | % de ciclos que precisam de tratamento de exceção | < 5% | Registro de exceções |
-| **Elasticidade de escala** | Aumento de custo por cada 2x volume | < 20% | Rastreamento de custos em escala |
-
+- **Custo por unidade:** Custo total do processo / unidades processadas -- Decrescente ao longo do tempo -- Custeio Odoo + controle de tempo
+- **Processing Time:** Tempo de ciclo ponta a ponta -- < 1 hora para processos padrão -- Rastreamento de timestamp no Odoo
+- **Automação Rate:** % de passos automatizados -- > 70% -- Análise de blueprint de processo
+- **Error Rate:** % de ciclos com erros -- < 1% -- Registro de exceções
+- **Rendimento de primeira passagem:** % de ciclos concluídos sem retrabalho -- > 95% -- Dados de pontos de verificação de qualidade
+- **Margem de capacidade:** Volume atual / capacidade máxima -- < 70% -- Análise de throughput do processo
+- **NPS do funcionário:** Satisfação do operador com o processo -- > 50 -- Pesquisas trimestrais
+- **Tempo de treinamento:** Tempo para atingir proficiência -- < 2 semanas -- Acompanhamento de integração
+- **Taxa de exceção:** % de ciclos que precisam de tratamento de exceção -- < 5% -- Registro de exceções
+- **Elasticidade de escala:** Aumento de custo por cada 2x volume -- < 20% -- Rastreamento de custos em escala
 ### Dashboard de escalabilidade
 
 ## 8. Roteiro de implementação

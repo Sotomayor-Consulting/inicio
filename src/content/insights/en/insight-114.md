@@ -19,50 +19,47 @@ Every IRS notice follows a standard format. Understanding the layout helps you q
 
 ### Notice Number Reference
 
-| Notice Number | Type | Purpose | Urgency |
-|--------------|------|---------|---------|
-| **CP01** | Identity Theft | IRS is verifying identity | High |
-| **CP04** | Identity Theft | Suspicious return filed | Critical |
-| **CP05** | Refund Hold | Return under review | Medium |
-| **CP09** | Credit | Refigured tax due to credits | Low |
-| **CP10** | Math Error | Simple calculation correction | Low |
-| **CP11** | Math Error | Tax change due to math error | Medium |
-| **CP12** | Math Error | Refund changed due to math error | Low |
-| **CP14** | Balance Due | Tax owed, payment required | High |
-| **CP16** | Underpayment | Underpayment penalty | Medium |
-| **CP21** | Audit | Examination of return | Critical |
-| **CP22** | Assessment | Formal tax assessment | High |
-| **CP23** | Levy | Intent to levy assets | Critical |
-| **CP24** | Lien | Notice of federal tax lien | Critical |
-| **CP44** | Delinquent Return | Return not filed | Critical |
-| **CP49** | Refund Applied | Refund applied to other debt | Medium |
-| **CP59** | Non-Filer | Multiple years not filed | Critical |
-| **CP71** | Installment Agreement | Payment plan status | Medium |
-| **CP75** | Fraud | Fraud investigation | Critical |
-| **CP80** | Examination | In-person audit | Critical |
-| **CP90** | Enforcement | Final notice before levy | Critical |
-| **CP91** | Levy | Notice of intent to levy | Critical |
-| **CP92** | Seizure | Notice of seizure | Critical |
-| **CP118** | Refund | Refund issued | Low |
-| **CP134** | Account | Account transcript | Low |
-| **CP136** | Offer in Compromise | Offer status | Medium |
-| **CP146** | Innocent Spouse | Relief determination | Medium |
-| **CP161** | Balance Due | Reminder of amount due | Medium |
-| **CP162** | Interest | Interest charge notice | Medium |
-| **CP163** | Penalty | Penalty notice | Medium |
-| **CP2000** | Underreported | Income discrepancy | High |
-| **CP2050** | Underreported | Proposed tax change | High |
-| **CP2100** | Information Return | 1099/W-2 mismatch | Medium |
-| **CP2200** | Business | Business return issue | High |
-| **CP2300** | Employment Tax | Payroll tax issue | Critical |
-| **CP2501** | Examination | Correspondence audit | High |
-| **LTR 105C** | Audit | Examination notice | Critical |
-| **LTR 111C** | Audit | Response to audit request | High |
-| **LTR 915** | Lien | Federal tax lien filed | Critical |
-| **LTR 3170** | Levy | Final notice of intent to levy | Critical |
-| **LTR 4864** | Appeal | Appeals conference | Medium |
-| **LTR 5257** | Audit | Document request | High |
-
+- **CP01:** Identity Theft -- IRS is verifying identity -- High
+- **CP04:** Identity Theft -- Suspicious return filed -- Critical
+- **CP05:** Refund Hold -- Return under review -- Medium
+- **CP09:** Credit -- Refigured tax due to credits -- Low
+- **CP10:** Math Error -- Simple calculation correction -- Low
+- **CP11:** Math Error -- Tax change due to math error -- Medium
+- **CP12:** Math Error -- Refund changed due to math error -- Low
+- **CP14:** Balance Due -- Tax owed, payment required -- High
+- **CP16:** Underpayment -- Underpayment penalty -- Medium
+- **CP21:** Audit -- Examination of return -- Critical
+- **CP22:** Assessment -- Formal tax assessment -- High
+- **CP23:** Levy -- Intent to levy assets -- Critical
+- **CP24:** Lien -- Notice of federal tax lien -- Critical
+- **CP44:** Delinquent Return -- Return not filed -- Critical
+- **CP49:** Refund Applied -- Refund applied to other debt -- Medium
+- **CP59:** Non-Filer -- Multiple years not filed -- Critical
+- **CP71:** Installment Agreement -- Payment plan status -- Medium
+- **CP75:** Fraud -- Fraud investigation -- Critical
+- **CP80:** Examination -- In-person audit -- Critical
+- **CP90:** Enforcement -- Final notice before levy -- Critical
+- **CP91:** Levy -- Notice of intent to levy -- Critical
+- **CP92:** Seizure -- Notice of seizure -- Critical
+- **CP118:** Refund -- Refund issued -- Low
+- **CP134:** Account -- Account transcript -- Low
+- **CP136:** Offer in Compromise -- Offer status -- Medium
+- **CP146:** Innocent Spouse -- Relief determination -- Medium
+- **CP161:** Balance Due -- Reminder of amount due -- Medium
+- **CP162:** Interest -- Interest charge notice -- Medium
+- **CP163:** Penalty -- Penalty notice -- Medium
+- **CP2000:** Underreported -- Income discrepancy -- High
+- **CP2050:** Underreported -- Proposed tax change -- High
+- **CP2100:** Information Return -- 1099/W-2 mismatch -- Medium
+- **CP2200:** Business -- Business return issue -- High
+- **CP2300:** Employment Tax -- Payroll tax issue -- Critical
+- **CP2501:** Examination -- Correspondence audit -- High
+- **LTR 105C:** Audit -- Examination notice -- Critical
+- **LTR 111C:** Audit -- Response to audit request -- High
+- **LTR 915:** Lien -- Federal tax lien filed -- Critical
+- **LTR 3170:** Levy -- Final notice of intent to levy -- Critical
+- **LTR 4864:** Appeal -- Appeals conference -- Medium
+- **LTR 5257:** Audit -- Document request -- High
 ### Notice Severity Classification
 
 ## 2. First Steps When You Receive an IRS Letter

@@ -19,50 +19,47 @@ Every IRS notice follows a standard format. Understanding the layout helps you q
 
 ### Referência de Números de Aviso
 
-| Número do Aviso | Tipo | Propósito | Urgência |
-|--------------|------|---------|---------|
-| **CP01** | Roubo de Identidade | IRS está verificando identidade | Alta |
-| **CP04** | Roubo de Identidade | Declaração suspeita apresentada | Crítica |
-| **CP05** | Retenção de Reembolso | Declaração sob revisão | Média |
-| **CP09** | Crédito | Imposto recalculado por créditos | Baixa |
-| **CP10** | Erro Matemático | Correção de cálculo simples | Baixa |
-| **CP11** | Erro Matemático | Mudança de imposto por erro matemático | Média |
-| **CP12** | Erro Matemático | Reembolso alterado por erro matemático | Baixa |
-| **CP14** | Saldo Devido | Imposto devido, pagamento necessário | Alta |
-| **CP16** | Pagamento Insuficiente | Multa por pagamento insuficiente | Média |
-| **CP21** | Auditoria | Exame de declaração | Crítica |
-| **CP22** | Avaliação | Avaliação fiscal formal | Alta |
-| **CP23** | Penhora | Intenção de penhorar bens | Crítica |
-| **CP24** | Ônus | Aviso de ônus fiscal federal | Crítica |
-| **CP44** | Declaração Inadimplente | Declaração não apresentada | Crítica |
-| **CP49** | Reembolso Aplicado | Reembolso aplicado a outra dívida | Média |
-| **CP59** | Não Declarante | Múltiplos anos não apresentados | Crítica |
-| **CP71** | Acordo de Parcelamento | Status do plano de pagamento | Média |
-| **CP75** | Fraude | Investigação de fraude | Crítica |
-| **CP80** | Exame | Auditoria presencial | Crítica |
-| **CP90** | Execução | Aviso final antes de penhora | Crítica |
-| **CP91** | Penhora | Aviso de intenção de penhorar | Crítica |
-| **CP92** | Apreensão | Aviso de apreensão | Crítica |
-| **CP118** | Reembolso | Reembolso emitido | Baixa |
-| **CP134** | Conta | Transcrição de conta | Baixa |
-| **CP136** | Oferta de Transação | Status da oferta | Média |
-| **CP146** | Cônjuge Inocente | Determinação de alívio | Média |
-| **CP161** | Saldo Devido | Lembrete de valor devido | Média |
-| **CP162** | Juros | Aviso de cobrança de juros | Média |
-| **CP163** | Multa | Aviso de multa | Média |
-| **CP2000** | Subdeclarado | Discrepância de renda | Alta |
-| **CP2050** | Subdeclarado | Mudança fiscal proposta | Alta |
-| **CP2100** | Declaração Informativa | Discrepância 1099/W-2 | Média |
-| **CP2200** | Negócio | Problema de declaração de negócio | Alta |
-| **CP2300** | Imposto Trabalhista | Problema de imposto sobre folha | Crítica |
-| **CP2501** | Exame | Auditoria por correspondência | Alta |
-| **LTR 105C** | Auditoria | Aviso de exame | Crítica |
-| **LTR 111C** | Auditoria | Resposta a solicitação de auditoria | Alta |
-| **LTR 915** | Ônus | Ônus fiscal federal registrado | Crítica |
-| **LTR 3170** | Penhora | Aviso final de intenção de penhorar | Crítica |
-| **LTR 4864** | Apelação | Conferência de apelação | Média |
-| **LTR 5257** | Auditoria | Solicitação de documentos | Alta |
-
+- **CP01:** Roubo de Identidade -- IRS está verificando identidade -- Alta
+- **CP04:** Roubo de Identidade -- Declaração suspeita apresentada -- Crítica
+- **CP05:** Retenção de Reembolso -- Declaração sob revisão -- Média
+- **CP09:** Crédito -- Imposto recalculado por créditos -- Baixa
+- **CP10:** Erro Matemático -- Correção de cálculo simples -- Baixa
+- **CP11:** Erro Matemático -- Mudança de imposto por erro matemático -- Média
+- **CP12:** Erro Matemático -- Reembolso alterado por erro matemático -- Baixa
+- **CP14:** Saldo Devido -- Imposto devido, pagamento necessário -- Alta
+- **CP16:** Pagamento Insuficiente -- Multa por pagamento insuficiente -- Média
+- **CP21:** Auditoria -- Exame de declaração -- Crítica
+- **CP22:** Avaliação -- Avaliação fiscal formal -- Alta
+- **CP23:** Penhora -- Intenção de penhorar bens -- Crítica
+- **CP24:** Ônus -- Aviso de ônus fiscal federal -- Crítica
+- **CP44:** Declaração Inadimplente -- Declaração não apresentada -- Crítica
+- **CP49:** Reembolso Aplicado -- Reembolso aplicado a outra dívida -- Média
+- **CP59:** Não Declarante -- Múltiplos anos não apresentados -- Crítica
+- **CP71:** Acordo de Parcelamento -- Status do plano de pagamento -- Média
+- **CP75:** Fraude -- Investigação de fraude -- Crítica
+- **CP80:** Exame -- Auditoria presencial -- Crítica
+- **CP90:** Execução -- Aviso final antes de penhora -- Crítica
+- **CP91:** Penhora -- Aviso de intenção de penhorar -- Crítica
+- **CP92:** Apreensão -- Aviso de apreensão -- Crítica
+- **CP118:** Reembolso -- Reembolso emitido -- Baixa
+- **CP134:** Conta -- Transcrição de conta -- Baixa
+- **CP136:** Oferta de Transação -- Status da oferta -- Média
+- **CP146:** Cônjuge Inocente -- Determinação de alívio -- Média
+- **CP161:** Saldo Devido -- Lembrete de valor devido -- Média
+- **CP162:** Juros -- Aviso de cobrança de juros -- Média
+- **CP163:** Multa -- Aviso de multa -- Média
+- **CP2000:** Subdeclarado -- Discrepância de renda -- Alta
+- **CP2050:** Subdeclarado -- Mudança fiscal proposta -- Alta
+- **CP2100:** Declaração Informativa -- Discrepância 1099/W-2 -- Média
+- **CP2200:** Negócio -- Problema de declaração de negócio -- Alta
+- **CP2300:** Imposto Trabalhista -- Problema de imposto sobre folha -- Crítica
+- **CP2501:** Exame -- Auditoria por correspondência -- Alta
+- **LTR 105C:** Auditoria -- Aviso de exame -- Crítica
+- **LTR 111C:** Auditoria -- Resposta a solicitação de auditoria -- Alta
+- **LTR 915:** Ônus -- Ônus fiscal federal registrado -- Crítica
+- **LTR 3170:** Penhora -- Aviso final de intenção de penhorar -- Crítica
+- **LTR 4864:** Apelação -- Conferência de apelação -- Média
+- **LTR 5257:** Auditoria -- Solicitação de documentos -- Alta
 ### Classificação de Gravidade de Avisos
 
 ## 2. Primeiros Passos ao Receber uma Carta do IRS

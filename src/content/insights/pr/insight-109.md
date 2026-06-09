@@ -15,19 +15,16 @@ Neste guia, cobrimos **como reduzir a carga operacional com tecnologia em 2026**
 
 ### Pontos de dor operacionais comuns
 
-| Área | Tarefa manual | Tempo gasto (semanal) | Oportunidade de automação |
-|------|------------|-------------------|----------------------|
-| **Finanças** | Criação e envio de faturas | 8-12 horas | Geração automática + links Stripe |
-| **Finanças** | Reconciliação de pagamentos | 6-10 horas | Autorreconciliação Stripe |
-| **Vendas** | Inserção de leads no CRM | 5-8 horas | Captura automática via webhook |
-| **Vendas** | Geração de cotações | 4-6 horas | Modelo + automação CRM |
-| **RH** | Documentos de integração | 3-5 horas | Portal autoatendimento + fluxos |
-| **Operações** | Rastreamento de inventário | 6-8 hours | Sincronização Odoo em tempo real |
-| **Suporte ao cliente** | Roteamento de tickets | 4-6 horas | Roteamento automático com IA |
-| **Relatórios** | Relatórios semanais/mensais | 4-8 horas | Geração automatizada de dashboards |
-| **Conformidade** | Coleta e arquivamento de documentos | 5-10 horas | Fluxos de documentos automatizados |
-| **TI** | Provisionamento de contas | 3-5 horas | SSO + provisionamento automático |
-
+- **Finanças:** Criação e envio de faturas -- 8-12 horas -- Geração automática + links Stripe
+- **Finanças:** Reconciliação de pagamentos -- 6-10 horas -- Autorreconciliação Stripe
+- **Vendas:** Inserção de leads no CRM -- 5-8 horas -- Captura automática via webhook
+- **Vendas:** Geração de cotações -- 4-6 horas -- Modelo + automação CRM
+- **RH:** Documentos de integração -- 3-5 horas -- Portal autoatendimento + fluxos
+- **Operações:** Rastreamento de inventário -- 6-8 hours -- Sincronização Odoo em tempo real
+- **Suporte ao cliente:** Roteamento de tickets -- 4-6 horas -- Roteamento automático com IA
+- **Relatórios:** Relatórios semanais/mensais -- 4-8 horas -- Geração automatizada de dashboards
+- **Conformidade:** Coleta e arquivamento de documentos -- 5-10 horas -- Fluxos de documentos automatizados
+- **TI:** Provisionamento de contas -- 3-5 horas -- SSO + provisionamento automático
 ### O verdadeiro custo das operações manuais
 
 ## 2. Identificando oportunidades de automação
@@ -40,15 +37,12 @@ Neste guia, cobrimos **como reduzir a carga operacional com tecnologia em 2026**
 
 ### Plataformas de automação de fluxos
 
-| Plataforma | Ideal para | Complexidade | Preço | Recursos principais |
-|----------|---------|------------|---------|--------------|
-| **Zapier** | Integrações simples | Iniciante | Grátis-$299/mês | 7,000+ apps, multi-step workflows |
-| **Make (Integromat)** | Fluxos complexos | Intermediário | Grátis-$299/mês | Construtor visual, transformação de dados |
-| **n8n** | Personalizado, auto-hospedado | Avançado | Grátis (auto-hospedado) | Código aberto, controle total |
-| **Power Automate** | Ecossistema Microsoft | Intermediário | $15-$100/usuário/mês | Integração profunda Office 365 |
-| **Workato** | Escala empresarial | Avançado | Preço personalizado | Conectores ERP empresariais |
-| **Odoo Automation** | Ecossistema Odoo | Iniciante | Incluído | Fluxos nativos do Odoo |
-
+- **Zapier:** Integrações simples -- Iniciante -- Grátis-$299/mês -- 7,000+ apps, multi-step workflows
+- **Make (Integromat):** Fluxos complexos -- Intermediário -- Grátis-$299/mês -- Construtor visual, transformação de dados
+- **n8n:** Personalizado, auto-hospedado -- Avançado -- Grátis (auto-hospedado) -- Código aberto, controle total
+- **Power Automate:** Ecossistema Microsoft -- Intermediário -- $15-$100/usuário/mês -- Integração profunda Office 365
+- **Workato:** Escala empresarial -- Avançado -- Preço personalizado -- Conectores ERP empresariais
+- **Odoo Automation:** Ecossistema Odoo -- Iniciante -- Incluído -- Fluxos nativos do Odoo
 ### Automações comuns por departamento
 
 ### Construindo uma automação de fluxo

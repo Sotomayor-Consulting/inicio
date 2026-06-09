@@ -13,48 +13,36 @@ In this guide, we explain **how to use Stripe to sell digital courses** in 2026,
 
 ### Key Advantages
 
-| Advantage | Description |
-|-----------|------------|
-| **Recurring payments** | Monthly, quarterly, or annual subscriptions |
-| **Multiple currencies** | Charge in USD, EUR, MXN, BRL, and 130+ currencies |
-| **Embedded checkout** | Stripe Checkout ready to use with no code |
-| **3D Secure** | Fraud and chargeback protection |
-| **Detailed reporting** | Dashboard with revenue and subscriber metrics |
-| **Integrations** | Connect with Teachable, Thinkific, Kajabi, Hotmart |
-| **Global payments** | Accept cards from 195+ countries |
-
+- **Recurring payments:** Monthly, quarterly, or annual subscriptions
+- **Multiple currencies:** Charge in USD, EUR, MXN, BRL, and 130+ currencies
+- **Embedded checkout:** Stripe Checkout ready to use with no code
+- **3D Secure:** Fraud and chargeback protection
+- **Detailed reporting:** Dashboard with revenue and subscriber metrics
+- **Integrations:** Connect with Teachable, Thinkific, Kajabi, Hotmart
+- **Global payments:** Accept cards from 195+ countries
 ### Stripe vs Other Course Platforms
 
-| Platform | Fee | Ideal For |
-|----------|-----|-----------|
-| **Stripe direct** | 2.9% + $0.30 | Technical creators or custom development |
-| **Teachable** | 5% + Stripe (Free) / $0 (Pro) | All-in-one platform creators |
-| **Thinkific** | 0% (Stripe separate) | Courses with built-in marketing |
-| **Hotmart** | 10-20% | Latin American market |
-| **Kajabi** | 0% (Stripe separate) | Complete digital businesses |
-
+- **Stripe direct:** 2.9% + $0.30 -- Technical creators or custom development
+- **Teachable:** 5% + Stripe (Free) / $0 (Pro) -- All-in-one platform creators
+- **Thinkific:** 0% (Stripe separate) -- Courses with built-in marketing
+- **Hotmart:** 10-20% -- Latin American market
+- **Kajabi:** 0% (Stripe separate) -- Complete digital businesses
 > **Stripe direct gives you total control** over your pricing, branding, and customer data with the lowest fees in the market.
 
 ## 2. Requirements to Sell Courses with Stripe
 
 ### Stripe Account Requirements
 
-| Requirement | Details |
-|-------------|---------|
-| **Active Stripe account** | Verified and approved |
-| **Supported country** | Stripe available in 45+ countries |
-| **Documents** | ID, proof of address, bank details |
-| **Bank account** | To receive payouts |
-
+- **Active Stripe account:** Verified and approved
+- **Supported country:** Stripe available in 45+ countries
+- **Documents:** ID, proof of address, bank details
+- **Bank account:** To receive payouts
 ### Course Requirements
 
-| Requirement | Details |
-|-------------|---------|
-| **Original content** | Stripe verifies it's not prohibited material |
-| **Defined price** | One-time payment, subscription, or membership |
-| **Delivery platform** | Where students will access the course |
-| **Clear policies** | Terms, refunds, and privacy |
-
+- **Original content:** Stripe verifies it's not prohibited material
+- **Defined price:** One-time payment, subscription, or membership
+- **Delivery platform:** Where students will access the course
+- **Clear policies:** Terms, refunds, and privacy
 ### Prohibited Businesses on Stripe
 
 Stripe does not allow courses about:
@@ -88,13 +76,10 @@ Stripe Checkout is a pre-built payment page you can share with your students.
 
 Course platforms integrate with Stripe to process payments:
 
-| Platform | Stripe Integration | Subscriptions | Additional Fee |
-|----------|-------------------|---------------|----------------|
-| **Teachable** | Native | ✅ Yes | 0% (Pro) / 5% (Free) |
-| **Thinkific** | Native | ✅ Yes | 0% |
-| **Kajabi** | Native | ✅ Yes | 0% |
-| **Podia** | Native | ✅ Yes | 0% |
-
+- **Teachable:** Native -- ✅ Yes -- 0% (Pro) / 5% (Free)
+- **Thinkific:** Native -- ✅ Yes -- 0%
+- **Kajabi:** Native -- ✅ Yes -- 0%
+- **Podia:** Native -- ✅ Yes -- 0%
 **How to configure:**
 1. Create your account on the chosen platform
 2. Go to Settings → Payments
@@ -116,14 +101,11 @@ If you have your own platform, you can integrate Stripe via API:
 
 ### Payment Models for Digital Courses
 
-| Model | Description | Ideal For |
-|-------|-------------|-----------|
-| **One-time payment** | Student pays once, lifetime access | Complete courses, bootcamps |
-| **Monthly subscription** | Recurring monthly payment | Memberships, academies, communities |
-| **Annual subscription** | Yearly payment with discount | Annual programs, certifications |
-| **Per-module payment** | Pay as you unlock each module | Extended courses, step-by-step programs |
-| **Temporary rental** | Time-limited access | Exams, certification prep |
-
+- **One-time payment:** Student pays once, lifetime access -- Complete courses, bootcamps
+- **Monthly subscription:** Recurring monthly payment -- Memberships, academies, communities
+- **Annual subscription:** Yearly payment with discount -- Annual programs, certifications
+- **Per-module payment:** Pay as you unlock each module -- Extended courses, step-by-step programs
+- **Temporary rental:** Time-limited access -- Exams, certification prep
 ### Setting Up Subscriptions in Stripe
 
 **Step 1: Create a subscription product**
@@ -133,13 +115,10 @@ If you have your own platform, you can integrate Stripe via API:
 
 **Step 2: Configure the billing cycle**
 
-| Setting | Options |
-|---------|---------|
-| **Frequency** | Monthly, quarterly, yearly |
-| **Trial period** | 7, 14, or 30 days free |
-| **Billing** | Automatic same day each month |
-| **Cancellation** | Student cancels from their portal |
-
+- **Frequency:** Monthly, quarterly, yearly
+- **Trial period:** 7, 14, or 30 days free
+- **Billing:** Automatic same day each month
+- **Cancellation:** Student cancels from their portal
 **Step 3: Test in test mode**
 - Use test card: `4242 4242 4242 4242`
 - Verify the subscription is created correctly
@@ -162,13 +141,10 @@ Stripe Customer Portal lets your students:
 
 ### Discount Types in Stripe
 
-| Type | How It Works | Example |
-|------|--------------|---------|
-| **Percentage** | % discount off the price | 20% OFF |
-| **Fixed amount** | Dollar discount | $10 OFF |
-| **Free period** | Free months | 1 month free |
-| **Custom price** | Special price for a student | $99 instead of $149 |
-
+- **Percentage:** % discount off the price -- 20% OFF
+- **Fixed amount:** Dollar discount -- $10 OFF
+- **Free period:** Free months -- 1 month free
+- **Custom price:** Special price for a student -- $99 instead of $149
 ### Creating Coupons in Stripe
 
 1. Stripe Dashboard → Coupons → Add Coupon
@@ -182,13 +158,10 @@ Stripe Customer Portal lets your students:
 
 Stripe generates automatic invoices for each payment:
 
-| Benefit | Description |
-|---------|-------------|
-| **Invoices by email** | Stripe sends the invoice to the student automatically |
-| **Customization** | Add your logo, tax info, and messages |
-| **Multiple currencies** | Invoice in the payment currency |
-| **VAT/GST** | Stripe calculates taxes automatically |
-
+- **Invoices by email:** Stripe sends the invoice to the student automatically
+- **Customization:** Add your logo, tax info, and messages
+- **Multiple currencies:** Invoice in the payment currency
+- **VAT/GST:** Stripe calculates taxes automatically
 ### Configuring Invoices
 
 1. Stripe Dashboard → Settings → Billing
@@ -204,12 +177,9 @@ If you have a platform where multiple instructors sell courses, Stripe Connect i
 
 ### Payment Models
 
-| Model | Description | Platform Fee |
-|-------|-------------|--------------|
-| **Direct destination** | Payment goes directly to the instructor | You charge fee separately |
-| **Separate destination** | You receive payment and distribute | You control amounts |
-| **Platform** | You receive everything and pay instructors | Greater control |
-
+- **Direct destination:** Payment goes directly to the instructor -- You charge fee separately
+- **Separate destination:** You receive payment and distribute -- You control amounts
+- **Platform:** You receive everything and pay instructors -- Greater control
 ### Configuring Stripe Connect
 
 1. Stripe Dashboard → Connect → Configure
@@ -221,24 +191,18 @@ If you have a platform where multiple instructors sell courses, Stripe Connect i
 
 ### Best Practices for Your Checkout
 
-| Practice | Impact |
-|---------|--------|
-| **Show price in local currency** | +15-20% conversion |
-| **Apple Pay / Google Pay** | +5-10% conversion (mobile) |
-| **Visible money-back guarantee** | +10-15% trust |
-| **1-step checkout** | +10-20% conversion |
-| **Testimonials near pay button** | +5-10% conversion |
-
+- **Show price in local currency:** +15-20% conversion
+- **Apple Pay / Google Pay:** +5-10% conversion (mobile)
+- **Visible money-back guarantee:** +10-15% trust
+- **1-step checkout:** +10-20% conversion
+- **Testimonials near pay button:** +5-10% conversion
 ### Reducing Chargebacks
 
-| Measure | Effectiveness |
-|---------|--------------|
-| **3D Secure enabled** | High |
-| **Clear invoice description** | Medium-High |
-| **Visible refund policy** | High |
-| **Payment notifications** | Medium |
-| **Fast student support** | High |
-
+- **3D Secure enabled:** High
+- **Clear invoice description:** Medium-High
+- **Visible refund policy:** High
+- **Payment notifications:** Medium
+- **Fast student support:** High
 ## 9. Common Troubleshooting
 
 ### Issue 1: Payment Declined
@@ -281,14 +245,11 @@ If you have a platform where multiple instructors sell courses, Stripe Connect i
 
 ### Summary in 5 Steps
 
-| Step | Action | Time |
-|------|--------|------|
-| **1** | Create and verify your Stripe account | 24-72 hours |
-| **2** | Create your course on the chosen platform | 1-7 days |
-| **3** | Connect Stripe as payment processor | 15 min |
-| **4** | Set up prices and subscriptions | 30 min |
-| **5** | Test the payment flow and launch | 1 hour |
-
+- **1:** Create and verify your Stripe account -- 24-72 hours
+- **2:** Create your course on the chosen platform -- 1-7 days
+- **3:** Connect Stripe as payment processor -- 15 min
+- **4:** Set up prices and subscriptions -- 30 min
+- **5:** Test the payment flow and launch -- 1 hour
 ### Post-Setup Checklist
 
 - [ ] Verify Stripe Checkout works correctly

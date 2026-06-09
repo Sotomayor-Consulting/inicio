@@ -1,218 +1,197 @@
-Ôªø---
-title: "Evasi√≥n vs Planificaci√≥n Fiscal: La L√≠nea que Todo Emprendedor Debe Conocer"
-description: "Las diferencias clave entre evasi√≥n fiscal (ilegal) y planificaci√≥n fiscal (legal), c√≥mo asegurarte de estar del lado correcto y proteger tu LLC."
-cardImage: "@/images/insights/evasi√≥n-vs-planficaci√≥n-fiscal.png"
+---
+title: "EvasiÛn vs PlanificaciÛn Fiscal: La LÌnea que Todo Emprendedor Debe Conocer"
+description: "Las diferencias clave entre evasiÛn fiscal (ilegal) y planificaciÛn fiscal (legal), cÛmo asegurarte de estar del lado correcto y proteger tu LLC."
+cardImage: "@/images/insights/evasiÛn-vs-planficaciÛn-fiscal.png"
 cardImageAlt: "Balanza con dinero en un lado y libro de leyes en el otro"
 ---
 
-Uno de los conceptos m√°s confusos para emprendedores internacionales con LLCs es la diferencia entre **evasi√≥n fiscal** (ilegal) y **planificaci√≥n fiscal** (legal). La l√≠nea puede parecer delgada, pero las consecuencias de cruzarla son radicalmente diferentes.
+Uno de los conceptos m·s confusos para emprendedores internacionales con LLCs es la diferencia entre **evasiÛn fiscal** (ilegal) y **planificaciÛn fiscal** (legal). La lÌnea puede parecer delgada, pero las consecuencias de cruzarla son radicalmente diferentes.
 
-En esta gu√≠a explicamos qu√© distingue a una de la otra, con ejemplos concretos para que siempre est√©s del lado correcto de la ley.
+En esta guÌa explicamos quÈ distingue a una de la otra, con ejemplos concretos para que siempre estÈs del lado correcto de la ley.
 
 ## La diferencia fundamental
 
-| Aspecto | Planificaci√≥n Fiscal | Evasi√≥n Fiscal |
-|---------|---------------------|----------------|
-| **Legalidad** | ‚úÖ Legal | ‚ùå Ilegal |
-| **Objetivo** | Pagar lo justo seg√∫n la ley | Pagar menos de lo que exige la ley |
-| **M√©todo** | Usar vac√≠os legales e incentivos fiscales | Ocultar ingresos o inflar gastos |
-| **Riesgo** | Bajo (si se hace correctamente) | Alto (multas, c√°rcel, cierre del negocio) |
-| **Resultado** | Optimizaci√≥n fiscal sostenible | Problemas con el IRS y autoridades locales |
-| **Ejemplo** | Elegir Wyoming por sus leyes favorables | No declarar los ingresos de la LLC |
+- **Legalidad:** ? Legal -- ? Ilegal
+- **Objetivo:** Pagar lo justo seg˙n la ley -- Pagar menos de lo que exige la ley
+- **MÈtodo:** Usar vacÌos legales e incentivos fiscales -- Ocultar ingresos o inflar gastos
+- **Riesgo:** Bajo (si se hace correctamente) -- Alto (multas, c·rcel, cierre del negocio)
+- **Resultado:** OptimizaciÛn fiscal sostenible -- Problemas con el IRS y autoridades locales
+- **Ejemplo:** Elegir Wyoming por sus leyes favorables -- No declarar los ingresos de la LLC
+### La met·fora del sem·foro
 
-### La met√°fora del sem√°foro
+- **?? PlanificaciÛn fiscal:** Usar las reglas a tu favor para pagar lo mÌnimo exigido por ley.
+- **?? ElusiÛn fiscal:** Usar vacÌos legales de manera agresiva (zona gris, no recomendada).
+- **?? EvasiÛn fiscal:** Romper la ley para pagar menos impuestos.
 
-- **üü¢ Planificaci√≥n fiscal:** Usar las reglas a tu favor para pagar lo m√≠nimo exigido por ley.
-- **üü° Elusi√≥n fiscal:** Usar vac√≠os legales de manera agresiva (zona gris, no recomendada).
-- **üî¥ Evasi√≥n fiscal:** Romper la ley para pagar menos impuestos.
+## øQuÈ es la planificaciÛn fiscal?
 
-## ¬øQu√© es la planificaci√≥n fiscal?
+Es el proceso de organizar tus finanzas y tu estructura empresarial para **pagar los impuestos mÌnimos exigidos por la ley**, aprovechando deducciones, crÈditos fiscales, tratados internacionales y estructuras legales.
 
-Es el proceso de organizar tus finanzas y tu estructura empresarial para **pagar los impuestos m√≠nimos exigidos por la ley**, aprovechando deducciones, cr√©ditos fiscales, tratados internacionales y estructuras legales.
+### CaracterÌsticas
 
-### Caracter√≠sticas
+- **Transparencia:** Todos los ingresos se declaran
+- **Legalidad:** Se usan mecanismos previstos por la ley
+- **DocumentaciÛn:** Todo est· respaldado con facturas, contratos y registros
+- **Sostenibilidad:** La estrategia se mantiene en el tiempo
+- **Profesional:** Se hace con asesorÌa de contadores y abogados
+### Ejemplos legÌtimos de planificaciÛn fiscal
 
-| Caracter√≠stica | Descripci√≥n |
-|---------------|-------------|
-| **Transparencia** | Todos los ingresos se declaran |
-| **Legalidad** | Se usan mecanismos previstos por la ley |
-| **Documentaci√≥n** | Todo est√° respaldado con facturas, contratos y registros |
-| **Sostenibilidad** | La estrategia se mantiene en el tiempo |
-| **Profesional** | Se hace con asesor√≠a de contadores y abogados |
+? **Elegir el estado correcto para tu LLC.**
+   - Elegir Wyoming en lugar de Delaware para ahorrar $240/aÒo en franchise tax.
+   - Base legal: Libertad de elegir dÛnde constituir.
 
-### Ejemplos leg√≠timos de planificaci√≥n fiscal
+? **Usar la estructura fiscal adecuada.**
+   - Single-member LLC como disregarded entity para evitar la doble tributaciÛn.
+   - Base legal: IRS permite esta clasificaciÛn.
 
-‚úÖ **Elegir el estado correcto para tu LLC.**
-   - Elegir Wyoming en lugar de Delaware para ahorrar $240/a√±o en franchise tax.
-   - Base legal: Libertad de elegir d√≥nde constituir.
-
-‚úÖ **Usar la estructura fiscal adecuada.**
-   - Single-member LLC como disregarded entity para evitar la doble tributaci√≥n.
-   - Base legal: IRS permite esta clasificaci√≥n.
-
-‚úÖ **Aprovechar deducciones empresariales.**
+? **Aprovechar deducciones empresariales.**
    - Deducir software, equipos, internet y servicios necesarios para el negocio.
    - Base legal: Section 162 del Internal Revenue Code.
 
-‚úÖ **Reclamar cr√©ditos fiscales.**
+? **Reclamar crÈditos fiscales.**
    - Foreign Tax Credit por impuestos pagados en EE.UU.
    - Base legal: Internal Revenue Code Section 901.
 
-‚úÖ **Usar tratados fiscales internacionales.**
-   - Reducir retenciones sobre intereses y regal√≠as.
-   - Base legal: Tratado fiscal entre tu pa√≠s y EE.UU.
+? **Usar tratados fiscales internacionales.**
+   - Reducir retenciones sobre intereses y regalÌas.
+   - Base legal: Tratado fiscal entre tu paÌs y EE.UU.
 
-‚úÖ **Separar l√≠neas de negocio en diferentes LLCs.**
-   - Proteger los activos de una l√≠nea de las responsabilidades de otra.
+? **Separar lÌneas de negocio en diferentes LLCs.**
+   - Proteger los activos de una lÌnea de las responsabilidades de otra.
    - Base legal: Derecho corporativo estadounidense.
 
-## ¬øQu√© es la evasi√≥n fiscal?
+## øQuÈ es la evasiÛn fiscal?
 
-Es la acci√≥n ilegal de **no pagar los impuestos que la ley exige**, mediante el ocultamiento de ingresos, la sobreestimaci√≥n de gastos, el uso de facturas falsas o la transferencia de activos para evitar su reporte.
+Es la acciÛn ilegal de **no pagar los impuestos que la ley exige**, mediante el ocultamiento de ingresos, la sobreestimaciÛn de gastos, el uso de facturas falsas o la transferencia de activos para evitar su reporte.
 
-### Caracter√≠sticas
+### CaracterÌsticas
 
-| Caracter√≠stica | Descripci√≥n |
-|---------------|-------------|
-| **Ocultamiento** | Ingresos no declarados |
-| **Ilegalidad** | Violaci√≥n directa de la ley |
-| **Falta de documentaci√≥n** | Sin respaldo real de las transacciones |
-| **Riesgo alto** | Multas, c√°rcel, cierre del negocio |
-| **Insostenible** | Tarde o temprano el fisco lo detecta |
+- **Ocultamiento:** Ingresos no declarados
+- **Ilegalidad:** ViolaciÛn directa de la ley
+- **Falta de documentaciÛn:** Sin respaldo real de las transacciones
+- **Riesgo alto:** Multas, c·rcel, cierre del negocio
+- **Insostenible:** Tarde o temprano el fisco lo detecta
+### Ejemplos de evasiÛn fiscal
 
-### Ejemplos de evasi√≥n fiscal
-
-‚ùå **No declarar ingresos de la LLC.**
+? **No declarar ingresos de la LLC.**
    - Recibir pagos en una cuenta personal y no reportarlos al IRS ni a la autoridad local.
    - Consecuencia: Fraude fiscal, multas de hasta el 75% de los impuestos no pagados.
 
-‚ùå **Usar facturas falsas para inflar gastos.**
+? **Usar facturas falsas para inflar gastos.**
    - Comprar facturas de proveedores inexistentes para reducir la ganancia imponible.
-   - Consecuencia: Delito penal, posible c√°rcel.
+   - Consecuencia: Delito penal, posible c·rcel.
 
-‚ùå **Transferir activos a familiares para evitar impuestos.**
-   - Poner la LLC a nombre de un familiar sin capacidad econ√≥mica real.
+? **Transferir activos a familiares para evitar impuestos.**
+   - Poner la LLC a nombre de un familiar sin capacidad econÛmica real.
    - Consecuencia: El IRS puede ignorar la transferencia y aplicar multas.
 
-‚ùå **No presentar el Formulario 5472 a prop√≥sito.**
-   - Ocultar transacciones entre el due√±o y la LLC.
-   - Consecuencia: Multa de $25,000 por a√±o.
+? **No presentar el Formulario 5472 a propÛsito.**
+   - Ocultar transacciones entre el dueÒo y la LLC.
+   - Consecuencia: Multa de $25,000 por aÒo.
 
-‚ùå **Declarar que la LLC no tiene ingresos cuando s√≠ los tiene.**
-   - Reportar $0 en ingresos cuando la LLC recibi√≥ pagos.
-   - Consecuencia: Auditor√≠a del IRS, multas y posible acci√≥n penal.
+? **Declarar que la LLC no tiene ingresos cuando sÌ los tiene.**
+   - Reportar $0 en ingresos cuando la LLC recibiÛ pagos.
+   - Consecuencia: AuditorÌa del IRS, multas y posible acciÛn penal.
 
-‚ùå **Usar la LLC para ocultar activos personales de acreedores.**
+? **Usar la LLC para ocultar activos personales de acreedores.**
    - Transferir bienes personales a la LLC para evitar que un acreedor los reclame.
    - Consecuencia: Un juez puede revertir la transferencia (fraudulent conveyance).
 
-## Zona gris: Elusi√≥n fiscal agresiva
+## Zona gris: ElusiÛn fiscal agresiva
 
-Entre la planificaci√≥n y la evasi√≥n existe una **zona gris** donde algunas pr√°cticas usan vac√≠os legales de manera que la ley no prohibe expl√≠citamente pero que no fueron previstos por el legislador.
+Entre la planificaciÛn y la evasiÛn existe una **zona gris** donde algunas pr·cticas usan vacÌos legales de manera que la ley no prohibe explÌcitamente pero que no fueron previstos por el legislador.
 
-### Ejemplos de elusi√≥n fiscal
+### Ejemplos de elusiÛn fiscal
 
-‚ö†Ô∏è **Constituir la LLC en un estado y operar f√≠sicamente en otro.**
-   - Legal, pero si no hay prop√≥sito econ√≥mico real, el IRS puede cuestionarlo.
+?? **Constituir la LLC en un estado y operar fÌsicamente en otro.**
+   - Legal, pero si no hay propÛsito econÛmico real, el IRS puede cuestionarlo.
 
-‚ö†Ô∏è **Pagarte un salario bajo desde la LLC para evitar impuestos.**
+?? **Pagarte un salario bajo desde la LLC para evitar impuestos.**
    - Legal si el salario es de mercado; ilegal si es artificialmente bajo.
 
-‚ö†Ô∏è **Usar estructuras offshore complejas sin prop√≥sito econ√≥mico.**
-   - Si la √∫nica raz√≥n es evitar impuestos, puede ser considerado elusi√≥n abusiva.
+?? **Usar estructuras offshore complejas sin propÛsito econÛmico.**
+   - Si la ˙nica razÛn es evitar impuestos, puede ser considerado elusiÛn abusiva.
 
-### Riesgos de la elusi√≥n agresiva
+### Riesgos de la elusiÛn agresiva
 
-- El IRS puede aplicar la **doctrina del prop√≥sito econ√≥mico** (economic substance doctrine).
-- Los tribunales pueden ignorar la estructura si no tiene prop√≥sito comercial real.
-- Puedes terminar pagando los impuestos m√°s multas e intereses.
+- El IRS puede aplicar la **doctrina del propÛsito econÛmico** (economic substance doctrine).
+- Los tribunales pueden ignorar la estructura si no tiene propÛsito comercial real.
+- Puedes terminar pagando los impuestos m·s multas e intereses.
 
-> **Regla general:** Si la estructura no tiene sentido comercial m√°s all√° de ahorrar impuestos, est√° en zona de riesgo.
+> **Regla general:** Si la estructura no tiene sentido comercial m·s all· de ahorrar impuestos, est· en zona de riesgo.
 
 ## Tabla comparativa detallada
 
-| Acci√≥n | Planificaci√≥n | Elusi√≥n | Evasi√≥n |
-|--------|--------------|---------|---------|
-| Elegir Wyoming para tu LLC | ‚úÖ | ‚ùå | ‚ùå |
-| Deducir gastos reales del negocio | ‚úÖ | ‚ùå | ‚ùå |
-| Usar tratado fiscal para reducir retenci√≥n | ‚úÖ | ‚ùå | ‚ùå |
-| No declarar ingresos de un cliente | ‚ùå | ‚ùå | ‚ùå |
-| Facturar a nombre de la LLC pero operar como persona f√≠sica | ‚ùå | ‚ö†Ô∏è Si es sin prop√≥sito | ‚ùå |
-| Crear LLC en Delaware sin operar all√≠ solo por privacidad | ‚ùå | ‚ö†Ô∏è | ‚ùå |
-| Transferir activos a la LLC para evitar embargo | ‚ùå | ‚ùå | ‚ùå |
-| Deducir gastos personales como empresariales | ‚ùå | ‚ùå | ‚ùå |
-
-## Consecuencias de la evasi√≥n fiscal
+- **Elegir Wyoming para tu LLC:** ? -- ? -- ?
+- **Deducir gastos reales del negocio:** ? -- ? -- ?
+- **Usar tratado fiscal para reducir retenciÛn:** ? -- ? -- ?
+- **No declarar ingresos de un cliente:** ? -- ? -- ?
+- **Facturar a nombre de la LLC pero operar como persona fÌsica:** ? -- ?? Si es sin propÛsito -- ?
+- **Crear LLC en Delaware sin operar allÌ solo por privacidad:** ? -- ?? -- ?
+- **Transferir activos a la LLC para evitar embargo:** ? -- ? -- ?
+- **Deducir gastos personales como empresariales:** ? -- ? -- ?
+## Consecuencias de la evasiÛn fiscal
 
 ### Para el IRS (EE.UU.)
 
-| Consecuencia | Detalle |
-|-------------|---------|
-| **Multas civiles** | Hasta el 75% de los impuestos no pagados |
-| **Intereses** | Desde la fecha de vencimiento original |
-| **Auditor√≠a** | Investigaci√≥n completa de tus finanzas |
-| **Cargos penales** | Hasta 5 a√±os de prisi√≥n por fraude fiscal |
-| **Cierre de la LLC** | El IRS puede revocar el EIN |
-| **Extradici√≥n** | Posible si el monto es significativo |
+- **Multas civiles:** Hasta el 75% de los impuestos no pagados
+- **Intereses:** Desde la fecha de vencimiento original
+- **AuditorÌa:** InvestigaciÛn completa de tus finanzas
+- **Cargos penales:** Hasta 5 aÒos de prisiÛn por fraude fiscal
+- **Cierre de la LLC:** El IRS puede revocar el EIN
+- **ExtradiciÛn:** Posible si el monto es significativo
+### Para tu paÌs de residencia
 
-### Para tu pa√≠s de residencia
-
-| Consecuencia | Detalle |
-|-------------|---------|
-| **Multas** | Variables seg√∫n el pa√≠s (hasta 300% del impuesto no pagado en algunos) |
-| **Cargos penales** | C√°rcel en la mayor√≠a de pa√≠ses por evasi√≥n fiscal |
-| **Embargo de cuentas** | En tu pa√≠s y potencialmente en EE.UU. |
-| **Prohibici√≥n de operar** | No puedes ser director de empresas |
-| **P√©rdida de la LLC** | El estado puede disolver la LLC |
-
+- **Multas:** Variables seg˙n el paÌs (hasta 300% del impuesto no pagado en algunos)
+- **Cargos penales:** C·rcel en la mayorÌa de paÌses por evasiÛn fiscal
+- **Embargo de cuentas:** En tu paÌs y potencialmente en EE.UU.
+- **ProhibiciÛn de operar:** No puedes ser director de empresas
+- **PÈrdida de la LLC:** El estado puede disolver la LLC
 ### Costo reputacional
 
-- No podr√°s abrir cuentas bancarias en el futuro.
-- Los bancos (Mercury, Relay) te incluir√°n en listas negras.
+- No podr·s abrir cuentas bancarias en el futuro.
+- Los bancos (Mercury, Relay) te incluir·n en listas negras.
 - Dificultad para conseguir inversores o socios.
 - Problemas para obtener visas o residencia en EE.UU.
 
-## C√≥mo asegurarte de estar en el lado correcto
+## CÛmo asegurarte de estar en el lado correcto
 
-### Principios de planificaci√≥n fiscal √©tica
+### Principios de planificaciÛn fiscal Ètica
 
-1. **Declara todos tus ingresos.** Siempre. En todos los pa√≠ses donde tengas obligaci√≥n.
-2. **Documenta todo.** Facturas, contratos, recibos. Si no est√° documentado, no existe.
-3. **Usa estructuras con prop√≥sito econ√≥mico real.** La LLC debe tener un negocio genuino.
-4. **Paga lo que la ley exige, ni m√°s ni menos.** La planificaci√≥n busca pagar el m√≠nimo legal, no evadir.
-5. **Consulta con profesionales.** Un CPA y un abogado fiscal son inversi√≥n, no gasto.
-6. **Revisa tu estructura regularmente.** Las leyes cambian; lo que hoy es legal puede no serlo ma√±ana.
+1. **Declara todos tus ingresos.** Siempre. En todos los paÌses donde tengas obligaciÛn.
+2. **Documenta todo.** Facturas, contratos, recibos. Si no est· documentado, no existe.
+3. **Usa estructuras con propÛsito econÛmico real.** La LLC debe tener un negocio genuino.
+4. **Paga lo que la ley exige, ni m·s ni menos.** La planificaciÛn busca pagar el mÌnimo legal, no evadir.
+5. **Consulta con profesionales.** Un CPA y un abogado fiscal son inversiÛn, no gasto.
+6. **Revisa tu estructura regularmente.** Las leyes cambian; lo que hoy es legal puede no serlo maÒana.
 
 ### Preguntas para autoevaluarte
 
-| Pregunta | Si la respuesta te hace dudar... |
-|----------|----------------------------------|
-| ¬øDeclaras todos los ingresos de tu LLC? | Puede ser evasi√≥n |
-| ¬øTienes documentaci√≥n real de tus gastos? | Puede ser evasi√≥n |
-| ¬øTu LLC tiene un negocio real? | Puede ser elusi√≥n abusiva |
-| ¬øUsas la cuenta bancaria de la LLC solo para gastos del negocio? | Mezcla de finanzas = riesgo |
-| ¬øPresentas todos los formularios que exige el IRS? | Incumplimiento = multas |
-| ¬øSabes c√≥mo tu pa√≠s trata tu LLC para fines fiscales? | Desconocimiento = riesgo |
+- **øDeclaras todos los ingresos de tu LLC?:** Puede ser evasiÛn
+- **øTienes documentaciÛn real de tus gastos?:** Puede ser evasiÛn
+- **øTu LLC tiene un negocio real?:** Puede ser elusiÛn abusiva
+- **øUsas la cuenta bancaria de la LLC solo para gastos del negocio?:** Mezcla de finanzas = riesgo
+- **øPresentas todos los formularios que exige el IRS?:** Incumplimiento = multas
+- **øSabes cÛmo tu paÌs trata tu LLC para fines fiscales?:** Desconocimiento = riesgo
+## Casos pr·cticos
 
-## Casos pr√°cticos
+### Caso 1: PlanificaciÛn fiscal (? legal)
 
-### Caso 1: Planificaci√≥n fiscal (‚úÖ legal)
-
-**Situaci√≥n:** Ana, dise√±adora en M√©xico, LLC en Wyoming.
+**SituaciÛn:** Ana, diseÒadora en MÈxico, LLC en Wyoming.
 
 **Lo que hace:**
-- Declara todos los ingresos de la LLC en M√©xico.
-- Presenta el Formulario 5472 cada a√±o.
+- Declara todos los ingresos de la LLC en MÈxico.
+- Presenta el Formulario 5472 cada aÒo.
 - Deducir gastos reales: software, internet, equipo.
-- Usa el tratado M√©xico-EE.UU. para reducir retenciones.
+- Usa el tratado MÈxico-EE.UU. para reducir retenciones.
 - Tiene cuenta separada para la LLC.
 - Consulta con un CPA anualmente.
 
-**Resultado:** ‚úÖ Planificaci√≥n fiscal legal. Paga ~$9,000 de impuestos en M√©xico sobre $60,000 de ingresos. Sin problemas con el IRS.
+**Resultado:** ? PlanificaciÛn fiscal legal. Paga ~$9,000 de impuestos en MÈxico sobre $60,000 de ingresos. Sin problemas con el IRS.
 
-### Caso 2: Evasi√≥n fiscal (‚ùå ilegal)
+### Caso 2: EvasiÛn fiscal (? ilegal)
 
-**Situaci√≥n:** Pedro, consultor en Colombia, LLC en Florida.
+**SituaciÛn:** Pedro, consultor en Colombia, LLC en Florida.
 
 **Lo que hace:**
 - Recibe pagos de clientes en su cuenta personal en Colombia.
@@ -221,37 +200,37 @@ Entre la planificaci√≥n y la evasi√≥n existe una **zona gris** donde algunas pr√
 - Paga gastos personales desde la cuenta de la LLC.
 - No tiene contabilidad.
 
-**Resultado:** ‚ùå Evasi√≥n fiscal. El IRS le env√≠a una carta por el 5472 no presentado. Colombia lo detecta por un cruce bancario. Multa del IRS: $25,000. Multa en Colombia: $15,000. Total: $40,000 en multas + impuestos atrasados + intereses.
+**Resultado:** ? EvasiÛn fiscal. El IRS le envÌa una carta por el 5472 no presentado. Colombia lo detecta por un cruce bancario. Multa del IRS: $25,000. Multa en Colombia: $15,000. Total: $40,000 en multas + impuestos atrasados + intereses.
 
-### Caso 3: Elusi√≥n agresiva (‚ö†Ô∏è zona gris)
+### Caso 3: ElusiÛn agresiva (?? zona gris)
 
-**Situaci√≥n:** Carlos, empresario en Argentina, LLC en Delaware.
+**SituaciÛn:** Carlos, empresario en Argentina, LLC en Delaware.
 
 **Lo que hace:**
-- Constituye la LLC en Delaware solo por privacidad (no opera all√≠).
+- Constituye la LLC en Delaware solo por privacidad (no opera allÌ).
 - No tiene Operating Agreement.
-- Factura a trav√©s de la LLC pero el negocio es 100% desde Argentina.
-- No tiene presencia f√≠sica en EE.UU.
+- Factura a travÈs de la LLC pero el negocio es 100% desde Argentina.
+- No tiene presencia fÌsica en EE.UU.
 
-**An√°lisis:**
+**An·lisis:**
 - La estructura es legal (elegir estado es libertad del contribuyente).
 - Pero si el IRS o Argentina cuestionan, puede tener problemas.
 - **Riesgo bajo** si cumple con todas las obligaciones fiscales.
-- **Riesgo medio** si no tiene documentaci√≥n adecuada.
+- **Riesgo medio** si no tiene documentaciÛn adecuada.
 
 ## Mitos comunes
 
 ### Mito 1: "Si la LLC no paga impuestos en EE.UU., no tengo que declarar nada"
 
-**Realidad:** La LLC no paga impuestos en EE.UU. (si es disregarded entity sin ECI), pero **t√∫** debes declarar los ingresos en tu pa√≠s de residencia.
+**Realidad:** La LLC no paga impuestos en EE.UU. (si es disregarded entity sin ECI), pero **t˙** debes declarar los ingresos en tu paÌs de residencia.
 
 ### Mito 2: "La LLC es una estructura para no pagar impuestos"
 
-**Realidad:** La LLC es una estructura legal para **organizar tu negocio**, no para evadir impuestos. Los ingresos de la LLC tributan en tu pa√≠s de residencia.
+**Realidad:** La LLC es una estructura legal para **organizar tu negocio**, no para evadir impuestos. Los ingresos de la LLC tributan en tu paÌs de residencia.
 
 ### Mito 3: "Si el contador lo dice, es legal"
 
-**Realidad:** No todos los contadores conocen fiscalidad internacional. Un mal consejo puede llevarte a la evasi√≥n sin saberlo.
+**Realidad:** No todos los contadores conocen fiscalidad internacional. Un mal consejo puede llevarte a la evasiÛn sin saberlo.
 
 ### Mito 4: "Mientras no me auditen, estoy bien"
 
@@ -259,35 +238,35 @@ Entre la planificaci√≥n y la evasi√≥n existe una **zona gris** donde algunas pr√
 
 ### Mito 5: "Las LLCs son para lavar dinero"
 
-**Realidad:** Este mito da√±a la reputaci√≥n de quienes usan LLCs leg√≠timamente. Las LLCs son estructuras legales y respetadas en todo el mundo.
+**Realidad:** Este mito daÒa la reputaciÛn de quienes usan LLCs legÌtimamente. Las LLCs son estructuras legales y respetadas en todo el mundo.
 
-## Checklist: ¬øEst√°s del lado correcto?
+## Checklist: øEst·s del lado correcto?
 
-- [ ] Declaras todos los ingresos de tu LLC en tu pa√≠s de residencia.
+- [ ] Declaras todos los ingresos de tu LLC en tu paÌs de residencia.
 - [ ] Presentas todos los formularios que exige el IRS (5472, 1065, etc.).
-- [ ] Tienes documentaci√≥n (facturas, contratos) de todas las transacciones.
+- [ ] Tienes documentaciÛn (facturas, contratos) de todas las transacciones.
 - [ ] La cuenta bancaria de la LLC se usa solo para gastos del negocio.
 - [ ] No mezclas gastos personales con la LLC.
-- [ ] Tu LLC tiene un prop√≥sito comercial real.
+- [ ] Tu LLC tiene un propÛsito comercial real.
 - [ ] Consultas con un CPA o contador calificado.
-- [ ] Revisas tu estructura fiscal al menos una vez al a√±o.
-- [ ] Sabes c√≥mo tu pa√≠s de residencia trata la LLC fiscalmente.
-- [ ] No tienes ingresos sin declarar en ning√∫n pa√≠s.
+- [ ] Revisas tu estructura fiscal al menos una vez al aÒo.
+- [ ] Sabes cÛmo tu paÌs de residencia trata la LLC fiscalmente.
+- [ ] No tienes ingresos sin declarar en ning˙n paÌs.
 
-## Conclusi√≥n
+## ConclusiÛn
 
-La diferencia entre evasi√≥n y planificaci√≥n fiscal es clara:
+La diferencia entre evasiÛn y planificaciÛn fiscal es clara:
 
-- **Planificaci√≥n fiscal:** Usar las reglas a tu favor. Es legal, √©tico y sostenible.
-- **Evasi√≥n fiscal:** Romper las reglas. Es ilegal, riesgoso y tiene consecuencias graves.
-- **Elusi√≥n agresiva:** Jugar en la zona gris. No recomendada sin asesor√≠a experta.
+- **PlanificaciÛn fiscal:** Usar las reglas a tu favor. Es legal, Ètico y sostenible.
+- **EvasiÛn fiscal:** Romper las reglas. Es ilegal, riesgoso y tiene consecuencias graves.
+- **ElusiÛn agresiva:** Jugar en la zona gris. No recomendada sin asesorÌa experta.
 
-**La clave para estar del lado correcto:** Declara todos tus ingresos, documenta todas tus transacciones, usa estructuras con prop√≥sito econ√≥mico real y consulta con profesionales.
+**La clave para estar del lado correcto:** Declara todos tus ingresos, documenta todas tus transacciones, usa estructuras con propÛsito econÛmico real y consulta con profesionales.
 
-No vale la pena arriesgar tu patrimonio, tu libertad y tu reputaci√≥n por ahorrar impuestos ilegalmente. La planificaci√≥n fiscal legal te permite dormir tranquilo.
+No vale la pena arriesgar tu patrimonio, tu libertad y tu reputaciÛn por ahorrar impuestos ilegalmente. La planificaciÛn fiscal legal te permite dormir tranquilo.
 
-## ¬øNecesitas asegurarte de que tu estructura fiscal sea legal?
+## øNecesitas asegurarte de que tu estructura fiscal sea legal?
 
-En **Sotomayor Consulting International** te ayudamos a dise√±ar una estrategia de planificaci√≥n fiscal que cumpla con todas las leyes en EE.UU. y tu pa√≠s de residencia.
+En **Sotomayor Consulting International** te ayudamos a diseÒar una estrategia de planificaciÛn fiscal que cumpla con todas las leyes en EE.UU. y tu paÌs de residencia.
 
-**Agende una asesor√≠a gratuita** y mantente del lado correcto de la ley.
+**Agende una asesorÌa gratuita** y mantente del lado correcto de la ley.

@@ -13,17 +13,14 @@ Thousands of entrepreneurs have their Stripe accounts closed every year — ofte
 
 ### Main Reasons
 
-| Reason | Description | Severity |
-|--------|-------------|----------|
-| **Terms of Service violation** | Prohibited business or disallowed activity | ⚠️ Critical |
-| **High chargeback risk** | Chargeback rate above 1% | ⚠️ High |
-| **Fraud or fraud suspicion** | Suspicious transactions or inconsistencies | ⚠️ Critical |
-| **Incomplete KYC** | Expired documents or inconsistent information | ⚠️ Medium |
-| **Risk profile change** | Business changed activities without notice | ⚠️ High |
-| **High cancellation rate** | Too many refunds or cancellations | ⚠️ Medium |
-| **Suspicious activity** | Unusual transaction patterns | ⚠️ High |
-| **BOI/AML non-compliance** | Regulatory obligations not met | ⚠️ Critical |
-
+- **Terms of Service violation:** Prohibited business or disallowed activity -- ⚠️ Critical
+- **High chargeback risk:** Chargeback rate above 1% -- ⚠️ High
+- **Fraud or fraud suspicion:** Suspicious transactions or inconsistencies -- ⚠️ Critical
+- **Incomplete KYC:** Expired documents or inconsistent information -- ⚠️ Medium
+- **Risk profile change:** Business changed activities without notice -- ⚠️ High
+- **High cancellation rate:** Too many refunds or cancellations -- ⚠️ Medium
+- **Suspicious activity:** Unusual transaction patterns -- ⚠️ High
+- **BOI/AML non-compliance:** Regulatory obligations not met -- ⚠️ Critical
 > **Statistic:** According to community reports, approximately 2% to 5% of Stripe accounts are closed or suspended at some point. Most closures occur within the first 6 months of operation.
 
 ## 2. Golden Rules to Keep Your Account Active
@@ -40,14 +37,11 @@ Read and understand Stripe's Terms of Service. They change periodically, and it'
 
 ### Rule 2: Keep Your Documentation Updated
 
-| Document | Update Frequency |
-|----------|-----------------|
-| **Identity document** | Renew before expiration |
-| **Proof of address** | Less than 3 months old (when requested) |
-| **Company documents** | Whenever there is a change |
-| **BOI** | 30 days after any change |
-| **Bank account** | Notify Stripe if it changes |
-
+- **Identity document:** Renew before expiration
+- **Proof of address:** Less than 3 months old (when requested)
+- **Company documents:** Whenever there is a change
+- **BOI:** 30 days after any change
+- **Bank account:** Notify Stripe if it changes
 ### Rule 3: Monitor Your Chargeback Rate
 
 The ideal chargeback rate is **below 0.5%**. Above 1%, Stripe may put your account under review. Above 2%, closure is almost certain.
@@ -93,14 +87,11 @@ Stripe analyzes your website or app during verification and continuously after a
 
 ### High Risk (Constant Review)
 
-| Category | Risk | Strategy |
-|----------|------|----------|
-| **Health and wellness** | Supplements, medical equipment | Additional documentation, certifications |
-| **Travel** | Agencies, bookings | Chargeback anticipation, reserve fund |
-| **Financial services** | Consulting, currency exchange | Licenses and verifications |
-| **Subscriptions** | Recurring models | Clear cancellation policy |
-| **Digital products** | Courses, e-books | Immediate delivery and support |
-
+- **Health and wellness:** Supplements, medical equipment -- Additional documentation, certifications
+- **Travel:** Agencies, bookings -- Chargeback anticipation, reserve fund
+- **Financial services:** Consulting, currency exchange -- Licenses and verifications
+- **Subscriptions:** Recurring models -- Clear cancellation policy
+- **Digital products:** Courses, e-books -- Immediate delivery and support
 ## 4. Warning Signs Stripe Monitors
 
 ### Customer Behavior
@@ -127,13 +118,10 @@ Stripe analyzes your website or app during verification and continuously after a
 
 ### Alert Levels
 
-| Level | Notification | Timeline | Action Required |
-|-------|-------------|----------|-----------------|
-| **1 - Warning** | Email with suggestions | N/A | Adjust practices |
-| **2 - Document request** | Email + dashboard | 7-14 days | Send requested documents |
-| **3 - Temporary suspension** | Email + dashboard | Immediate | Resolve cause + contact support |
-| **4 - Closure** | Formal email | Immediate | Request fund release |
-
+- **1 - Warning:** Email with suggestions -- N/A -- Adjust practices
+- **2 - Document request:** Email + dashboard -- 7-14 days -- Send requested documents
+- **3 - Temporary suspension:** Email + dashboard -- Immediate -- Resolve cause + contact support
+- **4 - Closure:** Formal email -- Immediate -- Request fund release
 ### What NOT to Do When Receiving an Alert
 
 - ❌ Ignore the email or notification
@@ -228,29 +216,23 @@ While waiting for resolution:
 
 ## 8. Alternatives to Stripe
 
-| Platform | Ideal for | Fees | Differentiator |
-|----------|-----------|------|----------------|
-| **Paypal** | Freelancers, international e-commerce | 2.9% + $0.30 | Recognized brand, integrated disputes |
-| **Mercado Pago** | Latin America | 3-6% | Integration with Mercado Libre |
-| **Square** | In-person and online | 2.6% + $0.10 | Free card reader |
-| **Payoneer** | Marketplaces and freelancers | 1-3% | International payment account |
-| **Adyen** | High volume | Negotiable | Enterprise platform |
-| **Paddle** | SaaS and digital products | 5% + $0.50 | VAT handling included |
-
+- **Paypal:** Freelancers, international e-commerce -- 2.9% + $0.30 -- Recognized brand, integrated disputes
+- **Mercado Pago:** Latin America -- 3-6% -- Integration with Mercado Libre
+- **Square:** In-person and online -- 2.6% + $0.10 -- Free card reader
+- **Payoneer:** Marketplaces and freelancers -- 1-3% -- International payment account
+- **Adyen:** High volume -- Negotiable -- Enterprise platform
+- **Paddle:** SaaS and digital products -- 5% + $0.50 -- VAT handling included
 ## 9. Stripe Radar: Fraud Prevention
 
 **Stripe Radar** is a powerful tool that helps prevent fraudulent transactions and reduce chargebacks
 
 ### Recommended Settings
 
-| Rule | Action | Description |
-|------|--------|-------------|
-| **Block high-risk country IPs** | Block | Prevents transactions from high-fraud countries |
-| **Block temporary emails** | Block | Prevents disposable email use |
-| **Require 3D Secure above $100** | Require authentication | Reduces chargebacks on high amounts |
-| **Block international debit cards** | Block | Prevents international card fraud |
-| **Manually review suspicious transactions** | Review | Allows analysis before approval |
-
+- **Block high-risk country IPs:** Block -- Prevents transactions from high-fraud countries
+- **Block temporary emails:** Block -- Prevents disposable email use
+- **Require 3D Secure above $100:** Require authentication -- Reduces chargebacks on high amounts
+- **Block international debit cards:** Block -- Prevents international card fraud
+- **Manually review suspicious transactions:** Review -- Allows analysis before approval
 ### Radar Pricing
 - **Radar for Fraud Teams:** $0.02/transaction + $0.10/manually reviewed transaction
 - **Radar (free):** Basic rules included in all accounts

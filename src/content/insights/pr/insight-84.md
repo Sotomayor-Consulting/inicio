@@ -13,24 +13,18 @@ Neste guia, explicamos **todos os impostos que um estrangeiro paga ao investir e
 
 ### Transfer Tax (Imposto de Transmissão)
 
-| Estado/County | Alíquota | Quem Paga | Exemplo ($500K) |
-|--------------|---------|-----------|----------------|
-| **Flórida** | 0,7% (doc stamp) + $0,35/$100 (intangíveis) | Vendedor ou negociável | $3.500-5.000 |
-| **Texas** | 0,5-1,5% (state + county) | Vendedor | $2.500-7.500 |
-| **Nova York** | 1,825-2,075% (city + state) | Vendedor | $9.125-10.375 |
-| **Califórnia** | 0,11% (county varia) | Vendedor | $550 |
-| **Delaware** | 3% (state + county) | Vendedor | $15.000 |
-
+- **Flórida:** 0,7% (doc stamp) + $0,35/$100 (intangíveis) -- Vendedor ou negociável -- $3.500-5.000
+- **Texas:** 0,5-1,5% (state + county) -- Vendedor -- $2.500-7.500
+- **Nova York:** 1,825-2,075% (city + state) -- Vendedor -- $9.125-10.375
+- **Califórnia:** 0,11% (county varia) -- Vendedor -- $550
+- **Delaware:** 3% (state + county) -- Vendedor -- $15.000
 ### Recording Fees e Outros Custos
 
-| Item | Custo Típico |
-|------|-------------|
-| **Recording fee (registro)** | $50-200 |
-| **Title search** | $200-400 |
-| **Title insurance** | $1.500-3.000 (por $500K) |
-| **Survey (topografia)** | $500-1.000 |
-| **Attorney fees** | $1.000-3.000 |
-
+- **Recording fee (registro):** $50-200
+- **Title search:** $200-400
+- **Title insurance:** $1.500-3.000 (por $500K)
+- **Survey (topografia):** $500-1.000
+- **Attorney fees:** $1.000-3.000
 > Importante: O estrangeiro não paga impostos especiais por comprar. Os custos de fechamento (closing costs) são os mesmos que para um residente, geralmente 3-5% do preço de compra.
 
 ## 2. Property Tax (Imposto Predial)
@@ -39,189 +33,147 @@ Neste guia, explicamos **todos os impostos que um estrangeiro paga ao investir e
 
 É um imposto anual baseado no valor avaliado da propriedade. TODOS os proprietários pagam, sejam residentes ou estrangeiros.
 
-| Estado | Alíquota Efetiva Média | Por $400K ao Ano |
-|--------|-----------------------|-----------------|
-| **Flórida** | 0,83% | $3.320 |
-| **Texas** | 1,60% | $6.400 |
-| **Nova York** | 1,40% | $5.600 |
-| **Califórnia** | 0,77% | $3.080 |
-| **Illinois** | 2,08% | $8.320 |
-| **Massachusetts** | 1,12% | $4.480 |
-
+- **Flórida:** 0,83% -- $3.320
+- **Texas:** 1,60% -- $6.400
+- **Nova York:** 1,40% -- $5.600
+- **Califórnia:** 0,77% -- $3.080
+- **Illinois:** 2,08% -- $8.320
+- **Massachusetts:** 1,12% -- $4.480
 ### Como é Calculado
 
 ### O que Acontece se Não Pagar?
 
-| Consequência | Prazo |
-|-------------|-------|
-| **Multa por atraso** | 3-5% adicional |
-| **Juros** | 1-1,5% mensal |
-| **Tax lien (penhora fiscal)** | 2 anos de inadimplência |
-| **Tax deed sale (leilão)** | Após o tax lien |
-
+- **Multa por atraso:** 3-5% adicional
+- **Juros:** 1-1,5% mensal
+- **Tax lien (penhora fiscal):** 2 anos de inadimplência
+- **Tax deed sale (leilão):** Após o tax lien
 ## 3. Income Tax sobre Aluguéis (Para Estrangeiros)
 
 ### Alíquota do Imposto sobre a Renda
 
-| Tipo de Renda | Alíquota | Base |
-|--------------|---------|------|
-| **Aluguel líquido (com W-8ECI)** | 10-37% (alíquota marginal) | Renda líquida = receitas - despesas - depreciação |
-| **Aluguel bruto (sem W-8ECI)** | 30% fixo | Renda bruta (sem deduções) |
-
+- **Aluguel líquido (com W-8ECI):** 10-37% (alíquota marginal) -- Renda líquida = receitas - despesas - depreciação
+- **Aluguel bruto (sem W-8ECI):** 30% fixo -- Renda bruta (sem deduções)
 ### Tabela de Alíquotas Marginais 2026 (Estrangeiro Não Residente)
 
-| Renda Líquida Tributável | Alíquota |
-|-------------------------|---------|
-| $0 - $11.600 | 10% |
-| $11.601 - $47.150 | 12% |
-| $47.151 - $100.525 | 22% |
-| $100.526 - $191.950 | 24% |
-| $191.951 - $243.725 | 32% |
-| $243.726 - $609.350 | 35% |
-| $609.351+ | 37% |
-
+- **$0 - $11.600:** 10%
+- **$11.601 - $47.150:** 12%
+- **$47.151 - $100.525:** 22%
+- **$100.526 - $191.950:** 24%
+- **$191.951 - $243.725:** 32%
+- **$243.726 - $609.350:** 35%
+- **$609.351+:** 37%
 ### Exemplo de Cálculo
 
 ## 4. Impostos na Venda
 
 ### FIRPTA (Foreign Investment in Real Property Tax Act)
 
-| Item | Detalhe |
-|------|---------|
-| **Retenção obrigatória** | 15% do preço TOTAL de venda |
-| **Quem retém** | Comprador (via title company) |
-| **Prazo para remeter ao IRS** | 20 dias após o fechamento |
-| **Formulários** | 8288 + 8288-A |
-| **Isenção** | < $300.000 e comprador usa como residência |
-
+- **Retenção obrigatória:** 15% do preço TOTAL de venda
+- **Quem retém:** Comprador (via title company)
+- **Prazo para remeter ao IRS:** 20 dias após o fechamento
+- **Formulários:** 8288 + 8288-A
+- **Isenção:** < $300.000 e comprador usa como residência
 ### Detalhamento dos Impostos na Venda
 
 ### Como Reduzir Impostos ao Vender
 
-| Estratégia | Como Funciona | Economia |
-|-----------|--------------|---------|
-| **1031 Exchange** | Reinvestir em outra propriedade | Diferir todo o imposto |
-| **Installment sale** | Vender a prazo | Diferir o imposto |
-| **Esperar 1+ anos** | Alíquota de capital gains menor | 20% vs 37% |
-| **Vender com prejuízo** | Compensar outros ganhos | Variável |
-| **Doar para charity** | Evitar imposto + dedução | 100% do imposto |
-
+- **1031 Exchange:** Reinvestir em outra propriedade -- Diferir todo o imposto
+- **Installment sale:** Vender a prazo -- Diferir o imposto
+- **Esperar 1+ anos:** Alíquota de capital gains menor -- 20% vs 37%
+- **Vender com prejuízo:** Compensar outros ganhos -- Variável
+- **Doar para charity:** Evitar imposto + dedução -- 100% do imposto
 ## 5. Estate Tax (Imposto sobre Herança)
 
 ### O Imposto Mais Perigoso para Estrangeiros
 
-| Aspecto | Cidadão/Residente EUA | Estrangeiro Não Residente |
-|---------|---------------------|-------------------------|
-| **Isenção** | $13,61M (2026) | $60.000 |
-| **Alíquota máxima** | 40% | 40% |
-| **Ativos tributados** | Patrimônio mundial | Apenas ativos nos EUA |
-| **Cônjuge** | Dedução marital ilimitada | Limitada |
-
+- **Isenção:** $13,61M (2026) -- $60.000
+- **Alíquota máxima:** 40% -- 40%
+- **Ativos tributados:** Patrimônio mundial -- Apenas ativos nos EUA
+- **Cônjuge:** Dedução marital ilimitada -- Limitada
 ### Como o Estate Tax é Calculado
 
 ### Ativos que Disparam o Estate Tax
 
-| Ativo nos EUA | Sujeito a Estate Tax? |
-|--------------|---------------------|
-| **Propriedade em nome pessoal** | ✅ Sim |
-| **Propriedade em LLC** | ⚠️ Depende (se você é membro direto) |
-| **Ações de LLC em holding estrangeira** | ❌ Não |
-| **Conta bancária** | ❌ Não (portfolio interest) |
-| **Ações de empresas americanas** | ✅ Sim (se detidas diretamente) |
-| **Stripe (conta da LLC)** | ⚠️ Se a LLC é americana, sim |
-| **Seguro de vida** | ❌ Não (se pago do seu país) |
-
+- **Propriedade em nome pessoal:** ✅ Sim
+- **Propriedade em LLC:** ⚠️ Depende (se você é membro direto)
+- **Ações de LLC em holding estrangeira:** ❌ Não
+- **Conta bancária:** ❌ Não (portfolio interest)
+- **Ações de empresas americanas:** ✅ Sim (se detidas diretamente)
+- **Stripe (conta da LLC):** ⚠️ Se a LLC é americana, sim
+- **Seguro de vida:** ❌ Não (se pago do seu país)
 > Para estrangeiros com mais de $60.000 em ativos americanos, o estate tax é o imposto mais importante a planejar. Sem estrutura, o IRS pode tomar até 40% do patrimônio.
 
 ## 6. Impostos Estaduais vs. Federais
 
 ### Resumo por Estado
 
-| Estado | State Income Tax | Property Tax | Transfer Tax (compra) | Estate Tax Estadual |
-|-------|----------------|-------------|---------------------|-------------------|
-| **Flórida** | 0% | 0,8-1,2% | 0,7% | Não |
-| **Texas** | 0% | 1,6-2,2% | 0,5-1,5% | Não |
-| **Wyoming** | 0% | 0,5-0,7% | 0% | Não |
-| **Nevada** | 0% | 0,6-0,9% | 0,5% | Não |
-| **Califórnia** | 1-13,3% | 0,7-0,8% | 0,11% | Não |
-| **Nova York** | 4-10,9% | 1,4% | 1,825% | Sim (até 16%) |
-| **Massachusetts** | 5% | 1,1% | 0,5% | Sim (até 16%) |
-
+- **Flórida:** 0% -- 0,8-1,2% -- 0,7% -- Não
+- **Texas:** 0% -- 1,6-2,2% -- 0,5-1,5% -- Não
+- **Wyoming:** 0% -- 0,5-0,7% -- 0% -- Não
+- **Nevada:** 0% -- 0,6-0,9% -- 0,5% -- Não
+- **Califórnia:** 1-13,3% -- 0,7-0,8% -- 0,11% -- Não
+- **Nova York:** 4-10,9% -- 1,4% -- 1,825% -- Sim (até 16%)
+- **Massachusetts:** 5% -- 1,1% -- 0,5% -- Sim (até 16%)
 ### Impostos Federais (Aplicam em Todos os Estados)
 
-| Imposto | Alíquota | Quando |
-|---------|---------|--------|
-| **Income tax (aluguéis)** | 10-37% | Anual |
-| **Capital gains (venda)** | 0-20% + 3,8% NIIT | Ao vender |
-| **Depreciation recapture** | 25% máximo | Ao vender |
-| **FIRPTA** | 15% (retenção) | Ao vender |
-| **Estate tax** | 18-40% | Ao falecer |
-
+- **Income tax (aluguéis):** 10-37% -- Anual
+- **Capital gains (venda):** 0-20% + 3,8% NIIT -- Ao vender
+- **Depreciation recapture:** 25% máximo -- Ao vender
+- **FIRPTA:** 15% (retenção) -- Ao vender
+- **Estate tax:** 18-40% -- Ao falecer
 ## 7. Tax Treaties (Tratados de Dupla Tributação)
 
 ### Países com Tratado com os EUA
 
-| País | Tratado? | Artigo Relevante | Benefício Principal |
-|------|---------|-----------------|-------------------|
-| **Espanha** | ✅ Sim | Art. 6 (imóveis) + Art. 13 | Crédito fiscal por impostos pagos |
-| **Reino Unido** | ✅ Sim | Art. 6 + Art. 13 | IRS permite deduções sem W-8ECI |
-| **Canadá** | ✅ Sim | Art. 6 | Isenção de FIRPTA se venda < $1M |
-| **Alemanha** | ✅ Sim | Art. 6 | Alíquota reduzida em dividendos |
-| **França** | ✅ Sim | Art. 6 | Crédito fiscal |
-| **Brasil** | ❌ Não | N/A | Paga alíquotas completas |
-| **Argentina** | ❌ Não | N/A | Paga alíquotas completas |
-| **Colômbia** | ❌ Não | N/A | Paga alíquotas completas |
-| **México** | ✅ Sim | Art. 6 | Alíquota reduzida em royalties |
-| **Emirados Árabes** | ❌ Não | N/A | Paga alíquotas completas |
-
+- **Espanha:** ✅ Sim -- Art. 6 (imóveis) + Art. 13 -- Crédito fiscal por impostos pagos
+- **Reino Unido:** ✅ Sim -- Art. 6 + Art. 13 -- IRS permite deduções sem W-8ECI
+- **Canadá:** ✅ Sim -- Art. 6 -- Isenção de FIRPTA se venda < $1M
+- **Alemanha:** ✅ Sim -- Art. 6 -- Alíquota reduzida em dividendos
+- **França:** ✅ Sim -- Art. 6 -- Crédito fiscal
+- **Brasil:** ❌ Não -- N/A -- Paga alíquotas completas
+- **Argentina:** ❌ Não -- N/A -- Paga alíquotas completas
+- **Colômbia:** ❌ Não -- N/A -- Paga alíquotas completas
+- **México:** ✅ Sim -- Art. 6 -- Alíquota reduzida em royalties
+- **Emirados Árabes:** ❌ Não -- N/A -- Paga alíquotas completas
 ### Como Usar um Tratado Fiscal
 
 ## 8. Impostos Segundo a Estrutura
 
 ### Comparação por Estrutura
 
-| Estrutura | Income Tax (Aluguéis) | FIRPTA (Venda) | Estate Tax | Complexidade |
-|-----------|---------------------|---------------|-----------|-------------|
-| **Nome pessoal** | 10-37% | 15% retenção | ✅ Até 40% (> $60K) | Baixa |
-| **LLC (single member)** | 10-37% (pass-through) | 15% retenção | ✅ Até 40% | Baixa |
-| **LLC + Holding estrangeira** | 10-37% | 15% retenção | ❌ Protegido | Média |
-| **Trust irrevogável** | 10-37% (trust rates) | 15% retenção | ❌ Protegido | Alta |
-| **C-Corp** | 21% corporativo | 15% retenção | ❌ Protegido | Alta |
-
+- **Nome pessoal:** 10-37% -- 15% retenção -- ✅ Até 40% (> $60K) -- Baixa
+- **LLC (single member):** 10-37% (pass-through) -- 15% retenção -- ✅ Até 40% -- Baixa
+- **LLC + Holding estrangeira:** 10-37% -- 15% retenção -- ❌ Protegido -- Média
+- **Trust irrevogável:** 10-37% (trust rates) -- 15% retenção -- ❌ Protegido -- Alta
+- **C-Corp:** 21% corporativo -- 15% retenção -- ❌ Protegido -- Alta
 ### A Estrutura Recomendada para Estrangeiros
 
 ## 9. Calendário Fiscal do Estrangeiro
 
 ### Datas Chave
 
-| Data | Obrigação |
-|------|----------|
-| **15 de janeiro** | Pagamento estimado Q4 (se aplicável) |
-| **15 de abril** | Prazo 1040-NR (se esteve nos EUA) |
-| **15 de junho** | Prazo 1040-NR (se NÃO esteve nos EUA) |
-| **15 de junho** | Pagamento estimado Q2 |
-| **15 de setembro** | Pagamento estimado Q3 |
-| **15 de outubro** | Extensão 1040-NR (se solicitou) |
-| **Novembro** | Property tax (varia por county) |
-| **Dezembro** | Revisar estrutura para o próximo ano |
-
+- **15 de janeiro:** Pagamento estimado Q4 (se aplicável)
+- **15 de abril:** Prazo 1040-NR (se esteve nos EUA)
+- **15 de junho:** Prazo 1040-NR (se NÃO esteve nos EUA)
+- **15 de junho:** Pagamento estimado Q2
+- **15 de setembro:** Pagamento estimado Q3
+- **15 de outubro:** Extensão 1040-NR (se solicitou)
+- **Novembro:** Property tax (varia por county)
+- **Dezembro:** Revisar estrutura para o próximo ano
 ### Checklist Anual
 
 ## 10. Estratégias para Reduzir Impostos
 
 ### Resumo de Estratégias
 
-| Estratégia | Imposto que Reduz | Economia Potencial |
-|-----------|------------------|------------------|
-| **Depreciação** | Income tax (aluguéis) | $2.000-10.000/ano |
-| **W-8ECI** | Income tax (evita retenção de 30%) | 30% da renda bruta |
-| **Cost Segregation** | Income tax (acelera depreciação) | $10.000-50.000 ano 1 |
-| **1031 Exchange** | Capital gains (venda) | Ilimitado (diferido) |
-| **LLC + Holding** | Estate tax | Até 40% do patrimônio |
-| **Trust irrevogável** | Estate tax | Até 40% do patrimônio |
-| **Tax treaty** | Income tax + FIRPTA | Variável |
-| **Seguro de vida** | Estate tax | Isento |
-
+- **Depreciação:** Income tax (aluguéis) -- $2.000-10.000/ano
+- **W-8ECI:** Income tax (evita retenção de 30%) -- 30% da renda bruta
+- **Cost Segregation:** Income tax (acelera depreciação) -- $10.000-50.000 ano 1
+- **1031 Exchange:** Capital gains (venda) -- Ilimitado (diferido)
+- **LLC + Holding:** Estate tax -- Até 40% do patrimônio
+- **Trust irrevogável:** Estate tax -- Até 40% do patrimônio
+- **Tax treaty:** Income tax + FIRPTA -- Variável
+- **Seguro de vida:** Estate tax -- Isento
 ### Exemplo de Economia Total
 
 ## 11. Perguntas Frequentes

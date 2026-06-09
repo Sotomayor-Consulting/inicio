@@ -181,26 +181,20 @@ Por isso, cada caso deve ser analisado individualmente.
 
 ## Diferença entre LLC e Corporation
 
-| Aspecto | LLC | Corporation |
-|---------|-----|-------------|
-| Flexibilidade | Mais flexível | Mais estruturada |
-| Formalidades | Menos formalidades | Mais formalidades corporativas |
-| Uso por estrangeiros | Muito utilizada | Menos comum |
-| Ações | Não utiliza ações | Utiliza ações |
-| Ideal para | Negócios digitais, freelancers | Startups com investidores |
-
+- **Flexibilidade:** Mais flexível -- Mais estruturada
+- **Formalidades:** Menos formalidades -- Mais formalidades corporativas
+- **Uso por estrangeiros:** Muito utilizada -- Menos comum
+- **Ações:** Não utiliza ações -- Utiliza ações
+- **Ideal para:** Negócios digitais, freelancers -- Startups com investidores
 A melhor opção dependerá do modelo de negócio.
 
 ## Qual é o melhor estado para abrir uma LLC?
 
 Os estados mais comuns são:
 
-| Estado | Popular por |
-|--------|-------------|
-| **Wyoming** | Custos baixos, privacidade, simplicidade |
-| **Flórida** | Empresários latino-americanos, real estate |
-| **Delaware** | Startups, holdings, empresas com investidores |
-
+- **Wyoming:** Custos baixos, privacidade, simplicidade
+- **Flórida:** Empresários latino-americanos, real estate
+- **Delaware:** Startups, holdings, empresas com investidores
 Não existe um "melhor estado universal".
 
 ## Preciso viajar para os EUA para abrir uma LLC?

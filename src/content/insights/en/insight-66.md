@@ -17,46 +17,34 @@ Stripe Tax is a Stripe module that automates tax calculation and collection on e
 
 ### What Stripe Tax Does
 
-| Function | Description |
-|----------|-------------|
-| **Calculates taxes** | Correct rate based on product and customer location |
-| **Collects taxes** | Adds tax to the total amount at checkout |
-| **Reports** | Generates detailed reports for your accountant |
-| **Updates rates** | Tax rates updated automatically |
-| **Multi-jurisdiction** | VAT, GST, sales tax, etc. |
-
+- **Calculates taxes:** Correct rate based on product and customer location
+- **Collects taxes:** Adds tax to the total amount at checkout
+- **Reports:** Generates detailed reports for your accountant
+- **Updates rates:** Tax rates updated automatically
+- **Multi-jurisdiction:** VAT, GST, sales tax, etc.
 ### What Stripe Tax Does NOT Do
 
-| Doesn't Do | Explanation |
-|-----------|-------------|
-| **Doesn't file taxes** | You must submit your tax returns |
-| **Doesn't pay taxes** | You are responsible for paying tax authorities |
-| **Doesn't replace an accountant** | Always consult with a professional |
-
+- **Doesn't file taxes:** You must submit your tax returns
+- **Doesn't pay taxes:** You are responsible for paying tax authorities
+- **Doesn't replace an accountant:** Always consult with a professional
 > **Stripe Tax simplifies calculation**, but it does not replace professional tax advice. Always consult your accountant.
 
 ## 2. Why Use Stripe Tax?
 
 ### Key Benefits
 
-| Benefit | Description |
-|---------|-------------|
-| **Automation** | Stripe calculates taxes on every sale without manual intervention |
-| **Accuracy** | Rates updated in real-time based on customer location |
-| **Time savings** | Eliminates spreadsheets and manual calculations |
-| **Global coverage** | Supports 100+ countries and all US states |
-| **Native integration** | No plugins or external services needed |
-| **Ready reports** | Exportable data for your tax filing |
-
+- **Automation:** Stripe calculates taxes on every sale without manual intervention
+- **Accuracy:** Rates updated in real-time based on customer location
+- **Time savings:** Eliminates spreadsheets and manual calculations
+- **Global coverage:** Supports 100+ countries and all US states
+- **Native integration:** No plugins or external services needed
+- **Ready reports:** Exportable data for your tax filing
 ### Stripe Tax vs Alternatives
 
-| Solution | Cost | Integration |
-|----------|------|-------------|
-| **Stripe Tax** | 0.5% per transaction (or free with Stripe Billing) | Native |
-| **TaxJar** | From $19/month | External API |
-| **Avalara** | From $100/month | External API |
-| **Manual** | Hours of work + error risk | N/A |
-
+- **Stripe Tax:** 0.5% per transaction (or free with Stripe Billing) -- Native
+- **TaxJar:** From $19/month -- External API
+- **Avalara:** From $100/month -- External API
+- **Manual:** Hours of work + error risk -- N/A
 > **Stripe Tax is the simplest option** if you already use Stripe. It activates with a few clicks and requires no additional development.
 
 ## 3. How to Activate Stripe Tax
@@ -65,20 +53,17 @@ Stripe Tax is a Stripe module that automates tax calculation and collection on e
 
 Stripe Tax is available in:
 
-| Region | Supported Taxes |
-|--------|----------------|
-| **United States** | Sales tax (all taxing states) |
-| **European Union** | VAT |
-| **United Kingdom** | VAT |
-| **Switzerland** | VAT |
-| **Canada** | GST/HST |
-| **Australia** | GST |
-| **New Zealand** | GST |
-| **Singapore** | GST |
-| **Japan** | Consumption Tax |
-| **Norway** | VAT |
-| **South Africa** | VAT |
-
+- **United States:** Sales tax (all taxing states)
+- **European Union:** VAT
+- **United Kingdom:** VAT
+- **Switzerland:** VAT
+- **Canada:** GST/HST
+- **Australia:** GST
+- **New Zealand:** GST
+- **Singapore:** GST
+- **Japan:** Consumption Tax
+- **Norway:** VAT
+- **South Africa:** VAT
 ### Step 2: Activate Stripe Tax in Dashboard
 
 1. Stripe Dashboard → Products → Stripe Tax
@@ -88,40 +73,31 @@ Stripe Tax is available in:
 
 ### Step 3: Configure Your Tax Settings
 
-| Setting | What to Do |
-|---------|------------|
-| **Origin country** | Where your business is registered |
-| **Tax number** | EIN, VAT ID, or equivalent |
-| **Product categories** | Classify your products (digital, physical, service) |
-| **Exemptions** | Configure if you sell to businesses with valid VAT ID |
-
+- **Origin country:** Where your business is registered
+- **Tax number:** EIN, VAT ID, or equivalent
+- **Product categories:** Classify your products (digital, physical, service)
+- **Exemptions:** Configure if you sell to businesses with valid VAT ID
 ## 4. Product Categories and Rates
 
 ### Tax Categories in Stripe
 
-| Category | Examples | Tax Treatment |
-|----------|---------|---------------|
-| **Digital products** | Software, courses, eBooks, downloads | Taxable in most countries |
-| **Physical products** | Clothing, books, electronics | Taxable, rate varies by country |
-| **Services** | Consulting, coaching, design | Taxable in some countries |
-| **Subscriptions** | SaaS, memberships | Taxable per product type |
-| **Exempt products** | Accredited education, healthcare | Not taxable |
-
+- **Digital products:** Software, courses, eBooks, downloads -- Taxable in most countries
+- **Physical products:** Clothing, books, electronics -- Taxable, rate varies by country
+- **Services:** Consulting, coaching, design -- Taxable in some countries
+- **Subscriptions:** SaaS, memberships -- Taxable per product type
+- **Exempt products:** Accredited education, healthcare -- Not taxable
 ### How to Assign Categories
 
 ### Example Rates by Country
 
-| Country | Digital Product | Physical Product |
-|---------|----------------|-----------------|
-| **United Kingdom** | 20% VAT | 20% VAT |
-| **Canada** | 5% GST/HST | 5% GST/HST + provincial |
-| **Australia** | 10% GST | 10% GST |
-| **Mexico** | 16% IVA | 16% IVA |
-| **Brazil** | Variable | Variable ICMS |
-| **US (California)** | 0% (digital) | 7.25%+ |
-| **Japan** | 10% Consumption Tax | 10% Consumption Tax |
-| **Singapore** | 9% GST | 9% GST |
-
+- **United Kingdom:** 20% VAT -- 20% VAT
+- **Canada:** 5% GST/HST -- 5% GST/HST + provincial
+- **Australia:** 10% GST -- 10% GST
+- **Mexico:** 16% IVA -- 16% IVA
+- **Brazil:** Variable -- Variable ICMS
+- **US (California):** 0% (digital) -- 7.25%+
+- **Japan:** 10% Consumption Tax -- 10% Consumption Tax
+- **Singapore:** 9% GST -- 9% GST
 > **Note:** Rates may vary by product and exact location. Stripe Tax updates rates automatically.
 
 ## 5. Stripe Tax at Checkout
@@ -145,28 +121,22 @@ During checkout, Stripe Tax:
 
 Stripe Tax also works with subscriptions:
 
-| Event | Stripe Tax Calculates |
-|-------|----------------------|
-| **Subscription creation** | Tax on first payment |
-| **Monthly renewal** | Tax on each renewal |
-| **Plan upgrade** | Tax adjusted automatically |
-| **Country change** | Stripe detects new rate if customer moves |
-| **One-time invoice** | Tax calculated per item |
-
+- **Subscription creation:** Tax on first payment
+- **Monthly renewal:** Tax on each renewal
+- **Plan upgrade:** Tax adjusted automatically
+- **Country change:** Stripe detects new rate if customer moves
+- **One-time invoice:** Tax calculated per item
 ### Example: SaaS Subscription
 
 ## 7. Reports and Tax Filing
 
 ### Reports Generated by Stripe Tax
 
-| Report | Content |
-|--------|---------|
-| **Tax summary** | Total taxes collected by period |
-| **Country breakdown** | Taxes collected in each jurisdiction |
-| **Rate breakdown** | Amount per tax rate |
-| **Transactions** | Detailed list of transactions with taxes |
-| **Invoices** | Invoices with itemized taxes |
-
+- **Tax summary:** Total taxes collected by period
+- **Country breakdown:** Taxes collected in each jurisdiction
+- **Rate breakdown:** Amount per tax rate
+- **Transactions:** Detailed list of transactions with taxes
+- **Invoices:** Invoices with itemized taxes
 ### How to Access Reports
 
 1. Stripe Dashboard → Stripe Tax → Reports
@@ -180,15 +150,12 @@ Stripe Tax also works with subscriptions:
 
 ### European Union (VAT)
 
-| Country | Standard Rate | Reduced Rate |
-|---------|--------------|--------------|
-| **Germany** | 19% | 7% |
-| **France** | 20% | 10% / 5.5% |
-| **Italy** | 22% | 10% / 5% |
-| **Spain** | 21% | 10% / 4% |
-| **Netherlands** | 21% | 9% |
-| **Portugal** | 23% | 13% / 6% |
-
+- **Germany:** 19% -- 7%
+- **France:** 20% -- 10% / 5.5%
+- **Italy:** 22% -- 10% / 5%
+- **Spain:** 21% -- 10% / 4%
+- **Netherlands:** 21% -- 9%
+- **Portugal:** 23% -- 13% / 6%
 **Special EU rules:**
 - **B2C sales:** Apply customer's country VAT
 - **B2B sales (business):** Don't charge VAT if customer has valid VAT ID
@@ -196,14 +163,11 @@ Stripe Tax also works with subscriptions:
 
 ### United States (Sales Tax)
 
-| State | State Rate | Local Rates |
-|-------|-----------|-------------|
-| **California** | 7.25% | + up to 3% local |
-| **Texas** | 6.25% | + up to 2% local |
-| **New York** | 4% | + up to 4.875% local |
-| **Florida** | 6% | + up to 1.5% local |
-| **Washington** | 6.5% | + up to 4% local |
-
+- **California:** 7.25% -- + up to 3% local
+- **Texas:** 6.25% -- + up to 2% local
+- **New York:** 4% -- + up to 4.875% local
+- **Florida:** 6% -- + up to 1.5% local
+- **Washington:** 6.5% -- + up to 4% local
 **Special US rules:**
 - **Nexus:** Only charge sales tax in states where you have physical presence
 - **Digital products:** Many states don't tax digital products
@@ -211,15 +175,12 @@ Stripe Tax also works with subscriptions:
 
 ### Latin America
 
-| Country | Tax | Rate |
-|---------|-----|------|
-| **Mexico** | IVA | 16% |
-| **Brazil** | ICMS / ISS | Variable (7-18% interstate) |
-| **Chile** | IVA | 19% |
-| **Colombia** | IVA | 19% |
-| **Argentina** | IVA | 21% |
-| **Peru** | IGV | 18% |
-
+- **Mexico:** IVA -- 16%
+- **Brazil:** ICMS / ISS -- Variable (7-18% interstate)
+- **Chile:** IVA -- 19%
+- **Colombia:** IVA -- 19%
+- **Argentina:** IVA -- 21%
+- **Peru:** IGV -- 18%
 ## 9. Frequently Asked Questions
 
 ### Does Stripe Tax work with all currencies?
@@ -246,14 +207,11 @@ Yes. In the US, Stripe Tax supports state and local taxes. In other countries, i
 
 ### Summary in 5 Steps
 
-| Step | Action | Time |
-|------|--------|------|
-| **1** | Activate Stripe Tax in your Dashboard | 5 min |
-| **2** | Configure your country and tax number | 10 min |
-| **3** | Assign tax categories to your products | 15 min |
-| **4** | Enable `automatic_tax` in your integration | 10 min |
-| **5** | Review monthly reports for your filing | 15 min/month |
-
+- **1:** Activate Stripe Tax in your Dashboard -- 5 min
+- **2:** Configure your country and tax number -- 10 min
+- **3:** Assign tax categories to your products -- 15 min
+- **4:** Enable `automatic_tax` in your integration -- 10 min
+- **5:** Review monthly reports for your filing -- 15 min/month
 ### Setup Checklist
 
 - [ ] Stripe Tax activated in Dashboard

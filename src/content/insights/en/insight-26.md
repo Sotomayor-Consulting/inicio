@@ -24,36 +24,30 @@ A **double taxation treaty** is an agreement between two countries to prevent th
 
 Treaty application to LLCs is complex because the IRS treats LLCs differently based on their tax classification:
 
-| Tax classification | How the treaty sees it |
-|---------------------|-------------------|
-| **Disregarded Entity** (single-member) | The IRS ignores the LLC; the owner is the taxpayer. The treaty applies based on the owner's country. |
-| **Partnership** (multi-member) | The LLC does not pay taxes; partners report their share. The treaty applies based on each partner's country. |
-| **Corporation (S-Corp or C-Corp)** | The LLC pays taxes as a corporation. The treaty applies to the LLC as an entity. |
-
+- **Disregarded Entity** (single-member):** The IRS ignores the LLC; the owner is the taxpayer. The treaty applies based on the owner's country.
+- **Partnership** (multi-member):** The LLC does not pay taxes; partners report their share. The treaty applies based on each partner's country.
+- **Corporation (S-Corp or C-Corp):** The LLC pays taxes as a corporation. The treaty applies to the LLC as an entity.
 > **Practical consequence:** Most Latin American entrepreneurs operate as a disregarded entity, so the treaty applies according to their country of residence.
 
 ## Countries with a tax treaty with the U.S.
 
 The U.S. has tax treaties with over 60 countries. For Latin America, the active treaties are:
 
-| Country | Active treaty | Interest withholding rate | Royalty withholding rate |
-|---------|--------------|--------------------------|--------------------------|
-| **Mexico** | Yes | 0% / 4.9% / 10% | 10% |
-| **Colombia** | No (in negotiation) | 30% (no treaty) | 30% (no treaty) |
-| **Peru** | No | 30% (no treaty) | 30% (no treaty) |
-| **Chile** | Yes (since 2024) | 2% / 4% / 10% | 10% / 15% |
-| **Argentina** | Yes | 0% / 3% / 5% / 12.5% | 3% / 5% / 10% / 15% |
-| **Brazil** | No (suspended) | 30% (no treaty) | 30% (no treaty) |
-| **Venezuela** | Yes | 4.95% / 10% | 10% / 20% |
-| **Ecuador** | No | 30% (no treaty) | 30% (no treaty) |
-| **Costa Rica** | No | 30% (no treaty) | 30% (no treaty) |
-| **Panama** | No | 30% (no treaty) | 30% (no treaty) |
-| **Dominican Republic** | No | 30% (no treaty) | 30% (no treaty) |
-| **Uruguay** | No | 30% (no treaty) | 30% (no treaty) |
-| **Paraguay** | No | 30% (no treaty) | 30% (no treaty) |
-| **Bolivia** | No | 30% (no treaty) | 30% (no treaty) |
-| **Spain** | Yes | 0% / 5% / 10% | 5% / 10% / 15% |
-
+- **Mexico:** Yes -- 0% / 4.9% / 10% -- 10%
+- **Colombia:** No (in negotiation) -- 30% (no treaty) -- 30% (no treaty)
+- **Peru:** No -- 30% (no treaty) -- 30% (no treaty)
+- **Chile:** Yes (since 2024) -- 2% / 4% / 10% -- 10% / 15%
+- **Argentina:** Yes -- 0% / 3% / 5% / 12.5% -- 3% / 5% / 10% / 15%
+- **Brazil:** No (suspended) -- 30% (no treaty) -- 30% (no treaty)
+- **Venezuela:** Yes -- 4.95% / 10% -- 10% / 20%
+- **Ecuador:** No -- 30% (no treaty) -- 30% (no treaty)
+- **Costa Rica:** No -- 30% (no treaty) -- 30% (no treaty)
+- **Panama:** No -- 30% (no treaty) -- 30% (no treaty)
+- **Dominican Republic:** No -- 30% (no treaty) -- 30% (no treaty)
+- **Uruguay:** No -- 30% (no treaty) -- 30% (no treaty)
+- **Paraguay:** No -- 30% (no treaty) -- 30% (no treaty)
+- **Bolivia:** No -- 30% (no treaty) -- 30% (no treaty)
+- **Spain:** Yes -- 0% / 5% / 10% -- 5% / 10% / 15%
 > **Important note:** Even if your country does not have a treaty, you may have reduced tax obligations if your LLC does not generate "Effectively Connected Income" (ECI) in the U.S.
 
 ## How each income type is affected
@@ -106,23 +100,17 @@ A critical issue for Latin American entrepreneurs is that **not all countries re
 
 ### If your country has a treaty with the U.S. (Mexico, Chile, Argentina, Spain)
 
-| Action | Benefit |
-|--------|---------|
-| Verify the treaty applies to disregarded entities | Reduction or elimination of withholding |
-| Request a certificate of tax residence in your country | Access treaty benefits |
-| Structure payments to qualify under the treaty | Lower withholding rates on interest and royalties |
-| Evaluate if your LLC should elect corporation status | Simplify treaty application |
-
+- **Verify the treaty applies to disregarded entities:** Reduction or elimination of withholding
+- **Request a certificate of tax residence in your country:** Access treaty benefits
+- **Structure payments to qualify under the treaty:** Lower withholding rates on interest and royalties
+- **Evaluate if your LLC should elect corporation status:** Simplify treaty application
 ### If your country does NOT have a treaty with the U.S. (Colombia, Peru, Brazil, Ecuador, etc.)
 
-| Action | Benefit |
-|--------|---------|
-| Keep the LLC as a disregarded entity | Income taxed only in your country |
-| Do not generate ECI in the U.S. | Avoid U.S. tax return filing |
-| Use the LLC only to receive income | Minimize tax exposure |
-| Evaluate if the LLC should elect corporation status | Protection in case of hybrid mismatch |
-| Consult with a local accountant | Understand how your country sees the LLC |
-
+- **Keep the LLC as a disregarded entity:** Income taxed only in your country
+- **Do not generate ECI in the U.S.:** Avoid U.S. tax return filing
+- **Use the LLC only to receive income:** Minimize tax exposure
+- **Evaluate if the LLC should elect corporation status:** Protection in case of hybrid mismatch
+- **Consult with a local accountant:** Understand how your country sees the LLC
 ## Practical cases by country
 
 ### Case 1: Mexico (with treaty)

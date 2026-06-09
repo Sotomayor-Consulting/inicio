@@ -20,22 +20,19 @@ Stripe operates under specific banking and payment licenses in each country. Exp
 
 ### Countries Directly Supported in Latin America
 
-| Country | Direct Stripe Support |
-|---------|----------------------|
-| **Mexico** | ✅ Yes |
-| **Brazil** | ✅ Yes |
-| **Chile** | ❌ No |
-| **Colombia** | ❌ No |
-| **Peru** | ❌ No |
-| **Argentina** | ❌ No |
-| **Ecuador** | ❌ No |
-| **Venezuela** | ❌ No |
-| **Uruguay** | ❌ No |
-| **Paraguay** | ❌ No |
-| **Bolivia** | ❌ No |
-| **Central America** | ❌ No (except some via partnerships) |
-| **Dominican Republic** | ❌ No |
-
+- **Mexico:** ✅ Yes
+- **Brazil:** ✅ Yes
+- **Chile:** ❌ No
+- **Colombia:** ❌ No
+- **Peru:** ❌ No
+- **Argentina:** ❌ No
+- **Ecuador:** ❌ No
+- **Venezuela:** ❌ No
+- **Uruguay:** ❌ No
+- **Paraguay:** ❌ No
+- **Bolivia:** ❌ No
+- **Central America:** ❌ No (except some via partnerships)
+- **Dominican Republic:** ❌ No
 > **Note:** For Mexico and Brazil, you can create a Stripe account directly with local documents. For other countries, an alternative structure is needed.
 
 ## 2. Structures to Access Stripe
@@ -67,15 +64,12 @@ The most common and recommended approach is incorporating a company in the Unite
 
 #### Estimated Costs
 
-| Item | Cost |
-|------|------|
-| **LLC Registration** | $100 - $500 (state fees) |
-| **Registered Agent** | $100 - $300/year |
-| **EIN** | Free (IRS) |
-| **Bank account** | Free (Mercury, Relay) |
-| **Stripe fee** | 2.9% + $0.30 per transaction |
-| **Annual maintenance** | $300 - $1,000/year |
-
+- **LLC Registration:** $100 - $500 (state fees)
+- **Registered Agent:** $100 - $300/year
+- **EIN:** Free (IRS)
+- **Bank account:** Free (Mercury, Relay)
+- **Stripe fee:** 2.9% + $0.30 per transaction
+- **Annual maintenance:** $300 - $1,000/year
 #### Advantages
 - ✅ Legal and established solution
 - ✅ Access to the entire Stripe ecosystem
@@ -143,13 +137,10 @@ The most common and recommended approach is incorporating a company in the Unite
 
 ### In the US
 
-| Obligation | Frequency | Description |
-|-----------|-----------|-------------|
-| **Annual Report** | Annual | Yearly report to the state |
-| **BOI (FinCEN)** | Once + changes | Beneficial ownership report |
-| **Federal Tax Return** | Annual | Federal tax filing (Form 1120 or 1040 Schedule C) |
-| **State Tax Return** | Annual | State tax filing (when applicable) |
-
+- **Annual Report:** Annual -- Yearly report to the state
+- **BOI (FinCEN):** Once + changes -- Beneficial ownership report
+- **Federal Tax Return:** Annual -- Federal tax filing (Form 1120 or 1040 Schedule C)
+- **State Tax Return:** Annual -- State tax filing (when applicable)
 ### In Your Home Country
 
 - **Foreign asset declaration:** The LLC must be declared as a foreign controlled company
@@ -160,27 +151,21 @@ The most common and recommended approach is incorporating a company in the Unite
 
 ## 5. Banks for US Business Account
 
-| Bank | Non-US Resident? | Monthly Fee | Open Remotely? |
-|------|-----------------|-------------|----------------|
-| **Mercury** | ✅ Yes | $0 | ✅ Yes |
-| **Relay** | ✅ Yes | $0 | ✅ Yes |
-| **Novo** | ❌ No (except specific cases) | $0 | ✅ Yes |
-| **Brex** | ✅ Yes (with investment) | $0 | ✅ Yes |
-| **Wise Business** | ✅ Yes | $0 | ✅ Yes |
-| **Payoneer** | ✅ Yes | $0 | ✅ Yes |
-
+- **Mercury:** ✅ Yes -- $0 -- ✅ Yes
+- **Relay:** ✅ Yes -- $0 -- ✅ Yes
+- **Novo:** ❌ No (except specific cases) -- $0 -- ✅ Yes
+- **Brex:** ✅ Yes (with investment) -- $0 -- ✅ Yes
+- **Wise Business:** ✅ Yes -- $0 -- ✅ Yes
+- **Payoneer:** ✅ Yes -- $0 -- ✅ Yes
 ## 6. Alternatives to Stripe in Latin America
 
 If you don't want to or can't use the structures above, there are payment alternatives available directly in Latin America:
 
-| Platform | Countries | Fees | Ideal for |
-|----------|-----------|------|-----------|
-| **Mercado Pago** | Brazil, Mexico, Argentina, Chile, Colombia, Peru, Uruguay | 3-6% | E-commerce in Latin America |
-| **Paypal** | Most LATAM countries | 2.9-4.4% + fixed fee | International payments |
-| **Payoneer** | Most LATAM countries | 1-3% | Freelancers and marketplaces |
-| **DLocal** | 30+ LATAM countries | 2-5% | Multi-country operations |
-| **Ebanx** | Brazil and Latin America | 2-5% | E-commerce and digital services |
-
+- **Mercado Pago:** Brazil, Mexico, Argentina, Chile, Colombia, Peru, Uruguay -- 3-6% -- E-commerce in Latin America
+- **Paypal:** Most LATAM countries -- 2.9-4.4% + fixed fee -- International payments
+- **Payoneer:** Most LATAM countries -- 1-3% -- Freelancers and marketplaces
+- **DLocal:** 30+ LATAM countries -- 2-5% -- Multi-country operations
+- **Ebanx:** Brazil and Latin America -- 2-5% -- E-commerce and digital services
 ## 7. Risks and Precautions
 
 ### What to AVOID

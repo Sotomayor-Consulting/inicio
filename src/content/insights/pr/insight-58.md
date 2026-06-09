@@ -13,40 +13,31 @@ Neste guia, explicamos **como conectar Stripe com Shopify** em 2026, incluindo c
 
 ### Vantagens da Integração Nativa
 
-| Vantagem | Descrição |
-|----------|-----------|
-| **Configuração simplificada** | Stripe já vem integrado à Shopify — sem necessidade de plugins |
-| **Taxas reduzidas** | Shopify Payments (Stripe) tem taxas menores que processadores externos |
-| **Checkout otimizado** | Shopify Checkout usa Stripe como processador padrão |
-| **Suporte a múltiplas moedas** | Aceite pagamentos em 135+ moedas |
-| **3D Secure nativo** | Proteção contra chargebacks embutida |
-| **Dashboard unificado** | Gerencie pagamentos diretamente do Shopify admin |
-| **Apple Pay e Google Pay** | Aceite carteiras digitais sem configuração extra |
-
+- **Configuração simplificada:** Stripe já vem integrado à Shopify — sem necessidade de plugins
+- **Taxas reduzidas:** Shopify Payments (Stripe) tem taxas menores que processadores externos
+- **Checkout otimizado:** Shopify Checkout usa Stripe como processador padrão
+- **Suporte a múltiplas moedas:** Aceite pagamentos em 135+ moedas
+- **3D Secure nativo:** Proteção contra chargebacks embutida
+- **Dashboard unificado:** Gerencie pagamentos diretamente do Shopify admin
+- **Apple Pay e Google Pay:** Aceite carteiras digitais sem configuração extra
 ### Shopify Payments vs Stripe Direto
 
-| Característica | Shopify Payments (Stripe integrado) | Stripe Direto (API) |
-|---------------|------------------------------------|---------------------|
-| **Integração** | Nativa, sem código | Requer desenvolvimento |
-| **Taxa de transação** | 2.4% + $0.30 (Shopify Basic) | 2.9% + $0.30 |
-| **Taxa Shopify** | Isenta da taxa de 2% de terceiros | +2% sobre cada transação |
-| **Configuração** | Cliques no admin | Requer integração técnica |
-| **Produtos** | Físicos e digitais | Qualquer tipo |
-
+- **Integração:** Nativa, sem código -- Requer desenvolvimento
+- **Taxa de transação:** 2.4% + $0.30 (Shopify Basic) -- 2.9% + $0.30
+- **Taxa Shopify:** Isenta da taxa de 2% de terceiros -- +2% sobre cada transação
+- **Configuração:** Cliques no admin -- Requer integração técnica
+- **Produtos:** Físicos e digitais -- Qualquer tipo
 > **Conclusão:** Se você usa Shopify, usar Shopify Payments (Stripe integrado) é sempre mais vantajoso que um processador externo.
 
 ## 2. Requisitos para Conectar Stripe ao Shopify
 
 ### Requisitos Básicos
 
-| Requisito | Detalhes |
-|-----------|----------|
-| **Conta Shopify** | Qualquer plano (Basic, Standard, Advanced) |
-| **País suportado** | Stripe deve estar disponível no seu país |
-| **Documentos** | Identidade, comprovante de residência, dados bancários |
-| **EIN ou equivalente** | Para empresas nos EUA |
-| **Site completo** | Políticas, contato, produtos definidos |
-
+- **Conta Shopify:** Qualquer plano (Basic, Standard, Advanced)
+- **País suportado:** Stripe deve estar disponível no seu país
+- **Documentos:** Identidade, comprovante de residência, dados bancários
+- **EIN ou equivalente:** Para empresas nos EUA
+- **Site completo:** Políticas, contato, produtos definidos
 ### Países Onde Shopify Payments (Stripe) Está Disponível
 
 Shopify Payments usa Stripe como processador. Disponível em:
@@ -70,14 +61,11 @@ Shopify Payments usa Stripe como processador. Disponível em:
 
 #### Passo 2: Preencha os Dados da Empresa
 
-| Campo | Informação |
-|-------|-----------|
-| **Tipo de negócio** | Individual ou empresa |
-| **Nome completo** | Como no documento de identidade |
-| **Endereço** | Endereço comercial ou residencial |
-| **Número de telefone** | Válido e verificável |
-| **EIN/CPF/CNPJ** | Número de identificação fiscal |
-
+- **Tipo de negócio:** Individual ou empresa
+- **Nome completo:** Como no documento de identidade
+- **Endereço:** Endereço comercial ou residencial
+- **Número de telefone:** Válido e verificável
+- **EIN/CPF/CNPJ:** Número de identificação fiscal
 #### Passo 3: Configure os Métodos de Pagamento
 
 - Marque as bandeiras que deseja aceitar (Visa, Mastercard, Amex, Discover)
@@ -86,12 +74,9 @@ Shopify Payments usa Stripe como processador. Disponível em:
 
 #### Passo 4: Defina o Câmbio e Moedas
 
-| Configuração | Descrição |
-|-------------|-----------|
-| **Moeda padrão** | A moeda da sua loja (ex: USD, EUR, BRL) |
-| **Múltiplas moedas** | Shopify Markets permite vender em até 20 moedas |
-| **Conversão automática** | Shopify converte automaticamente com spread incluso |
-
+- **Moeda padrão:** A moeda da sua loja (ex: USD, EUR, BRL)
+- **Múltiplas moedas:** Shopify Markets permite vender em até 20 moedas
+- **Conversão automática:** Shopify converte automaticamente com spread incluso
 #### Passo 5: Complete a Verificação
 
 - Shopify pode solicitar documentos adicionais
@@ -119,12 +104,9 @@ Se Shopify Payments não está disponível no seu país, você pode integrar Str
 
 #### Passo 3: Configure o Gateway
 
-| Configuração | Descrição |
-|-------------|-----------|
-| **Modo de teste** | Ative para testar antes de ir ao ar |
-| **Descrição do pagamento** | Nome que aparece na fatura do cliente |
-| **Moeda** | Configure para a moeda dos seus clientes |
-
+- **Modo de teste:** Ative para testar antes de ir ao ar
+- **Descrição do pagamento:** Nome que aparece na fatura do cliente
+- **Moeda:** Configure para a moeda dos seus clientes
 > **Importante:** Usar Stripe como gateway externo na Shopify adiciona uma taxa extra de 2% sobre cada transação (Shopify Basic), a menos que você use Shopify Payments.
 
 ## 4. Configurações Avançadas
@@ -143,12 +125,9 @@ Shopify Markets permite vender em diferentes moedas:
 
 O Shopify Payments (Stripe) inclui 3D Secure nativo:
 
-| Configuração | Efeito |
-|-------------|--------|
-| **3DS Sempre ativo** | Máxima proteção, mas pode reduzir conversão |
-| **3DS Condicional** | Só ativa para transações de alto risco |
-| **3DS Desligado** | Menos proteção, mais conversão |
-
+- **3DS Sempre ativo:** Máxima proteção, mas pode reduzir conversão
+- **3DS Condicional:** Só ativa para transações de alto risco
+- **3DS Desligado:** Menos proteção, mais conversão
 **Recomendação:** Deixe o 3DS configurado como "Condicional" (Shopify decide quando ativar baseado no risco da transação).
 
 ### Webhooks e Notificações
@@ -199,70 +178,52 @@ Configure webhooks para receber notificações em tempo real:
 
 **Soluções:**
 
-| Erro | Solução |
-|------|---------|
-| "Conexão expirada" | Desconecte e reconecte o Stripe |
-| "Chave de API inválida" | Gere novas chaves no Stripe Dashboard |
-| "Conta não verificada" | Complete a verificação no Stripe |
-| "País incompatível" | Verifique se ambos estão no mesmo país |
-
+- **"Conexão expirada":** Desconecte e reconecte o Stripe
+- **"Chave de API inválida":** Gere novas chaves no Stripe Dashboard
+- **"Conta não verificada":** Complete a verificação no Stripe
+- **"País incompatível":** Verifique se ambos estão no mesmo país
 ## 6. Shopify Payments vs Outros Processadores
 
 ### Comparativo de Taxas
 
-| Processador | Taxa por Transação | Taxa Shopify Extra | Custo Total (ex: $100) |
-|------------|-------------------|-------------------|----------------------|
-| **Shopify Payments (Stripe)** | 2.4% + $0.30 | 0% | $2.70 |
-| **Stripe (externo)** | 2.9% + $0.30 | 2% | $7.20 |
-| **PayPal (externo)** | 2.99% + $0.49 | 2% | $7.48 |
-| **Mercado Pago (externo)** | 3-6% | 2% | $5 - $8 |
-
+- **Shopify Payments (Stripe):** 2.4% + $0.30 -- 0% -- $2.70
+- **Stripe (externo):** 2.9% + $0.30 -- 2% -- $7.20
+- **PayPal (externo):** 2.99% + $0.49 -- 2% -- $7.48
+- **Mercado Pago (externo):** 3-6% -- 2% -- $5 - $8
 > **Shopify Payments é sempre a opção mais barata** para lojas Shopify, pois elimina a taxa de 2% sobre processadores de terceiros.
 
 ### Plano Shopify e Taxa de Transação
 
-| Plano Shopify | Shopify Payments | Gateway Externo |
-|--------------|----------------|-----------------|
-| **Basic ($29/mês)** | 2.4% + $0.30 | 2.9% + $0.30 + 2% Shopify |
-| **Standard ($79/mês)** | 2.35% + $0.30 | 2.9% + $0.30 + 1% Shopify |
-| **Advanced ($299/mês)** | 2.25% + $0.30 | 2.9% + $0.30 + 0.6% Shopify |
-| **Plus ($2.300/mês)** | Negociável | Negociável |
-
+- **Basic ($29/mês):** 2.4% + $0.30 -- 2.9% + $0.30 + 2% Shopify
+- **Standard ($79/mês):** 2.35% + $0.30 -- 2.9% + $0.30 + 1% Shopify
+- **Advanced ($299/mês):** 2.25% + $0.30 -- 2.9% + $0.30 + 0.6% Shopify
+- **Plus ($2.300/mês):** Negociável -- Negociável
 ## 7. Deixando o Checkout Profissional
 
 ### Personalização do Checkout
 
 Com Shopify Payments (Stripe), você pode personalizar o checkout:
 
-| Recurso | Shopify Basic | Shopify Standard/Advanced |
-|---------|--------------|-------------------------|
-| **Checkout personalizado** | Limitado | ✅ Completo |
-| **Campos adicionais** | ❌ | ✅ Sim |
-| **Logotipo e cores** | ✅ Sim | ✅ Sim |
-| **Domínio personalizado** | ✅ Sim | ✅ Sim |
-| **One-page checkout** | ✅ Sim | ✅ Sim |
-
+- **Checkout personalizado:** Limitado -- ✅ Completo
+- **Campos adicionais:** ❌ -- ✅ Sim
+- **Logotipo e cores:** ✅ Sim -- ✅ Sim
+- **Domínio personalizado:** ✅ Sim -- ✅ Sim
+- **One-page checkout:** ✅ Sim -- ✅ Sim
 ### Otimização de Conversão
 
-| Prática | Impacto |
-|---------|---------|
-| **Checkout em uma página** | +10-15% conversão |
-| **Múltiplas bandeiras visíveis** | +3-5% conversão |
-| **Apple Pay / Google Pay** | +5-10% conversão (mobile) |
-| **3D Secure otimizado** | -20-30% chargebacks |
-| **Descrição clara no extrato** | -15-25% disputas |
-
+- **Checkout em uma página:** +10-15% conversão
+- **Múltiplas bandeiras visíveis:** +3-5% conversão
+- **Apple Pay / Google Pay:** +5-10% conversão (mobile)
+- **3D Secure otimizado:** -20-30% chargebacks
+- **Descrição clara no extrato:** -15-25% disputas
 ### Shop Pay (Acelerador de Checkout)
 
 Shop Pay é o checkout acelerado da Shopify que armazena dados do cliente:
 
-| Benefício | Detalhes |
-|-----------|----------|
-| **Clientes salvam dados** | Pagamento com 1 clique |
-| **Taxa de conversão** | +10-15% vs checkout padrão |
-| **Disponibilidade** | Incluso em todos os planos Shopify Payments |
-| **Segurança** | PCI DSS Nível 1 |
-
+- **Clientes salvam dados:** Pagamento com 1 clique
+- **Taxa de conversão:** +10-15% vs checkout padrão
+- **Disponibilidade:** Incluso em todos os planos Shopify Payments
+- **Segurança:** PCI DSS Nível 1
 ## 8. Stripe na Shopify para Países Não Suportados
 
 ### Estratégia com LLC nos EUA
@@ -281,13 +242,10 @@ Se Shopify Payments não está disponível no seu país:
 
 Se Shopify Payments + Stripe não funcionar para seu caso:
 
-| Plataforma | Stripe Nativo | Ideal para |
-|-----------|--------------|------------|
-| **WooCommerce** | ✅ Sim (via plugin) | Quem tem WordPress |
-| **BigCommerce** | ✅ Sim | Empresas em crescimento |
-| **Wix** | ✅ Sim (via Wix Payments) | Lojas simples |
-| **Squarespace** | ✅ Sim (via Squarespace Payments) | Portfólios e lojas |
-
+- **WooCommerce:** ✅ Sim (via plugin) -- Quem tem WordPress
+- **BigCommerce:** ✅ Sim -- Empresas em crescimento
+- **Wix:** ✅ Sim (via Wix Payments) -- Lojas simples
+- **Squarespace:** ✅ Sim (via Squarespace Payments) -- Portfólios e lojas
 ## 9. Dicas para Maximizar a Integração
 
 ### 1. Ative Shopify Protect
@@ -317,24 +275,18 @@ O nome que aparece na fatura do cliente deve ser reconhecível:
 
 Shopify analisa cada pedido e dá uma nota de risco (0-100):
 
-| Nota | Ação Recomendada |
-|------|-----------------|
-| **0-30** | Baixo risco — processar normalmente |
-| **30-60** | Risco médio — verificar manualmente |
-| **60-100** | Alto risco — cancelar ou investigar |
-
+- **0-30:** Baixo risco — processar normalmente
+- **30-60:** Risco médio — verificar manualmente
+- **60-100:** Alto risco — cancelar ou investigar
 ## 10. Passo a Passo Rápido
 
 ### Resumo em 5 Passos
 
-| Passo | Ação | Tempo |
-|-------|------|-------|
-| **1** | Crie ou acesse sua conta Shopify | 5 min |
-| **2** | Vá em Configurações → Pagamentos | 2 min |
-| **3** | Ative Shopify Payments | 10 min |
-| **4** | Preencha dados da empresa e bancários | 10 min |
-| **5** | Complete verificação e aguarde aprovação | 24-72 horas |
-
+- **1:** Crie ou acesse sua conta Shopify -- 5 min
+- **2:** Vá em Configurações → Pagamentos -- 2 min
+- **3:** Ative Shopify Payments -- 10 min
+- **4:** Preencha dados da empresa e bancários -- 10 min
+- **5:** Complete verificação e aguarde aprovação -- 24-72 horas
 ### Checklist Pós-Configuração
 
 - [ ] Configure 3D Secure

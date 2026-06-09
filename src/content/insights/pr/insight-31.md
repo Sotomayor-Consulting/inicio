@@ -20,14 +20,11 @@ Sem uma estratï¿½gia adequada, vocï¿½ poderia pagar impostos em ambos os paï¿½se
 
 ## Quando ocorre a dupla tributaï¿½ï¿½o?
 
-| Situaï¿½ï¿½o | Dupla tributaï¿½ï¿½o? |
-|----------|------------------|
-| LLC sem ECI, proprietï¿½rio estrangeiro | ? Nï¿½o (sï¿½ tributa no seu paï¿½s) |
-| LLC com ECI, proprietï¿½rio estrangeiro, sem tratado | ?? Possï¿½vel |
-| LLC com ECI, proprietï¿½rio estrangeiro, com tratado | ? Evitï¿½vel com estratï¿½gia |
-| LLC tributa como corporation, proprietï¿½rio estrangeiro | ?? Possï¿½vel (dividendos) |
-| Multi-member LLC com sï¿½cios estrangeiros | ?? Depende do tratado |
-
+- **LLC sem ECI, proprietï¿½rio estrangeiro:** ? Nï¿½o (sï¿½ tributa no seu paï¿½s)
+- **LLC com ECI, proprietï¿½rio estrangeiro, sem tratado:** ?? Possï¿½vel
+- **LLC com ECI, proprietï¿½rio estrangeiro, com tratado:** ? Evitï¿½vel com estratï¿½gia
+- **LLC tributa como corporation, proprietï¿½rio estrangeiro:** ?? Possï¿½vel (dividendos)
+- **Multi-member LLC com sï¿½cios estrangeiros:** ?? Depende do tratado
 ## Mecanismos para evitar a dupla tributaï¿½ï¿½o
 
 ### 1. Foreign Tax Credit (Crï¿½dito Fiscal por Impostos Pagos no Exterior)
@@ -59,16 +56,13 @@ Se seu paï¿½s de residï¿½ncia permite crï¿½ditos fiscais por impostos pagos no e
 
 Se seu paï¿½s tem um tratado fiscal com os EUA, pode reduzir ou eliminar as retenï¿½ï¿½es de impostos.
 
-| Paï¿½s | Tratado? | Benefï¿½cio principal |
-|------|----------|-------------------|
-| Mï¿½xico | Sim | Retenï¿½ï¿½o 0% sobre juros, crï¿½dito fiscal |
-| Chile | Sim (2024) | Retenï¿½ï¿½o reduzida sobre royalties e juros |
-| Argentina | Sim | Taxas reduzidas em dividendos, juros e royalties |
-| Espanha | Sim | Crï¿½dito fiscal, isenï¿½ï¿½o de certas receitas |
-| Colï¿½mbia | Nï¿½o | Sem proteï¿½ï¿½o de tratado |
-| Peru | Nï¿½o | Sem proteï¿½ï¿½o de tratado |
-| Brasil | Nï¿½o (suspenso) | Sem proteï¿½ï¿½o de tratado |
-
+- **Mï¿½xico:** Sim -- Retenï¿½ï¿½o 0% sobre juros, crï¿½dito fiscal
+- **Chile:** Sim (2024) -- Retenï¿½ï¿½o reduzida sobre royalties e juros
+- **Argentina:** Sim -- Taxas reduzidas em dividendos, juros e royalties
+- **Espanha:** Sim -- Crï¿½dito fiscal, isenï¿½ï¿½o de certas receitas
+- **Colï¿½mbia:** Nï¿½o -- Sem proteï¿½ï¿½o de tratado
+- **Peru:** Nï¿½o -- Sem proteï¿½ï¿½o de tratado
+- **Brasil:** Nï¿½o (suspenso) -- Sem proteï¿½ï¿½o de tratado
 **Para aceder aos benefï¿½cios do tratado:**
 1. Obtenha um **Certificado de Residï¿½ncia Fiscal** no seu paï¿½s.
 2. Apresente o formulï¿½rio W-8BEN ao IRS ou banco.
@@ -99,13 +93,10 @@ Se sua LLC optar por tributar como **C-Corporation**, paga 21% de imposto corpor
 
 **Quando convï¿½m?**
 
-| Situaï¿½ï¿½o | Disregarded Entity | C-Corp |
-|----------|-------------------|--------|
-| Receitas baixas sem ECI | ? Melhor opï¿½ï¿½o | ? Nï¿½o convï¿½m |
-| Receitas altas com ECI | ? Dupla tributaï¿½ï¿½o | ? Melhor opï¿½ï¿½o |
-| Proprietï¿½rio em paï¿½s com tratado | ? Depende | ? Pode convir |
-| Proprietï¿½rio em paï¿½s sem tratado | ? Melhor opï¿½ï¿½o | ?? Avaliar |
-
+- **Receitas baixas sem ECI:** ? Melhor opï¿½ï¿½o -- ? Nï¿½o convï¿½m
+- **Receitas altas com ECI:** ? Dupla tributaï¿½ï¿½o -- ? Melhor opï¿½ï¿½o
+- **Proprietï¿½rio em paï¿½s com tratado:** ? Depende -- ? Pode convir
+- **Proprietï¿½rio em paï¿½s sem tratado:** ? Melhor opï¿½ï¿½o -- ?? Avaliar
 **Exemplo de C-Corp:**
 - Lucro da LLC: $100.000.
 - Imposto corporativo (21%): $21.000.
@@ -147,55 +138,40 @@ Se tem flexibilidade para escolher onde reside fiscalmente, pode otimizar sua es
 
 ### Se reside no Mï¿½xico (com tratado)
 
-| Estratï¿½gia | Benefï¿½cio |
-|-----------|-----------|
-| Disregarded Entity sem ECI | Tributa sï¿½ no Mï¿½xico |
-| Foreign Tax Credit | Evita dupla tributaï¿½ï¿½o se houver imposto nos EUA |
-| W-8BEN | Reduz retenï¿½ï¿½es nos EUA |
-| Tratado | Taxas reduzidas sobre juros (0%) e royalties |
-
+- **Disregarded Entity sem ECI:** Tributa sï¿½ no Mï¿½xico
+- **Foreign Tax Credit:** Evita dupla tributaï¿½ï¿½o se houver imposto nos EUA
+- **W-8BEN:** Reduz retenï¿½ï¿½es nos EUA
+- **Tratado:** Taxas reduzidas sobre juros (0%) e royalties
 **Estrutura recomendada:** LLC disregarded entity + declaraï¿½ï¿½o no Mï¿½xico com crï¿½dito fiscal.
 
 ### Se reside na Colï¿½mbia (sem tratado)
 
-| Estratï¿½gia | Benefï¿½cio |
-|-----------|-----------|
-| Disregarded Entity sem ECI | Tributa sï¿½ na Colï¿½mbia |
-| Foreign Tax Credit (se aplicï¿½vel) | Crï¿½dito por impostos pagos nos EUA |
-| Evitar ECI | Nï¿½o declara nos EUA |
-| Avaliar C-Corp | Em casos de receitas altas |
-
+- **Disregarded Entity sem ECI:** Tributa sï¿½ na Colï¿½mbia
+- **Foreign Tax Credit (se aplicï¿½vel):** Crï¿½dito por impostos pagos nos EUA
+- **Evitar ECI:** Nï¿½o declara nos EUA
+- **Avaliar C-Corp:** Em casos de receitas altas
 **Estrutura recomendada:** LLC disregarded entity, operar da Colï¿½mbia, sem ECI.
 
 ### Se reside na Argentina (com tratado)
 
-| Estratï¿½gia | Benefï¿½cio |
-|-----------|-----------|
-| Tratado Argentina-EUA | Proteï¿½ï¿½o contra dupla tributaï¿½ï¿½o |
-| Foreign Tax Credit | Crï¿½dito por impostos pagos nos EUA |
-| Estrutura transparente | A LLC nï¿½o ï¿½ corporaï¿½ï¿½o perante o tratado |
-| Conta nos EUA | Proteï¿½ï¿½o contra controles de cï¿½mbio |
-
+- **Tratado Argentina-EUA:** Proteï¿½ï¿½o contra dupla tributaï¿½ï¿½o
+- **Foreign Tax Credit:** Crï¿½dito por impostos pagos nos EUA
+- **Estrutura transparente:** A LLC nï¿½o ï¿½ corporaï¿½ï¿½o perante o tratado
+- **Conta nos EUA:** Proteï¿½ï¿½o contra controles de cï¿½mbio
 **Estrutura recomendada:** LLC disregarded entity + trust (proteï¿½ï¿½o patrimonial).
 
 ### Se reside no Peru (sem tratado)
 
-| Estratï¿½gia | Benefï¿½cio |
-|-----------|-----------|
-| Disregarded Entity sem ECI | Tributa sï¿½ no Peru |
-| Evitar presenï¿½a nos EUA | Sem obrigaï¿½ï¿½es nos EUA |
-| Avaliar tratamento local | A LLC pode ser corporaï¿½ï¿½o no Peru |
-
+- **Disregarded Entity sem ECI:** Tributa sï¿½ no Peru
+- **Evitar presenï¿½a nos EUA:** Sem obrigaï¿½ï¿½es nos EUA
+- **Avaliar tratamento local:** A LLC pode ser corporaï¿½ï¿½o no Peru
 **Estrutura recomendada:** LLC disregarded entity, operaï¿½ï¿½o do Peru.
 
 ### Se reside no Brasil (sem tratado)
 
-| Estratï¿½gia | Benefï¿½cio |
-|-----------|-----------|
-| Disregarded Entity sem ECI | Tributa sï¿½ no Brasil |
-| Avaliar C-Corp | Se as receitas forem altas |
-| Consultar tratamento brasileiro | Brasil pode tratar LLC como corporaï¿½ï¿½o |
-
+- **Disregarded Entity sem ECI:** Tributa sï¿½ no Brasil
+- **Avaliar C-Corp:** Se as receitas forem altas
+- **Consultar tratamento brasileiro:** Brasil pode tratar LLC como corporaï¿½ï¿½o
 **Estrutura recomendada:** Avaliar caso a caso com contador brasileiro.
 
 ## Erros que causam dupla tributaï¿½ï¿½o
@@ -274,15 +250,12 @@ Seu paï¿½s pode tratar a LLC de maneira diferente dos EUA, criando desajustes hï
 
 ## Tabela comparativa de estratï¿½gias
 
-| Estratï¿½gia | Complexidade | Custo | Efetividade | Ideal para |
-|-----------|-------------|-------|-------------|-----------|
-| Disregarded sem ECI | Baixa | Baixo | Alta | Todos os casos |
-| Foreign Tax Credit | Mï¿½dia | Baixo | Alta | Paï¿½ses com crï¿½dito fiscal |
-| Tratado fiscal | Mï¿½dia | Baixo | Alta | Paï¿½ses com tratado |
-| C-Corp | Alta | Alto | Mï¿½dia | Receitas altas com ECI |
-| Residï¿½ncia territorial | Alta | Alto | Alta | Quem pode se realocar |
-| Trust + LLC | Alta | Alto | Alta | Patrimï¿½nios grandes |
-
+- **Disregarded sem ECI:** Baixa -- Baixo -- Alta -- Todos os casos
+- **Foreign Tax Credit:** Mï¿½dia -- Baixo -- Alta -- Paï¿½ses com crï¿½dito fiscal
+- **Tratado fiscal:** Mï¿½dia -- Baixo -- Alta -- Paï¿½ses com tratado
+- **C-Corp:** Alta -- Alto -- Mï¿½dia -- Receitas altas com ECI
+- **Residï¿½ncia territorial:** Alta -- Alto -- Alta -- Quem pode se realocar
+- **Trust + LLC:** Alta -- Alto -- Alta -- Patrimï¿½nios grandes
 ## Checklist anti-dupla tributaï¿½ï¿½o
 
 - [ ] Determinar se sua LLC gera ECI nos EUA.

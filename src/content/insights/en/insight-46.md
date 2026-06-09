@@ -76,18 +76,15 @@ International holding companies offer significant tax benefits when properly str
 
 Choosing the jurisdiction is critical for an international holding:
 
-| Jurisdiction | Advantages | Considerations |
-|---|---|---|
-| **Netherlands** | Wide treaty network, participation exemption, favorable tax regime | Compliance cost, substance requirements |
-| **Luxembourg** | SOPARFI holding companies, treaties, flexibility | High operating costs |
-| **Switzerland** | Participation deduction, treaties, stability | High cost of living, regulation |
-| **Singapore** | Asian regional hub, treaties, exemptions | Substance requirements |
-| **UAE** | 0% corporate tax (free zones), no withholding tax | Limited treaty network |
-| **Ireland** | 12.5% corporate, treaties, talent pool | Changing EU regulation |
-| **Spain** | ETVE regime, participation exemption, treaties | Substance requirements |
-| **Panama** | Territorial taxation, no tax on foreign dividends | Limited treaty network |
-| **Delaware / USA** | Corporate flexibility, capital market access | Federal and state taxation |
-
+- **Netherlands:** Wide treaty network, participation exemption, favorable tax regime -- Compliance cost, substance requirements
+- **Luxembourg:** SOPARFI holding companies, treaties, flexibility -- High operating costs
+- **Switzerland:** Participation deduction, treaties, stability -- High cost of living, regulation
+- **Singapore:** Asian regional hub, treaties, exemptions -- Substance requirements
+- **UAE:** 0% corporate tax (free zones), no withholding tax -- Limited treaty network
+- **Ireland:** 12.5% corporate, treaties, talent pool -- Changing EU regulation
+- **Spain:** ETVE regime, participation exemption, treaties -- Substance requirements
+- **Panama:** Territorial taxation, no tax on foreign dividends -- Limited treaty network
+- **Delaware / USA:** Corporate flexibility, capital market access -- Federal and state taxation
 ## 5. Economic Substance Requirements
 
 Tax authorities require holdings to have **real economic substance** in their country of residence:
@@ -156,16 +153,13 @@ Setting up and maintaining an international holding requires compliance with:
 Maintaining an international holding is not free. Typical costs include:
 
 ### Estimated annual costs:
-| Concept | Approximate Annual Cost |
-|---|---|
-| Registered agent | $500 - $2,000 |
-| Virtual/physical office | $1,000 - $12,000 |
-| Local director (if needed) | $2,000 - $10,000 |
-| Accounting and audit | $3,000 - $15,000 |
-| Tax preparation | $2,000 - $10,000 |
-| Regulatory compliance | $1,000 - $5,000 |
-| **Total estimate** | **$9,500 - $54,000+** |
-
+- **Registered agent:** $500 - $2,000
+- **Virtual/physical office:** $1,000 - $12,000
+- **Local director (if needed):** $2,000 - $10,000
+- **Accounting and audit:** $3,000 - $15,000
+- **Tax preparation:** $2,000 - $10,000
+- **Regulatory compliance:** $1,000 - $5,000
+- **Total estimate:** **$9,500 - $54,000+**
 ### Factors affecting cost:
 - Chosen jurisdiction
 - Structure complexity

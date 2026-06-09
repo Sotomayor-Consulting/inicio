@@ -38,13 +38,10 @@ No entanto, a maioria dos erros � evit�vel. Neste guia, compilamos os erros 
 - Muda de endere�o e n�o recebe os avisos do estado.
 
 **Como evitar:**
-| Estado | Vencimento do Annual Report | Multa por n�o apresentar |
-|--------|----------------------------|--------------------------|
-| Wyoming | 1 de janeiro | $60 + multa |
-| Fl�rida | 1 de maio | $400 |
-| Delaware | 1 de mar�o | $200 + multa |
-| Novo M�xico | N�o exige | N/A |
-
+- **Wyoming:** 1 de janeiro -- $60 + multa
+- **Fl�rida:** 1 de maio -- $400
+- **Delaware:** 1 de mar�o -- $200 + multa
+- **Novo M�xico:** N�o exige -- N/A
 - Configure lembretes no calend�rio.
 - Use um servi�o de Registered Agent que o notifique.
 - Se mudar de endere�o, atualize com o estado e com o IRS.
@@ -169,15 +166,12 @@ No entanto, a maioria dos erros � evit�vel. Neste guia, compilamos os erros 
 
 ## Custos dos erros
 
-| Erro | Multa ou custo potencial |
-|------|--------------------------|
-| N�o apresentar 5472 | $25.000 por ano |
-| N�o apresentar Annual Report | $60 - $400 + reinstala��o |
-| N�o apresentar BOI | $10.000 + poss�vel pris�o |
-| Conta banc�ria congelada | Perda de receitas, meses de atraso |
-| LLC suspensa | N�o pode operar, clientes v�o embora |
-| Auditoria do IRS | Custos legais, multas, impostos atrasados |
-
+- **N�o apresentar 5472:** $25.000 por ano
+- **N�o apresentar Annual Report:** $60 - $400 + reinstala��o
+- **N�o apresentar BOI:** $10.000 + poss�vel pris�o
+- **Conta banc�ria congelada:** Perda de receitas, meses de atraso
+- **LLC suspensa:** N�o pode operar, clientes v�o embora
+- **Auditoria do IRS:** Custos legais, multas, impostos atrasados
 ## Caso pr�tico: O que N�O fazer
 
 **Situa��o:** Paulo, especialista em SEO do Peru, constituiu sua LLC em Wyoming em 2022. Isso � o que fez de errado:

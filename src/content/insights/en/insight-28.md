@@ -26,25 +26,19 @@ This is the most common situation. If you did not file the Annual Report in your
 
 #### Step by step to regularize
 
-| Step | Action | Detail |
-|------|--------|---------|
-| 1 | Identify the state | Check the Secretary of State where you formed the LLC |
-| 2 | Verify status | Look up your LLC on the Secretary of State portal |
-| 3 | Calculate what you owe | Late Annual Report + penalties + interest |
-| 4 | File the reports | File all missing Annual Reports |
-| 5 | Pay penalties | Generally paid online |
-| 6 | Request reinstatement | If the LLC was dissolved, you need an additional process |
-| 7 | Confirm status | Verify the LLC shows as "Active" or "Good Standing" |
-
+- **1:** Identify the state -- Check the Secretary of State where you formed the LLC
+- **2:** Verify status -- Look up your LLC on the Secretary of State portal
+- **3:** Calculate what you owe -- Late Annual Report + penalties + interest
+- **4:** File the reports -- File all missing Annual Reports
+- **5:** Pay penalties -- Generally paid online
+- **6:** Request reinstatement -- If the LLC was dissolved, you need an additional process
+- **7:** Confirm status -- Verify the LLC shows as "Active" or "Good Standing"
 #### Typical costs by state
 
-| State | Annual Report | Penalty per late year | Reinstatement |
-|--------|--------------|----------------------|---------------|
-| **Wyoming** | $60 | $60 + $1/day | $60 + penalties |
-| **Florida** | $138.75 | $400 | $400 + reports |
-| **Delaware** | $300 (franchise tax) | $200 + 1.5%/month | $200 + penalties |
-| **New Mexico** | Not required | N/A | N/A |
-
+- **Wyoming:** $60 -- $60 + $1/day -- $60 + penalties
+- **Florida:** $138.75 -- $400 -- $400 + reports
+- **Delaware:** $300 (franchise tax) -- $200 + 1.5%/month -- $200 + penalties
+- **New Mexico:** Not required -- N/A -- N/A
 > **Important:** In Wyoming, if you do not file the Annual Report for more than 2-3 years, the LLC may be administratively revoked. In Florida, the penalty for not filing is $400 plus late reports.
 
 ### Situation 2: Form 5472 not filed (IRS)
@@ -53,15 +47,12 @@ If you are a foreign owner of a single-member LLC and have not filed Form 5472, 
 
 #### Step by step to regularize
 
-| Step | Action | Detail |
-|------|--------|---------|
-| 1 | Gather information | EIN, transactions for each year, personal data |
-| 2 | Prepare late forms | 5472 + pro-forma 1120 for each year |
-| 3 | Consider the Delinquent Filing program | The IRS may reduce penalties if you file voluntarily |
-| 4 | File everything together | Do not file only the 5472; it must go with the 1120 |
-| 5 | Evaluate if you need a CPA | Recommended for late years |
-| 6 | Respond to any IRS letter | If the IRS already contacted you, respond immediately |
-
+- **1:** Gather information -- EIN, transactions for each year, personal data
+- **2:** Prepare late forms -- 5472 + pro-forma 1120 for each year
+- **3:** Consider the Delinquent Filing program -- The IRS may reduce penalties if you file voluntarily
+- **4:** File everything together -- Do not file only the 5472; it must go with the 1120
+- **5:** Evaluate if you need a CPA -- Recommended for late years
+- **6:** Respond to any IRS letter -- If the IRS already contacted you, respond immediately
 **IRS delinquent filing program:**
 
 The IRS has a special program for taxpayers who have not filed required forms. If you file voluntarily before the IRS notifies you:
@@ -78,16 +69,13 @@ If your LLC has two or more members and you have not filed Form 1065, penalties 
 
 #### Step by step to regularize
 
-| Step | Action |
-|------|--------|
-| 1 | Gather financial statements for all late years |
-| 2 | Determine each partner's share for each year |
-| 3 | Prepare Form 1065 and K-1 for each late year |
-| 4 | File all late years |
-| 5 | Calculate accumulated penalties ($220/month/partner) |
-| 6 | Evaluate if you can request penalty reduction |
-| 7 | Deliver late K-1s to partners |
-
+- **1:** Gather financial statements for all late years
+- **2:** Determine each partner's share for each year
+- **3:** Prepare Form 1065 and K-1 for each late year
+- **4:** File all late years
+- **5:** Calculate accumulated penalties ($220/month/partner)
+- **6:** Evaluate if you can request penalty reduction
+- **7:** Deliver late K-1s to partners
 ### Situation 4: Bank account frozen by Mercury or Relay
 
 If your account was frozen due to lack of documentation or because the LLC is not in good standing, the regularization process is urgent.
@@ -135,13 +123,10 @@ If your LLC was dissolved by the state for years of non-compliance, you can stil
 
 #### Time limits by state
 
-| State | Maximum time to reinstate |
-|--------|------------------------------|
-| Wyoming | 5 years after dissolution |
-| Florida | 5 years after dissolution |
-| Delaware | 3 years after dissolution |
-| New Mexico | Not applicable (no Annual Report required) |
-
+- **Wyoming:** 5 years after dissolution
+- **Florida:** 5 years after dissolution
+- **Delaware:** 3 years after dissolution
+- **New Mexico:** Not applicable (no Annual Report required)
 > If you exceed the time limit, you may need to form a new LLC.
 
 ## General regularization strategy
@@ -159,15 +144,12 @@ Determine exactly which obligations are overdue:
 
 ### Step 2: Prioritize
 
-| Priority | Obligation | Reason |
-|-----------|-----------|--------|
-| **High** | Annual Report | Your LLC can be dissolved |
-| **High** | Frozen bank account | Your business cannot operate |
-| **High** | BOI | $10,000 penalty |
-| **Medium** | Form 5472 | $25,000/year penalty |
-| **Medium** | Form 1065 | $220/month/partner penalty |
-| **Low** | Expired Registered Agent | Low cost, easy to resolve |
-
+- **High:** Annual Report -- Your LLC can be dissolved
+- **High:** Frozen bank account -- Your business cannot operate
+- **High:** BOI -- $10,000 penalty
+- **Medium:** Form 5472 -- $25,000/year penalty
+- **Medium:** Form 1065 -- $220/month/partner penalty
+- **Low:** Expired Registered Agent -- Low cost, easy to resolve
 ### Step 3: Execute
 
 Resolve each obligation in order of priority. Some can be resolved in parallel.
@@ -242,16 +224,13 @@ Once regularized, set up a system to avoid falling behind again:
 
 ## Estimated regularization costs
 
-| Situation | Minimum cost | Maximum cost |
-|-----------|-------------|-------------|
-| Late Annual Report (1 year) | $60 - $138.75 | $200 - $600 |
-| Dissolved LLC + reinstatement | $500 | $3,000+ |
-| Late 5472 (1 year, with CPA) | $500 | $1,500 |
-| Late 5472 (3 years, with CPA) | $2,000 | $5,000 |
-| Late 1065 (1 year, with CPA) | $1,500 | $3,000 |
-| Frozen bank account | $0 (if resolved quickly) | Thousands in lost income |
-| BOI not filed | $0 (if filed on time) | $10,000 |
-
+- **Late Annual Report (1 year):** $60 - $138.75 -- $200 - $600
+- **Dissolved LLC + reinstatement:** $500 -- $3,000+
+- **Late 5472 (1 year, with CPA):** $500 -- $1,500
+- **Late 5472 (3 years, with CPA):** $2,000 -- $5,000
+- **Late 1065 (1 year, with CPA):** $1,500 -- $3,000
+- **Frozen bank account:** $0 (if resolved quickly) -- Thousands in lost income
+- **BOI not filed:** $0 (if filed on time) -- $10,000
 ## When is it better to form a new LLC?
 
 In some cases, regularizing an LLC can be more expensive than forming a new one.
@@ -276,15 +255,12 @@ In some cases, regularizing an LLC can be more expensive than forming a new one.
 
 ### Compliance system
 
-| Tool | Purpose |
-|-------------|-----------|
-| **Shared calendar** | Annual Report, 5472, 1065, BOI due dates |
-| **30-60-90 day reminders** | Alert 90, 60, and 30 days in advance |
-| **Compliance fund** | Separate account to pay Annual Report and Registered Agent |
-| **CPA or advisor** | Professional who reviews your compliance annually |
-| **Reliable Registered Agent** | Notifies you of any communication |
-| **Annual checklist** | Review all obligations at the start of each year |
-
+- **Shared calendar:** Annual Report, 5472, 1065, BOI due dates
+- **30-60-90 day reminders:** Alert 90, 60, and 30 days in advance
+- **Compliance fund:** Separate account to pay Annual Report and Registered Agent
+- **CPA or advisor:** Professional who reviews your compliance annually
+- **Reliable Registered Agent:** Notifies you of any communication
+- **Annual checklist:** Review all obligations at the start of each year
 ## Conclusion
 
 Regularizing an overdue LLC is possible in most cases, but the longer it goes, the more expensive and complex it becomes.

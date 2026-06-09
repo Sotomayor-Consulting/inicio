@@ -38,15 +38,12 @@ For each international transfer you make, you must maintain:
 - **Exchange rate applied** (if currency conversion applies)
 
 ### Information the documentation should contain:
-| Concept | Description |
-|---|---|
-| Transfer date | Day it was executed |
-| Amount | In original currency and in USD |
-| Sender | Legal name, country, bank account |
-| Recipient | Legal name, country, bank account |
-| Concept | Detailed payment description |
-| Supporting document | Invoice, contract, agreement |
-
+- **Transfer date:** Day it was executed
+- **Amount:** In original currency and in USD
+- **Sender:** Legal name, country, bank account
+- **Recipient:** Legal name, country, bank account
+- **Concept:** Detailed payment description
+- **Supporting document:** Invoice, contract, agreement
 ## 3. Transfers for Professional Services
 
 If you receive or send money for professional services, you must justify:

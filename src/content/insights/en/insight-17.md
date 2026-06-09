@@ -62,18 +62,15 @@ A personalized consulting service, like the one we offer at Sotomayor Consulting
 
 ## Comparison table
 
-| Aspect | Stripe Atlas | Personalized Consulting |
-|---------|-------------|----------------------|
-| **Cost** | $500 (fixed) | Varies by case |
-| **Available states** | Only Delaware | Wyoming, Florida, Delaware, and others |
-| **EIN** | Included | Included |
-| **Operating Agreement** | Standard template | Customized |
-| **Tax advice** | Not included | Includes initial analysis |
-| **Banking guidance** | Stripe Treasury | Recommendation by profile |
-| **Support** | Generic chat/email | Personalized accompaniment |
-| **Structure analysis** | No | Yes |
-| **Ideal for** | Simple Delaware businesses using Stripe | Businesses needing real structuring |
-
+- **Cost:** $500 (fixed) -- Varies by case
+- **Available states:** Only Delaware -- Wyoming, Florida, Delaware, and others
+- **EIN:** Included -- Included
+- **Operating Agreement:** Standard template -- Customized
+- **Tax advice:** Not included -- Includes initial analysis
+- **Banking guidance:** Stripe Treasury -- Recommendation by profile
+- **Support:** Generic chat/email -- Personalized accompaniment
+- **Structure analysis:** No -- Yes
+- **Ideal for:** Simple Delaware businesses using Stripe -- Businesses needing real structuring
 ## When to choose Stripe Atlas?
 
 Stripe Atlas can be a good option if:
@@ -103,13 +100,10 @@ Personalized consulting is the best option if:
 
 ## Long-term cost analysis
 
-| Scenario | Stripe Atlas | Personalized Consulting |
-|-----------|-------------|----------------------|
-| **Initial cost** | $500 | $300�$800 |
-| **Annual Delaware cost** | $300 (Franchise Tax) + agent | Depends on chosen state |
-| **Error cost** | Potentially high | Minimized |
-| **Potential tax savings** | Not evaluated | Analyzed |
-
+- **Initial cost:** $500 -- $300�$800
+- **Annual Delaware cost:** $300 (Franchise Tax) + agent -- Depends on chosen state
+- **Error cost:** Potentially high -- Minimized
+- **Potential tax savings:** Not evaluated -- Analyzed
 > **Note:** The initial cost of consulting may be similar or slightly higher, but savings in annual maintenance costs (choosing a state like Wyoming instead of Delaware) and preventing tax errors can more than compensate for the difference.
 
 ## Common mistakes when choosing Stripe Atlas without consulting

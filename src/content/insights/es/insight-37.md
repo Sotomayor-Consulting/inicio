@@ -1,140 +1,134 @@
-Ôªø---
-title: "¬øQu√© es FATCA? Gu√≠a Completa sobre la Ley de Cumplimiento Fiscal de Cuentas Extranjeras"
-description: "Gu√≠a completa sobre FATCA"
+---
+title: "øQuÈ es FATCA? GuÌa Completa sobre la Ley de Cumplimiento Fiscal de Cuentas Extranjeras"
+description: "GuÌa completa sobre FATCA"
 cardImage: "@/images/insights/cumplimiento-fiscal.png"
-cardImageAlt: "Documentos fiscales internacionales con banderas de varios pa√≠ses"
+cardImageAlt: "Documentos fiscales internacionales con banderas de varios paÌses"
 ---
 
-Si tienes cuentas bancarias, inversiones o activos financieros fuera de Estados Unidos, probablemente hayas escuchado sobre **FATCA**. Pero, **¬øqu√© es FATCA exactamente y c√≥mo te afecta?** La Ley de Cumplimiento Fiscal de Cuentas Extranjeras (Foreign Account Tax Compliance Act) es una ley estadounidense dise√±ada para combatir la evasi√≥n fiscal a trav√©s de cuentas en el extranjero.
+Si tienes cuentas bancarias, inversiones o activos financieros fuera de Estados Unidos, probablemente hayas escuchado sobre **FATCA**. Pero, **øquÈ es FATCA exactamente y cÛmo te afecta?** La Ley de Cumplimiento Fiscal de Cuentas Extranjeras (Foreign Account Tax Compliance Act) es una ley estadounidense diseÒada para combatir la evasiÛn fiscal a travÈs de cuentas en el extranjero.
 
-A continuaci√≥n, te explicamos todo lo que necesitas saber sobre FATCA y tus obligaciones como contribuyente.
+A continuaciÛn, te explicamos todo lo que necesitas saber sobre FATCA y tus obligaciones como contribuyente.
 
-## 1. ¬øQu√© es FATCA?
+## 1. øQuÈ es FATCA?
 
-FATCA (Foreign Account Tax Compliance Act) fue aprobada en 2010 como parte de la Ley de Contrataci√≥n de Incentivos para Restaurar el Empleo (HIRE Act). Su objetivo principal es **detectar y prevenir la evasi√≥n fiscal** mediante la identificaci√≥n de contribuyentes estadounidenses que poseen cuentas financieras en el extranjero.
+FATCA (Foreign Account Tax Compliance Act) fue aprobada en 2010 como parte de la Ley de ContrataciÛn de Incentivos para Restaurar el Empleo (HIRE Act). Su objetivo principal es **detectar y prevenir la evasiÛn fiscal** mediante la identificaciÛn de contribuyentes estadounidenses que poseen cuentas financieras en el extranjero.
 
-### ¬øC√≥mo funciona?
-FATCA exige que las **instituciones financieras extranjeras (FFI)** ‚Äîbancos, fondos de inversi√≥n, compa√±√≠as de seguros, etc.‚Äî reporten al IRS informaci√≥n sobre las cuentas de sus clientes que sean ciudadanos o residentes estadounidenses.
+### øCÛmo funciona?
+FATCA exige que las **instituciones financieras extranjeras (FFI)** óbancos, fondos de inversiÛn, compaÒÌas de seguros, etc.ó reporten al IRS informaciÛn sobre las cuentas de sus clientes que sean ciudadanos o residentes estadounidenses.
 
-Si una instituci√≥n financiera extranjera no cumple con estos requisitos de reporte, se le aplica una **retenci√≥n del 30%** sobre ciertos pagos de fuente estadounidense (como intereses, dividendos y ganancias de capital).
+Si una instituciÛn financiera extranjera no cumple con estos requisitos de reporte, se le aplica una **retenciÛn del 30%** sobre ciertos pagos de fuente estadounidense (como intereses, dividendos y ganancias de capital).
 
-## 2. ¬øA qui√©n afecta FATCA?
+## 2. øA quiÈn afecta FATCA?
 
 FATCA afecta a:
 
 ### Personas afectadas:
 - **Ciudadanos estadounidenses** (vivan dentro o fuera de EE. UU.)
 - **Residentes permanentes** (titulares de Green Card)
-- **Residentes fiscales** seg√∫n la prueba de presencia sustancial
+- **Residentes fiscales** seg˙n la prueba de presencia sustancial
 - **Entidades estadounidenses** con cuentas en el extranjero
 
 ### Excepciones:
-- Ciudadanos que renunciaron a su ciudadan√≠a (aunque aplican reglas especiales para "expatriados" con altos ingresos o patrimonio)
-- No residentes sin v√≠nculos fiscales con EE. UU.
+- Ciudadanos que renunciaron a su ciudadanÌa (aunque aplican reglas especiales para "expatriados" con altos ingresos o patrimonio)
+- No residentes sin vÌnculos fiscales con EE. UU.
 
 ## 3. El Formulario 8938: Statement of Specified Foreign Financial Assets
 
-El principal instrumento de reporte de FATCA para individuos es el **Formulario 8938**, que debe presentarse junto con tu declaraci√≥n anual de impuestos (Form 1040).
+El principal instrumento de reporte de FATCA para individuos es el **Formulario 8938**, que debe presentarse junto con tu declaraciÛn anual de impuestos (Form 1040).
 
-### ¬øCu√°ndo debes presentarlo?
+### øCu·ndo debes presentarlo?
 
-| Estado Civil | Valor de activos si vives en EE. UU. | Valor de activos si vives en el extranjero |
-|---|---|---|
-| Soltero o declaraci√≥n separada | M√°s de $50,000 (√∫ltimo d√≠a) o $75,000 (cualquier momento) | M√°s de $200,000 (√∫ltimo d√≠a) o $300,000 (cualquier momento) |
-| Casado (declaraci√≥n conjunta) | M√°s de $100,000 (√∫ltimo d√≠a) o $150,000 (cualquier momento) | M√°s de $400,000 (√∫ltimo d√≠a) o $600,000 (cualquier momento) |
-
+- **Soltero o declaraciÛn separada:** M·s de $50,000 (˙ltimo dÌa) o $75,000 (cualquier momento) -- M·s de $200,000 (˙ltimo dÌa) o $300,000 (cualquier momento)
+- **Casado (declaraciÛn conjunta):** M·s de $100,000 (˙ltimo dÌa) o $150,000 (cualquier momento) -- M·s de $400,000 (˙ltimo dÌa) o $600,000 (cualquier momento)
 ### Activos que debes reportar:
-- Cuentas bancarias y de inversi√≥n en el extranjero
-- Acciones, bonos y t√≠tulos valores emitidos por entidades no estadounidenses
-- Participaciones en fondos de inversi√≥n extranjeros
+- Cuentas bancarias y de inversiÛn en el extranjero
+- Acciones, bonos y tÌtulos valores emitidos por entidades no estadounidenses
+- Participaciones en fondos de inversiÛn extranjeros
 - Contratos de seguro de vida o anualidades con valor en efectivo emitidos por entidades extranjeras
 - Ciertos intereses en entidades extranjeras (como sociedades, trusts o fideicomisos)
 
-## 4. FATCA vs. FBAR: ¬øCu√°l es la diferencia?
+## 4. FATCA vs. FBAR: øCu·l es la diferencia?
 
-Una de las confusiones m√°s comunes es la diferencia entre **FATCA** y **FBAR**. Aunque ambas requieren reportar cuentas en el extranjero, son requisitos distintos:
+Una de las confusiones m·s comunes es la diferencia entre **FATCA** y **FBAR**. Aunque ambas requieren reportar cuentas en el extranjero, son requisitos distintos:
 
-| Aspecto | FATCA (Form 8938) | FBAR (FinCEN Form 114) |
-|---|---|---|
-| **Prop√≥sito** | Reportar activos financieros extranjeros | Reportar cuentas bancarias y financieras extranjeras |
-| **Formulario** | Form 8938 (con tu tax return) | FinCEN Form 114 (por separado) |
-| **Umbral** | Var√≠a seg√∫n residencia y estado civil ($50,000 ‚Äì $600,000) | $10,000 (valor agregado en cualquier momento del a√±o) |
-| **Activos cubiertos** | Cuentas, acciones, bonos, fondos, seguros, intereses en entidades | Cuentas bancarias, cuentas de inversi√≥n, cuentas de seguros |
-| **Presentaci√≥n** | Con tu Form 1040 (anual) | Por separado, antes del 15 de octubre (electr√≥nico) |
-| **Sanci√≥n por no presentar** | $10,000 por infracci√≥n (hasta $50,000 por infracci√≥n continuada) | Hasta $10,000 por infracci√≥n no intencional; hasta $100,000 o 50% del saldo por infracci√≥n intencional |
-
+- **PropÛsito:** Reportar activos financieros extranjeros -- Reportar cuentas bancarias y financieras extranjeras
+- **Formulario:** Form 8938 (con tu tax return) -- FinCEN Form 114 (por separado)
+- **Umbral:** VarÌa seg˙n residencia y estado civil ($50,000 ñ $600,000) -- $10,000 (valor agregado en cualquier momento del aÒo)
+- **Activos cubiertos:** Cuentas, acciones, bonos, fondos, seguros, intereses en entidades -- Cuentas bancarias, cuentas de inversiÛn, cuentas de seguros
+- **PresentaciÛn:** Con tu Form 1040 (anual) -- Por separado, antes del 15 de octubre (electrÛnico)
+- **SanciÛn por no presentar:** $10,000 por infracciÛn (hasta $50,000 por infracciÛn continuada) -- Hasta $10,000 por infracciÛn no intencional; hasta $100,000 o 50% del saldo por infracciÛn intencional
 > **Importante:** Puedes estar obligado a presentar **ambos** formularios si cumples los umbrales de cada uno.
 
-## 5. ¬øC√≥mo afecta FATCA a las Instituciones Financieras Extranjeras?
+## 5. øCÛmo afecta FATCA a las Instituciones Financieras Extranjeras?
 
 Las instituciones financieras extranjeras (FFI) deben:
 
-1. **Registrarse** en el IRS y obtener un n√∫mero GIIN (Global Intermediary Identification Number)
+1. **Registrarse** en el IRS y obtener un n˙mero GIIN (Global Intermediary Identification Number)
 2. **Identificar** a sus clientes estadounidenses mediante procedimientos de debida diligencia
-3. **Reportar** anualmente al IRS la informaci√≥n de las cuentas de contribuyentes estadounidenses
+3. **Reportar** anualmente al IRS la informaciÛn de las cuentas de contribuyentes estadounidenses
 4. **Retener el 30%** sobre ciertos pagos de fuente estadounidense si no cumplen
 
 ### Consecuencias para las FFI que no cumplen:
-- Retenci√≥n del 30% sobre pagos de fuente estadounidense
-- Posible exclusi√≥n del sistema financiero estadounidense
-- Da√±o reputacional
+- RetenciÛn del 30% sobre pagos de fuente estadounidense
+- Posible exclusiÛn del sistema financiero estadounidense
+- DaÒo reputacional
 
 ## 6. Acuerdos Intergubernamentales (IGA)
 
-Para facilitar la implementaci√≥n de FATCA, EE. UU. ha firmado **Acuerdos Intergubernamentales (IGA)** con m√°s de 100 pa√≠ses. Existen dos modelos:
+Para facilitar la implementaciÛn de FATCA, EE. UU. ha firmado **Acuerdos Intergubernamentales (IGA)** con m·s de 100 paÌses. Existen dos modelos:
 
 ### Modelo 1 (IGA 1):
-- Las FFI reportan la informaci√≥n a su autoridad fiscal local
-- La autoridad local intercambia autom√°ticamente la informaci√≥n con el IRS
-- Ejemplos: M√©xico, Colombia, Per√∫, Chile, Argentina, Espa√±a, Brasil, Portugal
+- Las FFI reportan la informaciÛn a su autoridad fiscal local
+- La autoridad local intercambia autom·ticamente la informaciÛn con el IRS
+- Ejemplos: MÈxico, Colombia, Per˙, Chile, Argentina, EspaÒa, Brasil, Portugal
 
 ### Modelo 2 (IGA 2):
 - Las FFI reportan directamente al IRS
-- El gobierno local se compromete a asistir en la recolecci√≥n de informaci√≥n si es necesario
-- Ejemplos: Suiza, Jap√≥n
+- El gobierno local se compromete a asistir en la recolecciÛn de informaciÛn si es necesario
+- Ejemplos: Suiza, JapÛn
 
-### Pa√≠ses sin IGA:
-- Las FFI en estos pa√≠ses deben firmar un acuerdo directo con el IRS o enfrentar la retenci√≥n del 30%
+### PaÌses sin IGA:
+- Las FFI en estos paÌses deben firmar un acuerdo directo con el IRS o enfrentar la retenciÛn del 30%
 
 ## 7. Sanciones por Incumplimiento de FATCA
 
 No presentar el Formulario 8938 cuando es requerido puede resultar en:
 
 - **Multa de $10,000** por no presentar
-- **Multa adicional de $10,000** por cada mes de retraso despu√©s de recibir un aviso del IRS (hasta un m√°ximo de $50,000 por infracci√≥n continuada)
-- **Extensi√≥n del plazo de prescripci√≥n**: El IRS tiene 6 a√±os para auditar tu declaraci√≥n si omites m√°s de $5,000 en activos extranjeros reportables (en lugar de los 3 a√±os habituales)
-- **Posibles cargos penales** en casos de evasi√≥n fiscal deliberada
+- **Multa adicional de $10,000** por cada mes de retraso despuÈs de recibir un aviso del IRS (hasta un m·ximo de $50,000 por infracciÛn continuada)
+- **ExtensiÛn del plazo de prescripciÛn**: El IRS tiene 6 aÒos para auditar tu declaraciÛn si omites m·s de $5,000 en activos extranjeros reportables (en lugar de los 3 aÒos habituales)
+- **Posibles cargos penales** en casos de evasiÛn fiscal deliberada
 
-### Programas de Divulgaci√≥n Voluntaria:
-Si no has cumplido con FATCA, el IRS ofrece programas como el **Streamlined Filing Compliance Procedures** y el **Offshore Voluntary Disclosure Program (OVDP)** para regularizar tu situaci√≥n con sanciones reducidas.
+### Programas de DivulgaciÛn Voluntaria:
+Si no has cumplido con FATCA, el IRS ofrece programas como el **Streamlined Filing Compliance Procedures** y el **Offshore Voluntary Disclosure Program (OVDP)** para regularizar tu situaciÛn con sanciones reducidas.
 
 ## 8. FATCA y Titulares de LLC Extranjeras
 
-Si eres ciudadano o residente estadounidense y posees una **LLC extranjera** (incluyendo LLC en tu pa√≠s de origen):
+Si eres ciudadano o residente estadounidense y posees una **LLC extranjera** (incluyendo LLC en tu paÌs de origen):
 
-- Debes reportar tu participaci√≥n en el Formulario 8938 si superas los umbrales
+- Debes reportar tu participaciÛn en el Formulario 8938 si superas los umbrales
 - Posiblemente debas presentar el **Formulario 5471** (Information Return of U.S. Persons With Respect to Certain Foreign Corporations) o **Formulario 8865** (para sociedades extranjeras)
 - La LLC extranjera puede calificar como "entidad extranjera" y requerir reportes adicionales
 
-## 9. FATCA y Expatriados (Renuncia a la Ciudadan√≠a)
+## 9. FATCA y Expatriados (Renuncia a la CiudadanÌa)
 
-Si renunciaste a tu ciudadan√≠a estadounidense o green card, FATCA a√∫n puede afectarte:
+Si renunciaste a tu ciudadanÌa estadounidense o green card, FATCA a˙n puede afectarte:
 
 - Si eres un "expatriado cubierto" (ingreso anual > $200,000 o patrimonio > $2 millones), debes presentar el **Formulario 8854**
-- Las instituciones financieras extranjeras pueden reportar tus cuentas si mantienes v√≠nculos con EE. UU.
-- Podr√≠as estar sujeto a la **Secci√≥n 877A** (impuesto de salida o exit tax)
+- Las instituciones financieras extranjeras pueden reportar tus cuentas si mantienes vÌnculos con EE. UU.
+- PodrÌas estar sujeto a la **SecciÛn 877A** (impuesto de salida o exit tax)
 
 ## 10. Recomendaciones para Cumplir con FATCA
 
-### Pasos pr√°cticos:
+### Pasos pr·cticos:
 1. **Identifica tus activos en el extranjero**: Haz un inventario de todas tus cuentas e inversiones fuera de EE. UU.
-2. **Determina si superas los umbrales**: Revisa los montos seg√∫n tu estado civil y lugar de residencia
-3. **Presenta el Formulario 8938 a tiempo**: Incl√∫yelo con tu declaraci√≥n anual de impuestos
-4. **No olvides el FBAR**: Ambos formularios pueden ser requeridos simult√°neamente
+2. **Determina si superas los umbrales**: Revisa los montos seg˙n tu estado civil y lugar de residencia
+3. **Presenta el Formulario 8938 a tiempo**: Incl˙yelo con tu declaraciÛn anual de impuestos
+4. **No olvides el FBAR**: Ambos formularios pueden ser requeridos simult·neamente
 5. **Consulta con un especialista**: Las reglas de FATCA son complejas y las sanciones por incumplimiento son severas
 
-## Conclusi√≥n
+## ConclusiÛn
 
-**FATCA** es una ley fundamental en la lucha contra la evasi√≥n fiscal internacional. Entender **qu√© es FATCA** y c√≥mo te afecta es esencial si eres ciudadano o residente estadounidense con activos financieros en el extranjero. Desde el Formulario 8938 hasta los acuerdos intergubernamentales y las sanciones por incumplimiento, cada aspecto de esta ley tiene implicaciones importantes para tu declaraci√≥n de impuestos.
+**FATCA** es una ley fundamental en la lucha contra la evasiÛn fiscal internacional. Entender **quÈ es FATCA** y cÛmo te afecta es esencial si eres ciudadano o residente estadounidense con activos financieros en el extranjero. Desde el Formulario 8938 hasta los acuerdos intergubernamentales y las sanciones por incumplimiento, cada aspecto de esta ley tiene implicaciones importantes para tu declaraciÛn de impuestos.
 
-En **Sotomayor Consulting International**, te ayudamos a navegar tus obligaciones bajo FATCA y mantenerte en cumplimiento con el IRS. Cont√°ctanos hoy para una asesor√≠a personalizada.
+En **Sotomayor Consulting International**, te ayudamos a navegar tus obligaciones bajo FATCA y mantenerte en cumplimiento con el IRS. Cont·ctanos hoy para una asesorÌa personalizada.

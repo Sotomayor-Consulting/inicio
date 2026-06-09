@@ -13,12 +13,9 @@ Neste guia, explicamos **como tributa o aluguel nos EUA** em 2026: receitas, ded
 
 ### Residente vs. N�o Residente
 
-| Tipo | Defini��o Fiscal | Tributa��o |
-|------|----------------|-----------|
-| **Residente fiscal (Green Card ou 183+ dias)** | Tributa como qualquer americano | Renda mundial |
-| **N�o residente (estrangeiro sem presen�a)** | S� tributa por renda de fonte americana | S� renda nos EUA |
-| **N�o residente (com presen�a mas < 183 dias)** | S� tributa por renda de fonte americana | S� renda nos EUA |
-
+- **Residente fiscal (Green Card ou 183+ dias):** Tributa como qualquer americano -- Renda mundial
+- **N�o residente (estrangeiro sem presen�a):** S� tributa por renda de fonte americana -- S� renda nos EUA
+- **N�o residente (com presen�a mas < 183 dias):** S� tributa por renda de fonte americana -- S� renda nos EUA
 ### Voc� � Considerado N�o Residente?
 
 `
@@ -41,16 +38,13 @@ Para investidores estrangeiros:
 
 ### Rendas Tribut�veis
 
-| Item | Tributa? | Nota |
-|------|---------|------|
-| **Aluguel mensal** | Sim | Renda principal |
-| **Dep�sito de seguran�a** | N�o | At� voc� ficar com ele |
-| **Multas por atraso** | Sim | Considerada renda |
-| **Servi�os p�blicos pagos pelo inquilino** | Sim | Se sobre o aluguel base |
-| **Aluguel de f�rias (Airbnb)** | Sim | Mesmas regras |
-| **Aluguel de temporada** | Sim | Mesmas regras |
-| **Subs�dios (Section 8)** | Sim | Renda tribut�vel |
-
+- **Aluguel mensal:** Sim -- Renda principal
+- **Dep�sito de seguran�a:** N�o -- At� voc� ficar com ele
+- **Multas por atraso:** Sim -- Considerada renda
+- **Servi�os p�blicos pagos pelo inquilino:** Sim -- Se sobre o aluguel base
+- **Aluguel de f�rias (Airbnb):** Sim -- Mesmas regras
+- **Aluguel de temporada:** Sim -- Mesmas regras
+- **Subs�dios (Section 8):** Sim -- Renda tribut�vel
 ### O Que N�O � Renda?
 
 `
@@ -85,28 +79,22 @@ console.log(Receita bruta de aluguel 2026: {grossRent / 100});
 
 ### Dedu��es Permitidas
 
-| Dedu��o | Descri��o | Exemplo |
-|---------|----------|---------|
-| **Juros hipotec�rios** | Juros do empr�stimo da propriedade | .000/ano |
-| **Deprecia��o** | Desgaste do edif�cio (27.5 anos) | .909/ano |
-| **IPTU (Property tax)** | Imposto predial | .000/ano |
-| **Seguros** | Todos os pr�mios | .500/ano |
-| **Reparos e manuten��o** | Consertos, pintura, encanamento | .000/ano |
-| **Property manager** | Honor�rios de gest�o (8-12%) | .600/ano |
-| **Condom�nio** | Taxas de associa��o | .400/ano |
-| **Servi�os p�blicos** | Se pagos pelo propriet�rio | .200/ano |
-| **Viagens** | Viagens para administrar a propriedade | .000/ano |
-| **Honor�rios legais e cont�beis** | Advogado, CPA | .500/ano |
-| **Marketing** | Publicidade, fotos, listing | /ano |
-| **Melhorias (n�o reparos)** | Depreciadas, n�o deduzidas direto | Conforme vida �til |
-
+- **Juros hipotec�rios:** Juros do empr�stimo da propriedade -- .000/ano
+- **Deprecia��o:** Desgaste do edif�cio (27.5 anos) -- .909/ano
+- **IPTU (Property tax):** Imposto predial -- .000/ano
+- **Seguros:** Todos os pr�mios -- .500/ano
+- **Reparos e manuten��o:** Consertos, pintura, encanamento -- .000/ano
+- **Property manager:** Honor�rios de gest�o (8-12%) -- .600/ano
+- **Condom�nio:** Taxas de associa��o -- .400/ano
+- **Servi�os p�blicos:** Se pagos pelo propriet�rio -- .200/ano
+- **Viagens:** Viagens para administrar a propriedade -- .000/ano
+- **Honor�rios legais e cont�beis:** Advogado, CPA -- .500/ano
+- **Marketing:** Publicidade, fotos, listing -- /ano
+- **Melhorias (n�o reparos):** Depreciadas, n�o deduzidas direto -- Conforme vida �til
 ### Reparos vs. Melhorias
 
-| Tipo | Defini��o | Tratamento Fiscal |
-|------|----------|------------------|
-| **Reparo** | Manter em condi��o operacional | Deduz 100% este ano |
-| **Melhoria** | Aumenta valor, estende vida �til | Deprecia (27.5 anos ou mais) |
-
+- **Reparo:** Manter em condi��o operacional -- Deduz 100% este ano
+- **Melhoria:** Aumenta valor, estende vida �til -- Deprecia (27.5 anos ou mais)
 `
 Exemplos:
 
@@ -129,13 +117,10 @@ MELHORIAS (deprecia��o):
 
 A deprecia��o � a dedu��o mais valiosa para propriedades de aluguel. Reconhece que o edif�cio se desgasta com o tempo, permitindo deduzir uma parte a cada ano sem gastar dinheiro.
 
-| Tipo de Propriedade | Vida �til | Deprecia��o Anual |
-|-------------------|-----------|------------------|
-| **Residencial (aluguel)** | 27.5 anos | 3.636% do valor do edif�cio |
-| **Comercial** | 39 anos | 2.564% do valor do edif�cio |
-| **Melhorias externas** | 15 anos | 6.667% |
-| **Equipamentos (mobili�rio)** | 5-7 anos | 14.29-20% |
-
+- **Residencial (aluguel):** 27.5 anos -- 3.636% do valor do edif�cio
+- **Comercial:** 39 anos -- 2.564% do valor do edif�cio
+- **Melhorias externas:** 15 anos -- 6.667%
+- **Equipamentos (mobili�rio):** 5-7 anos -- 14.29-20%
 ### C�lculo da Deprecia��o
 
 `
@@ -202,11 +187,8 @@ Vale a pena? Sim, porque diferiu impostos por anos.
 
 O aluguel de propriedades � considerado uma "atividade passiva" a menos que voc� seja um profissional imobili�rio (real estate professional).
 
-| Tipo | Defini��o | Dedu��o de Perdas |
-|------|----------|------------------|
-| **Atividade passiva** | Aluguel (default) | S� contra renda passiva |
-| **Real estate professional** | 750+ horas/ano + 50% do seu tempo | Pode deduzir contra renda ativa |
-
+- **Atividade passiva:** Aluguel (default) -- S� contra renda passiva
+- **Real estate professional:** 750+ horas/ano + 50% do seu tempo -- Pode deduzir contra renda ativa
 ### Limita��es para Estrangeiros
 
 `
@@ -231,16 +213,13 @@ A deprecia��o continua valiosa como diferimento de impostos.
 
 ### Principais Formul�rios
 
-| Formul�rio | Quem Usa | Prop�sito |
-|-----------|---------|----------|
-| **1040-NR** | Estrangeiro n�o residente | Declara��o anual de imposto |
-| **Schedule E** | Todos com propriedades de aluguel | Reportar receitas e despesas |
-| **1042-S** | Pagador a estrangeiro | Reportar renda sujeita a reten��o |
-| **W-8BEN** | Estrangeiro | Certificar status de n�o residente |
-| **W-8ECI** | Estrangeiro | Renda conectada a neg�cio nos EUA |
-| **8288-B** | Comprador de estrangeiro | Isen��o de reten��o FIRPTA |
-| **ITIN application (W-7)** | Estrangeiro sem SSN | Solicitar ITIN |
-
+- **1040-NR:** Estrangeiro n�o residente -- Declara��o anual de imposto
+- **Schedule E:** Todos com propriedades de aluguel -- Reportar receitas e despesas
+- **1042-S:** Pagador a estrangeiro -- Reportar renda sujeita a reten��o
+- **W-8BEN:** Estrangeiro -- Certificar status de n�o residente
+- **W-8ECI:** Estrangeiro -- Renda conectada a neg�cio nos EUA
+- **8288-B:** Comprador de estrangeiro -- Isen��o de reten��o FIRPTA
+- **ITIN application (W-7):** Estrangeiro sem SSN -- Solicitar ITIN
 ### Form 1040-NR para Investidores Estrangeiros
 
 `
@@ -292,14 +271,11 @@ Recomenda��o: Solicite ITIN ANTES de vender uma propriedade nos EUA.
 
 ### Reten��o na Fonte
 
-| Tipo de Renda | Taxa de Reten��o | Formul�rio |
-|--------------|-----------------|-----------|
-| **Aluguel (bruto)** | 30% (sem W-8ECI) | 1042-S |
-| **Aluguel l�quido (com W-8ECI)** | 0% (declara com 1040-NR) | W-8ECI |
-| **Juros banc�rios** | 0% (portfolio interest exemption) | W-8BEN |
-| **Dividendos** | 30% (ou menos com treaty) | W-8BEN |
-| **Ganho de capital (venda)** | 15% (FIRPTA) | 8288-B |
-
+- **Aluguel (bruto):** 30% (sem W-8ECI) -- 1042-S
+- **Aluguel l�quido (com W-8ECI):** 0% (declara com 1040-NR) -- W-8ECI
+- **Juros banc�rios:** 0% (portfolio interest exemption) -- W-8BEN
+- **Dividendos:** 30% (ou menos com treaty) -- W-8BEN
+- **Ganho de capital (venda):** 15% (FIRPTA) -- 8288-B
 ### W-8ECI vs. W-8BEN: A Decis�o Chave
 
 `
@@ -341,14 +317,11 @@ const taxSettings = await stripe.tax.settings.retrieve();
 
 FIRPTA (Foreign Investment in Real Property Tax Act) exige que o comprador retenha 15% do pre�o de venda se o vendedor for estrangeiro n�o residente.
 
-| Conceito | Detalhe |
-|---------|---------|
-| **Reten��o** | 15% do pre�o TOTAL de venda |
-| **Quem ret�m** | O comprador (escrow / title company) |
-| **Prazo** | 20 dias ap�s o fechamento ao IRS |
-| **Formul�rio** | 8288 + 8288-A |
-| **Isen��o** | < .000 e comprador usa como resid�ncia |
-
+- **Reten��o:** 15% do pre�o TOTAL de venda
+- **Quem ret�m:** O comprador (escrow / title company)
+- **Prazo:** 20 dias ap�s o fechamento ao IRS
+- **Formul�rio:** 8288 + 8288-A
+- **Isen��o:** < .000 e comprador usa como resid�ncia
 ### Como Solicitar Redu��o ou Isen��o
 
 `
@@ -404,39 +377,30 @@ Com certificado: Reten��o de .000 (15% de )
 
 ### Estados Sem Imposto de Renda
 
-| Estado | State Income Tax | Property Tax Aprox. |
-|--------|----------------|-------------------|
-| **Fl�rida** | 0% | 0.8-1.2% |
-| **Texas** | 0% | 1.6-2.2% |
-| **Wyoming** | 0% | 0.5-0.7% |
-| **Nevada** | 0% | 0.6-0.9% |
-| **Tennessee** | 0% | 0.6-0.9% |
-
+- **Fl�rida:** 0% -- 0.8-1.2%
+- **Texas:** 0% -- 1.6-2.2%
+- **Wyoming:** 0% -- 0.5-0.7%
+- **Nevada:** 0% -- 0.6-0.9%
+- **Tennessee:** 0% -- 0.6-0.9%
 ### Estados com Imposto de Renda
 
-| Estado | Al�quota M�xima | Nota |
-|-------|----------------|------|
-| **Calif�rnia** | 13.3% | Alto, mas valoriza��o forte |
-| **Nova York** | 10.9% | Mais property tax |
-| **Illinois** | 4.95% | Property tax alto (~2%) |
-| **Massachusetts** | 5% | Property tax m�dio |
-
+- **Calif�rnia:** 13.3% -- Alto, mas valoriza��o forte
+- **Nova York:** 10.9% -- Mais property tax
+- **Illinois:** 4.95% -- Property tax alto (~2%)
+- **Massachusetts:** 5% -- Property tax m�dio
 > Para investidores estrangeiros: Fl�rida e Texas s�o os estados mais populares porque n�o t�m state income tax. S� paga property tax (~1% do valor anual).
 
 ## 10. Estrat�gias de Otimiza��o Fiscal
 
 ### Estrat�gias Legais
 
-| Estrat�gia | Descri��o | Economia Potencial |
-|-----------|----------|------------------|
-| **Deprecia��o** | Deduz 3.636% do valor do edif�cio ao ano | .000-15.000/ano |
-| **Cost Segregation Study** | Acelera deprecia��o de componentes (5-15 anos) | .000-50.000 no primeiro ano |
-| **1031 Exchange** | Diferir ganho de capital ao vender e reinvestir | Ilimitado |
-| **Self-directed IRA** | Investir em propriedades pelo seu IRA | Diferimento total |
-| **LLC + S-Corp election** | Economizar self-employment tax | .000-5.000/ano |
-| **Bonus depreciation** | Deprecia��o acelerada (equipamentos) | Vari�vel |
-| **Travel deductions** | Viagens para administrar propriedades | .000-10.000/ano |
-
+- **Deprecia��o:** Deduz 3.636% do valor do edif�cio ao ano -- .000-15.000/ano
+- **Cost Segregation Study:** Acelera deprecia��o de componentes (5-15 anos) -- .000-50.000 no primeiro ano
+- **1031 Exchange:** Diferir ganho de capital ao vender e reinvestir -- Ilimitado
+- **Self-directed IRA:** Investir em propriedades pelo seu IRA -- Diferimento total
+- **LLC + S-Corp election:** Economizar self-employment tax -- .000-5.000/ano
+- **Bonus depreciation:** Deprecia��o acelerada (equipamentos) -- Vari�vel
+- **Travel deductions:** Viagens para administrar propriedades -- .000-10.000/ano
 ### Cost Segregation Study
 
 `
@@ -484,17 +448,14 @@ const reportRun = await stripe.reporting.reportRuns.create({
 
 ## 11. Erros Comuns em Impostos de Aluguel
 
-| Erro | Consequ�ncia | Solu��o |
-|------|-------------|---------|
-| **N�o declarar receitas** | Multas, juros, IRS penhora | Declare sempre |
-| **N�o usar W-8ECI** | Stripe ret�m 30% de TODAS as receitas | Apresente W-8ECI |
-| **N�o depreciar** | Paga impostos a mais | Deprecie sempre |
-| **Classificar melhoria como reparo** | IRS pode auditar e reclassificar | Consulte CPA |
-| **N�o ter ITIN** | N�o pode declarar nem recuperar FIRPTA | Solicite ITIN |
-| **Misturar contas pessoais e LLC** | Perde prote��o da LLC | Contas separadas |
-| **N�o reportar venda (FIRPTA)** | Comprador reporta igual, IRS investiga | Declare a venda |
-| **N�o pagar estimated taxes** | Multas por falta de pagamento | Pague estimados trimestrais |
-
+- **N�o declarar receitas:** Multas, juros, IRS penhora -- Declare sempre
+- **N�o usar W-8ECI:** Stripe ret�m 30% de TODAS as receitas -- Apresente W-8ECI
+- **N�o depreciar:** Paga impostos a mais -- Deprecie sempre
+- **Classificar melhoria como reparo:** IRS pode auditar e reclassificar -- Consulte CPA
+- **N�o ter ITIN:** N�o pode declarar nem recuperar FIRPTA -- Solicite ITIN
+- **Misturar contas pessoais e LLC:** Perde prote��o da LLC -- Contas separadas
+- **N�o reportar venda (FIRPTA):** Comprador reporta igual, IRS investiga -- Declare a venda
+- **N�o pagar estimated taxes:** Multas por falta de pagamento -- Pague estimados trimestrais
 ## 12. Perguntas Frequentes
 
 ### Preciso declarar impostos nos EUA se minha propriedade d� preju�zo?

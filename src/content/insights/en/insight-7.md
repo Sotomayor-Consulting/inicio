@@ -132,15 +132,12 @@ Not everything is positive. An LLC may not be the best option if:
 
 ## Comparison Table: LLC vs. Other Structures
 
-| Aspect | LLC | C-Corp | Company in your country |
-|---------|-----|--------|-----------------------|
-| Asset protection | High | High | Variable |
-| Formation cost | Low�Medium | High | Variable |
-| Annual maintenance | $150�$1000+ | $500�$2000+ | Variable |
-| Access to Stripe/PayPal US | Yes | Yes | Limited |
-| Ideal for foreigners | Yes | Depends | Depends |
-| Tax flexibility | High | Low | Variable |
-
+- **Asset protection:** High -- High -- Variable
+- **Formation cost:** Low�Medium -- High -- Variable
+- **Annual maintenance:** $150�$1000+ -- $500�$2000+ -- Variable
+- **Access to Stripe/PayPal US:** Yes -- Yes -- Limited
+- **Ideal for foreigners:** Yes -- Depends -- Depends
+- **Tax flexibility:** High -- Low -- Variable
 ## Conclusion
 
 An LLC can be a transformative tool for Latin American entrepreneurs who want to:

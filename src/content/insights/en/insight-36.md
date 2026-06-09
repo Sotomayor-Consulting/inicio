@@ -47,15 +47,12 @@ Not all digital income is treated the same. The IRS classifies it by nature:
 
 The **source of income** determines whether you are taxed in the U.S.:
 
-| Income Type | Source | Taxed in U.S.? |
-|---|---|---|
-| Services performed from the U.S. | U.S. | Yes |
-| Services performed from abroad | Foreign | Depends on residency |
-| Royalties for U.S. property use | U.S. | Yes |
-| Royalties for foreign property use | Foreign | Depends on residency |
-| Product sales from the U.S. | U.S. | Yes |
-| Cryptocurrency (sold on U.S. exchange) | Depends on residency | Depends |
-
+- **Services performed from the U.S.:** U.S. -- Yes
+- **Services performed from abroad:** Foreign -- Depends on residency
+- **Royalties for U.S. property use:** U.S. -- Yes
+- **Royalties for foreign property use:** Foreign -- Depends on residency
+- **Product sales from the U.S.:** U.S. -- Yes
+- **Cryptocurrency (sold on U.S. exchange):** Depends on residency -- Depends
 ## 3. Reporting Thresholds: Form 1099
 
 Digital platforms are required to report your income to the IRS using 1099 forms:
@@ -136,13 +133,10 @@ If you receive income through foreign platforms (such as Binance, Wise, Payoneer
 
 If you expect to owe more than **$1,000** to the IRS when filing your annual return, you must make quarterly estimated payments:
 
-| Period | Due Date |
-|---|---|
-| January � March | April 15 |
-| April � May | June 15 |
-| June � August | September 15 |
-| September � December | January 15 (next year) |
-
+- **January � March:** April 15
+- **April � May:** June 15
+- **June � August:** September 15
+- **September � December:** January 15 (next year)
 ### Consequences of not paying:
 - Underpayment penalty
 - Interest on the unpaid balance

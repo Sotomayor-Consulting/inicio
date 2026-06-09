@@ -1,70 +1,64 @@
-ï»¿---
-title: "QuÃ© hacer si nunca declaraste impuestos: GuÃ­a 2026"
-description: "Pasos para resolver impuestos no declarados y ponerte al dÃ­a"
+---
+title: "Qué hacer si nunca declaraste impuestos: Guía 2026"
+description: "Pasos para resolver impuestos no declarados y ponerte al día"
 cardImage: "@/images/insights/una-llc-paga-impuestos.png"
-cardImageAlt: "GuÃ­a de cumplimiento fiscal mostrando formularios IRS, opciones de alivio de multas, procedimientos de declaraciÃ³n simplificada, planes de pago y vÃ­as de consulta profesional"
+cardImageAlt: "Guía de cumplimiento fiscal mostrando formularios IRS, opciones de alivio de multas, procedimientos de declaración simplificada, planes de pago y vías de consulta profesional"
 ---
 
-**Enfrentar aÃ±os de impuestos no declarados es abrumador, pero estÃ¡ lejos de ser el fin del mundo.** Millones de dueÃ±os de negocios e individuos se atrasan en sus declaraciones de impuestos. La buena noticia es que el IRS y la mayorÃ­a de las autoridades fiscales tienen programas diseÃ±ados especÃ­ficamente para ayudar a los no declarantes a volver al cumplimiento, a menudo con multas reducidas y sin proceso penal.
+**Enfrentar años de impuestos no declarados es abrumador, pero está lejos de ser el fin del mundo.** Millones de dueños de negocios e individuos se atrasan en sus declaraciones de impuestos. La buena noticia es que el IRS y la mayoría de las autoridades fiscales tienen programas diseñados específicamente para ayudar a los no declarantes a volver al cumplimiento, a menudo con multas reducidas y sin proceso penal.
 
-El error crÃ­tico es no hacer nada. Cuanto mÃ¡s esperes, mÃ¡s multas se acumulan, mÃ¡s tiempo permanecen abiertos los estatutos de limitaciones y mÃ¡s opciones pierdes.
+El error crítico es no hacer nada. Cuanto más esperes, más multas se acumulan, más tiempo permanecen abiertos los estatutos de limitaciones y más opciones pierdes.
 
-En esta guÃ­a cubrimos **quÃ© hacer si nunca declaraste impuestos en 2026**: por quÃ© la gente deja de declarar, los riesgos reales del incumplimiento continuo, opciones paso a paso para ponerse al dÃ­a, programas de alivio de multas, acuerdos de pago a plazos y ofertas de compromiso, consideraciones fiscales estatales, declaraciones fiscales internacionales (FBAR y FATCA), cÃ³mo encontrar ayuda profesional y cÃ³mo construir un sistema de cumplimiento sostenible.
+En esta guía cubrimos **qué hacer si nunca declaraste impuestos en 2026**: por qué la gente deja de declarar, los riesgos reales del incumplimiento continuo, opciones paso a paso para ponerse al día, programas de alivio de multas, acuerdos de pago a plazos y ofertas de compromiso, consideraciones fiscales estatales, declaraciones fiscales internacionales (FBAR y FATCA), cómo encontrar ayuda profesional y cómo construir un sistema de cumplimiento sostenible.
 
-## 1. Por quÃ© la gente deja de declarar
+## 1. Por qué la gente deja de declarar
 
 ### Razones comunes para no declarar
 
-| RazÃ³n | DescripciÃ³n | QuÃ© tan comÃºn |
-|--------|-------------|------------|
-| **Abrumado por la complejidad** | Ingresos comerciales, cripto, cuentas extranjeras, deducciones | Muy comÃºn |
-| **Miedo a no poder pagar** | Debe impuestos pero no puede pagar la factura | RazÃ³n mÃ¡s comÃºn |
-| **Eventos de la vida** | Divorcio, muerte del cÃ³nyuge, enfermedad, pÃ©rdida de empleo | ComÃºn |
-| **ProcrastinaciÃ³n** | PerdiÃ³ un aÃ±o, luego se hizo bola de nieve | Extremadamente comÃºn |
-| **Creencia de que no se deben impuestos** | PensÃ³ que los ingresos eran demasiado bajos o que las pÃ©rdidas cubrÃ­an todo | Moderado |
-| **Mala gestiÃ³n de registros** | Recibos perdidos, sin P&L, no puede reconstruir ingresos | ComÃºn |
-| **Mal consejo** | Alguien dijo "no te preocupes" | Moderado |
-| **Mentalidad de evasiÃ³n** | Miedo, vergÃ¼enza, ansiedad sobre el proceso | Muy comÃºn |
-
+- **Abrumado por la complejidad:** Ingresos comerciales, cripto, cuentas extranjeras, deducciones -- Muy común
+- **Miedo a no poder pagar:** Debe impuestos pero no puede pagar la factura -- Razón más común
+- **Eventos de la vida:** Divorcio, muerte del cónyuge, enfermedad, pérdida de empleo -- Común
+- **Procrastinación:** Perdió un año, luego se hizo bola de nieve -- Extremadamente común
+- **Creencia de que no se deben impuestos:** Pensó que los ingresos eran demasiado bajos o que las pérdidas cubrían todo -- Moderado
+- **Mala gestión de registros:** Recibos perdidos, sin P&L, no puede reconstruir ingresos -- Común
+- **Mal consejo:** Alguien dijo "no te preocupes" -- Moderado
+- **Mentalidad de evasión:** Miedo, vergüenza, ansiedad sobre el proceso -- Muy común
 ### El efecto bola de nieve
 
 ## 2. Los riesgos reales del incumplimiento
 
 ### Espectro de cumplimiento del IRS
 
-| Nivel de riesgo | Escenario | Resultado probable |
-|------------|----------|----------------|
-| **Bajo** | DeclarÃ³ tarde pero pagÃ³ todos los impuestos | Solo multa por presentaciÃ³n tardÃ­a (5% por mes, mÃ¡x. 25%) |
-| **Moderado** | No declarÃ³, no debe impuestos (le corresponde reembolso) | Sin multa, pero el estatuto de limitaciones nunca comienza; el reembolso puede perderse despuÃ©s de 3 aÃ±os |
-| **Significativo** | No declarÃ³, debe impuestos | Multa por presentaciÃ³n tardÃ­a (5%/mes) + pago tardÃ­o (0.5%/mes); interÃ©s compuesto diario |
-| **Alto** | No declarÃ³, debe impuestos significativos, recibiÃ³ avisos del IRS | DeclaraciÃ³n sustitutiva (SFR) presentada por el IRS â€” generalmente desfavorable; embargos y gravÃ¡menes posibles |
-| **Grave** | AÃ±os sin declarar con impuestos sustanciales adeudados | DerivaciÃ³n a investigaciÃ³n penal posible (raro, pero real para montos grandes) |
-
+- **Bajo:** Declaró tarde pero pagó todos los impuestos -- Solo multa por presentación tardía (5% por mes, máx. 25%)
+- **Moderado:** No declaró, no debe impuestos (le corresponde reembolso) -- Sin multa, pero el estatuto de limitaciones nunca comienza; el reembolso puede perderse después de 3 años
+- **Significativo:** No declaró, debe impuestos -- Multa por presentación tardía (5%/mes) + pago tardío (0.5%/mes); interés compuesto diario
+- **Alto:** No declaró, debe impuestos significativos, recibió avisos del IRS -- Declaración sustitutiva (SFR) presentada por el IRS — generalmente desfavorable; embargos y gravámenes posibles
+- **Grave:** Años sin declarar con impuestos sustanciales adeudados -- Derivación a investigación penal posible (raro, pero real para montos grandes)
 ### La trampa del estatuto de limitaciones
 
-### DeclaraciÃ³n sustitutiva (SFR)
+### Declaración sustitutiva (SFR)
 
-**Una SFR presentada por el IRS puede exagerar masivamente tu responsabilidad fiscal** â€” a menudo entre 50-100% o mÃ¡s â€” porque ignora gastos comerciales, deducciones y crÃ©ditos que tienes derecho legal a reclamar.
+**Una SFR presentada por el IRS puede exagerar masivamente tu responsabilidad fiscal** — a menudo entre 50-100% o más — porque ignora gastos comerciales, deducciones y créditos que tienes derecho legal a reclamar.
 
-## 3. Opciones paso a paso para ponerse al dÃ­a
+## 3. Opciones paso a paso para ponerse al día
 
-### OpciÃ³n 1: Presentar declaraciones atrasadas (primer paso recomendado)
+### Opción 1: Presentar declaraciones atrasadas (primer paso recomendado)
 
-### OpciÃ³n 2: Procedimientos de declaraciÃ³n simplificada del IRS
+### Opción 2: Procedimientos de declaración simplificada del IRS
 
-## ConclusiÃ³n
+## Conclusión
 
-**El mejor momento para declarar fue a tiempo. El segundo mejor momento es ahora.** Si no has declarado impuestos por un aÃ±o o diez, el camino a seguir es claro, y el IRS tiene programas diseÃ±ados para ayudarte a volver al cumplimiento.
+**El mejor momento para declarar fue a tiempo. El segundo mejor momento es ahora.** Si no has declarado impuestos por un año o diez, el camino a seguir es claro, y el IRS tiene programas diseñados para ayudarte a volver al cumplimiento.
 
 Los principios clave para resolver impuestos no declarados:
 
-- **Declara antes de que el IRS declare por ti** â€” una SFR es casi siempre peor que declarar tÃº mismo
-- **SÃ© honesto y completo** â€” el IRS puede ver tus ingresos; intentar ocultarlos empeora las cosas
-- **Usa el programa correcto** â€” DeclaraciÃ³n Simplificada para no intencional, VDP para intencional, acuerdos de pago u OIC para pago
-- **ObtÃ©n ayuda profesional** â€” esto no es una situaciÃ³n de bricolaje, especialmente para mÃºltiples aÃ±os no declarados
-- **Iniciar el estatuto de limitaciones** â€” el reloj SOL solo comienza cuando declaras
-- **Construye un sistema para el futuro** â€” una vez al dÃ­a, mantente al dÃ­a con revisiones trimestrales y buen mantenimiento de registros
+- **Declara antes de que el IRS declare por ti** — una SFR es casi siempre peor que declarar tú mismo
+- **Sé honesto y completo** — el IRS puede ver tus ingresos; intentar ocultarlos empeora las cosas
+- **Usa el programa correcto** — Declaración Simplificada para no intencional, VDP para intencional, acuerdos de pago u OIC para pago
+- **Obtén ayuda profesional** — esto no es una situación de bricolaje, especialmente para múltiples años no declarados
+- **Iniciar el estatuto de limitaciones** — el reloj SOL solo comienza cuando declaras
+- **Construye un sistema para el futuro** — una vez al día, mantente al día con revisiones trimestrales y buen mantenimiento de registros
 
-**Los problemas fiscales no desaparecen solos. Pero pueden resolverse â€” sistemÃ¡ticamente, de manera asequible y sin consecuencias penales â€” cuando tomas los pasos correctos con la orientaciÃ³n correcta.**
+**Los problemas fiscales no desaparecen solos. Pero pueden resolverse — sistemáticamente, de manera asequible y sin consecuencias penales — cuando tomas los pasos correctos con la orientación correcta.**
 
-En **Sotomayor Consulting International**, ayudamos a dueÃ±os de negocios e individuos a resolver situaciones de impuestos no declarados: desde preparaciÃ³n de declaraciones multianuales y exenciÃ³n de multas del IRS hasta declaraciÃ³n simplificada, ofertas de compromiso y construcciÃ³n de sistemas de cumplimiento sostenibles. ContÃ¡ctanos para una consulta confidencial.
+En **Sotomayor Consulting International**, ayudamos a dueños de negocios e individuos a resolver situaciones de impuestos no declarados: desde preparación de declaraciones multianuales y exención de multas del IRS hasta declaración simplificada, ofertas de compromiso y construcción de sistemas de cumplimiento sostenibles. Contáctanos para una consulta confidencial.

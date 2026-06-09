@@ -13,31 +13,25 @@ In this guide, we explain **how to open international operations** in 2026: from
 
 ### From Selling Globally to Operating Globally
 
-| Level | Description | Example |
-|-------|------------|---------|
-| **Level 1: Sell globally** | Clients in multiple countries, everything from your country | SaaS selling to US from Argentina |
-| **Level 2: Operate globally** | Company incorporated abroad, international bank account | US LLC + Mercury + Stripe |
-| **Level 3: Global presence** | Offices, employees, subsidiaries in multiple countries | Delaware holding + EU subsidiary + EOR in LATAM |
-
+- **Level 1: Sell globally:** Clients in multiple countries, everything from your country -- SaaS selling to US from Argentina
+- **Level 2: Operate globally:** Company incorporated abroad, international bank account -- US LLC + Mercury + Stripe
+- **Level 3: Global presence:** Offices, employees, subsidiaries in multiple countries -- Delaware holding + EU subsidiary + EOR in LATAM
 ### Benefits of International Operations
 
 ## 2. Choosing Jurisdictions
 
 ### Country Comparison for Operations
 
-| Country | Incorporation | Corporate Tax | Annual Cost | Ideal For |
-|---------|--------------|---------------|-------------|-----------|
-| **US (Delaware)** | Stripe Atlas ($500) | 21% (federal) + 0% state | $500-1,000 | Holding, startup, main operations |
-| **US (Wyoming)** | Stripe Atlas ($500) | 21% + 0% state | $100-300 | LLC for non-residents, simplicity |
-| **United Kingdom** | Companies House (£12) | 25% | £500-1,000 | European operations, UK |
-| **Estonia (e-Residency)** | Online (€265) | 20% (only distributed) | €500-1,000 | Digital nomads, EU startups |
-| **Panama** | Local lawyer | 0% (territorial) | $1,000-2,000 | International holding |
-| **Singapore** | ACRA online | 17% | $2,000-5,000 | Asian operations |
-| **Ireland** | CRO | 12.5% | $2,000-5,000 | EU subsidiary for tax |
-| **Netherlands** | KVK | 25.8% | $3,000-6,000 | EU holding, tax treaties |
-| **Uruguay** | Local lawyer | 25% (territorial) | $1,000-2,000 | LATAM base, free zone |
-| **Cayman Islands** | Local lawyer | 0% | $3,000-8,000 | Holding, investment vehicle |
-
+- **US (Delaware):** Stripe Atlas ($500) -- 21% (federal) + 0% state -- $500-1,000 -- Holding, startup, main operations
+- **US (Wyoming):** Stripe Atlas ($500) -- 21% + 0% state -- $100-300 -- LLC for non-residents, simplicity
+- **United Kingdom:** Companies House (£12) -- 25% -- £500-1,000 -- European operations, UK
+- **Estonia (e-Residency):** Online (€265) -- 20% (only distributed) -- €500-1,000 -- Digital nomads, EU startups
+- **Panama:** Local lawyer -- 0% (territorial) -- $1,000-2,000 -- International holding
+- **Singapore:** ACRA online -- 17% -- $2,000-5,000 -- Asian operations
+- **Ireland:** CRO -- 12.5% -- $2,000-5,000 -- EU subsidiary for tax
+- **Netherlands:** KVK -- 25.8% -- $3,000-6,000 -- EU holding, tax treaties
+- **Uruguay:** Local lawyer -- 25% (territorial) -- $1,000-2,000 -- LATAM base, free zone
+- **Cayman Islands:** Local lawyer -- 0% -- $3,000-8,000 -- Holding, investment vehicle
 ### Recommendation by Business Type
 
 ## 3. Company Formation
@@ -50,86 +44,68 @@ In this guide, we explain **how to open international operations** in 2026: from
 
 ### Options for Your International Company
 
-| Bank | Jurisdiction | Cost | Ideal For | Stripe Integration |
-|------|-------------|------|-----------|-------------------|
-| **Mercury** | US | $0 | Tech startups | ✅ Native |
-| **Brex** | US | $0 | VC-backed startups | ✅ Native |
-| **Wise Business** | Multi-country | $0 + FX 0.4-0.8% | Freelancers, SMBs | ✅ Integration |
-| **Stripe Treasury** | US | Variable | Stripe-powered businesses | ✅ Native |
-| **HSBC Global** | Multi-country | $50-100/month | Companies with physical presence | ⚠️ Manual |
-| **Revolut Business** | UK/Lithuania | $0-100/month | European SMBs | ✅ Integration |
-
+- **Mercury:** US -- $0 -- Tech startups -- ✅ Native
+- **Brex:** US -- $0 -- VC-backed startups -- ✅ Native
+- **Wise Business:** Multi-country -- $0 + FX 0.4-0.8% -- Freelancers, SMBs -- ✅ Integration
+- **Stripe Treasury:** US -- Variable -- Stripe-powered businesses -- ✅ Native
+- **HSBC Global:** Multi-country -- $50-100/month -- Companies with physical presence -- ⚠️ Manual
+- **Revolut Business:** UK/Lithuania -- $0-100/month -- European SMBs -- ✅ Integration
 ### Recommended Banking Flow
 
 ## 5. Global Hiring
 
 ### EOR (Employer of Record) vs Own Subsidiary
 
-| Aspect | EOR | Own Subsidiary |
-|--------|-----|---------------|
-| **Cost** | $500-1,000/employee/month | $5,000-15,000/month + setup |
-| **Time** | 1-3 days | 3-6 months |
-| **Compliance** | ✅ They handle everything | ✅ Full control |
-| **Benefits** | Standardized plans | Customizable |
-| **Ideal for** | 1-50 employees in multiple countries | 50+ in one country |
-
+- **Cost:** $500-1,000/employee/month -- $5,000-15,000/month + setup
+- **Time:** 1-3 days -- 3-6 months
+- **Compliance:** ✅ They handle everything -- ✅ Full control
+- **Benefits:** Standardized plans -- Customizable
+- **Ideal for:** 1-50 employees in multiple countries -- 50+ in one country
 ### Best EORs for International Operations
 
-| EOR | Countries | Cost | Ideal For |
-|-----|----------|-------|-----------|
-| **Deel** | 150+ | $599/month per employee | Global teams, contractors + EOR |
-| **Remote** | 80+ | $599/month per employee | 100% remote teams |
-| **Oyster** | 130+ | $499/month per employee | Startups, tight budget |
-| **Multiplier** | 100+ | $400/month per employee | Scalability |
-| **Rippling** | 50+ | $500/month per employee | Companies with existing HR |
-
+- **Deel:** 150+ -- $599/month per employee -- Global teams, contractors + EOR
+- **Remote:** 80+ -- $599/month per employee -- 100% remote teams
+- **Oyster:** 130+ -- $499/month per employee -- Startups, tight budget
+- **Multiplier:** 100+ -- $400/month per employee -- Scalability
+- **Rippling:** 50+ -- $500/month per employee -- Companies with existing HR
 ### How to Integrate EOR with Stripe Connect
 
 ## 6. Payment Infrastructure
 
 ### Stripe for Global Operations
 
-| Service | Function | Why You Need It |
-|---------|----------|-----------------|
-| **Stripe Payments** | Accept +135 currencies | Global revenue |
-| **Stripe Billing** | Subscriptions with local pricing | Global SaaS |
-| **Stripe Connect** | Pay contractors and partners | Distributed operations |
-| **Stripe Tax** | VAT, GST, Sales Tax automatic | Tax compliance |
-| **Stripe Invoicing** | Invoice in multiple currencies | International B2B |
-| **Stripe Issuing** | Corporate cards | Global team expenses |
-| **Stripe Treasury** | Integrated bank accounts | Cash management |
-| **Stripe Radar** | International anti-fraud | Revenue protection |
-
+- **Stripe Payments:** Accept +135 currencies -- Global revenue
+- **Stripe Billing:** Subscriptions with local pricing -- Global SaaS
+- **Stripe Connect:** Pay contractors and partners -- Distributed operations
+- **Stripe Tax:** VAT, GST, Sales Tax automatic -- Tax compliance
+- **Stripe Invoicing:** Invoice in multiple currencies -- International B2B
+- **Stripe Issuing:** Corporate cards -- Global team expenses
+- **Stripe Treasury:** Integrated bank accounts -- Cash management
+- **Stripe Radar:** International anti-fraud -- Revenue protection
 ### Recommended Payment Architecture
 
 ## 7. International Tax Compliance
 
 ### Taxes When Operating Globally
 
-| Obligation | Frequency | Who Handles It | Typical Cost |
-|-----------|-----------|---------------|-------------|
-| **1040-NR (US)** | Annual | International CPA | $1,500-3,000 |
-| **State franchise tax** | Annual | Registered Agent | $100-300 |
-| **VAT returns (EU)** | Quarterly | Stripe Tax + CPA | $500-2,000/jurisdiction |
-| **Sales tax (US)** | Monthly/quarterly | Stripe Tax + CPA | $200-500/state |
-| **Transfer pricing** | Annual | International CPA | $3,000-10,000 |
-| **FBAR/FACTA** | Annual | International CPA | $200-500 |
-| **Local taxes** | Monthly/annual | Local CPA | Variable |
-
+- **1040-NR (US):** Annual -- International CPA -- $1,500-3,000
+- **State franchise tax:** Annual -- Registered Agent -- $100-300
+- **VAT returns (EU):** Quarterly -- Stripe Tax + CPA -- $500-2,000/jurisdiction
+- **Sales tax (US):** Monthly/quarterly -- Stripe Tax + CPA -- $200-500/state
+- **Transfer pricing:** Annual -- International CPA -- $3,000-10,000
+- **FBAR/FACTA:** Annual -- International CPA -- $200-500
+- **Local taxes:** Monthly/annual -- Local CPA -- Variable
 ### Recommended Tax Structure
 
 ## 8. Virtual Office and Physical Presence
 
 ### Global Presence Options
 
-| Type | Cost | Ideal For | Example |
-|------|------|-----------|---------|
-| **Virtual office** | $50-200/month | Business address + mail | iPostal1, Regus, Davinci |
-| **Coworking** | $200-500/month | Small team, meetings | WeWork, Regus, Spaces |
-| **Physical office** | $1,000-10,000/month | Large team, local operations | Commercial lease |
-| **Registered Agent** | $100-300/year | LLC legal requirement | Northwest, ZenBusiness |
-| **Virtual mailbox** | $10-50/month | Receive international mail | EarthClassMail, iPostal1 |
-
+- **Virtual office:** $50-200/month -- Business address + mail -- iPostal1, Regus, Davinci
+- **Coworking:** $200-500/month -- Small team, meetings -- WeWork, Regus, Spaces
+- **Physical office:** $1,000-10,000/month -- Large team, local operations -- Commercial lease
+- **Registered Agent:** $100-300/year -- LLC legal requirement -- Northwest, ZenBusiness
+- **Virtual mailbox:** $10-50/month -- Receive international mail -- EarthClassMail, iPostal1
 ### Tools Stack for Remote Operations
 
 ## 9. 90-Day Plan to Open Operations
@@ -144,17 +120,14 @@ In this guide, we explain **how to open international operations** in 2026: from
 
 ### What NOT to Do
 
-| Mistake | Consequence | How to Avoid |
-|---------|-------------|--------------|
-| **Choosing jurisdiction only for taxes** | Lack of substance, tax risks | Choose based on real operations |
-| **No international CPA** | Incorrect filings, fines | CPA from day 1 |
-| **Mixing personal/business finances** | Lose LLC protection | Mercury + Stripe Issuing |
-| **Ignoring transfer pricing** | Tax adjustments, double taxation | Document from the start |
-| **Hiring without EOR** | Permanent establishment, fines | Deel/Remote from first employee |
-| **Not registering VAT** | Fines, interest, audits | Stripe Tax + proactive registration |
-| **Bad FX management** | Lose 5-15% on conversions | Wise for conversion timing |
-| **No registered agent** | LLC dissolved for non-compliance | Northwest or similar |
-
+- **Choosing jurisdiction only for taxes:** Lack of substance, tax risks -- Choose based on real operations
+- **No international CPA:** Incorrect filings, fines -- CPA from day 1
+- **Mixing personal/business finances:** Lose LLC protection -- Mercury + Stripe Issuing
+- **Ignoring transfer pricing:** Tax adjustments, double taxation -- Document from the start
+- **Hiring without EOR:** Permanent establishment, fines -- Deel/Remote from first employee
+- **Not registering VAT:** Fines, interest, audits -- Stripe Tax + proactive registration
+- **Bad FX management:** Lose 5-15% on conversions -- Wise for conversion timing
+- **No registered agent:** LLC dissolved for non-compliance -- Northwest or similar
 ## 11. Real Use Cases
 
 ### Case 1: Brazilian SaaS Global Expansion

@@ -1,169 +1,151 @@
-Ôªø---
-title: "C√≥mo Saber si tu LLC Est√° en Riesgo: Gu√≠a 2026"
-description: "Se√±ales de alerta, indicadores de riesgo y verificaciones de cumplimiento para evaluar la salud de tu LLC"
+---
+title: "CÛmo Saber si tu LLC Est· en Riesgo: GuÌa 2026"
+description: "SeÒales de alerta, indicadores de riesgo y verificaciones de cumplimiento para evaluar la salud de tu LLC"
 cardImage: "@/images/insights/llc-mal-estructurada.png"
-cardImageAlt: "Gu√≠a de evaluaci√≥n de riesgo de LLC que muestra lista de verificaci√≥n de buen estado, panel de cumplimiento, rastreador de estado de entidad, an√°lisis de protecci√≥n de responsabilidad y monitor de plazos de declaraci√≥n estatal"
+cardImageAlt: "GuÌa de evaluaciÛn de riesgo de LLC que muestra lista de verificaciÛn de buen estado, panel de cumplimiento, rastreador de estado de entidad, an·lisis de protecciÛn de responsabilidad y monitor de plazos de declaraciÛn estatal"
 ---
 
-**Se supone que tu LLC protege tus activos personales ‚Äî pero si no la mantienes adecuadamente, esa protecci√≥n puede desaparecer sin previo aviso.** Muchos propietarios de negocios asumen que una vez que forman su LLC, est√° permanentemente protegida. En realidad, una LLC es una estructura legal que requiere mantenimiento continuo. Cuando ese mantenimiento falla, puedes perder tu escudo de responsabilidad, el nombre de tu negocio e incluso tu derecho a operar.
+**Se supone que tu LLC protege tus activos personales ó pero si no la mantienes adecuadamente, esa protecciÛn puede desaparecer sin previo aviso.** Muchos propietarios de negocios asumen que una vez que forman su LLC, est· permanentemente protegida. En realidad, una LLC es una estructura legal que requiere mantenimiento continuo. Cuando ese mantenimiento falla, puedes perder tu escudo de responsabilidad, el nombre de tu negocio e incluso tu derecho a operar.
 
-La buena noticia es que las se√±ales de advertencia de una LLC en riesgo son f√°ciles de detectar ‚Äî si sabes qu√© buscar. La mayor√≠a de los riesgos pueden resolverse r√°pidamente una vez identificados.
+La buena noticia es que las seÒales de advertencia de una LLC en riesgo son f·ciles de detectar ó si sabes quÈ buscar. La mayorÌa de los riesgos pueden resolverse r·pidamente una vez identificados.
 
-En esta gu√≠a cubrimos **c√≥mo saber si tu LLC est√° en riesgo en 2026**: las tres amenazas m√°s grandes para tu LLC, c√≥mo verificar tu estado de buen standing, se√±ales de que tu protecci√≥n de responsabilidad est√° en riesgo, el costo real de una LLC morosa, evaluaci√≥n de riesgo por estado, c√≥mo realizar un chequeo de salud de LLC y c√≥mo solucionar problemas comunes.
-## 1. Las Tres Amenazas M√°s Grandes para tu LLC
+En esta guÌa cubrimos **cÛmo saber si tu LLC est· en riesgo en 2026**: las tres amenazas m·s grandes para tu LLC, cÛmo verificar tu estado de buen standing, seÒales de que tu protecciÛn de responsabilidad est· en riesgo, el costo real de una LLC morosa, evaluaciÛn de riesgo por estado, cÛmo realizar un chequeo de salud de LLC y cÛmo solucionar problemas comunes.
+## 1. Las Tres Amenazas M·s Grandes para tu LLC
 
 
-## 1. Las Tres Amenazas M√°s Grandes para tu LLC
+## 1. Las Tres Amenazas M·s Grandes para tu LLC
 
-### Amenaza 1: Disoluci√≥n Administrativa
+### Amenaza 1: DisoluciÛn Administrativa
 
 ### Amenaza 2: Levantamiento del Velo Corporativo
 
 ### Amenaza 3: Escalada de Multas Estatales
 
-## 2. C√≥mo Verificar el Buen Estado de tu LLC
+## 2. CÛmo Verificar el Buen Estado de tu LLC
 
-### Verificaci√≥n de Buen Estado por Estado
+### VerificaciÛn de Buen Estado por Estado
 
-### Referencia R√°pida de Portales SOS Estatales
+### Referencia R·pida de Portales SOS Estatales
 
 ### Amenaza 3: Escalada de Multas Estatales
 
-## 2. C√≥mo Verificar el Buen Estado de tu LLC
+## 2. CÛmo Verificar el Buen Estado de tu LLC
 
-### Verificaci√≥n de Buen Estado por Estado
+### VerificaciÛn de Buen Estado por Estado
 
-### Referencia R√°pida de Portales SOS Estatales
+### Referencia R·pida de Portales SOS Estatales
 
-## 3. Se√±ales de que tu Protecci√≥n de Responsabilidad Est√° en Riesgo
+## 3. SeÒales de que tu ProtecciÛn de Responsabilidad Est· en Riesgo
 
-### Autoevaluaci√≥n de Levantamiento del Velo
+### AutoevaluaciÛn de Levantamiento del Velo
 
-### Calculadora R√°pida de Riesgo de Levantamiento del Velo
+### Calculadora R·pida de Riesgo de Levantamiento del Velo
 
-### Las 10 Principales Se√±ales de Alerta de Levantamiento del Velo
+### Las 10 Principales SeÒales de Alerta de Levantamiento del Velo
 
-| # | Red Flag | Risk Level | Fix |
-|---|----------|------------|-----|
-| 1 | No separate business bank account | Critical | Open a dedicated business account immediately |
-| 2 | Using personal account for business income | Critical | Redirect all income to business account |
-| 3 | No operating agreement | High | Draft and sign an operating agreement retroactively |
-| 4 | Late or missing annual reports | High | File all missing reports and set reminders |
-| 5 | No separate business credit card | Medium | Get a business credit card |
-| 6 | Personal guarantees on business debts | Medium | Negotiate removal or limit exposure |
-| 7 | Undocumented member loans | Medium | Document all loans with written agreements |
-| 8 | Business insurance in personal name | Medium | Transfer policies to LLC name |
-| 9 | Contracts signed in personal name | Medium | Re-sign contracts in LLC name where possible |
-| 10 | No meeting minutes or records | Low-Medium | Start documenting decisions going forward |
-
+- **1:** No separate business bank account -- Critical -- Open a dedicated business account immediately
+- **2:** Using personal account for business income -- Critical -- Redirect all income to business account
+- **3:** No operating agreement -- High -- Draft and sign an operating agreement retroactively
+- **4:** Late or missing annual reports -- High -- File all missing reports and set reminders
+- **5:** No separate business credit card -- Medium -- Get a business credit card
+- **6:** Personal guarantees on business debts -- Medium -- Negotiate removal or limit exposure
+- **7:** Undocumented member loans -- Medium -- Document all loans with written agreements
+- **8:** Business insurance in personal name -- Medium -- Transfer policies to LLC name
+- **9:** Contracts signed in personal name -- Medium -- Re-sign contracts in LLC name where possible
+- **10:** No meeting minutes or records -- Low-Medium -- Start documenting decisions going forward
 ## 4. El Costo Real de una LLC Morosa
 
 ### Desglose de Costos por Etapa y Estado
 
 ### Costos Ocultos de una LLC Morosa
 
-| Cost Category | Direct Cost | Hidden Cost | Total Impact |
-|---------------|-------------|-------------|--------------|
-| Loss of liability protection | $0 | Potentially unlimited | Loss of personal asset protection |
-| Inability to sue or enforce contracts | $0 | Lost revenue | Variable |
-| Bank account freeze | $0 | Business disruption | Days to weeks of downtime |
-| Inability to obtain financing | $0 | Lost growth | Variable |
-| Loss of business name | $0 | Rebranding costs | $500 - $5,000 |
-| Professional fees to reinstate | $500 - $3,000 | $0 | $500 - $3,000 |
-| Tax liens (public record) | $0 | Credit damage | Long-term |
-| Missed business opportunities | $0 | Lost contracts | Variable |
-| Stress and management distraction | $0 | Lost productivity | Variable |
-
-## 5. Evaluaci√≥n de Riesgo por Estado
+- **Loss of liability protection:** $0 -- Potentially unlimited -- Loss of personal asset protection
+- **Inability to sue or enforce contracts:** $0 -- Lost revenue -- Variable
+- **Bank account freeze:** $0 -- Business disruption -- Days to weeks of downtime
+- **Inability to obtain financing:** $0 -- Lost growth -- Variable
+- **Loss of business name:** $0 -- Rebranding costs -- $500 - $5,000
+- **Professional fees to reinstate:** $500 - $3,000 -- $0 -- $500 - $3,000
+- **Tax liens (public record):** $0 -- Credit damage -- Long-term
+- **Missed business opportunities:** $0 -- Lost contracts -- Variable
+- **Stress and management distraction:** $0 -- Lost productivity -- Variable
+## 5. EvaluaciÛn de Riesgo por Estado
 
 ### Estados de Mayor Riesgo para Cumplimiento de LLC
 
-| Risk Rank | State | Annual Requirements | Penalty Severity | Reinstatement Difficulty | Overall Risk |
-|-----------|-------|---------------------|------------------|-------------------------|--------------|
-| 1 | California | Annual report + $800 franchise tax | Severe | Difficult | Critical |
-| 2 | Florida | Annual report ($138.75) | High | Moderate | High |
-| 3 | Delaware | Franchise tax ($300 minimum) | Moderate | Easy (with payment) | High |
-| 4 | New York | Biennial report ($9) | Moderate | Moderate | Moderate |
-| 5 | Nevada | Annual list ($150) | Moderate | Moderate | Moderate |
-| 6 | Illinois | Annual report | Moderate | Moderate | Moderate |
-| 7 | Massachusetts | Annual report | Moderate | Moderate | Moderate |
-| 8 | Oregon | Annual report | Moderate | Easy | Low-Moderate |
-| 9 | Washington | Annual report | Moderate | Easy | Low-Moderate |
-| 10 | Texas | No annual report (most exempt) | Low | Easy | Low |
-| 11 | Wyoming | Annual report ($60) | Low | Easy | Low |
-| 12 | Colorado | Annual report ($25) | Low | Easy | Low |
-| 13 | Arizona | Annual report ($35) | Low | Easy | Low |
-
+- **1:** California -- Annual report + $800 franchise tax -- Severe -- Difficult -- Critical
+- **2:** Florida -- Annual report ($138.75) -- High -- Moderate -- High
+- **3:** Delaware -- Franchise tax ($300 minimum) -- Moderate -- Easy (with payment) -- High
+- **4:** New York -- Biennial report ($9) -- Moderate -- Moderate -- Moderate
+- **5:** Nevada -- Annual list ($150) -- Moderate -- Moderate -- Moderate
+- **6:** Illinois -- Annual report -- Moderate -- Moderate -- Moderate
+- **7:** Massachusetts -- Annual report -- Moderate -- Moderate -- Moderate
+- **8:** Oregon -- Annual report -- Moderate -- Easy -- Low-Moderate
+- **9:** Washington -- Annual report -- Moderate -- Easy -- Low-Moderate
+- **10:** Texas -- No annual report (most exempt) -- Low -- Easy -- Low
+- **11:** Wyoming -- Annual report ($60) -- Low -- Easy -- Low
+- **12:** Colorado -- Annual report ($25) -- Low -- Easy -- Low
+- **13:** Arizona -- Annual report ($35) -- Low -- Easy -- Low
 
 ### Amenaza 3: Escalada de Multas Estatales
 
-## 2. C√≥mo Verificar el Buen Estado de tu LLC
+## 2. CÛmo Verificar el Buen Estado de tu LLC
 
-### Verificaci√≥n de Buen Estado por Estado
+### VerificaciÛn de Buen Estado por Estado
 
-### Referencia R√°pida de Portales SOS Estatales
+### Referencia R·pida de Portales SOS Estatales
 
-## 3. Se√±ales de que tu Protecci√≥n de Responsabilidad Est√° en Riesgo
+## 3. SeÒales de que tu ProtecciÛn de Responsabilidad Est· en Riesgo
 
-### Autoevaluaci√≥n de Levantamiento del Velo
+### AutoevaluaciÛn de Levantamiento del Velo
 
-### Calculadora R√°pida de Riesgo de Levantamiento del Velo
+### Calculadora R·pida de Riesgo de Levantamiento del Velo
 
-### Las 10 Principales Se√±ales de Alerta de Levantamiento del Velo
+### Las 10 Principales SeÒales de Alerta de Levantamiento del Velo
 
-| # | Red Flag | Risk Level | Fix |
-|---|----------|------------|-----|
-| 1 | No separate business bank account | Critical | Open a dedicated business account immediately |
-| 2 | Using personal account for business income | Critical | Redirect all income to business account |
-| 3 | No operating agreement | High | Draft and sign an operating agreement retroactively |
-| 4 | Late or missing annual reports | High | File all missing reports and set reminders |
-| 5 | No separate business credit card | Medium | Get a business credit card |
-| 6 | Personal guarantees on business debts | Medium | Negotiate removal or limit exposure |
-| 7 | Undocumented member loans | Medium | Document all loans with written agreements |
-| 8 | Business insurance in personal name | Medium | Transfer policies to LLC name |
-| 9 | Contracts signed in personal name | Medium | Re-sign contracts in LLC name where possible |
-| 10 | No meeting minutes or records | Low-Medium | Start documenting decisions going forward |
-
+- **1:** No separate business bank account -- Critical -- Open a dedicated business account immediately
+- **2:** Using personal account for business income -- Critical -- Redirect all income to business account
+- **3:** No operating agreement -- High -- Draft and sign an operating agreement retroactively
+- **4:** Late or missing annual reports -- High -- File all missing reports and set reminders
+- **5:** No separate business credit card -- Medium -- Get a business credit card
+- **6:** Personal guarantees on business debts -- Medium -- Negotiate removal or limit exposure
+- **7:** Undocumented member loans -- Medium -- Document all loans with written agreements
+- **8:** Business insurance in personal name -- Medium -- Transfer policies to LLC name
+- **9:** Contracts signed in personal name -- Medium -- Re-sign contracts in LLC name where possible
+- **10:** No meeting minutes or records -- Low-Medium -- Start documenting decisions going forward
 ## 4. El Costo Real de una LLC Morosa
 
 ### Desglose de Costos por Etapa y Estado
 
 ### Costos Ocultos de una LLC Morosa
 
-| Cost Category | Direct Cost | Hidden Cost | Total Impact |
-|---------------|-------------|-------------|--------------|
-| Loss of liability protection | $0 | Potentially unlimited | Loss of personal asset protection |
-| Inability to sue or enforce contracts | $0 | Lost revenue | Variable |
-| Bank account freeze | $0 | Business disruption | Days to weeks of downtime |
-| Inability to obtain financing | $0 | Lost growth | Variable |
-| Loss of business name | $0 | Rebranding costs | $500 - $5,000 |
-| Professional fees to reinstate | $500 - $3,000 | $0 | $500 - $3,000 |
-| Tax liens (public record) | $0 | Credit damage | Long-term |
-| Missed business opportunities | $0 | Lost contracts | Variable |
-| Stress and management distraction | $0 | Lost productivity | Variable |
-
-## 5. Evaluaci√≥n de Riesgo por Estado
+- **Loss of liability protection:** $0 -- Potentially unlimited -- Loss of personal asset protection
+- **Inability to sue or enforce contracts:** $0 -- Lost revenue -- Variable
+- **Bank account freeze:** $0 -- Business disruption -- Days to weeks of downtime
+- **Inability to obtain financing:** $0 -- Lost growth -- Variable
+- **Loss of business name:** $0 -- Rebranding costs -- $500 - $5,000
+- **Professional fees to reinstate:** $500 - $3,000 -- $0 -- $500 - $3,000
+- **Tax liens (public record):** $0 -- Credit damage -- Long-term
+- **Missed business opportunities:** $0 -- Lost contracts -- Variable
+- **Stress and management distraction:** $0 -- Lost productivity -- Variable
+## 5. EvaluaciÛn de Riesgo por Estado
 
 ### Estados de Mayor Riesgo para Cumplimiento de LLC
 
-| Risk Rank | State | Annual Requirements | Penalty Severity | Reinstatement Difficulty | Overall Risk |
-|-----------|-------|---------------------|------------------|-------------------------|--------------|
-| 1 | California | Annual report + $800 franchise tax | Severe | Difficult | Critical |
-| 2 | Florida | Annual report ($138.75) | High | Moderate | High |
-| 3 | Delaware | Franchise tax ($300 minimum) | Moderate | Easy (with payment) | High |
-| 4 | New York | Biennial report ($9) | Moderate | Moderate | Moderate |
-| 5 | Nevada | Annual list ($150) | Moderate | Moderate | Moderate |
-| 6 | Illinois | Annual report | Moderate | Moderate | Moderate |
-| 7 | Massachusetts | Annual report | Moderate | Moderate | Moderate |
-| 8 | Oregon | Annual report | Moderate | Easy | Low-Moderate |
-| 9 | Washington | Annual report | Moderate | Easy | Low-Moderate |
-| 10 | Texas | No annual report (most exempt) | Low | Easy | Low |
-| 11 | Wyoming | Annual report ($60) | Low | Easy | Low |
-| 12 | Colorado | Annual report ($25) | Low | Easy | Low |
-| 13 | Arizona | Annual report ($35) | Low | Easy | Low |
+- **1:** California -- Annual report + $800 franchise tax -- Severe -- Difficult -- Critical
+- **2:** Florida -- Annual report ($138.75) -- High -- Moderate -- High
+- **3:** Delaware -- Franchise tax ($300 minimum) -- Moderate -- Easy (with payment) -- High
+- **4:** New York -- Biennial report ($9) -- Moderate -- Moderate -- Moderate
+- **5:** Nevada -- Annual list ($150) -- Moderate -- Moderate -- Moderate
+- **6:** Illinois -- Annual report -- Moderate -- Moderate -- Moderate
+- **7:** Massachusetts -- Annual report -- Moderate -- Moderate -- Moderate
+- **8:** Oregon -- Annual report -- Moderate -- Easy -- Low-Moderate
+- **9:** Washington -- Annual report -- Moderate -- Easy -- Low-Moderate
+- **10:** Texas -- No annual report (most exempt) -- Low -- Easy -- Low
+- **11:** Wyoming -- Annual report ($60) -- Low -- Easy -- Low
+- **12:** Colorado -- Annual report ($25) -- Low -- Easy -- Low
+- **13:** Arizona -- Annual report ($35) -- Low -- Easy -- Low
 
-
-## 6. C√≥mo Realizar un Chequeo de Salud de LLC
+## 6. CÛmo Realizar un Chequeo de Salud de LLC
 
 ### Chequeo de Salud Mensual de LLC
 
@@ -171,9 +153,9 @@ En esta gu√≠a cubrimos **c√≥mo saber si tu LLC est√° en riesgo en 2026**: las tr
 
 ### Chequeo de Salud Anual de LLC
 
-### C√°lculo de Puntaje de Salud de LLC
+### C·lculo de Puntaje de Salud de LLC
 
-## 7. C√≥mo Solucionar Problemas Comunes de LLC
+## 7. CÛmo Solucionar Problemas Comunes de LLC
 
 ### Problema 1: LLC Morosa o Disuelta
 
@@ -185,21 +167,21 @@ En esta gu√≠a cubrimos **c√≥mo saber si tu LLC est√° en riesgo en 2026**: las tr
 
 ### Problema 5: Informes Anuales Faltantes
 
-## Conclusi√≥n
+## ConclusiÛn
 
 **Tu LLC es tan fuerte como el mantenimiento que le brindes. Una LLC bien mantenida protege tus activos personales. Una descuidada es una trampa de responsabilidad esperando activarse.**
 
-Los riesgos son claros: la disoluci√≥n administrativa, el levantamiento del velo corporativo y las multas crecientes pueden convertir un peque√±o descuido en un gran problema financiero y legal. Pero las soluciones son igualmente claras ‚Äî la mayor√≠a de los problemas de LLC pueden solucionarse con unas horas de trabajo y una inversi√≥n modesta.
+Los riesgos son claros: la disoluciÛn administrativa, el levantamiento del velo corporativo y las multas crecientes pueden convertir un pequeÒo descuido en un gran problema financiero y legal. Pero las soluciones son igualmente claras ó la mayorÌa de los problemas de LLC pueden solucionarse con unas horas de trabajo y una inversiÛn modesta.
 
 Los principios clave para mantener tu LLC saludable:
 
-- **Revisa tu estado trimestralmente** ‚Äî una revisi√≥n de 30 minutos puede detectar problemas temprano
-- **Mant√©n separaci√≥n financiera** ‚Äî nunca mezcles fondos comerciales y personales
-- **Presenta informes anuales a tiempo** ‚Äî esta es la raz√≥n #1 por la que las LLC se disuelven
-- **Mant√©n un acuerdo operativo** ‚Äî es tu documento principal de protecci√≥n de responsabilidad
-- **Mant√©n un agente registrado** ‚Äî son tu sistema de alerta temprana
-- **Soluciona los problemas de inmediato** ‚Äî el costo y la complejidad aumentan exponencialmente con el tiempo
+- **Revisa tu estado trimestralmente** ó una revisiÛn de 30 minutos puede detectar problemas temprano
+- **MantÈn separaciÛn financiera** ó nunca mezcles fondos comerciales y personales
+- **Presenta informes anuales a tiempo** ó esta es la razÛn #1 por la que las LLC se disuelven
+- **MantÈn un acuerdo operativo** ó es tu documento principal de protecciÛn de responsabilidad
+- **MantÈn un agente registrado** ó son tu sistema de alerta temprana
+- **Soluciona los problemas de inmediato** ó el costo y la complejidad aumentan exponencialmente con el tiempo
 
-**Una onza de mantenimiento de LLC vale una libra de defensa legal. Unos cientos de d√≥lares y unas horas al a√±o pueden proteger los ahorros de tu vida de responsabilidades comerciales.**
+**Una onza de mantenimiento de LLC vale una libra de defensa legal. Unos cientos de dÛlares y unas horas al aÒo pueden proteger los ahorros de tu vida de responsabilidades comerciales.**
 
-En **Sotomayor Consulting International**, ayudamos a propietarios de negocios a evaluar la salud de su LLC, corregir brechas de cumplimiento, reinstaurar entidades disueltas y construir sistemas de mantenimiento que mantengan intacta su protecci√≥n de responsabilidad. Cont√°ctenos para una evaluaci√≥n de riesgo de LLC.
+En **Sotomayor Consulting International**, ayudamos a propietarios de negocios a evaluar la salud de su LLC, corregir brechas de cumplimiento, reinstaurar entidades disueltas y construir sistemas de mantenimiento que mantengan intacta su protecciÛn de responsabilidad. Cont·ctenos para una evaluaciÛn de riesgo de LLC.

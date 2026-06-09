@@ -13,25 +13,19 @@ In this guide, we analyze **what structures international entrepreneurs use** in
 
 ### Key Benefits
 
-| Benefit | Description |
-|---------|-------------|
-| **Asset protection** | Separate personal wealth from business |
-| **Tax optimization** | Pay taxes where and how it's legally appropriate |
-| **Credibility** | Clients and partners take a formal company more seriously |
-| **Stripe access** | Stripe requires a legal entity to process payments |
-| **Investment** | Investment funds only invest in incorporated companies |
-| **Succession** | The company continues to exist even if you don't |
-
+- **Asset protection:** Separate personal wealth from business
+- **Tax optimization:** Pay taxes where and how it's legally appropriate
+- **Credibility:** Clients and partners take a formal company more seriously
+- **Stripe access:** Stripe requires a legal entity to process payments
+- **Investment:** Investment funds only invest in incorporated companies
+- **Succession:** The company continues to exist even if you don't
 ### Consequences of No Structure
 
-| Risk | Impact |
-|------|--------|
-| **Personal liability** | They sue you, not a company |
-| **Higher taxes** | Personal rates vs. corporate rates |
-| **Blocked accounts** | Stripe, PayPal, and banks close personal accounts with volume |
-| **No investment access** | Angels and VCs don't invest in people, only in companies |
-| **Difficulty scaling** | Hiring, invoicing, and expanding is nearly impossible |
-
+- **Personal liability:** They sue you, not a company
+- **Higher taxes:** Personal rates vs. corporate rates
+- **Blocked accounts:** Stripe, PayPal, and banks close personal accounts with volume
+- **No investment access:** Angels and VCs don't invest in people, only in companies
+- **Difficulty scaling:** Hiring, invoicing, and expanding is nearly impossible
 > In 2026, over 80% of successful international entrepreneurs operate with at least two legal structures: an operating company and a holding company.
 
 ## 2. LLC (Limited Liability Company)
@@ -40,102 +34,81 @@ In this guide, we analyze **what structures international entrepreneurs use** in
 
 The LLC is the most popular structure among international entrepreneurs, especially in the US. It combines the liability protection of a corporation with the tax flexibility of a partnership.
 
-| Feature | Detail |
-|---------|--------|
-| **Primary jurisdiction** | US (Delaware, Wyoming, New Mexico) |
-| **Protection** | Limited liability |
-| **Taxes** | Pass-through (no corporate tax, owners report on personal return) |
-| **Anonymity** | Yes in Wyoming and New Mexico (members not public) |
-| **Annual cost** | $200-800 (registered agent + reports) |
-| **Formation time** | 1-5 business days |
-
+- **Primary jurisdiction:** US (Delaware, Wyoming, New Mexico)
+- **Protection:** Limited liability
+- **Taxes:** Pass-through (no corporate tax, owners report on personal return)
+- **Anonymity:** Yes in Wyoming and New Mexico (members not public)
+- **Annual cost:** $200-800 (registered agent + reports)
+- **Formation time:** 1-5 business days
 ### What Is It For?
 
 ### How to Configure Stripe with an LLC
 
 ### Pros and Cons
 
-| Advantage | Disadvantage |
-|-----------|-------------|
-| Easy and fast to form | Not anonymous in Delaware |
-| Low maintenance cost | Members are public in Delaware |
-| Tax flexible | Not ideal for VC investment (VCs prefer C-Corp) |
-| Stripe compatible | You must file US taxes |
-| No board of directors | No stock/equity for employees |
-
+- **Easy and fast to form:** Not anonymous in Delaware
+- **Low maintenance cost:** Members are public in Delaware
+- **Tax flexible:** Not ideal for VC investment (VCs prefer C-Corp)
+- **Stripe compatible:** You must file US taxes
+- **No board of directors:** No stock/equity for employees
 ## 3. C-Corporation (C-Corp)
 
 ### What Is a C-Corp?
 
 The traditional US corporation. It's the preferred structure for startups seeking venture capital. Delaware is the standard jurisdiction.
 
-| Feature | Detail |
-|---------|--------|
-| **Primary jurisdiction** | US (Delaware) |
-| **Protection** | Limited liability |
-| **Taxes** | Pays corporate tax (21% federal US) |
-| **Structure** | Shareholders, Directors, Officers |
-| **Annual cost** | $400-2,000 (agent, franchise, reports) |
-| **Formation time** | 1-3 business days |
-
+- **Primary jurisdiction:** US (Delaware)
+- **Protection:** Limited liability
+- **Taxes:** Pays corporate tax (21% federal US)
+- **Structure:** Shareholders, Directors, Officers
+- **Annual cost:** $400-2,000 (agent, franchise, reports)
+- **Formation time:** 1-3 business days
 ### What Is It For?
 
 ### Stripe Atlas for C-Corp
 
 ### Pros and Cons
 
-| Advantage | Disadvantage |
-|-----------|-------------|
-| Ideal for VC investment | Double taxation (corp + dividends) |
-| Stock and option issuance | Higher compliance cost |
-| Professional, scalable structure | Complex annual reports |
-| Clear ownership separation | Board of directors required |
-| Standard for IPO/acquisition | Less tax flexible |
-
+- **Ideal for VC investment:** Double taxation (corp + dividends)
+- **Stock and option issuance:** Higher compliance cost
+- **Professional, scalable structure:** Complex annual reports
+- **Clear ownership separation:** Board of directors required
+- **Standard for IPO/acquisition:** Less tax flexible
 ## 4. IBC (International Business Company)
 
 ### What Is an IBC?
 
 An IBC is an offshore structure used for international business, mainly in jurisdictions like Panama, BVI, Seychelles, and Belize.
 
-| Feature | Detail |
-|---------|--------|
-| **Primary jurisdictions** | Panama, BVI, Seychelles, Belize |
-| **Protection** | Limited liability |
-| **Taxes** | Exempt from local taxes (0%) |
-| **Anonymity** | Yes (shareholders and directors not public) |
-| **Annual cost** | $400-1,500 (registered agent, govt fees) |
-| **Formation time** | 3-15 business days |
-
+- **Primary jurisdictions:** Panama, BVI, Seychelles, Belize
+- **Protection:** Limited liability
+- **Taxes:** Exempt from local taxes (0%)
+- **Anonymity:** Yes (shareholders and directors not public)
+- **Annual cost:** $400-1,500 (registered agent, govt fees)
+- **Formation time:** 3-15 business days
 ### What Is It For?
 
 ### IBC and Stripe
 
 ### Pros and Cons
 
-| Advantage | Disadvantage |
-|-----------|-------------|
-| 0% local taxes | Negative perception (offshore = evasion) |
-| Total anonymity | Difficulty opening bank accounts |
-| Low maintenance cost | Not accepted by all payment processors |
-| No public reports | FATCA/CRS share info automatically |
-| Flexible for holdings | No physical presence = more bank scrutiny |
-
+- **0% local taxes:** Negative perception (offshore = evasion)
+- **Total anonymity:** Difficulty opening bank accounts
+- **Low maintenance cost:** Not accepted by all payment processors
+- **No public reports:** FATCA/CRS share info automatically
+- **Flexible for holdings:** No physical presence = more bank scrutiny
 ## 5. Trust
 
 ### What Is a Trust?
 
 A trust is a fiduciary relationship where a trustee manages assets for beneficiaries. It is not a legal entity, but is used internationally to protect wealth.
 
-| Feature | Detail |
-|---------|--------|
-| **Primary jurisdictions** | Cayman Islands, Bahamas, NZ, Liechtenstein |
-| **Protection** | Trust assets do not belong to the beneficiary |
-| **Taxes**| Depends: can be tax-neutral if well structured |
-| **Anonymity** | Yes (trust is not public) |
-| **Annual cost** | $2,000-10,000 (trustee fees + administration) |
-| **Formation time** | 1-4 weeks |
-
+- **Primary jurisdictions:** Cayman Islands, Bahamas, NZ, Liechtenstein
+- **Protection:** Trust assets do not belong to the beneficiary
+- **Taxes:** Depends: can be tax-neutral if well structured
+- **Anonymity:** Yes (trust is not public)
+- **Annual cost:** $2,000-10,000 (trustee fees + administration)
+- **Formation time:** 1-4 weeks
 ### What Is It For?
 
 ### Trusts and Stripe
@@ -146,15 +119,12 @@ A trust is a fiduciary relationship where a trustee manages assets for beneficia
 
 Similar to a trust but with its own legal personality. Popular in Panama, Liechtenstein, and civil law countries.
 
-| Feature | Detail |
-|---------|--------|
-| **Primary jurisdictions** | Panama, Liechtenstein, Switzerland |
-| **Protection** | Assets separated from the founder |
-| **Taxes** | Neutral if no local income generated |
-| **Anonymity** | Yes |
-| **Annual cost** | $500-2,500 |
-| **Formation time** | 1-3 weeks |
-
+- **Primary jurisdictions:** Panama, Liechtenstein, Switzerland
+- **Protection:** Assets separated from the founder
+- **Taxes:** Neutral if no local income generated
+- **Anonymity:** Yes
+- **Annual cost:** $500-2,500
+- **Formation time:** 1-3 weeks
 ### What Is It For?
 
 ## 7. Holding Company
@@ -163,67 +133,52 @@ Similar to a trust but with its own legal personality. Popular in Panama, Liecht
 
 A holding company is designed to own other companies (subsidiaries). It doesn't operate the business directly but holds the shares or assets of operating companies.
 
-| Feature | Detail |
-|---------|--------|
-| **Common jurisdictions** | Delaware, Netherlands, Luxembourg, Panama, BVI |
-| **Purpose** | Own shares, IP, real estate |
-| **Taxes** | Tax optimization (dividends, capital gains) |
-| **Annual cost** | $500-5,000+ |
-| **Formation time** | 1-3 weeks |
-
+- **Common jurisdictions:** Delaware, Netherlands, Luxembourg, Panama, BVI
+- **Purpose:** Own shares, IP, real estate
+- **Taxes:** Tax optimization (dividends, capital gains)
+- **Annual cost:** $500-5,000+
+- **Formation time:** 1-3 weeks
 ### Typical Structure
 
 ### Stripe with Holding Structure
 
 ### Benefits of a Holding Structure
 
-| Benefit | Description |
-|---------|-------------|
-| **Protection** | Assets (IP, shares) are in the holding, beyond operating company lawsuits |
-| **Taxes** | Royalties and dividends are taxed at lower rates |
-| **Succession** | You inherit the holding, which controls all companies |
-| **Investment** | Sell holding shares, not operating shares |
-| **Expansion** | Open subsidiaries in new countries without affecting the structure |
-
+- **Protection:** Assets (IP, shares) are in the holding, beyond operating company lawsuits
+- **Taxes:** Royalties and dividends are taxed at lower rates
+- **Succession:** You inherit the holding, which controls all companies
+- **Investment:** Sell holding shares, not operating shares
+- **Expansion:** Open subsidiaries in new countries without affecting the structure
 ## 8. Structure Comparison
 
 ### Comparative Table
 
-| Structure | Protection | Annual Cost | Stripe | VC Investment | Anonymity |
-|-----------|-----------|-------------|--------|---------------|-----------|
-| **LLC (US)** | High | $200-800 | ✅ Yes | ❌ Hard | Partial |
-| **C-Corp (US)** | High | $400-2,000 | ✅ Yes | ✅ Yes | No |
-| **IBC (Panama)** | Medium | $400-1,500 | ⚠️ Limited | ❌ No | ✅ Yes |
-| **Trust** | Very high | $2,000-10,000 | ❌ Indirect | ❌ No | ✅ Yes |
-| **Foundation** | Very high | $500-2,500 | ❌ Indirect | ❌ No | ✅ Yes |
-| **Holding** | High | $500-5,000+ | ⚠️ Indirect | ✅ Yes | Partial |
-
+- **LLC (US):** High -- $200-800 -- ✅ Yes -- ❌ Hard -- Partial
+- **C-Corp (US):** High -- $400-2,000 -- ✅ Yes -- ✅ Yes -- No
+- **IBC (Panama):** Medium -- $400-1,500 -- ⚠️ Limited -- ❌ No -- ✅ Yes
+- **Trust:** Very high -- $2,000-10,000 -- ❌ Indirect -- ❌ No -- ✅ Yes
+- **Foundation:** Very high -- $500-2,500 -- ❌ Indirect -- ❌ No -- ✅ Yes
+- **Holding:** High -- $500-5,000+ -- ⚠️ Indirect -- ✅ Yes -- Partial
 ### Which to Use Based on Your Business
 
-| Business Type | Recommended Structure |
-|---------------|----------------------|
-| **SaaS / E-commerce** | LLC (US) + Stripe |
-| **Startup seeking investment** | C-Corp (Delaware) + Stripe |
-| **International consulting** | LLC (US) |
-| **Company with valuable IP** | Operating LLC + Holding (IP) |
-| **High net worth individual** | Trust/Foundation + Operating LLC |
-| **Multi-country business** | Holding (Netherlands/Delaware) + Subsidiaries |
-| **Maximum protection** | Trust + Holding + Operating LLC |
-
+- **SaaS / E-commerce:** LLC (US) + Stripe
+- **Startup seeking investment:** C-Corp (Delaware) + Stripe
+- **International consulting:** LLC (US)
+- **Company with valuable IP:** Operating LLC + Holding (IP)
+- **High net worth individual:** Trust/Foundation + Operating LLC
+- **Multi-country business:** Holding (Netherlands/Delaware) + Subsidiaries
+- **Maximum protection:** Trust + Holding + Operating LLC
 ## 9. Popular Jurisdictions
 
 ### Jurisdiction Comparison
 
-| Jurisdiction | Structure | Taxes | Annual Cost | Stripe | Best For |
-|-------------|-----------|-------|-------------|--------|----------|
-| **Delaware, US** | LLC, C-Corp | Corporate 21% | $400-2,000 | ✅ Yes | Startups, investment |
-| **Wyoming, US** | LLC | Pass-through | $200-800 | ✅ Yes | Anonymity, low cost |
-| **New Mexico, US** | LLC | Pass-through | $200-500 | ✅ Yes | Maximum anonymity |
-| **Panama** | IBC, Foundation | 0% offshore | $400-1,500 | ⚠️ Limited | Holdings, protection |
-| **BVI** | IBC, Trust | 0% | $500-2,000 | ❌ No | Financial holdings |
-| **Netherlands** | BV (Holding) | 15-25% | $2,000-5,000 | ✅ Yes | European holdings |
-| **Estonia** | e-Residency + OÜ | 0% reinvested | $300-800 | ✅ Yes | Digital nomads |
-
+- **Delaware, US:** LLC, C-Corp -- Corporate 21% -- $400-2,000 -- ✅ Yes -- Startups, investment
+- **Wyoming, US:** LLC -- Pass-through -- $200-800 -- ✅ Yes -- Anonymity, low cost
+- **New Mexico, US:** LLC -- Pass-through -- $200-500 -- ✅ Yes -- Maximum anonymity
+- **Panama:** IBC, Foundation -- 0% offshore -- $400-1,500 -- ⚠️ Limited -- Holdings, protection
+- **BVI:** IBC, Trust -- 0% -- $500-2,000 -- ❌ No -- Financial holdings
+- **Netherlands:** BV (Holding) -- 15-25% -- $2,000-5,000 -- ✅ Yes -- European holdings
+- **Estonia:** e-Residency + OÜ -- 0% reinvested -- $300-800 -- ✅ Yes -- Digital nomads
 ### Estonia e-Residency
 
 ## 10. Recommended Structure by Stage

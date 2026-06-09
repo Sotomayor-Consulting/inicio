@@ -20,16 +20,13 @@ The **Common Reporting Standard (CRS)** is an international standard developed b
 
 Although CRS and FATCA pursue similar goals, there are key differences:
 
-| Aspect | CRS | FATCA |
-|---|---|---|
-| **Organization** | OECD (multilateral) | U.S. (unilateral) |
-| **Participation** | Over 100 countries | U.S. and countries with IGA |
-| **Exchange type** | Automatic and multilateral | Automatic and bilateral |
-| **Legal basis** | Multilateral Competent Authority Agreement (MCAA) | Intergovernmental Agreements (IGA) |
-| **Thresholds** | Generally none (low-value preexisting accounts may be exempt) | Vary by form |
-| **Information reported** | Balances, income (interest, dividends), financial products | Similar + account holders |
-| **U.S. participation** | U.S. does not participate in CRS (has its own FATCA system) | Mandatory for global financial institutions |
-
+- **Organization:** OECD (multilateral) -- U.S. (unilateral)
+- **Participation:** Over 100 countries -- U.S. and countries with IGA
+- **Exchange type:** Automatic and multilateral -- Automatic and bilateral
+- **Legal basis:** Multilateral Competent Authority Agreement (MCAA) -- Intergovernmental Agreements (IGA)
+- **Thresholds:** Generally none (low-value preexisting accounts may be exempt) -- Vary by form
+- **Information reported:** Balances, income (interest, dividends), financial products -- Similar + account holders
+- **U.S. participation:** U.S. does not participate in CRS (has its own FATCA system) -- Mandatory for global financial institutions
 > **Key fact:** The U.S. has **not** adopted CRS. Instead, it uses FATCA to receive information from other countries but does not automatically exchange information under CRS.
 
 ## 3. What Information Is Exchanged Under CRS?

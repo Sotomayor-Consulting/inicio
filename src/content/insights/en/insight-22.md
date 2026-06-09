@@ -37,18 +37,15 @@ Applies automatically to **multi-member LLCs** (two or more members).
 
 ## Quick comparison
 
-| Aspect | Disregarded Entity | Partnership |
-|--------|-------------------|-------------|
-| **Number of members** | 1 | 2+ |
-| **LLC filing** | N/A | Form 1065 |
-| **Owner reporting** | On personal return | Schedule K-1 |
-| **Form 5472** | Yes (foreign owner) | Depends |
-| **Tax complexity** | Low | Medium |
-| **Compliance cost** | Low | Medium |
-| **Liability protection** | Same | Same |
-| **Distribution flexibility** | N/A | High |
-| **Ideal for** | Freelancers, sole owners | Partners, agencies |
-
+- **Number of members:** 1 -- 2+
+- **LLC filing:** N/A -- Form 1065
+- **Owner reporting:** On personal return -- Schedule K-1
+- **Form 5472:** Yes (foreign owner) -- Depends
+- **Tax complexity:** Low -- Medium
+- **Compliance cost:** Low -- Medium
+- **Liability protection:** Same -- Same
+- **Distribution flexibility:** N/A -- High
+- **Ideal for:** Freelancers, sole owners -- Partners, agencies
 ## Which one to choose?
 
 ### Choose Disregarded Entity if:
@@ -73,22 +70,16 @@ This is the most common regime for Latin American entrepreneurs forming a U.S. L
 
 ### Advantages
 
-| Advantage | Detail |
-|-----------|--------|
-| **Simplicity** | No LLC filing, only Form 5472 |
-| **Low cost** | No need for expensive CPA for filing |
-| **No double taxation** | Income taxed only in your country of residence |
-| **Privacy** | Less information reported to the IRS |
-| **Easy administration** | No K-1, no complex accounting |
-
+- **Simplicity:** No LLC filing, only Form 5472
+- **Low cost:** No need for expensive CPA for filing
+- **No double taxation:** Income taxed only in your country of residence
+- **Privacy:** Less information reported to the IRS
+- **Easy administration:** No K-1, no complex accounting
 ### Disadvantages
 
-| Disadvantage | Detail |
-|-------------|--------|
-| **No tax separation** | IRS sees LLC and owner as the same entity |
-| **No deductible losses** | Cannot have losses that benefit the company |
-| **Limited to one owner** | Cannot have members without changing regime |
-
+- **No tax separation:** IRS sees LLC and owner as the same entity
+- **No deductible losses:** Cannot have losses that benefit the company
+- **Limited to one owner:** Cannot have members without changing regime
 ### Tax obligations
 
 If you are a foreigner with a single-member LLC:
@@ -108,24 +99,18 @@ If you have members, the IRS requires you to be taxed as a partnership (unless y
 
 ### Advantages
 
-| Advantage | Detail |
-|-----------|--------|
-| **Flexible distribution** | Can distribute profits in different proportions |
-| **Deductible losses** | Members can deduct losses on their personal returns |
-| **Capital contributions** | Easy structuring of member contributions |
-| **Scalability** | Easy to add or remove members |
-| **Transparency** | Each member knows their exact share |
-
+- **Flexible distribution:** Can distribute profits in different proportions
+- **Deductible losses:** Members can deduct losses on their personal returns
+- **Capital contributions:** Easy structuring of member contributions
+- **Scalability:** Easy to add or remove members
+- **Transparency:** Each member knows their exact share
 ### Disadvantages
 
-| Disadvantage | Detail |
-|-------------|--------|
-| **Higher tax complexity** | Form 1065, K-1, more detailed accounting |
-| **Higher cost** | Need a CPA to prepare the return |
-| **Obligations for foreign owners** | Each foreign member must file a return |
-| **Strict deadlines** | 1065 due March 15 (no extension) |
-| **Possible double taxation** | If not structured well, may pay taxes in U.S. and your country |
-
+- **Higher tax complexity:** Form 1065, K-1, more detailed accounting
+- **Higher cost:** Need a CPA to prepare the return
+- **Obligations for foreign owners:** Each foreign member must file a return
+- **Strict deadlines:** 1065 due March 15 (no extension)
+- **Possible double taxation:** If not structured well, may pay taxes in U.S. and your country
 ### Considerations for foreign members
 
 If you have a multi-member LLC with foreign members:
@@ -167,44 +152,35 @@ An LLC can elect to be treated as a corporation by filing Form 8832 (for C-Corp)
 
 ## Decision table
 
-| Your situation | Recommended regime | Reason |
-|---------------|-------------------|--------|
-| Individual freelancer, income < $100k/year | Disregarded Entity | Simplicity, low cost |
-| Individual freelancer, income > $100k/year | Disregarded Entity (evaluate S-Corp) | Potential tax savings |
-| Two or more members, equal percentages | Partnership | Required by IRS |
-| Two or more members, different percentages | Partnership | Distribution flexibility |
-| Foreign member + U.S. member | Partnership (with advice) | Cross-border compliance |
-| Sole owner, plans to have investors | Disregarded Entity (initial), then Partnership | Scalability |
-| Agency with multiple employees | Partnership or S-Corp | Protection and efficiency |
-
+- **Individual freelancer, income < $100k/year:** Disregarded Entity -- Simplicity, low cost
+- **Individual freelancer, income > $100k/year:** Disregarded Entity (evaluate S-Corp) -- Potential tax savings
+- **Two or more members, equal percentages:** Partnership -- Required by IRS
+- **Two or more members, different percentages:** Partnership -- Distribution flexibility
+- **Foreign member + U.S. member:** Partnership (with advice) -- Cross-border compliance
+- **Sole owner, plans to have investors:** Disregarded Entity (initial), then Partnership -- Scalability
+- **Agency with multiple employees:** Partnership or S-Corp -- Protection and efficiency
 ## Practical case: Freelancer vs Agency with partners
 
 ### Case 1: Carlos, individual freelancer
 
 Carlos is a web designer in Peru. He has his LLC in Wyoming and works alone.
 
-| Aspect | His choice |
-|---------|------------|
-| **Regime** | Disregarded Entity |
-| **EIN** | 1 (single-member) |
-| **Annual filing** | Form 5472 |
-| **Annual tax cost** | ~$200 (5472 preparation) |
-| **Complexity** | Low |
-
+- **Regime:** Disregarded Entity
+- **EIN:** 1 (single-member)
+- **Annual filing:** Form 5472
+- **Annual tax cost:** ~$200 (5472 preparation)
+- **Complexity:** Low
 **Result:** Carlos pays ~$200/year in tax compliance, files his 5472, and LLC income is taxed only in Peru.
 
 ### Case 2: Maria and Juan's agency
 
 Maria and Juan are 50% partners in a digital marketing agency with an LLC in Florida.
 
-| Aspect | Their choice |
-|---------|-------------|
-| **Regime** | Partnership |
-| **EIN** | 1 (multi-member) |
-| **Annual filing** | Form 1065 + K-1 for each member |
-| **Annual tax cost** | ~$1,500 (1065 + K-1s preparation) |
-| **Complexity** | Medium |
-
+- **Regime:** Partnership
+- **EIN:** 1 (multi-member)
+- **Annual filing:** Form 1065 + K-1 for each member
+- **Annual tax cost:** ~$1,500 (1065 + K-1s preparation)
+- **Complexity:** Medium
 **Result:** Maria and Juan pay ~$1,500/year, have more detailed accounting, but can distribute profits flexibly and deduct losses if any.
 
 ## Conclusion

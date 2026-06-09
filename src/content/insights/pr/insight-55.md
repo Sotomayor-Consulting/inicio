@@ -13,15 +13,12 @@ Neste guia completo, explicamos **como receber pagamentos internacionais em 2026
 
 ### Principais Dificuldades
 
-| Desafio | Descrição | Impacto |
-|---------|-----------|---------|
-| **Taxas de câmbio** | Spreads de 1% a 5% sobre a cotação real | Redução do valor recebido |
-| **Taxas de transferência** | Custos fixos de $5 a $50 por transferência | Inviabiliza pagamentos pequenos |
-| **Prazos de liquidação** | 1 a 10 dias úteis | Fluxo de caixa prejudicado |
-| **Compliance e KYC** | Documentação exigida para cada país | Burocracia e atrasos |
-| **Limitações geográficas** | Plataformas não disponíveis em todos os países | Necessidade de múltiplas contas |
-| **Chargebacks e disputas** | Risco de estorno em vendas internacionais | Perda de receita |
-
+- **Taxas de câmbio:** Spreads de 1% a 5% sobre a cotação real -- Redução do valor recebido
+- **Taxas de transferência:** Custos fixos de $5 a $50 por transferência -- Inviabiliza pagamentos pequenos
+- **Prazos de liquidação:** 1 a 10 dias úteis -- Fluxo de caixa prejudicado
+- **Compliance e KYC:** Documentação exigida para cada país -- Burocracia e atrasos
+- **Limitações geográficas:** Plataformas não disponíveis em todos os países -- Necessidade de múltiplas contas
+- **Chargebacks e disputas:** Risco de estorno em vendas internacionais -- Perda de receita
 ### Fatores a Considerar ao Escolher um Método
 
 - **País de origem do pagador** — onde seu cliente está
@@ -37,14 +34,11 @@ Neste guia completo, explicamos **como receber pagamentos internacionais em 2026
 
 O método tradicional, disponível em praticamente qualquer banco do mundo.
 
-| Característica | Detalhes |
-|---------------|----------|
-| **Velocidade** | 2 a 10 dias úteis |
-| **Taxas** | $15 - $50 por transferência (emissor) + $10 - $25 (receptor) |
-| **Spread cambial** | 1% a 3% (banco tradicional) |
-| **Valor mínimo** | Geralmente $50 - $100 |
-| **Melhor para** | Pagamentos acima de $1.000 |
-
+- **Velocidade:** 2 a 10 dias úteis
+- **Taxas:** $15 - $50 por transferência (emissor) + $10 - $25 (receptor)
+- **Spread cambial:** 1% a 3% (banco tradicional)
+- **Valor mínimo:** Geralmente $50 - $100
+- **Melhor para:** Pagamentos acima de $1.000
 **Informações necessárias do remetente:**
 - Nome completo do beneficiário
 - Número da conta bancária
@@ -59,13 +53,10 @@ O método tradicional, disponível em praticamente qualquer banco do mundo.
 
 Plataformas que processam pagamentos online de forma automatizada.
 
-| Plataforma | Taxa | Países | Ideal para |
-|-----------|------|--------|------------|
-| **Stripe** | 2.9% + $0.30 | 40+ | E-commerce, SaaS, assinaturas |
-| **PayPal** | 2.99% + $0.49 | 200+ | Freelancers, marketplaces |
-| **Mercado Pago** | 3-6% | 7 (LATAM) | E-commerce na América Latina |
-| **Square** | 2.6% + $0.10 | EUA, Canadá, Japão, Europa | Pequenos negócios |
-
+- **Stripe:** 2.9% + $0.30 -- 40+ -- E-commerce, SaaS, assinaturas
+- **PayPal:** 2.99% + $0.49 -- 200+ -- Freelancers, marketplaces
+- **Mercado Pago:** 3-6% -- 7 (LATAM) -- E-commerce na América Latina
+- **Square:** 2.6% + $0.10 -- EUA, Canadá, Japão, Europa -- Pequenos negócios
 **Vantagens:** Automatizado, integração com sites, múltiplas moedas
 **Desvantagens:** Taxas percentuais, risco de chargeback, congelamento de contas
 
@@ -73,13 +64,10 @@ Plataformas que processam pagamentos online de forma automatizada.
 
 Contas que permitem receber em moeda local de cada país.
 
-| Plataforma | Moedas | Conta Local em | Taxa de Câmbio |
-|-----------|--------|---------------|----------------|
-| **Wise** | 50+ | EUA, UK, Europa, Canadá, Austrália, etc. | Spread de 0.5% - 1% |
-| **Payoneer** | 10+ | EUA, UK, Europa, Canadá, Japão | Spread de 1% - 2.5% |
-| **Revolut Business** | 30+ | EUA, UK, Europa | Spread de 0.5% - 1.5% |
-| **Mercury** | 10+ | EUA | Gratuito (câmbio via Wise) |
-
+- **Wise:** 50+ -- EUA, UK, Europa, Canadá, Austrália, etc. -- Spread de 0.5% - 1%
+- **Payoneer:** 10+ -- EUA, UK, Europa, Canadá, Japão -- Spread de 1% - 2.5%
+- **Revolut Business:** 30+ -- EUA, UK, Europa -- Spread de 0.5% - 1.5%
+- **Mercury:** 10+ -- EUA -- Gratuito (câmbio via Wise)
 **Como funciona:**
 - Você recebe os dados de uma conta bancária local (ex: conta nos EUA com routing number)
 - O cliente faz uma transferência local (sem taxas internacionais)
@@ -92,14 +80,11 @@ Contas que permitem receber em moeda local de cada país.
 
 Pagamentos em Bitcoin, USDC, USDT, etc.
 
-| Característica | Detalhes |
-|---------------|----------|
-| **Velocidade** | Instantâneo a 1 hora |
-| **Taxas** | $0.01 - $5 por transação |
-| **Volatilidade** | Alta (pode variar 5-10% em horas) |
-| **Aceitação** | Limitada (clientes precisam ter crypto) |
-| **Regulamentação** | Variável por país |
-
+- **Velocidade:** Instantâneo a 1 hora
+- **Taxas:** $0.01 - $5 por transação
+- **Volatilidade:** Alta (pode variar 5-10% em horas)
+- **Aceitação:** Limitada (clientes precisam ter crypto)
+- **Regulamentação:** Variável por país
 **Melhor para:** Pagamentos internacionais rápidos, valores altos, países com restrições cambiais
 **Pior para:** Negócios que precisam de estabilidade de preços
 
@@ -109,44 +94,32 @@ Pagamentos em Bitcoin, USDC, USDT, etc.
 
 Processadores que permitem receber pagamentos de cartões de crédito de qualquer país.
 
-| Processador | Taxa | Moedas | Requisitos |
-|------------|------|--------|------------|
-| **Stripe** | 2.9% + $0.30 (+1.5% internacional) | 135+ | Conta em país suportado |
-| **PayPal** | 2.99% + $0.49 (+1.5% internacional) | 25+ | Conta PayPal |
-| **2Checkout** | 3.5% + $0.35 | 200+ | Conta em país suportado |
-
+- **Stripe:** 2.9% + $0.30 (+1.5% internacional) -- 135+ -- Conta em país suportado
+- **PayPal:** 2.99% + $0.49 (+1.5% internacional) -- 25+ -- Conta PayPal
+- **2Checkout:** 3.5% + $0.35 -- 200+ -- Conta em país suportado
 **Dica:** Use um processador que ofereça suporte a 3D Secure para reduzir chargebacks internacionais.
 
 ## 3. Comparativo de Plataformas
 
 ### Para Freelancers
 
-| Plataforma | Taxa Total (exemplo: $1.000) | Velocidade | Melhor Para |
-|-----------|----------------------------|------------|-------------|
-| **PayPal** | $29.90 + 2.5% câmbio = ~$54.90 | Instantâneo | Clientes que têm PayPal |
-| **Wise** | ~$5.50 de taxa + spread ~0.6% = ~$11.50 | 1-2 dias | Transferências bancárias |
-| **Payoneer** | ~$3.00 de taxa + spread ~2% = ~$23.00 | 1-3 dias | Marketplaces (Upwork, Fiverr) |
-| **Stripe** | $29.90 + 1% câmbio = ~$39.90 | 2-7 dias | Clientes com cartão |
-
+- **PayPal:** $29.90 + 2.5% câmbio = ~$54.90 -- Instantâneo -- Clientes que têm PayPal
+- **Wise:** ~$5.50 de taxa + spread ~0.6% = ~$11.50 -- 1-2 dias -- Transferências bancárias
+- **Payoneer:** ~$3.00 de taxa + spread ~2% = ~$23.00 -- 1-3 dias -- Marketplaces (Upwork, Fiverr)
+- **Stripe:** $29.90 + 1% câmbio = ~$39.90 -- 2-7 dias -- Clientes com cartão
 > **Wise é geralmente a opção mais barata** para receber pagamentos internacionais de clientes que podem fazer transferência bancária.
 
 ### Para E-commerce
 
-| Plataforma | Taxa | Conversão | Chargeback | Ideal para |
-|-----------|------|-----------|------------|------------|
-| **Stripe** | 2.9% + $0.30 | 1% | $15 | Países suportados |
-| **PayPal** | 2.99% + $0.49 | 2.5-4% | $20 | Alcance global |
-| **Mercado Pago** | 3-6% | Inclusa | Variável | LATAM |
-| **Shopify Payments** | 2.4% + $0.30 (Stripe) | 1% | $15 | Lojas Shopify |
-
+- **Stripe:** 2.9% + $0.30 -- 1% -- $15 -- Países suportados
+- **PayPal:** 2.99% + $0.49 -- 2.5-4% -- $20 -- Alcance global
+- **Mercado Pago:** 3-6% -- Inclusa -- Variável -- LATAM
+- **Shopify Payments:** 2.4% + $0.30 (Stripe) -- 1% -- $15 -- Lojas Shopify
 ### Para SaaS e Assinaturas
 
-| Plataforma | Faturamento Recorrente | Testes Grátis | Dunning | Ideal para |
-|-----------|----------------------|--------------|---------|------------|
-| **Stripe Billing** | ✅ Excelente | ✅ Sim | ✅ Automático | Empresas digitais |
-| **PayPal Subscriptions** | ✅ Básico | ✅ Sim | ❌ Manual | Pequenos negócios |
-| **Paddle** | ✅ Completo | ✅ Sim | ✅ Automático | SaaS global (inclui VAT) |
-
+- **Stripe Billing:** ✅ Excelente -- ✅ Sim -- ✅ Automático -- Empresas digitais
+- **PayPal Subscriptions:** ✅ Básico -- ✅ Sim -- ❌ Manual -- Pequenos negócios
+- **Paddle:** ✅ Completo -- ✅ Sim -- ✅ Automático -- SaaS global (inclui VAT)
 ## 4. Estruturas para Receber Pagamentos Internacionais
 
 ### 4.1 Estrutura Básica: Conta Multimoeda
@@ -168,15 +141,12 @@ Processadores que permitem receber pagamentos de cartões de crédito de qualque
 
 ### Spread Cambial por Plataforma
 
-| Plataforma | Spread sobre o Câmbio Real | Taxa Fixa | Custo Total para $10.000 |
-|-----------|---------------------------|-----------|-------------------------|
-| **Banco tradicional** | 2% - 4% | $10 - $30 | $210 - $430 |
-| **Wise** | 0.5% - 1% | $3 - $10 | $53 - $110 |
-| **PayPal** | 2.5% - 4% | $0 | $250 - $400 |
-| **Payoneer** | 1% - 2.5% | $1.50 | $101 - $251 |
-| **Revolut** | 0.5% - 1.5% | $0 | $50 - $150 |
-| **Interactive Brokers** | 0.2% - 0.5% | $0 (se tiver investimentos) | $20 - $50 |
-
+- **Banco tradicional:** 2% - 4% -- $10 - $30 -- $210 - $430
+- **Wise:** 0.5% - 1% -- $3 - $10 -- $53 - $110
+- **PayPal:** 2.5% - 4% -- $0 -- $250 - $400
+- **Payoneer:** 1% - 2.5% -- $1.50 -- $101 - $251
+- **Revolut:** 0.5% - 1.5% -- $0 -- $50 - $150
+- **Interactive Brokers:** 0.2% - 0.5% -- $0 (se tiver investimentos) -- $20 - $50
 ### Dicas para Reduzir Custos Cambiais
 
 1. **Receba na moeda do cliente** e converta quando a taxa estiver favorável
@@ -189,16 +159,13 @@ Processadores que permitem receber pagamentos de cartões de crédito de qualque
 
 ### Documentos Tipicamente Exigidos
 
-| Documento | Para | Situação |
-|-----------|------|----------|
-| **Passaporte** | Verificação de identidade | Sempre exigido |
-| **Comprovante de residência** | KYC básico | Sempre exigido |
-| **Contrato social** | Empresas | Quando aplicável |
-| **Comprovante de endereço comercial** | Empresas | Quando aplicável |
-| **EIN ou equivalente** | Empresas nos EUA | Obrigatório |
-| **BOI** | Empresas nos EUA | Desde 2024 |
-| **Licenças específicas** | Negócios regulados | Quando aplicável |
-
+- **Passaporte:** Verificação de identidade -- Sempre exigido
+- **Comprovante de residência:** KYC básico -- Sempre exigido
+- **Contrato social:** Empresas -- Quando aplicável
+- **Comprovante de endereço comercial:** Empresas -- Quando aplicável
+- **EIN ou equivalente:** Empresas nos EUA -- Obrigatório
+- **BOI:** Empresas nos EUA -- Desde 2024
+- **Licenças específicas:** Negócios regulados -- Quando aplicável
 ### Obrigações Fiscais
 
 - **Declaração de ativos no exterior** — contas em bancos estrangeiros
@@ -211,14 +178,11 @@ Processadores que permitem receber pagamentos de cartões de crédito de qualque
 
 ### Riscos ao Receber Pagamentos Internacionais
 
-| Risco | Descrição | Prevenção |
-|-------|-----------|-----------|
-| **Chargeback fraudulento** | Cliente contesta o pagamento após receber o produto | 3D Secure, descritor claro, confirmação de entrega |
-| **Pagamento falso** | Falso comprovante de pagamento | Verificar saldo antes de liberar o produto |
-| **Estorno bancário** | Banco estorna o pagamento semanas depois | Aguardar compensação total |
-| **Golpe do pagamento excessivo** | Cliente paga a mais e pede reembolso | Nunca reembolsar antes do pagamento compensar |
-| **Conta bancária comprometida** | Cliente usa conta roubada | Verificar identidade do pagador |
-
+- **Chargeback fraudulento:** Cliente contesta o pagamento após receber o produto -- 3D Secure, descritor claro, confirmação de entrega
+- **Pagamento falso:** Falso comprovante de pagamento -- Verificar saldo antes de liberar o produto
+- **Estorno bancário:** Banco estorna o pagamento semanas depois -- Aguardar compensação total
+- **Golpe do pagamento excessivo:** Cliente paga a mais e pede reembolso -- Nunca reembolsar antes do pagamento compensar
+- **Conta bancária comprometida:** Cliente usa conta roubada -- Verificar identidade do pagador
 ### Boas Práticas
 
 1. **Sempre verifique** se o pagamento compensou antes de liberar produtos ou serviços
@@ -299,14 +263,11 @@ Processadores que permitem receber pagamentos de cartões de crédito de qualque
 
 ## 10. Tendências para 2026
 
-| Tendência | Impacto |
-|-----------|---------|
-| **Pagamentos instantâneos transfronteiriços** | Redução de prazos de 5 dias para segundos |
-| **CBDCs (moedas digitais de bancos centrais)** | Novas opções de pagamento internacional |
-| **IA na prevenção de fraudes** | Menos chargebacks, mais segurança |
-| **Open Banking internacional** | Integração direta entre bancos de diferentes países |
-| **Regulamentação de cripto** | Mais segurança, menos anonimato |
-
+- **Pagamentos instantâneos transfronteiriços:** Redução de prazos de 5 dias para segundos
+- **CBDCs (moedas digitais de bancos centrais):** Novas opções de pagamento internacional
+- **IA na prevenção de fraudes:** Menos chargebacks, mais segurança
+- **Open Banking internacional:** Integração direta entre bancos de diferentes países
+- **Regulamentação de cripto:** Mais segurança, menos anonimato
 ## Conclusão
 
 Receber **pagamentos internacionais** em 2026 é mais fácil e barato do que nunca, mas requer escolher as plataformas certas para cada tipo de transação.

@@ -37,18 +37,15 @@ Aplica-se automaticamente �s **multi-member LLCs** (LLC de dois ou mais membro
 
 ## Comparativo r�pido
 
-| Aspecto | Disregarded Entity | Partnership |
-|---------|-------------------|-------------|
-| **N�mero de membros** | 1 | 2+ |
-| **Declara��o da LLC** | N�o aplica | Formul�rio 1065 |
-| **Reporte do propriet�rio** | Na declara��o pessoal | Schedule K-1 |
-| **Formul�rio 5472** | Sim (propriet�rio estrangeiro) | Depende |
-| **Complexidade fiscal** | Baixa | M�dia |
-| **Custo de compliance** | Baixo | M�dio |
-| **Prote��o liability** | Igual | Igual |
-| **Flexibilidade de distribui��o** | N/A | Alta |
-| **Ideal para** | Freelancers, propriet�rios �nicos | S�cios, ag�ncias |
-
+- **N�mero de membros:** 1 -- 2+
+- **Declara��o da LLC:** N�o aplica -- Formul�rio 1065
+- **Reporte do propriet�rio:** Na declara��o pessoal -- Schedule K-1
+- **Formul�rio 5472:** Sim (propriet�rio estrangeiro) -- Depende
+- **Complexidade fiscal:** Baixa -- M�dia
+- **Custo de compliance:** Baixo -- M�dio
+- **Prote��o liability:** Igual -- Igual
+- **Flexibilidade de distribui��o:** N/A -- Alta
+- **Ideal para:** Freelancers, propriet�rios �nicos -- S�cios, ag�ncias
 ## Qual escolher?
 
 ### Escolha Disregarded Entity se:
@@ -73,22 +70,16 @@ Este � o regime mais comum para empreendedores latino-americanos que constitue
 
 ### Vantagens
 
-| Vantagem | Detalhe |
-|----------|---------|
-| **Simplicidade** | Sem declara��o da LLC, apenas Formul�rio 5472 |
-| **Baixo custo** | N�o precisa de CPA caro para a declara��o |
-| **Sem dupla tributa��o** | As receitas tributam apenas no seu pa�s de resid�ncia |
-| **Privacidade** | Menos informa��o reportada ao IRS |
-| **F�cil administra��o** | Sem K-1, sem contabilidade complexa |
-
+- **Simplicidade:** Sem declara��o da LLC, apenas Formul�rio 5472
+- **Baixo custo:** N�o precisa de CPA caro para a declara��o
+- **Sem dupla tributa��o:** As receitas tributam apenas no seu pa�s de resid�ncia
+- **Privacidade:** Menos informa��o reportada ao IRS
+- **F�cil administra��o:** Sem K-1, sem contabilidade complexa
 ### Desvantagens
 
-| Desvantagem | Detalhe |
-|-------------|---------|
-| **Sem separa��o fiscal** | O IRS v� a LLC e o propriet�rio como a mesma entidade |
-| **Sem preju�zos dedut�veis** | N�o pode ter preju�zos que beneficiem a empresa |
-| **Limitado a um propriet�rio** | N�o pode ter s�cios sem mudar de regime |
-
+- **Sem separa��o fiscal:** O IRS v� a LLC e o propriet�rio como a mesma entidade
+- **Sem preju�zos dedut�veis:** N�o pode ter preju�zos que beneficiem a empresa
+- **Limitado a um propriet�rio:** N�o pode ter s�cios sem mudar de regime
 ### Obriga��es fiscais
 
 Se voc� � estrangeiro com uma single-member LLC:
@@ -108,24 +99,18 @@ Se voc� tem s�cios, o IRS exige que tribute como partnership (a menos que op
 
 ### Vantagens
 
-| Vantagem | Detalhe |
-|----------|---------|
-| **Flexibilidade na distribui��o** | Pode distribuir lucros em diferentes propor��es |
-| **Preju�zos dedut�veis** | Os s�cios podem deduzir preju�zos em suas declara��es pessoais |
-| **Aportes de capital** | Estrutura��o f�cil de aportes de s�cios |
-| **Escalabilidade** | F�cil adicionar ou retirar s�cios |
-| **Transpar�ncia** | Cada s�cio sabe sua participa��o exata |
-
+- **Flexibilidade na distribui��o:** Pode distribuir lucros em diferentes propor��es
+- **Preju�zos dedut�veis:** Os s�cios podem deduzir preju�zos em suas declara��es pessoais
+- **Aportes de capital:** Estrutura��o f�cil de aportes de s�cios
+- **Escalabilidade:** F�cil adicionar ou retirar s�cios
+- **Transpar�ncia:** Cada s�cio sabe sua participa��o exata
 ### Desvantagens
 
-| Desvantagem | Detalhe |
-|-------------|---------|
-| **Maior complexidade fiscal** | Formul�rio 1065, K-1, contabilidade mais detalhada |
-| **Custo mais alto** | Precisa de um CPA para preparar a declara��o |
-| **Obriga��es para propriet�rios estrangeiros** | Cada s�cio estrangeiro deve apresentar declara��o |
-| **Prazos estritos** | 1065 vence em 15 de mar�o (sem extens�o) |
-| **Poss�vel dupla tributa��o** | Se n�o estruturar bem, pode pagar impostos nos EUA e no seu pa�s |
-
+- **Maior complexidade fiscal:** Formul�rio 1065, K-1, contabilidade mais detalhada
+- **Custo mais alto:** Precisa de um CPA para preparar a declara��o
+- **Obriga��es para propriet�rios estrangeiros:** Cada s�cio estrangeiro deve apresentar declara��o
+- **Prazos estritos:** 1065 vence em 15 de mar�o (sem extens�o)
+- **Poss�vel dupla tributa��o:** Se n�o estruturar bem, pode pagar impostos nos EUA e no seu pa�s
 ### Considera��es para s�cios estrangeiros
 
 Se voc� tem uma multi-member LLC com s�cios estrangeiros:
@@ -167,44 +152,35 @@ Uma LLC pode optar por ser tratada como corporation fiscalmente apresentando o F
 
 ## Tabela de decis�o
 
-| Sua situa��o | Regime recomendado | Raz�o |
-|-------------|-------------------|-------|
-| Freelancer individual, receitas < $100k/ano | Disregarded Entity | Simplicidade, baixo custo |
-| Freelancer individual, receitas > $100k/ano | Disregarded Entity (avaliar S-Corp) | Economia fiscal potencial |
-| Dois ou mais s�cios, mesmo percentual | Partnership | Exigido pelo IRS |
-| Dois ou mais s�cios, percentuais diferentes | Partnership | Flexibilidade de distribui��o |
-| S�cio estrangeiro + s�cio americano | Partnership (com assessoria) | Compliance transfronteiri�o |
-| Propriet�rio �nico, planeja ter investidores | Disregarded Entity (inicial), depois Partnership | Escalabilidade |
-| Ag�ncia com m�ltiplos funcion�rios | Partnership ou S-Corp | Prote��o e efici�ncia |
-
+- **Freelancer individual, receitas < $100k/ano:** Disregarded Entity -- Simplicidade, baixo custo
+- **Freelancer individual, receitas > $100k/ano:** Disregarded Entity (avaliar S-Corp) -- Economia fiscal potencial
+- **Dois ou mais s�cios, mesmo percentual:** Partnership -- Exigido pelo IRS
+- **Dois ou mais s�cios, percentuais diferentes:** Partnership -- Flexibilidade de distribui��o
+- **S�cio estrangeiro + s�cio americano:** Partnership (com assessoria) -- Compliance transfronteiri�o
+- **Propriet�rio �nico, planeja ter investidores:** Disregarded Entity (inicial), depois Partnership -- Escalabilidade
+- **Ag�ncia com m�ltiplos funcion�rios:** Partnership ou S-Corp -- Prote��o e efici�ncia
 ## Caso pr�tico: Freelancer vs Ag�ncia com s�cios
 
 ### Caso 1: Carlos, freelancer individual
 
 Carlos � designer web no Peru. Tem sua LLC em Wyoming e trabalha sozinho.
 
-| Aspecto | Sua escolha |
-|---------|-------------|
-| **Regime** | Disregarded Entity |
-| **EIN** | 1 (single-member) |
-| **Declara��o anual** | Formul�rio 5472 |
-| **Custo fiscal anual** | ~$200 (prepara��o do 5472) |
-| **Complexidade** | Baixa |
-
+- **Regime:** Disregarded Entity
+- **EIN:** 1 (single-member)
+- **Declara��o anual:** Formul�rio 5472
+- **Custo fiscal anual:** ~$200 (prepara��o do 5472)
+- **Complexidade:** Baixa
 **Resultado:** Carlos paga ~$200/ano em compliance fiscal, reporta seu 5472, e as receitas da LLC tributam apenas no Peru.
 
 ### Caso 2: Ag�ncia de Maria e Jo�o
 
 Maria e Jo�o s�o s�cios ao 50% numa ag�ncia de marketing digital com LLC na Fl�rida.
 
-| Aspecto | Sua escolha |
-|---------|-------------|
-| **Regime** | Partnership |
-| **EIN** | 1 (multi-member) |
-| **Declara��o anual** | Formul�rio 1065 + K-1 para cada s�cio |
-| **Custo fiscal anual** | ~$1.500 (prepara��o do 1065 + K-1s) |
-| **Complexidade** | M�dia |
-
+- **Regime:** Partnership
+- **EIN:** 1 (multi-member)
+- **Declara��o anual:** Formul�rio 1065 + K-1 para cada s�cio
+- **Custo fiscal anual:** ~$1.500 (prepara��o do 1065 + K-1s)
+- **Complexidade:** M�dia
 **Resultado:** Maria e Jo�o pagam ~$1.500/ano, t�m contabilidade mais detalhada, mas podem distribuir lucros flexivelmente e deduzir preju�zos se houver.
 
 ## Conclus�o

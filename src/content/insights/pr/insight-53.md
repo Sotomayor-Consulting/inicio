@@ -13,17 +13,14 @@ Milhares de empreendedores têm suas contas Stripe fechadas todos os anos — mu
 
 ### Principais Motivos
 
-| Motivo | Descrição | Gravidade |
-|--------|-----------|-----------|
-| **Violação dos Termos de Serviço** | Negócio proibido ou atividade não permitida | ⚠️ Crítica |
-| **Risco elevado de chargebacks** | Taxa de chargeback acima de 1% | ⚠️ Alta |
-| **Fraude ou suspeita de fraude** | Transações suspeitas ou inconsistências | ⚠️ Crítica |
-| **KYC incompleto** | Documentos vencidos ou informações inconsistentes | ⚠️ Média |
-| **Mudança no perfil de risco** | Negócio mudou de ramo sem notificar | ⚠️ Alta |
-| **Alta taxa de cancelamentos** | Muitas estornos ou cancelamentos | ⚠️ Média |
-| **Atividade suspeita** | Padrões incomuns de transações | ⚠️ Alta |
-| **Non-compliance com BOI/AML** | Obrigações regulatórias não cumpridas | ⚠️ Crítica |
-
+- **Violação dos Termos de Serviço:** Negócio proibido ou atividade não permitida -- ⚠️ Crítica
+- **Risco elevado de chargebacks:** Taxa de chargeback acima de 1% -- ⚠️ Alta
+- **Fraude ou suspeita de fraude:** Transações suspeitas ou inconsistências -- ⚠️ Crítica
+- **KYC incompleto:** Documentos vencidos ou informações inconsistentes -- ⚠️ Média
+- **Mudança no perfil de risco:** Negócio mudou de ramo sem notificar -- ⚠️ Alta
+- **Alta taxa de cancelamentos:** Muitas estornos ou cancelamentos -- ⚠️ Média
+- **Atividade suspeita:** Padrões incomuns de transações -- ⚠️ Alta
+- **Non-compliance com BOI/AML:** Obrigações regulatórias não cumpridas -- ⚠️ Crítica
 > **Estatística:** De acordo com relatos da comunidade, aproximadamente 2% a 5% das contas Stripe são encerradas ou suspensas em algum momento. A maioria dos encerramentos ocorre nos primeiros 6 meses de operação.
 
 ## 2. Regras de Ouro para Manter sua Conta Ativa
@@ -40,14 +37,11 @@ Leia e compreenda os Termos de Serviço do Stripe. Eles mudam periodicamente, e 
 
 ### Regra 2: Mantenha sua Documentação Atualizada
 
-| Documento | Frequência de Atualização |
-|-----------|--------------------------|
-| **Documento de identidade** | Renovar antes do vencimento |
-| **Comprovante de residência** | Menos de 3 meses (quando solicitado) |
-| **Documentos da empresa** | Sempre que houver alteração |
-| **BOI** | 30 dias após qualquer mudança |
-| **Conta bancária** | Notificar Stripe se mudar |
-
+- **Documento de identidade:** Renovar antes do vencimento
+- **Comprovante de residência:** Menos de 3 meses (quando solicitado)
+- **Documentos da empresa:** Sempre que houver alteração
+- **BOI:** 30 dias após qualquer mudança
+- **Conta bancária:** Notificar Stripe se mudar
 ### Regra 3: Monitore sua Taxa de Chargebacks
 
 A taxa de chargeback ideal é **abaixo de 0.5%**. Acima de 1%, o Stripe pode colocar sua conta em revisão. Acima de 2%, o encerramento é quase certo.
@@ -93,14 +87,11 @@ O Stripe analisa seu site ou aplicativo durante a verificação e continuamente 
 
 ### Alto Risco (Revisão Constante)
 
-| Categoria | Risco | Estratégia |
-|-----------|-------|------------|
-| **Saúde e bem-estar** | Suplementos, equipamentos médicos | Documentação adicional, certificações |
-| **Viagens** | Agências, reservas | Antecipação de chargebacks, fundo de reserva |
-| **Serviços financeiros** | Consultoria, câmbio | Licenças e comprovações |
-| **Assinaturas** | Modelos de recorrência | Política de cancelamento clara |
-| **Produtos digitais** | Cursos, e-books | Entregas imediatas e suporte |
-
+- **Saúde e bem-estar:** Suplementos, equipamentos médicos -- Documentação adicional, certificações
+- **Viagens:** Agências, reservas -- Antecipação de chargebacks, fundo de reserva
+- **Serviços financeiros:** Consultoria, câmbio -- Licenças e comprovações
+- **Assinaturas:** Modelos de recorrência -- Política de cancelamento clara
+- **Produtos digitais:** Cursos, e-books -- Entregas imediatas e suporte
 ## 4. Sinais de Alerta que o Stripe Monitora
 
 ### Comportamento do Cliente
@@ -127,13 +118,10 @@ O Stripe analisa seu site ou aplicativo durante a verificação e continuamente 
 
 ### Níveis de Alerta
 
-| Nível | Notificação | Prazo | Ação Necessária |
-|-------|------------|-------|-----------------|
-| **1 - Aviso** | E-mail com sugestões | N/A | Ajustar práticas |
-| **2 - Solicitação de documentos** | E-mail + dashboard | 7-14 dias | Enviar documentos solicitados |
-| **3 - Suspensão temporária** | E-mail + dashboard | Imediato | Resolver causa + contatar suporte |
-| **4 - Encerramento** | E-mail formal | Imediato | Solicitar liberação dos fundos |
-
+- **1 - Aviso:** E-mail com sugestões -- N/A -- Ajustar práticas
+- **2 - Solicitação de documentos:** E-mail + dashboard -- 7-14 dias -- Enviar documentos solicitados
+- **3 - Suspensão temporária:** E-mail + dashboard -- Imediato -- Resolver causa + contatar suporte
+- **4 - Encerramento:** E-mail formal -- Imediato -- Solicitar liberação dos fundos
 ### O que NÃO fazer ao receber um alerta
 
 - ❌ Ignorar o e-mail ou notificação
@@ -228,29 +216,23 @@ Enquanto aguarda a resolução:
 
 ## 8. Alternativas ao Stripe
 
-| Plataforma | Ideal para | Taxas | Diferencial |
-|-----------|-----------|-------|-------------|
-| **Paypal** | Freelancers, e-commerce internacional | 2.9% + $0.30 | Marca reconhecida, disputas integradas |
-| **Mercado Pago** | América Latina | 3-6% | Integração com Mercado Livre |
-| **Square** | Presencial e online | 2.6% + $0.10 | Leitor de cartão gratuito |
-| **Payoneer** | Marketplaces e freelancers | 1-3% | Conta de pagamento internacional |
-| **Adyen** | Alto volume | Negociável | Plataforma empresa |
-| **Paddle** | SaaS e produtos digitais | 5% + $0.50 | VAT handling inclusa |
-
+- **Paypal:** Freelancers, e-commerce internacional -- 2.9% + $0.30 -- Marca reconhecida, disputas integradas
+- **Mercado Pago:** América Latina -- 3-6% -- Integração com Mercado Livre
+- **Square:** Presencial e online -- 2.6% + $0.10 -- Leitor de cartão gratuito
+- **Payoneer:** Marketplaces e freelancers -- 1-3% -- Conta de pagamento internacional
+- **Adyen:** Alto volume -- Negociável -- Plataforma empresa
+- **Paddle:** SaaS e produtos digitais -- 5% + $0.50 -- VAT handling inclusa
 ## 9. Stripe Radar: Prevenção de Fraudes
 
 O **Stripe Radar** é uma ferramenta poderosa que ajuda a prevenir transações fraudulentas e reduzir chargebacks:
 
 ### Configurações Recomendadas
 
-| Regra | Ação | Descrição |
-|------|------|-----------|
-| **Bloquear IP de países de alto risco** | Bloquear | Impede transações de países com alta incidência de fraude |
-| **Bloquear e-mails temporários** | Bloquear | Impede uso de e-mail descartável |
-| **Exigir 3D Secure acima de $100** | Exigir autenticação | Reduz chargebacks em valores elevados |
-| **Bloquear cartões de débito internacionais** | Bloquear | Evita fraudes com cartões internacionais |
-| **Revisar manualmente transações suspeitas** | Revisar | Permite análise antes de aprovar |
-
+- **Bloquear IP de países de alto risco:** Bloquear -- Impede transações de países com alta incidência de fraude
+- **Bloquear e-mails temporários:** Bloquear -- Impede uso de e-mail descartável
+- **Exigir 3D Secure acima de $100:** Exigir autenticação -- Reduz chargebacks em valores elevados
+- **Bloquear cartões de débito internacionais:** Bloquear -- Evita fraudes com cartões internacionais
+- **Revisar manualmente transações suspeitas:** Revisar -- Permite análise antes de aprovar
 ### Custo do Radar
 - **Radar for Fraud Teams:** $0.02/transação + $0.10/transação avaliada manualmente
 - **Radar (gratuito):** Regras básicas inclusas em todas as contas

@@ -1,269 +1,245 @@
-Ôªø---
-title: "Lista Anual de Cumplimiento para LLC: Gu√≠a 2026"
-description: "Lista de verificaci√≥n de cumplimiento anual para LLC que cubre requisitos federales, estatales y locales"
-cardImage: "@/images/insights/m√©todos y cumplimiento.png"
-cardImageAlt: "Lista de verificaci√≥n de cumplimiento anual para LLC que muestra tareas mensuales, fechas l√≠mite de informes anuales, calendario de pagos de impuestos, requisitos de agente registrado y panel de cumplimiento multiestatal"
+---
+title: "Lista Anual de Cumplimiento para LLC: GuÌa 2026"
+description: "Lista de verificaciÛn de cumplimiento anual para LLC que cubre requisitos federales, estatales y locales"
+cardImage: "@/images/insights/mÈtodos y cumplimiento.png"
+cardImageAlt: "Lista de verificaciÛn de cumplimiento anual para LLC que muestra tareas mensuales, fechas lÌmite de informes anuales, calendario de pagos de impuestos, requisitos de agente registrado y panel de cumplimiento multiestatal"
 ---
 
-**Operar una LLC conlleva obligaciones de cumplimiento continuas que muchos due√±os de negocios pasan por alto hasta que es demasiado tarde.** A diferencia de una empresa individual, una LLC es una entidad legal separada que requiere mantenimiento regular para preservar su protecci√≥n de responsabilidad y buen estado. Perder una sola presentaci√≥n puede desencadenar multas, p√©rdida del buen estado e incluso la disoluci√≥n administrativa.
+**Operar una LLC conlleva obligaciones de cumplimiento continuas que muchos dueÒos de negocios pasan por alto hasta que es demasiado tarde.** A diferencia de una empresa individual, una LLC es una entidad legal separada que requiere mantenimiento regular para preservar su protecciÛn de responsabilidad y buen estado. Perder una sola presentaciÛn puede desencadenar multas, pÈrdida del buen estado e incluso la disoluciÛn administrativa.
 
-La buena noticia es que el cumplimiento de LLC es manejable cuando lo divides en un sistema durante todo el a√±o. La mayor√≠a de las tareas toman de 10 a 30 minutos y cuestan menos de $200 al a√±o. La clave es saber qu√© hacer, cu√°ndo hacerlo y tener un sistema para rastrearlo todo.
+La buena noticia es que el cumplimiento de LLC es manejable cuando lo divides en un sistema durante todo el aÒo. La mayorÌa de las tareas toman de 10 a 30 minutos y cuestan menos de $200 al aÒo. La clave es saber quÈ hacer, cu·ndo hacerlo y tener un sistema para rastrearlo todo.
 
-En esta gu√≠a, proporcionamos una **lista de verificaci√≥n de cumplimiento anual completa para LLC en 2026**: requisitos federales de cumplimiento, informes anuales estatales e impuestos de franquicia, mantenimiento del agente registrado, renovaciones de licencias comerciales, obligaciones multiestatales, un calendario de cumplimiento mes a mes, una herramienta de puntuaci√≥n de cumplimiento y consejos para mantenerse al d√≠a a√±o tras a√±o.
+En esta guÌa, proporcionamos una **lista de verificaciÛn de cumplimiento anual completa para LLC en 2026**: requisitos federales de cumplimiento, informes anuales estatales e impuestos de franquicia, mantenimiento del agente registrado, renovaciones de licencias comerciales, obligaciones multiestatales, un calendario de cumplimiento mes a mes, una herramienta de puntuaciÛn de cumplimiento y consejos para mantenerse al dÌa aÒo tras aÒo.
 
 ## 1. Requisitos Federales de Cumplimiento
 
-### Requisitos de Presentaci√≥n Anual del IRS
+### Requisitos de PresentaciÛn Anual del IRS
 
-| Requisito | Fecha L√≠mite | Aplica A | Multa por No Presentar |
-|-------------|----------|------------|-------------------|
-| Formulario 1065 (LLC de Sociedad) | 15 de marzo | LLC con m√∫ltiples miembros gravadas como sociedades | $220 por mes por socio |
-| Formulario 1120-S (LLC S-Corp) | 15 de marzo | LLC gravadas como corporaciones S | $220 por mes por accionista |
-| Formulario 1120 (LLC C-Corp) | 15 de abril | LLC gravadas como corporaciones C | 5% del impuesto por mes (m√°x. 25%) |
-| Anexo C (1040) | 15 de abril | LLC de un solo miembro (entidad ignorada) | 5% del impuesto por mes (m√°x. 25%) |
-| Formulario 941 (N√≥mina) | Trimestral | LLC con empleados | 2-15% del impuesto sobre n√≥mina |
-| Formulario 940 (FUTA) | 31 de enero | LLC con empleados | Var√≠a |
-| Formulario W-2 / W-3 | 31 de enero | LLC con empleados | $60-$310 por formulario |
-| Formulario 1099-NEC | 31 de enero | LLC que pagaron a contratistas $600+ | $60-$310 por formulario |
-| Informe BOI FinCEN | Var√≠a (ver abajo) | La mayor√≠a de LLC (nuevas reglas para 2026) | $591 por d√≠a (civil) / hasta $10,000 (penal) |
+- **Formulario 1065 (LLC de Sociedad):** 15 de marzo -- LLC con m˙ltiples miembros gravadas como sociedades -- $220 por mes por socio
+- **Formulario 1120-S (LLC S-Corp):** 15 de marzo -- LLC gravadas como corporaciones S -- $220 por mes por accionista
+- **Formulario 1120 (LLC C-Corp):** 15 de abril -- LLC gravadas como corporaciones C -- 5% del impuesto por mes (m·x. 25%)
+- **Anexo C (1040):** 15 de abril -- LLC de un solo miembro (entidad ignorada) -- 5% del impuesto por mes (m·x. 25%)
+- **Formulario 941 (NÛmina):** Trimestral -- LLC con empleados -- 2-15% del impuesto sobre nÛmina
+- **Formulario 940 (FUTA):** 31 de enero -- LLC con empleados -- VarÌa
+- **Formulario W-2 / W-3:** 31 de enero -- LLC con empleados -- $60-$310 por formulario
+- **Formulario 1099-NEC:** 31 de enero -- LLC que pagaron a contratistas $600+ -- $60-$310 por formulario
+- **Informe BOI FinCEN:** VarÌa (ver abajo) -- La mayorÌa de LLC (nuevas reglas para 2026) -- $591 por dÌa (civil) / hasta $10,000 (penal)
+### Informe de InformaciÛn de Propietarios Reales (BOI)
 
-### Informe de Informaci√≥n de Propietarios Reales (BOI)
+A partir de 2024, la Ley de Transparencia Corporativa requiere que la mayorÌa de las LLC presenten un informe de InformaciÛn de Propietarios Reales (BOI) ante FinCEN. En 2026, este requisito est· completamente en vigor:
 
-A partir de 2024, la Ley de Transparencia Corporativa requiere que la mayor√≠a de las LLC presenten un informe de Informaci√≥n de Propietarios Reales (BOI) ante FinCEN. En 2026, este requisito est√° completamente en vigor:
-
-| Tipo de Entidad | Fecha L√≠mite de Presentaci√≥n Inicial | Fecha L√≠mite de Actualizaci√≥n |
-|------------|----------------------|----------------|
-| LLC creadas antes de 2024 | 1 de enero de 2025 (vencido) | Dentro de 30 d√≠as de cualquier cambio |
-| LLC creadas en 2024 | 90 d√≠as desde la formaci√≥n | Dentro de 30 d√≠as de cualquier cambio |
-| LLC creadas en 2025 | 30 d√≠as desde la formaci√≥n | Dentro de 30 d√≠as de cualquier cambio |
-| LLC creadas en 2026 | 30 d√≠as desde la formaci√≥n | Dentro de 30 d√≠as de cualquier cambio |
-
+- **LLC creadas antes de 2024:** 1 de enero de 2025 (vencido) -- Dentro de 30 dÌas de cualquier cambio
+- **LLC creadas en 2024:** 90 dÌas desde la formaciÛn -- Dentro de 30 dÌas de cualquier cambio
+- **LLC creadas en 2025:** 30 dÌas desde la formaciÛn -- Dentro de 30 dÌas de cualquier cambio
+- **LLC creadas en 2026:** 30 dÌas desde la formaciÛn -- Dentro de 30 dÌas de cualquier cambio
 **Lo que necesitas presentar:**
-- Nombre legal completo, fecha de nacimiento y direcci√≥n de cada propietario real (25%+ de propiedad o control sustancial)
-- Un n√∫mero de identificaci√≥n √∫nico (pasaporte, licencia de conducir o ID de FinCEN) para cada propietario
-- Una imagen del documento de identificaci√≥n
-- Informaci√≥n de la empresa: nombre legal, nombres comerciales, direcci√≥n comercial, EIN, jurisdicci√≥n de formaci√≥n
+- Nombre legal completo, fecha de nacimiento y direcciÛn de cada propietario real (25%+ de propiedad o control sustancial)
+- Un n˙mero de identificaciÛn ˙nico (pasaporte, licencia de conducir o ID de FinCEN) para cada propietario
+- Una imagen del documento de identificaciÛn
+- InformaciÛn de la empresa: nombre legal, nombres comerciales, direcciÛn comercial, EIN, jurisdicciÛn de formaciÛn
 
 ### Mantenimiento del EIN
 
-- Guarda tu carta de confirmaci√≥n del EIN (CP 575) en tus registros comerciales
-- Actualiza tu informaci√≥n del EIN con el IRS si la parte responsable cambia
+- Guarda tu carta de confirmaciÛn del EIN (CP 575) en tus registros comerciales
+- Actualiza tu informaciÛn del EIN con el IRS si la parte responsable cambia
 - Cierra tu EIN solo si la LLC se disuelve formalmente (no la abandones)
 - Presenta declaraciones de impuestos finales al disolver la LLC
 
 ## 2. Informe Anual Estatal e Impuesto de Franquicia
 
-### Referencia de Fechas L√≠mite Estatales
+### Referencia de Fechas LÌmite Estatales
 
-Cada LLC debe presentar informes peri√≥dicos ante el estado de formaci√≥n y cualquier estado donde est√© calificada para hacer negocios. Aqu√≠ est√° la referencia completa estado por estado:
+Cada LLC debe presentar informes periÛdicos ante el estado de formaciÛn y cualquier estado donde estÈ calificada para hacer negocios. AquÌ est· la referencia completa estado por estado:
 
-| Estado | Nombre del Informe | Tarifa | Fecha L√≠mite | Frecuencia |
-|-------|------------|-----|----------|-----------|
-| Alabama | Informe Anual | $50 | Aniversario de formaci√≥n | Anual |
-| Alaska | Informe Bienal | $100 | 2 de enero (a√±os pares LLC / impares corp) | Bienal |
-| Arizona | Informe Anual | $45 | Fecha de aniversario | Anual |
-| Arkansas | Informe de Impuesto de Franquicia | $150 | 1 de mayo | Anual |
-| California | Declaraci√≥n de Informaci√≥n | $20 | Aniversario de registro | Anual (LLC) / Bienal (corp) |
-| Colorado | Informe Peri√≥dico | $10 | Fin del mes de formaci√≥n | Anual |
-| Connecticut | Informe Anual | $80 | Aniversario de formaci√≥n | Anual |
-| Delaware | Informe Anual | $0 (LLC sin impuesto) / $300 m√≠n (corp) | 1 de jun (LLC) / 1 de mar (corp) | Anual |
-| Florida | Informe Anual | $138.75 | 1 de mayo | Anual |
-| Georgia | Registro Anual | $50 | 1 de abril | Anual |
-| Hawaii | Informe Anual | $15 | Trimestre de registro | Anual |
-| Idaho | Informe Anual | $0 | Aniversario de formaci√≥n | Anual |
-| Illinois | Informe Anual | $75 | Aniversario de formaci√≥n | Anual |
-| Indiana | Informe de Entidad Comercial | $50 | Aniversario de formaci√≥n | Anual |
-| Iowa | Informe Anual | $45 | 1 de abril (o aniversario) | Anual |
-| Kansas | Informe Anual | $50 | Aniversario de formaci√≥n | Anual |
-| Kentucky | Informe Anual | $15 | 30 de junio | Anual |
-| Luisiana | Informe Anual | $35 | Aniversario de formaci√≥n | Anual |
-| Maine | Informe Anual | $85 | 1 de junio | Anual |
-| Maryland | Informe Anual | $300 | 15 de abril | Anual |
-| Massachusetts | Informe Anual | $500 | Aniversario de formaci√≥n | Anual |
-| M√≠chigan | Informe Anual | $25 | 15 de febrero | Anual |
-| Minnesota | Informe Anual | $0 (en l√≠nea) / $50 (correo) | 31 de diciembre | Anual |
-| Misisipi | Informe Anual | $50 | Aniversario de formaci√≥n | Anual |
-| Misuri | Informe Anual | $0 | Aniversario de formaci√≥n | Anual |
-| Montana | Informe Anual | $15 | 15 de abril | Anual |
-| Nebraska | Informe Bienal | $10 | 1 de abril (impar/par por entidad) | Bienal |
-| Nevada | Informe Anual | $150 | √öltimo d√≠a del mes de aniversario | Anual |
-| Nuevo Hampshire | Informe Anual | $100 | 1 de abril | Anual |
-| Nueva Jersey | Informe Anual | $75 | Aniversario de formaci√≥n | Anual |
-| Nuevo M√©xico | Informe Anual | $0 | Aniversario de formaci√≥n | Anual |
-| Nueva York | Declaraci√≥n Bienal | $9 | Aniversario de formaci√≥n (cada 2 a√±os) | Bienal |
-| Carolina del Norte | Informe Anual | $200 | 15 de abril | Anual |
-| Dakota del Norte | Informe Anual | $50 | Aniversario de formaci√≥n | Anual |
-| Ohio | Informe Bienal | $0 | Aniversario de formaci√≥n (a√±os impares) | Bienal |
-| Oklahoma | Certificado Anual | $25 | Aniversario de formaci√≥n | Anual |
-| Oreg√≥n | Informe Anual | $100 | Aniversario de formaci√≥n | Anual |
-| Pensilvania | Informe Decenal | $7 | Cada 10 a√±os desde la formaci√≥n | Decenal |
-| Rhode Island | Informe Anual | $50 | Aniversario de formaci√≥n | Anual |
-| Carolina del Sur | Informe Anual | $0 | Aniversario de formaci√≥n | Anual |
-| Dakota del Sur | Informe Anual | $50 | Aniversario de formaci√≥n | Anual |
-| Tennessee | Informe Anual | $300 | Aniversario de formaci√≥n (antes del 1 de abril) | Anual |
-| Texas | Informe de Impuesto de Franquicia | $0 m√≠n | 15 de mayo | Anual |
-| Utah | Informe Anual | $15 | Aniversario de formaci√≥n | Anual |
-| Vermont | Informe Anual | $35 (LLC) | Aniversario de formaci√≥n | Anual |
-| Virginia | Informe Anual | $50 | Aniversario de formaci√≥n | Anual |
-| Washington | Informe Anual | $60 | Fin del mes de aniversario | Anual |
-| Virginia Occidental | Informe Anual | $25 | 1 de julio | Anual |
-| Wisconsin | Informe Anual | $25 | Aniversario de formaci√≥n (fin de trimestre) | Anual |
-| Wyoming | Informe Anual | $60 | Primer d√≠a del mes de aniversario | Anual |
-| DC | Informe Bienal | $0 | 1 de abril (a√±os pares) | Bienal |
-| Puerto Rico | Informe Anual | $125 | 15 de abril | Anual |
-
+- **Alabama:** Informe Anual -- $50 -- Aniversario de formaciÛn -- Anual
+- **Alaska:** Informe Bienal -- $100 -- 2 de enero (aÒos pares LLC / impares corp) -- Bienal
+- **Arizona:** Informe Anual -- $45 -- Fecha de aniversario -- Anual
+- **Arkansas:** Informe de Impuesto de Franquicia -- $150 -- 1 de mayo -- Anual
+- **California:** DeclaraciÛn de InformaciÛn -- $20 -- Aniversario de registro -- Anual (LLC) / Bienal (corp)
+- **Colorado:** Informe PeriÛdico -- $10 -- Fin del mes de formaciÛn -- Anual
+- **Connecticut:** Informe Anual -- $80 -- Aniversario de formaciÛn -- Anual
+- **Delaware:** Informe Anual -- $0 (LLC sin impuesto) / $300 mÌn (corp) -- 1 de jun (LLC) / 1 de mar (corp) -- Anual
+- **Florida:** Informe Anual -- $138.75 -- 1 de mayo -- Anual
+- **Georgia:** Registro Anual -- $50 -- 1 de abril -- Anual
+- **Hawaii:** Informe Anual -- $15 -- Trimestre de registro -- Anual
+- **Idaho:** Informe Anual -- $0 -- Aniversario de formaciÛn -- Anual
+- **Illinois:** Informe Anual -- $75 -- Aniversario de formaciÛn -- Anual
+- **Indiana:** Informe de Entidad Comercial -- $50 -- Aniversario de formaciÛn -- Anual
+- **Iowa:** Informe Anual -- $45 -- 1 de abril (o aniversario) -- Anual
+- **Kansas:** Informe Anual -- $50 -- Aniversario de formaciÛn -- Anual
+- **Kentucky:** Informe Anual -- $15 -- 30 de junio -- Anual
+- **Luisiana:** Informe Anual -- $35 -- Aniversario de formaciÛn -- Anual
+- **Maine:** Informe Anual -- $85 -- 1 de junio -- Anual
+- **Maryland:** Informe Anual -- $300 -- 15 de abril -- Anual
+- **Massachusetts:** Informe Anual -- $500 -- Aniversario de formaciÛn -- Anual
+- **MÌchigan:** Informe Anual -- $25 -- 15 de febrero -- Anual
+- **Minnesota:** Informe Anual -- $0 (en lÌnea) / $50 (correo) -- 31 de diciembre -- Anual
+- **Misisipi:** Informe Anual -- $50 -- Aniversario de formaciÛn -- Anual
+- **Misuri:** Informe Anual -- $0 -- Aniversario de formaciÛn -- Anual
+- **Montana:** Informe Anual -- $15 -- 15 de abril -- Anual
+- **Nebraska:** Informe Bienal -- $10 -- 1 de abril (impar/par por entidad) -- Bienal
+- **Nevada:** Informe Anual -- $150 -- ⁄ltimo dÌa del mes de aniversario -- Anual
+- **Nuevo Hampshire:** Informe Anual -- $100 -- 1 de abril -- Anual
+- **Nueva Jersey:** Informe Anual -- $75 -- Aniversario de formaciÛn -- Anual
+- **Nuevo MÈxico:** Informe Anual -- $0 -- Aniversario de formaciÛn -- Anual
+- **Nueva York:** DeclaraciÛn Bienal -- $9 -- Aniversario de formaciÛn (cada 2 aÒos) -- Bienal
+- **Carolina del Norte:** Informe Anual -- $200 -- 15 de abril -- Anual
+- **Dakota del Norte:** Informe Anual -- $50 -- Aniversario de formaciÛn -- Anual
+- **Ohio:** Informe Bienal -- $0 -- Aniversario de formaciÛn (aÒos impares) -- Bienal
+- **Oklahoma:** Certificado Anual -- $25 -- Aniversario de formaciÛn -- Anual
+- **OregÛn:** Informe Anual -- $100 -- Aniversario de formaciÛn -- Anual
+- **Pensilvania:** Informe Decenal -- $7 -- Cada 10 aÒos desde la formaciÛn -- Decenal
+- **Rhode Island:** Informe Anual -- $50 -- Aniversario de formaciÛn -- Anual
+- **Carolina del Sur:** Informe Anual -- $0 -- Aniversario de formaciÛn -- Anual
+- **Dakota del Sur:** Informe Anual -- $50 -- Aniversario de formaciÛn -- Anual
+- **Tennessee:** Informe Anual -- $300 -- Aniversario de formaciÛn (antes del 1 de abril) -- Anual
+- **Texas:** Informe de Impuesto de Franquicia -- $0 mÌn -- 15 de mayo -- Anual
+- **Utah:** Informe Anual -- $15 -- Aniversario de formaciÛn -- Anual
+- **Vermont:** Informe Anual -- $35 (LLC) -- Aniversario de formaciÛn -- Anual
+- **Virginia:** Informe Anual -- $50 -- Aniversario de formaciÛn -- Anual
+- **Washington:** Informe Anual -- $60 -- Fin del mes de aniversario -- Anual
+- **Virginia Occidental:** Informe Anual -- $25 -- 1 de julio -- Anual
+- **Wisconsin:** Informe Anual -- $25 -- Aniversario de formaciÛn (fin de trimestre) -- Anual
+- **Wyoming:** Informe Anual -- $60 -- Primer dÌa del mes de aniversario -- Anual
+- **DC:** Informe Bienal -- $0 -- 1 de abril (aÒos pares) -- Bienal
+- **Puerto Rico:** Informe Anual -- $125 -- 15 de abril -- Anual
 ### Nota de California
 
 California requiere dos obligaciones de cumplimiento separadas:
-1. **Declaraci√≥n de Informaci√≥n** ($20) ‚Äî presentada ante el SOS cada 2 a√±os (bienal para corporaciones, anual para LLC)
-2. **Impuesto M√≠nimo de Franquicia** ($800) ‚Äî pagado anualmente al Franchise Tax Board (FTB), independientemente de los ingresos
+1. **DeclaraciÛn de InformaciÛn** ($20) ó presentada ante el SOS cada 2 aÒos (bienal para corporaciones, anual para LLC)
+2. **Impuesto MÌnimo de Franquicia** ($800) ó pagado anualmente al Franchise Tax Board (FTB), independientemente de los ingresos
 
-El impuesto m√≠nimo de franquicia de $800 aplica incluso si la LLC no tiene ingresos o est√° inactiva. Las LLC nuevas est√°n exentas durante el primer a√±o. No pagar resulta en multas, intereses y suspensi√≥n eventual.
+El impuesto mÌnimo de franquicia de $800 aplica incluso si la LLC no tiene ingresos o est· inactiva. Las LLC nuevas est·n exentas durante el primer aÒo. No pagar resulta en multas, intereses y suspensiÛn eventual.
 
 ### Nota de Delaware
 
-Las LLC de Delaware que no tienen ingresos o no realizan negocios en Delaware no pagan impuesto de franquicia ni tarifa de informe anual. Sin embargo, las LLC de Delaware que son corporaciones o que eligen tributaci√≥n corporativa deben pagar un impuesto m√≠nimo de franquicia de $300 y presentar un informe anual.
+Las LLC de Delaware que no tienen ingresos o no realizan negocios en Delaware no pagan impuesto de franquicia ni tarifa de informe anual. Sin embargo, las LLC de Delaware que son corporaciones o que eligen tributaciÛn corporativa deben pagar un impuesto mÌnimo de franquicia de $300 y presentar un informe anual.
 
 ## 3. Cumplimiento del Agente Registrado
 
-Cada LLC debe mantener un agente registrado en su estado de formaci√≥n y en cualquier estado donde est√© calificada como extranjera. El agente registrado debe tener una direcci√≥n f√≠sica en el estado (sin apartados postales).
+Cada LLC debe mantener un agente registrado en su estado de formaciÛn y en cualquier estado donde estÈ calificada como extranjera. El agente registrado debe tener una direcciÛn fÌsica en el estado (sin apartados postales).
 
-### Lista de Verificaci√≥n del Agente Registrado
+### Lista de VerificaciÛn del Agente Registrado
 
-- [ ] Confirma que el nombre y la direcci√≥n del agente registrado en el SOS est√©n actualizados
+- [ ] Confirma que el nombre y la direcciÛn del agente registrado en el SOS estÈn actualizados
 - [ ] Verifica que el agente haya aceptado el nombramiento (consentimiento por escrito en archivo)
-- [ ] Verifica que la direcci√≥n f√≠sica del agente sea correcta (no solo un apartado postal)
-- [ ] Actualiza el agente dentro de 30 d√≠as si el agente renuncia o cambia de direcci√≥n
-- [ ] Revisa las tarifas del agente anualmente ‚Äî los agentes comerciales generalmente cobran $50-$300 por a√±o por estado
-- [ ] Designa un agente en cada estado donde la LLC est√© calificada como extranjera
-- [ ] Confirma que el agente reenv√≠e avisos legales y correspondencia estatal de manera oportuna
+- [ ] Verifica que la direcciÛn fÌsica del agente sea correcta (no solo un apartado postal)
+- [ ] Actualiza el agente dentro de 30 dÌas si el agente renuncia o cambia de direcciÛn
+- [ ] Revisa las tarifas del agente anualmente ó los agentes comerciales generalmente cobran $50-$300 por aÒo por estado
+- [ ] Designa un agente en cada estado donde la LLC estÈ calificada como extranjera
+- [ ] Confirma que el agente reenvÌe avisos legales y correspondencia estatal de manera oportuna
 
 ### Consecuencias de un Agente Registrado Vencido
 
-| Consecuencia | Tiempo | Impacto |
-|------------|----------|--------|
-| Avisos estatales sin respuesta | Inmediatamente | Recordatorios de cumplimiento y citaciones legales perdidos |
-| Sentencia en rebeld√≠a en demandas | 20-60 d√≠as | Responsabilidad personal por reclamaciones legales |
-| P√©rdida del buen estado | 30-90 d√≠as | No se puede realizar negocios ni obtener financiamiento |
-| Disoluci√≥n administrativa | 6-12 meses | Entidad terminada por el estado |
-| Nombre disponible | 1-3 a√±os | El nombre comercial puede ser tomado por otros |
-
+- **Avisos estatales sin respuesta:** Inmediatamente -- Recordatorios de cumplimiento y citaciones legales perdidos
+- **Sentencia en rebeldÌa en demandas:** 20-60 dÌas -- Responsabilidad personal por reclamaciones legales
+- **PÈrdida del buen estado:** 30-90 dÌas -- No se puede realizar negocios ni obtener financiamiento
+- **DisoluciÛn administrativa:** 6-12 meses -- Entidad terminada por el estado
+- **Nombre disponible:** 1-3 aÒos -- El nombre comercial puede ser tomado por otros
 ## 4. Licencia Comercial y Cumplimiento Local
 
 ### Requisitos Comunes de Licencias Locales
 
-| Tipo de Licencia | Autoridad Emisora | Renovaci√≥n T√≠pica | Rango de Costo |
-|-------------|-------------------|-----------------|-----------|
-| Licencia Comercial General | Ciudad o condado | Anual | $25 - $500 |
-| Licencia Profesional | Junta de licencias estatal | 1-3 a√±os | $50 - $1,000 |
-| Permiso de Salud | Depto. de salud del condado | Anual | $100 - $2,000 |
-| Permiso de Impuesto a las Ventas | Depto. de ingresos estatal | Una vez (con renovaciones) | $0 - $100 |
-| Permiso de R√≥tulos | Depto. de planificaci√≥n municipal | Una vez o anual | $20 - $500 |
-| Permiso de Ocupaci√≥n en el Hogar | Depto. de zonificaci√≥n municipal | Anual | $0 - $200 |
-| Autorizaci√≥n de Zonificaci√≥n | Ciudad o condado | Una vez | $50 - $500 |
-| Permiso del Departamento de Bomberos | Depto. de bomberos local | Anual | $50 - $500 |
-| Licencia Ocupacional | Ciudad o condado | Anual | $50 - $5,000 |
+- **Licencia Comercial General:** Ciudad o condado -- Anual -- $25 - $500
+- **Licencia Profesional:** Junta de licencias estatal -- 1-3 aÒos -- $50 - $1,000
+- **Permiso de Salud:** Depto. de salud del condado -- Anual -- $100 - $2,000
+- **Permiso de Impuesto a las Ventas:** Depto. de ingresos estatal -- Una vez (con renovaciones) -- $0 - $100
+- **Permiso de RÛtulos:** Depto. de planificaciÛn municipal -- Una vez o anual -- $20 - $500
+- **Permiso de OcupaciÛn en el Hogar:** Depto. de zonificaciÛn municipal -- Anual -- $0 - $200
+- **AutorizaciÛn de ZonificaciÛn:** Ciudad o condado -- Una vez -- $50 - $500
+- **Permiso del Departamento de Bomberos:** Depto. de bomberos local -- Anual -- $50 - $500
+- **Licencia Ocupacional:** Ciudad o condado -- Anual -- $50 - $5,000
+### Lista de VerificaciÛn de Cumplimiento Local
 
-### Lista de Verificaci√≥n de Cumplimiento Local
+- [ ] Verifica que todas las licencias comerciales locales estÈn vigentes y renovadas
+- [ ] Revisa los requisitos de la ciudad y el condado para tu tipo de negocio especÌfico
+- [ ] Confirma que el permiso de impuesto a las ventas estÈ activo (si vendes bienes/servicios gravables)
+- [ ] Renueva los permisos de salud (si aplica ó restaurantes, salones, guarderÌas)
+- [ ] Actualiza la autorizaciÛn de zonificaciÛn si cambiÛ la direcciÛn comercial
+- [ ] Presenta declaraciones de impuestos locales (si aplica ó impuesto municipal sobre ingresos brutos, etc.)
 
-- [ ] Verifica que todas las licencias comerciales locales est√©n vigentes y renovadas
-- [ ] Revisa los requisitos de la ciudad y el condado para tu tipo de negocio espec√≠fico
-- [ ] Confirma que el permiso de impuesto a las ventas est√© activo (si vendes bienes/servicios gravables)
-- [ ] Renueva los permisos de salud (si aplica ‚Äî restaurantes, salones, guarder√≠as)
-- [ ] Actualiza la autorizaci√≥n de zonificaci√≥n si cambi√≥ la direcci√≥n comercial
-- [ ] Presenta declaraciones de impuestos locales (si aplica ‚Äî impuesto municipal sobre ingresos brutos, etc.)
+## 5. Cumplimiento Multiestatal (CalificaciÛn Extranjera)
 
-## 5. Cumplimiento Multiestatal (Calificaci√≥n Extranjera)
+Si tu LLC opera en m˙ltiples estados, es posible que necesites calificar como extranjera en cada estado donde tengas nexo. El nexo se crea por:
 
-Si tu LLC opera en m√∫ltiples estados, es posible que necesites calificar como extranjera en cada estado donde tengas nexo. El nexo se crea por:
-
-- Tener presencia f√≠sica (oficina, almac√©n, empleados)
-- Exceder los umbrales de nexo econ√≥mico (generalmente $100K-$500K en ventas)
+- Tener presencia fÌsica (oficina, almacÈn, empleados)
+- Exceder los umbrales de nexo econÛmico (generalmente $100K-$500K en ventas)
 - Poseer propiedades en el estado
-- Tener un agente registrado o cuenta bancaria en el estado (var√≠a por estado)
+- Tener un agente registrado o cuenta bancaria en el estado (varÌa por estado)
 - Reunirse con clientes en el estado regularmente
 
-### Lista de Verificaci√≥n de Cumplimiento Multiestatal
+### Lista de VerificaciÛn de Cumplimiento Multiestatal
 
 - [ ] Identifica todos los estados donde la LLC tiene nexo
-- [ ] Presenta la calificaci√≥n extranjera en cada estado de nexo
+- [ ] Presenta la calificaciÛn extranjera en cada estado de nexo
 - [ ] Designa un agente registrado en cada estado extranjero
-- [ ] Presenta informes anuales en cada estado de calificaci√≥n
+- [ ] Presenta informes anuales en cada estado de calificaciÛn
 - [ ] Paga el impuesto de franquicia en cada estado que lo requiera
 - [ ] Presenta declaraciones de impuestos estatales en cada estado de nexo
 - [ ] Recauda y remite el impuesto a las ventas en cada estado donde tengas nexo de impuesto a las ventas
-- [ ] Monitorea los umbrales de nexo econ√≥mico (cambian con frecuencia)
+- [ ] Monitorea los umbrales de nexo econÛmico (cambian con frecuencia)
 
 ## 6. Calendario de Cumplimento Mes a Mes
 
-### Lista de Verificaci√≥n Mensual de Referencia R√°pida
+### Lista de VerificaciÛn Mensual de Referencia R·pida
 
-| Mes | Fechas L√≠mite Clave | Acciones |
-|-------|--------------|---------|
-| **Enero** | W-2/W-3, 940, 1099-NEC | Presenta formularios federales de n√≥mina; revisa el calendario de informes anuales |
-| **Febrero** | Informe anual de M√≠chigan (15 feb) | Presenta informe anual de MI; organiza documentos fiscales |
-| **Marzo** | Formulario 1065/1120-S vence (15 mar); corp DE (1 mar) | Presenta declaraciones de sociedad/S-corp; paga impuestos estimados Q1 |
-| **Abril** | D√≠a de Impuestos (15 abr); informes FL, GA, MD, MT, NC, NE, NH, DC | Presenta declaraciones federales/estatales; paga impuestos estimados Q1 |
-| **Mayo** | Informes AR, TX (1/15 may); FL (1 may) | Presenta informes estatales; revisa cumplimiento CA FTB |
-| **Junio** | Informe DE LLC (1 jun); informes KY, ME | Presenta informes de plazo de junio; paga impuestos estimados Q2 |
-| **Julio** | Informe WV (1 jul); revisi√≥n de mitad de a√±o | Presenta informe WV; verifica buen estado en todos los estados |
-| **Agosto** | Sin fechas l√≠mite federales importantes | Ponte al d√≠a con presentaciones multiestatales; revisa umbrales de nexo |
-| **Septiembre** | Impuestos estimados Q3 vencen (15 sep) | Paga impuestos estimados Q3; prep√°rate para presentaciones de oto√±o |
-| **Octubre** | Planifica para el pr√≥ximo a√±o | Revisa fechas l√≠mite para el pr√≥ximo a√±o; verifica actualizaciones BOI |
-| **Noviembre** | Impuestos estimados Q4 vencen (prep 15 dic) | Prepara lista de contratistas 1099; revisa acuerdo de operaci√≥n |
-| **Diciembre** | Informe MN (31 dic); revisi√≥n de fin de a√±o | Presenta informe MN; revisa cumplimiento anual; establece calendario del pr√≥ximo a√±o |
+- **Enero:** W-2/W-3, 940, 1099-NEC -- Presenta formularios federales de nÛmina; revisa el calendario de informes anuales
+- **Febrero:** Informe anual de MÌchigan (15 feb) -- Presenta informe anual de MI; organiza documentos fiscales
+- **Marzo:** Formulario 1065/1120-S vence (15 mar); corp DE (1 mar) -- Presenta declaraciones de sociedad/S-corp; paga impuestos estimados Q1
+- **Abril:** DÌa de Impuestos (15 abr); informes FL, GA, MD, MT, NC, NE, NH, DC -- Presenta declaraciones federales/estatales; paga impuestos estimados Q1
+- **Mayo:** Informes AR, TX (1/15 may); FL (1 may) -- Presenta informes estatales; revisa cumplimiento CA FTB
+- **Junio:** Informe DE LLC (1 jun); informes KY, ME -- Presenta informes de plazo de junio; paga impuestos estimados Q2
+- **Julio:** Informe WV (1 jul); revisiÛn de mitad de aÒo -- Presenta informe WV; verifica buen estado en todos los estados
+- **Agosto:** Sin fechas lÌmite federales importantes -- Ponte al dÌa con presentaciones multiestatales; revisa umbrales de nexo
+- **Septiembre:** Impuestos estimados Q3 vencen (15 sep) -- Paga impuestos estimados Q3; prep·rate para presentaciones de otoÒo
+- **Octubre:** Planifica para el prÛximo aÒo -- Revisa fechas lÌmite para el prÛximo aÒo; verifica actualizaciones BOI
+- **Noviembre:** Impuestos estimados Q4 vencen (prep 15 dic) -- Prepara lista de contratistas 1099; revisa acuerdo de operaciÛn
+- **Diciembre:** Informe MN (31 dic); revisiÛn de fin de aÒo -- Presenta informe MN; revisa cumplimiento anual; establece calendario del prÛximo aÒo
+## 7. Calculadora de PuntuaciÛn de Cumplimiento de LLC
 
-## 7. Calculadora de Puntuaci√≥n de Cumplimiento de LLC
+### QuÈ Significa Tu PuntuaciÛn
 
-### Qu√© Significa Tu Puntuaci√≥n
+- **A:** 90-100 -- Excelente -- MantÈn el sistema actual; revisa trimestralmente
+- **B:** 75-89 -- Bueno -- Aborda brechas menores dentro de 30 dÌas
+- **C:** 60-74 -- Moderado -- Programa una revisiÛn de cumplimiento; corrige brechas dentro de 60 dÌas
+- **D:** 40-59 -- Alto -- Se necesita revisiÛn de cumplimiento inmediata; alto riesgo de multas
+- **F:** 0-39 -- CrÌtico -- La entidad puede estar en riesgo de disoluciÛn; busca ayuda profesional inmediatamente
+## 8. Lista de VerificaciÛn de Documentos de Cumplimiento
 
-| Grado | Puntuaci√≥n | Estado | Acci√≥n Recomendada |
-|-------|-------|--------|-------------------|
-| **A** | 90-100 | Excelente | Mant√©n el sistema actual; revisa trimestralmente |
-| **B** | 75-89 | Bueno | Aborda brechas menores dentro de 30 d√≠as |
-| **C** | 60-74 | Moderado | Programa una revisi√≥n de cumplimiento; corrige brechas dentro de 60 d√≠as |
-| **D** | 40-59 | Alto | Se necesita revisi√≥n de cumplimiento inmediata; alto riesgo de multas |
-| **F** | 0-39 | Cr√≠tico | La entidad puede estar en riesgo de disoluci√≥n; busca ayuda profesional inmediatamente |
+MantÈn estos documentos en tu archivo de cumplimiento:
 
-## 8. Lista de Verificaci√≥n de Documentos de Cumplimiento
-
-Mant√©n estos documentos en tu archivo de cumplimiento:
-
-- [ ] Certificado de Formaci√≥n (del SOS)
-- [ ] Acuerdo de Operaci√≥n (firmado y fechado)
-- [ ] Carta de Confirmaci√≥n del EIN (CP 575)
-- [ ] Carta de Aceptaci√≥n del IRS para elecci√≥n S-Corp (si aplica)
-- [ ] Confirmaciones de informes anuales (una por a√±o presentado)
+- [ ] Certificado de FormaciÛn (del SOS)
+- [ ] Acuerdo de OperaciÛn (firmado y fechado)
+- [ ] Carta de ConfirmaciÛn del EIN (CP 575)
+- [ ] Carta de AceptaciÛn del IRS para elecciÛn S-Corp (si aplica)
+- [ ] Confirmaciones de informes anuales (una por aÒo presentado)
 - [ ] Recibos de pago de impuesto de franquicia
 - [ ] Copias de declaraciones de impuestos estatales
 - [ ] Copias de declaraciones de impuestos federales
 - [ ] Certificados de licencias comerciales
-- [ ] Cartas de aceptaci√≥n del agente registrado
-- [ ] Certificados de calificaci√≥n extranjera (si multiestatal)
-- [ ] Confirmaci√≥n de presentaci√≥n BOI de FinCEN
-- [ ] Actas de reuniones (si la LLC tiene m√∫ltiples miembros o formalidades corporativas)
-- [ ] Lista de miembros/gerentes (actual e hist√≥rica)
+- [ ] Cartas de aceptaciÛn del agente registrado
+- [ ] Certificados de calificaciÛn extranjera (si multiestatal)
+- [ ] ConfirmaciÛn de presentaciÛn BOI de FinCEN
+- [ ] Actas de reuniones (si la LLC tiene m˙ltiples miembros o formalidades corporativas)
+- [ ] Lista de miembros/gerentes (actual e histÛrica)
 - [ ] Registros de cambios de propiedad (si miembros se unieron o se fueron)
 
-## 9. Brechas Comunes de Cumplimiento y C√≥mo Evitarlas
+## 9. Brechas Comunes de Cumplimiento y CÛmo Evitarlas
 
-| Brecha | Por Qu√© Ocurre | Prevenci√≥n |
-|-----|---------------|------------|
-| Informe anual omitido | Las fechas basadas en aniversario cambian cada a√±o | Establece recordatorios de calendario 60 y 30 d√≠as antes |
-| Impuesto de franquicia impago | El due√±o piensa "sin ingresos = sin impuesto" | Comprende las reglas estatales ‚Äî CA $800 aplica sin importar |
-| Agente registrado vencido | El agente renuncia sin que el due√±o sepa | Usa un servicio de agente registrado comercial |
-| Direcci√≥n del SOS desactualizada | El negocio se mud√≥ sin actualizar al estado | Actualiza los registros del SOS inmediatamente al mudarte |
-| Presentaci√≥n BOI omitida | Nuevo requisito, muchos due√±os no lo saben | Presenta dentro de 30 d√≠as de la formaci√≥n; actualiza dentro de 30 d√≠as de cambios |
-| Declaraci√≥n estatal no presentada | El due√±o solo presenta declaraci√≥n federal | Revisa los requisitos de presentaci√≥n estatal para tu tipo de entidad |
-| Licencia comercial vencida | Renovaci√≥n local no rastreada | Agrega renovaciones locales a tu calendario de cumplimiento |
-| Fondos personales/comerciales mezclados | Sin cuenta bancaria separada | Abre una cuenta bancaria comercial dedicada inmediatamente |
+- **Informe anual omitido:** Las fechas basadas en aniversario cambian cada aÒo -- Establece recordatorios de calendario 60 y 30 dÌas antes
+- **Impuesto de franquicia impago:** El dueÒo piensa "sin ingresos = sin impuesto" -- Comprende las reglas estatales ó CA $800 aplica sin importar
+- **Agente registrado vencido:** El agente renuncia sin que el dueÒo sepa -- Usa un servicio de agente registrado comercial
+- **DirecciÛn del SOS desactualizada:** El negocio se mudÛ sin actualizar al estado -- Actualiza los registros del SOS inmediatamente al mudarte
+- **PresentaciÛn BOI omitida:** Nuevo requisito, muchos dueÒos no lo saben -- Presenta dentro de 30 dÌas de la formaciÛn; actualiza dentro de 30 dÌas de cambios
+- **DeclaraciÛn estatal no presentada:** El dueÒo solo presenta declaraciÛn federal -- Revisa los requisitos de presentaciÛn estatal para tu tipo de entidad
+- **Licencia comercial vencida:** RenovaciÛn local no rastreada -- Agrega renovaciones locales a tu calendario de cumplimiento
+- **Fondos personales/comerciales mezclados:** Sin cuenta bancaria separada -- Abre una cuenta bancaria comercial dedicada inmediatamente
+## ConclusiÛn
 
-## Conclusi√≥n
+**El cumplimiento de LLC no es opcional ó es el costo de mantener las protecciones legales que hacen valiosa a una LLC.** La buena noticia es que la mayorÌa de las tareas de cumplimiento son simples, econÛmicas y toman menos de una hora al mes cuando tienes un sistema implementado.
 
-**El cumplimiento de LLC no es opcional ‚Äî es el costo de mantener las protecciones legales que hacen valiosa a una LLC.** La buena noticia es que la mayor√≠a de las tareas de cumplimiento son simples, econ√≥micas y toman menos de una hora al mes cuando tienes un sistema implementado.
+La diferencia entre una LLC que cumple y una que no cumple no es la complejidad ó es la conciencia y la consistencia. Un dueÒo de negocio que presenta informes anuales a tiempo, paga impuestos de franquicia, mantiene un agente registrado y mantiene registros comerciales organizados nunca enfrentar· disoluciÛn administrativa, pÈrdida de protecciÛn de responsabilidad o avisos de multa.
 
-La diferencia entre una LLC que cumple y una que no cumple no es la complejidad ‚Äî es la conciencia y la consistencia. Un due√±o de negocio que presenta informes anuales a tiempo, paga impuestos de franquicia, mantiene un agente registrado y mantiene registros comerciales organizados nunca enfrentar√° disoluci√≥n administrativa, p√©rdida de protecci√≥n de responsabilidad o avisos de multa.
+En **Sotomayor Consulting International**, ayudamos a los dueÒos de LLC a establecer y mantener sistemas de cumplimiento durante todo el aÒo. Desde la presentaciÛn de informes anuales y el pago de impuestos de franquicia hasta la gestiÛn de cumplimiento multiestatal y la presentaciÛn de informes BOI, nos aseguramos de que tu LLC se mantenga en buen estado para que puedas concentrarte en hacer crecer tu negocio.
 
-En **Sotomayor Consulting International**, ayudamos a los due√±os de LLC a establecer y mantener sistemas de cumplimiento durante todo el a√±o. Desde la presentaci√≥n de informes anuales y el pago de impuestos de franquicia hasta la gesti√≥n de cumplimiento multiestatal y la presentaci√≥n de informes BOI, nos aseguramos de que tu LLC se mantenga en buen estado para que puedas concentrarte en hacer crecer tu negocio.
-
- Cont√°ctanos para una auditor√≠a de cumplimiento y un plan de mantenimiento personalizado de LLC.
+ Cont·ctanos para una auditorÌa de cumplimiento y un plan de mantenimiento personalizado de LLC.

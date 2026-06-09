@@ -26,25 +26,19 @@ Neste guia, explicamos passo a passo como regularizar sua LLC em cada situaï¿½ï¿
 
 #### Passo a passo para regularizar
 
-| Passo | Aï¿½ï¿½o | Detalhe |
-|------|-------|---------|
-| 1 | Identifique o estado | Verifique na Secretaria de Estado onde constituiu a LLC |
-| 2 | Verifique o status | Busque sua LLC no portal da Secretaria de Estado |
-| 3 | Calcule o que deve | Annual Report atrasado + multas + juros |
-| 4 | Apresente os relatï¿½rios | Apresente todos os Annual Reports faltantes |
-| 5 | Pague as multas | Geralmente pagas online |
-| 6 | Solicite reinstalaï¿½ï¿½o | Se a LLC foi dissolvida, precisa de processo adicional |
-| 7 | Confirme o status | Verifique se a LLC aparece como "Active" ou "Good Standing" |
-
+- **1:** Identifique o estado -- Verifique na Secretaria de Estado onde constituiu a LLC
+- **2:** Verifique o status -- Busque sua LLC no portal da Secretaria de Estado
+- **3:** Calcule o que deve -- Annual Report atrasado + multas + juros
+- **4:** Apresente os relatï¿½rios -- Apresente todos os Annual Reports faltantes
+- **5:** Pague as multas -- Geralmente pagas online
+- **6:** Solicite reinstalaï¿½ï¿½o -- Se a LLC foi dissolvida, precisa de processo adicional
+- **7:** Confirme o status -- Verifique se a LLC aparece como "Active" ou "Good Standing"
 #### Custos tï¿½picos por estado
 
-| Estado | Annual Report | Multa por ano atrasado | Reinstalaï¿½ï¿½o |
-|--------|--------------|------------------------|--------------|
-| **Wyoming** | $60 | $60 + $1/dia | $60 + multas |
-| **Flï¿½rida** | $138,75 | $400 | $400 + relatï¿½rios |
-| **Delaware** | $300 (franchise tax) | $200 + 1,5%/mï¿½s | $200 + multas |
-| **Novo Mï¿½xico** | Nï¿½o exige | N/A | N/A |
-
+- **Wyoming:** $60 -- $60 + $1/dia -- $60 + multas
+- **Flï¿½rida:** $138,75 -- $400 -- $400 + relatï¿½rios
+- **Delaware:** $300 (franchise tax) -- $200 + 1,5%/mï¿½s -- $200 + multas
+- **Novo Mï¿½xico:** Nï¿½o exige -- N/A -- N/A
 > **Importante:** Em Wyoming, se nï¿½o apresentar o Annual Report por mais de 2-3 anos, a LLC pode ser revogada administrativamente. Na Flï¿½rida, a multa por nï¿½o apresentar ï¿½ de $400 mais os relatï¿½rios atrasados.
 
 ### Situaï¿½ï¿½o 2: Formulï¿½rio 5472 nï¿½o apresentado (IRS)
@@ -53,15 +47,12 @@ Se vocï¿½ ï¿½ proprietï¿½rio estrangeiro de uma single-member LLC e nï¿½o aprese
 
 #### Passo a passo para regularizar
 
-| Passo | Aï¿½ï¿½o | Detalhe |
-|------|------|---------|
-| 1 | Reï¿½na a informaï¿½ï¿½o | EIN, transaï¿½ï¿½es de cada ano, dados pessoais |
-| 2 | Prepare os formulï¿½rios atrasados | 5472 + 1120 pro-forma para cada ano |
-| 3 | Considere o programa "Delinquent Filing" | O IRS pode reduzir multas se apresentar voluntariamente |
-| 4 | Apresente tudo junto | Nï¿½o apresente sï¿½ o 5472; deve ir com o 1120 |
-| 5 | Avalie se precisa de um CPA | Recomendado para anos atrasados |
-| 6 | Responda a qualquer carta do IRS | Se o IRS jï¿½ contactou vocï¿½, responda imediatamente |
-
+- **1:** Reï¿½na a informaï¿½ï¿½o -- EIN, transaï¿½ï¿½es de cada ano, dados pessoais
+- **2:** Prepare os formulï¿½rios atrasados -- 5472 + 1120 pro-forma para cada ano
+- **3:** Considere o programa "Delinquent Filing" -- O IRS pode reduzir multas se apresentar voluntariamente
+- **4:** Apresente tudo junto -- Nï¿½o apresente sï¿½ o 5472; deve ir com o 1120
+- **5:** Avalie se precisa de um CPA -- Recomendado para anos atrasados
+- **6:** Responda a qualquer carta do IRS -- Se o IRS jï¿½ contactou vocï¿½, responda imediatamente
 **Programa de delinquent filing do IRS:**
 
 O IRS tem um programa especial para contribuintes que nï¿½o apresentaram formulï¿½rios exigidos. Se apresentar voluntariamente antes de o IRS notificï¿½-lo:
@@ -78,16 +69,13 @@ Se sua LLC tem dois ou mais membros e vocï¿½ nï¿½o apresentou o 1065, as multas 
 
 #### Passo a passo para regularizar
 
-| Passo | Aï¿½ï¿½o |
-|------|------|
-| 1 | Reï¿½na as demonstraï¿½ï¿½es financeiras de todos os anos atrasados |
-| 2 | Determine a participaï¿½ï¿½o de cada sï¿½cio em cada ano |
-| 3 | Prepare o 1065 e K-1 para cada ano atrasado |
-| 4 | Apresente todos os anos atrasados |
-| 5 | Calcule as multas acumuladas ($220/mï¿½s/sï¿½cio) |
-| 6 | Avalie se pode solicitar reduï¿½ï¿½o de multas |
-| 7 | Entregue os K-1 atrasados aos sï¿½cios |
-
+- **1:** Reï¿½na as demonstraï¿½ï¿½es financeiras de todos os anos atrasados
+- **2:** Determine a participaï¿½ï¿½o de cada sï¿½cio em cada ano
+- **3:** Prepare o 1065 e K-1 para cada ano atrasado
+- **4:** Apresente todos os anos atrasados
+- **5:** Calcule as multas acumuladas ($220/mï¿½s/sï¿½cio)
+- **6:** Avalie se pode solicitar reduï¿½ï¿½o de multas
+- **7:** Entregue os K-1 atrasados aos sï¿½cios
 ### Situaï¿½ï¿½o 4: Conta bancï¿½ria congelada por Mercury ou Relay
 
 Se sua conta foi congelada por falta de documentaï¿½ï¿½o ou porque a LLC nï¿½o estï¿½ em bom estado, o processo de regularizaï¿½ï¿½o ï¿½ urgente.
@@ -135,13 +123,10 @@ Se sua LLC foi dissolvida pelo estado por anos de incumprimento, ainda pode rein
 
 #### Limites de tempo por estado
 
-| Estado | Tempo mï¿½ximo para reinstalar |
-|--------|------------------------------|
-| Wyoming | 5 anos apï¿½s a dissoluï¿½ï¿½o |
-| Flï¿½rida | 5 anos apï¿½s a dissoluï¿½ï¿½o |
-| Delaware | 3 anos apï¿½s a dissoluï¿½ï¿½o |
-| Novo Mï¿½xico | Nï¿½o aplica (nï¿½o exige Annual Report) |
-
+- **Wyoming:** 5 anos apï¿½s a dissoluï¿½ï¿½o
+- **Flï¿½rida:** 5 anos apï¿½s a dissoluï¿½ï¿½o
+- **Delaware:** 3 anos apï¿½s a dissoluï¿½ï¿½o
+- **Novo Mï¿½xico:** Nï¿½o aplica (nï¿½o exige Annual Report)
 > Se ultrapassar o limite de tempo, pode ser necessï¿½rio constituir uma nova LLC.
 
 ## Estratï¿½gia geral de regularizaï¿½ï¿½o
@@ -159,15 +144,12 @@ Determine exatamente quais obrigaï¿½ï¿½es estï¿½o atrasadas:
 
 ### Passo 2: Priorize
 
-| Prioridade | Obrigaï¿½ï¿½o | Razï¿½o |
-|-----------|-----------|-------|
-| **Alta** | Annual Report | Sua LLC pode ser dissolvida |
-| **Alta** | Conta bancï¿½ria congelada | Seu negï¿½cio nï¿½o pode operar |
-| **Alta** | BOI | Multa de $10.000 |
-| **Mï¿½dia** | Formulï¿½rio 5472 | Multa de $25.000/ano |
-| **Mï¿½dia** | Formulï¿½rio 1065 | Multa de $220/mï¿½s/sï¿½cio |
-| **Baixa** | Registered Agent vencido | Baixo custo, fï¿½cil de resolver |
-
+- **Alta:** Annual Report -- Sua LLC pode ser dissolvida
+- **Alta:** Conta bancï¿½ria congelada -- Seu negï¿½cio nï¿½o pode operar
+- **Alta:** BOI -- Multa de $10.000
+- **Mï¿½dia:** Formulï¿½rio 5472 -- Multa de $25.000/ano
+- **Mï¿½dia:** Formulï¿½rio 1065 -- Multa de $220/mï¿½s/sï¿½cio
+- **Baixa:** Registered Agent vencido -- Baixo custo, fï¿½cil de resolver
 ### Passo 3: Execute
 
 Resolva cada obrigaï¿½ï¿½o por ordem de prioridade. Algumas podem ser resolvidas em paralelo.
@@ -242,16 +224,13 @@ Uma vez regularizado, estabeleï¿½a um sistema para nï¿½o voltar a atrasar-se:
 
 ## Custos estimados de regularizaï¿½ï¿½o
 
-| Situaï¿½ï¿½o | Custo mï¿½nimo | Custo mï¿½ximo |
-|----------|-------------|--------------|
-| Annual Report atrasado (1 ano) | $60 - $138,75 | $200 - $600 |
-| LLC dissolvida + reinstalaï¿½ï¿½o | $500 | $3.000+ |
-| 5472 atrasado (1 ano, com CPA) | $500 | $1.500 |
-| 5472 atrasado (3 anos, com CPA) | $2.000 | $5.000 |
-| 1065 atrasado (1 ano, com CPA) | $1.500 | $3.000 |
-| Conta bancï¿½ria congelada | $0 (se resolver rï¿½pido) | Milhares em receitas perdidas |
-| BOI nï¿½o apresentado | $0 (se apresentar a tempo) | $10.000 |
-
+- **Annual Report atrasado (1 ano):** $60 - $138,75 -- $200 - $600
+- **LLC dissolvida + reinstalaï¿½ï¿½o:** $500 -- $3.000+
+- **5472 atrasado (1 ano, com CPA):** $500 -- $1.500
+- **5472 atrasado (3 anos, com CPA):** $2.000 -- $5.000
+- **1065 atrasado (1 ano, com CPA):** $1.500 -- $3.000
+- **Conta bancï¿½ria congelada:** $0 (se resolver rï¿½pido) -- Milhares em receitas perdidas
+- **BOI nï¿½o apresentado:** $0 (se apresentar a tempo) -- $10.000
 ## Quando ï¿½ melhor constituir uma LLC nova?
 
 Em alguns casos, regularizar uma LLC pode ser mais caro do que constituir uma nova.
@@ -276,15 +255,12 @@ Em alguns casos, regularizar uma LLC pode ser mais caro do que constituir uma no
 
 ### Sistema de compliance
 
-| Ferramenta | Propï¿½sito |
-|------------|-----------|
-| **Calendï¿½rio compartilhado** | Datas de vencimento de Annual Report, 5472, 1065, BOI |
-| **Lembretes 30-60-90 dias** | Alerta com 90, 60 e 30 dias de antecedï¿½ncia |
-| **Fundo de compliance** | Conta separada para pagar Annual Report e Registered Agent |
-| **CPA ou consultor** | Profissional que revisa seu compliance anualmente |
-| **Registered Agent confiï¿½vel** | Que o notifique de qualquer comunicaï¿½ï¿½o |
-| **Lista de verificaï¿½ï¿½o anual** | Revisar todas as obrigaï¿½ï¿½es no inï¿½cio de cada ano |
-
+- **Calendï¿½rio compartilhado:** Datas de vencimento de Annual Report, 5472, 1065, BOI
+- **Lembretes 30-60-90 dias:** Alerta com 90, 60 e 30 dias de antecedï¿½ncia
+- **Fundo de compliance:** Conta separada para pagar Annual Report e Registered Agent
+- **CPA ou consultor:** Profissional que revisa seu compliance anualmente
+- **Registered Agent confiï¿½vel:** Que o notifique de qualquer comunicaï¿½ï¿½o
+- **Lista de verificaï¿½ï¿½o anual:** Revisar todas as obrigaï¿½ï¿½es no inï¿½cio de cada ano
 ## Conclusï¿½o
 
 Regularizar uma LLC atrasada ï¿½ possï¿½vel na maioria dos casos, mas quanto mais tempo passa, mais caro e complexo se torna.

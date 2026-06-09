@@ -17,39 +17,30 @@ Administrative dissolution is the state's process of involuntarily terminating a
 
 ### Common Triggers for Administrative Dissolution
 
-| Trigger | Description | Frequency |
-|---------|-------------|-----------|
-| Missed annual report filing | Entity failed to file one or more annual/biennial reports | #1 cause |
-| Unpaid franchise tax | Entity failed to pay state franchise tax or annual fee | #2 cause |
-| Registered agent resignation | Agent resigned and entity did not appoint a replacement | Common |
-| Failed to respond to notices | Entity ignored state compliance reminders | Common |
-| State tax non-compliance | Entity failed to file state tax returns | Varies by state |
-| Failure to maintain address | Entity no longer has a valid physical address in the state | Less common |
-| Merger or conversion not completed | Entity started but did not complete a merger | Rare |
-
+- **Missed annual report filing:** Entity failed to file one or more annual/biennial reports -- #1 cause
+- **Unpaid franchise tax:** Entity failed to pay state franchise tax or annual fee -- #2 cause
+- **Registered agent resignation:** Agent resigned and entity did not appoint a replacement -- Common
+- **Failed to respond to notices:** Entity ignored state compliance reminders -- Common
+- **State tax non-compliance:** Entity failed to file state tax returns -- Varies by state
+- **Failure to maintain address:** Entity no longer has a valid physical address in the state -- Less common
+- **Merger or conversion not completed:** Entity started but did not complete a merger -- Rare
 ### What Happens When an Entity Is Administratively Dissolved
 
-| Aspect | Before Dissolution | After Dissolution |
-|--------|-------------------|-------------------|
-| **Legal status** | Active LLC or corporation | Entity no longer exists in state records |
-| **Liability protection** | Owners protected from personal liability | Owners personally liable for new debts |
-| **Right to sue** | Entity can sue in court | Entity cannot sue or defend itself |
-| **Right to contract** | Entity can sign contracts | Contracts may be voidable |
-| **Business name** | Name is reserved for the entity | Name may be taken by another business |
-| **Bank accounts** | Entity can hold accounts | Banks may freeze accounts |
-| **Licenses** | Entity can hold licenses | Licenses may be revoked |
-| **Tax obligations** | Entity files taxes normally | Entity may still owe taxes but cannot operate |
-| **Reinstatement** | Not needed | Retroactive reinstatement is available in most states |
-
+- **Legal status:** Active LLC or corporation -- Entity no longer exists in state records
+- **Liability protection:** Owners protected from personal liability -- Owners personally liable for new debts
+- **Right to sue:** Entity can sue in court -- Entity cannot sue or defend itself
+- **Right to contract:** Entity can sign contracts -- Contracts may be voidable
+- **Business name:** Name is reserved for the entity -- Name may be taken by another business
+- **Bank accounts:** Entity can hold accounts -- Banks may freeze accounts
+- **Licenses:** Entity can hold licenses -- Licenses may be revoked
+- **Tax obligations:** Entity files taxes normally -- Entity may still owe taxes but cannot operate
+- **Reinstatement:** Not needed -- Retroactive reinstatement is available in most states
 ### Important Distinction: Administrative vs. Judicial Dissolution
 
-| Type | Who Initiates | Reason | Reinstatement |
-|------|--------------|--------|---------------|
-| **Administrative Dissolution** | Secretary of State | Non-compliance (missed filings, unpaid fees) | Relatively straightforward |
-| **Judicial Dissolution** | Court order | Fraud, deadlock, illegal activity | Difficult or impossible |
-| **Voluntary Dissolution** | Business owners | Business closure | Not possible (entity is terminated by choice) |
-| **Involuntary Dissolution** | State or third party | Bankruptcy, tax evasion, abandonment | Possible but complex |
-
+- **Administrative Dissolution:** Secretary of State -- Non-compliance (missed filings, unpaid fees) -- Relatively straightforward
+- **Judicial Dissolution:** Court order -- Fraud, deadlock, illegal activity -- Difficult or impossible
+- **Voluntary Dissolution:** Business owners -- Business closure -- Not possible (entity is terminated by choice)
+- **Involuntary Dissolution:** State or third party -- Bankruptcy, tax evasion, abandonment -- Possible but complex
 ## 2. How to Confirm Your Entity Is Administratively Dissolved
 
 ### Step 1: Check the Secretary of State Website
@@ -80,28 +71,25 @@ If you find a notice, it will typically state:
 
 ### Step 3: Determine the Reinstatement Window
 
-| State | Reinstatement Window | After Window Closes |
-|-------|---------------------|--------------------|
-| Delaware | 5 years | Must file new entity or apply for late reinstatement |
-| California | 4 years (CT Corp) / indefinite (SOS) | Name may be lost after 4 years |
-| Florida | Indefinite | No time limit, but back fees accumulate |
-| Texas | Indefinite | No time limit |
-| New York | 2 years | Must file new entity or petition court |
-| Nevada | 1 year | Name released after 1 year |
-| Illinois | 5 years | New entity required after 5 years |
-| Georgia | Indefinite | No time limit |
-| Washington | Indefinite | No time limit |
-| Wyoming | Indefinite | No time limit |
-| Colorado | 5 years | New entity required after 5 years |
-| Massachusetts | 5 years | Name released after 5 years |
-| New Jersey | 5 years | New entity required after 5 years |
-| Ohio | 5 years | Name released after 5 years |
-| Michigan | Indefinite | No time limit |
-| Pennsylvania | 5 years | New entity required after 5 years |
-| Tennessee | 5 years | New entity required after 5 years |
-| North Carolina | 5 years | Name released after 5 years |
-| Puerto Rico | 5 years | New entity required after 5 years |
-
+- **Delaware:** 5 years -- Must file new entity or apply for late reinstatement
+- **California:** 4 years (CT Corp) / indefinite (SOS) -- Name may be lost after 4 years
+- **Florida:** Indefinite -- No time limit, but back fees accumulate
+- **Texas:** Indefinite -- No time limit
+- **New York:** 2 years -- Must file new entity or petition court
+- **Nevada:** 1 year -- Name released after 1 year
+- **Illinois:** 5 years -- New entity required after 5 years
+- **Georgia:** Indefinite -- No time limit
+- **Washington:** Indefinite -- No time limit
+- **Wyoming:** Indefinite -- No time limit
+- **Colorado:** 5 years -- New entity required after 5 years
+- **Massachusetts:** 5 years -- Name released after 5 years
+- **New Jersey:** 5 years -- New entity required after 5 years
+- **Ohio:** 5 years -- Name released after 5 years
+- **Michigan:** Indefinite -- No time limit
+- **Pennsylvania:** 5 years -- New entity required after 5 years
+- **Tennessee:** 5 years -- New entity required after 5 years
+- **North Carolina:** 5 years -- Name released after 5 years
+- **Puerto Rico:** 5 years -- New entity required after 5 years
 ## 3. The Reinstatement Process: Step by Step
 
 ### Overview of the Reinstatement Process
@@ -116,16 +104,13 @@ If the entity was dissolved more than the reinstatement window allows, you may n
 
 #### Step 2: Gather Required Documents
 
-| Document | Purpose | Where to Get It |
-|----------|---------|-----------------|
-| Certificate of Formation / Articles of Incorporation | Confirm entity name and file number | Your records or SOS website |
-| Previous annual report (if available) | Reference for filing past-due reports | SOS website or your records |
-| Registered agent contact information | Required for all filings | Your agent or SOS records |
-| Officer/director or manager/member list | Required for reinstatement application | Your business records |
-| EIN confirmation letter (CP 575) | Federal tax ID verification | IRS records |
-| Prior year franchise tax receipts (if applicable) | Proof of past payments | FTB or revenue department |
-| State tax returns (if required) | Tax clearance prerequisite | Prior tax filings |
-
+- **Certificate of Formation / Articles of Incorporation:** Confirm entity name and file number -- Your records or SOS website
+- **Previous annual report (if available):** Reference for filing past-due reports -- SOS website or your records
+- **Registered agent contact information:** Required for all filings -- Your agent or SOS records
+- **Officer/director or manager/member list:** Required for reinstatement application -- Your business records
+- **EIN confirmation letter (CP 575):** Federal tax ID verification -- IRS records
+- **Prior year franchise tax receipts (if applicable):** Proof of past payments -- FTB or revenue department
+- **State tax returns (if required):** Tax clearance prerequisite -- Prior tax filings
 #### Step 3: File All Past-Due Reports
 
 You must file every annual or biennial report that was missed during the dissolution period. Most states allow you to file multiple years at once through the online portal.
@@ -145,16 +130,13 @@ You must file every annual or biennial report that was missed during the dissolu
 
 The total cost of reinstatement includes several components:
 
-| Fee Component | Amount Range | Notes |
-|--------------|-------------|-------|
-| Annual report filing fees | $0 - $500 per year | Each missed year must be paid |
-| Late fees | $10 - $400 per filing | Assessed per missed report |
-| Reinstatement fee | $0 - $500 | One-time application fee |
-| Franchise tax back payments | $0 - $800+ per year | Only in franchise tax states |
-| Interest on overdue fees | Varies | Some states charge compounding interest |
-| Registered agent fees | $50 - $300 per year | If agent needs to be appointed |
-| Certified copy fees | $5 - $50 | For certificate of reinstatement |
-
+- **Annual report filing fees:** $0 - $500 per year -- Each missed year must be paid
+- **Late fees:** $10 - $400 per filing -- Assessed per missed report
+- **Reinstatement fee:** $0 - $500 -- One-time application fee
+- **Franchise tax back payments:** $0 - $800+ per year -- Only in franchise tax states
+- **Interest on overdue fees:** Varies -- Some states charge compounding interest
+- **Registered agent fees:** $50 - $300 per year -- If agent needs to be appointed
+- **Certified copy fees:** $5 - $50 -- For certificate of reinstatement
 #### Step 5: Obtain Tax Clearance (If Required)
 
 Some states require tax clearance before reinstating an entity. This means:
@@ -191,26 +173,23 @@ The reinstatement application is the formal request to restore your entity to ac
 
 Processing times vary significantly by state:
 
-| State | Processing Time | Method | Rush Available |
-|-------|----------------|--------|---------------|
-| Delaware | 1-2 business days | Online | Yes (same day) |
-| California | 1-4 weeks | Mail or online | No |
-| Florida | 1-2 weeks | Online | Yes (expedited) |
-| Texas | 1-2 weeks | Online | No |
-| New York | 2-4 weeks | Mail or in-person | Yes (in-person) |
-| Nevada | 1-3 business days | Online | Yes |
-| Illinois | 2-4 weeks | Mail | No |
-| Georgia | 1-2 weeks | Online | Yes |
-| Washington | 1-2 weeks | Online | No |
-| Wyoming | 1-2 business days | Online | Yes |
-| Colorado | 1-3 business days | Online | No |
-| Massachusetts | 2-4 weeks | Mail | No |
-| New Jersey | 2-4 weeks | Mail | No |
-| Pennsylvania | 1-2 weeks | Online | No |
-| Ohio | 1-2 weeks | Online | No |
-| Arizona | 1-2 weeks | Online | No |
-| Oregon | 2-4 weeks | Mail | No |
-
+- **Delaware:** 1-2 business days -- Online -- Yes (same day)
+- **California:** 1-4 weeks -- Mail or online -- No
+- **Florida:** 1-2 weeks -- Online -- Yes (expedited)
+- **Texas:** 1-2 weeks -- Online -- No
+- **New York:** 2-4 weeks -- Mail or in-person -- Yes (in-person)
+- **Nevada:** 1-3 business days -- Online -- Yes
+- **Illinois:** 2-4 weeks -- Mail -- No
+- **Georgia:** 1-2 weeks -- Online -- Yes
+- **Washington:** 1-2 weeks -- Online -- No
+- **Wyoming:** 1-2 business days -- Online -- Yes
+- **Colorado:** 1-3 business days -- Online -- No
+- **Massachusetts:** 2-4 weeks -- Mail -- No
+- **New Jersey:** 2-4 weeks -- Mail -- No
+- **Pennsylvania:** 1-2 weeks -- Online -- No
+- **Ohio:** 1-2 weeks -- Online -- No
+- **Arizona:** 1-2 weeks -- Online -- No
+- **Oregon:** 2-4 weeks -- Mail -- No
 #### Step 8: Restore Operations
 
 Once reinstatement is approved, take these steps to resume business:
@@ -232,20 +211,17 @@ Once reinstatement is approved, take these steps to resume business:
 
 In some cases, reinstatement may not be the best option. Here is how to decide:
 
-| Factor | Reinstate Existing Entity | Form a New Entity |
-|--------|-------------------------|-------------------|
-| **Time** | 1 day to 8 weeks | 1-2 business days |
-| **Cost** | $0 - $5,000+ (back fees) | $50 - $800 (filing fee) |
-| **Name preservation** | Keeps original name | Name must be available for new entity |
-| **EIN preservation** | Keeps same EIN | Must obtain new EIN |
-| **Bank accounts** | Existing accounts can be unfrozen | Must open new accounts |
-| **Contracts** | Existing contracts remain valid | New entity must re-sign contracts |
-| **Licenses** | Existing licenses can be reinstated | Must apply for new licenses |
-| **Liability protection** | Restored retroactively | Starts fresh from formation date |
-| **Tax history** | Tax history preserved | New tax ID, no history |
-| **Credit history** | Business credit history preserved | New entity, no credit history |
-| **Complexity** | Moderate (multiple filings) | Simple (one formation filing) |
-
+- **Time:** 1 day to 8 weeks -- 1-2 business days
+- **Cost:** $0 - $5,000+ (back fees) -- $50 - $800 (filing fee)
+- **Name preservation:** Keeps original name -- Name must be available for new entity
+- **EIN preservation:** Keeps same EIN -- Must obtain new EIN
+- **Bank accounts:** Existing accounts can be unfrozen -- Must open new accounts
+- **Contracts:** Existing contracts remain valid -- New entity must re-sign contracts
+- **Licenses:** Existing licenses can be reinstated -- Must apply for new licenses
+- **Liability protection:** Restored retroactively -- Starts fresh from formation date
+- **Tax history:** Tax history preserved -- New tax ID, no history
+- **Credit history:** Business credit history preserved -- New entity, no credit history
+- **Complexity:** Moderate (multiple filings) -- Simple (one formation filing)
 ### When to Reinstate
 
 - The entity has valuable contracts, licenses, or intellectual property that would be difficult to transfer
