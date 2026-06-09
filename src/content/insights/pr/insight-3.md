@@ -30,7 +30,7 @@ Pré-qualificar-se com a **Sotomayor Consulting International** oferece vantagen
 
 * **Financiamento de até 70%** para estrangeiros sem necessidade de residência nos EUA.
 * **Taxas de juros competitivas** graças às nossas alianças estratégicas.
-* **Processo rápido e eficiente** sem trámites desnecessários.
+* **Processo rápido e eficiente** sem trâmites desnecessários.
 * **Assessoria personalizada** para estruturar a melhor estratégia de financiamento.
 * **Rede de assessores imobiliários** que ajudá-lo-ão a encontrar a melhor propriedade na Flórida.
 
@@ -45,9 +45,9 @@ Para se pré-qualificar conosco, você precisará apresentar alguns documentos b
     * Extratos bancários dos últimos 6 meses.
     * Declarações de impostos ou balanços financeiros do seu país de origem.
     * Carta do seu empregador ou demonstrações financeiras se for empresário.
-3.  **Comprovação de Fondos para a Entrada**
-    * Documentação que demonstre que você tem 30% do valor da propriedade.
-    * Fondos em uma conta bancária em seu nome ou em uma entidade reconhecida.
+ 3.  **Comprovação de Fundos para a Entrada**
+     * Documentação que demonstre que você tem 30% do valor da propriedade.
+     * Fundos em uma conta bancária em seu nome ou em uma entidade reconhecida.
 4.  **Histórico Financeiro**
     * Mesmo que você não tenha histórico de crédito nos EUA, podemos utilizar referências bancárias ou cartas de crédito do seu país.
 5.  **Informações sobre Dívidas Atuais**

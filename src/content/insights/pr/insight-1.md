@@ -15,7 +15,7 @@ Nos Estados Unidos, toda LLC deve ter um agente residente ativo no estado onde f
 
 ### Como fazemos isso?
 
-* **Renovação automática do agente residente:** Cujamos de renovar este serviço todos os anos sem que você precise se preocupar com prazos.
+* **Renovação automática do agente residente:** Cuidamos de renovar este serviço todos os anos sem que você precise se preocupar com prazos.
 * **Representação confiável:** Contamos com agentes residentes em todos os estados, garantindo que sua empresa cumpra as normas locais.
 * **Conformidade contínua:** Ao manter um agente residente ativo, você evita sanções, multas e o risco de sua LLC ser dissolvida pelo estado.
 
@@ -38,7 +38,7 @@ O **Annual Report** é um requisito obrigatório que permite ao estado manter as
 ### Nosso serviço inclui:
 
 * **Preparação do relatório:** Reunimos e revisamos todas as informações necessárias para garantir que o Annual Report seja preciso e cumpra os padrões legais.
-* **Apresentação pontual:** Cujamos de apresentar o relatório dentro do prazo estabelecido pelo estado correspondente.
+* **Apresentação pontual:** Cuidamos de apresentar o relatório dentro do prazo estabelecido pelo estado correspondente.
 * **Atualização de dados:** Se houver alterações na sua LLC (como novos membros ou mudanças de endereço), refletimos no relatório para manter tudo em ordem.
 
 A apresentação do Annual Report é crítica para evitar a dissolução da sua LLC ou problemas de conformidade. Na **Sotomayor Consulting International**, garantimos que esse processo seja tratado de forma profissional e sem erros.
@@ -49,7 +49,7 @@ Ao confiar a manutenção anual da sua LLC à **Sotomayor Consulting Internation
 
 * **Conformidade garantida:** Garantimos que sua LLC cumpra todos os requisitos legais e administrativos, evitando sanções e complicações.
 * **Gestão profissional:** Contamos com uma equipe especializada que cuida de cada detalhe, desde a renovação do agente residente até a apresentação do Annual Report.
-* **Economia de tempo:** Cuandas de todo o processo, liberando você da carga administrativa e dos prazos.
+* **Economia de tempo:** Cuidamos de todo o processo, liberando você da carga administrativa e dos prazos.
 * **Tranquilidade total:** Com nosso serviço, você pode ter certeza de que sua LLC está protegida e operacional em todos os momentos.
 
 ## Riscos de Não Realizar a Manutenção Anual
@@ -73,6 +73,6 @@ Você pode agendar uma consultoria personalizada para resolver qualquer dúvida 
 
 ## Conclusão
 
-A manutenção anual de uma LLC é um processo indispensável para manter seu negócio operacional e em conformidade com as leis estadounidenses. Na **Sotomayor Consulting International**, oferecemos um serviço abrangente que cobre todos os aspectos necessários: renovação do agente residente, pagamento da taxa estadual e apresentação do Annual Report. Nosso objetivo é proporcionar tranquilidade e permitir que você se concentre no crescimento da sua empresa.
+A manutenção anual de uma LLC é um processo indispensável para manter seu negócio operacional e em conformidade com as leis estadunidenses. Na **Sotomayor Consulting International**, oferecemos um serviço abrangente que cobre todos os aspectos necessários: renovação do agente residente, pagamento da taxa estadual e apresentação do Annual Report. Nosso objetivo é proporcionar tranquilidade e permitir que você se concentre no crescimento da sua empresa.
 
 Pronto para proteger sua LLC e evitar problemas legais? Entre em contato conosco hoje mesmo para contratar nosso serviço de manutenção anual. Estamos aqui para ajudá-lo!

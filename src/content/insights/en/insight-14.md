@@ -97,15 +97,54 @@ Time may vary depending on the state, processing type, IRS time for the EIN, and
 
 ## Document summary
 
-| Document | Required? | Notes |
-|----------|-----------|-------|
-| Valid passport | Yes | Main identification for foreigners |
-| Personal address | Yes | Can be in your country of residence |
-| LLC name | Yes | Must be available in the state |
-| Business activity | Yes | Basic business description |
-| Registered Agent | Yes | Included in formation services |
-| Member information | Yes | Owner and partner data |
-| Email and phone | Yes | Official communications |
+<div class="overflow-x-auto my-8 rounded-xl shadow-lg border border-gray-100">
+  <table class="min-w-full divide-y divide-gray-200">
+    <thead>
+      <tr class="bg-primario">
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">Document</th>
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">Required?</th>
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">Notes</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white divide-y divide-gray-200">
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Valid passport</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Yes</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Main identification for foreigners</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Personal address</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Yes</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Can be in your country of residence</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">LLC name</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Yes</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Must be available in the state</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Business activity</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Yes</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Basic business description</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Registered Agent</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Yes</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Included in formation services</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Member information</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Yes</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Owner and partner data</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Email and phone</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Yes</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Official communications</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Conclusion
 

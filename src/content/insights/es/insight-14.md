@@ -97,15 +97,54 @@ El tiempo puede variar dependiendo del estado, el tipo de procesamiento, el tiem
 
 ## Resumen de documentos
 
-| Documento | ¿Necesario? | Notas |
-|-----------|-------------|-------|
-| Pasaporte vigente | Sí | Identificación principal para extranjeros |
-| Dirección personal | Sí | Puede ser en tu país de residencia |
-| Nombre de la LLC | Sí | Debe estar disponible en el estado |
-| Actividad comercial | Sí | Descripción básica del negocio |
-| Registered Agent | Sí | Incluido en servicios de incorporación |
-| Información de miembros | Sí | Datos de propietarios y socios |
-| Correo y teléfono | Sí | Comunicaciones oficiales |
+<div class="overflow-x-auto my-8 rounded-xl shadow-lg border border-gray-100">
+  <table class="min-w-full divide-y divide-gray-200">
+    <thead>
+      <tr class="bg-primario">
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">Documento</th>
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">¿Necesario?</th>
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">Notas</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white divide-y divide-gray-200">
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Pasaporte vigente</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sí</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Identificación principal para extranjeros</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Dirección personal</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sí</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Puede ser en tu país de residencia</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Nombre de la LLC</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sí</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Debe estar disponible en el estado</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Actividad comercial</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sí</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Descripción básica del negocio</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Registered Agent</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sí</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Incluido en servicios de incorporación</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Información de miembros</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sí</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Datos de propietarios y socios</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Correo y teléfono</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sí</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Comunicaciones oficiales</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Conclusión
 

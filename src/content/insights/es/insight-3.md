@@ -39,35 +39,35 @@ Precalificarte con **Sotomayor Consulting International** te brinda ventajas exc
 
 Para precalificarte con nosotros, necesitarás presentar algunos documentos básicos. No te preocupes, nuestro equipo de expertos te guiará en cada paso para que el proceso sea lo más ágil posible.
 
-1. **Identificación Oficial**
-  - Pasaporte vigente o documento de identidad.
-2. **Prueba de Ingresos**
-  - Dado que los extranjeros no tienen historial crediticio en EE.UU., demostramos su capacidad de pago con:
-    - Estados de cuenta bancarios de los últimos 6 meses.
-    - Declaraciones de impuestos o balances financieros de su país de origen.
-    - Carta de su empleador o estados financieros si es empresario.
-3. **Prueba de Fondos para el Pago Inicial**
-  - Documentación que demuestre que cuentas con el 30% del valor de la propiedad.
-    - Fondos en una cuenta bancaria a tu nombre o en una entidad reconocida.
-4. **Historial Financiero**
-  - Aunque en EE.UU. no tengas un historial crediticio, podemos utilizar referencias bancarias o cartas de crédito de tu país.
-5. **Información sobre Deudas Actuales**
-  - Si tienes préstamos u otras obligaciones financieras, será necesario presentarlas.
+1.  **Identificación Oficial**
+    - Pasaporte vigente o documento de identidad.
+2.  **Prueba de Ingresos**
+    - Dado que los extranjeros no tienen historial crediticio en EE.UU., demostramos su capacidad de pago con:
+      - Estados de cuenta bancarios de los últimos 6 meses.
+      - Declaraciones de impuestos o balances financieros de su país de origen.
+      - Carta de su empleador o estados financieros si es empresario.
+3.  **Prueba de Fondos para el Pago Inicial**
+    - Documentación que demuestre que cuentas con el 30% del valor de la propiedad.
+      - Fondos en una cuenta bancaria a tu nombre o en una entidad reconocida.
+4.  **Historial Financiero**
+    - Aunque en EE.UU. no tengas un historial crediticio, podemos utilizar referencias bancarias o cartas de crédito de tu país.
+5.  **Información sobre Deudas Actuales**
+    - Si tienes préstamos u otras obligaciones financieras, será necesario presentarlas.
 
 ## Pasos para Obtener tu Precalificación con Sotomayor Consulting International
 
 Con nosotros, el proceso es simple y rápido. Sigue estos pasos y obtén tu precalificación en **menos de una semana**:
 
-1. **Agenda una Consulta**
-  - Nuestro equipo de especialistas en financiamiento te guiará para conocer tu situación y objetivos.
-2. **Presenta tu Documentación**
-  - Reúne los documentos básicos mencionados anteriormente y envíalos a nuestro equipo.
-3. **Evaluación de tu Capacidad de Pago**
-  - Analizaremos tu perfil financiero y te daremos un monto estimado del préstamo que puedes obtener.
-4. **Obtén tu Carta de Precalificación**
-  - En pocos días, recibirás una carta oficial que te permitirá **buscar propiedades con confianza** y negociar mejores condiciones.
-5. **Encuentra tu Propiedad y Avanza con la Preaprobación**
-  - Te conectaremos con nuestros asesores inmobiliarios para encontrar la propiedad ideal y continuar con la preaprobación del crédito.
+1.  **Agenda una Consulta**
+    - Nuestro equipo de especialistas en financiamiento te guiará para conocer tu situación y objetivos.
+2.  **Presenta tu Documentación**
+    - Reúne los documentos básicos mencionados anteriormente y envíalos a nuestro equipo.
+3.  **Evaluación de tu Capacidad de Pago**
+    - Analizaremos tu perfil financiero y te daremos un monto estimado del préstamo que puedes obtener.
+4.  **Obtén tu Carta de Precalificación**
+    - En pocos días, recibirás una carta oficial que te permitirá **buscar propiedades con confianza** y negociar mejores condiciones.
+5.  **Encuentra tu Propiedad y Avanza con la Preaprobación**
+    - Te conectaremos con nuestros asesores inmobiliarios para encontrar la propiedad ideal y continuar con la preaprobación del crédito.
 
 ---
 
@@ -83,13 +83,13 @@ Para asegurarte de obtener las **mejores tasas y condiciones** en tu crédito hi
 ## Preguntas Frecuentes sobre la Precalificación Hipotecaria
 
 - **¿Necesito vivir en EE.UU. para obtener un crédito hipotecario en Florida?**
-  - No, ofrecemos financiamiento a extranjeros sin necesidad de ser residentes.
+    - No, ofrecemos financiamiento a extranjeros sin necesidad de ser residentes.
 - **¿Cuánto tiempo tarda el proceso de precalificación?**
-  - Generalmente, menos de **una semana**, dependiendo de la rapidez con la que envíes la documentación.
+    - Generalmente, menos de **una semana**, dependiendo de la rapidez con la que envíes la documentación.
 - **¿Puedo financiar el 100% de la propiedad?**
-  - No, pero con nosotros puedes financiar hasta el **70%** del valor del inmueble.
+    - No, pero con nosotros puedes financiar hasta el **70%** del valor del inmueble.
 - **¿Puedo comprar una propiedad si no tengo historial crediticio en EE.UU.?**
-  - Sí, trabajamos con inversionistas extranjeros que no tienen historial en EE.UU., usando referencias bancarias de su país de origen.
+    - Sí, trabajamos con inversionistas extranjeros que no tienen historial en EE.UU., usando referencias bancarias de su país de origen.
 
 ## Invierte en Florida con Sotomayor Consulting International
 

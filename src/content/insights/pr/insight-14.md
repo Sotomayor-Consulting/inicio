@@ -3,7 +3,7 @@ title: "Quais Documentos Você Precisa para Incorporar uma LLC nos Estados Unido
 description: "Guia completo dos documentos necessários para abrir uma LLC nos EUA sendo estrangeiro: passaporte, endereço, nome e mais."
 cardImage: "@/images/insights/blog-2.avif"
 cardImageAlt: "Documentos e passaporte sobre uma escrivaninha"
-----
+---
 
 Abrir uma LLC nos Estados Unidos se tornou uma opção muito popular para empreendedores e empresários latino-americanos que desejam:
 
@@ -97,15 +97,54 @@ O tempo pode variar dependendo do estado, do tipo de processamento, do tempo do 
 
 ## Resumo de documentos
 
-| Documento | Necessário? | Notas |
-|-----------|-------------|-------|
-| Passaporte vigente | Sim | Identificação principal para estrangeiros |
-| Endereço pessoal | Sim | Pode ser no seu país de residência |
-| Nome da LLC | Sim | Deve estar disponível no estado |
-| Atividade comercial | Sim | Descrição básica do negócio |
-| Registered Agent | Sim | Incluído em serviços de incorporação |
-| Informação dos membros | Sim | Dados dos proprietários e sócios |
-| E-mail e telefone | Sim | Comunicações oficiais |
+<div class="overflow-x-auto my-8 rounded-xl shadow-lg border border-gray-100">
+  <table class="min-w-full divide-y divide-gray-200">
+    <thead>
+      <tr class="bg-primario">
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">Documento</th>
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">Necessário?</th>
+        <th class="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider">Notas</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white divide-y divide-gray-200">
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Passaporte vigente</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sim</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Identificação principal para estrangeiros</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Endereço pessoal</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sim</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Pode ser no seu país de residência</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Nome da LLC</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sim</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Deve estar disponível no estado</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Atividade comercial</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sim</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Descrição básica do negócio</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Registered Agent</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sim</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Incluído em serviços de incorporação</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">Informação dos membros</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sim</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Dados dos proprietários e sócios</td>
+      </tr>
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-6 py-4 text-sm font-semibold text-primario-black">E-mail e telefone</td>
+        <td class="px-6 py-4 text-sm text-gray-700">Sim</td>
+        <td class="px-6 py-4 text-sm text-gray-500">Comunicações oficiais</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Conclusão
 
