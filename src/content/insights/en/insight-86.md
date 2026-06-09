@@ -29,18 +29,18 @@ In this guide, we explain **the most common mistakes when investing in Florida a
 
 ### The Mistake That Can Cost 40% of Your Estate
 
-- **"That only applies to millionaires":** ✅ Applies from $60,000 in US assets
-- **"The LLC protects me":** ⚠️ Depends: if you are a direct member, LLC assets count
-- **"I don't plan to die soon":** ✅ The tax applies when you pass, regardless of age
-- **"My country has no estate tax":** ✅ The US taxes assets within its territory
+- **"That only applies to millionaires":** Applies from $60,000 in US assets
+- **"The LLC protects me":** Depends: if you are a direct member, LLC assets count
+- **"I don't plan to die soon":** The tax applies when you pass, regardless of age
+- **"My country has no estate tax":** The US taxes assets within its territory
 ### The Calculation That Hurts
 
 ### Solution
 
-- **Personal name:** ❌ No -- $0
-- **LLC only:** ⚠️ Partial (depends) -- $138.75 + fees
-- **LLC + Trust:** ✅ Yes -- $500-2,000
-- **LLC + Foreign holding:** ✅ Yes (recommended) -- $500-2,000
+- **Personal name:** No -- $0
+- **LLC only:** Partial (depends) -- $138.75 + fees
+- **LLC + Trust:** Yes -- $500-2,000
+- **LLC + Foreign holding:** Yes (recommended) -- $500-2,000
 ## 3. Not Getting an ITIN or Getting It Late
 
 ### Why It Is a Mistake
@@ -57,9 +57,9 @@ In this guide, we explain **the most common mistakes when investing in Florida a
 
 ### The Tax That Never Goes Away
 
-- **"Property tax is low":** ✅ In Florida it is 0.8-1.2%, but it rises with property value
-- **"It's already in the monthly payment":** ✅ Only if you have escrow. Otherwise you must pay separately
-- **"Homestead exemption applies":** ❌ Only for primary residence, not for investment
+- **"Property tax is low":** In Florida it is 0.8-1.2%, but it rises with property value
+- **"It's already in the monthly payment":** Only if you have escrow. Otherwise you must pay separately
+- **"Homestead exemption applies":** Only for primary residence, not for investment
 ### Underestimation Example
 
 - **Single family $400K:** $4,000-5,000/year

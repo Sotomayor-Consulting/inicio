@@ -42,11 +42,11 @@ La mayoría de las plataformas financieras en EE.UU. requieren una **entidad com
 
 La forma más fácil de acceder al sistema bancario de EE.UU. es a través de **bancos en línea** que aceptan LLCs de propiedad extranjera:
 
-- **Mercury:** Startups tecnológicas, SaaS -- LLC/EIN en EE.UU., pasaporte extranjero -- ? Múltiples cuentas USD -- API, tarjetas virtuales, asegurado FDIC
-- **Relay:** Pequeños negocios, e-commerce -- LLC/EIN en EE.UU., pasaporte extranjero -- ? Hasta 20 cuentas -- Subcuentas, sobres, sincronización QuickBooks
-- **Wise (Business):** Pagos globales, freelancers -- LLC/EIN o sole prop en EE.UU. -- ? Multi-moneda -- 50+ divisas, bajas comisiones
-- **Novo:** Freelancers, emprendedores solitarios -- LLC/EIN en EE.UU., ITIN o SSN -- ? Una cuenta corriente -- Transferencias gratis, integración Stripe
-- **Brex:** Startups con inversión VC -- Corporación en EE.UU., financiamiento -- ? Cuenta empresarial -- Tarjetas corporativas, recompensas, crédito
+- **Mercury:** Startups tecnológicas, SaaS -- LLC/EIN en EE.UU., pasaporte extranjero -- ✅ Múltiples cuentas USD -- API, tarjetas virtuales, asegurado FDIC
+- **Relay:** Pequeños negocios, e-commerce -- LLC/EIN en EE.UU., pasaporte extranjero -- ✅ Hasta 20 cuentas -- Subcuentas, sobres, sincronización QuickBooks
+- **Wise (Business):** Pagos globales, freelancers -- LLC/EIN o sole prop en EE.UU. -- ✅ Multi-moneda -- 50+ divisas, bajas comisiones
+- **Novo:** Freelancers, emprendedores solitarios -- LLC/EIN en EE.UU., ITIN o SSN -- ✅ Una cuenta corriente -- Transferencias gratis, integración Stripe
+- **Brex:** Startups con inversión VC -- Corporación en EE.UU., financiamiento -- ✅ Cuenta empresarial -- Tarjetas corporativas, recompensas, crédito
 ### Bancos Tradicionales (Más Difícil para No Residentes)
 
 - **Bank of America:** Visita en persona, SSN/ITIN, domicilio en EE.UU. -- Difícil sin presencia en EE.UU.
@@ -65,17 +65,17 @@ La forma más fácil de acceder al sistema bancario de EE.UU. es a través de **
 - **Pagos:** USD a cuenta bancaria en EE.UU. -- Moneda local o USD
 - **Velocidad de Pago:** 2-3 días hábiles -- 3-7 días hábiles
 - **Métodos de Pago:** Tarjeta, ACH, Wire, Link, Apple Pay -- Tarjeta, métodos locales
-- **Stripe Capital:** ? Acceso a préstamos -- ? No disponible
-- **Stripe Atlas:** ? Forma tu LLC -- ? Disponible
-- **Stripe Issuing:** ? Crea tarjetas virtuales -- ? Limitado
-- **Stripe Tax:** ? Cumplimiento fiscal total en EE.UU. -- ? Global
+- **Stripe Capital:** ✅ Acceso a préstamos -- ❌ No disponible
+- **Stripe Atlas:** ✅ Forma tu LLC -- ✅ Disponible
+- **Stripe Issuing:** ✅ Crea tarjetas virtuales -- ❌ Limitado
+- **Stripe Tax:** ✅ Cumplimiento fiscal total en EE.UU. -- ✅ Global
 ### Comparación de Pasarelas de Pago
 
-- **Stripe:** Negocios en línea, SaaS -- ? Fácil -- 2.9% + $0.30
-- **PayPal Business:** E-commerce, freelancers -- ? Fácil -- 2.99% + $0.49
-- **Square:** Presencial, retail -- ? Requiere EIN -- 2.6% + $0.10
-- **Authorize.net:** Negocios establecidos -- ? Requiere cuenta merchant -- $25/mes + comisiones
-- **Adyen:** Empresarial, alto volumen -- ? Requiere suscripción -- Precio personalizado
+- **Stripe:** Negocios en línea, SaaS -- ✅ Fácil -- 2.9% + $0.30
+- **PayPal Business:** E-commerce, freelancers -- ✅ Fácil -- 2.99% + $0.49
+- **Square:** Presencial, retail -- ✅ Requiere EIN -- 2.6% + $0.10
+- **Authorize.net:** Negocios establecidos -- ✅ Requiere cuenta merchant -- $25/mes + comisiones
+- **Adyen:** Empresarial, alto volumen -- ✅ Requiere suscripción -- Precio personalizado
 ## 5. Paso 4: Construye Crédito Empresarial en EE.UU.
 
 ### Por Qué es Importante el Crédito Empresarial
@@ -113,9 +113,9 @@ Una vez que tienes una LLC, cuenta bancaria y EIN en EE.UU., puedes acceder a pl
 - **Fundrise:** Crowdfunding Inmobiliario -- LLC, EIN, cuenta bancaria -- Inversiones en bienes raíces desde $10
 ### Plataformas de Cripto y Activos Digitales
 
-- **Coinbase Commerce:** ? Acepta LLCs en EE.UU. -- Pagos cripto para negocios
-- **Circle (USDC):** ? Acepta LLCs en EE.UU. -- Gestión de tesorería con stablecoins
-- **Kraken:** ? Acepta LLCs en EE.UU. -- Trading y staking de cripto
+- **Coinbase Commerce:** ✅ Acepta LLCs en EE.UU. -- Pagos cripto para negocios
+- **Circle (USDC):** ✅ Acepta LLCs en EE.UU. -- Gestión de tesorería con stablecoins
+- **Kraken:** ✅ Acepta LLCs en EE.UU. -- Trading y staking de cripto
 ## 8. Errores Comunes al Acceder al Sistema Financiero de EE.UU.
 
 ### Lo que NO Hacer

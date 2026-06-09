@@ -56,7 +56,7 @@ El descriptor de cobro es el nombre que el cliente ve en su estado de cuenta:
 - **"SOTOMAYOR CONSULTING":** "PAY-SOL-LLC-98765"
 - **"TIENDA ONLINE MX":** "MERCHANT-PROCESSING"
 - **"CURSOS DIGITALES PRO":** "STRIPE-CHARGES-123"
-**Cómo configurarlo:** Stripe Dashboard ? Configuración ? Descriptor de cobro
+**Cómo configurarlo:** Stripe Dashboard → Configuración → Descriptor de cobro
 
 ### Activa el Recordatorio de Cargo
 
@@ -167,11 +167,11 @@ Stripe Radar es un sistema de prevención de fraude basado en machine learning:
 - **Velocidad de compras:** Bloquear -- Misma tarjeta, múltiples compras en segundos
 ### Stripe Radar vs Radar for Fraud Teams
 
-- **Machine learning:** ? Sí -- ? Sí avanzado
-- **Reglas básicas:** ? Sí -- ? Sí
-- **Reglas personalizadas:** ? No -- ? Sí (hasta 100 reglas)
-- **Reportes detallados:** ? No -- ? Sí
-- **Listas de bloqueo:** ? No -- ? Sí
+- **Machine learning:** ✅ Sí -- ✅ Sí avanzado
+- **Reglas básicas:** ❌ Sí -- ✅ Sí
+- **Reglas personalizadas:** ❌ No -- ✅ Sí (hasta 100 reglas)
+- **Reportes detallados:** ❌ No -- ✅ Sí
+- **Listas de bloqueo:** ✅ No -- ✅ Sí
 ## 9. Estrategia #7: Monitoreo y Métricas
 
 ### KPIs de Disputas que Debes Monitorear
@@ -188,7 +188,7 @@ Stripe Radar es un sistema de prevención de fraude basado en machine learning:
 - **Riesgo de cierre:** > 1.5% -- Posible cancelación de cuenta
 ### Reportes de Stripe para Monitorear Disputas
 
-1. Stripe Dashboard ? Reportes ? Disputas
+1. Stripe Dashboard → Reportes → Disputas
 2. Filtra por fecha, motivo, estado
 3. Exporta datos para análisis mensual
 4. Identifica patrones y corrige causas raíz

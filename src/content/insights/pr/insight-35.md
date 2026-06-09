@@ -44,10 +44,10 @@ Se voc� se qualificar, pode excluir sua renda de trabalho at� o limite anual
 
 Para um n�made digital, a localiza��o f�sica de onde voc� trabalha determina a tributa��o:
 
-- **Trabalha dos EUA** ? Renda de fonte americana ? tributa nos EUA
-- **Trabalha do exterior** ? Renda de fonte estrangeira ? poss�vel exclus�o via FEIE
-- **Trabalha para um cliente estrangeiro** ? Geralmente renda de fonte estrangeira
-- **Trabalha para um cliente americano** ? A fonte depende de onde voc� realiza o trabalho f�sico
+- **Trabalha dos EUA** → Renda de fonte americana → tributa nos EUA
+- **Trabalha do exterior** → Renda de fonte estrangeira → poss�vel exclus�o via FEIE
+- **Trabalha para um cliente estrangeiro** → Geralmente renda de fonte estrangeira
+- **Trabalha para um cliente americano** → A fonte depende de onde voc� realiza o trabalho f�sico
 
 > **Importante:** Onde seu cliente est� localizado **n�o** determina a fonte da renda; o que importa � **onde voc� realiza o trabalho**.
 

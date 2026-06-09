@@ -86,13 +86,13 @@ En esta guía, explicamos **cómo estructurar un negocio escalable** en 2026: de
 
 ### Modelos de Precio Que Escalan
 
-- **Por Hora:** ? Baja -- $150/hora -- Consultoría (no escalable)
-- **Proyecto Fijo:** ?? Media -- $5K por sitio web -- Agencias, pero difícil de escalar
-- **Retención Mensual:** ? Alta -- $2K/mes -- Agencias, servicios
-- **Suscripción SaaS:** ?? Muy Alta -- $99/mes por usuario -- Productos de software
-- **Basado en Uso:** ?? Muy Alta -- $0.10 por llamada API -- APIs, plataformas
-- **Por Niveles:** ?? Muy Alta -- $29/$99/$299 por mes -- Modelos más escalables
-- **Basado en Valor:** ?? Máxima -- % de ingresos ahorrados -- Empresarial, alto contacto
+- **Por Hora:** ❌ Baja -- $150/hora -- Consultoría (no escalable)
+- **Proyecto Fijo:** ⚠️ Media -- $5K por sitio web -- Agencias, pero difícil de escalar
+- **Retención Mensual:** ✅ Alta -- $2K/mes -- Agencias, servicios
+- **Suscripción SaaS:** ⚠️ Muy Alta -- $99/mes por usuario -- Productos de software
+- **Basado en Uso:** ⚠️ Muy Alta -- $0.10 por llamada API -- APIs, plataformas
+- **Por Niveles:** ⚠️ Muy Alta -- $29/$99/$299 por mes -- Modelos más escalables
+- **Basado en Valor:** ⚠️ Máxima -- % de ingresos ahorrados -- Empresarial, alto contacto
 ### Construyendo una Estrategia de Precios Escalable
 
 ## 6. Compliance y Gestión de Riesgos Escalable

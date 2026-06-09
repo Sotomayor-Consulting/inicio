@@ -42,13 +42,13 @@ En esta guía, explicamos **exactamente qué necesita Stripe para aprobar tu cue
 
 Stripe **siempre** verifica tu sitio web o aplicación. Requisitos mínimos:
 
-- **Sitio en línea:** ? Sí -- No puede estar "en construcción"
-- **Política de privacidad:** ? Sí -- Explicar cómo se tratan los datos
-- **Términos de servicio:** ? Sí -- Reglas de uso del servicio
-- **Política de reembolso:** ? Sí -- Plazos y condiciones de devolución
-- **Información de contacto:** ? Sí -- Correo, teléfono o formulario
-- **Descripción clara del producto:** ? Sí -- Qué vendes u ofreces
-- **SSL/HTTPS:** ? Sí -- Seguridad obligatoria
+- **Sitio en línea:** ✅ Sí -- No puede estar "en construcción"
+- **Política de privacidad:** ✅ Sí -- Explicar cómo se tratan los datos
+- **Términos de servicio:** ✅ Sí -- Reglas de uso del servicio
+- **Política de reembolso:** ✅ Sí -- Plazos y condiciones de devolución
+- **Información de contacto:** ✅ Sí -- Correo, teléfono o formulario
+- **Descripción clara del producto:** ✅ Sí -- Qué vendes u ofreces
+- **SSL/HTTPS:** ✅ Sí -- Seguridad obligatoria
 > **Consejo:** Si no tienes sitio web, usa Stripe Payment Links (enlaces de pago). Stripe puede aprobar cuentas solo con enlaces, pero la verificación es más rigurosa.
 
 ## 3. Requisitos para Cuentas Empresariales
@@ -146,11 +146,11 @@ Para cuentas empresariales, Stripe exige:
 - **Estado:** Activa y en situación regular
 ### Cuentas Aceptadas
 
-- **Cuenta personal:** ? Sí (para personas físicas) -- Siempre que el nombre corresponda
-- **Cuenta empresarial:** ? Sí (para empresas) -- El nombre de la empresa debe corresponder
-- **Cuenta digital:** ? Sí (Nubank, Inter, Mercury, etc.) -- Bancos digitales son aceptados
-- **Cuenta de ahorro:** ? No (en la mayoría de países) -- Usa cuenta corriente
-- **Cuenta conjunta:** ? Sí -- La cuenta debe estar a nombre del titular
+- **Cuenta personal:** ✅ Sí (para personas físicas) -- Siempre que el nombre corresponda
+- **Cuenta empresarial:** ✅ Sí (para empresas) -- El nombre de la empresa debe corresponder
+- **Cuenta digital:** ✅ Sí (Nubank, Inter, Mercury, etc.) -- Bancos digitales son aceptados
+- **Cuenta de ahorro:** ❌ No (en la mayoría de países) -- Usa cuenta corriente
+- **Cuenta conjunta:** ✅ Sí -- La cuenta debe estar a nombre del titular
 ### Vinculación Bancaria
 
 - **Microdepósitos:** Stripe deposita 2 valores aleatorios -- 1-2 días hábiles
@@ -216,11 +216,11 @@ Para cuentas empresariales, Stripe exige:
 
 ### Qué NO HACER
 
-- ? No crees múltiples cuentas  puede considerarse fraude
-- ? No mientas sobre tu negocio o ubicación  Stripe verifica
-- ? No uses documentos vencidos
-- ? No intentes verificar con selfie de otra persona
-- ? No ignores los correos de Stripe durante el proceso
+- No crees múltiples cuentas  puede considerarse fraude
+- No mientas sobre tu negocio o ubicación  Stripe verifica
+- No uses documentos vencidos
+- No intentes verificar con selfie de otra persona
+- No ignores los correos de Stripe durante el proceso
 
 ## 9. Qué Hacer si tu Cuenta es Rechazada
 

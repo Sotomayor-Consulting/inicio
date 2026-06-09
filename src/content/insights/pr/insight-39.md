@@ -26,8 +26,8 @@ A **fonte do rendimento** determina como e onde tributa. Classifique corretament
 
 ### Rendimentos por servi�os (Freelance / Trabalho):
 - **Fonte**: Onde o trabalho f�sico � realizado
-- Se voc� trabalha dos EUA ? Fonte americana
-- Se voc� trabalha do exterior ? Fonte estrangeira
+- Se voc� trabalha dos EUA → Fonte americana
+- Se voc� trabalha do exterior → Fonte estrangeira
 
 ### Rendimentos por investimentos:
 - **Dividendos**: Geralmente fonte do pa�s onde est� a empresa emissora

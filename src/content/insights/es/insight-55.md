@@ -117,9 +117,9 @@ Procesadores que permiten recibir pagos con tarjeta de crédito desde cualquier 
 - **Shopify Payments:** 2.4% + $0.30 (Stripe) -- 1% -- $15 -- Tiendas Shopify
 ### Para SaaS y Suscripciones
 
-- **Stripe Billing:** ? Excelente -- ? Sí -- ? Automático -- Empresas digitales
-- **PayPal Subscriptions:** ? Básico -- ? Sí -- ? Manual -- Pequeños negocios
-- **Paddle:** ? Completo -- ? Sí -- ? Automático -- SaaS global (incluye VAT)
+- **Stripe Billing:** ✅ Excelente -- ✅ Sí -- ✅ Automático -- Empresas digitales
+- **PayPal Subscriptions:** ✅ Básico -- ✅ Sí -- ❌ Manual -- Pequeños negocios
+- **Paddle:** ✅ Completo -- ✅ Sí -- ✅ Automático -- SaaS global (incluye VAT)
 ## 4. Estructuras para Recibir Pagos Internacionales
 
 ### 4.1 Estructura Básica: Cuenta Multimoneda

@@ -65,7 +65,7 @@ Los productos digitales tienen consideraciones especiales:
 
 ### Método 3: Reembolso desde el Dashboard de Transacciones
 
-- **1:** Stripe Dashboard ? Transacciones
+- **1:** Stripe Dashboard → Transacciones
 - **2:** Busca el pago por nombre, email, o monto
 - **3:** Haz clic en la transacción
 - **4:** Botón "Reembolsar" en la esquina superior derecha
@@ -73,9 +73,9 @@ Los productos digitales tienen consideraciones especiales:
 
 ### Ventana de Reembolso en Stripe
 
-- **0-120 días:** ? Reembolso completo o parcial -- Sin costo adicional
-- **120+ días:** ? No disponible vía Stripe -- Debes transferir manualmente
-- **Chargeback:** ? Stripe maneja la disputa -- $15 + monto disputado
+- **0-120 días:** ✅ Reembolso completo o parcial -- Sin costo adicional
+- **120+ días:** ❌ No disponible vía Stripe -- Debes transferir manualmente
+- **Chargeback:** ❌ Stripe maneja la disputa -- $15 + monto disputado
 ### Tiempo en que el Cliente Ve el Reembolso
 
 - **Tarjeta de crédito:** 5-10 días hábiles
@@ -88,8 +88,8 @@ Los productos digitales tienen consideraciones especiales:
 
 ### ¿Stripe Cobra por Reembolsar?
 
-- **Reembolso voluntario:** ? Sin costo adicional
-- **Tarifa original de Stripe:** ? No se devuelve
+- **Reembolso voluntario:** ✅ Sin costo adicional
+- **Tarifa original de Stripe:** ❌ No se devuelve
 - **Chargeback:** $15 (no reembolsable aunque ganes)
 ### Ejemplo de Costo de Reembolso
 
@@ -133,7 +133,7 @@ Los productos digitales tienen consideraciones especiales:
 - **Neto:** Ingreso original - reembolso - comisión
 ### Reportes de Stripe para Reembolsos
 
-1. Stripe Dashboard ? Reportes ? Resumen de transacciones
+1. Stripe Dashboard → Reportes → Resumen de transacciones
 2. Filtra por tipo: "Reembolso"
 3. Exporta a CSV para tu contabilidad
 4. Concilia mensualmente

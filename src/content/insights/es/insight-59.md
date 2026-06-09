@@ -67,7 +67,7 @@ Stripe Checkout es una página de pago prediseñada que puedes compartir con tus
 
 **Cómo crear un enlace de pago:**
 1. Inicia sesión en Stripe Dashboard
-2. Ve a **Productos** ? **Agregar producto**
+2. Ve a **Productos** → **Agregar producto**
 3. Define nombre, descripción y precio del curso
 4. Elige pago único o recurrente
 5. Genera el enlace y compártelo con tus alumnos
@@ -76,13 +76,13 @@ Stripe Checkout es una página de pago prediseñada que puedes compartir con tus
 
 Las plataformas de cursos se integran con Stripe para procesar pagos:
 
-- **Teachable:** Nativa -- ? Sí -- 0% (Pro) / 5% (Gratis)
-- **Thinkific:** Nativa -- ? Sí -- 0%
-- **Kajabi:** Nativa -- ? Sí -- 0%
-- **Podia:** Nativa -- ? Sí -- 0%
+- **Teachable:** Nativa -- ✅ Sí -- 0% (Pro) / 5% (Gratis)
+- **Thinkific:** Nativa -- ✅ Sí -- 0%
+- **Kajabi:** Nativa -- ✅ Sí -- 0%
+- **Podia:** Nativa -- ✅ Sí -- 0%
 **Cómo configurar:**
 1. Crea tu cuenta en la plataforma elegida
-2. Ve a Configuración ? Pagos
+2. Ve a Configuración → Pagos
 3. Selecciona Stripe como procesador
 4. Autoriza la conexión con tu cuenta Stripe
 5. Los pagos se procesan automáticamente
@@ -109,7 +109,7 @@ Si tienes tu propia plataforma, puedes integrar Stripe vía API:
 ### Configurar Suscripciones en Stripe
 
 **Paso 1: Crear un producto con suscripción**
-1. Stripe Dashboard ? Productos ? Agregar producto
+1. Stripe Dashboard → Productos → Agregar producto
 2. Nombre: "Membresía Mensual Academia Digital"
 3. Precio recurrente: $29.00/mes
 
@@ -133,7 +133,7 @@ Stripe Customer Portal permite a tus alumnos:
 - Descargar facturas
 
 **Cómo activarlo:**
-1. Stripe Dashboard ? Configuración ? Customer Portal
+1. Stripe Dashboard → Configuración → Customer Portal
 2. Personaliza los mensajes y opciones
 3. Genera un enlace o intégralo en tu sitio
 
@@ -147,7 +147,7 @@ Stripe Customer Portal permite a tus alumnos:
 - **Precio personalizado:** Precio especial para un alumno -- $99 en lugar de $149
 ### Crear Cupones en Stripe
 
-1. Stripe Dashboard ? Cupones ? Agregar cupón
+1. Stripe Dashboard → Cupones → Agregar cupón
 2. Define el tipo y monto del descuento
 3. Opcional: fecha de expiración, usos máximos
 4. Aplica el cupón al crear el enlace de pago o en la API
@@ -164,7 +164,7 @@ Stripe genera facturas automáticas para cada pago:
 - **IVA/GST:** Stripe calcula impuestos automáticamente
 ### Configurar Facturas
 
-1. Stripe Dashboard ? Configuración ? Facturación
+1. Stripe Dashboard → Configuración → Facturación
 2. Agrega la información fiscal de tu empresa
 3. Personaliza la plantilla de factura
 4. Activa el envío automático
@@ -182,7 +182,7 @@ Si tienes una plataforma donde múltiples instructores venden cursos, Stripe Con
 - **Plataforma:** Tú recibes todo y pagas a instructores -- Mayor control
 ### Configurar Stripe Connect
 
-1. Stripe Dashboard ? Connect ? Configurar
+1. Stripe Dashboard → Connect → Configurar
 2. Define el modelo de pago
 3. Los instructores se registran con su cuenta Stripe
 4. Stripe reparte los pagos automáticamente

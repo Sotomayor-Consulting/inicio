@@ -44,10 +44,10 @@ If you qualify, you can exclude your foreign earned income up to the annual limi
 
 For a digital nomad, the physical location where you work determines taxation:
 
-- **Working from the U.S.** ? U.S.-source income ? taxed in the U.S.
-- **Working from abroad** ? Foreign-source income ? possible FEIE exclusion
-- **Working for a foreign client** ? Generally foreign-source income
-- **Working for a U.S. client** ? Source depends on where you physically perform the work
+- **Working from the U.S.** → U.S.-source income → taxed in the U.S.
+- **Working from abroad** → Foreign-source income → possible FEIE exclusion
+- **Working for a foreign client** → Generally foreign-source income
+- **Working for a U.S. client** → Source depends on where you physically perform the work
 
 > **Important:** Where your client is located **does not** determine the source of income; what matters is **where you perform the work**.
 

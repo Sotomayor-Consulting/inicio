@@ -94,13 +94,13 @@ Es un impuesto anual basado en el valor de la propiedad. Lo pagan TODOS los prop
 
 ### Activos que Disparan el Estate Tax
 
-- **Propiedad a nombre personal:** ? Sí
-- **Propiedad en LLC:** ?? Depende (si eres miembro directo)
-- **Acciones de LLC en holding extranjera:** ? No
-- **Cuenta bancaria:** ? No (portfolio interest)
-- **Stocks de empresas US:** ? Sí (si los posees directamente)
-- **Stripe (cuenta de LLC):** ?? Si la LLC es US, sí
-- **Seguro de vida:** ? No (si lo pagas desde tu país)
+- **Propiedad a nombre personal:** ✅ Sí
+- **Propiedad en LLC:** ⚠️ Depende (si eres miembro directo)
+- **Acciones de LLC en holding extranjera:** ❌ No
+- **Cuenta bancaria:** ❌ No (portfolio interest)
+- **Stocks de empresas US:** ✅ Sí (si los posees directamente)
+- **Stripe (cuenta de LLC):** ⚠️ Si la LLC es US, sí
+- **Seguro de vida:** ❌ No (si lo pagas desde tu país)
 > Para extranjeros con más de $60,000 en activos estadounidenses, el estate tax es el impuesto más importante a planificar. Sin estructura, el IRS puede tomar hasta el 40% del patrimonio.
 
 ## 6. Impuestos Estatales vs. Federales
@@ -125,27 +125,27 @@ Es un impuesto anual basado en el valor de la propiedad. Lo pagan TODOS los prop
 
 ### Países con Tratado con EE. UU.
 
-- **España:** ? Sí -- Art. 6 (inmuebles) + Art. 13 -- Crédito fiscal por impuestos pagados
-- **Reino Unido:** ? Sí -- Art. 6 + Art. 13 -- IRS permite deducciones sin W-8ECI
-- **Canadá:** ? Sí -- Art. 6 -- Exención de FIRPTA si vendes < $1M
-- **Alemania:** ? Sí -- Art. 6 -- Tasa reducida en dividendos
-- **Francia:** ? Sí -- Art. 6 -- Crédito fiscal
-- **Brasil:** ? No -- N/A -- Paga tasas completas
-- **Argentina:** ? No -- N/A -- Paga tasas completas
-- **Colombia:** ? No -- N/A -- Paga tasas completas
-- **México:** ? Sí -- Art. 6 -- Tasa reducida en regalías
-- **UAE:** ? No -- N/A -- Paga tasas completas
+- **España:** ✅ Sí -- Art. 6 (inmuebles) + Art. 13 -- Crédito fiscal por impuestos pagados
+- **Reino Unido:** ✅ Sí -- Art. 6 + Art. 13 -- IRS permite deducciones sin W-8ECI
+- **Canadá:** ✅ Sí -- Art. 6 -- Exención de FIRPTA si vendes < $1M
+- **Alemania:** ✅ Sí -- Art. 6 -- Tasa reducida en dividendos
+- **Francia:** ✅ Sí -- Art. 6 -- Crédito fiscal
+- **Brasil:** ❌ No -- N/A -- Paga tasas completas
+- **Argentina:** ❌ No -- N/A -- Paga tasas completas
+- **Colombia:** ❌ No -- N/A -- Paga tasas completas
+- **México:** ✅ Sí -- Art. 6 -- Tasa reducida en regalías
+- **UAE:** ❌ No -- N/A -- Paga tasas completas
 ### Cómo Usar un Tratado Fiscal
 
 ## 8. Impuestos Según la Estructura
 
 ### Comparación por Estructura
 
-- **Nombre personal:** 10-37% -- 15% retención -- ? Hasta 40% (> $60K) -- Baja
-- **LLC (single member):** 10-37% (pass-through) -- 15% retención -- ? Hasta 40% -- Baja
-- **LLC + Holding extranjera:** 10-37% -- 15% retención -- ? Protegido -- Media
-- **Trust irrevocable:** 10-37% (trust rates) -- 15% retención -- ? Protegido -- Alta
-- **C-Corp:** 21% corporativo -- 15% retención -- ? Protegido -- Alta
+- **Nombre personal:** 10-37% -- 15% retención -- ✅ Hasta 40% (> $60K) -- Baja
+- **LLC (single member):** 10-37% (pass-through) -- 15% retención -- ✅ Hasta 40% -- Baja
+- **LLC + Holding extranjera:** 10-37% -- 15% retención -- ❌ Protegido -- Media
+- **Trust irrevocable:** 10-37% (trust rates) -- 15% retención -- ❌ Protegido -- Alta
+- **C-Corp:** 21% corporativo -- 15% retención -- ❌ Protegido -- Alta
 ### La Estructura Recomendada para Extranjeros
 
 ## 9. Calendario Fiscal del Extranjero

@@ -65,7 +65,7 @@ En esta guía cubrimos **cómo automatizar el seguimiento de leads en 2026**: de
 - **Tiempo de respuesta:** Tiempo desde captura hasta primer contactoo -- < 5 min -- Velocidad de tu equipo
 - **Distribución de puntuación:** % calientes / templados / fríos -- 20% calientes, 50% templados, 30% fríos -- Calidad de leads entrantes
 - **Tasa de finalización de secuencia:** % leads that complete secuencia -- > 40% -- Effectiveness of secuencias
-- **Canal Conversion:** Leads by fuente ? opportunity -- Varía -- Canales con mejor rendimiento
+- **Canal Conversion:** Leads by fuente → opportunity -- Varía -- Canales con mejor rendimiento
 - **Tasa de enfriamiento:** % leads que se enfrían con el tiempo -- < 10%/semana -- Qué tan rápido pierden interés
 - **Cumplimiento de seguimiento:** % pasos ejecutados a tiempo -- > 95% -- Confiabilidad de la automatización
 - **Tasa de contacto:** % leads contactados -- > 60% -- Calidad de datos + efectividad del canal

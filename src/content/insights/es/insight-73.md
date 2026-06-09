@@ -90,13 +90,13 @@ En esta guía, explicamos **cómo separar finanzas personales y empresariales** 
 
 ### Categorización de Transacciones
 
-- **SaaS y software:** Stripe, AWS, Google Workspace -- ?
-- **Marketing:** Facebook Ads, Google Ads -- ?
-- **Oficina:** Internet, renta, utilities -- ?
-- **Viajes de negocio:** Vuelos, hoteles, comidas -- ?
-- **Equipo:** Laptop, monitor, muebles -- ?
-- **Servicios profesionales:** Abogados, contadores -- ?
-- **Gastos personales:** Supermercado, ropa, ocio -- ?
+- **SaaS y software:** Stripe, AWS, Google Workspace -- ✅
+- **Marketing:** Facebook Ads, Google Ads -- ✅
+- **Oficina:** Internet, renta, utilities -- ✅
+- **Viajes de negocio:** Vuelos, hoteles, comidas -- ✅
+- **Equipo:** Laptop, monitor, muebles -- ✅
+- **Servicios profesionales:** Abogados, contadores -- ✅
+- **Gastos personales:** Supermercado, ropa, ocio -- ❌
 ## 7. Salarios y Retiros (Owner's Draw)
 
 ### Cómo Pagarte a Ti Mismo
@@ -127,12 +127,12 @@ En esta guía, explicamos **cómo separar finanzas personales y empresariales** 
 - **Conserva todos los recibos:** Digitales, organizados por mes y categoría
 ### Señales de que lo Estás Haciendo Mal
 
-- **Pagas suscripciones SaaS con tu tarjeta personal:** ?
-- **Recibes pagos de clientes en tu cuenta personal:** ?
-- **No sabes cuánto gasta tu negocio al mes:** ?
-- **Usas la misma tarjeta para todo:** ?
-- **Tus facturas no tienen RFC/EIN de empresa:** ?
-- **Stripe está a tu nombre personal, no de la empresa:** ?
+- **Pagas suscripciones SaaS con tu tarjeta personal:** ❌
+- **Recibes pagos de clientes en tu cuenta personal:** ❌
+- **No sabes cuánto gasta tu negocio al mes:** ❌
+- **Usas la misma tarjeta para todo:** ❌
+- **Tus facturas no tienen RFC/EIN de empresa:** ❌
+- **Stripe está a tu nombre personal, no de la empresa:** ❌
 ## 10. Preguntas Frecuentes
 
 ### ¿Puedo usar mi cuenta personal para mi negocio mientras empiezo?

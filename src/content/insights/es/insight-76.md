@@ -112,7 +112,7 @@ Una **empresa operativa** es la sociedad que realiza la actividad comercial real
 - **Arm's length principle:** Las transacciones entre holding y operativa deben ser a precio de mercado
 - **Documentación:** Debes documentar el método de fijación de precios
 - **Regalías:** Deben ser razonables y justificables (2-10% según industria)
-- **Multas:** Precios de transferencia incorrectos ? multas significativas
+- **Multas:** Precios de transferencia incorrectos → multas significativas
 ### Jurisdicciones Recomendadas
 
 - **Holding:** Delaware, Wyoming, Países Bajos, Suiza -- Protección, tratados fiscales

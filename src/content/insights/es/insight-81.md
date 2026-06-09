@@ -50,18 +50,18 @@ En esta guía, explicamos **cómo invertir en Florida siendo extranjero** en 202
 - **Protección:** Buena -- Buena
 - **Court system:** Especializado en bienes raíces -- Corporativo, no inmobiliario
 - **Impuestos:** Sin state income tax -- Sin state income tax (las LLCs pagan)
-- **Recomendación:** ? Mejor para propiedades en FL -- Para holdings o inversión VC
+- **Recomendación:** ✅ Mejor para propiedades en FL -- Para holdings o inversión VC
 ### LLC por Propiedad vs. LLC Global
 
 ## 3. Financiamiento para Extranjeros
 
 ### Opciones de Hipoteca
 
-- **Convencional (FNMA):** ? No -- Residencia + crédito US --  -- 
-- **Portfolio loan:** ? Sí -- 30-50% down, 6-12 meses liquidez -- 7-9% -- 30-50%
-- **DSCR loan:** ? Sí -- Basado en rentas, no en ingresos personales -- 7.5-9.5% -- 25-35%
-- **Hard money:** ? Sí -- Basado en valor de propiedad -- 10-14% -- 20-30%
-- **Privado / Family office:** ? Sí -- Negociación directa -- 6-10% -- Variable
+- **Convencional (FNMA):** ❌ No -- Residencia + crédito US --  -- 
+- **Portfolio loan:** ✅ Sí -- 30-50% down, 6-12 meses liquidez -- 7-9% -- 30-50%
+- **DSCR loan:** ✅ Sí -- Basado en rentas, no en ingresos personales -- 7.5-9.5% -- 25-35%
+- **Hard money:** ✅ Sí -- Basado en valor de propiedad -- 10-14% -- 20-30%
+- **Privado / Family office:** ✅ Sí -- Negociación directa -- 6-10% -- Variable
 ### DSCR Loan para Inversores Extranjeros
 
 ### EIN e ITIN
@@ -79,11 +79,11 @@ En esta guía, explicamos **cómo invertir en Florida siendo extranjero** en 202
 
 ### Impuestos en Florida
 
-- **State income tax:** ? No -- Florida no tiene
-- **Property tax:** ? Sí -- ~0.8-1.2% del valor anual
-- **Sales tax:** ? Sí -- 6-7.5% en materiales de construcción
-- **Estate tax:** ? No federal para extranjeros con < $60K en EE. UU. -- Estructura con LLC protege
-- **Intangible tax:** ? No -- Eliminado en 2007
+- **State income tax:** ❌ No -- Florida no tiene
+- **Property tax:** ✅ Sí -- ~0.8-1.2% del valor anual
+- **Sales tax:** ✅ Sí -- 6-7.5% en materiales de construcción
+- **Estate tax:** ❌ No federal para extranjeros con < $60K en EE. UU. -- Estructura con LLC protege
+- **Intangible tax:** ❌ No -- Eliminado en 2007
 ### 1031 Exchange
 
 ## 5. Administración de Propiedades

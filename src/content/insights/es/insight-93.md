@@ -35,16 +35,16 @@ En esta guía, explicamos **cómo vender globalmente desde Latinoamérica** en 2
 
 ### Acepta los Métodos que tus Clientes Usan
 
-- **EE. UU.:** Visa, Mastercard, Amex, ACH, Link -- ? Todos
-- **Europa:** Visa, Mastercard, iDEAL, Sofort, Bancontact, SEPA -- ? Todos
-- **Reino Unido:** Visa, Mastercard, Bacs Direct Debit -- ? Todos
-- **Brasil:** Pix, Boleto, Visa, Mastercard -- ? Pix y tarjetas
-- **México:** OXXO, SPEI, Visa, Mastercard -- ? OXXO, SPEI, tarjetas
-- **Colombia:** PSE, Visa, Mastercard, Efecty -- ? PSE, tarjetas
-- **Argentina:** Visa, Mastercard, Rapipago, Pago Fácil -- ? Tarjetas
-- **Chile:** Visa, Mastercard, Webpay, Khipu -- ? Tarjetas, Webpay
-- **Perú:** Visa, Mastercard, PagoEfectivo -- ? Tarjetas
-- **Australia/NZ:** Visa, Mastercard, BPay -- ? Todos
+- **EE. UU.:** Visa, Mastercard, Amex, ACH, Link -- ✅ Todos
+- **Europa:** Visa, Mastercard, iDEAL, Sofort, Bancontact, SEPA -- ✅ Todos
+- **Reino Unido:** Visa, Mastercard, Bacs Direct Debit -- ✅ Todos
+- **Brasil:** Pix, Boleto, Visa, Mastercard -- ✅ Pix y tarjetas
+- **México:** OXXO, SPEI, Visa, Mastercard -- ✅ OXXO, SPEI, tarjetas
+- **Colombia:** PSE, Visa, Mastercard, Efecty -- ✅ PSE, tarjetas
+- **Argentina:** Visa, Mastercard, Rapipago, Pago Fácil -- ✅ Tarjetas
+- **Chile:** Visa, Mastercard, Webpay, Khipu -- ✅ Tarjetas, Webpay
+- **Perú:** Visa, Mastercard, PagoEfectivo -- ✅ Tarjetas
+- **Australia/NZ:** Visa, Mastercard, BPay -- ✅ Todos
 ### Pix: El Método de Pago que Revolucionó Brasil
 
 ## 4. Logística para Ventas Globales
@@ -91,16 +91,16 @@ En esta guía, explicamos **cómo vender globalmente desde Latinoamérica** en 2
 
 ### E-commerce
 
-- **Shopify:** $29-299/mes -- Tiendas físicas y digitales -- ? Nativo
-- **WooCommerce:** Gratis (hosting aparte) -- Control total, personalización -- ? Plugin
-- **BigCommerce:** $29-299/mes -- Escalabilidad, B2B -- ? Nativo
-- **Tiendanube:** $29-299/mes -- LATAM (MX, AR, CO, CL) -- ? Integración
-- **Hotmart:** 10-20% comisión -- Infoproductos, cursos -- ? Interno
+- **Shopify:** $29-299/mes -- Tiendas físicas y digitales -- ✅ Nativo
+- **WooCommerce:** Gratis (hosting aparte) -- Control total, personalización -- ✅ Plugin
+- **BigCommerce:** $29-299/mes -- Escalabilidad, B2B -- ✅ Nativo
+- **Tiendanube:** $29-299/mes -- LATAM (MX, AR, CO, CL) -- ✅ Integración
+- **Hotmart:** 10-20% comisión -- Infoproductos, cursos -- ✅ Interno
 ### SaaS / Suscripciones
 
-- **Stripe Billing:** 2.9% + $0.30 -- Suscripciones propias -- ? Propio
-- **Recurly:** $0-599/mes -- Suscripciones avanzadas -- ? Integración
-- **Chargebee:** $0-599/mes -- Revenue recognition, dunning -- ? Integración
+- **Stripe Billing:** 2.9% + $0.30 -- Suscripciones propias -- ✅ Propio
+- **Recurly:** $0-599/mes -- Suscripciones avanzadas -- ✅ Integración
+- **Chargebee:** $0-599/mes -- Revenue recognition, dunning -- ✅ Integración
 - **Paddle:** 5% + $0.50 -- SaaS que quiere delegar impuestos -- 
 - **Lemon Squeezy:** 5% + $0.50 -- SaaS, digital products -- 
 ### Marketplaces

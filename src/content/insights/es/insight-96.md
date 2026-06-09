@@ -35,11 +35,11 @@ En esta guía, explicamos **cómo profesionalizar un negocio digital** en 2026: 
 
 ### De Cobros Manuales a Automáticos
 
-- **PayPal personal:** Stripe Payments -- ? Automático
-- **Transferencia bancaria:** Stripe Invoicing -- ? Facturas automáticas
-- **Cobro manual cada mes:** Stripe Billing -- ? Suscripciones
-- **Sin factura:** Stripe Invoicing + Tax -- ? Factura + impuestos
-- **Sin reportes:** Stripe Reporting -- ? Dashboard
+- **PayPal personal:** Stripe Payments -- ✅ Automático
+- **Transferencia bancaria:** Stripe Invoicing -- ✅ Facturas automáticas
+- **Cobro manual cada mes:** Stripe Billing -- ✅ Suscripciones
+- **Sin factura:** Stripe Invoicing + Tax -- ✅ Factura + impuestos
+- **Sin reportes:** Stripe Reporting -- ✅ Dashboard
 ### Configurar Stripe para tu Negocio Profesional
 
 ## 4. Contabilidad y Finanzas
@@ -47,7 +47,7 @@ En esta guía, explicamos **cómo profesionalizar un negocio digital** en 2026: 
 ### De Excel a QuickBooks
 
 - **Registros:** Excel o memoria -- QuickBooks / Xero
-- **Conciliación:** Manual mensual -- Automática (Stripe ? QuickBooks)
+- **Conciliación:** Manual mensual -- Automática (Stripe → QuickBooks)
 - **Impuestos:** "Los veo en abril" -- CPA mensual/trimestral
 - **Gastos:** Tarjeta personal -- Stripe Issuing + Mercury
 - **Presupuesto:** No existe -- Dashboard financiero

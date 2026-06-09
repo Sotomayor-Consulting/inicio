@@ -36,27 +36,27 @@ Neste guia, explicamos o que distingue uma da outra, com exemplos concretos para
 - **Profissional:** Feito com assessoria de contadores e advogados
 ### Exemplos legï¿½timos de planejamento fiscal
 
-? **Escolher o estado correto para sua LLC.**
+**Escolher o estado correto para sua LLC.**
    - Escolher Wyoming em vez de Delaware para poupar $240/ano em franchise tax.
    - Base legal: Liberdade de escolher onde constituir.
 
-? **Usar a estrutura fiscal adequada.**
+**Usar a estrutura fiscal adequada.**
    - Single-member LLC como disregarded entity para evitar dupla tributaï¿½ï¿½o.
    - Base legal: IRS permite esta classificaï¿½ï¿½o.
 
-? **Aproveitar deduï¿½ï¿½es empresariais.**
+**Aproveitar deduï¿½ï¿½es empresariais.**
    - Deducir software, equipamentos, internet e serviï¿½os necessï¿½rios para o negï¿½cio.
    - Base legal: Section 162 do Internal Revenue Code.
 
-? **Reclamar crï¿½ditos fiscais.**
+**Reclamar crï¿½ditos fiscais.**
    - Foreign Tax Credit por impostos pagos nos EUA.
    - Base legal: Internal Revenue Code Section 901.
 
-? **Usar tratados fiscais internacionais.**
+**Usar tratados fiscais internacionais.**
    - Reduzir retenï¿½ï¿½es sobre juros e royalties.
    - Base legal: Tratado fiscal entre seu paï¿½s e os EUA.
 
-? **Separar linhas de negï¿½cio em diferentes LLCs.**
+**Separar linhas de negï¿½cio em diferentes LLCs.**
    - Proteger os ativos de uma linha das responsabilidades de outra.
    - Base legal: Direito corporativo americano.
 
@@ -73,27 +73,27 @@ Neste guia, explicamos o que distingue uma da outra, com exemplos concretos para
 - **Insustentï¿½vel:** Mais cedo ou mais tarde o fisco detecta
 ### Exemplos de evasï¿½o fiscal
 
-? **Nï¿½o declarar receitas da LLC.**
+**Nï¿½o declarar receitas da LLC.**
    - Receber pagamentos numa conta pessoal e nï¿½o reportï¿½-los ao IRS nem ï¿½ autoridade local.
    - Consequï¿½ncia: Fraude fiscal, multas de atï¿½ 75% dos impostos nï¿½o pagos.
 
-? **Usar faturas falsas para inflar despesas.**
+**Usar faturas falsas para inflar despesas.**
    - Comprar faturas de fornecedores inexistentes para reduzir o lucro tributï¿½vel.
    - Consequï¿½ncia: Crime penal, possï¿½vel prisï¿½o.
 
-? **Transferir ativos para familiares para evitar impostos.**
+**Transferir ativos para familiares para evitar impostos.**
    - Colocar a LLC em nome de um familiar sem capacidade econï¿½mica real.
    - Consequï¿½ncia: O IRS pode ignorar a transferï¿½ncia e aplicar multas.
 
-? **Nï¿½o apresentar o Formulï¿½rio 5472 de propï¿½sito.**
+**Nï¿½o apresentar o Formulï¿½rio 5472 de propï¿½sito.**
    - Ocultar transaï¿½ï¿½es entre o proprietï¿½rio e a LLC.
    - Consequï¿½ncia: Multa de $25.000 por ano.
 
-? **Declarar que a LLC nï¿½o tem receitas quando tem.**
+**Declarar que a LLC nï¿½o tem receitas quando tem.**
    - Reportar $0 em receitas quando a LLC recebeu pagamentos.
    - Consequï¿½ncia: Auditoria do IRS, multas e possï¿½vel aï¿½ï¿½o penal.
 
-? **Usar a LLC para ocultar ativos pessoais de credores.**
+**Usar a LLC para ocultar ativos pessoais de credores.**
    - Transferir bens pessoais para a LLC para evitar que um credor os reclame.
    - Consequï¿½ncia: Um juiz pode reverter a transferï¿½ncia (fraudulent conveyance).
 
@@ -103,13 +103,13 @@ Entre o planejamento e a evasï¿½o existe uma **zona cinzenta** onde algumas prï¿
 
 ### Exemplos de elisï¿½o fiscal
 
-?? **Constituir a LLC num estado e operar fisicamente noutro.**
+**Constituir a LLC num estado e operar fisicamente noutro.**
    - Legal, mas se nï¿½o houver propï¿½sito econï¿½mico real, o IRS pode questionar.
 
-?? **Pagar-se um salï¿½rio baixo pela LLC para evitar impostos.**
+**Pagar-se um salï¿½rio baixo pela LLC para evitar impostos.**
    - Legal se o salï¿½rio for de mercado; ilegal se artificialmente baixo.
 
-?? **Usar estruturas offshore complexas sem propï¿½sito econï¿½mico.**
+**Usar estruturas offshore complexas sem propï¿½sito econï¿½mico.**
    - Se a ï¿½nica razï¿½o ï¿½ evitar impostos, pode ser considerado elisï¿½o abusiva.
 
 ### Riscos da elisï¿½o agressiva

@@ -13,11 +13,11 @@ En esta guía, explicamos **cómo usar el real estate como vehículo de migraci�
 
 ### Panorama General
 
-- **E-2:** No inmigrante -- $100,000+ (recomendado) -- 2-5 años (renovable) -- ? Sí -- ? No directo
-- **EB-5:** Inmigrante -- $800,000-$1,050,000 -- 2 años condicional ? permanente -- ? Sí -- ? Sí
-- **L-1A:** No inmigrante -- Sin mínimo (empresa activa) -- 1-7 años -- ? Sí -- ? Sí (EB-1C)
-- **B-1/B-2:** Visitante -- Sin mínimo -- 6 meses -- ? No -- ? No
-- **F-1 (OPT):** Estudiante -- Sin mínimo -- 1-3 años -- ?? Limitado -- ?? Posible (H-1B)
+- **E-2:** No inmigrante -- $100,000+ (recomendado) -- 2-5 años (renovable) -- ✅ Sí -- ❌ No directo
+- **EB-5:** Inmigrante -- $800,000-$1,050,000 -- 2 años condicional → permanente -- ✅ Sí -- ✅ Sí
+- **L-1A:** No inmigrante -- Sin mínimo (empresa activa) -- 1-7 años -- ✅ Sí -- ✅ Sí (EB-1C)
+- **B-1/B-2:** Visitante -- Sin mínimo -- 6 meses -- ❌ No -- ❌ No
+- **F-1 (OPT):** Estudiante -- Sin mínimo -- 1-3 años -- ⚠️ Limitado -- ⚠️ Posible (H-1B)
 ### ¿Puedo Obtener una Visa Solo por Comprar una Propiedad?
 
 ## 2. Visa E-2: Inversor por Tratado
@@ -28,21 +28,21 @@ La visa E-2 permite a ciudadanos de países con tratado de comercio con EE. UU. 
 
 ### Países con Tratado E-2 (Selección)
 
-- **España:** ? Sí -- $100,000+ -- Buena opción
-- **Reino Unido:** ? Sí -- $100,000+ -- Muy común
-- **Canadá:** ? Sí -- $80,000+ -- TN visa también disponible
-- **México:** ? Sí -- $100,000+ -- 
-- **Argentina:** ? No -- N/A -- No califica
-- **Brasil:** ? No -- N/A -- No califica
-- **Colombia:** ? No -- N/A -- No califica
-- **Panamá:** ? No -- N/A -- No califica
-- **Chile:** ? Sí -- $80,000+ -- 
-- **Uruguay:** ? No -- N/A -- No califica
-- **Perú:** ? No -- N/A -- No califica
-- **Francia:** ? Sí -- $100,000+ -- 
-- **Alemania:** ? Sí -- $80,000+ -- 
-- **Italia:** ? Sí -- $100,000+ -- 
-- **Países Bajos:** ? Sí -- $80,000+ -- 
+- **España:** ✅ Sí -- $100,000+ -- Buena opción
+- **Reino Unido:** ✅ Sí -- $100,000+ -- Muy común
+- **Canadá:** ✅ Sí -- $80,000+ -- TN visa también disponible
+- **México:** ✅ Sí -- $100,000+ -- 
+- **Argentina:** ❌ No -- N/A -- No califica
+- **Brasil:** ❌ No -- N/A -- No califica
+- **Colombia:** ❌ No -- N/A -- No califica
+- **Panamá:** ❌ No -- N/A -- No califica
+- **Chile:** ✅ Sí -- $80,000+ -- 
+- **Uruguay:** ❌ No -- N/A -- No califica
+- **Perú:** ❌ No -- N/A -- No califica
+- **Francia:** ✅ Sí -- $100,000+ -- 
+- **Alemania:** ✅ Sí -- $80,000+ -- 
+- **Italia:** ✅ Sí -- $100,000+ -- 
+- **Países Bajos:** ✅ Sí -- $80,000+ -- 
 ### Requisitos para Visa E-2 con Real Estate
 
 ### Paso a Paso para Visa E-2 con Real Estate
@@ -70,7 +70,7 @@ La visa EB-5 es un camino directo a la Green Card (residencia permanente) median
 Permite a empresas extranjeras transferir ejecutivos o gerentes a su oficina en EE. UU. Si tu empresa extranjera invierte en real estate en EE. UU. y crea una subsidiaria, puedes calificar.
 
 - **Plazo máximo:** 7 años -- 5 años
-- **Camino a Green Card:** ? Sí (EB-1C) -- ?? Limitado
+- **Camino a Green Card:** ✅ Sí (EB-1C) -- ⚠️ Limitado
 - **Requisito:** 1 año en empresa extranjera -- 1 año en empresa extranjera
 - **Real estate:** Subsidiaria de property management -- Técnico especializado
 ### Cómo Usar Real Estate para Visa L-1
@@ -79,25 +79,25 @@ Permite a empresas extranjeras transferir ejecutivos o gerentes a su oficina en 
 
 ### ¿Qué Puedes Hacer con B-1/B-2?
 
-- **Comprar propiedades:** ? Sí -- 
-- **Asistir a cierres (closings):** ? Sí -- 
-- **Reunirte con property manager:** ? Sí -- 
-- **Supervisar reparaciones:** ? Sí -- 
-- **Cobrar rentas:**  -- ? Trabajo no autorizado
-- **Firmar contratos de arrendamiento:**  -- ? Trabajo no autorizado
-- **Realizar reparaciones tú mismo:**  -- ? Trabajo no autorizado
-- **Vender propiedades:** ? Sí -- 
+- **Comprar propiedades:** ✅ Sí -- 
+- **Asistir a cierres (closings):** ✅ Sí -- 
+- **Reunirte con property manager:** ✅ Sí -- 
+- **Supervisar reparaciones:** ✅ Sí -- 
+- **Cobrar rentas:**  -- ❌ Trabajo no autorizado
+- **Firmar contratos de arrendamiento:**  -- ❌ Trabajo no autorizado
+- **Realizar reparaciones tú mismo:**  -- ❌ Trabajo no autorizado
+- **Vender propiedades:** ✅ Sí -- 
 ### Límites del B-1/B-2
 
 ## 6. Visa de Estudiante (F-1) y Real Estate
 
 ### ¿Puede un Estudiante Internacional Invertir en Real Estate?
 
-- **¿Puede comprar propiedades?:** ? Sí
-- **¿Puede recibir rentas?:** ? Sí (renta pasiva)
-- **¿Puede operar un negocio inmobiliario?:** ? No (viola estatus F-1)
-- **¿Puede usar OPT para real estate?:** ?? Depende (debe ser relacionado a su carrera)
-- **¿Puede tener una LLC?:** ? Sí (como inversor pasivo)
+- **¿Puede comprar propiedades?:** Sí
+- **¿Puede recibir rentas?:** Sí (renta pasiva)
+- **¿Puede operar un negocio inmobiliario?:** No (viola estatus F-1)
+- **¿Puede usar OPT para real estate?:** Depende (debe ser relacionado a su carrera)
+- **¿Puede tener una LLC?:** Sí (como inversor pasivo)
 ### Estrategia F-1 + Real Estate
 
 ## 7. Estructuración de la Inversión para Migración
@@ -110,13 +110,13 @@ Permite a empresas extranjeras transferir ejecutivos o gerentes a su oficina en 
 
 - **Inversión mínima:** $100,000+ -- $800,000+ -- Sin mínimo -- $0
 - **Plazo:** 2-5 años (renovable) -- Permanente -- 1-7 años -- 6 meses
-- **Green Card:** ? No -- ? Sí -- ? Vía EB-1C -- ? No
-- **Trabajar:** ? Sí -- ? Sí -- ? Sí -- ? No
-- **Países limitados:** ? Solo tratado -- ? Todos -- ? Todos -- ? Todos
+- **Green Card:** ❌ No -- ✅ Sí -- ✅ Vía EB-1C -- ❌ No
+- **Trabajar:** ✅ Sí -- ✅ Sí -- ✅ Sí -- ❌ No
+- **Países limitados:** ✅ Solo tratado -- ❌ Todos -- ❌ Todos -- ❌ Todos
 - **Tiempo de proceso:** 2-4 meses -- 2-5 años -- 4-8 meses -- 1-3 meses
 - **Riesgo:** Bajo (recuperas inversión) -- Alto (inversión en riesgo) -- Bajo -- Ninguno
-- **Real estate pasivo:** ? No califica -- ?? Centro regional -- ? No califica -- ? Sí
-- **Real estate activo:** ? Califica -- ? Califica -- ? Califica -- ? No
+- **Real estate pasivo:** ❌ No califica -- ⚠️ Centro regional -- ⚠️ No califica -- ❌ Sí
+- **Real estate activo:** ✅ Califica -- ✅ Califica -- ✅ Califica -- ❌ No
 ### Recomendación por Perfil
 
 ## 9. Costos Asociados a Cada Visa

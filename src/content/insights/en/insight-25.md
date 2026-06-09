@@ -80,9 +80,9 @@ The BMF is the IRS's source of truth about your LLC. If the data in the BMF does
 - **Outdated responsible party:** Notifications sent to wrong person
 ### Common cases
 
-- You changed your address and did not update the BMF ? the IRS sends an audit notice to the old address, you do not receive it, and they impose a penalty for not responding.
-- Your name on the EIN is "Sotomayor Consulting LLC" but your Certificate of Formation says "Sotomayor Consulting LLC." (with period) ? discrepancies that can trigger alerts.
-- Your LLC changed from single-member to multi-member and you did not update the EIN ? the IRS has an incorrect record.
+- You changed your address and did not update the BMF → the IRS sends an audit notice to the old address, you do not receive it, and they impose a penalty for not responding.
+- Your name on the EIN is "Sotomayor Consulting LLC" but your Certificate of Formation says "Sotomayor Consulting LLC." (with period) → discrepancies that can trigger alerts.
+- Your LLC changed from single-member to multi-member and you did not update the EIN → the IRS has an incorrect record.
 
 ## How to update the BMF
 

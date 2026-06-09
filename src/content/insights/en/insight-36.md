@@ -105,11 +105,11 @@ If you generate digital income as an individual (freelancer, creator, influencer
 The IRS treats cryptocurrencies as **property**. Every transaction is a taxable event:
 
 ### Taxable events:
-- Selling crypto for dollars ? Capital gain or loss
-- Exchanging one crypto for another ? Taxable event
-- Using crypto to buy goods or services ? Taxable event
-- Receiving crypto as payment ? Ordinary income (fair market value)
-- Staking rewards and mining ? Ordinary income when received
+- Selling crypto for dollars → Capital gain or loss
+- Exchanging one crypto for another → Taxable event
+- Using crypto to buy goods or services → Taxable event
+- Receiving crypto as payment → Ordinary income (fair market value)
+- Staking rewards and mining → Ordinary income when received
 
 ### NON-taxable events:
 - Buying crypto with dollars and holding it (HODL)

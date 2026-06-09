@@ -119,16 +119,16 @@ El beneficio principal de una LLC es separar tu patrimonio personal del patrimon
 
 ### Tabla Comparativa
 
-- **Protección de activos:** ? Ninguna -- ? Excelente -- ? Buena -- ? Excelente -- ? Excelente
+- **Protección de activos:** ❌ Ninguna -- ✅ Excelente -- ✅ Buena -- ✅ Excelente -- ✅ Excelente
 - **Costo de formación:** $0 -- $100-500 -- $500-2,000 -- $200-1,000 -- $200-1,000
 - **Costo anual:** $0 -- $100-800 -- $0-500 -- $400-2,000 -- $400-2,000
-- **Privacidad:** ? Pública -- ?? Depende -- ? Alta -- ? Pública -- ? Pública
-- **Evita probate:** ? No -- ?? Parcial -- ? Sí -- ?? Parcial -- ?? Parcial
-- **Multi-propietarios:** ? Difícil -- ? Fácil -- ? Fácil -- ? Fácil -- ?? Limitado
-- **Stripe compatible:** ? Sí -- ? Sí -- ? Indirecto -- ? Sí -- ? Sí
-- **Flexibilidad fiscal:** ? Sí -- ? Excelente -- ?? Limitada -- ? Doble -- ? Buena
-- **Hipoteca fácil:** ? Sí -- ?? DSCR -- ? Difícil -- ?? Difícil -- ?? Difícil
-- **Venta futura (FIRPTA):** ? Directo -- ? Directo -- ?? Complejo -- ?? Complejo -- ?? Complejo
+- **Privacidad:** ❌ Pública -- ⚠️ Depende -- ⚠️ Alta -- ✅ Pública -- ❌ Pública
+- **Evita probate:** ❌ No -- ⚠️ Parcial -- ⚠️ Sí -- ⚠️ Parcial -- ⚠️ Parcial
+- **Multi-propietarios:** ❌ Difícil -- ✅ Fácil -- ✅ Fácil -- ✅ Fácil -- ⚠️ Limitado
+- **Stripe compatible:** ✅ Sí -- ✅ Sí -- ❌ Indirecto -- ✅ Sí -- ✅ Sí
+- **Flexibilidad fiscal:** ✅ Sí -- ✅ Excelente -- ⚠️ Limitada -- ⚠️ Doble -- ❌ Buena
+- **Hipoteca fácil:** ✅ Sí -- ⚠️ DSCR -- ⚠️ Difícil -- ⚠️ Difícil -- ⚠️ Difícil
+- **Venta futura (FIRPTA):** ✅ Directo -- ✅ Directo -- ⚠️ Complejo -- ⚠️ Complejo -- ⚠️ Complejo
 ### ¿Cuándo Usar Cada Estructura?
 
 - **1 propiedad de alquiler:** LLC

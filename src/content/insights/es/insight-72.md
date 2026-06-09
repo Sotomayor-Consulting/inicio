@@ -41,23 +41,23 @@ En esta guía, explicamos **la diferencia entre proteger y ocultar patrimonio** 
 
 ### Lo que SÍ es Protección
 
-- **Formar una LLC en EE. UU. y declararla en tu país:** ? Profesional en Colombia crea LLC en Wyoming y la reporta a la DIAN
-- **Crear un trust y pagar impuestos según las reglas:** ? Empresario mexicano crea trust en EE. UU. y cumple con SAT
-- **Diversificar cuentas bancarias en múltiples países:** ? Cuentas declaradas en Suiza, EE. UU. y Singapur
-- **Contratar seguros de responsabilidad:** ? Seguro D&O para proteger activos corporativos
-- **Separar activos personales de empresariales:** ? Cada negocio en su propia entidad legal
+- **Formar una LLC en EE. UU. y declararla en tu país:** ✅ Profesional en Colombia crea LLC en Wyoming y la reporta a la DIAN
+- **Crear un trust y pagar impuestos según las reglas:** ✅ Empresario mexicano crea trust en EE. UU. y cumple con SAT
+- **Diversificar cuentas bancarias en múltiples países:** ✅ Cuentas declaradas en Suiza, EE. UU. y Singapur
+- **Contratar seguros de responsabilidad:** ✅ Seguro D&O para proteger activos corporativos
+- **Separar activos personales de empresariales:** ✅ Cada negocio en su propia entidad legal
 ### Lo que NO es Protección (es Ocultamiento)
 
-- **Tener cuenta en el extranjero sin declarar:** ? Cuenta en Panamá no reportada al fisco local
-- **Poner activos a nombre de un tercero:** ? Casa a nombre de un familiar para evitar embargo
-- **Usar empresas fantasma o pantalla:** ? Empresa sin actividad real para desviar ingresos
-- **No emitir facturas para evitar impuestos:** ? Vender servicios y recibir el pago en una cuenta no declarada
-- **Transferir activos después de una demanda:** ? Vender propiedades a precio irrisorio cuando ya hay juicio
+- **Tener cuenta en el extranjero sin declarar:** ❌ Cuenta en Panamá no reportada al fisco local
+- **Poner activos a nombre de un tercero:** ❌ Casa a nombre de un familiar para evitar embargo
+- **Usar empresas fantasma o pantalla:** ❌ Empresa sin actividad real para desviar ingresos
+- **No emitir facturas para evitar impuestos:** ❌ Vender servicios y recibir el pago en una cuenta no declarada
+- **Transferir activos después de una demanda:** ❌ Vender propiedades a precio irrisorio cuando ya hay juicio
 ### Zona Gris
 
-- **LLC en Delaware sin actividad en EE. UU., no declarada en tu país:** ?? Ocultamiento (debes declararla)
-- **Trust en Islas Cook reportado a tu autoridad fiscal:** ?? Protección
-- **Cuenta en Suiza declarada en tu declaración de renta:** ?? Protección
+- **LLC en Delaware sin actividad en EE. UU., no declarada en tu país:** ⚠️ Ocultamiento (debes declararla)
+- **Trust en Islas Cook reportado a tu autoridad fiscal:** ⚠️ Protección
+- **Cuenta en Suiza declarada en tu declaración de renta:** ⚠️ Protección
 - **Criptomonedas en exchange no declaradas:** ?? Ocultamiento (si no se declaran)
 > **Si no lo declaras donde debes declararlo, no es protección. Es ocultamiento.**
 
@@ -110,20 +110,20 @@ En esta guía, explicamos **la diferencia entre proteger y ocultar patrimonio** 
 
 ### Señales de que Podrías estar Ocultando
 
-- **No has declarado tu LLC en tu declaración de renta:** ?
-- **Tienes una cuenta en el extranjero que no reportas:** ?
-- **Usas la dirección de un amigo/familiar para recibir pagos:** ?
-- **Recibes pagos de Stripe y los retiras a una cuenta no declarada:** ?
-- **Tus activos en el extranjero superan los umbrales de declaración:** ?
-- **No tienes asesoría fiscal internacional:** ?
+- **No has declarado tu LLC en tu declaración de renta:** ❌
+- **Tienes una cuenta en el extranjero que no reportas:** ❌
+- **Usas la dirección de un amigo/familiar para recibir pagos:** ❌
+- **Recibes pagos de Stripe y los retiras a una cuenta no declarada:** ❌
+- **Tus activos en el extranjero superan los umbrales de declaración:** ❌
+- **No tienes asesoría fiscal internacional:** ❌
 ### Señales de que estás Protegiendo Correctamente
 
-- **Tu contador local conoce todas tus estructuras:** ?
-- **Declaras todos tus ingresos globales:** ?
-- **Tienes un expediente con la documentación de cada entidad:** ?
-- **Pagas impuestos en cada país donde tienes obligación:** ?
-- **Puedes explicar tu estructura fiscal a cualquier autoridad:** ?
-- **Revisas tu estructura con un asesor al menos una vez al año:** ?
+- **Tu contador local conoce todas tus estructuras:** ✅
+- **Declaras todos tus ingresos globales:** ✅
+- **Tienes un expediente con la documentación de cada entidad:** ✅
+- **Pagas impuestos en cada país donde tienes obligación:** ✅
+- **Puedes explicar tu estructura fiscal a cualquier autoridad:** ✅
+- **Revisas tu estructura con un asesor al menos una vez al año:** ✅
 ## 8. Mitos Comunes
 
 - **"Una LLC en EE. UU. es anónima":** Falso. Los bancos y el IRS conocen a los beneficiarios finales

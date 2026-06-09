@@ -36,27 +36,27 @@ It is the process of organizing your finances and business structure to **pay th
 - **Professional:** Done with advice from accountants and lawyers
 ### Legitimate examples of tax planning
 
-? **Choosing the right state for your LLC.**
+**Choosing the right state for your LLC.**
    - Choosing Wyoming over Delaware to save $240/year in franchise tax.
    - Legal basis: Freedom to choose where to form.
 
-? **Using the right tax structure.**
+**Using the right tax structure.**
    - Single-member LLC as disregarded entity to avoid double taxation.
    - Legal basis: IRS allows this classification.
 
-? **Taking advantage of business deductions.**
+**Taking advantage of business deductions.**
    - Deducting software, equipment, internet, and necessary services.
    - Legal basis: Section 162 of the Internal Revenue Code.
 
-? **Claiming tax credits.**
+**Claiming tax credits.**
    - Foreign Tax Credit for taxes paid in the U.S.
    - Legal basis: Internal Revenue Code Section 901.
 
-? **Using international tax treaties.**
+**Using international tax treaties.**
    - Reducing withholding on interest and royalties.
    - Legal basis: Tax treaty between your country and the U.S.
 
-? **Separating business lines into different LLCs.**
+**Separating business lines into different LLCs.**
    - Protecting assets of one line from liabilities of another.
    - Legal basis: U.S. corporate law.
 
@@ -73,27 +73,27 @@ It is the illegal action of **not paying the taxes that the law requires**, by h
 - **Unsustainable:** Sooner or later the tax authority detects it
 ### Examples of tax evasion
 
-? **Not declaring LLC income.**
+**Not declaring LLC income.**
    - Receiving payments in a personal account and not reporting them to the IRS or local authority.
    - Consequence: Tax fraud, penalties up to 75% of unpaid taxes.
 
-? **Using fake invoices to inflate expenses.**
+**Using fake invoices to inflate expenses.**
    - Buying invoices from nonexistent suppliers to reduce taxable profit.
    - Consequence: Criminal offense, possible jail time.
 
-? **Transferring assets to relatives to avoid taxes.**
+**Transferring assets to relatives to avoid taxes.**
    - Putting the LLC in a relative's name with no real economic capacity.
    - Consequence: The IRS can ignore the transfer and apply penalties.
 
-? **Intentionally not filing Form 5472.**
+**Intentionally not filing Form 5472.**
    - Hiding transactions between the owner and the LLC.
    - Consequence: $25,000 penalty per year.
 
-? **Declaring the LLC has no income when it does.**
+**Declaring the LLC has no income when it does.**
    - Reporting $0 in income when the LLC received payments.
    - Consequence: IRS audit, penalties, and possible criminal action.
 
-? **Using the LLC to hide personal assets from creditors.**
+**Using the LLC to hide personal assets from creditors.**
    - Transferring personal assets to the LLC to prevent a creditor from claiming them.
    - Consequence: A judge can reverse the transfer (fraudulent conveyance).
 
@@ -103,13 +103,13 @@ Between planning and evasion there is a **gray area** where some practices use l
 
 ### Examples of tax avoidance
 
-?? **Forming the LLC in one state and physically operating in another.**
+**Forming the LLC in one state and physically operating in another.**
    - Legal, but if there is no real economic purpose, the IRS may question it.
 
-?? **Paying yourself a low salary from the LLC to avoid taxes.**
+**Paying yourself a low salary from the LLC to avoid taxes.**
    - Legal if the salary is at market rate; illegal if artificially low.
 
-?? **Using complex offshore structures with no economic purpose.**
+**Using complex offshore structures with no economic purpose.**
    - If the only reason is to avoid taxes, it may be considered abusive avoidance.
 
 ### Risks of aggressive avoidance

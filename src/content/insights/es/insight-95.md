@@ -44,12 +44,12 @@ En esta guía, explicamos **cómo abrir operaciones internacionales** en 2026: d
 
 ### Opciones para tu Empresa Internacional
 
-- **Mercury:** EE. UU. -- $0 -- Startups tecnológicas -- ? Nativa
-- **Brex:** EE. UU. -- $0 -- Startups con VC -- ? Nativa
-- **Wise Business:** Multi-país -- $0 + FX 0.4-0.8% -- Freelancers, SMBs -- ? Integración
-- **Stripe Treasury:** EE. UU. -- Variable -- Empresas Stripe -- ? Nativa
-- **HSBC Global:** Multi-país -- $50-100/mes -- Empresas con presencia física -- ?? Manual
-- **Revolut Business:** UK/Lituania -- $0-100/mes -- SMBs europeas -- ? Integración
+- **Mercury:** EE. UU. -- $0 -- Startups tecnológicas -- ✅ Nativa
+- **Brex:** EE. UU. -- $0 -- Startups con VC -- ✅ Nativa
+- **Wise Business:** Multi-país -- $0 + FX 0.4-0.8% -- Freelancers, SMBs -- ✅ Integración
+- **Stripe Treasury:** EE. UU. -- Variable -- Empresas Stripe -- ✅ Nativa
+- **HSBC Global:** Multi-país -- $50-100/mes -- Empresas con presencia física -- ⚠️ Manual
+- **Revolut Business:** UK/Lituania -- $0-100/mes -- SMBs europeas -- ✅ Integración
 ### Flujo Bancario Recomendado
 
 ## 5. Contratación Global
@@ -58,7 +58,7 @@ En esta guía, explicamos **cómo abrir operaciones internacionales** en 2026: d
 
 - **Costo:** $500-1,000/empleado/mes -- $5,000-15,000/mes + setup
 - **Tiempo:** 1-3 días -- 3-6 meses
-- **Compliance:** ? Ellos manejan todo -- ? Control total
+- **Compliance:** ✅ Ellos manejan todo -- ✅ Control total
 - **Beneficios:** Planes estandarizados -- Personalizados
 - **Ideal para:** 1-50 empleados en varios países -- 50+ en un solo país
 ### Mejores EOR para Operaciones Internacionales

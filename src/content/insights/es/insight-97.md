@@ -29,11 +29,11 @@ En esta guía, explicamos **cómo internacionalizar una marca** en 2026: desde l
 
 ### ccTLD vs Subdirectorios vs Subdominios
 
-- **ccTLD:** marca.co, marca.com.mx -- ? Excelente para SEO local -- $$$ Alto (cada dominio) -- Alta
-- **Subdirectorios:** marca.com/es, marca.com/pt-br -- ? Bueno para SEO multinacional -- $ Bajo -- Media
-- **Subdominios:** es.marca.com, br.marca.com -- ?? Medio -- $ Bajo -- Media
-- **.com + hreflang:** marca.com con etiquetas hreflang -- ? Bueno -- $ Muy bajo -- Baja
-- **ccTLD + redirección:** marca.de ? marca.com/de -- ? SEO local + marca unificada -- $$ Medio -- Media
+- **ccTLD:** marca.co, marca.com.mx -- ✅ Excelente para SEO local -- $$$ Alto (cada dominio) -- Alta
+- **Subdirectorios:** marca.com/es, marca.com/pt-br -- ✅ Bueno para SEO multinacional -- $ Bajo -- Media
+- **Subdominios:** es.marca.com, br.marca.com -- ⚠️ Medio -- $ Bajo -- Media
+- **.com + hreflang:** marca.com con etiquetas hreflang -- ✅ Bueno -- $ Muy bajo -- Baja
+- **ccTLD + redirección:** marca.de → marca.com/de -- ✅ SEO local + marca unificada -- $$ Medio -- Media
 ### Recomendación 2026
 
 ## 3. Adaptación Cultural de la Marca
@@ -54,17 +54,17 @@ En esta guía, explicamos **cómo internacionalizar una marca** en 2026: desde l
 
 ### De un Solo Método a Pagos Globales
 
-- **Global:** USD -- Card + Link -- Apple Pay, Google Pay -- ?
-- **Brasil:** BRL -- Pix -- Cartão, boleto -- ? Pix
-- **México:** MXN -- Card -- OXXO, SPEI -- ? OXXO
-- **Colombia:** COP -- Transferencia -- PSE, Nequi, Daviplata -- ? PSE
-- **Argentina:** ARS -- Card -- Mercado Pago, transferencia -- ?
-- **Chile:** CLP -- Card -- Webpay, transferencia -- ? Webpay
-- **Perú:** PEN -- Card -- Yape, Plin, transferencia -- ?
-- **Europa:** EUR -- SEPA -- Giropay, iDEAL, Bancontact -- ? SEPA
-- **UK:** GBP -- Card -- BACS Direct Debit -- ? BACS
-- **Japón:** JPY -- Card -- Konbini, LINE Pay -- ? Konbini
-- **Australia:** AUD -- Card -- BACS Direct Debit -- ?
+- **Global:** USD -- Card + Link -- Apple Pay, Google Pay -- ✅
+- **Brasil:** BRL -- Pix -- Cartão, boleto -- ✅ Pix
+- **México:** MXN -- Card -- OXXO, SPEI -- ✅ OXXO
+- **Colombia:** COP -- Transferencia -- PSE, Nequi, Daviplata -- ✅ PSE
+- **Argentina:** ARS -- Card -- Mercado Pago, transferencia -- ✅
+- **Chile:** CLP -- Card -- Webpay, transferencia -- ✅ Webpay
+- **Perú:** PEN -- Card -- Yape, Plin, transferencia -- ✅
+- **Europa:** EUR -- SEPA -- Giropay, iDEAL, Bancontact -- ✅ SEPA
+- **UK:** GBP -- Card -- BACS Direct Debit -- ✅ BACS
+- **Japón:** JPY -- Card -- Konbini, LINE Pay -- ✅ Konbini
+- **Australia:** AUD -- Card -- BACS Direct Debit -- ✅
 ### Configuración de Precios por Mercado
 
 ## 5. SEO Multinacional
@@ -85,16 +85,16 @@ En esta guía, explicamos **cómo internacionalizar una marca** en 2026: desde l
 
 ### Estrategia por Plataforma y Mercado
 
-- **LinkedIn:** ? B2B profesional -- ? B2B formal -- ? B2B en portugués -- ?? Medio
-- **Twitter/X:** ? Noticias, producto -- ? Comunidad -- ?? Menor adopción -- ? Popular
-- **Instagram:** ? Visual, historias -- ? Alta adopción -- ? Muy alto engagement -- ?
-- **TikTok:** ? Gen Z -- ? Alto crecimiento -- ? Muy alto -- ?
-- **YouTube:** ? Tutoriales -- ? Contenido educativo -- ? Alto consumo -- ?
-- **Facebook:** ?? Audiencia mayor -- ? Grupos, marketplace -- ? Muy alto -- ?? Bajo
-- **WhatsApp:** ?? Bajo -- ? Muy alto (ventas) -- ? Muy alto -- ?
-- **LINE:** N/A -- N/A -- N/A -- ? (Japón)
-- **WeChat:** N/A -- ?? Bajo -- N/A -- ? (China)
-- **KakaoTalk:** N/A -- N/A -- N/A -- ? (Corea)
+- **LinkedIn:** ✅ B2B profesional -- ✅ B2B formal -- ✅ B2B en portugués -- ⚠️ Medio
+- **Twitter/X:** ✅ Noticias, producto -- ✅ Comunidad -- ⚠️ Menor adopción -- ⚠️ Popular
+- **Instagram:** ✅ Visual, historias -- ✅ Alta adopción -- ✅ Muy alto engagement -- ✅
+- **TikTok:** ✅ Gen Z -- ✅ Alto crecimiento -- ✅ Muy alto -- ✅
+- **YouTube:** ✅ Tutoriales -- ✅ Contenido educativo -- ✅ Alto consumo -- ✅
+- **Facebook:** ⚠️ Audiencia mayor -- ⚠️ Grupos, marketplace -- ✅ Muy alto -- ⚠️ Bajo
+- **WhatsApp:** ⚠️ Bajo -- ⚠️ Muy alto (ventas) -- ✅ Muy alto -- ✅
+- **LINE:** N/A -- N/A -- N/A -- ✅ (Japón)
+- **WeChat:** N/A -- ⚠️ Bajo -- N/A -- ⚠️ (China)
+- **KakaoTalk:** N/A -- N/A -- N/A -- ✅ (Corea)
 ### Estrategia por Mercado
 
 ## 7. Contenido y Storytelling Global

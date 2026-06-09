@@ -13,14 +13,14 @@ En esta guía, explicamos **cómo generar ingresos pasivos con propiedades en EE
 
 ### De 100% Pasivo a 100% Activo
 
-- **REITs:** ? 100% pasivo -- $500-800 (dividendos) -- 0 horas/mes -- Medio
-- **Crowdfunding inmobiliario:** ? 95% pasivo -- $700-1,200 -- 0.5 horas/mes -- Medio-Alto
-- **Turnkey LTR (con PM):** ? 90% pasivo -- $600-1,000 -- 1-2 horas/mes -- Bajo-Medio
-- **Turnkey STR (con PM):** ?? 80% pasivo -- $800-1,500 -- 2-4 horas/mes -- Medio
-- **LTR con PM propio:** ?? 70% pasivo -- $700-1,100 -- 3-5 horas/mes -- Bajo
-- **STR con PM propio:** ?? 60% pasivo -- $900-1,800 -- 5-10 horas/mes -- Medio
-- **House hacking:** ? 50% pasivo -- $500-1,000 (vivienda gratis) -- 5-15 horas/mes -- Bajo
-- **Flip (activo):** ? 0% pasivo -- Variable (lump sum) -- 40+ horas/semana -- Alto
+- **REITs:** ✅ 100% pasivo -- $500-800 (dividendos) -- 0 horas/mes -- Medio
+- **Crowdfunding inmobiliario:** ✅ 95% pasivo -- $700-1,200 -- 0.5 horas/mes -- Medio-Alto
+- **Turnkey LTR (con PM):** ✅ 90% pasivo -- $600-1,000 -- 1-2 horas/mes -- Bajo-Medio
+- **Turnkey STR (con PM):** ⚠️ 80% pasivo -- $800-1,500 -- 2-4 horas/mes -- Medio
+- **LTR con PM propio:** ⚠️ 70% pasivo -- $700-1,100 -- 3-5 horas/mes -- Bajo
+- **STR con PM propio:** ⚠️ 60% pasivo -- $900-1,800 -- 5-10 horas/mes -- Medio
+- **House hacking:** ❌ 50% pasivo -- $500-1,000 (vivienda gratis) -- 5-15 horas/mes -- Bajo
+- **Flip (activo):** ❌ 0% pasivo -- Variable (lump sum) -- 40+ horas/semana -- Alto
 ### No Existe el Ingreso 100% Pasivo
 
 ## 2. REITs (Real Estate Investment Trusts)
@@ -42,11 +42,11 @@ En esta guía, explicamos **cómo generar ingresos pasivos con propiedades en EE
 - **Digital Realty (DLR):** Data centers -- 3.5% -- $50B+
 ### Ventajas y Desventajas
 
-- **? 100% pasivo:** ? No controlas las propiedades
-- **? Alta liquidez:** ? Sujeto a volatilidad del mercado
-- **? Inversión mínima baja:** ? Dividendos gravados como ingreso ordinario
-- **? Diversificación:** ? No hay depreciación fiscal (para extranjeros)
-- **? No necesitas LLC:** ? No hay apalancamiento (no usas hipoteca)
+- **✅ 100% pasivo:** ❌ No controlas las propiedades
+- **✅ Alta liquidez:** ❌ Sujeto a volatilidad del mercado
+- **✅ Inversión mínima baja:** ❌ Dividendos gravados como ingreso ordinario
+- **✅ Diversificación:** ❌ No hay depreciación fiscal (para extranjeros)
+- **✅ No necesitas LLC:** ❌ No hay apalancamiento (no usas hipoteca)
 ## 3. Crowdfunding Inmobiliario
 
 ### Inversión Colectiva en Proyectos
@@ -137,13 +137,13 @@ En esta guía, explicamos **cómo generar ingresos pasivos con propiedades en EE
 
 ### El Stack de Ingreso Pasivo
 
-- **Stripe:** Cobro de rentas -- ? 100% automático
-- **Stripe Tax:** Cálculo de impuestos -- ? Automático
-- **Stripe Reporting:** Reportes mensuales -- ? Generación automática
-- **Property Manager:** Gestión de inquilinos -- ? Ellos hacen todo
-- **CPA:** Declaración anual -- ? Anual
-- **Registered Agent:** Compliance LLC -- ? Anual
-- **Pagos automáticos:** Hipoteca, seguro, tax -- ? Automated clearing house
+- **Stripe:** Cobro de rentas -- ✅ 100% automático
+- **Stripe Tax:** Cálculo de impuestos -- ✅ Automático
+- **Stripe Reporting:** Reportes mensuales -- ✅ Generación automática
+- **Property Manager:** Gestión de inquilinos -- ✅ Ellos hacen todo
+- **CPA:** Declaración anual -- ✅ Anual
+- **Registered Agent:** Compliance LLC -- ✅ Anual
+- **Pagos automáticos:** Hipoteca, seguro, tax -- ✅ Automated clearing house
 ### Tu Rutina Mensual (1-2 horas)
 
 ## 11. Preguntas Frecuentes

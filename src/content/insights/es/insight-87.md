@@ -2,7 +2,7 @@
 title: "Cómo Estructurar Propiedades para Protección Patrimonial: Guía 2026"
 description: "Cómo estructurar propiedades para protección patrimonial"
 cardImage: "@/images/insights/propiedades-para-proteccion-patrimonial.png"
-cardImageAlt: "Estructura piramidal de protección patrimonial: propiedades individuales ? LLCs ? Holding ? Trust, con escudos de protección en cada nivel"
+cardImageAlt: "Estructura piramidal de protección patrimonial: propiedades individuales → LLCs → Holding → Trust, con escudos de protección en cada nivel"
 ---
 
 **Estructurar propiedades para protección patrimonial** es el proceso de organizar tus activos inmobiliarios en una arquitectura legal que minimice riesgos, blinde tu patrimonio personal y optimice impuestos. La estructura correcta separa cada propiedad en su propia LLC, agrupa las LLCs bajo una holding, y usa trusts estratégicos para sucesión.
@@ -48,7 +48,7 @@ En esta guía, explicamos **cómo estructurar propiedades para protección patri
 
 ### Comparación Detallada
 
-- **Protección:** ? Máxima (aislamiento total) -- ? Una demanda expone todas
+- **Protección:** ✅ Máxima (aislamiento total) -- ❌ Una demanda expone todas
 - **Costo anual:** $138.75 + RA c/u -- $138.75 + RA (solo una)
 - **Complejidad:** Alta (múltiples filings) -- Baja (un filing)
 - **Préstamos:** Individuales (más fácil) -- Puede agrupar propiedades
@@ -68,12 +68,12 @@ En esta guía, explicamos **cómo estructurar propiedades para protección patri
 - **Sucesión:** Las acciones se heredan según la ley del país de la holding
 ### Jurisdicciones Recomendadas
 
-- **Panamá:** $500-1,500 -- ? Alta -- ? No aplica -- ? Buena
-- **Países Bajos:** $2,000-5,000 -- ?? Media -- ? No aplica -- ? Excelente
-- **BVI:** $1,000-2,500 -- ? Alta -- ? No aplica -- ? Buena
-- **Islas Caimán:** $2,000-4,000 -- ? Alta -- ? No aplica -- ? Excelente
-- **Uruguay:** $1,500-3,000 -- ?? Media -- ? No aplica -- ? Buena
-- **Delaware (US):** $300-500 -- ?? Baja -- ? Expuesto -- ? Excelente
+- **Panamá:** $500-1,500 -- ✅ Alta -- ❌ No aplica -- ✅ Buena
+- **Países Bajos:** $2,000-5,000 -- ⚠️ Media -- ⚠️ No aplica -- ❌ Excelente
+- **BVI:** $1,000-2,500 -- ✅ Alta -- ❌ No aplica -- ✅ Buena
+- **Islas Caimán:** $2,000-4,000 -- ✅ Alta -- ❌ No aplica -- ✅ Excelente
+- **Uruguay:** $1,500-3,000 -- ⚠️ Media -- ⚠️ No aplica -- ❌ Buena
+- **Delaware (US):** $300-500 -- ⚠️ Baja -- ⚠️ Expuesto -- ✅ Excelente
 > IMPORTANTE: Una holding en Delaware NO protege del estate tax porque es una entidad estadounidense. Para protección contra estate tax, la holding debe estar fuera de EE. UU.
 
 ### Cómo Flu ye el Dinero
@@ -83,9 +83,9 @@ En esta guía, explicamos **cómo estructurar propiedades para protección patri
 ### Trust Revocable vs. Irrevocable
 
 - **Control:** Tú controlas (puedes cambiar) -- Pierdes control (no puedes cambiar)
-- **Protección:** ? Baja (los activos son tuyos) -- ? Alta (los activos no son tuyos)
-- **Estate tax:** ? Expuesto -- ? Protegido
-- **Probate:** ? Lo evita -- ? Lo evita
+- **Protección:** ❌ Baja (los activos son tuyos) -- ✅ Alta (los activos no son tuyos)
+- **Estate tax:** ❌ Expuesto -- ✅ Protegido
+- **Probate:** ✅ Lo evita -- ✅ Lo evita
 - **Costo:** $2,000-5,000 -- $3,000-10,000
 - **Uso:** Sucesión simple -- Protección + sucesión
 ### Estructura con Trust
@@ -123,17 +123,17 @@ En esta guía, explicamos **cómo estructurar propiedades para protección patri
 
 ### Tabla de Sucesión por Estructura
 
-- **Nombre personal:** ? Sí -- ? 40% (> $60K) -- $5,000-20,000 -- 6-18 meses
-- **LLC sola:** ? Sí -- ? 40% -- $5,000-20,000 -- 6-18 meses
-- **LLC + Holding internacional:** ? No -- ? $0 -- $1,000-3,000 -- 1-3 meses
-- **LLC + Holding + Trust:** ? No -- ? $0 -- $500-2,000 -- 2-6 semanas
+- **Nombre personal:** ✅ Sí -- ✅ 40% (> $60K) -- $5,000-20,000 -- 6-18 meses
+- **LLC sola:** ✅ Sí -- ✅ 40% -- $5,000-20,000 -- 6-18 meses
+- **LLC + Holding internacional:** ❌ No -- ❌ $0 -- $1,000-3,000 -- 1-3 meses
+- **LLC + Holding + Trust:** ❌ No -- ❌ $0 -- $500-2,000 -- 2-6 semanas
 ## 10. Costos Vs. Beneficios
 
 ### Análisis de Retorno de Inversión
 
-- **Básico** (LLC sola):** $500-1,000 -- ?? Parcial -- 1 propiedad, < $200K
-- **Intermedio** (LLC + Holding):** $2,000-4,000 -- ? Alta -- 2-3 propiedades, $200K-$1M
-- **Avanzado** (LLC + Holding + Trust):** $4,000-8,000 -- ? Máxima -- 4+ propiedades, > $1M
+- **Básico** (LLC sola):** $500-1,000 -- ⚠️ Parcial -- 1 propiedad, < $200K
+- **Intermedio** (LLC + Holding):** $2,000-4,000 -- ✅ Alta -- 2-3 propiedades, $200K-$1M
+- **Avanzado** (LLC + Holding + Trust):** $4,000-8,000 -- ✅ Máxima -- 4+ propiedades, > $1M
 ## 11. Preguntas Frecuentes
 
 ### ¿Necesito una LLC por cada propiedad?

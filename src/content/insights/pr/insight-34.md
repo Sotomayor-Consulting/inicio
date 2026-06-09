@@ -14,8 +14,8 @@ A seguir, explicamos os aspectos-chave que todo exportador de servi�os deve sa
 O princ�pio mais importante para determinar como um servi�o � tributado � o local onde ele � realizado. O IRS classifica a renda de servi�os de acordo com sua **fonte geogr�fica**.
 
 ### Regra geral:
-- Servi�os prestados **dentro dos EUA** geram renda de fonte americana ? sujeita a impostos nos EUA
-- Servi�os prestados **fora dos EUA** geram renda de fonte estrangeira ? geralmente n�o sujeita a impostos nos EUA
+- Servi�os prestados **dentro dos EUA** geram renda de fonte americana → sujeita a impostos nos EUA
+- Servi�os prestados **fora dos EUA** geram renda de fonte estrangeira → geralmente n�o sujeita a impostos nos EUA
 
 **Exce��o importante:** Se voc� � um exportador de servi�os baseado nos EUA que presta servi�os a clientes no exterior, mas o trabalho � realizado total ou parcialmente dos EUA, essa parte da renda � considerada de fonte americana.
 

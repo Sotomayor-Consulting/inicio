@@ -22,30 +22,30 @@ En esta guía, explicamos **los errores más comunes al invertir en Florida sien
 
 - **Formación:** $0 -- $150-400 (una vez)
 - **Annual report:** $0 -- $138.75/año
-- **Protección legal:** ? Ninguna -- ? Limitada a la LLC
-- **Privacidad:** ? Tu nombre en registros públicos -- ? LLC como propietaria
-- **Estate tax:** ? Expuesto -- ? Con holding, protegido
+- **Protección legal:** ❌ Ninguna -- ✅ Limitada a la LLC
+- **Privacidad:** ❌ Tu nombre en registros públicos -- ✅ LLC como propietaria
+- **Estate tax:** ✅ Expuesto -- ✅ Con holding, protegido
 ## 2. Ignorar el Estate Tax (Impuesto a la Herencia)
 
 ### El Error que Puede Costar el 40% de tu Patrimonio
 
-- **"Eso solo aplica a millonarios":** ? Aplica desde $60,000 en activos US
-- **"La LLC me protege":** ?? Depende: si eres miembro directo, los activos de la LLC cuentan
-- **"No pienso morirme pronto":** ? El impuesto aplica cuando fallezcas, sin importar tu edad
-- **"En mi país no hay estate tax":** ? EE. UU. cobra sobre activos dentro de su territorio
+- **"Eso solo aplica a millonarios":** Aplica desde $60,000 en activos US
+- **"La LLC me protege":** Depende: si eres miembro directo, los activos de la LLC cuentan
+- **"No pienso morirme pronto":** El impuesto aplica cuando fallezcas, sin importar tu edad
+- **"En mi país no hay estate tax":** EE. UU. cobra sobre activos dentro de su territorio
 ### El Cálculo que Duele
 
 ### Solución
 
-- **Nombre personal:** ? No -- $0
-- **LLC sola:** ?? Parcial (depende) -- $138.75 + fees
-- **LLC + Trust:** ? Sí -- $500-2,000
-- **LLC + Holding extranjera:** ? Sí (recomendada) -- $500-2,000
+- **Nombre personal:** No -- $0
+- **LLC sola:** Parcial (depende) -- $138.75 + fees
+- **LLC + Trust:** Sí -- $500-2,000
+- **LLC + Holding extranjera:** Sí (recomendada) -- $500-2,000
 ## 3. No Obtener ITIN o Hacerlo Tarde
 
 ### Por Qué es un Error
 
-- **No tramitar ITIN:** No puedes presentar W-8ECI ? pagas 30% sobre ingresos brutos
+- **No tramitar ITIN:** No puedes presentar W-8ECI → pagas 30% sobre ingresos brutos
 - **ITIN tardío:** Pierdes meses de deducciones y depreciación
 - **No renovar ITIN:** Se desactiva si no presentas tax returns por 3 años
 - **Usar ITIN incorrecto:** El IRS rechaza tu declaración
@@ -57,9 +57,9 @@ En esta guía, explicamos **los errores más comunes al invertir en Florida sien
 
 ### El Impuesto que Nunca Desaparece
 
-- **"El property tax es bajo":** ? En Florida es 0.8-1.2%, pero sube con el valor de la propiedad
-- **"Ya está incluido en el pago mensual":** ? Solo si tienes escrow. Si no, debes pagarlo por separado
-- **"El homestead exemption aplica":** ? Solo si es tu residencia principal, no para inversión
+- **"El property tax es bajo":** En Florida es 0.8-1.2%, pero sube con el valor de la propiedad
+- **"Ya está incluido en el pago mensual":** Solo si tienes escrow. Si no, debes pagarlo por separado
+- **"El homestead exemption aplica":** Solo si es tu residencia principal, no para inversión
 ### Ejemplo de Subestimación
 
 - **Casa unifamiliar $400K:** $4,000-5,000/año
@@ -94,13 +94,13 @@ En esta guía, explicamos **los errores más comunes al invertir en Florida sien
 - **County con impuestos altos:** Property tax > 1.5%
 ### Zonas Recomendadas vs. Evitar
 
-- **Orlando:** ? Alta -- 0.9-1.1% -- Medio -- ? Permitido
-- **Tampa:** ? Alta -- 1.0-1.2% -- Medio-Alto -- ? Permitido
-- **Miami:** ? Alta -- 0.9-1.1% -- Alto -- ?? Restricciones
-- **Jacksonville:** ? Media-Alta -- 1.1-1.3% -- Medio -- ? Permitido
-- **Naples:** ? Alta -- 0.7-0.9% -- Alto -- ?? Restricciones
-- **Panama City Beach:** ?? Estacional -- 0.8-1.0% -- Alto -- ? Permitido
-- **Zona rural:** ? Baja -- 0.6-0.8% -- Bajo -- ?? Permitido
+- **Orlando:** ✅ Alta -- 0.9-1.1% -- Medio -- ✅ Permitido
+- **Tampa:** ✅ Alta -- 1.0-1.2% -- Medio-Alto -- ✅ Permitido
+- **Miami:** ✅ Alta -- 0.9-1.1% -- Alto -- ⚠️ Restricciones
+- **Jacksonville:** ✅ Media-Alta -- 1.1-1.3% -- Medio -- ✅ Permitido
+- **Naples:** ✅ Alta -- 0.7-0.9% -- Alto -- ⚠️ Restricciones
+- **Panama City Beach:** ⚠️ Estacional -- 0.8-1.0% -- Alto -- ⚠️ Permitido
+- **Zona rural:** ❌ Baja -- 0.6-0.8% -- Bajo -- ⚠️ Permitido
 ## 7. No Entender las Reglas de HOA y Covenants
 
 ### Un Error que Mata la Rentabilidad

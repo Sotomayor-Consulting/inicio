@@ -107,7 +107,7 @@ Stripe maneja automáticamente los reintentos de pago fallidos con **Smart Retri
 
 ### Métricas Clave desde Stripe
 
-- **MRR:** Monthly Recurring Revenue -- Dashboard ? Revenue
+- **MRR:** Monthly Recurring Revenue -- Dashboard → Revenue
 - **ARR:** Annual Recurring Revenue -- MRR × 12
 - **Churn Rate:** % de cancelaciones -- Suscripciones canceladas / activas
 - **LTV:** Lifetime Value -- MRR promedio × vida útil del cliente

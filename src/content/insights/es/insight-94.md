@@ -36,16 +36,16 @@ En esta guía, explicamos **cómo cobrar clientes en diferentes países** en 202
 
 ### Los Métodos que Cada País Prefiere
 
-- **EE. UU.:** Visa/Mastercard -- ACH -- Link -- ? Todos
-- **Reino Unido:** Visa/Mastercard -- Bacs Direct Debit --  -- ? Todos
-- **Europa:** iDEAL (NL) -- Tarjeta -- SEPA -- ? Todos
-- **Brasil:** Pix -- Tarjeta -- Boleto -- ? Todos
-- **México:** Tarjeta -- OXXO -- SPEI -- ? Todos
-- **Colombia:** Tarjeta -- PSE -- Efecty -- ? PSE y tarjetas
-- **Argentina:** Tarjeta -- Rapipago -- Pago Fácil -- ? Tarjetas
-- **Chile:** Webpay -- Tarjeta -- Khipu -- ? Webpay y tarjetas
-- **Perú:** Tarjeta -- PagoEfectivo --  -- ? Tarjetas
-- **Australia:** Tarjeta -- BPay --  -- ? Todos
+- **EE. UU.:** Visa/Mastercard -- ACH -- Link -- ✅ Todos
+- **Reino Unido:** Visa/Mastercard -- Bacs Direct Debit --  -- ✅ Todos
+- **Europa:** iDEAL (NL) -- Tarjeta -- SEPA -- ✅ Todos
+- **Brasil:** Pix -- Tarjeta -- Boleto -- ✅ Todos
+- **México:** Tarjeta -- OXXO -- SPEI -- ✅ Todos
+- **Colombia:** Tarjeta -- PSE -- Efecty -- ✅ PSE y tarjetas
+- **Argentina:** Tarjeta -- Rapipago -- Pago Fácil -- ✅ Tarjetas
+- **Chile:** Webpay -- Tarjeta -- Khipu -- ✅ Webpay y tarjetas
+- **Perú:** Tarjeta -- PagoEfectivo --  -- ✅ Tarjetas
+- **Australia:** Tarjeta -- BPay --  -- ✅ Todos
 ### Cómo Configurar Métodos de Pago Locales
 
 ## 4. Facturación Internacional con Stripe Invoicing
@@ -53,12 +53,12 @@ En esta guía, explicamos **cómo cobrar clientes en diferentes países** en 202
 ### Facturas en Múltiples Monedas
 
 - **Monedas soportadas:** +50 monedas
-- **Conversión automática:** ? (a USD a tu tipo de cambio)
-- **Impuestos locales:** ? Stripe Tax integrado
-- **Envío automático:** ? Email o link
-- **Pagos recurrentes:** ? Subscription invoices
-- **Memo personalizado:** ? Notas, términos, números de factura
-- **Records de pago:** ? Automáticos
+- **Conversión automática:** ✅ (a USD a tu tipo de cambio)
+- **Impuestos locales:** ✅ Stripe Tax integrado
+- **Envío automático:** ✅ Email o link
+- **Pagos recurrentes:** ✅ Subscription invoices
+- **Memo personalizado:** ✅ Notas, términos, números de factura
+- **Records de pago:** ✅ Automáticos
 ### Ejemplo: Facturar a Cliente en Europa
 
 ### Facturación para Clientes sin Stripe
@@ -82,8 +82,8 @@ En esta guía, explicamos **cómo cobrar clientes en diferentes países** en 202
 ### Cómo Maneja Stripe la Conversión
 
 - **Cliente paga en USD:** Nada (ya está en USD) -- N/A -- USD exacto
-- **Cliente paga en EUR:** Convierte EUR ? USD -- Tasa Stripe (0.5-1% markup) -- USD convertido
-- **Cliente paga en BRL:** Convierte BRL ? USD -- Tasa Stripe -- USD convertido
+- **Cliente paga en EUR:** Convierte EUR → USD -- Tasa Stripe (0.5-1% markup) -- USD convertido
+- **Cliente paga en BRL:** Convierte BRL → USD -- Tasa Stripe -- USD convertido
 - **Precio en moneda local:** Cobra en moneda local, convierte a USD -- Tasa Stripe -- USD convertido
 ### Optimización de FX
 
@@ -91,14 +91,14 @@ En esta guía, explicamos **cómo cobrar clientes en diferentes países** en 202
 
 ### Stripe Tax: Automatización de Impuestos Globales
 
-- **EE. UU.:** Sales Tax -- 0-10% (según estado) -- ? Sí (con registro)
-- **Europa:** VAT -- 17-27% (según país) -- ? Sí (con registro)
-- **Reino Unido:** VAT -- 20% -- ? Sí
-- **Australia:** GST -- 10% -- ? Sí
-- **Brasil:** ICMS/ISS -- 7-18% -- ?? Parcial (integración)
-- **México:** IVA -- 16% -- ?? Parcial
-- **Colombia:** IVA -- 19% -- ?? Parcial
-- **Chile:** IVA -- 19% -- ?? Parcial
+- **EE. UU.:** Sales Tax -- 0-10% (según estado) -- ✅ Sí (con registro)
+- **Europa:** VAT -- 17-27% (según país) -- ✅ Sí (con registro)
+- **Reino Unido:** VAT -- 20% -- ✅ Sí
+- **Australia:** GST -- 10% -- ✅ Sí
+- **Brasil:** ICMS/ISS -- 7-18% -- ⚠️ Parcial (integración)
+- **México:** IVA -- 16% -- ⚠️ Parcial
+- **Colombia:** IVA -- 19% -- ⚠️ Parcial
+- **Chile:** IVA -- 19% -- ⚠️ Parcial
 ### Cómo Configurar Impuestos Globales
 
 ## 8. Stripe Connect para Pagar a Terceros

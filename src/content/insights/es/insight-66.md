@@ -66,7 +66,7 @@ Stripe Tax está disponible en:
 - **Sudáfrica:** VAT
 ### Paso 2: Activa Stripe Tax en Dashboard
 
-1. Stripe Dashboard ? Productos ? Stripe Tax
+1. Stripe Dashboard → Productos → Stripe Tax
 2. Haz clic en **Activar Stripe Tax**
 3. Configura tu país de registro y datos fiscales
 4. Define las categorías de producto
@@ -139,7 +139,7 @@ Stripe Tax también funciona con suscripciones:
 - **Facturas:** Facturas con impuestos desglosados
 ### Cómo Acceder a los Reportes
 
-1. Stripe Dashboard ? Stripe Tax ? Reportes
+1. Stripe Dashboard → Stripe Tax → Reportes
 2. Selecciona el período (mes, trimestre, año)
 3. Filtra por país, producto o tasa
 4. Exporta a CSV para tu contador

@@ -197,27 +197,27 @@ However, most mistakes are avoidable. In this guide, we compile the most common 
 **Situation:** Pablo, an SEO specialist from Peru, formed his LLC in Wyoming in 2022. Here is what he did wrong:
 
 ### Year 1 (2022)
-- ? Formed the LLC correctly.
-- ? Obtained the EIN.
-- ? Opened a Mercury account.
-- ? Did not draft an Operating Agreement.
-- ? Did not know Form 5472 existed.
+- Formed the LLC correctly.
+- Obtained the EIN.
+- Opened a Mercury account.
+- Did not draft an Operating Agreement.
+- Did not know Form 5472 existed.
 
 ### Year 2 (2023)
-- ? Used the Mercury account for personal expenses (Amazon, Netflix, etc.).
-- ? Did not file Form 5472 (potential penalty: $25,000).
-- ? Moved from Peru to Mexico without updating his address.
-- ? Added a partner without changing his tax structure.
-- ? Did not file Wyoming's Annual Report.
-- ? Ignored an IRS letter about the 5472.
+- Used the Mercury account for personal expenses (Amazon, Netflix, etc.).
+- Did not file Form 5472 (potential penalty: $25,000).
+- Moved from Peru to Mexico without updating his address.
+- Added a partner without changing his tax structure.
+- Did not file Wyoming's Annual Report.
+- Ignored an IRS letter about the 5472.
 
 ### Result (2024)
-- ?? LLC suspended for missing Annual Report.
-- ?? Mercury froze his account.
-- ?? IRS imposed a $25,000 penalty for not filing 5472.
-- ?? Additional penalty for not responding to the IRS letter.
-- ?? The partner cannot report income because there is no K-1.
-- ?? Pablo lost 3 months of income while resolving.
+- LLC suspended for missing Annual Report.
+- Mercury froze his account.
+- IRS imposed a $25,000 penalty for not filing 5472.
+- Additional penalty for not responding to the IRS letter.
+- The partner cannot report income because there is no K-1.
+- Pablo lost 3 months of income while resolving.
 
 ### Total cost of mistakes
 - IRS penalty: $25,000.

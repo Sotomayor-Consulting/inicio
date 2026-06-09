@@ -129,7 +129,7 @@ Sí. Stripe permite configurar dominios personalizados para el checkout. Requier
 
 ### ¿Las facturas pueden tener mi logo?
 
-Sí. Configura tu logo en Stripe Dashboard ? Configuración ? Marca. Aparecerá automáticamente en facturas y recibos.
+Sí. Configura tu logo en Stripe Dashboard → Configuración → Marca. Aparecerá automáticamente en facturas y recibos.
 
 ### ¿Los emails de Stripe pueden ser personalizados?
 

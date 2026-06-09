@@ -26,10 +26,10 @@ En esta guía, presentamos **qué revisar antes de invertir en EE. UU. siendo ex
 
 ### Opciones de Estructura
 
-- **Nombre personal:** ? Ninguna -- ? Pública -- ? Expuesto -- $0 -- Mínima
-- **LLC sola:** ? Limitada -- ? Propietario es LLC -- ?? Expuesto (> $60K) -- $500-1,000 -- Baja
-- **LLC + Holding internacional:** ? Alta -- ? Alta -- ? Protegido -- $2,000-4,000 -- Media
-- **LLC + Holding + Trust:** ? Máxima -- ? Máxima -- ? Protegido -- $4,000-8,000 -- Alta
+- **Nombre personal:** ❌ Ninguna -- ❌ Pública -- ✅ Expuesto -- $0 -- Mínima
+- **LLC sola:** ✅ Limitada -- ✅ Propietario es LLC -- ⚠️ Expuesto (> $60K) -- $500-1,000 -- Baja
+- **LLC + Holding internacional:** ✅ Alta -- ✅ Alta -- ❌ Protegido -- $2,000-4,000 -- Media
+- **LLC + Holding + Trust:** ✅ Máxima -- ✅ Máxima -- ❌ Protegido -- $4,000-8,000 -- Alta
 ### Checklist Legal Pre-Compra
 
 ## 3. Revisar el Estado y la Ubicación
@@ -39,8 +39,8 @@ En esta guía, presentamos **qué revisar antes de invertir en EE. UU. siendo ex
 - **State income tax:** 0% -- 0% -- 4-10.9% -- 1-13.3%
 - **Property tax:** 0.8-1.2% -- 1.6-2.2% -- 1.4% -- 0.77%
 - **Transfer tax (compra):** 0.7% -- 0.5-1.5% -- 1.825% -- 0.11%
-- **Short-term rental:** ? Permitido* -- ? Permitido* -- ?? Restringido -- ?? Restringido
-- **Protección LLC:** ? Buena -- ? Buena -- ? Buena -- ?? Media
+- **Short-term rental:** ✅ Permitido* -- ✅ Permitido* -- ⚠️ Restringido -- ⚠️ Restringido
+- **Protección LLC:** ✅ Buena -- ✅ Buena -- ✅ Buena -- ⚠️ Media
 - **Seguro huracán:** Alto -- Medio -- Bajo -- Bajo
 - **Costo de vida:** Medio -- Bajo -- Alto -- Muy alto
 ### Micro-Ubicación: Qué Revisar en el Vecindario
@@ -74,11 +74,11 @@ En esta guía, presentamos **qué revisar antes de invertir en EE. UU. siendo ex
 
 ### Seguros Mínimos Requeridos
 
-- **Property insurance (vivienda):** ? Sí (si hay hipoteca) -- $1,500-8,000
-- **Hurricane/windstorm:** ? Sí (en zonas de riesgo) -- $1,000-5,000 adicional
-- **Flood insurance:** ?? Si está en flood zone (FEMA) -- $400-2,000
-- **Liability insurance:** ? Muy recomendado -- $500-2,000
-- **Umbrella policy:** ?? Recomendado (2+ propiedades) -- $300-1,000
+- **Property insurance (vivienda):** ✅ Sí (si hay hipoteca) -- $1,500-8,000
+- **Hurricane/windstorm:** ✅ Sí (en zonas de riesgo) -- $1,000-5,000 adicional
+- **Flood insurance:** ⚠️ Si está en flood zone (FEMA) -- $400-2,000
+- **Liability insurance:** ✅ Muy recomendado -- $500-2,000
+- **Umbrella policy:** ⚠️ Recomendado (2+ propiedades) -- $300-1,000
 ### Cobertura Recomendada por Tipo de Propiedad
 
 ## 7. Revisar las Restricciones Legales Locales

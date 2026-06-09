@@ -25,7 +25,7 @@ Voc� � residente fiscal se:
 - Esteve nos EUA 31+ dias este ano, E
 - 183+ dias nos �ltimos 3 anos (somando: ano atual x 1 + ano anterior x 1/3 + ano retrasado x 1/3)
 
-Se n�o cumprir: � n�o residente ? s� tributa renda de fonte nos EUA
+Se n�o cumprir: � n�o residente → s� tributa renda de fonte nos EUA
 
 Para investidores estrangeiros:
 - Se visita a Fl�rida 2-3 vezes ao ano (< 120 dias totais)
@@ -105,10 +105,10 @@ REPAROS (dedu��o imediata):
 - Trocar uma janela quebrada ()
 
 MELHORIAS (deprecia��o):
-- Telhado novo (.000 ? 27.5 anos)
-- Cozinha nova (.000 ? 27.5 anos)
-- Piscina (.000 ? 27.5 anos)
-- Sistema solar (.000 ? 5 anos)
+- Telhado novo (.000 → 27.5 anos)
+- Cozinha nova (.000 → 27.5 anos)
+- Piscina (.000 → 27.5 anos)
+- Sistema solar (.000 → 5 anos)
 `
 
 ## 4. Deprecia��o (O Maior Benef�cio Fiscal)
@@ -133,8 +133,8 @@ Deprecia��o anual:
 .000 / 27.5 = .909/ano
 
 Benef�cio fiscal:
-- Sem deprecia��o: Renda l�quida .000 ? Imposto .300 (22%)
-- Com deprecia��o: Renda l�quida .091 ? Imposto  (22%)
+- Sem deprecia��o: Renda l�quida .000 → Imposto .300 (22%)
+- Com deprecia��o: Renda l�quida .091 → Imposto  (22%)
 - Economia fiscal: .400/ano SEM gastar um centavo
 `
 
@@ -142,7 +142,7 @@ Benef�cio fiscal:
 // Stripe Tax: Stripe pode ajudar com c�lculos fiscais
 // mas a deprecia��o � calculada pelo seu CPA
 
-// Stripe Dashboard ? Relat�rios ? Resumo fiscal
+// Stripe Dashboard → Relat�rios → Resumo fiscal
 // Stripe gera relat�rios de receita bruta para seu CPA
 
 // Exportar dados para seu CPA
@@ -171,12 +171,12 @@ Deprecia��o tomada: .000
 Pre�o de venda: .000
 
 Ganho total: .000
-  - Deprecia��o recuperada: .000 ? 25% = .500
-  - Ganho de capital: .000 ? 20% = .000
+  - Deprecia��o recuperada: .000 → 25% = .500
+  - Ganho de capital: .000 → 20% = .000
   - Imposto total: .500
 
 Sem deprecia��o:
-  - Ganho de capital: .000 ? 20% = .000
+  - Ganho de capital: .000 → 20% = .000
 
 Vale a pena? Sim, porque diferiu impostos por anos.
 `
@@ -300,7 +300,7 @@ tem despesas significativas (hipoteca, deprecia��o).
 `javascript
 // Stripe: Configurar W-8ECI para evitar reten��o de 30%
 
-// Stripe Dashboard ? Configura��es ? Impostos
+// Stripe Dashboard → Configura��es → Impostos
 // Adicionar W-8ECI para Stripe n�o reter 30%
 
 // Stripe verificar� seu status fiscal
@@ -330,15 +330,15 @@ para reduzir ou eliminar a reten��o se:
 
 1. A propriedade � vendida por MENOS de .000
    E o comprador a usa como resid�ncia (n�o investimento)
-   ? Isen��o autom�tica
+   → Isen��o autom�tica
 
 2. O ganho real � menor que 15% do pre�o
-   ? Solicite redu��o (Form 8288-B)
-   ? Deve enviar antes do fechamento
-   ? IRS leva 30-60 dias para processar
+   → Solicite redu��o (Form 8288-B)
+   → Deve enviar antes do fechamento
+   → IRS leva 30-60 dias para processar
 
 3. Vende com preju�zo
-   ? Pode solicitar reten��o de 
+   → Pode solicitar reten��o de 
 
 Exemplo:
 Pre�o de venda: .000
@@ -426,7 +426,7 @@ Custo do estudo: .000-8.000
 
 `javascript
 // Stripe: Relat�rios para seu CPA
-// Stripe Dashboard ? Relat�rios ? Exportar transa��es
+// Stripe Dashboard → Relat�rios → Exportar transa��es
 
 // Exporta��o para contabilidade (CSV)
 const reportRun = await stripe.reporting.reportRuns.create({

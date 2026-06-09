@@ -80,9 +80,9 @@ El BMF es la fuente de verdad del IRS sobre tu LLC. Si los datos en el BMF no co
 - **Responsable desactualizado:** Notificaciones a la persona equivocada
 ### Casos comunes
 
-- Cambiaste de dirección y no actualizaste el BMF ? el IRS te envía un aviso de auditoría a la dirección antigua, no lo recibes, y te imponen una multa por no responder.
-- Tu nombre en el EIN es "Sotomayor Consulting LLC" pero tu Certificate of Formation dice "Sotomayor Consulting LLC." (con punto) ? discrepancias que pueden generar alertas.
-- Tu LLC cambió de single-member a multi-member y no actualizaste el EIN ? el IRS tiene un registro incorrecto.
+- Cambiaste de dirección y no actualizaste el BMF → el IRS te envía un aviso de auditoría a la dirección antigua, no lo recibes, y te imponen una multa por no responder.
+- Tu nombre en el EIN es "Sotomayor Consulting LLC" pero tu Certificate of Formation dice "Sotomayor Consulting LLC." (con punto) → discrepancias que pueden generar alertas.
+- Tu LLC cambió de single-member a multi-member y no actualizaste el EIN → el IRS tiene un registro incorrecto.
 
 ## ¿Cómo se actualiza el BMF?
 

@@ -56,7 +56,7 @@ Shopify Payments usa Stripe como procesador. Disponible en:
 #### Paso 1: Accede a la Configuración de Pago
 
 1. Inicia sesión en el admin de Shopify
-2. Ve a **Configuración** ? **Pagos**
+2. Ve a **Configuración** → **Pagos**
 3. En la sección "Shopify Payments", haz clic en **Activar Shopify Payments**
 
 #### Paso 2: Completa los Datos de la Empresa
@@ -97,7 +97,7 @@ Si Shopify Payments no está disponible en tu país, puedes integrar Stripe dire
 
 #### Paso 2: Instala Stripe en Shopify
 
-1. En el admin de Shopify, ve a **Configuración** ? **Pagos**
+1. En el admin de Shopify, ve a **Configuración** → **Pagos**
 2. En "Métodos de pago adicionales", haz clic en **Agregar método de pago**
 3. Busca "Stripe" y haz clic en **Activar**
 4. Autoriza la conexión entre Shopify y Stripe
@@ -116,7 +116,7 @@ Si Shopify Payments no está disponible en tu país, puedes integrar Stripe dire
 Shopify Markets te permite vender en diferentes monedas:
 
 **Cómo configurar:**
-1. Shopify admin ? Configuración ? Mercados
+1. Shopify admin → Configuración → Mercados
 2. Agrega mercados por país o región
 3. Configura precios en moneda local
 4. Stripe procesa automáticamente en la moneda correcta
@@ -134,7 +134,7 @@ Shopify Payments (Stripe) incluye 3D Secure nativo:
 
 Configura webhooks para recibir notificaciones en tiempo real:
 
-1. Shopify admin ? Configuración ? Notificaciones
+1. Shopify admin → Configuración → Notificaciones
 2. Configura webhooks para:
    - `orders/paid`  pedido pagado
    - `orders/fulfilled`  pedido enviado
@@ -204,11 +204,11 @@ Configura webhooks para recibir notificaciones en tiempo real:
 
 Con Shopify Payments (Stripe), puedes personalizar el checkout:
 
-- **Checkout personalizado:** Limitado -- ? Completo
-- **Campos adicionales:** ? -- ? Sí
-- **Logotipo y colores:** ? Sí -- ? Sí
-- **Dominio personalizado:** ? Sí -- ? Sí
-- **Checkout en una página:** ? Sí -- ? Sí
+- **Checkout personalizado:** Limitado -- ✅ Completo
+- **Campos adicionales:** ❌ -- ✅ Sí
+- **Logotipo y colores:** ✅ Sí -- ✅ Sí
+- **Dominio personalizado:** ✅ Sí -- ✅ Sí
+- **Checkout en una página:** ✅ Sí -- ✅ Sí
 ### Optimización de Conversión
 
 - **Checkout en una página:** +10-15% conversión
@@ -242,10 +242,10 @@ Si Shopify Payments no está disponible en tu país:
 
 Si Shopify Payments + Stripe no funciona para tu caso:
 
-- **WooCommerce:** ? Sí (vía plugin) -- Quienes tienen WordPress
-- **BigCommerce:** ? Sí -- Empresas en crecimiento
-- **Wix:** ? Sí (vía Wix Payments) -- Tiendas simples
-- **Squarespace:** ? Sí (vía Squarespace Payments) -- Portafolios y tiendas
+- **WooCommerce:** ✅ Sí (vía plugin) -- Quienes tienen WordPress
+- **BigCommerce:** ✅ Sí -- Empresas en crecimiento
+- **Wix:** ✅ Sí (vía Wix Payments) -- Tiendas simples
+- **Squarespace:** ✅ Sí (vía Squarespace Payments) -- Portafolios y tiendas
 ## 9. Consejos para Maximizar la Integración
 
 ### 1. Activa Shopify Protect
@@ -263,13 +263,13 @@ El nombre que aparece en el estado de cuenta del cliente debe ser reconocible:
 - **Bueno:** "SOTOMAYOR CONSULTING"
 - **Malo:** "PAYMENT-SOLUTIONS-LLC123"
 
-**Cómo configurar en Shopify Payments:** Admin ? Configuración ? Pagos ? Shopify Payments ? Gestionar ? Descriptor de cobro
+**Cómo configurar en Shopify Payments:** Admin → Configuración → Pagos → Shopify Payments → Gestionar → Descriptor de cobro
 
 ### 3. Monitorea la Tasa de Chargeback
 
 - Tasa ideal: por debajo del 0.5%
 - Límite Shopify: si supera el 1%, puede haber restricciones
-- Dashboard: Shopify admin ? Análisis ? Reportes ? Chargebacks
+- Dashboard: Shopify admin → Análisis → Reportes → Chargebacks
 
 ### 4. Usa Shopify Fraud Analysis
 
@@ -283,7 +283,7 @@ Shopify analiza cada pedido y asigna una nota de riesgo (0-100):
 ### Resumen en 5 Pasos
 
 - **1:** Crea o accede a tu cuenta de Shopify -- 5 min
-- **2:** Ve a Configuración ? Pagos -- 2 min
+- **2:** Ve a Configuración → Pagos -- 2 min
 - **3:** Activa Shopify Payments -- 10 min
 - **4:** Completa datos de la empresa y bancarios -- 10 min
 - **5:** Completa verificación y espera aprobación -- 24-72 horas

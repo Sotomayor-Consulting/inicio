@@ -161,29 +161,29 @@ Es una capa adicional de seguridad que verifica la identidad del comprador. El c
 
 ### América del Norte (EE. UU. y Canadá)
 
-- **Stripe:** Todas -- ? Nativo -- USD, CAD
-- **Square:** Todas -- ? -- USD, CAD
-- **Authorize.net:** Todas -- ? -- USD, CAD
+- **Stripe:** Todas -- ✅ Nativo -- USD, CAD
+- **Square:** Todas -- ✅ -- USD, CAD
+- **Authorize.net:** Todas -- ✅ -- USD, CAD
 **Particularidades:** Las tarjetas de crédito son el método dominante. Amex tiene fuerte presencia. 3DS es opcional (no obligatorio como en Europa).
 
 ### Europa
 
-- **Stripe:** Todas -- ? Obligatorio (PSD2) -- EUR, GBP, etc.
-- **Adyen:** Todas -- ? Obligatorio -- EUR, GBP, etc.
+- **Stripe:** Todas -- ✅ Obligatorio (PSD2) -- EUR, GBP, etc.
+- **Adyen:** Todas -- ✅ Obligatorio -- EUR, GBP, etc.
 **Particularidades:** PSD2 exige autenticación fuerte (SCA) para la mayoría de las transacciones. 3DS 2.0 es el estándar.
 
 ### América Latina
 
-- **Stripe:** Todas (MX, BR) -- ? -- MXN, BRL
-- **Mercado Pago:** Todas + marcas locales -- ? -- Monedas locales
-- **DLocal:** Todas -- ? -- Monedas locales
+- **Stripe:** Todas (MX, BR) -- ✅ -- MXN, BRL
+- **Mercado Pago:** Todas + marcas locales -- ✅ -- Monedas locales
+- **DLocal:** Todas -- ✅ -- Monedas locales
 **Particularidades:** Las cuotas (Brasil, México) son comunes y esperadas por los clientes. Boleto y Pix en Brasil.
 
 ### Asia
 
-- **Stripe:** Todas (países seleccionados) -- ? -- JPY, SGD, HKD, AUD
-- **PayPal:** Todas -- ? -- Varias
-- **Alipay/WeChat Pay:** Carteras locales -- ? -- CNY
+- **Stripe:** Todas (países seleccionados) -- ✅ -- JPY, SGD, HKD, AUD
+- **PayPal:** Todas -- ✅ -- Varias
+- **Alipay/WeChat Pay:** Carteras locales -- ✅ -- CNY
 **Particularidades:** En China, Alipay y WeChat Pay dominan. En Japón, las tarjetas son populares.
 
 ## 7. Problemas Comunes y Soluciones
@@ -219,7 +219,7 @@ Es una capa adicional de seguridad que verifica la identidad del comprador. El c
 
 **Causas:**
 - Procesador usa spread alto
-- Doble conversión (moneda local ? USD ? moneda del cliente)
+- Doble conversión (moneda local → USD → moneda del cliente)
 
 **Soluciones:**
 - Configura para procesar en la moneda del cliente (cuando sea posible)

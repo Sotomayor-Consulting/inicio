@@ -26,8 +26,8 @@ The **source of income** determines how and where it is taxed. Classify each typ
 
 ### Service income (Freelance / Work):
 - **Source**: Where the physical work is performed
-- If you work from the U.S. ? U.S. source
-- If you work from abroad ? Foreign source
+- If you work from the U.S. → U.S. source
+- If you work from abroad → Foreign source
 
 ### Investment income:
 - **Dividends**: Generally sourced from the company's country

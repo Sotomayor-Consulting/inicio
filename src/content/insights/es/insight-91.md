@@ -35,10 +35,10 @@ En esta guía, explicamos **cómo expandir tu negocio internacionalmente** en 20
 
 ### Delaware vs Wyoming vs Florida
 
-- **Delaware:** ? Más usado -- Sin impuesto estatal a ingresos fuera del estado -- Medio -- $300 + $200 franchise tax
-- **Wyoming:** ? Creciente -- Sin franchise tax, sin impuesto corporativo -- Alto (miembros no aparecen) -- $60
-- **Florida:** ? Menos usado -- Sin impuesto personal estatal -- Bajo -- $140
-- **Nevada:** ? Buena opción -- Sin impuesto corporativo, sin franchise tax -- Alto -- $350
+- **Delaware:** ✅ Más usado -- Sin impuesto estatal a ingresos fuera del estado -- Medio -- $300 + $200 franchise tax
+- **Wyoming:** ✅ Creciente -- Sin franchise tax, sin impuesto corporativo -- Alto (miembros no aparecen) -- $60
+- **Florida:** ❌ Menos usado -- Sin impuesto personal estatal -- Bajo -- $140
+- **Nevada:** ✅ Buena opción -- Sin impuesto corporativo, sin franchise tax -- Alto -- $350
 ## 3. Infrastructure de Pagos Internacionales
 
 ### Stripe para Negocios Globales
@@ -62,8 +62,8 @@ En esta guía, explicamos **cómo expandir tu negocio internacionalmente** en 20
 - **Costo mensual:** $500-1,000/empleado -- $5,000-15,000/mes + setup
 - **Tiempo de setup:** 1-3 días -- 3-6 meses
 - **Complejidad legal:** Mínima (ellos manejan todo) -- Alta (abogados locales, registros)
-- **Compliance:** ? Cobertura total -- ? Control total
-- **Equity:** ? Opciones disponibles -- ? Fácil de emitir
+- **Compliance:** ✅ Cobertura total -- ✅ Control total
+- **Equity:** ✅ Opciones disponibles -- ✅ Fácil de emitir
 - **Beneficios:** Planes estandarizados -- Personalizados
 - **Ideal para:** 1-50 empleados en múltiples países -- 50+ empleados en un país
 ### Mejores Plataformas de EOR 2026
@@ -117,31 +117,31 @@ En esta guía, explicamos **cómo expandir tu negocio internacionalmente** en 20
 
 ### SaaS / Digital Products
 
-- **1:** Incorpora LLC en EE. UU. (Stripe Atlas) -- ? Atlas
-- **2:** Abre cuenta en Mercury o Stripe -- ? Payments
-- **3:** Configura suscripciones globales -- ? Billing
-- **4:** Precios locales por moneda -- ? Price API
-- **5:** Stripe Tax automático -- ? Tax
-- **6:** Contrata vía EOR (Deel/Remote) -- ? Connect
+- **1:** Incorpora LLC en EE. UU. (Stripe Atlas) -- ✅ Atlas
+- **2:** Abre cuenta en Mercury o Stripe -- ✅ Payments
+- **3:** Configura suscripciones globales -- ✅ Billing
+- **4:** Precios locales por moneda -- ✅ Price API
+- **5:** Stripe Tax automático -- ✅ Tax
+- **6:** Contrata vía EOR (Deel/Remote) -- ✅ Connect
 ### E-commerce / Dropshipping
 
-- **1:** LLC en EE. UU. para procesar pagos -- ? Atlas
-- **2:** Shopify + Stripe para checkout global -- ? Payments
-- **3:** Stripe Tax para sales tax/VAT -- ? Tax
-- **4:** Fulfillment en EE. UU. (ShipBob) -- ? Connect
-- **5:** Stripe Radar contra fraude -- ? Radar
+- **1:** LLC en EE. UU. para procesar pagos -- ✅ Atlas
+- **2:** Shopify + Stripe para checkout global -- ✅ Payments
+- **3:** Stripe Tax para sales tax/VAT -- ✅ Tax
+- **4:** Fulfillment en EE. UU. (ShipBob) -- ✅ Connect
+- **5:** Stripe Radar contra fraude -- ✅ Radar
 ### Marketplace / Plataforma
 
-- **1:** C-Corp en EE. UU. para atraer inversión -- ? Atlas
-- **2:** Stripe Connect para pagar a sellers -- ? Connect
-- **3:** Verificación KYC de sellers -- ? Identity
-- **4:** Stripe Tax por transacción -- ? Tax
-- **5:** Stripe Issuing para tarjetas corporativas -- ? Issuing
+- **1:** C-Corp en EE. UU. para atraer inversión -- ✅ Atlas
+- **2:** Stripe Connect para pagar a sellers -- ✅ Connect
+- **3:** Verificación KYC de sellers -- ✅ Identity
+- **4:** Stripe Tax por transacción -- ✅ Tax
+- **5:** Stripe Issuing para tarjetas corporativas -- ✅ Issuing
 ### Consultoría / Servicios
 
-- **1:** LLC en EE. UU. para facturar global -- ? Atlas
-- **2:** Stripe Invoicing para facturar en USD -- ? Invoicing
-- **3:** Stripe Connect para pagar contractors -- ? Connect
+- **1:** LLC en EE. UU. para facturar global -- ✅ Atlas
+- **2:** Stripe Invoicing para facturar en USD -- ✅ Invoicing
+- **3:** Stripe Connect para pagar contractors -- ✅ Connect
 - **4:** Wise Business para recibir en EUR, GBP -- 
 - **5:** DUA (Digital Union Agreement) + CPA -- 
 ## 9. Plan de Expansión Paso a Paso

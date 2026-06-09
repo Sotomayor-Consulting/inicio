@@ -29,18 +29,18 @@ Neste guia, explicamos **os erros mais comuns ao investir na Flórida sendo estr
 
 ### O Erro que Pode Custar 40% do seu Patrimônio
 
-- **"Isso só aplica a milionários":** ✅ Aplica desde $60.000 em ativos nos EUA
-- **"A LLC me protege":** ⚠️ Depende: se você é membro direto, os ativos da LLC contam
-- **"Não pretendo morrer tão cedo":** ✅ O imposto aplica quando falecer, sem importar a idade
-- **"Meu país não tem estate tax":** ✅ Os EUA cobram sobre ativos dentro do seu território
+- **"Isso só aplica a milionários":** Aplica desde $60.000 em ativos nos EUA
+- **"A LLC me protege":** Depende: se você é membro direto, os ativos da LLC contam
+- **"Não pretendo morrer tão cedo":** O imposto aplica quando falecer, sem importar a idade
+- **"Meu país não tem estate tax":** Os EUA cobram sobre ativos dentro do seu território
 ### O Cálculo que Dói
 
 ### Solução
 
-- **Nome pessoal:** ❌ Não -- $0
-- **LLC sozinha:** ⚠️ Parcial (depende) -- $138,75 + fees
-- **LLC + Trust:** ✅ Sim -- $500-2.000
-- **LLC + Holding estrangeira:** ✅ Sim (recomendada) -- $500-2.000
+- **Nome pessoal:** Não -- $0
+- **LLC sozinha:** Parcial (depende) -- $138,75 + fees
+- **LLC + Trust:** Sim -- $500-2.000
+- **LLC + Holding estrangeira:** Sim (recomendada) -- $500-2.000
 ## 3. Não Obter ITIN ou Fazer Tarde
 
 ### Por Que é um Erro
@@ -57,9 +57,9 @@ Neste guia, explicamos **os erros mais comuns ao investir na Flórida sendo estr
 
 ### O Imposto que Nunca Desaparece
 
-- **"O property tax é baixo":** ✅ Na Flórida é 0,8-1,2%, mas sobe com o valor da propriedade
-- **"Já está incluído no pagamento mensal":** ✅ Só se tiver escrow. Se não, deve pagar separadamente
-- **"A homestead exemption aplica":** ❌ Só se for sua residência principal, não para investimento
+- **"O property tax é baixo":** Na Flórida é 0,8-1,2%, mas sobe com o valor da propriedade
+- **"Já está incluído no pagamento mensal":** Só se tiver escrow. Se não, deve pagar separadamente
+- **"A homestead exemption aplica":** Só se for sua residência principal, não para investimento
 ### Exemplo de Subestimação
 
 - **Casa unifamiliar $400K:** $4.000-5.000/ano

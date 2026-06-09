@@ -25,7 +25,7 @@ You are a tax resident if:
 - You were in the US 31+ days this year, AND
 - 183+ days over 3 years (current x 1 + prior x 1/3 + 2nd prior x 1/3)
 
-If you don't meet it: you are a non-resident ? only US income taxed
+If you don't meet it: you are a non-resident → only US income taxed
 
 For foreign investors:
 - If you visit Florida 2-3 times a year (< 120 total days)
@@ -105,10 +105,10 @@ REPAIRS (immediate deduction):
 - Replacing a broken window ()
 
 IMPROVEMENTS (depreciation):
-- New roof (,000 ? 27.5 years)
-- New kitchen (,000 ? 27.5 years)
-- Pool (,000 ? 27.5 years)
-- Solar system (,000 ? 5 years)
+- New roof (,000 → 27.5 years)
+- New kitchen (,000 → 27.5 years)
+- Pool (,000 → 27.5 years)
+- Solar system (,000 → 5 years)
 `
 
 ## 4. Depreciation (The Biggest Tax Benefit)
@@ -133,8 +133,8 @@ Annual depreciation:
 ,000 / 27.5 = ,909/year
 
 Tax benefit:
-- Without depreciation: Net income ,000 ? Tax ,300 (22%)
-- With depreciation: Net income ,091 ? Tax  (22%)
+- Without depreciation: Net income ,000 → Tax ,300 (22%)
+- With depreciation: Net income ,091 → Tax  (22%)
 - Tax savings: ,400/year WITHOUT spending a cent
 `
 
@@ -142,7 +142,7 @@ Tax benefit:
 // Stripe Tax: Stripe can help with tax calculations
 // but depreciation is handled by your CPA
 
-// Stripe Dashboard ? Reports ? Tax summary
+// Stripe Dashboard → Reports → Tax summary
 // Stripe generates gross income reports for your CPA
 
 // Export data for your CPA
@@ -171,12 +171,12 @@ Depreciation taken: ,000
 Sale price: ,000
 
 Total gain: ,000
-  - Depreciation recapture: ,000 ? 25% = ,500
-  - Capital gain: ,000 ? 20% = ,000
+  - Depreciation recapture: ,000 → 25% = ,500
+  - Capital gain: ,000 → 20% = ,000
   - Total tax: ,500
 
 Without depreciation:
-  - Capital gain: ,000 ? 20% = ,000
+  - Capital gain: ,000 → 20% = ,000
 
 Worth it? Yes, because you deferred taxes for years.
 `
@@ -300,7 +300,7 @@ has significant expenses (mortgage, depreciation).
 `javascript
 // Stripe: Configure W-8ECI to avoid 30% withholding
 
-// Stripe Dashboard ? Settings ? Tax
+// Stripe Dashboard → Settings → Tax
 // Add W-8ECI so Stripe does not withhold 30%
 
 // Stripe will verify your tax status
@@ -330,15 +330,15 @@ to reduce or eliminate withholding if:
 
 1. Property sells for LESS than ,000
    AND the buyer uses it as residence (not investment)
-   ? Automatic exemption
+   → Automatic exemption
 
 2. Actual gain is less than 15% of the price
-   ? Request reduction (Form 8288-B)
-   ? Must submit before closing
-   ? IRS takes 30-60 days to process
+   → Request reduction (Form 8288-B)
+   → Must submit before closing
+   → IRS takes 30-60 days to process
 
 3. You sell at a loss
-   ? You can request  withholding
+   → You can request  withholding
 
 Example:
 Sale price: ,000
@@ -426,7 +426,7 @@ Study cost: ,000-8,000
 
 `javascript
 // Stripe: Reports for your CPA
-// Stripe Dashboard ? Reports ? Export transactions
+// Stripe Dashboard → Reports → Export transactions
 
 // Export for accounting (CSV)
 const reportRun = await stripe.reporting.reportRuns.create({

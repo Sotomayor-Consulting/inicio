@@ -70,7 +70,7 @@ En esta guía, explicamos **los riesgos de operar sin estructura legal** en 2026
 - **Stripe Atlas:** No aplica -- Forma tu LLC
 ### Problemas Comunes
 
-- **Stripe congela fondos:** Stripe solicita documentación de empresa -- No puedes proveerla ? Fondos retenidos
+- **Stripe congela fondos:** Stripe solicita documentación de empresa -- No puedes proveerla → Fondos retenidos
 - **Cuenta restringida:** Alto volumen sin estructura corporativa -- Stripe pide EIN o documentos que no tienes
 - **Chargebacks:** Responsabilidad personal directa -- Pagas de tu bolsillo
 - **Verificación de identidad:** Documentos personales no siempre suficientes -- Stripe limita funcionalidad

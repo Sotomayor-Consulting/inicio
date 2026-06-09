@@ -105,11 +105,11 @@ Se voc� gera rendimentos digitais como pessoa f�sica (freelancer, criador, i
 O IRS trata as criptomoedas como **propriedade**. Cada transa��o � um evento tribut�vel:
 
 ### Eventos tribut�veis:
-- Vender cripto por d�lares ? Ganho ou perda de capital
-- Trocar uma cripto por outra ? Evento tribut�vel
-- Usar cripto para comprar bens ou servi�os ? Evento tribut�vel
-- Receber cripto como pagamento ? Renda ordin�ria (valor justo de mercado)
-- Recompensas de staking e minera��o ? Renda ordin�ria ao receber
+- Vender cripto por d�lares → Ganho ou perda de capital
+- Trocar uma cripto por outra → Evento tribut�vel
+- Usar cripto para comprar bens ou servi�os → Evento tribut�vel
+- Receber cripto como pagamento → Renda ordin�ria (valor justo de mercado)
+- Recompensas de staking e minera��o → Renda ordin�ria ao receber
 
 ### Eventos N�O tribut�veis:
 - Comprar cripto com d�lares e mant�-la (HODL)

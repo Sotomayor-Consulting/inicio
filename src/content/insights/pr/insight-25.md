@@ -80,9 +80,9 @@ O BMF � a fonte de verdade do IRS sobre sua LLC. Se os dados no BMF n�o coin
 - **Respons�vel desatualizado:** Notifica��es para pessoa errada
 ### Casos comuns
 
-- Voc� mudou de endere�o e n�o atualizou o BMF ? o IRS envia um aviso de auditoria para o endere�o antigo, voc� n�o o recebe, e aplicam uma multa por n�o responder.
-- Seu nome no EIN � "Sotomayor Consulting LLC" mas seu Certificate of Formation diz "Sotomayor Consulting LLC." (com ponto) ? discrep�ncias que podem gerar alertas.
-- Sua LLC mudou de single-member para multi-member e voc� n�o atualizou o EIN ? o IRS tem um registro incorreto.
+- Voc� mudou de endere�o e n�o atualizou o BMF → o IRS envia um aviso de auditoria para o endere�o antigo, voc� n�o o recebe, e aplicam uma multa por n�o responder.
+- Seu nome no EIN � "Sotomayor Consulting LLC" mas seu Certificate of Formation diz "Sotomayor Consulting LLC." (com ponto) → discrep�ncias que podem gerar alertas.
+- Sua LLC mudou de single-member para multi-member e voc� n�o atualizou o EIN → o IRS tem um registro incorreto.
 
 ## Como atualizar o BMF
 

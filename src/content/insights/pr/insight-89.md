@@ -93,11 +93,11 @@ Permite que empresas estrangeiras transfiram executivos ou gerentes para seu esc
 
 ### Um Estudante Internacional Pode Investir em Real Estate?
 
-- **Pode comprar propriedades?:** ✅ Sim
-- **Pode receber aluguéis?:** ✅ Sim (renda passiva)
-- **Pode operar um negócio imobiliário?:** ❌ Não (viola status F-1)
-- **Pode usar OPT para real estate?:** ⚠️ Depende (deve ser relacionado à sua carreira)
-- **Pode ter uma LLC?:** ✅ Sim (como investidor passivo)
+- **Pode comprar propriedades?:** Sim
+- **Pode receber aluguéis?:** Sim (renda passiva)
+- **Pode operar um negócio imobiliário?:** Não (viola status F-1)
+- **Pode usar OPT para real estate?:** Depende (deve ser relacionado à sua carreira)
+- **Pode ter uma LLC?:** Sim (como investidor passivo)
 ### Estratégia F-1 + Real Estate
 
 ## 7. Estruturação do Investimento para Migração

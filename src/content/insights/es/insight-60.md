@@ -50,7 +50,7 @@ En esta guía, explicamos **cómo usar Stripe para suscripciones** en 2026, desd
 
 #### Paso 1: Crear un Producto
 
-1. Stripe Dashboard ? Productos ? **Agregar producto**
+1. Stripe Dashboard → Productos → **Agregar producto**
 2. Nombre: "Plan Premium Mensual"
 3. Descripción: "Acceso completo a todas las funciones premium"
 4. Imagen del producto (opcional)
@@ -94,7 +94,7 @@ Para control total sobre la experiencia de suscripción:
 - **Professional:** $79/mes -- 10 usuarios, 50GB, soporte prioritario
 - **Enterprise:** $299/mes -- Usuarios ilimitados, 500GB, soporte 24/7
 **Cómo configurarlo:**
-1. Stripe Dashboard ? Productos ? Agregar producto
+1. Stripe Dashboard → Productos → Agregar producto
 2. Crea un producto "SaaS Plan"
 3. Agrega 3 precios diferentes (Starter, Professional, Enterprise)
 4. Cada precio con su monto y frecuencia
@@ -113,12 +113,12 @@ Para control total sobre la experiencia de suscripción:
 
 El Customer Portal permite a tus clientes autogestionarse:
 
-- **Ver plan actual:** ? Sí
-- **Cambiar de plan:** ? Sí
-- **Actualizar método de pago:** ? Sí
-- **Cancelar suscripción:** ? Sí
-- **Descargar facturas:** ? Sí
-- **Ver historial de pagos:** ? Sí
+- **Ver plan actual:** ✅ Sí
+- **Cambiar de plan:** ✅ Sí
+- **Actualizar método de pago:** ✅ Sí
+- **Cancelar suscripción:** ✅ Sí
+- **Descargar facturas:** ✅ Sí
+- **Ver historial de pagos:** ✅ Sí
 **Cómo activarlo:**
 
 ### Cambios de Plan (Upgrade/Downgrade)

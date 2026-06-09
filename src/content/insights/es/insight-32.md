@@ -36,27 +36,27 @@ Es el proceso de organizar tus finanzas y tu estructura empresarial para **pagar
 - **Profesional:** Se hace con asesoría de contadores y abogados
 ### Ejemplos legítimos de planificación fiscal
 
-? **Elegir el estado correcto para tu LLC.**
+**Elegir el estado correcto para tu LLC.**
    - Elegir Wyoming en lugar de Delaware para ahorrar $240/año en franchise tax.
    - Base legal: Libertad de elegir dónde constituir.
 
-? **Usar la estructura fiscal adecuada.**
+**Usar la estructura fiscal adecuada.**
    - Single-member LLC como disregarded entity para evitar la doble tributación.
    - Base legal: IRS permite esta clasificación.
 
-? **Aprovechar deducciones empresariales.**
+**Aprovechar deducciones empresariales.**
    - Deducir software, equipos, internet y servicios necesarios para el negocio.
    - Base legal: Section 162 del Internal Revenue Code.
 
-? **Reclamar créditos fiscales.**
+**Reclamar créditos fiscales.**
    - Foreign Tax Credit por impuestos pagados en EE.UU.
    - Base legal: Internal Revenue Code Section 901.
 
-? **Usar tratados fiscales internacionales.**
+**Usar tratados fiscales internacionales.**
    - Reducir retenciones sobre intereses y regalías.
    - Base legal: Tratado fiscal entre tu país y EE.UU.
 
-? **Separar líneas de negocio en diferentes LLCs.**
+**Separar líneas de negocio en diferentes LLCs.**
    - Proteger los activos de una línea de las responsabilidades de otra.
    - Base legal: Derecho corporativo estadounidense.
 
@@ -73,27 +73,27 @@ Es la acción ilegal de **no pagar los impuestos que la ley exige**, mediante el
 - **Insostenible:** Tarde o temprano el fisco lo detecta
 ### Ejemplos de evasión fiscal
 
-? **No declarar ingresos de la LLC.**
+**No declarar ingresos de la LLC.**
    - Recibir pagos en una cuenta personal y no reportarlos al IRS ni a la autoridad local.
    - Consecuencia: Fraude fiscal, multas de hasta el 75% de los impuestos no pagados.
 
-? **Usar facturas falsas para inflar gastos.**
+**Usar facturas falsas para inflar gastos.**
    - Comprar facturas de proveedores inexistentes para reducir la ganancia imponible.
    - Consecuencia: Delito penal, posible cárcel.
 
-? **Transferir activos a familiares para evitar impuestos.**
+**Transferir activos a familiares para evitar impuestos.**
    - Poner la LLC a nombre de un familiar sin capacidad económica real.
    - Consecuencia: El IRS puede ignorar la transferencia y aplicar multas.
 
-? **No presentar el Formulario 5472 a propósito.**
+**No presentar el Formulario 5472 a propósito.**
    - Ocultar transacciones entre el dueño y la LLC.
    - Consecuencia: Multa de $25,000 por año.
 
-? **Declarar que la LLC no tiene ingresos cuando sí los tiene.**
+**Declarar que la LLC no tiene ingresos cuando sí los tiene.**
    - Reportar $0 en ingresos cuando la LLC recibió pagos.
    - Consecuencia: Auditoría del IRS, multas y posible acción penal.
 
-? **Usar la LLC para ocultar activos personales de acreedores.**
+**Usar la LLC para ocultar activos personales de acreedores.**
    - Transferir bienes personales a la LLC para evitar que un acreedor los reclame.
    - Consecuencia: Un juez puede revertir la transferencia (fraudulent conveyance).
 
@@ -103,13 +103,13 @@ Entre la planificación y la evasión existe una **zona gris** donde algunas pr�
 
 ### Ejemplos de elusión fiscal
 
-?? **Constituir la LLC en un estado y operar físicamente en otro.**
+**Constituir la LLC en un estado y operar físicamente en otro.**
    - Legal, pero si no hay propósito económico real, el IRS puede cuestionarlo.
 
-?? **Pagarte un salario bajo desde la LLC para evitar impuestos.**
+**Pagarte un salario bajo desde la LLC para evitar impuestos.**
    - Legal si el salario es de mercado; ilegal si es artificialmente bajo.
 
-?? **Usar estructuras offshore complejas sin propósito económico.**
+**Usar estructuras offshore complejas sin propósito económico.**
    - Si la única razón es evitar impuestos, puede ser considerado elusión abusiva.
 
 ### Riesgos de la elusión agresiva

@@ -13,14 +13,14 @@ Miles de emprendedores tienen sus cuentas Stripe cerradas cada año  muchas ve
 
 ### Principales Motivos
 
-- **Violación de los Términos de Servicio:** Negocio prohibido o actividad no permitida -- ?? Crítica
-- **Alto riesgo de chargebacks:** Tasa de chargeback superior al 1% -- ?? Alta
-- **Fraude o sospecha de fraude:** Transacciones sospechosas o inconsistencias -- ?? Crítica
-- **KYC incompleto:** Documentos vencidos o información inconsistente -- ?? Media
-- **Cambio en el perfil de riesgo:** Negocio cambió de giro sin notificar -- ?? Alta
-- **Alta tasa de cancelaciones:** Muchos reembolsos o cancelaciones -- ?? Media
-- **Actividad sospechosa:** Patrones inusuales de transacciones -- ?? Alta
-- **Incumplimiento de BOI/AML:** Obligaciones regulatorias no cumplidas -- ?? Crítica
+- **Violación de los Términos de Servicio:** Negocio prohibido o actividad no permitida -- ⚠️ Crítica
+- **Alto riesgo de chargebacks:** Tasa de chargeback superior al 1% -- ⚠️ Alta
+- **Fraude o sospecha de fraude:** Transacciones sospechosas o inconsistencias -- ⚠️ Crítica
+- **KYC incompleto:** Documentos vencidos o información inconsistente -- ⚠️ Media
+- **Cambio en el perfil de riesgo:** Negocio cambió de giro sin notificar -- ⚠️ Alta
+- **Alta tasa de cancelaciones:** Muchos reembolsos o cancelaciones -- ⚠️ Media
+- **Actividad sospechosa:** Patrones inusuales de transacciones -- ⚠️ Alta
+- **Incumplimiento de BOI/AML:** Obligaciones regulatorias no cumplidas -- ⚠️ Crítica
 > **Estadística:** Según reportes de la comunidad, aproximadamente el 2% al 5% de las cuentas Stripe son cerradas o suspendidas en algún momento. La mayoría de los cierres ocurre en los primeros 6 meses de operación.
 
 ## 2. Reglas de Oro para Mantener tu Cuenta Activa
@@ -124,10 +124,10 @@ Stripe analiza tu sitio web o aplicación durante la verificación y continuamen
 - **4 - Cierre:** Correo formal -- Inmediato -- Solicitar liberación de fondos
 ### Qué NO hacer al recibir una alerta
 
-- ? Ignorar el correo o notificación
-- ? Crear una cuenta nueva (puede considerarse fraude)
-- ? Transferir operaciones a otra cuenta sin resolver el problema
-- ? Alterar datos de la empresa sin justificación
+- Ignorar el correo o notificación
+- Crear una cuenta nueva (puede considerarse fraude)
+- Transferir operaciones a otra cuenta sin resolver el problema
+- Alterar datos de la empresa sin justificación
 
 ## 6. Plan de Acción: Pasos para Evitar el Cierre
 

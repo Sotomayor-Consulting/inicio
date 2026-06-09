@@ -49,7 +49,7 @@ En esta guía, explicamos **cómo proteger tu patrimonio internacionalmente** en
 ### Trusts
 
 - **Jurisdicción:** Islas Caimán, Bahamas, Islas Cook, EE. UU.
-- **Estructura:** Settlor ? Trustee ? Beneficiarios
+- **Estructura:** Settlor → Trustee → Beneficiarios
 - **Protección:** Máxima (activos salen de tu patrimonio legal)
 - **Costo:** $2,000-$5,000/año
 - **Privacidad:** Total
@@ -57,7 +57,7 @@ En esta guía, explicamos **cómo proteger tu patrimonio internacionalmente** en
 ### Fundaciones de Interés Privado
 
 - **Jurisdicción:** Panamá, Liechtenstein, Suiza
-- **Estructura:** Fundador ? Consejo ? Beneficiarios
+- **Estructura:** Fundador → Consejo → Beneficiarios
 - **Protección:** Alta
 - **Costo:** $1,000-$3,000/año
 - **Uso típico:** Planificación sucesoral, patrimonio familiar
@@ -107,7 +107,7 @@ Si operas un marketplace, Stripe Connect permite que cada vendedor tenga su prop
 - **Diversificación:** No dependes de un solo sistema bancario
 - **Acceso a múltiples monedas:** USD, EUR, GBP, CHF, etc.
 - **Protección cambiaria:** Activos en monedas fuertes
-- **Facilidad de cobro:** Stripe ? Cuenta EE. UU. ? Transferencia
+- **Facilidad de cobro:** Stripe → Cuenta EE. UU. → Transferencia
 ## 6. Seguros para Protección Patrimonial
 
 ### Tipos de Seguro Recomendados

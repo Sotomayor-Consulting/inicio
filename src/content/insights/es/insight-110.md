@@ -47,14 +47,14 @@ En esta guía cubrimos **cómo implementar procesos escalables en 2026**: princi
 
 ### Catálogo de patrones de automatización
 
-- **Disparador-Acción:** Un evento dispara una acción -- Envío de formulario ? Crear lead en CRM -- Zapier
-- **Pipeline:** Pasos secuenciales, cada uno alimenta al siguiente -- Factura ? Aprobar ? Pagar ? Conciliar -- n8n, Make
-- **Abánico:** Un evento dispara múltiples acciones paralelas -- Order placed ? Update inventory + notify warehouse + send receipt -- Odoo, Make
-- **Agregador:** Múltiples entradas se combinan en una salida -- Ventas diarias ? Calcular ? Enviar reporte -- n8n, Python
-- **Máquina de estados:** Proceso con estados y transiciones -- Pedido: Pendiente ? Pagado ? Enviado ? Entregado -- Odoo, AWS Step Functions
+- **Disparador-Acción:** Un evento dispara una acción -- Envío de formulario → Crear lead en CRM -- Zapier
+- **Pipeline:** Pasos secuenciales, cada uno alimenta al siguiente -- Factura → Aprobar → Pagar → Conciliar -- n8n, Make
+- **Abánico:** Un evento dispara múltiples acciones paralelas -- Order placed → Update inventory + notify warehouse + send receipt -- Odoo, Make
+- **Agregador:** Múltiples entradas se combinan en una salida -- Ventas diarias → Calcular → Enviar reporte -- n8n, Python
+- **Máquina de estados:** Proceso con estados y transiciones -- Pedido: Pendiente → Pagado → Enviado → Entregado -- Odoo, AWS Step Functions
 - **Cadena de aprobación:** Aprobación multinivel con condiciones -- Expense: <$100 auto-approve, $100-$1000 manager, >$1000 director -- Odoo, Power Automate
-- **Reintento con retroceso:** Operación fallida reintenta con demoras crecientes -- Pago fallido ? Reintentar en 1h, 6h, 24h ? Escalar -- Stripe, Celery
-- **Cola de mensajes fallidos:** Elementos fallidos almacenados para revisión manual -- Procesamiento de documento fallido ? Mover a cola de revisión -- AWS SQS, Odoo
+- **Reintento con retroceso:** Operación fallida reintenta con demoras crecientes -- Pago fallido → Reintentar en 1h, 6h, 24h → Escalar -- Stripe, Celery
+- **Cola de mensajes fallidos:** Elementos fallidos almacenados para revisión manual -- Procesamiento de documento fallido → Mover a cola de revisión -- AWS SQS, Odoo
 ### Motor de orquestación
 
 ## 4. Odoo para operaciones escalables

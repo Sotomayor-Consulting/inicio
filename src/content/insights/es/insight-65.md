@@ -111,7 +111,7 @@ Stripe genera facturas personalizadas:
 
 Configura Stripe para enviar facturas automáticamente después de cada pago:
 
-1. Stripe Dashboard ? Facturación ? Configuración
+1. Stripe Dashboard → Facturación → Configuración
 2. Activa "Enviar factura automáticamente"
 3. Personaliza el email de facturación
 4. El cliente recibe la factura al instante
@@ -148,7 +148,7 @@ Si tienes una plataforma donde múltiples coaches ofrecen servicios:
 - **Coach invitado:** 70% -- $70 por la sesión
 ### Configuración Básica
 
-1. Stripe Dashboard ? Connect ? Configurar
+1. Stripe Dashboard → Connect → Configurar
 2. Registra a cada coach con su cuenta Stripe
 3. Define el split de ingresos
 4. Stripe distribuye automáticamente

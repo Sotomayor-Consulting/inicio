@@ -93,11 +93,11 @@ Allows foreign companies to transfer executives or managers to their US office. 
 
 ### Can an International Student Invest in Real Estate?
 
-- **Can they buy properties?:** ✅ Yes
-- **Can they receive rent?:** ✅ Yes (passive income)
-- **Can they operate a real estate business?:** ❌ No (violates F-1 status)
-- **Can they use OPT for real estate?:** ⚠️ Depends (must relate to their career)
-- **Can they have an LLC?:** ✅ Yes (as a passive investor)
+- **Can they buy properties?:** Yes
+- **Can they receive rent?:** Yes (passive income)
+- **Can they operate a real estate business?:** No (violates F-1 status)
+- **Can they use OPT for real estate?:** Depends (must relate to their career)
+- **Can they have an LLC?:** Yes (as a passive investor)
 ### F-1 + Real Estate Strategy
 
 ## 7. Structuring the Investment for Immigration

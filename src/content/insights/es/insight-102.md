@@ -59,7 +59,7 @@ En esta guía, explicamos **cómo usar WhatsApp para vender más** en 2026: desd
 - **Tiempo para Pagar:** Horas-días (factura, email) -- Segundos (link Stripe)
 - **Abandono:** 60-80% (salen del chat para pagar) -- 5-10% (pagan en el chat)
 - **Conversión:** Baja (fricción para pagar) -- Alta (pago instantáneo)
-- **Experiencia del Cliente:** Fragmentada (chat ? email ? pago) -- Fluida (todo en el chat)
+- **Experiencia del Cliente:** Fragmentada (chat → email → pago) -- Fluida (todo en el chat)
 - **Rastreo:** Manual -- Automático (Stripe + CRM)
 ### Cómo Aceptar Pagos en WhatsApp
 
@@ -85,7 +85,7 @@ En esta guía, explicamos **cómo usar WhatsApp para vender más** en 2026: desd
 
 - **Mensajes por Día:** Volumen de conversaciones -- 50-200+ por agente
 - **Tiempo de Respuesta:** Velocidad de primera respuesta -- < 5 minutos
-- **Tasa de Conversión:** Chat ? Venta -- 10-40%
+- **Tasa de Conversión:** Chat → Venta -- 10-40%
 - **Valor Promedio de Pedido:** Ingresos por venta -- Varía por industria
 - **Ingresos por Chat:** Valor de las conversaciones -- $50-$500+
 - **Satisfacción del Cliente:** CSAT o NPS -- 4.5+ / 5
@@ -126,7 +126,7 @@ En esta guía, explicamos **cómo usar WhatsApp para vender más** en 2026: desd
 - [ ] Configurar click-to-WhatsApp en el sitio web
 - [ ] Agregar botón de WhatsApp a Instagram y Facebook
 - [ ] Conectar WhatsApp al CRM (HubSpot, etc.)
-- [ ] Configurar flujos de Zapier (nuevo lead ? CRM ? WhatsApp)
+- [ ] Configurar flujos de Zapier (nuevo lead → CRM → WhatsApp)
 
 ### AUTOMATIZACIÓN (Semana 2-3)
 

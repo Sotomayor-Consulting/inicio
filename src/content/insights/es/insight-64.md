@@ -43,7 +43,7 @@ En esta guía, explicamos **cómo usar Stripe para agencias de marketing** en 20
 
 ### Paso 2: Configura la Facturación
 
-1. Stripe Dashboard ? Facturación ? Configuración
+1. Stripe Dashboard → Facturación → Configuración
 2. Agrega el logo de tu agencia
 3. Configura tus datos fiscales
 4. Define moneda predeterminada
@@ -86,7 +86,7 @@ Para agencias que cobran por hora:
 - **Desarrollo web:** 20h -- $100/h -- $2,000
 - **Diseño gráfico:** 8h -- $120/h -- $960
 **Configuración:**
-1. Stripe Dashboard ? Facturación ? Crear factura
+1. Stripe Dashboard → Facturación → Crear factura
 2. Agrega items con cantidad (horas) y tarifa
 3. Stripe calcula el total automáticamente
 4. Envía la factura al cliente
@@ -105,7 +105,7 @@ Stripe Connect permite a las agencias:
 
 ### Cómo Configurar Stripe Connect
 
-- **1:** Stripe Dashboard ? Connect ? Configurar
+- **1:** Stripe Dashboard → Connect → Configurar
 - **2:** Elige modelo: "Plataforma"
 - **3:** Registra a tus subcontractores como cuentas conectadas
 - **4:** Define el split de pagos por transacción
@@ -138,7 +138,7 @@ Tus clientes pueden:
 - **Cliente en Brasil:** BRL
 ### Configuración de Monedas en Stripe
 
-1. Stripe Dashboard ? Configuración ? Monedas
+1. Stripe Dashboard → Configuración → Monedas
 2. Activa las monedas que necesitas
 3. Define moneda predeterminada
 4. Stripe convierte automáticamente
@@ -178,7 +178,7 @@ Stripe Dashboard te muestra:
 
 ### Exportación de Reportes
 
-1. Stripe Dashboard ? Reportes ? Resumen financiero
+1. Stripe Dashboard → Reportes → Resumen financiero
 2. Filtra por período y tipo
 3. Exporta a CSV o PDF
 4. Importa a tu contabilidad

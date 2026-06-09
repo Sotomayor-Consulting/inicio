@@ -105,11 +105,11 @@ Si generas ingresos digitales como persona física (freelancer, creador, influen
 El IRS trata las criptomonedas como **propiedad**. Cada transacción es un evento taxable:
 
 ### Eventos gravables:
-- Vender cripto por dólares ? Ganancia o pérdida de capital
-- Intercambiar una cripto por otra ? Evento taxable
-- Usar cripto para comprar bienes o servicios ? Evento taxable
-- Recibir cripto como pago ? Ingreso ordinario (valor justo de mercado)
-- Staking rewards y mining ? Ingreso ordinario al recibirse
+- Vender cripto por dólares → Ganancia o pérdida de capital
+- Intercambiar una cripto por otra → Evento taxable
+- Usar cripto para comprar bienes o servicios → Evento taxable
+- Recibir cripto como pago → Ingreso ordinario (valor justo de mercado)
+- Staking rewards y mining → Ingreso ordinario al recibirse
 
 ### Eventos NO gravables:
 - Comprar cripto con dólares y mantenerla (HODL)

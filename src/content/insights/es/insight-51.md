@@ -20,19 +20,19 @@ Stripe opera con licencias bancarias y de pago específicas en cada país. La ex
 
 ### Países Soportados Directamente en Latinoamérica
 
-- **México:** ? Sí
-- **Brasil:** ? Sí
-- **Chile:** ? No
-- **Colombia:** ? No
-- **Perú:** ? No
-- **Argentina:** ? No
-- **Ecuador:** ? No
-- **Venezuela:** ? No
-- **Uruguay:** ? No
-- **Paraguay:** ? No
-- **Bolivia:** ? No
-- **Centroamérica:** ? No (excepto algunos vía alianzas)
-- **República Dominicana:** ? No
+- **México:** ✅ Sí
+- **Brasil:** ✅ Sí
+- **Chile:** ❌ No
+- **Colombia:** ❌ No
+- **Perú:** ❌ No
+- **Argentina:** ❌ No
+- **Ecuador:** ❌ No
+- **Venezuela:** ❌ No
+- **Uruguay:** ❌ No
+- **Paraguay:** ❌ No
+- **Bolivia:** ❌ No
+- **Centroamérica:** ❌ No (excepto algunos vía alianzas)
+- **República Dominicana:** ❌ No
 > **Nota:** Para México y Brasil, es posible crear cuenta directamente en Stripe con documentos locales. Para los demás países, es necesario usar una estructura alternativa.
 
 ## 2. Estructuras para Acceder a Stripe
@@ -71,14 +71,14 @@ La forma más común y recomendada es constituir una empresa en los Estados Unid
 - **Comisión Stripe:** 2.9% + $0.30 por transacción
 - **Mantenimiento anual:** $300 - $1,000/año
 #### Ventajas
-- ? Solución legal y establecida
-- ? Acceso a todo el ecosistema Stripe
-- ? Posibilidad de expandir a otros servicios (Atlas, Connect, Capital)
+- Solución legal y establecida
+- Acceso a todo el ecosistema Stripe
+- Posibilidad de expandir a otros servicios (Atlas, Connect, Capital)
 
 #### Desventajas
-- ? Costos de mantenimiento anual
-- ? Obligaciones fiscales en EE. UU. (Annual Report, BOI, tax return)
-- ? Complejidad administrativa
+- Costos de mantenimiento anual
+- Obligaciones fiscales en EE. UU. (Annual Report, BOI, tax return)
+- Complejidad administrativa
 
 ### Opción 2: Socios Stripe (Stripe Connect)
 
@@ -87,12 +87,12 @@ La forma más común y recomendada es constituir una empresa en los Estados Unid
 #### Cómo funciona:
 
 #### Ventajas
-- ? Menos burocracia
-- ? Puede aceptar pagos más rápidamente
+- Menos burocracia
+- Puede aceptar pagos más rápidamente
 
 #### Desventajas
-- ? Comisiones más altas
-- ? Menos control sobre la cuenta
+- Comisiones más altas
+- Menos control sobre la cuenta
 
 ### Opción 3: Stripe Atlas
 
@@ -151,12 +151,12 @@ La forma más común y recomendada es constituir una empresa en los Estados Unid
 
 ## 5. Bancos para Cuenta Empresarial en EE. UU.
 
-- **Mercury:** ? Sí -- $0 -- ? Sí
-- **Relay:** ? Sí -- $0 -- ? Sí
-- **Novo:** ? No (excepto casos específicos) -- $0 -- ? Sí
-- **Brex:** ? Sí (con inversión) -- $0 -- ? Sí
-- **Wise Business:** ? Sí -- $0 -- ? Sí
-- **Payoneer:** ? Sí -- $0 -- ? Sí
+- **Mercury:** ✅ Sí -- $0 -- ✅ Sí
+- **Relay:** ✅ Sí -- $0 -- ✅ Sí
+- **Novo:** ❌ No (excepto casos específicos) -- $0 -- ✅ Sí
+- **Brex:** ✅ Sí (con inversión) -- $0 -- ✅ Sí
+- **Wise Business:** ✅ Sí -- $0 -- ✅ Sí
+- **Payoneer:** ✅ Sí -- $0 -- ✅ Sí
 ## 6. Alternativas a Stripe en Latinoamérica
 
 Si no quieres o no puedes usar las estructuras anteriores, existen alternativas de pago disponibles directamente en Latinoamérica:
@@ -171,11 +171,11 @@ Si no quieres o no puedes usar las estructuras anteriores, existen alternativas 
 
 ### Qué EVITAR
 
-- ? **Usar cuentas Stripe de terceros**  Stripe puede bloquear la cuenta y retener los fondos
-- ? **Mentir sobre la ubicación**  Stripe verifica dirección IP, documentos y datos bancarios
-- ? **Crear cuentas en países donde no tienes presencia real**  viola los términos de servicio
-- ? **Mezclar cuentas personales y empresariales**  complica la contabilidad y aumenta riesgos fiscales
-- ? **Ignorar las obligaciones fiscales**  tanto en EE. UU. como en el país de residencia
+- **Usar cuentas Stripe de terceros**  Stripe puede bloquear la cuenta y retener los fondos
+- **Mentir sobre la ubicación**  Stripe verifica dirección IP, documentos y datos bancarios
+- **Crear cuentas en países donde no tienes presencia real**  viola los términos de servicio
+- **Mezclar cuentas personales y empresariales**  complica la contabilidad y aumenta riesgos fiscales
+- **Ignorar las obligaciones fiscales**  tanto en EE. UU. como en el país de residencia
 
 ### ¿Stripe Detecta Fraude de Ubicación?
 

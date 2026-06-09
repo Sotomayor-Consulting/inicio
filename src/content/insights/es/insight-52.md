@@ -142,26 +142,26 @@ En 2026, Stripe utiliza:
 
 ### Cuenta Standard (Stripe Payments)
 
-- **Documento de identidad:** ? Sí
-- **Comprobante de domicilio:** ? Sí
-- **Sitio web o aplicación:** ? Sí
-- **Cuenta bancaria:** ? Sí
-- **EIN (empresa en EE. UU.):** ? Sí
-- **BOI (empresa en EE. UU.):** ? Sí (desde 2024)
-- **Verificación facial:** ? Sí (2026)
+- **Documento de identidad:** ✅ Sí
+- **Comprobante de domicilio:** ✅ Sí
+- **Sitio web o aplicación:** ✅ Sí
+- **Cuenta bancaria:** ✅ Sí
+- **EIN (empresa en EE. UU.):** ✅ Sí
+- **BOI (empresa en EE. UU.):** ✅ Sí (desde 2024)
+- **Verificación facial:** ✅ Sí (2026)
 ### Cuenta Stripe Connect (Plataformas)
 
-- **Todos los requisitos Standard:** ? Sí
-- **Contrato de plataforma:** ? Sí
-- **Políticas de compliance:** ? Sí
-- **Due diligence de los usuarios:** ? Sí
-- **KYC de los sub-merchants:** ? Sí
+- **Todos los requisitos Standard:** ✅ Sí
+- **Contrato de plataforma:** ✅ Sí
+- **Políticas de compliance:** ✅ Sí
+- **Due diligence de los usuarios:** ✅ Sí
+- **KYC de los sub-merchants:** ✅ Sí
 ### Cuenta Stripe Atlas
 
-- **Pasaporte vigente:** ? Sí
-- **Pago de $500:** ? Sí
-- **Información de los beneficiarios:** ? Sí
-- **Propuesta de negocio:** ? Sí
+- **Pasaporte vigente:** ✅ Sí
+- **Pago de $500:** ✅ Sí
+- **Información de los beneficiarios:** ✅ Sí
+- **Propuesta de negocio:** ✅ Sí
 ## 7. Obligaciones Continuas en 2026
 
 ### Mantenimiento de la Cuenta

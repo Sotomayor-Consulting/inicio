@@ -177,27 +177,27 @@ No entanto, a maioria dos erros � evit�vel. Neste guia, compilamos os erros 
 **Situa��o:** Paulo, especialista em SEO do Peru, constituiu sua LLC em Wyoming em 2022. Isso � o que fez de errado:
 
 ### Ano 1 (2022)
-- ? Constituiu a LLC corretamente.
-- ? Obteve o EIN.
-- ? Abriu conta no Mercury.
-- ? N�o redigiu Operating Agreement.
-- ? N�o sabia que existia o Formul�rio 5472.
+- Constituiu a LLC corretamente.
+- Obteve o EIN.
+- Abriu conta no Mercury.
+- N�o redigiu Operating Agreement.
+- N�o sabia que existia o Formul�rio 5472.
 
 ### Ano 2 (2023)
-- ? Usou a conta do Mercury para despesas pessoais (Amazon, Netflix, etc.).
-- ? N�o apresentou o 5472 (multa potencial: $25.000).
-- ? Mudou-se do Peru para o M�xico sem atualizar seu endere�o.
-- ? Adicionou um s�cio sem mudar sua estrutura fiscal.
-- ? N�o apresentou o Annual Report de Wyoming.
-- ? Ignorou uma carta do IRS sobre o 5472.
+- Usou a conta do Mercury para despesas pessoais (Amazon, Netflix, etc.).
+- N�o apresentou o 5472 (multa potencial: $25.000).
+- Mudou-se do Peru para o M�xico sem atualizar seu endere�o.
+- Adicionou um s�cio sem mudar sua estrutura fiscal.
+- N�o apresentou o Annual Report de Wyoming.
+- Ignorou uma carta do IRS sobre o 5472.
 
 ### Resultado (2024)
-- ?? LLC suspensa por falta de Annual Report.
-- ?? Mercury congelou sua conta.
-- ?? IRS imp�s multa de $25.000 por n�o apresentar 5472.
-- ?? Multa adicional por n�o responder � carta do IRS.
-- ?? O s�cio n�o pode reportar suas receitas porque n�o h� K-1.
-- ?? Paulo perdeu 3 meses de receitas enquanto resolvia.
+- LLC suspensa por falta de Annual Report.
+- Mercury congelou sua conta.
+- IRS imp�s multa de $25.000 por n�o apresentar 5472.
+- Multa adicional por n�o responder � carta do IRS.
+- O s�cio n�o pode reportar suas receitas porque n�o h� K-1.
+- Paulo perdeu 3 meses de receitas enquanto resolvia.
 
 ### Custo total dos erros
 - Multa do IRS: $25.000.

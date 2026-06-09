@@ -162,9 +162,9 @@ Un préstamo que el banco **no vende a Fannie Mae/Freddie Mac** sino que lo mant
 
 ### Ruta 1: DSCR Loan (Recomendada)
 
-### Ruta 2: Hard Money ? Refinanciar a DSCR
+### Ruta 2: Hard Money → Refinanciar a DSCR
 
-### Ruta 3: Cash ? Refinanciar (Delayed Financing)
+### Ruta 3: Cash → Refinanciar (Delayed Financing)
 
 ## 10. Comparación de Lenders para Extranjeros
 

@@ -14,8 +14,8 @@ Below, we explain the key aspects every service exporter should know about U.S. 
 The most important principle for determining how a service is taxed is the place where it is performed. The IRS classifies service income based on its **geographic source**.
 
 ### General rule:
-- Services performed **within the U.S.** generate U.S.-source income ? subject to U.S. tax
-- Services performed **outside the U.S.** generate foreign-source income ? generally not subject to U.S. tax
+- Services performed **within the U.S.** generate U.S.-source income → subject to U.S. tax
+- Services performed **outside the U.S.** generate foreign-source income → generally not subject to U.S. tax
 
 **Important exception:** If you are a U.S.-based service exporter providing services to clients abroad, but the work is performed partially or fully from the U.S., that portion of the income is considered U.S.-source.
 

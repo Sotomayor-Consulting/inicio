@@ -153,12 +153,12 @@ La holding es una empresa diseñada para ser dueña de otras empresas (subsidiar
 
 ### Tabla Comparativa
 
-- **LLC (EE. UU.):** Alta -- $200-800 -- ? Sí -- ? Difícil -- Parcial
-- **C-Corp (EE. UU.):** Alta -- $400-2,000 -- ? Sí -- ? Sí -- No
-- **IBC (Panamá):** Media -- $400-1,500 -- ?? Limitado -- ? No -- ? Sí
-- **Trust:** Muy alta -- $2,000-10,000 -- ? Indirecto -- ? No -- ? Sí
-- **Fundación:** Muy alta -- $500-2,500 -- ? Indirecto -- ? No -- ? Sí
-- **Holding:** Alta -- $500-5,000+ -- ?? Indirecto -- ? Sí -- Parcial
+- **LLC (EE. UU.):** Alta -- $200-800 -- ✅ Sí -- ❌ Difícil -- Parcial
+- **C-Corp (EE. UU.):** Alta -- $400-2,000 -- ✅ Sí -- ✅ Sí -- No
+- **IBC (Panamá):** Media -- $400-1,500 -- ⚠️ Limitado -- ⚠️ No -- ❌ Sí
+- **Trust:** Muy alta -- $2,000-10,000 -- ❌ Indirecto -- ❌ No -- ✅ Sí
+- **Fundación:** Muy alta -- $500-2,500 -- ❌ Indirecto -- ❌ No -- ✅ Sí
+- **Holding:** Alta -- $500-5,000+ -- ⚠️ Indirecto -- ⚠️ Sí -- Parcial
 ### ¿Cuál Usar Según tu Negocio?
 
 - **SaaS / E-commerce:** LLC (EE. UU.) + Stripe
@@ -172,13 +172,13 @@ La holding es una empresa diseñada para ser dueña de otras empresas (subsidiar
 
 ### Comparación de Jurisdicciones
 
-- **Delaware, EE. UU.:** LLC, C-Corp -- Corporativo 21% -- $400-2,000 -- ? Sí -- Startups, inversión
-- **Wyoming, EE. UU.:** LLC -- Pass-through -- $200-800 -- ? Sí -- Anonimato, bajo costo
-- **Nuevo México, EE. UU.:** LLC -- Pass-through -- $200-500 -- ? Sí -- Máximo anonimato
-- **Panamá:** IBC, Fundación -- 0% offshore -- $400-1,500 -- ?? Limitado -- Holdings, protección
-- **BVI:** IBC, Trust -- 0% -- $500-2,000 -- ? No -- Holdings financieras
-- **Países Bajos:** BV (Holding) -- 15-25% -- $2,000-5,000 -- ? Sí -- Holdings europeas
-- **Estonia:** e-Residency + OÜ -- 0% reinvertido -- $300-800 -- ? Sí -- Nómadas digitales
+- **Delaware, EE. UU.:** LLC, C-Corp -- Corporativo 21% -- $400-2,000 -- ✅ Sí -- Startups, inversión
+- **Wyoming, EE. UU.:** LLC -- Pass-through -- $200-800 -- ✅ Sí -- Anonimato, bajo costo
+- **Nuevo México, EE. UU.:** LLC -- Pass-through -- $200-500 -- ✅ Sí -- Máximo anonimato
+- **Panamá:** IBC, Fundación -- 0% offshore -- $400-1,500 -- ⚠️ Limitado -- Holdings, protección
+- **BVI:** IBC, Trust -- 0% -- $500-2,000 -- ❌ No -- Holdings financieras
+- **Países Bajos:** BV (Holding) -- 15-25% -- $2,000-5,000 -- ✅ Sí -- Holdings europeas
+- **Estonia:** e-Residency + OÜ -- 0% reinvertido -- $300-800 -- ✅ Sí -- Nómadas digitales
 ### e-Residency de Estonia
 
 ## 10. Estructura Recomendada por Etapa
@@ -207,7 +207,7 @@ La holding es una empresa diseñada para ser dueña de otras empresas (subsidiar
 - [ ] Configura contratos: términos, privacidad, cesión de IP
 - [ ] Activa 2FA en todas las cuentas
 - [ ] Contrata seguros básicos (responsabilidad, E&O)
-- [ ? Establece plan de sucesión
+- [ ] Establece plan de sucesión
 - [ ] Revisa cumplimiento fiscal anual
 
 ## Preguntas Frecuentes
