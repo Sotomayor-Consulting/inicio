@@ -1,7 +1,7 @@
 ---
 title: "Que Estruturas os Empresários Internacionais Usam: Guia 2026"
 description: "Que estruturas empresários internacionais usam"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/negocios-internacionales.png"
 cardImageAlt: "Mapa mundial com ícones de estruturas legais: LLC, Corporation, Trust, Foundation, IBC e Holding conectados por linhas"
 ---
 

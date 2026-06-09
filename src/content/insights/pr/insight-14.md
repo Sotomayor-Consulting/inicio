@@ -1,7 +1,7 @@
 ---
 title: "Quais Documentos Você Precisa para Incorporar uma LLC nos Estados Unidos?"
 description: "Guia completo dos documentos necessários para abrir uma LLC nos EUA sendo estrangeiro: passaporte, endereço, nome e mais."
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/estandar-comun-de-reporte.png"
 cardImageAlt: "Documentos e passaporte sobre uma escrivaninha"
 ---
 

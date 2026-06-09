@@ -1,7 +1,7 @@
 ---
 title: "What Documents Do You Need to Form an LLC in the United States?"
 description: "Complete guide to the documents needed to open an LLC in the U.S. as a foreigner: passport, address, name, and more."
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/estandar-comun-de-reporte.png"
 cardImageAlt: "Documents and passport on a desk"
 ---
 

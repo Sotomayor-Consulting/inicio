@@ -1,7 +1,7 @@
 ---
 title: "Protect and Keep Your LLC Active with Our Annual Maintenance Service"
 description: "Annual LLC Maintenance"
-cardImage: "@/images/insights/blog-2.avif"
+cardImage: "@/images/insights/como-usa-una-llc.png"
 cardImageAlt: "Professionals working in an office"
 ---
 
