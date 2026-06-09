@@ -1,110 +1,110 @@
+ï»¿---
+title: "Quï¿½ Hacer si el IRS te Enviï¿½ una Carta: Guï¿½a 2026"
+description: "Guï¿½a paso a paso para responder a avisos, auditorï¿½as y cartas del IRS"
+cardImage: "@/images/insights/IRS-guia-para-duenos-de-llc.png"
+cardImageAlt: "Guï¿½a de respuesta a avisos del IRS que muestra tipos de carta por gravedad, diagrama de flujo de plazo de respuesta, tabla de referencia de nï¿½meros de aviso del IRS, lista de verificaciï¿½n de derechos del contribuyente y panel de gestiï¿½n de cuenta en lï¿½nea"
 ---
-title: "Qué Hacer si el IRS te Envió una Carta: Guía 2026"
-description: "Guía paso a paso para responder a avisos, auditorías y cartas del IRS"
-cardImage: "@/images/insights/IRS-guía para dueños de llc.png"
-cardImageAlt: "Guía de respuesta a avisos del IRS que muestra tipos de carta por gravedad, diagrama de flujo de plazo de respuesta, tabla de referencia de números de aviso del IRS, lista de verificación de derechos del contribuyente y panel de gestión de cuenta en línea"
----
 
-**Recibir una carta del IRS es uno de los eventos más estresantes para cualquier propietario de negocio o contribuyente individual — pero la mayoría de las cartas del IRS son rutinarias y fáciles de resolver.** El IRS envía más de 200 millones de avisos y cartas cada año, y la gran mayoría son simples solicitudes de información, recordatorios de pago o avisos de corrección.
+**Recibir una carta del IRS es uno de los eventos mï¿½s estresantes para cualquier propietario de negocio o contribuyente individual ï¿½ pero la mayorï¿½a de las cartas del IRS son rutinarias y fï¿½ciles de resolver.** El IRS envï¿½a mï¿½s de 200 millones de avisos y cartas cada aï¿½o, y la gran mayorï¿½a son simples solicitudes de informaciï¿½n, recordatorios de pago o avisos de correcciï¿½n.
 
-La clave es saber cómo leer el aviso, entender lo que requiere y responder dentro del plazo. Ignorar una carta del IRS es el único movimiento realmente malo — escala rápidamente de un simple aviso a embargos, gravámenes y acciones de ejecución.
+La clave es saber cï¿½mo leer el aviso, entender lo que requiere y responder dentro del plazo. Ignorar una carta del IRS es el ï¿½nico movimiento realmente malo ï¿½ escala rï¿½pidamente de un simple aviso a embargos, gravï¿½menes y acciones de ejecuciï¿½n.
 
-En esta guía cubrimos **qué hacer si el IRS te envió una carta en 2026**: cómo identificar el tipo de aviso, números de aviso del IRS explicados, plazo de respuesta y urgencia por tipo de aviso, cómo responder paso a paso, avisos comunes para propietarios de negocios, qué hacer si no puedes pagar, cómo obtener ayuda profesional y cómo prevenir avisos futuros.
+En esta guï¿½a cubrimos **quï¿½ hacer si el IRS te enviï¿½ una carta en 2026**: cï¿½mo identificar el tipo de aviso, nï¿½meros de aviso del IRS explicados, plazo de respuesta y urgencia por tipo de aviso, cï¿½mo responder paso a paso, avisos comunes para propietarios de negocios, quï¿½ hacer si no puedes pagar, cï¿½mo obtener ayuda profesional y cï¿½mo prevenir avisos futuros.
 
-## 1. Cómo Leer un Aviso del IRS
+## 1. Cï¿½mo Leer un Aviso del IRS
 
-### Anatomía de una Carta del IRS
+### Anatomï¿½a de una Carta del IRS
 
 Every IRS notice follows a standard format. Understanding the layout helps you quickly determine what is needed.
 
-### Referencia de Números de Aviso
+### Referencia de Nï¿½meros de Aviso
 
-- **CP01:** Robo de Identidad -- IRS está verificando identidad -- Alta
-- **CP04:** Robo de Identidad -- Declaración sospechosa presentada -- Crítica
-- **CP05:** Retención de Reembolso -- Declaración bajo revisión -- Media
-- **CP09:** Crédito -- Impuesto recalculado por créditos -- Baja
-- **CP10:** Error Matemático -- Corrección de cálculo simple -- Baja
-- **CP11:** Error Matemático -- Cambio de impuesto por error matemático -- Media
-- **CP12:** Error Matemático -- Reembolso cambiado por error matemático -- Baja
+- **CP01:** Robo de Identidad -- IRS estï¿½ verificando identidad -- Alta
+- **CP04:** Robo de Identidad -- Declaraciï¿½n sospechosa presentada -- Crï¿½tica
+- **CP05:** Retenciï¿½n de Reembolso -- Declaraciï¿½n bajo revisiï¿½n -- Media
+- **CP09:** Crï¿½dito -- Impuesto recalculado por crï¿½ditos -- Baja
+- **CP10:** Error Matemï¿½tico -- Correcciï¿½n de cï¿½lculo simple -- Baja
+- **CP11:** Error Matemï¿½tico -- Cambio de impuesto por error matemï¿½tico -- Media
+- **CP12:** Error Matemï¿½tico -- Reembolso cambiado por error matemï¿½tico -- Baja
 - **CP14:** Saldo Adeudado -- Impuesto adeudado, pago requerido -- Alta
 - **CP16:** Pago Insuficiente -- Multa por pago insuficiente -- Media
-- **CP21:** Auditoría -- Examen de declaración -- Crítica
-- **CP22:** Evaluación -- Evaluación fiscal formal -- Alta
-- **CP23:** Embargo -- Intención de embargar bienes -- Crítica
-- **CP24:** Gravamen -- Aviso de gravamen fiscal federal -- Crítica
-- **CP44:** Declaración Morosa -- Declaración no presentada -- Crítica
+- **CP21:** Auditorï¿½a -- Examen de declaraciï¿½n -- Crï¿½tica
+- **CP22:** Evaluaciï¿½n -- Evaluaciï¿½n fiscal formal -- Alta
+- **CP23:** Embargo -- Intenciï¿½n de embargar bienes -- Crï¿½tica
+- **CP24:** Gravamen -- Aviso de gravamen fiscal federal -- Crï¿½tica
+- **CP44:** Declaraciï¿½n Morosa -- Declaraciï¿½n no presentada -- Crï¿½tica
 - **CP49:** Reembolso Aplicado -- Reembolso aplicado a otra deuda -- Media
-- **CP59:** No Declarante -- Múltiples años no presentados -- Crítica
+- **CP59:** No Declarante -- Mï¿½ltiples aï¿½os no presentados -- Crï¿½tica
 - **CP71:** Acuerdo de Pago a Plazos -- Estado del plan de pago -- Media
-- **CP75:** Fraude -- Investigación de fraude -- Crítica
-- **CP80:** Examen -- Auditoría en persona -- Crítica
-- **CP90:** Ejecución -- Aviso final antes de embargo -- Crítica
-- **CP91:** Embargo -- Aviso de intención de embargar -- Crítica
-- **CP92:** Incautación -- Aviso de incautación -- Crítica
+- **CP75:** Fraude -- Investigaciï¿½n de fraude -- Crï¿½tica
+- **CP80:** Examen -- Auditorï¿½a en persona -- Crï¿½tica
+- **CP90:** Ejecuciï¿½n -- Aviso final antes de embargo -- Crï¿½tica
+- **CP91:** Embargo -- Aviso de intenciï¿½n de embargar -- Crï¿½tica
+- **CP92:** Incautaciï¿½n -- Aviso de incautaciï¿½n -- Crï¿½tica
 - **CP118:** Reembolso -- Reembolso emitido -- Baja
-- **CP134:** Cuenta -- Transcripción de cuenta -- Baja
-- **CP136:** Oferta de Transacción -- Estado de oferta -- Media
-- **CP146:** Cónyuge Inocente -- Determinación de alivio -- Media
+- **CP134:** Cuenta -- Transcripciï¿½n de cuenta -- Baja
+- **CP136:** Oferta de Transacciï¿½n -- Estado de oferta -- Media
+- **CP146:** Cï¿½nyuge Inocente -- Determinaciï¿½n de alivio -- Media
 - **CP161:** Saldo Adeudado -- Recordatorio de cantidad adeudada -- Media
-- **CP162:** Interés -- Aviso de cargo de intereses -- Media
+- **CP162:** Interï¿½s -- Aviso de cargo de intereses -- Media
 - **CP163:** Multa -- Aviso de multa -- Media
 - **CP2000:** Subdeclarado -- Discrepancia de ingresos -- Alta
 - **CP2050:** Subdeclarado -- Cambio fiscal propuesto -- Alta
-- **CP2100:** Declaración Informativa -- Discrepancia 1099/W-2 -- Media
-- **CP2200:** Negocio -- Problema de declaración de negocio -- Alta
-- **CP2300:** Impuesto de Empleo -- Problema de impuesto de nómina -- Crítica
-- **CP2501:** Examen -- Auditoría por correspondencia -- Alta
-- **LTR 105C:** Auditoría -- Aviso de examen -- Crítica
-- **LTR 111C:** Auditoría -- Respuesta a solicitud de auditoría -- Alta
-- **LTR 915:** Gravamen -- Gravamen fiscal federal presentado -- Crítica
-- **LTR 3170:** Embargo -- Aviso final de intención de embargar -- Crítica
-- **LTR 4864:** Apelación -- Conferencia de apelación -- Media
-- **LTR 5257:** Auditoría -- Solicitud de documentos -- Alta
-### Clasificación de Gravedad de Avisos
+- **CP2100:** Declaraciï¿½n Informativa -- Discrepancia 1099/W-2 -- Media
+- **CP2200:** Negocio -- Problema de declaraciï¿½n de negocio -- Alta
+- **CP2300:** Impuesto de Empleo -- Problema de impuesto de nï¿½mina -- Crï¿½tica
+- **CP2501:** Examen -- Auditorï¿½a por correspondencia -- Alta
+- **LTR 105C:** Auditorï¿½a -- Aviso de examen -- Crï¿½tica
+- **LTR 111C:** Auditorï¿½a -- Respuesta a solicitud de auditorï¿½a -- Alta
+- **LTR 915:** Gravamen -- Gravamen fiscal federal presentado -- Crï¿½tica
+- **LTR 3170:** Embargo -- Aviso final de intenciï¿½n de embargar -- Crï¿½tica
+- **LTR 4864:** Apelaciï¿½n -- Conferencia de apelaciï¿½n -- Media
+- **LTR 5257:** Auditorï¿½a -- Solicitud de documentos -- Alta
+### Clasificaciï¿½n de Gravedad de Avisos
 
 ## 2. Primeros Pasos al Recibir una Carta del IRS
 
-### Lista de Verificación de Acción Inmediata
+### Lista de Verificaciï¿½n de Acciï¿½n Inmediata
 
-### Cómo Verificar una Carta Legítima del IRS
+### Cï¿½mo Verificar una Carta Legï¿½tima del IRS
 
-### Proceso de Verificación de Identidad
+### Proceso de Verificaciï¿½n de Identidad
 
 ## 3. Respondiendo a Avisos Comunes del IRS
 
 ### Avisos de Saldo Adeudado (CP14, CP161, CP22)
 
-### Avisos de Error Matemático (CP10, CP11, CP12)
+### Avisos de Error Matemï¿½tico (CP10, CP11, CP12)
 
 ### Avisos de Ingresos Subdeclarados (CP2000, CP2050)
 
-### Avisos de Auditoría (LTR 105C, CP21, CP80)
+### Avisos de Auditorï¿½a (LTR 105C, CP21, CP80)
 
-## 4. Qué Hacer si No Puede Pagar
+## 4. Quï¿½ Hacer si No Puede Pagar
 
-### Comparación de Opciones de Pago
+### Comparaciï¿½n de Opciones de Pago
 
-### Configuración de Plan de Pago
+### Configuraciï¿½n de Plan de Pago
 
-### Reducción de Multas para Avisos de Saldo Adeudado
+### Reducciï¿½n de Multas para Avisos de Saldo Adeudado
 
 ## 5. Previniendo Avisos Futuros del IRS
 
 ### Sistema de Cumplimiento Proactivo
 
-### Revisión Anual de Cuenta del IRS
+### Revisiï¿½n Anual de Cuenta del IRS
 
-## Conclusión
+## Conclusiï¿½n
 
-**Recibir una carta del IRS no es un desastre — pero ignorarla sí lo es.** La mayoría de los avisos del IRS son rutinarios, corregibles y manejables con un plan de respuesta claro. Los principios clave:
+**Recibir una carta del IRS no es un desastre ï¿½ pero ignorarla sï¿½ lo es.** La mayorï¿½a de los avisos del IRS son rutinarios, corregibles y manejables con un plan de respuesta claro. Los principios clave:
 
-- **Lea el aviso cuidadosamente** — identifique el número de aviso, plazo y acción requerida
-- **Responda a tiempo** — el plazo es el factor más importante para prevenir la escalada
-- **Pague lo que pueda** — un pago parcial es mejor que ningún pago
-- **Solicite ayuda cuando sea necesario** — reducción de multas, planes de pago y representación profesional están disponibles
-- **Mantenga registros** — documente cada respuesta y guarde toda la correspondencia
-- **Prevenga avisos futuros** — mejore su precisión de declaración y cumplimiento de pago
+- **Lea el aviso cuidadosamente** ï¿½ identifique el nï¿½mero de aviso, plazo y acciï¿½n requerida
+- **Responda a tiempo** ï¿½ el plazo es el factor mï¿½s importante para prevenir la escalada
+- **Pague lo que pueda** ï¿½ un pago parcial es mejor que ningï¿½n pago
+- **Solicite ayuda cuando sea necesario** ï¿½ reducciï¿½n de multas, planes de pago y representaciï¿½n profesional estï¿½n disponibles
+- **Mantenga registros** ï¿½ documente cada respuesta y guarde toda la correspondencia
+- **Prevenga avisos futuros** ï¿½ mejore su precisiï¿½n de declaraciï¿½n y cumplimiento de pago
 
-**El IRS busca cumplimiento, no castigo. La mayoría de las multas pueden reducirse o eliminarse, la mayoría de los saldos pueden pagarse con el tiempo, y la mayoría de las auditorías pueden manejarse con documentación adecuada.**
+**El IRS busca cumplimiento, no castigo. La mayorï¿½a de las multas pueden reducirse o eliminarse, la mayorï¿½a de los saldos pueden pagarse con el tiempo, y la mayorï¿½a de las auditorï¿½as pueden manejarse con documentaciï¿½n adecuada.**
 
-En **Sotomayor Consulting International**, ayudamos a propietarios de negocios e individuos a responder a avisos del IRS, negociar planes de pago, solicitar reducción de multas y construir sistemas de cumplimiento que previenen problemas futuros. Contáctenos para una consulta si ha recibido un aviso del IRS y necesita orientación profesional.
+En **Sotomayor Consulting International**, ayudamos a propietarios de negocios e individuos a responder a avisos del IRS, negociar planes de pago, solicitar reducciï¿½n de multas y construir sistemas de cumplimiento que previenen problemas futuros. Contï¿½ctenos para una consulta si ha recibido un aviso del IRS y necesita orientaciï¿½n profesional.
