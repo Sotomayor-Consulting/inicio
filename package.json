@@ -20,6 +20,7 @@
     "astro": "^6.4.2",
     "astro-compressor": "^1.1.2",
     "astro-icon": "^1.1.5",
+    "astro-pagefind": "^2.0.0",
     "clipboard": "^2.0.11",
     "globby": "^14.1.0",
     "gsap": "^3.12.7",
