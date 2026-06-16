@@ -6,6 +6,7 @@ import FooterSection from "@components/sections/navbar&footer/FooterSection.astr
 import { SITE } from "@data/constants";
 import "@styles/global.css";
 import BotonWhatsapp from "@components/ui/buttons/BtnWhatsapp.astro";
+import VideoBubble from "@components/ui/buttons/VideoBubble.astro"
 import Schemajson from "@components/sections/SEO/json-enriquesido.astro";
 
 const pathname = Astro.url.pathname;
@@ -153,7 +154,8 @@ interface Props {
       class="mx-auto w-full max-w-(--breakpoint-2xl) grow px-4 sm:px-6 lg:px-8"
     >
       <Navbar />
-      <BotonWhatsapp />
+      <!-- <BotonWhatsapp /> -->
+      <VideoBubble />
       <main>
         <slot />
       </main>

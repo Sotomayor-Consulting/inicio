@@ -34,7 +34,7 @@ const socialLinks = {
 };
 
 export default {
-  navBarLinks,
+  navBarLinks,      
   footerLinks,
   socialLinks,
 };

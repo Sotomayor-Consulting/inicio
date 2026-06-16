@@ -1,0 +1,230 @@
+---
+import video from "@images/Video-hero.webm"
+
+interface Props {
+  label?: string
+  ariaLabel?: string
+  whatsappHref?: string
+  whatsappLabel?: string
+}
+
+const {
+  label = "",
+  ariaLabel = "Expandir video destacado",
+  whatsappHref = "https://wa.link/wdr50p",
+  whatsappLabel = "Contactanos",
+} = Astro.props
+---
+
+<div
+  class="video-bubble fixed right-5 bottom-10 z-9999 max-sm:right-4 max-sm:bottom-[92px] rounded-[2rem]"
+  data-video-bubble
+>
+  <div
+    class="video-bubble__panel flex items-end justify-center rounded-[2rem] bg-white/20 p-[0.32rem] shadow-[0_16px_40px_rgba(0,0,0,0.24)] backdrop-blur-[6px] transition-[width,height,border-radius,transform,box-shadow] duration-300 ease-out"
+  >
+    <button
+      type="button"
+      class="video-bubble__trigger flex items-center justify-center gap-2 rounded-full border-0 bg-transparent p-0 text-orange-50"
+      aria-label={ariaLabel}
+      data-video-trigger
+    >
+      {label && <span class="video-bubble__label">{label}</span>}
+      <span
+        class="video-bubble__preview relative h-[4.5rem] w-[4.5rem] shrink-0 overflow-hidden rounded-full border-2 border-white/55 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.18),0_6px_16px_rgba(0,0,0,0.2)] max-sm:h-[3.7rem] max-sm:w-[3.7rem]"
+      >
+        <video
+          src={video}
+          class="block h-full w-full scale-110 object-cover"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          data-preview-video
+        ></video>
+      </span>
+    </button>
+
+    <div
+      class="video-bubble__expanded absolute inset-0 hidden h-full w-full"
+      data-expanded-panel
+    >
+      <button
+        type="button"
+        class="video-bubble__close absolute top-3 right-2 z-[2] flex h-8 w-8 items-center justify-center rounded-full border border-white/20 bg-black/45 text-white shadow-[0_8px_18px_rgba(0,0,0,0.28)] transition-transform duration-200 hover:scale-105"
+        aria-label="Contraer video"
+        data-video-close
+      >
+        <span aria-hidden="true">x</span>
+      </button>
+
+      <video
+        src={video}
+        class="video-bubble__full block h-full w-full rounded-[1.7rem] object-cover"
+        playsinline
+        loop
+        preload="metadata"
+        data-expanded-video
+      ></video>
+
+      <div class="absolute inset-x-0 top-0 z-[1] p-3">
+        <a
+          href={whatsappHref}
+          target="_blank"
+          rel="noreferrer"
+          class="flex w-fit items-center justify-center rounded-full bg-[#25d366] px-4 py-2 text-sm font-semibold text-white shadow-[0_10px_24px_rgba(0,0,0,0.28)] transition-transform duration-200 hover:scale-[1.02]"
+        >
+          {whatsappLabel}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const bubbles = document.querySelectorAll("[data-video-bubble]")
+
+  bubbles.forEach((bubble) => {
+    const trigger = bubble.querySelector("[data-video-trigger]")
+    const close = bubble.querySelector("[data-video-close]")
+    const previewVideo = bubble.querySelector("[data-preview-video]")
+    const expandedVideo = bubble.querySelector("[data-expanded-video]")
+    const expandedPanel = bubble.querySelector("[data-expanded-panel]")
+
+    if (!(trigger instanceof HTMLButtonElement)) return
+    if (!(close instanceof HTMLButtonElement)) return
+    if (!(previewVideo instanceof HTMLVideoElement)) return
+    if (!(expandedVideo instanceof HTMLVideoElement)) return
+    if (!(expandedPanel instanceof HTMLElement)) return
+
+    const expand = async () => {
+      bubble.classList.add("is-expanded")
+      expandedPanel.classList.remove("hidden")
+
+      expandedVideo.currentTime = previewVideo.currentTime
+      expandedVideo.muted = false
+      expandedVideo.controls = true
+
+      try {
+        await expandedVideo.play()
+      } catch {
+        expandedVideo.muted = true
+        await expandedVideo.play().catch(() => {})
+      }
+
+      previewVideo.pause()
+    }
+
+    const collapse = () => {
+      bubble.classList.remove("is-expanded")
+      expandedVideo.pause()
+      expandedVideo.controls = false
+      expandedVideo.muted = true
+      previewVideo.currentTime = expandedVideo.currentTime
+      expandedPanel.classList.add("hidden")
+      previewVideo.play().catch(() => {})
+      trigger.focus()
+    }
+
+    trigger.addEventListener("click", () => {
+      if (bubble.classList.contains("is-expanded")) return
+      expand()
+    })
+
+    close.addEventListener("click", collapse)
+
+    bubble.addEventListener("keydown", ((event: KeyboardEvent) => {
+      if (event.key === "Escape" && bubble.classList.contains("is-expanded")) {
+        collapse()
+      }
+    }) as EventListener)
+  })
+</script>
+
+<style>
+  .video-bubble {
+    animation: breathe 2.8s ease-in-out infinite;
+  }
+
+  .video-bubble__panel {
+    position: relative;
+    width: 5.15rem;
+    height: 5.15rem;
+  }
+
+  .video-bubble__label {
+    max-width: 6rem;
+    padding-left: 0.45rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+
+  .video-bubble.is-expanded {
+    animation: none;
+  }
+
+  .video-bubble.is-expanded .video-bubble__panel {
+    width: min(13.5rem, calc(100vw - 2.5rem));
+    height: min(24rem, calc(100vh - 8rem));
+    border-radius: 2rem;
+    transform: translateY(-4px);
+    box-shadow: 0 22px 56px rgba(0, 0, 0, 0.34);
+  }
+
+  .video-bubble.is-expanded .video-bubble__trigger {
+    display: none;
+  }
+
+  .video-bubble__preview::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.28));
+    pointer-events: none;
+  }
+
+  @keyframes breathe {
+    0% {
+      box-shadow:
+        0 18px 40px rgba(0, 0, 0, 0.28),
+        0 0 0 0 rgba(255, 255, 255, 0.42);
+    }
+    70% {
+      box-shadow:
+        0 18px 40px rgba(0, 0, 0, 0.28),
+        0 0 0 12px rgba(255, 255, 255, 0);
+    }
+    100% {
+      box-shadow:
+        0 18px 40px rgba(0, 0, 0, 0.28),
+        0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .video-bubble__panel {
+      width: 4.35rem;
+      height: 4.35rem;
+    }
+
+    .video-bubble__label {
+      display: none;
+    }
+
+    .video-bubble.is-expanded .video-bubble__panel {
+      width: min(11.5rem, calc(100vw - 1.5rem));
+      height: min(20.5rem, calc(100vh - 7.5rem));
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .video-bubble,
+    .video-bubble__panel {
+      animation: none;
+      transition: none;
+    }
+  }
+</style>
