@@ -1,7 +1,7 @@
 ---
 title: "CRM for International Businesses: 2026 Guide"
 description: "International CRM strategy"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/crm-para-negocios-internacionales.png"
 cardImageAlt: "Global CRM dashboard showing multi-currency pipelines, international leads map, and cross-border sales workflows"
 ---
 

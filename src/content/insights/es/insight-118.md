@@ -1,7 +1,7 @@
----
+﻿---
 title: "Qué Pasa Si Pierdes el Good Standing: Guía 2026"
 description: "Aprenda qué sucede cuando su LLC o corporación pierde el good standing y cómo recuperarlo"
-cardImage: "@/images/insights/annual-report.png"
+cardImage: "@/images/insights/que-pasa-si-pierdes-el-good-standing.png"
 cardImageAlt: "Cronología de pérdida de good standing que muestra período de gracia, estado moroso, suspensión y disolución administrativa con ruta de reinstalación y verificaciones en portal SOS estatal"
 ---
 

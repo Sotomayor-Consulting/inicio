@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo implementar procesos escalables: Guía 2026"
 description: "Construye procesos que escalen con tu negocio"
-cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
+cardImage: "@/images/insights/como-implementa-procesos-escalables.png"
 cardImageAlt: "Marco de procesos escalables mostrando flujos estandarizados, capas de automatización, estructura de equipo, integración Odoo y operaciones de pago Stripe"
 ---
 

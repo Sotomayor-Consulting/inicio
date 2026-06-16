@@ -1,7 +1,7 @@
 ---
 title: "What to Do If You Never Filed Taxes: 2026 Guide"
 description: "Steps to resolve unfiled taxes and get compliant"
-cardImage: "@/images/insights/una-llc-paga-impuestos.png"
+cardImage: "@/images/insights/que-hacer-si-nunca-declaraste-impuestos.png"
 cardImageAlt: "Tax compliance guide showing IRS forms, penalty relief options, streamlined filing procedures, payment plans, and professional consultation pathways"
 ---
 

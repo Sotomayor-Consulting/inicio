@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo regularizar una LLC atrasada: Guía 2026"
 description: "Pasos para reinstalar y poner tu LLC al día"
-cardImage: "@/images/insights/estrategias-para-tu-llc.png"
+cardImage: "@/images/insights/como-regularizar-una-llc-atrasada.png"
 cardImageAlt: "Guía de reinstalación de LLC mostrando formularios estatales, cálculos de multas, calendarios de cumplimiento, servicios de agente registrado y diagrama de restauración empresarial"
 ---
 

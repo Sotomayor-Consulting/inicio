@@ -1,7 +1,7 @@
 ﻿---
 title: "¿Qué Revisa el IRS en una LLC Extranjera? Factores Clave de Cumplimiento"
 description: "Revisión del IRS en LLCs extranjeras"
-cardImage: "@/images/insights/IRS-guia-para-duenos-de-llc.png"
+cardImage: "@/images/insights/que-revisa-el-irs-en-una-llc-extranjera.png"
 cardImageAlt: "Fachada del edificio del IRS con bandera estadounidense"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Regularization of Overdue LLCs: How to Get Your Company Back on Track"
 description: "Complete guide to regularize your LLC if you have missed Annual Reports, unpaid taxes, or had your bank account frozen."
-cardImage: "@/images/insights/como-poner-al-dia-tu-empresa.png"
+cardImage: "@/images/insights/regularizacion-de-llc-atrasadas.png"
 cardImageAlt: "LLC documents being reorganized and brought up to date"
 ---
 
