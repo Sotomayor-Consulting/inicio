@@ -1,95 +1,23 @@
 ---
-// Import necessary components, modules and types
-import MainLayout from "@/layouts/MainLayout.astro";
-import CardInsight from "@components/ui/cards/CardInsight.astro";
-import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
-import { SITE } from "@data/constants";
+import BlogListingPage from "@/components/blog/BlogListingPage.astro";
+import {
+  BLOG_PAGE_SIZE,
+  buildPagination,
+  getBlogBasePath,
+  getBlogPageMeta,
+  getInsightPosts,
+} from "@/utils/blogPages";
 
-const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
-const langPrefix = isEnglish ? "en" : isPortuguese ? "pr" : "es";
-
-// Get all blogs post in the current language
-const insightPosts = await getCollection("insights", ({ id }) => {
-  return id.startsWith(`${langPrefix}/`);
-});
-
-// Define variables for page content based on language
-const translations: Record<string, { title: string; subTitle: string; metaDescription: string; ogTitle: string }> = {
-  es: {
-    title: "Blog",
-    subTitle: "Explora las últimas noticias, consejos y análisis de Sotomayor Consulting International para potenciar tu patrimonio y proyectos.",
-    metaDescription: "Explora las últimas noticias, consejos y análisis de Sotomayor Consulting International.",
-    ogTitle: "Blog | Sotomayor Consulting"
-  },
-  en: {
-    title: "Blog",
-    subTitle: "Explore the latest news, tips, and analysis from Sotomayor Consulting International to enhance your wealth and projects.",
-    metaDescription: "Explore the latest news, tips, and analysis from Sotomayor Consulting International.",
-    ogTitle: "Blog | Sotomayor Consulting"
-  },
-  pr: {
-    title: "Blog",
-    subTitle: "Explore as últimas notícias, dicas e análises da Sotomayor Consulting International para melhorar seu patrimônio e projetos.",
-    metaDescription: "Explore as últimas notícias, dicas e análises da Sotomayor Consulting International.",
-    ogTitle: "Blog | Sotomayor Consulting"
-  }
-};
-
-const { title, subTitle, metaDescription, ogTitle } = translations[langPrefix];
-const pageTitle = `${title} | ${SITE.title}`;
+const langPrefix = "en";
+const insightPosts = await getInsightPosts(langPrefix);
+const totalPages = Math.max(1, Math.ceil(insightPosts.length / BLOG_PAGE_SIZE));
+const meta = getBlogPageMeta(langPrefix);
+const pagination = buildPagination(getBlogBasePath(langPrefix), 1, totalPages);
 ---
 
-<MainLayout
-  title={pageTitle}
-  customDescription={metaDescription}
-  customOgTitle={ogTitle}
-  structuredData={{
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": `https://sotomayorconsulting.com/inicio/${langPrefix}/blog`,
-    url: `https://sotomayorconsulting.com/inicio/${langPrefix}/blog`,
-    name: pageTitle,
-    description: metaDescription,
-    isPartOf: {
-      "@type": "WebSite",
-      url: "https://sotomayorconsulting.com/inicio",
-      name: "Sotomayor Consulting",
-      description: metaDescription,
-    },
-    inLanguage: langPrefix === "es" ? "es" : langPrefix === "en" ? "en" : "pt-BR",
-  }}
->
-  <section
-    class="mx-auto max-w-340 space-y-8 px-4 pt-16 sm:px-6 lg:px-8 2xl:max-w-full"
-  >
-    {/* Page header */}
-    <div class="mx-auto max-w-3xl text-left sm:text-center">
-      <h1
-        class="block text-4xl font-bold tracking-tight text-balance text-primario-black md:text-5xl lg:text-6xl dark:text-neutral-200"
-      >
-        {title}
-      </h1>
-
-      <p
-        class="mt-4 text-lg text-pretty text-primario-black dark:text-neutral-400"
-      >
-        {subTitle}
-      </p>
-    </div>
-  </section>
-  {/* Insights section */}
-  <section
-    class="mx-auto max-w-340 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
-  >
-    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {
-        insightPosts.map((insightEntry) => (
-          <CardInsight insightEntry={insightEntry} />
-        ))
-      }
-    </div>
-  </section>
-</MainLayout>
+<BlogListingPage
+  {...meta}
+  langPrefix={langPrefix}
+  entries={insightPosts.slice(0, BLOG_PAGE_SIZE)}
+  pagination={pagination}
+/>
