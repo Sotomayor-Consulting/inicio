@@ -1,7 +1,7 @@
 ---
 title: "Impostos para N�mades Digitais: O Que Voc� Precisa Saber para Cumprir com o IRS"
 description: "Guia de impostos para n�mades digitais"
-cardImage: "@/images/insights/IRS-guia-para-duenos-de-llc.png"
+cardImage: "@/images/insights/impuestos-para-nomadas-digitales.png"
 cardImageAlt: "N�made digital trabalhando em uma praia com laptop"
 ---
 

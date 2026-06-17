@@ -1,7 +1,7 @@
 ---
 title: "Erros Fiscais Mais Comuns em Neg�cios Internacionais e Como Evit�-los"
 description: "Erros Fiscais em Neg�cios Internacionais"
-cardImage: "@/images/insights/evasion-vs-planficacion-fiscal.png"
+cardImage: "@/images/insights/errores-fiscales-mas-comunes-en-negocios-internacionales.png"
 cardImageAlt: "Mapa-m�ndi com bandeiras e documentos fiscais"
 ---
 

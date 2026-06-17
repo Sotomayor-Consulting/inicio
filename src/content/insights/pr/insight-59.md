@@ -1,7 +1,7 @@
 ---
 title: "Como Usar Stripe para Cursos Digitais: Guia Completo 2026"
 description: "Como usar Stripe para cursos digitais"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/como-usar-stripe-para-cursos-digitales.png"
 cardImageAlt: "Tela do Stripe com cursos online e estudantes"
 ---
 

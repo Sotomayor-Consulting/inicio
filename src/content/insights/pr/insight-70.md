@@ -1,7 +1,7 @@
 ---
 title: "Como Projetar uma Imagem Profissional com Stripe: Guia 2026"
 description: "Como projetar uma imagem profissional com Stripe"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/como-proyectar-una-imagen-profesional-con-stripe.png"
 cardImageAlt: "Checkout profissional do Stripe com marca personalizada, faturas e portal do cliente"
 ---
 

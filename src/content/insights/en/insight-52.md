@@ -1,7 +1,7 @@
 ---
 title: "Stripe Requirements in 2026: Everything You Need to Know"
 description: "Stripe Requirements in 2026"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/requisitos-para-stripe.png"
 cardImageAlt: "Stripe screen with 2026 verification badge"
 ---
 

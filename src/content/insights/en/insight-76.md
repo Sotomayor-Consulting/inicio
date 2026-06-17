@@ -1,7 +1,7 @@
 ---
 title: "Holding vs Operating Company: Differences and Structure 2026"
 description: "Holding vs operating company"
-cardImage: "@/images/insights/que-es-una-holding.png"
+cardImage: "@/images/insights/holding-vs-empresa-operativa.png"
 cardImageAlt: "Corporate structure diagram showing a holding company at the top with multiple operating companies below"
 ---
 

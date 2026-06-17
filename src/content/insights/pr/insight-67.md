@@ -1,7 +1,7 @@
 ---
 title: "Como Faturar Internacionalmente: Guia Completo 2026"
 description: "Como faturar internacionalmente"
-cardImage: "@/images/insights/pagos-internacionales.png"
+cardImage: "@/images/insights/como-facturar-internacionalmente.png"
 cardImageAlt: "Fatura internacional com dólares, euros e outros símbolos de moeda"
 ---
 

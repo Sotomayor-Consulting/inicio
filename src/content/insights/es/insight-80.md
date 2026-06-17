@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Planificar Herencias Internacionales: Guía 2026"
 description: "Cómo planificar herencias internacionales"
-cardImage: "@/images/insights/pagos-internacionales.png"
+cardImage: "@/images/insights/como-planificar-herencias-internacionales.png"
 cardImageAlt: "Mapa mundial con documento de testamento, trust, banderas de países y un árbol generacional conectado por líneas de herencia"
 ---
 

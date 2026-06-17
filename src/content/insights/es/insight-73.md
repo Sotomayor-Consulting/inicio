@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Separar Finanzas Personales y Empresariales: Guía 2026"
 description: "Cómo separar finanzas personales y empresariales"
-cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership.png"
+cardImage: "@/images/insights/como-separar-finanzas-persoonales-y-empresariales.png"
 cardImageAlt: "Dos alcancías separadas, una personal y otra empresarial, con billetes fluyendo ordenadamente"
 ---
 
