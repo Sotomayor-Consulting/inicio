@@ -1,7 +1,7 @@
 ---
 title: "How to Professionalize a Digital Business: 2026 Guide"
 description: "How to professionalize a digital business"
-cardImage: "@/images/insights/internacionalizar-una-marca.png"
+cardImage: "@/images/insights/como-profesionalizar-un-negocio-digital.png"
 cardImageAlt: "Digital business transformation: from informal to professional, with legal structure, Stripe, branding, team, metrics, and automation"
 ---
 

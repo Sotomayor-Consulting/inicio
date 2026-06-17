@@ -1,7 +1,7 @@
 ---
 title: "What is an LLC and Why is it the Best Option for Digital Entrepreneurs?"
 description: "Discover why an LLC in the U.S. is the best option for your digital business, protecting your assets and facilitating access to global markets."
-cardImage: "@/images/insights/que-es-una-llc.png"
+cardImage: "@/images/insights/que-es-una-llc-y-porque-es-la-mejor-opcion-para-emprendedores.png"
 cardImageAlt: "Freelancer working on their laptop"
 ---
 

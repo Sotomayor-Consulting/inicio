@@ -1,7 +1,7 @@
 ---
 title: "Sinais de que seu Negócio Precisa de Estrutura Internacional: Guia 2026"
 description: "Sinais de que seu negócio precisa de estrutura internacional"
-cardImage: "@/images/insights/internacionalizar-una-marca.png"
+cardImage: "@/images/insights/señales-de-que-tu-negocio-necesita-estructura-internacional.png"
 cardImageAlt: "Semáforo de diagnóstico empresarial com sinais de alerta: contas pessoais, faturamento local, exposição legal, com ícones do Stripe e estrutura internacional como solução"
 ---
 

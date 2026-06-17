@@ -1,7 +1,7 @@
 ---
 title: "Como Tributa o Aluguel nos EUA: Guia Completo 2026"
 description: "Como tributa o aluguel nos EUA"
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
+cardImage: "@/images/insights/como-tributa-el-alquiler-en-eeuu.png"
 cardImageAlt: "Calculadora e formul�rios de impostos IRS com �cones de propriedade de aluguel, d�lares e gr�fico de deprecia��o"
 ---
 

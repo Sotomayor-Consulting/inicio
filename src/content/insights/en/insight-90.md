@@ -1,7 +1,7 @@
 ---
 title: "How to Generate Passive Income with Properties in the US: 2026 Guide"
 description: "How to generate passive income with properties in the US"
-cardImage: "@/images/insights/real-state.png"
+cardImage: "@/images/insights/como-generar-ingresos-pasivos-con-propiedades-en-eeuu.png"
 cardImageAlt: "Passive income spectrum with properties: REITs, crowdfunding, turnkey, LTR, STR, with Stripe and automatic money flow icons"
 ---
 

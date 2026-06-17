@@ -1,7 +1,7 @@
 ---
 title: "What Taxes a Foreigner Pays in Real Estate: 2026 Guide"
 description: "What taxes a foreigner pays in real estate"
-cardImage: "@/images/insights/inversion-extranjera.png"
+cardImage: "@/images/insights/que-impuestos-paga-un-extranjero-en-real-estate.png"
 cardImageAlt: "Tax cycle for foreigner in real estate: purchase, holding, rental and sale with IRS, FIRPTA and property tax icons"
 ---
 

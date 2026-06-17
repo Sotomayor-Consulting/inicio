@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Tributa el Alquiler en EE.UU.: Guía Completa 2026"
 description: "Cómo tributa el alquiler en EE.UU."
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
+cardImage: "@/images/insights/como-tributa-el-alquiler-en-eeuu.png"
 cardImageAlt: "Calculadora y formularios de impuestos IRS con iconos de propiedad de alquiler, dólares y gráfico de depreciación"
 ---
 

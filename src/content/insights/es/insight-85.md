@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Financiar Propiedades en EE. UU. siendo Extranjero: Guía 2026"
 description: "Cómo financiar propiedades en EE. UU. siendo extranjero"
-cardImage: "@/images/insights/inversion-extranjera.png"
+cardImage: "@/images/insights/como-financiar-propiedades-en-eeuu.png"
 cardImageAlt: "Opciones de financiamiento para extranjeros en EE. UU.: DSCR loan, conventional, hard money, seller financing, private lending"
 ---
 

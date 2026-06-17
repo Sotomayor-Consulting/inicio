@@ -1,7 +1,7 @@
 ---
 title: "How to Invest in Florida as a Foreigner: Guide 2026"
 description: "How to invest in Florida as a foreigner"
-cardImage: "@/images/insights/metodos-y-cumplimiento.png"
+cardImage: "@/images/insights/como-invertir-en-florida-siendo-extranjero.png"
 cardImageAlt: "Map of Florida with icons of properties, LLC, dollars, airplane, and international flags around it"
 ---
 

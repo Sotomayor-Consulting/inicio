@@ -1,7 +1,7 @@
 ---
 title: "Como Investir na Flórida Sendo Estrangeiro: Guia 2026"
 description: "Como investir na Flórida sendo estrangeiro"
-cardImage: "@/images/insights/metodos-y-cumplimiento.png"
+cardImage: "@/images/insights/como-invertir-en-florida-siendo-extranjero.png"
 cardImageAlt: "Mapa da Flórida com ícones de propriedades, LLC, dólares, avião e bandeiras internacionais ao redor"
 ---
 

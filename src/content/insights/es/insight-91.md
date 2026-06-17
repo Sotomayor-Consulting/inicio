@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Expandir tu Negocio Internacionalmente: Guía 2026"
 description: "Cómo expandir tu negocio internacionalmente"
-cardImage: "@/images/insights/inversion-extranjera.png"
+cardImage: "@/images/insights/como-expandir-tu-negocio-internacionalmente.png"
 cardImageAlt: "Mapa mundial con conexiones de expansión empresarial: oficinas, pagos transfronterizos, contratación global, con iconos de Stripe y estructuras legales internacionales"
 ---
 

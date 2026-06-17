@@ -1,7 +1,7 @@
 ---
 title: "Signs Your Business Needs International Structure: 2026 Guide"
 description: "Signs your business needs international structure"
-cardImage: "@/images/insights/internacionalizar-una-marca.png"
+cardImage: "@/images/insights/señales-de-que-tu-negocio-necesita-estructura-internacional.png"
 cardImageAlt: "Business diagnostic traffic light with warning signs: personal accounts, local billing, legal exposure, with Stripe icons and international structure as solution"
 ---
 

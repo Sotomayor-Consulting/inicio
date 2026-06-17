@@ -1,7 +1,7 @@
 ---
 title: "Como Profissionalizar um Negócio Digital: Guia 2026"
 description: "Como profissionalizar um negócio digital"
-cardImage: "@/images/insights/internacionalizar-una-marca.png"
+cardImage: "@/images/insights/como-profesionalizar-un-negocio-digital.png"
 cardImageAlt: "Transformação de negócio digital: de informal a profissional, com estrutura legal, Stripe, branding, equipe, métricas e automação"
 ---
 

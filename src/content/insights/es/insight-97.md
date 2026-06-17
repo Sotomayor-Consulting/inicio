@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Internacionalizar una Marca: Guía 2026"
 description: "Cómo internacionalizar una marca"
-cardImage: "@/images/insights/internacionalizar-una-marca.png"
+cardImage: "@/images/insights/como-internacionalizar-marcas.png"
 cardImageAlt: "Internacionalización de marca: estrategia global con dominio ccTLD, adaptación cultural, Stripe multimoeda, aterrizaje local y presencia omnicanal"
 ---
 

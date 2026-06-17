@@ -1,7 +1,7 @@
 ---
 title: "Como Gerar Renda Passiva com Propriedades nos EUA: Guia 2026"
 description: "Como gerar renda passiva com propriedades nos EUA"
-cardImage: "@/images/insights/real-state.png"
+cardImage: "@/images/insights/como-generar-ingresos-pasivos-con-propiedades-en-eeuu.png"
 cardImageAlt: "Espectro de renda passiva com propriedades: REITs, crowdfunding, turnkey, LTR, STR, com ícones de Stripe e fluxo de dinheiro automático"
 ---
 
