@@ -1,7 +1,7 @@
 ---
 title: "How to Handle Refunds Correctly in Stripe: Guide 2026"
 description: "How to handle refunds correctly in Stripe"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/como-manejar-reembolsos-correctamente-con-stripe.png"
 cardImageAlt: "Stripe refund process with arrows showing money return"
 ---
 

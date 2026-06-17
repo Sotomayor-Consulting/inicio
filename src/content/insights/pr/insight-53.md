@@ -1,7 +1,7 @@
 ---
 title: "Como Evitar que o Stripe Feche Sua Conta: Guia de Prevenção"
 description: "Evitar que o Stripe feche sua conta"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/como-evitar-que-stripe-cierre-tu-cuenta.png"
 cardImageAlt: "Conta Stripe protegida com escudo de segurança"
 ---
 

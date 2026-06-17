@@ -1,7 +1,7 @@
 ---
 title: "Como Evitar Ações Judiciais Pessoais: Guia Completo 2026"
 description: "Como evitar ações judiciais pessoais"
-cardImage: "@/images/insights/llc-mal-estructurada.png"
+cardImage: "@/images/insights/como-evitar-demandas-personales.png"
 cardImageAlt: "Escudo legal protegendo uma pessoa de ações judiciais, com ícones de contratos, seguros e estrutura corporativa"
 ---
 

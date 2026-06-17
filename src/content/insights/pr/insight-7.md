@@ -1,7 +1,7 @@
 ---
 title: "Os 7 Benef�cios Principais de uma LLC para Empreendedores Internacionais"
 description: "Conhe�a os 7 benef�cios principais de uma LLC nos EUA: prote��o de ativos, acesso financeiro, operar em d�lares, credibilidade global e mais."
-cardImage: "@/images/insights/beneficio-llc.png"
+cardImage: "@/images/insights/beneficios-clave-de-una-llc.png"
 cardImageAlt: "Empreendedor internacional celebrando o crescimento do neg�cio"
 ---
 

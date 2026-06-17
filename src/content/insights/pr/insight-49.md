@@ -1,7 +1,7 @@
 ---
 title: "Prote��o Fiscal para Empres�rios: Estrat�gias Legais para Reduzir Impostos"
 description: "Prote��o Fiscal para Empres�rios"
-cardImage: "@/images/insights/cumplimiento-fiscal.png"
+cardImage: "@/images/insights/proteccion-fiscal-para-empresarios.png"
 cardImageAlt: "Empres�rio analisando gr�ficos financeiros e documentos fiscais"
 ---
 

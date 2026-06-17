@@ -1,7 +1,7 @@
 ﻿---
 title: "Cómo Manejar Ingresos Internacionales Correctamente: Guía de Cumplimiento Fiscal"
 description: "Manejo correcto de ingresos internacionales"
-cardImage: "@/images/insights/como-poner-al-dia-tu-empresa.png"
+cardImage: "@/images/insights/como-manejar-ingresos-internacionales.png"
 cardImageAlt: "Persona manejando finanzas internacionales con mapas y monedas de diferentes países"
 ---
 

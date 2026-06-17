@@ -1,7 +1,7 @@
 ---
 title: "How to Project a Professional Image with Stripe: Guide 2026"
 description: "How to project a professional image with Stripe"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/como-proyectar-una-imagen-profesional-con-stripe.png"
 cardImageAlt: "Professional Stripe checkout with custom branding, invoices, and customer portal"
 ---
 

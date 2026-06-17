@@ -1,7 +1,7 @@
----
+﻿---
 title: "Qué Necesita Stripe para Aprobar tu Cuenta: Guía Completa 2026"
 description: "Qué necesita Stripe para aprobar tu cuenta"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/que-necesita-stripe-para-aprobar-tu-cuenta.png"
 cardImageAlt: "Pantalla de aprobación de Stripe con documentos y check verde"
 ---
 

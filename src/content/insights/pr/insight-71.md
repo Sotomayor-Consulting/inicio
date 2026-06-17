@@ -1,7 +1,7 @@
 ---
 title: "Como Proteger seu Patrimônio Internacionalmente: Guia 2026"
 description: "Como proteger seu patrimônio internacionalmente"
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-internacionalmente.png"
 cardImageAlt: "Escudo protetor sobre um mapa mundial com ícones de ativos financeiros, propriedades e investimentos"
 ---
 

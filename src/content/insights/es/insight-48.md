@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Funciona una Estructura Holding: Guía Completa"
 description: "Estructura Holding - Guía Completa"
-cardImage: "@/images/insights/que-es-una-holding.png"
+cardImage: "@/images/insights/como-funciona-una-estructura-holding.png"
 cardImageAlt: "Estructura corporativa holding con conexiones entre empresas"
 ---
 

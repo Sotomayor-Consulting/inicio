@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Recuperar una Empresa Administrativamente Disuelta: Guía 2026"
 description: "Guía paso a paso para reinstalar su LLC o corporación después de una disolución administrativa"
-cardImage: "@/images/insights/annual-report.png"
+cardImage: "@/images/insights/como-recuperar-una-empresa-administrativamente-disuelta.png"
 cardImageAlt: "Diagrama de flujo del proceso de reinstalación que muestra pasos desde identificar la disolución hasta presentar informes atrasados, pagar tarifas, enviar solicitud y restaurar el good standing"
 ---
 

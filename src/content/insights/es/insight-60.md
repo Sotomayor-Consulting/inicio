@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Usar Stripe para Suscripciones: Guía Completa 2026"
 description: "Cómo usar Stripe para suscripciones"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/como-usar-stripe-para-suscripciones.png"
 cardImageAlt: "Dashboard de Stripe mostrando suscripciones activas y gráfico de ingresos recurrentes"
 ---
 

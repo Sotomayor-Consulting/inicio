@@ -1,7 +1,7 @@
 ---
 title: "How a Holding Structure Works: Complete Guide"
 description: "Holding Structure - Complete Guide"
-cardImage: "@/images/insights/que-es-una-holding.png"
+cardImage: "@/images/insights/como-funciona-una-estructura-holding.png"
 cardImageAlt: "Holding corporate structure with connections between companies"
 ---
 

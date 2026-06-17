@@ -1,7 +1,7 @@
----
+﻿---
 title: "Cómo Recibir Pagos Internacionales: Guía Completa para 2026"
 description: "Recibir pagos internacionales"
-cardImage: "@/images/insights/pagos-internacionales.png"
+cardImage: "@/images/insights/como-recibir-pagos-internacionalmente.png"
 cardImageAlt: "Mapamundi con flechas de pago y dinero llegando a diferentes países"
 ---
 

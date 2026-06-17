@@ -1,7 +1,7 @@
 ---
 title: "Como Usar Stripe para Assinaturas: Guia Completo 2026"
 description: "Como usar Stripe para assinaturas"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/como-usar-stripe-para-suscripciones.png"
 cardImageAlt: "Dashboard do Stripe mostrando assinaturas ativas e gráfico de receita recorrente"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "AI Applied to Customer Support: 2026 Guide"
 description: "AI customer support automation"
-cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
+cardImage: "@/images/insights/ia-aplicada-a-la-atencion-al-cliente.png"
 cardImageAlt: "AI customer support dashboard showing chatbot conversations, sentiment analysis, automated ticket resolution, and performance metrics"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "What Is CRS? Complete Guide to the Common Reporting Standard"
 description: "Complete guide to the Common Reporting Standard"
-cardImage: "@/images/insights/estandar-comun-de-reporte.png"
+cardImage: "@/images/insights/que-es-crs.png"
 cardImageAlt: "World map with tax information exchange icons between countries"
 ---
 

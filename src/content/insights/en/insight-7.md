@@ -1,7 +1,7 @@
 ---
 title: "The 7 Key Benefits of an LLC for International Entrepreneurs"
 description: "Learn the 7 key benefits of a U.S. LLC: asset protection, financial access, operating in dollars, global credibility, and more."
-cardImage: "@/images/insights/beneficio-llc.png"
+cardImage: "@/images/insights/beneficios-clave-de-una-llc.png"
 cardImageAlt: "International entrepreneur celebrating business growth"
 ---
 

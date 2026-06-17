@@ -1,7 +1,7 @@
 ---
 title: "Stripe para Coaches e Consultores: Guia Completo 2026"
 description: "Stripe para coaches e consultores"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/stripe-para-coaches-y-consultores.png"
 cardImageAlt: "Coach ou consultor com laptop mostrando Stripe e calendário de pagamentos"
 ---
 

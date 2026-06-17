@@ -1,7 +1,7 @@
 ---
 title: "Como Evitar Bloqueios Bancários: Guia para Manter suas Contas Ativas"
 description: "Prevenção de bloqueios bancários"
-cardImage: "@/images/insights/estandar-comun-de-reporte.png"
+cardImage: "@/images/insights/como-evitar-bloqueos-bancarios.png"
 cardImageAlt: "Conta bancária bloqueada com cadeado e documentos financeiros"
 ---
 

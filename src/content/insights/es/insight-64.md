@@ -1,7 +1,7 @@
----
+﻿---
 title: "Stripe para Agencias de Marketing: Guía Completa 2026"
 description: "Stripe para agencias de marketing"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/stripe-para-agencias-de-marketing.png"
 cardImageAlt: "Agencia de marketing digital con dashboard de Stripe mostrando pagos de clientes"
 ---
 

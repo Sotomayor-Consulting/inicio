@@ -1,7 +1,7 @@
 ﻿---
 title: "Qu� Hacer si el IRS te Envi� una Carta: Gu�a 2026"
 description: "Gu�a paso a paso para responder a avisos, auditor�as y cartas del IRS"
-cardImage: "@/images/insights/IRS-guia-para-duenos-de-llc.png"
+cardImage: "@/images/insights/que-hacer-si-el-irs-te-envia-una-carta.png"
 cardImageAlt: "Gu�a de respuesta a avisos del IRS que muestra tipos de carta por gravedad, diagrama de flujo de plazo de respuesta, tabla de referencia de n�meros de aviso del IRS, lista de verificaci�n de derechos del contribuyente y panel de gesti�n de cuenta en l�nea"
 ---
 

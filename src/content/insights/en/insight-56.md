@@ -1,7 +1,7 @@
 ---
 title: "How to Charge by Card from Any Country: Complete Guide 2026"
 description: "Charge by card from any country"
-cardImage: "@/images/insights/pagos-internacionales.png"
+cardImage: "@/images/insights/como-cobrar-con-tarjeta-desde-cualquier-pais.png"
 cardImageAlt: "Credit cards from different countries with globe in background"
 ---
 

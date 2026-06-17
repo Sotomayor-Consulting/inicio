@@ -1,7 +1,7 @@
 ---
 title: "Como os Rendimentos Digitais S�o Tributados? Guia Completo para Criadores e Empreendedores"
 description: "Tributa��o de rendimentos digitais"
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
+cardImage: "@/images/insights/como-tributan-los-ingresos-digitales.png"
 cardImageAlt: "Dispositivos digitais com gr�ficos financeiros e moedas virtuais"
 ---
 

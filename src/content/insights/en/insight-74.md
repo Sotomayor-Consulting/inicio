@@ -1,7 +1,7 @@
 ---
 title: "Risks of Operating Without a Legal Structure: Guide 2026"
 description: "Risks of operating without a legal structure"
-cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.png"
+cardImage: "@/images/insights/riesgos-de-operar-sin-estructura-legal.png"
 cardImageAlt: "Person walking on a tightrope without a safety net, symbolizing the risks of operating without a legal structure"
 ---
 

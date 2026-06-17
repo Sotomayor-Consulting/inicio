@@ -1,7 +1,7 @@
 ---
 title: "Estrat�gias Fiscais para Neg�cios Digitais: Otimize seus Impostos Legalmente"
 description: "Estrat�gias fiscais para neg�cios digitais"
-cardImage: "@/images/insights/cumplimiento-fiscal.png"
+cardImage: "@/images/insights/estrategias-fiscales-para-negocios-digitales.png"
 cardImageAlt: "Estrat�gia fiscal digital com gr�ficos, dispositivos e documentos"
 ---
 

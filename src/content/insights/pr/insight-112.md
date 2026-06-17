@@ -1,7 +1,7 @@
 ---
 title: "Como regularizar uma LLC inadimplente: Guia 2026"
 description: "Passos para reinstalar e regularizar sua LLC"
-cardImage: "@/images/insights/estrategias-para-tu-llc.png"
+cardImage: "@/images/insights/como-regularizar-una-llc-atrasada.png"
 cardImageAlt: "Guia de reinstalação de LLC mostrando formulários estaduais, cálculos de multas, calendários de conformidade, serviços de agente registrado e fluxograma de restauração empresarial"
 ---
 

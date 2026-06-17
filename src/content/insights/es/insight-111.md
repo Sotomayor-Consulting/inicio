@@ -1,7 +1,7 @@
----
+﻿---
 title: "Qué hacer si nunca declaraste impuestos: Guía 2026"
 description: "Pasos para resolver impuestos no declarados y ponerte al día"
-cardImage: "@/images/insights/una-llc-paga-impuestos.png"
+cardImage: "@/images/insights/que-hacer-si-nunca-declaraste-impuestos.png"
 cardImageAlt: "Guía de cumplimiento fiscal mostrando formularios IRS, opciones de alivio de multas, procedimientos de declaración simplificada, planes de pago y vías de consulta profesional"
 ---
 

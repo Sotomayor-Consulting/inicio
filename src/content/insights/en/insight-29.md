@@ -1,7 +1,7 @@
 ---
 title: "What If Your LLC Was Poorly Structured? Problems and Solutions"
 description: "Consequences of a poorly structured LLC, how to detect structural problems, and steps to fix them before it's too late."
-cardImage: "@/images/insights/llc-mal-estructurada.png"
+cardImage: "@/images/insights/que-pasa-si-tu-llc-fue-mal-estructurada.png"
 cardImageAlt: "LLC with cracks representing structural problems"
 ---
 

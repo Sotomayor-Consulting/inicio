@@ -1,7 +1,7 @@
 ---
 title: "Tax Protection for Entrepreneurs: Legal Strategies to Reduce Taxes"
 description: "Tax Protection for Entrepreneurs"
-cardImage: "@/images/insights/cumplimiento-fiscal.png"
+cardImage: "@/images/insights/proteccion-fiscal-para-empresarios.png"
 cardImageAlt: "Entrepreneur analyzing financial charts and tax documents"
 ---
 
