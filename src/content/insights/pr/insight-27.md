@@ -1,7 +1,7 @@
----
+﻿---
 title: "Como Evitar Erros com o IRS: Guia para Propriet�rios de LLC Internacionais"
 description: "Os erros fiscais mais comuns que propriet�rios estrangeiros de LLCs cometem e como evit�-los para manter seu neg�cio em compliance."
-cardImage: "@/images/insights/como-evitar-errores-con-el-IRS-guia-para-due�os-de-llc-internacionales.png"
+cardImage: "@/images/insights/como-evitar-errores-con-el-IRS-guia-para-dueños-de-llc-internacionales.png"
 cardImageAlt: "Documentos fiscais com selos de aprova��o e advert�ncia"
 ---
 
