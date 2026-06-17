@@ -1,0 +1,42 @@
+---
+import BlogListingPage from "@/components/blog/BlogListingPage.astro";
+import {
+  BLOG_PAGE_SIZE,
+  buildPagination,
+  getBlogBasePath,
+  getBlogPageMeta,
+  getInsightPosts,
+} from "@/utils/blogPages";
+
+export async function getStaticPaths() {
+  const langPrefix = "es";
+  const insightPosts = await getInsightPosts(langPrefix);
+  const totalPages = Math.ceil(insightPosts.length / BLOG_PAGE_SIZE);
+  const basePath = getBlogBasePath(langPrefix);
+
+  return Array.from({ length: Math.max(totalPages - 1, 0) }, (_, index) => {
+    const currentPage = index + 2;
+    const start = (currentPage - 1) * BLOG_PAGE_SIZE;
+    const entries = insightPosts.slice(start, start + BLOG_PAGE_SIZE);
+
+    return {
+      params: { page: String(currentPage) },
+      props: {
+        entries,
+        pagination: buildPagination(basePath, currentPage, totalPages),
+        meta: getBlogPageMeta(langPrefix, currentPage),
+      },
+    };
+  });
+}
+
+const langPrefix = "es";
+const { entries, pagination, meta } = Astro.props;
+---
+
+<BlogListingPage
+  {...meta}
+  langPrefix={langPrefix}
+  entries={entries}
+  pagination={pagination}
+/>

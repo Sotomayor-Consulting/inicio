@@ -10,7 +10,7 @@ import Search from "astro-pagefind/components/Search.astro";
 // Use `getStaticPaths` to generate static routes for generated pages on build
 export async function getStaticPaths() {
   const insightPosts = await getCollection("insights", ({ id }) =>
-    id.startsWith("es/")
+    id.startsWith("es/"),
   );
   return insightPosts.map((post) => {
     const idWithoutLang = post.id.replace(/^es\//, "");
@@ -29,9 +29,11 @@ const getInsightOrder = (id: string) => {
   return match ? Number.parseInt(match[1], 10) : 0;
 };
 
-const recommendedPosts = (await getCollection("insights", ({ id }) => {
-  return id.startsWith("es/") && id !== post.id;
-}))
+const recommendedPosts = (
+  await getCollection("insights", ({ id }) => {
+    return id.startsWith("es/") && id !== post.id;
+  })
+)
   .sort((a, b) => getInsightOrder(b.id) - getInsightOrder(a.id))
   .slice(0, 6);
 
@@ -72,11 +74,17 @@ const tocTitle = "Tabla de contenido:";
   }}
 >
   <section class="py-6 sm:py-8 lg:py-12">
-    <div class="w-full flex justify-end mx-auto max-w-(--breakpoint-xl) px-4 md:px-8 my-5">
-      <Search instance="search" className="pagefind-ui" searchboxOptions={{ placeholder: "Buscar" }} />
+    <div
+      class="mx-auto my-5 flex w-full max-w-(--breakpoint-xl) justify-end px-4 md:px-8"
+    >
+      <Search
+        instance="search"
+        className="pagefind-ui"
+        searchboxOptions={{ placeholder: "Buscar" }}
+      />
     </div>
     <div class="mx-auto max-w-(--breakpoint-xl) px-4 md:px-8">
-      <div class="grid gap-8 md:grid-cols-2 lg:gap-12">
+      <div class="grid gap-8 md:grid-cols-1 lg:gap-12">
         <div>
           <div class="h-64 overflow-hidden rounded-lg shadow-lg md:h-auto">
             <Image
@@ -89,18 +97,21 @@ const tocTitle = "Tabla de contenido:";
           </div>
           <div
             id="progress-mobile"
-            class="fixed top-0 left-0 h-2 w-full bg-linear-to-r from-[#12334a] to-secundario md:hidden"
+            class="to-secundario fixed top-0 left-0 h-2 w-full bg-linear-to-r from-[#12334a] md:hidden"
           >
           </div>
-          <div id="pin" class="mt-10 hidden space-y-4 md:block">
+          <div class="mt-10 hidden space-y-4 md:block">
+            <div
+              id="progress"
+              class="to-secundario h-px w-full bg-linear-to-r from-[#12334a]"
+            >
+            </div>
+          </div>
+          <!-- <div id="pin" class="mt-10 hidden space-y-4 md:block">
             <div
               class="h-px w-full overflow-hidden bg-neutral-300 dark:bg-neutral-700"
             >
-              <div
-                id="progress"
-                class="h-px w-full bg-linear-to-r from-[#12334a] to-secundario"
-              >
-              </div>
+              
             </div>
             <p class="text-sm text-pretty text-neutral-500">
               {tocTitle}
@@ -111,18 +122,18 @@ const tocTitle = "Tabla de contenido:";
               >
               </ul>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="md:pt-8">
           <h1
-            class="mb-4 text-center text-2xl font-bold text-balance text-primario-black sm:text-3xl md:mb-6 md:text-left dark:text-neutral-200"
+            class="text-primario-black mb-4 text-center text-2xl font-bold text-balance sm:text-3xl md:mb-6 md:text-left dark:text-neutral-200"
           >
             {post.data.title}
           </h1>
 
           <article
-            class="text-lg text-pretty text-primario-black dark:text-neutral-300"
+            class="text-primario-black text-lg text-pretty dark:text-neutral-300"
             data-pagefind-body
           >
             <Content />
@@ -132,23 +143,21 @@ const tocTitle = "Tabla de contenido:";
     </div>
     {
       recommendedPosts.length > 0 && (
-        <div class="w-full flex justify-end mx-auto max-w-(--breakpoint-xl) px-4 md:px-8 my-5">
+        <div class="mx-auto my-5 flex w-full max-w-(--breakpoint-xl) justify-end px-4 md:px-8">
           <div class="w-full space-y-6 border-t border-neutral-200 pt-10 dark:border-neutral-800">
             <div>
-              <p class="text-sm font-semibold uppercase tracking-[0.2em] text-secundario">
+              <p class="text-secundario text-sm font-semibold tracking-[0.2em] uppercase">
                 Seguir leyendo
               </p>
-              <h2 class="mt-2 text-2xl font-bold text-primario-black dark:text-neutral-200">
+              <h2 class="text-primario-black mt-2 text-2xl font-bold dark:text-neutral-200">
                 Blogs recomendados
               </h2>
             </div>
 
             <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {
-                recommendedPosts.map((insightEntry) => (
-                  <CardInsight insightEntry={insightEntry} />
-                ))
-              }
+              {recommendedPosts.map((insightEntry) => (
+                <CardInsight insightEntry={insightEntry} />
+              ))}
             </div>
           </div>
         </div>

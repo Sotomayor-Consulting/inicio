@@ -1,0 +1,141 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+import MainLayout from "@/layouts/MainLayout.astro";
+import CardInsight from "@components/ui/cards/CardInsight.astro";
+import {
+  getBlogBasePath,
+  type BlogLang,
+  type BlogPagination,
+} from "@/utils/blogPages";
+
+interface Props {
+  title: string;
+  subTitle: string;
+  metaDescription: string;
+  ogTitle: string;
+  pageTitle: string;
+  pageLabel: string;
+  previousLabel: string;
+  nextLabel: string;
+  langPrefix: BlogLang;
+  entries: CollectionEntry<"insights">[];
+  pagination?: BlogPagination;
+}
+
+const {
+  title,
+  subTitle,
+  metaDescription,
+  ogTitle,
+  pageTitle,
+  previousLabel,
+  nextLabel,
+  langPrefix,
+  entries,
+  pagination,
+} = Astro.props;
+
+const currentPath = pagination?.url.current ?? getBlogBasePath(langPrefix);
+const currentUrl = `https://sotomayorconsulting.com${currentPath}`;
+const pageNumbers = pagination
+  ? Array.from({ length: pagination.lastPage }, (_, index) => index + 1)
+  : [];
+---
+
+<MainLayout
+  title={pageTitle}
+  customDescription={metaDescription}
+  customOgTitle={ogTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": currentUrl,
+    url: currentUrl,
+    name: pageTitle,
+    description: metaDescription,
+    isPartOf: {
+      "@type": "WebSite",
+      url: "https://sotomayorconsulting.com/inicio",
+      name: "Sotomayor Consulting",
+      description: metaDescription,
+    },
+    inLanguage: langPrefix === "es" ? "es" : langPrefix === "en" ? "en" : "pt-BR",
+  }}
+>
+  <section
+    class="mx-auto max-w-340 space-y-8 px-4 pt-16 sm:px-6 lg:px-8 2xl:max-w-full"
+  >
+    <div class="mx-auto max-w-3xl text-left sm:text-center">
+      <h1
+        class="block text-4xl font-bold tracking-tight text-balance text-primario-black md:text-5xl lg:text-6xl dark:text-neutral-200"
+      >
+        {title}
+      </h1>
+
+      <p
+        class="mt-4 text-lg text-pretty text-primario-black dark:text-neutral-400"
+      >
+        {subTitle}
+      </p>
+    </div>
+  </section>
+
+  <section
+    class="mx-auto max-w-340 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+  >
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {entries.map((insightEntry) => <CardInsight insightEntry={insightEntry} />)}
+    </div>
+
+    {
+      pagination && pagination.lastPage > 1 && (
+        <nav
+          aria-label="Blog pagination"
+          class="mt-12 flex flex-wrap items-center justify-center gap-3 border-t border-black/10 pt-8 dark:border-white/10"
+        >
+          {pagination.url.prev && (
+            <a
+              class="inline-flex items-center justify-center rounded-full border border-black/10 px-4 py-2 text-sm font-medium text-primario-black transition hover:border-secundario hover:text-secundario dark:border-white/10 dark:text-neutral-200 dark:hover:border-secundario dark:hover:text-secundario"
+              href={pagination.url.prev}
+            >
+              {previousLabel}
+            </a>
+          )}
+
+          {pageNumbers.map((pageNumber) => {
+            const isCurrentPage = pageNumber === pagination.currentPage;
+            const href =
+              pageNumber === 1
+                ? getBlogBasePath(langPrefix)
+                : `${getBlogBasePath(langPrefix)}/${pageNumber}`;
+
+            return (
+              <a
+                aria-current={isCurrentPage ? "page" : undefined}
+                class:list={[
+                  "inline-flex size-11 items-center justify-center rounded-full border text-sm font-semibold transition",
+                  isCurrentPage
+                    ? "border-secundario bg-secundario text-white"
+                    : "border-black/10 text-primario-black hover:border-secundario hover:text-secundario dark:border-white/10 dark:text-neutral-200 dark:hover:border-secundario dark:hover:text-secundario",
+                ]}
+                href={href}
+              >
+                {pageNumber}
+              </a>
+            );
+          })}
+
+          {pagination.url.next && (
+            <a
+              class="inline-flex items-center justify-center rounded-full border border-black/10 px-4 py-2 text-sm font-medium text-primario-black transition hover:border-secundario hover:text-secundario dark:border-white/10 dark:text-neutral-200 dark:hover:border-secundario dark:hover:text-secundario"
+              href={pagination.url.next}
+            >
+              {nextLabel}
+            </a>
+          )}
+        </nav>
+      )
+    }
+  </section>
+</MainLayout>
