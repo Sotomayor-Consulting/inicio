@@ -14,7 +14,7 @@ content:
         format: yaml-frontmatter
         subfolders: true
         operations:
-          create: false
+          create: true
           delete: false
           rename: false
         view:
