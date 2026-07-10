@@ -1,0 +1,163 @@
+---
+// Hero Video Showcase
+// - Autoplay muted + loop (like GHL original)
+// - GSAP scroll animation: starts tilted/scaled, normalizes on scroll (handled by animations.js)
+// - Click button → unmute video, hide overlay button
+// - Click again → mute, show overlay
+import Video from "@images/FeatureApp.webm"
+---
+
+<div
+  class="relative w-full mx-auto rounded-xl overflow-hidden shadow-2xl shadow-black dark:shadow-white/20"
+  data-gsap-video-showcase
+>
+  <video
+    id="videoPlayer"
+    class="w-full aspect-video object-cover"
+    autoplay
+    muted
+    controls
+    loop
+    width="1000px"
+    playsinline
+    preload="metadata"
+  >
+    <source src={Video} type="video/webm" />
+    Your browser does not support the video tag.
+  </video>
+
+  <button
+    type="button"
+    class="absolute right-4 bottom-4 z-10 h-12 w-12 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition-colors duration-300 hidden"
+    data-sound-toggle
+    aria-label="Unmute video"
+  >
+    <svg
+      class="h-5 w-5"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M11 5 6 9H2v6h4l5 4V5Z" />
+      <path d="M19 9a5 5 0 0 1 0 6" data-sound-wave />
+      <path d="M22 6a9 9 0 0 1 0 12" data-sound-wave />
+      <path d="M22 2 2 22" data-muted-icon />
+    </svg>
+  </button>
+
+  <!-- <Image class="w-full" src={ImageSrc} alt="hero SCI" loading="eager"/> -->
+
+</div>
+
+<script>
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const initVideoShowcase = () => {
+    document.querySelectorAll("[data-gsap-video-showcase]").forEach((heroVideoShowcase) => {
+      if (!(heroVideoShowcase instanceof HTMLElement) || heroVideoShowcase.dataset.gsapReady === "true") {
+        return;
+      }
+
+      heroVideoShowcase.dataset.gsapReady = "true";
+
+      const video = heroVideoShowcase.querySelector("video");
+      const toggleBtn = heroVideoShowcase.querySelector("[data-sound-toggle]");
+      const mutedIcon = heroVideoShowcase.querySelector("[data-muted-icon]");
+      const soundWaves = heroVideoShowcase.querySelectorAll("[data-sound-wave]");
+
+      if (
+        !(video instanceof HTMLVideoElement) ||
+        !(toggleBtn instanceof HTMLButtonElement) ||
+        !(mutedIcon instanceof SVGPathElement)
+      ) {
+        return;
+      }
+
+      const syncSoundState = () => {
+        if (video.muted) {
+          mutedIcon.classList.remove("hidden");
+          soundWaves.forEach((wave) => wave.classList.add("hidden"));
+          toggleBtn.classList.add("bg-black/40");
+          toggleBtn.style.opacity = "1";
+          toggleBtn.setAttribute("aria-label", "Unmute video");
+        } else {
+          mutedIcon.classList.add("hidden");
+          soundWaves.forEach((wave) => wave.classList.remove("hidden"));
+          toggleBtn.classList.remove("bg-black/40");
+          toggleBtn.style.opacity = "0";
+          toggleBtn.setAttribute("aria-label", "Mute video");
+        }
+      };
+
+      syncSoundState();
+
+      toggleBtn.addEventListener("click", () => {
+        video.muted = !video.muted;
+        syncSoundState();
+      });
+
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        gsap.set(heroVideoShowcase, { opacity: 1, y: 0, rotateX: 0, scale: 1 });
+        gsap.set(video, { scale: 1 });
+        gsap.set(toggleBtn, { opacity: video.muted ? 1 : 0 });
+        return;
+      }
+
+      gsap.set(heroVideoShowcase, {
+        opacity: 0,
+        y: 48,
+        rotateX: 10,
+        scale: 0.94,
+        transformPerspective: 1200,
+        transformOrigin: "center center",
+      });
+
+      gsap.set(video, { scale: 1.08, transformOrigin: "center center" });
+      gsap.set(toggleBtn, { opacity: video.muted ? 1 : 0, y: 12 });
+
+      const timeline = gsap.timeline({
+        scrollTrigger: {
+          trigger: heroVideoShowcase,
+          start: "top 85%",
+          end: "top 45%",
+          scrub: 1,
+        },
+      });
+
+      timeline
+        .to(heroVideoShowcase, {
+          opacity: 1,
+          y: 0,
+          rotateX: 0,
+          scale: 1,
+          ease: "power2.out",
+        })
+        .to(
+          video,
+          {
+            scale: 1,
+            ease: "power2.out",
+          },
+          0,
+        )
+        .to(
+          toggleBtn,
+          {
+            y: 0,
+            ease: "power2.out",
+          },
+          0,
+        );
+    });
+  };
+
+  initVideoShowcase();
+  document.addEventListener("astro:page-load", initVideoShowcase);
+</script>

@@ -1,5 +1,4 @@
 ---
-// Import the necessary components
 import MainLayout from "@/layouts/MainLayout.astro";
 import HeroSectionVideos from "@components/sections/landing/HeroSectionVideos.astro";
 import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
@@ -17,7 +16,6 @@ import Banner from "@components/ui/banners/AnnouncementBanner.astro";
 import Partner from "@components/sections/landing/TarjetaParner.astro";
 import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.astro";
 ---
-
 
 <MainLayout>
   <Banner
@@ -47,12 +45,14 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     button2slide3="Agenda una reunion"
   />
 
+  
+
   <CartasDeServiciosV2
     title="Todo para tu Empresa"
     subTitle="Ofrecemos soluciones de servicio personalizadas para profesionales, individuos, familias y empresas, atendiendo a sus necesidades específicas."
   />
 
-  <Partner
+  <!-- <Partner
     title1="Para profesionales"
     subTitle1="Asóciese con Sotomayor Consulting International para brindar a sus clientes soluciones expertas en estructuras internacionales, planificación fiscal y tecnología global, manteniendo siempre su rol central como asesor de confianza."
     title2="Programa para Partners"
@@ -60,11 +60,11 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     imagen="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
     alt="Personas haciendo negocios"
     link="/inicio/asociados"
-  />
+  /> -->
 
   <FeaturesGeneral
-    title="Lo que nos distingue"
-    subTitle="Nuestra prioridad es la confianza del cliente. Con un enfoque integral, diseñamos soluciones de excelencia que construyen relaciones duraderas."
+    title="Conoce nuestra aplicación "
+    subTitle="La forma más fácil de constituir tu LLC y administrar tu empresa sin complicaciones ni papeleo innecesario."
     src={featureImage}
     alt="ScrewFast products in floating boxes"
     features={features}

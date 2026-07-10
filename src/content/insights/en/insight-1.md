@@ -4,7 +4,6 @@ description: "Annual LLC Maintenance"
 cardImage: "@/images/insights/como-usa-una-llc.png"
 cardImageAlt: "Professionals working in an office"
 ---
-
 Keeping your LLC compliant and active is essential for the success and continuity of your business in the United States. At **Sotomayor Consulting International**, we offer a comprehensive **Annual Maintenance** service that covers all the necessary legal and administrative requirements to ensure your company complies with state regulations.
 
 This service includes: resident agent renewal, state fee payment, and Annual Report filing. Below, we explain in detail how we manage each of these key elements for your peace of mind.

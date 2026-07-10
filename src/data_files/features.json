@@ -1,22 +1,22 @@
 [
   {
-    "heading": "Arquitectura Corporativa",
-    "content": "Más que una constitución, diseñamos la estructura legal y fiscal óptima (LLC, Holding o jurisdicciones internacionales) según su residencia y objetivos de negocio.",
-    "svg": "groups"
+    "heading": "Constitucion Rapida e Intuitiva",
+    "content": "Nuestra app permite incorporar empresas y LLCs de forma rapida, facil e intuitiva, guiando al cliente paso a paso desde el inicio del proceso.",
+    "svg": "rapidez"
   },
   {
-    "heading": "Prevención y Cumplimiento",
-    "content": "Protegemos su inversión mediante un riguroso acompañamiento ante el IRS y entidades bancarias, evitando multas y errores comunes de gestoras poco serias.",
+    "heading": "Pagos Seguros y Automatizados",
+    "content": "La plataforma integra una pasarela de pagos segura gestionada por Stripe, para que el cliente pueda completar pagos con confianza dentro del mismo flujo de incorporacion.",
     "svg": "verified"
   },
   {
-    "heading": "Estructura con Criterio Fiscal",
-    "content": "Analizamos las implicaciones tributarias, previniendo errores críticos que derivan en multas del IRS o rechazos bancarios, asegurando un cumplimiento impecable.",
+    "heading": "Documentos, Tareas y Notificaciones",
+    "content": "Incluye revision de documentos, notificaciones y un sistema de tareas que indica al cliente que formulario llenar, que documento subir y que archivos debe firmar en cada etapa.",
     "svg": "books"
   },
   {
-    "heading": "Innovación y Liderazgo",
-    "content": "En un mundo en constante cambio, nos mantenemos a la vanguardia. Incorporamos tecnologías y metodologías innovadoras para asegurar que nuestras soluciones respondan a sus necesidades actuales.",
+    "heading": "Centro de Control de su LLC",
+    "content": "Todo se gestiona desde un centro de control claro y seguro, donde el cliente puede seguir el estado de la incorporacion de su LLC y acceder a sus documentos oficiales en un solo lugar.",
     "svg": "frame"
   }
 ]
