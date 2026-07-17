@@ -127,5 +127,10 @@ export default defineConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      allowedHosts: [
+        'igjmxz-ip-200-50-232-3.tunnelmole.net'  // o usa '.tunnelmole.net' para todos
+      ]
+    }
   },
 });
