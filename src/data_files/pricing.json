@@ -2,9 +2,9 @@
   "title": "Constituye tu LLC de forma rápida",
   "subTitle": "Elige el plan que mejor se adapta a tu negocio y comienza a operar en EE. UU. con respaldo legal y tributario.",
   "badge": "Favorito",
-  "thirdOption": "¿Buscas otro servicio?",
-  "btnText": "Ver más servicios",
-  "linkServicios": "/inicio/#cartas-servicios",
+  "thirdOption": "¿Necesitas ayuda?",
+  "btnText": "Agenda una cita",
+  "linkServicios": "https://zcal.co/t/agendar-asesoria-llc/60min",
 
   "starterKit": {
     "name": "Plan Básico",
@@ -18,7 +18,7 @@
       "Agente Residente por un año."
     ],
     "purchaseBtnTitle": "Obtén el paquete básico",
-    "purchaseLink": "https://www.cognitoforms.com/SotomayorConsultingInternational/RegistroPlanesDeIncorporaci%C3%B3n?entry=%7B%22PlanDeServicio%22:%2211-66%22%7D"
+    "purchaseLink": "https://app.sotomayorconsulting.com/start"
   },
 
   "professionalToolbox": {
@@ -31,7 +31,7 @@
       "Los beneficios del Plan Básico y los beneficios del plan estándar, más:"
     ],
     "purchaseBtnTitle": "Obtén el plan Business",
-    "purchaseLink": "https://www.cognitoforms.com/SotomayorConsultingInternational/RegistroPlanesDeIncorporaci%C3%B3n?entry=%7B%22PlanDeServicio%22:%2211-67%22%7D",
+    "purchaseLink": "https://app.sotomayorconsulting.com/start",
     "bussines" : [
       "Planificación y diseño legal - tributario.", "Acompañamiento bancario (Mercury o Relay + Stripe).", "EIN acelerado."
     ]
@@ -50,7 +50,7 @@
       "Solicitud de Exención BE-13"
     ],
     "purchaseBtnTitle": "Obtén el paquete estándar",
-    "purchaseLink": "https://www.cognitoforms.com/SotomayorConsultingInternational/RegistroPlanesDeIncorporaci%C3%B3n?entry=%7B%22PlanDeServicio%22:%2211-101%22%7D"
+    "purchaseLink": "https://app.sotomayorconsulting.com/start"
   },
 
   "planUpgrade":{
@@ -61,6 +61,6 @@
     "billing": "USD",
     "lista": [ "Planificación y diseño de LLC" ],
     "button": "Obtén el plan Diseño",
-    "link": "https://www.cognitoforms.com/SotomayorConsultingInternational/RegistroPlanesDeIncorporaci%C3%B3n?entry=%7B%22PlanDeServicio%22%3A%2211-224%22%7D"
+    "link": "https://app.sotomayorconsulting.com/start"
   }
 }

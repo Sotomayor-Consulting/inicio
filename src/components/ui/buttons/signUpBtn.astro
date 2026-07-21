@@ -70,8 +70,21 @@ const title = isEnglish
     inset: -2px;
     z-index: -1;
     border-radius: inherit;
-    animation: signup-breathe 3s ease-in-out infinite;
     pointer-events: none;
+  }
+
+  @media (max-width: 1279px) {
+    .signup-cta::after {
+      animation: none;
+      box-shadow: none;
+      content: none;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .signup-cta::after {
+      animation: signup-breathe 3s ease-in-out infinite;
+    }
   }
 
   .signup-rocket {

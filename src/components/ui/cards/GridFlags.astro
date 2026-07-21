@@ -13,7 +13,7 @@ export interface Props {
 const { banderas } = Astro.props as Props;
 ---
 
-<div class="grid-auto-efe flex cursor-default flex-wrap gap-4 max-lg:gap-1">
+<div class="flex flex-wrap gap-2 cursor-default">
   {
     [...banderas]
       .sort((a, b) => a.pais.localeCompare(b.pais, "es"))

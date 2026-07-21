@@ -20,11 +20,11 @@ const homeUrl = isEnglish ? "/inicio/en" : isPortuguese ? "/inicio/pr" : "/inici
 
 <!-- Main header component -->
 <header
-  class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start"
+  class="sticky inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm xl:flex-nowrap xl:justify-start"
 >
   <!-- Navigation container -->
   <nav
-    class="relative mx-2 w-full rounded-[36px] border border-[#171717]/40 bg-yellow-50/60 px-4 py-3 backdrop-blur-md md:flex md:items-center md:justify-between md:px-6 md:py-0 lg:px-8 xl:mx-auto dark:border-neutral-50/40 dark:bg-[#171717]/80 dark:backdrop-blur-md"
+    class="relative mx-2 w-full rounded-[36px] border border-[#171717]/40 bg-yellow-50/60 px-4 py-3 backdrop-blur-md xl:flex xl:items-center xl:justify-between xl:px-6 xl:py-0 lg:px-8 xl:mx-auto dark:border-neutral-50/40 dark:bg-[#171717]/80 dark:backdrop-blur-md"
     aria-label="Global"
   >
     <div class="flex items-center justify-between">
@@ -34,10 +34,10 @@ const homeUrl = isEnglish ? "/inicio/en" : isPortuguese ? "/inicio/pr" : "/inici
         href={homeUrl}
         aria-label="Brand"
       >
-        <BrandLogo class="h-auto w-24" />
+        <BrandLogo class="" />
       </a>
       <!-- Collapse toggle for smaller screens -->
-      <div class="mr-5 ml-auto md:hidden">
+      <div class="mr-5 ml-auto xl:hidden">
         <button
           type="button"
           class="hs-collapse-toggle flex h-8 w-8 items-center justify-center rounded-full text-sm font-bold text-primario-black transition duration-300 hover:bg-neutral-200 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700 dark:focus:outline-hidden"
@@ -77,18 +77,18 @@ const homeUrl = isEnglish ? "/inicio/en" : isPortuguese ? "/inicio/pr" : "/inici
         </button>
       </div>
       <!-- ThemeIcon component specifically for smaller screens -->
-      <span class="inline-block md:hidden">
+      <span class="inline-block xl:hidden">
         <ThemeIcon />
       </span>
     </div>
     <!-- Contains navigation links -->
     <div
       id="navbar-collapse-with-animation"
-      class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 md:block"
+      class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 xl:block"
     >
       <!-- Navigation links container -->
       <div
-        class="mt-5 flex flex-col gap-x-0 gap-y-4 md:mt-0 md:flex-row md:items-center md:justify-end md:gap-x-4 md:gap-y-0 md:ps-7 lg:gap-x-7"
+        class="mt-5 flex flex-col gap-x-0 gap-y-4 xl:mt-0 xl:flex-row xl:items-center xl:justify-end xl:gap-x-4 xl:gap-y-0 xl:ps-7 lg:gap-x-7"
       >
         <!-- Navigation links and Authentication component 
         {
@@ -119,7 +119,7 @@ const homeUrl = isEnglish ? "/inicio/en" : isPortuguese ? "/inicio/pr" : "/inici
         <Authentication />
         <LanguagePicker />
         <!-- ThemeIcon component specifically for larger screens -->
-        <span class="hidden md:inline-block">
+        <span class="hidden xl:inline-block">
           <ThemeIcon />
         </span>
       </div>

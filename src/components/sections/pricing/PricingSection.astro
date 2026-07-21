@@ -1,251 +1,229 @@
 ---
-// Import SecondaryCTA component for use in this module
 import SecondaryCTA from "@components/ui/buttons/SecondaryCTA.astro";
 import Icon from "@components/ui/icons/Icon.astro";
-import Popup from "@components/ui/blocks/popup.astro";
-import Popupdos from "@components/ui/blocks/popupdos.astro";
-import Popuptres from "@components/ui/blocks/popuptres.astro";
 
-// Define props from Astro
 const { pricing } = Astro.props;
 
-// Define TypeScript type for products.
-type Product = {
-  name: string;
-  description: string;
-  price: string;
-  cents: string;
-  billingFrequency: string;
-  features: Array<string>;
-  purchaseBtnTitle: string;
-  purchaseLink: string;
-};
-
-interface PricingSectionProps {
-  title: string;
-  subTitle: string;
-  badge: string;
-  thirdOption: string;
-  btnText: string;
-  pricing: {
-    title: string;
-    subTitle: string;
-    starterKit: Product;
-    professionalToolbox: Product;
-  };
-}
-
+const plans = [
+  {
+    title: pricing.starterKit.name,
+    description: pricing.starterKit.description,
+    price: pricing.starterKit.price,
+    cents: pricing.starterKit.cents,
+    billingFrequency: pricing.starterKit.billingFrequency,
+    features: pricing.starterKit.features,
+    ctaLabel: pricing.starterKit.purchaseBtnTitle,
+    ctaHref: pricing.starterKit.purchaseLink,
+    ctaId: "openModaltres",
+    tone: "default",
+    featured: false,
+    eyebrow: null,
+    label: null,
+  },
+  {
+    title: pricing.planestandar.name,
+    description: pricing.planestandar.description,
+    price: pricing.planestandar.price,
+    cents: pricing.planestandar.cents,
+    billingFrequency: pricing.planestandar.billingFrequency,
+    features: pricing.planestandar.features,
+    ctaLabel: pricing.planestandar.purchaseBtnTitle,
+    ctaHref: pricing.planestandar.purchaseLink,
+    ctaId: "estandar",
+    tone: "default",
+    featured: false,
+    eyebrow: null,
+    label: pricing.planestandar.label,
+  },
+  {
+    title: pricing.professionalToolbox.name,
+    description: pricing.professionalToolbox.description,
+    price: pricing.professionalToolbox.price,
+    cents: pricing.professionalToolbox.cents,
+    billingFrequency: pricing.professionalToolbox.billingFrequency,
+    features: pricing.professionalToolbox.bussines,
+    ctaLabel: pricing.professionalToolbox.purchaseBtnTitle,
+    ctaHref: pricing.professionalToolbox.purchaseLink,
+    ctaId: "openModaldos",
+    tone: "featured",
+    featured: true,
+    eyebrow: pricing.badge,
+    label: pricing.professionalToolbox.features,
+  },
+  {
+    title: pricing.planUpgrade.title,
+    description: pricing.planUpgrade.description,
+    price: pricing.planUpgrade.price,
+    cents: pricing.planUpgrade.cents,
+    billingFrequency: pricing.planUpgrade.billing,
+    features: pricing.planUpgrade.lista,
+    ctaLabel: pricing.planUpgrade.button,
+    ctaHref: pricing.planUpgrade.link,
+    tone: "default",
+    featured: false,
+    eyebrow: "Upgrade",
+  },
+];
 ---
 
 <section
-  class="mx-auto max-w-340 px-4 py-10 sm:px-6 lg:px-8 lg:py-14 2xl:max-w-full"
+  class="mx-auto w-full px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
   id="precios"
 >
-  <!-- Section heading and sub-heading -->
-  <div class="mx-auto mb-10 max-w-2xl text-center lg:mb-14">
+  <div class="mx-auto mb-10 max-w-3xl text-center lg:mb-14">
+    
     <h2
-      class="text-2xl font-bold tracking-tight text-balance text-primario-black md:text-4xl md:leading-tight dark:text-neutral-200"
+      class="mt-4 text-3xl font-semibold tracking-tight text-balance text-primario-black sm:text-4xl lg:text-5xl dark:text-neutral-100"
     >
       {pricing.title}
     </h2>
-    <p class="mt-1 text-pretty text-primario-black dark:text-neutral-400">
+    <p
+      class="mx-auto mt-3 max-w-2xl text-pretty text-base leading-7 text-neutral-600 dark:text-neutral-400"
+    >
       {pricing.subTitle}
     </p>
   </div>
-  <!-- Contains two main product blocks -->
-  <div class="grid w-full place-items-center gap-4 sm:gap-0 lg:flex">
-    <!-- Starter Kit product details -->
-    <div
-      class="w-full rounded-xl bg-[#262626] p-6 sm:p-8 md:w-1/2 lg:w-1/3 lg:rounded-r-none"
-    >
-      <div class="mb-4">
-        <h3 class="text-2xl font-bold text-neutral-100 sm:text-3xl">
-          {pricing.starterKit.name}
-        </h3>
-        <p class="text-indigo-300">{pricing.starterKit.description}</p>
-      </div>
-      <div class="mb-4">
-        <span class="text-4xl font-bold text-neutral-200"
-          >{pricing.starterKit.price}</span
-        >
-        <span class="text-lg font-bold text-neutral-300"
-          >{pricing.starterKit.cents}</span
-        >
-        <span class="ms-3 text-sm text-indigo-200"
-          >{pricing.starterKit.billingFrequency}</span
-        >
-      </div>
-      <!-- Features list - automatically created by mapping over `features` array -->
-      <ul class="mb-6 space-y-2 text-neutral-300">
-        {
-          pricing.starterKit.features.map((feature: string) => (
-            <li class="lg:ml-5 ml-0 flex items-center gap-1.5">
-              <Icon name="checkCircle" />
-              <span>{feature}</span>
-            </li>
-          ))
-        }
-      </ul>
-      <!-- CTA for purchasing the product -->
-      <button
-        id="openModaltres"
-        class="block w-full cursor-pointer rounded-lg bg-gray-500 px-8 py-3 text-center text-sm font-bold text-gray-100 ring-indigo-300 outline-hidden transition duration-100 hover:cursor-pointer hover:bg-gray-600 focus-visible:ring-3 active:text-gray-300 md:text-base"
-        >{pricing.starterKit.purchaseBtnTitle}</button
-      >
-    </div>
-    <!-- Professional Toolbox product details -->
-    <div
-      class="w-full rounded-xl bg-linear-to-tr from-[#12334a] to-[#F09819] p-6 shadow-xl sm:w-1/2 sm:p-8"
-    >
-      <div
-        class="mb-4 flex flex-col items-start justify-between gap-4 lg:flex-row"
-      >
-        <div>
-          <h3 class="text-2xl font-bold text-neutral-100 sm:text-3xl">
-            {pricing.professionalToolbox.name}
-          </h3>
-          <p class="text-orange-200">
-            {pricing.professionalToolbox.description}
-          </p>
-        </div>
 
-        <span
-          class="bg-opacity-50 order-first inline-block animate-pulse rounded-full bg-orange-200/60 px-3 py-1 text-center text-xs font-bold tracking-wider text-orange-600 uppercase lg:order-0"
-          >{pricing.badge}</span
-        >
-      </div>
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+    {
+      plans.map((plan) => {
+        const cardClasses =
+          plan.tone === "featured"
+            ? "border-neutral-400 bg-background/95 text-card-foreground shadow-lg shadow-black/5 dark:border-neutral-500 dark:bg-neutral-900/80 dark:text-neutral-100 dark:shadow-white/5 hover:shadow-xl hover:shadow-secundario hover:-translate-y-2 transition-all duration-300 ease-in-out hover:dark:shadow-secundario/30"
+            : plan.tone === "accent"
+              ? "border-amber-200/80 bg-secundario/80 text-neutral-900 shadow-lg shadow-amber-100/40 dark:border-amber-700/40 dark:bg-secundario/20 dark:text-neutral-100"
+              : "border-neutral-400 bg-background/95 text-card-foreground shadow-lg shadow-black/5 dark:border-neutral-500 dark:bg-neutral-900/80 dark:text-neutral-100 dark:shadow-white/5 hover:shadow-xl hover:shadow-secundario hover:-translate-y-2 transition-all duration-300 ease-in-out hover:dark:shadow-secundario/30";
 
-      <div class="mb-4">
-        <span class="text-6xl font-bold text-neutral-100"
-          >{pricing.professionalToolbox.price}</span
-        >
-        <span class="text-lg font-bold text-orange-100"
-          >{pricing.professionalToolbox.cents}</span
-        >
-        <span class="ms-3 text-orange-200"
-          >{pricing.professionalToolbox.billingFrequency}</span
-        >
-      </div>
-      <!-- Features list - automatically created by mapping over `features` array -->
-      <ul class="mb-6 space-y-2 text-orange-100">
-        {
-          pricing.professionalToolbox.features.map((feature: string) => (
-            <li class="mb-5 flex items-center gap-1.5 text-lg font-bold">
-              <span>{feature}</span>
-            </li>
-          ))
-        }
-        {
-          pricing.professionalToolbox.bussines.map((r: string) => (
-            <li class="lg:ml-10 ml-0 flex items-center gap-1.5 text-lg">
-              <Icon name="estrella" />
-              <span>{r}</span>
-            </li>
-          ))
-        }
-      </ul>
-      <!-- CTA for purchasing the product -->
-      <button
-        id="openModaldos"
-        class="bg-opacity-50 block w-full cursor-pointer rounded-lg bg-orange-200/40 px-8 py-3 text-center text-sm font-bold text-neutral-100 ring-orange-300 outline-hidden transition duration-300 hover:cursor-pointer hover:bg-secundario focus-visible:ring-3 active:bg-secundario md:text-base"
-        >{pricing.professionalToolbox.purchaseBtnTitle}</button
-      >
-    </div>
-    <!-- Plan standar -->
-    <div
-      class="w-full rounded-xl bg-[#262626] p-6 sm:w-1/2 sm:p-8 lg:w-1/3 lg:rounded-l-none"
-    >
-      <div class="mb-4">
-        <h3 class="text-2xl font-bold text-neutral-100 sm:text-3xl">
-          {pricing.planestandar.name}
-        </h3>
-        <p class="text-indigo-300">{pricing.planestandar.description}</p>
-      </div>
+        const descriptionClasses =
+          plan.tone === "featured"
+            ? "text-neutral-600 dark:text-neutral-400"
+            : plan.tone === "accent"
+              ? "text-amber-900/80 dark:text-amber-100/80"
+              : "text-neutral-600 dark:text-neutral-400";
 
-      <div class="mb-4">
-        <span class="text-4xl font-bold text-neutral-200"
-          >{pricing.planestandar.price}</span
-        >
-        <span class="text-lg font-bold text-neutral-300"
-          >{pricing.planestandar.cents}</span
-        >
-        <span class="ms-3 text-sm text-indigo-200"
-          >{pricing.planestandar.billingFrequency}</span
-        >
-      </div>
-      <!-- Features list - automatically created by mapping over `features` array -->
-      <ul class="mb-6 space-y-2 text-neutral-300">
-        <li class="mb-5 flex items-center gap-1.5 text-lg">
-          <Icon name="toolbox" />
-          <span class="font-bold">{pricing.planestandar.label}</span>
-        </li>
-        {
-          pricing.planestandar.features.map((feature: string) => (
-            <li class="lg:ml-5 ml-0 flex items-center gap-1.5">
-              <Icon name="checkCircle" />
-              <span>{feature}</span>
-            </li>
-          ))
-        }
-      </ul>
-      <!-- CTA for purchasing the product -->
-      <button
-        id="estandar"
-        class="block w-full cursor-pointer rounded-lg bg-gray-500 px-8 py-3 text-center text-sm font-bold text-gray-100 ring-indigo-300 outline-hidden transition duration-100 hover:cursor-pointer hover:bg-gray-600 focus-visible:ring-3 active:text-gray-300 md:text-base"
-        >{pricing.planestandar.purchaseBtnTitle}</button
-      >
-    </div>
-  </div>
-  <div class="mt-4 flex w-full justify-center md:mt-10">
-    <div
-      class="w-full rounded-xl bg-linear-to-tr from-[#F09819] to-[#12334a] p-6 shadow-xl sm:w-1/2 sm:p-8"
-    >
-      <div
-        class="mb-4 flex flex-col items-start justify-between gap-4 lg:flex-row"
-      >
-        <div>
-          <h3
-            class="text-2xl font-bold text-neutral-100 sm:text-3xl md:text-center"
+        const billingClasses =
+          plan.tone === "featured"
+            ? "text-neutral-500 dark:text-neutral-400"
+            : plan.tone === "accent"
+              ? "text-amber-900/70 dark:text-amber-100/70"
+              : "text-neutral-500 dark:text-neutral-400";
+
+        const priceClasses =
+          plan.tone === "featured"
+            ? "text-primario-black dark:text-white"
+            : "text-primario-black dark:text-white";
+
+        const listClasses =
+          plan.tone === "featured"
+            ? "text-neutral-700 dark:text-neutral-300"
+            : plan.tone === "accent"
+              ? "text-amber-950 dark:text-amber-100"
+              : "text-neutral-700 dark:text-neutral-300";
+
+        const iconName = plan.tone === "featured" ? "estrella" : "checkCircle";
+
+        return (
+          <article
+            class={`relative flex h-full flex-col overflow-hidden rounded-2xl border p-6 sm:p-7 ${cardClasses}`}
           >
-            {pricing.planUpgrade.title}
-          </h3>
-          <p class="text-white md:text-center">
-            {pricing.planUpgrade.description}
-          </p>
-        </div>
-      </div>
+            <div class="flex flex-col min-h-16 items-start justify-center gap-4">
+              <div>
+                {plan.eyebrow && (
+                <span
+                  class={`relative isolate inline-flex shrink-0 rounded-full border px-2.5 py-1 text-[11px] font-semibold tracking-[0.14em] uppercase ${plan.tone === "featured" ? "border-white/15 dark:bg-secundario/30 bg-secundario text-black dark:text-white before:pointer-events-none before:absolute before:inset-[-4px] before:-z-10 before:rounded-full before:bg-secundario/35 before:content-[''] before:animate-[badgePulse_1.8s_ease-in-out_infinite] after:pointer-events-none after:absolute after:inset-0 after:-z-10 after:rounded-full after:bg-white/10 after:content-['']" : plan.tone === "accent" ? "border-amber-300/80 bg-white/70 text-amber-900 dark:border-amber-600/50 dark:bg-amber-100/10 dark:text-amber-100" : "border-border bg-muted/70 text-muted-foreground dark:border-neutral-700 dark:bg-neutral-800/80 dark:text-neutral-300"}`}
+                >
+                  {plan.eyebrow}
+                </span>
+              )}
+              </div>
+              <div>
+                <p class={`text-sm font-medium ${descriptionClasses}`}>
+                  {plan.description}
+                </p>
+                <h3 class="mt-3 text-2xl font-semibold tracking-tight">
+                  {plan.title}
+                </h3>
+              </div>
 
-      <div class="mb-4">
-        <span class="text-6xl font-bold text-neutral-100">{pricing.planUpgrade.price}</span>
-        <span class="text-lg font-bold text-orange-100">{pricing.planUpgrade.cents}</span>
-        <span class="ms-3 text-orange-200">{pricing.planUpgrade.billing}</span>
-      </div>
-      <!-- Features list - automatically created by mapping over `features` array -->
-      <ul class="mb-6 space-y-2 text-orange-100">
-        <li class="flex items-center gap-1.5">
-          <Icon name="checkCircle" />
-          <span>{pricing.planUpgrade.lista}</span>
-        </li>
-      </ul>
-      <!-- CTA for purchasing the product -->
-      <a
-        href={pricing.planUpgrade.link}
-        class="bg-opacity-50 block rounded-lg bg-orange-200/40 px-8 py-3 text-center text-sm font-bold text-neutral-100 ring-orange-300 outline-hidden transition duration-300 hover:bg-secundario focus-visible:ring-3 active:bg-secundario md:text-base"
-        >{pricing.planUpgrade.button}</a
-      >
-    </div>
+              
+            </div>
+
+            <div class="mt-8 flex items-end gap-1">
+              <span class={`text-5xl font-semibold tracking-tight ${priceClasses}`}>
+                {plan.price}
+              </span>
+              <span class={`pb-1 text-lg font-semibold ${priceClasses}`}>
+                {plan.cents}
+              </span>
+              <span class={`pb-2 pl-2 text-sm font-medium ${billingClasses}`}>
+                {plan.billingFrequency}
+              </span>
+            </div>
+
+            <ul class={`mt-8 space-y-3 text-sm leading-6 ${listClasses}`}>
+              {
+                plan.label && (
+                  <li class="flex items-start gap-3">
+                    <span>{plan.label}</span>
+                  </li>
+                )
+              }
+              {plan.features.map((feature: string) => (
+                <li class="flex items-start gap-3">
+                  <span
+                    class={`mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${plan.tone === "featured" ? "bg-secundario/30 text-secundario" : plan.tone === "accent" ? "bg-amber-200/70 text-amber-900 dark:bg-amber-500/20 dark:text-amber-100" : "bg-muted text-foreground dark:bg-neutral-800 dark:text-neutral-200"}`}
+                  >
+                    <Icon name={iconName} />
+                  </span>
+                  <span>{feature}</span>
+                </li>
+              ))}
+              
+            </ul>
+
+            <div class="mt-8 flex-1"></div>
+
+            {plan.ctaHref ? (
+              <a
+                href={plan.ctaHref}
+                class={`mt-8 inline-flex w-full items-center justify-center rounded-xl px-4 py-3 text-sm font-semibold transition duration-200 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-hidden ${plan.tone === "accent" ? "bg-amber-500 text-white hover:bg-amber-600 focus-visible:ring-amber-500 dark:bg-amber-400 dark:text-neutral-950 dark:hover:bg-amber-300" : "bg-neutral-900 text-white hover:bg-neutral-800 focus-visible:ring-neutral-500 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200"}`}
+              >
+                {plan.ctaLabel}
+              </a>
+            ) : (
+              <button
+                id={plan.ctaId}
+                class={`mt-8 inline-flex w-full items-center justify-center rounded-xl px-4 py-3 text-sm font-semibold transition duration-200 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-hidden ${plan.tone === "featured" ? "bg-neutral-900 text-white hover:bg-neutral-800 focus-visible:ring-neutral-500 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200" : "bg-neutral-900 text-white hover:bg-neutral-800 focus-visible:ring-neutral-500 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200"}`}
+              >
+                {plan.ctaLabel}
+              </button>
+            )}
+          </article>
+        );
+      })
+    }
   </div>
 
-  <!-- Call to action for Enterprise Solutions -->
-  <div class="mt-8 flex items-center justify-center gap-x-3 md:mt-12">
+  <div class="mt-10 flex items-center justify-center gap-x-3 md:mt-12">
     <p class="text-sm text-primario-black dark:text-neutral-400">
       {pricing.thirdOption}
     </p>
-
-    <SecondaryCTA title={pricing.btnText} url={pricing.linkServicios} />
+    <SecondaryCTA title={pricing.btnText} url={pricing.linkServicios} alternative={true} />
   </div>
 </section>
 
-<Popup />
-<Popupdos />
-<Popuptres />
+
+<style>
+  @keyframes badgePulse {
+    0%,
+    100% {
+      opacity: 0.2;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: 0.65;
+      transform: scale(1.14);
+    }
+  }
+</style>

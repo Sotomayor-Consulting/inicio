@@ -15,14 +15,15 @@ interface Props {
   grid4link: string;
 }
 
-const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } = Astro.props;
+const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } =
+  Astro.props;
 ---
 
 <div
-  class="mx-auto my-20 grid max-w-9xl grid-cols-2 grid-rows-4 gap-4 max-xl:h-137.5 max-md:h-[80vh] max-sm:h-225 max-sm:gap-3 md:grid-cols-4 md:grid-rows-2 xl:h-[700px]"
+  class="max-w-9xl mx-auto my-20 grid grid-cols-2 grid-rows-4 gap-4 max-sm:gap-3 xl:h-[700px] xl:grid-cols-4 xl:grid-rows-2"
 >
   <div
-    class="z-40 col-start-2 row-start-2 rounded-2xl border-transparent bg-linear-to-r p-[.2rem] transition-all duration-150 ease-in hover:scale-105 hover:shadow-[0_10px_50px_rgba(185,141,51,0.2)] md:col-start-4 dark:border-2"
+    class="z-40 col-start-2 row-start-2 rounded-2xl border-transparent bg-linear-to-r p-[.2rem] transition-all duration-150 ease-in hover:scale-105 hover:shadow-[0_10px_50px_rgba(185,141,51,0.2)] xl:col-start-4 dark:border-2"
   >
     <div class="h-full w-full overflow-hidden rounded-2xl">
       <div
@@ -35,7 +36,7 @@ const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } = 
           <div class="relative flex h-full flex-col gap-8 p-8">
             <div class="z-2">
               <h3
-                class="text-primario-black text-4xl font-extrabold max-xl:text-3xl max-md:text-xl dark:text-white"
+                class="text-primario-black text-4xl font-extrabold max-xl:text-3xl max-xl:text-xl dark:text-white"
               >
                 {grid4}
               </h3>
@@ -45,7 +46,7 @@ const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } = 
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              class="absolute -bottom-10 left-30 size-50 text-primario-black opacity-10 ease-in-out group-hover:animate-pulse max-md:left-30 max-sm:left-10 xl:-right-24 xl:-bottom-5 xl:size-56 dark:text-white"
+              class="text-primario-black absolute -bottom-10 left-30 size-50 opacity-10 ease-in-out group-hover:animate-pulse max-xl:left-30 max-sm:left-10 xl:-right-24 xl:-bottom-5 xl:size-56 dark:text-white"
               ><path
                 fill="currentColor"
                 d="M21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1m-8 2.999c1.648 0 3 1.351 3 3A3.01 3.01 0 0 1 13 11c-1.647 0-3-1.353-3-3.001c0-1.649 1.353-3 3-3M19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5z"
@@ -57,7 +58,7 @@ const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } = 
     </div>
   </div>
   <div
-    class="z-40 col-start-1 row-start-2 rounded-2xl border-transparent bg-linear-to-r p-[.2rem] transition-all duration-150 ease-in hover:scale-105 hover:shadow-[0_10px_50px_rgba(185,141,51,0.2)] md:col-start-3"
+    class="z-40 col-start-1 row-start-2 rounded-2xl border-transparent bg-linear-to-r p-[.2rem] transition-all duration-150 ease-in hover:scale-105 hover:shadow-[0_10px_50px_rgba(185,141,51,0.2)] xl:col-start-3"
   >
     <div class="h-full w-full overflow-hidden rounded-2xl">
       <div
@@ -70,7 +71,7 @@ const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } = 
           <div class="relative flex h-full flex-col gap-8 p-8">
             <div class="z-2">
               <h3
-                class="text-primario-black text-4xl font-extrabold max-xl:text-3xl max-md:text-xl dark:text-white"
+                class="text-primario-black text-4xl font-extrabold max-xl:text-3xl max-xl:text-xl dark:text-white"
               >
                 {grid3}
               </h3>
@@ -80,7 +81,7 @@ const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } = 
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              class="absolute -bottom-10 left-30 size-40 text-primario-black opacity-10 ease-in-out group-hover:animate-pulse max-md:left-30 max-sm:left-10 xl:-right-24 xl:-bottom-5 xl:size-40 dark:text-white"
+              class="text-primario-black absolute -bottom-10 left-30 size-40 opacity-10 ease-in-out group-hover:animate-pulse max-xl:left-30 max-sm:left-10 xl:-right-24 xl:-bottom-5 xl:size-40 dark:text-white"
               ><path
                 fill="none"
                 stroke="currentColor"
@@ -93,16 +94,16 @@ const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } = 
     </div>
   </div>
   <div
-    class="from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 hover:to-mint-300/30 dark:hover:to-mint-600/30 col-span-2 col-start-1 row-start-1 rounded-2xl bg-linear-to-r p-[.2rem] md:col-start-3"
+    class="from-mint-300 dark:from-mint-600 to-mint-50 dark:to-mint-200/5 hover:to-mint-300/30 dark:hover:to-mint-600/30 col-span-2 col-start-1 row-start-1 rounded-2xl bg-linear-to-r p-[.2rem] xl:col-start-3"
   >
     <article
-      class="group relative z-0 flex h-full w-full flex-col gap-6 overflow-hidden rounded-2xl bg-linear-to-tr from-white to-[#e5e5e5] p-6 transition before:transition hover:shadow-[0_10px_50px_rgba(185,141,51,0.2)] max-lg:gap-4 max-md:gap-3 max-md:p-4 dark:overflow-hidden dark:from-[#262626] dark:to-[#171717]"
+      class="group relative z-0 flex h-full w-full flex-col gap-6 overflow-hidden rounded-2xl bg-linear-to-tr from-white to-[#e5e5e5] p-6 transition before:transition hover:shadow-[0_10px_50px_rgba(185,141,51,0.2)] max-xl:gap-3 max-xl:p-4 max-lg:gap-4 dark:from-[#262626] dark:to-[#171717]"
     >
-      <div class="flex items-center gap-4 max-md:gap-2">
+      <div class="flex items-center gap-4 max-xl:gap-2">
         <svg
           width="1em"
           height="1em"
-          class="text-primario-black text-3xl max-md:text-2xl max-sm:text-sm dark:text-white"
+          class="text-primario-black text-3xl max-xl:text-2xl max-sm:text-sm dark:text-white"
           aria-hidden="true"
           data-icon="dashboard"
         >
@@ -115,42 +116,46 @@ const { grid4, grid4link, grid3, grid3link, grid2, title, description, link } = 
           ><use href="#ai:local:dashboard"></use>
         </svg>
         <h3
-          class="text-primario-black text-4xl font-extrabold max-xl:text-3xl max-md:text-xl dark:text-white"
+          class="text-primario-black text-4xl font-extrabold max-xl:text-3xl max-xl:text-xl dark:text-white"
         >
-          {grid2} 
+          {grid2}
         </h3>
       </div>
       <GridFlags banderas={banderas} />
     </article>
   </div>
   <div
-    class="col-span-2 row-span-2 rounded-2xl bg-linear-to-r p-[.2rem] md:col-start-1 md:row-start-1"
+    class="col-span-2 row-span-2 rounded-2xl bg-linear-to-r p-[.2rem] xl:col-start-1 xl:row-start-1"
   >
     <article
-      class="group relative flex h-full flex-col justify-start overflow-hidden rounded-2xl bg-linear-to-tr from-white to-[#e5e5e5] transition-all before:absolute before:bottom-30 before:left-1/2 before:-z-0 before:aspect-square before:h-[30%] before:rounded-full before:bg-[radial-gradient(circle,rgba(185,141,51)_0,rgba(185,141,51)_100%)] before:opacity-70 before:blur-3xl before:transition hover:shadow-[0_10px_50px_rgba(185,141,51,0.2)] hover:before:animate-pulse max-md:p-6 xl:before:bottom-2/5 dark:bg-linear-to-bl dark:from-[#262626] dark:to-[#171717]"
+      class="group relative flex h-full flex-col justify-start overflow-hidden rounded-2xl bg-linear-to-tr from-white to-[#e5e5e5] transition-all before:absolute before:bottom-30 before:left-1/2 before:-z-0 before:aspect-square before:h-[30%] before:rounded-full before:bg-[radial-gradient(circle,rgba(185,141,51)_0,rgba(185,141,51)_100%)] before:opacity-70 before:blur-3xl before:transition hover:shadow-[0_10px_50px_rgba(185,141,51,0.2)] hover:before:animate-pulse max-xl:p-6 xl:before:bottom-2/5 dark:bg-linear-to-bl dark:from-[#262626] dark:to-[#171717]"
     >
       <a
         href={link}
         class="absolute top-0 left-0 z-40 h-full w-full bg-transparent"
         aria-label="LLCs"></a>
-      <div class="flex items-center gap-4 max-md:gap-2">
-        <h3
-          class="mx-6 mt-10 text-4xl font-extrabold max-xl:text-3xl max-md:text-xl dark:text-white text-primario-black"
-        >
-          {title}
-        </h3>
+      <div class="flex gap-4 max-xl:gap-2 sm:grid sm:grid-cols-2 xl:flex xl:flex-col flex-col">
+        <div>
+          <h3
+            class="text-primario-black mx-6 mt-10 text-4xl font-extrabold max-xl:text-3xl max-xl:text-xl dark:text-white"
+          >
+            {title}
+          </h3>
+          <p
+            class="text-primario-black z-2 mx-6 my-6 max-w-[90%] text-lg leading-6 font-semibold max-xl:max-w-[85%] max-xl:text-base dark:text-gray-200"
+          >
+            {description}
+          </p>
+        </div>
+        <div class="w-full h-full flex sm:justify-center items-center">
+          <Image
+          src={ImagenMock}
+          alt="imagen web sotomayor"
+          class="mb-5 w-2/4 sm:scale-140 object-cover transition-all duration-500 ease-in-out group-hover:scale-145 group-hover:rotate-2 lg:relative lg:-left-20 lg:z-0 lg:mb-0 lg:w-3/5   md:relative relative top-0 scale-100 xl:top-20 sm:top-10"
+        />
+        </div>
+        
       </div>
-      <p
-        class="z-2 mx-6 my-6 max-w-[90%] text-lg leading-6 font-semibold max-xl:text-base max-md:max-w-[85%] dark:text-gray-200 text-primario-black"
-      >
-        {description}
-      </p>
-
-      <Image
-        src={ImagenMock}
-        alt="imagen web sotomayor"
-        class="lg:relative lg:left-0 lg:z-0 mt-20 ml-20 w-2/4 scale-180 object-cover transition-all duration-500 ease-in-out group-hover:scale-185 group-hover:rotate-2 before:absolute before:-bottom-0  before:-z-10 before:aspect-square before:h-[80%] before:rounded-full before:bg-[radial-gradient(circle,rgba(185,141,51)_0,rgba(185,141,51)_100%)] before:opacity-80 before:blur-3xl before:transition max-xl:mt-28 max-lg:mt-10 max-md:scale-100 max-md:group-hover:scale-105 max-sm:mt-0 max-sm:scale-125 lg:w-3/5 lg:mb-0 mb-5"
-      />
     </article>
   </div>
 </div>
