@@ -6,19 +6,19 @@ const { pricing } = Astro.props;
 
 const plans = [
   {
-    title: pricing.starterKit.name,
-    description: pricing.starterKit.description,
-    price: pricing.starterKit.price,
-    cents: pricing.starterKit.cents,
-    billingFrequency: pricing.starterKit.billingFrequency,
-    features: pricing.starterKit.features,
-    ctaLabel: pricing.starterKit.purchaseBtnTitle,
-    ctaHref: pricing.starterKit.purchaseLink,
-    ctaId: "openModaltres",
-    tone: "default",
-    featured: false,
-    eyebrow: null,
-    label: null,
+    title: pricing.professionalToolbox.name,
+    description: pricing.professionalToolbox.description,
+    price: pricing.professionalToolbox.price,
+    cents: pricing.professionalToolbox.cents,
+    billingFrequency: pricing.professionalToolbox.billingFrequency,
+    features: pricing.professionalToolbox.bussines,
+    ctaLabel: pricing.professionalToolbox.purchaseBtnTitle,
+    ctaHref: pricing.professionalToolbox.purchaseLink,
+    ctaId: "openModaldos",
+    tone: "featured",
+    featured: true,
+    eyebrow: pricing.badge,
+    label: pricing.professionalToolbox.features,
   },
   {
     title: pricing.planestandar.name,
@@ -36,19 +36,19 @@ const plans = [
     label: pricing.planestandar.label,
   },
   {
-    title: pricing.professionalToolbox.name,
-    description: pricing.professionalToolbox.description,
-    price: pricing.professionalToolbox.price,
-    cents: pricing.professionalToolbox.cents,
-    billingFrequency: pricing.professionalToolbox.billingFrequency,
-    features: pricing.professionalToolbox.bussines,
-    ctaLabel: pricing.professionalToolbox.purchaseBtnTitle,
-    ctaHref: pricing.professionalToolbox.purchaseLink,
-    ctaId: "openModaldos",
-    tone: "featured",
-    featured: true,
-    eyebrow: pricing.badge,
-    label: pricing.professionalToolbox.features,
+    title: pricing.starterKit.name,
+    description: pricing.starterKit.description,
+    price: pricing.starterKit.price,
+    cents: pricing.starterKit.cents,
+    billingFrequency: pricing.starterKit.billingFrequency,
+    features: pricing.starterKit.features,
+    ctaLabel: pricing.starterKit.purchaseBtnTitle,
+    ctaHref: pricing.starterKit.purchaseLink,
+    ctaId: "openModaltres",
+    tone: "default",
+    featured: false,
+    eyebrow: null,
+    label: null,
   },
   {
     title: pricing.planUpgrade.title,
@@ -89,7 +89,7 @@ const plans = [
       plans.map((plan) => {
         const cardClasses =
           plan.tone === "featured"
-            ? "border-neutral-400 bg-background/95 text-card-foreground shadow-lg shadow-black/5 dark:border-neutral-500 dark:bg-neutral-900/80 dark:text-neutral-100 dark:shadow-white/5 hover:shadow-xl hover:shadow-secundario hover:-translate-y-2 transition-all duration-300 ease-in-out hover:dark:shadow-secundario/30"
+            ? "border-secundario border-2 bg-background/95 text-card-foreground shadow-xl shadow-secundario dark:border-secundario/80 dark:bg-neutral-900/80 dark:text-neutral-100 dark:shadow-secundario/30 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out"
             : plan.tone === "accent"
               ? "border-amber-200/80 bg-secundario/80 text-neutral-900 shadow-lg shadow-amber-100/40 dark:border-amber-700/40 dark:bg-secundario/20 dark:text-neutral-100"
               : "border-neutral-400 bg-background/95 text-card-foreground shadow-lg shadow-black/5 dark:border-neutral-500 dark:bg-neutral-900/80 dark:text-neutral-100 dark:shadow-white/5 hover:shadow-xl hover:shadow-secundario hover:-translate-y-2 transition-all duration-300 ease-in-out hover:dark:shadow-secundario/30";
@@ -130,7 +130,7 @@ const plans = [
               <div>
                 {plan.eyebrow && (
                 <span
-                  class={`relative isolate inline-flex shrink-0 rounded-full border px-2.5 py-1 text-[11px] font-semibold tracking-[0.14em] uppercase ${plan.tone === "featured" ? "border-white/15 dark:bg-secundario/30 bg-secundario text-black dark:text-white before:pointer-events-none before:absolute before:inset-[-4px] before:-z-10 before:rounded-full before:bg-secundario/35 before:content-[''] before:animate-[badgePulse_1.8s_ease-in-out_infinite] after:pointer-events-none after:absolute after:inset-0 after:-z-10 after:rounded-full after:bg-white/10 after:content-['']" : plan.tone === "accent" ? "border-amber-300/80 bg-white/70 text-amber-900 dark:border-amber-600/50 dark:bg-amber-100/10 dark:text-amber-100" : "border-border bg-muted/70 text-muted-foreground dark:border-neutral-700 dark:bg-neutral-800/80 dark:text-neutral-300"}`}
+                  class={`relative isolate inline-flex shrink-0 rounded-full border px-2.5 py-1 text-[11px] font-semibold tracking-[0.14em] uppercase ${plan.tone === "featured" ? "border-white/15 dark:bg-secundario/80 bg-secundario text-black dark:text-white before:pointer-events-none before:absolute before:inset-[-4px] before:-z-10 before:rounded-full before:bg-secundario/35 before:content-[''] before:animate-[badgePulse_1.8s_ease-in-out_infinite] after:pointer-events-none after:absolute after:inset-0 after:-z-10 after:rounded-full after:bg-white/10 after:content-['']" : plan.tone === "accent" ? "border-amber-300/80 bg-white/70 text-amber-900 dark:border-amber-600/50 dark:bg-amber-100/10 dark:text-amber-100" : "border-border bg-muted/70 text-muted-foreground dark:border-neutral-700 dark:bg-neutral-800/80 dark:text-neutral-300"}`}
                 >
                   {plan.eyebrow}
                 </span>
@@ -186,7 +186,7 @@ const plans = [
             {plan.ctaHref ? (
               <a
                 href={plan.ctaHref}
-                class={`mt-8 inline-flex w-full items-center justify-center rounded-xl px-4 py-3 text-sm font-semibold transition duration-200 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-hidden ${plan.tone === "accent" ? "bg-amber-500 text-white hover:bg-amber-600 focus-visible:ring-amber-500 dark:bg-amber-400 dark:text-neutral-950 dark:hover:bg-amber-300" : "bg-neutral-900 text-white hover:bg-neutral-800 focus-visible:ring-neutral-500 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200"}`}
+                class={`mt-8 inline-flex w-full items-center justify-center rounded-xl px-4 py-3 text-sm font-semibold transition duration-200 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-hidden ${plan.tone === "featured" ? "bg-secundario text-white hover:bg-secundario/80 focus-visible:ring-amber-500 dark:bg-secundario dark:text-neutral-950 dark:hover:bg-amber-300" : "bg-neutral-900 text-white hover:bg-neutral-800 focus-visible:ring-neutral-500 dark:bg-white dark:text-neutral-950 dark:hover:bg-neutral-200"}`}
               >
                 {plan.ctaLabel}
               </a>
