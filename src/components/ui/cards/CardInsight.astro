@@ -13,12 +13,12 @@ interface Props {
 }
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 const currentLang = isEnglish ? "en" : isPortuguese ? "pr" : "es";
 
 const idWithoutLang = insightEntry.id.replace(/^[^/]+\//, "");
-const href = `/inicio/${currentLang === "es" ? "" : currentLang + "/"}insights/${idWithoutLang}/`;
+const href = `/${currentLang === "es" ? "" : currentLang + "/"}insights/${idWithoutLang}/`;
 ---
 
 <!-- The anchor tag is the root container for the "Insight" card. It links to the insight detail page. -->

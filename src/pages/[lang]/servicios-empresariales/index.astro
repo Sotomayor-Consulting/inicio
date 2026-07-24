@@ -95,13 +95,13 @@ const ogTitle = `${pageTitle} | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": `https://sotomayorconsulting.com/inicio/${lang}/servicios-empresariales`,
-    url: `https://sotomayorconsulting.com/inicio/${lang}/servicios-empresariales`,
+    "@id": `https://sotomayorconsulting.com/${lang}/servicios-empresariales`,
+    url: `https://sotomayorconsulting.com/${lang}/servicios-empresariales`,
     name: `${pageTitle} | ${SITE.title}`,
     description: metaDescription,
     isPartOf: {
       "@type": "WebSite",
-      url: `https://sotomayorconsulting.com/inicio/${lang}`,
+      url: `https://sotomayorconsulting.com/${lang}`,
       name: SITE.title,
       description: t.siteDescription,
     },
@@ -126,7 +126,7 @@ const ogTitle = `${pageTitle} | ${SITE.title}`;
           )
         }
       </div>
-      <PrimaryCTA title={t.backButton} url={`/inicio/${lang}/services`} noArrow={true} />
+      <PrimaryCTA title={t.backButton} url={`/${lang}/services`} noArrow={true} />
     </div>
     {/* Displaying products in alternating styles. Alternative product gets different card styling.
     Maps through all product entries and displays them with either CardSmall or CardWide based on their position. */}

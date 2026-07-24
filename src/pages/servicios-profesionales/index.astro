@@ -14,8 +14,8 @@ import { SITE } from "@data/constants";
 
 // Detect current language from pathname
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 const langFolder = isEnglish ? "en" : isPortuguese ? "pr" : "es";
 
 // Fetching all the product related content and sorting it by main.id
@@ -80,13 +80,13 @@ const ogTitle = "Servicios Empresariales | Sotomayor Consulting";
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://sotomayorconsulting.com/inicio/contact/",
-    url: "https://sotomayorconsulting.com/inicio/contact/",
+    "@id": "https://sotomayorconsulting.com/contact/",
+    url: "https://sotomayorconsulting.com/contact/",
     name: "Entre em Contato | Sotomayor Consulting International",
     description: "Entre em contato e abra sua LLC conosco",
     isPartOf: {
       "@type": "WebSite",
-      url: "https://sotomayorconsulting.com/inicio/",
+      url: "https://sotomayorconsulting.com/",
       name: "Sotomayor Consulting International",
       description:
         "Ajudamos você a construir, proteger e expandir seu patrimônio internacionalmente. Oferecemos soluções integradas para o seu crescimento empresarial.",
@@ -112,7 +112,7 @@ const ogTitle = "Servicios Empresariales | Sotomayor Consulting";
           )
         }
       </div>
-      <PrimaryCTA title="regresar" url="/inicio/services" noArrow={true} />
+      <PrimaryCTA title="regresar" url="/services" noArrow={true} />
     </div>
     {/* Displaying products in alternating styles. Alternative product gets different card styling.
     Maps through all product entries and displays them with either CardSmall or CardWide based on their position. */}

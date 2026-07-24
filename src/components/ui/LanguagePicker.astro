@@ -7,8 +7,8 @@ import EEUU from "@images/banderas/EEUU.png";
 import brazil from "@images/banderas/brazil.png";
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 
 const Icono = isEnglish ? EEUU : isPortuguese ? brazil : españa;
 
@@ -88,13 +88,13 @@ const languageFlags: Record<string, ImageMetadata> = {
 
         let newPath = "";
         if (lang && lang !== "es") {
-          newPath = `/inicio/${lang}${currentPath ? "/" + currentPath : ""}`;
+          newPath = `/${lang}${currentPath ? "/" + currentPath : ""}`;
         } else {
           newPath = `/inicio${currentPath ? "/" + currentPath : ""}`;
         }
 
         newPath = newPath.replace(/\/+/g, "/");
-        if (newPath === "/inicio") newPath = "/inicio/";
+        if (newPath === "/inicio") newPath = "/";
 
         window.location.href = `${url.origin}${newPath}${url.search}`;
       });

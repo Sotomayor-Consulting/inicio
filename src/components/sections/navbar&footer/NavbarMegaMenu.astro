@@ -11,11 +11,11 @@ import BrandLogo from "@components/BrandLogo.astro";
 import LanguagePicker from "@components/ui/LanguagePicker.astro";
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 
 const strings = isEnglish ? enStrings : isPortuguese ? prStrings : esStrings;
-const homeUrl = isEnglish ? "/inicio/en" : isPortuguese ? "/inicio/pr" : "/inicio/";
+const homeUrl = isEnglish ? "/en" : isPortuguese ? "/pr" : "/";
 ---
 
 <!-- Main header component -->

@@ -20,7 +20,7 @@ longDescription:
   subTitle: |
     At Sotomayor Consulting International, we understand the vision of independent professionals. That's why we offer a complete solution to establish your company in the US, obtain your EIN, open a bank account, and ensure legal compliance, no matter where in the world you are.
   btnTitle: "Get Your LLC"
-  btnURL: "/inicio/en/#precios"
+  btnURL: "/en/#precios"
 descriptionList:
   - title: "Step 1: Personalized Consulting (Optional)"
     subTitle: "A specialist evaluates your project as a professional and advises you on the company type, incorporation state, and most convenient plan for your business."

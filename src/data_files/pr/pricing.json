@@ -4,7 +4,7 @@
   "badge": "Favorito",
   "thirdOption": "Procurando outro serviço?",
   "btnText": "Ver mais serviços",
-  "linkServicios": "/inicio/pr/#cartas-servicios",
+  "linkServicios": "/pr/#cartas-servicios",
 
   "starterKit": {
     "name": "Plano Básico",

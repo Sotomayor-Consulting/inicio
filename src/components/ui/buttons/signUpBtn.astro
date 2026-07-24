@@ -13,8 +13,8 @@ const mdClasses = "md:border-neutral-300 ";
 const txtSizeClasses = "2xl:text-lg";
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 const UrlPartners = isEnglish
   ? "https://app.sotomayorconsulting.com/start"
   : isPortuguese

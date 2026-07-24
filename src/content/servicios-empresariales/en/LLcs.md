@@ -20,7 +20,7 @@ longDescription:
   subTitle: |
     At Sotomayor Consulting International, we accompany global entrepreneurs in registering and maintaining their LLC in the US. In addition to incorporation, we offer all related services your LLC may need.
   btnTitle: "Get Your LLC"
-  btnURL: "/inicio/en/#precios"
+  btnURL: "/en/#precios"
 descriptionList:
   - title: "Step 1: Personalized Consulting (Optional)"
     subTitle: "A specialist evaluates your project and advises you on the company type, incorporation state, and most convenient plan."

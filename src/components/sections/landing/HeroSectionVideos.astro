@@ -53,8 +53,8 @@ const ListaPr = ["Acompanhamento e Segurança", "Proteção Legal e Fiscal", "De
 
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 
 const Lista = isEnglish ? ListaEn : isPortuguese ? ListaPr : listaEs;
 ---

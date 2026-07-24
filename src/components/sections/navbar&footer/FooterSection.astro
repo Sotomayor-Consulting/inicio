@@ -10,8 +10,8 @@ import { SITE } from "@data/constants";
 
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 
 const strings = isEnglish ? enStrings : isPortuguese ? prStrings : esStrings;
 const crafted = isEnglish ? "Crafted by" : isPortuguese ? "Criado por" : "Creado por";

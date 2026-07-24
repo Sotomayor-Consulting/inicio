@@ -1,28 +1,28 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Início", url: "/inicio/pr" },
-  { name: "Preços", url: "/inicio/pr/#precios" },
-  { name: "Serviços", url: "/inicio/pr/services" },
-  { name: "Sobre nós", url: "/inicio/pr/about" },
-  { name: "Contatos", url: "/inicio/pr/contact" },
-  { name: "Suporte", url: "/inicio/pr/support"},
-  { name: "Blog", url: "/inicio/pr/blog" },
+  { name: "Início", url: "/pr" },
+  { name: "Preços", url: "/pr/#precios" },
+  { name: "Serviços", url: "/pr/services" },
+  { name: "Sobre nós", url: "/pr/about" },
+  { name: "Contatos", url: "/pr/contact" },
+  { name: "Suporte", url: "/pr/support"},
+  { name: "Blog", url: "/pr/blog" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
     section: "Políticas",
     links: [
-      { name: "Políticas de privacidade", url: "/inicio/pr/politicas" },
-      { name: "Termos e condições", url: "/inicio/pr/terminos" },
+      { name: "Políticas de privacidade", url: "/pr/politicas" },
+      { name: "Termos e condições", url: "/pr/terminos" },
     ],
   },
   {
     section: "Empresa",
     links: [
-      { name: "Serviços", url: "/inicio/pr/services" },
-      { name: "Blog", url: "/inicio/pr/blog" },
-      { name: "Contate-nos", url: "/inicio/pr/contact" },
+      { name: "Serviços", url: "/pr/services" },
+      { name: "Blog", url: "/pr/blog" },
+      { name: "Contate-nos", url: "/pr/contact" },
     ],
   },
 ];

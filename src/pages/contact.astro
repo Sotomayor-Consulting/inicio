@@ -14,8 +14,8 @@ const ogTitle = "Contact Us | Sotomayor Consulting";
 
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 
 const dataContact = isEnglish ? dataContactEn : isPortuguese ? dataContactPr : dataContactEs;
 ---
@@ -27,13 +27,13 @@ const dataContact = isEnglish ? dataContactEn : isPortuguese ? dataContactPr : d
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://sotomayorconsulting.com/inicio/contact/",
-    url: "https://sotomayorconsulting.com/inicio/contact/",
+    "@id": "https://sotomayorconsulting.com/contact/",
+    url: "https://sotomayorconsulting.com/contact/",
     name: "Contáctanos | Sotomayor Consulting International",
     description: "Contáctanos y levanta tu LLC con nosotros",
     isPartOf: {
       "@type": "WebSite",
-      url: "https://sotomayorconsulting.com/inicio/",
+      url: "https://sotomayorconsulting.com/",
       name: "Sotomayor Consulting International",
       description:
         "Te ayudamos a construir, proteger y expandir tu patrimonio a nivel internacional. Ofrecemos soluciones integrales para tu crecimiento empresarial.",

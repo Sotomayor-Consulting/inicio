@@ -27,8 +27,8 @@ const userSVG = `<svg
   </svg>`;
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 const UrlPartners = isEnglish ? "https://app.sotomayorconsulting.com/sign-in" : isPortuguese ? "https://app.sotomayorconsulting.com/sign-in" : "https://app.sotomayorconsulting.com/sign-in";
 const title = isEnglish ? "Log In" : isPortuguese ? "Fazer Login" : "Iniciar Sesión";
 ---

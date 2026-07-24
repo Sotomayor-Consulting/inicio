@@ -20,7 +20,7 @@ longDescription:
   subTitle: |
     Na Sotomayor Consulting International, entendemos a visão dos profissionais independentes. Por isso, oferecemos uma solução completa para estabelecer sua empresa nos EUA, obter seu EIN, abrir uma conta bancária e garantir o cumprimento legal, não importa em que parte do mundo você se encontre.
   btnTitle: "Adquira sua LLC"
-  btnURL: "/inicio/#precios"
+  btnURL: "/#precios"
 descriptionList:
   - title: "Passo 1: Assessoria Personalizada (Opcional)"
     subTitle: "Um especialista avalia seu projeto como profissional e orienta sobre o tipo de empresa, estado de incorporação e plano mais conveniente para seu negócio."

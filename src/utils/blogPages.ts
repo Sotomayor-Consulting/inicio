@@ -68,7 +68,7 @@ export async function getInsightPosts(langPrefix: BlogLang) {
 }
 
 export function getBlogBasePath(langPrefix: BlogLang) {
-  return langPrefix === "es" ? "/inicio/blog" : `/inicio/${langPrefix}/blog`;
+  return langPrefix === "es" ? "/blog" : `/${langPrefix}/blog`;
 }
 
 export function getBlogPageMeta(langPrefix: BlogLang, currentPage = 1) {

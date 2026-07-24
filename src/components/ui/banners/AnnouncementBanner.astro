@@ -9,8 +9,8 @@ interface Props {
 }
 
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 
 const recuerda = isEnglish ? "Remember" : isPortuguese ? "Lembre-se" : "Recuerda";
 ---

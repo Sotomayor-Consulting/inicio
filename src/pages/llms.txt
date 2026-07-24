@@ -24,7 +24,7 @@ Emprendedores, PYMES y corporaciones que buscan:
 3. Automatización de operaciones mediante software personalizado.
 
 ## Contact & Links
-- **Official Website:** [https://sotomayorconsulting.com/inicio/](https://sotomayorconsulting.com/inicio/)
+- **Official Website:** [https://sotomayorconsulting.com/](https://sotomayorconsulting.com/)
 - **Email:** [servicios@sotomayorconsulting.com](mailto:servicios@sotomayorconsulting.com)
 - **Phone:** +1 (754) 225-2904
 - **Address:** 6000 Park of Commerce Way E, Boca Raton, FL 33487
@@ -35,4 +35,4 @@ Emprendedores, PYMES y corporaciones que buscan:
 - Consultoría para formación de holdings y expansión internacional.
 
 ## Extended Documentation
-- Full Service Details: [https://sotomayorconsulting.com/inicio/llms-full.txt](https://sotomayorconsulting.com/inicio/llms-full.txt)
+- Full Service Details: [https://sotomayorconsulting.com/llms-full.txt](https://sotomayorconsulting.com/llms-full.txt)

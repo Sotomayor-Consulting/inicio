@@ -101,14 +101,14 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image",
-            content: "https://sotomayorconsulting.com/inicio/" + "/social.webp",
+            content: "https://sotomayorconsulting.com/" + "/social.webp",
           },
         },
         {
           tag: "meta",
           attrs: {
             property: "twitter:image",
-            content: "https://sotomayorconsulting.com/inicio/" + "/social.webp",
+            content: "https://sotomayorconsulting.com/" + "/social.webp",
           },
         },
       ],

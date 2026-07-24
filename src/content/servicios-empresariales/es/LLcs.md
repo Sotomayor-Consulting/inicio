@@ -20,7 +20,7 @@ longDescription:
   subTitle: |
     En Sotomayor Consulting International acompañamos a empresarios globales a registrar y mantener al día su LLC en EEUU. Adicional a la incorporación, ofrecemos todos los servicios relacionados que tu LLC puede necesitar.
   btnTitle: "Adquire tu LLC"
-  btnURL: "/inicio/#precios"
+  btnURL: "/#precios"
 descriptionList:
   - title: "Paso 1: Asesoría Personalizada (Opcional)"
     subTitle: "Un especialista evalúa tu proyecto y te orienta sobre el tipo de empresa, estado de incorporación y plan más conveniente."

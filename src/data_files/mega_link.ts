@@ -5,49 +5,49 @@ export const servicesData = [
     description:
       "Simplificamos la creación de tu Limited Liability Company (LLC) en los Estados Unidos.",
     icon: "edificio",
-    url: "/inicio/servicios-empresariales/llcs/",
+    url: "/servicios-empresariales/llcs/",
   },
   {
     title: "Incorporación de empresas holding u operativas",
     description:
       "Simplificamos el proceso de establecer tu empresa holding u operativa en los mercados internacionales.",
     icon: "puzzle",
-    url: "/inicio/servicios-empresariales/holding/",
+    url: "/servicios-empresariales/holding/",
   },
   {
     title: "Servicios Migratorios",
     description:
       "Te ayudamos a cumplir con todos los requisitos y a gestionar la documentación necesaria para tu futuro en países como EE. UU. y España.",
     icon: "pasaporte",
-    url: "/inicio/servicios-familiares-individuos/asesoría-para-visas-y-residencias/",
+    url: "/servicios-familiares-individuos/asesoría-para-visas-y-residencias/",
   },
   {
     title: "Registro y Protección de Marcas",
     description:
       "Asegure la exclusividad de su marca en los mercados más competitivos del mundo.",
     icon: "marcas",
-    url: "/inicio/servicios-empresariales/registro-de-marca/",
+    url: "/servicios-empresariales/registro-de-marca/",
   },
   {
     title: "Bienes Raíces",
     description:
       "Te guiamos en cada paso para que tomes decisiones informadas y asegures tu patrimonio en mercados clave como Florida y Madrid.",
     icon: "bienes",
-    url: "/inicio/servicios-familiares-individuos/bienes-raíces/",
+    url: "/servicios-familiares-individuos/bienes-raíces/",
   },
   {
     title: "Asesoría Tributaria Internacional",
     description:
       "Asegura el cumplimiento de las normativas de diferentes países y planificar estrategias fiscales eficientes para tu patrimonio o negocio.",
     icon: "internacional",
-    url: "/inicio/servicios-empresariales/asesoría-tributaria-internacional/",
+    url: "/servicios-empresariales/asesoría-tributaria-internacional/",
   },
   {
     title: "Outsourcing Contable",
     description:
       "Libera tu tiempo y recursos delegando tu contabilidad en manos expertas.",
     icon: "cuadro",
-    url: "/inicio/servicios-empresariales/outsourcing-contable/",
+    url: "/servicios-empresariales/outsourcing-contable/",
   },
 ];
 
@@ -58,6 +58,6 @@ export const successStoriesData = [
     alt: "Image Description",
     description:
       "Conoce nuestros servicios tech especializados que te ayudarán a construir, proteger y hacer crecer tu futuro.",
-    learnMoreUrl: "/inicio/services",
+    learnMoreUrl: "/services",
   },
 ];

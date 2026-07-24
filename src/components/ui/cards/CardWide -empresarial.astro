@@ -13,8 +13,8 @@ interface Props {
 
 // Detect language from pathname or use prop
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 const langFolder = productLocale || (isEnglish ? "en" : isPortuguese ? "pr" : "es");
 const Url = isEnglish ? "/en/" : isPortuguese ? "/pr/" : "/";
 

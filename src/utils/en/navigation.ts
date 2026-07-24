@@ -1,29 +1,29 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Home", url: "/inicio/en" },
-  { name: "Pricing", url: "/inicio/en/#precios" },
-  { name: "Services", url: "/inicio/services" },
+  { name: "Home", url: "/en" },
+  { name: "Pricing", url: "/en/#precios" },
+  { name: "Services", url: "/services" },
   //{ name: "Precios", url: "/precios" },
-  { name: "About Us", url: "/inicio/en/about" },
-  { name: "Contact", url: "/inicio/en/contact" },
-  { name: "Support", url: "/inicio/en/support"},
-  { name: "Blog", url: "/inicio/en/blog" },
+  { name: "About Us", url: "/en/about" },
+  { name: "Contact", url: "/en/contact" },
+  { name: "Support", url: "/en/support"},
+  { name: "Blog", url: "/en/blog" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
     section: "Policies",
     links: [
-      { name: "Privacy policies", url: "/inicio/en/politicas" },
-      { name: "Terms and conditions", url: "/inicio/en/terminos" },
+      { name: "Privacy policies", url: "/en/politicas" },
+      { name: "Terms and conditions", url: "/en/terminos" },
     ],
   },
   {
     section: "Company",
     links: [
-      { name: "Services", url: "/inicio/en/politicas" },
-      { name: "Blog", url: "/inicio/en/blog" },
-      { name: "Contact us", url: "/inicio/en/contact" },
+      { name: "Services", url: "/en/politicas" },
+      { name: "Blog", url: "/en/blog" },
+      { name: "Contact us", url: "/en/contact" },
     ],
   },
 ];

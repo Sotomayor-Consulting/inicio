@@ -1,7 +1,7 @@
 ---
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 
 const { label = isEnglish ? "Email" : isPortuguese ? "E-mail" : "Correo electrónico", id } = Astro.props;
 

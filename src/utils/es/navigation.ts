@@ -1,28 +1,28 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Inicio", url: "/inicio/" },
-  { name: "Planes", url: "/inicio/#precios" },
-  { name: "Servicios", url: "/inicio/services" },
-  { name: "Nosotros", url: "/inicio/about" },
-  { name: "Contactos", url: "/inicio/contact" },
-  { name: "Soporte", url: "/inicio/support"},
-  { name: "Blog", url: "/inicio/blog" },
+  { name: "Inicio", url: "/" },
+  { name: "Planes", url: "/#precios" },
+  { name: "Servicios", url: "/services" },
+  { name: "Nosotros", url: "/about" },
+  { name: "Contactos", url: "/contact" },
+  { name: "Soporte", url: "/support"},
+  { name: "Blog", url: "/blog" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
     section: "Políticas",
     links: [
-      { name: "Políticas de privacidad", url: "/inicio/politicas" },
-      { name: "Términos y condiciones", url: "/inicio/terminos" },
+      { name: "Políticas de privacidad", url: "/politicas" },
+      { name: "Términos y condiciones", url: "/terminos" },
     ],
   },
   {
     section: "Compañía",
     links: [
-      { name: "Servicios", url: "/inicio/services" },
-      { name: "Blog", url: "/inicio/blog" },
-      { name: "Contáctanos", url: "/inicio/contact" },
+      { name: "Servicios", url: "/services" },
+      { name: "Blog", url: "/blog" },
+      { name: "Contáctanos", url: "/contact" },
     ],
   },
 ];

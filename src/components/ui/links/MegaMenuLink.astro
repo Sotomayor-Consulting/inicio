@@ -17,8 +17,8 @@ import {
 } from "@data/en/mega_link"
  
 const pathname = Astro.url.pathname;
-const isEnglish = pathname.startsWith("/inicio/en");
-const isPortuguese = pathname.startsWith("/inicio/pr");
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
 
 const Iconos = isEnglish ? servicesDataEn : isPortuguese ? servicesDataPr : servicesData;
 const Adicional = isEnglish ? successStoriesDataEn : isPortuguese ? successStoriesDataPr : successStoriesData;

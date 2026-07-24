@@ -43,7 +43,7 @@ const translations: Translations = {
 
 // Determine language from the URL
 const pathname = Astro.url.pathname;
-const lang: TranslationKeys = pathname.startsWith("/inicio/pr") ? "pr" : "en";
+const lang: TranslationKeys = pathname.startsWith("/pr") ? "pr" : "en";
 
 const { pageTitle, subTitle, content, btnTitle } = translations[lang];
 ---
