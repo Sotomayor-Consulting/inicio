@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Formulario de diagnóstico comercial para LLC y criptomonedas - Sotomayor Consulting International" />
+  <title>Diagnóstico Comercial | LLC & Criptomonedas | v4.1</title>
+
+  <style>
+    /*
+      Sotomayor Consulting International
+      Formulario Wizard LLC & Criptomonedas
+      Versión: v4.1
+
+      Ajuste solicitado:
+      - Mantiene base visual de wizard_llc_cripto_sotomayor_v4.
+      - Confirma y deja activo el webhook:
+        https://n8n.sotomayorconsulting.com/webhook/Form-LLC-Criptomonedas
+      - Envía datos planos para fácil mapeo en n8n.
+      - Envía respuestas originales, secciones estructuradas, diagnóstico y payload_json.
+      - Envío mediante formulario oculto + iframe para evitar bloqueo CORS.
+    */
+
+    :root {
+      --sci-blue: #245879;
+      --sci-logo-bg: #0E2637;
+      --sci-blue-dark: #153c56;
+      --sci-blue-ink: #0f2f45;
+      --sci-blue-soft: #eef6fa;
+      --sci-gold: #b58a3a;
+      --sci-gold-dark: #8e6828;
+      --sci-gray: #5f6368;
+      --sci-border: #dbe3e8;
+      --sci-white: #ffffff;
+      --sci-error: #b42318;
+      --sci-success: #1f7a4f;
+      --sci-warning: #a15c07;
+      --shadow-sm: 0 8px 24px rgba(15, 47, 69, 0.06);
+      --shadow-md: 0 24px 70px rgba(15, 47, 69, 0.11);
+      --radius-lg: 28px;
+      --radius-sm: 12px;
+      --transition: 220ms ease;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--sci-gray);
+      background:
+        radial-gradient(circle at 12% 10%, rgba(181, 138, 58, 0.12), transparent 24%),
+        radial-gradient(circle at 88% 8%, rgba(36, 88, 121, 0.12), transparent 26%),
+        linear-gradient(180deg, #ffffff 0%, #f8fafb 54%, #f4f7f8 100%);
+    }
+
+    button,
+    input,
+    textarea {
+      font: inherit;
+    }
+
+    .app {
+      width: min(1180px, calc(100% - 32px));
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 22px 0 56px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 14px;
+      z-index: 20;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      min-height: 76px;
+      margin-bottom: 44px;
+      padding: 14px 18px;
+      border: 1px solid rgba(219, 227, 232, 0.82);
+      border-radius: 999px;
+      background: var(--sci-logo-bg);
+      box-shadow: 0 14px 34px rgba(14, 38, 55, 0.26);
+      backdrop-filter: blur(16px);
+    }
+
+    .navbar-brand {
+      display: inline-flex;
+      align-items: center;
+      min-width: 0;
+      text-decoration: none;
+    }
+
+    .brand-logo {
+      width: min(315px, 58vw);
+      height: auto;
+      display: block;
+    }
+
+    .navbar-note {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #ffffff;
+      font-size: 0.86rem;
+      font-weight: 750;
+      white-space: nowrap;
+      opacity: 0.92;
+    }
+
+    .navbar-note::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--sci-gold);
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(28px, 4vw, 44px);
+      flex: 1;
+      width: 100%;
+      text-align: center;
+    }
+
+    .hero-copy {
+      width: min(760px, 100%);
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      color: var(--sci-gold-dark);
+      font-size: 0.82rem;
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 38px;
+      height: 1px;
+      background: var(--sci-gold);
+    }
+
+    .hero-title {
+      margin: 0;
+      color: var(--sci-blue-ink);
+      font-size: clamp(2.2rem, 5vw, 4.7rem);
+      line-height: 0.96;
+      letter-spacing: -2.6px;
+      font-weight: 860;
+    }
+
+    .hero-title span {
+      color: var(--sci-blue);
+    }
+
+    .hero-text {
+      margin: 24px auto 0;
+      max-width: 680px;
+      color: #59636a;
+      font-size: clamp(1rem, 1.5vw, 1.1rem);
+      line-height: 1.75;
+    }
+
+    .legal-note {
+      width: min(680px, 100%);
+      margin: 26px auto 0;
+      padding-left: 18px;
+      border-left: 2px solid var(--sci-gold);
+      color: #6e7074;
+      font-size: 0.92rem;
+      line-height: 1.58;
+      text-align: left;
+    }
+
+    .wizard-shell {
+      position: relative;
+      isolation: isolate;
+      width: min(760px, 100%);
+      margin: 0 auto;
+    }
+
+    .wizard-shell::before {
+      content: "";
+      position: absolute;
+      inset: -18px;
+      border-radius: 36px;
+      background:
+        linear-gradient(145deg, rgba(36, 88, 121, 0.11), rgba(181, 138, 58, 0.10)),
+        rgba(255, 255, 255, 0.3);
+      filter: blur(0.2px);
+      z-index: -1;
+    }
+
+    .wizard {
+      width: 100%;
+      min-height: 650px;
+      padding: clamp(24px, 4vw, 42px);
+      border: 1px solid rgba(219, 227, 232, 0.92);
+      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, 0.88);
+      box-shadow: var(--shadow-md);
+      backdrop-filter: blur(16px);
+      text-align: left;
+    }
+
+    .wizard-top {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 26px;
+    }
+
+    .progress-label {
+      margin: 0 0 10px;
+      color: var(--sci-blue-dark);
+      font-size: 0.86rem;
+      font-weight: 850;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 4px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #e8eef2;
+    }
+
+    .progress-bar {
+      height: 100%;
+      width: 0;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--sci-blue), var(--sci-gold));
+      transition: width 260ms ease;
+    }
+
+    .save-status {
+      min-width: 112px;
+      text-align: right;
+      color: var(--sci-success);
+      font-size: 0.82rem;
+      font-weight: 750;
+      opacity: 0;
+      transform: translateY(3px);
+      transition: var(--transition);
+    }
+
+    .save-status.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    form {
+      margin: 0;
+    }
+
+    .step {
+      display: none;
+      min-height: 432px;
+      animation: enterStep 260ms ease both;
+    }
+
+    .step.active {
+      display: block;
+    }
+
+    @keyframes enterStep {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .step-index {
+      margin: 0 0 10px;
+      color: var(--sci-gold-dark);
+      font-size: 0.78rem;
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .step-title {
+      margin: 0;
+      color: var(--sci-blue-ink);
+      font-size: clamp(1.55rem, 3vw, 2.45rem);
+      line-height: 1.08;
+      letter-spacing: -1.1px;
+      font-weight: 830;
+    }
+
+    .step-help {
+      margin: 14px 0 30px;
+      color: #687178;
+      font-size: 0.98rem;
+      line-height: 1.62;
+    }
+
+    .field-flow {
+      display: grid;
+      gap: 24px;
+    }
+
+    .field {
+      position: relative;
+    }
+
+    .label,
+    label.label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--sci-blue-dark);
+      font-size: 0.9rem;
+      font-weight: 790;
+    }
+
+    .input,
+    .textarea {
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid #cfdbe2;
+      border-radius: 0;
+      padding: 13px 0 12px;
+      background: transparent;
+      color: var(--sci-blue-ink);
+      font-size: 1rem;
+      outline: none;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+
+    .input::placeholder,
+    .textarea::placeholder {
+      color: #9aa3a9;
+    }
+
+    .input:focus,
+    .textarea:focus {
+      border-color: var(--sci-blue);
+      box-shadow: 0 1px 0 var(--sci-blue);
+    }
+
+    .textarea {
+      min-height: 132px;
+      resize: vertical;
+      line-height: 1.55;
+    }
+
+    .choice-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .choice-list.two-columns {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 18px;
+    }
+
+    .choice {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      min-height: 48px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(219, 227, 232, 0.85);
+      cursor: pointer;
+      color: #535f66;
+      transition: color var(--transition), border-color var(--transition), transform var(--transition);
+    }
+
+    .choice:hover {
+      color: var(--sci-blue-dark);
+      border-color: rgba(36, 88, 121, 0.32);
+      transform: translateX(2px);
+    }
+
+    .choice input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .choice-control {
+      width: 21px;
+      height: 21px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 auto;
+      border: 1.5px solid #b8c6cf;
+      border-radius: 7px;
+      background: rgba(255, 255, 255, 0.86);
+      transition: var(--transition);
+    }
+
+    .choice input[type="radio"] + .choice-control {
+      border-radius: 50%;
+    }
+
+    .choice-control::after {
+      content: "";
+      width: 9px;
+      height: 9px;
+      border-radius: 3px;
+      background: var(--sci-gold);
+      transform: scale(0);
+      transition: transform var(--transition);
+    }
+
+    .choice input[type="radio"] + .choice-control::after {
+      border-radius: 50%;
+    }
+
+    .choice input:checked + .choice-control {
+      border-color: var(--sci-blue);
+      background: var(--sci-blue-soft);
+      box-shadow: 0 0 0 5px rgba(36, 88, 121, 0.08);
+    }
+
+    .choice input:checked + .choice-control::after {
+      transform: scale(1);
+    }
+
+    .choice-text {
+      font-size: 0.96rem;
+      font-weight: 680;
+      line-height: 1.35;
+    }
+
+    .choice:has(input:checked) .choice-text {
+      color: var(--sci-blue-dark);
+    }
+
+    .soft-panel {
+      display: none;
+      margin-top: 24px;
+      padding: 22px 0 0;
+      border-top: 1px solid rgba(181, 138, 58, 0.28);
+      animation: enterStep 220ms ease both;
+    }
+
+    .soft-panel.visible {
+      display: block;
+    }
+
+    .other-field {
+      display: none;
+      margin-top: 18px;
+      animation: enterStep 220ms ease both;
+    }
+
+    .other-field.visible {
+      display: block;
+    }
+
+    .error {
+      display: none;
+      margin-top: 22px;
+      padding: 13px 15px;
+      border-radius: var(--radius-sm);
+      background: #fff4f2;
+      color: var(--sci-error);
+      border: 1px solid #fac8c2;
+      font-size: 0.9rem;
+      font-weight: 690;
+      line-height: 1.45;
+    }
+
+    .error.visible {
+      display: block;
+    }
+
+    .wizard-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      margin-top: 32px;
+      padding-top: 26px;
+      border-top: 1px solid rgba(219, 227, 232, 0.78);
+    }
+
+    .action-left,
+    .action-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn {
+      appearance: none;
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 20px;
+      cursor: pointer;
+      font-weight: 820;
+      transition: transform var(--transition), box-shadow var(--transition), opacity var(--transition), background var(--transition), color var(--transition);
+    }
+
+    .btn:focus-visible {
+      outline: 3px solid rgba(181, 138, 58, 0.35);
+      outline-offset: 3px;
+    }
+
+    .btn:hover:not(:disabled) {
+      transform: translateY(-1px);
+    }
+
+    .btn:disabled {
+      opacity: 0.52;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--sci-blue-dark);
+      padding-left: 0;
+    }
+
+    .btn-primary {
+      background: var(--sci-logo-bg);
+      color: var(--sci-white);
+      box-shadow: 0 16px 36px rgba(14, 38, 55, 0.24);
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      background: var(--sci-blue-dark);
+    }
+
+    .btn-gold {
+      background: var(--sci-gold);
+      color: var(--sci-white);
+      box-shadow: 0 16px 36px rgba(181, 138, 58, 0.25);
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .summary {
+      display: grid;
+      gap: 0;
+      max-height: 340px;
+      overflow: auto;
+      border-top: 1px solid rgba(219, 227, 232, 0.85);
+    }
+
+    .summary-item {
+      display: grid;
+      grid-template-columns: minmax(150px, 0.52fr) 1fr;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(219, 227, 232, 0.85);
+    }
+
+    .summary-item strong {
+      color: var(--sci-blue-dark);
+      font-size: 0.86rem;
+    }
+
+    .summary-item span {
+      color: #5f666b;
+      line-height: 1.48;
+    }
+
+    .confirmation {
+      display: none;
+      min-height: 520px;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      animation: enterStep 280ms ease both;
+    }
+
+    .confirmation.visible {
+      display: flex;
+    }
+
+    .confirmation-inner {
+      max-width: 760px;
+      width: 100%;
+      margin: auto;
+    }
+
+    .success-mark {
+      width: 72px;
+      height: 72px;
+      margin: 0 0 22px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: var(--sci-blue);
+      background: linear-gradient(145deg, rgba(36, 88, 121, 0.10), rgba(181, 138, 58, 0.12));
+      border: 1px solid rgba(36, 88, 121, 0.14);
+      font-size: 2rem;
+      font-weight: 850;
+    }
+
+    .confirmation h2 {
+      margin: 0;
+      color: var(--sci-blue-ink);
+      font-size: clamp(1.8rem, 4vw, 2.55rem);
+      line-height: 1.08;
+      letter-spacing: -1.2px;
+    }
+
+    .confirmation p {
+      margin: 16px 0 22px;
+      color: #687178;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    .diagnosis-card {
+      margin: 24px 0;
+      padding: 24px;
+      border-radius: 24px;
+      background: linear-gradient(145deg, rgba(238, 246, 250, 0.72), rgba(255, 255, 255, 0.94));
+      border: 1px solid rgba(36, 88, 121, 0.12);
+      box-shadow: 0 16px 42px rgba(15, 47, 69, 0.08);
+    }
+
+    .diagnosis-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(181, 138, 58, 0.12);
+      color: var(--sci-gold-dark);
+      font-size: 0.78rem;
+      font-weight: 850;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .diagnosis-badge::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--sci-gold);
+    }
+
+    .diagnosis-title {
+      margin: 0 0 10px;
+      color: var(--sci-blue-ink);
+      font-size: 1.35rem;
+      line-height: 1.22;
+      letter-spacing: -0.4px;
+    }
+
+    .diagnosis-text {
+      margin: 0 0 18px;
+      color: #5d676e;
+      line-height: 1.68;
+    }
+
+    .diagnosis-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 12px;
+    }
+
+    .diagnosis-list li {
+      position: relative;
+      padding-left: 22px;
+      color: #5d676e;
+      line-height: 1.55;
+    }
+
+    .diagnosis-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.62em;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--sci-blue);
+    }
+
+    .send-status {
+      display: none;
+      margin-top: 18px;
+      padding: 12px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9rem;
+      font-weight: 720;
+      line-height: 1.45;
+    }
+
+    .send-status.visible {
+      display: block;
+    }
+
+    .send-status.success {
+      background: #f0fbf5;
+      color: var(--sci-success);
+      border: 1px solid #c8efd8;
+    }
+
+    .send-status.warning {
+      background: #fff8eb;
+      color: var(--sci-warning);
+      border: 1px solid #f3d39a;
+    }
+
+    @media (max-width: 980px) {
+      .navbar {
+        margin-bottom: 30px;
+      }
+
+      .hero {
+        justify-content: flex-start;
+      }
+
+      .hero-copy,
+      .hero-text {
+        max-width: 760px;
+      }
+
+      .wizard-shell {
+        width: min(760px, 100%);
+      }
+
+      .wizard {
+        min-height: auto;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .app {
+        width: min(100% - 22px, 1180px);
+        padding-top: 14px;
+        align-items: center;
+      }
+
+      .navbar {
+        top: 10px;
+        min-height: 64px;
+        padding: 12px 14px;
+        border-radius: 24px;
+      }
+
+      .brand-logo {
+        width: min(250px, 72vw);
+      }
+
+      .navbar-note {
+        display: none;
+      }
+
+      .hero-title {
+        letter-spacing: -1.7px;
+      }
+
+      .legal-note {
+        font-size: 0.88rem;
+      }
+
+      .wizard-shell {
+        width: 100%;
+      }
+
+      .wizard-shell::before {
+        inset: -8px;
+        border-radius: 28px;
+      }
+
+      .wizard {
+        border-radius: 24px;
+      }
+
+      .wizard-top {
+        grid-template-columns: 1fr;
+      }
+
+      .save-status {
+        text-align: left;
+        min-width: auto;
+      }
+
+      .step {
+        min-height: auto;
+      }
+
+      .choice-list.two-columns,
+      .summary-item {
+        grid-template-columns: 1fr;
+      }
+
+      .summary-item {
+        gap: 5px;
+      }
+
+      .wizard-actions {
+        flex-direction: column-reverse;
+        align-items: stretch;
+      }
+
+      .action-left,
+      .action-right,
+      .btn {
+        width: 100%;
+      }
+
+      .btn-ghost {
+        padding-left: 20px;
+        background: rgba(36, 88, 121, 0.06);
+      }
+
+      .diagnosis-card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="app">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="navbar-brand" href="https://sotomayorconsulting.com/" aria-label="Ir a Sotomayor Consulting International">
+        <img
+          class="brand-logo"
+          src="https://sotomayorconsulting.com/wp-content/uploads/2023/10/d3-img2-e1715372936694.png"
+          alt="Sotomayor Consulting International"
+        />
+      </a>
+      <span class="navbar-note">Diagnóstico LLC & Cripto</span>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Diagnóstico comercial</span>
+        <h1 class="hero-title">LLC para operaciones con <span>criptomonedas</span></h1>
+        <p class="hero-text">
+          Complete este diagnóstico inicial para entender su operación, objetivos y relación actual con el ecosistema cripto. La información permitirá preparar una conversación más precisa con enfoque legal, tributario y comercial.
+        </p>
+        <p class="legal-note">
+          La información recopilada tiene fines preliminares y comerciales. Posteriormente, el equipo legal y tributario podrá solicitar antecedentes adicionales para realizar un análisis técnico y estructural más detallado.
+        </p>
+      </div>
+
+      <div class="wizard-shell">
+        <section class="wizard" aria-live="polite">
+          <div id="wizardContent">
+            <div class="wizard-top">
+              <div class="progress-meta">
+                <p class="progress-label" id="progressLabel">Pregunta 1 de 8</p>
+                <div class="progress-track" aria-hidden="true">
+                  <div class="progress-bar" id="progressBar"></div>
+                </div>
+              </div>
+              <span class="save-status" id="saveStatus">Guardado</span>
+            </div>
+
+            <form id="diagnosticForm" novalidate>
+              <section class="step active" data-step="0">
+                <p class="step-index">01 · Datos básicos</p>
+                <h2 class="step-title">Comencemos con sus datos básicos.</h2>
+                <p class="step-help">Solo necesitamos su nombre y correo electrónico para identificar la solicitud de diagnóstico.</p>
+
+                <div class="field-flow">
+                  <div class="field">
+                    <label class="label" for="fullName">Nombre completo</label>
+                    <input class="input" type="text" id="fullName" name="fullName" autocomplete="name" required placeholder="Ej: Juan Pérez" />
+                  </div>
+
+                  <div class="field">
+                    <label class="label" for="email">Correo electrónico</label>
+                    <input class="input" type="email" id="email" name="email" autocomplete="email" required placeholder="correo@empresa.com" />
+                  </div>
+                </div>
+              </section>
+
+              <section class="step" data-step="1">
+                <p class="step-index">02 · Objetivo de la LLC</p>
+                <h2 class="step-title">¿Cuál es su principal interés al incorporar una LLC?</h2>
+                <p class="step-help">Puede seleccionar una o varias opciones, según el objetivo que desea alcanzar.</p>
+
+                <div class="choice-list two-columns" data-required-group="llcObjective">
+                  <label class="choice"><input type="checkbox" name="llcObjective" value="Invertir en criptomonedas" /><span class="choice-control"></span><span class="choice-text">Invertir en criptomonedas</span></label>
+                  <label class="choice"><input type="checkbox" name="llcObjective" value="Trading de criptomonedas" /><span class="choice-control"></span><span class="choice-text">Trading de criptomonedas</span></label>
+                  <label class="choice"><input type="checkbox" name="llcObjective" value="Protección patrimonial" /><span class="choice-control"></span><span class="choice-text">Protección patrimonial</span></label>
+                  <label class="choice"><input type="checkbox" name="llcObjective" value="Operar con exchanges internacionales" /><span class="choice-control"></span><span class="choice-text">Operar con exchanges internacionales</span></label>
+                  <label class="choice"><input type="checkbox" name="llcObjective" value="Recibir pagos en cripto" /><span class="choice-control"></span><span class="choice-text">Recibir pagos en cripto</span></label>
+                  <label class="choice"><input type="checkbox" name="llcObjective" value="Manejar un portafolio de inversión" /><span class="choice-control"></span><span class="choice-text">Manejar un portafolio de inversión</span></label>
+                  <label class="choice"><input type="checkbox" name="llcObjective" value="Proyecto Web3 / Blockchain" /><span class="choice-control"></span><span class="choice-text">Proyecto Web3 / Blockchain</span></label>
+                  <label class="choice"><input type="checkbox" name="llcObjective" value="Otro" data-other-toggle="llcObjectiveOther" /><span class="choice-control"></span><span class="choice-text">Otro</span></label>
+                </div>
+
+                <div class="other-field" id="llcObjectiveOther">
+                  <label class="label" for="llcObjectiveOtherText">Indique otro objetivo</label>
+                  <input class="input" type="text" id="llcObjectiveOtherText" name="llcObjectiveOtherText" placeholder="Describa brevemente" />
+                </div>
+              </section>
+
+              <section class="step" data-step="2">
+                <p class="step-index">03 · Actividad actual</p>
+                <h2 class="step-title">¿Actualmente ya opera con criptomonedas?</h2>
+                <p class="step-help">Esta respuesta ayuda a estimar el nivel de operación actual y la complejidad del diagnóstico.</p>
+
+                <div class="choice-list" data-required-group="currentlyOperates">
+                  <label class="choice"><input type="radio" name="currentlyOperates" value="Sí" /><span class="choice-control"></span><span class="choice-text">Sí</span></label>
+                  <label class="choice"><input type="radio" name="currentlyOperates" value="No" /><span class="choice-control"></span><span class="choice-text">No</span></label>
+                </div>
+
+                <div class="soft-panel" id="monthlyVolumeBlock">
+                  <p class="step-index">Volumen mensual aproximado</p>
+                  <div class="choice-list" data-conditional-required-group="monthlyVolume">
+                    <label class="choice"><input type="radio" name="monthlyVolume" value="Menos de USD 10,000" /><span class="choice-control"></span><span class="choice-text">Menos de USD 10,000</span></label>
+                    <label class="choice"><input type="radio" name="monthlyVolume" value="USD 10,000 – USD 50,000" /><span class="choice-control"></span><span class="choice-text">USD 10,000 – USD 50,000</span></label>
+                    <label class="choice"><input type="radio" name="monthlyVolume" value="USD 50,000 – USD 250,000" /><span class="choice-control"></span><span class="choice-text">USD 50,000 – USD 250,000</span></label>
+                    <label class="choice"><input type="radio" name="monthlyVolume" value="Más de USD 250,000" /><span class="choice-control"></span><span class="choice-text">Más de USD 250,000</span></label>
+                  </div>
+                </div>
+              </section>
+
+              <section class="step" data-step="3">
+                <p class="step-index">04 · Exchanges y wallets</p>
+                <h2 class="step-title">¿Qué plataformas utiliza actualmente?</h2>
+                <p class="step-help">Seleccione exchanges, plataformas o wallets personales que formen parte de su operación.</p>
+
+                <div class="choice-list two-columns" data-required-group="platforms">
+                  <label class="choice"><input type="checkbox" name="platforms" value="Binance" /><span class="choice-control"></span><span class="choice-text">Binance</span></label>
+                  <label class="choice"><input type="checkbox" name="platforms" value="Coinbase" /><span class="choice-control"></span><span class="choice-text">Coinbase</span></label>
+                  <label class="choice"><input type="checkbox" name="platforms" value="Kraken" /><span class="choice-control"></span><span class="choice-text">Kraken</span></label>
+                  <label class="choice"><input type="checkbox" name="platforms" value="Bybit" /><span class="choice-control"></span><span class="choice-text">Bybit</span></label>
+                  <label class="choice"><input type="checkbox" name="platforms" value="OKX" /><span class="choice-control"></span><span class="choice-text">OKX</span></label>
+                  <label class="choice"><input type="checkbox" name="platforms" value="Wallets personales" /><span class="choice-control"></span><span class="choice-text">Wallets personales</span></label>
+                  <label class="choice"><input type="checkbox" name="platforms" value="Otro" data-other-toggle="platformsOther" /><span class="choice-control"></span><span class="choice-text">Otro</span></label>
+                </div>
+
+                <div class="other-field" id="platformsOther">
+                  <label class="label" for="platformsOtherText">Indique otra plataforma</label>
+                  <input class="input" type="text" id="platformsOtherText" name="platformsOtherText" placeholder="Ej: Ledger, Trust Wallet, etc." />
+                </div>
+              </section>
+
+              <section class="step" data-step="4">
+                <p class="step-index">05 · Tipo de operación</p>
+                <h2 class="step-title">¿Qué actividades realiza o desea realizar?</h2>
+                <p class="step-help">Seleccione todas las actividades relacionadas con su operación o proyecto.</p>
+
+                <div class="choice-list two-columns" data-required-group="operationTypes">
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Compra y venta de cripto" /><span class="choice-control"></span><span class="choice-text">Compra y venta de cripto</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Holding / inversión a largo plazo" /><span class="choice-control"></span><span class="choice-text">Holding / inversión a largo plazo</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Staking" /><span class="choice-control"></span><span class="choice-text">Staking</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Trading frecuente" /><span class="choice-control"></span><span class="choice-text">Trading frecuente</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Recibir pagos en cripto" /><span class="choice-control"></span><span class="choice-text">Recibir pagos en cripto</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Inversiones DeFi" /><span class="choice-control"></span><span class="choice-text">Inversiones DeFi</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="NFT" /><span class="choice-control"></span><span class="choice-text">NFT</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Mining" /><span class="choice-control"></span><span class="choice-text">Mining</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Manejo de fondos de terceros" /><span class="choice-control"></span><span class="choice-text">Manejo de fondos de terceros</span></label>
+                  <label class="choice"><input type="checkbox" name="operationTypes" value="Otro" data-other-toggle="operationOther" /><span class="choice-control"></span><span class="choice-text">Otro</span></label>
+                </div>
+
+                <div class="other-field" id="operationOther">
+                  <label class="label" for="operationOtherText">Indique otra actividad</label>
+                  <input class="input" type="text" id="operationOtherText" name="operationOtherText" placeholder="Describa brevemente" />
+                </div>
+              </section>
+
+              <section class="step" data-step="5">
+                <p class="step-index">06 · Relación con Estados Unidos</p>
+                <h2 class="step-title">¿Tiene actualmente alguno de los siguientes?</h2>
+                <p class="step-help">Esto permite entender si ya cuenta con elementos base para operar desde una estructura en EE. UU.</p>
+
+                <div class="choice-list" data-required-group="usRelation">
+                  <label class="choice"><input type="checkbox" name="usRelation" value="ITIN" /><span class="choice-control"></span><span class="choice-text">ITIN</span></label>
+                  <label class="choice"><input type="checkbox" name="usRelation" value="SSN" /><span class="choice-control"></span><span class="choice-text">SSN</span></label>
+                  <label class="choice"><input type="checkbox" name="usRelation" value="Cuenta bancaria en EE. UU." /><span class="choice-control"></span><span class="choice-text">Cuenta bancaria en EE. UU.</span></label>
+                  <label class="choice"><input type="checkbox" name="usRelation" value="LLC activa en EE. UU." /><span class="choice-control"></span><span class="choice-text">LLC activa en EE. UU.</span></label>
+                  <label class="choice"><input type="checkbox" name="usRelation" value="Ninguno" data-exclusive="usRelation" /><span class="choice-control"></span><span class="choice-text">Ninguno</span></label>
+                </div>
+              </section>
+
+              <section class="step" data-step="6">
+                <p class="step-index">07 · Objetivo estratégico</p>
+                <h2 class="step-title">¿Qué busca principalmente con esta estructura?</h2>
+                <p class="step-help">Seleccione los objetivos estratégicos que espera lograr mediante una LLC.</p>
+
+                <div class="choice-list two-columns" data-required-group="strategicGoal">
+                  <label class="choice"><input type="checkbox" name="strategicGoal" value="Mayor orden y formalidad" /><span class="choice-control"></span><span class="choice-text">Mayor orden y formalidad</span></label>
+                  <label class="choice"><input type="checkbox" name="strategicGoal" value="Acceso a sistema financiero internacional" /><span class="choice-control"></span><span class="choice-text">Acceso a sistema financiero internacional</span></label>
+                  <label class="choice"><input type="checkbox" name="strategicGoal" value="Protección patrimonial" /><span class="choice-control"></span><span class="choice-text">Protección patrimonial</span></label>
+                  <label class="choice"><input type="checkbox" name="strategicGoal" value="Escalar operaciones" /><span class="choice-control"></span><span class="choice-text">Escalar operaciones</span></label>
+                  <label class="choice"><input type="checkbox" name="strategicGoal" value="Optimización fiscal internacional" /><span class="choice-control"></span><span class="choice-text">Optimización fiscal internacional</span></label>
+                  <label class="choice"><input type="checkbox" name="strategicGoal" value="Mayor facilidad para operar globalmente" /><span class="choice-control"></span><span class="choice-text">Mayor facilidad para operar globalmente</span></label>
+                </div>
+              </section>
+
+              <section class="step" data-step="7">
+                <p class="step-index">08 · Comentarios adicionales</p>
+                <h2 class="step-title">¿Desea agregar algún comentario?</h2>
+                <p class="step-help">Puede incluir contexto relevante sobre su operación, dudas específicas o necesidades que quiera abordar en la reunión.</p>
+
+                <div class="field">
+                  <label class="label" for="additionalComments">Comentarios adicionales</label>
+                  <textarea class="textarea" id="additionalComments" name="additionalComments" placeholder="Escriba aquí cualquier información adicional que considere importante..."></textarea>
+                </div>
+              </section>
+
+              <section class="step" data-step="8">
+                <p class="step-index">Revisión final</p>
+                <h2 class="step-title">Revise la información antes de enviar.</h2>
+                <p class="step-help">Al enviar, se generará un diagnóstico preliminar y se enviarán sus respuestas al equipo de Sotomayor Consulting International.</p>
+                <div class="summary" id="summaryBox"></div>
+                <div class="send-status" id="sendStatus"></div>
+              </section>
+
+              <div class="error" id="errorBox" role="alert"></div>
+
+              <div class="wizard-actions">
+                <div class="action-left">
+                  <button type="button" class="btn btn-ghost" id="prevBtn">Anterior</button>
+                </div>
+
+                <div class="action-right">
+                  <button type="button" class="btn btn-primary" id="nextBtn">Siguiente</button>
+                  <button type="submit" class="btn btn-gold hidden" id="submitBtn">Enviar diagnóstico</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="confirmation" id="confirmationScreen">
+            <div class="confirmation-inner">
+              <div class="success-mark" aria-hidden="true">✓</div>
+              <h2>Diagnóstico preliminar generado</h2>
+              <p>
+                Gracias por completar la información inicial. A continuación encontrará una primera lectura profesional basada en sus respuestas.
+              </p>
+
+              <div class="diagnosis-card" id="diagnosisCard"></div>
+
+              <button type="button" class="btn btn-primary" id="restartBtn">Completar nuevamente</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    /*
+      Sotomayor Consulting International
+      Wizard Form LLC & Criptomonedas
+      Versión: v4.1
+    */
+
+    const VERSION = "v4.1";
+    const STORAGE_KEY = "sci_llc_crypto_diagnostic_v4_1";
+    const WEBHOOK_URL = "https://n8n.sotomayorconsulting.com/webhook/Form-LLC-Criptomonedas";
+
+    const form = document.getElementById("diagnosticForm");
+    const steps = Array.from(document.querySelectorAll(".step"));
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const submitBtn = document.getElementById("submitBtn");
+    const progressLabel = document.getElementById("progressLabel");
+    const progressBar = document.getElementById("progressBar");
+    const errorBox = document.getElementById("errorBox");
+    const saveStatus = document.getElementById("saveStatus");
+    const summaryBox = document.getElementById("summaryBox");
+    const sendStatus = document.getElementById("sendStatus");
+    const wizardContent = document.getElementById("wizardContent");
+    const confirmationScreen = document.getElementById("confirmationScreen");
+    const diagnosisCard = document.getElementById("diagnosisCard");
+    const restartBtn = document.getElementById("restartBtn");
+
+    let currentStep = 0;
+
+    const fieldLabels = {
+      fullName: "Nombre completo",
+      email: "Correo electrónico",
+      llcObjective: "Objetivo de la LLC",
+      llcObjectiveOtherText: "Otro objetivo",
+      currentlyOperates: "Opera actualmente con criptomonedas",
+      monthlyVolume: "Volumen mensual aproximado",
+      platforms: "Plataformas utilizadas",
+      platformsOtherText: "Otra plataforma",
+      operationTypes: "Tipo de operación",
+      operationOtherText: "Otra actividad",
+      usRelation: "Relación con Estados Unidos",
+      strategicGoal: "Objetivo estratégico",
+      additionalComments: "Comentarios adicionales"
+    };
+
+    function escapeHTML(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function asArray(value) {
+      if (!value) return [];
+      return Array.isArray(value) ? value : [value];
+    }
+
+    function joinValues(value) {
+      return asArray(value).filter(Boolean).join(" | ");
+    }
+
+    function includesAny(values, terms) {
+      const normalizedValues = asArray(values).map((value) => String(value).toLowerCase());
+      return terms.some((term) => normalizedValues.some((value) => value.includes(term.toLowerCase())));
+    }
+
+    function showSavedState() {
+      saveStatus.classList.add("visible");
+      window.clearTimeout(showSavedState.timer);
+      showSavedState.timer = window.setTimeout(() => {
+        saveStatus.classList.remove("visible");
+      }, 1000);
+    }
+
+    function getFormData() {
+      const data = {};
+      const formData = new FormData(form);
+
+      for (const [key, value] of formData.entries()) {
+        if (data[key]) {
+          data[key] = Array.isArray(data[key]) ? [...data[key], value] : [data[key], value];
+        } else {
+          data[key] = value;
+        }
+      }
+
+      return data;
+    }
+
+    function saveFormData() {
+      const payload = {
+        version: VERSION,
+        currentStep,
+        data: getFormData(),
+        updatedAt: new Date().toISOString()
+      };
+
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+      showSavedState();
+    }
+
+    function restoreFormData() {
+      const storedPayload = sessionStorage.getItem(STORAGE_KEY);
+      if (!storedPayload) return;
+
+      try {
+        const payload = JSON.parse(storedPayload);
+        const data = payload.data || {};
+
+        Object.entries(data).forEach(([name, value]) => {
+          const fields = Array.from(form.elements).filter((field) => field.name === name);
+          if (!fields.length) return;
+
+          fields.forEach((field) => {
+            if (field.type === "checkbox" || field.type === "radio") {
+              field.checked = Array.isArray(value)
+                ? value.includes(field.value)
+                : value === field.value;
+            } else {
+              field.value = value;
+            }
+          });
+        });
+
+        currentStep = Number.isInteger(payload.currentStep) ? payload.currentStep : 0;
+        currentStep = Math.min(Math.max(currentStep, 0), steps.length - 1);
+      } catch (error) {
+        sessionStorage.removeItem(STORAGE_KEY);
+      }
+    }
+
+    function clearError() {
+      errorBox.textContent = "";
+      errorBox.classList.remove("visible");
+    }
+
+    function showError(message) {
+      errorBox.textContent = message;
+      errorBox.classList.add("visible");
+    }
+
+    function setSendStatus(message, type = "success") {
+      sendStatus.textContent = message;
+      sendStatus.className = `send-status visible ${type}`;
+    }
+
+    function getCheckedValues(groupName) {
+      return Array.from(form.querySelectorAll(`[name="${groupName}"]:checked`)).map((field) => field.value);
+    }
+
+    function validateCurrentStep() {
+      clearError();
+      const activeStep = steps[currentStep];
+
+      const requiredFields = Array.from(activeStep.querySelectorAll("input[required], textarea[required], select[required]"));
+      for (const field of requiredFields) {
+        if (!field.checkValidity()) {
+          field.focus();
+          showError("Complete correctamente los campos requeridos antes de continuar.");
+          return false;
+        }
+      }
+
+      const requiredGroups = Array.from(activeStep.querySelectorAll("[data-required-group]"));
+      for (const group of requiredGroups) {
+        const groupName = group.dataset.requiredGroup;
+        if (getCheckedValues(groupName).length === 0) {
+          showError("Seleccione al menos una opción antes de continuar.");
+          return false;
+        }
+      }
+
+      const visibleConditionalPanels = Array.from(activeStep.querySelectorAll(".soft-panel.visible"));
+      for (const panel of visibleConditionalPanels) {
+        const conditionalGroup = panel.querySelector("[data-conditional-required-group]");
+        if (!conditionalGroup) continue;
+
+        const groupName = conditionalGroup.dataset.conditionalRequiredGroup;
+        if (getCheckedValues(groupName).length === 0) {
+          showError("Seleccione el volumen mensual aproximado antes de continuar.");
+          return false;
+        }
+      }
+
+      const visibleOtherInputs = Array.from(activeStep.querySelectorAll(".other-field.visible input"));
+      for (const input of visibleOtherInputs) {
+        if (!input.value.trim()) {
+          input.focus();
+          showError("Complete el campo 'Otro' antes de continuar.");
+          return false;
+        }
+      }
+
+      return true;
+    }
+
+    function updateProgress() {
+      const questionCount = steps.length - 1;
+      const isSummaryStep = currentStep === steps.length - 1;
+      const currentQuestion = Math.min(currentStep + 1, questionCount);
+
+      progressLabel.textContent = isSummaryStep
+        ? "Revisión final"
+        : `Pregunta ${currentQuestion} de ${questionCount}`;
+
+      const progress = ((currentStep + 1) / steps.length) * 100;
+      progressBar.style.width = `${progress}%`;
+    }
+
+    function updateButtons() {
+      const isLastStep = currentStep === steps.length - 1;
+      prevBtn.disabled = currentStep === 0;
+      nextBtn.classList.toggle("hidden", isLastStep);
+      submitBtn.classList.toggle("hidden", !isLastStep);
+    }
+
+    function updateConditionalUI() {
+      document.querySelectorAll("[data-other-toggle]").forEach((input) => {
+        const target = document.getElementById(input.dataset.otherToggle);
+        if (!target) return;
+        target.classList.toggle("visible", input.checked);
+      });
+
+      const operatesYes = form.querySelector('input[name="currentlyOperates"][value="Sí"]');
+      const monthlyVolumeBlock = document.getElementById("monthlyVolumeBlock");
+      const shouldShowVolume = Boolean(operatesYes && operatesYes.checked);
+
+      monthlyVolumeBlock.classList.toggle("visible", shouldShowVolume);
+
+      if (!shouldShowVolume) {
+        form.querySelectorAll('input[name="monthlyVolume"]').forEach((input) => {
+          input.checked = false;
+        });
+      }
+    }
+
+    function renderSummary() {
+      const data = getFormData();
+
+      const rows = Object.entries(fieldLabels)
+        .map(([key, label]) => {
+          const value = data[key];
+          if (!value || (Array.isArray(value) && value.length === 0)) return "";
+
+          const readableValue = Array.isArray(value) ? value.join(", ") : value;
+          if (!String(readableValue).trim()) return "";
+
+          return `
+            <div class="summary-item">
+              <strong>${escapeHTML(label)}</strong>
+              <span>${escapeHTML(readableValue)}</span>
+            </div>
+          `;
+        })
+        .join("");
+
+      summaryBox.innerHTML = rows || "<p>No hay información registrada.</p>";
+    }
+
+    function getComplexityScore(data) {
+      let score = 0;
+
+      if (data.currentlyOperates === "Sí") score += 1;
+      if (includesAny(data.monthlyVolume, ["10,000", "50,000", "250,000", "Más"])) score += 1;
+      if (includesAny(data.monthlyVolume, ["50,000", "250,000", "Más"])) score += 2;
+      if (includesAny(data.operationTypes, ["Trading frecuente", "DeFi", "Staking", "Mining", "NFT"])) score += 2;
+      if (includesAny(data.operationTypes, ["Manejo de fondos de terceros"])) score += 4;
+      if (includesAny(data.llcObjective, ["Protección patrimonial", "Operar con exchanges internacionales", "Recibir pagos", "Web3", "Blockchain"])) score += 2;
+      if (includesAny(data.strategicGoal, ["Protección patrimonial", "Acceso a sistema financiero internacional", "Optimización fiscal internacional", "Escalar operaciones"])) score += 2;
+      if (includesAny(data.usRelation, ["Ninguno"])) score += 1;
+      if (includesAny(data.usRelation, ["LLC activa", "Cuenta bancaria"])) score += 1;
+
+      return score;
+    }
+
+    function generateCryptoDiagnosis(data) {
+      const objectives = asArray(data.llcObjective);
+      const operations = asArray(data.operationTypes);
+      const goals = asArray(data.strategicGoal);
+      const platforms = asArray(data.platforms);
+      const usRelation = asArray(data.usRelation);
+      const score = getComplexityScore(data);
+
+      const level = score >= 8 ? "Avanzado" : score >= 4 ? "Intermedio" : "Inicial";
+      const title = level === "Avanzado"
+        ? "Caso con alta necesidad de estructura y revisión especializada"
+        : level === "Intermedio"
+          ? "Caso con potencial claro para estructuración mediante LLC"
+          : "Caso inicial con oportunidad de ordenamiento y planificación";
+
+      const introParts = [];
+
+      if (data.currentlyOperates === "Sí") {
+        introParts.push("El cliente ya mantiene actividad en criptomonedas, por lo que el análisis debe enfocarse en ordenar la operación, separar riesgos personales y revisar la trazabilidad comercial, bancaria y tributaria.");
+      } else {
+        introParts.push("El cliente se encuentra en una etapa inicial o exploratoria, por lo que la prioridad es definir una estructura clara antes de iniciar operaciones relevantes con activos digitales.");
+      }
+
+      if (objectives.length) {
+        introParts.push(`El interés declarado se relaciona principalmente con: ${objectives.join(", ")}.`);
+      }
+
+      if (platforms.length) {
+        introParts.push(`Actualmente se identifican plataformas o canales de operación como: ${platforms.join(", ")}.`);
+      }
+
+      const recommendations = [];
+
+      recommendations.push("Evaluar la constitución de una LLC como vehículo de orden comercial, separación patrimonial y formalización de la actividad, especialmente si la operación crecerá, recibirá pagos internacionales o interactuará con exchanges y bancos fuera del país de residencia.");
+
+      if (includesAny(goals, ["Protección patrimonial"]) || includesAny(objectives, ["Protección patrimonial"])) {
+        recommendations.push("Revisar la LLC como capa de separación entre patrimonio personal y actividad operativa, considerando que la protección real dependerá de una correcta administración, contabilidad separada y cumplimiento documental.");
+      }
+
+      if (includesAny(goals, ["Acceso a sistema financiero internacional"]) || includesAny(objectives, ["Operar con exchanges internacionales", "Recibir pagos en cripto"])) {
+        recommendations.push("Analizar requisitos de bancos, procesadores de pago y exchanges internacionales, ya que una LLC puede facilitar la presentación comercial, pero no garantiza aprobación bancaria ni apertura automática de cuentas.");
+      }
+
+      if (includesAny(operations, ["Trading frecuente", "Staking", "DeFi", "Mining", "NFT"])) {
+        recommendations.push("Profundizar en la clasificación de ingresos y registros operativos, porque actividades como trading frecuente, staking, DeFi, mining o NFT pueden requerir criterios distintos de control, soporte documental y tratamiento tributario.");
+      }
+
+      if (includesAny(operations, ["Manejo de fondos de terceros"])) {
+        recommendations.push("Priorizar una revisión especializada antes de operar con fondos de terceros, debido a posibles implicancias regulatorias, contractuales, KYC/AML y de responsabilidad frente a clientes o inversionistas.");
+      }
+
+      if (includesAny(usRelation, ["Ninguno"])) {
+        recommendations.push("Definir desde el inicio la ruta de incorporación, EIN, cuenta bancaria, documentación corporativa y política de uso de la LLC para evitar una estructura creada sin capacidad operativa real.");
+      }
+
+      recommendations.push("Antes de tomar decisiones fiscales o bancarias, se recomienda una sesión con un experto para revisar residencia fiscal, origen de fondos, tipo de operación, jurisdicciones involucradas, volumen mensual y objetivo comercial real.");
+
+      const closing = "Este diagnóstico es preliminar y no constituye asesoría legal, tributaria, financiera ni de inversión. Su finalidad es orientar la conversación inicial y determinar si una LLC puede ser una estructura adecuada para protección, formalidad operativa y expansión internacional.";
+
+      return {
+        level,
+        title,
+        intro: introParts.join(" "),
+        recommendations,
+        closing
+      };
+    }
+
+    function renderDiagnosis(diagnosis) {
+      const listItems = diagnosis.recommendations
+        .map((item) => `<li>${escapeHTML(item)}</li>`)
+        .join("");
+
+      diagnosisCard.innerHTML = `
+        <span class="diagnosis-badge">Diagnóstico ${escapeHTML(diagnosis.level)}</span>
+        <h3 class="diagnosis-title">${escapeHTML(diagnosis.title)}</h3>
+        <p class="diagnosis-text">${escapeHTML(diagnosis.intro)}</p>
+        <ul class="diagnosis-list">${listItems}</ul>
+        <p class="diagnosis-text" style="margin-top:18px; font-size:0.92rem;">${escapeHTML(diagnosis.closing)}</p>
+      `;
+    }
+
+    function buildMappedPayload(answers, diagnosis) {
+      const submittedAt = new Date().toISOString();
+
+      const flatFields = {
+        version: VERSION,
+        fuente: "Formulario Inicial — LLC & Criptomonedas",
+        fecha_envio: submittedAt,
+
+        cliente_nombre: answers.fullName || "",
+        cliente_correo: answers.email || "",
+
+        pregunta_01_datos_basicos_nombre: answers.fullName || "",
+        pregunta_01_datos_basicos_correo: answers.email || "",
+
+        pregunta_02_objetivo_llc: joinValues(answers.llcObjective),
+        pregunta_02_objetivo_llc_otro: answers.llcObjectiveOtherText || "",
+
+        pregunta_03_opera_actualmente_cripto: answers.currentlyOperates || "",
+        pregunta_03_volumen_mensual_aproximado: answers.monthlyVolume || "",
+
+        pregunta_04_exchanges_wallets: joinValues(answers.platforms),
+        pregunta_04_exchanges_wallets_otro: answers.platformsOtherText || "",
+
+        pregunta_05_tipo_operacion: joinValues(answers.operationTypes),
+        pregunta_05_tipo_operacion_otro: answers.operationOtherText || "",
+
+        pregunta_06_relacion_eeuu: joinValues(answers.usRelation),
+
+        pregunta_07_objetivo_estrategico: joinValues(answers.strategicGoal),
+
+        pregunta_08_comentarios_adicionales: answers.additionalComments || "",
+
+        diagnostico_nivel: diagnosis.level || "",
+        diagnostico_titulo: diagnosis.title || "",
+        diagnostico_intro: diagnosis.intro || "",
+        diagnostico_recomendaciones: joinValues(diagnosis.recommendations),
+        diagnostico_cierre: diagnosis.closing || "",
+
+        pagina_url: window.location.href,
+        pagina_referrer: document.referrer || "",
+        navegador_user_agent: navigator.userAgent
+      };
+
+      const structuredSections = {
+        datos_basicos: {
+          nombre_completo: answers.fullName || null,
+          correo_electronico: answers.email || null
+        },
+        objetivo_llc: {
+          opciones: asArray(answers.llcObjective),
+          otro: answers.llcObjectiveOtherText || null
+        },
+        actividad_actual: {
+          opera_actualmente_con_criptomonedas: answers.currentlyOperates || null,
+          volumen_mensual_aproximado: answers.monthlyVolume || null
+        },
+        exchanges_y_wallets: {
+          plataformas: asArray(answers.platforms),
+          otra_plataforma: answers.platformsOtherText || null
+        },
+        tipo_de_operacion: {
+          actividades: asArray(answers.operationTypes),
+          otra_actividad: answers.operationOtherText || null
+        },
+        relacion_con_estados_unidos: {
+          elementos_actuales: asArray(answers.usRelation)
+        },
+        objetivo_estrategico: {
+          objetivos: asArray(answers.strategicGoal)
+        },
+        comentarios_adicionales: answers.additionalComments || null
+      };
+
+      const compactPayload = {
+        version: VERSION,
+        submittedAt,
+        customer: {
+          fullName: answers.fullName || null,
+          email: answers.email || null
+        },
+        sections: structuredSections,
+        answers,
+        diagnosis
+      };
+
+      return {
+        ...flatFields,
+        customer: compactPayload.customer,
+        sections: structuredSections,
+        answers,
+        diagnosis,
+        page: {
+          url: window.location.href,
+          referrer: document.referrer || null,
+          userAgent: navigator.userAgent
+        },
+        payload_json: JSON.stringify(compactPayload)
+      };
+    }
+
+    function showStep(index) {
+      steps.forEach((step, stepIndex) => {
+        step.classList.toggle("active", stepIndex === index);
+      });
+
+      if (index === steps.length - 1) {
+        renderSummary();
+      }
+
+      clearError();
+      updateConditionalUI();
+      updateProgress();
+      updateButtons();
+      saveFormData();
+    }
+
+    function handleExclusiveCheckbox(event) {
+      const input = event.target;
+      if (!input.matches('input[type="checkbox"][data-exclusive]')) return;
+
+      const groupName = input.dataset.exclusive;
+      if (input.checked) {
+        form.querySelectorAll(`input[name="${groupName}"]`).forEach((field) => {
+          if (field !== input) field.checked = false;
+        });
+      }
+    }
+
+    function handleRegularCheckbox(event) {
+      const input = event.target;
+      if (!input.matches('input[type="checkbox"]')) return;
+
+      const exclusiveOption = form.querySelector(`input[type="checkbox"][name="${input.name}"][data-exclusive]`);
+      if (exclusiveOption && input !== exclusiveOption && input.checked) {
+        exclusiveOption.checked = false;
+      }
+    }
+
+    function submitToWebhookViaHiddenForm(payload) {
+      return new Promise((resolve) => {
+        const iframeName = `n8n_webhook_iframe_${Date.now()}`;
+        let submitted = false;
+        let resolved = false;
+
+        const iframe = document.createElement("iframe");
+        iframe.name = iframeName;
+        iframe.title = "n8n webhook transport";
+        iframe.style.display = "none";
+
+        const transportForm = document.createElement("form");
+        transportForm.method = "POST";
+        transportForm.action = WEBHOOK_URL;
+        transportForm.target = iframeName;
+        transportForm.enctype = "application/x-www-form-urlencoded";
+        transportForm.acceptCharset = "UTF-8";
+        transportForm.style.display = "none";
+
+        const appendHiddenField = (name, value) => {
+          const input = document.createElement("input");
+          input.type = "hidden";
+          input.name = name;
+
+          if (value === null || value === undefined) {
+            input.value = "";
+          } else if (typeof value === "object") {
+            input.value = JSON.stringify(value);
+          } else {
+            input.value = String(value);
+          }
+
+          transportForm.appendChild(input);
+        };
+
+        Object.entries(payload).forEach(([key, value]) => {
+          appendHiddenField(key, value);
+        });
+
+        const cleanup = () => {
+          window.setTimeout(() => {
+            iframe.remove();
+            transportForm.remove();
+          }, 4000);
+        };
+
+        const finish = (mode) => {
+          if (resolved) return;
+          resolved = true;
+          cleanup();
+          resolve({ ok: true, mode });
+        };
+
+        iframe.addEventListener("load", () => {
+          if (submitted) finish("hidden-form-iframe-load");
+        });
+
+        document.body.appendChild(iframe);
+        document.body.appendChild(transportForm);
+
+        submitted = true;
+        transportForm.submit();
+
+        window.setTimeout(() => {
+          finish("hidden-form-iframe-timeout");
+        }, 1800);
+      });
+    }
+
+    nextBtn.addEventListener("click", () => {
+      if (!validateCurrentStep()) return;
+      currentStep = Math.min(currentStep + 1, steps.length - 1);
+      showStep(currentStep);
+    });
+
+    prevBtn.addEventListener("click", () => {
+      currentStep = Math.max(currentStep - 1, 0);
+      showStep(currentStep);
+    });
+
+    form.addEventListener("change", (event) => {
+      handleExclusiveCheckbox(event);
+      handleRegularCheckbox(event);
+      updateConditionalUI();
+      saveFormData();
+    });
+
+    form.addEventListener("input", () => {
+      saveFormData();
+    });
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+
+      if (!validateCurrentStep()) return;
+
+      submitBtn.disabled = true;
+      prevBtn.disabled = true;
+      submitBtn.textContent = "Enviando...";
+      setSendStatus("Enviando diagnóstico, respuestas mapeadas y payload completo al webhook de n8n...", "warning");
+
+      const answers = getFormData();
+      const diagnosis = generateCryptoDiagnosis(answers);
+      const finalPayload = buildMappedPayload(answers, diagnosis);
+
+      try {
+        const webhookResult = await submitToWebhookViaHiddenForm(finalPayload);
+        console.log("Diagnóstico LLC & Criptomonedas enviado por formulario oculto:", finalPayload, webhookResult);
+        setSendStatus("Información enviada al webhook. Generando resultado...", "success");
+      } catch (error) {
+        console.error("No se pudo enviar al webhook:", error, finalPayload);
+        setSendStatus("No fue posible confirmar el envío automático. El diagnóstico se generó localmente, pero revise la conexión del webhook en n8n.", "warning");
+      }
+
+      renderDiagnosis(diagnosis);
+      sessionStorage.removeItem(STORAGE_KEY);
+      wizardContent.classList.add("hidden");
+      confirmationScreen.classList.add("visible");
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Enviar diagnóstico";
+    });
+
+    restartBtn.addEventListener("click", () => {
+      form.reset();
+      currentStep = 0;
+      sessionStorage.removeItem(STORAGE_KEY);
+      sendStatus.className = "send-status";
+      sendStatus.textContent = "";
+      confirmationScreen.classList.remove("visible");
+      wizardContent.classList.remove("hidden");
+      showStep(currentStep);
+    });
+
+    restoreFormData();
+    updateConditionalUI();
+    showStep(currentStep);
+  </script>
+</body>
+</html>

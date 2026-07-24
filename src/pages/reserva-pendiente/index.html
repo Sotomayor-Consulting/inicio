@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Completa tu reserva para revisar tu LLC con Sotomayor Consulting. La sesión ayuda a ordenar estructura, bancos, plataformas de pago, impuestos y siguientes pasos para operar en EE. UU."
+  />
+
+  <title>Elige tu horario | Sotomayor Consulting</title>
+
+  <!-- Favicon / Isotipo -->
+  <!-- Sube el isotipo redondo a tu servidor y reemplaza esta ruta si corresponde. -->
+  <link rel="icon" type="image/png" href="./isotipo-redondo.png" />
+  <link rel="apple-touch-icon" href="./isotipo-redondo.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Elige tu horario | Sotomayor Consulting" />
+  <meta
+    property="og:description"
+    content="Selecciona un horario para revisar tu LLC y definir el mejor siguiente paso para operar, cobrar y crecer en EE. UU."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./isotipo-redondo.png" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Logo principal -->
+  <link
+    rel="preload"
+    as="image"
+    href="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+  />
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Tracking configuration -->
+  <script>
+    window.SCI_TRACKING_CONFIG = {
+      page_name: "ready_for_meeting_booking_page",
+      page_category: "llc_booking_page",
+      tiktok_pixel_id: "D5KFDEBC77U6BL6T7LDG",
+      gtm_id: "GTM-TNRQGDM",
+      debug: false
+    };
+  </script>
+
+  <!-- GTM loader -->
+  <script>
+    (function () {
+      var config = window.SCI_TRACKING_CONFIG || {};
+      var id = config.gtm_id;
+
+      if (!id) return;
+
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+
+      var script = document.createElement("script");
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtm.js?id=" + encodeURIComponent(id);
+      document.head.appendChild(script);
+    })();
+  </script>
+
+  <!-- TikTok Pixel base code -->
+  <script>
+    (function (w, d, t) {
+      var config = w.SCI_TRACKING_CONFIG || {};
+      var pixelId = config.tiktok_pixel_id;
+
+      if (!pixelId) return;
+
+      w.TiktokAnalyticsObject = t;
+
+      var ttq = (w[t] = w[t] || []);
+
+      ttq.methods = [
+        "page",
+        "track",
+        "identify",
+        "instances",
+        "debug",
+        "on",
+        "off",
+        "once",
+        "ready",
+        "alias",
+        "group",
+        "enableCookie",
+        "disableCookie",
+        "holdConsent",
+        "revokeConsent",
+        "grantConsent"
+      ];
+
+      ttq.setAndDefer = function (t, e) {
+        t[e] = function () {
+          t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+        };
+      };
+
+      for (var i = 0; i < ttq.methods.length; i++) {
+        ttq.setAndDefer(ttq, ttq.methods[i]);
+      }
+
+      ttq.instance = function (t) {
+        var e = ttq._i[t] || [];
+        for (var n = 0; n < ttq.methods.length; n++) {
+          ttq.setAndDefer(e, ttq.methods[n]);
+        }
+        return e;
+      };
+
+      ttq.load = function (e, n) {
+        var r = "https://analytics.tiktok.com/i18n/pixel/events.js";
+
+        ttq._i = ttq._i || {};
+        ttq._i[e] = [];
+        ttq._i[e]._u = r;
+
+        ttq._t = ttq._t || {};
+        ttq._t[e] = +new Date();
+
+        ttq._o = ttq._o || {};
+        ttq._o[e] = n || {};
+
+        var s = d.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = r + "?sdkid=" + e + "&lib=" + t;
+
+        var a = d.getElementsByTagName("script")[0];
+        a.parentNode.insertBefore(s, a);
+      };
+
+      ttq.load(pixelId);
+      ttq.page();
+    })(window, document, "ttq");
+  </script>
+
+  <!-- Tailwind config -->
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#0F172A",
+            background: "#F7F9FB",
+            surface: "#FFFFFF",
+            textMain: "#1E293B",
+            textMuted: "#64748B",
+            borderSoft: "#E2E8F0",
+            surfaceDim: "#D8DADC",
+            surfaceSubtle: "#F1F5F9"
+          },
+          fontFamily: {
+            sans: ["Inter", "system-ui", "sans-serif"]
+          },
+          maxWidth: {
+            page: "1180px"
+          },
+          boxShadow: {
+            subtle: "0 12px 34px rgba(15, 23, 42, 0.06)",
+            button: "0 10px 24px rgba(15, 23, 42, 0.16)"
+          },
+          borderRadius: {
+            "2xl": "1rem",
+            "3xl": "1.5rem"
+          }
+        }
+      }
+    };
+  </script>
+
+</head>
+
+<body class="bg-background text-textMain font-sans antialiased selection:bg-primary selection:text-white">
+  <!-- Header -->
+  <header class="border-b border-borderSoft bg-surface">
+    <nav
+      class="mx-auto flex max-w-page items-center justify-between px-4 py-3 md:px-6 lg:px-8"
+      aria-label="Navegación principal"
+    >
+      <a href="#inicio" class="flex items-center gap-3" aria-label="Ir al inicio">
+        <img
+          src="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+          alt="Sotomayor Consulting International"
+          class="h-12 w-auto object-contain"
+          loading="eager"
+        />
+      </a>
+
+      <a
+        href="#calendario"
+        data-track-event="cta_header_calendar"
+        data-track-label="Elegir horario header"
+        class="hidden rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-button transition hover:-translate-y-0.5 hover:bg-textMain md:inline-flex"
+      >
+        Elegir horario
+        <span class="material-symbols-outlined ml-1 text-[18px]">arrow_forward</span>
+      </a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <!-- Main booking section -->
+    <section id="hero-section" class="border-b border-borderSoft bg-background">
+      <div
+        class="mx-auto grid max-w-page gap-8 px-4 py-10 md:grid-cols-[0.82fr_1.18fr] md:px-6 md:py-14 lg:px-8 lg:py-16"
+      >
+        <!-- Left content -->
+        <div class="md:sticky md:top-8 md:self-start">
+          <div
+            class="mb-5 inline-flex items-center gap-2 rounded-full border border-borderSoft bg-surface px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-textMuted"
+          >
+            <span class="material-symbols-outlined text-[18px] text-primary icon-filled">
+              schedule
+            </span>
+            Reserva pendiente
+          </div>
+
+          <h1 class="text-[34px] font-extrabold leading-[1.08] tracking-[-0.04em] text-primary sm:text-[42px] lg:text-[52px]">
+            Elige tu horario para revisar tu LLC.
+          </h1>
+
+          <p class="mt-5 text-[17px] leading-8 text-textMuted md:text-[18px]">
+            Ya tenemos la información necesaria para avanzar. Selecciona un espacio en el calendario y revisaremos tu estructura, prioridades y próximos pasos para operar, cobrar y crecer en EE. UU. con mayor claridad.
+          </p>
+
+          <div class="mt-7 rounded-3xl border border-borderSoft bg-surface p-5 shadow-subtle">
+            <p class="text-sm font-bold uppercase tracking-[0.14em] text-textMuted">
+              En la asesoría revisamos
+            </p>
+
+            <div class="mt-5 space-y-4">
+              <div class="flex gap-3">
+                <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
+                  <span class="material-symbols-outlined text-[20px]">account_balance</span>
+                </span>
+
+                <div>
+                  <p class="font-bold text-primary">Bancos y plataformas</p>
+                  <p class="mt-1 text-sm leading-6 text-textMuted">
+                    Si tu estructura facilita o complica abrir cuentas y cobrar con plataformas de pago.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-3">
+                <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
+                  <span class="material-symbols-outlined text-[20px]">request_quote</span>
+                </span>
+
+                <div>
+                  <p class="font-bold text-primary">Impuestos y cumplimiento</p>
+                  <p class="mt-1 text-sm leading-6 text-textMuted">
+                    Riesgos básicos, obligaciones y próximos pasos tributarios.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-3">
+                <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
+                  <span class="material-symbols-outlined text-[20px]">route</span>
+                </span>
+
+                <div>
+                  <p class="font-bold text-primary">Ruta clara</p>
+                  <p class="mt-1 text-sm leading-6 text-textMuted">
+                    Qué hacer primero, qué evitar y cómo avanzar con criterio.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 grid gap-3 text-sm text-textMuted sm:grid-cols-3 md:grid-cols-1 lg:grid-cols-3">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-[19px] text-primary">schedule</span>
+              30 minutos
+            </div>
+
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-[19px] text-primary">videocam</span>
+              Online
+            </div>
+
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-[19px] text-primary">fact_check</span>
+              Sin presión
+            </div>
+          </div>
+        </div>
+
+        <!-- Calendar -->
+        <section
+          id="calendario"
+          class="overflow-hidden rounded-3xl border border-borderSoft bg-surface shadow-subtle"
+          aria-label="Calendario de reserva"
+        >
+          <div class="border-b border-borderSoft bg-surface px-5 py-5">
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p class="text-sm font-bold uppercase tracking-[0.14em] text-textMuted">
+                  Reserva tu espacio
+                </p>
+
+                <h2 class="mt-1 text-2xl font-extrabold tracking-[-0.03em] text-primary">
+                  Selecciona el horario que mejor te acomode
+                </h2>
+              </div>
+
+              <div
+                class="inline-flex items-center gap-2 rounded-full border border-borderSoft bg-background px-3 py-2 text-xs font-bold text-textMuted"
+              >
+                <span class="material-symbols-outlined text-[17px] text-primary">
+                  verified
+                </span>
+                Sotomayor Consulting
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            class="agenda-frame"
+            src="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=ready_for_meeting&utm_medium=landing&utm_campaign=booking_page&utm_content=zcal_embed"
+            title="Calendario para reservar asesoría estratégica de LLC"
+            loading="eager"
+            allow="camera; microphone; fullscreen; payment"
+          ></iframe>
+
+          <div class="border-t border-borderSoft bg-surface px-5 py-4 text-center">
+            <p class="text-sm leading-6 text-textMuted">
+              Si el calendario no carga correctamente,
+              <a
+                href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=ready_for_meeting&utm_medium=landing&utm_campaign=booking_page&utm_content=fallback_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-track-event="cta_calendar_fallback"
+                data-track-label="Abrir calendario en nueva pestaña"
+                class="font-bold text-primary underline decoration-borderSoft underline-offset-4 hover:decoration-primary"
+              >
+                abre la agenda en una nueva pestaña
+              </a>.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="mx-auto max-w-page px-4 py-10 md:px-6 lg:px-8">
+      <div class="grid gap-4 rounded-3xl border border-borderSoft bg-surface p-5 shadow-subtle md:grid-cols-3 md:p-6">
+        <div>
+          <p class="text-sm font-bold text-primary">Sin repetir formularios</p>
+          <p class="mt-1 text-sm leading-6 text-textMuted">
+            Esta página está pensada para que avances directo a elegir un horario.
+          </p>
+        </div>
+
+        <div class="border-borderSoft md:border-l md:pl-6">
+          <p class="text-sm font-bold text-primary">Reserva simple</p>
+          <p class="mt-1 text-sm leading-6 text-textMuted">
+            El calendario muestra los espacios disponibles para la asesoría estratégica.
+          </p>
+        </div>
+
+        <div class="border-borderSoft md:border-l md:pl-6">
+          <p class="text-sm font-bold text-primary">Claridad para decidir</p>
+          <p class="mt-1 text-sm leading-6 text-textMuted">
+            La sesión ayuda a ordenar estructura, riesgos y próximos pasos antes de avanzar.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-borderSoft bg-surface">
+    <div
+      class="mx-auto flex max-w-page flex-col gap-6 px-4 py-8 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8"
+    >
+      <div>
+        <img
+          src="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+          alt="Sotomayor Consulting International"
+          class="h-12 w-auto object-contain"
+          loading="lazy"
+        />
+
+        <p class="mt-3 max-w-xl text-xs leading-6 text-textMuted">
+          Sotomayor Consulting no es banco ni institución financiera. Nuestros servicios se
+          enfocan en consultoría, acompañamiento estratégico y gestión de trámites relacionados
+          con constitución de empresas, cuentas bancarias internacionales y asesoría comercial.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap gap-4 text-sm text-textMuted">
+        <a
+          href="https://sotomayorconsulting.com/inicio/politicas/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-primary"
+        >
+          Política de privacidad
+        </a>
+
+        <a
+          href="https://sotomayorconsulting.com/inicio/terminos/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-primary"
+        >
+          Términos de servicio
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA -->
+  <div id="mobile-sticky-cta" class="mobile-sticky-cta fixed inset-x-0 bottom-0 z-40 border-t border-borderSoft bg-white/95 p-3 shadow-subtle backdrop-blur-md md:hidden" aria-hidden="true">
+    <a
+      href="#calendario"
+      data-track-event="cta_sticky_calendar_mobile"
+      data-track-label="Elegir horario sticky mobile"
+      class="mx-auto inline-flex w-full max-w-page items-center justify-center rounded-2xl bg-primary px-4 py-3 text-sm font-extrabold text-white"
+    >
+      Elegir mi horario
+      <span class="material-symbols-outlined ml-2 text-[18px]">arrow_forward</span>
+    </a>
+  </div>
+
+  <!-- DOM events and conversion tracking -->
+  <script>
+    (function () {
+      var config = window.SCI_TRACKING_CONFIG || {};
+
+      var pagePayload = {
+        page_name: config.page_name || "ready_for_meeting_booking_page",
+        page_category: config.page_category || "llc_booking_page",
+        content_id: "ready-for-meeting-booking-page",
+        content_type: "service",
+        content_name: "Página para elegir horario de asesoría LLC",
+        currency: "USD",
+        value: 0
+      };
+
+      function logDebug(message, payload) {
+        if (!config.debug) return;
+        console.log("[SCI Tracking]", message, payload || {});
+      }
+
+      function pushDataLayer(eventName, payload) {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push(Object.assign({ event: eventName }, payload || {}));
+      }
+
+      function trackGtag(eventName, payload) {
+        if (typeof window.gtag === "function") {
+          window.gtag("event", eventName, payload || {});
+        }
+      }
+
+      function trackTikTok(eventName, payload) {
+        if (!window.ttq || typeof window.ttq.track !== "function") return;
+        window.ttq.track(eventName, payload || {});
+      }
+
+      function dispatchSciEvent(eventName, payload) {
+        var detail = Object.assign({}, pagePayload, payload || {});
+
+        document.dispatchEvent(
+          new CustomEvent("sci:" + eventName, {
+            detail: detail
+          })
+        );
+
+        pushDataLayer("sci_" + eventName, detail);
+        trackGtag("sci_" + eventName, detail);
+        logDebug(eventName, detail);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        dispatchSciEvent("ready_for_meeting_booking_page_view", {
+          event_label: "Vista página de reserva ready_for_meeting",
+          page_url: window.location.href,
+          referrer: document.referrer || ""
+        });
+
+        trackTikTok("ViewContent", {
+          contents: [
+            {
+              content_id: pagePayload.content_id,
+              content_type: pagePayload.content_type,
+              content_name: pagePayload.content_name
+            }
+          ],
+          value: pagePayload.value,
+          currency: pagePayload.currency
+        });
+
+        document.querySelectorAll("[data-track-event]").forEach(function (element) {
+          element.addEventListener("click", function () {
+            var eventName = element.getAttribute("data-track-event");
+            var label =
+              element.getAttribute("data-track-label") ||
+              element.textContent.trim();
+
+            var href = element.getAttribute("href") || "";
+
+            var payload = {
+              event_label: label,
+              link_url: href,
+              link_text: element.textContent.trim()
+            };
+
+            dispatchSciEvent(eventName, payload);
+
+            if (eventName.indexOf("calendar") !== -1 || eventName.indexOf("agenda") !== -1) {
+              trackTikTok("Contact", {
+                contents: [
+                  {
+                    content_id: "agenda-asesoria-llc",
+                    content_type: "service",
+                    content_name: "Agenda asesoría estratégica LLC"
+                  }
+                ],
+                value: 0,
+                currency: "USD"
+              });
+            }
+          });
+        });
+
+        var agendaFrame = document.querySelector(".agenda-frame");
+
+        if (agendaFrame) {
+          agendaFrame.addEventListener("load", function () {
+            dispatchSciEvent("zcal_iframe_loaded", {
+              event_label: "Zcal iframe cargado",
+              iframe_src: agendaFrame.getAttribute("src")
+            });
+          });
+        }
+
+        var mobileStickyCta = document.getElementById("mobile-sticky-cta");
+        if (mobileStickyCta) {
+          var threshold = 0.08;
+          var heroSection = document.getElementById("hero-section");
+          var agendaSection = document.getElementById("calendario");
+          var scrollThresholdReached = false;
+          var ticking = false;
+
+          function isElementInViewport(element) {
+            if (!element) return false;
+            var rect = element.getBoundingClientRect();
+            return rect.top < window.innerHeight && rect.bottom > 0;
+          }
+
+          function setStickyVisibility(visible) {
+            var shouldShow = Boolean(visible);
+            mobileStickyCta.classList.toggle("is-visible", shouldShow);
+            mobileStickyCta.style.display = shouldShow ? "block" : "none";
+            mobileStickyCta.setAttribute("aria-hidden", shouldShow ? "false" : "true");
+          }
+
+          function updateMobileStickyCta() {
+            var heroVisibleNow = heroSection ? isElementInViewport(heroSection) : false;
+            var agendaVisibleNow = agendaSection ? isElementInViewport(agendaSection) : false;
+            var shouldShow = scrollThresholdReached && !heroVisibleNow && !agendaVisibleNow;
+
+            setStickyVisibility(shouldShow);
+          }
+
+          function updateScrollThreshold() {
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop || 0;
+            var docHeight = Math.max(
+              document.documentElement.scrollHeight,
+              document.body.scrollHeight,
+              document.documentElement.offsetHeight,
+              document.body.offsetHeight
+            );
+            var viewportHeight = window.innerHeight || document.documentElement.clientHeight || 1;
+            var maxScroll = Math.max(docHeight - viewportHeight, 1);
+            var ratio = scrollTop / maxScroll;
+
+            scrollThresholdReached = ratio >= threshold;
+            updateMobileStickyCta();
+          }
+
+          function scheduleUpdate() {
+            if (ticking) return;
+            ticking = true;
+            window.requestAnimationFrame(function () {
+              ticking = false;
+              updateScrollThreshold();
+            });
+          }
+
+          setStickyVisibility(false);
+          updateScrollThreshold();
+          window.addEventListener("scroll", scheduleUpdate, { passive: true });
+          window.addEventListener("resize", scheduleUpdate);
+          window.addEventListener("load", scheduleUpdate);
+          window.addEventListener("pageshow", scheduleUpdate);
+          document.addEventListener("visibilitychange", function () {
+            if (!document.hidden) {
+              scheduleUpdate();
+            }
+          });
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

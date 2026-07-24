@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diagnóstico Migratorio Inicial | Sotomayor Consulting International</title>
+  <meta name="description" content="Formulario de diagnóstico migratorio inicial de Sotomayor Consulting International." />
+  <style>
+    :root {
+      --sci-navy: #071E3D;
+      --sci-blue: #0B5ED7;
+      --sci-blue-2: #1F7AE0;
+      --sci-cyan: #00A8E8;
+      --sci-gold: #C9A227;
+      --sci-ink: #172033;
+      --sci-muted: #64748B;
+      --sci-line: #DDE6F3;
+      --sci-bg: #F5F8FC;
+      --sci-white: #FFFFFF;
+      --sci-error: #B42318;
+      --sci-success: #067647;
+      --radius-xl: 24px;
+      --shadow-soft: 0 20px 55px rgba(7, 30, 61, 0.12);
+      --shadow-card: 0 12px 35px rgba(7, 30, 61, 0.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--sci-ink);
+      background:
+        radial-gradient(circle at top left, rgba(31, 122, 224, 0.22), transparent 33%),
+        radial-gradient(circle at top right, rgba(201, 162, 39, 0.13), transparent 30%),
+        linear-gradient(180deg, #F8FBFF 0%, #EEF4FB 100%);
+      min-height: 100vh;
+    }
+
+    a { color: inherit; }
+
+    .page-shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 34px 0 56px;
+    }
+
+    .brand-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .brand-lockup {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      font-weight: 800;
+      color: var(--sci-navy);
+      letter-spacing: -0.03em;
+    }
+
+    .brand-mark {
+      width: 48px;
+      height: 48px;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--sci-navy), var(--sci-blue));
+      color: #fff;
+      box-shadow: 0 10px 25px rgba(11, 94, 215, 0.24);
+      font-size: 18px;
+      letter-spacing: -0.06em;
+    }
+
+    .brand-text span {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      color: var(--sci-muted);
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid rgba(11, 94, 215, 0.18);
+      background: rgba(255,255,255,0.78);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 13px;
+      color: var(--sci-navy);
+      box-shadow: 0 8px 22px rgba(7, 30, 61, 0.06);
+      white-space: nowrap;
+    }
+
+    .hero-card {
+      display: grid;
+      grid-template-columns: 0.92fr 1.08fr;
+      gap: 26px;
+      align-items: stretch;
+    }
+
+    .intro-panel {
+      background: linear-gradient(145deg, var(--sci-navy), #0B356A 62%, #0B5ED7);
+      border-radius: var(--radius-xl);
+      padding: 34px;
+      color: white;
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .intro-panel::after {
+      content: "";
+      position: absolute;
+      width: 240px;
+      height: 240px;
+      right: -85px;
+      top: -70px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.11);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.18);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .intro-panel h1 {
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1.02;
+      letter-spacing: -0.06em;
+      margin: 0 0 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .intro-panel p {
+      color: rgba(255,255,255,0.84);
+      font-size: 16px;
+      line-height: 1.65;
+      margin: 0 0 24px;
+      max-width: 590px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .trust-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 26px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .trust-item {
+      display: flex;
+      gap: 11px;
+      align-items: flex-start;
+      padding: 13px 14px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.13);
+      backdrop-filter: blur(10px);
+    }
+
+    .trust-icon {
+      width: 26px;
+      height: 26px;
+      border-radius: 9px;
+      display: grid;
+      place-items: center;
+      background: rgba(201, 162, 39, 0.24);
+      color: #FFE58A;
+      flex: 0 0 auto;
+      font-weight: 800;
+    }
+
+    .trust-item strong { display: block; font-size: 14px; margin-bottom: 2px; }
+    .trust-item small { display: block; color: rgba(255,255,255,0.76); line-height: 1.45; }
+
+    .form-panel {
+      background: rgba(255,255,255,0.92);
+      border: 1px solid rgba(221, 230, 243, 0.9);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft);
+      overflow: hidden;
+      backdrop-filter: blur(18px);
+    }
+
+    .progress-wrap {
+      padding: 24px 26px 18px;
+      border-bottom: 1px solid var(--sci-line);
+      background: linear-gradient(180deg, rgba(255,255,255,0.96), rgba(248,251,255,0.96));
+    }
+
+    .progress-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .progress-top strong {
+      color: var(--sci-navy);
+      font-size: 15px;
+    }
+
+    .progress-top span {
+      color: var(--sci-muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .progress-bar {
+      height: 9px;
+      border-radius: 999px;
+      background: #E8EEF8;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 16.66%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--sci-blue), var(--sci-cyan));
+      transition: width 0.25s ease;
+    }
+
+    form { padding: 26px; }
+
+    .step { display: none; animation: fadeUp 0.24s ease both; }
+    .step.active { display: block; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .step-title {
+      margin: 0 0 7px;
+      font-size: 25px;
+      letter-spacing: -0.04em;
+      color: var(--sci-navy);
+    }
+
+    .step-subtitle {
+      margin: 0 0 24px;
+      color: var(--sci-muted);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+
+    .section-divider {
+      margin: 28px 0 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--sci-navy);
+      font-weight: 800;
+      font-size: 15px;
+    }
+
+    .section-divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--sci-line);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .form-group { display: grid; gap: 8px; }
+    .form-group.full { grid-column: 1 / -1; }
+
+    label {
+      font-weight: 750;
+      font-size: 13.5px;
+      color: #24324A;
+      line-height: 1.35;
+    }
+
+    .hint {
+      color: var(--sci-muted);
+      font-size: 12px;
+      line-height: 1.4;
+      margin-top: -3px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 1px solid #D7E1EF;
+      background: #FFFFFF;
+      color: var(--sci-ink);
+      border-radius: 14px;
+      padding: 13px 14px;
+      font: inherit;
+      outline: none;
+      transition: border-color 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    }
+
+    textarea { min-height: 104px; resize: vertical; }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--sci-blue);
+      box-shadow: 0 0 0 4px rgba(11, 94, 215, 0.12);
+      background: #FCFEFF;
+    }
+
+    .choice-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .choice-row.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+    .radio-card {
+      position: relative;
+    }
+
+    .radio-card input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .radio-card span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      border: 1px solid #D7E1EF;
+      border-radius: 14px;
+      padding: 11px 12px;
+      background: #fff;
+      color: #334155;
+      font-size: 13.5px;
+      font-weight: 750;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      text-align: center;
+    }
+
+    .radio-card input:checked + span {
+      border-color: var(--sci-blue);
+      color: var(--sci-blue);
+      background: rgba(11, 94, 215, 0.08);
+      box-shadow: 0 0 0 4px rgba(11, 94, 215, 0.08);
+    }
+
+    .nav-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-top: 28px;
+      padding-top: 22px;
+      border-top: 1px solid var(--sci-line);
+    }
+
+    .btn {
+      appearance: none;
+      border: 0;
+      cursor: pointer;
+      border-radius: 999px;
+      padding: 14px 22px;
+      font-weight: 850;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+      min-height: 48px;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+    .btn:disabled { opacity: 0.64; cursor: not-allowed; transform: none; }
+
+    .btn-primary {
+      color: #fff;
+      background: linear-gradient(135deg, var(--sci-blue), var(--sci-cyan));
+      box-shadow: 0 12px 25px rgba(11, 94, 215, 0.23);
+    }
+
+    .btn-secondary {
+      color: var(--sci-navy);
+      background: #EEF4FB;
+      border: 1px solid #DAE5F3;
+    }
+
+    .btn-submit {
+      color: #fff;
+      background: linear-gradient(135deg, var(--sci-navy), var(--sci-blue));
+      box-shadow: 0 14px 30px rgba(7, 30, 61, 0.22);
+    }
+
+    .status-box {
+      display: none;
+      margin-top: 18px;
+      border-radius: 16px;
+      padding: 14px 15px;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .status-box.success {
+      display: block;
+      border: 1px solid rgba(6, 118, 71, 0.22);
+      background: rgba(6, 118, 71, 0.08);
+      color: var(--sci-success);
+    }
+
+    .status-box.error {
+      display: block;
+      border: 1px solid rgba(180, 35, 24, 0.22);
+      background: rgba(180, 35, 24, 0.08);
+      color: var(--sci-error);
+    }
+
+    .required-note {
+      margin-top: 16px;
+      color: var(--sci-muted);
+      font-size: 12.5px;
+      line-height: 1.55;
+    }
+
+
+    .confirmation-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 22px;
+      background: rgba(7, 30, 61, 0.58);
+      backdrop-filter: blur(10px);
+    }
+
+    .confirmation-overlay[hidden] {
+      display: none;
+    }
+
+    .confirmation-modal {
+      width: min(520px, 100%);
+      border-radius: 26px;
+      background: #FFFFFF;
+      border: 1px solid rgba(221, 230, 243, 0.95);
+      box-shadow: 0 28px 80px rgba(7, 30, 61, 0.28);
+      padding: 30px;
+      text-align: center;
+      animation: fadeUp 0.22s ease both;
+    }
+
+    .confirmation-icon {
+      width: 62px;
+      height: 62px;
+      border-radius: 22px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 18px;
+      background: rgba(6, 118, 71, 0.10);
+      color: var(--sci-success);
+      font-size: 30px;
+      font-weight: 900;
+    }
+
+    .confirmation-modal h2 {
+      margin: 0 0 10px;
+      color: var(--sci-navy);
+      font-size: 28px;
+      letter-spacing: -0.04em;
+    }
+
+    .confirmation-modal p {
+      margin: 0 auto 20px;
+      color: var(--sci-muted);
+      line-height: 1.6;
+      max-width: 430px;
+      font-size: 15px;
+    }
+
+    .confirmation-highlight {
+      margin: 18px 0 22px;
+      padding: 14px 16px;
+      border-radius: 17px;
+      background: #F6F9FD;
+      border: 1px solid #E1EAF5;
+      color: var(--sci-navy);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .confirmation-highlight strong {
+      display: block;
+      margin-bottom: 2px;
+      font-size: 16px;
+    }
+
+    .confirmation-close {
+      width: 100%;
+    }
+
+    .privacy-note {
+      margin-top: 18px;
+      padding: 14px 15px;
+      border-radius: 16px;
+      background: #F6F9FD;
+      border: 1px solid #E1EAF5;
+      color: var(--sci-muted);
+      font-size: 12.8px;
+      line-height: 1.55;
+    }
+
+    .summary-card {
+      background: #F8FBFF;
+      border: 1px solid #E1EAF5;
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 18px;
+      color: var(--sci-muted);
+      line-height: 1.55;
+      font-size: 14px;
+    }
+
+    .invalid input:invalid, .invalid select:invalid, .invalid textarea:invalid {
+      border-color: var(--sci-error);
+    }
+
+    @media (max-width: 980px) {
+      .hero-card { grid-template-columns: 1fr; }
+      .intro-panel { padding: 28px; }
+    }
+
+    @media (max-width: 680px) {
+      .page-shell { width: min(100% - 22px, 1180px); padding-top: 18px; }
+      .brand-header { align-items: flex-start; flex-direction: column; }
+      .header-badge { white-space: normal; }
+      form, .progress-wrap { padding-left: 18px; padding-right: 18px; }
+      .form-grid, .choice-row, .choice-row.three { grid-template-columns: 1fr; }
+      .nav-actions { flex-direction: column-reverse; align-items: stretch; }
+      .btn { width: 100%; }
+      .intro-panel h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="brand-header">
+      <div class="brand-lockup" aria-label="Sotomayor Consulting International">
+        <div class="brand-mark">SCI</div>
+        <div class="brand-text">
+          Sotomayor Consulting
+          <span>International</span>
+        </div>
+      </div>
+      <div class="header-badge">Diagnóstico migratorio inicial ·</div>
+    </header>
+
+    <section class="hero-card">
+      <aside class="intro-panel">
+        <div class="eyebrow">Servicios migratorios</div>
+        <h1>Asesoría Migratoria</h1>
+        <p>
+          Complete este formulario.
+        </p>
+        <div class="trust-list">
+          <div class="trust-item">
+            <div class="trust-icon">✓</div>
+            <div><strong>Análisis ordenado</strong><small>La información se organiza por secciones para facilitar la revisión del caso.</small></div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">✓</div>
+            <div><strong>Enfoque empresarial</strong><small>Incluye preguntas clave para evaluar negocio, operación real y posibles rutas migratorias.</small></div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-icon">✓</div>
+            <div><strong>Recepción automática</strong><small>Al enviar, la información se remite directamente al flujo interno de diagnóstico.</small></div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="form-panel">
+        <div class="progress-wrap">
+          <div class="progress-top">
+            <strong id="stepLabel">Paso 1 de 6</strong>
+            <span id="stepName">Información personal</span>
+          </div>
+          <div class="progress-bar" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+        </div>
+
+        <form id="migrationForm" novalidate>
+          <input type="hidden" name="formulario" value="Diagnóstico Migratorio Inicial" />
+          <input type="hidden" name="origen" value="Formulario HTML cPanel - SCI" />
+          <input type="hidden" name="fecha_envio" id="fecha_envio" />
+
+          <div class="step active" data-step-name="Información personal">
+            <h2 class="step-title">Información personal básica</h2>
+            <p class="step-subtitle">Datos generales del aplicante y antecedentes migratorios relevantes.</p>
+            <div class="form-grid">
+              <div class="form-group full"><label>Nombre completo *</label><input name="nombre_completo" required autocomplete="name" /></div>
+              <div class="form-group"><label>Nacionalidad *</label><input name="nacionalidad" required /></div>
+              <div class="form-group"><label>País de residencia actual *</label><input name="pais_residencia_actual" required /></div>
+              <div class="form-group"><label>Estado civil</label><select name="estado_civil"><option value="">Seleccione</option><option>Soltero/a</option><option>Casado/a</option><option>Unión libre</option><option>Divorciado/a</option><option>Viudo/a</option></select></div>
+              <div class="form-group"><label>¿Tiene pasaporte vigente? *</label><div class="choice-row"><label class="radio-card"><input type="radio" name="pasaporte_vigente" value="Sí" required><span>Sí</span></label><label class="radio-card"><input type="radio" name="pasaporte_vigente" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>Fecha de vigencia del pasaporte</label><input type="date" name="fecha_vigencia_pasaporte" /></div>
+              <div class="form-group"><label>¿Ha tenido visa americana anteriormente?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="visa_americana_previa" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="visa_americana_previa" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>Tipo de visa que ha tenido</label><input name="tipo_visa_previa" placeholder="Ej.: B1/B2, F-1, E-2, L-1" /></div>
+              <div class="form-group"><label>Estado de la visa</label><select name="estado_visa"><option value="">Seleccione</option><option>Vigente</option><option>Expirada</option><option>No aplica</option></select></div>
+              <div class="form-group"><label>¿Alguna vez le han negado una visa americana?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="negacion_visa_americana" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="negacion_visa_americana" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Ha tenido rechazos migratorios en otros países?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="rechazos_migratorios_otros_paises" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="rechazos_migratorios_otros_paises" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Ha excedido tiempo de permanencia en algún país?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="overstay" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="overstay" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Ha tenido deportaciones o procesos migratorios previos?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="deportaciones_procesos_previos" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="deportaciones_procesos_previos" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Tiene antecedentes penales o procesos judiciales pendientes?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="antecedentes_penales_judiciales" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="antecedentes_penales_judiciales" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Ha sido arrestado o citado por alguna autoridad?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="arrestos_citaciones" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="arrestos_citaciones" value="No"><span>No</span></label></div></div>
+              <div class="form-group full"><label>Fin de obtener la visa y motivo de la asesoría *</label><textarea name="motivo_asesoria_visa" required placeholder="Explique brevemente su objetivo migratorio, país de interés y situación actual."></textarea></div>
+            </div>
+          </div>
+
+          <div class="step" data-step-name="Información financiera">
+            <h2 class="step-title">Información financiera</h2>
+            <p class="step-subtitle">Capacidad económica, disponibilidad de fondos y origen legal del capital.</p>
+            <div class="section-divider">Capacidad económica</div>
+            <div class="form-grid">
+              <div class="form-group"><label>Monto aproximado disponible para invertir</label><input name="monto_disponible_invertir" placeholder="Ej.: USD 150,000" /></div>
+              <div class="form-group"><label>¿Ese dinero está disponible actualmente?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="dinero_disponible_actualmente" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="dinero_disponible_actualmente" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>País donde se encuentran los fondos</label><input name="pais_fondos" /></div>
+              <div class="form-group"><label>¿Tiene cuentas bancarias personales o corporativas?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="cuentas_bancarias" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="cuentas_bancarias" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Puede presentar estados bancarios recientes?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="estados_bancarios_recientes" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="estados_bancarios_recientes" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Tiene declaraciones de impuestos de los últimos años?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="declaraciones_impuestos_ultimos_anios" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="declaraciones_impuestos_ultimos_anios" value="No"><span>No</span></label></div></div>
+              <div class="form-group full"><label>Fuente principal de su capital</label><textarea name="fuente_principal_capital"></textarea></div>
+            </div>
+            <div class="section-divider">Origen del dinero</div>
+            <div class="form-grid">
+              <div class="form-group"><label>¿Proviene de negocio propio?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="origen_negocio_propio" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="origen_negocio_propio" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Proviene de salarios o ingresos laborales?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="origen_salarios" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="origen_salarios" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Proviene de venta de propiedades?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="origen_venta_propiedades" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="origen_venta_propiedades" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Proviene de herencia?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="origen_herencia" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="origen_herencia" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Proviene de inversiones o dividendos?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="origen_inversiones_dividendos" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="origen_inversiones_dividendos" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Proviene de préstamos o financiamiento?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="origen_prestamos" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="origen_prestamos" value="No"><span>No</span></label></div></div>
+              <div class="form-group full"><label>¿Puede demostrar documentalmente el origen legal de los fondos?</label><textarea name="evidencia_origen_legal_fondos" placeholder="Indique qué documentos tiene disponibles."></textarea></div>
+            </div>
+          </div>
+
+          <div class="step" data-step-name="Negocio actual">
+            <h2 class="step-title">Información del negocio</h2>
+            <p class="step-subtitle">Datos de la empresa actual, operación, clientes y evidencia comercial disponible.</p>
+            <div class="form-grid">
+              <div class="form-group"><label>¿Actualmente tiene una empresa?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="tiene_empresa_actual" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="tiene_empresa_actual" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>Nombre de la empresa</label><input name="nombre_empresa_actual" /></div>
+              <div class="form-group"><label>País de registro</label><input name="pais_registro_empresa" /></div>
+              <div class="form-group"><label>Años operando</label><input name="anios_operando_empresa" /></div>
+              <div class="form-group full"><label>Actividad comercial de la empresa</label><textarea name="actividad_comercial_empresa"></textarea></div>
+              <div class="form-group"><label>Número de empleados actuales</label><input name="empleados_actuales" type="number" min="0" /></div>
+              <div class="form-group"><label>Ingresos aproximados anuales</label><input name="ingresos_anuales_aproximados" placeholder="Ej.: USD 500,000" /></div>
+              <div class="form-group"><label>¿La empresa tiene oficina física?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="oficina_fisica_empresa" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="oficina_fisica_empresa" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>Página web de la empresa</label><input name="pagina_web_empresa" type="url" placeholder="https://" /></div>
+              <div class="form-group full"><label>Redes sociales de la empresa</label><textarea name="redes_sociales_empresa" placeholder="Instagram, LinkedIn, Facebook, TikTok, etc."></textarea></div>
+              <div class="form-group"><label>¿Tiene clientes activos o contratos vigentes?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="clientes_contratos_vigentes" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="clientes_contratos_vigentes" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Puede proporcionar facturación o evidencia operativa?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="facturacion_evidencia_operativa" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="facturacion_evidencia_operativa" value="No"><span>No</span></label></div></div>
+            </div>
+          </div>
+
+          <div class="step" data-step-name="Visa L-1">
+            <h2 class="step-title">Información para Visa L-1</h2>
+            <p class="step-subtitle">Relación entre la empresa extranjera, la empresa en EE. UU. y el rol del aplicante.</p>
+            <div class="section-divider">Empresa extranjera</div>
+            <div class="form-grid">
+              <div class="form-group"><label>¿La empresa extranjera está legalmente registrada?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="empresa_extranjera_registrada" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="empresa_extranjera_registrada" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>Accionistas o propietarios</label><input name="accionistas_propietarios_empresa_extranjera" /></div>
+              <div class="form-group"><label>Tiempo de operación</label><input name="tiempo_operacion_empresa_extranjera" /></div>
+              <div class="form-group"><label>Número de empleados</label><input name="empleados_empresa_extranjera" type="number" min="0" /></div>
+              <div class="form-group"><label>Ingresos aproximados</label><input name="ingresos_empresa_extranjera" /></div>
+              <div class="form-group"><label>¿Tiene oficina física o local comercial?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="oficina_empresa_extranjera" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="oficina_empresa_extranjera" value="No"><span>No</span></label></div></div>
+            </div>
+            <div class="section-divider">Empresa en Estados Unidos</div>
+            <div class="form-grid">
+              <div class="form-group"><label>¿Ya tiene empresa creada en EE. UU.?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="empresa_usa_creada" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="empresa_usa_creada" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>Tipo de empresa</label><select name="tipo_empresa_usa"><option value="">Seleccione</option><option>LLC</option><option>Corporation</option><option>No aplica</option><option>No estoy seguro/a</option></select></div>
+              <div class="form-group full"><label>Dirección de la empresa en USA</label><input name="direccion_empresa_usa" /></div>
+              <div class="form-group"><label>¿La empresa tiene oficina física?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="oficina_empresa_usa" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="oficina_empresa_usa" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Existe relación formal entre la empresa extranjera y americana?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="relacion_formal_empresas" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="relacion_formal_empresas" value="No"><span>No</span></label></div></div>
+              <div class="form-group full"><label>¿Cuenta con plan de negocios para USA?</label><textarea name="plan_negocios_usa_disponible" placeholder="Indique si existe y en qué estado se encuentra."></textarea></div>
+            </div>
+            <div class="section-divider">Sobre el aplicante</div>
+            <div class="form-grid">
+              <div class="form-group"><label>Cargo actual en la empresa</label><input name="cargo_actual_aplicante" /></div>
+              <div class="form-group"><label>Tiempo trabajado en la empresa</label><input name="tiempo_trabajado_empresa" /></div>
+              <div class="form-group full"><label>Funciones principales</label><textarea name="funciones_principales_aplicante"></textarea></div>
+              <div class="form-group"><label>¿Cumple funciones ejecutivas o gerenciales?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="funciones_ejecutivas_gerenciales" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="funciones_ejecutivas_gerenciales" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Tiene empleados bajo supervisión?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="empleados_bajo_supervision" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="empleados_bajo_supervision" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Puede proporcionar organigrama empresarial?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="organigrama_disponible" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="organigrama_disponible" value="No"><span>No</span></label></div></div>
+              <div class="form-group full"><label>Decisiones importantes que maneja dentro de la empresa</label><textarea name="decisiones_importantes_aplicante"></textarea></div>
+            </div>
+          </div>
+
+          <div class="step" data-step-name="Plan de negocios">
+            <h2 class="step-title">Plan de negocios en Estados Unidos</h2>
+            <p class="step-subtitle">Descripción de la operación proyectada, inversión, clientes y estructura comercial.</p>
+            <div class="form-grid">
+              <div class="form-group full"><label>Actividad principal de la empresa en Estados Unidos</label><textarea name="actividad_principal_usa"></textarea></div>
+              <div class="form-group full"><label>Servicios o productos que ofrecerá</label><textarea name="servicios_productos_usa"></textarea></div>
+              <div class="form-group full"><label>¿Cómo planea generar ingresos?</label><textarea name="modelo_ingresos_usa"></textarea></div>
+              <div class="form-group"><label>Inversión inicial proyectada</label><input name="inversion_inicial_proyectada" placeholder="Ej.: USD 100,000" /></div>
+              <div class="form-group"><label>Empleados que planea contratar</label><input name="empleados_planeados" type="number" min="0" /></div>
+              <div class="form-group"><label>Mercado objetivo</label><input name="mercado_objetivo" /></div>
+              <div class="form-group"><label>Ciudad o estado donde operará</label><input name="ciudad_estado_operacion_usa" /></div>
+              <div class="form-group full"><label>¿Cómo planea captar clientes?</label><textarea name="estrategia_captacion_clientes"></textarea></div>
+              <div class="form-group full"><label>Estructura operativa del negocio</label><textarea name="estructura_operativa_negocio"></textarea></div>
+              <div class="form-group full"><label>¿Existe proyección financiera o estudio de mercado?</label><textarea name="proyeccion_financiera_estudio_mercado"></textarea></div>
+            </div>
+          </div>
+
+          <div class="step" data-step-name="Evidencia y envío">
+            <h2 class="step-title">Evidencia de operación real</h2>
+            <p class="step-subtitle">Última sección para identificar documentación disponible y enviar el diagnóstico.</p>
+            <div class="summary-card">
+              Antes de enviar, confirme que la información ingresada sea correcta. Este formulario no reemplaza una asesoría legal migratoria; sirve para organizar la información inicial del caso.
+            </div>
+            <div class="form-grid">
+              <div class="form-group"><label>¿Tiene contratos comerciales activos?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="contratos_comerciales_activos" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="contratos_comerciales_activos" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Puede proporcionar invoices o facturas?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="invoices_facturas" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="invoices_facturas" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿La empresa maneja payroll o nómina?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="payroll_nomina" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="payroll_nomina" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Tiene clientes recurrentes?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="clientes_recurrentes" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="clientes_recurrentes" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Tiene cuentas bancarias activas?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="cuentas_bancarias_activas" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="cuentas_bancarias_activas" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Existe contrato de arriendo u oficina física?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="lease_oficina_fisica" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="lease_oficina_fisica" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Las redes sociales están activas?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="redes_sociales_activas" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="redes_sociales_activas" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Puede demostrar movimientos financieros recientes?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="movimientos_financieros_recientes" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="movimientos_financieros_recientes" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Realiza transacciones internacionales?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="transacciones_internacionales" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="transacciones_internacionales" value="No"><span>No</span></label></div></div>
+              <div class="form-group"><label>¿Tiene documentación corporativa organizada y actualizada?</label><div class="choice-row"><label class="radio-card"><input type="radio" name="documentacion_corporativa_actualizada" value="Sí"><span>Sí</span></label><label class="radio-card"><input type="radio" name="documentacion_corporativa_actualizada" value="No"><span>No</span></label></div></div>
+              <div class="form-group full"><label>Comentarios adicionales</label><textarea name="comentarios_adicionales" placeholder="Agregue cualquier información adicional que considere importante."></textarea></div>
+              <div class="form-group full">
+                <label class="radio-card" style="display:block;">
+                  <input type="checkbox" name="consentimiento" value="Acepto" required>
+                  <span style="justify-content:flex-start; text-align:left; padding:14px 16px;">Autorizo a Sotomayor Consulting International a recibir y revisar la información ingresada para fines de diagnóstico y contacto. *</span>
+                </label>
+              </div>
+            </div>
+            <div class="privacy-note">
+              La información será enviada al flujo interno configurado mediante n8n. No incluya contraseñas, claves bancarias ni documentos sensibles dentro de los campos de texto.
+            </div>
+          </div>
+
+          <div class="nav-actions">
+            <button type="button" class="btn btn-secondary" id="prevBtn">← Anterior</button>
+            <button type="button" class="btn btn-primary" id="nextBtn">Siguiente →</button>
+            <button type="submit" class="btn btn-submit" id="submitBtn" style="display:none;">Enviar diagnóstico</button>
+          </div>
+          <div id="formStatus" class="status-box" role="status" aria-live="polite"></div>
+          <p class="required-note">Los campos marcados con * son obligatorios para enviar el diagnóstico.</p>
+        </form>
+      </section>
+    </section>
+
+
+  <div class="confirmation-overlay" id="confirmationOverlay" hidden>
+    <div class="confirmation-modal" role="dialog" aria-modal="true" aria-labelledby="confirmationTitle" aria-describedby="confirmationText">
+      <div class="confirmation-icon" aria-hidden="true">✓</div>
+      <h2 id="confirmationTitle">Registro completado</h2>
+      <p id="confirmationText">
+        Los datos de <strong id="confirmationClientName">cliente</strong> fueron registrados correctamente en el sistema.
+      </p>
+      <div class="confirmation-highlight">
+        <strong>Diagnóstico migratorio guardado</strong>
+        El formulario fue enviado correctamente al flujo interno de Sotomayor Consulting International para su revisión y seguimiento.
+      </div>
+      <button type="button" class="btn btn-primary confirmation-close" id="confirmationCloseBtn">Cerrar confirmación</button>
+    </div>
+  </div>
+  </main>
+
+  <script>
+    const WEBHOOK_URL = "https://n8n.sotomayorconsulting.com/webhook/asesoria-migratoria";
+
+    const form = document.getElementById("migrationForm");
+    const steps = Array.from(document.querySelectorAll(".step"));
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const submitBtn = document.getElementById("submitBtn");
+    const stepLabel = document.getElementById("stepLabel");
+    const stepName = document.getElementById("stepName");
+    const progressFill = document.getElementById("progressFill");
+    const statusBox = document.getElementById("formStatus");
+    const confirmationOverlay = document.getElementById("confirmationOverlay");
+    const confirmationClientName = document.getElementById("confirmationClientName");
+    const confirmationCloseBtn = document.getElementById("confirmationCloseBtn");
+    let currentStep = 0;
+    let submissionCompleted = false;
+
+    function updateStep() {
+      steps.forEach((step, index) => step.classList.toggle("active", index === currentStep));
+      prevBtn.style.visibility = currentStep === 0 ? "hidden" : "visible";
+      nextBtn.style.display = currentStep === steps.length - 1 ? "none" : "inline-flex";
+      submitBtn.style.display = currentStep === steps.length - 1 ? "inline-flex" : "none";
+      stepLabel.textContent = `Paso ${currentStep + 1} de ${steps.length}`;
+      stepName.textContent = steps[currentStep].dataset.stepName || "Diagnóstico";
+      progressFill.style.width = `${((currentStep + 1) / steps.length) * 100}%`;
+      if (!submissionCompleted) {
+        statusBox.className = "status-box";
+        statusBox.textContent = "";
+      }
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function showConfirmation(clientName) {
+      confirmationClientName.textContent = clientName || "cliente";
+      confirmationOverlay.hidden = false;
+      confirmationCloseBtn.focus({ preventScroll: true });
+    }
+
+    confirmationCloseBtn.addEventListener("click", () => {
+      confirmationOverlay.hidden = true;
+    });
+
+    function validateCurrentStep() {
+      const currentFields = Array.from(steps[currentStep].querySelectorAll("input, select, textarea"));
+      let valid = true;
+      currentFields.forEach(field => {
+        if (!field.checkValidity()) valid = false;
+      });
+      steps[currentStep].classList.toggle("invalid", !valid);
+      if (!valid) {
+        const firstInvalid = currentFields.find(field => !field.checkValidity());
+        if (firstInvalid) firstInvalid.focus({ preventScroll: false });
+      }
+      return valid;
+    }
+
+    function collectFormData() {
+      const formData = new FormData(form);
+      const data = {};
+      for (const [key, value] of formData.entries()) {
+        if (data[key]) {
+          data[key] = Array.isArray(data[key]) ? [...data[key], value] : [data[key], value];
+        } else {
+          data[key] = value;
+        }
+      }
+      return data;
+    }
+
+    nextBtn.addEventListener("click", () => {
+      if (!validateCurrentStep()) return;
+      currentStep = Math.min(currentStep + 1, steps.length - 1);
+      updateStep();
+    });
+
+    prevBtn.addEventListener("click", () => {
+      currentStep = Math.max(currentStep - 1, 0);
+      updateStep();
+    });
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (submissionCompleted) return;
+      if (!validateCurrentStep()) return;
+
+      document.getElementById("fecha_envio").value = new Date().toISOString();
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Enviando...";
+      statusBox.className = "status-box";
+      statusBox.textContent = "";
+
+      try {
+        const payload = collectFormData();
+        const clientName = (payload.nombre_completo || "").trim() || "cliente";
+        const response = await fetch(WEBHOOK_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) throw new Error(`Error HTTP ${response.status}`);
+
+        submissionCompleted = true;
+        statusBox.className = "status-box success";
+        statusBox.textContent = `Datos registrados correctamente para ${clientName}. El formulario fue enviado al flujo interno para revisión y seguimiento.`;
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Diagnóstico enviado";
+        showConfirmation(clientName);
+      } catch (error) {
+        statusBox.className = "status-box error";
+        statusBox.textContent = "No se pudo enviar el formulario. Verifique que el webhook esté activo en n8n y que permita solicitudes desde este dominio.";
+        console.error(error);
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Enviar diagnóstico";
+      }
+    });
+
+    updateStep();
+  </script>
+</body>
+</html>

@@ -1,0 +1,2155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precalificación Hipotecaria en Florida | Wizard</title>
+  <style>
+    :root {
+      --bg: #f7f5f0;
+      --surface: #ffffff;
+      --surface-soft: #fbfaf7;
+      --ink: #111827;
+      --ink-2: #243041;
+      --muted: #6b7280;
+      --line: #e6dfd2;
+      --line-strong: #d5c8b3;
+      --accent: #9b6b2d;
+      --accent-2: #c59a52;
+      --accent-soft: #f5efe5;
+      --navy: #071e33;
+      --white: #ffffff;
+      --ok: #027a48;
+      --warn: #b54708;
+      --danger: #b42318;
+      --radius-xl: 28px;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --shadow-soft: 0 24px 70px rgba(17, 24, 39, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(155, 107, 45, 0.045) 1px, transparent 1px),
+        linear-gradient(180deg, #fbfaf7 0%, var(--bg) 54%, #ffffff 100%);
+      background-size: 72px 72px, auto;
+      line-height: 1.58;
+    }
+
+    a { color: inherit; }
+
+    .page-shell {
+      width: min(1120px, calc(100% - 38px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      padding: 24px 0;
+      border-bottom: 1px solid rgba(213, 200, 179, 0.72);
+      background: rgba(251, 250, 247, 0.86);
+      backdrop-filter: blur(14px);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand-mark {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-weight: 760;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+
+    .brand-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--ink);
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.04em;
+    }
+
+    .brand-subtitle {
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 560;
+      letter-spacing: 0.02em;
+    }
+
+    .hero {
+      padding: clamp(58px, 8vw, 112px) 0 clamp(46px, 6vw, 78px);
+      color: var(--ink);
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--line-strong), transparent);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.12fr) minmax(300px, 0.58fr);
+      gap: clamp(34px, 6vw, 76px);
+      align-items: end;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 1px;
+      background: var(--accent);
+      display: inline-block;
+    }
+
+    .hero h1 {
+      margin: 0;
+      max-width: 850px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 500;
+      font-size: clamp(42px, 6vw, 76px);
+      line-height: 0.98;
+      letter-spacing: -0.055em;
+      color: var(--ink);
+    }
+
+    .hero p {
+      margin: 24px 0 0;
+      color: var(--ink-2);
+      font-size: clamp(17px, 1.65vw, 20px);
+      max-width: 680px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 34px;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 20px;
+      min-height: 48px;
+      font-size: 14px;
+      font-weight: 780;
+      cursor: pointer;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      text-decoration: none;
+      letter-spacing: -0.01em;
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: var(--ink);
+      color: var(--white);
+      box-shadow: 0 18px 32px rgba(17, 24, 39, 0.16);
+    }
+
+    .btn-secondary,
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--line-strong);
+    }
+
+    .btn-blue {
+      background: var(--accent);
+      color: var(--white);
+      box-shadow: 0 14px 24px rgba(155, 107, 45, 0.16);
+    }
+
+    .hero-card {
+      border-left: 1px solid var(--line-strong);
+      padding: 8px 0 8px 28px;
+      background: transparent;
+    }
+
+    .hero-card h3 {
+      margin: 0 0 16px;
+      font-size: 18px;
+      color: var(--ink);
+      font-weight: 760;
+      letter-spacing: -0.02em;
+    }
+
+    .check-list {
+      display: grid;
+      gap: 14px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .check-list li {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 10px;
+      align-items: start;
+    }
+
+    .check-list li::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-top: 8px;
+      background: var(--accent);
+      display: block;
+    }
+
+    .section-intro {
+      margin: clamp(50px, 7vw, 86px) 0 24px;
+      max-width: 830px;
+      text-align: left;
+    }
+
+    .section-intro h2 {
+      margin: 0;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 500;
+      font-size: clamp(31px, 4vw, 52px);
+      line-height: 1.04;
+      letter-spacing: -0.045em;
+    }
+
+    .section-intro p {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      max-width: 720px;
+    }
+
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+      margin: 30px 0 58px;
+      border-top: 1px solid var(--line-strong);
+      border-bottom: 1px solid var(--line-strong);
+    }
+
+    .benefit-card {
+      background: transparent;
+      border-right: 1px solid var(--line);
+      padding: 26px 28px 28px 0;
+      margin-right: 28px;
+    }
+
+    .benefit-card:last-child {
+      border-right: 0;
+      margin-right: 0;
+    }
+
+    .benefit-card strong {
+      color: var(--ink);
+      display: block;
+      margin-bottom: 8px;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .benefit-card span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .wizard-wrap {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: clamp(26px, 4vw, 54px);
+      align-items: start;
+      margin-bottom: 54px;
+    }
+
+    .wizard-side {
+      position: sticky;
+      top: 104px;
+      background: transparent;
+      border: 0;
+      padding: 4px 0;
+      box-shadow: none;
+    }
+
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--muted);
+      font-weight: 760;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      margin-bottom: 12px;
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 3px;
+      background: var(--line);
+      border-radius: 999px;
+      overflow: hidden;
+      margin-bottom: 26px;
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      background: var(--accent);
+      border-radius: inherit;
+      transition: width 0.3s ease;
+    }
+
+    .step-list {
+      display: grid;
+      gap: 2px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid var(--line);
+    }
+
+    .step-list button {
+      width: 100%;
+      text-align: left;
+      border: 0;
+      border-bottom: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      border-radius: 0;
+      padding: 14px 0;
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 10px;
+      align-items: center;
+      font-weight: 680;
+    }
+
+    .step-index {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 1px solid var(--line-strong);
+      color: var(--muted);
+      display: grid;
+      place-items: center;
+      font-size: 11px;
+      font-weight: 800;
+      background: transparent;
+    }
+
+    .step-list button.active {
+      color: var(--ink);
+      font-weight: 820;
+    }
+
+    .step-list button.active .step-index {
+      background: var(--ink);
+      color: var(--white);
+      border-color: var(--ink);
+    }
+
+    .side-note {
+      margin-top: 24px;
+      padding: 16px 0 0;
+      border-top: 1px solid var(--line-strong);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 560;
+    }
+
+    .wizard-main {
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft);
+      overflow: hidden;
+      backdrop-filter: blur(12px);
+    }
+
+    .form-step {
+      display: none;
+      padding: clamp(28px, 5vw, 54px);
+    }
+
+    .form-step.active { display: block; }
+
+    .step-kicker {
+      color: var(--accent);
+      font-weight: 820;
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .form-step h2 {
+      margin: 0;
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 500;
+      font-size: clamp(31px, 4vw, 46px);
+      line-height: 1.05;
+      letter-spacing: -0.045em;
+    }
+
+    .form-step > p {
+      color: var(--muted);
+      margin: 12px 0 32px;
+      max-width: 760px;
+      font-size: 15px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px 22px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field.full { grid-column: 1 / -1; }
+
+
+    .phone-input-row {
+      display: grid;
+      grid-template-columns: minmax(190px, 0.72fr) minmax(220px, 1fr);
+      gap: 12px;
+      align-items: end;
+    }
+
+    .phone-input-row select,
+    .phone-input-row input {
+      min-height: 46px;
+    }
+
+    .currency-field {
+      font-size: 18px;
+      font-weight: 680;
+      letter-spacing: -0.02em;
+    }
+
+    .calculation-panel {
+      grid-column: 1 / -1;
+      margin-top: -2px;
+      padding-top: 2px;
+    }
+
+    .calculation-panel .calculation-note {
+      color: var(--muted);
+      font-size: 13px;
+      margin: 0 0 16px;
+    }
+
+    .calculation-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .calc-box {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px 20px;
+      background: rgba(255, 255, 255, 0.58);
+      min-height: 112px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .calc-box small {
+      display: block;
+      color: var(--muted);
+      font-weight: 820;
+      font-size: 11px;
+      line-height: 1.35;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 10px;
+    }
+
+    .calc-box strong {
+      color: var(--ink);
+      font-size: clamp(22px, 3vw, 28px);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .calc-box.wide {
+      grid-column: span 1;
+    }
+
+    label {
+      font-weight: 720;
+      color: var(--ink);
+      font-size: 13px;
+      letter-spacing: -0.01em;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: -2px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid var(--line-strong);
+      border-radius: 0;
+      background: transparent;
+      padding: 12px 0 13px;
+      min-height: 46px;
+      color: var(--ink);
+      font: inherit;
+      outline: none;
+      transition: border-color 0.18s ease, background 0.18s ease;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #a39b8f;
+    }
+
+    select {
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    textarea { min-height: 96px; resize: vertical; }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--accent);
+      background: rgba(245, 239, 229, 0.28);
+    }
+
+    .option-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px 12px;
+    }
+
+    .option-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .option-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    .option-card {
+      position: relative;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 12px 15px;
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.48);
+      transition: border-color 0.18s ease, background 0.18s ease, color 0.18s ease;
+      font-weight: 640;
+      color: var(--ink-2);
+    }
+
+    .option-card:hover {
+      border-color: var(--accent-2);
+      background: var(--accent-soft);
+    }
+
+    .option-card input {
+      width: 16px;
+      height: 16px;
+      min-height: auto;
+      accent-color: var(--accent);
+      border: initial;
+      border-bottom: initial;
+      padding: initial;
+      background: initial;
+      flex: 0 0 auto;
+    }
+
+    .option-card.detailed {
+      border-radius: 18px;
+      align-items: flex-start;
+      line-height: 1.35;
+    }
+
+    .option-card.detailed span {
+      display: block;
+      font-size: 12px;
+      font-weight: 520;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .option-card.detailed:has(input:checked) span {
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .option-copy {
+      display: block;
+    }
+
+    .option-card:has(input:checked) {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: var(--white);
+    }
+
+    .option-card.detailed:has(input:checked) span {
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .conditional-box {
+      grid-column: 1 / -1;
+      border-top: 1px solid var(--line-strong);
+      border-bottom: 1px solid var(--line-strong);
+      background: rgba(245, 239, 229, 0.32);
+      padding: 24px 0;
+      display: none;
+      margin-top: 4px;
+    }
+
+    .conditional-box.visible { display: block; }
+
+    .conditional-box .form-grid {
+      padding: 0 20px;
+    }
+
+    .subsection-title {
+      margin: 0 20px 14px;
+      color: var(--ink);
+      font-size: 16px;
+      letter-spacing: -0.01em;
+      font-weight: 760;
+    }
+
+    .wizard-actions {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 24px clamp(28px, 5vw, 54px);
+      border-top: 1px solid var(--line-strong);
+      background: rgba(251, 250, 247, 0.86);
+    }
+
+    .error-box {
+      display: none;
+      margin-top: 20px;
+      border-left: 3px solid var(--danger);
+      background: #fff7f6;
+      color: var(--danger);
+      padding: 12px 14px;
+      font-weight: 680;
+      font-size: 14px;
+    }
+
+    .summary-card {
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      background: var(--surface-soft);
+      margin-top: 24px;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .metric {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    .metric small {
+      display: block;
+      color: var(--muted);
+      font-weight: 720;
+      margin-bottom: 5px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .metric strong {
+      color: var(--ink);
+      font-size: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .pill-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-weight: 760;
+      font-size: 12px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid var(--line-strong);
+    }
+
+    .pill.ok { background: #ecfdf3; color: var(--ok); border-color: #abefc6; }
+    .pill.warn { background: #fffaeb; color: var(--warn); border-color: #fedf89; }
+    .pill.danger { background: #fff1f3; color: var(--danger); border-color: #fecdd6; }
+
+    .json-preview {
+      display: none !important;
+    }
+
+    .submission-status {
+      margin-top: 18px;
+      border: 1px solid var(--line-strong);
+      border-radius: 18px;
+      padding: 16px 18px;
+      background: rgba(255,255,255,0.72);
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .submission-status strong {
+      color: var(--ink);
+      display: block;
+      margin-bottom: 4px;
+      font-size: 15px;
+    }
+
+    .submission-status.ok {
+      border-color: #abefc6;
+      background: #ecfdf3;
+      color: #067647;
+    }
+
+    .submission-status.fail {
+      border-color: #fecdd6;
+      background: #fff1f3;
+      color: #b42318;
+    }
+
+    .legal-note {
+      border-top: 1px solid var(--line-strong);
+      border-bottom: 1px solid var(--line-strong);
+      padding: 22px 0;
+      color: var(--muted);
+      font-size: 13px;
+      margin: 30px 0 50px;
+      background: transparent;
+    }
+
+    .legal-note strong { color: var(--ink); }
+
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 24px 0 42px;
+    }
+
+    [hidden] { display: none !important; }
+
+    @media (max-width: 940px) {
+      .topbar { position: relative; }
+
+      .hero-grid,
+      .wizard-wrap,
+      .benefits-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-card {
+        border-left: 0;
+        border-top: 1px solid var(--line-strong);
+        padding: 24px 0 0;
+      }
+
+      .benefits-grid { border-bottom: 0; }
+
+      .benefit-card {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+        margin-right: 0;
+        padding-right: 0;
+      }
+
+      .wizard-side {
+        position: relative;
+        top: auto;
+      }
+
+      .step-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0 18px;
+      }
+    }
+
+    @media (max-width: 660px) {
+      .page-shell { width: min(100% - 24px, 1120px); }
+      .hero { padding: 46px 0 36px; }
+      .hero h1 { font-size: clamp(38px, 13vw, 52px); }
+      .form-grid,
+      .option-grid,
+      .option-grid.three,
+      .option-grid.two,
+      .summary-grid,
+      .calculation-grid,
+      .phone-input-row {
+        grid-template-columns: 1fr;
+      }
+      .step-list { grid-template-columns: 1fr; }
+      .wizard-actions { flex-direction: column-reverse; }
+      .btn { width: 100%; }
+      .brand { align-items: flex-start; flex-direction: column; }
+      .brand .btn { width: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar page-shell">
+    <div class="brand">
+      <div class="brand-mark">
+        <div class="brand-icon">SC</div>
+        <div>
+          <div>Sotomayor Consulting International</div>
+          <div class="brand-subtitle">Precalificación hipotecaria · Florida</div>
+        </div>
+      </div>
+      <a class="btn btn-ghost" href="#formulario">Iniciar evaluación</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-shell">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Precalificación privada · Compra, refinanciamiento o inversión</div>
+          <h1>Evalúa tu perfil para financiar una propiedad en Florida.</h1>
+          <p>
+            Completa una evaluación privada y ordenada para identificar una ruta hipotecaria preliminar y los próximos pasos con un especialista.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#formulario">Iniciar evaluación</a>
+            <a class="btn btn-secondary" href="#como-funciona">Conocer el proceso</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Resumen del proceso">
+          <h3>¿Qué revisaremos?</h3>
+          <ul class="check-list">
+            <li>Tipo de préstamo y objetivo de compra.</li>
+            <li>Valor estimado, uso de la propiedad y objetivo de compra o refinanciamiento.</li>
+            <li>Ingresos, actividad laboral, deudas, fondos y reservas disponibles.</li>
+            <li>Perfil de comprador extranjero, identificación disponible y eventos crediticios relevantes.</li>
+            <li>Ruta sugerida para revisión con un mortgage professional.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="page-shell">
+      <div class="section-intro">
+        <h2>Precalificación hipotecaria para comprar, refinanciar o invertir en Florida.</h2>
+        <p>
+          Este proceso recopila la información clave para orientar una revisión inicial de financiamiento, identificar el perfil del solicitante y preparar los antecedentes que deberá validar un mortgage professional.
+        </p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <strong>1. Perfil financiero y objetivo</strong>
+          <span>Revisamos el propósito del préstamo, valor estimado de la propiedad, uso previsto y plazo en el que deseas avanzar.</span>
+        </div>
+        <div class="benefit-card">
+          <strong>2. Evaluación para comprador extranjero</strong>
+          <span>Identificamos si aplicarás con SSN, ITIN, pasaporte o mediante LLC, y si tus ingresos, activos o fondos provienen de EE. UU. o del exterior.</span>
+        </div>
+        <div class="benefit-card">
+          <strong>3. Ruta hipotecaria preliminar</strong>
+          <span>El resultado organiza una ruta inicial —convencional, foreign national, DSCR, bank statement o revisión manual— para orientar la asesoría hipotecaria.</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario" class="page-shell wizard-wrap">
+      <aside class="wizard-side">
+        <div class="progress-label">
+          <span>Avance</span>
+          <span id="progressText">0%</span>
+        </div>
+        <div class="progress-bar" aria-hidden="true">
+          <div id="progressFill" class="progress-fill"></div>
+        </div>
+        <ol class="step-list" id="stepList">
+          <li><button type="button" data-step-target="0" class="active"><span class="step-index">1</span>Contacto</button></li>
+          <li><button type="button" data-step-target="1"><span class="step-index">2</span>Objetivo</button></li>
+          <li><button type="button" data-step-target="2"><span class="step-index">3</span>Propiedad</button></li>
+          <li><button type="button" data-step-target="3"><span class="step-index">4</span>Perfil</button></li>
+          <li><button type="button" data-step-target="4"><span class="step-index">5</span>Ingresos</button></li>
+          <li><button type="button" data-step-target="5"><span class="step-index">6</span>Crédito</button></li>
+          <li><button type="button" data-step-target="6"><span class="step-index">7</span>Cierre</button></li>
+        </ol>
+        <div class="side-note">
+          Este formulario es de precalificación inicial. No constituye aprobación final de préstamo.
+        </div>
+      </aside>
+
+      <form class="wizard-main" id="mortgageWizard" novalidate>
+        <section class="form-step active" data-step="0">
+          <div class="step-kicker">Paso 1</div>
+          <h2>Datos básicos de contacto</h2>
+          <p>Primero necesitamos saber quién eres y cómo deseas ser contactado.</p>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="firstName">Nombre</label>
+              <input id="firstName" name="firstName" type="text" required placeholder="Nombre" />
+            </div>
+            <div class="field">
+              <label for="lastName">Apellido</label>
+              <input id="lastName" name="lastName" type="text" required placeholder="Apellido" />
+            </div>
+            <div class="field">
+              <label for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" required placeholder="correo@dominio.com" />
+            </div>
+            <div class="field full">
+              <label for="phone">Teléfono / WhatsApp</label>
+              <div class="phone-input-row">
+                <select id="phoneCountryCode" name="phoneCountryCode" required aria-label="Código de país">
+                  <option value="">Selecciona país/código</option>
+                  <option value="+1" data-country="Estados Unidos" data-flag="🇺🇸">🇺🇸 Estados Unidos +1</option>
+                  <option value="+593" data-country="Ecuador" data-flag="🇪🇨">🇪🇨 Ecuador +593</option>
+                  <option value="+57" data-country="Colombia" data-flag="🇨🇴">🇨🇴 Colombia +57</option>
+                  <option value="+52" data-country="México" data-flag="🇲🇽">🇲🇽 México +52</option>
+                  <option value="+56" data-country="Chile" data-flag="🇨🇱">🇨🇱 Chile +56</option>
+                  <option value="+54" data-country="Argentina" data-flag="🇦🇷">🇦🇷 Argentina +54</option>
+                  <option value="+51" data-country="Perú" data-flag="🇵🇪">🇵🇪 Perú +51</option>
+                  <option value="Otro" data-country="Otro" data-flag="🌎">🌎 Otro código</option>
+                </select>
+                <input id="phone" name="phone" type="tel" required placeholder="Número para WhatsApp" autocomplete="tel" />
+              </div>
+              <div class="hint">Selecciona el código de país y escribe el número. El campo se formateará para WhatsApp.</div>
+            </div>
+            <div class="field">
+              <label for="countryResidence">País de residencia actual</label>
+              <select id="countryResidence" name="countryResidence" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Colombia">Colombia</option>
+                <option value="México">México</option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Perú">Perú</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="preferredLanguage">Idioma de atención</label>
+              <select id="preferredLanguage" name="preferredLanguage" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Español">Español</option>
+                <option value="Inglés">Inglés</option>
+                <option value="Ambos">Ambos</option>
+              </select>
+            </div>
+          </div>
+          <div class="error-box" role="alert"></div>
+        </section>
+
+        <section class="form-step" data-step="1">
+          <div class="step-kicker">Paso 2</div>
+          <h2>¿Qué necesitas financiar?</h2>
+          <p>Según tu respuesta, el formulario abrirá preguntas específicas de compra, refinanciamiento o cash-out.</p>
+
+          <div class="form-grid">
+            <div class="field full">
+              <label>¿Qué tipo de préstamo necesitas?</label>
+              <div class="option-grid">
+                <label class="option-card"><input type="radio" name="loanType" value="Compra de vivienda" required /> Compra de vivienda</label>
+                <label class="option-card"><input type="radio" name="loanType" value="Refinanciar" required /> Refinanciar</label>
+                <label class="option-card"><input type="radio" name="loanType" value="Retiro de dinero / Cash-out" required /> Retiro de dinero / Cash-out</label>
+                <label class="option-card"><input type="radio" name="loanType" value="No estoy seguro" required /> No estoy seguro</label>
+              </div>
+            </div>
+
+            <div class="field full" data-visible-if="loanType:Compra de vivienda">
+              <label>¿Cuándo te gustaría comprar la propiedad?</label>
+              <div class="option-grid">
+                <label class="option-card"><input type="radio" name="purchaseTimeline" value="Inmediatamente, contrato firmado" /> Inmediatamente, contrato firmado</label>
+                <label class="option-card"><input type="radio" name="purchaseTimeline" value="En cuanto sea posible, oferta pendiente" /> En cuanto sea posible</label>
+                <label class="option-card"><input type="radio" name="purchaseTimeline" value="Dentro de 30 días" /> Dentro de 30 días</label>
+                <label class="option-card"><input type="radio" name="purchaseTimeline" value="3 a 6 meses" /> 3 a 6 meses</label>
+                <label class="option-card"><input type="radio" name="purchaseTimeline" value="Más de 6 meses" /> Más de 6 meses</label>
+              </div>
+            </div>
+
+            <div class="field full" data-visible-if="loanType:Compra de vivienda">
+              <label>¿Ya cuentas con un agente de bienes raíces?</label>
+              <div class="option-grid two">
+                <label class="option-card"><input type="radio" name="hasRealtor" value="Sí" /> Sí</label>
+                <label class="option-card"><input type="radio" name="hasRealtor" value="No, necesito orientación" /> No, necesito orientación</label>
+              </div>
+            </div>
+
+            <div class="conditional-box" data-visible-if="hasRealtor:Sí">
+              <h3 class="subsection-title">Datos del agente de bienes raíces</h3>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="realtorName">Nombre del agente</label>
+                  <input id="realtorName" name="realtorName" type="text" placeholder="Nombre del agente" />
+                </div>
+                <div class="field">
+                  <label for="realtorContact">Teléfono o correo del agente</label>
+                  <input id="realtorContact" name="realtorContact" type="text" placeholder="Email o teléfono" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="error-box" role="alert"></div>
+        </section>
+
+        <section class="form-step" data-step="2">
+          <div class="step-kicker">Paso 3</div>
+          <h2>Información de la propiedad</h2>
+          <p>Esta información permite entender el valor estimado, tipo de propiedad, uso previsto y contexto inicial de la operación.</p>
+
+          <div class="form-grid">
+            <div class="field full" data-visible-if="loanType:Compra de vivienda,No estoy seguro">
+              <label>¿Ya tienes una propiedad seleccionada?</label>
+              <div class="option-grid">
+                <label class="option-card"><input type="radio" name="propertySelected" value="Sí, tengo dirección" /> Sí, tengo dirección</label>
+                <label class="option-card"><input type="radio" name="propertySelected" value="Sí, sin contrato" /> Sí, sin contrato</label>
+                <label class="option-card"><input type="radio" name="propertySelected" value="No, estoy buscando" /> No, estoy buscando</label>
+                <label class="option-card"><input type="radio" name="propertySelected" value="Solo capacidad de compra" /> Solo quiero conocer mi capacidad</label>
+              </div>
+            </div>
+
+            <div class="field full" data-visible-if="propertySelected:Sí, tengo dirección">
+              <label for="purchaseAddress">Dirección de la propiedad a comprar</label>
+              <input id="purchaseAddress" name="purchaseAddress" type="text" placeholder="Dirección, ciudad y código postal" />
+            </div>
+
+            <div class="field" data-visible-if="loanType:Compra de vivienda,No estoy seguro">
+              <label for="targetCity">Ciudad o zona de Florida</label>
+              <select id="targetCity" name="targetCity">
+                <option value="">Selecciona una opción</option>
+                <option>Miami</option>
+                <option>Orlando</option>
+                <option>Tampa</option>
+                <option>Jacksonville</option>
+                <option>Fort Lauderdale</option>
+                <option>Kissimmee</option>
+                <option>Doral</option>
+                <option>West Palm Beach</option>
+                <option>Otra</option>
+              </select>
+            </div>
+
+            <div class="field" data-visible-if="loanType:Compra de vivienda,No estoy seguro">
+              <label for="estimatedPurchasePrice">Valor estimado de la vivienda</label>
+              <input id="estimatedPurchasePrice" name="estimatedPurchasePrice" class="currency-input currency-field" type="text" inputmode="numeric" data-min="50000" data-max="25000000" placeholder="$0" />
+              <div class="hint">Valor en dólares estadounidenses. Monto mínimo referencial: $50,000.</div>
+            </div>
+
+            <div class="calculation-panel" data-visible-if="loanType:Compra de vivienda,No estoy seguro" aria-live="polite">
+              <p class="calculation-note">Estimación referencial automática basada en el valor de la propiedad. Los montos finales deben ser validados por un mortgage professional.</p>
+              <div class="calculation-grid">
+                <div class="calc-box">
+                  <small>Entrada 30%</small>
+                  <strong id="calcDownPayment">$0</strong>
+                </div>
+                <div class="calc-box">
+                  <small>Monto del crédito 70%</small>
+                  <strong id="calcLoanAmount">$0</strong>
+                </div>
+                <div class="calc-box">
+                  <small>Costos de cierre 4%</small>
+                  <strong id="calcClosingCosts">$0</strong>
+                </div>
+                <div class="calc-box">
+                  <small>Reserva 12 cuotas</small>
+                  <strong id="calcReserve12">$0</strong>
+                </div>
+                <div class="calc-box">
+                  <small>Fondos aproximados requeridos</small>
+                  <strong id="calcRequiredFunds">$0</strong>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="field" data-visible-if="loanType:Compra de vivienda,No estoy seguro">
+              <label for="fundsAvailable">¿Los fondos del pago inicial ya están disponibles?</label>
+              <select id="fundsAvailable" name="fundsAvailable">
+                <option value="">Selecciona una opción</option>
+                <option>Sí, están disponibles</option>
+                <option>Parcialmente</option>
+                <option>No, estarán disponibles antes del cierre</option>
+                <option>Provienen de venta de otra propiedad</option>
+                <option>Provienen de regalo familiar</option>
+                <option>Provienen de empresa o negocio</option>
+              </select>
+            </div>
+
+            <div class="field" data-visible-if="loanType:Compra de vivienda,No estoy seguro">
+              <label for="fundsCountry">País donde están los fondos</label>
+              <select id="fundsCountry" name="fundsCountry">
+                <option value="">Selecciona una opción</option>
+                <option>Estados Unidos</option>
+                <option>País de residencia</option>
+                <option>Otro país</option>
+                <option>Varias cuentas</option>
+              </select>
+            </div>
+
+            <div class="field full" data-visible-if="loanType:Refinanciar,Retiro de dinero / Cash-out">
+              <label for="currentPropertyAddress">Dirección de la propiedad actual</label>
+              <input id="currentPropertyAddress" name="currentPropertyAddress" type="text" placeholder="Dirección, ciudad y código postal" />
+            </div>
+
+            <div class="field" data-visible-if="loanType:Refinanciar,Retiro de dinero / Cash-out">
+              <label for="currentPropertyValue">Valor actual estimado</label>
+              <input id="currentPropertyValue" name="currentPropertyValue" type="number" min="0" max="25000000" step="1000" inputmode="decimal" placeholder="Valor actual aproximado" />
+            </div>
+
+            <div class="field" data-visible-if="loanType:Refinanciar,Retiro de dinero / Cash-out">
+              <label for="currentMortgageBalance">Saldo actual de hipoteca</label>
+              <input id="currentMortgageBalance" name="currentMortgageBalance" type="number" min="0" max="25000000" step="1000" inputmode="decimal" placeholder="Saldo pendiente aproximado" />
+            </div>
+
+            <div class="field" data-visible-if="loanType:Refinanciar,Retiro de dinero / Cash-out">
+              <label for="currentMonthlyPayment">Pago mensual actual</label>
+              <input id="currentMonthlyPayment" name="currentMonthlyPayment" type="number" min="0" max="500000" step="50" inputmode="decimal" placeholder="Pago mensual actual" />
+            </div>
+
+            <div class="field" data-visible-if="loanType:Refinanciar,Retiro de dinero / Cash-out">
+              <label for="currentRate">Tasa actual aproximada</label>
+              <input id="currentRate" name="currentRate" type="number" min="0" step="0.01" placeholder="Tasa actual" />
+            </div>
+
+            <div class="field" data-visible-if="loanType:Retiro de dinero / Cash-out">
+              <label for="cashOutAmount">Monto que deseas retirar</label>
+              <input id="cashOutAmount" name="cashOutAmount" type="number" min="0" max="25000000" step="1000" inputmode="decimal" placeholder="Monto a retirar" />
+            </div>
+
+            <div class="field full">
+              <label>¿Qué tipo de propiedad es?</label>
+              <div class="option-grid three">
+                <label class="option-card"><input type="radio" name="propertyType" value="Unifamiliar" required /> Unifamiliar</label>
+                <label class="option-card"><input type="radio" name="propertyType" value="Multifamiliar 2-4 unidades" required /> Multifamiliar</label>
+                <label class="option-card"><input type="radio" name="propertyType" value="Departamento o piso" required /> Departamento o piso</label>
+                <label class="option-card"><input type="radio" name="propertyType" value="Townhouse" required /> Townhouse</label>
+                <label class="option-card"><input type="radio" name="propertyType" value="Vivienda manufacturada" required /> Manufacturada</label>
+                <label class="option-card"><input type="radio" name="propertyType" value="Otro" required /> Otro</label>
+              </div>
+            </div>
+
+            <div class="field full">
+              <label>¿Cuál será el uso de la propiedad?</label>
+              <div class="option-grid three">
+                <label class="option-card"><input type="radio" name="propertyUse" value="Residencia primaria" required /> Residencia primaria</label>
+                <label class="option-card"><input type="radio" name="propertyUse" value="Casa de vacaciones" required /> Casa de vacaciones</label>
+                <label class="option-card"><input type="radio" name="propertyUse" value="Propiedad de inversión" required /> Propiedad de inversión</label>
+              </div>
+            </div>
+
+
+            <div class="field" data-visible-if="propertyUse:Propiedad de inversión">
+              <label for="estimatedRent">Renta mensual estimada</label>
+              <input id="estimatedRent" name="estimatedRent" type="number" min="0" step="50" placeholder="Renta mensual estimada" />
+            </div>
+          </div>
+          <div class="error-box" role="alert"></div>
+        </section>
+
+        <section class="form-step" data-step="3">
+          <div class="step-kicker">Paso 4</div>
+          <h2>Perfil del solicitante</h2>
+          <p>Estas preguntas ayudan a identificar si aplica una ruta convencional, foreign national, ITIN, DSCR o revisión manual.</p>
+
+          <div class="form-grid">
+            <div class="field full">
+              <label>¿Eres ciudadano estadounidense?</label>
+              <div class="option-grid three">
+                <label class="option-card"><input type="radio" name="usCitizen" value="Sí" required /> Sí</label>
+                <label class="option-card"><input type="radio" name="usCitizen" value="No" required /> No</label>
+                <label class="option-card"><input type="radio" name="usCitizen" value="Prefiero revisar con asesor" required /> Prefiero revisar con asesor</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="usStatus">Situación frente a EE. UU.</label>
+              <select id="usStatus" name="usStatus" required>
+                <option value="">Selecciona una opción</option>
+                <option>Residente permanente / Green Card</option>
+                <option>Residente temporal con visa vigente</option>
+                <option>Vivo fuera de EE. UU. y compraré como extranjero</option>
+                <option>Tengo ITIN</option>
+                <option>Tengo SSN</option>
+                <option>No tengo SSN ni ITIN</option>
+                <option>No estoy seguro</option>
+              </select>
+            </div>
+
+            <div class="field full" data-required-checkgroup="identificationType">
+              <label>Documentación disponible</label>
+              <div class="hint">Puedes seleccionar más de una opción. Pasaporte queda preseleccionado como documento base para comprador extranjero.</div>
+              <div class="option-grid two">
+                <label class="option-card"><input type="checkbox" name="identificationType" value="Pasaporte" checked /> Pasaporte</label>
+                <label class="option-card"><input type="checkbox" name="identificationType" value="Pasaporte + ITIN" /> Pasaporte + ITIN</label>
+                <label class="option-card"><input type="checkbox" name="identificationType" value="Visa" /> Visa</label>
+                <label class="option-card"><input type="checkbox" name="identificationType" value="SSN / Social Security Number" /> SSN / Social Security Number</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="hasVisa">¿Tienes visa vigente para entrar a EE. UU.?</label>
+              <div class="hint">Esta información se solicita únicamente con fines informativos para orientar mejor tu perfil como comprador extranjero. No significa que sea obligatorio tener visa para realizar una evaluación preliminar.</div>
+              <select id="hasVisa" name="hasVisa" required>
+                <option value="">Selecciona una opción</option>
+                <option>Sí</option>
+                <option>No</option>
+                <option>No aplica</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="borrowerEntity">¿El préstamo sería a nombre de quién?</label>
+              <select id="borrowerEntity" name="borrowerEntity" required>
+                <option value="">Selecciona una opción</option>
+                <option>Persona natural</option>
+                <option>LLC</option>
+                <option>Otra empresa</option>
+                <option>No estoy seguro</option>
+              </select>
+            </div>
+          </div>
+          <div class="error-box" role="alert"></div>
+        </section>
+
+        <section class="form-step" data-step="4">
+          <div class="step-kicker">Paso 5</div>
+          <h2>Ingresos y activos</h2>
+          <p>La precalificación necesita entender actividad laboral, ingresos, fondos disponibles para la operación y reservas posteriores al cierre.</p>
+
+          <div class="form-grid">
+            <div class="field full" data-required-checkgroup="employmentType">
+              <label>¿Cuál es tu actividad laboral principal?</label>
+              <div class="hint">Puedes seleccionar más de una opción si tienes varias fuentes de actividad o ingresos.</div>
+              <div class="option-grid three">
+                <label class="option-card"><input type="checkbox" name="employmentType" value="Empleado dependiente" /> Empleado dependiente</label>
+                <label class="option-card"><input type="checkbox" name="employmentType" value="Trabajador independiente" /> Trabajador independiente</label>
+                <label class="option-card"><input type="checkbox" name="employmentType" value="Dueño de negocio" /> Dueño de negocio</label>
+                <label class="option-card"><input type="checkbox" name="employmentType" value="Inversionista" /> Inversionista</label>
+                <label class="option-card"><input type="checkbox" name="employmentType" value="Jubilado" /> Jubilado</label>
+                <label class="option-card"><input type="checkbox" name="employmentType" value="Rentista" /> Rentista</label>
+                <label class="option-card"><input type="checkbox" name="employmentType" value="Otro" /> Otro</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="incomeCountry">País donde generas tus ingresos</label>
+              <select id="incomeCountry" name="incomeCountry" required>
+                <option value="">Selecciona una opción</option>
+                <option>Estados Unidos</option>
+                <option>País de residencia</option>
+                <option>Varios países</option>
+                <option>Otro</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="monthlyIncome">Ingreso mensual bruto aproximado</label>
+              <input id="monthlyIncome" name="monthlyIncome" type="number" min="0" max="1000000" step="100" inputmode="decimal" required placeholder="Ingreso mensual bruto" />
+              <div class="hint">Ingreso en dólares o equivalente aproximado.</div>
+            </div>
+
+            <div class="field">
+              <label for="incomeDocumentation">¿Puedes documentar tus ingresos?</label>
+              <select id="incomeDocumentation" name="incomeDocumentation" required>
+                <option value="">Selecciona una opción</option>
+                <option>Sí, con recibos de sueldo</option>
+                <option>Sí, con declaraciones de impuestos</option>
+                <option>Sí, con estados bancarios</option>
+                <option>Sí, con estados financieros de empresa</option>
+                <option>Parcialmente</option>
+                <option>No estoy seguro</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="workHistory">¿Cuánto tiempo llevas en tu trabajo o negocio actual?</label>
+              <select id="workHistory" name="workHistory" required>
+                <option value="">Selecciona una opción</option>
+                <option>Menos de 1 año</option>
+                <option>1 a 2 años</option>
+                <option>Más de 2 años</option>
+                <option>Más de 5 años</option>
+              </select>
+            </div>
+
+
+            <div class="field">
+              <label for="reservesMonths">Reservas después del cierre</label>
+              <select id="reservesMonths" name="reservesMonths" required>
+                <option value="">Selecciona una opción</option>
+                <option>No tengo reservas</option>
+                <option>1 a 3 meses</option>
+                <option>3 a 6 meses</option>
+                <option>6 a 12 meses</option>
+                <option>Más de 12 meses</option>
+              </select>
+            </div>
+
+            <div class="field full" data-required-checkgroup="fundsAvailableOperation">
+              <label>¿Qué fondos tienes disponibles para la operación?</label>
+              <div class="hint">Puedes seleccionar todas las fuentes que correspondan.</div>
+              <div class="option-grid three">
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Cuenta bancaria personal" /> Cuenta bancaria personal</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Cuenta de empresa" /> Cuenta de empresa</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Cuenta de inversión" /> Cuenta de inversión</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Venta de otra propiedad" /> Venta de otra propiedad</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Regalo familiar" /> Regalo familiar</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Fondos fuera de EE. UU." /> Fondos fuera de EE. UU.</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Fondos en EE. UU." /> Fondos en EE. UU.</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Efectivo" /> Efectivo</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Criptomonedas" /> Criptomonedas</label>
+                <label class="option-card"><input type="checkbox" name="fundsAvailableOperation" value="Otro" /> Otro</label>
+              </div>
+            </div>
+          </div>
+          <div class="error-box" role="alert"></div>
+        </section>
+
+        <section class="form-step" data-step="5">
+          <div class="step-kicker">Paso 6</div>
+          <h2>Crédito, deudas y propiedades actuales</h2>
+          <p>Estas respuestas ayudan a identificar obligaciones mensuales, eventos crediticios relevantes y propiedades actuales.</p>
+
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="monthlyDebt">Pagos mensuales de deuda aproximados</label>
+              <input id="monthlyDebt" name="monthlyDebt" type="number" min="0" max="500000" step="50" inputmode="decimal" required placeholder="Total mensual estimado" />
+            </div>
+
+            <div class="field full">
+              <label>¿Has tenido bancarrota, foreclosure o venta corta?</label>
+              <div class="option-grid">
+                <label class="option-card"><input type="radio" name="creditEvents" value="No" required /> No</label>
+                <label class="option-card detailed"><input type="radio" name="creditEvents" value="Bankruptcy / Bancarrota" required /> <span class="option-copy"><strong>Bankruptcy / Bancarrota</strong><span>Proceso legal para reestructurar o cancelar deudas.</span></span></label>
+                <label class="option-card detailed"><input type="radio" name="creditEvents" value="Foreclosure / Ejecución hipotecaria" required /> <span class="option-copy"><strong>Foreclosure / Ejecución hipotecaria</strong><span>Cuando el lender recupera una propiedad por incumplimiento de pago.</span></span></label>
+                <label class="option-card detailed"><input type="radio" name="creditEvents" value="Short Sale / Venta corta" required /> <span class="option-copy"><strong>Short Sale / Venta corta</strong><span>Venta por un monto menor al saldo de la hipoteca, con aprobación del lender.</span></span></label>
+                <label class="option-card"><input type="radio" name="creditEvents" value="No estoy seguro" required /> No estoy seguro</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="ownsProperty">¿Actualmente tienes alguna propiedad a tu nombre?</label>
+              <select id="ownsProperty" name="ownsProperty" required>
+                <option value="">Selecciona una opción</option>
+                <option>Sí, en Estados Unidos</option>
+                <option>Sí, fuera de Estados Unidos</option>
+                <option>Sí, en EE. UU. y en otros países</option>
+                <option>No</option>
+              </select>
+            </div>
+
+            <div class="field" data-visible-if="ownsProperty:Sí, en Estados Unidos,Sí, fuera de Estados Unidos,Sí, en EE. UU. y en otros países">
+              <label for="propertyCount">Cantidad de propiedades actuales</label>
+              <input id="propertyCount" name="propertyCount" type="number" min="1" step="1" placeholder="Cantidad" />
+            </div>
+
+            <div class="field" data-visible-if="ownsProperty:Sí, en Estados Unidos,Sí, fuera de Estados Unidos,Sí, en EE. UU. y en otros países">
+              <label for="rentalIncome">Ingreso mensual por rentas</label>
+              <input id="rentalIncome" name="rentalIncome" type="number" min="0" step="50" placeholder="Ingreso mensual estimado" />
+            </div>
+          </div>
+          <div class="error-box" role="alert"></div>
+        </section>
+
+        <section class="form-step" data-step="6">
+          <div class="step-kicker">Paso 7</div>
+          <h2>Objetivo, contacto y consentimiento</h2>
+          <p>Confirma tu objetivo principal, el momento de contacto y el consentimiento para una revisión inicial.</p>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="mainGoal">Principal objetivo</label>
+              <select id="mainGoal" name="mainGoal" required>
+                <option value="">Selecciona una opción</option>
+                <option>Saber cuánto puedo comprar</option>
+                <option>Obtener carta de precalificación</option>
+                <option>Comparar opciones de préstamo</option>
+                <option>Comprar como extranjero</option>
+                <option>Refinanciar</option>
+                <option>Retirar dinero</option>
+                <option>Invertir en Florida</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="contactTiming">¿Cuándo deseas que te contacte un asesor?</label>
+              <select id="contactTiming" name="contactTiming" required>
+                <option value="">Selecciona una opción</option>
+                <option>Hoy</option>
+                <option>Mañana</option>
+                <option>Esta semana</option>
+                <option>Prefiero agendar fecha y hora</option>
+              </select>
+            </div>
+
+            <div class="field full">
+              <div class="legal-note compact-note">
+                <strong>Protección de datos:</strong> La información proporcionada será utilizada únicamente para realizar una evaluación preliminar de tu perfil hipotecario y para que un asesor pueda contactarte. Tus datos no constituyen una solicitud formal de crédito ni una aprobación hipotecaria. La información será tratada de forma confidencial y conforme a las políticas de protección de datos aplicables.
+              </div>
+            </div>
+
+            <div class="field full">
+              <label class="option-card">
+                <input type="checkbox" name="consent" value="Acepto" required />
+                Confirmo que la información entregada es referencial y autorizo a ser contactado para una revisión inicial. Entiendo que esta precalificación no constituye aprobación final del préstamo.
+              </label>
+            </div>
+          </div>
+
+          <div class="summary-card" id="summaryCard" hidden>
+            <h3 class="subsection-title">Resumen preliminar generado</h3>
+            <div id="leadSummary"></div>
+            <div class="summary-grid" id="metricsGrid"></div>
+            <div class="pill-row" id="pillRow"></div>
+            <div class="submission-status" id="submissionStatus" hidden></div>
+          </div>
+          <div class="error-box" role="alert"></div>
+        </section>
+
+        <div class="wizard-actions">
+          <button class="btn btn-ghost" type="button" id="prevBtn">Volver</button>
+          <button class="btn btn-blue" type="button" id="nextBtn">Continuar</button>
+          <button class="btn btn-primary" type="submit" id="submitBtn" hidden>Finalizar evaluación</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="page-shell">
+      <div class="legal-note">
+        <strong>Nota importante:</strong> Este formulario es una herramienta de diagnóstico inicial. No representa una aprobación de crédito,
+        no reemplaza una solicitud hipotecaria formal y no garantiza términos, tasa, monto o aprobación. La aprobación final depende de la revisión documental,
+        crédito, ingresos, activos, propiedad, tasación, underwriting y criterios del lender o mortgage professional correspondiente.
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer page-shell">
+    © 2026 Sotomayor Consulting International · Precalificación hipotecaria en Florida
+  </footer>
+
+  <script>
+    // 1) Configuración opcional para integración con n8n, Zapier, Make, CRM, etc.
+    // Pega aquí tu webhook si quieres enviar el resultado automáticamente.
+    const WEBHOOK_URL = "https://n8n.sotomayorconsulting.com/webhook/precalificacion-credito";
+
+    const form = document.getElementById("mortgageWizard");
+    const steps = Array.from(document.querySelectorAll(".form-step"));
+    const stepButtons = Array.from(document.querySelectorAll("[data-step-target]"));
+    const progressFill = document.getElementById("progressFill");
+    const progressText = document.getElementById("progressText");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const submitBtn = document.getElementById("submitBtn");
+    const summaryCard = document.getElementById("summaryCard");
+    const leadSummary = document.getElementById("leadSummary");
+    const metricsGrid = document.getElementById("metricsGrid");
+    const pillRow = document.getElementById("pillRow");
+    const submissionStatus = document.getElementById("submissionStatus");
+    const estimatedPurchasePriceInput = document.getElementById("estimatedPurchasePrice");
+    const phoneCountryCode = document.getElementById("phoneCountryCode");
+    const phoneInput = document.getElementById("phone");
+    const countryResidence = document.getElementById("countryResidence");
+    const purchaseEstimateElements = {
+      downPayment: document.getElementById("calcDownPayment"),
+      loanAmount: document.getElementById("calcLoanAmount"),
+      closingCosts: document.getElementById("calcClosingCosts"),
+      reserve12: document.getElementById("calcReserve12"),
+      requiredFunds: document.getElementById("calcRequiredFunds")
+    };
+    let currentStep = 0;
+
+    function getFormData() {
+      const data = {};
+      const formData = new FormData(form);
+      for (const [key, value] of formData.entries()) {
+        if (data[key]) {
+          data[key] = Array.isArray(data[key]) ? [...data[key], value] : [data[key], value];
+        } else {
+          data[key] = value;
+        }
+      }
+      return data;
+    }
+
+    function getFieldValue(name) {
+      const data = getFormData();
+      return data[name] || "";
+    }
+
+    function updateConditionalFields() {
+      const data = getFormData();
+      document.querySelectorAll("[data-visible-if]").forEach((block) => {
+        const rules = block.getAttribute("data-visible-if").split("|");
+        const shouldShow = rules.some((rule) => {
+          const [field, valuesString] = rule.split(":");
+          const acceptedValues = valuesString.split(",").map((value) => value.trim());
+          return acceptedValues.includes((data[field] || "").trim());
+        });
+        block.classList.toggle("visible", shouldShow);
+        block.hidden = !shouldShow;
+      });
+      updatePurchaseEstimatePanel();
+    }
+
+    function showError(message) {
+      const current = steps[currentStep];
+      const errorBox = current.querySelector(".error-box");
+      if (!errorBox) return;
+      errorBox.textContent = message;
+      errorBox.style.display = "block";
+    }
+
+    function clearError() {
+      steps.forEach((step) => {
+        const errorBox = step.querySelector(".error-box");
+        if (errorBox) {
+          errorBox.textContent = "";
+          errorBox.style.display = "none";
+        }
+      });
+    }
+
+    function isVisible(element) {
+      return !element.closest("[hidden]") && !!(element.offsetWidth || element.offsetHeight || element.getClientRects().length);
+    }
+
+    function validateCurrentStep() {
+      clearError();
+      const current = steps[currentStep];
+      const requiredFields = Array.from(current.querySelectorAll("input[required], select[required], textarea[required]")).filter(isVisible);
+
+      const groupedRadios = new Set();
+      for (const field of requiredFields) {
+        if (field.type === "radio") {
+          if (groupedRadios.has(field.name)) continue;
+          groupedRadios.add(field.name);
+          const checked = current.querySelector(`input[name="${field.name}"]:checked`);
+          if (!checked) {
+            showError("Por favor completa la pregunta obligatoria antes de continuar.");
+            return false;
+          }
+          continue;
+        }
+        if (field.type === "checkbox" && !field.checked) {
+          showError("Para continuar debes aceptar el consentimiento indicado.");
+          return false;
+        }
+        if (!field.value.trim()) {
+          field.focus();
+          showError("Por favor completa todos los campos obligatorios antes de continuar.");
+          return false;
+        }
+        if (field.type === "number") {
+          const value = safeNumber(field.value);
+          const max = field.max ? safeNumber(field.max) : 0;
+          const min = field.min ? safeNumber(field.min) : 0;
+          if (field.max && value > max) {
+            field.focus();
+            showError("El monto ingresado parece demasiado alto. Revisa que esté expresado en dólares estadounidenses y sin símbolos.");
+            return false;
+          }
+          if (field.min && value < min) {
+            field.focus();
+            showError("El monto ingresado debe ser mayor o igual a cero.");
+            return false;
+          }
+        }
+        if (field.classList.contains("currency-input") && field.value.trim()) {
+          const value = safeNumber(field.value);
+          const max = field.dataset.max ? safeNumber(field.dataset.max) : 0;
+          const min = field.dataset.min ? safeNumber(field.dataset.min) : 0;
+          if (max && value > max) {
+            field.focus();
+            showError("El monto ingresado parece demasiado alto. Revisa que esté expresado en dólares estadounidenses.");
+            return false;
+          }
+          if (min && value < min) {
+            field.focus();
+            showError(`El valor estimado debe ser al menos ${currencyZero(min)}.`);
+            return false;
+          }
+        }
+      }
+
+      const requiredCheckGroups = Array.from(current.querySelectorAll("[data-required-checkgroup]")).filter(isVisible);
+      for (const group of requiredCheckGroups) {
+        const groupName = group.getAttribute("data-required-checkgroup");
+        if (!current.querySelector(`input[name="${groupName}"]:checked`)) {
+          showError("Por favor selecciona al menos una opción antes de continuar.");
+          return false;
+        }
+      }
+
+      return true;
+    }
+
+    function goToStep(index) {
+      currentStep = Math.max(0, Math.min(index, steps.length - 1));
+      steps.forEach((step, i) => step.classList.toggle("active", i === currentStep));
+      stepButtons.forEach((button, i) => button.classList.toggle("active", i === currentStep));
+      prevBtn.hidden = currentStep === 0;
+      nextBtn.hidden = currentStep === steps.length - 1;
+      submitBtn.hidden = currentStep !== steps.length - 1;
+      const percentage = Math.round((currentStep / (steps.length - 1)) * 100);
+      progressFill.style.width = `${percentage}%`;
+      progressText.textContent = `${percentage}%`;
+      updateConditionalFields();
+      clearError();
+      document.getElementById("formulario").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    function currency(value) {
+      const number = Number(value || 0);
+      if (!number) return "No informado";
+      return number.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+    }
+
+
+    function currencyZero(value) {
+      const number = Number(value || 0);
+      return number.toLocaleString("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+    }
+
+    function formatCurrencyInput(input) {
+      if (!input) return;
+      const numericValue = safeNumber(input.value);
+      input.value = numericValue ? currencyZero(numericValue) : "";
+      updatePurchaseEstimatePanel();
+    }
+
+    function getPurchaseEstimatesFromValue(propertyValue) {
+      const value = safeNumber(propertyValue);
+      const downPayment = Math.round(value * 0.30);
+      const loanAmount = Math.round(value * 0.70);
+      const closingCosts = Math.round(value * 0.04);
+      const reserve12 = Math.round(loanAmount * 0.0401142857);
+      const requiredFunds = downPayment + closingCosts + reserve12;
+      return { value, downPayment, loanAmount, closingCosts, reserve12, requiredFunds };
+    }
+
+    function getPurchaseEstimates(data) {
+      return getPurchaseEstimatesFromValue(data.estimatedPurchasePrice);
+    }
+
+    function updatePurchaseEstimatePanel() {
+      const estimates = getPurchaseEstimatesFromValue(estimatedPurchasePriceInput ? estimatedPurchasePriceInput.value : 0);
+      if (purchaseEstimateElements.downPayment) purchaseEstimateElements.downPayment.textContent = currencyZero(estimates.downPayment);
+      if (purchaseEstimateElements.loanAmount) purchaseEstimateElements.loanAmount.textContent = currencyZero(estimates.loanAmount);
+      if (purchaseEstimateElements.closingCosts) purchaseEstimateElements.closingCosts.textContent = currencyZero(estimates.closingCosts);
+      if (purchaseEstimateElements.reserve12) purchaseEstimateElements.reserve12.textContent = currencyZero(estimates.reserve12);
+      if (purchaseEstimateElements.requiredFunds) purchaseEstimateElements.requiredFunds.textContent = currencyZero(estimates.requiredFunds);
+    }
+
+    function digitsOnly(value) {
+      return String(value || "").replace(/\D/g, "");
+    }
+
+    function normalizePhoneE164() {
+      const code = phoneCountryCode ? phoneCountryCode.value : "";
+      if (!phoneInput || !code || code === "Otro") return phoneInput ? phoneInput.value.trim() : "";
+      const codeDigits = digitsOnly(code);
+      let localDigits = digitsOnly(phoneInput.value);
+      if (localDigits.startsWith(codeDigits)) localDigits = localDigits.slice(codeDigits.length);
+      if (code === "+593" && localDigits.startsWith("0")) localDigits = localDigits.slice(1);
+      return `${code}${localDigits}`;
+    }
+
+    function groupDigits(digits, groups) {
+      const parts = [];
+      let cursor = 0;
+      groups.forEach((length) => {
+        if (digits.length > cursor) parts.push(digits.slice(cursor, cursor + length));
+        cursor += length;
+      });
+      if (digits.length > cursor) parts.push(digits.slice(cursor));
+      return parts.filter(Boolean).join(" ");
+    }
+
+    function formatWhatsappPhone() {
+      if (!phoneInput || !phoneCountryCode) return;
+      const code = phoneCountryCode.value;
+      if (!code || code === "Otro") return;
+      const codeDigits = digitsOnly(code);
+      let localDigits = digitsOnly(phoneInput.value);
+      if (localDigits.startsWith(codeDigits)) localDigits = localDigits.slice(codeDigits.length);
+      if (code === "+593" && localDigits.startsWith("0")) localDigits = localDigits.slice(1);
+
+      let formatted = "";
+      if (code === "+1" && localDigits.length >= 10) formatted = `${code} (${localDigits.slice(0, 3)}) ${localDigits.slice(3, 6)}-${localDigits.slice(6, 10)}`;
+      else if (code === "+593") formatted = `${code} ${groupDigits(localDigits, [2, 3, 4])}`;
+      else if (code === "+57") formatted = `${code} ${groupDigits(localDigits, [3, 3, 4])}`;
+      else if (code === "+52") formatted = `${code} ${groupDigits(localDigits, [2, 4, 4])}`;
+      else if (code === "+56") formatted = `${code} ${groupDigits(localDigits, [1, 4, 4])}`;
+      else if (code === "+54") formatted = `${code} ${groupDigits(localDigits, [1, 2, 4, 4])}`;
+      else if (code === "+51") formatted = `${code} ${groupDigits(localDigits, [3, 3, 3])}`;
+      else formatted = `${code} ${localDigits}`;
+
+      phoneInput.value = formatted.trim();
+    }
+
+    function syncPhoneCountryFromResidence() {
+      if (!countryResidence || !phoneCountryCode) return;
+      const selectedCountry = countryResidence.value;
+      if (!selectedCountry || phoneCountryCode.value) return;
+      const option = Array.from(phoneCountryCode.options).find((item) => item.dataset.country === selectedCountry);
+      if (option) phoneCountryCode.value = option.value;
+    }
+
+    function safeNumber(value) {
+      if (value === null || value === undefined || value === "") return 0;
+      if (typeof value === "number") return Number.isFinite(value) ? value : 0;
+      const cleaned = String(value)
+        .replace(/[^0-9.,-]/g, "")
+        .replace(/,/g, "");
+      const number = Number(cleaned);
+      return Number.isFinite(number) ? number : 0;
+    }
+
+    function toArray(value) {
+      if (!value) return [];
+      return Array.isArray(value) ? value : [value];
+    }
+
+    function estimateReferenceValue(data) {
+      if (data.loanType === "Compra de vivienda" || data.loanType === "No estoy seguro") {
+        return safeNumber(data.estimatedPurchasePrice);
+      }
+      return safeNumber(data.currentPropertyValue);
+    }
+
+    function estimateLoanAmount(data) {
+      if (data.loanType === "Compra de vivienda" || data.loanType === "No estoy seguro") return getPurchaseEstimates(data).loanAmount;
+      if (data.loanType === "Refinanciar") return safeNumber(data.currentMortgageBalance);
+      if (data.loanType === "Retiro de dinero / Cash-out") return safeNumber(data.currentMortgageBalance) + safeNumber(data.cashOutAmount);
+      return 0;
+    }
+
+    function estimateLTV(data) {
+      const loan = estimateLoanAmount(data);
+      if (data.loanType === "Compra de vivienda" || data.loanType === "No estoy seguro") {
+        const value = safeNumber(data.estimatedPurchasePrice);
+        return value && loan ? Math.round((loan / value) * 100) : null;
+      }
+      const value = safeNumber(data.currentPropertyValue);
+      return value && loan ? Math.round((loan / value) * 100) : null;
+    }
+
+    function estimateDTI(data) {
+      const monthlyIncome = safeNumber(data.monthlyIncome);
+      const monthlyDebt = safeNumber(data.monthlyDebt);
+      const loan = estimateLoanAmount(data);
+      if (!monthlyIncome) return null;
+      if (!loan) return Math.round((monthlyDebt / monthlyIncome) * 100);
+      const roughMonthlyMortgage = Math.round(loan * 0.0072);
+      return Math.round(((monthlyDebt + roughMonthlyMortgage) / monthlyIncome) * 100);
+    }
+
+    function estimateDSCR(data) {
+      const rent = safeNumber(data.estimatedRent);
+      const loan = estimateLoanAmount(data);
+      if (data.propertyUse !== "Propiedad de inversión") return "No aplica";
+      if (!rent || !loan) return "Pendiente de revisión";
+      const payment = Math.round(loan * 0.0072);
+      return payment ? (rent / payment).toFixed(2) : "Pendiente de revisión";
+    }
+
+    function classifyLead(data) {
+      let score = 0;
+      const flags = [];
+      const employmentTypes = toArray(data.employmentType);
+      const fundsOperation = toArray(data.fundsAvailableOperation);
+      const identificationTypes = toArray(data.identificationType);
+
+      if (["Inmediatamente, contrato firmado", "En cuanto sea posible, oferta pendiente", "Dentro de 30 días"].includes(data.purchaseTimeline)) score += 25;
+      if (["Hoy", "Mañana"].includes(data.contactTiming)) score += 20;
+      if (["Sí, están disponibles", "Parcialmente"].includes(data.fundsAvailable) || fundsOperation.length > 0) score += 20;
+      if (employmentTypes.length > 0 && safeNumber(data.monthlyIncome) > 0) score += 15;
+      if (data.incomeDocumentation && !["No estoy seguro"].includes(data.incomeDocumentation)) score += 10;
+      if (data.hasRealtor === "Sí") score += 10;
+      if (data.propertySelected === "Sí, tengo dirección") score += 10;
+
+      const isForeignNational = data.countryResidence !== "Estados Unidos" ||
+        data.usStatus === "Vivo fuera de EE. UU. y compraré como extranjero" ||
+        identificationTypes.some((item) => ["Pasaporte", "Pasaporte + ITIN", "Visa"].includes(item));
+
+      const ltv = estimateLTV(data);
+      const dti = estimateDTI(data);
+      const dscr = estimateDSCR(data);
+
+      if (isForeignNational) flags.push({ text: "Foreign national / comprador extranjero", type: "warn" });
+      if (data.borrowerEntity === "LLC") flags.push({ text: "Revisión a nombre de LLC", type: "warn" });
+      if (data.propertyUse === "Propiedad de inversión") flags.push({ text: "Ruta inversión / posible DSCR", type: "ok" });
+      if (identificationTypes.includes("Pasaporte") || identificationTypes.includes("Pasaporte + ITIN")) flags.push({ text: "Revisión de identificación y crédito", type: "warn" });
+      if (fundsOperation.includes("Efectivo") || fundsOperation.includes("Criptomonedas")) flags.push({ text: "Validar trazabilidad de fondos", type: "danger" });
+      if (data.creditEvents && data.creditEvents !== "No") flags.push({ text: "Revisión manual de eventos crediticios", type: "danger" });
+      if (ltv !== null && ltv > 80) flags.push({ text: "LTV alto: revisar producto", type: "warn" });
+      if (dti !== null && dti > 45) flags.push({ text: "DTI referencial alto", type: "warn" });
+      if (data.incomeDocumentation === "Sí, con estados bancarios") flags.push({ text: "Posible bank statement loan", type: "ok" });
+
+      let status = "Lead educativo / nurturing";
+      if (score >= 70) status = "Lead caliente";
+      else if (score >= 45) status = "Lead activo";
+      else if (isForeignNational) status = "Lead foreign national en revisión";
+
+      let suggestedRoute = "Revisión inicial con asesor hipotecario";
+      if (data.propertyUse === "Propiedad de inversión") suggestedRoute = "Revisión de inversión / DSCR";
+      if (isForeignNational) suggestedRoute = "Revisión foreign national / non-QM";
+      if (data.incomeDocumentation === "Sí, con estados bancarios") suggestedRoute = "Revisión bank statement / non-QM";
+      if (data.creditEvents && data.creditEvents !== "No") suggestedRoute = "Revisión manual con mortgage professional";
+
+      return { score, status, suggestedRoute, flags, ltv, dti, dscr };
+    }
+
+    function buildPayload() {
+      const data = getFormData();
+      const classification = classifyLead(data);
+      const employmentTypes = toArray(data.employmentType);
+      const fundsOperation = toArray(data.fundsAvailableOperation);
+      const identificationTypes = toArray(data.identificationType);
+      const purchaseEstimates = getPurchaseEstimates(data);
+      const submittedAt = new Date().toISOString();
+
+      return {
+        metadata: {
+          formName: "Precalificación hipotecaria Florida",
+          formVersion: "v8",
+          source: "wizard_precalificacion_mortgage_florida_v8",
+          submittedAt,
+          pageUrl: window.location.href,
+          userAgent: navigator.userAgent
+        },
+        contacto: {
+          nombre: data.firstName || "",
+          apellido: data.lastName || "",
+          correo: data.email || "",
+          codigoPaisTelefono: data.phoneCountryCode || "",
+          telefono: data.phone || "",
+          telefonoWhatsAppE164: normalizePhoneE164(),
+          paisResidencia: data.countryResidence || "",
+          idiomaPreferido: data.preferredLanguage || ""
+        },
+        solicitudPrestamo: {
+          tipoPrestamo: data.loanType || "",
+          objetivoPrincipal: data.mainGoal || "",
+          momentoContacto: data.contactTiming || ""
+        },
+        compraVivienda: {
+          plazoCompra: data.purchaseTimeline || "",
+          trabajaConRealtor: data.hasRealtor || "",
+          nombreRealtor: data.realtorName || "",
+          contactoRealtor: data.realtorContact || "",
+          propiedadSeleccionada: data.propertySelected || "",
+          direccionCompra: data.purchaseAddress || "",
+          ciudadZonaObjetivo: data.targetCity || "",
+          valorEstimadoCompra: safeNumber(data.estimatedPurchasePrice),
+          entrada30Porciento: purchaseEstimates.downPayment,
+          montoCredito70Porciento: purchaseEstimates.loanAmount,
+          costosCierre4Porciento: purchaseEstimates.closingCosts,
+          reserva12Cuotas: purchaseEstimates.reserve12,
+          fondosAproximadosRequeridos: purchaseEstimates.requiredFunds,
+          fondosDisponiblesPagoInicial: data.fundsAvailable || "",
+          paisFondos: data.fundsCountry || ""
+        },
+        refinanciamientoCashOut: {
+          direccionPropiedadActual: data.currentPropertyAddress || "",
+          valorActualPropiedad: safeNumber(data.currentPropertyValue),
+          saldoHipotecaActual: safeNumber(data.currentMortgageBalance),
+          pagoMensualActual: safeNumber(data.currentMonthlyPayment),
+          tasaActual: data.currentRate || "",
+          montoRetiroSolicitado: safeNumber(data.cashOutAmount)
+        },
+        propiedad: {
+          tipoPropiedad: data.propertyType || "",
+          usoPropiedad: data.propertyUse || "",
+          rentaMensualEstimada: safeNumber(data.estimatedRent)
+        },
+        perfilMigratorioYComprador: {
+          ciudadanoEstadounidense: data.usCitizen || "",
+          situacionFrenteEEUU: data.usStatus || "",
+          documentacionDisponible: identificationTypes,
+          visaVigente: data.hasVisa || "",
+          notaVisa: "La visa se solicita únicamente con fines informativos y no como requisito obligatorio para la evaluación preliminar.",
+          entidadCompradora: data.borrowerEntity || ""
+        },
+        ingresos: {
+          actividadLaboralPrincipal: employmentTypes,
+          paisOrigenIngresos: data.incomeCountry || "",
+          ingresoMensualBruto: safeNumber(data.monthlyIncome),
+          documentacionIngresos: data.incomeDocumentation || "",
+          antiguedadLaboralNegocio: data.workHistory || ""
+        },
+        activosFondosYReservas: {
+          fondosDisponiblesOperacion: fundsOperation,
+          reservasPosterioresCierre: data.reservesMonths || ""
+        },
+        creditoYDeudas: {
+          deudaMensualAproximada: safeNumber(data.monthlyDebt),
+          eventosCrediticiosPrevios: data.creditEvents || ""
+        },
+        propiedadesActuales: {
+          poseePropiedades: data.ownsProperty || "",
+          cantidadPropiedades: safeNumber(data.propertyCount),
+          ingresosPorRenta: data.rentalIncome || ""
+        },
+        consentimientoYCierre: {
+          consentimientoContacto: data.consent === "Acepto",
+          textoConsentimiento: data.consent || "",
+          notaProteccionDatos: "La información será utilizada únicamente para evaluación preliminar y contacto de asesoría, y será tratada de forma confidencial."
+        },
+        calculosPreliminares: {
+          valorReferenciaPropiedad: estimateReferenceValue(data),
+          entrada30Porciento: purchaseEstimates.downPayment,
+          montoCredito70Porciento: purchaseEstimates.loanAmount,
+          costosCierre4Porciento: purchaseEstimates.closingCosts,
+          reserva12Cuotas: purchaseEstimates.reserve12,
+          fondosAproximadosRequeridos: purchaseEstimates.requiredFunds,
+          montoPrestamoEstimado: estimateLoanAmount(data),
+          ltvEstimado: classification.ltv,
+          dtiReferencial: classification.dti,
+          dscrEstimado: classification.dscr,
+          notaCalculos: "Los cálculos son referenciales. Para compra, se estima entrada 30%, crédito 70%, costos de cierre 4% y reserva de 12 cuotas. Los montos finales deben ser validados por el lender o mortgage professional."
+        },
+        clasificacionLead: {
+          puntaje: classification.score,
+          estado: classification.status,
+          rutaSugerida: classification.suggestedRoute,
+          alertas: classification.flags
+        },
+        rawFormData: data
+      };
+    }
+
+    function metricText(value, suffix = "") {
+      if (value === null || value === undefined || value === "") return "Pendiente de revisión";
+      if (typeof value === "number" && value === 0) return "Pendiente de revisión";
+      return `${value}${suffix}`;
+    }
+
+    function renderSummary(payload) {
+      const classification = payload.clasificacionLead;
+      const calculations = payload.calculosPreliminares;
+      const contact = payload.contacto;
+      const loanRequest = payload.rawFormData;
+      const loanMetric = calculations.montoPrestamoEstimado ? currency(calculations.montoPrestamoEstimado) : "Pendiente de revisión";
+      const ltvMetric = calculations.ltvEstimado === null ? "Pendiente de revisión" : `${calculations.ltvEstimado}%`;
+      const dtiMetric = calculations.dtiReferencial === null ? "Pendiente de revisión" : `${calculations.dtiReferencial}%`;
+
+      summaryCard.hidden = false;
+      leadSummary.innerHTML = `
+        <p><strong>${contact.nombre || "Solicitante"} ${contact.apellido || ""}</strong>, tu diagnóstico quedó clasificado como <strong>${classification.estado}</strong>.</p>
+        <p>Ruta sugerida: <strong>${classification.rutaSugerida}</strong>. Un asesor debe validar ingresos, fondos, identificación, propiedad, crédito aplicable y condiciones del lender.</p>
+      `;
+      metricsGrid.innerHTML = `
+        <div class="metric"><small>Valor referencia propiedad</small><strong>${currency(calculations.valorReferenciaPropiedad)}</strong></div>
+        <div class="metric"><small>Entrada 30%</small><strong>${currencyZero(calculations.entrada30Porciento)}</strong></div>
+        <div class="metric"><small>Monto crédito 70%</small><strong>${loanMetric}</strong></div>
+        <div class="metric"><small>Costos cierre 4%</small><strong>${currencyZero(calculations.costosCierre4Porciento)}</strong></div>
+        <div class="metric"><small>Reserva 12 cuotas</small><strong>${currencyZero(calculations.reserva12Cuotas)}</strong></div>
+        <div class="metric"><small>Fondos aproximados</small><strong>${currencyZero(calculations.fondosAproximadosRequeridos)}</strong></div>
+        <div class="metric"><small>LTV estimado</small><strong>${ltvMetric}</strong></div>
+        <div class="metric"><small>DTI referencial</small><strong>${dtiMetric}</strong></div>
+        <div class="metric"><small>DSCR estimado</small><strong>${calculations.dscrEstimado}</strong></div>
+        <div class="metric"><small>Tipo préstamo</small><strong>${loanRequest.loanType || "No informado"}</strong></div>
+      `;
+      pillRow.innerHTML = classification.alertas.length
+        ? classification.alertas.map(flag => `<span class="pill ${flag.type}">${flag.text}</span>`).join("")
+        : `<span class="pill ok">Sin alertas críticas iniciales</span>`;
+      if (submissionStatus) {
+        submissionStatus.hidden = false;
+        submissionStatus.className = "submission-status";
+        submissionStatus.innerHTML = `<strong>Diagnóstico preparado</strong>Estamos enviando tu información para que un asesor pueda revisar el caso.`;
+      }
+    }
+
+    async function sendPayload(payload) {
+      const jsonBody = JSON.stringify(payload);
+
+      // Intento principal: POST JSON normal.
+      // Puede fallar por CORS si el dominio del formulario y el dominio de n8n no permiten preflight OPTIONS.
+      try {
+        const response = await fetch(WEBHOOK_URL, {
+          method: "POST",
+          mode: "cors",
+          credentials: "omit",
+          keepalive: true,
+          headers: { "Content-Type": "application/json" },
+          body: jsonBody
+        });
+        if (!response.ok) throw new Error(`Webhook respondió con estado ${response.status}`);
+        const responsePayload = await response.json().catch(() => ({ ok: true }));
+        return { ok: true, confirmed: true, method: "cors-json", response: responsePayload };
+      } catch (primaryError) {
+        console.warn("Envío JSON con CORS falló. Se intentará envío alternativo sin lectura de respuesta.", primaryError);
+      }
+
+      // Fallback 1: sendBeacon. Evita el bloqueo visual por CORS y es útil para webhooks simples.
+      // En n8n el body puede llegar como texto; si llega así, parsear con JSON.parse en un nodo Code.
+      if (navigator.sendBeacon) {
+        const blob = new Blob([jsonBody], { type: "text/plain;charset=UTF-8" });
+        const queued = navigator.sendBeacon(WEBHOOK_URL, blob);
+        if (queued) return { ok: true, confirmed: false, method: "sendBeacon-text" };
+      }
+
+      // Fallback 2: no-cors. El navegador no permite leer la respuesta, pero sí despacha el POST.
+      try {
+        await fetch(WEBHOOK_URL, {
+          method: "POST",
+          mode: "no-cors",
+          credentials: "omit",
+          keepalive: true,
+          headers: { "Content-Type": "text/plain;charset=UTF-8" },
+          body: jsonBody
+        });
+        return { ok: true, confirmed: false, method: "no-cors-text" };
+      } catch (fallbackError) {
+        throw new Error("No fue posible conectar con el webhook. Revisa que el workflow esté activo, que la URL sea de producción y que n8n permita recibir solicitudes externas.");
+      }
+    }
+
+    if (estimatedPurchasePriceInput) {
+      estimatedPurchasePriceInput.addEventListener("input", updatePurchaseEstimatePanel);
+      estimatedPurchasePriceInput.addEventListener("blur", () => formatCurrencyInput(estimatedPurchasePriceInput));
+      estimatedPurchasePriceInput.addEventListener("focus", () => {
+        const value = safeNumber(estimatedPurchasePriceInput.value);
+        estimatedPurchasePriceInput.value = value ? String(value) : "";
+      });
+    }
+
+    if (countryResidence) {
+      countryResidence.addEventListener("change", () => {
+        syncPhoneCountryFromResidence();
+        formatWhatsappPhone();
+      });
+    }
+
+    if (phoneCountryCode) phoneCountryCode.addEventListener("change", formatWhatsappPhone);
+    if (phoneInput) phoneInput.addEventListener("blur", formatWhatsappPhone);
+
+    form.addEventListener("input", updateConditionalFields);
+    form.addEventListener("change", updateConditionalFields);
+
+    stepButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const target = Number(button.dataset.stepTarget);
+        if (target <= currentStep || validateCurrentStep()) goToStep(target);
+      });
+    });
+
+    prevBtn.addEventListener("click", () => goToStep(currentStep - 1));
+
+    nextBtn.addEventListener("click", () => {
+      if (!validateCurrentStep()) return;
+      goToStep(currentStep + 1);
+    });
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (!validateCurrentStep()) return;
+      const payload = buildPayload();
+      renderSummary(payload);
+      submitBtn.textContent = "Enviando diagnóstico...";
+      submitBtn.disabled = true;
+      try {
+        const sendResult = await sendPayload(payload);
+        submitBtn.textContent = sendResult.confirmed ? "Diagnóstico enviado" : "Diagnóstico enviado para revisión";
+        if (submissionStatus) {
+          submissionStatus.hidden = false;
+          submissionStatus.className = "submission-status ok";
+          submissionStatus.innerHTML = sendResult.confirmed
+            ? `<strong>Información enviada correctamente</strong>Recibimos la precalificación inicial. Un asesor podrá revisar los antecedentes y contactarte para continuar con la validación.`
+            : `<strong>Información enviada</strong>El diagnóstico fue despachado al webhook. Por seguridad del navegador no se pudo leer la confirmación del servidor; valida la recepción en las ejecuciones de n8n.`;
+        }
+      } catch (error) {
+        submitBtn.textContent = "Reintentar envío";
+        submitBtn.disabled = false;
+        if (submissionStatus) {
+          submissionStatus.hidden = false;
+          submissionStatus.className = "submission-status fail";
+          submissionStatus.innerHTML = `<strong>No se pudo enviar automáticamente</strong>El diagnóstico fue generado, pero no se logró conectar con el webhook. Revisa la URL productiva, el estado del workflow y la configuración CORS de n8n.`;
+        }
+        showError("No se pudo enviar al webhook. Revisa n8n y vuelve a intentar.");
+      }
+    });
+
+    updateConditionalFields();
+    updatePurchaseEstimatePanel();
+    goToStep(0);
+  </script>
+</body>
+</html>

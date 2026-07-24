@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precalificación Hipotecaria en Florida</title>
+  <meta name="description" content="Formulario de precalificación hipotecaria para compra, refinanciamiento o inversión en propiedades en Florida." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@latest/build/css/intlTelInput.css" />
+  <style>
+    :root{
+      --bg:#fbfaf7;
+      --surface:#ffffff;
+      --ink:#111827;
+      --muted:#667085;
+      --soft:#f2eee6;
+      --line:#ded6c8;
+      --gold:#b88a44;
+      --gold-dark:#8b642b;
+      --navy:#111827;
+      --green:#067647;
+      --red:#b42318;
+      --amber:#b54708;
+      --shadow: 0 18px 55px rgba(17,24,39,.07);
+      --radius: 26px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color:var(--ink);
+      background:
+        linear-gradient(90deg, rgba(184,138,68,.08) 1px, transparent 1px),
+        linear-gradient(rgba(184,138,68,.07) 1px, transparent 1px),
+        radial-gradient(circle at top left, rgba(184,138,68,.16), transparent 34%),
+        var(--bg);
+      background-size:64px 64px,64px 64px,auto,auto;
+    }
+
+    a{color:inherit;text-decoration:none}
+
+    .page{
+      width:min(1120px, calc(100% - 32px));
+      margin:0 auto;
+    }
+
+    .hero{
+      padding:62px 0 32px;
+      display:grid;
+      grid-template-columns:1.08fr .92fr;
+      gap:56px;
+      align-items:end;
+    }
+
+    .eyebrow{
+      text-transform:uppercase;
+      letter-spacing:.14em;
+      font-size:12px;
+      font-weight:800;
+      color:var(--gold-dark);
+      margin:0 0 16px;
+    }
+
+    h1{
+      margin:0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight:500;
+      font-size:clamp(42px, 6vw, 76px);
+      line-height:.94;
+      letter-spacing:-.06em;
+      max-width:820px;
+    }
+
+    .hero-copy{
+      margin:22px 0 0;
+      max-width:710px;
+      font-size:18px;
+      line-height:1.72;
+      color:#4b5563;
+    }
+
+    .hero-note{
+      border-left:1px solid var(--gold);
+      padding:8px 0 8px 22px;
+      color:#4b5563;
+      line-height:1.65;
+      font-size:15px;
+    }
+
+    .hero-note strong{color:var(--ink)}
+
+    .top-actions{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      margin-top:30px;
+    }
+
+    .btn{
+      border:0;
+      appearance:none;
+      cursor:pointer;
+      border-radius:999px;
+      padding:14px 22px;
+      font-weight:800;
+      font-size:14px;
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      transition:.18s ease;
+    }
+
+    .btn-primary{background:var(--navy); color:white; box-shadow:0 10px 22px rgba(17,24,39,.18)}
+    .btn-primary:hover{transform:translateY(-1px); box-shadow:0 14px 26px rgba(17,24,39,.22)}
+    .btn-secondary{background:transparent; border:1px solid var(--line); color:var(--ink)}
+    .btn-secondary:hover{border-color:var(--gold); color:var(--gold-dark)}
+    .btn[disabled]{opacity:.55; cursor:not-allowed; transform:none; box-shadow:none}
+
+    .process{
+      margin:22px auto 38px;
+      border-top:1px solid var(--line);
+      border-bottom:1px solid var(--line);
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+    }
+
+    .process-item{
+      padding:26px 28px;
+      min-height:122px;
+      border-right:1px solid var(--line);
+    }
+    .process-item:last-child{border-right:0}
+    .process-item h3{
+      margin:0 0 10px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      font-size:13px;
+    }
+    .process-item p{
+      margin:0;
+      color:#596273;
+      line-height:1.7;
+      font-size:14px;
+    }
+
+    .qualifier{
+      margin:34px auto 70px;
+      display:grid;
+      grid-template-columns:300px minmax(0,1fr);
+      gap:0;
+      background:rgba(255,255,255,.82);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      backdrop-filter: blur(8px);
+    }
+
+    .qualifier-side{
+      background:linear-gradient(180deg,#121927,#0f172a);
+      color:white;
+      padding:34px 28px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      min-height:720px;
+    }
+
+    .side-title{
+      margin:0 0 8px;
+      font-size:22px;
+      letter-spacing:-.03em;
+    }
+    .side-copy{
+      margin:0 0 28px;
+      color:#d1d5db;
+      font-size:14px;
+      line-height:1.7;
+    }
+
+    .category-list{
+      list-style:none;
+      padding:0;
+      margin:0;
+      display:grid;
+      gap:6px;
+    }
+    .category-list li{
+      padding:12px 0;
+      border-bottom:1px solid rgba(255,255,255,.11);
+      display:grid;
+      grid-template-columns:26px 1fr auto;
+      align-items:center;
+      gap:10px;
+      color:#cbd5e1;
+      font-size:13px;
+    }
+    .category-list li.active{color:white}
+    .category-list li.complete{color:#d7b46b}
+    .cat-number{
+      width:24px;height:24px;border-radius:50%;
+      display:inline-flex;align-items:center;justify-content:center;
+      border:1px solid rgba(255,255,255,.25);
+      font-size:11px;font-weight:900;
+    }
+    .category-list li.active .cat-number,
+    .category-list li.complete .cat-number{
+      border-color:#d7b46b;color:#d7b46b;
+    }
+    .cat-status{font-size:11px;color:#94a3b8}
+
+    .side-footer{
+      margin-top:34px;
+      font-size:12px;
+      line-height:1.65;
+      color:#cbd5e1;
+    }
+
+    .qualifier-main{
+      padding:42px 44px 36px;
+      min-height:720px;
+      display:flex;
+      flex-direction:column;
+    }
+
+    .progress-head{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:18px;
+      margin-bottom:28px;
+    }
+    .category-label{
+      margin:0 0 8px;
+      color:var(--gold-dark);
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      font-size:12px;
+    }
+    .step-indicator{
+      color:var(--muted);
+      font-size:13px;
+      white-space:nowrap;
+      padding-top:2px;
+    }
+    .progress-line{
+      height:4px;
+      width:100%;
+      background:#ece7df;
+      border-radius:999px;
+      overflow:hidden;
+      margin-bottom:38px;
+    }
+    .progress-fill{
+      width:0%;height:100%;background:var(--gold);transition:.28s ease;
+    }
+
+    .question-area{
+      flex:1;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      min-height:430px;
+    }
+
+    .question-title{
+      margin:0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight:500;
+      font-size:clamp(30px,4.4vw,48px);
+      line-height:1.04;
+      letter-spacing:-.045em;
+      max-width:760px;
+    }
+    .question-help{
+      margin:18px 0 0;
+      color:#596273;
+      line-height:1.75;
+      font-size:16px;
+      max-width:720px;
+    }
+
+    .answer{
+      margin-top:34px;
+      max-width:780px;
+    }
+
+    input, select, textarea{
+      width:100%;
+      border:0;
+      border-bottom:1px solid #cfc7ba;
+      background:transparent;
+      color:var(--ink);
+      padding:16px 2px;
+      font-size:20px;
+      outline:none;
+      transition:.18s ease;
+      border-radius:0;
+    }
+    textarea{min-height:116px;resize:vertical;font-size:17px;line-height:1.6;border:1px solid var(--line);padding:16px;border-radius:18px;background:#fffdf9}
+    input:focus, select:focus{border-bottom-color:var(--gold)}
+    textarea:focus{border-color:var(--gold)}
+    input::placeholder, textarea::placeholder{color:#a3a3a3}
+    input.currency-input{font-variant-numeric: tabular-nums;}
+
+    .select-wrap{position:relative}
+    .select-wrap select{appearance:none;cursor:pointer;padding-right:42px}
+    .select-wrap::after{content:"⌄";position:absolute;right:8px;top:14px;color:#9a6a2f;font-size:20px;pointer-events:none}
+    .other-detail{margin-top:18px}
+    .other-detail label{display:block;color:#7a5a2d;font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+    .other-detail textarea{min-height:96px}
+    .phone-preview{margin-top:12px;color:#596273;font-size:13px;line-height:1.5}
+    .phone-preview strong{color:var(--ink)}
+    .phone-combo{display:grid;grid-template-columns:200px minmax(0,1fr);gap:14px;align-items:end;max-width:780px}
+    .phone-field{display:flex;flex-direction:column;gap:8px}
+    .phone-field span{font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:#8a6330}
+    .phone-country-select,.phone-number-input{height:64px;border:1px solid var(--line);border-radius:18px;background:#fffdf9;padding:0 16px;font-size:18px;color:var(--ink);outline:none;transition:.18s ease}
+    .phone-country-select{appearance:auto;cursor:pointer;font-weight:850;padding-right:10px}
+    .phone-number-input{width:100%;font-variant-numeric:tabular-nums;border-bottom:1px solid var(--line)}
+    .phone-country-select:focus,.phone-number-input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(178,125,55,.10)}
+    .phone-final{margin-top:14px;padding:12px 14px;border:1px solid #eadfcf;border-radius:14px;background:#fffaf2;color:#596273;font-size:13px;line-height:1.45;max-width:780px}
+    .phone-final strong{color:var(--ink)}
+    .iti{width:100%;max-width:780px}
+    .iti .phone-number-input{width:100%;height:64px;border:1px solid var(--line);border-radius:18px;background:#fffdf9;font-size:18px;color:var(--ink);outline:none;transition:.18s ease}
+    .iti .phone-number-input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(178,125,55,.10)}
+    .iti__selected-country{border-radius:18px 0 0 18px;padding-left:14px}
+    .iti__country-list{border:1px solid var(--line);border-radius:14px;box-shadow:0 16px 40px rgba(17,24,39,.14);font-size:14px;max-width:360px}
+    .iti__country{padding:10px 12px}
+    .iti__country-name{font-weight:800;letter-spacing:.04em}
+    .iti__dial-code{color:#8b642b;font-weight:800}
+    .option.locked{cursor:not-allowed;opacity:.92}
+
+    .options{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:12px;
+      margin-top:4px;
+    }
+    .option{
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.7);
+      color:var(--ink);
+      border-radius:18px;
+      padding:16px 18px;
+      min-height:72px;
+      text-align:left;
+      font-weight:800;
+      cursor:pointer;
+      transition:.16s ease;
+      line-height:1.35;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      gap:5px;
+    }
+    .option-title{
+      display:block;
+      font-weight:850;
+      font-size:14px;
+      letter-spacing:-.01em;
+    }
+    .option-desc{
+      display:block;
+      color:#667085;
+      font-size:12px;
+      font-weight:600;
+      line-height:1.45;
+    }
+    .option:hover{border-color:var(--gold); transform:translateY(-1px)}
+    .option.selected{
+      border-color:var(--gold);
+      background:#fff7e8;
+      color:#6f4a14;
+      box-shadow:0 8px 18px rgba(184,138,68,.10);
+    }
+    .option.selected .option-desc{color:#805915;}
+
+    .hint-row{
+      margin-top:16px;
+      color:#6b7280;
+      font-size:13px;
+      line-height:1.6;
+    }
+
+    .validation{
+      display:none;
+      margin-top:18px;
+      color:var(--red);
+      background:#fff1f0;
+      border-left:3px solid var(--red);
+      padding:12px 14px;
+      border-radius:0 12px 12px 0;
+      font-size:13px;
+      font-weight:700;
+    }
+    .validation.show{display:block}
+
+    .nav-actions{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:14px;
+      padding-top:30px;
+      border-top:1px solid var(--line);
+      margin-top:30px;
+    }
+
+    .micro-note{
+      color:#707987;
+      font-size:12px;
+      line-height:1.6;
+      max-width:500px;
+    }
+
+    .summary{
+      display:none;
+    }
+    .summary.active{display:block}
+    .summary h2{
+      margin:0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight:500;
+      font-size:clamp(34px,4.7vw,54px);
+      line-height:1.02;
+      letter-spacing:-.05em;
+    }
+    .summary p{color:#596273;line-height:1.7}
+
+    .summary-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:12px;
+      margin:28px 0 20px;
+    }
+    .metric{
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:17px;
+      background:#fffdf9;
+    }
+    .metric span{
+      display:block;
+      color:#7a8290;
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      font-size:11px;
+      margin-bottom:10px;
+    }
+    .metric strong{font-size:22px;letter-spacing:-.025em}
+
+    .badges{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 24px}
+    .badge{border-radius:999px;border:1px solid #efd8a7;background:#fff9ed;color:#8a5205;padding:8px 11px;font-weight:900;font-size:12px}
+    .badge.green{border-color:#a9e7c8;background:#ecfdf3;color:#067647}
+    .badge.red{border-color:#fecdca;background:#fff1f0;color:#b42318}
+
+    .send-state{
+      display:none;
+      margin-top:16px;
+      padding:14px 16px;
+      border-radius:14px;
+      font-weight:800;
+      font-size:13px;
+      line-height:1.55;
+    }
+    .send-state.show{display:block}
+    .send-state.ok{background:#ecfdf3;color:#067647;border:1px solid #abefc6}
+    .send-state.warn{background:#fffaeb;color:#b54708;border:1px solid #fedf89}
+    .send-state.err{background:#fff1f0;color:#b42318;border:1px solid #fecdca}
+
+    .footer-note{
+      margin:0 auto 60px;
+      color:#667085;
+      font-size:13px;
+      line-height:1.75;
+      border-top:1px solid var(--line);
+      padding-top:22px;
+    }
+
+    .hidden{display:none!important}
+
+    @media (max-width: 940px){
+      .hero{grid-template-columns:1fr;gap:24px;padding-top:40px}
+      .process{grid-template-columns:1fr}
+      .process-item{border-right:0;border-bottom:1px solid var(--line)}
+      .process-item:last-child{border-bottom:0}
+      .qualifier{grid-template-columns:1fr}
+      .qualifier-side{min-height:auto;padding:28px}
+      .category-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 18px}
+      .qualifier-main{min-height:680px;padding:34px 26px 28px}
+      .options{grid-template-columns:1fr}
+      .summary-grid{grid-template-columns:1fr}
+    }
+
+    @media (max-width: 580px){
+      .page{width:min(100% - 22px, 1120px)}
+      h1{font-size:42px}
+      .hero-copy{font-size:16px}
+      .top-actions{flex-direction:column}
+      .btn{width:100%}
+      .category-list{grid-template-columns:1fr}
+      .progress-head{display:block}
+      .step-indicator{margin-top:8px;display:block}
+      .question-title{font-size:32px}
+      .nav-actions{flex-direction:column-reverse;align-items:stretch}
+      .micro-note{max-width:none;text-align:center}
+      input,select{font-size:18px}
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="page hero">
+      <div>
+        <p class="eyebrow">Precalificación hipotecaria · Florida</p>
+        <h1>Conoce tu ruta de financiamiento antes de comprar.</h1>
+        <p class="hero-copy">Completa una evaluación breve, guiada y ordenada. Al finalizar, un asesor podrá revisar tu perfil, documentación inicial, tipo de propiedad y alternativa hipotecaria preliminar.</p>
+        <div class="top-actions">
+          <a class="btn btn-primary" href="#formulario">Comenzar evaluación</a>
+          <a class="btn btn-secondary" href="#proceso">Ver cómo funciona</a>
+        </div>
+      </div>
+      <div class="hero-note">
+        <strong>Diseñado para compradores locales y extranjeros.</strong><br>
+        La evaluación considera compra, refinanciamiento, inversión, ingresos fuera de EE. UU., SSN, ITIN, pasaporte, LLC y fondos disponibles.
+      </div>
+    </section>
+
+    <section id="proceso" class="page process">
+      <div class="process-item">
+        <h3>1. Objetivo financiero</h3>
+        <p>Identificamos si buscas comprar, refinanciar o retirar capital de una propiedad en Florida.</p>
+      </div>
+      <div class="process-item">
+        <h3>2. Perfil del comprador</h3>
+        <p>Revisamos residencia, documentación, ingresos, fondos y capacidad de pago preliminar.</p>
+      </div>
+      <div class="process-item">
+        <h3>3. Revisión inicial</h3>
+        <p>Se prepara una ruta preliminar para que un asesor valide el producto hipotecario más adecuado.</p>
+      </div>
+    </section>
+
+    <section id="formulario" class="page qualifier">
+      <aside class="qualifier-side">
+        <div>
+          <h2 class="side-title">Evaluación guiada</h2>
+          <p class="side-copy">Cada categoría se presenta de forma individual para evitar confusión y capturar solo los datos relevantes según tu caso.</p>
+          <ol class="category-list" id="categoryList"></ol>
+        </div>
+        <p class="side-footer">Esta revisión no constituye aprobación final del préstamo. La aprobación queda sujeta a análisis documental, crédito, propiedad, tasación y criterios del entidad hipotecaria.</p>
+      </aside>
+
+      <section class="qualifier-main" aria-live="polite">
+        <div id="questionView">
+          <div class="progress-head">
+            <div>
+              <p class="category-label" id="categoryLabel">Categoría</p>
+              <div class="progress-line"><div class="progress-fill" id="progressFill"></div></div>
+            </div>
+            <span class="step-indicator" id="stepIndicator">Pregunta 1 de 1</span>
+          </div>
+
+          <div class="question-area">
+            <h2 class="question-title" id="questionTitle"></h2>
+            <p class="question-help" id="questionHelp"></p>
+            <div class="answer" id="answerContainer"></div>
+            <div class="validation" id="validationBox">Completa esta respuesta para continuar.</div>
+          </div>
+        </div>
+
+        <div class="summary" id="summaryView">
+          <p class="category-label">Resultado preliminar</p>
+          <h2>Resumen de precalificación preparado</h2>
+          <p id="summaryIntro"></p>
+          <div class="summary-grid" id="summaryGrid"></div>
+          <div class="badges" id="badges"></div>
+          <p id="routeText"></p>
+          <div class="send-state" id="sendState"></div>
+        </div>
+
+        <div class="nav-actions">
+          <button type="button" class="btn btn-secondary" id="backBtn">Atrás</button>
+          <p class="micro-note" id="microNote">Tus respuestas se utilizarán para preparar una revisión inicial con un asesor hipotecario.</p>
+          <button type="button" class="btn btn-primary" id="nextBtn">Continuar</button>
+          <button type="button" class="btn btn-primary hidden" id="submitBtn">Enviar evaluación</button>
+        </div>
+      </section>
+    </section>
+
+    <p class="page footer-note">La información ingresada es referencial y será revisada por un asesor. No reemplaza una solicitud hipotecaria formal ni garantiza aprobación, tasa, plazo o condiciones de financiamiento.</p>
+  </main>
+
+  <iframe name="hiddenWebhookFrame" id="hiddenWebhookFrame" class="hidden" title="envio"></iframe>
+
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@latest/build/js/intlTelInput.min.js"></script>
+  <script>
+    const WEBHOOK_URL = "https://n8n.sotomayorconsulting.com/webhook/precalificacion-credito";
+    const FORM_VERSION = "v16";
+
+    const categories = [
+      { id:"contacto", label:"Contacto", description:"Datos para coordinar la revisión." },
+      { id:"objetivo", label:"Objetivo", description:"Compra o refinanciamiento." },
+      { id:"propiedad", label:"Propiedad", description:"Datos principales del inmueble." },
+      { id:"comprador", label:"Comprador", description:"Documentos y forma de compra." },
+      { id:"ingresos", label:"Ingresos", description:"Actividad e ingresos declarados." },
+      { id:"fondos", label:"Fondos", description:"Recursos disponibles para la operación." },
+      { id:"credito", label:"Crédito", description:"Crédito y deudas actuales." },
+      { id:"cierre", label:"Cierre", description:"Próximo paso y autorización." }
+    ];
+
+    const COUNTRY_OPTIONS = [
+      "Estados Unidos", "México", "Argentina", "Ecuador", "Colombia", "Chile", "Perú", "Brasil",
+      "Uruguay", "Paraguay", "Bolivia", "Venezuela", "Panamá", "Costa Rica", "República Dominicana",
+      "España", "Canadá", "Otro"
+    ];
+
+    const PHONE_RULES = {
+      "Estados Unidos": { flag:"🇺🇸", iso:"US", code:"1", localLength:10, example:"+1 305 000 0000" },
+      "Canadá": { flag:"🇨🇦", iso:"CA", code:"1", localLength:10, example:"+1 416 000 0000" },
+      "México": { flag:"🇲🇽", iso:"MX", code:"52", whatsappPrefix:"1", localLength:10, example:"+52 1 55 0000 0000" },
+      "Argentina": { flag:"🇦🇷", iso:"AR", code:"54", whatsappPrefix:"9", minLength:10, example:"+54 9 11 0000 0000" },
+      "Ecuador": { flag:"🇪🇨", iso:"EC", code:"593", minLength:9, example:"+593 99 000 0000" },
+      "Colombia": { flag:"🇨🇴", iso:"CO", code:"57", localLength:10, example:"+57 300 000 0000" },
+      "Chile": { flag:"🇨🇱", iso:"CL", code:"56", localLength:9, example:"+56 9 0000 0000" },
+      "Perú": { flag:"🇵🇪", iso:"PE", code:"51", localLength:9, example:"+51 900 000 000" },
+      "Brasil": { flag:"🇧🇷", iso:"BR", code:"55", minLength:10, example:"+55 11 90000 0000" },
+      "Uruguay": { flag:"🇺🇾", iso:"UY", code:"598", minLength:8, example:"+598 99 000 000" },
+      "Paraguay": { flag:"🇵🇾", iso:"PY", code:"595", minLength:9, example:"+595 981 000000" },
+      "Bolivia": { flag:"🇧🇴", iso:"BO", code:"591", minLength:8, example:"+591 70000000" },
+      "Venezuela": { flag:"🇻🇪", iso:"VE", code:"58", localLength:10, example:"+58 412 0000000" },
+      "Panamá": { flag:"🇵🇦", iso:"PA", code:"507", minLength:8, example:"+507 6000 0000" },
+      "Costa Rica": { flag:"🇨🇷", iso:"CR", code:"506", localLength:8, example:"+506 8000 0000" },
+      "República Dominicana": { flag:"🇩🇴", iso:"DO", code:"1", localLength:10, example:"+1 809 000 0000" },
+      "España": { flag:"🇪🇸", iso:"ES", code:"34", localLength:9, example:"+34 600 000 000" }
+    };
+
+    const questions = [
+      {
+        id:"firstName", category:"contacto", type:"text", required:true,
+        title:"¿Cómo te llamas?", help:"Indica tu nombre para que el asesor pueda identificar tu solicitud.", placeholder:"Tu nombre"
+      },
+      {
+        id:"lastName", category:"contacto", type:"text", required:true,
+        title:"¿Cuál es tu apellido?", help:"Agrega tu apellido para completar tus datos de contacto.", placeholder:"Tu apellido"
+      },
+      {
+        id:"email", category:"contacto", type:"email", required:true,
+        title:"¿A qué correo podemos escribirte?", help:"Usaremos este correo para enviarte la confirmación o los próximos pasos.", placeholder:"tu_correo@dominio.com"
+      },
+      {
+        id:"phone", category:"contacto", type:"phone", required:true,
+        title:"¿Cuál es tu número de WhatsApp?", help:"Selecciona el código de país y escribe tu número. Lo formatearemos automáticamente según el país seleccionado.", placeholder:"Número local"
+      },
+      {
+        id:"residenceCountry", category:"contacto", type:"country", required:true,
+        title:"¿En qué país vives actualmente?", help:"Esto nos ayuda a orientar la revisión según tu ubicación y documentación disponible.", placeholder:"Selecciona un país"
+      },
+      {
+        id:"preferredLanguage", category:"contacto", type:"radio", required:true,
+        title:"¿En qué idioma prefieres que te contacten?", help:"Selecciona el idioma en el que te sientas más cómodo para la revisión.",
+        options:["Español","Inglés","Ambos"]
+      },
+
+      {
+        id:"loanPurpose", category:"objetivo", type:"radio", required:true,
+        title:"¿Qué necesitas hacer?", help:"Elige la opción que mejor describe tu caso.",
+        options:["Compra de vivienda","Refinanciamiento"]
+      },
+      {
+        id:"purchaseTimeline", category:"objetivo", type:"radio", required:true,
+        visible:data => data.loanPurpose === "Compra de vivienda",
+        title:"¿Cuándo te gustaría comprar la propiedad?", help:"Esta respuesta ayuda a priorizar la revisión y los documentos que podrían solicitarse.",
+        options:["Inmediatamente, tengo contrato firmado","Estoy por hacer una oferta","Dentro de 30 días","En 2 a 3 meses","En 3 a 6 meses","Más de 6 meses","Aún no lo decido"]
+      },
+      {
+        id:"hasSelectedProperty", category:"objetivo", type:"radio", required:true,
+        visible:data => data.loanPurpose === "Compra de vivienda",
+        title:"¿Ya tienes una propiedad en vista?", help:"Si ya tienes una dirección o una oferta en proceso, la revisión puede ser más precisa.",
+        options:["Sí, ya tengo dirección","Sí, pero aún no tengo contrato","No, estoy buscando opciones","Solo quiero conocer mi capacidad de compra"]
+      },
+      {
+        id:"targetCity", category:"objetivo", type:"text", required:false,
+        visible:data => data.loanPurpose === "Compra de vivienda",
+        title:"¿En qué ciudad o zona de Florida estás buscando?", help:"La zona ayuda a estimar costos aproximados como impuestos, seguro y asociación.", placeholder:"Ciudad o zona"
+      },
+      {
+        id:"workingWithRealtor", category:"objetivo", type:"radio", required:true,
+        visible:data => data.loanPurpose === "Compra de vivienda",
+        title:"¿Ya cuentas con un agente de bienes raíces?", help:"Esto ayuda a coordinar mejor los tiempos si necesitas una carta de precalificación.",
+        options:["Sí","No","Aún no, necesito orientación"]
+      },
+      {
+        id:"refiGoal", category:"objetivo", type:"radio", required:true,
+        visible:data => data.loanPurpose === "Refinanciamiento",
+        title:"¿Qué buscas lograr con el refinanciamiento?", help:"Selecciona el motivo principal de tu solicitud.",
+        options:["Bajar mi pago mensual","Cambiar el plazo del préstamo","Retirar capital de la propiedad","Consolidar deudas","Financiar mejoras","Otro"]
+      },
+
+      {
+        id:"propertyType", category:"propiedad", type:"radio", required:true,
+        title:"¿Qué tipo de propiedad es?", help:"Selecciona la opción que mejor describe la propiedad.",
+        options:["Casa unifamiliar","Multifamiliar de 2 a 4 unidades","Condominio","Townhouse","Vivienda prefabricada","Otro"]
+      },
+      {
+        id:"propertyUse", category:"propiedad", type:"radio", required:true,
+        title:"¿Para qué usarás la propiedad?", help:"El uso de la propiedad ayuda a orientar el tipo de financiamiento disponible.",
+        options:["Residencia primaria","Casa de vacaciones","Propiedad de inversión"]
+      },
+      {
+        id:"propertyAddress", category:"propiedad", type:"text", required:false,
+        visible:data => data.hasSelectedProperty === "Sí, ya tengo dirección" || data.loanPurpose === "Refinanciamiento",
+        title:"¿Cuál es la dirección de la propiedad?", help:"Escríbela si ya la tienes. Si todavía no la conoces, puedes continuar sin completarla.", placeholder:"Dirección, ciudad o referencia"
+      },
+      {
+        id:"purchasePriceKnown", category:"propiedad", type:"radio", required:true,
+        visible:data => data.loanPurpose === "Compra de vivienda",
+        title:"¿Ya tienes una idea del valor de compra?", help:"Puedes continuar aunque todavía no tengas el valor exacto.",
+        options:["Sí, tengo un valor estimado","No estoy seguro del valor de compra"]
+      },
+      {
+        id:"estimatedPurchasePrice", minAmount:50000, category:"propiedad", type:"currency", required:true,
+        visible:data => data.loanPurpose === "Compra de vivienda" && data.purchasePriceKnown === "Sí, tengo un valor estimado",
+        title:"¿Cuál sería el valor aproximado de la propiedad?", help:"Escribe un monto estimado en dólares. No tiene que ser exacto.", placeholder:"$350,000"
+      },
+      {
+        id:"requestedLoanAmount", minAmount:50000, category:"propiedad", type:"currency", required:true,
+        visible:data => data.loanPurpose === "Compra de vivienda" && data.purchasePriceKnown === "No estoy seguro del valor de compra",
+        title:"¿Cuánto necesitarías financiar aproximadamente?", help:"Si aún no tienes definido el valor de compra, indica el monto que te gustaría solicitar.", placeholder:"$250,000"
+      },
+      {
+        id:"downPaymentAmount", minAmount:50000, category:"propiedad", type:"currency", required:true,
+        visible:data => data.loanPurpose === "Compra de vivienda",
+        title:"¿Cuánto podrías dar como pago inicial?", help:"Indica el monto aproximado que tienes pensado aportar al inicio.", placeholder:"$70,000"
+      },
+      {
+        id:"currentPropertyValue", minAmount:50000, category:"propiedad", type:"currency", required:true,
+        visible:data => data.loanPurpose === "Refinanciamiento",
+        title:"¿Cuánto estimas que vale actualmente tu propiedad?", help:"Escribe un valor aproximado en dólares.", placeholder:"$400,000"
+      },
+      {
+        id:"currentMortgageBalance", minAmount:50000, category:"propiedad", type:"currency", required:true,
+        visible:data => data.loanPurpose === "Refinanciamiento",
+        title:"¿Cuánto debes actualmente de la hipoteca?", help:"Indica el saldo aproximado pendiente de pago.", placeholder:"$250,000"
+      },
+      {
+        id:"requestedRefiLoanAmount", minAmount:50000, category:"propiedad", type:"currency", required:false,
+        visible:data => data.loanPurpose === "Refinanciamiento",
+        title:"¿Qué monto total te gustaría refinanciar?", help:"Si no lo sabes, puedes dejarlo en blanco y se estimará con la información anterior.", placeholder:"$275,000"
+      },
+      {
+        id:"currentMonthlyPayment", category:"propiedad", type:"currency", required:false,
+        visible:data => data.loanPurpose === "Refinanciamiento",
+        title:"¿Cuánto pagas actualmente al mes por la hipoteca?", help:"Este dato permite comparar tu situación actual con una posible nueva estructura.", placeholder:"$2,200"
+      },
+      {
+        id:"cashOutAmount", minAmount:50000, category:"propiedad", type:"currency", required:true,
+        visible:data => data.refiGoal === "Retirar capital de la propiedad",
+        title:"¿Cuánto dinero te gustaría retirar de la propiedad?", help:"Indica un monto aproximado del capital que deseas liberar.", placeholder:"$50,000"
+      },
+      {
+        id:"hasHOA", category:"propiedad", type:"radio", required:true,
+        title:"¿La propiedad tiene HOA o asociación de propietarios?", help:"Si existe una cuota mensual, se considera dentro del pago estimado.",
+        options:["Sí","No","No estoy seguro"]
+      },
+      {
+        id:"hoaAmount", category:"propiedad", type:"currency", required:false,
+        visible:data => data.hasHOA === "Sí",
+        title:"¿Cuánto se paga mensualmente de HOA?", help:"Si conoces el monto, escríbelo de forma aproximada.", placeholder:"$300"
+      },
+      {
+        id:"estimatedRent", category:"propiedad", type:"currency", required:false,
+        visible:data => data.propertyUse === "Propiedad de inversión",
+        title:"¿Cuánto podría generar la propiedad en renta mensual?", help:"Si la propiedad será de inversión, indica una renta mensual aproximada.", placeholder:"$2,500"
+      },
+
+      {
+        id:"usStatus", category:"comprador", type:"radio", required:true,
+        title:"¿Cuál opción describe mejor tu situación frente a Estados Unidos?", help:"Esto ayuda a orientar la revisión documental de forma adecuada.",
+        options:["Ciudadano estadounidense","Residente permanente / Green Card","Visa vigente","Vivo fuera de EE. UU. y compraré como extranjero"]
+      },
+      {
+        id:"identificationType", category:"comprador", type:"radio", required:true,
+        title:"¿Qué documentación principal tienes disponible?", help:"Para esta revisión el pasaporte es obligatorio. Selecciona la combinación de documentos que puedes presentar.",
+        options:["Pasaporte","Pasaporte + SSN","Pasaporte + ITIN","Pasaporte + SSN e ITIN"]
+      },
+      {
+        id:"hasUSVisa", category:"comprador", type:"radio", required:false,
+        visible:data => data.usStatus === "Vivo fuera de EE. UU. y compraré como extranjero" || data.identificationType === "Pasaporte",
+        title:"¿Tienes visa vigente para entrar a Estados Unidos?", help:"Esta información puede ser útil para revisar alternativas disponibles para compradores extranjeros.",
+        options:["Sí","No","En proceso","No aplica"]
+      },
+      {
+        id:"buyingEntity", category:"comprador", type:"radio", required:true,
+        title:"¿Comprarías a tu nombre o a nombre de una empresa?", help:"Si compras mediante LLC u otra empresa, el asesor puede pedir documentación adicional.",
+        options:["A nombre personal","A nombre de una LLC","A nombre de otra empresa","No estoy seguro"]
+      },
+
+      {
+        id:"employmentStatus", category:"ingresos", type:"radio", required:true,
+        title:"¿Cuál es tu actividad laboral principal?", help:"Esto ayuda a entender cómo podrían respaldarse tus ingresos.",
+        options:["Empleado dependiente","Trabajador independiente","Dueño de negocio","Inversionista","Jubilado","Otro"]
+      },
+      {
+        id:"incomeCountry", category:"ingresos", type:"country", required:true,
+        title:"¿En qué país generas la mayor parte de tus ingresos?", help:"Si tus ingresos vienen de fuera de Estados Unidos, podrían solicitarse respaldos adicionales.", placeholder:"Selecciona un país"
+      },
+      {
+        id:"monthlyIncome", category:"ingresos", type:"currency", required:true,
+        title:"¿Cuál es tu ingreso mensual aproximado?", help:"Escribe un monto mensual aproximado antes de impuestos, en dólares.", placeholder:"$8,000"
+      },
+      {
+        id:"incomeDocumentation", category:"ingresos", type:"radio", required:true,
+        title:"¿Cómo podrías respaldar tus ingresos?", help:"Selecciona la opción que más se ajusta a los documentos que puedes entregar.",
+        options:["Recibos de sueldo","Declaraciones de impuestos","Estados bancarios","Estados financieros de mi empresa","Parcialmente","No estoy seguro"]
+      },
+      {
+        id:"activityTime", category:"ingresos", type:"radio", required:true,
+        title:"¿Cuánto tiempo llevas en tu trabajo o negocio actual?", help:"La estabilidad de la actividad ayuda a orientar la revisión.",
+        options:["Menos de 6 meses","6 a 12 meses","1 a 2 años","Más de 2 años","Más de 5 años"]
+      },
+
+      {
+        id:"fundsAvailable", category:"fondos", type:"radio", required:true,
+        title:"¿Ya tienes disponibles los fondos para la operación?", help:"Esto ayuda a saber si estás listo para avanzar o si estás en etapa de planificación.",
+        options:["Sí, disponibles en cuenta bancaria","Parcialmente","Los tendré antes del cierre","Provienen de venta de otra propiedad","Provienen de regalo familiar","No estoy seguro"]
+      },
+      {
+        id:"availableAssets", minAmount:50000, category:"fondos", type:"currency", required:true,
+        title:"¿Cuánto dinero tienes disponible actualmente?", help:"Indica el monto aproximado que podrías usar para pago inicial, costos y respaldo financiero.", placeholder:"$100,000"
+      },
+      {
+        id:"fundsCountry", category:"fondos", type:"country", required:true,
+        title:"¿En qué país están principalmente esos fondos?", help:"Esto ayuda a orientar la documentación bancaria y posibles transferencias internacionales.", placeholder:"Selecciona un país"
+      },
+      {
+        id:"bankStatementsAvailable", category:"fondos", type:"radio", required:true,
+        title:"¿Podrías entregar estados bancarios recientes?", help:"Estos documentos suelen ayudar a validar fondos y movimientos bancarios.",
+        options:["Sí","No","Parcialmente","No estoy seguro"]
+      },
+
+      {
+        id:"usCreditHistory", category:"credito", type:"radio", required:true,
+        title:"¿Tienes historial de crédito en Estados Unidos?", help:"Si no tienes historial local, el asesor puede revisar alternativas disponibles.",
+        options:["Sí","No","No estoy seguro"]
+      },
+      {
+        id:"creditScore", category:"credito", type:"radio", required:false,
+        visible:data => data.usCreditHistory === "Sí" || data.usCreditHistory === "No estoy seguro",
+        title:"¿Cuál es tu puntaje de crédito aproximado en Estados Unidos?", help:"Puedes elegir una opción aproximada si no conoces el número exacto.",
+        options:["Menos de 620","620 a 679","680 a 719","720 a 759","760 o más","No sé"]
+      },
+      {
+        id:"monthlyDebt", category:"credito", type:"currency", required:true,
+        title:"¿Cuánto pagas al mes en deudas?", help:"Incluye pagos mensuales de tarjetas, autos, préstamos u otras obligaciones.", placeholder:"$1,000"
+      },
+      {
+        id:"hasProperties", category:"credito", type:"radio", required:true,
+        title:"¿Actualmente tienes alguna propiedad a tu nombre?", help:"Esto ayuda a revisar si existen otras obligaciones o ingresos por renta.",
+        options:["Sí, en Estados Unidos","Sí, fuera de Estados Unidos","Sí, en ambos","No"]
+      },
+      {
+        id:"rentalIncome", category:"credito", type:"currency", required:false,
+        visible:data => data.hasProperties && data.hasProperties !== "No",
+        title:"¿Recibes ingresos mensuales por alquiler o renta?", help:"Si aplica, indica un monto mensual aproximado.", placeholder:"$1,500"
+      },
+      {
+        id:"creditEvents", category:"credito", type:"radio", required:true,
+        title:"¿Has tenido bancarrota, foreclosure o venta corta?", help:"Esto no descarta automáticamente tu caso, pero debe ser revisado por un asesor.",
+        options:["No","Sí, bancarrota","Sí, foreclosure","Sí, short sale","No estoy seguro"]
+      },
+
+      {
+        id:"documentsAvailable", category:"cierre", type:"checkbox", required:true, requiredOptions:["Pasaporte vigente (obligatorio)"],
+        title:"¿Qué documentos podrías entregar al inicio?", help:"El pasaporte vigente es obligatorio. Además, selecciona los documentos que ya tienes o que podrías conseguir para la revisión.",
+        options:["Pasaporte vigente (obligatorio)","Visa","Green Card","SSN","ITIN","Estados bancarios personales","Estados bancarios de empresa","Declaraciones de impuestos","Recibos de sueldo","Carta laboral","Contrato de compra","Información de la propiedad","No tengo documentos todavía"]
+      },
+      {
+        id:"mainObjective", category:"cierre", type:"radio", required:true,
+        title:"¿Qué quieres lograr ahora?", help:"Esta respuesta ayuda al asesor a enfocarse en tu siguiente paso.",
+        options:["Saber cuánto puedo comprar","Obtener carta de precalificación","Comparar opciones de préstamo","Comprar como extranjero","Refinanciar","Retirar capital","Invertir en Florida"]
+      },
+      {
+        id:"contactTime", category:"cierre", type:"radio", required:true,
+        title:"¿Cuándo prefieres que te contacte un asesor?", help:"Selecciona el momento que te resulte más cómodo.",
+        options:["Hoy","Mañana","Esta semana","Prefiero elegir fecha y hora"]
+      },
+      {
+        id:"consent", category:"cierre", type:"radio", required:true,
+        title:"Confirmación para enviar tu información", help:"Al aceptar, autorizas que un asesor te contacte para una revisión inicial. Esta precalificación no constituye aprobación final del préstamo.",
+        options:["Acepto","No acepto"]
+      }
+    ];
+
+    const OPTION_DESCRIPTIONS = {
+      phoneCountry: Object.fromEntries(COUNTRY_OPTIONS.map(country => [country, country === "Otro" ? "Selecciona esta opción si tu país no aparece en la lista." : `Se usará el código internacional correspondiente a ${country}.`])),
+      residenceCountry: Object.fromEntries(COUNTRY_OPTIONS.map(country => [country, country === "Otro" ? "Indica el país donde resides actualmente." : `Permite orientar la revisión según residencia en ${country}.`])),
+      incomeCountry: Object.fromEntries(COUNTRY_OPTIONS.map(country => [country, country === "Otro" ? "Indica el país donde generas tus ingresos." : `Permite revisar documentos de ingresos generados en ${country}.`])),
+      fundsCountry: Object.fromEntries(COUNTRY_OPTIONS.map(country => [country, country === "Otro" ? "Indica el país donde se encuentran tus fondos." : `Ayuda a validar fondos ubicados en ${country}.`])),
+      preferredLanguage: {
+        "Español": "Atención y seguimiento en español.",
+        "Inglés": "Atención y comunicación en inglés.",
+        "Ambos": "Puedes recibir apoyo en cualquiera de los dos idiomas."
+      },
+      loanPurpose: {
+        "Compra de vivienda": "Para adquirir una propiedad nueva o de inversión en Florida.",
+        "Refinanciamiento": "Para revisar condiciones de una hipoteca existente."
+      },
+      purchaseTimeline: {
+        "Inmediatamente, tengo contrato firmado": "Tu caso requiere revisión prioritaria por tiempos de cierre.",
+        "Estoy por hacer una oferta": "Puede ayudarte a preparar una carta de precalificación.",
+        "Dentro de 30 días": "Estás en una etapa activa de búsqueda o decisión.",
+        "En 2 a 3 meses": "Buen momento para ordenar documentos y capacidad de compra.",
+        "En 3 a 6 meses": "Permite planificar fondos, crédito y próximos pasos.",
+        "Más de 6 meses": "Etapa temprana para orientación y preparación financiera.",
+        "Aún no lo decido": "Sirve para conocer tu capacidad antes de avanzar."
+      },
+      hasSelectedProperty: {
+        "Sí, ya tengo dirección": "Permite estimar impuestos, seguro y costos con mayor precisión.",
+        "Sí, pero aún no tengo contrato": "Ayuda a revisar si puedes avanzar con una oferta.",
+        "No, estoy buscando opciones": "Se puede trabajar con un rango de precio objetivo.",
+        "Solo quiero conocer mi capacidad de compra": "Ideal para definir presupuesto antes de buscar propiedad."
+      },
+      workingWithRealtor: {
+        "Sí": "Ya existe coordinación comercial para avanzar con la compra.",
+        "No": "Puedes recibir orientación antes de iniciar la búsqueda.",
+        "Aún no, necesito orientación": "Un asesor puede ayudarte a ordenar el siguiente paso."
+      },
+      refiGoal: {
+        "Bajar mi pago mensual": "Busca mejorar flujo mensual si las condiciones lo permiten.",
+        "Cambiar el plazo del préstamo": "Permite evaluar una estructura con plazo diferente.",
+        "Retirar capital de la propiedad": "Revisa si puedes liberar parte del valor acumulado.",
+        "Consolidar deudas": "Evalúa si conviene reorganizar obligaciones financieras.",
+        "Financiar mejoras": "Orientado a usar capital para remodelación o mejoras.",
+        "Otro": "Permite revisar un objetivo particular con el asesor."
+      },
+      propertyType: {
+        "Casa unifamiliar": "Vivienda independiente para una familia, generalmente con terreno propio.",
+        "Multifamiliar de 2 a 4 unidades": "Propiedad con varias unidades residenciales en una misma estructura.",
+        "Condominio": "Unidad dentro de una comunidad con administración y posibles cuotas HOA.",
+        "Townhouse": "Vivienda adosada, usualmente dentro de una comunidad residencial.",
+        "Vivienda prefabricada": "Construcción prefabricada o modular que puede requerir revisión específica.",
+        "Otro": "Selecciona esta opción si la propiedad no encaja en las anteriores."
+      },
+      propertyUse: {
+        "Residencia primaria": "Propiedad donde vivirás de forma principal.",
+        "Casa de vacaciones": "Segunda vivienda para uso personal o familiar ocasional.",
+        "Propiedad de inversión": "Inmueble destinado principalmente a generar renta."
+      },
+      purchasePriceKnown: {
+        "Sí, tengo un valor estimado": "Usaremos ese monto para calcular una referencia inicial.",
+        "No estoy seguro del valor de compra": "Podemos partir desde el monto que deseas financiar."
+      },
+      hasHOA: {
+        "Sí": "La cuota mensual se considera dentro del análisis de pago.",
+        "No": "No se incluirá una cuota de asociación en el cálculo inicial.",
+        "No estoy seguro": "El asesor podrá validarlo según la propiedad o comunidad."
+      },
+      usStatus: {
+        "Ciudadano estadounidense": "Puede aplicar a rutas tradicionales según crédito e ingresos.",
+        "Residente permanente / Green Card": "Permite revisar alternativas similares a comprador local.",
+        "Visa vigente": "Se evalúa con documentación migratoria y financiera disponible.",
+        "Vivo fuera de EE. UU. y compraré como extranjero": "Ruta orientada a comprador extranjero o foreign national."
+      },
+      identificationType: {
+        "Pasaporte": "Documento base obligatorio para la revisión inicial.",
+        "Pasaporte + SSN": "Permite revisar identidad, pasaporte e historial de crédito en EE. UU.",
+        "Pasaporte + ITIN": "Útil para perfiles con identificación tributaria en EE. UU.",
+        "Pasaporte + SSN e ITIN": "Indica documentación amplia para revisión financiera."
+      },
+      hasUSVisa: {
+        "Sí": "Puede facilitar la revisión documental del comprador extranjero.",
+        "No": "El caso puede requerir revisión específica según producto.",
+        "En proceso": "Se puede orientar la revisión con la documentación disponible.",
+        "No aplica": "Úsalo si tu caso no requiere esta información."
+      },
+      buyingEntity: {
+        "A nombre personal": "La compra se revisa con tus datos personales.",
+        "A nombre de una LLC": "Puede requerir documentos corporativos y revisión adicional.",
+        "A nombre de otra empresa": "Debe validarse la estructura y documentos de la entidad.",
+        "No estoy seguro": "El asesor puede ayudarte a definir la mejor estructura."
+      },
+      employmentStatus: {
+        "Empleado dependiente": "Ingresos respaldados normalmente con salario o carta laboral.",
+        "Trabajador independiente": "Puede requerir estados bancarios o declaraciones.",
+        "Dueño de negocio": "Se revisan ingresos personales y/o información de la empresa.",
+        "Inversionista": "Se evalúan activos, rentas y fuentes de ingreso.",
+        "Jubilado": "Se revisan pensiones, ahorros u otros ingresos estables.",
+        "Otro": "Permite explicar una fuente de ingresos distinta."
+      },
+      incomeDocumentation: {
+        "Recibos de sueldo": "Útil para validar ingresos como empleado.",
+        "Declaraciones de impuestos": "Ayuda a respaldar ingresos anuales declarados.",
+        "Estados bancarios": "Puede servir para perfiles independientes o extranjeros.",
+        "Estados financieros de mi empresa": "Aplica cuando los ingresos provienen de negocio propio.",
+        "Parcialmente": "Permite revisar alternativas con documentación incompleta.",
+        "No estoy seguro": "El asesor te indicará qué respaldo conviene usar."
+      },
+      activityTime: {
+        "Menos de 6 meses": "Requiere revisar continuidad y estabilidad del ingreso.",
+        "6 a 12 meses": "Puede necesitar respaldo adicional de historial laboral.",
+        "1 a 2 años": "Aporta mayor contexto de estabilidad.",
+        "Más de 2 años": "Suele fortalecer la revisión del perfil.",
+        "Más de 5 años": "Refleja trayectoria estable en la actividad declarada."
+      },
+      fundsAvailable: {
+        "Sí, disponibles en cuenta bancaria": "Fondos líquidos listos para documentar.",
+        "Parcialmente": "Existe avance, pero puede faltar completar recursos.",
+        "Los tendré antes del cierre": "Requiere revisar plazo y origen esperado de fondos.",
+        "Provienen de venta de otra propiedad": "Debe validarse la disponibilidad al momento del cierre.",
+        "Provienen de regalo familiar": "Puede requerir documentación de respaldo del regalo.",
+        "No estoy seguro": "Permite estimar una brecha de fondos inicial."
+      },
+      bankStatementsAvailable: {
+        "Sí": "Facilita validar fondos y movimientos recientes.",
+        "No": "Puede requerir una alternativa documental.",
+        "Parcialmente": "Se revisa si los documentos disponibles son suficientes.",
+        "No estoy seguro": "El asesor puede indicar qué estados serían necesarios."
+      },
+      usCreditHistory: {
+        "Sí": "Permite estimar la revisión con crédito local.",
+        "No": "Puede orientar el caso a productos para extranjeros o alternativos.",
+        "No estoy seguro": "Se puede confirmar durante la revisión inicial."
+      },
+      creditScore: {
+        "Menos de 620": "Puede requerir revisión específica o alternativas.",
+        "620 a 679": "Perfil que podría necesitar análisis de condiciones.",
+        "680 a 719": "Rango medio para revisar opciones disponibles.",
+        "720 a 759": "Rango favorable para evaluación inicial.",
+        "760 o más": "Rango sólido para comparar alternativas.",
+        "No sé": "El asesor puede orientar cómo verificarlo."
+      },
+      hasProperties: {
+        "Sí, en Estados Unidos": "Se consideran pagos, rentas y obligaciones locales.",
+        "Sí, fuera de Estados Unidos": "Puede requerir respaldos internacionales.",
+        "Sí, en ambos": "El análisis considera obligaciones en ambos mercados.",
+        "No": "No se suman propiedades existentes al análisis inicial."
+      },
+      creditEvents: {
+        "No": "No declaras eventos crediticios relevantes.",
+        "Sí, bancarrota": "Requiere revisar fecha, cierre y documentación.",
+        "Sí, foreclosure": "Debe analizarse el antecedente y el tiempo transcurrido.",
+        "Sí, short sale": "Se revisa el antecedente antes de definir opciones.",
+        "No estoy seguro": "El asesor puede ayudarte a validar este punto."
+      },
+      documentsAvailable: {
+        "Pasaporte vigente (obligatorio)": "Documento base requerido para iniciar la revisión.",
+        "Visa": "Respaldo migratorio si aplica a tu caso.",
+        "Green Card": "Documento de residencia permanente.",
+        "SSN": "Permite revisar crédito e identidad en EE. UU.",
+        "ITIN": "Identificación tributaria útil en ciertos perfiles.",
+        "Estados bancarios personales": "Ayudan a validar fondos e ingresos personales.",
+        "Estados bancarios de empresa": "Útiles si los recursos provienen de negocio propio.",
+        "Declaraciones de impuestos": "Respaldan ingresos declarados y consistencia financiera.",
+        "Recibos de sueldo": "Respaldan ingresos de empleo dependiente.",
+        "Carta laboral": "Confirma empleo, cargo e ingresos cuando aplica.",
+        "Contrato de compra": "Permite revisar tiempos, precio y condiciones de la operación.",
+        "Información de la propiedad": "Ayuda a estimar impuestos, seguro y costos asociados.",
+        "No tengo documentos todavía": "El asesor puede indicarte por dónde comenzar."
+      },
+      mainObjective: {
+        "Saber cuánto puedo comprar": "Busca definir capacidad antes de elegir propiedad.",
+        "Obtener carta de precalificación": "Útil para presentar oferta o avanzar con realtor.",
+        "Comparar opciones de préstamo": "Permite revisar posibles rutas de financiamiento.",
+        "Comprar como extranjero": "Enfocado en documentación e ingresos fuera de EE. UU.",
+        "Refinanciar": "Orientado a revisar una propiedad existente.",
+        "Retirar capital": "Evalúa si puedes liberar equity acumulado.",
+        "Invertir en Florida": "Enfocado en compra para renta o inversión."
+      },
+      contactTime: {
+        "Hoy": "Indica alta prioridad para contacto rápido.",
+        "Mañana": "Permite coordinar seguimiento en corto plazo.",
+        "Esta semana": "Opción flexible para organizar una llamada.",
+        "Prefiero elegir fecha y hora": "Te permite coordinar según tu disponibilidad."
+      },
+      consent: {
+        "Acepto": "Autoriza el contacto para una revisión inicial.",
+        "No acepto": "Sin autorización no se enviará la solicitud al asesor."
+      }
+    };
+
+    let data = {};
+    let currentIndex = 0;
+    let summaryMode = false;
+    let lastPayload = null;
+
+    const categoryList = document.getElementById("categoryList");
+    const categoryLabel = document.getElementById("categoryLabel");
+    const stepIndicator = document.getElementById("stepIndicator");
+    const progressFill = document.getElementById("progressFill");
+    const questionTitle = document.getElementById("questionTitle");
+    const questionHelp = document.getElementById("questionHelp");
+    const answerContainer = document.getElementById("answerContainer");
+    const validationBox = document.getElementById("validationBox");
+    const backBtn = document.getElementById("backBtn");
+    const nextBtn = document.getElementById("nextBtn");
+    const submitBtn = document.getElementById("submitBtn");
+    const questionView = document.getElementById("questionView");
+    const summaryView = document.getElementById("summaryView");
+    const summaryIntro = document.getElementById("summaryIntro");
+    const summaryGrid = document.getElementById("summaryGrid");
+    const badges = document.getElementById("badges");
+    const routeText = document.getElementById("routeText");
+    const sendState = document.getElementById("sendState");
+    const microNote = document.getElementById("microNote");
+
+    function money(value){
+      const num = Number(value || 0);
+      if (!num || num <= 0) return "Pendiente";
+      return new Intl.NumberFormat("en-US",{style:"currency",currency:"USD",maximumFractionDigits:0}).format(num);
+    }
+
+    function percent(value){
+      if (!Number.isFinite(value) || value <= 0) return "Pendiente";
+      return `${Math.round(value)}%`;
+    }
+
+    function activeQuestions(){
+      return questions.filter(q => !q.visible || q.visible(data));
+    }
+
+    function currentQuestion(){
+      return activeQuestions()[currentIndex];
+    }
+
+    function renderCategories(){
+      const active = activeQuestions();
+      const current = active[currentIndex];
+      categoryList.innerHTML = categories.map((cat, idx) => {
+        const catQuestions = active.filter(q => q.category === cat.id);
+        const answered = catQuestions.filter(q => isAnswered(q)).length;
+        const total = catQuestions.length;
+        const activeClass = current && current.category === cat.id ? "active" : "";
+        const completeClass = total > 0 && answered === total ? "complete" : "";
+        const status = total ? `${answered}/${total}` : "—";
+        return `<li class="${activeClass} ${completeClass}"><span class="cat-number">${idx+1}</span><span>${cat.label}</span><span class="cat-status">${status}</span></li>`;
+      }).join("");
+    }
+
+    function isAnswered(q){
+      const value = data[q.id];
+      if (q.type === "phone") return Boolean(String(data.phoneCountry || "").trim() && String(data.phone || "").trim());
+      if (q.type === "checkbox") return Array.isArray(value) && value.length > 0;
+      return value !== undefined && value !== null && String(value).trim() !== "";
+    }
+
+    function optionIsOther(value){
+      return String(value || "").trim().toLowerCase() === "otro";
+    }
+
+    function selectedHasOther(q){
+      const value = data[q.id];
+      if (Array.isArray(value)) return value.some(optionIsOther);
+      return optionIsOther(value);
+    }
+
+    function otherKey(id){
+      return `${id}OtherDetail`;
+    }
+
+    function renderOtherDetail(q){
+      if (!selectedHasOther(q)) return "";
+      const key = otherKey(q.id);
+      const value = data[key] || "";
+      return `<div class="other-detail"><label for="otherDetailInput">Complementa tu respuesta</label><textarea id="otherDetailInput" placeholder="Cuéntanos brevemente el contexto de tu caso.">${escapeHtml(value)}</textarea></div>`;
+    }
+
+    function bindOtherDetail(q){
+      const input = document.getElementById("otherDetailInput");
+      if (!input) return;
+      input.addEventListener("input", () => {
+        data[otherKey(q.id)] = input.value;
+        validationBox.classList.remove("show");
+      });
+    }
+
+    function ensureRequiredOptions(q){
+      if (!q.requiredOptions || q.type !== "checkbox") return;
+      const current = Array.isArray(data[q.id]) ? [...data[q.id]] : [];
+      q.requiredOptions.forEach(opt => {
+        if (!current.includes(opt)) current.unshift(opt);
+      });
+      data[q.id] = current;
+    }
+
+    function setValue(id, value){
+      data[id] = value;
+      const q = questions.find(item => item.id === id);
+      if (q && !selectedHasOther(q)) delete data[otherKey(id)];
+      cleanDependentData();
+      validationBox.classList.remove("show");
+      renderAnswer(currentQuestion());
+      renderCategories();
+    }
+
+    function cleanDependentData(){
+      // Remove responses that no longer apply after conditional changes.
+      const activeIds = new Set(activeQuestions().map(q => q.id));
+      Object.keys(data).forEach(key => {
+        const q = questions.find(item => item.id === key);
+        if (q && q.visible && !activeIds.has(key)) delete data[key];
+      });
+    }
+
+    function formatCurrencyInput(value){
+      const digits = String(value ?? "").replace(/[^0-9]/g, "");
+      if (!digits) return "";
+      return new Intl.NumberFormat("en-US", { style:"currency", currency:"USD", maximumFractionDigits:0 }).format(Number(digits));
+    }
+
+    function phoneRule(country){
+      return PHONE_RULES[country] || null;
+    }
+
+    function phoneDialPrefix(country){
+      const rule = phoneRule(country);
+      if (!rule) return "+";
+      return `+${rule.code}${rule.whatsappPrefix ? " " + rule.whatsappPrefix : ""}`;
+    }
+
+    function phoneCountryIso(country){
+      const rule = phoneRule(country);
+      return rule?.iso || (country === "Otro" ? "OTRO" : "");
+    }
+
+    function phoneCountryLabel(country){
+      if (country === "Otro") return "🌐 OTRO";
+      const rule = phoneRule(country);
+      return rule ? `${rule.flag || "🌐"} ${rule.iso} ${phoneDialPrefix(country)}` : `🌐 ${country}`;
+    }
+
+    const PHONE_COUNTRY_NAME_BY_ISO = {
+      US:"Estados Unidos", CA:"Canadá", MX:"México", AR:"Argentina", EC:"Ecuador", CO:"Colombia", CL:"Chile", PE:"Perú", BR:"Brasil",
+      UY:"Uruguay", PY:"Paraguay", BO:"Bolivia", VE:"Venezuela", PA:"Panamá", CR:"Costa Rica", DO:"República Dominicana", ES:"España"
+    };
+
+    function phoneCountryNameFromIso(iso){
+      const key = String(iso || "").toUpperCase();
+      return PHONE_COUNTRY_NAME_BY_ISO[key] || key;
+    }
+
+    function buildIntlIsoI18n(){
+      const result = {};
+      const list = window.intlTelInputGlobals?.getCountryData?.() || [];
+      list.forEach(country => {
+        if (country?.iso2) result[country.iso2] = country.iso2.toUpperCase();
+      });
+      return result;
+    }
+
+    function normalizeWhatsappNumber(e164, iso){
+      let number = String(e164 || "").replace(/[^+0-9]/g, "");
+      const countryIso = String(iso || "").toUpperCase();
+      if (!number.startsWith("+")) number = `+${number.replace(/[^0-9]/g, "")}`;
+
+      if (countryIso === "MX" && number.startsWith("+52") && !number.startsWith("+521")){
+        number = `+521${number.slice(3)}`;
+      }
+      if (countryIso === "AR" && number.startsWith("+54") && !number.startsWith("+549")){
+        number = `+549${number.slice(3)}`;
+      }
+      return number;
+    }
+
+    function buildE164Fallback(raw, selectedCountry){
+      const digits = String(raw || "").replace(/\D/g, "");
+      if (!digits) return "";
+      const dial = String(selectedCountry?.dialCode || "").replace(/\D/g, "");
+      if (String(raw || "").trim().startsWith("+")) return `+${digits}`;
+      if (dial && digits.startsWith(dial) && digits.length > dial.length + 5) return `+${digits}`;
+      return dial ? `+${dial}${digits.replace(/^0+/, "")}` : `+${digits}`;
+    }
+
+    function syncIntlPhoneData(input, iti){
+      const country = iti?.getSelectedCountryData?.() || {};
+      const iso = String(country.iso2 || "").toUpperCase();
+      const dial = country.dialCode ? `+${country.dialCode}` : "";
+      const raw = String(input?.value || "").trim();
+      let e164 = "";
+      let valid = false;
+
+      try { e164 = iti?.getNumber?.() || ""; } catch (e) { e164 = ""; }
+      if (!e164) e164 = buildE164Fallback(raw, country);
+
+      try { valid = Boolean(iti?.isValidNumber?.()); } catch (e) { valid = false; }
+      if (!valid) {
+        const digitCount = String(e164 || raw || "").replace(/\D/g, "").length;
+        valid = digitCount >= 8 && digitCount <= 15;
+      }
+
+      data.phone = raw;
+      data.phoneCountry = phoneCountryNameFromIso(iso);
+      data.phoneCountryIso = iso;
+      data.phoneDialCode = dial;
+      data.phoneE164 = e164;
+      data.whatsAppPhone = normalizeWhatsappNumber(e164, iso);
+      data.phoneIsValid = valid;
+      return { ok: valid, e164, whatsapp: data.whatsAppPhone, iso, dial };
+    }
+
+    function phoneExample(){
+      const country = data.phoneCountry || "Estados Unidos";
+      const rule = phoneRule(country);
+      return rule?.example || "+ país + número";
+    }
+
+    function stripPhoneLocalDigits(raw, country){
+      const original = String(raw || "").trim();
+      let digits = original.replace(/\D/g, "");
+      const rule = phoneRule(country);
+      if (!digits || !rule) return digits;
+
+      if (country === "México") {
+        if (digits.startsWith("521")) digits = digits.slice(3);
+        else if (digits.startsWith("52")) digits = digits.slice(2);
+        if (digits.startsWith("1") && digits.length === 11) digits = digits.slice(1);
+        return digits.replace(/^0+/, "");
+      }
+
+      if (country === "Argentina") {
+        if (digits.startsWith("549")) digits = digits.slice(3);
+        else if (digits.startsWith("54")) digits = digits.slice(2);
+        if (digits.startsWith("9") && digits.length >= 11) digits = digits.slice(1);
+        digits = digits.replace(/^0+/, "");
+        digits = digits.replace(/^(\d{2,4})15/, "$1");
+        return digits;
+      }
+
+      if (digits.startsWith(rule.code) && digits.length > (rule.localLength || rule.minLength || 8)) {
+        digits = digits.slice(rule.code.length);
+      }
+      if (country !== "Estados Unidos" && country !== "Canadá" && country !== "República Dominicana") {
+        digits = digits.replace(/^0+/, "");
+      }
+      return digits;
+    }
+
+    function groupPhoneDigits(digits, groups){
+      const parts = [];
+      let cursor = 0;
+      groups.forEach(size => {
+        if (digits.length > cursor) parts.push(digits.slice(cursor, cursor + size));
+        cursor += size;
+      });
+      if (digits.length > cursor) parts.push(digits.slice(cursor));
+      return parts.filter(Boolean).join(" ");
+    }
+
+    function formatPhoneLocalForDisplay(raw, country){
+      const digits = stripPhoneLocalDigits(raw, country);
+      if (!digits) return "";
+      if (country === "Estados Unidos" || country === "Canadá" || country === "República Dominicana") {
+        if (digits.length <= 3) return digits;
+        if (digits.length <= 6) return `(${digits.slice(0,3)}) ${digits.slice(3)}`;
+        return `(${digits.slice(0,3)}) ${digits.slice(3,6)}-${digits.slice(6,10)}${digits.length > 10 ? " " + digits.slice(10) : ""}`;
+      }
+      if (country === "México") {
+        const twoDigitAreas = ["55","56","33","81"];
+        return twoDigitAreas.includes(digits.slice(0,2)) ? groupPhoneDigits(digits, [2,4,4]) : groupPhoneDigits(digits, [3,3,4]);
+      }
+      if (country === "Argentina") return digits.startsWith("11") ? groupPhoneDigits(digits, [2,4,4]) : groupPhoneDigits(digits, [3,3,4]);
+      if (country === "Ecuador") return groupPhoneDigits(digits, [2,3,4]);
+      if (country === "Colombia") return groupPhoneDigits(digits, [3,3,4]);
+      if (country === "Chile") return groupPhoneDigits(digits, [1,4,4]);
+      if (country === "Perú") return groupPhoneDigits(digits, [3,3,3]);
+      if (country === "España") return groupPhoneDigits(digits, [3,3,3]);
+      return groupPhoneDigits(digits, [3,3,4,4]);
+    }
+
+    function normalizePhone(raw, country){
+      const original = String(raw || "").trim();
+      const hasPlus = original.startsWith("+");
+      const rule = phoneRule(country);
+      let local = stripPhoneLocalDigits(original, country);
+
+      if (!local) return { ok:false, message:"Ingresa un número de teléfono válido." };
+
+      if (!rule) {
+        const digits = original.replace(/\D/g, "");
+        if (!hasPlus || digits.length < 8 || digits.length > 15) {
+          return { ok:false, message:"Para este país, escribe el número completo con código internacional. Ejemplo: + país + número." };
+        }
+        return { ok:true, e164:`+${digits}`, whatsapp:`+${digits}` };
+      }
+
+      if (country === "México") {
+        if (local.length !== 10) return { ok:false, message:"Para México, ingresa 10 dígitos del número móvil. Lo dejaremos en formato WhatsApp como +52 1." };
+        return { ok:true, e164:`+52${local}`, whatsapp:`+521${local}` };
+      }
+
+      if (country === "Argentina") {
+        if (local.length < 10 || local.length > 11) return { ok:false, message:"Para Argentina, ingresa el número móvil con código de área. Lo dejaremos en formato WhatsApp como +54 9." };
+        return { ok:true, e164:`+54${local}`, whatsapp:`+549${local}` };
+      }
+
+      if (rule.localLength && local.length !== rule.localLength) {
+        return { ok:false, message:`Para ${country}, revisa la cantidad de dígitos del número. Ejemplo: ${rule.example}.` };
+      }
+      if (rule.minLength && local.length < rule.minLength) {
+        return { ok:false, message:`Para ${country}, el número parece incompleto. Ejemplo: ${rule.example}.` };
+      }
+      const normalized = `+${rule.code}${local}`;
+      return { ok:true, e164:normalized, whatsapp:normalized };
+    }
+
+    function placeCaretAtEnd(input){
+      requestAnimationFrame(() => {
+        const len = input.value.length;
+        input.setSelectionRange(len, len);
+      });
+    }
+
+    function updateFreeTextValue(q, input){
+      validationBox.classList.remove("show");
+      if (q.type === "currency"){
+        const digits = input.value.replace(/[^0-9]/g, "");
+        data[q.id] = digits;
+        input.value = formatCurrencyInput(digits);
+        placeCaretAtEnd(input);
+      } else {
+        data[q.id] = input.value;
+      }
+      cleanDependentData();
+      renderCategories();
+    }
+
+    function getOptionDescription(q, opt){
+      const descriptions = OPTION_DESCRIPTIONS[q.id] || {};
+      return descriptions[opt] || "";
+    }
+
+    function renderOptionButton(q, opt, selected, locked=false){
+      const desc = getOptionDescription(q, opt);
+      return `<button type="button" class="option ${selected ? "selected" : ""} ${locked ? "locked" : ""}" data-value="${escapeHtml(opt)}"><span class="option-title">${escapeHtml(opt)}</span>${desc ? `<span class="option-desc">${escapeHtml(desc)}</span>` : ""}</button>`;
+    }
+
+    function renderPhoneAnswer(q){
+      if (!window.intlTelInput){
+        renderPhoneFallbackAnswer(q);
+        return;
+      }
+
+      const initialIso = String(data.phoneCountryIso || "US").toLowerCase();
+      answerContainer.innerHTML = `
+        <input id="phoneInput" class="phone-number-input" type="tel" inputmode="tel" value="${escapeHtml(data.phone || "")}" placeholder="${escapeHtml(q.placeholder || "Número local")}" autocomplete="tel" />
+        <div class="phone-final" id="phoneFinalPreview">Selecciona el país desde la bandera y escribe el número local. Lo dejaremos listo en formato internacional.</div>`;
+
+      const phoneInput = document.getElementById("phoneInput");
+      let iti = null;
+      try {
+        iti = window.intlTelInput(phoneInput, {
+          initialCountry: initialIso,
+          separateDialCode: true,
+          nationalMode: true,
+          autoPlaceholder: "aggressive",
+          i18n: buildIntlIsoI18n(),
+          loadUtils: () => import("https://cdn.jsdelivr.net/npm/intl-tel-input@latest/build/js/utils.js")
+        });
+      } catch (e) {
+        console.warn("No se pudo iniciar intl-tel-input. Usando respaldo.", e);
+        renderPhoneFallbackAnswer(q);
+        return;
+      }
+
+      function refreshPhonePreview(){
+        const preview = document.getElementById("phoneFinalPreview");
+        if (!preview) return;
+        const normalized = syncIntlPhoneData(phoneInput, iti);
+        if (String(phoneInput.value || "").trim() && normalized.ok) {
+          preview.innerHTML = `Formato final para WhatsApp: <strong>${escapeHtml(normalized.whatsapp)}</strong>`;
+        } else {
+          const selected = iti.getSelectedCountryData?.() || {};
+          const iso = String(selected.iso2 || "US").toUpperCase();
+          const dial = selected.dialCode ? `+${selected.dialCode}` : "+";
+          preview.innerHTML = `Formato esperado: <strong>${escapeHtml(iso)} ${escapeHtml(dial)} + número local</strong>`;
+        }
+      }
+
+      phoneInput.focus({preventScroll:true});
+      placeCaretAtEnd(phoneInput);
+      setTimeout(refreshPhonePreview, 250);
+
+      phoneInput.addEventListener("input", () => {
+        validationBox.classList.remove("show");
+        refreshPhonePreview();
+        renderCategories();
+      });
+
+      phoneInput.addEventListener("countrychange", () => {
+        validationBox.classList.remove("show");
+        refreshPhonePreview();
+        renderCategories();
+      });
+
+      phoneInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          next();
+        }
+      });
+    }
+
+    function renderPhoneFallbackAnswer(q){
+      if (!data.phoneCountry) data.phoneCountry = "Estados Unidos";
+      const country = data.phoneCountry;
+      const localValue = country === "Otro" ? (data.phone || "") : formatPhoneLocalForDisplay(data.phone || "", country);
+      const countryOptions = COUNTRY_OPTIONS.map(countryName => `<option value="${escapeHtml(countryName)}" ${countryName === country ? "selected" : ""}>${escapeHtml(phoneCountryLabel(countryName))}</option>`).join("");
+      const otherHtml = country === "Otro" ? `<div class="other-detail"><label for="phoneCountryOtherDetail">Indica país y código</label><textarea id="phoneCountryOtherDetail" placeholder="Ejemplo: Guatemala, código +502">${escapeHtml(data.phoneCountryOtherDetail || "")}</textarea></div>` : "";
+      answerContainer.innerHTML = `
+        <div class="phone-combo">
+          <label class="phone-field">
+            <span>Código país</span>
+            <select id="phoneCountryInput" class="phone-country-select">${countryOptions}</select>
+          </label>
+          <label class="phone-field">
+            <span>Número</span>
+            <input id="phoneInput" class="phone-number-input" type="tel" inputmode="tel" value="${escapeHtml(localValue)}" placeholder="${escapeHtml(q.placeholder || "Número local")}" autocomplete="tel" />
+          </label>
+        </div>
+        <div class="phone-final" id="phoneFinalPreview">Ejemplo del formato final: <strong>${escapeHtml(phoneExample())}</strong></div>
+        ${otherHtml}`;
+
+      const countryInput = document.getElementById("phoneCountryInput");
+      const phoneInput = document.getElementById("phoneInput");
+      const otherInput = document.getElementById("phoneCountryOtherDetail");
+
+      function refreshPhonePreview(){
+        const preview = document.getElementById("phoneFinalPreview");
+        if (!preview) return;
+        const normalized = normalizePhone(data.phone, data.phoneCountry);
+        if (normalized.ok) {
+          preview.innerHTML = `Formato final para WhatsApp: <strong>${escapeHtml(normalized.whatsapp)}</strong>`;
+        } else {
+          preview.innerHTML = `Ejemplo del formato final: <strong>${escapeHtml(phoneExample())}</strong>`;
+        }
+      }
+
+      countryInput.addEventListener("change", () => {
+        data.phoneCountry = countryInput.value;
+        if (data.phoneCountry !== "Otro") delete data.phoneCountryOtherDetail;
+        data.phone = data.phoneCountry === "Otro" ? (data.phone || "") : stripPhoneLocalDigits(data.phone || "", data.phoneCountry);
+        validationBox.classList.remove("show");
+        renderAnswer(q);
+        renderCategories();
+      });
+
+      phoneInput.focus({preventScroll:true});
+      placeCaretAtEnd(phoneInput);
+      phoneInput.addEventListener("input", () => {
+        validationBox.classList.remove("show");
+        if (data.phoneCountry === "Otro") {
+          data.phone = phoneInput.value.trim();
+        } else {
+          const local = stripPhoneLocalDigits(phoneInput.value, data.phoneCountry);
+          data.phone = local;
+          phoneInput.value = formatPhoneLocalForDisplay(local, data.phoneCountry);
+          placeCaretAtEnd(phoneInput);
+        }
+        refreshPhonePreview();
+        renderCategories();
+      });
+      phoneInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          next();
+        }
+      });
+      if (otherInput) {
+        otherInput.addEventListener("input", () => {
+          data.phoneCountryOtherDetail = otherInput.value;
+          validationBox.classList.remove("show");
+        });
+      }
+      refreshPhonePreview();
+    }
+
+    function renderAnswer(q){
+      if (!q) return;
+      if (q.type === "phone"){
+        renderPhoneAnswer(q);
+        return;
+      }
+      const value = data[q.id];
+      if (q.type === "country" || q.type === "select"){
+        const options = q.options || COUNTRY_OPTIONS;
+        const optionHtml = [`<option value="">${escapeHtml(q.placeholder || "Selecciona una opción")}</option>`]
+          .concat(options.map(opt => `<option value="${escapeHtml(opt)}" ${value === opt ? "selected" : ""}>${escapeHtml(opt)}</option>`)).join("");
+        const desc = value ? getOptionDescription(q, value) : "";
+        answerContainer.innerHTML = `<div class="select-wrap"><select id="answerInput">${optionHtml}</select></div>${desc ? `<div class="hint-row">${escapeHtml(desc)}</div>` : ""}${renderOtherDetail(q)}`;
+        const input = document.getElementById("answerInput");
+        input.focus({preventScroll:true});
+        input.addEventListener("change", () => setValue(q.id, input.value));
+        bindOtherDetail(q);
+        return;
+      }
+      if (q.type === "radio"){
+        answerContainer.innerHTML = `<div class="options">${q.options.map(opt => renderOptionButton(q, opt, value === opt)).join("")}</div>${renderOtherDetail(q)}`;
+        answerContainer.querySelectorAll(".option").forEach(btn => btn.addEventListener("click", () => setValue(q.id, btn.dataset.value)));
+        bindOtherDetail(q);
+        return;
+      }
+      if (q.type === "checkbox"){
+        ensureRequiredOptions(q);
+        const selected = Array.isArray(data[q.id]) ? data[q.id] : [];
+        answerContainer.innerHTML = `<div class="options">${q.options.map(opt => renderOptionButton(q, opt, selected.includes(opt), q.requiredOptions && q.requiredOptions.includes(opt))).join("")}</div><div class="hint-row">Puedes seleccionar más de una opción. Los documentos marcados como obligatorios no se pueden retirar.</div>${renderOtherDetail(q)}`;
+        answerContainer.querySelectorAll(".option").forEach(btn => btn.addEventListener("click", () => {
+          const current = Array.isArray(data[q.id]) ? [...data[q.id]] : [];
+          const val = btn.dataset.value;
+          if (q.requiredOptions && q.requiredOptions.includes(val)) return;
+          const idx = current.indexOf(val);
+          if (idx >= 0) current.splice(idx,1); else current.push(val);
+          setValue(q.id, current);
+        }));
+        bindOtherDetail(q);
+        return;
+      }
+      const isCurrency = q.type === "currency";
+      const inputType = isCurrency ? "text" : q.type;
+      const inputMode = isCurrency ? "numeric" : (q.type === "tel" ? "tel" : q.type === "email" ? "email" : "text");
+      const displayValue = isCurrency ? formatCurrencyInput(value) : (value ?? "");
+      const currencyHint = q.minAmount ? `Monto mínimo referencial: ${formatCurrencyInput(q.minAmount)}.` : "Puedes escribir el monto con o sin símbolo $. Lo formatearemos automáticamente.";
+      const phoneHint = q.type === "tel" ? `<div class='phone-preview'>Ejemplo según país seleccionado: <strong>${escapeHtml(phoneExample())}</strong></div>` : "";
+      const hint = isCurrency ? `<div class='hint-row'>${currencyHint}</div>` : phoneHint;
+      answerContainer.innerHTML = `<input id="answerInput" class="${isCurrency ? "currency-input" : ""}" type="${inputType}" inputmode="${inputMode}" value="${escapeHtml(displayValue)}" placeholder="${escapeHtml(q.placeholder || "")}" autocomplete="off" />${hint}`;
+      const input = document.getElementById("answerInput");
+      input.focus({preventScroll:true});
+      placeCaretAtEnd(input);
+      input.addEventListener("input", () => updateFreeTextValue(q, input));
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          next();
+        }
+      });
+    }
+
+    function renderQuestion(){
+      summaryMode = false;
+      questionView.classList.remove("hidden");
+      summaryView.classList.remove("active");
+      nextBtn.classList.remove("hidden");
+      submitBtn.classList.add("hidden");
+      validationBox.classList.remove("show");
+
+      const active = activeQuestions();
+      if (currentIndex >= active.length) currentIndex = active.length - 1;
+      if (currentIndex < 0) currentIndex = 0;
+      const q = active[currentIndex];
+      const cat = categories.find(c => c.id === q.category);
+      categoryLabel.textContent = `${cat.label} · ${cat.description}`;
+      stepIndicator.textContent = `Pregunta ${currentIndex + 1} de ${active.length}`;
+      progressFill.style.width = `${Math.round((currentIndex / Math.max(active.length,1)) * 100)}%`;
+      questionTitle.textContent = q.title;
+      questionHelp.textContent = q.help || "";
+      backBtn.disabled = currentIndex === 0;
+      microNote.textContent = "Tus respuestas se utilizan para preparar una revisión inicial ordenada con un asesor hipotecario.";
+      renderAnswer(q);
+      renderCategories();
+    }
+
+    function validateCurrent(){
+      const q = currentQuestion();
+      if (!q) return true;
+      if (q.required && !isAnswered(q)){
+        validationBox.textContent = "Completa esta respuesta para continuar.";
+        validationBox.classList.add("show");
+        return false;
+      }
+      if (selectedHasOther(q) && !String(data[otherKey(q.id)] || "").trim()){
+        validationBox.textContent = "Cuéntanos brevemente el contexto de la opción Otro para continuar.";
+        validationBox.classList.add("show");
+        return false;
+      }
+      if (q.id === "email" && data.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)){
+        validationBox.textContent = "Ingresa un correo electrónico válido.";
+        validationBox.classList.add("show");
+        return false;
+      }
+      if (q.id === "phone"){
+        if (!String(data.phone || "").trim()){
+          validationBox.textContent = "Ingresa tu número de WhatsApp para continuar.";
+          validationBox.classList.add("show");
+          return false;
+        }
+        if (data.phoneCountryIso && data.phoneE164){
+          if (data.phoneIsValid === false){
+            validationBox.textContent = "Revisa el número ingresado. Debe coincidir con el país seleccionado.";
+            validationBox.classList.add("show");
+            return false;
+          }
+        } else {
+          if (!data.phoneCountry){
+            validationBox.textContent = "Selecciona el código de país para continuar.";
+            validationBox.classList.add("show");
+            return false;
+          }
+          if (data.phoneCountry === "Otro" && !String(data.phoneCountryOtherDetail || "").trim()){
+            validationBox.textContent = "Indica el país y el código internacional del número.";
+            validationBox.classList.add("show");
+            return false;
+          }
+          const normalized = normalizePhone(data.phone, data.phoneCountry);
+          if (!normalized.ok){
+            validationBox.textContent = normalized.message;
+            validationBox.classList.add("show");
+            return false;
+          }
+          data.phoneE164 = normalized.e164;
+          data.whatsAppPhone = normalized.whatsapp;
+        }
+      }
+      if (q.type === "currency" && q.minAmount && numeric(data[q.id]) < q.minAmount){
+        validationBox.textContent = `El monto mínimo para continuar es ${formatCurrencyInput(q.minAmount)}.`;
+        validationBox.classList.add("show");
+        return false;
+      }
+      if (q.id === "documentsAvailable" && (!Array.isArray(data.documentsAvailable) || !data.documentsAvailable.includes("Pasaporte vigente (obligatorio)"))){
+        validationBox.textContent = "El pasaporte vigente es obligatorio para continuar con la revisión inicial.";
+        validationBox.classList.add("show");
+        return false;
+      }
+      if (q.id === "consent" && data.consent !== "Acepto"){
+        validationBox.textContent = "Para enviar la evaluación debes aceptar la confirmación de contacto.";
+        validationBox.classList.add("show");
+        return false;
+      }
+      return true;
+    }
+
+    function next(){
+      if (!validateCurrent()) return;
+      const active = activeQuestions();
+      if (currentIndex < active.length - 1){
+        currentIndex++;
+        renderQuestion();
+      } else {
+        showSummary();
+      }
+    }
+
+    function back(){
+      if (summaryMode){
+        summaryMode = false;
+        sendState.className = "send-state";
+        sendState.textContent = "";
+        renderQuestion();
+        return;
+      }
+      if (currentIndex > 0){
+        currentIndex--;
+        renderQuestion();
+      }
+    }
+
+    function calculations(){
+      const purchasePrice = numeric(data.estimatedPurchasePrice);
+      const currentValue = numeric(data.currentPropertyValue);
+      const price = data.loanPurpose === "Compra de vivienda" ? purchasePrice : currentValue;
+      const down = numeric(data.downPaymentAmount);
+      const currentBalance = numeric(data.currentMortgageBalance);
+      const cashOut = numeric(data.cashOutAmount);
+      const requestedPurchaseLoan = numeric(data.requestedLoanAmount);
+      const requestedRefiLoan = numeric(data.requestedRefiLoanAmount);
+      const availableAssets = numeric(data.availableAssets);
+      let loanAmount = 0;
+
+      if (data.loanPurpose === "Compra de vivienda"){
+        loanAmount = price > 0 ? Math.max(price - down, 0) : requestedPurchaseLoan;
+      } else if (data.loanPurpose === "Refinanciamiento"){
+        loanAmount = requestedRefiLoan > 0 ? requestedRefiLoan : Math.max(currentBalance + cashOut, 0);
+      }
+
+      const valueForRatio = price > 0 ? price : (data.loanPurpose === "Compra de vivienda" ? Math.max(loanAmount + down, 0) : currentValue);
+      const ltv = valueForRatio > 0 && loanAmount > 0 ? (loanAmount / valueForRatio) * 100 : 0;
+      const monthlyIncome = numeric(data.monthlyIncome);
+      const monthlyDebt = numeric(data.monthlyDebt);
+      const hoa = numeric(data.hoaAmount);
+      const estimatedPayment = estimateMonthlyPayment(loanAmount, valueForRatio || loanAmount, hoa);
+      const dti = monthlyIncome > 0 && estimatedPayment > 0 ? ((monthlyDebt + estimatedPayment) / monthlyIncome) * 100 : 0;
+      const rent = numeric(data.estimatedRent);
+      const dscr = rent > 0 && estimatedPayment > 0 ? rent / estimatedPayment : 0;
+      const downPercent = valueForRatio > 0 && down > 0 ? (down / valueForRatio) * 100 : 0;
+
+      const closingCostBase = valueForRatio || loanAmount;
+      const estimatedClosingCosts = closingCostBase > 0 ? closingCostBase * 0.03 : 0;
+      const reserveMonths = 12;
+      const reserveRequirementAmount = estimatedPayment > 0 ? estimatedPayment * reserveMonths : 0;
+      const fundsNeeded = data.loanPurpose === "Compra de vivienda"
+        ? down + estimatedClosingCosts + reserveRequirementAmount
+        : estimatedClosingCosts + reserveRequirementAmount;
+      const fundsGap = availableAssets - fundsNeeded;
+      const meetsTwelveMonthReserve = availableAssets > 0 && fundsNeeded > 0 && fundsGap >= 0;
+
+      return {
+        price,
+        down,
+        loanAmount,
+        ltv,
+        downPercent,
+        monthlyIncome,
+        monthlyDebt,
+        estimatedPayment,
+        dti,
+        rent,
+        dscr,
+        availableAssets,
+        estimatedClosingCosts,
+        reserveMonths,
+        reserveRequirementAmount,
+        fundsNeeded,
+        fundsGap,
+        meetsTwelveMonthReserve
+      };
+    }
+
+    function estimateMonthlyPayment(loanAmount, propertyValue, hoa){
+      if (!loanAmount || loanAmount <= 0) return 0;
+      const annualRate = 0.075;
+      const monthlyRate = annualRate / 12;
+      const months = 360;
+      const principalInterest = loanAmount * (monthlyRate * Math.pow(1 + monthlyRate, months)) / (Math.pow(1 + monthlyRate, months) - 1);
+      const taxesInsurance = propertyValue > 0 ? (propertyValue * 0.018) / 12 : 0;
+      return principalInterest + taxesInsurance + Number(hoa || 0);
+    }
+
+    function classifyLead(calc){
+      const tags = [];
+      let status = "Lead activo";
+      let route = "Revisión manual con asesor hipotecario";
+
+      const foreignNational =
+        (data.usStatus === "Vivo fuera de EE. UU. y compraré como extranjero") ||
+        (data.identificationType && data.identificationType.includes("Pasaporte") && data.usStatus !== "Ciudadano estadounidense" && data.usStatus !== "Residente permanente / Green Card") ||
+        (data.residenceCountry && data.residenceCountry !== "Estados Unidos");
+
+      if (foreignNational) tags.push("Comprador extranjero");
+      if (data.buyingEntity && data.buyingEntity !== "A nombre personal") tags.push("Compra a nombre de empresa o LLC");
+      if (data.usCreditHistory === "No") tags.push("Sin crédito en EE. UU.");
+      if (data.incomeDocumentation === "Estados bancarios") tags.push("Revisión con estados bancarios");
+      if (data.propertyUse === "Propiedad de inversión") tags.push("Propiedad de inversión");
+      if (calc.ltv >= 85) tags.push("Financiamiento alto frente al valor");
+      if (calc.dti >= 50) tags.push("Relación deuda-ingreso alta");
+      if (calc.fundsNeeded > 0 && calc.availableAssets > 0 && !calc.meetsTwelveMonthReserve) tags.push("Fondos a revisar para 12 meses");
+      if (calc.meetsTwelveMonthReserve) tags.push("Liquidez referencial 12 meses");
+      if (data.creditEvents && data.creditEvents !== "No") tags.push("Revisión manual de crédito");
+
+      const hotTimeline = ["Inmediatamente, tengo contrato firmado", "Estoy por hacer una oferta", "Dentro de 30 días"].includes(data.purchaseTimeline);
+      const hasFunds = ["Sí, disponibles en cuenta bancaria", "Provienen de venta de otra propiedad"].includes(data.fundsAvailable);
+
+      if (hotTimeline && hasFunds && calc.loanAmount > 0) status = "Lead prioritario";
+      if (["Más de 6 meses", "Aún no lo decido"].includes(data.purchaseTimeline)) status = "Lead educativo";
+      if (data.contactTime === "Hoy" || data.contactTime === "Mañana") status = status === "Lead educativo" ? "Lead activo" : status;
+
+      if (data.propertyUse === "Propiedad de inversión" && calc.dscr > 0) route = "Revisar alternativa para propiedad de inversión";
+      if (data.incomeDocumentation === "Estados bancarios") route = "Revisar alternativa con estados bancarios";
+      if (foreignNational) route = "Revisar alternativa para comprador extranjero";
+      if (calc.dti >= 50 || calc.ltv >= 90 || (calc.fundsNeeded > 0 && calc.availableAssets > 0 && !calc.meetsTwelveMonthReserve) || (data.creditEvents && data.creditEvents !== "No")) route = "Revisión manual con asesor hipotecario";
+
+      return { status, route, tags };
+    }
+
+    function showSummary(){
+      summaryMode = true;
+      questionView.classList.add("hidden");
+      summaryView.classList.add("active");
+      nextBtn.classList.add("hidden");
+      submitBtn.classList.remove("hidden");
+      backBtn.disabled = false;
+      microNote.textContent = "Revisa el resumen y envía la evaluación para que un asesor pueda continuar con la revisión.";
+      progressFill.style.width = "100%";
+
+      const calc = calculations();
+      const cls = classifyLead(calc);
+      const name = [data.firstName, data.lastName].filter(Boolean).join(" ") || "Tu perfil";
+      summaryIntro.innerHTML = `<strong>${escapeHtml(name)}</strong>, tu evaluación quedó clasificada como <strong>${cls.status}</strong>. Ruta sugerida: <strong>${cls.route}</strong>.`;
+      summaryGrid.innerHTML = [
+        ["Monto estimado a financiar", money(calc.loanAmount)],
+        ["Fondos disponibles declarados", money(calc.availableAssets)],
+        ["Reserva referencial 12 meses", money(calc.reserveRequirementAmount)],
+        ["Fondos requeridos estimados", money(calc.fundsNeeded)],
+        ["Financiamiento frente al valor", percent(calc.ltv)],
+        ["Relación deuda-ingreso", percent(calc.dti)]
+      ].map(([label,value]) => `<div class="metric"><span>${label}</span><strong>${value}</strong></div>`).join("");
+
+      badges.innerHTML = cls.tags.length ? cls.tags.map(tag => `<span class="badge ${tag.includes("Posible") ? "green" : tag.toLowerCase().includes("alto") || tag.includes("Sin crédito") || tag.includes("deuda-ingreso") ? "red" : ""}">${tag}</span>`).join("") : `<span class="badge green">Perfil sin alertas críticas iniciales</span>`;
+      routeText.textContent = "Un asesor debe validar documentación, crédito, fondos, tipo de propiedad y condiciones disponibles antes de entregar una respuesta formal.";
+      sendState.className = "send-state";
+      sendState.textContent = "";
+      lastPayload = buildPayload(calc, cls);
+      renderCategories();
+    }
+
+    function buildPayload(calc, cls){
+      return {
+        metadata: {
+          formName: "Precalificación hipotecaria Florida",
+          formVersion: FORM_VERSION,
+          source: "precalificacion_hipotecaria_florida",
+          submittedAt: new Date().toISOString(),
+          pageUrl: window.location.href
+        },
+        contacto: {
+          nombre: data.firstName || "",
+          apellido: data.lastName || "",
+          correo: data.email || "",
+          paisTelefono: data.phoneCountry || "",
+          paisTelefonoIso: data.phoneCountryIso || phoneCountryIso(data.phoneCountry || ""),
+          codigoPaisTelefono: data.phoneDialCode || phoneDialPrefix(data.phoneCountry || "").trim(),
+          paisTelefonoOtro: data.phoneCountryOtherDetail || "",
+          telefonoIngresado: data.phone || "",
+          telefonoE164: data.phoneE164 || "",
+          whatsappE164: data.whatsAppPhone || "",
+          paisResidencia: data.residenceCountry || "",
+          paisResidenciaOtro: data.residenceCountryOtherDetail || "",
+          idiomaPreferido: data.preferredLanguage || ""
+        },
+        solicitudPrestamo: {
+          tipoPrestamo: data.loanPurpose || "",
+          plazoCompra: data.purchaseTimeline || "",
+          propiedadSeleccionada: data.hasSelectedProperty || "",
+          valorCompraDefinido: data.purchasePriceKnown || "",
+          ciudadZonaInteres: data.targetCity || "",
+          trabajaConRealtor: data.workingWithRealtor || "",
+          objetivoRefinanciamiento: data.refiGoal || "",
+          objetivoRefinanciamientoOtro: data.refiGoalOtherDetail || ""
+        },
+        propiedad: {
+          tipoPropiedad: data.propertyType || "",
+          tipoPropiedadOtro: data.propertyTypeOtherDetail || "",
+          usoPropiedad: data.propertyUse || "",
+          direccion: data.propertyAddress || "",
+          valorCompraEstimado: numeric(data.estimatedPurchasePrice),
+          montoSolicitadoManualCompra: numeric(data.requestedLoanAmount),
+          montoSolicitadoManualRefinanciamiento: numeric(data.requestedRefiLoanAmount),
+          pagoInicialEstimado: numeric(data.downPaymentAmount),
+          valorActualPropiedad: numeric(data.currentPropertyValue),
+          saldoHipotecaActual: numeric(data.currentMortgageBalance),
+          pagoMensualActual: numeric(data.currentMonthlyPayment),
+          montoCashOutSolicitado: numeric(data.cashOutAmount),
+          tieneHOA: data.hasHOA || "",
+          montoHOA: numeric(data.hoaAmount),
+          rentaMensualEstimada: numeric(data.estimatedRent)
+        },
+        perfilComprador: {
+          situacionEstadosUnidos: data.usStatus || "",
+          documentoDisponible: data.identificationType || "",
+          visaVigente: data.hasUSVisa || "",
+          estructuraCompra: data.buyingEntity || "",
+          estructuraCompraOtro: data.buyingEntityOtherDetail || ""
+        },
+        ingresos: {
+          situacionLaboral: data.employmentStatus || "",
+          situacionLaboralOtro: data.employmentStatusOtherDetail || "",
+          paisPrincipalIngresos: data.incomeCountry || "",
+          paisPrincipalIngresosOtro: data.incomeCountryOtherDetail || "",
+          ingresoMensualBruto: numeric(data.monthlyIncome),
+          formaDocumentarIngresos: data.incomeDocumentation || "",
+          antiguedadActividad: data.activityTime || ""
+        },
+        fondosYLiquidez: {
+          fondosDisponibles: data.fundsAvailable || "",
+          activosDisponibles: numeric(data.availableAssets),
+          paisFondos: data.fundsCountry || "",
+          paisFondosOtro: data.fundsCountryOtherDetail || "",
+          factorLiquidezMeses: 12,
+          estadosBancariosDisponibles: data.bankStatementsAvailable || ""
+        },
+        creditoYDeudas: {
+          historialCreditoEEUU: data.usCreditHistory || "",
+          puntajeCreditoAproximado: data.creditScore || "",
+          deudasMensuales: numeric(data.monthlyDebt),
+          propiedadesActuales: data.hasProperties || "",
+          ingresoRentasActuales: numeric(data.rentalIncome),
+          eventosCredito: data.creditEvents || ""
+        },
+        cierre: {
+          documentosDisponibles: Array.isArray(data.documentsAvailable) ? data.documentsAvailable : [],
+          objetivoPrincipal: data.mainObjective || "",
+          horarioContacto: data.contactTime || "",
+          consentimiento: data.consent || ""
+        },
+        calculosPreliminares: {
+          montoPrestamoEstimado: Math.round(calc.loanAmount || 0),
+          ltvEstimado: Math.round(calc.ltv || 0),
+          porcentajePagoInicial: Math.round(calc.downPercent || 0),
+          pagoMensualEstimado: Math.round(calc.estimatedPayment || 0),
+          dtiEstimado: Math.round(calc.dti || 0),
+          dscrEstimado: calc.dscr ? Number(calc.dscr.toFixed(2)) : null,
+          costosCierreEstimados: Math.round(calc.estimatedClosingCosts || 0),
+          factorLiquidezMeses: calc.reserveMonths,
+          liquidezDoceMesesEstimada: Math.round(calc.reserveRequirementAmount || 0),
+          fondosRequeridosEstimados: Math.round(calc.fundsNeeded || 0),
+          brechaFondosEstimada: Math.round(calc.fundsGap || 0),
+          cumpleFactorLiquidez12Meses: Boolean(calc.meetsTwelveMonthReserve)
+        },
+        clasificacionLead: {
+          estado: cls.status,
+          rutaSugerida: cls.route,
+          etiquetas: cls.tags
+        },
+        contextosAdicionales: collectOtherDetails(),
+        respuestas: { ...data }
+      };
+    }
+
+    function collectOtherDetails(){
+      return Object.fromEntries(Object.entries(data).filter(([key, value]) => key.endsWith("OtherDetail") && String(value || "").trim()).map(([key, value]) => [key, String(value).trim()]));
+    }
+
+    function numeric(value){
+      if (value === undefined || value === null || value === "") return 0;
+      const cleaned = String(value).replace(/[^0-9.-]/g, "");
+      const n = Number(cleaned || 0);
+      return Number.isFinite(n) ? n : 0;
+    }
+
+    async function submitPayload(){
+      if (!lastPayload) {
+        const calc = calculations();
+        lastPayload = buildPayload(calc, classifyLead(calc));
+      }
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Enviando...";
+      sendState.className = "send-state show warn";
+      sendState.textContent = "Estamos enviando tu información para revisión.";
+
+      try {
+        const response = await fetch(WEBHOOK_URL, {
+          method: "POST",
+          mode: "cors",
+          credentials: "omit",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(lastPayload)
+        });
+        if (!response.ok) throw new Error(`Webhook respondió ${response.status}`);
+        showSentOk();
+      } catch (error) {
+        console.warn("Envío principal no confirmado. Usando respaldo.", error);
+        const fallbackOk = fallbackPost(lastPayload);
+        if (fallbackOk) {
+          sendState.className = "send-state show ok";
+          sendState.textContent = "Tu evaluación fue preparada y enviada para revisión. Un asesor podrá contactarte para continuar.";
+        } else {
+          sendState.className = "send-state show err";
+          sendState.textContent = "No pudimos confirmar el envío automático. Por favor, intenta nuevamente o contacta directamente a un asesor.";
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Reintentar envío";
+        }
+      }
+    }
+
+    function showSentOk(){
+      sendState.className = "send-state show ok";
+      sendState.textContent = "Información enviada correctamente. Un asesor podrá contactarte para continuar con la revisión.";
+      submitBtn.textContent = "Evaluación enviada";
+    }
+
+    function fallbackPost(payload){
+      try {
+        const form = document.createElement("form");
+        form.method = "POST";
+        form.action = WEBHOOK_URL;
+        form.target = "hiddenWebhookFrame";
+        form.style.display = "none";
+
+        const input = document.createElement("input");
+        input.type = "hidden";
+        input.name = "payload";
+        input.value = JSON.stringify(payload);
+        form.appendChild(input);
+
+        const version = document.createElement("input");
+        version.type = "hidden";
+        version.name = "formVersion";
+        version.value = FORM_VERSION;
+        form.appendChild(version);
+
+        document.body.appendChild(form);
+        form.submit();
+        setTimeout(() => form.remove(), 1200);
+        return true;
+      } catch (e) {
+        console.warn("Fallback POST falló", e);
+        return false;
+      }
+    }
+
+    function escapeHtml(str){
+      return String(str).replace(/[&<>'"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"}[c]));
+    }
+
+    nextBtn.addEventListener("click", next);
+    backBtn.addEventListener("click", back);
+    submitBtn.addEventListener("click", submitPayload);
+
+    renderQuestion();
+  </script>
+</body>
+</html>

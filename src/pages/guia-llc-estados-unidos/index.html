@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Guía práctica para entender cuándo conviene crear una LLC en Estados Unidos, qué decisiones debes revisar y cómo evitar errores al operar, cobrar y cumplir correctamente."
+  />
+
+  <title>Guía práctica para crear tu LLC | Sotomayor Consulting</title>
+
+  <!-- Favicon / Isotipo -->
+  <link rel="icon" type="image/png" href="./isotipo-redondo.png" />
+  <link rel="apple-touch-icon" href="./isotipo-redondo.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Guía práctica para crear tu LLC | Sotomayor Consulting" />
+  <meta
+    property="og:description"
+    content="Antes de crear una LLC, entiende qué decisiones impactan bancos, impuestos, plataformas de pago y operación internacional."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./isotipo-redondo.png" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="preload"
+    as="image"
+    href="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+  />
+
+  <!-- Tracking configuration -->
+  <script>
+    window.SCI_TRACKING_CONFIG = {
+      page_name: "not_ready_llc_guide",
+      page_category: "llc_education_nurturing",
+      tiktok_pixel_id: "D5KFDEBC77U6BL6T7LDG",
+      gtm_id: "GTM-TNRQGDM",
+      debug: false
+    };
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TNRQGDM');
+  </script>
+
+  <!-- TikTok Pixel base code -->
+  <script>
+    (function (w, d, t) {
+      var config = w.SCI_TRACKING_CONFIG || {};
+      var pixelId = config.tiktok_pixel_id;
+      if (!pixelId) return;
+
+      w.TiktokAnalyticsObject = t;
+      var ttq = (w[t] = w[t] || []);
+      ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie", "holdConsent", "revokeConsent", "grantConsent"];
+      ttq.setAndDefer = function (t, e) {
+        t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))); };
+      };
+      for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+      ttq.instance = function (t) {
+        var e = ttq._i[t] || [];
+        for (var n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
+        return e;
+      };
+      ttq.load = function (e, n) {
+        var r = "https://analytics.tiktok.com/i18n/pixel/events.js";
+        ttq._i = ttq._i || {};
+        ttq._i[e] = [];
+        ttq._i[e]._u = r;
+        ttq._t = ttq._t || {};
+        ttq._t[e] = +new Date();
+        ttq._o = ttq._o || {};
+        ttq._o[e] = n || {};
+        var s = d.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = r + "?sdkid=" + e + "&lib=" + t;
+        var a = d.getElementsByTagName("script")[0];
+        a.parentNode.insertBefore(s, a);
+      };
+      ttq.load(pixelId);
+      ttq.page();
+    })(window, document, "ttq");
+  </script>
+
+  <!-- Tailwind config -->
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#0F172A",
+            background: "#F7F9FB",
+            surface: "#FFFFFF",
+            textMain: "#1E293B",
+            textMuted: "#64748B",
+            borderSoft: "#E2E8F0",
+            surfaceDim: "#D8DADC",
+            surfaceSubtle: "#F1F5F9"
+          },
+          fontFamily: {
+            sans: ["Inter", "system-ui", "sans-serif"]
+          },
+          maxWidth: {
+            page: "1180px"
+          },
+          boxShadow: {
+            subtle: "0 12px 34px rgba(15, 23, 42, 0.06)",
+            button: "0 10px 24px rgba(15, 23, 42, 0.16)"
+          },
+          borderRadius: {
+            "2xl": "1rem",
+            "3xl": "1.5rem"
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 0, "wght" 430, "GRAD" 0, "opsz" 24;
+    }
+
+    .icon-filled {
+      font-variation-settings: "FILL" 1, "wght" 430, "GRAD" 0, "opsz" 24;
+    }
+  </style>
+</head>
+
+<body class="bg-background text-textMain font-sans antialiased selection:bg-primary selection:text-white">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNRQGDM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-borderSoft bg-surface/95 backdrop-blur-md">
+    <nav class="mx-auto flex max-w-page items-center justify-between px-4 py-3 md:px-6 lg:px-8" aria-label="Navegación principal">
+      <a href="#inicio" class="flex items-center" aria-label="Ir al inicio">
+        <img
+          src="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+          alt="Sotomayor Consulting International"
+          class="h-12 w-auto object-contain"
+          loading="eager"
+        />
+      </a>
+
+      <div class="hidden items-center gap-6 md:flex">
+        <a href="#guia" class="text-sm font-semibold text-textMuted transition hover:text-primary">Guía</a>
+        <a href="#proceso" class="text-sm font-semibold text-textMuted transition hover:text-primary">Proceso</a>
+        <a href="#errores" class="text-sm font-semibold text-textMuted transition hover:text-primary">Errores</a>
+        <a
+          href="#siguiente-paso"
+          data-track-event="cta_header_next_step"
+          data-track-label="Ver siguiente paso header"
+          class="rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-button transition hover:-translate-y-0.5 hover:bg-textMain"
+        >
+          Ver siguiente paso
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <!-- Hero -->
+    <section class="border-b border-borderSoft bg-background">
+      <div class="mx-auto grid max-w-page gap-10 px-4 py-14 md:grid-cols-[1.05fr_0.95fr] md:px-6 md:py-18 lg:px-8 lg:py-20">
+        <div>
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-borderSoft bg-surface px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-textMuted">
+            <span class="material-symbols-outlined text-[18px] text-primary icon-filled">tips_and_updates</span>
+            Guía para evaluar tu LLC
+          </div>
+
+          <h1 class="max-w-3xl text-[34px] font-800 leading-[1.08] tracking-[-0.04em] text-primary sm:text-[44px] lg:text-[56px]">
+            Antes de crear tu LLC, entiende qué decisiones pueden afectar tu operación en EE. UU.
+          </h1>
+
+          <p class="mt-6 max-w-2xl text-[17px] leading-8 text-textMuted md:text-[18px]">
+            Esta guía está pensada para quienes todavía están evaluando. Te ayudará a comprender por qué una LLC no es solo un registro, sino una estructura que impacta bancos, impuestos, plataformas de pago, socios y crecimiento internacional.
+          </p>
+
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a
+              href="#guia"
+              data-track-event="cta_hero_read_guide"
+              data-track-label="Leer guía hero"
+              class="inline-flex items-center justify-center rounded-2xl bg-primary px-7 py-4 text-base font-800 text-white shadow-button transition hover:-translate-y-0.5 hover:bg-textMain"
+            >
+              Leer la guía
+              <span class="material-symbols-outlined ml-2 text-[20px]">arrow_forward</span>
+            </a>
+
+            <a
+              href="#siguiente-paso"
+              data-track-event="cta_hero_next_step"
+              data-track-label="Ver siguiente paso hero"
+              class="inline-flex items-center justify-center px-2 py-3 text-sm font-bold text-textMain underline decoration-borderSoft underline-offset-4 transition hover:text-primary hover:decoration-primary"
+            >
+              Ver cuándo pedir asesoría
+            </a>
+          </div>
+        </div>
+
+        <aside class="rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:p-7" aria-label="Resumen de la guía">
+          <p class="text-xs font-bold uppercase tracking-[0.16em] text-textMuted">Lo que vas a entender</p>
+          <h2 class="mt-3 text-2xl font-800 leading-tight tracking-[-0.02em] text-primary">
+            El mapa completo antes de tomar una decisión.
+          </h2>
+
+          <div class="mt-6 space-y-5">
+            <div class="flex gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
+                <span class="material-symbols-outlined text-[21px]">map</span>
+              </span>
+              <div>
+                <p class="font-bold text-primary">Cuándo tiene sentido avanzar</p>
+                <p class="mt-1 text-sm leading-6 text-textMuted">No todos necesitan una LLC en la misma etapa. Primero hay que entender el contexto.</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
+                <span class="material-symbols-outlined text-[21px]">account_balance</span>
+              </span>
+              <div>
+                <p class="font-bold text-primary">Qué afecta bancos y cobros</p>
+                <p class="mt-1 text-sm leading-6 text-textMuted">La estructura influye en KYC, cuentas bancarias y plataformas como Stripe o PayPal.</p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
+                <span class="material-symbols-outlined text-[21px]">gavel</span>
+              </span>
+              <div>
+                <p class="font-bold text-primary">Qué obligaciones aparecen después</p>
+                <p class="mt-1 text-sm leading-6 text-textMuted">EIN, formularios, reportes y cumplimiento no deberían revisarse al final.</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Guide Intro -->
+    <section id="guia" class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+        <div>
+          <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Punto de partida</p>
+          <h2 class="mt-3 text-[30px] font-800 leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
+            Crear una LLC puede ser simple. Estructurarla correctamente no siempre lo es.
+          </h2>
+        </div>
+
+        <div class="rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:p-8">
+          <p class="text-[17px] leading-8 text-textMuted">
+            Muchas personas creen que el proceso termina cuando la empresa queda registrada. En realidad, ahí comienza la parte más importante: cómo se conectará esa LLC con tu país, tu modelo de negocio, tus plataformas de cobro, tus obligaciones tributarias y tus planes de crecimiento.
+          </p>
+          <p class="mt-5 text-[17px] leading-8 text-textMuted">
+            Una estructura mal pensada puede no mostrar problemas el primer día. Los problemas aparecen después: al abrir una cuenta, activar Stripe, declarar impuestos, sumar socios o explicar tu actividad ante un banco o plataforma.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Map -->
+    <section id="proceso" class="border-y border-borderSoft bg-surface">
+      <div class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
+        <div class="mx-auto max-w-3xl text-center">
+          <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Mapa del proceso</p>
+          <h2 class="mt-3 text-[30px] font-800 leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
+            Lo que realmente debes revisar antes de avanzar
+          </h2>
+          <p class="mt-5 text-[17px] leading-8 text-textMuted">
+            Estos puntos no son trámites aislados. Funcionan como piezas conectadas. Si una decisión se toma sin mirar el conjunto, puede afectar el resto del proceso.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+            <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
+              <span class="material-symbols-outlined">location_on</span>
+            </span>
+            <h3 class="mt-5 text-lg font-800 text-primary">1. Elección del estado</h3>
+            <p class="mt-3 text-sm leading-7 text-textMuted">
+              Wyoming, Florida o Delaware pueden sonar atractivos, pero la mejor opción depende de tu país, privacidad, costos, actividad, necesidad bancaria y forma de operar. Elegir por moda puede llevarte a pagar de más o crear una estructura que no se adapta a tu negocio.
+            </p>
+          </article>
+
+          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+            <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
+              <span class="material-symbols-outlined">badge</span>
+            </span>
+            <h3 class="mt-5 text-lg font-800 text-primary">2. EIN y relación con el IRS</h3>
+            <p class="mt-3 text-sm leading-7 text-textMuted">
+              El EIN es el identificador fiscal de la empresa ante el IRS. Es clave para bancos, plataformas y operación formal. Un error en la solicitud o en los datos del responsable puede generar demoras, inconsistencias y problemas para avanzar.
+            </p>
+          </article>
+
+          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+            <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
+              <span class="material-symbols-outlined">description</span>
+            </span>
+            <h3 class="mt-5 text-lg font-800 text-primary">3. Formularios y reportes</h3>
+            <p class="mt-3 text-sm leading-7 text-textMuted">
+              Dependiendo del tipo de dueño, país, actividad y estructura, pueden existir formularios y reportes que no conviene ignorar. El problema no es solo completar documentos: es saber cuáles aplican y cuándo deben presentarse.
+            </p>
+          </article>
+
+          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+            <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
+              <span class="material-symbols-outlined">account_balance</span>
+            </span>
+            <h3 class="mt-5 text-lg font-800 text-primary">4. Bancos y validación KYC</h3>
+            <p class="mt-3 text-sm leading-7 text-textMuted">
+              Abrir una cuenta bancaria no es automático. Los bancos revisan actividad, beneficiarios, documentos, dirección, coherencia del negocio y perfil del cliente. Una LLC creada sin estrategia puede enfrentar rechazos o solicitudes adicionales.
+            </p>
+          </article>
+
+          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+            <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
+              <span class="material-symbols-outlined">payments</span>
+            </span>
+            <h3 class="mt-5 text-lg font-800 text-primary">5. Plataformas de pago</h3>
+            <p class="mt-3 text-sm leading-7 text-textMuted">
+              Stripe, PayPal o Payoneer no solo verifican que exista una empresa. También evalúan actividad, documentación, coherencia fiscal y riesgo. Si la estructura no calza con el modelo de negocio, pueden aparecer bloqueos o restricciones.
+            </p>
+          </article>
+
+          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+            <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
+              <span class="material-symbols-outlined">groups</span>
+            </span>
+            <h3 class="mt-5 text-lg font-800 text-primary">6. Socios y Operating Agreement</h3>
+            <p class="mt-3 text-sm leading-7 text-textMuted">
+              Cuando hay socios, el acuerdo operativo deja de ser un documento formal y pasa a ser una herramienta de control. Define participación, decisiones, reparto de ingresos, responsabilidades y salida de socios.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story Blocks -->
+    <section class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
+      <div class="space-y-10">
+        <article class="grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
+          <div>
+            <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Decisión estratégica</p>
+            <h3 class="mt-3 text-2xl font-800 tracking-[-0.03em] text-primary md:text-3xl">
+              El estado no se elige por recomendación genérica
+            </h3>
+            <p class="mt-4 text-[16px] leading-8 text-textMuted">
+              Una LLC puede registrarse en distintos estados, pero no todos responden igual a tu objetivo. Si necesitas privacidad, operar localmente, vender servicios digitales, trabajar con socios o facilitar acceso bancario, la decisión debe analizarse con más criterio que una simple comparación de costos.
+            </p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+            alt="Edificios corporativos como referencia de estructura empresarial"
+            class="h-72 w-full rounded-2xl object-cover"
+            loading="lazy"
+          />
+        </article>
+
+        <article class="grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
+          <img
+            src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80"
+            alt="Documentos financieros y formularios"
+            class="h-72 w-full rounded-2xl object-cover md:order-1"
+            loading="lazy"
+          />
+          <div class="md:order-2">
+            <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">EIN y cumplimiento</p>
+            <h3 class="mt-3 text-2xl font-800 tracking-[-0.03em] text-primary md:text-3xl">
+              Lo fiscal no empieza cuando ganas dinero
+            </h3>
+            <p class="mt-4 text-[16px] leading-8 text-textMuted">
+              Muchas obligaciones se definen desde la creación de la estructura. El EIN, los formularios ante el IRS y los reportes aplicables deben entenderse desde el inicio, porque luego pueden afectar bancos, plataformas de pago y la continuidad operativa de la empresa.
+            </p>
+          </div>
+        </article>
+
+        <article class="grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
+          <div>
+            <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Operación real</p>
+            <h3 class="mt-3 text-2xl font-800 tracking-[-0.03em] text-primary md:text-3xl">
+              El verdadero examen llega al cobrar y abrir cuentas
+            </h3>
+            <p class="mt-4 text-[16px] leading-8 text-textMuted">
+              Una LLC puede estar correctamente registrada y aun así enfrentar fricción con bancos o plataformas si la documentación, actividad y estructura no son coherentes. Por eso conviene pensar el proceso completo antes de tomar decisiones aisladas.
+            </p>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80"
+            alt="Tarjeta y banca digital como referencia de operación financiera"
+            class="h-72 w-full rounded-2xl object-cover"
+            loading="lazy"
+          />
+        </article>
+      </div>
+    </section>
+
+    <!-- Common Errors -->
+    <section id="errores" class="border-y border-borderSoft bg-surface">
+      <div class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
+        <div class="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
+          <div>
+            <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Errores frecuentes</p>
+            <h2 class="mt-3 text-[30px] font-800 leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
+              El problema no suele estar en crear la LLC, sino en crearla sin una ruta clara.
+            </h2>
+          </div>
+
+          <div class="grid gap-4">
+            <div class="rounded-3xl border border-borderSoft bg-background p-5">
+              <h3 class="font-800 text-primary">Elegir el estado solo por precio</h3>
+              <p class="mt-2 text-sm leading-7 text-textMuted">Un costo inicial bajo puede ocultar costos anuales, requisitos o fricciones que aparecen después.</p>
+            </div>
+            <div class="rounded-3xl border border-borderSoft bg-background p-5">
+              <h3 class="font-800 text-primary">Pedir el EIN sin revisar la estructura</h3>
+              <p class="mt-2 text-sm leading-7 text-textMuted">El EIN debe coincidir con la información correcta de la empresa y su responsable. No es un dato aislado.</p>
+            </div>
+            <div class="rounded-3xl border border-borderSoft bg-background p-5">
+              <h3 class="font-800 text-primary">Creer que la cuenta bancaria está garantizada</h3>
+              <p class="mt-2 text-sm leading-7 text-textMuted">Los bancos aplican criterios de revisión. La documentación y coherencia del negocio importan.</p>
+            </div>
+            <div class="rounded-3xl border border-borderSoft bg-background p-5">
+              <h3 class="font-800 text-primary">No definir acuerdos entre socios</h3>
+              <p class="mt-2 text-sm leading-7 text-textMuted">Cuando no hay reglas claras, los conflictos aparecen cuando el negocio empieza a crecer o generar ingresos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Step -->
+    <section id="siguiente-paso" class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
+      <div class="overflow-hidden rounded-3xl border border-borderSoft bg-primary shadow-subtle">
+        <div class="grid gap-8 p-7 text-white md:grid-cols-[1fr_0.8fr] md:p-10 md:items-center">
+          <div>
+            <p class="text-sm font-bold uppercase tracking-[0.16em] text-white/60">Cuando estés listo</p>
+            <h2 class="mt-3 text-[30px] font-800 leading-tight tracking-[-0.03em] md:text-[42px]">
+              Una buena asesoría no acelera decisiones: evita decisiones mal tomadas.
+            </h2>
+            <p class="mt-5 text-base leading-8 text-white/70">
+              Si después de revisar esta guía sientes que tu caso necesita una mirada profesional, podemos ayudarte a entender qué estructura tiene más sentido según tu país, modelo de negocio, forma de cobro y objetivos de crecimiento.
+            </p>
+          </div>
+
+          <div class="rounded-3xl bg-white p-6 text-primary">
+            <h3 class="text-xl font-800 tracking-[-0.02em]">¿Qué revisamos en una asesoría?</h3>
+            <ul class="mt-5 space-y-3 text-sm text-textMuted">
+              <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled">check_circle</span>Estado y estructura recomendada.</li>
+              <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled">check_circle</span>EIN, bancos y plataformas de pago.</li>
+              <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled">check_circle</span>Riesgos fiscales y obligaciones iniciales.</li>
+              <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled">check_circle</span>Próximos pasos según tu caso.</li>
+            </ul>
+
+            <a
+              href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&utm_medium=landing&utm_campaign=llc_guide&utm_content=final_cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-track-event="cta_not_ready_schedule"
+              data-track-label="Agendar desde guía not ready"
+              class="mt-7 inline-flex w-full items-center justify-center rounded-2xl bg-primary px-5 py-4 text-base font-800 text-white shadow-button transition hover:bg-textMain"
+            >
+              Revisar mi caso
+              <span class="material-symbols-outlined ml-2 text-[20px]">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-borderSoft bg-surface">
+    <div class="mx-auto flex max-w-page flex-col gap-6 px-4 py-8 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
+      <div>
+        <img
+          src="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+          alt="Sotomayor Consulting International"
+          class="h-12 w-auto object-contain"
+          loading="lazy"
+        />
+        <p class="mt-3 max-w-xl text-xs leading-6 text-textMuted">
+          Sotomayor Consulting no es banco ni institución financiera. Nuestros servicios se enfocan en consultoría, acompañamiento estratégico y gestión de trámites relacionados con constitución de empresas, cuentas bancarias internacionales y asesoría comercial.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap gap-4 text-sm text-textMuted">
+        <a href="https://sotomayorconsulting.com/inicio/politicas/" target="_blank" rel="noopener noreferrer" class="hover:text-primary">Política de privacidad</a>
+        <a href="https://sotomayorconsulting.com/inicio/terminos/" target="_blank" rel="noopener noreferrer" class="hover:text-primary">Términos de servicio</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA -->
+  <div class="fixed inset-x-0 bottom-0 z-40 border-t border-borderSoft bg-white/95 p-3 shadow-subtle backdrop-blur-md md:hidden">
+    <a
+      href="#guia"
+      data-track-event="cta_sticky_read_guide_mobile"
+      data-track-label="Leer guía sticky mobile"
+      class="mx-auto inline-flex w-full max-w-page items-center justify-center rounded-2xl bg-primary px-4 py-3 text-sm font-800 text-white"
+    >
+      Leer la guía
+      <span class="material-symbols-outlined ml-2 text-[18px]">arrow_forward</span>
+    </a>
+  </div>
+
+  <!-- DOM events and conversion tracking -->
+  <script>
+    (function () {
+      var config = window.SCI_TRACKING_CONFIG || {};
+
+      var pagePayload = {
+        page_name: config.page_name || "not_ready_llc_guide",
+        page_category: config.page_category || "llc_education_nurturing",
+        content_id: "not-ready-llc-guide",
+        content_type: "guide",
+        content_name: "Guía práctica para evaluar una LLC",
+        currency: "USD",
+        value: 0
+      };
+
+      function logDebug(message, payload) {
+        if (!config.debug) return;
+        console.log("[SCI Tracking]", message, payload || {});
+      }
+
+      function pushDataLayer(eventName, payload) {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push(Object.assign({ event: eventName }, payload || {}));
+      }
+
+      function trackGtag(eventName, payload) {
+        if (typeof window.gtag !== "function") return;
+        window.gtag("event", eventName, payload || {});
+      }
+
+      function trackTikTok(eventName, payload) {
+        if (!window.ttq || typeof window.ttq.track !== "function") return;
+        window.ttq.track(eventName, payload || {});
+      }
+
+      function dispatchSciEvent(eventName, payload) {
+        var detail = Object.assign({}, pagePayload, payload || {});
+        document.dispatchEvent(new CustomEvent("sci:" + eventName, { detail: detail }));
+        pushDataLayer("sci_" + eventName, detail);
+        trackGtag("sci_" + eventName, detail);
+        logDebug(eventName, detail);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        dispatchSciEvent("not_ready_guide_view", {
+          event_label: "Vista guía not_ready LLC",
+          page_url: window.location.href,
+          referrer: document.referrer || ""
+        });
+
+        trackTikTok("ViewContent", {
+          contents: [
+            {
+              content_id: pagePayload.content_id,
+              content_type: pagePayload.content_type,
+              content_name: pagePayload.content_name
+            }
+          ],
+          value: pagePayload.value,
+          currency: pagePayload.currency
+        });
+
+        document.querySelectorAll("[data-track-event]").forEach(function (element) {
+          element.addEventListener("click", function () {
+            var eventName = element.getAttribute("data-track-event");
+            var label = element.getAttribute("data-track-label") || element.textContent.trim();
+            var href = element.getAttribute("href") || "";
+
+            var payload = {
+              event_label: label,
+              link_url: href,
+              link_text: element.textContent.trim()
+            };
+
+            dispatchSciEvent(eventName, payload);
+
+            // Evento cuando el usuario hace intención fuerte
+            if (eventName.includes("schedule")) {
+              trackTikTok("Schedule", {
+                content_name: "LLC Consultation",
+                value: 0,
+                currency: "USD"
+              });
+            }
+
+            if (eventName.indexOf("schedule") !== -1 || eventName.indexOf("next_step") !== -1) {
+              trackTikTok("Contact", {
+                contents: [
+                  {
+                    content_id: "not-ready-to-advisory",
+                    content_type: "service",
+                    content_name: "Paso desde guía not_ready hacia asesoría"
+                  }
+                ],
+                value: 0,
+                currency: "USD"
+              });
+            }
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

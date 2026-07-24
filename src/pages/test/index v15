@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gracias por tu registro | Sotomayor Consulting</title>
+  <meta name="description" content="Confirma tu registro y agenda una asesoría para revisar tu caso y definir los próximos pasos para tu LLC en Estados Unidos." />
+  <link rel="icon" type="image/png" href="https://sotomayorconsulting.com/wp-content/uploads/2026/06/Recurso-6.png" />
+  <link rel="shortcut icon" type="image/png" href="https://sotomayorconsulting.com/wp-content/uploads/2026/06/Recurso-6.png" />
+  <link rel="apple-touch-icon" href="https://sotomayorconsulting.com/wp-content/uploads/2026/06/Recurso-6.png" />
+  <meta name="msapplication-TileImage" content="https://sotomayorconsulting.com/wp-content/uploads/2026/06/Recurso-6.png" />
+  <meta name="theme-color" content="#f7fafb" />
+  <!-- Versión: v13 | Agenda postvalidación, scroll asistido y carrusel doble aleatorio -->
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){
+      w[l]=w[l]||[];
+      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),
+      dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true;
+      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TNRQGDM');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- TikTok Pixel Code -->
+  <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject=t;
+      var ttq=w[t]=w[t]||[];
+      ttq.methods=[
+        "page","track","identify","instances","debug","on","off","once",
+        "ready","alias","group","enableCookie","disableCookie"
+      ];
+      ttq.setAndDefer=function(t,e){
+        t[e]=function(){
+          t.push([e].concat(Array.prototype.slice.call(arguments,0)))
+        }
+      };
+      for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+      ttq.instance=function(t){
+        for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);
+        return e
+      };
+      ttq.load=function(e,n){
+        var i="https://analytics.tiktok.com/i18n/pixel/events.js";
+        ttq._i=ttq._i||{};
+        ttq._i[e]=[];
+        ttq._i[e]._u=i;
+        ttq._t=ttq._t||{};
+        ttq._t[e]=+new Date;
+        ttq._o=ttq._o||{};
+        ttq._o[e]=n||{};
+        var o=document.createElement("script");
+        o.type="text/javascript";
+        o.async=true;
+        o.src=i+"?sdkid="+e+"&lib="+t;
+        var a=document.getElementsByTagName("script")[0];
+        a.parentNode.insertBefore(o,a)
+      };
+
+      ttq.load('D5KFDEBC77U6BL6T7LDG');
+      ttq.page();
+    }(window, document, 'ttq');
+  </script>
+  <!-- End TikTok Pixel Code -->
+  <style>
+    :root {
+      --navy:#06283f; --navy-2:#0a3a55; --teal:#0e8fa0; --teal-2:#18a7ad;
+      --teal-soft:#eaf7f7; --gold:#c79a2d; --gold-soft:#fff7e4;
+      --ink:#102433; --muted:#637587; --line:#dfe8ed; --bg:#f7fafb;
+      --white:#fff; --success:#16a36d; --danger:#9f1239;
+      --shadow:0 18px 50px rgba(6,40,63,.10); --shadow-soft:0 10px 30px rgba(6,40,63,.07);
+      --r-xl:30px; --r-lg:22px; --r-md:16px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:
+      radial-gradient(circle at 92% 3%,rgba(14,143,160,.11),transparent 24%),
+      radial-gradient(circle at 2% 18%,rgba(199,154,45,.08),transparent 22%),
+      linear-gradient(180deg,#fff 0%,var(--bg) 42%,#fff 100%);line-height:1.5}
+    a{color:inherit;text-decoration:none} button,input{font:inherit}
+    .container{width:min(1180px,calc(100% - 32px));margin:auto}
+    .site-header{height:84px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid rgba(6,40,63,.07)}
+    .brand img{width:252px;max-width:58vw;display:block}
+    .header-trust{display:flex;align-items:center;gap:11px;color:var(--navy);font-size:13px;font-weight:750}
+    .header-trust-icon{width:38px;height:38px;border-radius:13px;display:grid;place-items:center;background:var(--teal-soft);color:var(--teal)}
+    .header-trust small{display:block;color:var(--muted);font-weight:600}
+    .hero{padding:54px 0 28px;position:relative}
+    .hero::after{content:"";position:absolute;right:0;top:12px;width:34%;height:84%;background:linear-gradient(135deg,transparent 20%,rgba(14,143,160,.055) 20% 36%,transparent 36% 48%,rgba(6,40,63,.04) 48% 62%,transparent 62%);pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:58px;align-items:center;position:relative;z-index:1}
+    .status-pill{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:#ecf8f2;color:#08784e;font-size:13px;font-weight:850}
+    .status-dot{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;background:var(--success);color:#fff;font-size:12px}
+    h1{margin:22px 0 0;color:var(--navy);font-size:clamp(42px,5.4vw,68px);line-height:.99;letter-spacing:-.052em;max-width:720px}
+    .hero-copy{margin:22px 0 0;max-width:650px;color:var(--muted);font-size:18px}
+    .hero-points{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:23px;color:var(--navy);font-size:14px;font-weight:750}
+    .hero-points span{display:inline-flex;align-items:center;gap:7px}
+    .hero-points i{font-style:normal;color:var(--teal)}
+    .hero-action{margin-top:29px;display:inline-flex;align-items:center;gap:10px;padding:15px 22px;border-radius:14px;background:linear-gradient(135deg,var(--teal),var(--teal-2));color:#fff;font-weight:850;box-shadow:0 14px 28px rgba(14,143,160,.22);transition:.2s}
+    .hero-action:hover{transform:translateY(-2px)}
+    .hero-note{margin-top:13px;color:var(--muted);font-size:13px}
+    .lookup-card{position:relative;background:rgba(255,255,255,.96);border:1px solid rgba(6,40,63,.09);border-radius:var(--r-xl);padding:34px;box-shadow:var(--shadow);overflow:hidden}
+    .lookup-card::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 95% 5%,rgba(14,143,160,.13),transparent 28%);pointer-events:none}
+    .lookup-card>*{position:relative;z-index:1}
+    .step-label{display:inline-flex;align-items:center;gap:8px;color:var(--teal);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.11em}
+    .step-label::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 5px rgba(14,143,160,.12)}
+    .lookup-card h2{margin:15px 0 0;color:var(--navy);font-size:clamp(28px,3vw,38px);line-height:1.06;letter-spacing:-.04em}
+    .lookup-copy{margin:15px 0 23px;color:var(--muted)}
+    .lookup-form{display:grid;gap:10px} .lookup-form label{font-size:14px;font-weight:850;color:var(--navy)}
+    .lookup-input-row{display:grid;grid-template-columns:1fr auto;gap:10px}
+    .lookup-input-row input{min-width:0;height:54px;border:1px solid var(--line);border-radius:14px;padding:0 15px;color:var(--ink);outline:none;background:#fff;transition:.2s}
+    .lookup-input-row input:focus{border-color:var(--teal);box-shadow:0 0 0 4px rgba(14,143,160,.12)}
+    .lookup-input-row button{height:54px;border:0;border-radius:14px;padding:0 19px;background:var(--navy);color:#fff;font-weight:900;cursor:pointer;box-shadow:0 10px 24px rgba(6,40,63,.18);transition:.2s;white-space:nowrap}
+    .lookup-input-row button:hover{background:var(--navy-2);transform:translateY(-1px)} .lookup-input-row button:disabled{opacity:.68;transform:none;cursor:not-allowed}
+    .lookup-form small{color:var(--muted);font-size:12.5px}
+    .privacy-line{display:flex;align-items:center;gap:8px;margin-top:18px;padding-top:17px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px}
+    .privacy-line b{color:var(--teal)}
+    .lookup-feedback{display:none;margin-top:15px;padding:14px 15px;border-radius:14px;font-size:14px;border:1px solid transparent}
+    .lookup-feedback.is-visible{display:block} .lookup-feedback.is-success{background:#ecf8f2;border-color:#bde7d3;color:#08784e}
+    .lookup-feedback.is-warning{background:var(--gold-soft);border-color:#efddae;color:#73551d} .lookup-feedback.is-error{background:#fff1f4;border-color:#f2c7d2;color:var(--danger)}
+    .lookup-feedback strong{display:block;margin-bottom:2px} .lookup-feedback a{display:inline-flex;margin-top:9px;font-weight:900;text-decoration:underline}
+    .value-section{padding:34px 0 16px}
+    .section-kicker{color:var(--teal);font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.12em}
+    .section-title{margin:9px 0 0;color:var(--navy);font-size:clamp(30px,4vw,46px);line-height:1.05;letter-spacing:-.04em}
+    .section-subtitle{margin:12px 0 0;color:var(--muted);max-width:680px}
+    .value-grid{margin-top:27px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .value-card{min-height:220px;padding:23px;border:1px solid var(--line);border-radius:var(--r-lg);background:rgba(255,255,255,.94);box-shadow:var(--shadow-soft)}
+    .value-icon{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;background:var(--teal-soft);color:var(--teal);font-size:22px}
+    .value-card h3{margin:19px 0 8px;color:var(--navy);font-size:18px;line-height:1.18} .value-card p{margin:0;color:var(--muted);font-size:14px}
+    .value-card.urgency{background:linear-gradient(145deg,#f0fbfb,#fff);border-color:#bfe6e6} .value-card.urgency .value-icon{background:var(--navy);color:#fff}
+    .value-card.urgency strong{display:block;margin-top:14px;color:var(--teal);font-size:13px}
+    .proof-section{padding:62px 0 24px;text-align:center}
+    .stats-grid{margin-top:26px;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .stat-card{padding:23px 18px;border:1px solid var(--line);border-radius:var(--r-lg);background:#fff;box-shadow:var(--shadow-soft)}
+    .stat-card strong{display:block;color:var(--teal);font-size:34px;line-height:1} .stat-card span{display:block;margin-top:9px;color:var(--navy);font-weight:800;font-size:14px} .stat-card small{display:block;margin-top:5px;color:var(--muted)}
+    .testimonial-carousel{margin-top:18px;position:relative;text-align:left}
+    .testimonial-viewport{overflow:hidden;border-radius:var(--r-lg)}
+    .testimonial-track{display:flex;transition:transform .55s cubic-bezier(.22,.61,.36,1);will-change:transform}
+    .testimonial-page{min-width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:2px}
+    .testimonial{display:grid;grid-template-columns:72px 1fr;gap:16px;align-items:center;min-height:225px;padding:24px;border:1px solid var(--line);border-radius:var(--r-lg);background:#fff;box-shadow:var(--shadow-soft)}
+    .testimonial img{width:72px;height:72px;border-radius:50%;object-fit:cover;border:4px solid var(--teal-soft)}
+    .testimonial blockquote{margin:0;color:var(--ink);font-size:15px;line-height:1.55}.testimonial cite{display:block;margin-top:12px;color:var(--navy);font-style:normal;font-weight:900}.testimonial cite small{display:block;color:var(--muted);font-weight:600}
+    .carousel-button{position:absolute;top:50%;z-index:2;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--navy);display:grid;place-items:center;cursor:pointer;box-shadow:var(--shadow-soft);transform:translateY(-50%);font-size:20px;font-weight:900;transition:.2s}
+    .carousel-button:hover{background:var(--teal-soft);color:var(--teal)}.carousel-button.prev{left:14px}.carousel-button.next{right:14px}
+    .carousel-dots{display:flex;justify-content:center;gap:8px;margin-top:16px}.carousel-dot{width:9px;height:9px;padding:0;border:0;border-radius:50%;background:#cbd9df;cursor:pointer;transition:.2s}.carousel-dot.is-active{width:26px;border-radius:999px;background:var(--teal)}
+    .agenda-section{padding:44px 0 34px}
+    .agenda-layout{display:grid;grid-template-columns:.78fr 1.22fr;gap:22px;align-items:start}
+    .agenda-intro{position:sticky;top:18px;padding:28px;border-radius:var(--r-xl);background:var(--navy);color:#fff;box-shadow:var(--shadow)}
+    .agenda-intro .section-kicker{color:#91d8dc} .agenda-intro h2{margin:10px 0 0;font-size:34px;line-height:1.06;letter-spacing:-.04em} .agenda-intro p{color:#c6d6df}
+    .process-list{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:13px}
+    .process-list li{display:grid;grid-template-columns:34px 1fr;gap:11px;align-items:start}
+    .process-list b{width:34px;height:34px;border-radius:12px;display:grid;place-items:center;background:rgba(255,255,255,.11);color:#9de0e2} .process-list span{font-size:14px;color:#eef5f7} .process-list small{display:block;color:#9fb5c1;margin-top:2px}
+    .agenda-scroll-button{display:none;width:48px;height:48px;margin:24px auto 0;border:1px solid rgba(255,255,255,.22);border-radius:50%;background:rgba(255,255,255,.09);color:#fff;cursor:pointer;font-size:25px;line-height:1;box-shadow:0 12px 26px rgba(0,0,0,.14);animation:scrollHint 1.8s ease-in-out infinite;transition:background .2s ease,transform .2s ease}
+    .agenda-scroll-button.is-visible{display:grid;place-items:center}.agenda-scroll-button:hover{background:rgba(255,255,255,.16);transform:translateY(2px)}
+    @keyframes scrollHint{0%,100%{translate:0 0}50%{translate:0 7px}}
+    .agenda-stage{min-width:0}
+    .social-proof-card,.calendar-card{border:1px solid var(--line);border-radius:var(--r-xl);background:#fff;box-shadow:var(--shadow-soft)}
+    .social-proof-card{padding:30px} .social-proof-card h2{margin:10px 0 0;color:var(--navy);font-size:34px;line-height:1.08;letter-spacing:-.04em} .social-proof-card p{color:var(--muted)}
+    .proof-note{margin-top:20px;padding:16px;border-radius:16px;background:var(--gold-soft);border:1px solid #efddae;color:#73551d;font-size:14px;font-weight:650}
+    .calendar-card{overflow:hidden} .calendar-card.is-hidden{display:none}
+    .calendar-header{padding:18px 22px;display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line);background:#fbfdfe} .calendar-header strong{color:var(--navy)} .calendar-header a{color:var(--teal);font-size:14px;font-weight:900}
+    .calendar-frame{width:100%;height:760px;border:0;display:block;background:#fff} .calendar-fallback{padding:16px 22px 22px;border-top:1px solid var(--line);color:var(--muted);font-size:13px} .calendar-fallback a{color:var(--teal);font-weight:900}
+    .review-section{padding:48px 0 62px}
+    .review-card{display:grid;grid-template-columns:.75fr 1.25fr;gap:34px;align-items:center;padding:36px;border-radius:var(--r-xl);background:#fff;border:1px solid var(--line);box-shadow:var(--shadow-soft)}
+    .review-list{display:grid;gap:0;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+    .review-item{display:flex;align-items:center;gap:12px;padding:15px 17px;border-top:1px solid var(--line);font-weight:750;color:var(--navy)} .review-item:first-child{border-top:0} .review-check{width:24px;height:24px;border-radius:8px;display:grid;place-items:center;background:var(--teal);color:#fff;font-size:13px}
+    .footer{padding:32px 0 46px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+    .footer-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:30px} .footer img{width:230px;display:block;margin-bottom:14px} .footer-links{display:flex;gap:18px;justify-content:flex-end;flex-wrap:wrap} .footer-links a{color:var(--navy);font-weight:850} .disclaimer{font-size:11.5px;max-width:830px}
+    .lookup-loading-overlay{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(3,20,33,.62);backdrop-filter:blur(9px)} .lookup-loading-overlay.is-active{display:flex}
+    .lookup-loading-card{width:min(410px,100%);padding:30px;border-radius:24px;background:#fff;text-align:center;box-shadow:0 28px 80px rgba(0,0,0,.24)} .lookup-loading-card h2{margin:17px 0 7px;color:var(--navy)} .lookup-loading-card p{margin:0;color:var(--muted)}
+    .lookup-spinner{width:46px;height:46px;margin:auto;border-radius:50%;border:4px solid rgba(14,143,160,.18);border-top-color:var(--teal);animation:spin .85s linear infinite} @keyframes spin{to{transform:rotate(360deg)}}
+    @media(max-width:980px){.hero-grid,.agenda-layout,.review-card{grid-template-columns:1fr}.hero{padding-top:32px}.value-grid{grid-template-columns:repeat(2,1fr)}.agenda-intro{position:static}.stats-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:680px){.container{width:min(100% - 22px,1180px)}.site-header{height:72px}.header-trust{display:none}.brand img{width:220px}h1{font-size:42px}.hero-grid{gap:28px}.lookup-card{padding:25px 21px;border-radius:24px}.lookup-input-row{grid-template-columns:1fr}.lookup-input-row button{width:100%}.value-grid,.stats-grid{grid-template-columns:1fr}.value-card{min-height:auto}.testimonial-page{grid-template-columns:1fr;gap:12px}.testimonial{grid-template-columns:58px 1fr;gap:14px;min-height:190px;padding:21px}.testimonial img{width:58px;height:58px}.carousel-button{width:36px;height:36px}.carousel-button.prev{left:7px}.carousel-button.next{right:7px}.agenda-intro,.social-proof-card,.calendar-card,.review-card{border-radius:24px}.calendar-header{flex-direction:column;align-items:flex-start}.calendar-frame{height:680px}.footer-grid{grid-template-columns:1fr}.footer-links{justify-content:flex-start}}
+  </style>
+</head>
+<body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNRQGDM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <header class="container site-header">
+    <a class="brand" href="https://sotomayorconsulting.com/" aria-label="Sotomayor Consulting International"><img src="https://sotomayorconsulting.com/wp-content/uploads/2026/06/Recurso-4.png" alt="Sotomayor Consulting International"></a>
+    <div class="header-trust"><span class="header-trust-icon">✓</span><span>Asesoría especializada<small>Estructuración internacional</small></span></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="status-pill"><span class="status-dot">✓</span> Registro completado</div>
+          <h1>Gracias por registrarte. Continuemos con tu agenda.</h1>
+          <p class="hero-copy">Estás a un paso de reservar tu asesoría. Elige el horario que mejor se adapte a ti y avanza con mayor claridad.</p>
+          <div class="hero-points"><span><i>✓</i> Confirmación rápida</span><span><i>✓</i> Datos protegidos</span><span><i>✓</i> Elección de horario</span></div>
+          <a class="hero-action" href="#recuperar-registro">Continuar con mi agenda →</a>
+          <p class="hero-note">Ten a mano el WhatsApp o correo que ingresaste al registrarte.</p>
+        </div>
+        <aside class="lookup-card" id="recuperar-registro" aria-labelledby="lookup-title">
+          <div class="step-label">Continuemos</div>
+          <h2 id="lookup-title">Confirma tu dato de registro.</h2>
+          <p class="lookup-copy">Ingresa el WhatsApp o correo que utilizaste al registrarte para continuar con la selección de tu horario.</p>
+          <form class="lookup-form" id="leadLookupForm" novalidate>
+            <label for="lookupValue">WhatsApp o email registrado</label>
+            <div class="lookup-input-row">
+              <input id="lookupValue" name="lookup_value" type="text" autocomplete="email" inputmode="email" placeholder="Ej.: +593... o correo@dominio.com" required>
+              <button type="submit">Continuar con mi agenda</button>
+            </div>
+            <small>Usaremos este dato únicamente para localizar tu registro.</small>
+          </form>
+          <div class="privacy-line"><b>🔒</b> Tu información está segura y no se mostrará públicamente.</div>
+          <div class="lookup-feedback" id="lookupFeedback" role="status" aria-live="polite"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container value-section">
+      <div class="section-kicker">Valor de la asesoría</div>
+      <h2 class="section-title">Una conversación enfocada en tu caso.</h2>
+      <p class="section-subtitle">En la reunión revisaremos tu situación y te orientaremos sobre las decisiones más importantes antes de avanzar.</p>
+      <div class="value-grid">
+        <article class="value-card"><div class="value-icon">◎</div><h3>Evaluación personalizada</h3><p>Revisamos tu actividad, residencia y objetivos para orientar el siguiente paso.</p></article>
+        <article class="value-card"><div class="value-icon">▤</div><h3>Estructura, costos y proceso</h3><p>Aclaramos opciones, requisitos, tiempos estimados y posibles dependencias.</p></article>
+        <article class="value-card"><div class="value-icon">▥</div><h3>Banca, cobros y operación</h3><p>Conversamos sobre cuentas, pasarelas de pago y operación internacional.</p></article>
+        <article class="value-card urgency"><div class="value-icon">◷</div><h3>Elige el horario que mejor te convenga</h3><p>Después de confirmar tu dato podrás revisar la disponibilidad y reservar la fecha que se adapte a tu agenda.</p><strong>Horarios sujetos a disponibilidad</strong></article>
+      </div>
+    </section>
+
+    <section class="container proof-section" id="prueba-social">
+      <div class="section-kicker">Confianza</div>
+      <h2 class="section-title">Acompañamiento profesional y cercano.</h2>
+      <div class="stats-grid">
+        <div class="stat-card"><strong>10+</strong><span>Años de experiencia</span><small>En consultoría empresarial.</small></div>
+        <div class="stat-card"><strong>97%</strong><span>Satisfacción</span><small>Según experiencia reportada.</small></div>
+        <div class="stat-card"><strong>Global</strong><span>Atención internacional</span><small>Para negocios de Latinoamérica.</small></div>
+        <div class="stat-card"><strong>4.2/5</strong><span>Valoración pública</span><small>Referencia de Trustpilot.</small></div>
+      </div>
+      <div class="testimonial-carousel" id="testimonialCarousel" aria-label="Testimonios de clientes">
+        <button class="carousel-button prev" type="button" aria-label="Testimonios anteriores">‹</button>
+        <div class="testimonial-viewport">
+          <div class="testimonial-track">
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=240&q=85" alt="Retrato de Andrés"><div><blockquote>“La asesoría fue clara y práctica. Entendí qué estructura podía adaptarse mejor a mi negocio y cuáles eran los pasos reales para avanzar.”</blockquote><cite>Andrés G.<small>Emprendedor, Colombia</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=240&q=85" alt="Retrato de María"><div><blockquote>“Me explicaron todo de manera sencilla y transparente. Salí de la reunión con una ruta clara y con mucha más seguridad para decidir.”</blockquote><cite>María P.<small>Consultora, México</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=240&q=85" alt="Retrato de Valentina"><div><blockquote>“Tenía dudas sobre banca, cobros y obligaciones. La asesoría me ayudó a entender qué debía preparar y en qué orden hacerlo.”</blockquote><cite>Valentina R.<small>Fundadora de e-commerce, Chile</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=85" alt="Retrato de Daniel"><div><blockquote>“Analizaron mi caso antes de recomendar una solución. Fue una conversación profesional, directa y enfocada en mis objetivos.”</blockquote><cite>Daniel M.<small>Consultor digital, Ecuador</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=240&q=85" alt="Retrato de Camila"><div><blockquote>“El acompañamiento fue cercano y ordenado. Entendí los costos, los tiempos y las decisiones que debía tomar antes de avanzar.”</blockquote><cite>Camila S.<small>Emprendedora, Perú</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=85" alt="Retrato de Sofía"><div><blockquote>“Llegué con muchas preguntas y terminé con prioridades concretas. La explicación fue sencilla y sin tecnicismos innecesarios.”</blockquote><cite>Sofía L.<small>Diseñadora y empresaria, Argentina</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=240&q=85" alt="Retrato de Mateo"><div><blockquote>“Me ayudaron a comparar alternativas y entender cuál tenía más sentido para mi actividad y mi forma de cobrar.”</blockquote><cite>Mateo C.<small>Profesional independiente, Costa Rica</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=240&q=85" alt="Retrato de Gabriela"><div><blockquote>“La reunión fue puntual y muy útil. Ahora sé qué documentos necesito y cuáles son los próximos pasos para organizar mi operación.”</blockquote><cite>Gabriela T.<small>Emprendedora, Panamá</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&w=240&q=85" alt="Retrato de Nicolás"><div><blockquote>“Valoré la transparencia con los tiempos y costos. No sentí presión; recibí información concreta para tomar una mejor decisión.”</blockquote><cite>Nicolás A.<small>Director de agencia, Uruguay</small></cite></div></article>
+            <article class="testimonial"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=240&q=85" alt="Retrato de Laura"><div><blockquote>“Fue una asesoría cercana y profesional. Pudimos aclarar dudas sobre la LLC, la cuenta bancaria y la operación internacional.”</blockquote><cite>Laura V.<small>Consultora, República Dominicana</small></cite></div></article>
+          </div>
+        </div>
+        <button class="carousel-button next" type="button" aria-label="Siguientes testimonios">›</button>
+        <div class="carousel-dots" aria-label="Seleccionar grupo de testimonios"></div>
+      </div>
+    </section>
+
+    <section class="container agenda-section" id="agenda">
+      <div class="agenda-layout">
+        <aside class="agenda-intro">
+          <div class="section-kicker">Tu siguiente paso</div>
+          <h2 id="agendaPersonalizedTitle" aria-live="polite">Elige la fecha y hora de tu asesoría.</h2>
+          <p id="agendaPersonalizedCopy">Tu registro ya está confirmado. Revisa la disponibilidad y selecciona el horario que mejor se adapte a ti.</p>
+          <ol class="process-list">
+            <li><b>1</b><span>Revisa las fechas<small>Consulta los días disponibles en el calendario.</small></span></li>
+            <li><b>2</b><span>Elige un horario<small>Selecciona la hora que mejor te convenga.</small></span></li>
+            <li><b>3</b><span>Confirma tu asesoría<small>Completa la reserva y recibe la confirmación.</small></span></li>
+          </ol>
+          <button class="agenda-scroll-button" id="agendaScrollButton" type="button" aria-label="Bajar al calendario" title="Ir al calendario">⌄</button>
+        </aside>
+        <div class="agenda-stage">
+          <div class="social-proof-card" id="socialProofCard">
+            <div class="section-kicker">Continuar con la reserva</div>
+            <h2>Confirma tu dato y revisa los horarios disponibles.</h2>
+            <p>Ingresa arriba el WhatsApp o correo que utilizaste al registrarte. Luego podrás elegir la fecha y hora de tu asesoría.</p>
+            <div class="proof-note">Usaremos el dato únicamente para localizar tu registro y facilitar la reserva.</div>
+          </div>
+          <div class="calendar-card is-hidden" id="calendarCard">
+            <div class="calendar-header"><strong id="calendarTitle">Agenda preparada con tu registro</strong><a id="calendarExternalLink" href="https://zcal.co/t/agendar-asesoria-llc/60min" target="_blank" rel="noopener" data-track-schedule>Abrir en nueva pestaña</a></div>
+            <iframe id="zcalFrame" class="calendar-frame" title="Agenda asesoría LLC Sotomayor Consulting" src="about:blank" loading="lazy" allow="camera; microphone; fullscreen"></iframe>
+            <div class="calendar-fallback">Si el calendario no carga correctamente, <a id="calendarFallbackLink" href="https://zcal.co/t/agendar-asesoria-llc/60min" target="_blank" rel="noopener" data-track-schedule>abre la agenda aquí</a>.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container review-section">
+      <div class="review-card">
+        <div><div class="section-kicker">Asesoría inicial</div><h2 class="section-title">¿Qué revisaremos contigo?</h2><p class="section-subtitle">Una conversación estratégica para darte claridad y ayudarte a tomar una decisión informada.</p></div>
+        <div class="review-list"><div class="review-item"><span class="review-check">✓</span>Tu actividad, país de residencia y objetivos</div><div class="review-item"><span class="review-check">✓</span>Si una LLC se adapta a tu caso</div><div class="review-item"><span class="review-check">✓</span>Requisitos, costos y tiempos estimados</div><div class="review-item"><span class="review-check">✓</span>Próximos pasos recomendados</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer"><div class="footer-grid"><div><img src="https://sotomayorconsulting.com/wp-content/uploads/2026/06/Recurso-4.png" alt="Sotomayor Consulting International"><p>Consultoría estratégica para emprendedores, inversionistas y negocios internacionales que buscan estructurar correctamente su operación en Estados Unidos.</p><p class="disclaimer">Sotomayor Consulting International no es banco, entidad financiera, cooperativa de ahorro y crédito ni institución sujeta a supervisión de organismos regulatorios financieros. Nuestros servicios se enfocan en consultoría, acompañamiento estratégico y gestión de trámites relacionados con constitución de empresas, apertura de cuentas bancarias internacionales y asesoría comercial.</p></div><nav class="footer-links" aria-label="Enlaces legales"><a href="https://sotomayorconsulting.com/politica-de-privacidad/">Privacidad</a><a href="https://sotomayorconsulting.com/terminos-de-servicio/">Términos</a><a href="#recuperar-registro">Validar registro</a></nav></div></footer>
+
+  <div class="lookup-loading-overlay" id="lookupLoadingOverlay" aria-hidden="true"><div class="lookup-loading-card" role="alert" aria-live="assertive"><div class="lookup-spinner" aria-hidden="true"></div><h2>Preparando tu agenda...</h2><p>Estamos localizando tu registro para mostrarte los horarios disponibles.</p></div></div>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    const SOTO_TIKTOK_PIXEL_ID = 'D5KFDEBC77U6BL6T7LDG';
+    const SOTO_TIKTOK_EVENTS_API_WEBHOOK = 'https://n8n.sotomayorconsulting.com/webhook/pixel-api-conversiones';
+    const SOTO_LEAD_LOOKUP_WEBHOOK = 'https://n8n.sotomayorconsulting.com/webhook/landing-postregistro';
+    const SOTO_DEFAULT_ZCAL_URL = 'https://zcal.co/t/agendar-asesoria-llc/60min';
+
+    const SOTO_EVENT_BASE = {
+      content_type: 'thank_you_page',
+      content_name: 'Gracias por tu registro - Asesoria LLC',
+      content_category: 'LLC USA',
+      currency: 'USD',
+      value: 0
+    };
+
+    const SOTO_TIKTOK_EVENT_CONFIG = {
+      PageView: {
+        send_to_pixel: false,
+        send_to_events_api: true,
+        dedupe_once_per_session: false,
+        description: 'Carga de pagina post registro'
+      },
+      ViewContent: {
+        send_to_pixel: true,
+        send_to_events_api: true,
+        dedupe_once_per_session: false,
+        description: 'Usuario visualiza pagina de agradecimiento posterior al registro'
+      },
+      SubmitForm: {
+        send_to_pixel: true,
+        send_to_events_api: true,
+        dedupe_once_per_session: true,
+        description: 'Registro confirmado al llegar a pagina post registro'
+      },
+      Schedule: {
+        send_to_pixel: true,
+        send_to_events_api: true,
+        dedupe_once_per_session: true,
+        description: 'Usuario hace clic para reservar asesoria'
+      }
+    };
+
+    function sotoGetUrlParam(name) {
+      const params = new URLSearchParams(window.location.search);
+      const value = params.get(name);
+      return value ? value.trim() : '';
+    }
+
+    function sotoIsValidTtclid(value) {
+      if (!value) return false;
+
+      const normalized = value.trim().toUpperCase();
+      const invalidValues = ['__CLICKID__', '_CLICKID_', 'CLICKID', '{{CLICKID}}', '{CLICKID}', 'NULL', 'UNDEFINED'];
+
+      if (invalidValues.includes(normalized)) return false;
+      if (value.length < 10) return false;
+
+      return /^[a-zA-Z0-9._-]+$/.test(value);
+    }
+
+    function sotoGetCookie(name) {
+      const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+      return match ? decodeURIComponent(match[2]) : '';
+    }
+
+    function sotoSetCookie(name, value, days) {
+      const maxAge = days * 24 * 60 * 60;
+      document.cookie =
+        name + '=' + encodeURIComponent(value) +
+        '; Max-Age=' + maxAge +
+        '; Path=/' +
+        '; SameSite=Lax' +
+        '; Secure';
+    }
+
+    function sotoGetStoredTtclid() {
+      const ttclidFromUrl = sotoGetUrlParam('ttclid');
+
+      if (sotoIsValidTtclid(ttclidFromUrl)) {
+        sotoSetCookie('soto_ttclid', ttclidFromUrl, 30);
+        localStorage.setItem('soto_ttclid', ttclidFromUrl);
+        return ttclidFromUrl;
+      }
+
+      const ttclidFromStorage = localStorage.getItem('soto_ttclid') || '';
+      if (sotoIsValidTtclid(ttclidFromStorage)) return ttclidFromStorage;
+
+      const ttclidFromCookie = sotoGetCookie('soto_ttclid');
+      if (sotoIsValidTtclid(ttclidFromCookie)) return ttclidFromCookie;
+
+      return '';
+    }
+
+    function sotoGetOrCreateSessionId() {
+      const key = 'soto_session_id';
+      let sessionId = localStorage.getItem(key);
+
+      if (!sessionId) {
+        sessionId = 'soto_' + Date.now() + '_' + Math.random().toString(36).slice(2);
+        localStorage.setItem(key, sessionId);
+      }
+
+      return sessionId;
+    }
+
+    function sotoCreateEventId(eventName) {
+      const randomPart = window.crypto && window.crypto.randomUUID
+        ? window.crypto.randomUUID()
+        : Date.now() + '_' + Math.random().toString(36).slice(2);
+
+      return 'soto_' + eventName + '_' + randomPart;
+    }
+
+    function sotoCollectUtmParams() {
+      const params = new URLSearchParams(window.location.search);
+      const keys = [
+        'utm_source',
+        'utm_medium',
+        'utm_campaign',
+        'utm_content',
+        'utm_term',
+        'campaign_id',
+        'adgroup_id',
+        'ad_id',
+        'creative_id',
+        'placement'
+      ];
+
+      return keys.reduce(function (acc, key) {
+        const value = params.get(key);
+        if (value) acc[key] = value;
+        return acc;
+      }, {});
+    }
+
+    function sotoBuildTikTokEventsApiPayload(eventName, eventId, eventPayload) {
+      const ttclid = sotoGetStoredTtclid();
+      const ttp = sotoGetCookie('_ttp') || sotoGetCookie('ttp') || '';
+
+      return {
+        destination: 'tiktok_events_api',
+        pixel_code: SOTO_TIKTOK_PIXEL_ID,
+        event: eventName,
+        event_name: eventName,
+        event_id: eventId,
+        event_time: Math.floor(Date.now() / 1000),
+        timestamp_iso: new Date().toISOString(),
+        source: 'web',
+        event_source: 'thank_you_page_after_tiktok_native_form',
+        action_source: 'website',
+        test_event_code: '',
+
+        user: {
+          ttclid: ttclid,
+          ttp: ttp,
+          user_agent: navigator.userAgent || '',
+          language: navigator.language || '',
+          timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || '',
+          soto_session_id: sotoGetOrCreateSessionId()
+        },
+
+        page: {
+          url: window.location.href,
+          path: window.location.pathname,
+          referrer: document.referrer || '',
+          title: document.title || ''
+        },
+
+        properties: {
+          ...SOTO_EVENT_BASE,
+          ...eventPayload,
+          content_id: 'asesoria-llc-post-registro',
+          content_type: 'service',
+          contents: [
+            {
+              content_id: 'asesoria-llc-post-registro',
+              content_name: 'Asesoria LLC USA',
+              content_category: 'LLC USA',
+              quantity: 1,
+              price: 0
+            }
+          ]
+        },
+
+        attribution: {
+          ttclid_present: Boolean(ttclid),
+          ttp_present: Boolean(ttp),
+          utm: sotoCollectUtmParams()
+        },
+
+        server_notes: {
+          ip_capture: 'Capturar IP en n8n desde headers: cf-connecting-ip, x-forwarded-for o x-real-ip',
+          deduplication: 'Usar pixel_code + event + event_id para deduplicar Pixel y Events API'
+        }
+      };
+    }
+
+    function sotoSendToTikTokEventsApiWebhook(payload) {
+      const body = JSON.stringify(payload);
+      const blob = new Blob([body], { type: 'text/plain;charset=UTF-8' });
+
+      if (navigator.sendBeacon) {
+        const queued = navigator.sendBeacon(SOTO_TIKTOK_EVENTS_API_WEBHOOK, blob);
+        if (queued) return;
+      }
+
+      fetch(SOTO_TIKTOK_EVENTS_API_WEBHOOK, {
+        method: 'POST',
+        body: body,
+        headers: {
+          'Content-Type': 'text/plain;charset=UTF-8'
+        },
+        keepalive: true,
+        mode: 'no-cors'
+      }).catch(function () {});
+    }
+
+    function sotoTrack(eventName, payload = {}) {
+      const config = SOTO_TIKTOK_EVENT_CONFIG[eventName] || {
+        send_to_pixel: true,
+        send_to_events_api: true,
+        dedupe_once_per_session: false
+      };
+
+      const sessionDedupeKey = 'soto_event_fired_' + eventName;
+      if (config.dedupe_once_per_session && sessionStorage.getItem(sessionDedupeKey)) {
+        return;
+      }
+
+      const eventId = sotoCreateEventId(eventName);
+      const eventPayload = {
+        ...SOTO_EVENT_BASE,
+        ...payload,
+        page_url: window.location.href,
+        page_path: window.location.pathname,
+        event_id: eventId,
+        ttclid: sotoGetStoredTtclid(),
+        ttp: sotoGetCookie('_ttp') || sotoGetCookie('ttp') || ''
+      };
+
+      window.dataLayer.push({
+        event: eventName,
+        event_source: 'sotomayor_thank_you_page',
+        event_id: eventId,
+        ...eventPayload
+      });
+
+      if (config.send_to_pixel && window.ttq && typeof window.ttq.track === 'function') {
+        window.ttq.track(eventName, eventPayload, { event_id: eventId });
+      }
+
+      if (config.send_to_events_api) {
+        const eventsApiPayload = sotoBuildTikTokEventsApiPayload(eventName, eventId, eventPayload);
+        sotoSendToTikTokEventsApiWebhook(eventsApiPayload);
+      }
+
+      if (config.dedupe_once_per_session) {
+        sessionStorage.setItem(sessionDedupeKey, eventId);
+      }
+    }
+
+
+    function sotoDetectLookupType(rawValue) {
+      const value = (rawValue || '').trim();
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+      const digits = value.replace(/[^\d]/g, '');
+
+      if (emailRegex.test(value)) return 'email';
+      if (digits.length >= 7) return 'phone';
+
+      return '';
+    }
+
+    function sotoNormalizeLookupValue(rawValue, lookupType) {
+      const value = (rawValue || '').trim();
+
+      if (lookupType === 'email') {
+        return value.toLowerCase();
+      }
+
+      if (lookupType === 'phone') {
+        let phone = value.replace(/[^\d+]/g, '');
+
+        if (phone.startsWith('00')) {
+          phone = '+' + phone.slice(2);
+        }
+
+        return phone;
+      }
+
+      return value;
+    }
+
+    function sotoBuildZcalEmbedUrl(url) {
+      if (!url) return SOTO_DEFAULT_ZCAL_URL + '?embed=1';
+
+      try {
+        const parsed = new URL(url, window.location.origin);
+
+        if (parsed.hostname.includes('zcal.co')) {
+          parsed.searchParams.set('embed', '1');
+        }
+
+        return parsed.toString();
+      } catch (error) {
+        return SOTO_DEFAULT_ZCAL_URL + '?embed=1';
+      }
+    }
+
+    function sotoShowCalendar(showCalendar) {
+      const calendarCard = document.getElementById('calendarCard');
+      const socialProofCard = document.getElementById('socialProofCard');
+      const scrollButton = document.getElementById('agendaScrollButton');
+
+      if (calendarCard) {
+        calendarCard.classList.toggle('is-hidden', !showCalendar);
+      }
+
+      if (socialProofCard) {
+        socialProofCard.style.display = showCalendar ? 'none' : '';
+      }
+
+      if (scrollButton) {
+        scrollButton.classList.toggle('is-visible', Boolean(showCalendar));
+      }
+    }
+
+    function sotoUpdateCalendarUrl(url, sourceContext) {
+      const safeUrl = url || SOTO_DEFAULT_ZCAL_URL;
+      const frame = document.getElementById('zcalFrame');
+      const externalLink = document.getElementById('calendarExternalLink');
+      const fallbackLink = document.getElementById('calendarFallbackLink');
+      const calendarTitle = document.getElementById('calendarTitle');
+
+      if (frame) frame.src = sotoBuildZcalEmbedUrl(safeUrl);
+      if (externalLink) externalLink.href = safeUrl;
+      if (fallbackLink) fallbackLink.href = safeUrl;
+
+      if (calendarTitle && sourceContext === 'prefilled') {
+        calendarTitle.textContent = 'Agenda preparada con tu registro';
+      }
+
+      if (sourceContext === 'prefilled') {
+        sotoShowCalendar(true);
+      }
+
+      window.dataLayer.push({
+        event: 'zcal_url_updated',
+        source_context: sourceContext || 'manual',
+        schedule_url: safeUrl
+      });
+    }
+
+    function sotoSetLookupLoading(isLoading) {
+      const overlay = document.getElementById('lookupLoadingOverlay');
+      const submitButton = document.querySelector('#leadLookupForm button[type="submit"]');
+
+      if (overlay) {
+        overlay.classList.toggle('is-active', Boolean(isLoading));
+        overlay.setAttribute('aria-hidden', isLoading ? 'false' : 'true');
+      }
+
+      if (submitButton) {
+        submitButton.disabled = Boolean(isLoading);
+        submitButton.textContent = isLoading ? 'Preparando...' : 'Continuar con mi agenda';
+      }
+    }
+
+    function sotoSetLookupFeedback(type, title, message, actionUrl, actionText) {
+      const feedback = document.getElementById('lookupFeedback');
+      if (!feedback) return;
+
+      feedback.className = 'lookup-feedback is-visible is-' + type;
+      feedback.innerHTML =
+        '<strong>' + title + '</strong>' +
+        '<span>' + message + '</span>' +
+        (actionUrl ? '<br><a href="' + actionUrl + '" target="_blank" rel="noopener" data-track-schedule>' + (actionText || 'Elegir horario') + '</a>' : '');
+
+      feedback.querySelectorAll('[data-track-schedule]').forEach(function (element) {
+        element.addEventListener('click', function () {
+          sotoTrack('Schedule', {
+            description: SOTO_TIKTOK_EVENT_CONFIG.Schedule.description,
+            schedule_url: element.getAttribute('href') || SOTO_DEFAULT_ZCAL_URL,
+            schedule_context: 'lookup_result_cta'
+          });
+        });
+      });
+    }
+
+    function sotoExtractFirstName(rawName) {
+      const value = String(rawName || '')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      if (!value) return '';
+
+      const firstName = value.split(' ')[0]
+        .replace(/[^A-Za-zÀ-ÖØ-öø-ÿ'’-]/g, '')
+        .trim();
+
+      if (!firstName || firstName.length > 40) return '';
+
+      return firstName.charAt(0).toLocaleUpperCase('es') + firstName.slice(1).toLocaleLowerCase('es');
+    }
+
+    function sotoGetNameFromScheduleUrl(url) {
+      if (!url) return '';
+
+      try {
+        const parsed = new URL(url, window.location.origin);
+        return (
+          parsed.searchParams.get('firstName') ||
+          parsed.searchParams.get('firstname') ||
+          parsed.searchParams.get('first_name') ||
+          parsed.searchParams.get('fullName') ||
+          parsed.searchParams.get('full_name') ||
+          parsed.searchParams.get('name') ||
+          ''
+        );
+      } catch (error) {
+        return '';
+      }
+    }
+
+    function sotoPersonalizeValidatedAgenda(firstName) {
+      const title = document.getElementById('agendaPersonalizedTitle');
+      const copy = document.getElementById('agendaPersonalizedCopy');
+      const safeFirstName = sotoExtractFirstName(firstName);
+
+      if (title) {
+        title.textContent = safeFirstName
+          ? safeFirstName + ', elige la fecha y hora de tu asesoría.'
+          : 'Elige la fecha y hora de tu asesoría.';
+      }
+
+      if (copy) {
+        copy.textContent = safeFirstName
+          ? 'Tu registro está confirmado, ' + safeFirstName + '. Revisa la disponibilidad y selecciona el horario que mejor se adapte a ti.'
+          : 'Tu registro ya está confirmado. Revisa la disponibilidad y selecciona el horario que mejor se adapte a ti.';
+      }
+    }
+
+    function sotoReadLookupResult(data) {
+      const result = data || {};
+      const nested = result.result || result.data || {};
+
+      const url =
+        result.zcal_prefill_url ||
+        result.zcal_url ||
+        result.calendar_url ||
+        result.url ||
+        nested.zcal_prefill_url ||
+        nested.zcal_url ||
+        nested.calendar_url ||
+        nested.url ||
+        '';
+
+      const status = String(result.status || nested.status || '').toLowerCase();
+      const found =
+        result.found === true ||
+        nested.found === true ||
+        status === 'found' ||
+        status === 'ok' ||
+        status === 'success' ||
+        Boolean(url);
+
+      const fullName =
+        result.first_name ||
+        result.firstname ||
+        result.contact_first_name ||
+        result.name ||
+        result.full_name ||
+        result.fullName ||
+        result.contact_name ||
+        result.partner_name ||
+        nested.first_name ||
+        nested.firstname ||
+        nested.contact_first_name ||
+        nested.name ||
+        nested.full_name ||
+        nested.fullName ||
+        nested.contact_name ||
+        nested.partner_name ||
+        sotoGetNameFromScheduleUrl(url) ||
+        '';
+
+      return {
+        found: found,
+        url: url,
+        first_name: sotoExtractFirstName(fullName),
+        lead_token: result.lead_token || nested.lead_token || '',
+        message: result.message || nested.message || ''
+      };
+    }
+
+    function sotoBuildLeadLookupPayload(lookupValue, lookupType) {
+      const eventId = sotoCreateEventId('LeadLookup');
+
+      return {
+        event_name: 'LeadLookup',
+        event_id: eventId,
+        event_source: 'post_register_page',
+        pixel_code: SOTO_TIKTOK_PIXEL_ID,
+        lookup_type: lookupType,
+        lookup_value: lookupValue,
+
+        attribution: {
+          ttclid: sotoGetStoredTtclid(),
+          ttp: sotoGetCookie('_ttp') || sotoGetCookie('ttp') || '',
+          utm: sotoCollectUtmParams()
+        },
+
+        session: {
+          soto_session_id: sotoGetOrCreateSessionId(),
+          user_agent: navigator.userAgent || '',
+          language: navigator.language || '',
+          timezone: Intl.DateTimeFormat().resolvedOptions().timeZone || ''
+        },
+
+        page: {
+          url: window.location.href,
+          path: window.location.pathname,
+          referrer: document.referrer || '',
+          title: document.title || ''
+        },
+
+        timestamp_iso: new Date().toISOString(),
+        server_notes: {
+          lookup_goal: 'Consultar Odoo por email o telefono y devolver zcal_prefill_url si existe lead',
+          cors_required: 'Este endpoint debe responder con Access-Control-Allow-Origin para que la landing pueda leer el resultado'
+        }
+      };
+    }
+
+    async function sotoRequestLeadLookup(payload) {
+      const controller = new AbortController();
+      const timeout = window.setTimeout(function () {
+        controller.abort();
+      }, 12000);
+
+      try {
+        const response = await fetch(SOTO_LEAD_LOOKUP_WEBHOOK, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload),
+          signal: controller.signal
+        });
+
+        const contentType = response.headers.get('content-type') || '';
+        let data = {};
+
+        if (contentType.includes('application/json')) {
+          data = await response.json();
+        } else {
+          const text = await response.text();
+          try {
+            data = JSON.parse(text);
+          } catch (error) {
+            data = { status: response.ok ? 'ok' : 'error', message: text };
+          }
+        }
+
+        if (!response.ok) {
+          throw new Error(data.message || 'No se pudo consultar el registro.');
+        }
+
+        return data;
+      } finally {
+        window.clearTimeout(timeout);
+      }
+    }
+
+    function sotoInitLeadLookup() {
+      const form = document.getElementById('leadLookupForm');
+      const input = document.getElementById('lookupValue');
+
+      if (!form || !input) return;
+
+      form.addEventListener('submit', async function (event) {
+        event.preventDefault();
+
+        const lookupType = sotoDetectLookupType(input.value);
+        const lookupValue = sotoNormalizeLookupValue(input.value, lookupType);
+
+        if (!lookupType || !lookupValue) {
+          sotoSetLookupFeedback(
+            'warning',
+            'Revisa el dato ingresado',
+            'Ingresa el WhatsApp o email que usaste en el registro para continuar con la agenda.'
+          );
+          input.focus();
+          return;
+        }
+
+        const payload = sotoBuildLeadLookupPayload(lookupValue, lookupType);
+
+        window.dataLayer.push({
+          event: 'lead_lookup_started',
+          lookup_type: lookupType,
+          event_id: payload.event_id
+        });
+
+        sotoSetLookupLoading(true);
+
+        try {
+          const responseData = await sotoRequestLeadLookup(payload);
+          const lookupResult = sotoReadLookupResult(responseData);
+
+          if (lookupResult.found && lookupResult.url) {
+            sotoPersonalizeValidatedAgenda(lookupResult.first_name);
+            sotoUpdateCalendarUrl(lookupResult.url, 'prefilled');
+
+            window.dataLayer.push({
+              event: 'lead_lookup_found',
+              lookup_type: lookupType,
+              event_id: payload.event_id,
+              lead_token_present: Boolean(lookupResult.lead_token),
+              first_name_present: Boolean(lookupResult.first_name)
+            });
+
+            sotoSetLookupFeedback(
+              'success',
+              'Agenda lista',
+              'Ya vinculamos tu registro. Ahora puedes elegir el horario que mejor te acomode.',
+              lookupResult.url,
+              'Elegir horario'
+            );
+
+            document.getElementById('agenda')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            return;
+          }
+
+          window.dataLayer.push({
+            event: 'lead_lookup_not_found',
+            lookup_type: lookupType,
+            event_id: payload.event_id
+          });
+
+          sotoShowCalendar(false);
+
+          sotoSetLookupFeedback(
+            'warning',
+            'No pudimos vincular el registro',
+            'Intenta con el otro WhatsApp o correo que pudiste haber utilizado en el registro.'
+          );
+        } catch (error) {
+          console.warn('[Sotomayor] Error en consulta de lead:', error);
+
+          window.dataLayer.push({
+            event: 'lead_lookup_error',
+            lookup_type: lookupType,
+            event_id: payload.event_id,
+            error_message: error && error.message ? error.message : 'lookup_error'
+          });
+
+          sotoShowCalendar(false);
+
+          sotoSetLookupFeedback(
+            'error',
+            'No pudimos validar el dato',
+            'Intenta nuevamente en unos minutos o verifica que el dato ingresado sea el mismo de tu registro.'
+          );
+        } finally {
+          sotoSetLookupLoading(false);
+        }
+      });
+    }
+
+    function sotoInitTestimonialCarousel() {
+      const carousel = document.getElementById('testimonialCarousel');
+      if (!carousel) return;
+
+      const track = carousel.querySelector('.testimonial-track');
+      const prevButton = carousel.querySelector('.carousel-button.prev');
+      const nextButton = carousel.querySelector('.carousel-button.next');
+      const dotsContainer = carousel.querySelector('.carousel-dots');
+      if (!track || !dotsContainer) return;
+
+      const testimonials = Array.from(track.querySelectorAll('.testimonial'));
+      if (testimonials.length < 2) return;
+
+      // Orden aleatorio en cada carga. Se muestran dos perfiles por grupo.
+      for (let i = testimonials.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [testimonials[i], testimonials[j]] = [testimonials[j], testimonials[i]];
+      }
+
+      track.innerHTML = '';
+      for (let i = 0; i < testimonials.length; i += 2) {
+        const page = document.createElement('div');
+        page.className = 'testimonial-page';
+        page.appendChild(testimonials[i]);
+        if (testimonials[i + 1]) page.appendChild(testimonials[i + 1]);
+        track.appendChild(page);
+      }
+
+      const pages = Array.from(track.querySelectorAll('.testimonial-page'));
+      let currentIndex = Math.floor(Math.random() * pages.length);
+      let autoplayId = null;
+      const autoplayDelay = 4000; // intervalo consistente, superior al mínimo de 2 segundos
+
+      pages.forEach(function (_, index) {
+        const dot = document.createElement('button');
+        dot.type = 'button';
+        dot.className = 'carousel-dot';
+        dot.setAttribute('aria-label', 'Mostrar testimonios ' + (index + 1));
+        dot.addEventListener('click', function () {
+          goTo(index);
+          restartAutoplay();
+        });
+        dotsContainer.appendChild(dot);
+      });
+
+      const dots = Array.from(dotsContainer.querySelectorAll('.carousel-dot'));
+
+      function goTo(index) {
+        currentIndex = (index + pages.length) % pages.length;
+        track.style.transform = 'translateX(-' + (currentIndex * 100) + '%)';
+        dots.forEach(function (dot, dotIndex) {
+          dot.classList.toggle('is-active', dotIndex === currentIndex);
+        });
+      }
+
+      function startAutoplay() {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || autoplayId) return;
+        autoplayId = window.setInterval(function () { goTo(currentIndex + 1); }, autoplayDelay);
+      }
+
+      function stopAutoplay() {
+        if (autoplayId) window.clearInterval(autoplayId);
+        autoplayId = null;
+      }
+
+      function restartAutoplay() {
+        stopAutoplay();
+        startAutoplay();
+      }
+
+      prevButton?.addEventListener('click', function () { goTo(currentIndex - 1); restartAutoplay(); });
+      nextButton?.addEventListener('click', function () { goTo(currentIndex + 1); restartAutoplay(); });
+      carousel.addEventListener('mouseenter', stopAutoplay);
+      carousel.addEventListener('mouseleave', startAutoplay);
+      carousel.addEventListener('focusin', stopAutoplay);
+      carousel.addEventListener('focusout', startAutoplay);
+      document.addEventListener('visibilitychange', function () {
+        if (document.hidden) stopAutoplay(); else startAutoplay();
+      });
+
+      goTo(currentIndex);
+      startAutoplay();
+    }
+
+    function sotoInitAgendaScrollButton() {
+      const button = document.getElementById('agendaScrollButton');
+      const calendar = document.getElementById('calendarCard');
+      if (!button || !calendar) return;
+
+      button.addEventListener('click', function () {
+        calendar.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        window.dataLayer.push({
+          event: 'agenda_scroll_assist_clicked',
+          event_source: 'sotomayor_thank_you_page'
+        });
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      sotoGetStoredTtclid();
+
+      sotoTrack('PageView', {
+        description: SOTO_TIKTOK_EVENT_CONFIG.PageView.description
+      });
+
+      sotoTrack('ViewContent', {
+        description: SOTO_TIKTOK_EVENT_CONFIG.ViewContent.description
+      });
+
+      sotoTrack('SubmitForm', {
+        description: SOTO_TIKTOK_EVENT_CONFIG.SubmitForm.description,
+        form_context: 'tiktok_native_lead_form_redirect'
+      });
+
+      document.querySelectorAll('[data-track-schedule]').forEach(function (element) {
+        element.addEventListener('click', function () {
+          const scheduleUrl = element.getAttribute('href') || SOTO_DEFAULT_ZCAL_URL;
+
+          sotoTrack('Schedule', {
+            description: SOTO_TIKTOK_EVENT_CONFIG.Schedule.description,
+            schedule_url: scheduleUrl,
+            schedule_context: element.hasAttribute('data-manual-schedule') ? 'manual_schedule_fallback' : 'click_to_open_zcal'
+          });
+        });
+      });
+
+      sotoInitLeadLookup();
+      sotoInitTestimonialCarousel();
+      sotoInitAgendaScrollButton();
+    });
+  </script>
+</body>
+</html>
