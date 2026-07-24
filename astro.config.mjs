@@ -12,7 +12,7 @@ import icon from "astro-icon";
 export default defineConfig({
   // https://docs.astro.build/en/guides/images/#authorizing-remote-images
   site: "https://sotomayorconsulting.com",
-  base: "/inicio",
+  base: "/",
   image: {
     domains: ["images.unsplash.com"],
   },
