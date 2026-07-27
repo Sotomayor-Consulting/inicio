@@ -1,1257 +1,1733 @@
-<!--
-  schedule-confirmed.html v4 - validacion n8n depurada y respuesta array/object
-  Landing dinamica para: https://sotomayorconsulting.com/schedule-confirmed/
-  Estilo referencia: wizard-llc-cripto
-  Navbar sticky moderna con una sola accion visual. GTM integrado para cargar etiquetas del contenedor web oficial.
-  Uso recomendado: pegar este bloque completo en un widget HTML de Elementor o plantilla HTML personalizada.
--->
-
-
-<!-- Captura de parámetros Zcal antes de cargar analítica -->
-<script type="text/javascript" data-cfasync="false">
-  (function () {
-    "use strict";
-
-    const currentState = window.history.state && typeof window.history.state === "object"
-      ? window.history.state
-      : {};
-    const queryFromUrl = window.location.search ? window.location.search.slice(1) : "";
-    const preservedQuery = queryFromUrl || String(currentState.sciScheduleQuery || "");
-
-    window.__SCI_SCHEDULE_CONFIRMED_VERSION__ = "4.0";
-    window.__SCI_SCHEDULE_QUERY__ = preservedQuery;
-
-    if (queryFromUrl) {
-      window.history.replaceState(
-        Object.assign({}, currentState, { sciScheduleQuery: queryFromUrl }),
-        document.title,
-        window.location.pathname + window.location.hash
-      );
-    }
-  })();
-</script>
-
-<!-- Google Tag Manager - Sotomayor Consulting -->
-<script>
-  (function (w, d, s, l, i) {
-    w[l] = w[l] || [];
-
-    if (w.__SCI_GTM_TNRQGDM_LOADED__) return;
-
-    var existingScript = d.querySelector('script[src*="googletagmanager.com/gtm.js?id=' + i + '"]');
-    if (existingScript) {
-      w.__SCI_GTM_TNRQGDM_LOADED__ = true;
-      return;
-    }
-
-    w.__SCI_GTM_TNRQGDM_LOADED__ = true;
-    w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-
-    var f = d.getElementsByTagName(s)[0];
-    var j = d.createElement(s);
-    var dl = l !== 'dataLayer' ? '&l=' + l : '';
-
-    j.async = true;
-    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-TNRQGDM');
-</script>
-<!-- End Google Tag Manager -->
-
-<!-- Google Tag Manager noscript -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNRQGDM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager noscript -->
-
-<section id="sci-schedule-confirmed" class="sci-confirmed-page is-validating" data-version="4.0" aria-busy="true">
-  <nav class="navbar" aria-label="Navegaci&oacute;n principal">
-    <a class="navbar-brand" href="https://sotomayorconsulting.com/" aria-label="Ir a Sotomayor Consulting International">
-      <img class="brand-logo" src="https://sotomayorconsulting.com/wp-content/uploads/2023/10/d3-img2-e1715372936694.png" alt="Sotomayor Consulting International" loading="eager">
-    </a>
-    <span id="sci-navbar-status" class="navbar-note">Validando agenda</span>
-  </nav>
-
-  <main class="sci-main">
-    <article class="sci-layout" aria-labelledby="sci-title">
-      <section class="sci-hero-card">
-        <div class="sci-check" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none">
-            <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
-          </svg>
-        </div>
-
-        <p class="sci-eyebrow">Sotomayor Consulting International</p>
-        <h1 id="sci-title">Estamos validando tu asesor&iacute;a</h1>
-        <p id="sci-status-message" class="sci-lead" role="status" aria-live="polite">Estamos contrastando los datos de la reserva. Este proceso puede tardar unos segundos.</p>
-
-        <div id="sci-validation-loader" class="sci-validation-loader" aria-hidden="false">
-          <div class="sci-loader-track" aria-hidden="true">
-            <span></span><span></span><span></span>
-          </div>
-          <strong id="sci-validation-stage">Conectando con el sistema de validaci&oacute;n</strong>
-          <small id="sci-validation-time">No cierres esta ventana mientras revisamos tu agenda.</small>
-        </div>
-
-        <button id="sci-retry-validation" class="sci-retry-btn" type="button" hidden>Intentar nuevamente</button>
-      </section>
-
-      <section class="sci-card sci-agenda-card" data-validation-content aria-label="Resumen de la reunion" hidden>
-        <div class="sci-date-card">
-          <div class="sci-date-copy">
-            <span id="sci-day-name">Fecha</span>
-            <strong id="sci-meeting-date">Fecha por confirmar</strong>
-            <small id="sci-meeting-time">Hora por confirmar</small>
-          </div>
-          <div class="sci-date-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M7 3V6M17 3V6M4.5 9.5H19.5M6.5 21H17.5C18.6046 21 19.5 20.1046 19.5 19V7C19.5 5.89543 18.6046 5 17.5 5H6.5C5.39543 5 4.5 5.89543 4.5 7V19C4.5 20.1046 5.39543 21 6.5 21Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
-            </svg>
-          </div>
-        </div>
-
-        <div class="sci-details-grid">
-          <div class="sci-detail-item">
-            <span>Nombre</span>
-            <strong id="sci-full-name">No informado</strong>
-          </div>
-          <div class="sci-detail-item">
-            <span>Correo</span>
-            <strong id="sci-email">No informado</strong>
-          </div>
-          <div class="sci-detail-item">
-            <span>Tel&eacute;fono</span>
-            <strong id="sci-phone">No informado</strong>
-          </div>
-          <div class="sci-detail-item">
-            <span>Duraci&oacute;n</span>
-            <strong id="sci-duration">No informada</strong>
-          </div>
-          <div class="sci-detail-item">
-            <span>Zona horaria</span>
-            <strong id="sci-timezone">No informada</strong>
-          </div>
-          <div class="sci-detail-item">
-            <span>Detalle adicional</span>
-            <strong id="sci-extra-detail">No informado</strong>
-          </div>
-        </div>
-      </section>
-
-      <section class="sci-card sci-next-card" data-validation-content aria-label="Proximos pasos" hidden>
-        <div class="sci-section-title">
-          <span>Pr&oacute;ximos pasos</span>
-          <strong>Antes de la asesor&iacute;a</strong>
-        </div>
-
-        <div class="sci-step-list">
-          <div class="sci-step">
-            <span>1</span>
-            <p>Revisa que los datos de la reuni&oacute;n sean correctos.</p>
-          </div>
-          <div class="sci-step">
-            <span>2</span>
-            <p>Guarda el horario en tu calendario personal.</p>
-          </div>
-          <div class="sci-step">
-            <span>3</span>
-            <p>Ten a mano tus dudas principales para la reuni&oacute;n.</p>
-          </div>
-        </div>
-      </section>
-
-      <div class="sci-actions" data-validation-content hidden>
-        <a id="sci-google-calendar" class="sci-btn sci-btn-primary" href="#" target="_blank" rel="noopener noreferrer">Agregar a Google Calendar</a>
-      </div>
-
-      <div id="sci-support-actions" class="sci-actions sci-support-actions" hidden>
-        <a id="sci-whatsapp-support" class="sci-btn sci-btn-whatsapp" href="#" target="_blank" rel="noopener noreferrer">Contactar por WhatsApp</a>
-      </div>
-
-      <p id="sci-footnote" class="sci-footnote">Si necesitas modificar el horario, responde al correo de confirmaci&oacute;n o contacta al equipo de Sotomayor Consulting.</p>
-    </article>
-  </main>
-</section>
-
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
-
-  #sci-schedule-confirmed,
-  #sci-schedule-confirmed * {
-    box-sizing: border-box;
-  }
-
-  #sci-schedule-confirmed [hidden] {
-    display: none !important;
-  }
-
-  #sci-schedule-confirmed {
-    --sci-navy: #0E2637;
-    --sci-navy-soft: #123149;
-    --sci-gold: #D8B46A;
-    --sci-bg: #F5F7FA;
-    --sci-card: #FFFFFF;
-    --sci-text: #102638;
-    --sci-muted: #657586;
-    --sci-border: rgba(16, 38, 56, 0.10);
-    --sci-soft: #F8FAFC;
-    --sci-shadow: 0 18px 45px rgba(14, 38, 55, 0.08);
-    width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    color: var(--sci-text);
-    background:
-      radial-gradient(circle at 8% 0%, rgba(216, 180, 106, 0.12), transparent 28%),
-      radial-gradient(circle at 92% 5%, rgba(14, 38, 55, 0.10), transparent 26%),
-      linear-gradient(180deg, #F8FAFC 0%, #EEF3F7 100%);
-    font-family: 'Poppins', Arial, sans-serif;
-    overflow-x: hidden;
-  }
-
-  #sci-schedule-confirmed .navbar {
-    position: sticky;
-    top: 12px;
-    z-index: 1000;
-    width: min(1080px, calc(100% - 32px));
-    min-height: 66px;
-    margin: 12px auto 0;
-    padding: 10px 14px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    border-radius: 22px;
-    border: 1px solid rgba(255, 255, 255, 0.14);
-    background: rgba(14, 38, 55, 0.96);
-    box-shadow: 0 16px 40px rgba(14, 38, 55, 0.16);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-  }
-
-  #sci-schedule-confirmed .navbar-brand {
-    min-width: 0;
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-  }
-
-  #sci-schedule-confirmed .brand-logo {
-    display: block;
-    width: auto;
-    max-width: 218px;
-    max-height: 42px;
-    object-fit: contain;
-  }
-
-  #sci-schedule-confirmed .navbar-note {
-    min-height: 38px;
-    padding: 9px 15px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 999px;
-    border: 1px solid rgba(216, 180, 106, 0.36);
-    background: rgba(216, 180, 106, 0.12);
-    color: #F4DDAA;
-    font-size: 12px;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-    white-space: nowrap;
-  }
-
-  #sci-schedule-confirmed .sci-main {
-    width: min(980px, calc(100% - 40px));
-    min-height: calc(100vh - 90px);
-    margin: 0 auto;
-    padding: 22px 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #sci-schedule-confirmed .sci-layout {
-    width: min(690px, 100%);
-  }
-
-  #sci-schedule-confirmed .sci-hero-card {
-    margin-bottom: 14px;
-    padding: 24px 24px 20px;
-    text-align: center;
-    border: 1px solid var(--sci-border);
-    border-radius: 24px;
-    background: rgba(255, 255, 255, 0.94);
-    box-shadow: var(--sci-shadow);
-  }
-
-  #sci-schedule-confirmed .sci-check {
-    width: 44px;
-    height: 44px;
-    margin: 0 auto 12px;
-    display: grid;
-    place-items: center;
-    border-radius: 15px;
-    color: #FFFFFF;
-    background: var(--sci-navy);
-    box-shadow: 0 12px 26px rgba(14, 38, 55, 0.16);
-  }
-
-  #sci-schedule-confirmed .sci-check svg {
-    width: 22px;
-    height: 22px;
-  }
-
-  #sci-schedule-confirmed .sci-eyebrow {
-    margin: 0 0 7px;
-    color: var(--sci-gold);
-    font-size: 10.5px;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-  }
-
-  #sci-schedule-confirmed h1 {
-    max-width: 560px;
-    margin: 0 auto 9px;
-    color: var(--sci-navy);
-    font-size: clamp(25px, 2.8vw, 34px);
-    line-height: 1.12;
-    font-weight: 800;
-    letter-spacing: -0.035em;
-  }
-
-  #sci-schedule-confirmed .sci-lead {
-    max-width: 520px;
-    margin: 0 auto;
-    color: var(--sci-muted);
-    font-size: 13.5px;
-    line-height: 1.55;
-    font-weight: 400;
-  }
-
-  #sci-schedule-confirmed [data-validation-content] {
-    transition: opacity 220ms cubic-bezier(0.22, 1, 0.36, 1);
-  }
-
-  #sci-schedule-confirmed.is-validating [data-validation-content],
-  #sci-schedule-confirmed.is-rejected [data-validation-content],
-  #sci-schedule-confirmed.is-validation-error [data-validation-content] {
-    display: none;
-  }
-
-  #sci-schedule-confirmed.is-validating .sci-check svg {
-    display: none;
-  }
-
-  #sci-schedule-confirmed.is-validating .sci-check::after {
-    width: 19px;
-    height: 19px;
-    content: "";
-    border: 2px solid rgba(255, 255, 255, 0.34);
-    border-top-color: #FFFFFF;
-    border-radius: 50%;
-    animation: sci-validation-spin 760ms linear infinite;
-  }
-
-  #sci-schedule-confirmed.is-rejected .sci-check,
-  #sci-schedule-confirmed.is-validation-error .sci-check {
-    color: var(--sci-navy);
-    background: #F4DDAA;
-    box-shadow: none;
-  }
-
-  #sci-schedule-confirmed.is-rejected .sci-check svg,
-  #sci-schedule-confirmed.is-validation-error .sci-check svg {
-    display: none;
-  }
-
-  #sci-schedule-confirmed.is-rejected .sci-check::after,
-  #sci-schedule-confirmed.is-validation-error .sci-check::after {
-    content: "!";
-    font-size: 23px;
-    line-height: 1;
-    font-weight: 800;
-  }
-
-  #sci-schedule-confirmed .sci-retry-btn {
-    min-height: 42px;
-    margin: 16px auto 0;
-    padding: 10px 18px;
-    border: 0;
-    border-radius: 999px;
-    color: #FFFFFF;
-    background: var(--sci-navy);
-    font: inherit;
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-
-  #sci-schedule-confirmed .sci-retry-btn:focus-visible,
-  #sci-schedule-confirmed .sci-btn:focus-visible {
-    outline: 3px solid rgba(216, 180, 106, 0.72);
-    outline-offset: 3px;
-  }
-
-  @keyframes sci-validation-spin {
-    to { transform: rotate(360deg); }
-  }
-
-  #sci-schedule-confirmed .sci-card {
-    border: 1px solid var(--sci-border);
-    border-radius: 22px;
-    background: rgba(255, 255, 255, 0.96);
-    box-shadow: 0 12px 30px rgba(14, 38, 55, 0.06);
-  }
-
-  #sci-schedule-confirmed .sci-agenda-card {
-    padding: 14px;
-  }
-
-  #sci-schedule-confirmed .sci-date-card {
-    padding: 15px 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    border: 1px solid rgba(16, 38, 56, 0.08);
-    border-radius: 16px;
-    background: var(--sci-soft);
-  }
-
-  #sci-schedule-confirmed .sci-date-copy {
-    min-width: 0;
-  }
-
-  #sci-schedule-confirmed .sci-date-copy span {
-    display: block;
-    margin-bottom: 3px;
-    color: var(--sci-gold);
-    font-size: 10.5px;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  #sci-schedule-confirmed .sci-date-copy strong {
-    display: block;
-    color: var(--sci-navy);
-    font-size: clamp(19px, 2.2vw, 24px);
-    line-height: 1.18;
-    font-weight: 800;
-    overflow-wrap: anywhere;
-  }
-
-  #sci-schedule-confirmed .sci-date-copy small {
-    display: block;
-    margin-top: 4px;
-    color: var(--sci-muted);
-    font-size: 12.5px;
-    line-height: 1.35;
-    font-weight: 600;
-    overflow-wrap: anywhere;
-  }
-
-  #sci-schedule-confirmed .sci-date-icon {
-    width: 38px;
-    height: 38px;
-    flex: 0 0 38px;
-    display: grid;
-    place-items: center;
-    border-radius: 13px;
-    color: var(--sci-navy);
-    background: #FFFFFF;
-    border: 1px solid rgba(16, 38, 56, 0.08);
-  }
-
-  #sci-schedule-confirmed .sci-date-icon svg {
-    width: 21px;
-    height: 21px;
-  }
-
-  #sci-schedule-confirmed .sci-details-grid {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-  }
-
-  #sci-schedule-confirmed .sci-detail-item {
-    min-height: 64px;
-    padding: 11px 13px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    border-radius: 14px;
-    background: #FFFFFF;
-    border: 1px solid rgba(16, 38, 56, 0.08);
-  }
-
-  #sci-schedule-confirmed .sci-detail-item span {
-    color: var(--sci-muted);
-    font-size: 10px;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
-  }
-
-  #sci-schedule-confirmed .sci-detail-item strong {
-    color: var(--sci-navy);
-    font-size: 13px;
-    line-height: 1.3;
-    font-weight: 700;
-    overflow-wrap: anywhere;
-  }
-
-  #sci-schedule-confirmed .sci-next-card {
-    margin-top: 14px;
-    padding: 15px;
-    background: var(--sci-navy);
-    color: #FFFFFF;
-  }
-
-  #sci-schedule-confirmed .sci-section-title {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 12px;
-  }
-
-  #sci-schedule-confirmed .sci-section-title span {
-    color: #FFFFFF;
-    font-size: 15px;
-    line-height: 1.2;
-    font-weight: 800;
-  }
-
-  #sci-schedule-confirmed .sci-section-title strong {
-    color: rgba(255, 255, 255, 0.58);
-    font-size: 11px;
-    line-height: 1.2;
-    font-weight: 600;
-  }
-
-  #sci-schedule-confirmed .sci-step-list {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 10px;
-  }
-
-  #sci-schedule-confirmed .sci-step {
-    padding: 11px;
-    border-radius: 13px;
-    background: rgba(255, 255, 255, 0.075);
-    border: 1px solid rgba(255, 255, 255, 0.10);
-  }
-
-  #sci-schedule-confirmed .sci-step span {
-    width: 21px;
-    height: 21px;
-    margin-bottom: 6px;
-    display: inline-grid;
-    place-items: center;
-    border-radius: 999px;
-    background: var(--sci-gold);
-    color: var(--sci-navy);
-    font-size: 10px;
-    line-height: 1;
-    font-weight: 800;
-  }
-
-  #sci-schedule-confirmed .sci-step p {
-    margin: 0;
-    color: rgba(255, 255, 255, 0.84);
-    font-size: 12px;
-    line-height: 1.35;
-    font-weight: 500;
-  }
-
-  #sci-schedule-confirmed .sci-actions {
-    margin-top: 16px;
-    display: flex;
-    justify-content: center;
-  }
-
-  #sci-schedule-confirmed .sci-btn {
-    min-height: 42px;
-    padding: 11px 17px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 999px;
-    font-size: 13px;
-    line-height: 1;
-    font-weight: 700;
-    text-decoration: none;
-    transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
-  }
-
-  #sci-schedule-confirmed .sci-btn:hover {
-    transform: translateY(-1px);
-  }
-
-  #sci-schedule-confirmed .sci-btn-primary {
-    background: var(--sci-navy);
-    color: #FFFFFF;
-    box-shadow: 0 12px 24px rgba(14, 38, 55, 0.15);
-  }
-
-  #sci-schedule-confirmed .sci-footnote {
-    max-width: 540px;
-    margin: 12px auto 0;
-    color: var(--sci-muted);
-    text-align: center;
-    font-size: 11.5px;
-    line-height: 1.5;
-  }
-
-
-  #sci-schedule-confirmed .sci-validation-loader {
-    width: min(440px, 100%);
-    margin: 17px auto 0;
-    padding: 13px 15px;
-    display: grid;
-    justify-items: center;
-    gap: 7px;
-    border: 1px solid rgba(16, 38, 56, 0.08);
-    border-radius: 16px;
-    background: var(--sci-soft);
-  }
-
-  #sci-schedule-confirmed .sci-validation-loader[hidden] {
-    display: none !important;
-  }
-
-  #sci-schedule-confirmed .sci-loader-track {
-    height: 12px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-  }
-
-  #sci-schedule-confirmed .sci-loader-track span {
-    width: 8px;
-    height: 8px;
-    display: block;
-    border-radius: 999px;
-    background: var(--sci-gold);
-    animation: sci-loader-pulse 1.15s ease-in-out infinite;
-  }
-
-  #sci-schedule-confirmed .sci-loader-track span:nth-child(2) {
-    animation-delay: 150ms;
-  }
-
-  #sci-schedule-confirmed .sci-loader-track span:nth-child(3) {
-    animation-delay: 300ms;
-  }
-
-  #sci-schedule-confirmed .sci-validation-loader strong {
-    color: var(--sci-navy);
-    font-size: 12.5px;
-    line-height: 1.35;
-    font-weight: 700;
-    text-align: center;
-  }
-
-  #sci-schedule-confirmed .sci-validation-loader small {
-    color: var(--sci-muted);
-    font-size: 10.5px;
-    line-height: 1.45;
-    font-weight: 500;
-    text-align: center;
-  }
-
-  @keyframes sci-loader-pulse {
-    0%, 70%, 100% { opacity: 0.30; transform: translateY(0) scale(0.86); }
-    35% { opacity: 1; transform: translateY(-3px) scale(1); }
-  }
-
-  #sci-schedule-confirmed .sci-support-actions {
-    margin-top: 16px;
-  }
-
-  #sci-schedule-confirmed .sci-btn-whatsapp {
-    color: #FFFFFF;
-    background: #157347;
-    box-shadow: 0 12px 24px rgba(21, 115, 71, 0.18);
-  }
-
-  #sci-schedule-confirmed .sci-btn-whatsapp:hover {
-    background: #11643D;
-  }
-
-  @media (max-width: 760px) {
-    #sci-schedule-confirmed .navbar,
-    #sci-schedule-confirmed .sci-main {
-      width: min(100% - 22px, 980px);
-    }
-
-    #sci-schedule-confirmed .navbar {
-      top: 10px;
-      min-height: 62px;
-      margin-top: 10px;
-      padding: 9px 11px;
-      border-radius: 18px;
-    }
-
-    #sci-schedule-confirmed .brand-logo {
-      max-width: 176px;
-      max-height: 38px;
-    }
-
-    #sci-schedule-confirmed .navbar-note {
-      min-height: 34px;
-      padding: 8px 11px;
-      font-size: 11px;
-    }
-
-    #sci-schedule-confirmed .sci-main {
-      min-height: calc(100vh - 84px);
-      padding: 16px 0 22px;
-      align-items: flex-start;
-    }
-
-    #sci-schedule-confirmed .sci-hero-card {
-      padding: 20px 18px 18px;
-      border-radius: 21px;
-    }
-
-    #sci-schedule-confirmed h1 {
-      font-size: 25px;
-    }
-
-    #sci-schedule-confirmed .sci-lead {
-      font-size: 13px;
-    }
-
-    #sci-schedule-confirmed .sci-date-card {
-      align-items: flex-start;
-    }
-
-    #sci-schedule-confirmed .sci-details-grid,
-    #sci-schedule-confirmed .sci-step-list {
-      grid-template-columns: 1fr;
-    }
-
-    #sci-schedule-confirmed .sci-section-title {
-      align-items: flex-start;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    #sci-schedule-confirmed .sci-actions {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-
-    #sci-schedule-confirmed .sci-btn {
-      width: 100%;
-    }
-  }
-
-  @media (max-width: 430px) {
-    #sci-schedule-confirmed .navbar-note {
-      display: none;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    #sci-schedule-confirmed *,
-    #sci-schedule-confirmed *::before,
-    #sci-schedule-confirmed *::after {
-      scroll-behavior: auto !important;
-      animation-duration: 1ms !important;
-      animation-iteration-count: 1 !important;
-      transition-duration: 1ms !important;
-    }
-  }
-</style>
-
-<!-- GA4, Meta y TikTok se administran exclusivamente desde GTM. -->
-
-<script type="text/javascript" data-cfasync="false">
-  (function () {
-    "use strict";
-
-    const root = document.getElementById("sci-schedule-confirmed");
-    if (!root || root.dataset.initialized === "true") return;
-
-    root.dataset.initialized = "true";
-
-    const CONFIG = Object.freeze({
-      version: "4.0",
-      validationEndpoint: "https://n8n.sotomayorconsulting.com/webhook/schedule-confirmed-validate",
-      whatsappNumber: "17542175066",
-      defaultTimezone: "America/Guayaquil"
-    });
-
-    const preservedQuery = typeof window.__SCI_SCHEDULE_QUERY__ === "string"
-      ? window.__SCI_SCHEDULE_QUERY__
-      : "";
-    const params = new URLSearchParams(preservedQuery);
-
-    const elements = Object.freeze({
-      title: root.querySelector("#sci-title"),
-      statusMessage: root.querySelector("#sci-status-message"),
-      navbarStatus: root.querySelector("#sci-navbar-status"),
-      retryButton: root.querySelector("#sci-retry-validation"),
-      footnote: root.querySelector("#sci-footnote"),
-      validationLoader: root.querySelector("#sci-validation-loader"),
-      validationStage: root.querySelector("#sci-validation-stage"),
-      validationTime: root.querySelector("#sci-validation-time"),
-      supportActions: root.querySelector("#sci-support-actions"),
-      whatsappButton: root.querySelector("#sci-whatsapp-support"),
-      calendarButton: root.querySelector("#sci-google-calendar"),
-      validationContent: Array.from(root.querySelectorAll("[data-validation-content]"))
-    });
-
-    const booking = Object.freeze({
-      fullName: readParam("fullName"),
-      email: normalizeEmail(readParam("email")),
-      phone: readParam("a[0]") || readParam("phone"),
-      detail: readParam("a[1]") || readParam("detail"),
-      timezone: getSafeTimezone(readParam("timezone") || CONFIG.defaultTimezone),
-      duration: readParam("duration"),
-      startDate: readParam("startDate")
-    });
-
-    const startDate = parseDate(booking.startDate);
-    let requestInProgress = false;
-    let waitingIntervalId = null;
-    let waitingStartedAt = 0;
-
-    configureWhatsappButton("");
-
-    if (elements.retryButton) {
-      elements.retryButton.addEventListener("click", validateSchedule);
-    }
-
-    console.info("SCI Schedule Confirmed Landing", {
-      version: CONFIG.version,
-      endpoint: CONFIG.validationEndpoint,
-      queryCaptured: Boolean(preservedQuery)
-    });
-
-    validateSchedule();
-
-    async function validateSchedule() {
-      if (requestInProgress) return;
-
-      requestInProgress = true;
-      setValidationState("validating");
-      startWaitingVisual();
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Validación de agenda | Sotomayor Consulting International</title>
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!--
+    Schedule Confirmed Landing V7
+    Fuente de verdad:
+      1. Parámetros originales enviados por Zcal.
+      2. Respuesta final del endpoint n8n.
+      3. Objeto agenda del webhook cuando status=approved.
+
+    La URL se limpia visualmente después de capturar los parámetros.
+    La consulta se conserva durante 30 minutos en sessionStorage para permitir recargar la página.
+  -->
+  <script data-cfasync="false">
+    (function () {
+      "use strict";
+
+      var VERSION = "6.0";
+      var STORAGE_KEY = "sci_schedule_confirmed_query_v6";
+      var MAX_AGE_MS = 30 * 60 * 1000;
+      var urlQuery = window.location.search ? window.location.search.slice(1) : "";
+      var historyState = window.history.state && typeof window.history.state === "object"
+        ? window.history.state
+        : {};
+      var stateQuery = typeof historyState.sciScheduleQuery === "string"
+        ? historyState.sciScheduleQuery
+        : "";
+      var storedQuery = "";
 
       try {
-        const response = await fetch(buildValidationUrl(), {
-          method: "GET",
-          mode: "cors",
-          cache: "no-store",
-          credentials: "omit",
-          headers: {
-            "Accept": "application/json"
+        var storedRaw = window.sessionStorage.getItem(STORAGE_KEY);
+        if (storedRaw) {
+          var storedData = JSON.parse(storedRaw);
+          if (
+            storedData &&
+            typeof storedData.query === "string" &&
+            Number.isFinite(Number(storedData.savedAt)) &&
+            Date.now() - Number(storedData.savedAt) <= MAX_AGE_MS
+          ) {
+            storedQuery = storedData.query;
+          } else {
+            window.sessionStorage.removeItem(STORAGE_KEY);
           }
-        });
-
-        if (!response.ok) {
-          throw new Error("HTTP " + response.status + " al consultar la validación");
         }
-
-        const payload = await response.json();
-        const result = extractValidationResult(payload);
-        const status = normalizeStatus(result && result.status);
-        const requestId = result && result.request_id != null
-          ? String(result.request_id).trim()
-          : "";
-
-        console.info("SCI validation response", {
-          responseShape: Array.isArray(payload) ? "array" : typeof payload,
-          status: status,
-          requestId: requestId
-        });
-
-        if (status === "approved" && requestId) {
-          renderApprovedBooking();
-          configureWhatsappButton(requestId);
-          setValidationState("approved");
-          pushScheduleConfirmed(requestId);
-          return;
-        }
-
-        if (status === "rejected") {
-          configureWhatsappButton(requestId);
-          setValidationState("rejected");
-          pushValidationRejected(requestId);
-          return;
-        }
-
-        throw new Error("Respuesta de validación inesperada o incompleta");
       } catch (error) {
-        console.error("SCI schedule validation error", error);
-        setValidationState("error");
-      } finally {
-        stopWaitingVisual();
-        requestInProgress = false;
-      }
-    }
-
-    function extractValidationResult(payload) {
-      if (Array.isArray(payload)) {
-        return payload.length > 0 && isPlainObject(payload[0]) ? payload[0] : null;
+        storedQuery = "";
       }
 
-      if (isPlainObject(payload) && Array.isArray(payload.data)) {
-        return payload.data.length > 0 && isPlainObject(payload.data[0])
-          ? payload.data[0]
-          : null;
+      var preservedQuery = urlQuery || stateQuery || storedQuery;
+
+      window.__SCI_SCHEDULE_CONFIRMED_VERSION__ = VERSION;
+      window.__SCI_SCHEDULE_QUERY__ = preservedQuery;
+
+      if (urlQuery) {
+        try {
+          window.sessionStorage.setItem(
+            STORAGE_KEY,
+            JSON.stringify({
+              query: urlQuery,
+              savedAt: Date.now()
+            })
+          );
+        } catch (error) {}
+
+        window.history.replaceState(
+          Object.assign({}, historyState, { sciScheduleQuery: urlQuery }),
+          document.title,
+          window.location.pathname + window.location.hash
+        );
       }
+    })();
+  </script>
 
-      if (isPlainObject(payload) && isPlainObject(payload.data)) {
-        return payload.data;
-      }
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      if (w.__SCI_GTM_TNRQGDM_LOADED__) return;
 
-      return isPlainObject(payload) ? payload : null;
-    }
-
-    function isPlainObject(value) {
-      return Boolean(value && typeof value === "object" && !Array.isArray(value));
-    }
-
-    function normalizeStatus(value) {
-      return String(value || "").trim().toLowerCase();
-    }
-
-    function buildValidationUrl() {
-      const url = new URL(CONFIG.validationEndpoint);
-      const allowedFields = [
-        ["fullName", booking.fullName],
-        ["email", booking.email],
-        ["timezone", booking.timezone],
-        ["a[0]", booking.phone],
-        ["a[1]", booking.detail],
-        ["duration", booking.duration],
-        ["startDate", booking.startDate]
-      ];
-
-      allowedFields.forEach(function (entry) {
-        const key = entry[0];
-        const value = entry[1];
-        if (value) url.searchParams.set(key, value);
-      });
-
-      url.searchParams.set("_validation_ts", String(Date.now()));
-      return url.toString();
-    }
-
-    function renderApprovedBooking() {
-      setText("#sci-full-name", booking.fullName, "No informado");
-      setText("#sci-email", booking.email, "No informado");
-      setText("#sci-phone", booking.phone, "No informado");
-      setText("#sci-timezone", booking.timezone, "No informada");
-      setText("#sci-extra-detail", booking.detail, "No informado");
-      setText(
-        "#sci-duration",
-        booking.duration ? booking.duration + " minutos" : "",
-        "No informada"
+      var existing = d.querySelector(
+        'script[src*="googletagmanager.com/gtm.js?id=' + i + '"]'
       );
 
-      if (startDate) {
-        const dayName = new Intl.DateTimeFormat("es-EC", {
-          weekday: "long",
-          timeZone: booking.timezone
-        }).format(startDate);
+      if (existing) {
+        w.__SCI_GTM_TNRQGDM_LOADED__ = true;
+        return;
+      }
 
-        const dateText = new Intl.DateTimeFormat("es-EC", {
+      w.__SCI_GTM_TNRQGDM_LOADED__ = true;
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js"
+      });
+
+      var firstScript = d.getElementsByTagName(s)[0];
+      var script = d.createElement(s);
+      var dataLayerQuery = l !== "dataLayer" ? "&l=" + l : "";
+
+      script.async = true;
+      script.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dataLayerQuery;
+      firstScript.parentNode.insertBefore(script, firstScript);
+    })(window, document, "script", "dataLayer", "GTM-TNRQGDM");
+  </script>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --sci-navy: #0e2637;
+      --sci-navy-soft: #15364b;
+      --sci-gold: #c59028;
+      --sci-gold-light: #f6dfaa;
+      --sci-text: #102638;
+      --sci-muted: #657586;
+      --sci-bg: #eef3f7;
+      --sci-card: #ffffff;
+      --sci-soft: #f8fafc;
+      --sci-border: rgba(16, 38, 56, 0.11);
+      --sci-success: #16734a;
+      --sci-shadow: 0 20px 54px rgba(14, 38, 55, 0.10);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      min-height: 100%;
+      background: var(--sci-bg);
+    }
+
+    body {
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      color: var(--sci-text);
+      background:
+        radial-gradient(circle at 8% 0%, rgba(197, 144, 40, 0.14), transparent 29%),
+        radial-gradient(circle at 93% 2%, rgba(14, 38, 55, 0.11), transparent 27%),
+        linear-gradient(180deg, #f9fafb 0%, #edf3f7 100%);
+      font-family: "Poppins", Arial, sans-serif;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    .sci-page {
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .sci-navbar {
+      position: sticky;
+      top: 12px;
+      z-index: 20;
+      width: min(1080px, calc(100% - 32px));
+      min-height: 66px;
+      margin: 12px auto 0;
+      padding: 9px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 22px;
+      background: rgba(14, 38, 55, 0.97);
+      box-shadow: 0 16px 42px rgba(14, 38, 55, 0.18);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+    }
+
+    .sci-brand {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      color: #fff;
+      text-decoration: none;
+    }
+
+
+    .sci-brand-logo {
+      width: auto;
+      height: 39px;
+      max-width: 245px;
+      display: block;
+      object-fit: contain;
+    }
+
+    .sci-navbar-status {
+      min-height: 38px;
+      padding: 9px 15px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(246, 223, 170, 0.34);
+      border-radius: 999px;
+      color: #f6dfaa;
+      background: rgba(197, 144, 40, 0.13);
+      font-size: 11.5px;
+      line-height: 1;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .sci-main {
+      width: min(980px, calc(100% - 40px));
+      min-height: calc(100vh - 90px);
+      margin: 0 auto;
+      padding: 28px 0 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sci-layout {
+      width: min(700px, 100%);
+    }
+
+    .sci-card {
+      border: 1px solid var(--sci-border);
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: var(--sci-shadow);
+    }
+
+    .sci-hero {
+      padding: 27px 25px 23px;
+      text-align: center;
+    }
+
+    .sci-state-icon {
+      width: 46px;
+      height: 46px;
+      margin: 0 auto 13px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      color: #fff;
+      background: var(--sci-navy);
+      box-shadow: 0 12px 27px rgba(14, 38, 55, 0.17);
+    }
+
+    .sci-state-icon svg {
+      width: 23px;
+      height: 23px;
+    }
+
+    .is-validating .sci-state-icon svg,
+    .is-rejected .sci-state-icon svg,
+    .is-error .sci-state-icon svg,
+    .is-missing .sci-state-icon svg {
+      display: none;
+    }
+
+    .is-validating .sci-state-icon::after {
+      width: 20px;
+      height: 20px;
+      content: "";
+      border: 2px solid rgba(255, 255, 255, 0.34);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: sci-spin 760ms linear infinite;
+    }
+
+    .is-rejected .sci-state-icon,
+    .is-error .sci-state-icon,
+    .is-missing .sci-state-icon {
+      color: var(--sci-navy);
+      background: var(--sci-gold-light);
+      box-shadow: none;
+    }
+
+    .is-rejected .sci-state-icon::after,
+    .is-error .sci-state-icon::after,
+    .is-missing .sci-state-icon::after {
+      content: "!";
+      font-size: 23px;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    @keyframes sci-spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .sci-eyebrow {
+      margin: 0 0 8px;
+      color: var(--sci-gold);
+      font-size: 10.5px;
+      line-height: 1.3;
+      font-weight: 800;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+
+    .sci-title {
+      max-width: 590px;
+      margin: 0 auto 10px;
+      color: var(--sci-navy);
+      font-size: clamp(26px, 3.1vw, 36px);
+      line-height: 1.12;
+      font-weight: 800;
+      letter-spacing: -0.035em;
+    }
+
+    .sci-message {
+      max-width: 550px;
+      margin: 0 auto;
+      color: var(--sci-muted);
+      font-size: 13.5px;
+      line-height: 1.57;
+    }
+
+    .sci-loader {
+      width: min(455px, 100%);
+      margin: 18px auto 0;
+      padding: 14px 16px;
+      display: grid;
+      justify-items: center;
+      gap: 7px;
+      border: 1px solid rgba(16, 38, 56, 0.08);
+      border-radius: 16px;
+      background: var(--sci-soft);
+    }
+
+    .sci-loader-dots {
+      height: 13px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .sci-loader-dots span {
+      width: 8px;
+      height: 8px;
+      display: block;
+      border-radius: 50%;
+      background: var(--sci-gold);
+      animation: sci-pulse 1.15s ease-in-out infinite;
+    }
+
+    .sci-loader-dots span:nth-child(2) {
+      animation-delay: 150ms;
+    }
+
+    .sci-loader-dots span:nth-child(3) {
+      animation-delay: 300ms;
+    }
+
+    @keyframes sci-pulse {
+      0%, 70%, 100% {
+        opacity: 0.3;
+        transform: translateY(0) scale(0.86);
+      }
+      35% {
+        opacity: 1;
+        transform: translateY(-3px) scale(1);
+      }
+    }
+
+    .sci-loader strong {
+      color: var(--sci-navy);
+      font-size: 12.5px;
+      line-height: 1.4;
+      text-align: center;
+    }
+
+    .sci-loader small {
+      color: var(--sci-muted);
+      font-size: 10.5px;
+      line-height: 1.48;
+      text-align: center;
+    }
+
+    .sci-existing-agenda {
+      margin-top: 14px;
+      padding: 16px;
+      border-color: rgba(197, 144, 40, 0.28);
+      background: linear-gradient(180deg, #fffdf8 0%, #ffffff 100%);
+    }
+
+    .sci-existing-header {
+      margin-bottom: 12px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .sci-existing-header span {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--sci-gold);
+      font-size: 10.5px;
+      line-height: 1.3;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .sci-existing-header strong {
+      display: block;
+      color: var(--sci-navy);
+      font-size: 18px;
+      line-height: 1.25;
+      font-weight: 800;
+    }
+
+    .sci-existing-badge {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      border-radius: 999px;
+      color: var(--sci-navy);
+      background: var(--sci-gold-light);
+      font-size: 10px;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .sci-existing-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .sci-existing-item {
+      min-height: 62px;
+      padding: 11px 13px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      border: 1px solid rgba(16, 38, 56, 0.08);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .sci-existing-item span {
+      color: var(--sci-muted);
+      font-size: 10px;
+      line-height: 1.3;
+      font-weight: 800;
+      letter-spacing: 0.075em;
+      text-transform: uppercase;
+    }
+
+    .sci-existing-item strong {
+      color: var(--sci-navy);
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .sci-agenda {
+      margin-top: 14px;
+      padding: 14px;
+    }
+
+    .sci-date-card {
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      border: 1px solid rgba(16, 38, 56, 0.08);
+      border-radius: 17px;
+      background: var(--sci-soft);
+    }
+
+    .sci-date-copy {
+      min-width: 0;
+    }
+
+    .sci-date-copy span {
+      display: block;
+      margin-bottom: 3px;
+      color: var(--sci-gold);
+      font-size: 10.5px;
+      line-height: 1.3;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .sci-date-copy strong {
+      display: block;
+      color: var(--sci-navy);
+      font-size: clamp(19px, 2.2vw, 24px);
+      line-height: 1.18;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .sci-date-copy small {
+      display: block;
+      margin-top: 4px;
+      color: var(--sci-muted);
+      font-size: 12.5px;
+      line-height: 1.4;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .sci-calendar-icon {
+      width: 40px;
+      height: 40px;
+      flex: 0 0 40px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(16, 38, 56, 0.08);
+      border-radius: 13px;
+      color: var(--sci-navy);
+      background: #fff;
+    }
+
+    .sci-calendar-icon svg {
+      width: 21px;
+      height: 21px;
+    }
+
+    .sci-details {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .sci-detail {
+      min-height: 65px;
+      padding: 11px 13px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      border: 1px solid rgba(16, 38, 56, 0.08);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .sci-detail span {
+      color: var(--sci-muted);
+      font-size: 10px;
+      line-height: 1.3;
+      font-weight: 800;
+      letter-spacing: 0.075em;
+      text-transform: uppercase;
+    }
+
+    .sci-detail strong {
+      color: var(--sci-navy);
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .sci-next {
+      margin-top: 14px;
+      padding: 16px;
+      color: #fff;
+      background: var(--sci-navy);
+    }
+
+    .sci-next-header {
+      margin-bottom: 11px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .sci-next-header span {
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .sci-next-header strong {
+      color: rgba(255, 255, 255, 0.58);
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .sci-steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .sci-step {
+      padding: 11px;
+      border: 1px solid rgba(255, 255, 255, 0.10);
+      border-radius: 13px;
+      background: rgba(255, 255, 255, 0.075);
+    }
+
+    .sci-step b {
+      width: 22px;
+      height: 22px;
+      margin-bottom: 7px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 50%;
+      color: var(--sci-navy);
+      background: var(--sci-gold-light);
+      font-size: 10px;
+    }
+
+    .sci-step p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.86);
+      font-size: 12px;
+      line-height: 1.38;
+      font-weight: 500;
+    }
+
+    .sci-actions {
+      margin-top: 16px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .sci-button {
+      min-height: 43px;
+      padding: 11px 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      border-radius: 999px;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+    }
+
+    .sci-button:hover {
+      transform: translateY(-1px);
+    }
+
+    .sci-button:focus-visible {
+      outline: 3px solid rgba(197, 144, 40, 0.55);
+      outline-offset: 3px;
+    }
+
+    .sci-button-primary {
+      color: #fff;
+      background: var(--sci-navy);
+      box-shadow: 0 12px 25px rgba(14, 38, 55, 0.16);
+    }
+
+    .sci-button-whatsapp {
+      color: #fff;
+      background: var(--sci-success);
+      box-shadow: 0 12px 25px rgba(22, 115, 74, 0.20);
+    }
+
+    .sci-button-whatsapp:hover {
+      background: #115f3d;
+    }
+
+    .sci-reference {
+      margin: 13px auto 0;
+      color: var(--sci-muted);
+      font-size: 10.5px;
+      line-height: 1.45;
+      text-align: center;
+    }
+
+    .sci-footnote {
+      max-width: 560px;
+      margin: 13px auto 0;
+      color: var(--sci-muted);
+      font-size: 11.5px;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      .sci-navbar,
+      .sci-main {
+        width: min(100% - 22px, 980px);
+      }
+
+      .sci-navbar {
+        top: 10px;
+        min-height: 62px;
+        margin-top: 10px;
+        padding: 9px 11px;
+        border-radius: 18px;
+      }
+
+
+      .sci-brand-logo {
+        max-width: 185px;
+        height: 34px;
+      }
+
+      .sci-main {
+        min-height: calc(100vh - 84px);
+        padding: 18px 0 25px;
+        align-items: flex-start;
+      }
+
+      .sci-hero {
+        padding: 22px 18px 20px;
+      }
+
+      .sci-details,
+      .sci-steps,
+      .sci-existing-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .sci-next-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .sci-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .sci-button {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 540px) {
+
+      .sci-brand-logo {
+        max-width: 225px;
+      }
+
+      .sci-navbar-status {
+        padding: 8px 10px;
+        font-size: 10.5px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .sci-navbar-status {
+        display: none;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 1ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-TNRQGDM"
+      height="0"
+      width="0"
+      style="display:none;visibility:hidden"
+      title="Google Tag Manager"
+    ></iframe>
+  </noscript>
+
+  <div id="sci-schedule-confirmed" class="sci-page is-validating" data-version="6.0" aria-busy="true">
+    <nav class="sci-navbar" aria-label="Navegación principal">
+      <a class="sci-brand" href="https://sotomayorconsulting.com/" aria-label="Ir a Sotomayor Consulting International">
+        <img
+          class="sci-brand-logo"
+          src="data:image/png;base64,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"
+          alt="Consulting International"
+          width="277"
+          height="61"
+        >
+      </a>
+      <span id="sci-navbar-status" class="sci-navbar-status">Validando agenda</span>
+    </nav>
+
+    <main class="sci-main">
+      <article class="sci-layout" aria-labelledby="sci-title">
+        <section class="sci-card sci-hero">
+          <div class="sci-state-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+
+          <p class="sci-eyebrow">Sotomayor Consulting International</p>
+          <h1 id="sci-title" class="sci-title">Estamos validando tu asesoría</h1>
+          <p id="sci-status-message" class="sci-message" role="status" aria-live="polite">
+            Estamos consultando la reserva y aplicando las reglas de agendamiento.
+          </p>
+
+          <div id="sci-loader" class="sci-loader">
+            <div class="sci-loader-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <strong id="sci-loader-stage">Conectando con el sistema de validación</strong>
+            <small id="sci-loader-detail">No cierres esta ventana mientras revisamos la agenda.</small>
+          </div>
+
+          <div id="sci-support-actions" class="sci-actions" hidden>
+            <a
+              id="sci-whatsapp"
+              class="sci-button sci-button-whatsapp"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contactar por WhatsApp
+            </a>
+            <button id="sci-retry" class="sci-button sci-button-primary" type="button" hidden>
+              Intentar nuevamente
+            </button>
+          </div>
+
+          <p id="sci-request-reference" class="sci-reference" hidden></p>
+        </section>
+
+        <section id="sci-existing-agenda" class="sci-card sci-existing-agenda" aria-label="Agenda activa encontrada" hidden>
+          <div class="sci-existing-header">
+            <div>
+              <span>Agenda activa encontrada</span>
+              <strong>Ya existe una reunión asociada a tus datos</strong>
+            </div>
+            <div class="sci-existing-badge">Activa</div>
+          </div>
+
+          <div class="sci-existing-grid">
+            <div class="sci-existing-item">
+              <span>Fecha</span>
+              <strong id="sci-existing-date">Fecha por confirmar</strong>
+            </div>
+            <div class="sci-existing-item">
+              <span>Hora</span>
+              <strong id="sci-existing-time">Hora por confirmar</strong>
+            </div>
+            <div class="sci-existing-item">
+              <span>Duración</span>
+              <strong id="sci-existing-duration">No informada</strong>
+            </div>
+            <div class="sci-existing-item">
+              <span>Zona horaria</span>
+              <strong id="sci-existing-timezone">No informada</strong>
+            </div>
+          </div>
+        </section>
+
+        <section id="sci-agenda" class="sci-card sci-agenda" aria-label="Resumen de la reunión" hidden>
+          <div class="sci-date-card">
+            <div class="sci-date-copy">
+              <span id="sci-day-name">Fecha</span>
+              <strong id="sci-meeting-date">Fecha por confirmar</strong>
+              <small id="sci-meeting-time">Hora por confirmar</small>
+            </div>
+            <div class="sci-calendar-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M7 3V6M17 3V6M4.5 9.5H19.5M6.5 21H17.5C18.6046 21 19.5 20.1046 19.5 19V7C19.5 5.89543 18.6046 5 17.5 5H6.5C5.39543 5 4.5 5.89543 4.5 7V19C4.5 20.1046 5.39543 21 6.5 21Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="sci-details">
+            <div class="sci-detail">
+              <span>Nombre</span>
+              <strong id="sci-full-name">No informado</strong>
+            </div>
+            <div class="sci-detail">
+              <span>Correo</span>
+              <strong id="sci-email">No informado</strong>
+            </div>
+            <div class="sci-detail">
+              <span>Teléfono</span>
+              <strong id="sci-phone">No informado</strong>
+            </div>
+            <div class="sci-detail">
+              <span>Duración</span>
+              <strong id="sci-duration">No informada</strong>
+            </div>
+            <div class="sci-detail">
+              <span>Zona horaria</span>
+              <strong id="sci-timezone">No informada</strong>
+            </div>
+            <div class="sci-detail">
+              <span>Detalle adicional</span>
+              <strong id="sci-detail">No informado</strong>
+            </div>
+          </div>
+        </section>
+
+        <section id="sci-next" class="sci-card sci-next" aria-label="Próximos pasos" hidden>
+          <div class="sci-next-header">
+            <span>Próximos pasos</span>
+            <strong>Antes de la asesoría</strong>
+          </div>
+          <div class="sci-steps">
+            <div class="sci-step">
+              <b>1</b>
+              <p>Revisa que los datos de la reunión sean correctos.</p>
+            </div>
+            <div class="sci-step">
+              <b>2</b>
+              <p>Guarda el horario en tu calendario personal.</p>
+            </div>
+            <div class="sci-step">
+              <b>3</b>
+              <p>Ten a mano tus dudas principales para la reunión.</p>
+            </div>
+          </div>
+        </section>
+
+        <div id="sci-approved-actions" class="sci-actions" hidden>
+          <a
+            id="sci-google-calendar"
+            class="sci-button sci-button-primary"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Agregar a Google Calendar
+          </a>
+        </div>
+
+        <p id="sci-footnote" class="sci-footnote">
+          Espera el resultado de la validación antes de cerrar esta ventana.
+        </p>
+      </article>
+    </main>
+  </div>
+
+  <script data-cfasync="false">
+    (function () {
+      "use strict";
+
+      var root = document.getElementById("sci-schedule-confirmed");
+      if (!root || root.dataset.initialized === "true") return;
+      root.dataset.initialized = "true";
+
+      var CONFIG = Object.freeze({
+        version: "7.0",
+        endpoint: "https://n8n.sotomayorconsulting.com/webhook/schedule-confirmed-validate",
+        whatsappNumber: "17542175066",
+        defaultTimezone: "America/Guayaquil"
+      });
+
+      var params = new URLSearchParams(
+        typeof window.__SCI_SCHEDULE_QUERY__ === "string"
+          ? window.__SCI_SCHEDULE_QUERY__
+          : ""
+      );
+
+      var elements = {
+        navbarStatus: document.getElementById("sci-navbar-status"),
+        title: document.getElementById("sci-title"),
+        message: document.getElementById("sci-status-message"),
+        loader: document.getElementById("sci-loader"),
+        loaderStage: document.getElementById("sci-loader-stage"),
+        loaderDetail: document.getElementById("sci-loader-detail"),
+        supportActions: document.getElementById("sci-support-actions"),
+        whatsapp: document.getElementById("sci-whatsapp"),
+        retry: document.getElementById("sci-retry"),
+        reference: document.getElementById("sci-request-reference"),
+        existingAgenda: document.getElementById("sci-existing-agenda"),
+        existingDate: document.getElementById("sci-existing-date"),
+        existingTime: document.getElementById("sci-existing-time"),
+        existingDuration: document.getElementById("sci-existing-duration"),
+        existingTimezone: document.getElementById("sci-existing-timezone"),
+        agenda: document.getElementById("sci-agenda"),
+        next: document.getElementById("sci-next"),
+        approvedActions: document.getElementById("sci-approved-actions"),
+        calendar: document.getElementById("sci-google-calendar"),
+        footnote: document.getElementById("sci-footnote")
+      };
+
+      var zcalBooking = normalizeAgenda({
+        full_name: readParam("fullName"),
+        email: readParam("email"),
+        phone: readParam("a[0]") || readParam("phone"),
+        timezone: readParam("timezone"),
+        duration: readParam("duration"),
+        start_date: readParam("startDate"),
+        preparation_answer: readParam("a[1]") || readParam("detail")
+      });
+
+      var requestRunning = false;
+      var waitTimer = null;
+      var waitStartedAt = 0;
+
+      configureWhatsapp("", "");
+      elements.retry.addEventListener("click", validateSchedule);
+
+      if (!hasMinimumZcalData(zcalBooking)) {
+        setState("missing", "", "invalid_data");
+      } else {
+        validateSchedule();
+      }
+
+      async function validateSchedule() {
+        if (requestRunning) return;
+
+        requestRunning = true;
+        setState("validating", "", "");
+        startWaitMessages();
+
+        try {
+          var response = await fetch(buildValidationUrl(zcalBooking), {
+            method: "GET",
+            mode: "cors",
+            cache: "no-store",
+            credentials: "omit",
+            headers: {
+              Accept: "application/json, text/plain, */*"
+            }
+          });
+
+          var rawBody = await response.text();
+
+          if (!response.ok) {
+            throw new Error(
+              "El endpoint respondió HTTP " + response.status +
+              (rawBody ? ": " + rawBody.slice(0, 180) : "")
+            );
+          }
+
+          var parsedBody = parseResponseBody(rawBody);
+          var result = unwrapValidationResult(parsedBody);
+          var status = normalizeStatus(result && result.status);
+          var requestId = normalizeText(result && result.request_id);
+          var reason = normalizeStatus(
+            result && (result.reason || result.public_reason || result.rejection_reason)
+          );
+
+          console.info("SCI Schedule Validation V6", {
+            status: status,
+            reason: reason,
+            requestId: requestId,
+            responseType: Array.isArray(parsedBody) ? "array" : typeof parsedBody,
+            hasAgenda: Boolean(result && result.agenda),
+            hasExistingAgenda: Boolean(result && result.existing_agenda)
+          });
+
+          if (status === "approved" && requestId) {
+            var serverAgenda = normalizeAgenda(
+              result && isObject(result.agenda)
+                ? result.agenda
+                : {}
+            );
+
+            if (!hasMinimumAgendaData(serverAgenda)) {
+              throw new Error(
+                "La respuesta aprobada no contiene una agenda verificable."
+              );
+            }
+
+            var approvedAgenda = serverAgenda;
+
+            renderApprovedAgenda(approvedAgenda);
+            configureWhatsapp(requestId, "approved");
+            setState("approved", requestId, "");
+            pushApprovedEvent(requestId, approvedAgenda);
+            return;
+          }
+
+          if (status === "rejected") {
+            if (reason === "existing_booking") {
+              var existingAgenda = normalizeAgenda(
+                result && isObject(result.existing_agenda)
+                  ? result.existing_agenda
+                  : {}
+              );
+
+              if (existingAgenda.start_date) {
+                renderExistingAgenda(existingAgenda);
+              }
+            }
+
+            configureWhatsapp(requestId, reason);
+            setState("rejected", requestId, reason);
+            pushRejectedEvent(requestId, reason);
+            return;
+          }
+
+          throw new Error(
+            "La respuesta no contiene un estado válido. Respuesta: " +
+            safeStringify(parsedBody).slice(0, 260)
+          );
+        } catch (error) {
+          console.error("SCI Schedule Validation V6 error", error);
+          setState("error", "", "");
+        } finally {
+          stopWaitMessages();
+          requestRunning = false;
+        }
+      }
+
+      function parseResponseBody(rawBody) {
+        var text = normalizeText(rawBody);
+        if (!text) {
+          throw new Error("El webhook respondió sin contenido.");
+        }
+
+        try {
+          return JSON.parse(text);
+        } catch (firstError) {
+          var decoded = decodeHtmlEntities(text);
+          if (decoded !== text) {
+            try {
+              return JSON.parse(decoded);
+            } catch (secondError) {}
+          }
+
+          throw new Error(
+            "El webhook no devolvió JSON válido. Inicio de respuesta: " +
+            text.slice(0, 220)
+          );
+        }
+      }
+
+      function unwrapValidationResult(payload) {
+        var current = payload;
+        var guard = 0;
+
+        while (guard < 6) {
+          guard += 1;
+
+          if (Array.isArray(current)) {
+            current = current.length ? current[0] : null;
+            continue;
+          }
+
+          if (!isObject(current)) return null;
+
+          if (typeof current.status !== "undefined") return current;
+
+          if (typeof current.body === "string") {
+            current = parseResponseBody(current.body);
+            continue;
+          }
+
+          if (isObject(current.body) || Array.isArray(current.body)) {
+            current = current.body;
+            continue;
+          }
+
+          if (typeof current.data === "string") {
+            current = parseResponseBody(current.data);
+            continue;
+          }
+
+          if (isObject(current.data) || Array.isArray(current.data)) {
+            current = current.data;
+            continue;
+          }
+
+          if (isObject(current.response) || Array.isArray(current.response)) {
+            current = current.response;
+            continue;
+          }
+
+          return null;
+        }
+
+        return null;
+      }
+
+      function buildValidationUrl(agenda) {
+        var url = new URL(CONFIG.endpoint);
+
+        setUrlParam(url, "fullName", agenda.full_name);
+        setUrlParam(url, "email", agenda.email);
+        setUrlParam(url, "timezone", agenda.timezone);
+        setUrlParam(url, "a[0]", agenda.phone);
+        setUrlParam(url, "a[1]", agenda.preparation_answer);
+        setUrlParam(url, "duration", agenda.duration);
+        setUrlParam(url, "startDate", agenda.start_date);
+        url.searchParams.set("_validation_ts", String(Date.now()));
+
+        return url.toString();
+      }
+
+      function setUrlParam(url, key, value) {
+        if (normalizeText(value)) {
+          url.searchParams.set(key, normalizeText(value));
+        }
+      }
+
+      function normalizeAgenda(source) {
+        source = isObject(source) ? source : {};
+
+        return Object.freeze({
+          full_name: normalizeText(
+            source.full_name || source.fullName || source.name
+          ),
+          email: normalizeEmail(
+            source.email || source.email_from || source.email_normalized
+          ),
+          phone: normalizeText(
+            source.phone || source.mobile || source.phone_sanitized
+          ),
+          timezone: safeTimezone(
+            source.timezone || CONFIG.defaultTimezone
+          ),
+          duration: normalizeText(
+            source.duration || source.duration_minutes
+          ),
+          start_date: normalizeText(
+            source.start_date || source.startDate
+          ),
+          preparation_answer: normalizeText(
+            source.preparation_answer ||
+            source.detail ||
+            source.additional_detail
+          )
+        });
+      }
+
+      function hasMinimumZcalData(agenda) {
+        return Boolean(
+          agenda.full_name &&
+          agenda.email &&
+          digitsOnly(agenda.phone).length >= 7 &&
+          agenda.start_date
+        );
+      }
+
+      function hasMinimumAgendaData(agenda) {
+        return Boolean(
+          agenda.full_name &&
+          agenda.email &&
+          digitsOnly(agenda.phone).length >= 7 &&
+          agenda.start_date
+        );
+      }
+
+      function renderExistingAgenda(agenda) {
+        var startDate = parseDate(agenda.start_date);
+        var timezone = safeTimezone(agenda.timezone || CONFIG.defaultTimezone);
+
+        if (!startDate) {
+          elements.existingAgenda.dataset.ready = "false";
+          return;
+        }
+
+        var dateText = new Intl.DateTimeFormat("es-EC", {
+          weekday: "long",
           day: "2-digit",
           month: "long",
           year: "numeric",
-          timeZone: booking.timezone
+          timeZone: timezone
         }).format(startDate);
 
-        const timeText = new Intl.DateTimeFormat("es-EC", {
+        var timeText = new Intl.DateTimeFormat("es-EC", {
           hour: "2-digit",
           minute: "2-digit",
           hour12: false,
-          timeZone: booking.timezone
+          timeZone: timezone
         }).format(startDate);
 
-        setText("#sci-day-name", capitalize(dayName), "Fecha");
-        setText("#sci-meeting-date", capitalize(dateText), "Fecha por confirmar");
+        elements.existingDate.textContent = capitalize(dateText);
+        elements.existingTime.textContent = timeText + " hrs";
+        elements.existingDuration.textContent = agenda.duration
+          ? agenda.duration + " minutos"
+          : "No informada";
+        elements.existingTimezone.textContent = timezone;
+        elements.existingAgenda.dataset.ready = "true";
+      }
+
+      function renderApprovedAgenda(agenda) {
+        setText("sci-full-name", agenda.full_name, "No informado");
+        setText("sci-email", agenda.email, "No informado");
+        setText("sci-phone", formatPhone(agenda.phone), "No informado");
+        setText("sci-timezone", agenda.timezone, "No informada");
+        setText("sci-detail", agenda.preparation_answer, "No informado");
         setText(
-          "#sci-meeting-time",
-          timeText + " hrs - " + booking.timezone,
-          "Hora por confirmar"
+          "sci-duration",
+          agenda.duration ? agenda.duration + " minutos" : "",
+          "No informada"
         );
+
+        var startDate = parseDate(agenda.start_date);
+
+        if (startDate) {
+          var dayName = new Intl.DateTimeFormat("es-EC", {
+            weekday: "long",
+            timeZone: agenda.timezone
+          }).format(startDate);
+
+          var dateText = new Intl.DateTimeFormat("es-EC", {
+            day: "2-digit",
+            month: "long",
+            year: "numeric",
+            timeZone: agenda.timezone
+          }).format(startDate);
+
+          var timeText = new Intl.DateTimeFormat("es-EC", {
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: false,
+            timeZone: agenda.timezone
+          }).format(startDate);
+
+          setText("sci-day-name", capitalize(dayName), "Fecha");
+          setText("sci-meeting-date", capitalize(dateText), "Fecha por confirmar");
+          setText(
+            "sci-meeting-time",
+            timeText + " hrs · " + agenda.timezone,
+            "Hora por confirmar"
+          );
+
+          configureCalendar(startDate, agenda);
+        } else {
+          elements.calendar.hidden = true;
+        }
       }
 
-      configureGoogleCalendar();
-    }
+      function configureCalendar(startDate, agenda) {
+        var minutes = Number.parseInt(agenda.duration, 10);
+        if (!Number.isFinite(minutes) || minutes <= 0) minutes = 60;
 
-    function configureGoogleCalendar() {
-      if (!elements.calendarButton) return;
+        var endDate = new Date(startDate.getTime() + minutes * 60 * 1000);
+        var url = new URL("https://calendar.google.com/calendar/render");
 
-      if (!startDate) {
-        elements.calendarButton.hidden = true;
-        return;
+        url.searchParams.set("action", "TEMPLATE");
+        url.searchParams.set("text", "Asesoría con Sotomayor Consulting");
+        url.searchParams.set(
+          "details",
+          "Reunión de asesoría con Sotomayor Consulting International."
+        );
+        url.searchParams.set(
+          "dates",
+          toGoogleDate(startDate) + "/" + toGoogleDate(endDate)
+        );
+        url.searchParams.set("ctz", agenda.timezone);
+
+        elements.calendar.href = url.toString();
+        elements.calendar.hidden = false;
       }
 
-      const parsedDuration = Number.parseInt(booking.duration, 10);
-      const durationMinutes = Number.isFinite(parsedDuration) && parsedDuration > 0
-        ? parsedDuration
-        : 60;
-      const endDate = new Date(startDate.getTime() + durationMinutes * 60 * 1000);
-      const calendarUrl = new URL("https://calendar.google.com/calendar/render");
+      function setState(state, requestId, reason) {
+        root.classList.remove(
+          "is-validating",
+          "is-approved",
+          "is-rejected",
+          "is-error",
+          "is-missing"
+        );
+        root.classList.add("is-" + state);
+        root.setAttribute("aria-busy", state === "validating" ? "true" : "false");
 
-      calendarUrl.searchParams.set("action", "TEMPLATE");
-      calendarUrl.searchParams.set("text", "Asesoría con Sotomayor Consulting");
-      calendarUrl.searchParams.set(
-        "details",
-        "Reunión de asesoría agendada con Sotomayor Consulting International."
-      );
-      calendarUrl.searchParams.set(
-        "dates",
-        toGoogleDate(startDate) + "/" + toGoogleDate(endDate)
-      );
-      calendarUrl.searchParams.set("ctz", booking.timezone);
+        var showExistingAgenda = Boolean(
+          state === "rejected" &&
+          reason === "existing_booking" &&
+          elements.existingAgenda.dataset.ready === "true"
+        );
 
-      elements.calendarButton.href = calendarUrl.toString();
-      elements.calendarButton.hidden = false;
-    }
+        elements.loader.hidden = state !== "validating";
+        elements.existingAgenda.hidden = !showExistingAgenda;
+        elements.agenda.hidden = state !== "approved";
+        elements.next.hidden = state !== "approved";
+        elements.approvedActions.hidden = state !== "approved";
+        elements.supportActions.hidden = !(
+          state === "rejected" ||
+          state === "error" ||
+          state === "missing"
+        );
+        elements.retry.hidden = state !== "error";
 
-    function configureWhatsappButton(requestId) {
-      if (!elements.whatsappButton) return;
+        if (elements.reference) {
+          elements.reference.hidden = !requestId;
+          elements.reference.textContent = requestId
+            ? "Referencia de validación: " + requestId
+            : "";
+        }
 
-      const reference = requestId ? " Referencia: " + requestId + "." : "";
-      const message = "Hola, necesito ayuda con la validación de mi asesoría." + reference;
+        if (state === "approved") {
+          setCopy(
+            "Agenda confirmada",
+            "Tu asesoría fue agendada correctamente",
+            "La validación fue aprobada. Revisa los datos devueltos por nuestro sistema y guarda el horario en tu calendario.",
+            "Si necesitas modificar el horario, responde al correo de confirmación o contacta al equipo de Sotomayor Consulting."
+          );
+          return;
+        }
 
-      elements.whatsappButton.href =
-        "https://wa.me/" + CONFIG.whatsappNumber + "?text=" + encodeURIComponent(message);
-    }
+        if (state === "rejected") {
+          if (reason === "existing_booking") {
+            setCopy(
+              "Ya tienes una agenda activa",
+              "Encontramos una reunión ya agendada",
+              "Ya existe una asesoría activa asociada a tus datos. Para evitar agendas duplicadas, no mantendremos esta nueva solicitud.",
+              showExistingAgenda
+                ? "Revisa la fecha de tu reunión activa. Si necesitas ayuda para modificarla, contáctanos por WhatsApp."
+                : "Si necesitas revisar o modificar tu reunión activa, contáctanos por WhatsApp."
+            );
+            return;
+          }
 
-    function setValidationState(state) {
-      root.classList.remove(
-        "is-validating",
-        "is-approved",
-        "is-rejected",
-        "is-validation-error"
-      );
-      root.setAttribute("aria-busy", state === "validating" ? "true" : "false");
+          if (reason === "restricted_history") {
+            setCopy(
+              "Nueva agenda no habilitada",
+              "No podemos habilitar una nueva reunión",
+              "Encontramos registros anteriores asociados a estos datos. De acuerdo con nuestras políticas de atención, nos reservamos el derecho de evitar o cerrar nuevas agendas. Si deseas mayor información, puedes comunicarte con nuestro equipo por WhatsApp.",
+              "Nuestro equipo podrá orientarte sobre el estado de tu solicitud."
+            );
+            return;
+          }
 
-      elements.validationContent.forEach(function (element) {
-        element.hidden = state !== "approved";
-      });
+          if (reason === "unsuitable_preparation") {
+            setCopy(
+              "Solicitud descartada",
+              "No podemos continuar con esta solicitud",
+              "La información ingresada en el campo de preparación no permite organizar una reunión seria y útil, o contiene contenido incoherente, inapropiado o amenazante. Por este motivo, la solicitud fue descartada.",
+              "Para recibir orientación adicional, puedes comunicarte con nuestro equipo por WhatsApp."
+            );
+            return;
+          }
 
-      if (elements.validationLoader) {
-        elements.validationLoader.hidden = state !== "validating";
-      }
-      if (elements.retryButton) {
-        elements.retryButton.hidden = state !== "error";
-      }
-      if (elements.supportActions) {
-        elements.supportActions.hidden = state !== "rejected" && state !== "error";
-      }
+          if (reason === "manual_review") {
+            setCopy(
+              "Revisión requerida",
+              "Necesitamos revisar tus datos",
+              "No pudimos identificar de forma única el registro asociado al teléfono y al correo proporcionados. Nuestro equipo puede revisar el caso de manera personalizada.",
+              "Contáctanos por WhatsApp para continuar con la revisión."
+            );
+            return;
+          }
 
-      if (state === "approved") {
-        root.classList.add("is-approved");
+          if (reason === "invalid_data") {
+            setCopy(
+              "Datos incompletos",
+              "No pudimos validar la información de la reserva",
+              "Los datos recibidos desde la agenda están incompletos o no tienen un formato válido. No mantendremos esta solicitud como una reunión confirmada.",
+              "Puedes solicitar ayuda por WhatsApp para revisar tus datos."
+            );
+            return;
+          }
+
+          setCopy(
+            "Agenda no habilitada",
+            "No podemos mantener esta nueva reunión",
+            "La solicitud no cumplió las reglas de agendamiento aplicables a este registro. Nuestro equipo puede brindarte mayor información por WhatsApp.",
+            "Usa el botón de WhatsApp para solicitar atención del equipo."
+          );
+          return;
+        }
+
+        if (state === "missing") {
+          setCopy(
+            "Datos de reserva no encontrados",
+            "No encontramos los datos de la agenda",
+            "Esta página debe abrirse desde la confirmación de Zcal. El enlace actual no contiene los datos necesarios para consultar la reserva.",
+            "Vuelve al correo o a la confirmación de Zcal, o solicita ayuda por WhatsApp."
+          );
+          return;
+        }
+
+        if (state === "error") {
+          setCopy(
+            "Validación pendiente",
+            "No pudimos leer la respuesta del sistema",
+            "La consulta se realizó, pero no fue posible interpretar una respuesta válida. Intenta nuevamente o solicita ayuda por WhatsApp.",
+            "La agenda no se mostrará como confirmada hasta recibir una aprobación válida."
+          );
+          return;
+        }
+
         setCopy(
-          "Agenda confirmada",
-          "Tu asesoría fue agendada correctamente",
-          "Validamos la información de tu reunión. Revisa el resumen y guarda el horario en tu calendario.",
-          "Si necesitas modificar el horario, responde al correo de confirmación o contacta al equipo de Sotomayor Consulting."
+          "Validando agenda",
+          "Estamos validando tu asesoría",
+          "Estamos consultando la reserva y aplicando las reglas de agendamiento.",
+          "Espera el resultado de la validación antes de cerrar esta ventana."
         );
-        return;
       }
 
-      if (state === "rejected") {
-        root.classList.add("is-rejected");
-        setCopy(
-          "Agenda no confirmada",
-          "No pudimos confirmar esta reunión",
-          "En este momento no podemos mantener activa una nueva reunión asociada a este registro. Nuestro equipo puede revisar tu caso y orientarte personalmente.",
-          "Usa el botón de WhatsApp para solicitar atención del equipo."
+      function setCopy(navbar, title, message, footnote) {
+        elements.navbarStatus.textContent = navbar;
+        elements.title.textContent = title;
+        elements.message.textContent = message;
+        elements.footnote.textContent = footnote;
+      }
+
+      function configureWhatsapp(requestId, reason) {
+        var reference = requestId
+          ? " Referencia de validación: " + requestId + "."
+          : "";
+        var context = "";
+
+        if (reason === "existing_booking") {
+          context = " Necesito revisar una agenda activa encontrada.";
+        } else if (reason === "restricted_history") {
+          context = " Necesito información sobre la restricción de una nueva agenda.";
+        } else if (reason === "unsuitable_preparation") {
+          context = " Necesito orientación sobre una solicitud de agenda descartada.";
+        } else if (reason === "manual_review") {
+          context = " Necesito revisar la coincidencia de mis datos.";
+        }
+
+        var message =
+          "Hola, necesito ayuda con la validación de mi asesoría." +
+          context +
+          reference;
+
+        elements.whatsapp.href =
+          "https://wa.me/" +
+          CONFIG.whatsappNumber +
+          "?text=" +
+          encodeURIComponent(message);
+      }
+
+      function startWaitMessages() {
+        waitStartedAt = Date.now();
+        updateWaitMessage();
+        window.clearInterval(waitTimer);
+        waitTimer = window.setInterval(updateWaitMessage, 1000);
+      }
+
+      function stopWaitMessages() {
+        window.clearInterval(waitTimer);
+        waitTimer = null;
+      }
+
+      function updateWaitMessage() {
+        var seconds = Math.max(
+          0,
+          Math.floor((Date.now() - waitStartedAt) / 1000)
         );
-        return;
-      }
 
-      if (state === "error") {
-        root.classList.add("is-validation-error");
-        setCopy(
-          "Validación pendiente",
-          "No pudimos verificar tu asesoría",
-          "Se produjo un problema de conexión antes de recibir la respuesta final. Puedes intentar nuevamente o solicitar ayuda por WhatsApp.",
-          "La reunión no se mostrará como confirmada hasta completar la validación."
+        if (seconds < 5) {
+          setLoaderCopy(
+            "Conectando con el sistema de validación",
+            "No cierres esta ventana mientras revisamos la agenda."
+          );
+          return;
+        }
+
+        if (seconds < 12) {
+          setLoaderCopy(
+            "Consultando el lead en nuestro sistema",
+            "Estamos contrastando el teléfono y el correo registrados."
+          );
+          return;
+        }
+
+        if (seconds < 25) {
+          setLoaderCopy(
+            "Aplicando las reglas de agendamiento",
+            "La consulta permanece activa hasta recibir el resultado final."
+          );
+          return;
+        }
+
+        setLoaderCopy(
+          "La validación continúa en curso",
+          "El sistema está tardando más de lo habitual, pero seguimos esperando la respuesta."
         );
-        return;
       }
 
-      root.classList.add("is-validating");
-      setCopy(
-        "Validando agenda",
-        "Estamos validando tu asesoría",
-        "Estamos contrastando los datos de la reserva. Este proceso puede tardar unos segundos.",
-        "Espera el resultado de la validación antes de cerrar esta ventana."
-      );
-    }
-
-    function setCopy(navbar, title, message, note) {
-      if (elements.navbarStatus) elements.navbarStatus.textContent = navbar;
-      if (elements.title) elements.title.textContent = title;
-      if (elements.statusMessage) elements.statusMessage.textContent = message;
-      if (elements.footnote) elements.footnote.textContent = note;
-    }
-
-    function startWaitingVisual() {
-      waitingStartedAt = Date.now();
-      updateWaitingVisual();
-      window.clearInterval(waitingIntervalId);
-      waitingIntervalId = window.setInterval(updateWaitingVisual, 1000);
-    }
-
-    function stopWaitingVisual() {
-      window.clearInterval(waitingIntervalId);
-      waitingIntervalId = null;
-    }
-
-    function updateWaitingVisual() {
-      const elapsed = Math.max(0, Math.floor((Date.now() - waitingStartedAt) / 1000));
-
-      if (elapsed < 6) {
-        setWaitingCopy(
-          "Conectando con el sistema de validación",
-          "No cierres esta ventana mientras revisamos tu agenda."
-        );
-        return;
+      function setLoaderCopy(stage, detail) {
+        elements.loaderStage.textContent = stage;
+        elements.loaderDetail.textContent = detail;
       }
 
-      if (elapsed < 15) {
-        setWaitingCopy(
-          "Consultando la información registrada",
-          "Estamos revisando la reserva y los datos disponibles en nuestro sistema."
-        );
-        return;
+      function pushApprovedEvent(requestId, agenda) {
+        var storageKey = "sci_schedule_approved_" + requestId;
+        if (hasFlag(storageKey)) return;
+
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: "schedule_confirmed",
+          event_source: "sci_schedule_confirmed_page",
+          event_id: "sci_schedule_" + requestId,
+          validation_request_id: requestId,
+          content_type: "service",
+          content_name: "Asesoría Sotomayor Consulting",
+          content_category: "schedule_confirmed",
+          currency: "USD",
+          value: 0,
+          meeting_duration: agenda.duration || "60",
+          meeting_timezone: agenda.timezone,
+          meeting_start_date: agenda.start_date,
+          page_path: window.location.pathname,
+          page_location_clean: window.location.origin + window.location.pathname
+        });
+
+        setFlag(storageKey);
       }
 
-      if (elapsed < 30) {
-        setWaitingCopy(
-          "Aplicando las reglas de agendamiento",
-          "La consulta sigue activa. Esperaremos la respuesta final antes de mostrar un resultado."
-        );
-        return;
+      function pushRejectedEvent(requestId, reason) {
+        var key = "sci_schedule_rejected_" + (requestId || "without_id");
+        if (hasFlag(key)) return;
+
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: "schedule_validation_rejected",
+          event_source: "sci_schedule_confirmed_page",
+          validation_request_id: requestId || "",
+          rejection_reason: reason || "unspecified",
+          page_path: window.location.pathname,
+          page_location_clean: window.location.origin + window.location.pathname
+        });
+
+        setFlag(key);
       }
 
-      setWaitingCopy(
-        "La validación sigue en curso",
-        "El sistema está tardando más de lo habitual, pero la consulta continúa activa."
-      );
-    }
-
-    function setWaitingCopy(stage, detail) {
-      if (elements.validationStage) elements.validationStage.textContent = stage;
-      if (elements.validationTime) elements.validationTime.textContent = detail;
-    }
-
-    function pushScheduleConfirmed(requestId) {
-      const eventId = "sci_schedule_" + requestId;
-      const storageKey = "sci_schedule_confirmed_" + requestId;
-
-      if (hasSessionFlag(storageKey)) return;
-
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        event: "schedule_confirmed",
-        event_source: "sci_schedule_confirmed_page",
-        event_id: eventId,
-        validation_request_id: requestId,
-        content_type: "service",
-        content_name: "Asesoría Sotomayor Consulting",
-        content_category: "schedule_confirmed",
-        currency: "USD",
-        value: 0,
-        meeting_duration: booking.duration || "60",
-        meeting_timezone: booking.timezone,
-        meeting_start_date: booking.startDate,
-        page_path: window.location.pathname,
-        page_location_clean: window.location.origin + window.location.pathname
-      });
-
-      setSessionFlag(storageKey);
-    }
-
-    function pushValidationRejected(requestId) {
-      const storageKey = "sci_schedule_rejected_" + (requestId || "without_id");
-      if (hasSessionFlag(storageKey)) return;
-
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({
-        event: "schedule_validation_rejected",
-        event_source: "sci_schedule_confirmed_page",
-        validation_request_id: requestId || "",
-        page_path: window.location.pathname,
-        page_location_clean: window.location.origin + window.location.pathname
-      });
-
-      setSessionFlag(storageKey);
-    }
-
-    function hasSessionFlag(key) {
-      try {
-        return Boolean(window.sessionStorage && window.sessionStorage.getItem(key) === "true");
-      } catch (error) {
-        return false;
+      function readParam(key) {
+        var value = params.get(key);
+        return value == null ? "" : normalizeText(value);
       }
-    }
 
-    function setSessionFlag(key) {
-      try {
-        if (window.sessionStorage) window.sessionStorage.setItem(key, "true");
-      } catch (error) {}
-    }
-
-    function readParam(key) {
-      const value = params.get(key);
-      return value == null ? "" : String(value).replace(/\u00A0/g, " ").trim();
-    }
-
-    function normalizeEmail(value) {
-      return String(value || "").trim().toLowerCase();
-    }
-
-    function getSafeTimezone(value) {
-      const candidate = String(value || "").trim() || CONFIG.defaultTimezone;
-
-      try {
-        new Intl.DateTimeFormat("es-EC", { timeZone: candidate }).format(new Date());
-        return candidate;
-      } catch (error) {
-        return CONFIG.defaultTimezone;
+      function normalizeText(value) {
+        return String(value == null ? "" : value)
+          .replace(/\u00a0/g, " ")
+          .replace(/\s+/g, " ")
+          .trim();
       }
-    }
 
-    function parseDate(value) {
-      if (!value) return null;
-      const date = new Date(value);
-      return Number.isNaN(date.getTime()) ? null : date;
-    }
+      function normalizeEmail(value) {
+        return normalizeText(value).toLowerCase();
+      }
 
-    function setText(selector, value, fallback) {
-      const element = root.querySelector(selector);
-      if (!element) return;
-      element.textContent = value || fallback;
-    }
+      function normalizeStatus(value) {
+        return normalizeText(value).toLowerCase();
+      }
 
-    function toGoogleDate(date) {
-      return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
-    }
+      function digitsOnly(value) {
+        return normalizeText(value).replace(/\D/g, "");
+      }
 
-    function capitalize(value) {
-      return value ? value.charAt(0).toUpperCase() + value.slice(1) : value;
-    }
-  })();
-</script>
+      function formatPhone(value) {
+        var normalized = normalizeText(value);
+        if (!normalized) return "";
+        if (normalized.charAt(0) === "+") return normalized;
+
+        var digits = digitsOnly(normalized);
+        return digits.length >= 8 ? "+" + digits : normalized;
+      }
+
+      function safeTimezone(value) {
+        var candidate = normalizeText(value) || CONFIG.defaultTimezone;
+
+        try {
+          new Intl.DateTimeFormat("es-EC", {
+            timeZone: candidate
+          }).format(new Date());
+          return candidate;
+        } catch (error) {
+          return CONFIG.defaultTimezone;
+        }
+      }
+
+      function parseDate(value) {
+        var text = normalizeText(value);
+        if (!text) return null;
+
+        var date = new Date(text);
+        return Number.isNaN(date.getTime()) ? null : date;
+      }
+
+      function setText(id, value, fallback) {
+        var element = document.getElementById(id);
+        if (element) element.textContent = normalizeText(value) || fallback;
+      }
+
+      function toGoogleDate(date) {
+        return date.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+      }
+
+      function capitalize(value) {
+        return value
+          ? value.charAt(0).toUpperCase() + value.slice(1)
+          : value;
+      }
+
+      function decodeHtmlEntities(value) {
+        var textarea = document.createElement("textarea");
+        textarea.innerHTML = value;
+        return textarea.value;
+      }
+
+      function isObject(value) {
+        return Boolean(value && typeof value === "object" && !Array.isArray(value));
+      }
+
+      function safeStringify(value) {
+        try {
+          return JSON.stringify(value);
+        } catch (error) {
+          return String(value);
+        }
+      }
+
+      function hasFlag(key) {
+        try {
+          return window.sessionStorage.getItem(key) === "true";
+        } catch (error) {
+          return false;
+        }
+      }
+
+      function setFlag(key) {
+        try {
+          window.sessionStorage.setItem(key, "true");
+        } catch (error) {}
+      }
+    })();
+  </script>
+</body>
+</html>
