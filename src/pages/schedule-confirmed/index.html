@@ -1015,8 +1015,8 @@
         duration: readParam("duration"),
         start_date: readParam("startDate"),
         billing_range: readParam("a[1]") || readParam("billing") || readParam("facturacion"),
-        meeting_topic: readParam("a[2]") || readParam("topic") || readParam("detail") || readParam("a[1]"),
-        preparation_answer: readParam("a[2]") || readParam("topic") || readParam("detail") || readParam("a[1]")
+        meeting_topic: readParam("a[2]") || readParam("topic") || readParam("detail"),
+        preparation_answer: readParam("a[2]") || readParam("topic") || readParam("detail")
       });
 
       var requestRunning = false;
@@ -1326,7 +1326,7 @@
         setText("sci-email", agenda.email, "No informado");
         setText("sci-phone", formatPhone(agenda.phone), "No informado");
         setText("sci-timezone", agenda.timezone, "No informada");
-        setText("sci-detail", agenda.preparation_answer, "No informado");
+        setText("sci-detail", agenda.meeting_topic, "No informado");
         setText(
           "sci-duration",
           agenda.duration ? agenda.duration + " minutos" : "",
