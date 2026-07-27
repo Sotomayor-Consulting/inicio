@@ -3,8 +3,8 @@ media:
   output: "@/images"
 
 content:
-  - name: astro-content
-    label: Astro Content
+  - name: contenido-estructurado
+    label: Contenido estructurado
     type: group
     items:
       - name: insights
@@ -35,7 +35,6 @@ content:
             label: Imagen card
             type: image
             required: true
-            description: Sube o selecciona una imagen. Se guardara en "@/images/insights/[imagen]".
             options:
               path: insights
               extensions: [avif, webp, png, jpg, jpeg]
@@ -53,152 +52,602 @@ content:
               format: markdown
               media: false
 
-      - name: servicios-profesionales
-        label: Servicios Profesionales
+      - name: servicios-contenido
+        label: Servicios por categoria
+        type: group
+        items:
+          - name: servicios-empresariales
+            label: Servicios Empresariales
+            type: collection
+            path: src/content/servicios-empresariales
+            format: yaml-frontmatter
+            subfolders: true
+            operations:
+              create: true
+              delete: false
+              rename: false
+            view:
+              layout: tree
+              primary: title
+              fields: [title, description, longDescription.title]
+              search: [title, description, main.content, longDescription.title]
+            fields: &servicio_fields
+              - name: title
+                label: Titulo
+                type: string
+                required: true
+              - name: description
+                label: Descripcion corta
+                type: text
+                required: true
+              - name: main
+                label: Seccion principal
+                type: object
+                required: true
+                fields:
+                  - name: id
+                    label: Orden
+                    type: number
+                    required: true
+                  - name: content
+                    label: Contenido principal
+                    type: text
+                    required: true
+                  - name: imgCard
+                    label: Imagen card
+                    type: string
+                    required: true
+                  - name: imgMain
+                    label: Imagen principal
+                    type: string
+                    required: true
+                  - name: imgAlt
+                    label: Alt de imagen
+                    type: string
+                    required: true
+              - name: tabs
+                label: Tabs
+                type: object
+                list: true
+                fields:
+                  - name: id
+                    label: ID
+                    type: string
+                    required: true
+                  - name: dataTab
+                    label: Data tab
+                    type: string
+                    required: true
+                  - name: title
+                    label: Titulo
+                    type: string
+                    required: true
+              - name: longDescription
+                label: Descripcion larga
+                type: object
+                required: true
+                fields:
+                  - name: title
+                    label: Titulo
+                    type: string
+                    required: true
+                  - name: subTitle
+                    label: Subtitulo
+                    type: text
+                    required: true
+                  - name: btnTitle
+                    label: Texto boton
+                    type: string
+                    required: true
+                  - name: btnURL
+                    label: URL boton
+                    type: string
+                    required: true
+              - name: descriptionList
+                label: Lista descriptiva
+                type: object
+                list: true
+                fields:
+                  - name: title
+                    label: Titulo
+                    type: string
+                    required: true
+                  - name: subTitle
+                    label: Subtitulo
+                    type: text
+                    required: true
+              - name: specificationsLeft
+                label: Especificaciones izquierda
+                type: object
+                list: true
+                fields:
+                  - name: title
+                    label: Titulo
+                    type: string
+                    required: true
+                  - name: subTitle
+                    label: Subtitulo
+                    type: text
+                    required: true
+              - name: specificationsRight
+                label: Especificaciones derecha
+                type: object
+                list: true
+                fields:
+                  - name: title
+                    label: Titulo
+                    type: string
+                    required: true
+                  - name: subTitle
+                    label: Subtitulo
+                    type: text
+                    required: true
+              - name: blueprints
+                label: Iconos
+                type: object
+                required: true
+                fields:
+                  - name: first
+                    label: Icono 1
+                    type: string
+                  - name: second
+                    label: Icono 2
+                    type: string
+
+          - name: servicios-familiares-individuos
+            label: Servicios Familiares e Individuos
+            type: collection
+            path: src/content/servicios-familiares-individuos
+            format: yaml-frontmatter
+            subfolders: true
+            operations:
+              create: true
+              delete: false
+              rename: false
+            view:
+              layout: tree
+              primary: title
+              fields: [title, description, longDescription.title]
+              search: [title, description, main.content, longDescription.title]
+            fields: *servicio_fields
+
+          - name: servicios-profesionales
+            label: Servicios Profesionales
+            type: collection
+            path: src/content/servicios-profesionales
+            format: yaml-frontmatter
+            subfolders: true
+            operations:
+              create: true
+              delete: false
+              rename: false
+            view:
+              layout: tree
+              primary: title
+              fields: [title, description, longDescription.title]
+              search: [title, description, main.content, longDescription.title]
+            fields: *servicio_fields
+
+      - name: home-json
+        label: Home y bloques reutilizables
+        type: group
+        items:
+          - name: home-faq-es
+            label: FAQ ES
+            type: file
+            path: src/data_files/faqs.json
+            format: json
+            fields: &faq_fields
+              - name: subTitle
+                label: Subtitulo
+                type: text
+                required: true
+              - name: faqs
+                label: Preguntas
+                type: object
+                list: true
+                fields:
+                  - name: question
+                    label: Pregunta
+                    type: string
+                    required: true
+                  - name: answer
+                    label: Respuesta
+                    type: text
+                    required: true
+          - name: home-faq-en
+            label: FAQ EN
+            type: file
+            path: src/data_files/en/faqs.json
+            format: json
+            fields: *faq_fields
+          - name: home-faq-pr
+            label: FAQ PR
+            type: file
+            path: src/data_files/pr/faqs.json
+            format: json
+            fields: *faq_fields
+
+          - name: home-features-es
+            label: Features home ES
+            type: file
+            path: src/data_files/features.json
+            format: json
+            list: true
+            fields: &feature_list_fields
+              - name: heading
+                label: Titulo
+                type: string
+                required: true
+              - name: content
+                label: Contenido
+                type: text
+                required: true
+              - name: svg
+                label: Icono
+                type: string
+                required: true
+          - name: home-features-en
+            label: Features home EN
+            type: file
+            path: src/data_files/en/features.json
+            format: json
+            list: true
+            fields: *feature_list_fields
+          - name: home-features-pr
+            label: Features home PR
+            type: file
+            path: src/data_files/pr/features.json
+            format: json
+            list: true
+            fields: *feature_list_fields
+
+          - name: about-features-es
+            label: Features about ES
+            type: file
+            path: src/data_files/feature-about.json
+            format: json
+            list: true
+            fields: *feature_list_fields
+          - name: about-features-en
+            label: Features about EN
+            type: file
+            path: src/data_files/en/feature-about.json
+            format: json
+            list: true
+            fields: *feature_list_fields
+          - name: about-features-pr
+            label: Features about PR
+            type: file
+            path: src/data_files/pr/feature-about.json
+            format: json
+            list: true
+            fields: *feature_list_fields
+
+          - name: pricing-es
+            label: Pricing ES
+            type: file
+            path: src/data_files/pricing.json
+            format: json
+            fields: &pricing_fields
+              - name: title
+                label: Titulo
+                type: string
+                required: true
+              - name: subTitle
+                label: Subtitulo
+                type: text
+                required: true
+              - name: badge
+                label: Badge destacado
+                type: string
+              - name: thirdOption
+                label: Tercera opcion
+                type: string
+              - name: btnText
+                label: Texto CTA secundario
+                type: string
+              - name: linkServicios
+                label: Link CTA secundario
+                type: string
+              - name: starterKit
+                label: Plan basico
+                type: object
+                fields: &plan_fields
+                  - name: name
+                    label: Nombre
+                    type: string
+                  - name: description
+                    label: Descripcion
+                    type: text
+                  - name: price
+                    label: Precio
+                    type: string
+                  - name: cents
+                    label: Decimales
+                    type: string
+                  - name: billingFrequency
+                    label: Moneda / frecuencia
+                    type: string
+                  - name: features
+                    label: Beneficios
+                    type: string
+                    list: true
+                  - name: purchaseBtnTitle
+                    label: Texto boton
+                    type: string
+                  - name: purchaseLink
+                    label: Link boton
+                    type: string
+              - name: professionalToolbox
+                label: Plan business
+                type: object
+                fields:
+                  - name: name
+                    label: Nombre
+                    type: string
+                  - name: description
+                    label: Descripcion
+                    type: text
+                  - name: price
+                    label: Precio
+                    type: string
+                  - name: cents
+                    label: Decimales
+                    type: string
+                  - name: billingFrequency
+                    label: Moneda / frecuencia
+                    type: string
+                  - name: features
+                    label: Introduccion beneficios
+                    type: string
+                    list: true
+                  - name: purchaseBtnTitle
+                    label: Texto boton
+                    type: string
+                  - name: purchaseLink
+                    label: Link boton
+                    type: string
+                  - name: bussines
+                    label: Beneficios business
+                    type: string
+                    list: true
+              - name: planestandar
+                label: Plan estandar
+                type: object
+                fields:
+                  - name: name
+                    label: Nombre
+                    type: string
+                  - name: description
+                    label: Descripcion
+                    type: text
+                  - name: label
+                    label: Texto puente
+                    type: string
+                  - name: price
+                    label: Precio
+                    type: string
+                  - name: cents
+                    label: Decimales
+                    type: string
+                  - name: billingFrequency
+                    label: Moneda / frecuencia
+                    type: string
+                  - name: features
+                    label: Beneficios
+                    type: string
+                    list: true
+                  - name: purchaseBtnTitle
+                    label: Texto boton
+                    type: string
+                  - name: purchaseLink
+                    label: Link boton
+                    type: string
+              - name: planUpgrade
+                label: Plan upgrade
+                type: object
+                fields:
+                  - name: title
+                    label: Nombre
+                    type: string
+                  - name: description
+                    label: Descripcion
+                    type: text
+                  - name: price
+                    label: Precio
+                    type: string
+                  - name: cents
+                    label: Decimales
+                    type: string
+                  - name: billing
+                    label: Moneda / frecuencia
+                    type: string
+                  - name: lista
+                    label: Beneficios
+                    type: string
+                    list: true
+                  - name: button
+                    label: Texto boton
+                    type: string
+                  - name: link
+                    label: Link boton
+                    type: string
+          - name: pricing-en
+            label: Pricing EN
+            type: file
+            path: src/data_files/en/pricing.json
+            format: json
+            fields: *pricing_fields
+          - name: pricing-pr
+            label: Pricing PR
+            type: file
+            path: src/data_files/pr/pricing.json
+            format: json
+            fields: *pricing_fields
+
+          - name: paises-grid
+            label: Paises y banderas
+            type: file
+            path: src/data_files/generales.json
+            format: json
+            fields:
+              - name: banderas
+                label: Paises
+                type: object
+                list: true
+                fields:
+                  - name: pais
+                    label: Pais
+                    type: string
+                    required: true
+                  - name: svg
+                    label: Icono
+                    type: string
+                    required: true
+
+  - name: contenido-codigo
+    label: Contenido en codigo
+    type: group
+    items:
+      - name: paginas-es
+        label: Paginas Astro ES
         type: collection
-        path: src/content/servicios-profesionales
-        format: yaml-frontmatter
+        path: src/pages
+        format: code
         subfolders: true
+        exclude:
+          - en/**
+          - pr/**
+          - "[lang]/**"
+          - blog/**
+          - insights/**
+          - servicios/**
+          - servicios-empresariales/**
+          - servicios-familiares-individuos/**
+          - servicios-profesionales/**
+          - guia-llc-estados-unidos/**
+          - asesoria-migratoria/**
+          - crea-tu-llc-en-usa/gracias-por-tu-registro/**
+          - diagnostico-llc/**
+          - leads-landing/asesoria-llc-usa-diagnostico-agenda/**
+          - precalificacion-credito/**
+          - reserva-pendiente/**
+          - schedule-confirmed/**
+          - test/**
+          - wizard-llc-cripto/**
         operations:
-          create: true
+          create: false
           delete: false
           rename: false
         view:
           layout: tree
-          primary: title
-          fields: [title, description, longDescription.title]
-          search: [title, description, main.content, longDescription.title]
-        fields:
-          - name: title
-            label: Titulo
-            type: string
-            required: true
-          - name: description
-            label: Descripcion corta
-            type: text
-            required: true
-          - name: main
-            label: Seccion principal
-            type: object
-            required: true
-            fields:
-              - name: id
-                label: ID
-                type: number
-                required: true
-              - name: content
-                label: Contenido principal
-                type: text
-                required: true
-              - name: imgCard
-                label: Ruta imagen card
-                type: string
-                required: true
-              - name: imgMain
-                label: Ruta imagen principal
-                type: string
-                required: true
-              - name: imgAlt
-                label: Alt de imagen
-                type: string
-                required: true
-          - name: tabs
-            label: Tabs
-            type: object
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{title}"
-            fields:
-              - name: id
-                label: ID
-                type: string
-                required: true
-              - name: dataTab
-                label: Data tab
-                type: string
-                required: true
-              - name: title
-                label: Titulo
-                type: string
-                required: true
-          - name: longDescription
-            label: Descripcion larga
-            type: object
-            required: true
-            fields:
-              - name: title
-                label: Titulo
-                type: string
-                required: true
-              - name: subTitle
-                label: Subtitulo
-                type: text
-                required: true
-              - name: btnTitle
-                label: Texto boton
-                type: string
-                required: true
-              - name: btnURL
-                label: URL boton
-                type: string
-                required: true
-          - name: descriptionList
-            label: Lista descriptiva
-            type: object
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{title}"
-            fields:
-              - name: title
-                label: Titulo
-                type: string
-                required: true
-              - name: subTitle
-                label: Subtitulo
-                type: text
-                required: true
-          - name: specificationsLeft
-            label: Especificaciones izquierda
-            type: object
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{title}"
-            fields:
-              - name: title
-                label: Titulo
-                type: string
-                required: true
-              - name: subTitle
-                label: Subtitulo
-                type: text
-                required: true
-          - name: specificationsRight
-            label: Especificaciones derecha
-            type: object
-            list:
-              collapsible:
-                collapsed: true
-                summary: "{title}"
-            fields:
-              - name: title
-                label: Titulo
-                type: string
-                required: true
-              - name: subTitle
-                label: Subtitulo
-                type: text
-                required: true
-          - name: blueprints
-            label: Iconos
-            type: object
-            required: true
-            fields:
-              - name: first
-                label: Ruta icono 1
-                type: string
-              - name: second
-                label: Ruta icono 2
-                type: string
+
+      - name: paginas-en
+        label: Paginas Astro EN
+        type: collection
+        path: src/pages/en
+        format: code
+        subfolders: true
+        exclude:
+          - blog/**
+          - insights/**
+          - servicios/**
+        operations:
+          create: false
+          delete: false
+          rename: false
+        view:
+          layout: tree
+
+      - name: paginas-pr
+        label: Paginas Astro PR
+        type: collection
+        path: src/pages/pr
+        format: code
+        subfolders: true
+        exclude:
+          - blog/**
+          - insights/**
+          - servicios/**
+        operations:
+          create: false
+          delete: false
+          rename: false
+        view:
+          layout: tree
+
+      - name: formularios-y-timeline
+        label: Formularios y timeline
+        type: group
+        items:
+          - name: timeline-start
+            label: Timeline start
+            type: file
+            path: src/components/ui/timeline/timeline.astro
+            format: code
+          - name: formulario-visa
+            label: Formulario visa
+            type: file
+            path: src/components/ui/forms/formularioVisa.astro
+            format: code
+          - name: formulario-bienes
+            label: Formulario bienes raices
+            type: file
+            path: src/components/ui/forms/formularioBienes.astro
+            format: code
+
+      - name: datos-ts
+        label: Datos y traducciones TS
+        type: group
+        items:
+          - name: contact-data-es
+            label: Contacto ES
+            type: file
+            path: src/data_files/dataContact.ts
+            format: code
+          - name: contact-data-en
+            label: Contacto EN
+            type: file
+            path: src/data_files/en/dataContact.ts
+            format: code
+          - name: contact-data-pr
+            label: Contacto PR
+            type: file
+            path: src/data_files/pr/dataContact.ts
+            format: code
+          - name: servicios-legacy-es
+            label: Servicios legacy ES
+            type: file
+            path: src/data_files/data-de-servicios.ts
+            format: code
+          - name: servicios-legacy-en
+            label: Servicios legacy EN
+            type: file
+            path: src/data_files/en/data-de-servicios.ts
+            format: code
+          - name: servicios-legacy-pr
+            label: Servicios legacy PR
+            type: file
+            path: src/data_files/pr/data-de-servicios.ts
+            format: code
+          - name: traducciones-servicios-es
+            label: Traducciones servicios ES
+            type: file
+            path: src/utils/es/TraduccionesServicios.ts
+            format: code
+          - name: traducciones-servicios-en
+            label: Traducciones servicios EN
+            type: file
+            path: src/utils/en/TraduccionesServicios.ts
+            format: code
+          - name: traducciones-servicios-pr
+            label: Traducciones servicios PR
+            type: file
+            path: src/utils/pr/TraduccionesServicios.ts
+            format: code
+          - name: blog-pages-ui
+            label: Blog paginacion y textos
+            type: file
+            path: src/utils/blogPages.ts
+            format: code

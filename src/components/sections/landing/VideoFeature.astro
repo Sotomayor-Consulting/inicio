@@ -4,7 +4,8 @@
 // - GSAP scroll animation: starts tilted/scaled, normalizes on scroll (handled by animations.js)
 // - Click button → unmute video, hide overlay button
 // - Click again → mute, show overlay
-import Video from "@images/FeatureApp.webm"
+import Video from "@images/Dashboard_Informativo.webm"
+import Video_white from "@images/features_V2_White.webm"
 ---
 
 <div
@@ -15,14 +16,16 @@ import Video from "@images/FeatureApp.webm"
     id="videoPlayer"
     class="w-full aspect-video object-cover"
     autoplay
-    muted
     controls
+    muted
     loop
     width="1000px"
     playsinline
     preload="metadata"
+    data-video-dark={Video}
+    data-video-light={Video_white}
   >
-    <source src={Video} type="video/webm" />
+    <source src={Video_white} type="video/webm" />
     Your browser does not support the video tag.
   </video>
 
@@ -79,6 +82,40 @@ import Video from "@images/FeatureApp.webm"
       ) {
         return;
       }
+
+      const syncVideoSource = () => {
+        const nextSrc = document.documentElement.classList.contains("dark")
+          ? video.dataset.videoDark
+          : video.dataset.videoLight;
+
+        if (!nextSrc || video.dataset.activeSrc === nextSrc) {
+          return;
+        }
+
+        const shouldResume = !video.paused;
+        const currentTime = video.currentTime;
+
+        video.dataset.activeSrc = nextSrc;
+        video.src = nextSrc;
+        video.load();
+
+        video.addEventListener(
+          "loadedmetadata",
+          () => {
+            if (currentTime > 0 && Number.isFinite(video.duration)) {
+              video.currentTime = Math.min(currentTime, video.duration);
+            }
+
+            if (shouldResume) {
+              video.play().catch(() => {});
+            }
+          },
+          { once: true },
+        );
+      };
+
+      syncVideoSource();
+      window.addEventListener("on-hs-appearance-change", syncVideoSource);
 
       const syncSoundState = () => {
         if (video.muted) {
