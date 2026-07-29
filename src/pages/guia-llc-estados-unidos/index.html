@@ -100,42 +100,22 @@
     })(window, document, "ttq");
   </script>
 
-  <!-- Tailwind config -->
-  <script>
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            primary: "#0F172A",
-            background: "#F7F9FB",
-            surface: "#FFFFFF",
-            textMain: "#1E293B",
-            textMuted: "#64748B",
-            borderSoft: "#E2E8F0",
-            surfaceDim: "#D8DADC",
-            surfaceSubtle: "#F1F5F9"
-          },
-          fontFamily: {
-            sans: ["Inter", "system-ui", "sans-serif"]
-          },
-          maxWidth: {
-            page: "1180px"
-          },
-          boxShadow: {
-            subtle: "0 12px 34px rgba(15, 23, 42, 0.06)",
-            button: "0 10px 24px rgba(15, 23, 42, 0.16)"
-          },
-          borderRadius: {
-            "2xl": "1rem",
-            "3xl": "1.5rem"
-          }
-        }
-      }
-    };
-  </script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-primary: #0f172a;
+      --color-background: #f7f9fb;
+      --color-surface: #ffffff;
+      --color-textMain: #1e293b;
+      --color-textMuted: #64748b;
+      --color-borderSoft: #e2e8f0;
+      --color-surfaceDim: #d8dadc;
+      --color-surfaceSubtle: #f1f5f9;
+      --font-sans: "Inter", system-ui, sans-serif;
+      --shadow-subtle: 0 12px 34px rgba(15, 23, 42, 0.06);
+      --shadow-button: 0 10px 24px rgba(15, 23, 42, 0.16);
+      --max-width-page: 1180px;
+    }
 
-  <style>
     .material-symbols-outlined {
       font-variation-settings: "FILL" 0, "wght" 430, "GRAD" 0, "opsz" 24;
     }
@@ -190,7 +170,7 @@
             Guía para evaluar tu LLC
           </div>
 
-          <h1 class="max-w-3xl text-[34px] font-800 leading-[1.08] tracking-[-0.04em] text-primary sm:text-[44px] lg:text-[56px]">
+          <h1 class="max-w-3xl text-[34px] font-extrabold leading-[1.08] tracking-[-0.04em] text-primary sm:text-[44px] lg:text-[56px]">
             Antes de crear tu LLC, entiende qué decisiones pueden afectar tu operación en EE. UU.
           </h1>
 
@@ -203,7 +183,7 @@
               href="#guia"
               data-track-event="cta_hero_read_guide"
               data-track-label="Leer guía hero"
-              class="inline-flex items-center justify-center rounded-2xl bg-primary px-7 py-4 text-base font-800 text-white shadow-button transition hover:-translate-y-0.5 hover:bg-textMain"
+              class="inline-flex items-center justify-center rounded-2xl bg-primary px-7 py-4 text-base font-extrabold text-white shadow-button transition hover:-translate-y-0.5 hover:bg-textMain"
             >
               Leer la guía
               <span class="material-symbols-outlined ml-2 text-[20px]">arrow_forward</span>
@@ -222,7 +202,7 @@
 
         <aside class="rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:p-7" aria-label="Resumen de la guía">
           <p class="text-xs font-bold uppercase tracking-[0.16em] text-textMuted">Lo que vas a entender</p>
-          <h2 class="mt-3 text-2xl font-800 leading-tight tracking-[-0.02em] text-primary">
+          <h2 class="mt-3 text-2xl font-extrabold leading-tight tracking-[-0.02em] text-primary">
             El mapa completo antes de tomar una decisión.
           </h2>
 
@@ -266,7 +246,7 @@
       <div class="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
         <div>
           <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Punto de partida</p>
-          <h2 class="mt-3 text-[30px] font-800 leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
+          <h2 class="mt-3 text-[30px] font-extrabold leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
             Crear una LLC puede ser simple. Estructurarla correctamente no siempre lo es.
           </h2>
         </div>
@@ -287,7 +267,7 @@
       <div class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
         <div class="mx-auto max-w-3xl text-center">
           <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Mapa del proceso</p>
-          <h2 class="mt-3 text-[30px] font-800 leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
+          <h2 class="mt-3 text-[30px] font-extrabold leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
             Lo que realmente debes revisar antes de avanzar
           </h2>
           <p class="mt-5 text-[17px] leading-8 text-textMuted">
@@ -300,7 +280,7 @@
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">location_on</span>
             </span>
-            <h3 class="mt-5 text-lg font-800 text-primary">1. Elección del estado</h3>
+            <h3 class="mt-5 text-lg font-extrabold text-primary">1. Elección del estado</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
               Wyoming, Florida o Delaware pueden sonar atractivos, pero la mejor opción depende de tu país, privacidad, costos, actividad, necesidad bancaria y forma de operar. Elegir por moda puede llevarte a pagar de más o crear una estructura que no se adapta a tu negocio.
             </p>
@@ -310,7 +290,7 @@
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">badge</span>
             </span>
-            <h3 class="mt-5 text-lg font-800 text-primary">2. EIN y relación con el IRS</h3>
+            <h3 class="mt-5 text-lg font-extrabold text-primary">2. EIN y relación con el IRS</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
               El EIN es el identificador fiscal de la empresa ante el IRS. Es clave para bancos, plataformas y operación formal. Un error en la solicitud o en los datos del responsable puede generar demoras, inconsistencias y problemas para avanzar.
             </p>
@@ -320,7 +300,7 @@
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">description</span>
             </span>
-            <h3 class="mt-5 text-lg font-800 text-primary">3. Formularios y reportes</h3>
+            <h3 class="mt-5 text-lg font-extrabold text-primary">3. Formularios y reportes</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
               Dependiendo del tipo de dueño, país, actividad y estructura, pueden existir formularios y reportes que no conviene ignorar. El problema no es solo completar documentos: es saber cuáles aplican y cuándo deben presentarse.
             </p>
@@ -330,7 +310,7 @@
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">account_balance</span>
             </span>
-            <h3 class="mt-5 text-lg font-800 text-primary">4. Bancos y validación KYC</h3>
+            <h3 class="mt-5 text-lg font-extrabold text-primary">4. Bancos y validación KYC</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
               Abrir una cuenta bancaria no es automático. Los bancos revisan actividad, beneficiarios, documentos, dirección, coherencia del negocio y perfil del cliente. Una LLC creada sin estrategia puede enfrentar rechazos o solicitudes adicionales.
             </p>
@@ -340,7 +320,7 @@
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">payments</span>
             </span>
-            <h3 class="mt-5 text-lg font-800 text-primary">5. Plataformas de pago</h3>
+            <h3 class="mt-5 text-lg font-extrabold text-primary">5. Plataformas de pago</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
               Stripe, PayPal o Payoneer no solo verifican que exista una empresa. También evalúan actividad, documentación, coherencia fiscal y riesgo. Si la estructura no calza con el modelo de negocio, pueden aparecer bloqueos o restricciones.
             </p>
@@ -350,7 +330,7 @@
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">groups</span>
             </span>
-            <h3 class="mt-5 text-lg font-800 text-primary">6. Socios y Operating Agreement</h3>
+            <h3 class="mt-5 text-lg font-extrabold text-primary">6. Socios y Operating Agreement</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
               Cuando hay socios, el acuerdo operativo deja de ser un documento formal y pasa a ser una herramienta de control. Define participación, decisiones, reparto de ingresos, responsabilidades y salida de socios.
             </p>
@@ -365,7 +345,7 @@
         <article class="grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
           <div>
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Decisión estratégica</p>
-            <h3 class="mt-3 text-2xl font-800 tracking-[-0.03em] text-primary md:text-3xl">
+            <h3 class="mt-3 text-2xl font-extrabold tracking-[-0.03em] text-primary md:text-3xl">
               El estado no se elige por recomendación genérica
             </h3>
             <p class="mt-4 text-[16px] leading-8 text-textMuted">
@@ -389,7 +369,7 @@
           />
           <div class="md:order-2">
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">EIN y cumplimiento</p>
-            <h3 class="mt-3 text-2xl font-800 tracking-[-0.03em] text-primary md:text-3xl">
+            <h3 class="mt-3 text-2xl font-extrabold tracking-[-0.03em] text-primary md:text-3xl">
               Lo fiscal no empieza cuando ganas dinero
             </h3>
             <p class="mt-4 text-[16px] leading-8 text-textMuted">
@@ -401,7 +381,7 @@
         <article class="grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
           <div>
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Operación real</p>
-            <h3 class="mt-3 text-2xl font-800 tracking-[-0.03em] text-primary md:text-3xl">
+            <h3 class="mt-3 text-2xl font-extrabold tracking-[-0.03em] text-primary md:text-3xl">
               El verdadero examen llega al cobrar y abrir cuentas
             </h3>
             <p class="mt-4 text-[16px] leading-8 text-textMuted">
@@ -424,26 +404,26 @@
         <div class="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <div>
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Errores frecuentes</p>
-            <h2 class="mt-3 text-[30px] font-800 leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
+            <h2 class="mt-3 text-[30px] font-extrabold leading-tight tracking-[-0.03em] text-primary md:text-[42px]">
               El problema no suele estar en crear la LLC, sino en crearla sin una ruta clara.
             </h2>
           </div>
 
           <div class="grid gap-4">
             <div class="rounded-3xl border border-borderSoft bg-background p-5">
-              <h3 class="font-800 text-primary">Elegir el estado solo por precio</h3>
+              <h3 class="font-extrabold text-primary">Elegir el estado solo por precio</h3>
               <p class="mt-2 text-sm leading-7 text-textMuted">Un costo inicial bajo puede ocultar costos anuales, requisitos o fricciones que aparecen después.</p>
             </div>
             <div class="rounded-3xl border border-borderSoft bg-background p-5">
-              <h3 class="font-800 text-primary">Pedir el EIN sin revisar la estructura</h3>
+              <h3 class="font-extrabold text-primary">Pedir el EIN sin revisar la estructura</h3>
               <p class="mt-2 text-sm leading-7 text-textMuted">El EIN debe coincidir con la información correcta de la empresa y su responsable. No es un dato aislado.</p>
             </div>
             <div class="rounded-3xl border border-borderSoft bg-background p-5">
-              <h3 class="font-800 text-primary">Creer que la cuenta bancaria está garantizada</h3>
+              <h3 class="font-extrabold text-primary">Creer que la cuenta bancaria está garantizada</h3>
               <p class="mt-2 text-sm leading-7 text-textMuted">Los bancos aplican criterios de revisión. La documentación y coherencia del negocio importan.</p>
             </div>
             <div class="rounded-3xl border border-borderSoft bg-background p-5">
-              <h3 class="font-800 text-primary">No definir acuerdos entre socios</h3>
+              <h3 class="font-extrabold text-primary">No definir acuerdos entre socios</h3>
               <p class="mt-2 text-sm leading-7 text-textMuted">Cuando no hay reglas claras, los conflictos aparecen cuando el negocio empieza a crecer o generar ingresos.</p>
             </div>
           </div>
@@ -457,7 +437,7 @@
         <div class="grid gap-8 p-7 text-white md:grid-cols-[1fr_0.8fr] md:p-10 md:items-center">
           <div>
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-white/60">Cuando estés listo</p>
-            <h2 class="mt-3 text-[30px] font-800 leading-tight tracking-[-0.03em] md:text-[42px]">
+            <h2 class="mt-3 text-[30px] font-extrabold leading-tight tracking-[-0.03em] md:text-[42px]">
               Una buena asesoría no acelera decisiones: evita decisiones mal tomadas.
             </h2>
             <p class="mt-5 text-base leading-8 text-white/70">
@@ -466,7 +446,7 @@
           </div>
 
           <div class="rounded-3xl bg-white p-6 text-primary">
-            <h3 class="text-xl font-800 tracking-[-0.02em]">¿Qué revisamos en una asesoría?</h3>
+            <h3 class="text-xl font-extrabold tracking-[-0.02em]">¿Qué revisamos en una asesoría?</h3>
             <ul class="mt-5 space-y-3 text-sm text-textMuted">
               <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled">check_circle</span>Estado y estructura recomendada.</li>
               <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled">check_circle</span>EIN, bancos y plataformas de pago.</li>
@@ -480,7 +460,7 @@
               rel="noopener noreferrer"
               data-track-event="cta_not_ready_schedule"
               data-track-label="Agendar desde guía not ready"
-              class="mt-7 inline-flex w-full items-center justify-center rounded-2xl bg-primary px-5 py-4 text-base font-800 text-white shadow-button transition hover:bg-textMain"
+              class="mt-7 inline-flex w-full items-center justify-center rounded-2xl bg-primary px-5 py-4 text-base font-extrabold text-white shadow-button transition hover:bg-textMain"
             >
               Revisar mi caso
               <span class="material-symbols-outlined ml-2 text-[20px]">arrow_forward</span>
@@ -519,7 +499,7 @@
       href="#guia"
       data-track-event="cta_sticky_read_guide_mobile"
       data-track-label="Leer guía sticky mobile"
-      class="mx-auto inline-flex w-full max-w-page items-center justify-center rounded-2xl bg-primary px-4 py-3 text-sm font-800 text-white"
+      class="mx-auto inline-flex w-full max-w-page items-center justify-center rounded-2xl bg-primary px-4 py-3 text-sm font-extrabold text-white"
     >
       Leer la guía
       <span class="material-symbols-outlined ml-2 text-[18px]">arrow_forward</span>
@@ -630,4 +610,4 @@
     })();
   </script>
 </body>
-</html>
+</html>
