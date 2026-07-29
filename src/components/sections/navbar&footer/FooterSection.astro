@@ -56,10 +56,14 @@ const report = isEnglish ? "Your experience matters to us. <br />If something di
         ))
       }
 
-      <div class="col-span-2">
+      <div class="col-span-2 gap-y-3.5 flex flex-col">
         <p class="mt-3 text-sm text-primario-black dark:text-neutral-400">
           {strings.mensajes.banco}
         </p>
+        <div>
+          <a class="group inline-flex items-center justify-center gap-x-3 rounded-lg px-2 py-1 text-center text-sm font-medium text-white ring-zinc-500 focus-visible:ring-3 transition duration-300 outline-hidden border border-transparent dark:bg-emerald-700/50 bg-emerald-700 dark:focus:outline-hidden hover:shadow-lg hover:shadow-emerald-700/20 2xl:text-base dark:ring-zinc-200 dark:text-white" href="https://status.sotomayorconsulting.com/status/check" target="_blank" rel="noopener noreferrer">Ver estado de servicios<span class="relative inline-flex rounded-full size-1.5 bg-green-500 "></span></a>
+        </div>
+        
       </div>
       <!-- <div class="col-start-5 flex flex-col items-center">
         <div

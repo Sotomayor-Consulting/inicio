@@ -74,7 +74,7 @@ export const dataLLC = {
       anadido:
         "Los beneficios del Plan Básico y los beneficios del plan estándar, más:",
       lista: [
-        "Planificación y diseño legal-tributario.",
+        "Planificación y diseño legal-tributario.",   
         "Acompañamiento bancario (Mercury o Relay + Stripe).",
         "EIN acelerado.",
       ],
@@ -126,6 +126,25 @@ export const dataBanking = {
   TarjetasFeatures: [
     {
       pocision: "left",
+      svg: "relay",
+      icono: "mingcute:check-circle-fill",
+      titulo: "Procesador de pagos con Relay",
+      titulo2: "Activación de Relay",
+      descripcion:
+        "Relay es una plataforma de pagos que permite a tu empresa cobrar con tarjeta de crédito y débito a clientes de cualquier parte del mundo de forma rápida, segura y profesional.",
+      precio: "200",
+      boton: "Hablar con un asesor",
+      lista: [
+        "Hasta 20 cuentas corrientes separadas en una plataforma",
+        "Tarjetas de débito individuales para cada cuenta",
+        "Control de gastos por equipo/departamento",
+        "Aprobaciones para transferencias ACH y pagos",
+        "Integración con QuickBooks, Gusto y herramientas de nómina",
+      ],
+      link: "https://wa.link/a2589f",
+    },
+    {
+      pocision: "left",
       svg: "mercury",
       icono: "mingcute:check-circle-fill",
       titulo: "Cuenta bancaria empresarial en Mercury Bank",
@@ -162,25 +181,7 @@ export const dataBanking = {
       ],
       link: "https://wa.link/vq453r",
     },
-    {
-      pocision: "left",
-      svg: "relay",
-      icono: "mingcute:check-circle-fill",
-      titulo: "Procesador de pagos con Relay",
-      titulo2: "Activación de Relay",
-      descripcion:
-        "Relay es una plataforma de pagos que permite a tu empresa cobrar con tarjeta de crédito y débito a clientes de cualquier parte del mundo de forma rápida, segura y profesional.",
-      precio: "200",
-      boton: "Hablar con un asesor",
-      lista: [
-        "Hasta 20 cuentas corrientes separadas en una plataforma",
-        "Tarjetas de débito individuales para cada cuenta",
-        "Control de gastos por equipo/departamento",
-        "Aprobaciones para transferencias ACH y pagos",
-        "Integración con QuickBooks, Gusto y herramientas de nómina",
-      ],
-      link: "https://wa.link/a2589f",
-    },
+    
   ],
 
   /* Pricing */

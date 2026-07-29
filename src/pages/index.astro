@@ -11,6 +11,7 @@ import features from "@data/features.json";
 import pricing from "@data/pricing.json";
 import featureImage from "@images/home-image.jpg";
 import CartasDeServiciosV2 from "@components/sections/landing/CartasDeServiciosV2.astro";
+import RelayPartnerSection from "@components/sections/landing/RelayPartnerSection.astro";
 import GridServicios from "@/components/sections/features/GridServicios.astro";
 import Banner from "@components/ui/banners/AnnouncementBanner.astro";
 import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.astro";
@@ -49,15 +50,7 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     subTitle="Ofrecemos soluciones de servicio personalizadas para profesionales, individuos, familias y empresas, atendiendo a sus necesidades específicas."
   />
 
-  <!-- <Partner
-    title1="Para profesionales"
-    subTitle1="Asóciese con Sotomayor Consulting International para brindar a sus clientes soluciones expertas en estructuras internacionales, planificación fiscal y tecnología global, manteniendo siempre su rol central como asesor de confianza."
-    title2="Programa para Partners"
-    subTitle2="Colabore con Sotomayor Consulting International. Fortalezca su asesoría brindando a sus clientes acceso a nuestra expertise en planificación global, compliance fiscal y soluciones tecnológicas. Usted lidera la relación; nosotros garantizamos la excelencia en la ejecución técnica y el control total de sus referencias."
-    imagen="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
-    alt="Personas haciendo negocios"
-    link="/asociados"
-  /> -->
+  <RelayPartnerSection />
 
   <FeaturesGeneral
     title="Conoce nuestra aplicación"

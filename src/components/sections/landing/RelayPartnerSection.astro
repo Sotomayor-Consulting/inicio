@@ -1,0 +1,355 @@
+---
+import { Image } from "astro:assets";
+import tarjetaRelayOne from "@images/tarjeta.png";
+import tarjetaRelayTwo from "@images/tarjeta2.png";
+import tarjetaRelayThree from "@images/tarjeta3.png";
+
+const pathname = Astro.url.pathname;
+const isEnglish = pathname.startsWith("/en");
+const isPortuguese = pathname.startsWith("/pr");
+
+const relayCardImages = [tarjetaRelayOne, tarjetaRelayTwo, tarjetaRelayThree];
+
+const content = isEnglish
+  ? {
+      eyebrow: "Official collaboration",
+      title: "We're Relay partners for modern business banking.",
+      description:
+        "We help founders structure the company correctly and prepare the banking onboarding path so they can move faster with Relay's digital banking ecosystem.",
+      points: [
+        "Guidance for U.S. LLC and EIN readiness before applying",
+        "Support around banking setup, team access, and account organization",
+        "Strategic help connecting operations, payments, and bookkeeping",
+      ],
+      primaryLabel: "Explore banking service",
+      primaryHref: "/en/servicios/banking",
+      secondaryLabel: "Talk to an advisor",
+      secondaryHref: "/en/contact",
+      cards: [
+        { label: "Accounts", image: relayCardImages[0] },
+        { label: "Permissions", image: relayCardImages[1] },
+        { label: "Transfers", image: relayCardImages[2] },
+      ],
+    }
+  : isPortuguese
+    ? {
+        eyebrow: "Colaboracao oficial",
+        title: "Somos parceiros da Relay para banking empresarial moderno.",
+        description:
+          "Ajudamos fundadores a estruturar corretamente a empresa e preparar a jornada de onboarding bancario para avancar com mais seguranca no ecossistema digital da Relay.",
+        points: [
+          "Orientacao para LLC nos EUA e EIN antes da solicitacao",
+          "Suporte na configuracao bancaria, acessos da equipe e organizacao de contas",
+          "Apoio estrategico para conectar operacao, cobrancas e contabilidade",
+        ],
+        primaryLabel: "Explorar servico bancario",
+        primaryHref: "/pr/servicios/banking",
+        secondaryLabel: "Falar com um consultor",
+        secondaryHref: "/pr/contact",
+        cards: [
+          { label: "Contas", image: relayCardImages[0] },
+          { label: "Permissoes", image: relayCardImages[1] },
+          { label: "Transferencias", image: relayCardImages[2] },
+        ],
+      }
+    : {
+        eyebrow: "Colaboracion oficial",
+        title: "Somos partners de Relay para banking empresarial moderno.",
+        description:
+          "Ayudamos a los fundadores a estructurar correctamente su empresa y preparar el onboarding bancario para avanzar con mas seguridad dentro del ecosistema digital de Relay.",
+        points: [
+          "Orientacion para LLC en EE. UU. y EIN antes de aplicar",
+          "Apoyo en configuracion bancaria, accesos del equipo y orden de cuentas",
+          "Acompanamiento estrategico para conectar operacion, cobros y contabilidad",
+        ],
+        primaryLabel: "Explorar servicio bancario",
+        primaryHref: "/servicios/banking",
+        secondaryLabel: "Hablar con un asesor",
+        secondaryHref: "/contact",
+        cards: [
+          { label: "Cuentas", image: relayCardImages[0] },
+          { label: "Permisos", image: relayCardImages[1] },
+          { label: "Transferencias", image: relayCardImages[2] },
+        ],
+      };
+---
+
+<section
+  class="mx-auto max-w-340 px-4 py-14 sm:px-6 lg:px-8"
+  data-relay-partner
+>
+  <div
+    class="relay-shell relative overflow-hidden rounded-2xl border border-black/10 bg-[radial-gradient(circle_at_top_left,_rgba(19,175,132,0.18),_transparent_28%),linear-gradient(135deg,_#e5e5e5_0%,_#e5e5e5_48%,_#e5e5e5_100%)] px-6 py-8 shadow-[0_24px_80px_rgba(15,23,42,0.08)] sm:px-8 lg:px-12 lg:py-12 dark:border-white/10 dark:bg-[radial-gradient(circle_at_top_left,_rgba(34,197,94,0.16),_transparent_26%),linear-gradient(135deg,_#171717_0%,_#171717_52%,_#171717_100%)]"
+  >
+    <div
+      class="absolute inset-y-0 right-0 hidden w-2/5 bg-[radial-gradient(circle_at_center,_rgba(16,185,129,0.15),_transparent_68%)] lg:block"
+    >
+    </div>
+
+    <div
+      class="relative grid items-center gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(320px,0.95fr)] lg:gap-14"
+    >
+      <div class="max-w-2xl">
+        
+
+        <h2
+          class="mt-5 max-w-xl text-3xl leading-tight font-bold text-slate-950 sm:text-4xl lg:text-5xl dark:text-white"
+        >
+          {content.title}
+        </h2>
+
+        <p
+          class="mt-5 max-w-xl text-base leading-7 text-slate-700 sm:text-lg dark:text-slate-300"
+        >
+          {content.description}
+        </p>
+
+        <div class="mt-6 grid gap-3">
+          {
+            content.points.map((point) => (
+              <div class="flex items-start gap-3 rounded-2xl px-4 py-3 text-slate-700 backdrop-blur dark:border-white/10 dark:text-slate-200">
+                <span class="mt-1 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-500/15 text-emerald-700 dark:text-emerald-300">
+                  <svg
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="h-3.5 w-3.5"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.704 5.29a1 1 0 0 1 .006 1.414l-8 8a1 1 0 0 1-1.414 0l-4-4a1 1 0 1 1 1.414-1.414L8 12.586l7.296-7.296a1 1 0 0 1 1.408 0Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <p>{point}</p>
+              </div>
+            ))
+          }
+        </div>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a
+            href={content.primaryHref}
+            class="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-emerald-700"
+          >
+            {content.primaryLabel}
+          </a>
+          <a
+            href={content.secondaryHref}
+            class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white/80 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:border-slate-400 hover:bg-white dark:border-white/15 dark:bg-white/5 dark:text-white dark:hover:border-white/30"
+          >
+            {content.secondaryLabel}
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="relay-cards-stage relative mx-auto h-[27rem] w-full max-w-[32rem]"
+        aria-hidden="true"
+      >
+        {
+          content.cards.map((card, index) => (
+            <article
+              class="relay-fall-card absolute w-[15.5rem] rounded-[1.5rem] bg-white/92 text-slate-900  backdrop-blur-sm dark:text-white"
+              data-relay-card
+              data-card-index={index}
+            >
+              {card.image ? (
+                <div class="overflow-hidden rounded-[1.1rem] bg-slate-100 shadow-sm dark:border-white/10 dark:bg-slate-800">
+                  <Image
+                    src={card.image}
+                    alt={`${card.label} Relay card`}
+                    class="h-auto w-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ) : (
+                <div class="h-full min-h-[8rem] rounded-[1.1rem] bg-white/40 dark:bg-white/5" />
+              )}
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .relay-shell {
+    isolation: isolate;
+  }
+
+  .relay-cards-stage {
+    perspective: 1200px;
+  }
+
+  .relay-fall-card {
+    transform-origin: top center;
+    will-change: transform, opacity;
+  }
+
+  .relay-fall-card:nth-child(1) {
+    top: 0.75rem;
+    left: 1rem;
+  }
+
+  .relay-fall-card:nth-child(2) {
+    top: 3.5rem;
+    right: 0.25rem;
+  }
+
+  .relay-fall-card:nth-child(3) {
+    top: 12.75rem;
+    left: 2.75rem;
+  }
+
+  @media (max-width: 1023px) {
+    .relay-cards-stage {
+      height: 23rem;
+      max-width: 24rem;
+    }
+
+    .relay-fall-card {
+      width: 12.5rem;
+    }
+
+    .relay-fall-card:nth-child(1) {
+      top: 0.5rem;
+      left: 0.25rem;
+    }
+
+    .relay-fall-card:nth-child(2) {
+      top: 2.4rem;
+      right: 0;
+    }
+
+    .relay-fall-card:nth-child(3) {
+      top: 10.3rem;
+      left: 0.8rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .relay-fall-card {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const initRelayPartner = () => {
+    document.querySelectorAll("[data-relay-partner]").forEach((section) => {
+      if (
+        !(section instanceof HTMLElement) ||
+        section.dataset.gsapReady === "true"
+      ) {
+        return;
+      }
+
+      section.dataset.gsapReady = "true";
+
+      const cards = Array.from(section.querySelectorAll("[data-relay-card]"));
+
+      if (cards.length === 0) {
+        return;
+      }
+
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        cards.forEach((card) => {
+          if (card instanceof HTMLElement) {
+            gsap.set(card, { clearProps: "all" });
+          }
+        });
+        return;
+      }
+
+      const desktopFalls = [
+        { x: -90, y: 220, rotation: -24 },
+        { x: 120, y: 250, rotation: 20 },
+        { x: -110, y: 260, rotation: -18 },
+      ];
+
+      const mobileFalls = [
+        { x: -48, y: 120, rotation: -18 },
+        { x: 56, y: 132, rotation: 16 },
+        { x: -52, y: 140, rotation: -14 },
+      ];
+
+      const baseState = [
+        { rotation: -7, y: 0, x: 0 },
+        { rotation: 9, y: -4, x: 0 },
+        { rotation: -5, y: 0, x: 0 },
+      ];
+
+      const mm = gsap.matchMedia();
+
+      const createAnimation = (isDesktop: boolean) => {
+        const falls = isDesktop ? desktopFalls : mobileFalls;
+
+        cards.forEach((card, index) => {
+          if (!(card instanceof HTMLElement)) {
+            return;
+          }
+
+          const start = baseState[index] ?? baseState[0];
+
+          gsap.set(card, {
+            autoAlpha: 1,
+            x: start.x,
+            y: start.y,
+            rotation: start.rotation,
+          });
+        });
+
+        const timeline = gsap.timeline({
+          scrollTrigger: {
+            trigger: section,
+            start: isDesktop ? "top 70%" : "top 78%",
+            end: isDesktop ? "bottom 35%" : "bottom 48%",
+            scrub: 1,
+          },
+        });
+
+        cards.forEach((card, index) => {
+          if (!(card instanceof HTMLElement)) {
+            return;
+          }
+
+          const fall = falls[index] ?? falls[0];
+
+          timeline.to(
+            card,
+            {
+              x: fall.x,
+              y: fall.y,
+              rotation: fall.rotation,
+              ease: "none",
+            },
+            0,
+          );
+        });
+
+        return () => {
+          timeline.kill();
+          cards.forEach((card) => {
+            if (card instanceof HTMLElement) {
+              gsap.set(card, { clearProps: "transform,opacity,visibility" });
+            }
+          });
+        };
+      };
+
+      mm.add("(min-width: 1024px)", () => createAnimation(true));
+      mm.add("(max-width: 1023px)", () => createAnimation(false));
+    });
+  };
+
+  initRelayPartner();
+  document.addEventListener("astro:page-load", initRelayPartner);
+</script>
