@@ -1,3 +1,7 @@
+---
+import "../../assets/styles/llc-guide.css";
+---
+
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
 <head>
@@ -24,35 +28,6 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/images/logos/blanco-alta.png" />
 
-  <script>
-    tailwind = {
-      config: {
-        theme: {
-          extend: {
-            colors: {
-              primary: "#0f172a",
-              background: "#f7f9fb",
-              surface: "#ffffff",
-              textMain: "#1e293b",
-              textMuted: "#64748b",
-              borderSoft: "#e2e8f0",
-              surfaceDim: "#d8dadc",
-              surfaceSubtle: "#f1f5f9"
-            },
-            fontFamily: { sans: ["Inter", "system-ui", "sans-serif"] },
-            boxShadow: {
-              subtle: "0 12px 34px rgba(15, 23, 42, 0.06)",
-              button: "0 10px 24px rgba(15, 23, 42, 0.16)"
-            },
-            maxWidth: { page: "1180px" },
-            spacing: { 18: "4.5rem" }
-          }
-        }
-      }
-    };
-  </script>
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -69,7 +44,7 @@
   />
 
   <!-- Tracking configuration -->
-  <script>
+  <script is:inline>
     window.SCI_TRACKING_CONFIG = {
       page_name: "not_ready_llc_guide",
       page_category: "llc_education_nurturing",
@@ -80,7 +55,7 @@
   </script>
 
   <!-- Google Tag Manager -->
-  <script>
+  <script is:inline>
     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -89,7 +64,7 @@
   </script>
 
   <!-- TikTok Pixel base code -->
-  <script>
+  <script is:inline>
     (function (w, d, t) {
       var config = w.SCI_TRACKING_CONFIG || {};
       var pixelId = config.tiktok_pixel_id;
@@ -557,7 +532,7 @@
               Si después de revisar esta guía sientes que tu caso necesita una mirada profesional, podemos ayudarte a entender qué estructura tiene más sentido según tu país, modelo de negocio, forma de cobro y objetivos de crecimiento.
             </p>
           </div>
-          <a href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&amp;utm_medium=landing&amp;utm_campaign=llc_guide&amp;utm_content=final_cta" target="_blank" rel="noopener noreferrer" data-track-event="cta_not_ready_schedule" data-track-label="Agendar desde guía not ready" class="mt-7 inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 text-base font-extrabold shadow-button transition hover:-translate-y-0.5 hover:bg-surfaceSubtle" style="color: #0f172a;">Revisar mi caso <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span></a>
+          <a href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&amp;utm_medium=landing&amp;utm_campaign=llc_guide&amp;utm_content=final_cta" target="_blank" rel="noopener noreferrer" data-track-event="cta_not_ready_schedule" data-track-label="Agendar desde guía not ready" class="mt-7 inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-primary shadow-button transition hover:-translate-y-0.5 hover:bg-surfaceSubtle">Revisar mi caso <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span></a>
         </div>
       </div>
     </section>
@@ -599,7 +574,7 @@
   </div>
 
   <!-- DOM events and conversion tracking -->
-  <script>
+  <script is:inline>
     (function () {
       var config = window.SCI_TRACKING_CONFIG || {};
 
