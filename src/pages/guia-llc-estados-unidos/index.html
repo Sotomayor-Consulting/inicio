@@ -24,11 +24,11 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/images/logos/blanco-alta.png" />
 
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <script>
-    tailwind = {
-      config: {
-        theme: {
-          extend: {
+    tailwind.config = {
+      theme: {
+        extend: {
             colors: {
               primary: "#0f172a",
               background: "#f7f9fb",
@@ -46,12 +46,10 @@
             },
             maxWidth: { page: "1180px" },
             spacing: { 18: "4.5rem" }
-          }
         }
       }
     };
   </script>
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
