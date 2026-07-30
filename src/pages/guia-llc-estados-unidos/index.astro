@@ -1,5 +1,6 @@
 ---
 import "../../assets/styles/llc-guide.css";
+import { Icon } from "astro-icon/components";
 ---
 
 <!DOCTYPE html>
@@ -16,8 +17,8 @@ import "../../assets/styles/llc-guide.css";
   <title>Guía práctica para crear tu LLC | Sotomayor Consulting</title>
 
   <!-- Favicon / Isotipo -->
-  <link rel="icon" type="image/png" href="/images/logos/blanco-alta.png" />
-  <link rel="apple-touch-icon" href="/images/logos/blanco-alta.png" />
+  <link rel="icon" type="image/png" href="/images/logos/isotipo-favicon.png?v=1" />
+  <link rel="apple-touch-icon" href="/images/logos/isotipo-favicon.png?v=1" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Guía práctica para crear tu LLC | Sotomayor Consulting" />
@@ -33,7 +34,7 @@ import "../../assets/styles/llc-guide.css";
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://images.unsplash.com" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   />
 
@@ -54,64 +55,6 @@ import "../../assets/styles/llc-guide.css";
     };
   </script>
 
-  <!-- Google Tag Manager -->
-  <script is:inline>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TNRQGDM');
-  </script>
-
-  <!-- TikTok Pixel base code -->
-  <script is:inline>
-    (function (w, d, t) {
-      var config = w.SCI_TRACKING_CONFIG || {};
-      var pixelId = config.tiktok_pixel_id;
-      if (!pixelId) return;
-
-      w.TiktokAnalyticsObject = t;
-      var ttq = (w[t] = w[t] || []);
-      ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie", "holdConsent", "revokeConsent", "grantConsent"];
-      ttq.setAndDefer = function (t, e) {
-        t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))); };
-      };
-      for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
-      ttq.instance = function (t) {
-        var e = ttq._i[t] || [];
-        for (var n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]);
-        return e;
-      };
-      ttq.load = function (e, n) {
-        var r = "https://analytics.tiktok.com/i18n/pixel/events.js";
-        ttq._i = ttq._i || {};
-        ttq._i[e] = [];
-        ttq._i[e]._u = r;
-        ttq._t = ttq._t || {};
-        ttq._t[e] = +new Date();
-        ttq._o = ttq._o || {};
-        ttq._o[e] = n || {};
-        var s = d.createElement("script");
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = r + "?sdkid=" + e + "&lib=" + t;
-        var a = d.getElementsByTagName("script")[0];
-        a.parentNode.insertBefore(s, a);
-      };
-      ttq.load(pixelId);
-      ttq.page();
-    })(window, document, "ttq");
-  </script>
-
-  <style>
-    .material-symbols-outlined {
-      font-variation-settings: "FILL" 0, "wght" 430, "GRAD" 0, "opsz" 24;
-    }
-
-    .icon-filled {
-      font-variation-settings: "FILL" 1, "wght" 430, "GRAD" 0, "opsz" 24;
-    }
-  </style>
   <style>
     :root {
       --guide-navy: #06283f;
@@ -233,7 +176,7 @@ import "../../assets/styles/llc-guide.css";
       <div class="guide-hero-grid mx-auto grid max-w-page gap-10 px-4 py-14 md:grid-cols-[1.05fr_0.95fr] md:px-6 md:py-18 lg:px-8 lg:py-20">
         <div>
           <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-borderSoft bg-surface px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-textMuted">
-            <span class="material-symbols-outlined text-[18px] text-primary icon-filled" aria-hidden="true">tips_and_updates</span>
+            <Icon name="mingcute:bulb-fill" class="h-[18px] w-[18px] text-primary" aria-hidden="true" />
             Guía para evaluar tu LLC
           </div>
 
@@ -253,7 +196,7 @@ import "../../assets/styles/llc-guide.css";
               class="inline-flex items-center justify-center rounded-2xl bg-primary px-7 py-4 text-base font-extrabold text-white shadow-button transition hover:-translate-y-0.5 hover:bg-textMain"
             >
               Leer la guía
-              <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span>
+              <Icon name="mingcute:arrow-right-line" class="ml-2 h-5 w-5" aria-hidden="true" />
             </a>
 
             <a
@@ -276,7 +219,7 @@ import "../../assets/styles/llc-guide.css";
           <div class="mt-6 space-y-5">
             <div class="flex gap-4">
               <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
-                <span class="material-symbols-outlined text-[21px]" aria-hidden="true">map</span>
+                <Icon name="mingcute:map-line" class="h-[21px] w-[21px]" aria-hidden="true" />
               </span>
               <div>
                 <p class="font-bold text-primary">Cuándo tiene sentido avanzar</p>
@@ -286,7 +229,7 @@ import "../../assets/styles/llc-guide.css";
 
             <div class="flex gap-4">
               <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
-                <span class="material-symbols-outlined text-[21px]" aria-hidden="true">account_balance</span>
+                <Icon name="mingcute:bank-line" class="h-[21px] w-[21px]" aria-hidden="true" />
               </span>
               <div>
                 <p class="font-bold text-primary">Qué afecta bancos y cobros</p>
@@ -296,7 +239,7 @@ import "../../assets/styles/llc-guide.css";
 
             <div class="flex gap-4">
               <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-surfaceSubtle text-primary">
-                <span class="material-symbols-outlined text-[21px]" aria-hidden="true">gavel</span>
+                <Icon name="mingcute:hammer-line" class="h-[21px] w-[21px]" aria-hidden="true" />
               </span>
               <div>
                 <p class="font-bold text-primary">Qué obligaciones aparecen después</p>
@@ -345,7 +288,7 @@ import "../../assets/styles/llc-guide.css";
         <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
-              <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
+              <Icon name="mingcute:location-line" class="h-6 w-6" aria-hidden="true" />
             </span>
             <h3 class="mt-5 text-lg font-extrabold text-primary">1. Elección del estado</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
@@ -355,7 +298,7 @@ import "../../assets/styles/llc-guide.css";
 
           <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
-              <span class="material-symbols-outlined" aria-hidden="true">badge</span>
+              <Icon name="mingcute:idcard-line" class="h-6 w-6" aria-hidden="true" />
             </span>
             <h3 class="mt-5 text-lg font-extrabold text-primary">2. EIN y relación con el IRS</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
@@ -365,7 +308,7 @@ import "../../assets/styles/llc-guide.css";
 
           <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
-              <span class="material-symbols-outlined" aria-hidden="true">description</span>
+              <Icon name="mingcute:document-line" class="h-6 w-6" aria-hidden="true" />
             </span>
             <h3 class="mt-5 text-lg font-extrabold text-primary">3. Formularios y reportes</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
@@ -375,7 +318,7 @@ import "../../assets/styles/llc-guide.css";
 
           <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
-              <span class="material-symbols-outlined" aria-hidden="true">account_balance</span>
+              <Icon name="mingcute:bank-line" class="h-6 w-6" aria-hidden="true" />
             </span>
             <h3 class="mt-5 text-lg font-extrabold text-primary">4. Bancos y validación KYC</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
@@ -385,7 +328,7 @@ import "../../assets/styles/llc-guide.css";
 
           <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
-              <span class="material-symbols-outlined" aria-hidden="true">payments</span>
+              <Icon name="mingcute:bank-card-line" class="h-6 w-6" aria-hidden="true" />
             </span>
             <h3 class="mt-5 text-lg font-extrabold text-primary">5. Plataformas de pago</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
@@ -395,7 +338,7 @@ import "../../assets/styles/llc-guide.css";
 
           <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
-              <span class="material-symbols-outlined" aria-hidden="true">groups</span>
+              <Icon name="mingcute:group-line" class="h-6 w-6" aria-hidden="true" />
             </span>
             <h3 class="mt-5 text-lg font-extrabold text-primary">6. Socios y Operating Agreement</h3>
             <p class="mt-3 text-sm leading-7 text-textMuted">
@@ -532,7 +475,7 @@ import "../../assets/styles/llc-guide.css";
               Si después de revisar esta guía sientes que tu caso necesita una mirada profesional, podemos ayudarte a entender qué estructura tiene más sentido según tu país, modelo de negocio, forma de cobro y objetivos de crecimiento.
             </p>
           </div>
-          <a href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&amp;utm_medium=landing&amp;utm_campaign=llc_guide&amp;utm_content=final_cta" target="_blank" rel="noopener noreferrer" data-track-event="cta_not_ready_schedule" data-track-label="Agendar desde guía not ready" class="mt-7 inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-primary shadow-button transition hover:-translate-y-0.5 hover:bg-surfaceSubtle">Revisar mi caso <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span></a>
+          <a href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&amp;utm_medium=landing&amp;utm_campaign=llc_guide&amp;utm_content=final_cta" target="_blank" rel="noopener noreferrer" data-track-event="cta_not_ready_schedule" data-track-label="Agendar desde guía not ready" class="mt-7 inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-primary shadow-button transition hover:-translate-y-0.5 hover:bg-surfaceSubtle">Revisar mi caso <Icon name="mingcute:arrow-right-line" class="ml-2 h-5 w-5" aria-hidden="true" /></a>
         </div>
       </div>
     </section>
@@ -569,9 +512,91 @@ import "../../assets/styles/llc-guide.css";
       class="mx-auto inline-flex w-full max-w-page items-center justify-center rounded-2xl bg-primary px-4 py-3 text-sm font-extrabold text-white"
     >
       Leer la guía
-      <span class="material-symbols-outlined ml-2 text-[18px]" aria-hidden="true">arrow_forward</span>
+      <Icon name="mingcute:arrow-right-line" class="ml-2 h-[18px] w-[18px]" aria-hidden="true" />
     </a>
   </div>
+
+  <!-- Marketing scripts load only after the page is complete and the browser is idle.
+       A consent manager can load them sooner by dispatching sci:marketing-consent. -->
+  <script is:inline>
+    (function () {
+      var loaded = false;
+
+      function loadGTM() {
+        var config = window.SCI_TRACKING_CONFIG || {};
+        if (!config.gtm_id) return;
+
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
+
+        var script = document.createElement("script");
+        script.async = true;
+        script.src = "https://www.googletagmanager.com/gtm.js?id=" + encodeURIComponent(config.gtm_id);
+        document.head.appendChild(script);
+      }
+
+      function loadTikTok() {
+        var config = window.SCI_TRACKING_CONFIG || {};
+        var pixelId = config.tiktok_pixel_id;
+        if (!pixelId) return;
+
+        window.TiktokAnalyticsObject = "ttq";
+        var ttq = window.ttq = window.ttq || [];
+        ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie", "holdConsent", "revokeConsent", "grantConsent"];
+        ttq.setAndDefer = function (target, method) {
+          target[method] = function () {
+            target.push([method].concat(Array.prototype.slice.call(arguments, 0)));
+          };
+        };
+        for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]);
+        ttq.instance = function (id) {
+          var instance = ttq._i[id] || [];
+          for (var j = 0; j < ttq.methods.length; j++) ttq.setAndDefer(instance, ttq.methods[j]);
+          return instance;
+        };
+        ttq.load = function (id, options) {
+          var source = "https://analytics.tiktok.com/i18n/pixel/events.js";
+          ttq._i = ttq._i || {};
+          ttq._i[id] = [];
+          ttq._i[id]._u = source;
+          ttq._t = ttq._t || {};
+          ttq._t[id] = Date.now();
+          ttq._o = ttq._o || {};
+          ttq._o[id] = options || {};
+          var script = document.createElement("script");
+          script.async = true;
+          script.src = source + "?sdkid=" + encodeURIComponent(id) + "&lib=ttq";
+          document.head.appendChild(script);
+        };
+
+        ttq.load(pixelId);
+        ttq.page();
+
+        (window.SCI_PENDING_TIKTOK_EVENTS || []).forEach(function (entry) {
+          ttq.track(entry[0], entry[1] || {});
+        });
+        window.SCI_PENDING_TIKTOK_EVENTS = [];
+      }
+
+      function loadMarketing() {
+        if (loaded) return;
+        loaded = true;
+        loadGTM();
+        loadTikTok();
+      }
+
+      function scheduleMarketing() {
+        if ("requestIdleCallback" in window) {
+          window.requestIdleCallback(loadMarketing, { timeout: 5000 });
+        } else {
+          window.setTimeout(loadMarketing, 3000);
+        }
+      }
+
+      window.addEventListener("load", scheduleMarketing, { once: true });
+      window.addEventListener("sci:marketing-consent", loadMarketing, { once: true });
+    })();
+  </script>
 
   <!-- DOM events and conversion tracking -->
   <script is:inline>
@@ -604,7 +629,11 @@ import "../../assets/styles/llc-guide.css";
       }
 
       function trackTikTok(eventName, payload) {
-        if (!window.ttq || typeof window.ttq.track !== "function") return;
+        if (!window.ttq || typeof window.ttq.track !== "function") {
+          window.SCI_PENDING_TIKTOK_EVENTS = window.SCI_PENDING_TIKTOK_EVENTS || [];
+          window.SCI_PENDING_TIKTOK_EVENTS.push([eventName, payload || {}]);
+          return;
+        }
         window.ttq.track(eventName, payload || {});
       }
 
