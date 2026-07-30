@@ -26,10 +26,9 @@
 
   <!-- Tailwind v3 configuration: this must be defined before loading the CDN. -->
   <script>
-    tailwind = {
-      config: {
-        theme: {
-          extend: {
+    tailwind.config = {
+      theme: {
+        extend: {
             colors: {
               primary: "#0f172a",
               background: "#f7f9fb",
@@ -47,7 +46,6 @@
             },
             maxWidth: { page: "1180px" },
             spacing: { 18: "4.5rem" }
-          }
         }
       }
     };
