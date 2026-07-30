@@ -2,7 +2,7 @@
 <html lang="es" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />`n  <meta name="theme-color" content="#06283f" />
   <meta
     name="description"
     content="Guía práctica para entender cuándo conviene crear una LLC en Estados Unidos, qué decisiones debes revisar y cómo evitar errores al operar, cobrar y cumplir correctamente."
@@ -136,22 +136,78 @@
       font-variation-settings: "FILL" 1, "wght" 430, "GRAD" 0, "opsz" 24;
     }
   </style>
+  <style>
+    :root {
+      --guide-navy: #06283f;
+      --guide-teal: #0e8fa0;
+      --guide-teal-soft: #eaf7f7;
+      --guide-gold: #c79a2d;
+      --guide-ink: #102433;
+      --guide-muted: #637587;
+      --guide-line: #dfe8ed;
+      --guide-bg: #f7fafb;
+      --guide-shadow: 0 18px 50px rgba(6, 40, 63, 0.10);
+      --guide-shadow-soft: 0 10px 30px rgba(6, 40, 63, 0.07);
+    }
+
+    html { scroll-padding-top: 6rem; }
+    body {
+      background: radial-gradient(circle at 92% 3%, rgba(14, 143, 160, 0.11), transparent 24%), radial-gradient(circle at 2% 18%, rgba(199, 154, 45, 0.08), transparent 22%), linear-gradient(180deg, #fff 0%, var(--guide-bg) 44%, #fff 100%);
+      color: var(--guide-ink);
+    }
+    .skip-link { position: fixed; top: 0.75rem; left: 0.75rem; z-index: 100; transform: translateY(-160%); border-radius: 0.75rem; background: #fff; padding: 0.75rem 1rem; color: var(--guide-navy); box-shadow: var(--guide-shadow); transition: transform 160ms ease; }
+    .skip-link:focus-visible { transform: translateY(0); }
+    a:focus-visible { outline: 3px solid var(--guide-gold); outline-offset: 3px; }
+    .guide-header { min-height: 5.25rem; border-color: rgba(6, 40, 63, 0.12); background: rgba(6, 40, 63, 0.98); }
+    .guide-header img { width: 13.5rem; height: auto; }
+    .guide-hero { position: relative; overflow: hidden; border: 0; background: transparent; }
+    .guide-hero::after { content: ""; position: absolute; top: 0; right: -4%; width: 42%; height: 88%; background: linear-gradient(135deg, transparent 18%, rgba(14,143,160,.06) 18% 35%, transparent 35% 48%, rgba(6,40,63,.04) 48% 65%, transparent 65%); pointer-events: none; }
+    .guide-hero-grid { position: relative; z-index: 1; align-items: center; padding-top: 3.5rem; padding-bottom: 3.5rem; }
+    .guide-hero-title { max-width: 44rem; color: var(--guide-navy); font-size: clamp(2.45rem, 5vw, 4.2rem); line-height: 1.02; letter-spacing: -0.052em; text-wrap: balance; }
+    .guide-hero-copy { max-width: 40rem; color: var(--guide-muted); font-size: 1.125rem; line-height: 1.75; }
+    .guide-hero-card { border-color: var(--guide-line); background: rgba(255,255,255,.96); box-shadow: var(--guide-shadow); }
+    .guide-process { border-color: var(--guide-line); background: rgba(255,255,255,.72); }
+    .guide-process > div, .guide-story, .guide-errors > div, .guide-cta { padding-top: 4.5rem; padding-bottom: 4.5rem; }
+    .process-card { min-height: 100%; border-color: var(--guide-line); background: rgba(255,255,255,.96); box-shadow: var(--guide-shadow-soft); transition: transform 180ms ease, box-shadow 180ms ease; }
+    .process-card:hover { transform: translateY(-4px); box-shadow: var(--guide-shadow); }
+    .process-card > span { background: var(--guide-teal-soft); color: var(--guide-teal); }
+    .guide-story > div { gap: 1.5rem; }
+    .story-card { border-color: var(--guide-line); background: rgba(255,255,255,.96); box-shadow: var(--guide-shadow-soft); }
+    .story-card img { box-shadow: 0 12px 30px rgba(6,40,63,.12); }
+    .relay-section { border: 0; background: linear-gradient(135deg, var(--guide-navy), #0a5670); }
+    .relay-section aside { border-color: rgba(255,255,255,.18); background: rgba(255,255,255,.11); }
+    .guide-errors { border-color: var(--guide-line); background: rgba(255,255,255,.72); }
+    .error-card { border-color: var(--guide-line); background: #fff; box-shadow: var(--guide-shadow-soft); }
+    .guide-cta-card { border: 0; background: linear-gradient(135deg, var(--guide-navy), #0a5670); box-shadow: var(--guide-shadow); }
+    .guide-footer { border-color: rgba(255,255,255,.16); background: var(--guide-navy); }
+    @media (max-width: 767px) {
+      .guide-header { min-height: 4.5rem; }
+      .guide-header img { width: 11.5rem; }
+      .guide-hero-grid { padding-top: 2.5rem; padding-bottom: 2.75rem; }
+      .guide-hero-title { font-size: clamp(2.25rem, 12vw, 3.25rem); }
+      .guide-process > div, .guide-story, .guide-errors > div, .guide-cta { padding-top: 3.5rem; padding-bottom: 3.5rem; }
+      .process-card:hover { transform: none; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
+  </style>
 </head>
 
-<body class="bg-background text-textMain font-sans antialiased selection:bg-primary selection:text-white">
+<body class="bg-background text-textMain font-sans antialiased selection:bg-primary selection:text-white">`n  <a class="skip-link" href="#inicio">Saltar al contenido</a>
   <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNRQGDM"
     height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
   <!-- Header -->
-  <header class="sticky top-0 z-50 border-b border-white/15 bg-primary/95 backdrop-blur-md">
+  <header class="guide-header sticky top-0 z-50 border-b border-white/15 bg-primary/95 backdrop-blur-md">
     <nav class="mx-auto flex max-w-page items-center justify-between px-4 py-3 md:px-6 lg:px-8" aria-label="Navegación principal">
       <a href="#inicio" class="flex items-center" aria-label="Ir al inicio">
         <img
           src="/images/logos/blanco-alta.png"
           alt="Sotomayor Consulting International"
-          class="h-12 w-auto object-contain"
+          class="h-12 w-auto object-contain" width="572" height="125"
           loading="eager"
         />
       </a>
@@ -174,19 +230,19 @@
 
   <main id="inicio">
     <!-- Hero -->
-    <section class="border-b border-borderSoft bg-background">
-      <div class="mx-auto grid max-w-page gap-10 px-4 py-14 md:grid-cols-[1.05fr_0.95fr] md:px-6 md:py-18 lg:px-8 lg:py-20">
+    <section class="guide-hero border-b border-borderSoft bg-background">
+      <div class="guide-hero-grid mx-auto grid max-w-page gap-10 px-4 py-14 md:grid-cols-[1.05fr_0.95fr] md:px-6 md:py-18 lg:px-8 lg:py-20">
         <div>
           <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-borderSoft bg-surface px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-textMuted">
             <span class="material-symbols-outlined text-[18px] text-primary icon-filled">tips_and_updates</span>
             Guía para evaluar tu LLC
           </div>
 
-          <h1 class="max-w-3xl text-[34px] font-extrabold leading-[1.08] tracking-[-0.04em] text-primary sm:text-[44px] lg:text-[56px]">
+          <h1 class="guide-hero-title max-w-3xl text-[34px] font-extrabold leading-[1.08] tracking-[-0.04em] text-primary sm:text-[44px] lg:text-[56px]">
             Antes de crear tu LLC, entiende qué decisiones pueden afectar tu operación en EE. UU.
           </h1>
 
-          <p class="mt-6 max-w-2xl text-[17px] leading-8 text-textMuted md:text-[18px]">
+          <p class="guide-hero-copy mt-6 max-w-2xl text-[17px] leading-8 text-textMuted md:text-[18px]">
             Esta guía está pensada para quienes todavía están evaluando. Te ayudará a comprender por qué una LLC no es solo un registro, sino una estructura que impacta bancos, impuestos, plataformas de pago, socios y crecimiento internacional.
           </p>
 
@@ -212,7 +268,7 @@
           </div>
         </div>
 
-        <aside class="rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:p-7" aria-label="Resumen de la guía">
+        <aside class="guide-hero-card rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:p-7" aria-label="Resumen de la guía">
           <p class="text-xs font-bold uppercase tracking-[0.16em] text-textMuted">Lo que vas a entender</p>
           <h2 class="mt-3 text-2xl font-extrabold leading-tight tracking-[-0.02em] text-primary">
             El mapa completo antes de tomar una decisión.
@@ -275,7 +331,7 @@
     </section>
 
     <!-- Process Map -->
-    <section id="proceso" class="border-y border-borderSoft bg-surface">
+    <section id="proceso" class="guide-process border-y border-borderSoft bg-surface">
       <div class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
         <div class="mx-auto max-w-3xl text-center">
           <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Mapa del proceso</p>
@@ -288,7 +344,7 @@
         </div>
 
         <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+          <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">location_on</span>
             </span>
@@ -298,7 +354,7 @@
             </p>
           </article>
 
-          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+          <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">badge</span>
             </span>
@@ -308,7 +364,7 @@
             </p>
           </article>
 
-          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+          <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">description</span>
             </span>
@@ -318,7 +374,7 @@
             </p>
           </article>
 
-          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+          <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">account_balance</span>
             </span>
@@ -328,7 +384,7 @@
             </p>
           </article>
 
-          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+          <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">payments</span>
             </span>
@@ -338,7 +394,7 @@
             </p>
           </article>
 
-          <article class="rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
+          <article class="process-card rounded-3xl border border-borderSoft bg-background p-6 shadow-subtle">
             <span class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface text-primary">
               <span class="material-symbols-outlined">groups</span>
             </span>
@@ -354,7 +410,7 @@
     <!-- Story Blocks -->
     <section class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
       <div class="space-y-10">
-        <article class="grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
+        <article class="story-card grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
           <div>
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Decisión estratégica</p>
             <h3 class="mt-3 text-2xl font-extrabold tracking-[-0.03em] text-primary md:text-3xl">
@@ -367,12 +423,12 @@
           <img
             src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
             alt="Edificios corporativos como referencia de estructura empresarial"
-            class="h-72 w-full rounded-2xl object-cover"
+            class="h-72 w-full rounded-2xl object-cover" width="1200" height="720"
             loading="lazy"
           />
         </article>
 
-        <article class="grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
+        <article class="story-card grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
           <img
             src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80"
             alt="Documentos financieros y formularios"
@@ -390,7 +446,7 @@
           </div>
         </article>
 
-        <article class="grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
+        <article class="story-card grid gap-8 rounded-3xl border border-borderSoft bg-surface p-6 shadow-subtle md:grid-cols-2 md:p-8 md:items-center">
           <div>
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-textMuted">Operación real</p>
             <h3 class="mt-3 text-2xl font-extrabold tracking-[-0.03em] text-primary md:text-3xl">
@@ -403,7 +459,7 @@
           <img
             src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80"
             alt="Tarjeta y banca digital como referencia de operación financiera"
-            class="h-72 w-full rounded-2xl object-cover"
+            class="h-72 w-full rounded-2xl object-cover" width="1200" height="720"
             loading="lazy"
           />
         </article>
@@ -411,7 +467,7 @@
     </section>
 
     <!-- Relay official partner -->
-    <section id="relay" class="border-y border-primary bg-primary text-white">
+    <section id="relay" class="relay-section border-y border-primary bg-primary text-white">
       <div class="mx-auto grid max-w-page gap-10 px-4 py-14 md:grid-cols-[1.05fr_0.95fr] md:px-6 md:py-18 lg:px-8">
         <div>
           <p class="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-white/85">Colaboración oficial</p>
@@ -431,7 +487,7 @@
       </div>
     </section>
     <!-- Common Errors -->
-    <section id="errores" class="border-y border-borderSoft bg-surface">
+    <section id="errores" class="guide-errors border-y border-borderSoft bg-surface">
       <div class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
         <div class="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <div>
@@ -442,19 +498,19 @@
           </div>
 
           <div class="grid gap-4">
-            <div class="rounded-3xl border border-borderSoft bg-background p-5">
+            <div class="error-card rounded-3xl border border-borderSoft bg-background p-5">
               <h3 class="font-extrabold text-primary">Elegir el estado solo por precio</h3>
               <p class="mt-2 text-sm leading-7 text-textMuted">Un costo inicial bajo puede ocultar costos anuales, requisitos o fricciones que aparecen después.</p>
             </div>
-            <div class="rounded-3xl border border-borderSoft bg-background p-5">
+            <div class="error-card rounded-3xl border border-borderSoft bg-background p-5">
               <h3 class="font-extrabold text-primary">Pedir el EIN sin revisar la estructura</h3>
               <p class="mt-2 text-sm leading-7 text-textMuted">El EIN debe coincidir con la información correcta de la empresa y su responsable. No es un dato aislado.</p>
             </div>
-            <div class="rounded-3xl border border-borderSoft bg-background p-5">
+            <div class="error-card rounded-3xl border border-borderSoft bg-background p-5">
               <h3 class="font-extrabold text-primary">Creer que la cuenta bancaria está garantizada</h3>
               <p class="mt-2 text-sm leading-7 text-textMuted">Los bancos aplican criterios de revisión. La documentación y coherencia del negocio importan.</p>
             </div>
-            <div class="rounded-3xl border border-borderSoft bg-background p-5">
+            <div class="error-card rounded-3xl border border-borderSoft bg-background p-5">
               <h3 class="font-extrabold text-primary">No definir acuerdos entre socios</h3>
               <p class="mt-2 text-sm leading-7 text-textMuted">Cuando no hay reglas claras, los conflictos aparecen cuando el negocio empieza a crecer o generar ingresos.</p>
             </div>
@@ -464,8 +520,8 @@
     </section>
 
     <!-- Next Step -->
-    <section id="siguiente-paso" class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
-      <div class="overflow-hidden rounded-3xl border border-borderSoft bg-primary shadow-subtle">
+    <section id="siguiente-paso" class="guide-cta mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
+      <div class="guide-cta-card overflow-hidden rounded-3xl border border-borderSoft bg-primary shadow-subtle">
         <div class="grid gap-8 p-7 text-white md:grid-cols-[1fr_0.8fr] md:p-10 md:items-center">
           <div>
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-white/60">Cuando estés listo</p>
@@ -504,13 +560,13 @@
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-white/15 bg-primary text-white">
+  <footer class="guide-footer border-t border-white/15 bg-primary text-white">
     <div class="mx-auto flex max-w-page flex-col gap-6 px-4 py-8 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
       <div>
         <img
           src="/images/logos/blanco-alta.png"
           alt="Sotomayor Consulting International"
-          class="h-12 w-auto object-contain"
+          class="h-12 w-auto object-contain" width="572" height="125"
           loading="lazy"
         />
         <p class="mt-3 max-w-xl text-xs leading-6 text-white/70">
