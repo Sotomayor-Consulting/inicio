@@ -24,7 +24,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/images/logos/blanco-alta.png" />
 
-  <!-- Tailwind v3 configuration: this must be defined before loading the CDN. -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -50,7 +50,6 @@
       }
     };
   </script>
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -174,8 +173,8 @@
     .guide-story > div { gap: 1.5rem; }
     .story-card { border-color: var(--guide-line); background: rgba(255,255,255,.96); box-shadow: var(--guide-shadow-soft); }
     .story-card img { box-shadow: 0 12px 30px rgba(6,40,63,.12); }
-    .relay-section { border: 0; background: #161717; padding: 3rem 1rem; }
-    .relay-showcase { position: relative; isolation: isolate; max-width: 1180px; margin: 0 auto; overflow: hidden; border: 1px solid rgba(90, 191, 146, 0.26); border-radius: 1.5rem; background: radial-gradient(circle at 0 0, rgba(17, 118, 75, 0.28), transparent 38%), radial-gradient(circle at 86% 48%, rgba(12, 91, 64, 0.22), transparent 34%), #171817; padding: clamp(2.5rem, 5vw, 4.5rem); }
+    .relay-section { border: 0; background: transparent; padding: 1.5rem 0 2.5rem; }
+    .relay-showcase { position: relative; isolation: isolate; width: min(1180px, calc(100% - 32px)); margin: 0 auto; overflow: hidden; border: 1px solid rgba(90, 191, 146, 0.26); border-radius: 1.5rem; background: radial-gradient(circle at 0 0, rgba(14, 143, 160, 0.22), transparent 38%), radial-gradient(circle at 86% 48%, rgba(199, 154, 45, 0.13), transparent 34%), #0f172a; padding: clamp(2.5rem, 5vw, 4.5rem); }
     .relay-showcase::after { content: ""; position: absolute; inset: auto -10% -55% 38%; z-index: -1; height: 28rem; border-radius: 50%; background: rgba(8, 115, 77, 0.16); filter: blur(56px); pointer-events: none; }
     .relay-grid { display: grid; grid-template-columns: minmax(0, .94fr) minmax(22rem, 1.06fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: center; }
     .relay-copy h2 { max-width: 33rem; color: #fff; font-size: clamp(2.25rem, 4.5vw, 3.6rem); line-height: 1.05; letter-spacing: -0.05em; text-wrap: balance; }
@@ -501,11 +500,7 @@
               <li><span class="relay-check" aria-hidden="true">✓</span><span>Apoyo en configuración bancaria, accesos del equipo y orden de cuentas.</span></li>
               <li><span class="relay-check" aria-hidden="true">✓</span><span>Acompañamiento estratégico para conectar operación, cobros y contabilidad.</span></li>
             </ul>
-            <div class="relay-actions">
-              <a class="relay-primary" href="https://www.sotomayorconsulting.com/servicios/banking">Explorar servicio bancario</a>
-              <a class="relay-secondary" href="https://www.sotomayorconsulting.com/contact">Hablar con un asesor</a>
-            </div>
-          </div>
+</div>
           <div class="relay-card-stage" aria-hidden="true">
             <div class="relay-card relay-card-one"><img src="/images/relay/tarjeta.png" width="594" height="398" alt="" loading="lazy" /></div>
             <div class="relay-card relay-card-two"><img src="/images/relay/tarjeta2.png" width="597" height="398" alt="" loading="lazy" /></div>
@@ -550,7 +545,7 @@
     <!-- Next Step -->
     <section id="siguiente-paso" class="guide-cta mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
       <div class="guide-cta-card overflow-hidden rounded-3xl border border-borderSoft bg-primary shadow-subtle">
-        <div class="grid gap-8 p-7 text-white md:grid-cols-[1fr_0.8fr] md:p-10 md:items-center">
+        <div class="max-w-3xl p-7 text-white md:p-10">
           <div>
             <p class="text-sm font-bold uppercase tracking-[0.16em] text-white/60">Cuando estés listo</p>
             <h2 class="mt-3 text-[30px] font-extrabold leading-tight tracking-[-0.03em] md:text-[42px]">
@@ -560,28 +555,7 @@
               Si después de revisar esta guía sientes que tu caso necesita una mirada profesional, podemos ayudarte a entender qué estructura tiene más sentido según tu país, modelo de negocio, forma de cobro y objetivos de crecimiento.
             </p>
           </div>
-
-          <div class="rounded-3xl bg-white p-6 text-primary">
-            <h3 class="text-xl font-extrabold tracking-[-0.02em]">¿Qué revisamos en una asesoría?</h3>
-            <ul class="mt-5 space-y-3 text-sm text-textMuted">
-              <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled" aria-hidden="true">check_circle</span>Estado y estructura recomendada.</li>
-              <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled" aria-hidden="true">check_circle</span>EIN, bancos y plataformas de pago.</li>
-              <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled" aria-hidden="true">check_circle</span>Riesgos fiscales y obligaciones iniciales.</li>
-              <li class="flex gap-2"><span class="material-symbols-outlined text-[18px] text-primary icon-filled" aria-hidden="true">check_circle</span>Próximos pasos según tu caso.</li>
-            </ul>
-
-            <a
-              href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&utm_medium=landing&utm_campaign=llc_guide&utm_content=final_cta"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-track-event="cta_not_ready_schedule"
-              data-track-label="Agendar desde guía not ready"
-              class="mt-7 inline-flex w-full items-center justify-center rounded-2xl bg-primary px-5 py-4 text-base font-extrabold text-white shadow-button transition hover:bg-textMain"
-            >
-              Revisar mi caso
-              <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span>
-            </a>
-          </div>
+          <a href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&amp;utm_medium=landing&amp;utm_campaign=llc_guide&amp;utm_content=final_cta" target="_blank" rel="noopener noreferrer" data-track-event="cta_not_ready_schedule" data-track-label="Agendar desde guía not ready" class="mt-7 inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-primary shadow-button transition hover:-translate-y-0.5 hover:bg-surfaceSubtle">Revisar mi caso <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span></a>
         </div>
       </div>
     </section>
