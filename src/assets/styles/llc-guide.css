@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+@theme {
+  --color-primary: #0f172a;
+  --color-background: #f7f9fb;
+  --color-surface: #ffffff;
+  --color-textMain: #1e293b;
+  --color-textMuted: #64748b;
+  --color-borderSoft: #e2e8f0;
+  --color-surfaceDim: #d8dadc;
+  --color-surfaceSubtle: #f1f5f9;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --shadow-subtle: 0 12px 34px rgba(15, 23, 42, 0.06);
+  --shadow-button: 0 10px 24px rgba(15, 23, 42, 0.16);
+  --container-page: 73.75rem;
+  --spacing-18: 4.5rem;
+}
+
+@layer base {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    min-width: 20rem;
+    overflow-x: hidden;
+  }
+
+  a {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(15, 23, 42, 0.12);
+  }
+}
