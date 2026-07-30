@@ -11,8 +11,8 @@
   <title>Guía práctica para crear tu LLC | Sotomayor Consulting</title>
 
   <!-- Favicon / Isotipo -->
-  <link rel="icon" type="image/png" href="./isotipo-redondo.png" />
-  <link rel="apple-touch-icon" href="./isotipo-redondo.png" />
+  <link rel="icon" type="image/png" href="/images/logos/blanco-alta.png" />
+  <link rel="apple-touch-icon" href="/images/logos/blanco-alta.png" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Guía práctica para crear tu LLC | Sotomayor Consulting" />
@@ -21,9 +21,36 @@
     content="Antes de crear una LLC, entiende qué decisiones impactan bancos, impuestos, plataformas de pago y operación internacional."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="./isotipo-redondo.png" />
+  <meta property="og:image" content="/images/logos/blanco-alta.png" />
 
-  <!-- Tailwind -->
+  <!-- Tailwind v3 configuration: this must be defined before loading the CDN. -->
+  <script>
+    tailwind = {
+      config: {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#0f172a",
+              background: "#f7f9fb",
+              surface: "#ffffff",
+              textMain: "#1e293b",
+              textMuted: "#64748b",
+              borderSoft: "#e2e8f0",
+              surfaceDim: "#d8dadc",
+              surfaceSubtle: "#f1f5f9"
+            },
+            fontFamily: { sans: ["Inter", "system-ui", "sans-serif"] },
+            boxShadow: {
+              subtle: "0 12px 34px rgba(15, 23, 42, 0.06)",
+              button: "0 10px 24px rgba(15, 23, 42, 0.16)"
+            },
+            maxWidth: { page: "1180px" },
+            spacing: { 18: "4.5rem" }
+          }
+        }
+      }
+    };
+  </script>
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 
   <!-- Fonts -->
@@ -37,7 +64,7 @@
   <link
     rel="preload"
     as="image"
-    href="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+    href="/images/logos/blanco-alta.png"
   />
 
   <!-- Tracking configuration -->
@@ -100,22 +127,7 @@
     })(window, document, "ttq");
   </script>
 
-  <style type="text/tailwindcss">
-    @theme {
-      --color-primary: #0f172a;
-      --color-background: #f7f9fb;
-      --color-surface: #ffffff;
-      --color-textMain: #1e293b;
-      --color-textMuted: #64748b;
-      --color-borderSoft: #e2e8f0;
-      --color-surfaceDim: #d8dadc;
-      --color-surfaceSubtle: #f1f5f9;
-      --font-sans: "Inter", system-ui, sans-serif;
-      --shadow-subtle: 0 12px 34px rgba(15, 23, 42, 0.06);
-      --shadow-button: 0 10px 24px rgba(15, 23, 42, 0.16);
-      --max-width-page: 1180px;
-    }
-
+  <style>
     .material-symbols-outlined {
       font-variation-settings: "FILL" 0, "wght" 430, "GRAD" 0, "opsz" 24;
     }
@@ -133,11 +145,11 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
   <!-- Header -->
-  <header class="sticky top-0 z-50 border-b border-borderSoft bg-surface/95 backdrop-blur-md">
+  <header class="sticky top-0 z-50 border-b border-white/15 bg-primary/95 backdrop-blur-md">
     <nav class="mx-auto flex max-w-page items-center justify-between px-4 py-3 md:px-6 lg:px-8" aria-label="Navegación principal">
       <a href="#inicio" class="flex items-center" aria-label="Ir al inicio">
         <img
-          src="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+          src="/images/logos/blanco-alta.png"
           alt="Sotomayor Consulting International"
           class="h-12 w-auto object-contain"
           loading="eager"
@@ -145,14 +157,14 @@
       </a>
 
       <div class="hidden items-center gap-6 md:flex">
-        <a href="#guia" class="text-sm font-semibold text-textMuted transition hover:text-primary">Guía</a>
-        <a href="#proceso" class="text-sm font-semibold text-textMuted transition hover:text-primary">Proceso</a>
-        <a href="#errores" class="text-sm font-semibold text-textMuted transition hover:text-primary">Errores</a>
+        <a href="#guia" class="text-sm font-semibold text-white/80 transition hover:text-white">Guía</a>
+        <a href="#proceso" class="text-sm font-semibold text-white/80 transition hover:text-white">Proceso</a>
+        <a href="#errores" class="text-sm font-semibold text-white/80 transition hover:text-white">Errores</a>
         <a
           href="#siguiente-paso"
           data-track-event="cta_header_next_step"
           data-track-label="Ver siguiente paso header"
-          class="rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-button transition hover:-translate-y-0.5 hover:bg-textMain"
+          class="rounded-full bg-[#b98d33] px-5 py-2.5 text-sm font-bold text-primary shadow-button transition hover:-translate-y-0.5 hover:bg-[#c89a3e]"
         >
           Ver siguiente paso
         </a>
@@ -398,6 +410,26 @@
       </div>
     </section>
 
+    <!-- Relay official partner -->
+    <section id="relay" class="border-y border-primary bg-primary text-white">
+      <div class="mx-auto grid max-w-page gap-10 px-4 py-14 md:grid-cols-[1.05fr_0.95fr] md:px-6 md:py-18 lg:px-8">
+        <div>
+          <p class="inline-flex rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-white/85">Colaboración oficial</p>
+          <h2 class="mt-5 max-w-2xl text-[30px] font-extrabold leading-tight tracking-[-0.03em] md:text-[42px]">Somos partners de Relay para banking empresarial moderno.</h2>
+          <p class="mt-5 max-w-2xl text-[17px] leading-8 text-white/75">Una LLC bien estructurada facilita el camino de onboarding bancario. Te ayudamos a preparar la empresa, el EIN y la documentación necesaria para avanzar con mayor claridad dentro del ecosistema digital de Relay.</p>
+          <a href="https://www.sotomayorconsulting.com/servicios/banking" class="mt-7 inline-flex items-center justify-center rounded-2xl bg-[#b98d33] px-6 py-3 text-sm font-extrabold text-primary shadow-button transition hover:-translate-y-0.5 hover:bg-[#c89a3e]">Conocer el servicio de banking <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span></a>
+        </div>
+        <aside class="rounded-3xl border border-white/15 bg-white/10 p-6 backdrop-blur-sm md:p-8" aria-label="Cómo te acompañamos con Relay">
+          <p class="text-sm font-bold uppercase tracking-[0.16em] text-[#e4c27e]">Antes de aplicar</p>
+          <h3 class="mt-3 text-2xl font-extrabold leading-tight">Preparamos la base para una operación bancaria ordenada.</h3>
+          <ul class="mt-6 space-y-4 text-sm leading-6 text-white/80">
+            <li class="flex gap-3"><span class="material-symbols-outlined text-[#e4c27e]" aria-hidden="true">check_circle</span><span>Orientación para LLC y EIN antes de iniciar la solicitud.</span></li>
+            <li class="flex gap-3"><span class="material-symbols-outlined text-[#e4c27e]" aria-hidden="true">check_circle</span><span>Apoyo para ordenar la información de la empresa y sus responsables.</span></li>
+            <li class="flex gap-3"><span class="material-symbols-outlined text-[#e4c27e]" aria-hidden="true">check_circle</span><span>Acompañamiento estratégico para conectar banking, cobros y contabilidad.</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
     <!-- Common Errors -->
     <section id="errores" class="border-y border-borderSoft bg-surface">
       <div class="mx-auto max-w-page px-4 py-14 md:px-6 md:py-18 lg:px-8">
@@ -472,23 +504,23 @@
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-borderSoft bg-surface">
+  <footer class="border-t border-white/15 bg-primary text-white">
     <div class="mx-auto flex max-w-page flex-col gap-6 px-4 py-8 md:flex-row md:items-center md:justify-between md:px-6 lg:px-8">
       <div>
         <img
-          src="https://sotomayorconsulting.com/wp-content/uploads/2022/07/cropped-logo-HI.png"
+          src="/images/logos/blanco-alta.png"
           alt="Sotomayor Consulting International"
           class="h-12 w-auto object-contain"
           loading="lazy"
         />
-        <p class="mt-3 max-w-xl text-xs leading-6 text-textMuted">
+        <p class="mt-3 max-w-xl text-xs leading-6 text-white/70">
           Sotomayor Consulting no es banco ni institución financiera. Nuestros servicios se enfocan en consultoría, acompañamiento estratégico y gestión de trámites relacionados con constitución de empresas, cuentas bancarias internacionales y asesoría comercial.
         </p>
       </div>
 
-      <div class="flex flex-wrap gap-4 text-sm text-textMuted">
-        <a href="https://sotomayorconsulting.com/inicio/politicas/" target="_blank" rel="noopener noreferrer" class="hover:text-primary">Política de privacidad</a>
-        <a href="https://sotomayorconsulting.com/inicio/terminos/" target="_blank" rel="noopener noreferrer" class="hover:text-primary">Términos de servicio</a>
+      <div class="flex flex-wrap gap-4 text-sm text-white/70">
+        <a href="https://sotomayorconsulting.com/inicio/politicas/" target="_blank" rel="noopener noreferrer" class="hover:text-white">Política de privacidad</a>
+        <a href="https://sotomayorconsulting.com/inicio/terminos/" target="_blank" rel="noopener noreferrer" class="hover:text-white">Términos de servicio</a>
       </div>
     </div>
   </footer>
