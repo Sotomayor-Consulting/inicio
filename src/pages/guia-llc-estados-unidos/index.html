@@ -24,11 +24,11 @@
   <meta property="og:type" content="website" />
   <meta property="og:image" content="/images/logos/blanco-alta.png" />
 
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <script>
-    tailwind.config = {
-      theme: {
-        extend: {
+    tailwind = {
+      config: {
+        theme: {
+          extend: {
             colors: {
               primary: "#0f172a",
               background: "#f7f9fb",
@@ -46,10 +46,12 @@
             },
             maxWidth: { page: "1180px" },
             spacing: { 18: "4.5rem" }
+          }
         }
       }
     };
   </script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -555,7 +557,7 @@
               Si después de revisar esta guía sientes que tu caso necesita una mirada profesional, podemos ayudarte a entender qué estructura tiene más sentido según tu país, modelo de negocio, forma de cobro y objetivos de crecimiento.
             </p>
           </div>
-          <a href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&amp;utm_medium=landing&amp;utm_campaign=llc_guide&amp;utm_content=final_cta" target="_blank" rel="noopener noreferrer" data-track-event="cta_not_ready_schedule" data-track-label="Agendar desde guía not ready" class="mt-7 inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 text-base font-extrabold text-primary shadow-button transition hover:-translate-y-0.5 hover:bg-surfaceSubtle">Revisar mi caso <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span></a>
+          <a href="https://zcal.co/t/agendar-asesoria-llc/60min?utm_source=not_ready&amp;utm_medium=landing&amp;utm_campaign=llc_guide&amp;utm_content=final_cta" target="_blank" rel="noopener noreferrer" data-track-event="cta_not_ready_schedule" data-track-label="Agendar desde guía not ready" class="mt-7 inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 text-base font-extrabold shadow-button transition hover:-translate-y-0.5 hover:bg-surfaceSubtle" style="color: #0f172a;">Revisar mi caso <span class="material-symbols-outlined ml-2 text-[20px]" aria-hidden="true">arrow_forward</span></a>
         </div>
       </div>
     </section>
