@@ -1,7 +1,7 @@
 ---
 title: "How to Open Stripe from Latin America: Step-by-Step Guide"
 description: "Open Stripe from Latin America"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/stripe.avif"
 cardImageAlt: "Stripe interface on a laptop with Latin American flags"
 ---
 

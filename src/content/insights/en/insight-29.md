@@ -1,7 +1,7 @@
 ---
 title: "What If Your LLC Was Poorly Structured? Problems and Solutions"
 description: "Consequences of a poorly structured LLC, how to detect structural problems, and steps to fix them before it's too late."
-cardImage: "@/images/insights/que-pasa-si-tu-llc-fue-mal-estructurada.png"
+cardImage: "@/images/insights/que-pasa-si-tu-llc-fue-mal-estructurada.avif"
 cardImageAlt: "LLC with cracks representing structural problems"
 ---
 
@@ -95,7 +95,7 @@ A poorly structured LLC is one that does not meet one or more of the legal, tax,
 - Convenience of using a single account.
 
 **Consequences:**
-- **You lose the corporate veil** �a judge can ignore the LLC and go after your personal assets in a lawsuit.
+- **You lose the corporate veil** -- a judge can ignore the LLC and go after your personal assets in a lawsuit.
 - The bank can close the account for violating terms of service.
 - The IRS can question the validity of the LLC for tax purposes.
 
@@ -278,10 +278,10 @@ Sometimes it is cheaper and faster to close the poorly structured LLC and form a
 
 **Solution:**
 - Drafted an Operating Agreement reflecting:
-  - Miguel: 50% (capital contribution).
-  - Ana: 50% (sweat equity).
-  - Profit distribution: 50/50 after operating expenses.
-  - Dispute resolution mechanism.
+ - Miguel: 50% (capital contribution).
+ - Ana: 50% (sweat equity).
+ - Profit distribution: 50/50 after operating expenses.
+ - Dispute resolution mechanism.
 - Cost: $400.
 - Relay approved the account.
 
@@ -318,7 +318,7 @@ Sometimes it is cheaper and faster to close the poorly structured LLC and form a
 
 ## Conclusion
 
-A poorly structured LLC can cost you money, time, and peace of mind. The most common problems �wrong state, missing Operating Agreement, incorrect tax classification� are preventable with good initial advice.
+A poorly structured LLC can cost you money, time, and peace of mind. The most common problems -- wrong state, missing Operating Agreement, incorrect tax classification -- are preventable with good initial advice.
 
 If you already have an LLC and suspect it is poorly structured, **do not wait**. Do a self-assessment, identify the problems, and fix them. In most cases, corrections are possible and the cost is less than the consequences of doing nothing.
 

@@ -1,7 +1,7 @@
 ---
 title: "O que Revisar Antes de Investir nos EUA sendo Estrangeiro: Guia 2026"
 description: "O que revisar antes de investir nos EUA sendo estrangeiro"
-cardImage: "@/images/insights/inversion-extranjera.png"
+cardImage: "@/images/insights/inversion-extranjera.avif"
 cardImageAlt: "Lista de verificação pré-investimento para estrangeiros nos EUA: estrutura legal, impostos, financiamento, localização, seguros, Stripe"
 ---
 

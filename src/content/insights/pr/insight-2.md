@@ -1,7 +1,7 @@
 ---
 title: "O que é uma LLC e Por que é a Melhor Opção para Empreendedores Digitais?"
 description: "Descubra por que uma LLC nos EUA é a melhor opção para seu negócio digital, protegendo seus ativos e facilitando o acesso a mercados globais."
-cardImage: "@/images/insights/que-es-una-llc-y-porque-es-la-mejor-opcion-para-emprendedores.png"
+cardImage: "@/images/insights/que-es-una-llc-y-porque-es-la-mejor-opcion-para-emprendedores.avif"
 cardImageAlt: "Profissional independente trabalhando em seu laptop"
 ---
 

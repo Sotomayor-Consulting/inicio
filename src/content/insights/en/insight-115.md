@@ -1,13 +1,13 @@
 ---
 title: "How to Know If Your LLC Is at Risk: 2026 Guide"
 description: "Red flags, warning signs, and compliance checks to assess your LLC's health"
-cardImage: "@/images/insights/llc-mal-estructurada.png"
+cardImage: "@/images/insights/llc-mal-estructurada.avif"
 cardImageAlt: "LLC risk assessment guide showing good standing checklist, compliance dashboard, entity status tracker, liability protection analysis, and state filing deadline monitor"
 ---
 
-**Your LLC is supposed to protect your personal assets � but if you are not maintaining it properly, that protection can disappear without warning.** Many business owners assume that once their LLC is formed, it is permanently protected. In reality, an LLC is a legal structure that requires ongoing maintenance. When that maintenance lapses, you can lose your liability shield, your business name, and even your right to operate.
+**Your LLC is supposed to protect your personal assets -- but if you are not maintaining it properly, that protection can disappear without warning.** Many business owners assume that once their LLC is formed, it is permanently protected. In reality, an LLC is a legal structure that requires ongoing maintenance. When that maintenance lapses, you can lose your liability shield, your business name, and even your right to operate.
 
-The good news is that the warning signs of an at-risk LLC are easy to spot � if you know what to look for. Most risks can be resolved quickly once identified.
+The good news is that the warning signs of an at-risk LLC are easy to spot -- if you know what to look for. Most risks can be resolved quickly once identified.
 
 In this guide, we cover **how to know if your LLC is at risk in 2026**: the three biggest threats to your LLC, how to check your good standing status, warning signs your liability protection is at risk, the true cost of a delinquent LLC, state-by-state risk assessment, how to run an LLC health check, and how to fix common problems.
 ## 1. The Three Biggest Threats to Your LLC
@@ -171,16 +171,16 @@ In this guide, we cover **how to know if your LLC is at risk in 2026**: the thre
 
 **Your LLC is only as strong as the maintenance you put into it. A properly maintained LLC protects your personal assets. A neglected one is a liability trap waiting to spring.**
 
-The risks are clear: administrative dissolution, piercing the corporate veil, and escalating penalties can turn a small oversight into a major financial and legal problem. But the solutions are equally clear � most LLC issues can be fixed with a few hours of work and a modest investment.
+The risks are clear: administrative dissolution, piercing the corporate veil, and escalating penalties can turn a small oversight into a major financial and legal problem. But the solutions are equally clear -- most LLC issues can be fixed with a few hours of work and a modest investment.
 
 The key principles for keeping your LLC healthy:
 
-- **Check your status quarterly** � a 30-minute review can catch problems early
-- **Maintain financial separation** � never commingle business and personal funds
-- **File annual reports on time** � this is the #1 reason LLCs get dissolved
-- **Keep an operating agreement** � it is your primary liability protection document
-- **Maintain a registered agent** � they are your early warning system
-- **Fix problems immediately** � the cost and complexity increase exponentially over time
+- **Check your status quarterly** -- a 30-minute review can catch problems early
+- **Maintain financial separation** -- never commingle business and personal funds
+- **File annual reports on time** -- this is the #1 reason LLCs get dissolved
+- **Keep an operating agreement** -- it is your primary liability protection document
+- **Maintain a registered agent** -- they are your early warning system
+- **Fix problems immediately** -- the cost and complexity increase exponentially over time
 
 **An ounce of LLC maintenance is worth a pound of legal defense. A few hundred dollars and a few hours per year can protect your life's savings from business liabilities.**
 

@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Estrategias Fiscales para Negocios Digitales: Optimiza tus Impuestos Legalmente"
 description: "Estrategias fiscales para negocios digitales"
-cardImage: "@/images/insights/estrategias-fiscales-para-negocios-digitales.png"
+cardImage: "@/images/insights/estrategias-fiscales-para-negocios-digitales.avif"
 cardImageAlt: "Estrategia fiscal digital con gráficos, dispositivos y documentos"
 ---
 

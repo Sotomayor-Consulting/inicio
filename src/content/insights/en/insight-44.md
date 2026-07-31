@@ -1,7 +1,7 @@
 ---
 title: "How to Handle International Payments Correctly: Practical Guide to Methods and Compliance"
 description: "Handling international payments"
-cardImage: "@/images/insights/pagos-internacionales.png"
+cardImage: "@/images/insights/pagos-internacionales.avif"
 cardImageAlt: "Different international payment methods with maps and digital devices"
 ---
 

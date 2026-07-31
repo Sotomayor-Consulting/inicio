@@ -1,7 +1,7 @@
 ---
 title: "How to Structure Properties for Asset Protection: 2026 Guide"
 description: "How to structure properties for asset protection"
-cardImage: "@/images/insights/propiedades-para-proteccion-patrimonial.png"
+cardImage: "@/images/insights/propiedades-para-proteccion-patrimonial.avif"
 cardImageAlt: "Pyramid structure of asset protection: individual properties → LLCs → Holding → Trust, with protection shields at each level"
 ---
 

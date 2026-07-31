@@ -1,7 +1,7 @@
 ---
 title: "Common Mistakes When Investing in Florida as a Foreigner: 2026 Guide"
 description: "Common mistakes when investing in Florida as a foreigner"
-cardImage: "@/images/insights/errores-comunes-al-invertir-en-florida.png"
+cardImage: "@/images/insights/errores-comunes-al-invertir-en-florida.avif"
 cardImageAlt: "Warning signs and errors about Florida investment: LLC, property tax, FIRPTA, estate tax, hurricane insurance"
 ---
 

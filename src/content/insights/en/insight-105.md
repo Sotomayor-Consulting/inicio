@@ -1,7 +1,7 @@
 ---
 title: "How to Integrate Stripe with Automations: 2026 Guide"
 description: "Stripe automation integration"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/stripe.avif"
 cardImageAlt: "Stripe automation diagram showing webhooks connecting CRM, email, invoicing, inventory, and analytics systems"
 ---
 

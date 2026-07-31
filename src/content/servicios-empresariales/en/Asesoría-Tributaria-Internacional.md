@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Constant Updates"
     subTitle: "We monitor changes in international tax laws to ensure your strategy is always current and compliant with new global regulations."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"  
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"  
 ---

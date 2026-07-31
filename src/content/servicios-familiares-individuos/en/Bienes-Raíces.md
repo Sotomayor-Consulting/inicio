@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Long-Term Vision"
     subTitle: "We monitor real estate market trends to ensure your strategy is always current and aligned with your wealth growth objectives."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

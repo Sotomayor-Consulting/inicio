@@ -1,7 +1,7 @@
 ---
 title: "Como Abrir Operações Internacionais: Guia 2026"
 description: "Como abrir operações internacionais"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/negocios-internacionales.avif"
 cardImageAlt: "Mapa mundial com ícones de expansão: incorporação de empresa em Delaware, contas bancárias, contratação global, Stripe para pagamentos e escritórios virtuais conectados"
 ---
 

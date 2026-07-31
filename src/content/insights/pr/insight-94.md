@@ -1,7 +1,7 @@
 ---
 title: "Como Cobrar Clientes em Diferentes Países: Guia 2026"
 description: "Como cobrar clientes em diferentes países"
-cardImage: "@/images/insights/como-cobrar-clientes-en-diferentes-paises.png"
+cardImage: "@/images/insights/como-cobrar-clientes-en-diferentes-paises.avif"
 cardImageAlt: "Mapa global com múltiplas moedas e métodos de pagamento: USD, EUR, BRL, MXN, Pix, OXXO, iDEAL, com Stripe como centro de processamento e conversão automática"
 ---
 

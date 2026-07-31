@@ -1,7 +1,7 @@
 ---
 title: "How to Use Stripe for Subscriptions: Complete Guide 2026"
 description: "How to use Stripe for subscriptions"
-cardImage: "@/images/insights/como-usar-stripe-para-suscripciones.png"
+cardImage: "@/images/insights/como-usar-stripe-para-suscripciones.avif"
 cardImageAlt: "Stripe dashboard showing active subscriptions and recurring revenue chart"
 ---
 

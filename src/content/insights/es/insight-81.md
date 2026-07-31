@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Cómo Invertir en Florida Siendo Extranjero: Guía 2026"
 description: "Cómo invertir en Florida siendo extranjero"
-cardImage: "@/images/insights/como-invertir-en-florida-siendo-extranjero.png"
+cardImage: "@/images/insights/como-invertir-en-florida-siendo-extranjero.avif"
 cardImageAlt: "Mapa de Florida con iconos de propiedades, LLC, dólares, avión y banderas internacionales alrededor"
 ---
 

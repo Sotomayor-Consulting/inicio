@@ -1,7 +1,7 @@
 ---
 title: "LLC Disregarded Entity vs Partnership: Which One to Choose for Your Business?"
 description: "Complete comparison between disregarded entity and partnership tax regimes for LLCs, and how to choose the right one for your case."
-cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership.png"
+cardImage: "@/images/insights/llc-disregarded-entity-vs-partnership.avif"
 cardImageAlt: "Comparison of two tax structures with icons"
 ---
 

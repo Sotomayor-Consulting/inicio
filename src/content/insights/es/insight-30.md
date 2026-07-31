@@ -1,7 +1,7 @@
 ---
 title: "Cómo Proteger tu Patrimonio con Estructuras Internacionales: LLCs, Trusts y Más"
 description: "Estrategias legales de protección patrimonial usando LLCs en EE.UU., trusts y otras estructuras internacionales para emprendedores globales."
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.avif"
 cardImageAlt: "Escudo protector sobre un patrimonio global con conexiones internacionales"
 ---
 

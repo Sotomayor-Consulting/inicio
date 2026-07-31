@@ -1,99 +1,99 @@
 ---
 title: "O que o IRS Revisa em uma LLC Estrangeira? Fatores-Chave de Conformidade"
-description: "Revis�o do IRS em LLCs estrangeiras"
-cardImage: "@/images/insights/que-revisa-el-irs-en-una-llc-extranjera.png"
-cardImageAlt: "Fachada do edif�cio do IRS com bandeira americana"
+description: "Revisão do IRS em LLCs estrangeiras"
+cardImage: "@/images/insights/que-revisa-el-irs-en-una-llc-extranjera.avif"
+cardImageAlt: "Fachada do prédio do IRS com bandeira americana"
 ---
 
-Se voc� � estrangeiro e possui uma **Sociedade de Responsabilidade Limitada (LLC)** nos Estados Unidos, talvez se pergunte: **o que o IRS revisa em uma LLC estrangeira?** Embora a LLC em si geralmente n�o pague impostos a n�vel de entidade, o IRS examina atentamente certos aspectos para garantir a conformidade com as leis fiscais americanas.
+Se você é estrangeiro e possui uma **Sociedade de Responsabilidade Limitada (LLC)** nos Estados Unidos, talvez se pergunte: **o que o IRS revisa em uma LLC estrangeira?** Embora a LLC em si geralmente não pague impostos no nível da entidade, o IRS analisa de perto certos aspectos para garantir o cumprimento das leis fiscais americanas.
 
-Entender o que o IRS procura pode ajud�-lo a evitar penalidades, multas e auditorias desnecess�rias. A seguir, detalhamos as principais �reas que o IRS revisa em uma LLC de propriedade estrangeira.
+Entender o que o IRS procura pode ajudar você a evitar penalidades, multas e auditorias desnecessárias. A seguir, detalhamos as principais áreas que o IRS costuma revisar em uma LLC de propriedade estrangeira.
 
-## 1. Informa��es sobre o Benefici�rio Final
+## 1. Informações sobre o Beneficiário Final
 
-O IRS verifica quem � o propriet�rio ou controlador real da LLC. Propriet�rios estrangeiros devem revelar sua identidade, mesmo que a LLC seja detida por meio de um trust ou outra estrutura corporativa. Isso faz parte dos requisitos de **Informa��es sobre o Benefici�rio Final (BOI)** sob a Lei de Transpar�ncia Corporativa.
+O IRS verifica quem é o proprietário ou controlador real da LLC. Proprietários estrangeiros devem revelar sua identidade, mesmo que a LLC seja detida por meio de um trust ou outra estrutura societária. Isso faz parte das exigências de **Informações sobre o Beneficiário Final (BOI)** previstas na Corporate Transparency Act.
 
 ### O que o IRS verifica:
-- Nome legal completo e data de nascimento de cada benefici�rio final
-- Endere�o residencial ou comercial atual
-- N�mero de identifica��o �nico (passaporte ou ID fiscal estrangeiro)
+- Nome legal completo e data de nascimento de cada beneficiário final
+- Endereço residencial ou comercial atual
+- Número de identificação único (passaporte ou ID fiscal estrangeiro)
 - Percentual de propriedade e estrutura de controle
 
-Deixar de reportar informa��es precisas do benefici�rio final pode resultar em penalidades significativas.
+Deixar de reportar informações precisas sobre o beneficiário final pode resultar em penalidades significativas.
 
-## 2. Neg�cio Ativo vs. Investimento Passivo
+## 2. Negócio Ativo vs. Investimento Passivo
 
-Uma das distin��es mais cr�ticas que o IRS faz � se sua LLC realiza um **neg�cio ou com�rcio ativo** nos EUA ou simplesmente mant�m investimentos passivos (como im�veis ou a��es).
+Uma das distinções mais importantes que o IRS faz é se a sua LLC conduz um **negócio ou atividade comercial ativa** nos EUA ou se apenas mantém investimentos passivos (como imóveis ou ações).
 
 ### Fatores-chave revisados:
-- Natureza e frequ�ncia das transa��es
-- Presen�a de funcion�rios ou escrit�rio f�sico nos EUA
-- N�vel de atividades de gest�o e opera��es realizadas em solo americano
-- Se a LLC gera receita ativa (vendas, servi�os) vs. receita passiva (alugu�is, dividendos, juros)
+- Natureza e frequência das transações
+- Presença de funcionários ou escritório físico nos EUA
+- Nível de atividades de gestão e operações realizadas em solo americano
+- Se a LLC gera receita ativa (vendas, serviços) ou receita passiva (aluguéis, dividendos, juros)
 
-Essa classifica��o determina como sua renda � tributada e se voc� precisa apresentar uma declara��o de imposto nos EUA.
+Essa classificação determina como a sua renda será tributada e se você precisa apresentar declaração de imposto nos EUA.
 
-## 3. Obriga��es de Reten��o e Reporte
+## 3. Obrigações de Retenção e Reporte
 
-O IRS examina se a LLC e seus propriet�rios estrangeiros cumpriram suas obriga��es de reten��o e reporte. Os requisitos comuns incluem:
+O IRS examina se a LLC e seus proprietários estrangeiros cumpriram suas obrigações de retenção e reporte. Os requisitos mais comuns incluem:
 
-- **Formul�rio W-8BEN ou W-8BEN-E**: Para certificar status de estrangeiro e reivindicar benef�cios de tratados fiscais
-- **Formul�rio 1042 e 1042-S**: Declara��o anual de reten��o de impostos para pagamentos a pessoas estrangeiras
-- **Formul�rio 5472**: Exigido para entidades americanas ignoradas de propriedade estrangeira (incluindo LLCs de um �nico membro de propriedade de n�o residentes)
-- **Formul�rio 1120-F**: Exigido se a LLC estiver classificada como corpora��o para fins fiscais
+- **Formulário W-8BEN ou W-8BEN-E**: Para certificar a condição de estrangeiro e reivindicar benefícios de tratados fiscais
+- **Formulário 1042 e 1042-S**: Declaração anual de retenção de imposto para pagamentos a pessoas estrangeiras
+- **Formulário 5472**: Obrigatório para entidades americanas desconsideradas de propriedade estrangeira (incluindo LLCs de um único membro pertencentes a não residentes)
+- **Formulário 1120-F**: Necessário se a LLC estiver classificada como corporação para fins fiscais
 
-## 4. Pre�os de Transfer�ncia e Transa��es entre Partes Relacionadas
+## 4. Preços de Transferência e Transações entre Partes Relacionadas
 
-Se a LLC de propriedade estrangeira realiza transa��es com partes relacionadas (como uma empresa matriz ou afiliada no exterior), o IRS revisa se essas transa��es s�o conduzidas em **condi��es de plena concorr�ncia** � ou seja, os pre�os e termos seriam os mesmos se as partes n�o fossem relacionadas.
+Se a LLC de propriedade estrangeira realiza transações com partes relacionadas (como uma empresa-mãe ou afiliada no exterior), o IRS revisa se essas transações foram feitas em **condições de plena concorrência**, ou seja, se os preços e termos seriam os mesmos entre partes independentes.
 
-### �reas de foco:
-- Empr�stimos entre empresas e taxas de juros
-- Honor�rios de gest�o e encargos por servi�os
+### Áreas de foco:
+- Empréstimos entre empresas e taxas de juros
+- Honorários de gestão e cobranças por serviços
 - Pagamentos de royalties por propriedade intelectual
 - Acordos de compartilhamento de custos
 
-O IRS pode ajustar os pre�os dessas transa��es e impor penalidades se n�o estiverem devidamente documentadas.
+O IRS pode ajustar os preços dessas transações e aplicar penalidades se elas não estiverem devidamente documentadas.
 
 ## 5. Fonte da Renda
 
-O IRS determina se a renda da LLC � de **fonte americana** ou de **fonte estrangeira**, pois isso afeta a obriga��o tribut�ria. Os fatores-chave incluem:
+O IRS determina se a renda da LLC é de **fonte americana** ou de **fonte estrangeira**, porque isso afeta a obrigação tributária. Os fatores mais relevantes incluem:
 
-- Onde os servi�os s�o realizados
-- Onde a propriedade est� localizada (ex. im�veis nos EUA)
-- Onde o comprador ou pagador est� localizado
-- Onde o contrato � executado
+- Onde os serviços são realizados
+- Onde a propriedade está localizada (por exemplo, imóveis nos EUA)
+- Onde o comprador ou pagador está localizado
+- Onde o contrato é executado
 
-A renda de fonte americana geralmente est� sujeita � tributa��o nos EUA, enquanto a renda de fonte estrangeira pode estar isenta ou sujeita a regras diferentes.
+Renda de fonte americana normalmente está sujeita a tributação nos EUA, enquanto renda de fonte estrangeira pode ser isenta ou sujeita a regras diferentes.
 
-## 6. Cumprimento de Prazos de Apresenta��o
+## 6. Cumprimento dos Prazos de Apresentação
 
-Apresenta��es tardias ou omiss�es s�o um sinal de alerta para o IRS. LLCs de propriedade estrangeira devem estar cientes de v�rios prazos cr�ticos:
+Apresentações tardias ou omissões são sinais de alerta para o IRS. LLCs de propriedade estrangeira precisam estar atentas a vários prazos críticos:
 
-- **15 de mar�o**: Prazo final para o Formul�rio 1120 ou Formul�rio 1120-S (se a LLC optar pelo tratamento corporativo)
-- **15 de abril**: Prazo final para declara��es de imposto individuais e Formul�rio 5472 (se a LLC for uma entidade ignorada)
-- **15 de junho**: Prazo de prorroga��o para certas declara��es estrangeiras
-- **Cont�nuo**: O relat�rio BOI do FinCEN deve ser apresentado dentro de 90 dias ap�s a constitui��o e atualizado dentro de 30 dias de qualquer altera��o
+- **15 de março**: Prazo final para o Formulário 1120 ou Formulário 1120-S (se a LLC tiver optado por tratamento corporativo)
+- **15 de abril**: Prazo final para declarações individuais e para o Formulário 5472 (se a LLC for uma entidade desconsiderada)
+- **15 de junho**: Prazo de extensão para certas declarações estrangeiras
+- **Contínuo**: O relatório BOI ao FinCEN deve ser apresentado em até 90 dias após a constituição e atualizado em até 30 dias após qualquer alteração
 
-## 7. EIN e Classifica��o Fiscal
+## 7. EIN e Classificação Fiscal
 
-O IRS verifica se a LLC obteve um **N�mero de Identifica��o do Empregador (EIN)** v�lido e se sua classifica��o fiscal foi eleita corretamente. As op��es incluem:
+O IRS verifica se a LLC obteve um **Employer Identification Number (EIN)** válido e se a classificação fiscal foi escolhida corretamente. As opções incluem:
 
-- **Entidade Ignorada** (LLC de um �nico membro): O propriet�rio reporta a renda diretamente
-- **Sociedade** (LLC de v�rios membros): Apresenta o Formul�rio 1065
-- **Corpora��o S** ou **Corpora��o C**: Requer uma elei��o adicional (Formul�rio 2553 ou Formul�rio 8832)
+- **Entidade desconsiderada** (LLC de um único membro): O proprietário reporta a renda diretamente
+- **Sociedade** (LLC com vários membros): Apresenta o Formulário 1065
+- **S Corporation** ou **C Corporation**: Exige uma eleição adicional (Formulário 2553 ou Formulário 8832)
 
-Uma classifica��o incorreta pode resultar em penalidades e obriga��es fiscais inesperadas.
+Uma classificação incorreta pode gerar penalidades e obrigações tributárias inesperadas.
 
 ## 8. Conformidade FATCA
 
-Sob a **Lei de Conformidade Fiscal de Contas Estrangeiras (FATCA)**, institui��es financeiras estrangeiras e certas entidades n�o financeiras estrangeiras devem reportar sobre contas e ativos nos EUA. Se sua LLC estrangeira mant�m contas banc�rias ou investimentos nos EUA, o IRS pode revisar:
+Pela **Foreign Account Tax Compliance Act (FATCA)**, instituições financeiras estrangeiras e certas entidades não financeiras estrangeiras devem reportar contas e ativos nos EUA. Se sua LLC estrangeira mantém contas bancárias ou investimentos nos EUA, o IRS pode revisar:
 
-- Se a LLC apresentou o Formul�rio 8938 (Declara��o de Ativos Financeiros Estrangeiros Especificados)
-- Se as contas banc�rias estrangeiras excedem o limite de reporte ($10.000 agregados)
-- Se a LLC divulgou corretamente os interesses de propriedade para evitar penalidades de reten��o
+- Se a LLC apresentou o Formulário 8938 (Declaração de Ativos Financeiros Estrangeiros Especificados)
+- Se as contas bancárias estrangeiras excedem o limite de reporte ($10.000 no total)
+- Se a LLC divulgou corretamente os interesses de propriedade para evitar penalidades de retenção
 
-## Conclus�o
+## Conclusão
 
-O IRS revisa uma ampla gama de fatores quando se trata de LLCs de propriedade estrangeira. Desde a propriedade benefici�ria e a classifica��o de renda at� as obriga��es de reten��o e pre�os de transfer�ncia, manter-se em conformidade � essencial para evitar penalidades dispendiosas.
+O IRS revisa uma ampla variedade de fatores quando se trata de LLCs de propriedade estrangeira. Desde a propriedade beneficiária e a classificação da renda até as obrigações de retenção e os preços de transferência, manter-se em conformidade é essencial para evitar penalidades caras.
 
-Na **Sotomayor Consulting International**, ajudamos propriet�rios de LLCs estrangeiras a navegar pela conformidade fiscal nos EUA com confian�a. Entre em contato conosco hoje para garantir que sua LLC atenda a todos os requisitos do IRS e opere sem problemas.
+Na **Sotomayor Consulting International**, ajudamos proprietários de LLCs estrangeiras a lidar com a conformidade fiscal nos EUA com segurança. Entre em contato conosco para garantir que sua LLC cumpra todos os requisitos do IRS e opere sem problemas.

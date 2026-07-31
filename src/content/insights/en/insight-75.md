@@ -1,7 +1,7 @@
 ---
 title: "How to Avoid Personal Lawsuits: Complete Guide 2026"
 description: "How to avoid personal lawsuits"
-cardImage: "@/images/insights/como-evitar-demandas-personales.png"
+cardImage: "@/images/insights/como-evitar-demandas-personales.avif"
 cardImageAlt: "Legal shield protecting a person from lawsuits, with icons of contracts, insurance, and corporate structure"
 ---
 

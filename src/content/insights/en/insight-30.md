@@ -1,11 +1,11 @@
 ---
 title: "How to Protect Your Assets with International Structures: LLCs, Trusts, and More"
 description: "Legal asset protection strategies using U.S. LLCs, trusts, and other international structures for global entrepreneurs."
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.avif"
 cardImageAlt: "Protective shield over global assets with international connections"
 ---
 
-Protecting the assets you have built with your business is as important as growing them. For international entrepreneurs, U.S. structures �particularly LLCs� offer powerful asset protection tools not always available in their home countries.
+Protecting the assets you have built with your business is as important as growing them. For international entrepreneurs, U.S. structures -- particularly LLCs -- offer powerful asset protection tools not always available in their home countries.
 
 In this guide, we explore how to use LLCs and other international structures to protect your assets legally and effectively.
 
@@ -22,7 +22,7 @@ In this guide, we explore how to use LLCs and other international structures to 
 - **Professional errors:** Negligence or malpractice lawsuits
 ### The basic principle: asset separation
 
-Asset protection is based on a simple principle: **separate your personal assets from your business risks**. If your business is sued or goes bankrupt, your personal assets �home, savings, investments� are protected.
+Asset protection is based on a simple principle: **separate your personal assets from your business risks**. If your business is sued or goes bankrupt, your personal assets -- home, savings, investments -- are protected.
 
 ## The LLC as an asset protection tool
 
@@ -61,7 +61,7 @@ Some U.S. states have specific laws protecting assets inside LLCs:
 - **Nevada:** Charge order protection -- Similar to Wyoming
 - **Delaware:** Series LLC -- Each series has independent protection
 - **Florida:** Homestead exemption -- Protection of primary residence
-**Charge order protection:** This is the legal mechanism that limits what a creditor can do with your LLC. If a creditor wins a lawsuit against you personally, they cannot take your LLC's assets. They can only obtain a "charge order" giving them the right to receive any distributions the LLC makes to you �but they cannot force the LLC to make distributions.
+**Charge order protection:** This is the legal mechanism that limits what a creditor can do with your LLC. If a creditor wins a lawsuit against you personally, they cannot take your LLC's assets. They can only obtain a "charge order" giving them the right to receive any distributions the LLC makes to you -- but they cannot force the LLC to make distributions.
 
 ### 4. Series LLC: protection by business line
 

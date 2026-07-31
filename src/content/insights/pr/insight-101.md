@@ -1,7 +1,7 @@
 ---
 title: "Como Automatizar Vendas com IA: Guia 2026"
 description: "Automatizar vendas com IA"
-cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
+cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.avif"
 cardImageAlt: "Automação de vendas com CRM impulsionado por IA, chatbots, sequências de e-mail, Stripe billing e análise"
 ---
 

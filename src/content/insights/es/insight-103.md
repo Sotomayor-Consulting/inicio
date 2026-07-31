@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Automatizaciones que toda empresa necesita: Guía 2026"
 description: "Automatizaciones esenciales para empresas"
-cardImage: "@/images/insights/automatizaciones-que-toda-empresa-necesita.png"
+cardImage: "@/images/insights/automatizaciones-que-toda-empresa-necesita.avif"
 cardImageAlt: "Diagrama de automatización empresarial mostrando sistemas interconectados de CRM, email, facturación, inventario y soporte al cliente"
 ---
 

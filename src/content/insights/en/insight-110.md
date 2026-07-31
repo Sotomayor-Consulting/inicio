@@ -1,7 +1,7 @@
 ---
 title: "How to Implement Scalable Processes: 2026 Guide"
 description: "Build processes that scale with your business"
-cardImage: "@/images/insights/como-implementa-procesos-escalables.png"
+cardImage: "@/images/insights/como-implementa-procesos-escalables.avif"
 cardImageAlt: "Scalable process framework showing standardized workflows, automation layers, team structure, Odoo integration, and Stripe payment operations"
 ---
 

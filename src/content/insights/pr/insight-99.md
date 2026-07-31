@@ -1,7 +1,7 @@
 ---
 title: "Como Preparar sua Empresa para Crescer Globalmente: Guia 2026"
 description: "Prepare sua empresa para crescer globalmente"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/negocios-internacionales.avif"
 cardImageAlt: "Estratégia de crescimento global empresarial com expansão internacional, operações multi-moeda e infraestrutura transfronteiriça"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Sales with AI: 2026 Guide"
 description: "Automate sales with AI"
-cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.png"
+cardImage: "@/images/insights/automatizacion-ventas-y-atencion-al-cliente.avif"
 cardImageAlt: "Sales automation with AI-powered CRM, chatbots, email sequences, Stripe billing, and analytics"
 ---
 

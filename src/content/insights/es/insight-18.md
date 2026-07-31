@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Abrir una LLC Pensando que Automáticamente No Paga Impuestos: El Error Más Común"
 description: "Descubre por qué abrir una LLC no significa automáticamente estar exento de impuestos y qué obligaciones fiscales debes conocer."
-cardImage: "@/images/insights/abrir-una-llc-pensando-que-no-paga-impuestos.png"
+cardImage: "@/images/insights/abrir-una-llc-pensando-que-no-paga-impuestos.avif"
 cardImageAlt: "Persona confundida con documentos de impuestos"
 ---
 

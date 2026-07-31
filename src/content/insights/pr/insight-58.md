@@ -1,7 +1,7 @@
 ---
 title: "Como Conectar Stripe com Shopify: Guia Passo a Passo 2026"
 description: "Conectar Stripe com Shopify"
-cardImage: "@/images/insights/como-conectar-stripe-con-shopify.png"
+cardImage: "@/images/insights/como-conectar-stripe-con-shopify.avif"
 cardImageAlt: "Logotipos do Stripe e Shopify lado a lado com seta de conexão"
 ---
 

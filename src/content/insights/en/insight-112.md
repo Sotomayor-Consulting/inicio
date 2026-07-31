@@ -1,7 +1,7 @@
 ---
 title: "How to Reinstate a Delinquent LLC: 2026 Guide"
 description: "Steps to reinstate and bring your LLC back to good standing"
-cardImage: "@/images/insights/como-regularizar-una-llc-atrasada.png"
+cardImage: "@/images/insights/como-regularizar-una-llc-atrasada.avif"
 cardImageAlt: "LLC reinstatement guide showing state filing forms, penalty calculations, compliance calendars, registered agent services, and business restoration flowchart"
 ---
 

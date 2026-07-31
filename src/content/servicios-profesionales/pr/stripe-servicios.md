@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Otimização da Taxa de Conversão"
     subTitle: "Ajudamos você a implementar estratégias de pagamento que melhorem a experiência do cliente e aumentem sua taxa de conversão online."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

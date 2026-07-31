@@ -1,7 +1,7 @@
 ---
 title: "Como Cobrar com Cartão de Qualquer País: Guia Completo 2026"
 description: "Cobrar com cartão de qualquer país"
-cardImage: "@/images/insights/como-cobrar-con-tarjeta-desde-cualquier-pais.png"
+cardImage: "@/images/insights/como-cobrar-con-tarjeta-desde-cualquier-pais.avif"
 cardImageAlt: "Cartões de crédito de diferentes países com globo ao fundo"
 ---
 

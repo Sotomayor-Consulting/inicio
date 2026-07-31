@@ -1,7 +1,7 @@
 ---
 title: "Cómo Estructurar Propiedades para Protección Patrimonial: Guía 2026"
 description: "Cómo estructurar propiedades para protección patrimonial"
-cardImage: "@/images/insights/propiedades-para-proteccion-patrimonial.png"
+cardImage: "@/images/insights/propiedades-para-proteccion-patrimonial.avif"
 cardImageAlt: "Estructura piramidal de protección patrimonial: propiedades individuales → LLCs → Holding → Trust, con escudos de protección en cada nivel"
 ---
 

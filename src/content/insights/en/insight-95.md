@@ -1,7 +1,7 @@
 ---
 title: "How to Open International Operations: 2026 Guide"
 description: "How to open international operations"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/negocios-internacionales.avif"
 cardImageAlt: "World map with expansion icons: Delaware company formation, bank accounts, global hiring, Stripe payments, and virtual offices connected"
 ---
 

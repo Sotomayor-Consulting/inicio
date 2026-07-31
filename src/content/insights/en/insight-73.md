@@ -1,7 +1,7 @@
 ---
 title: "How to Separate Personal and Business Finances: Guide 2026"
 description: "How to separate personal and business finances"
-cardImage: "@/images/insights/como-separar-finanzas-persoonales-y-empresariales.png"
+cardImage: "@/images/insights/como-separar-finanzas-persoonales-y-empresariales.avif"
 cardImageAlt: "Two separate piggy banks, one personal and one business, with money flowing in an orderly manner"
 ---
 

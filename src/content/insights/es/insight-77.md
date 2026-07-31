@@ -1,7 +1,7 @@
 ---
 title: "Cómo Proteger Activos Digitales: Guía Completa 2026"
 description: "Cómo proteger activos digitales"
-cardImage: "@/images/insights/proteccion-de-activos-digitales.png"
+cardImage: "@/images/insights/proteccion-de-activos-digitales.avif"
 cardImageAlt: "Escudo digital protegiendo iconos de activos como código, marcas, dominios, datos y criptomonedas"
 ---
 

@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Cómo automatizar el seguimiento de leads: Guía 2026"
 description: "Automatiza el seguimiento de leads"
-cardImage: "@/images/insights/como-automatizar-el-seguimiento-de-leads.png"
+cardImage: "@/images/insights/como-automatizar-el-seguimiento-de-leads.avif"
 cardImageAlt: "Dashboard de automatización de seguimiento de leads mostrando puntuación, secuencias automatizadas, pipeline de CRM y analíticas"
 ---
 

@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Cómo Evitar Demandas Personales: Guía Completa 2026"
 description: "Cómo evitar demandas personales"
-cardImage: "@/images/insights/como-evitar-demandas-personales.png"
+cardImage: "@/images/insights/como-evitar-demandas-personales.avif"
 cardImageAlt: "Escudo legal protegiendo a una persona de demandas, con iconos de contratos, seguros y estructura corporativa"
 ---
 

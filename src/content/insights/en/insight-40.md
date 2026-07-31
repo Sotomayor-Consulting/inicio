@@ -1,7 +1,7 @@
 ---
 title: "How to Document International Operations: Records and Compliance Guide"
 description: "Documentation of international operations"
-cardImage: "@/images/insights/como-documentar-operaciones-internacionales.png"
+cardImage: "@/images/insights/como-documentar-operaciones-internacionales.avif"
 cardImageAlt: "Organized documents with stamps from different countries and a magnifying glass"
 ---
 

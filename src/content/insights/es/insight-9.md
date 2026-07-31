@@ -1,7 +1,7 @@
-﻿---
+---
 title: "¿Cuánto Cuesta Mantener una LLC en EE.UU.? Guía Completa de Costos"
 description: "Descubre cuánto cuesta mantener una LLC en EE.UU.: agente registrado, reporte anual, impuestos, contabilidad y más. Costos reales por estado."
-cardImage: "@/images/insights/cuanto-cuesta-mantener-una-llc-en-eeuu.png"
+cardImage: "@/images/insights/cuanto-cuesta-mantener-una-llc-en-eeuu.avif"
 cardImageAlt: "Persona calculando gastos de su negocio"
 ---
 

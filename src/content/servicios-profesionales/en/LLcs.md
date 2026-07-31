@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Compliance Doesn't Have to Be Complicated"
     subTitle: "Regulatory requirements like the BEA's BE-13 Claim for Exemption are essential for accurate economic data. With our expert guidance, complying with this filing becomes a simple and straightforward process, allowing you to focus on growing your business without distractions."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Optimización de la Tasa de Conversión"
     subTitle: "Te ayudamos a implementar estrategias de pago que mejoren la experiencia del cliente y aumenten tu tasa de conversión en línea."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

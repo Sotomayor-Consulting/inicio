@@ -1,7 +1,7 @@
 ---
 title: "What is an LLC and What is it For? Complete Guide for Latin Americans"
 description: "Discover what an LLC is, how it works, and what it is really for. A complete guide for Latin American entrepreneurs."
-cardImage: "@/images/insights/que-es-una-llc.png"
+cardImage: "@/images/insights/que-es-una-llc.avif"
 cardImageAlt: "Entrepreneur analyzing his business on a laptop"
 ---
 

@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Content Management Training"
     subTitle: "We provide basic training so you can manage and update your website content independently if you wish."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

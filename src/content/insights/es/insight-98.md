@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Cómo Acceder al Sistema Financiero Estadounidense: Guía 2026"
 description: "Acceder al sistema financiero estadounidense"
-cardImage: "@/images/insights/como-acceder-al-sistema-financiero-estadounidense.png"
+cardImage: "@/images/insights/como-acceder-al-sistema-financiero-estadounidense.avif"
 cardImageAlt: "Acceso al sistema financiero de EE.UU. con cuentas bancarias, Stripe, Wise y plataformas de banca digital para extranjeros"
 ---
 

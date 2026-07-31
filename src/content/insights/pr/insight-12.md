@@ -1,107 +1,108 @@
 ---
 title: "Uma LLC Deve Pagar Impostos nos EUA? Guia Completo"
-description: "Descubra se uma LLC paga impostos nos EUA segundo seu caso: propriet�rio estrangeiro, v�rios s�cios, receitas de fonte americana e mais."
-cardImage: "@/images/insights/una-llc-debe-pagar-impuestos.png"
-cardImageAlt: "Pessoa revisando documentos tribut�rios em um laptop"
+description: "Descubra se uma LLC paga impostos nos EUA de acordo com o seu caso: proprietário estrangeiro, vários sócios, receitas de fonte americana e mais."
+cardImage: "@/images/insights/una-llc-debe-pagar-impuestos.avif"
+cardImageAlt: "Pessoa revisando documentos tributários em um laptop"
 ---
 
-Uma LLC paga impostos? A resposta n�o � um sim ou n�o autom�tico. Depende de v�rios fatores.
+Uma LLC paga impostos? A resposta não é um simples sim ou não. Depende de vários fatores.
 
 Do que depende se uma LLC paga impostos:
 
-- Quem � o propriet�rio da LLC.
-- Se tem um ou v�rios s�cios.
-- Se o propriet�rio � residente ou n�o residente fiscal nos EUA.
-- Onde a atividade comercial � realizada.
-- Se as receitas s�o de fonte americana.
-- Se existe presen�a f�sica, funcion�rios, escrit�rio ou invent�rio nos EUA.
-- Se a LLC optou por tributar como corpora��o.
+- De quem é o proprietário da LLC.
+- De ela ter um ou vários sócios.
+- De o proprietário ser ou não residente fiscal nos EUA.
+- De onde a atividade comercial é realizada.
+- De as receitas serem ou não de fonte americana.
+- De existir presença física, funcionários, escritório ou estoque nos EUA.
+- De a LLC ter optado por ser tributada como corporation.
 
-## Caso 1: LLC de um �nico propriet�rio estrangeiro
+## Caso 1: LLC de um único proprietário estrangeiro
 
-Uma LLC de um �nico membro, propriedade de uma pessoa estrangeira n�o residente, normalmente pode ser tratada como uma **disregarded entity** para efeitos fiscais.
+Uma LLC de um único membro, pertencente a uma pessoa estrangeira não residente, normalmente pode ser tratada como uma **disregarded entity** para fins fiscais.
 
-Isto significa que a LLC pode ser "transparente" para impostos sobre a renda. No entanto, se for propriedade de um estrangeiro, pode ter obriga��o de apresentar o Formul�rio 5472 junto com um Formul�rio 1120 pro forma quando existirem transa��es report�veis com partes relacionadas. O IRS inclui dentro destas entidades reportantes as foreign-owned U.S. disregarded entities.
+Isso significa que a LLC pode ser considerada "transparente" para efeitos de imposto de renda. No entanto, se ela pertencer a um estrangeiro, pode haver obrigação de apresentar o Formulário 5472 junto com um Formulário 1120 pro forma quando existirem transações reportáveis com partes relacionadas. O IRS inclui nesse grupo as foreign-owned U.S. disregarded entities.
 
-## Caso 2: LLC com dois ou mais s�cios
+## Caso 2: LLC com dois ou mais sócios
 
-Quando uma LLC tem v�rios membros, geralmente pode ser tratada como partnership para efeitos fiscais. Nesse caso, normalmente deve apresentar o Formul�rio 1065, que � uma declara��o informativa onde se reportam receitas, despesas, ganhos, perdas e dedu��es. O IRS esclarece que uma partnership apresenta uma declara��o informativa, mas n�o paga imposto sobre a renda diretamente a n�vel da entidade.
+Quando uma LLC tem vários membros, geralmente pode ser tratada como partnership para fins fiscais. Nesse caso, normalmente deve apresentar o Formulário 1065, que é uma declaração informativa em que se reportam receitas, despesas, ganhos, perdas e deduções. O próprio IRS esclarece que uma partnership apresenta declaração informativa, mas não paga imposto de renda diretamente no nível da entidade.
 
-Os s�cios recebem um Schedule K-1, onde se informa a participa��o que corresponde a cada um.
+Os sócios recebem um Schedule K-1, que informa a participação correspondente a cada um.
 
 ## Caso 3: LLC que gera receitas de fonte americana
 
-Se a LLC tiver receitas efetivamente conectadas com uma atividade comercial nos EUA (Effectively Connected Income ou ECI), pode existir obriga��o de pagar impostos federais e apresentar declara��es adicionais.
+Se a LLC tiver receitas efetivamente conectadas a uma atividade comercial nos EUA (Effectively Connected Income, ou ECI), pode haver obrigação de pagar impostos federais e apresentar declarações adicionais.
 
-Isto pode ocorrer, por exemplo, se a empresa tiver:
+Isso pode ocorrer, por exemplo, se a empresa tiver:
 
-- Escrit�rio f�sico nos EUA.
-- Funcion�rios nos EUA.
-- Servi�os prestados fisicamente dentro dos EUA.
-- Invent�rio ou log�stica dentro do pa�s.
-- Opera��es comerciais ativas em territ�rio americano.
+- Escritório físico nos EUA.
+- Funcionários nos EUA.
+- Serviços prestados fisicamente dentro dos EUA.
+- Estoque ou logística dentro do país.
+- Operações comerciais ativas em território americano.
 
-## Caso 4: LLC que optou por tributar como Corporation
+## Caso 4: LLC que optou por tributação como Corporation
 
-Uma LLC pode fazer uma elei��o fiscal para tributar como corpora��o. Nesse caso, a empresa deixa de ser tratada como entidade transparente e pode estar sujeita a impostos corporativos.
+Uma LLC pode fazer uma eleição fiscal para ser tributada como corporation. Nesse caso, a empresa deixa de ser tratada como uma entidade transparente e pode ficar sujeita a impostos corporativos.
 
-Esta decis�o deve ser analisada cuidadosamente, pois pode mudar completamente o tratamento fiscal da empresa.
+Essa decisão deve ser analisada com cuidado, porque pode mudar completamente o tratamento tributário da empresa.
 
-## Ent�o, uma LLC sempre paga impostos?
+## Então, uma LLC sempre paga impostos?
 
-N�o necessariamente.
+Não necessariamente.
 
-Uma LLC pode ter tr�s cen�rios distintos:
+Uma LLC pode se enquadrar em três cenários distintos:
 
-1. **N�o pagar imposto federal sobre a renda**, mas apresentar formul�rios informativos.
-2. **Pagar impostos nos EUA**, se gerar receitas sujeitas � tributa��o americana.
-3. **Ter obriga��es estaduais**, mesmo que n�o deva imposto federal.
+1. **Não pagar imposto federal sobre a renda**, mas ainda assim apresentar formulários informativos.
+2. **Pagar impostos nos EUA**, se gerar receitas sujeitas à tributação americana.
+3. **Ter obrigações estaduais**, mesmo que não deva imposto federal.
 
-## Obriga��es estaduais
+## Obrigações estaduais
 
-Al�m do IRS, cada estado pode exigir relat�rios, taxas ou impostos anuais.
+Além do IRS, cada estado pode exigir relatórios, taxas ou impostos anuais.
 
 Por exemplo, uma LLC pode ser obrigada a pagar:
 
 - Annual Report.
 - Franchise Tax.
 - Agente registrado.
-- Taxas estaduais de manuten��o.
+- Taxas estaduais de manutenção.
 
-Estas obriga��es existem mesmo que a LLC n�o tenha gerado receitas.
+Essas obrigações existem mesmo que a LLC não tenha gerado receita.
 
-## Erro comum: pensar que uma LLC � igual a zero impostos
+## Erro comum: pensar que LLC é sinônimo de zero imposto
 
-Uma LLC **n�o � uma ferramenta m�gica** para n�o pagar impostos. O tratamento fiscal depende do caso espec�fico. Abrir uma LLC sem planejamento pode gerar:
+Uma LLC **não é uma ferramenta mágica** para não pagar impostos. O tratamento tributário depende do caso concreto. Abrir uma LLC sem planejamento pode gerar:
 
 - Multas.
-- Formul�rios n�o apresentados.
-- Problemas banc�rios.
+- Formulários não apresentados.
+- Problemas bancários.
 - Riscos com o IRS.
-- Dupla tributa��o ou m� estrutura��o.
+- Dupla tributação ou má estruturação.
 
-Uma LLC pode ser uma excelente ferramenta para empres�rios latino-americanos, mas deve ser estruturada corretamente.
+Uma LLC pode ser uma excelente ferramenta para empresários latino-americanos, mas precisa ser estruturada corretamente.
 
-## A pergunta correta
+## A pergunta certa
 
-A pergunta n�o deveria ser apenas: Uma LLC paga impostos?
+A pergunta não deveria ser apenas: uma LLC paga impostos?
 
-A pergunta correta �: **segundo minha atividade, resid�ncia fiscal e modelo de neg�cio, que obriga��es minha LLC teria perante o IRS e perante o estado?**
+A pergunta correta é: **de acordo com a minha atividade, residência fiscal e modelo de negócio, quais obrigações minha LLC teria perante o IRS e perante o estado?**
 
 ## Tabela resumo
 
-- **Single-member LLC estrangeira sem ECI:** N�o -- Sim (5472, 1120 pro forma)
-- **Multi-member LLC sem ECI:** N�o (pass-through) -- Sim (1065, K-1)
-- **LLC com ECI (receitas EUA):** Sim -- Sim
-- **LLC que optou por tributar como C-Corp:** Sim -- Sim
-## Conclus�o
+- **Single-member LLC estrangeira sem ECI:** Não -- Sim (5472, 1120 pro forma)
+- **Multi-member LLC sem ECI:** Não (pass-through) -- Sim (1065, K-1)
+- **LLC com ECI (receitas dos EUA):** Sim -- Sim
+- **LLC que optou por tributação como C-Corp:** Sim -- Sim
 
-Uma LLC n�o paga impostos automaticamente, mas tamb�m n�o est� isenta de obriga��es. O tratamento fiscal depender� de sua estrutura, atividade, receitas e resid�ncia fiscal.
+## Conclusão
 
-O mais recomend�vel � analisar cada caso com assessoria profissional antes de abrir a LLC, para evitar conting�ncias fiscais e aproveitar os benef�cios reais desta estrutura.
+Uma LLC não paga impostos automaticamente, mas também não está isenta de obrigações. O tratamento tributário vai depender da sua estrutura, atividade, receitas e residência fiscal.
+
+O mais recomendável é analisar cada caso com assessoria profissional antes de abrir a LLC, para evitar contingências fiscais e aproveitar os benefícios reais dessa estrutura.
 
 ## Quer saber se sua LLC pagaria impostos nos EUA?
 
-Na **Sotomayor Consulting International**, analisamos seu caso, modelo de neg�cio, resid�ncia fiscal e fonte de receitas para determinar que obriga��es sua LLC poderia ter.
+Na **Sotomayor Consulting International**, analisamos seu caso, seu modelo de negócio, sua residência fiscal e a origem das suas receitas para determinar quais obrigações sua LLC poderia ter.
 
-**Agende uma consultoria inicial gratuita** e receba uma an�lise personalizada de sua situa��o fiscal.
+**Agende uma consultoria inicial gratuita** e receba uma análise personalizada da sua situação fiscal.

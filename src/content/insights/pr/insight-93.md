@@ -1,7 +1,7 @@
 ---
 title: "Como Vender Globalmente da América Latina: Guia 2026"
 description: "Como vender globalmente da América Latina"
-cardImage: "@/images/insights/internacionalizar-una-marca.png"
+cardImage: "@/images/insights/internacionalizar-una-marca.avif"
 cardImageAlt: "Mapa da América Latina com setas de exportação digital para EUA, Europa e Ásia, com ícones do Stripe, Shopify, Mercado Pago e métodos de pagamento globais"
 ---
 

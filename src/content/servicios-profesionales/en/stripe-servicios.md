@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Conversion Rate Optimization"
     subTitle: "We help you implement payment strategies that improve the customer experience and increase your online conversion rate."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

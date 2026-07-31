@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Lead Tracking: 2026 Guide"
 description: "Automate lead tracking and follow-up"
-cardImage: "@/images/insights/como-automatizar-el-seguimiento-de-leads.png"
+cardImage: "@/images/insights/como-automatizar-el-seguimiento-de-leads.avif"
 cardImageAlt: "Lead tracking automation dashboard showing lead scoring, automated follow-up sequences, CRM pipeline, and analytics"
 ---
 

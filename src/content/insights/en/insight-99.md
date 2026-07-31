@@ -1,7 +1,7 @@
 ---
 title: "How to Prepare Your Business for Global Growth: 2026 Guide"
 description: "Prepare your business for global growth"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/negocios-internacionales.avif"
 cardImageAlt: "Global business growth strategy with international expansion, multi-currency operations, and cross-border infrastructure"
 ---
 

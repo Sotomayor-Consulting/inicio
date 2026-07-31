@@ -1,7 +1,7 @@
 ---
 title: "How to Structure a Scalable Business: 2026 Guide"
 description: "Structure a scalable business"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/negocios-internacionales.avif"
 cardImageAlt: "Scalable business structure with multi-entity setup, automation, global banking, and growth infrastructure"
 ---
 

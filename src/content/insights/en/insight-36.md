@@ -1,7 +1,7 @@
 ---
 title: "How Is Digital Income Taxed? Complete Guide for Creators and Entrepreneurs"
 description: "Taxation of digital income"
-cardImage: "@/images/insights/como-tributan-los-ingresos-digitales.png"
+cardImage: "@/images/insights/como-tributan-los-ingresos-digitales.avif"
 cardImageAlt: "Digital devices with financial charts and virtual coins"
 ---
 
@@ -133,10 +133,10 @@ If you receive income through foreign platforms (such as Binance, Wise, Payoneer
 
 If you expect to owe more than **$1,000** to the IRS when filing your annual return, you must make quarterly estimated payments:
 
-- **January � March:** April 15
-- **April � May:** June 15
-- **June � August:** September 15
-- **September � December:** January 15 (next year)
+- **January -- March:** April 15
+- **April -- May:** June 15
+- **June -- August:** September 15
+- **September -- December:** January 15 (next year)
 ### Consequences of not paying:
 - Underpayment penalty
 - Interest on the unpaid balance

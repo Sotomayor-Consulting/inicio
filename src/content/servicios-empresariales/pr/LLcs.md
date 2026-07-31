@@ -47,6 +47,6 @@ specificationsRight:
   - title: "O Cumprimento não precisa ser complicado"
     subTitle: "Requisitos regulatórios como o Pedido de Isenção BE-13 do BEA são essenciais para dados econômicos precisos. Com nossa orientação especializada, cumprir com esse arquivamento se torna um processo simples e direto, permitindo que você se concentre em expandir seus negócios sem distrações."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

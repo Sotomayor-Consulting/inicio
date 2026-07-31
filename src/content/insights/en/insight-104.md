@@ -1,7 +1,7 @@
 ---
 title: "CRM for International Businesses: 2026 Guide"
 description: "International CRM strategy"
-cardImage: "@/images/insights/crm-para-negocios-internacionales.png"
+cardImage: "@/images/insights/crm-para-negocios-internacionales.avif"
 cardImageAlt: "Global CRM dashboard showing multi-currency pipelines, international leads map, and cross-border sales workflows"
 ---
 
@@ -27,7 +27,7 @@ In this guide, we cover **how to choose, configure, and optimize a CRM for inter
 
 ### Must-Have Features
 
-- **Multi-Currency:** Sell in USD, EUR, BRL, MXN, COP � all in one pipeline -- Deal values auto-convert to base currency
+- **Multi-Currency:** Sell in USD, EUR, BRL, MXN, COP -- all in one pipeline -- Deal values auto-convert to base currency
 - **Multi-Language UI:** Sales teams in each country work in their language -- HubSpot supports 15+ languages
 - **Multi-Language Content:** Sends emails, proposals, and quotes in customer's language -- Dynamic content blocks by locale
 - **Global Compliance:** Auto-handles GDPR, LGPD, CCPA consent and data retention -- Consent management built into CRM
@@ -74,7 +74,7 @@ In this guide, we cover **how to choose, configure, and optimize a CRM for inter
 - **Mexico:** Credit cards, OXXO, SPEI -- OXXO + SPEI via Stripe -- MXN
 - **Colombia:** Credit cards, PSE, Baloto -- PSE via Stripe -- COP
 - **European Union:** SEPA, credit cards, PayPal -- SEPA via Stripe -- EUR
-- **Argentina:** Credit cards, Rapipago, Pago F�cil -- Limited (via Stripe Atlas) -- ARS
+- **Argentina:** Credit cards, Rapipago, Pago Facil -- Limited (via Stripe Atlas) -- ARS
 - **Chile:** Credit cards, Webpay, Khipu -- Webpay via Stripe -- CLP
 ### International Payment Flow
 
@@ -110,15 +110,15 @@ In this guide, we cover **how to choose, configure, and optimize a CRM for inter
 - **HubSpot Starter:** Basic -- 5 languages -- GDPR -- $20-$100/mo -- Small business, 1-2 regions
 ## Conclusion
 
-**An international CRM is the backbone of any global business.** It unifies sales, marketing, and support across countries, currencies, languages, and regulatory frameworks � turning the complexity of global operations into a manageable, data-driven system.
+**An international CRM is the backbone of any global business.** It unifies sales, marketing, and support across countries, currencies, languages, and regulatory frameworks -- turning the complexity of global operations into a manageable, data-driven system.
 
 The key principles for international CRM success:
 
-- **Localize everything** � every touchpoint should feel local: language, currency, payment methods, and compliance
-- **Connect payments to CRM** � Stripe integration turns your CRM from a tracking tool into a revenue engine that works across borders
-- **Automate compliance** � build GDPR, LGPD, and CCPA into your CRM workflows rather than treating them as afterthoughts
-- **Think globally, act regionally** � centralize strategy and reporting, but decentralize execution with regional teams and configurations
-- **Measure by region** � track pipeline, revenue, and conversion by market to identify where to double down and where to adjust
+- **Localize everything** -- every touchpoint should feel local: language, currency, payment methods, and compliance
+- **Connect payments to CRM** -- Stripe integration turns your CRM from a tracking tool into a revenue engine that works across borders
+- **Automate compliance** -- build GDPR, LGPD, and CCPA into your CRM workflows rather than treating them as afterthoughts
+- **Think globally, act regionally** -- centralize strategy and reporting, but decentralize execution with regional teams and configurations
+- **Measure by region** -- track pipeline, revenue, and conversion by market to identify where to double down and where to adjust
 
 **Your CRM is your global nerve center.** When configured correctly for international operations, it gives you real-time visibility into every market, ensures compliance with every regulation, and enables your teams to sell in any currency, in any language, anywhere in the world.
 

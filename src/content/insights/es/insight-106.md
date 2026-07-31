@@ -1,7 +1,7 @@
 ---
 title: "IA aplicada a la atención al cliente: Guía 2026"
 description: Automatización de soporte al cliente con IA
-cardImage: "@/images/insights/ia-aplicada-a-la-atencion-al-cliente.png"
+cardImage: "@/images/insights/ia-aplicada-a-la-atencion-al-cliente.avif"
 cardImageAlt: Dashboard de soporte al cliente con IA mostrando conversaciones de
   chatbot, análisis de sentimiento, resolución automatizada de tickets y
   métricas de rendimiento

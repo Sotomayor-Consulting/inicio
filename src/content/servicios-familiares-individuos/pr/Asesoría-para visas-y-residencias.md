@@ -49,6 +49,6 @@ specificationsRight:
   - title: "Visibilidade de Longo Prazo"
     subTitle: "Desenvolvemos uma solução de migração escalável, que pode crescer e se adaptar à medida que sua família e suas necessidades se expandem."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

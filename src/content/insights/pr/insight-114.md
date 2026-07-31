@@ -1,7 +1,7 @@
 ---
 title: "O Que Fazer se o IRS te Enviou uma Carta: Guia 2026"
 description: "Guia passo a passo para responder a avisos, auditorias e cartas fiscais do IRS"
-cardImage: "@/images/insights/que-hacer-si-el-irs-te-envia-una-carta.png"
+cardImage: "@/images/insights/que-hacer-si-el-irs-te-envia-una-carta.avif"
 cardImageAlt: "Guia de resposta a avisos do IRS mostrando tipos de carta por gravidade, fluxograma de prazo de resposta, tabela de referência de números de aviso do IRS, lista de verificação de direitos do contribuinte e painel de gestão de conta online"
 ---
 

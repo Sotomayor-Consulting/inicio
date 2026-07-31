@@ -1,7 +1,7 @@
 ---
 title: "Como Estruturar um Negócio Escalável: Guia 2026"
 description: "Estruturar um negócio escalável"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/negocios-internacionales.avif"
 cardImageAlt: "Estrutura de negócio escalável com configuração multi-entidade, automação, banca global e infraestrutura de crescimento"
 ---
 

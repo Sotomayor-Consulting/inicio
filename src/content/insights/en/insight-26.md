@@ -1,11 +1,11 @@
 ---
 title: "International Tax Treaties and LLCs: A Guide for Global Entrepreneurs"
 description: "How double taxation treaties affect your U.S. LLC, which countries have favorable treaties, and how to optimize your tax structure."
-cardImage: "@/images/insights/tratados-tributarios-internacionales.png"
+cardImage: "@/images/insights/tratados-tributarios-internacionales.avif"
 cardImageAlt: "World map with tax connections between countries"
 ---
 
-One of the most complex �and most important� topics for international entrepreneurs with a U.S. LLC is how **tax treaties** affect their tax structure.
+One of the most complex -- and most important -- topics for international entrepreneurs with a U.S. LLC is how **tax treaties** affect their tax structure.
 
 Depending on your country of residence, your LLC's income may be taxed in the U.S., in your country, or both. And in some cases, a tax treaty can reduce or eliminate withholding tax on certain types of income.
 

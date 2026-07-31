@@ -1,7 +1,7 @@
 ---
 title: "Diferencia Entre Proteger y Ocultar Patrimonio: Guía 2026"
 description: "Diferencia entre proteger y ocultar patrimonio"
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.avif"
 cardImageAlt: "Balanza de la justicia con un lado transparente y otro oscuro, simbolizando la diferencia entre protección legal y ocultamiento ilegal"
 ---
 

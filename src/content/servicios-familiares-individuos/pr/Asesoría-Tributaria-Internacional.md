@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Atualização Constante"
     subTitle: "Monitoramos as mudanças nas leis fiscais internacionais para asegurar que sua estratégia esteja sempre atualizada e cumpra com as novas regulamentações globais."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

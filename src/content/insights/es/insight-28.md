@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Regularización de LLCs Atrasadas: Cómo Poner al Día tu Empresa"
 description: "Guía completa para regularizar tu LLC si no has presentado el Annual Report, no has pagado impuestos o tu cuenta bancaria fue congelada."
-cardImage: "@/images/insights/regularizacion-de-llc-atrasadas.png"
+cardImage: "@/images/insights/regularizacion-de-llc-atrasadas.avif"
 cardImageAlt: "Documentos de LLC siendo reorganizados y puestos al día"
 ---
 

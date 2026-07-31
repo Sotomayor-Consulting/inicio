@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Visión a Largo Plazo"
     subTitle: "Monitoreamos las tendencias del mercado inmobiliario para asegurarnos de que tu estrategia esté siempre actualizada y cumpla con tus objetivos de crecimiento de patrimonio."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

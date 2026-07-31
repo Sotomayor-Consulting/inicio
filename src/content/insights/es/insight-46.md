@@ -1,7 +1,7 @@
 ---
 title: "¿Qué es una Holding Internacional? Guía Completa sobre Estructuras Corporativas Globales"
 description: "Guía completa sobre holdings internacionales"
-cardImage: "@/images/insights/que-es-una-holding.png"
+cardImage: "@/images/insights/que-es-una-holding.avif"
 cardImageAlt: "Estructura corporativa global con empresas holding en varios países"
 ---
 

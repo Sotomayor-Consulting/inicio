@@ -1,7 +1,7 @@
 ---
 title: "Real Estate as a Migration Vehicle to the US: 2026 Guide"
 description: "Real estate as a migration vehicle to the US"
-cardImage: "@/images/insights/real-state.png"
+cardImage: "@/images/insights/real-state.avif"
 cardImageAlt: "Map of the US with migration route: E-2, EB-5, L-1 visas, and how real estate investment opens migration pathways"
 ---
 

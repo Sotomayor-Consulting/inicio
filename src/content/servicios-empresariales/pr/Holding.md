@@ -52,6 +52,6 @@ tableData:
       - ["Chile", "Sim"]
       - ["Portugal", "Sim"]
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

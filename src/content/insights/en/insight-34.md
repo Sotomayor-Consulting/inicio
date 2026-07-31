@@ -1,11 +1,11 @@
 ---
 title: "How Are Service Exporters Taxed? Complete Tax Guide"
 description: "Taxation of service exporters"
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
+cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.avif"
 cardImageAlt: "Growth chart with coins and tax documents"
 ---
 
-If your business exports services from the United States abroad � such as consulting, software development, digital marketing, or professional services � it is essential to understand **how service exporters are taxed** by the IRS. Unlike the sale of physical goods, services have specific tax rules you must know to avoid issues with the tax authorities.
+If your business exports services from the United States abroad -- such as consulting, software development, digital marketing, or professional services -- it is essential to understand **how service exporters are taxed** by the IRS. Unlike the sale of physical goods, services have specific tax rules you must know to avoid issues with the tax authorities.
 
 Below, we explain the key aspects every service exporter should know about U.S. taxation.
 
@@ -71,10 +71,10 @@ The United States has tax treaties with numerous countries to prevent **double t
 
 As an independent service exporter, the IRS expects you to pay your taxes **quarterly** through Estimated Tax Payments. Key dates are:
 
-- **April 15**: First payment (January � March)
-- **June 15**: Second payment (April � May)
-- **September 15**: Third payment (June � August)
-- **January 15 of the following year**: Fourth payment (September � December)
+- **April 15**: First payment (January -- March)
+- **June 15**: Second payment (April -- May)
+- **September 15**: Third payment (June -- August)
+- **January 15 of the following year**: Fourth payment (September -- December)
 
 Failure to make these payments may result in underpayment penalties, even if you file your annual return on time.
 
