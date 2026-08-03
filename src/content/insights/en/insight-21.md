@@ -1,7 +1,7 @@
 ---
 title: "LLC for Digital Marketing: The Ideal Structure for Your Agency or Freelance Business"
 description: "Discover why the LLC is the best structure for digital marketing agencies, freelancers, and content creators operating internationally."
-cardImage: "@/images/insights/llc-para-marketing.png"
+cardImage: "@/images/insights/llc-para-marketing.avif"
 cardImageAlt: "Digital marketing dashboard with charts and metrics"
 ---
 
@@ -11,7 +11,7 @@ In this article, we analyze why digital marketing and the LLC are a winning comb
 
 ## Why an LLC for digital marketing?
 
-The nature of digital marketing �USD income, international clients, intangible assets� makes the LLC particularly advantageous.
+The nature of digital marketing -- USD income, international clients, intangible assets -- makes the LLC particularly advantageous.
 
 ### Key benefits
 
@@ -252,7 +252,7 @@ If you have multiple income sources (services, affiliates, digital products), ke
 
 ## Conclusion
 
-For digital marketing businesses �agencies, freelancers, content creators, affiliates, e-commerce� the LLC is the smartest structure. It gives you protection, credibility, and tax efficiency.
+For digital marketing businesses -- agencies, freelancers, content creators, affiliates, e-commerce -- the LLC is the smartest structure. It gives you protection, credibility, and tax efficiency.
 
 The key is to:
 1. Choose the right state (Wyoming or Florida to start).

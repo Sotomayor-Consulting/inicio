@@ -1,7 +1,7 @@
 ---
 title: "How to Reduce Disputes and Chargebacks in Stripe: Guide 2026"
 description: "How to reduce disputes and chargebacks in Stripe"
-cardImage: "@/images/insights/como-reducir-disputas-y-chargebacks-en-stripe.png"
+cardImage: "@/images/insights/como-reducir-disputas-y-chargebacks-en-stripe.avif"
 cardImageAlt: "Protection shield with dispute, chargeback, and solution icons"
 ---
 

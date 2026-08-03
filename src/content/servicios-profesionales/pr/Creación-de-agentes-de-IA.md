@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Escalabilidade"
     subTitle: "Desenvolvemos soluções de IA escaláveis, que podem crescer e se adaptar à medida que sua carteira de clientes e suas necessidades profissionais se expandem."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

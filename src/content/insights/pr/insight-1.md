@@ -1,7 +1,7 @@
 ---
 title: "Proteja e Mantenha Sua LLC Ativa com Nosso Serviço de Manutenção Anual"
 description: "Manutenção Anual de LLC"
-cardImage: "@/images/insights/como-usa-una-llc.png"
+cardImage: "@/images/insights/como-usa-una-llc.avif"
 cardImageAlt: "Profissionais trabalhando em escritório"
 ---
 

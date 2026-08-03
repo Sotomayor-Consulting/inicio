@@ -1,7 +1,7 @@
 ---
 title: "Stripe para SaaS: Guia Completo de Integração 2026"
 description: "Stripe para SaaS"
-cardImage: "@/images/insights/stripe-para-saas.png"
+cardImage: "@/images/insights/stripe-para-saas.avif"
 cardImageAlt: "Dashboard do Stripe mostrando assinaturas SaaS e métricas de faturamento recorrente"
 ---
 

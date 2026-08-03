@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Stripe vs PayPal: ¿Cuál es el Mejor para tu Negocio en 2026?"
 description: "Comparativa Stripe vs PayPal"
-cardImage: "@/images/insights/stripe-vs-paypal.png"
+cardImage: "@/images/insights/stripe-vs-paypal.avif"
 cardImageAlt: "Logotipos de Stripe y PayPal lado a lado"
 ---
 

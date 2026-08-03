@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Manutenção de Direitos"
     subTitle: "Assessoramos você na vigilância e renovação de seus registros para assegurar que sua proteção legal se mantenha vigente a longo prazo."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

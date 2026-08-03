@@ -1,11 +1,11 @@
 ---
 title: "Tax Strategies for Digital Businesses: Optimize Your Taxes Legally"
 description: "Tax strategies for digital businesses"
-cardImage: "@/images/insights/estrategias-fiscales-para-negocios-digitales.png"
+cardImage: "@/images/insights/estrategias-fiscales-para-negocios-digitales.avif"
 cardImageAlt: "Digital tax strategy with charts, devices, and documents"
 ---
 
-Digital businesses �e-commerce, online courses, SaaS, affiliate marketing, digital content� have unique tax advantages but also specific challenges. Applying the **right tax strategies for digital businesses** can mean the difference between paying more taxes than necessary and legally optimizing your tax burden.
+Digital businesses -- e-commerce, online courses, SaaS, affiliate marketing, digital content -- have unique tax advantages but also specific challenges. Applying the **right tax strategies for digital businesses** can mean the difference between paying more taxes than necessary and legally optimizing your tax burden.
 
 Below, we present the most effective strategies to minimize your taxes and keep your digital business compliant.
 

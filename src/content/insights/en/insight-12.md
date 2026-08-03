@@ -1,7 +1,7 @@
 ---
 title: "Does an LLC Have to Pay Taxes in the U.S.? Complete Guide"
 description: "Find out if an LLC pays taxes in the U.S. based on your case: foreign owner, multiple members, U.S.-source income, and more."
-cardImage: "@/images/insights/una-llc-debe-pagar-impuestos.png"
+cardImage: "@/images/insights/una-llc-debe-pagar-impuestos.avif"
 cardImageAlt: "Person reviewing tax documents on a laptop"
 ---
 

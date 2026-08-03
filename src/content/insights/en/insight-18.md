@@ -1,7 +1,7 @@
 ---
 title: "Opening an LLC Thinking It Automatically Pays No Taxes: The Most Common Mistake"
 description: "Discover why opening an LLC does not automatically mean you are tax-exempt and what tax obligations you need to know."
-cardImage: "@/images/insights/abrir-una-llc-pensando-que-no-paga-impuestos.png"
+cardImage: "@/images/insights/abrir-una-llc-pensando-que-no-paga-impuestos.avif"
 cardImageAlt: "Confused person with tax documents"
 ---
 

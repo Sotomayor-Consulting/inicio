@@ -1,7 +1,7 @@
 ---
 title: "How to Review Your Business Tax Status: 2026 Guide"
 description: "Check your federal, state, and local tax compliance status to avoid penalties"
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
+cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.avif"
 cardImageAlt: "Business tax status review guide showing IRS account transcript, state tax portal dashboard, estimated tax payment tracker, compliance calendar, and multi-state nexus analysis"
 ---
 

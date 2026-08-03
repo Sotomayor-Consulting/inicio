@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Lista Anual de Cumplimiento para LLC: Guía 2026"
 description: "Lista de verificación de cumplimiento anual para LLC que cubre requisitos federales, estatales y locales"
-cardImage: "@/images/insights/lista-anual-de-cumplimiento-para-llc.png"
+cardImage: "@/images/insights/lista-anual-de-cumplimiento-para-llc.avif"
 cardImageAlt: "Lista de verificación de cumplimiento anual para LLC que muestra tareas mensuales, fechas límite de informes anuales, calendario de pagos de impuestos, requisitos de agente registrado y panel de cumplimiento multiestatal"
 ---
 

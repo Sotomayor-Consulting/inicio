@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Beneficios de una LP Canadiense: Estructura Corporativa para No Residentes"
 description: "Beneficios de una Limited Partnership canadiense"
-cardImage: "@/images/insights/beneficios-de-una-lp-canadienseestrutctura corporativa para no residentes.png"
+cardImage: "@/images/insights/beneficios-de-una-lp-canadienseestrutctura corporativa para no residentes.avif"
 cardImageAlt: "Bandera de Canadá con edificios corporativos y gráficos financieros"
 ---
 

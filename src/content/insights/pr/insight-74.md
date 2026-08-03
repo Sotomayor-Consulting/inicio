@@ -1,7 +1,7 @@
 ---
 title: "Riscos de Operar sem Estrutura Legal: Guia 2026"
 description: "Riscos de operar sem estrutura legal"
-cardImage: "@/images/insights/riesgos-de-operar-sin-estructura-legal.png"
+cardImage: "@/images/insights/riesgos-de-operar-sin-estructura-legal.avif"
 cardImageAlt: "Pessoa andando em uma corda bamba sem rede de proteção, simbolizando os riscos de operar sem estrutura legal"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "O que fazer se você nunca declarou impostos: Guia 2026"
 description: "Passos para resolver impostos não declarados e ficar em dia"
-cardImage: "@/images/insights/que-hacer-si-nunca-declaraste-impuestos.png"
+cardImage: "@/images/insights/que-hacer-si-nunca-declaraste-impuestos.avif"
 cardImageAlt: "Guia de conformidade fiscal mostrando formulários IRS, opções de alívio de multas, procedimentos de declaração simplificada, planos de pagamento e caminhos de consulta profissional"
 ---
 

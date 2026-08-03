@@ -50,6 +50,6 @@ specificationsRight:
   - title: "Continuous Financial Consulting"
     subTitle: "We provide periodic consultations to analyze your company's financial performance and develop strategies to optimize costs and maximize profitability."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"   
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"   
 ---

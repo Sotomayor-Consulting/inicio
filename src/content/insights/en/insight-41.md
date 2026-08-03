@@ -1,7 +1,7 @@
 ---
 title: "Tax Risks of Using Personal Accounts for Business: What You Must Know"
 description: "Tax risks of using personal accounts for business"
-cardImage: "@/images/insights/riesgos-tributarios-de-usar-cuentas-personales-para-negocios.png"
+cardImage: "@/images/insights/riesgos-tributarios-de-usar-cuentas-personales-para-negocios.avif"
 cardImageAlt: "Worried person looking at bank statements with question marks"
 ---
 

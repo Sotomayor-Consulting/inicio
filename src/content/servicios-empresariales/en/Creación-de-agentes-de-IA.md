@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Scalability"
     subTitle: "We develop scalable AI solutions that can grow and adapt as your business evolves and your needs expand."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

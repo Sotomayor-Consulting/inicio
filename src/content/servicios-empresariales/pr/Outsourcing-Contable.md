@@ -50,6 +50,6 @@ specificationsRight:
   - title: "Assessoria Financeira Contínua"
     subTitle: "Fornecemos consultas periódicas para analisar o desempenho financeiro da sua empresa e desenvolver estratégias para otimizar custos e maximizar a rentabilidade."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

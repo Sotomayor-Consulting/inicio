@@ -1,7 +1,7 @@
 ---
 title: "Cómo Manejar Pagos Internacionales Correctamente: Guía Práctica de Métodos y Cumplimiento"
 description: "Manejo de pagos internacionales"
-cardImage: "@/images/insights/pagos-internacionales.png"
+cardImage: "@/images/insights/pagos-internacionales.avif"
 cardImageAlt: "Diferentes métodos de pago internacional con mapas y dispositivos digitales"
 ---
 

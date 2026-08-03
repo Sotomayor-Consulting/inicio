@@ -1,7 +1,7 @@
 ---
 title: "How to Protect Your Assets Internationally: Guide 2026"
 description: "How to protect your assets internationally"
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-internacionalmente.png"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-internacionalmente.avif"
 cardImageAlt: "Protective shield over a world map with icons of financial assets, properties and investments"
 ---
 

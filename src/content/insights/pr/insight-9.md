@@ -1,52 +1,53 @@
 ---
 title: "Quanto Custa Manter uma LLC nos EUA? Guia Completo de Custos"
-description: "Descubra quanto custa manter uma LLC nos EUA: agente registrado, relat�rio anual, impostos, contabilidade e mais. Custos reais por estado."
-cardImage: "@/images/insights/cuanto-cuesta-mantener-una-llc-en-eeuu.png"
-cardImageAlt: "Pessoa calculando gastos do seu neg�cio"
+description: "Descubra quanto custa manter uma LLC nos EUA: agente registrado, relatório anual, impostos, contabilidade e mais. Custos reais por estado."
+cardImage: "@/images/insights/cuanto-cuesta-mantener-una-llc-en-eeuu.avif"
+cardImageAlt: "Pessoa calculando os gastos do seu negócio"
 ---
 
-Muitas pessoas focam apenas no custo de abrir uma LLC, mas a pergunta mais importante �: **quanto custa mant�-la?**
+Muitas pessoas se concentram apenas no custo de abrir uma LLC, mas a pergunta mais importante é: **quanto custa mantê-la?**
 
-Manter uma LLC normalmente envolve v�rios componentes:
+Manter uma LLC normalmente envolve vários componentes:
 
 - Agente registrado.
-- Relat�rio anual estadual.
-- Franquia ou taxas estaduais.
-- Declara��es informativas ao IRS.
+- Relatório anual estadual.
+- Franchise tax ou taxas estaduais.
+- Declarações informativas ao IRS.
 - Contabilidade ou bookkeeping.
-- Renova��es corporativas.
-- Licen�as ou autoriza��es (se aplic�vel).
+- Renovações corporativas.
+- Licenças ou autorizações, se aplicável.
 
-O custo total depender� de:
+O custo total dependerá de:
 
-- O estado onde a LLC foi constitu�da.
-- A atividade comercial.
-- Se tem receita ou n�o.
-- Se tem v�rios s�cios.
-- Se gera obriga��es tribut�rias adicionais.
+- Do estado em que a LLC foi constituída.
+- Da atividade comercial.
+- De ter ou não receita.
+- De ter vários sócios.
+- De gerar obrigações tributárias adicionais.
 
 ## Agente Registrado (Registered Agent)
 
 Toda LLC deve ter um agente registrado no estado onde foi incorporada.
 
-O agente registrado � a pessoa ou empresa autorizada a receber documentos legais e notifica��es oficiais do estado.
+O agente registrado é a pessoa ou empresa autorizada a receber documentos legais e notificações oficiais do estado.
 
 ### Custo aproximado
 
-Normalmente varia entre **USD 50 a USD 300 por ano**. O valor depender� do provedor e do estado.
+Normalmente varia entre **USD 50 e USD 300 por ano**. O valor depende do provedor e do estado.
 
-## Relat�rio Anual Estadual
+## Relatório Anual Estadual
 
-A maioria dos estados exige que a LLC apresente um relat�rio anual para se manter ativa. Este relat�rio serve para atualizar informa��es corporativas e confirmar que a empresa continua operando.
+A maioria dos estados exige que a LLC apresente um relatório anual para se manter ativa. Esse relatório serve para atualizar informações corporativas e confirmar que a empresa continua operando.
 
 ### Exemplos por estado
 
-- **Wyoming:** $60 m�nimo -- Taxa baseada em ativos ou m�nimo de $60
-- **Fl�rida:** $138,75 -- Multa de $400 por atraso se n�o apresentado a tempo
-- **Delaware:** $300 -- N�o exige relat�rio anual, mas tem Franchise Tax fixo
+- **Wyoming:** $60 mínimo -- taxa baseada em ativos ou mínimo de $60
+- **Flórida:** $138,75 -- multa de $400 por atraso se não for apresentado a tempo
+- **Delaware:** $300 -- não exige relatório anual, mas cobra Franchise Tax fixo
+
 ## Franchise Tax ou Taxas Estaduais
 
-Alguns estados cobram impostos ou taxas anuais simplesmente por manter a empresa ativa. Isto n�o significa necessariamente que a LLC est� pagando imposto sobre a receita. Muitas vezes � apenas um custo estadual de manuten��o.
+Alguns estados cobram impostos ou taxas anuais simplesmente por manter a empresa ativa. Isso não significa necessariamente que a LLC esteja pagando imposto sobre a receita. Muitas vezes, é apenas um custo estadual de manutenção.
 
 ### Importante
 
@@ -54,124 +55,127 @@ Cada estado tem regras diferentes. Por exemplo:
 
 - Delaware tem Franchise Tax fixo para LLCs.
 - Wyoming tem taxas baixas.
-- Calif�rnia tem custos significativamente mais altos ($800 m�nimos).
-- Fl�rida tem Relat�rio Anual obrigat�rio.
+- Califórnia tem custos significativamente mais altos ($800 mínimos).
+- Flórida exige Annual Report obrigatório.
 
-## Declara��es Tribut�rias ou Informativas
+## Declarações Tributárias ou Informativas
 
-Aqui � onde muitas pessoas se confundem. Mesmo que uma LLC n�o tenha receita, pode ter obriga��es perante o IRS.
+É aqui que muitas pessoas se confundem. Mesmo que uma LLC não tenha receita, ela pode ter obrigações perante o IRS.
 
 ### Exemplos frequentes
 
-**LLC de um �nico membro estrangeira:** Em muitos casos deve apresentar Formul�rio 5472 e Formul�rio 1120 informativo.
+**LLC estrangeira de um único membro:** em muitos casos, deve apresentar o Formulário 5472 e o Formulário 1120 informativo.
 
-**LLC com v�rios s�cios:** Pode exigir Formul�rio 1065 e K-1 para os s�cios.
+**LLC com vários sócios:** pode exigir o Formulário 1065 e os K-1 dos sócios.
 
-**LLC com atividade nos EUA:** Dependendo do caso, pode existir obriga��o tribut�ria federal, obriga��es estaduais e declara��es adicionais.
+**LLC com atividade nos EUA:** dependendo do caso, pode haver obrigação tributária federal, obrigações estaduais e declarações adicionais.
 
-### Quanto custa?
+### Quanto isso custa?
 
-Depende da complexidade. O custo pode variar de servi�os b�sicos informativos at� estruturas cont�beis e fiscais muito mais complexas.
+Depende da complexidade. O custo pode variar de serviços informativos básicos a estruturas contábeis e fiscais muito mais complexas.
 
 ## Contabilidade e Bookkeeping
 
-Muitas LLCs precisam manter registro de receitas, despesas, demonstra��es financeiras, classifica��o de transa��es e concilia��es banc�rias. Especialmente se:
+Muitas LLCs precisam manter registros de receitas, despesas, demonstrações financeiras, classificação de transações e conciliações bancárias, especialmente se:
 
 - Operam com Stripe.
 - Usam bancos americanos.
 - Vendem online.
-- Gerenciam m�ltiplas transa��es.
+- Gerenciam múltiplas transações.
 
 ### Erro comum
 
-Muitos empreendedores misturam gastos pessoais e corporativos, o que pode gerar problemas fiscais, cont�beis, riscos banc�rios e perda de ordem financeira.
+Muitos empreendedores misturam despesas pessoais com corporativas, o que pode gerar problemas fiscais, contábeis, riscos bancários e perda de organização financeira.
 
-## Licen�as e Autoriza��es
+## Licenças e Autorizações
 
 Dependendo do tipo de atividade, a LLC pode precisar de:
 
-- Licen�as comerciais.
+- Licenças comerciais.
 - Seller's Permit.
-- Autoriza��es locais.
+- Autorizações locais.
 - Registros especiais.
 
-Isso depende muito do modelo de neg�cio e do estado.
+Isso depende muito do modelo de negócio e do estado.
 
-## Cen�rios de Custos Reais
+## Cenários de Custos Reais
 
-### Cen�rio b�sico
+### Cenário básico
 
-Uma LLC simples sem opera��o complexa:
+Uma LLC simples, sem operação complexa:
 
 - **Agente registrado:** $100
-- **Relat�rio estadual:** $60�$139
-- **Declara��es informativas:** $200�$500
-- **Total aproximado:** **$360�$739**
-### Cen�rio intermedi�rio
+- **Relatório estadual:** $60 a $139
+- **Declarações informativas:** $200 a $500
+- **Total aproximado:** **$360 a $739**
 
-Se a empresa tem movimento banc�rio, Stripe, e-commerce ou s�cios:
+### Cenário intermediário
 
-- **Agente registrado:** $100�$200
-- **Relat�rio estadual:** $60�$300
-- **Declara��es fiscais:** $500�$1500
-- **Contabilidade mensal:** $600�$1800
-- **Total aproximado:** **$1260�$3800**
-### Cen�rio avan�ado
+Se a empresa tem movimentação bancária, Stripe, e-commerce ou sócios:
 
-Empresas com funcion�rios, opera��o f�sica, invent�rio ou estrutura holding:
+- **Agente registrado:** $100 a $200
+- **Relatório estadual:** $60 a $300
+- **Declarações fiscais:** $500 a $1500
+- **Contabilidade mensal:** $600 a $1800
+- **Total aproximado:** **$1260 a $3800**
 
-- **Agente registrado:** $200�$300
-- **Relat�rio estadual + taxas:** $300�$800+
-- **Declara��es fiscais:** $1500�$5000+
-- **Contabilidade mensal:** $1800�$6000+
-- **Licen�as e autoriza��es:** $100�$1000+
-- **Total aproximado:** **$3900�$13100+**
-## O que acontece se eu n�o mantiver minha LLC?
+### Cenário avançado
 
-N�o cumprir as obriga��es pode gerar:
+Empresas com funcionários, operação física, estoque ou estrutura holding:
+
+- **Agente registrado:** $200 a $300
+- **Relatório estadual + taxas:** $300 a $800+
+- **Declarações fiscais:** $1500 a $5000+
+- **Contabilidade mensal:** $1800 a $6000+
+- **Licenças e autorizações:** $100 a $1000+
+- **Total aproximado:** **$3900 a $13100+**
+
+## O que acontece se eu não mantiver minha LLC?
+
+Não cumprir as obrigações pode gerar:
 
 - Multas.
 - Perda da LLC.
-- Suspens�o estadual.
+- Suspensão estadual.
 - Problemas com bancos.
 - Problemas com processadores de pagamento.
-- Riscos tribut�rios.
+- Riscos tributários.
 - Dificuldades futuras para reativar a empresa.
 
-Em alguns casos, mesmo uma LLC "sem uso" pode continuar tendo obriga��es informativas.
+Em alguns casos, até mesmo uma LLC "sem uso" pode continuar tendo obrigações informativas.
 
-## Erro muito comum na Am�rica Latina
+## Erro muito comum na América Latina
 
-Muitas pessoas abrem LLCs pensando que "n�o h� nada para declarar", "n�o acontece nada se n�o usar" ou "pago s� uma vez".
+Muitas pessoas abrem LLCs achando que "não há nada para declarar", "não acontece nada se eu não usar" ou "pago só uma vez".
 
-**Isto est� incorreto.** Abrir a LLC � apenas o in�cio. Mant�-la corretamente � igualmente importante.
+**Isso está incorreto.** Abrir a LLC é apenas o começo. Mantê-la corretamente é igualmente importante.
 
 ## Vale a pena manter uma LLC?
 
-Se estiver corretamente estruturada e alinhada com seu neg�cio, uma LLC pode agregar muito valor:
+Se estiver corretamente estruturada e alinhada ao seu negócio, uma LLC pode agregar muito valor:
 
 - Acesso financeiro internacional.
-- Profissionaliza��o.
-- Prote��o patrimonial.
-- Expans�o global.
-- Opera��o em d�lares.
+- Profissionalização.
+- Proteção patrimonial.
+- Expansão global.
+- Operação em dólares.
 - Credibilidade internacional.
 
-Mas para que realmente funcione, deve ser mantida em conformidade.
+Mas, para que funcione de verdade, ela precisa ser mantida em conformidade.
 
-## Conclus�o
+## Conclusão
 
-O custo de manter uma LLC depender� completamente do estado escolhido, do tipo de atividade, da opera��o real do neg�cio e das obriga��es tribut�rias aplic�veis.
+O custo de manter uma LLC depende completamente do estado escolhido, do tipo de atividade, da operação real do negócio e das obrigações tributárias aplicáveis.
 
-Por isso, antes de abrir uma LLC, � importante entender n�o apenas quanto custa incorpor�-la, mas quanto custar� mant�-la corretamente a cada ano.
+Por isso, antes de abrir uma LLC, é importante entender não apenas quanto custa incorporá-la, mas também quanto custará mantê-la corretamente a cada ano.
 
-## Quer saber quanto custaria manter sua LLC segundo seu caso?
+## Quer saber quanto custaria manter sua LLC no seu caso?
 
-Na **Sotomayor Consulting International**, analisamos seu modelo de neg�cio e explicamos:
+Na **Sotomayor Consulting International**, analisamos seu modelo de negócio e explicamos:
 
-- Quais obriga��es voc� teria.
-- Quais formul�rios precisaria apresentar.
-- Qual estado � mais adequado.
-- Quais custos reais deve considerar.
+- Quais obrigações você teria.
+- Quais formulários precisaria apresentar.
+- Qual estado faz mais sentido.
+- Quais custos reais você deve considerar.
 
-**Agende uma consultoria inicial gratuita** e receba uma an�lise personalizada de custos para sua LLC.
+**Agende uma consultoria inicial gratuita** e receba uma análise personalizada dos custos da sua LLC.

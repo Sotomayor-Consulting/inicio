@@ -1,7 +1,7 @@
 ---
 title: "What to Do If the IRS Sent You a Letter: 2026 Guide"
 description: "Step-by-step guide to responding to IRS notices, audits, and tax letters"
-cardImage: "@/images/insights/que-hacer-si-el-irs-te-envia-una-carta.png"
+cardImage: "@/images/insights/que-hacer-si-el-irs-te-envia-una-carta.avif"
 cardImageAlt: "IRS notice response guide showing letter types by severity, response timeline flowchart, IRS notice numbers reference table, taxpayer rights documentation checklist, and online account management dashboard"
 ---
 

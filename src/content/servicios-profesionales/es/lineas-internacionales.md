@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Configuración Personalizada"
     subTitle: "Desarrollamos una configuración de línea telefónica que se adapta a las necesidades específicas de tu negocio, como desvíos de llamada, listas de bloqueo y más."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

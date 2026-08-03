@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Impuestos para Nómadas Digitales: Lo Que Debes Saber para Cumplir con el IRS"
 description: "Guía de impuestos para nómadas digitales"
-cardImage: "@/images/insights/impuestos-para-nomadas-digitales.png"
+cardImage: "@/images/insights/impuestos-para-nomadas-digitales.avif"
 cardImageAlt: "Nómada digital trabajando en una playa con computadora portátil"
 ---
 

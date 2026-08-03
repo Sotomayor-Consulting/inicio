@@ -1,7 +1,7 @@
 ---
 title: "How to Avoid State Tax and Filing Penalties: 2026 Guide"
 description: "Strategies to prevent state penalties and keep your business compliant"
-cardImage: "@/images/insights/cumplimiento-fiscal.png"
+cardImage: "@/images/insights/cumplimiento-fiscal.avif"
 cardImageAlt: "State penalty prevention guide showing compliance calendar, automated filing systems, penalty abatement forms, state deadline tracker, and business entity management dashboard"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Automations Every Business Needs: 2026 Guide"
 description: "Essential business automations"
-cardImage: "@/images/insights/automatizaciones-que-toda-empresa-necesita.png"
+cardImage: "@/images/insights/automatizaciones-que-toda-empresa-necesita.avif"
 cardImageAlt: "Business automation diagram showing interconnected systems for CRM, email, invoicing, inventory, and customer support"
 ---
 

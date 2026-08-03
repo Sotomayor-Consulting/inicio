@@ -1,7 +1,7 @@
 ---
 title: "Stripe vs PayPal: Which is Best for Your Business in 2026?"
 description: "Stripe vs PayPal Comparison"
-cardImage: "@/images/insights/stripe-vs-paypal.png"
+cardImage: "@/images/insights/stripe-vs-paypal.avif"
 cardImageAlt: "Stripe and PayPal logos side by side"
 ---
 

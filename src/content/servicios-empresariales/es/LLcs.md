@@ -47,6 +47,6 @@ specificationsRight:
   - title: "El Cumplimiento no tiene que ser complicado"
     subTitle: "Requisitos regulatorios como la Solicitud de Exención BE-13 de la BEA son esenciales para obtener datos económicos precisos. Con nuestra guía experta, cumplir con esta presentación se convierte en un proceso sencillo y directo, permitiéndole concentrarse en hacer crecer su negocio sin distracciones."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

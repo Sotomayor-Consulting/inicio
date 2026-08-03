@@ -1,7 +1,7 @@
 ---
 title: "Formulario 5472 Explicado: Todo lo que Debes Saber para tu LLC"
 description: "Guía completa sobre el Formulario 5472 del IRS: quién debe presentarlo, cómo llenarlo, plazos, multas y mejores prácticas."
-cardImage: "@/images/insights/formulario-5472.png"
+cardImage: "@/images/insights/formulario-5472.avif"
 cardImageAlt: "Formulario 5472 del IRS con lupa"
 ---
 

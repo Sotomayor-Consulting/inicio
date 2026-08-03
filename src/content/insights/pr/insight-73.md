@@ -1,7 +1,7 @@
 ---
 title: "Como Separar Finanças Pessoais e Empresariais: Guia 2026"
 description: "Como separar finanças pessoais e empresariais"
-cardImage: "@/images/insights/como-separar-finanzas-persoonales-y-empresariales.png"
+cardImage: "@/images/insights/como-separar-finanzas-persoonales-y-empresariales.avif"
 cardImageAlt: "Dois cofrinhos separados, um pessoal e outro empresarial, com dinheiro fluindo ordenadamente"
 ---
 

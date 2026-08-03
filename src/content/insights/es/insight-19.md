@@ -1,7 +1,7 @@
 ---
 title: "¿Qué Pasa si Nunca Declaraste Impuestos en Estados Unidos? Riesgos y Soluciones"
 description: "Descubre las consecuencias de no declarar impuestos con tu LLC en EE.UU., las multas del IRS y cómo regularizar tu situación."
-cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.png"
+cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.avif"
 cardImageAlt: "Persona preocupada revisando documentos del IRS"
 ---
 

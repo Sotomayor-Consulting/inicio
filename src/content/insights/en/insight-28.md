@@ -1,11 +1,11 @@
 ---
 title: "Regularization of Overdue LLCs: How to Get Your Company Back on Track"
 description: "Complete guide to regularize your LLC if you have missed Annual Reports, unpaid taxes, or had your bank account frozen."
-cardImage: "@/images/insights/regularizacion-de-llc-atrasadas.png"
+cardImage: "@/images/insights/regularizacion-de-llc-atrasadas.avif"
 cardImageAlt: "LLC documents being reorganized and brought up to date"
 ---
 
-If you have neglected your LLC's obligations �whether the Annual Report, federal taxes, or corporate documentation� you are not alone. Many international entrepreneurs find themselves in this situation due to lack of knowledge, changes of residence, or simply lack of time.
+If you have neglected your LLC's obligations -- whether the Annual Report, federal taxes, or corporate documentation -- you are not alone. Many international entrepreneurs find themselves in this situation due to lack of knowledge, changes of residence, or simply lack of time.
 
 The good news is that **it is almost always possible to regularize your LLC**, although the process may be more or less complex depending on how long it has been and the state of your company.
 
@@ -83,29 +83,29 @@ If your account was frozen due to lack of documentation or because the LLC is no
 #### Step by step
 
 1. **Identify the cause of the freeze**
-   - Did they request updated documents?
-   - Did they detect the LLC is not in good standing?
-   - Were there suspicious transactions?
+ - Did they request updated documents?
+ - Did they detect the LLC is not in good standing?
+ - Were there suspicious transactions?
 
 2. **Regularize the LLC first**
-   - If the problem is the Annual Report, file it and pay penalties.
-   - Confirm the LLC is in "Good Standing".
+ - If the problem is the Annual Report, file it and pay penalties.
+ - Confirm the LLC is in "Good Standing".
 
 3. **Prepare the requested documentation**
-   - Updated Certificate of Formation.
-   - EIN Letter.
-   - Operating Agreement.
-   - Updated proof of address.
-   - Most recent Annual Report.
+ - Updated Certificate of Formation.
+ - EIN Letter.
+ - Operating Agreement.
+ - Updated proof of address.
+ - Most recent Annual Report.
 
 4. **Respond to the bank professionally**
-   - Explain the situation.
-   - Attach all documents.
-   - Request the account release.
+ - Explain the situation.
+ - Attach all documents.
+ - Request the account release.
 
 5. **Follow up**
-   - If no response in 7 days, send a reminder.
-   - If urgent, call or use the support chat.
+ - If no response in 7 days, send a reminder.
+ - If urgent, call or use the support chat.
 
 ### Situation 5: Dissolved or revoked LLC
 
@@ -212,7 +212,7 @@ Once regularized, set up a system to avoid falling behind again:
 1. Checked status: "Dissolved".
 2. Consulted with a registered agent in Florida.
 3. Filed Annual Reports for 2021, 2022, 2023, and 2024.
-4. Paid penalties: 4 years � $400 = $1,600.
+4. Paid penalties: 4 years -- $400 = $1,600.
 5. Requested administrative reinstatement.
 6. Paid reinstatement fee.
 7. Waited 2 weeks for the state to process.

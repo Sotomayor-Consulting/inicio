@@ -1,187 +1,194 @@
 ---
-title: "Como Proteger seu Patrim�nio com Estruturas Internacionais: LLCs, Trusts e Mais"
-description: "Estrat�gias legais de prote��o patrimonial usando LLCs nos EUA, trusts e outras estruturas internacionais para empreendedores globais."
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
-cardImageAlt: "Escudo protetor sobre um patrim�nio global com conex�es internacionais"
+title: "Como Proteger seu Patrimônio com Estruturas Internacionais: LLCs, Trusts e Mais"
+description: "Estratégias legais de proteção patrimonial usando LLCs nos EUA, trusts e outras estruturas internacionais para empreendedores globais."
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.avif"
+cardImageAlt: "Escudo protetor sobre um patrimônio global com conexões internacionais"
 ---
 
-Proteger o patrim�nio que voc� construiu com seu neg�cio � t�o importante quanto faz�-lo crescer. Para empreendedores internacionais, as estruturas nos Estados Unidos �particularmente as LLCs� oferecem ferramentas poderosas de prote��o patrimonial que nem sempre est�o dispon�veis em seus pa�ses de origem.
+Proteger o patrimônio que você construiu com seu negócio é tão importante quanto fazê-lo crescer. Para empreendedores internacionais, as estruturas nos Estados Unidos -- especialmente as LLCs -- oferecem ferramentas poderosas de proteção patrimonial que nem sempre estão disponíveis em seus países de origem.
 
-Neste guia, exploramos como usar LLCs e outras estruturas internacionais para proteger seu patrim�nio de maneira legal e eficaz.
+Neste guia, exploramos como usar LLCs e outras estruturas internacionais para proteger seu patrimônio de forma legal e eficiente.
 
-## Por que voc� precisa de prote��o patrimonial?
+## Por que você precisa de proteção patrimonial?
 
 ### Riscos comuns para empreendedores internacionais
 
-- **A��es judiciais de clientes:** Um cliente insatisfeito pode processar seu neg�cio
-- **Disputas com s�cios:** Desentendimentos que terminam em lit�gios
-- **Fornecedores ou credores:** D�vidas comerciais que reclamam seus bens pessoais
-- **Problemas fiscais:** O IRS ou a autoridade fiscal do seu pa�s pode penhorar contas
-- **Div�rcio ou heran�a:** Reclama��es sobre seu patrim�nio por mudan�as pessoais
-- **Instabilidade pol�tica/econ�mica:** Desvaloriza��o, controles de capital, expropria��o no seu pa�s
-- **Erros profissionais:** A��es judiciais por neglig�ncia ou m� pr�tica
-### O princ�pio b�sico: separa��o patrimonial
+- **Ações judiciais de clientes:** Um cliente insatisfeito pode processar seu negócio
+- **Disputas com sócios:** Desentendimentos que terminam em litígio
+- **Fornecedores ou credores:** Dívidas comerciais que podem atingir seus bens pessoais
+- **Problemas fiscais:** O IRS ou a autoridade fiscal do seu país pode bloquear contas
+- **Divórcio ou herança:** Reclamações sobre seu patrimônio em razão de mudanças pessoais
+- **Instabilidade política/econômica:** Desvalorização, controle de capitais ou expropriação no seu país
+- **Erros profissionais:** Processos por negligência ou má prática
 
-A prote��o patrimonial baseia-se num princ�pio simples: **separar seus bens pessoais dos riscos do seu neg�cio**. Se seu neg�cio for processado ou falir, seus bens pessoais �casa, poupan�as, investimentos� est�o protegidos.
+### O princípio básico: separação patrimonial
 
-## A LLC como ferramenta de prote��o patrimonial
+A proteção patrimonial se baseia em um princípio simples: **separar seus bens pessoais dos riscos do seu negócio**. Se sua empresa for processada ou falir, seus bens pessoais -- casa, poupança e investimentos -- ficam protegidos.
 
-### 1. Prote��o de responsabilidade limitada
+## A LLC como ferramenta de proteção patrimonial
 
-O benef�cio principal de uma LLC � que **separa seu patrim�nio pessoal do da empresa**. Se algu�m processar a LLC, s� pode reclamar os ativos da LLC, n�o seus bens pessoais.
+### 1. Proteção de responsabilidade limitada
 
-**O que protege:**
+O principal benefício de uma LLC é que ela **separa seu patrimônio pessoal do patrimônio da empresa**. Se alguém processar a LLC, só poderá atingir os ativos da LLC, e não seus bens pessoais.
+
+**O que ela protege:**
 - Sua casa ou propriedade pessoal.
-- Suas contas banc�rias pessoais.
+- Suas contas bancárias pessoais.
 - Seus investimentos pessoais.
-- Seu ve�culo pessoal.
+- Seu veículo pessoal.
 
-**O que N�O protege:**
-- Ativos que voc� misturar com a LLC (se usar a conta da LLC para despesas pessoais, um juiz pode "levantar o v�u").
-- D�vidas pessoais garantidas pelo seu patrim�nio.
+**O que ela NÃO protege:**
+- Ativos que você misture com a LLC (se usar a conta da LLC para despesas pessoais, um juiz pode "levantar o véu").
+- Dívidas pessoais garantidas pelo seu patrimônio.
 - Fraude ou atividade ilegal.
-- Incumprimento de obriga��es fiscais.
+- Descumprimento de obrigações fiscais.
 
-### 2. Prote��o contra credores no seu pa�s
+### 2. Proteção contra credores no seu país
 
-Dependendo do seu pa�s de resid�ncia, os ativos dentro de uma LLC americana podem ser mais dif�ceis de alcan�ar para credores locais.
+Dependendo do seu país de residência, os ativos dentro de uma LLC americana podem ser mais difíceis de alcançar por credores locais.
 
-**Por qu�?**
-- A LLC est� registrada nos EUA, n�o no seu pa�s.
-- Um credor local teria que litigar nos EUA para alcan�ar os ativos.
-- O custo e a complexidade de uma a��o judicial internacional dissuadem muitos credores.
+**Por quê?**
+- A LLC está registrada nos EUA, e não no seu país.
+- Um credor local teria de litigar nos EUA para alcançar esses ativos.
+- O custo e a complexidade de uma ação internacional desestimulam muitos credores.
 
-> **Importante:** Isto n�o � uma blindagem absoluta. Um credor determinado pode litigar nos EUA e ganhar. Mas eleva significativamente a barreira de entrada.
+> **Importante:** Isso não é uma blindagem absoluta. Um credor determinado pode litigar nos EUA e vencer. Mas a estrutura eleva bastante a barreira de entrada.
 
-### 3. Prote��o em estados favor�veis (Wyoming, Nevada, Delaware)
+### 3. Proteção em estados favoráveis (Wyoming, Nevada e Delaware)
 
-Alguns estados dos EUA t�m leis espec�ficas que protegem os ativos dentro de LLCs:
+Alguns estados dos EUA têm leis específicas que protegem os ativos dentro de LLCs:
 
-- **Wyoming:** Charge order protection -- Um credor s� pode receber distribui��es da LLC, n�o controlar os ativos
-- **Nevada:** Charge order protection -- Similar a Wyoming
-- **Delaware:** Series LLC -- Cada s�rie tem prote��o independente
-- **Florida:** Homestead exemption -- Prote��o da resid�ncia principal
-**Charge order protection:** � o mecanismo legal que limita o que um credor pode fazer com sua LLC. Se um credor ganhar uma a��o contra voc� pessoalmente, n�o pode tomar os ativos de sua LLC. S� pode obter uma "charge order" que lhe d� direito a receber quaisquer distribui��es que a LLC lhe fa�a �mas n�o pode obrigar a LLC a fazer distribui��es.
+- **Wyoming:** Charge order protection -- Um credor só pode receber distribuições da LLC, sem controlar os ativos
+- **Nevada:** Charge order protection -- Proteção semelhante à de Wyoming
+- **Delaware:** Series LLC -- Cada série tem proteção independente
+- **Flórida:** Homestead exemption -- Proteção da residência principal
 
-### 4. Series LLC: prote��o por linhas de neg�cio
+**Charge order protection:** É o mecanismo jurídico que limita o que um credor pode fazer com sua LLC. Se um credor vencer uma ação contra você pessoalmente, ele não pode simplesmente tomar os ativos da sua LLC. Ele só pode obter uma "charge order", que lhe dá direito a receber eventuais distribuições feitas pela LLC -- mas não pode obrigar a LLC a distribuir dinheiro.
 
-Uma **Series LLC** permite criar "s�ries" separadas dentro de uma mesma LLC. Cada s�rie � como uma LLC independente para fins de prote��o de ativos.
+### 4. Series LLC: proteção por linhas de negócio
 
-**Exemplo:**
-- **S�rie A:** Ag�ncia de marketing digital.
-- **S�rie B:** Investimentos imobili�rios.
-- **S�rie C:** Loja de e-commerce.
-
-Se a S�rie A for processada, as S�ries B e C est�o protegidas.
-
-**Dispon�vel em:** Delaware, Nevada, Wyoming (com restri��es).
-
-## Estrat�gias avan�adas de prote��o patrimonial
-
-### Estrat�gia 1: M�ltiplas LLCs
-
-Em vez de ter um �nico neg�cio numa LLC, voc� pode ter m�ltiplas LLCs para diferentes ativos ou linhas de neg�cio.
+Uma **Series LLC** permite criar "séries" separadas dentro de uma mesma LLC. Cada série funciona como se fosse uma LLC independente para fins de proteção de ativos.
 
 **Exemplo:**
-- **Operating LLC:** Opera��o do neg�cio -- Contas a receber, contratos
+- **Série A:** Agência de marketing digital.
+- **Série B:** Investimentos imobiliários.
+- **Série C:** Loja de e-commerce.
+
+Se a Série A for processada, as Séries B e C permanecem protegidas.
+
+**Disponível em:** Delaware, Nevada e Wyoming (com restrições).
+
+## Estratégias avançadas de proteção patrimonial
+
+### Estratégia 1: Múltiplas LLCs
+
+Em vez de concentrar tudo em uma única LLC, você pode ter várias LLCs para ativos ou linhas de negócio diferentes.
+
+**Exemplo:**
+- **Operating LLC:** Operação do negócio -- Contas a receber, contratos
 - **Property LLC:** Propriedade intelectual -- Marcas, patentes, direitos autorais
-- **Real Estate LLC:** Im�veis -- Propriedades
-- **Holding LLC:** Investimentos -- A��es, fundos
-**Benef�cio:** Se algu�m processar a Operating LLC, n�o pode alcan�ar os im�veis nem a propriedade intelectual.
+- **Real Estate LLC:** Imóveis -- Propriedades
+- **Holding LLC:** Investimentos -- Ações, fundos
 
-### Estrat�gia 2: LLC + Trust
+**Benefício:** Se alguém processar a Operating LLC, não conseguirá alcançar os imóveis nem a propriedade intelectual.
 
-Combinar uma LLC com um trust (fideicomisso) adiciona outra camada de prote��o.
+### Estratégia 2: LLC + Trust
 
-**Estrutura t�pica:**
+Combinar uma LLC com um trust adiciona outra camada de proteção.
 
-**Benef�cios:**
-- O trust � o dono da LLC, n�o voc� pessoalmente.
-- Os ativos do trust est�o protegidos dos seus credores pessoais.
-- O trust pode ter disposi��es para heran�a e sucess�o.
-- Maior privacidade (o trust n�o � p�blico como a LLC).
+**Estrutura típica:**
 
-**Tipos de trust para prote��o patrimonial:**
-- **Revocable Living Trust:** Evitar invent�rio, privacidade
-- **Irrevocable Trust:** M�xima prote��o, mas perde controle
-- **Asset Protection Trust:** Desenhado especificamente para prote��o
-- **Family Trust:** Prote��o e planejamento heredit�rio
-### Estrat�gia 3: LLC em estado favor�vel + conta banc�ria offshore
+**Benefícios:**
+- O trust é o proprietário da LLC, e não você pessoalmente.
+- Os ativos do trust ficam protegidos contra credores pessoais.
+- O trust pode incluir regras de herança e sucessão.
+- Há mais privacidade, já que o trust não é público como a LLC.
+
+**Tipos de trust para proteção patrimonial:**
+- **Revocable Living Trust:** Evita inventário e oferece privacidade
+- **Irrevocable Trust:** Máxima proteção, mas com perda de controle
+- **Asset Protection Trust:** Estruturado especificamente para proteção patrimonial
+- **Family Trust:** Proteção e planejamento sucessório
+
+### Estratégia 3: LLC em estado favorável + conta bancária offshore
 
 **Estrutura:**
-**Benef�cios:**
+
+**Benefícios:**
 - A LLC protege os ativos de credores.
-- A conta nos EUA est� fora do alcance de autoridades locais.
-- Wise permite receber e enviar pagamentos internacionalmente.
+- A conta nos EUA fica fora do alcance de certas autoridades locais.
+- O Wise permite receber e enviar pagamentos internacionalmente.
 
-### Estrat�gia 4: Holding Company internacional
+### Estratégia 4: Holding Company internacional
 
-Para patrim�nios maiores, uma estrutura multijurisdicional:
+Para patrimônios maiores, pode fazer sentido uma estrutura multijurisdicional:
 
-- **Holding:** Panam�, Ilhas Virgens Brit�nicas -- Propriet�ria das subsidi�rias
-- **Operating:** EUA (Wyoming/Florida) -- Opera��o do neg�cio
+- **Holding:** Panamá, Ilhas Virgens Britânicas -- Proprietária das subsidiárias
+- **Operating:** EUA (Wyoming/Flórida) -- Operação do negócio
 - **IP Holding:** Delaware ou Nevada -- Propriedade intelectual
-- **Local:** Seu pa�s de resid�ncia -- Cumprimento local
-**Benef�cios:**
-- Camadas m�ltiplas de prote��o.
-- Otimiza��o fiscal internacional.
+- **Local:** Seu país de residência -- Cumprimento local
+
+**Benefícios:**
+- Múltiplas camadas de proteção.
+- Otimização fiscal internacional.
 - Privacidade.
-- Planejamento sucess�rio.
+- Planejamento sucessório.
 
-**Aviso:** Esta estrutura � complexa e cara. Recomendada apenas para patrim�nios significativos (>$500.000).
+**Aviso:** Essa estrutura é complexa e cara. Só é recomendada para patrimônios significativos (acima de $500.000).
 
-## O que N�O � prote��o patrimonial
+## O que NÃO é proteção patrimonial
 
-� importante distinguir entre prote��o patrimonial **legal** e **evas�o fiscal** ou **fraude**.
+É importante distinguir proteção patrimonial **legal** de **evasão fiscal** ou **fraude**.
 
-- **Separar ativos pessoais de empresariais:** Ocultar ativos do IRS
-- **Usar estruturas legais para limitar responsabilidade:** N�o declarar receitas
-- **Planejar heran�a e sucess�o:** Transferir ativos para evitar pagar d�vidas existentes
-- **Escolher estados com leis favor�veis:** Usar estruturas para lavagem de dinheiro
-**A prote��o patrimonial n�o o exime de pagar impostos.** Voc� deve declarar suas receitas no seu pa�s de resid�ncia e cumprir com todas as obriga��es fiscais.
+- **Separar ativos pessoais dos empresariais:** Ocultar ativos do IRS
+- **Usar estruturas legais para limitar responsabilidade:** Não declarar receitas
+- **Planejar herança e sucessão:** Transferir ativos para evitar pagar dívidas existentes
+- **Escolher estados com leis favoráveis:** Usar estruturas para lavagem de dinheiro
 
-## Por pa�s: considera��es espec�ficas
+**Proteção patrimonial não dispensa o pagamento de impostos.** Você continua obrigado a declarar suas receitas no seu país de residência e cumprir todas as obrigações fiscais.
 
-### Se reside no M�xico
+## Por país: considerações específicas
 
-- A LLC � geralmente tratada como entidade transparente (n�o corpora��o).
-- Pode usar a LLC para proteger ativos sem dupla tributa��o.
-- O tratado M�xico-EUA facilita a estrutura��o.
-- Considere um trust mexicano (fideicomiso) combinado com LLC.
+### Se você reside no México
 
-### Se reside na Col�mbia
+- A LLC geralmente é tratada como entidade transparente (e não como corporação).
+- É possível usar a LLC para proteger ativos sem dupla tributação.
+- O tratado México-EUA facilita a estruturação.
+- Vale considerar um trust mexicano (fideicomiso) combinado com LLC.
 
-- A Col�mbia pode tratar a LLC como corpora��o (desajuste h�brido).
-- A prote��o patrimonial da LLC � eficaz contra terceiros.
-- Deve declarar os ativos da LLC na sua declara��o de patrim�nio.
-- Consulte um contador colombiano antes de estruturar.
+### Se você reside na Colômbia
 
-### Se reside na Argentina
+- A Colômbia pode tratar a LLC como corporação (desajuste híbrido).
+- A proteção patrimonial da LLC continua eficaz contra terceiros.
+- Você deve declarar os ativos da LLC na sua declaração patrimonial.
+- Consulte um contador colombiano antes de estruturar a operação.
+
+### Se você reside na Argentina
 
 - O tratado Argentina-EUA permite estruturas eficientes.
-- A LLC � geralmente tratada como entidade transparente.
-- Os controles de c�mbio argentinos tornam atrativa a conta banc�ria nos EUA.
-- Considere uma estrutura LLC + trust para m�xima prote��o.
+- A LLC costuma ser tratada como entidade transparente.
+- Os controles cambiais argentinos tornam atraente ter conta bancária nos EUA.
+- Uma estrutura LLC + trust pode maximizar a proteção.
 
-### Se reside no Peru
+### Se você reside no Peru
 
-- O Peru n�o tem tratado fiscal com os EUA.
-- A LLC pode ser tratada como corpora��o.
-- A prote��o patrimonial continua eficaz.
-- Avalie o tratamento fiscal espec�fico com um contador peruano.
+- O Peru não tem tratado fiscal com os EUA.
+- A LLC pode ser tratada como corporação.
+- A proteção patrimonial continua eficaz.
+- Avalie o tratamento fiscal específico com um contador peruano.
 
-### Se reside no Brasil
+### Se você reside no Brasil
 
-- O Brasil n�o tem tratado fiscal com os EUA (suspenso).
-- O Brasil pode tratar a LLC como corpora��o.
-- A prote��o patrimonial pode ser complexa.
-- Considere estruturas alternativas se o valor for significativo.
+- O Brasil não tem tratado fiscal com os EUA (suspenso).
+- O Brasil pode tratar a LLC como corporação.
+- A proteção patrimonial pode se tornar mais complexa.
+- Se o patrimônio for relevante, vale considerar estruturas alternativas.
 
-## Casos pr�ticos
+## Casos práticos
 
-### Caso 1: Consultor com prote��o b�sica
+### Caso 1: Consultor com proteção básica
 
-**Situa��o:** Pedro � consultor de marketing no M�xico. Fatura $12.000/m�s para clientes nos EUA. Tem uma LLC em Wyoming.
+**Situação:** Pedro é consultor de marketing no México. Fatura $12.000 por mês para clientes nos EUA. Tem uma LLC em Wyoming.
 
 **Estrutura:**
 - LLC em Wyoming (disregarded entity).
@@ -191,85 +198,85 @@ Para patrim�nios maiores, uma estrutura multijurisdicional:
 - Seguro de responsabilidade profissional.
 
 **O que protege:**
-- Suas poupan�as pessoais no M�xico.
+- Suas economias pessoais no México.
 - Sua casa.
 - Seus investimentos pessoais.
 
-**Risco coberto:** Se um cliente processar sua LLC por uma campanha fracassada, s� pode reclamar os $50.000 que est�o no Mercury, n�o os $200.000 que est�o na sua conta pessoal no M�xico.
+**Risco coberto:** Se um cliente processar sua LLC por uma campanha malsucedida, só poderá atingir os $50.000 que estão no Mercury, e não os $200.000 da sua conta pessoal no México.
 
-### Caso 2: Dono de ag�ncia com estrutura m�dia
+### Caso 2: Dona de agência com estrutura intermediária
 
-**Situa��o:** Maria � dona de uma ag�ncia de marketing digital com 5 funcion�rios. Fatura $50.000/m�s. Tem duas linhas de neg�cio: servi�os e cursos online.
+**Situação:** Maria é dona de uma agência de marketing digital com 5 funcionários. Fatura $50.000 por mês. Tem duas linhas de negócio: serviços e cursos online.
 
 **Estrutura:**
-- **LLC 1 (Operating):** Opera��o da ag�ncia (servi�os).
+- **LLC 1 (Operating):** Operação da agência (serviços).
 - **LLC 2 (Courses):** Cursos online e propriedade intelectual.
 - Ambas em Wyoming.
-- Contas separadas no Mercury e Relay.
-- Trust revog�vel como propriet�rio de ambas as LLCs.
+- Contas separadas no Mercury e no Relay.
+- Trust revogável como proprietário das duas LLCs.
 
 **O que protege:**
-- Se um cliente processar por servi�os, s� afeta a LLC 1.
-- Os cursos online (LLC 2) est�o protegidos.
-- Os ativos do trust est�o separados do seu patrim�nio pessoal.
+- Se um cliente processar pela prestação de serviços, só a LLC 1 será afetada.
+- Os cursos online (LLC 2) permanecem protegidos.
+- Os ativos do trust ficam separados do patrimônio pessoal.
 
-### Caso 3: Empres�rio com estrutura avan�ada
+### Caso 3: Empresário com estrutura avançada
 
-**Situa��o:** Carlos tem um neg�cio de e-commerce que fatura $300.000/ano. Tem 3 s�cios. � dono de 2 propriedades nos EUA.
+**Situação:** Carlos tem um negócio de e-commerce que fatura $300.000 por ano. Tem 3 sócios e é dono de 2 imóveis nos EUA.
 
 **Estrutura:**
-- **Holding Company** no Panam�.
+- **Holding Company** no Panamá.
 - **LLC Operating** em Wyoming (e-commerce).
-- **LLC Real Estate** na Fl�rida (propriedades).
-- **Trust irrevog�vel** como propriet�rio da Holding.
-- Contas no Mercury, Relay e banco local nos EUA.
+- **LLC Real Estate** na Flórida (imóveis).
+- **Trust irrevogável** como proprietário da holding.
+- Contas no Mercury, Relay e em banco local nos EUA.
 
-**O que protege:** Todo seu patrim�nio empresarial e pessoal est� estruturado em camadas que tornam extremamente dif�cil para um credor alcan�ar os ativos.
+**O que protege:** Todo o patrimônio empresarial e pessoal está organizado em camadas que tornam extremamente difícil para um credor alcançar os ativos.
 
-## Checklist de prote��o patrimonial
+## Checklist de proteção patrimonial
 
 - [ ] Ter uma LLC corretamente estruturada.
-- [ ] Operating Agreement completo e atualizado.
-- [ ] Contas banc�rias separadas (pessoal e empresarial).
-- [ ] N�o misturar despesas pessoais com a LLC.
+- [ ] Manter o Operating Agreement completo e atualizado.
+- [ ] Ter contas bancárias separadas (pessoal e empresarial).
+- [ ] Não misturar despesas pessoais com a LLC.
 - [ ] Ter seguro de responsabilidade profissional.
-- [ ] Avaliar se precisa de m�ltiplas LLCs.
-- [ ] Considerar um trust para camada adicional de prote��o.
-- [ ] Manter a LLC em bom estado (Annual Report em dia).
-- [ ] Cumprir com todas as obriga��es fiscais.
-- [ ] Consultar um advogado de prote��o patrimonial.
+- [ ] Avaliar se você precisa de múltiplas LLCs.
+- [ ] Considerar um trust como camada adicional de proteção.
+- [ ] Manter a LLC em good standing (Annual Report em dia).
+- [ ] Cumprir todas as obrigações fiscais.
+- [ ] Consultar um advogado de proteção patrimonial.
 
-## Mitos comuns sobre prote��o patrimonial
+## Mitos comuns sobre proteção patrimonial
 
-### Mito 1: "A LLC protege todo meu patrim�nio"
+### Mito 1: "A LLC protege todo o meu patrimônio"
 
-**Realidade:** A LLC protege os ativos dentro da LLC dos seus credores pessoais, e seus ativos pessoais dos credores da LLC. N�o protege contra fraude, incumprimento fiscal ou se levantarem o v�u corporativo.
+**Realidade:** A LLC protege os ativos dentro da LLC dos seus credores pessoais, e seus ativos pessoais dos credores da LLC. Ela não protege contra fraude, descumprimento fiscal ou casos em que o véu corporativo é desconsiderado.
 
-### Mito 2: "Se tenho LLC, n�o preciso de seguro"
+### Mito 2: "Se tenho LLC, não preciso de seguro"
 
-**Realidade:** A LLC e o seguro s�o complementares. A LLC limita a responsabilidade; o seguro cobre os custos de defesa e poss�veis indeniza��es.
+**Realidade:** LLC e seguro são complementares. A LLC limita a responsabilidade; o seguro cobre custos de defesa e eventuais indenizações.
 
-### Mito 3: "Colocar tudo na LLC � melhor"
+### Mito 3: "Colocar tudo em uma LLC é melhor"
 
-**Realidade:** Ter todos os seus ativos numa �nica LLC os exp�e a todos se a LLC for processada. Melhor ter m�ltiplas LLCs ou camadas de prote��o.
+**Realidade:** Concentrar todos os ativos em uma única LLC expõe tudo se essa LLC for processada. Em muitos casos, é melhor trabalhar com múltiplas LLCs ou com camadas adicionais de proteção.
 
-### Mito 4: "Prote��o patrimonial � s� para ricos"
+### Mito 4: "Proteção patrimonial é só para ricos"
 
-**Realidade:** Qualquer pessoa com um neg�cio deve ter prote��o b�sica. Uma LLC custa apenas $100-200 por ano.
+**Realidade:** Qualquer pessoa que tenha um negócio deveria ter proteção básica. Uma LLC pode custar apenas $100-200 por ano.
 
-## Conclus�o
+## Conclusão
 
-A prote��o patrimonial n�o � um luxo; � uma necessidade para qualquer empreendedor internacional. Uma LLC bem estruturada nos EUA � o primeiro passo, mas dependendo do tamanho do seu patrim�nio, pode precisar de camadas adicionais.
+Proteção patrimonial não é luxo; é necessidade para qualquer empreendedor internacional. Uma LLC bem estruturada nos EUA é o primeiro passo, mas, dependendo do tamanho do seu patrimônio, você pode precisar de camadas adicionais.
 
-A chave est� em:
+A chave está em:
 1. **Separar** seus ativos pessoais dos empresariais.
 2. **Usar a LLC corretamente** (contas separadas, compliance em dia).
-3. **Considerar camadas adicionais** (m�ltiplas LLCs, trusts) conforme seu n�vel de risco.
-4. **Manter o compliance** para n�o perder a prote��o.
-5. **Consultar profissionais** antes de estruturar.
+3. **Considerar camadas adicionais** (múltiplas LLCs, trusts) de acordo com o seu nível de risco.
+4. **Manter o compliance** para não perder a proteção.
+5. **Consultar profissionais** antes de estruturar tudo.
 
-## Precisa de ajuda para proteger seu patrim�nio?
+## Precisa de ajuda para proteger seu patrimônio?
 
-Na **Sotomayor Consulting International**, ajudamos voc� a desenhar uma estrutura de prote��o patrimonial adaptada ao seu neg�cio, pa�s de resid�ncia e n�vel de risco.
+Na **Sotomayor Consulting International**, ajudamos você a desenhar uma estrutura de proteção patrimonial adaptada ao seu negócio, ao seu país de residência e ao seu nível de risco.
 
-**Agende uma consultoria gratuita** e proteja o patrim�nio que construiu.
+**Agende uma consultoria gratuita** e proteja o patrimônio que você construiu.

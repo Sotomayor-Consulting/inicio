@@ -1,7 +1,7 @@
 ---
 title: "How to Reduce Operational Burden with Technology: 2026 Guide"
 description: "Reduce operational load with automation"
-cardImage: "@/images/insights/como-reducir-la-carga-operativa-con-tecnologia.png"
+cardImage: "@/images/insights/como-reducir-la-carga-operativa-con-tecnologia.avif"
 cardImageAlt: "Operational automation dashboard showing workflow automation, RPA bots, document processing, Stripe reconciliation, and process analytics"
 ---
 

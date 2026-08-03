@@ -1,7 +1,7 @@
 ---
 title: "Cómo Saber si tu LLC Está en Riesgo: Guía 2026"
 description: "Señales de alerta, indicadores de riesgo y verificaciones de cumplimiento para evaluar la salud de tu LLC"
-cardImage: "@/images/insights/llc-mal-estructurada.png"
+cardImage: "@/images/insights/llc-mal-estructurada.avif"
 cardImageAlt: "Guía de evaluación de riesgo de LLC que muestra lista de verificación de buen estado, panel de cumplimiento, rastreador de estado de entidad, análisis de protección de responsabilidad y monitor de plazos de declaración estatal"
 ---
 

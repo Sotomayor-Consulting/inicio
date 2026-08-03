@@ -1,7 +1,7 @@
 ---
 title: "Real Estate como Vehículo de Migración a EE. UU.: Guía 2026"
 description: "Real estate como vehículo de migración a EE. UU."
-cardImage: "@/images/insights/real-state.png"
+cardImage: "@/images/insights/real-state.avif"
 cardImageAlt: "Mapa de EE. UU. con ruta de migración: visados E-2, EB-5, L-1, y cómo la inversión inmobiliaria abre caminos migratorios"
 ---
 

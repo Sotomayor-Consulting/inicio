@@ -1,7 +1,7 @@
 ---
 title: "How to Invoice Internationally: Complete Guide 2026"
 description: "How to invoice internationally"
-cardImage: "@/images/insights/como-facturar-internacionalmente.png"
+cardImage: "@/images/insights/como-facturar-internacionalmente.avif"
 cardImageAlt: "International invoice with dollars, euros and other currency symbols"
 ---
 

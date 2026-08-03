@@ -1,7 +1,7 @@
 ---
 title: "Como Otimizar Conversões de Pagamento: Guia Completo 2026"
 description: "Como otimizar conversões de pagamento"
-cardImage: "@/images/insights/como-optimizar-conversiones-de-pago.png"
+cardImage: "@/images/insights/como-optimizar-conversiones-de-pago.avif"
 cardImageAlt: "Gráfico de funil de conversão mostrando aumento na taxa de pagamentos bem-sucedidos"
 ---
 

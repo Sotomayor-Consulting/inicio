@@ -1,7 +1,7 @@
 ---
 title: "Cómo Revisar el Estado Tributario de tu Empresa: Guía 2026"
 description: "Verifique el estado de cumplimiento tributario federal, estatal y local de su empresa para evitar multas"
-cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.png"
+cardImage: "@/images/insights/como-tributan-los-exportadores-de-servicios.avif"
 cardImageAlt: "Guía de revisión de estado tributario empresarial que muestra transcripción de cuenta del IRS, panel de portal tributario estatal, rastreador de pagos de impuestos estimados, calendario de cumplimiento y análisis de nexo multiestatal"
 ---
 

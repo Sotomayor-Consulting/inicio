@@ -1,7 +1,7 @@
-﻿---
+---
 title: "¿Cómo Tributan los Ingresos Digitales? Guía Completa para Creadores y Emprendedores"
 description: "Tributación de ingresos digitales"
-cardImage: "@/images/insights/como-tributan-los-ingresos-digitales.png"
+cardImage: "@/images/insights/como-tributan-los-ingresos-digitales.avif"
 cardImageAlt: "Dispositivos digitales con gráficos financieros y monedas virtuales"
 ---
 

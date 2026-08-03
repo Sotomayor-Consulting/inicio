@@ -1,7 +1,7 @@
 ---
 title: "Beneficios de Comprar Propiedades con LLC: Guía 2026"
 description: "Beneficios de comprar propiedades con LLC"
-cardImage: "@/images/insights/beneficio-llc.png"
+cardImage: "@/images/insights/beneficio-llc.avif"
 cardImageAlt: "Icono de LLC protegiendo una casa, con escudo, gráficos de impuestos, y flechas de beneficios distribuidos alrededor"
 ---
 

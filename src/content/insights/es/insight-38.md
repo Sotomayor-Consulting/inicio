@@ -1,7 +1,7 @@
 ---
 title: "¿Qué es CRS? Guía Completa sobre el Estándar Común de Reporte"
 description: "Guía completa sobre el CRS"
-cardImage: "@/images/insights/que-es-crs.png"
+cardImage: "@/images/insights/que-es-crs.avif"
 cardImageAlt: "Mapa mundial con iconos de intercambio de información fiscal entre países"
 ---
 

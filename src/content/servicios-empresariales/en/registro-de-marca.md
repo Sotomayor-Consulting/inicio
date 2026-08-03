@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Rights Maintenance"
     subTitle: "We advise you on monitoring and renewing your registrations to ensure your legal protection remains in force long-term."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

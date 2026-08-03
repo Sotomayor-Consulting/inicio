@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Custom Configuration"
     subTitle: "We develop a phone line configuration that adapts to your specific business needs, such as call forwarding, block lists, and more."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

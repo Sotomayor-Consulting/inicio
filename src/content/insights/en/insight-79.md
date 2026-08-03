@@ -1,7 +1,7 @@
 ---
 title: "Asset Protection for Investors: Complete Guide 2026"
 description: "Asset protection for investors"
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.avif"
 cardImageAlt: "Protective shield over an investment portfolio: real estate, stocks, bonds, crypto assets, and international accounts"
 ---
 

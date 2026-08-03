@@ -1,7 +1,7 @@
 ---
 title: "Protect and Keep Your LLC Active with Our Annual Maintenance Service"
 description: "Annual LLC Maintenance"
-cardImage: "@/images/insights/como-usa-una-llc.png"
+cardImage: "@/images/insights/como-usa-una-llc.avif"
 cardImageAlt: "Professionals working in an office"
 ---
 Keeping your LLC compliant and active is essential for the success and continuity of your business in the United States. At **Sotomayor Consulting International**, we offer a comprehensive **Annual Maintenance** service that covers all the necessary legal and administrative requirements to ensure your company complies with state regulations.

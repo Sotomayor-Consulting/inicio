@@ -1,7 +1,7 @@
 ---
 title: "How to Charge Clients in Different Countries: 2026 Guide"
 description: "How to charge clients in different countries"
-cardImage: "@/images/insights/como-cobrar-clientes-en-diferentes-paises.png"
+cardImage: "@/images/insights/como-cobrar-clientes-en-diferentes-paises.avif"
 cardImageAlt: "Global map with multiple currencies and payment methods: USD, EUR, BRL, MXN, Pix, OXXO, iDEAL, with Stripe as processing hub and automatic conversion"
 ---
 

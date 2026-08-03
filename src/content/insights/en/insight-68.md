@@ -1,7 +1,7 @@
 ---
 title: "Stripe for SaaS: Complete Integration Guide 2026"
 description: "Stripe for SaaS"
-cardImage: "@/images/insights/stripe-para-saas.png"
+cardImage: "@/images/insights/stripe-para-saas.avif"
 cardImageAlt: "Stripe dashboard showing SaaS subscriptions and recurring billing metrics"
 ---
 

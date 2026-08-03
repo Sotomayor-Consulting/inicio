@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Los 7 Beneficios Clave de una LLC para Emprendedores Internacionales"
 description: "Conoce los 7 beneficios clave de una LLC en EE.UU.: protección de activos, acceso financiero, operar en dólares, credibilidad global y más."
-cardImage: "@/images/insights/beneficios-clave-de-una-llc.png"
+cardImage: "@/images/insights/beneficios-clave-de-una-llc.avif"
 cardImageAlt: "Emprendedor internacional celebrando el crecimiento de su negocio"
 ---
 

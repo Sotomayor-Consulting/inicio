@@ -1,12 +1,12 @@
 ---
 import { Image } from "astro:assets";
-import imagen1 from "/src/images/reunidos.webp";
-import imagen2 from "/src/images/icono.avif";
-import imagen3 from "/src/images/test.avif";
-import imagen4 from "/src/images/llc-imagen-1.png";
-import imagen5 from "/src/images/chart-imagen-2.png";
-import imagen6 from "/src/images/paper-imagen3.png";
-import imagen7 from "/src/images/imagen-tech-4.png";
+import imagen1 from "@images/reunidos.webp";
+// import imagen2 from "@images/icono.png";
+import imagen3 from "@images/test.avif";
+import imagen4 from "@images/llc-imagen-1.png";
+import imagen5 from "@images/chart-imagen-2.png";
+import imagen6 from "@images/paper-imagen3.png";
+import imagen7 from "@images/imagen-tech-4.png";
 
 interface Props {
   label: string;
@@ -84,7 +84,7 @@ const { label, title, description, button, label2 } = Astro.props;
       </div>
     </div>
     <div class="relative my-10 pb-0">
-      <Image
+      <!-- <Image
         src={imagen2}
         alt="icono"
         class="absolute -top-10 left-0 object-cover opacity-10 md:-top-10 md:-left-12 lg:-top-10 lg:left-7"
@@ -92,8 +92,8 @@ const { label, title, description, button, label2 } = Astro.props;
       <Image
         src={imagen2}
         alt="icono"
-        class="absolute right-0 -bottom-10 object-cover opacity-10 md:-right-12 md:bottom-10 lg:right-3 lg:-bottom-10"
-      />
+        class="absolute right-0 -bottom-10 object-cover opacity-10 md:-right-12 md:bottom-10 lg:right-3 lg:-bottom-10 size-3"
+      /> -->
 
       <div class="relative flex items-center justify-center px-8 md:px-0">
         <Image

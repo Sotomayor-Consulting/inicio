@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Cómo Generar Ingresos Pasivos con Propiedades en EE. UU.: Guía 2026"
 description: "Cómo generar ingresos pasivos con propiedades en EE. UU."
-cardImage: "@/images/insights/como-generar-ingresos-pasivos-con-propiedades-en-eeuu.png"
+cardImage: "@/images/insights/como-generar-ingresos-pasivos-con-propiedades-en-eeuu.avif"
 cardImageAlt: "Espectro de ingresos pasivos con propiedades: REITs, crowdfunding, turnkey, LTR, STR, con iconos de Stripe y flujo de dinero automático"
 ---
 

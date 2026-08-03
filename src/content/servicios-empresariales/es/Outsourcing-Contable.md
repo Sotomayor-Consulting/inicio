@@ -50,6 +50,6 @@ specificationsRight:
   - title: "Asesoría Financiera ContinuaApplications"
     subTitle: "Te brindamos consultas periódicas para analizar el rendimiento financiero de tu empresa y desarrollar estrategias para optimizar costos y maximizar la rentabilidad."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

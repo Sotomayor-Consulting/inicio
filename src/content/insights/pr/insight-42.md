@@ -1,7 +1,7 @@
 ---
 title: "Como Justificar Transferências Internacionais: Guia para Evitar Problemas Fiscais"
 description: "Justificação de transferências internacionais"
-cardImage: "@/images/insights/como-justificar-transferencias-internacionales.png"
+cardImage: "@/images/insights/como-justificar-transferencias-internacionales.avif"
 cardImageAlt: "Transferência bancária internacional entre países com documentos de suporte"
 ---
 

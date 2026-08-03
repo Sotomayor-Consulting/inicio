@@ -1,7 +1,7 @@
 ---
 title: "Cómo Abrir Stripe desde Latinoamérica: Guía Paso a Paso"
 description: "Abrir Stripe desde Latinoamérica"
-cardImage: "@/images/insights/stripe.png"
+cardImage: "@/images/insights/stripe.avif"
 cardImageAlt: "Interfaz de Stripe en un notebook con banderas de Latinoamérica"
 ---
 

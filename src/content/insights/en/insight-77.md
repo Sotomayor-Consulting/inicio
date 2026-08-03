@@ -1,7 +1,7 @@
 ---
 title: "How to Protect Digital Assets: Complete Guide 2026"
 description: "How to protect digital assets"
-cardImage: "@/images/insights/proteccion-de-activos-digitales.png"
+cardImage: "@/images/insights/proteccion-de-activos-digitales.avif"
 cardImageAlt: "Digital shield protecting icons of assets like code, brands, domains, data, and cryptocurrencies"
 ---
 

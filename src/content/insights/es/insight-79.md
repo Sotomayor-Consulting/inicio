@@ -1,7 +1,7 @@
 ---
 title: "Protección Patrimonial para Inversionistas: Guía 2026"
 description: "Protección patrimonial para inversionistas"
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.avif"
 cardImageAlt: "Escudo protector sobre un portafolio de inversiones: bienes raíces, acciones, bonos, criptoactivos y cuentas internacionales"
 ---
 

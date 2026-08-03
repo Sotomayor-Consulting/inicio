@@ -1,7 +1,7 @@
 ---
 title: "Como Evitar Multas Estaduais e de Declaração: Guia 2026"
 description: "Estratégias para evitar multas estaduais e manter sua empresa em conformidade"
-cardImage: "@/images/insights/cumplimiento-fiscal.png"
+cardImage: "@/images/insights/cumplimiento-fiscal.avif"
 cardImageAlt: "Guia de prevenção de multas estaduais mostrando calendário de conformidade, sistemas automatizados de declaração, formulários de redução de multas, rastreador de prazos estaduais e painel de gestão de entidades empresariais"
 ---
 

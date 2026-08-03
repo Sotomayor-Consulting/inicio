@@ -49,6 +49,6 @@ specificationsRight:
   - title: "Long-Term Visibility"
     subTitle: "We develop a scalable immigration solution that can grow and adapt as your family and needs expand."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

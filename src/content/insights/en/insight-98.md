@@ -1,7 +1,7 @@
 ---
 title: "How to Access the U.S. Financial System as a Foreigner: 2026 Guide"
 description: "Access the U.S. financial system as a foreigner"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/negocios-internacionales.avif"
 cardImageAlt: "U.S. financial system access with bank accounts, Stripe, Wise, and digital banking platforms for foreigners"
 ---
 

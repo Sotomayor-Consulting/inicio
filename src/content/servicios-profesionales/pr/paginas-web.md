@@ -47,6 +47,6 @@ specificationsRight:
   - title: "Capacitação para Gestão de Conteúdo"
     subTitle: "Proporcionamos uma capacitação básica para que você possa gerenciar e atualizar o conteúdo de seu site de maneira autônoma se desejar."
 blueprints:
-  first: "@/images/icon.png"
-  second: "@/images/icon.png"
+  first: "@/images/icono.png"
+  second: "@/images/icono.png"
 ---

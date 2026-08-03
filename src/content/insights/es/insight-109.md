@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Cómo reducir la carga operativa con tecnología: Guía 2026"
 description: "Reduce la carga operativa con automatización"
-cardImage: "@/images/insights/como-reducir-la-carga-operativa-con-tecnologia.png"
+cardImage: "@/images/insights/como-reducir-la-carga-operativa-con-tecnologia.avif"
 cardImageAlt: "Dashboard de automatización operativa mostrando automatización de flujos, bots RPA, procesamiento de documentos, conciliación Stripe y analíticas de procesos"
 ---
 

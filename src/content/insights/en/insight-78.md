@@ -1,7 +1,7 @@
 ---
 title: "What Structures International Entrepreneurs Use: Guide 2026"
 description: "What structures international entrepreneurs use"
-cardImage: "@/images/insights/negocios-internacionales.png"
+cardImage: "@/images/insights/negocios-internacionales.avif"
 cardImageAlt: "World map with icons of legal structures: LLC, Corporation, Trust, Foundation, IBC and Holding connected by lines"
 ---
 

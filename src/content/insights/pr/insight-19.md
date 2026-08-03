@@ -1,170 +1,172 @@
 ---
-title: "O Que Acontece se Voc� Nunca Declarou Impostos nos Estados Unidos? Riscos e Solu��es"
-description: "Descubra as consequ�ncias de n�o declarar impostos com sua LLC nos EUA, as multas do IRS e como regularizar sua situa��o."
-cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.png"
+title: "O Que Acontece se Você Nunca Declarou Impostos nos Estados Unidos? Riscos e Soluções"
+description: "Descubra as consequências de não declarar impostos com sua LLC nos EUA, as multas do IRS e como regularizar sua situação."
+cardImage: "@/images/insights/errores-comunes-al-abrir-una-llc.avif"
 cardImageAlt: "Pessoa preocupada revisando documentos do IRS"
 ---
 
-Muitos empreendedores latino-americanos abrem uma LLC nos Estados Unidos, obt�m seu EIN, come�am a operar� e nunca apresentam uma declara��o de impostos. Alguns acreditam que n�o � necess�rio, outros pensam que "o IRS nunca vai encontr�-los" e muitos simplesmente n�o sabiam que tinham obriga��es.
+Muitos empreendedores latino-americanos abrem uma LLC nos Estados Unidos, obtêm seu EIN, começam a operar... e nunca apresentam uma declaração de impostos. Alguns acreditam que isso não é necessário, outros acham que "o IRS nunca vai encontrá-los", e muitos simplesmente não sabiam que tinham obrigações.
 
-A pergunta que mais cedo ou mais tarde chega �: **o que acontece se voc� nunca declarou impostos nos Estados Unidos?**
+A pergunta que cedo ou tarde aparece é: **o que acontece se você nunca declarou impostos nos Estados Unidos?**
 
-Neste artigo, explicamos as consequ�ncias reais, os riscos que enfrenta e os passos para regularizar sua situa��o se j� estiver nesta posi��o.
+Neste artigo, explicamos as consequências reais, os riscos envolvidos e os passos para regularizar sua situação caso você já esteja nessa posição.
 
 ## O IRS realmente descobre?
 
-Sim. O IRS tem m�ltiplos mecanismos para detectar contribuintes que n�o apresentaram declara��es:
+Sim. O IRS tem vários mecanismos para detectar contribuintes que não apresentaram declarações:
 
-- **Acordos de interc�mbio de informa��o fiscal** com mais de 100 pa�ses, incluindo a maioria dos pa�ses latino-americanos.
-- **Relat�rios de bancos e fintechs:** Mercury, Relay, Wise e outras institui��es reportam atividade ao IRS mediante formul�rios como o 1099.
-- **Relat�rios de plataformas de pagamento:** Stripe, PayPal e Amazon emitem 1099-K quando ultrapassam certos limites de transa��es.
-- **Dados do estado de registro:** A Secretaria de Estado tem registro de sua LLC e pode compartilhar informa��es.
-- **Den�ncias an�nimas:** O IRS tem programas de recompensa para informantes.
+- **Acordos de troca de informações fiscais** com mais de 100 países, incluindo a maioria dos países latino-americanos.
+- **Relatórios de bancos e fintechs:** Mercury, Relay, Wise e outras instituições reportam atividade ao IRS por meio de formulários como o 1099.
+- **Relatórios de plataformas de pagamento:** Stripe, PayPal e Amazon emitem 1099-K quando certos limites de transações são ultrapassados.
+- **Dados do estado de registro:** A Secretaria de Estado tem registro da sua LLC e pode compartilhar informações.
+- **Denúncias anônimas:** O IRS mantém programas de recompensa para informantes.
 
-> **Realidade:** Ignorar as obriga��es fiscais n�o significa que o IRS n�o saiba que sua LLC existe e est� operando.
+> **Realidade:** Ignorar obrigações fiscais não significa que o IRS não saiba que sua LLC existe e está em operação.
 
-## Consequ�ncias de n�o declarar
+## Consequências de não declarar
 
-### Multas por n�o apresentar formul�rios informativos
+### Multas por não apresentar formulários informativos
 
-Esta � uma das consequ�ncias mais graves e menos conhecidas. Para uma LLC de um �nico membro propriedade de estrangeiro, o Formul�rio 5472 � obrigat�rio. N�o apresent�-lo pode gerar:
+Essa é uma das consequências mais graves e menos conhecidas. Para uma LLC de um único membro pertencente a estrangeiro, o Formulário 5472 é obrigatório. Não entregá-lo pode gerar:
 
-- **Multa de $25.000** por cada formul�rio n�o apresentado.
-- **Multas adicionais** se o IRS determinar que houve inten��o de evadir.
-- A multa se aplica **por cada ano** que n�o foi apresentado.
+- **Multa de US$ 25.000** por cada formulário não apresentado.
+- **Multas adicionais** se o IRS entender que houve intenção de evasão.
+- A multa se aplica **a cada ano** em que o formulário não foi entregue.
 
-### Multas por n�o apresentar o Annual Report
+### Multas por não apresentar o Annual Report
 
-Cada estado tem suas pr�prias penalidades:
+Cada estado tem suas próprias penalidades:
 
-- **Wyoming:** $50�$150 -- Suspens�o da LLC
-- **Fl�rida:** $400 -- Suspens�o e perda de bom estado
-- **Delaware:** $200 + juros -- Suspens�o e cobran�as adicionais
-### Suspens�o ou dissolu��o da LLC
+- **Wyoming:** US$ 50-US$ 150 -- Suspensão da LLC
+- **Flórida:** US$ 400 -- Suspensão e perda do good standing
+- **Delaware:** US$ 200 + juros -- Suspensão e cobranças adicionais
 
-Se n�o apresentar o Annual Report por v�rios anos, o estado pode:
+### Suspensão ou dissolução da LLC
+
+Se você deixar de apresentar o Annual Report por vários anos, o estado pode:
 
 - Declarar sua LLC como **inativa**.
 - **Dissolver administrativamente** a empresa.
-- Impor **taxas de reinstala��o** que podem superar $500.
+- Cobrar **taxas de reinstalação** que podem ultrapassar US$ 500.
 
 ### Problemas com bancos e plataformas de pagamento
 
-Quando uma LLC � suspensa:
+Quando uma LLC é suspensa:
 
-- **Bancos como Mercury ou Relay podem congelar ou fechar suas contas.**
+- **Bancos como Mercury ou Relay podem congelar ou encerrar suas contas.**
 - **Stripe e PayPal podem suspender o processamento de pagamentos.**
-- **Amazon FBA pode fechar sua conta de vendedor.**
+- **A Amazon FBA pode encerrar sua conta de vendedor.**
 - Recuperar o acesso pode levar meses.
 
-### Juros e multas cumulativas
+### Juros e multas acumulativas
 
-Se devia impostos e n�o os pagou, o IRS cobra:
+Se você devia impostos e não os pagou, o IRS cobra:
 
-- **Juros** sobre o montante n�o pago (calculados diariamente).
-- **Multa por n�o apresentar:** 5% do imposto n�o pago por cada m�s de atraso (m�ximo 25%).
-- **Multa por n�o pagar:** 0,5% do imposto n�o pago por cada m�s de atraso.
+- **Juros** sobre o valor não pago, calculados diariamente.
+- **Multa por não apresentar:** 5% do imposto não pago por cada mês de atraso, até o máximo de 25%.
+- **Multa por não pagar:** 0,5% do imposto não pago por cada mês de atraso.
 
 ### Risco de processo legal
 
-Em casos extremos de evas�o fiscal, o IRS pode:
+Em casos extremos de evasão fiscal, o IRS pode:
 
-- Emitir uma **ordem de penhora** sobre contas banc�rias.
-- Iniciar um **processo penal** (pouco comum para estrangeiros, mas poss�vel em casos de fraude).
+- Emitir uma **ordem de penhora** sobre contas bancárias.
+- Iniciar um **processo criminal**. Isso é incomum para estrangeiros, mas pode acontecer em casos de fraude.
 
-## E se voc� nunca abriu uma conta banc�ria para sua LLC?
+## E se você nunca abriu uma conta bancária para sua LLC?
 
-Muitos acreditam que se nunca ativaram a LLC (n�o abriram conta banc�ria, n�o geraram receitas), n�o t�m obriga��es. Isto � parcialmente verdade, mas com nuances:
+Muitos acreditam que, se nunca ativaram a LLC, ou seja, não abriram conta bancária nem geraram receitas, então não têm obrigações. Isso é parcialmente verdade, mas com ressalvas:
 
-- Se a LLC foi constitu�da mas nunca teve atividade, **ainda pode ter obriga��es informativas** dependendo do ano fiscal.
-- O **Annual Report deve ser apresentado** mesmo que a LLC n�o tenha receitas, para mant�-la ativa.
-- Se n�o planeja usar a LLC, o melhor � **dissolv�-la formalmente** para evitar obriga��es futuras.
+- Se a LLC foi constituída, mas nunca teve atividade, **ainda pode haver obrigações informativas** dependendo do ano fiscal.
+- O **Annual Report deve ser apresentado** mesmo que a LLC não tenha receitas, para mantê-la ativa.
+- Se você não pretende usar a LLC, o melhor caminho é **dissolvê-la formalmente** para evitar obrigações futuras.
 
-## Passos para regularizar sua situa��o
+## Passos para regularizar sua situação
 
-Se j� est� nesta situa��o, estes s�o os passos recomendados:
+Se você já está nessa situação, estes são os passos recomendados:
 
-### Passo 1: Determinar sua situa��o atual
+### Passo 1: Determinar sua situação atual
 
-- A LLC est� ativa ou suspensa?
-- Quais anos n�o apresentou formul�rios?
-- Teve receitas nesses anos?
-- Abriu contas banc�rias ou processadores de pagamento?
+- A LLC está ativa ou suspensa?
+- Quais anos ficaram sem apresentação de formulários?
+- Houve receitas nesses anos?
+- Você abriu contas bancárias ou processadores de pagamento?
 
-### Passo 2: Apresentar os formul�rios pendentes
+### Passo 2: Apresentar os formulários pendentes
 
-O IRS permite apresentar declara��es atrasadas mediante programas como:
+O IRS permite apresentar declarações em atraso por meio de programas como:
 
-- **Delinquent Information Return Submission:** Para apresentar formul�rios informativos (5472, 1120) sem multas autom�ticas se n�o houve receitas.
-- **Streamlined Filing Procedures:** Para contribuintes que n�o apresentaram mas n�o tiveram inten��o de evadir.
+- **Delinquent Information Return Submission:** Para entregar formulários informativos, como 5472 e 1120, sem multas automáticas quando não houve receitas.
+- **Streamlined Filing Procedures:** Para contribuintes que não declararam, mas não tiveram intenção de evasão.
 
-> **Importante:** N�o � recomend�vel simplesmente "come�ar a declarar" sem antes regularizar os anos anteriores, pois isto pode levantar bandeiras vermelhas.
+> **Importante:** Não é recomendável simplesmente "começar a declarar" sem antes regularizar os anos anteriores, porque isso pode levantar alertas.
 
-### Passo 3: Regularizar o estado da LLC
+### Passo 3: Regularizar o status da LLC
 
-- Se a LLC foi suspensa, deve pagar as multas pendentes e apresentar os Annual Reports faltantes.
-- Se foi dissolvida, pode precisar reinstal�-la ou formar uma nova LLC.
+- Se a LLC foi suspensa, você precisa pagar as multas pendentes e apresentar os Annual Reports em atraso.
+- Se foi dissolvida, pode ser necessário reinstalá-la ou constituir uma nova LLC.
 
-### Passo 4: Avaliar se deve manter a LLC
+### Passo 4: Avaliar se vale a pena manter a LLC
 
-Se a LLC n�o est� gerando benef�cios que justifiquem sua manuten��o, pode ser melhor dissolv�-la formalmente.
+Se a LLC não está gerando benefícios que justifiquem sua manutenção, talvez seja melhor dissolvê-la formalmente.
 
-## Mitos comuns sobre n�o declarar
+## Mitos comuns sobre não declarar
 
-- **"O IRS n�o rastreia LLCs de estrangeiros":** O IRS tem acordos com dezenas de pa�ses
-- **"Se n�o tive receitas, n�o tenho que declarar":** Os formul�rios informativos podem ser obrigat�rios sem receitas
-- **"Posso dissolver a LLC e esquecer":** As obriga��es fiscais existem enquanto a LLC esteve ativa
-- **"Nunca v�o me encontrar":** Bancos e fintechs reportam atividade ao IRS
-- **"S� preciso pagar o que devo":** Tamb�m h� multas e formul�rios n�o apresentados
-## Quanto tempo o IRS tem para reclamar?
+- **"O IRS não rastreia LLCs de estrangeiros":** O IRS tem acordos com dezenas de países
+- **"Se eu não tive receitas, não preciso declarar":** Formulários informativos podem ser obrigatórios mesmo sem receitas
+- **"Posso dissolver a LLC e esquecer tudo":** As obrigações fiscais existem enquanto a LLC esteve ativa
+- **"Nunca vão me encontrar":** Bancos e fintechs reportam atividade ao IRS
+- **"Só preciso pagar o que devo":** Além do imposto, também existem multas e formulários não apresentados
 
-O IRS geralmente tem **3 anos** para auditar uma declara��o apresentada. No entanto:
+## Quanto tempo o IRS tem para cobrar?
 
-- Se n�o apresentou nenhuma declara��o, **n�o h� prazo de prescri��o** � o IRS pode reclamar a qualquer momento.
-- Para fraude fiscal, o prazo se estende para **6 anos**.
-- As multas por n�o apresentar formul�rios informativos (como o 5472) **n�o prescrevem** enquanto o formul�rio n�o for apresentado.
+O IRS geralmente tem **3 anos** para auditar uma declaração apresentada. No entanto:
+
+- Se você nunca apresentou declaração, **não há prazo de prescrição** -- o IRS pode cobrar a qualquer momento.
+- Em caso de fraude fiscal, o prazo pode chegar a **6 anos**.
+- As multas por não apresentar formulários informativos, como o 5472, **não prescrevem** enquanto o formulário não for entregue.
 
 ## Casos reais
 
-**Caso 1:** Juan abriu uma LLC em Wyoming em 2020, abriu conta no Mercury e recebeu pagamentos de clientes totalizando $45.000 em 2 anos. Nunca apresentou o Formul�rio 5472. Em 2023, Mercury solicitou comprovante de cumprimento fiscal. N�o tendo, fecharam sua conta. Contratou um contador que custou $3.500 para regularizar 3 anos de declara��es atrasadas.
+**Caso 1:** Juan abriu uma LLC em Wyoming em 2020, abriu conta no Mercury e recebeu pagamentos de clientes no total de US$ 45.000 em 2 anos. Nunca apresentou o Formulário 5472. Em 2023, o Mercury pediu comprovante de compliance fiscal. Como ele não tinha, a conta foi encerrada. Ele precisou contratar um contador, pagando US$ 3.500 para regularizar 3 anos de declarações atrasadas.
 
-**Caso 2:** Maria constituiu uma LLC em Delaware em 2021 mas nunca a usou. N�o apresentou Annual Report. Em 2023, Delaware dissolveu sua LLC. Quando quis abrir um neg�cio de verdade, descobriu que o nome j� n�o estava dispon�vel e devia $600 em multas para reinstalar.
+**Caso 2:** Maria constituiu uma LLC em Delaware em 2021, mas nunca a utilizou. Não apresentou o Annual Report. Em 2023, Delaware dissolveu a LLC. Quando ela quis começar um negócio de verdade, descobriu que o nome já não estava disponível e que devia US$ 600 em multas para reinstalar a empresa.
 
-**Caso 3:** Pedro operou sua LLC por 4 anos sem declarar. Vendia servi�os para clientes nos EUA (ECI). O IRS notificou uma auditoria. A d�vida total entre impostos n�o pagos, juros e multas superou $60.000.
+**Caso 3:** Pedro operou sua LLC por 4 anos sem declarar. Vendia serviços para clientes nos EUA, o que gerava ECI. O IRS notificou uma auditoria. A dívida total, somando impostos não pagos, juros e multas, superou US$ 60.000.
 
-## Pode ir para a cadeia por n�o declarar?
+## É possível ir para a prisão por não declarar?
 
-� pouco prov�vel para a maioria dos casos, mas poss�vel em situa��es de:
+É pouco provável na maioria dos casos, mas pode acontecer em situações de:
 
-- **Evas�o fiscal intencional** (n�o apenas omiss�o, mas a��es para ocultar receitas).
-- **Fraude fiscal** com montantes significativos.
-- **N�o apresenta��o repetida** ap�s notifica��es do IRS.
+- **Evasão fiscal intencional**, ou seja, não apenas omissão, mas ações para esconder receitas.
+- **Fraude fiscal** envolvendo valores significativos.
+- **Falta de apresentação recorrente** mesmo depois de notificações do IRS.
 
-Para a maioria dos empreendedores latino-americanos com LLCs, o risco real s�o as multas financeiras, n�o a cadeia. Mas ignorar o problema n�o o faz desaparecer.
+Para a maioria dos empreendedores latino-americanos com LLCs, o risco real são as multas financeiras, não a prisão. Mas ignorar o problema não faz com que ele desapareça.
 
-## A melhor estrat�gia: prevenir
+## A melhor estratégia: prevenir
 
 Antes de abrir uma LLC:
 
-- Entenda suas obriga��es fiscais.
-- Or�amente os custos de cumprimento anual.
-- Saiba quais formul�rios deve apresentar segundo seu caso.
+- Entenda suas obrigações fiscais.
+- Inclua no orçamento os custos anuais de compliance.
+- Saiba quais formulários devem ser apresentados no seu caso.
 - Considere contratar um contador especializado.
 
-Se j� tem uma LLC e n�o declarou:
+Se você já tem uma LLC e nunca declarou:
 
-- **N�o espere.** Quanto mais tempo passar, maiores ser�o as multas.
-- **Consulte um especialista** em tributa��o internacional.
-- **Regularize sua situa��o** antes que o IRS tome a iniciativa.
+- **Não espere.** Quanto mais tempo passar, maiores serão as multas.
+- **Consulte um especialista** em tributação internacional.
+- **Regularize sua situação** antes que o IRS tome a iniciativa.
 
-## Conclus�o
+## Conclusão
 
-N�o declarar impostos com sua LLC nos Estados Unidos n�o � uma estrat�gia � � um risco. As consequ�ncias v�o desde multas de $25.000 por formul�rios n�o apresentados at� a suspens�o de sua LLC, contas banc�rias congeladas e d�vidas fiscais acumuladas.
+Não declarar impostos com sua LLC nos Estados Unidos não é uma estratégia -- é um risco. As consequências vão desde multas de US$ 25.000 por formulários não apresentados até a suspensão da sua LLC, o bloqueio de contas bancárias e o acúmulo de dívidas fiscais.
 
-A boa not�cia � que **regularizar � poss�vel**. O IRS tem programas para que contribuintes n�o residentes se atualizem com suas obriga��es sem as penalidades m�ximas.
+A boa notícia é que **regularizar é possível**. O IRS tem programas que permitem que contribuintes não residentes coloquem suas obrigações em dia sem necessariamente sofrer as penalidades máximas.
 
-## Precisa regularizar sua situa��o fiscal?
+## Precisa regularizar sua situação fiscal?
 
-Na **Sotomayor Consulting International**, analisamos seu caso e ajudamos a regularizar sua LLC perante o IRS e o estado, apresentando os formul�rios pendentes e evitando multas maiores.
+Na **Sotomayor Consulting International**, analisamos seu caso e ajudamos a regularizar sua LLC perante o IRS e o estado, apresentando os formulários pendentes e evitando multas ainda maiores.
 
 **Agende uma consultoria gratuita** e descubra como colocar sua LLC em ordem.

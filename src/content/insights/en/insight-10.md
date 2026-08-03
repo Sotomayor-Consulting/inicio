@@ -1,7 +1,7 @@
 ---
 title: "Do I Need to Travel to the U.S. to Open an LLC? Everything You Should Know"
 description: "Discover if you need to travel to the United States to open an LLC. Remote process, requirements for foreigners, and when traveling is useful."
-cardImage: "@/images/insights/necesito-viajar-a-eeuu-llc.png"
+cardImage: "@/images/insights/necesito-viajar-a-eeuu-llc.avif"
 cardImageAlt: "Entrepreneur in front of a laptop with a global map"
 ---
 

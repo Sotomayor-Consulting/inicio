@@ -1,7 +1,7 @@
 ---
 title: "Difference Between Protecting and Hiding Assets: Guide 2026"
 description: "Difference between protecting and hiding assets"
-cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.png"
+cardImage: "@/images/insights/como-proteger-tu-patrimonio-con-estructuras-internacionales.avif"
 cardImageAlt: "Scale of justice with one transparent side and one dark side, symbolizing the difference between legal protection and illegal hiding"
 ---
 

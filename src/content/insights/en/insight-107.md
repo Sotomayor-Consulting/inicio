@@ -1,7 +1,7 @@
 ---
 title: "How to Use Odoo for International Businesses: 2026 Guide"
 description: "Odoo international business ERP"
-cardImage: "@/images/insights/odoo-en-empresas-internacionales.png"
+cardImage: "@/images/insights/odoo-en-empresas-internacionales.avif"
 cardImageAlt: "Odoo ERP dashboard showing multi-company, multi-currency sales, international inventory, and global accounting modules"
 ---
 
