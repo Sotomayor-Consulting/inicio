@@ -22,8 +22,9 @@ const INACTIVE_HEADING_CLASS = "text-primario-black dark:text-neutral-200";
   type="button"
   class={`${BUTTON_CLASS} ${first ? "active bg-neutral-100 hover:border-transparent dark:bg-white/[.05]" : ""}`}
   id={id}
-  data-target={dataTab}
+  data-hs-tab={dataTab}
   role="tab"
+  aria-controls={dataTab}
 >
   <!-- Tab text -->
   <span
