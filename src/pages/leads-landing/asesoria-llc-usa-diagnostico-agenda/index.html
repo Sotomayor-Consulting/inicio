@@ -2459,15 +2459,13 @@ body { background: #f7fafb; }
           <section id="returning-lead-screen" class="lead-confirmation-screen returning-lead-screen" aria-live="polite" hidden>
             <div class="lead-confirmation-icon" aria-hidden="true">✓</div>
             <div>
-              <h3 id="returning-lead-title">Ya recibimos tu registro.</h3>
-              <p id="returning-lead-copy">Para evitar registros duplicados, no es necesario completar nuevamente el formulario.</p>
+              <h3 id="returning-lead-title">Gracias por tu tiempo para agendar.</h3>
+              <p id="returning-lead-copy">Selecciona el horario y la fecha que mejor te convengan.</p>
             </div>
-            <p class="lead-confirmation-highlight" id="returning-lead-highlight">Si necesitas atención o quieres cambiar algún dato, escríbenos por WhatsApp y nuestro equipo te ayuda.</p>
             <div class="lead-confirmation-actions">
-              <a class="btn btn-primary" id="returning-lead-continue-agenda-cta" href="#agenda-section">Continuar agenda</a>
-              <a class="btn btn-secondary" id="returning-lead-whatsapp-cta" href="https://wa.link/jx59a9" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+              <a class="btn btn-primary" id="returning-lead-continue-agenda-cta" href="#agenda-section" aria-label="La agenda está más abajo">Ver agenda más abajo ↓</a>
+              <a class="btn btn-secondary" id="returning-lead-whatsapp-cta" href="https://wa.link/jx59a9" target="_blank" rel="noopener" hidden>Escribir por WhatsApp</a>
             </div>
-            <p class="duplicate-small-note">Este aviso aparece porque este navegador ya tiene una solicitud iniciada. Solo bloqueamos nuevos intentos cuando la reunión ya fue confirmada.</p>
           </section>
 
           <!-- Ruta de agenda: selección inicial en header y scroll directo a Zcal -->
@@ -2661,12 +2659,6 @@ body { background: #f7fafb; }
                   <blockquote>Servicio recomendado para crear una LLC en Estados Unidos; destacaron la calidad del equipo profesional.</blockquote>
                   <cite>Reseña publicada en Trustpilot · Colombia · junio de 2026</cite>
                   <p class="social-proof-note">Un proceso empresarial respaldado por especialistas.</p>
-                  <a href="https://www.trustpilot.com/review/sotomayorconsulting.com" target="_blank" rel="noopener">Leer en Trustpilot ↗</a>
-                </article>
-                <article class="social-proof-review social-proof-slide" data-review-slide aria-hidden="true">
-                  <blockquote>“Es una gran persona.”</blockquote>
-                  <cite>Reseña verificada publicada en Trustpilot · Ecuador · abril de 2026</cite>
-                  <p class="social-proof-note">Una experiencia humana y cercana durante el acompañamiento.</p>
                   <a href="https://www.trustpilot.com/review/sotomayorconsulting.com" target="_blank" rel="noopener">Leer en Trustpilot ↗</a>
                 </article>
                 <article class="social-proof-review social-proof-slide social-proof-review-cta" data-review-slide aria-hidden="true">
@@ -3017,6 +3009,7 @@ body { background: #f7fafb; }
       document.querySelectorAll(".ab-variant").forEach((element) => { element.hidden = true; });
       if (returningLeadScreen) returningLeadScreen.hidden = false;
       if (returningLeadContinueAgendaCta) returningLeadContinueAgendaCta.hidden = true;
+      if (returningLeadWhatsappCta) returningLeadWhatsappCta.hidden = false;
       if (abVariantLabel) abVariantLabel.textContent = "Reunión registrada";
 
       if (returningLeadTitle) returningLeadTitle.textContent = "Ya tienes una solicitud registrada.";
@@ -3058,16 +3051,18 @@ body { background: #f7fafb; }
       document.querySelectorAll(".ab-variant").forEach((element) => { element.hidden = true; });
       if (returningLeadScreen) returningLeadScreen.hidden = false;
       if (returningLeadContinueAgendaCta) returningLeadContinueAgendaCta.hidden = false;
+      if (returningLeadWhatsappCta) returningLeadWhatsappCta.hidden = true;
       if (abVariantLabel) abVariantLabel.textContent = "Agenda iniciada";
 
-      if (returningLeadTitle) returningLeadTitle.textContent = "Ya habías iniciado tu agenda.";
-      if (returningLeadCopy) returningLeadCopy.textContent = "Puedes continuar seleccionando un horario o escribirnos por WhatsApp si necesitas ayuda.";
-      if (returningLeadHighlight) returningLeadHighlight.textContent = "No volveremos a registrar tus datos desde el formulario. Si aún no confirmaste la reunión, puedes seguir con la agenda.";
+      if (returningLeadTitle) returningLeadTitle.textContent = "Gracias por tu tiempo para agendar.";
+      if (returningLeadCopy) returningLeadCopy.textContent = "Selecciona el horario y la fecha que mejor te convengan.";
 
       if (returningLeadContinueAgendaCta) {
         returningLeadContinueAgendaCta.href = "#agenda-section";
         returningLeadContinueAgendaCta.classList.remove("btn-secondary");
         returningLeadContinueAgendaCta.classList.add("btn-primary");
+        returningLeadContinueAgendaCta.textContent = "Ver agenda más abajo ↓";
+        returningLeadContinueAgendaCta.setAttribute("aria-label", "La agenda está más abajo");
         returningLeadContinueAgendaCta.addEventListener("click", (event) => {
           event.preventDefault();
           continueOpenedAgenda(reason);
