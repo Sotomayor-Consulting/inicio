@@ -16,7 +16,6 @@ import Video_white from "@images/features_V2_White.webm"
     id="videoPlayer"
     class="w-full aspect-video object-cover"
     autoplay
-    controls
     muted
     loop
     width="1000px"
@@ -29,28 +28,72 @@ import Video_white from "@images/features_V2_White.webm"
     Your browser does not support the video tag.
   </video>
 
-  <button
-    type="button"
-    class="absolute right-4 bottom-4 z-10 h-12 w-12 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition-colors duration-300 hidden"
-    data-sound-toggle
-    aria-label="Unmute video"
-  >
-    <svg
-      class="h-5 w-5"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      aria-hidden="true"
-    >
-      <path d="M11 5 6 9H2v6h4l5 4V5Z" />
-      <path d="M19 9a5 5 0 0 1 0 6" data-sound-wave />
-      <path d="M22 6a9 9 0 0 1 0 12" data-sound-wave />
-      <path d="M22 2 2 22" data-muted-icon />
-    </svg>
-  </button>
+  <div class="pointer-events-none absolute inset-x-4 bottom-4 z-20 flex items-end justify-between sm:inset-x-6 sm:bottom-6">
+      <div class="pointer-events-auto flex items-center gap-3 md:gap-2.5 lg:gap-3">
+        <button
+          type="button"
+          class="group relative flex h-10 w-10 items-center justify-center rounded-full border border-white/18 bg-black/45 text-white backdrop-blur-md transition hover:bg-black/60 md:h-12 md:w-12 lg:h-16 lg:w-16 dark:border-white/15 dark:bg-white/10 dark:hover:bg-white/15"
+          data-play-toggle
+          aria-label="Pausar video"
+        >
+        <svg
+          class="pointer-events-none absolute inset-0 h-full w-full -rotate-90"
+          viewBox="0 0 64 64"
+          aria-hidden="true"
+        >
+          <circle
+            cx="32"
+            cy="32"
+            r="28"
+            class="fill-none dark:stroke-neutral-500 stroke-neutral-100"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            data-progress-ring
+          ></circle>
+        </svg>
+
+        <span class="relative flex h-8 w-8 items-center justify-center rounded-full bg-neutral-200 text-slate-950 transition group-hover:scale-[1.03] md:h-8 md:w-8 lg:h-11 lg:w-11 dark:bg-neutral-200 dark:text-slate-950">
+          <svg
+            class="h-4 w-4 md:h-3 md:w-3 lg:h-4 lg:w-4"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            data-play-icon
+          >
+            <path d="M8 6.5v11l9-5.5-9-5.5Z"></path>
+          </svg>
+          <svg
+            class="hidden h-4 w-4 md:h-3 md:w-3 lg:h-4 lg:w-4"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+            data-pause-icon
+          >
+            <path d="M8 6h3v12H8zM13 6h3v12h-3z"></path>
+          </svg>
+        </span>
+      </button>
+
+      <button
+        type="button"
+        class="flex h-8 w-8 items-center justify-center rounded-full border border-white/20 bg-black/45 text-white backdrop-blur-md transition hover:bg-black/60 md:h-9 md:w-9 lg:h-11 lg:w-11 dark:border-white/15 dark:bg-white/10 dark:hover:bg-white/15"
+        data-sound-toggle
+        aria-label="Silenciar video"
+      >
+        <svg
+          class="h-4 w-4 md:h-3 md:w-3 lg:h-4 lg:w-4"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          aria-hidden="true"
+        >
+          <path d="M13 7.22L9.603 10H6v4h3.603L13 16.78z" />
+          <path d="M8.889 16H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h3.889l5.294-4.332a.5.5 0 0 1 .817.387v15.89a.5.5 0 0 1-.817.387z" />
+          <path d="M18.863 16.591l-1.422-1.422A4 4 0 0 0 19 12c0-1.43-.75-2.685-1.88-3.392l1.439-1.439A5.99 5.99 0 0 1 21 12c0 1.842-.83 3.49-2.137 4.591" data-sound-wave />
+          <path d="M22 2 2 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" data-muted-icon />
+        </svg>
+      </button>
+    </div>
+  </div>
 
   <!-- <Image class="w-full" src={ImageSrc} alt="hero SCI" loading="eager"/> -->
 
@@ -72,16 +115,28 @@ import Video_white from "@images/features_V2_White.webm"
 
       const video = heroVideoShowcase.querySelector("video");
       const toggleBtn = heroVideoShowcase.querySelector("[data-sound-toggle]");
+      const playToggleBtn = heroVideoShowcase.querySelector("[data-play-toggle]");
       const mutedIcon = heroVideoShowcase.querySelector("[data-muted-icon]");
       const soundWaves = heroVideoShowcase.querySelectorAll("[data-sound-wave]");
+      const progressRing = heroVideoShowcase.querySelector("[data-progress-ring]");
+      const playIcon = heroVideoShowcase.querySelector("[data-play-icon]");
+      const pauseIcon = heroVideoShowcase.querySelector("[data-pause-icon]");
 
       if (
         !(video instanceof HTMLVideoElement) ||
         !(toggleBtn instanceof HTMLButtonElement) ||
-        !(mutedIcon instanceof SVGPathElement)
+        !(playToggleBtn instanceof HTMLButtonElement) ||
+        !(mutedIcon instanceof SVGPathElement) ||
+        !(progressRing instanceof SVGCircleElement) ||
+        !(playIcon instanceof SVGElement) ||
+        !(pauseIcon instanceof SVGElement)
       ) {
         return;
       }
+
+      const ringLength = progressRing.getTotalLength();
+      progressRing.style.strokeDasharray = `${ringLength}`;
+      progressRing.style.strokeDashoffset = `${ringLength}`;
 
       const syncVideoSource = () => {
         const nextSrc = document.documentElement.classList.contains("dark")
@@ -94,6 +149,7 @@ import Video_white from "@images/features_V2_White.webm"
 
         const shouldResume = !video.paused;
         const currentTime = video.currentTime;
+        const isMuted = video.muted;
 
         video.dataset.activeSrc = nextSrc;
         video.src = nextSrc;
@@ -105,6 +161,11 @@ import Video_white from "@images/features_V2_White.webm"
             if (currentTime > 0 && Number.isFinite(video.duration)) {
               video.currentTime = Math.min(currentTime, video.duration);
             }
+
+             video.muted = isMuted;
+             syncSoundState();
+             syncPlaybackState();
+             syncProgressRing();
 
             if (shouldResume) {
               video.play().catch(() => {});
@@ -121,29 +182,54 @@ import Video_white from "@images/features_V2_White.webm"
         if (video.muted) {
           mutedIcon.classList.remove("hidden");
           soundWaves.forEach((wave) => wave.classList.add("hidden"));
-          toggleBtn.classList.add("bg-black/40");
-          toggleBtn.style.opacity = "1";
-          toggleBtn.setAttribute("aria-label", "Unmute video");
+          toggleBtn.setAttribute("aria-label", "Activar sonido");
         } else {
           mutedIcon.classList.add("hidden");
           soundWaves.forEach((wave) => wave.classList.remove("hidden"));
-          toggleBtn.classList.remove("bg-black/40");
-          toggleBtn.style.opacity = "0";
-          toggleBtn.setAttribute("aria-label", "Mute video");
+          toggleBtn.setAttribute("aria-label", "Silenciar video");
         }
       };
 
+      const syncPlaybackState = () => {
+        const isPaused = video.paused;
+        playIcon.classList.toggle("hidden", !isPaused);
+        pauseIcon.classList.toggle("hidden", isPaused);
+        playToggleBtn.setAttribute("aria-label", isPaused ? "Reproducir video" : "Pausar video");
+      };
+
+      const syncProgressRing = () => {
+        const progress = Number.isFinite(video.duration) && video.duration > 0
+          ? video.currentTime / video.duration
+          : 0;
+        progressRing.style.strokeDashoffset = `${ringLength * (1 - progress)}`;
+      };
+
       syncSoundState();
+      syncPlaybackState();
+      syncProgressRing();
 
       toggleBtn.addEventListener("click", () => {
         video.muted = !video.muted;
         syncSoundState();
       });
 
+      playToggleBtn.addEventListener("click", () => {
+        if (video.paused) {
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      });
+
+      video.addEventListener("play", syncPlaybackState);
+      video.addEventListener("pause", syncPlaybackState);
+      video.addEventListener("timeupdate", syncProgressRing);
+      video.addEventListener("loadedmetadata", syncProgressRing);
+      video.addEventListener("ended", syncProgressRing);
+
       if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
         gsap.set(heroVideoShowcase, { opacity: 1, y: 0, rotateX: 0, scale: 1 });
         gsap.set(video, { scale: 1 });
-        gsap.set(toggleBtn, { opacity: video.muted ? 1 : 0 });
         return;
       }
 
@@ -157,7 +243,7 @@ import Video_white from "@images/features_V2_White.webm"
       });
 
       gsap.set(video, { scale: 1.08, transformOrigin: "center center" });
-      gsap.set(toggleBtn, { opacity: video.muted ? 1 : 0, y: 12 });
+      gsap.set([toggleBtn, playToggleBtn], { y: 12 });
 
       const timeline = gsap.timeline({
         scrollTrigger: {
@@ -185,7 +271,7 @@ import Video_white from "@images/features_V2_White.webm"
           0,
         )
         .to(
-          toggleBtn,
+          [toggleBtn, playToggleBtn],
           {
             y: 0,
             ease: "power2.out",

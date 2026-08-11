@@ -1,0 +1,326 @@
+---
+import { Image } from "astro:assets";
+import websitePreviewBlack from "@images/Imgen-animation-hero-black.avif";
+import websitePreviewWhite from "@images/Imgen-animation-hero-white.avif";
+import backImage from "@images/Gemini_Generated_Image_fgut06fgut06fgut.png";
+import { Icon } from 'astro-icon/components'
+---
+
+<section data-hero-zoom-scene class="relative h-screen w-full">
+  <div
+    data-hero-zoom-stage
+    class="relative h-screen w-full overflow-hidden bg-black"
+  >
+    <div
+      data-hero-zoom-background
+      class="absolute inset-0 will-change-transform"
+    >
+      <Image
+        src={backImage}
+        alt="Imagen de fondo del escritorio"
+        class="h-full w-full rounded-2xl object-cover object-center"
+        loading="eager"
+        decoding="async"
+      />
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(2,6,23,0.08)_44%,rgba(2,6,23,0.68)_100%)]"
+      >
+      </div>
+      <div
+        class="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,6,23,0.18)_0%,rgba(2,6,23,0)_38%,rgba(2,6,23,0.4)_100%)]"
+      >
+      </div>
+      <div
+        class="absolute inset-x-0 top-0 z-20 h-[70%] bg-[linear-gradient(180deg,#e5e5e5_0%,rgba(229,229,229,0.86)_40%,rgba(229,229,229,0)_100%)] mix-blend-screen dark:bg-[linear-gradient(180deg,#171717_0%,rgba(23,23,23,0.88)_40%,rgba(23,23,23,0)_100%)] dark:mix-blend-normal"
+      >
+      </div>
+    </div>
+
+    <div class="pointer-events-none absolute inset-0 z-21" aria-hidden="true">
+      <div
+        class="absolute top-[18%] left-1/2 h-48 w-48 -translate-x-1/2 rounded-full bg-cyan-300/12 blur-3xl sm:h-64 sm:w-64"
+      >
+      </div>
+      <div
+        class="absolute inset-x-0 bottom-0 h-40 bg-[linear-gradient(180deg,rgba(2,6,23,0)_0%,rgba(2,6,23,0.72)_100%)]"
+      >
+      </div>
+    </div>
+
+    <div
+      data-hero-copy
+      class="pointer-events-auto absolute inset-x-0 top-0 z-40 flex h-full flex-col lg:items-start items-center justify-start  gap-5 bg-linear-to-r dark:from-[#171717] dark:to-[#17171700] from-neutral-200 to-neutral-200/0 lg:py-40 lg:px-40 px-5 py-10"
+    >
+    <span class="flex items-center">
+      <Icon name="mingcute:diamond-square-fill" class="h-4 w-4 text-secundario" />
+      <span class="ml-2 text-sm font-semibold uppercase tracking-widest text-secundario">
+        Expande tu negocio a EE.UU.
+      </span>
+    </span>
+      <h1
+        class="max-w-5xl lg:text-start text-center text-4xl font-semibold text-balance dark:text-white text-black will-change-transform sm:text-5xl lg:text-7xl"
+      >
+        Estructuramos tu expansion global con precision legal, fiscal y
+        tecnológica.
+      </h1>
+      <p class="text-lg dark:text-white text-black max-w-3xl text-pretty lg:text-start text-center">
+        Sotomayor Consulting International es una firma boutique de consultoría legal, fiscal y tecnológica que ayuda a clientes (sobre todo internacionales) a crear empresas en EE. UU. y otras jurisdicciones, conectarlas al sistema financiero (bancos/fintech), cumplir con impuestos y contabilidad, y montar la infraestructura digital (IA, web, Stripe, telefonía) necesaria para operar globalmente.
+      </p>
+      <div class="flex flex-row items-center gap-4">
+        <a
+          class="bg-secundario hover:bg-secundario/80 mt-4 rounded-lg px-4 py-2 text-white transition duration-300"
+          href="/#precios"
+        >
+          Empieza tu LLC
+        </a>
+      </div>
+    </div>
+
+    <div
+      data-hero-laptop-wrap
+      class="pointer-events-none absolute inset-0 z-20"
+    >
+      <Image
+        src={websitePreviewBlack}
+        alt="Laptop con la vista previa del sitio web"
+        data-hero-laptop
+        class="absolute top-[61%] left-[50.2%] hidden w-[clamp(5rem,7vw,7rem)] -translate-x-1/2 -translate-y-1/2 object-contain will-change-transform dark:block"
+        loading="eager"
+        decoding="async"
+      />
+      <Image
+        src={websitePreviewWhite}
+        alt="Laptop con la vista previa del sitio web"
+        data-hero-laptop
+        class="absolute top-[61%] left-[50.2%] block w-[clamp(5rem,7vw,7rem)] -translate-x-1/2 -translate-y-1/2 object-contain will-change-transform dark:hidden"
+        loading="eager"
+        decoding="async"
+      />
+    </div>
+
+    <div
+      data-hero-screen-fade
+      class="pointer-events-none absolute inset-0 z-30 opacity-0"
+      aria-hidden="true"
+    >
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05)_0%,rgba(255,255,255,0)_26%,rgba(2,6,23,0.82)_76%,rgba(2,6,23,1)_100%)]"
+      >
+      </div>
+      <div
+        class="absolute inset-0 bg-[linear-gradient(180deg,rgba(248,250,252,0.04)_0%,rgba(2,6,23,0.12)_32%,rgba(2,6,23,0.94)_100%)]"
+      >
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  gsap.registerPlugin(ScrollTrigger);
+
+  const initHeroZoom = () => {
+    document.querySelectorAll("[data-hero-zoom-scene]").forEach((scene) => {
+      if (
+        !(scene instanceof HTMLElement) ||
+        scene.dataset.gsapReady === "true"
+      ) {
+        return;
+      }
+
+      const stage = scene.querySelector("[data-hero-zoom-stage]");
+      const background = scene.querySelector("[data-hero-zoom-background]");
+      const copy = scene.querySelector("[data-hero-copy]");
+      const laptopWrap = scene.querySelector("[data-hero-laptop-wrap]");
+      const laptop = scene.querySelector("[data-hero-laptop]");
+      const screenFade = scene.querySelector("[data-hero-screen-fade]");
+      const nextSection = scene.nextElementSibling;
+
+      if (
+        !(stage instanceof HTMLElement) ||
+        !(background instanceof HTMLElement) ||
+        !(copy instanceof HTMLElement) ||
+        !(laptopWrap instanceof HTMLElement) ||
+        !(laptop instanceof HTMLElement) ||
+        !(screenFade instanceof HTMLElement)
+      ) {
+        return;
+      }
+
+      scene.dataset.gsapReady = "true";
+
+      const mm = gsap.matchMedia();
+
+      mm.add(
+        {
+          isDesktop: "(min-width: 900px)",
+          reduceMotion: "(prefers-reduced-motion: reduce)",
+        },
+        (context) => {
+          const conditions = context.conditions || {};
+          const isDesktop = Boolean(conditions.isDesktop);
+          const reduceMotion = Boolean(conditions.reduceMotion);
+          const revealTarget =
+            nextSection instanceof HTMLElement ? nextSection : null;
+
+          if (reduceMotion) {
+            gsap.set([background, copy, laptopWrap, laptop, screenFade], {
+              clearProps: "all",
+            });
+            if (revealTarget) {
+              gsap.set(revealTarget, {
+                clearProps: "transform,opacity,visibility",
+              });
+            }
+            return;
+          }
+
+          const baseSceneScale = isDesktop ? 1.18 : 1.12;
+          const baseLaptopScale = isDesktop ? 1.08 : 1;
+          const sharedZoomEnd = isDesktop ? 9.4 : 10.8;
+          const finalTravelY = isDesktop ? -9 : -11;
+          const finalLaptopBoost = isDesktop ? 1.72 : 1.58;
+
+          gsap.set(stage, { autoAlpha: 1 });
+          gsap.set(background, {
+            scale: baseSceneScale,
+            yPercent: 0,
+            transformOrigin: "50.2% 61%",
+          });
+          gsap.set(copy, { autoAlpha: 1, y: 0 });
+          gsap.set(laptopWrap, {
+            scale: baseSceneScale,
+            yPercent: 0,
+            transformOrigin: "50.2% 61%",
+          });
+          gsap.set(laptop, {
+            scale: baseLaptopScale,
+            yPercent: 0,
+            transformOrigin: "50% 46%",
+          });
+          gsap.set(screenFade, { autoAlpha: 0 });
+
+          if (revealTarget) {
+            gsap.set(revealTarget, { y: 40, autoAlpha: 0.16 });
+          }
+
+          const timeline = gsap.timeline({
+            defaults: { ease: "none" },
+            scrollTrigger: {
+              trigger: scene,
+              start: "top top",
+              end: "+=82%",
+              pin: stage,
+              scrub: 1,
+              anticipatePin: 1,
+            },
+          });
+
+          const zoomState = { progress: 0 };
+
+          timeline
+            .to(
+              zoomState,
+              {
+                progress: 1,
+                duration: 1,
+                onUpdate: () => {
+                  const progress = zoomState.progress;
+                  const sharedScale = gsap.utils.interpolate(
+                    baseSceneScale,
+                    sharedZoomEnd,
+                    progress,
+                  );
+                  const travelY = gsap.utils.interpolate(
+                    0,
+                    finalTravelY,
+                    progress,
+                  );
+                  const laptopBoost =
+                    progress <= 0.82
+                      ? 1
+                      : gsap.utils.interpolate(
+                          1,
+                          finalLaptopBoost,
+                          (progress - 0.82) / 0.18,
+                        );
+                  const copyProgress = Math.min(progress / 0.2, 1);
+
+                  gsap.set(background, {
+                    scale: sharedScale,
+                    yPercent: travelY,
+                  });
+                  gsap.set(copy, {
+                    autoAlpha: 1 - copyProgress,
+                    y: -24 * copyProgress,
+                  });
+                  gsap.set(laptopWrap, {
+                    scale: sharedScale,
+                    yPercent: travelY,
+                  });
+                  gsap.set(laptop, {
+                    scale: baseLaptopScale * laptopBoost,
+                    yPercent: 0,
+                  });
+                },
+              },
+              0,
+            )
+            .to(
+              screenFade,
+              {
+                autoAlpha: 1,
+                duration: 0.14,
+              },
+              0.64,
+            )
+            .to(
+              stage,
+              {
+                autoAlpha: 0,
+                duration: 0.12,
+              },
+              0.7,
+            );
+
+          if (revealTarget) {
+            timeline.to(
+              revealTarget,
+              {
+                y: 0,
+                autoAlpha: 1,
+                duration: 0.14,
+              },
+              0.66,
+            );
+          }
+
+          return () => {
+            timeline.kill();
+            gsap.set(
+              [stage, background, copy, laptopWrap, laptop, screenFade],
+              {
+                clearProps: "transform,opacity,visibility",
+              },
+            );
+            if (revealTarget) {
+              gsap.set(revealTarget, {
+                clearProps: "transform,opacity,visibility,marginTop",
+              });
+            }
+          };
+        },
+      );
+    });
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initHeroZoom, { once: true });
+  } else {
+    initHeroZoom();
+  }
+
+  document.addEventListener("astro:page-load", initHeroZoom);
+</script>

@@ -15,6 +15,8 @@ import RelayPartnerSection from "@components/sections/landing/RelayPartnerSectio
 import GridServicios from "@/components/sections/features/GridServicios.astro";
 import Banner from "@components/ui/banners/AnnouncementBanner.astro";
 import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.astro";
+import Heroanimate from "@components/sections/landing/Hero_animation.astro"
+import Heroanimatev2 from "@components/sections/landing/Hero_animation_v2.astro"
 ---
 
 <MainLayout>
@@ -25,7 +27,10 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     btnId="xd"
   />
 
-  <HeroSectionVideos
+  <!-- <Heroanimate/> -->
+  <Heroanimatev2 slot="hero" />
+
+  <!-- <HeroSectionVideos
     title=`Soluciones 360° para LLCs, Fiscalidad y Tecnología Global`
     subTitle="Sotomayor Consulting International es una firma boutique de consultoría legal, fiscal y tecnológica que ayuda a clientes (sobre todo internacionales) a crear empresas en EE. UU. y otras jurisdicciones, conectarlas al sistema financiero (bancos/fintech), cumplir con impuestos y contabilidad, y montar la infraestructura digital (IA, web, Stripe, telefonía) necesaria para operar globalmente."
     primaryBtn="Comienza tu LLC "
@@ -43,14 +48,16 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     descriptionslide3="En Sotomayor Consulting International, diseñamos la estructura exacta que su patrimonio necesita para expandirse con éxito. Somos arquitectos de su seguridad jurídica y fiscal en Estados Unidos y el mundo."
     button1slide3="Diagnostico Gratuito"
     button2slide3="Agenda una reunion"
-  />
+  /> -->
 
+  
+
+  <RelayPartnerSection />
+  
   <CartasDeServiciosV2
     title="Todo para tu Empresa"
     subTitle="Ofrecemos soluciones de servicio personalizadas para profesionales, individuos, familias y empresas, atendiendo a sus necesidades específicas."
   />
-
-  <RelayPartnerSection />
 
   <FeaturesGeneral
     title="Conoce nuestra aplicación"

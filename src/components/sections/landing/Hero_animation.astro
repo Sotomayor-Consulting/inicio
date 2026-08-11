@@ -1,0 +1,516 @@
+---
+import { Image } from "astro:assets";
+import ImgenWhite from "@images/app_white_screenShot.avif";
+import ImagenBlack from "@images/app_black_screenShot.avif";
+import LogoMercury from "@assets/icons/Card-mercury.svg";
+import LogoRelay from "@assets/icons/Card-releay.svg";
+import AppCellphoneDark from "@images/mackup-cell.avif";
+import AppCellphoneWhite from "@images/mackup-cell-white.avif";
+---
+
+<section class="mt-14 flex flex-col items-center">
+  <div class="text-primario-black w-full text-center md:w-4/5 dark:text-white">
+    <h1 class="mb-4 text-3xl font-semibold lg:text-5xl">
+      Forma tu LLC en EE.UU. en minutos, con la confianza de Relay y Mercury
+      Bank como socios oficiales.
+    </h1>
+    <p class="text-black dark:text-white">
+      La forma más inteligente de internacionalizar tu negocio. Conecta tu nueva
+      LLC a Relay y Mercury Bank en minutos y olvídate de las barreras
+      bancarias.
+    </p>
+  </div>
+  <div class="relative">
+    <div id="contenedor-imagen-apps" data-hero-apps>
+      <Image
+        src={ImgenWhite}
+        alt="Imagen de la app en modo claro"
+        class="block h-full w-full object-cover object-center md:w-290 dark:hidden"
+        loading="eager"
+        decoding="async"
+      />
+      <Image
+        src={ImagenBlack}
+        alt="Imagen de la app en modo oscuro"
+        class="hidden h-full w-full object-cover object-center md:w-290 dark:block"
+        loading="eager"
+        decoding="async"
+      />
+    </div>
+    <div
+      class="group absolute bottom-0 mx-auto h-56 md:bottom-20 md:place-self-center"
+      data-hero-partners
+    >
+      <span
+        class="pointer-events-none absolute top-0 -left-10 z-30 h-fit w-fit rounded-full bg-white/10 px-4 py-2 text-center text-sm font-medium whitespace-nowrap text-black opacity-0 shadow-lg backdrop-blur-md dark:text-white"
+        data-partner-label
+      >
+        Somos partners oficiales de Mercury y Relay
+      </span>
+      <div class="h-full w-fit" data-partner-stage>
+        <div
+          class="group transition-all duration-100 will-change-transform group-hover:left-[50%] group-data-[active=true]:left-[50%]"
+          data-partner-card="relay"
+        >
+          <Image
+            src={LogoRelay}
+            alt="Imagen relay tarjeta"
+            class="group relative top-25 left-0 block h-auto w-50 rotate-80 transform object-cover object-center shadow-lg shadow-black/20 transition-all duration-500 group-hover:left-10 group-hover:rotate-100 group-data-[active=true]:left-10 group-data-[active=true]:rotate-100 lg:w-40 dark:shadow-white/20 group-hover:w-60"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+        <div
+          class="transition-all duration-100 will-change-transform group-hover:left-[40%] group-data-[active=true]:left-[40%]"
+          data-partner-card="mercury"
+        >
+          <Image
+            src={LogoMercury}
+            alt="Imagen mercury tarjeta"
+            id="logo-mercury"
+            class="block h-auto w-50 -rotate-80 transform object-cover object-center shadow-lg shadow-black/20 lg:w-40 dark:shadow-white/20 group-hover:w-60"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="card-app-cellphone" class="group absolute top-10 -right-40">
+      <div
+        class="flex h-full min-h-160 max-w-120 flex-col items-center justify-center gap-5 rounded-2xl bg-linear-to-tl dark:from-[#171717] dark:to-black px-10 py-5 text-black dark:text-white from-neutral-200 to-white"
+      >
+        <div class="flex w-full flex-col items-center justify-center">
+          <h3 class="text-center text-4xl text-pretty">
+            Accede a nuestra app web y incorpora tu LLC
+          </h3>
+          <p class="text-sm">
+            Incorpora tu LLC de forma rápida y fácil en nuestra app
+          </p>
+        </div>
+
+        <button
+          class="bg-secundario cursor-default rounded-lg px-5 py-2 text-base text-white"
+          >Acceder a la app</button
+        >
+      </div>
+      <div
+        class="pointer-events-none absolute top-6 left-0 z-20 opacity-0 transition-all duration-300 ease-out translate-y-6 scale-95 group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:scale-100 group-hover:opacity-100 group-data-[active=true]:pointer-events-auto group-data-[active=true]:translate-y-0 group-data-[active=true]:scale-100 group-data-[active=true]:opacity-100"
+        data-cellphone-preview
+      >
+        <div
+          class="flex min-h-160 min-w-120 flex-col items-center justify-center gap-5 rounded-2xl dark:bg-black bg-white will-change-transform"
+          data-cellphone-preview-motion
+        >
+          <div class="dark:text-white text-center">
+            <h4 class="text-4xl">Inicia sesion</h4>
+            <p class="text-base">Accede a tu cuenta y gestiona tu LLC</p>
+          </div>
+          <Image
+            src={AppCellphoneDark}
+            alt="Vista previa de la app en celular"
+            class="h-auto w-36 rounded-2xl shadow-2xl shadow-black/30 lg:w-44 dark:shadow-black/50 hidden dark:block transform"
+            loading="eager"
+            decoding="async"
+          />
+          <Image
+            src={AppCellphoneWhite}
+            alt="Vista previa de la app en celular"
+            class="block h-auto w-36 rounded-2xl shadow-2xl shadow-black/30 lg:w-44 dark:shadow-black/50 dark:hidden transform"
+            loading="eager"
+            decoding="async"
+          />
+          <div>
+            <a href="https://app.sotomayorconsulting.com/start" target="_blank" class="bg-secundario text-white px-4 py-2 rounded-lg hover:bg-secundario-hover">
+              Acceder a la app
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  #logo-mercury {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+  @keyframes myAnim {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+
+    10% {
+      transform: rotate(2deg);
+    }
+
+    20%,
+    40%,
+    60% {
+      transform: rotate(-4deg);
+    }
+
+    30%,
+    50%,
+    70% {
+      transform: rotate(4deg);
+    }
+
+    80% {
+      transform: rotate(-2deg);
+    }
+
+    90% {
+      transform: rotate(2deg);
+    }
+  }
+</style>
+
+<script>
+  import { gsap } from "gsap";
+
+  const initHeroPartnerCards = () => {
+    document.querySelectorAll("[data-hero-partners]").forEach((container) => {
+      if (
+        !(container instanceof HTMLElement) ||
+        container.dataset.gsapReady === "true"
+      ) {
+        return;
+      }
+
+      container.dataset.gsapReady = "true";
+
+      const mm = gsap.matchMedia();
+
+      mm.add(
+        {
+          allowHover: "(hover: hover) and (pointer: fine)",
+          reduceMotion: "(prefers-reduced-motion: reduce)",
+        },
+        (context) => {
+          const conditions = context.conditions || {};
+          const allowHover = Boolean(conditions.allowHover);
+          const reduceMotion = Boolean(conditions.reduceMotion);
+          const cleanups: Array<() => void> = [];
+          const cards = Array.from(
+            container.querySelectorAll("[data-partner-card]"),
+          ).filter((card): card is HTMLElement => card instanceof HTMLElement);
+          const stage = container.querySelector("[data-partner-stage]");
+          const sharedLabel = container.querySelector(
+            ":scope > [data-partner-label]",
+          );
+
+          if (
+            !(stage instanceof HTMLElement) ||
+            !(sharedLabel instanceof HTMLElement)
+          ) {
+            return;
+          }
+
+          gsap.set(sharedLabel, { autoAlpha: 0, y: 10 });
+
+          const cardMotions = new Map<
+            HTMLElement,
+            {
+              xTo: ReturnType<typeof gsap.quickTo>;
+              yTo: ReturnType<typeof gsap.quickTo>;
+            }
+          >();
+
+          const showLabel = () => {
+            gsap.to(sharedLabel, {
+              autoAlpha: 1,
+              y: 0,
+              duration: reduceMotion ? 0.12 : 0.25,
+              ease: "power2.out",
+              overwrite: "auto",
+            });
+          };
+
+          const hideLabel = () => {
+            gsap.to(sharedLabel, {
+              autoAlpha: 0,
+              y: 10,
+              duration: reduceMotion ? 0.1 : 0.2,
+              ease: "power2.inOut",
+              overwrite: "auto",
+            });
+          };
+
+          cards.forEach((card) => {
+            gsap.set(card, {
+              x: 0,
+              y: 0,
+              scale: 1,
+              transformOrigin: "50% 50%",
+              force3D: true,
+            });
+
+            cardMotions.set(card, {
+              xTo: gsap.quickTo(card, "x", {
+                duration: reduceMotion ? 0 : 0.26,
+                ease: "power3.out",
+              }),
+              yTo: gsap.quickTo(card, "y", {
+                duration: reduceMotion ? 0 : 0.26,
+                ease: "power3.out",
+              }),
+            });
+          });
+
+          const resetCards = () => {
+            cardMotions.forEach(({ xTo, yTo }) => {
+              xTo(0);
+              yTo(0);
+            });
+          };
+
+          const updateCardsPosition = (
+            clientX: number,
+            clientY: number,
+            intensity = 1,
+          ) => {
+            const rect = stage.getBoundingClientRect();
+            const offsetX = (clientX - rect.left) / rect.width - 0.5;
+            const offsetY = (clientY - rect.top) / rect.height - 0.5;
+            const baseX = -offsetX * 90 * intensity;
+            const baseY = -offsetY * 90 * intensity;
+
+            cardMotions.forEach(({ xTo, yTo }, card) => {
+              const spreadX =
+                (card.dataset.partnerCard === "relay" ? 40 : -40) * intensity;
+              xTo(baseX + spreadX);
+              yTo(baseY);
+            });
+          };
+
+          const handleContainerEnter = () => {
+            container.dataset.active = "true";
+            showLabel();
+          };
+
+          const handleContainerMove = (event: MouseEvent) => {
+            if (!allowHover || reduceMotion) {
+              return;
+            }
+
+            updateCardsPosition(event.clientX, event.clientY);
+          };
+
+          const handleContainerLeave = () => {
+            delete container.dataset.active;
+            resetCards();
+            hideLabel();
+          };
+
+          const handlePointerDown = (event: PointerEvent) => {
+            if (allowHover || reduceMotion || event.pointerType === "mouse") {
+              return;
+            }
+
+            container.dataset.active = "true";
+            showLabel();
+            updateCardsPosition(event.clientX, event.clientY, 0.45);
+          };
+
+          const handlePointerMove = (event: PointerEvent) => {
+            if (allowHover || reduceMotion || event.pointerType === "mouse") {
+              return;
+            }
+
+            container.dataset.active = "true";
+            updateCardsPosition(event.clientX, event.clientY, 0.45);
+          };
+
+          const handlePointerEnd = (event: PointerEvent) => {
+            if (allowHover || reduceMotion || event.pointerType === "mouse") {
+              return;
+            }
+
+            delete container.dataset.active;
+            resetCards();
+            hideLabel();
+          };
+
+          container.addEventListener("mouseenter", handleContainerEnter);
+          container.addEventListener("mousemove", handleContainerMove);
+          container.addEventListener("mouseleave", handleContainerLeave);
+          container.addEventListener("pointerdown", handlePointerDown);
+          container.addEventListener("pointermove", handlePointerMove);
+          container.addEventListener("pointerup", handlePointerEnd);
+          container.addEventListener("pointercancel", handlePointerEnd);
+
+          cleanups.push(() => {
+            delete container.dataset.active;
+            container.removeEventListener("mouseenter", handleContainerEnter);
+            container.removeEventListener("mousemove", handleContainerMove);
+            container.removeEventListener("mouseleave", handleContainerLeave);
+            container.removeEventListener("pointerdown", handlePointerDown);
+            container.removeEventListener("pointermove", handlePointerMove);
+            container.removeEventListener("pointerup", handlePointerEnd);
+            container.removeEventListener("pointercancel", handlePointerEnd);
+          });
+
+          cleanups.push(() => {
+            resetCards();
+            cards.forEach((card) => gsap.killTweensOf(card));
+            gsap.killTweensOf(sharedLabel);
+            cards.forEach((card) =>
+              gsap.set(card, { clearProps: "transform" }),
+            );
+            gsap.set(sharedLabel, {
+              clearProps: "opacity,visibility,transform",
+            });
+          });
+
+          return () => {
+            cleanups.forEach((cleanup) => cleanup());
+          };
+        },
+      );
+    });
+
+    document.querySelectorAll("[data-hero-apps]").forEach((appsContainer) => {
+      if (
+        !(appsContainer instanceof HTMLElement) ||
+        appsContainer.dataset.gsapReady === "true"
+      ) {
+        return;
+      }
+
+      appsContainer.dataset.gsapReady = "true";
+
+      gsap.fromTo(
+        appsContainer,
+        {
+          autoAlpha: 0,
+          y: 18,
+          scale: 0.985,
+        },
+        {
+          autoAlpha: 1,
+          y: 0,
+          scale: 1,
+          duration: 1.5,
+          ease: "power2.out",
+          clearProps: "opacity,visibility,transform",
+        },
+      );
+    });
+
+    const partnersCard = document.querySelector("[data-hero-partners]");
+    const cellphoneCard = document.querySelector("#card-app-cellphone");
+    const cellphonePreview = document.querySelector("[data-cellphone-preview]");
+    const cellphonePreviewMotion = document.querySelector(
+      "[data-cellphone-preview-motion]",
+    );
+
+    if (
+      partnersCard instanceof HTMLElement &&
+      cellphoneCard instanceof HTMLElement &&
+      cellphonePreview instanceof HTMLElement &&
+      cellphonePreviewMotion instanceof HTMLElement &&
+      cellphoneCard.dataset.gsapLinked !== "true"
+    ) {
+      cellphoneCard.dataset.gsapLinked = "true";
+
+      gsap.set(cellphonePreviewMotion, {
+        x: 0,
+        y: 0,
+        transformOrigin: "50% 50%",
+        force3D: true,
+      });
+
+      const previewXTo = gsap.quickTo(cellphonePreviewMotion, "x", {
+        duration: 0.26,
+        ease: "power3.out",
+      });
+
+      const previewYTo = gsap.quickTo(cellphonePreviewMotion, "y", {
+        duration: 0.26,
+        ease: "power3.out",
+      });
+
+      gsap.set([partnersCard, cellphoneCard], {
+        filter: "blur(0px)",
+        force3D: true,
+      });
+
+      const blurTarget = (target: HTMLElement, amount: number) => {
+        gsap.to(target, {
+          filter: `blur(${amount}px)`,
+          duration: 0.28,
+          ease: "power2.out",
+          overwrite: "auto",
+        });
+      };
+
+      const movePreview = (clientX: number, clientY: number, intensity = 1) => {
+        const rect = cellphoneCard.getBoundingClientRect();
+        const offsetX = (clientX - rect.left) / rect.width - 0.5;
+        const offsetY = (clientY - rect.top) / rect.height - 0.5;
+
+        previewXTo(-offsetX * 90 * intensity);
+        previewYTo(-offsetY * 90 * intensity);
+      };
+
+      const resetPreviewMotion = () => {
+        previewXTo(0);
+        previewYTo(0);
+      };
+
+      const handleCellphoneEnter = () => {
+        cellphoneCard.dataset.active = "true";
+        blurTarget(partnersCard, 5);
+        blurTarget(cellphoneCard, 0);
+      };
+
+      const handleCellphoneMove = (event: MouseEvent) => {
+        movePreview(event.clientX, event.clientY);
+      };
+
+      const handleCellphoneLeave = () => {
+        delete cellphoneCard.dataset.active;
+        resetPreviewMotion();
+        blurTarget(partnersCard, 0);
+      };
+
+      const handlePartnersEnter = () => {
+        blurTarget(cellphoneCard, 5);
+      };
+
+      const handlePartnersLeave = () => {
+        blurTarget(cellphoneCard, 0);
+      };
+
+      cellphoneCard.addEventListener("mouseenter", handleCellphoneEnter);
+      cellphoneCard.addEventListener("mousemove", handleCellphoneMove);
+      cellphoneCard.addEventListener("mouseleave", handleCellphoneLeave);
+      partnersCard.addEventListener("mouseenter", handlePartnersEnter);
+      partnersCard.addEventListener("mouseleave", handlePartnersLeave);
+
+      if (window.matchMedia("(hover: none)").matches) {
+        cellphoneCard.addEventListener("pointerdown", (event) => {
+          handleCellphoneEnter();
+          movePreview(event.clientX, event.clientY, 0.45);
+        });
+        cellphoneCard.addEventListener("pointermove", (event) => {
+          movePreview(event.clientX, event.clientY, 0.45);
+        });
+        cellphoneCard.addEventListener("pointerleave", handleCellphoneLeave);
+        cellphoneCard.addEventListener("pointerup", handleCellphoneLeave);
+        cellphoneCard.addEventListener("pointercancel", handleCellphoneLeave);
+      }
+    }
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initHeroPartnerCards, {
+      once: true,
+    });
+  } else {
+    initHeroPartnerCards();
+  }
+
+  document.addEventListener("astro:page-load", initHeroPartnerCards);
+</script>

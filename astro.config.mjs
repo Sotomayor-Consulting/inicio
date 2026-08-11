@@ -16,7 +16,9 @@ export default defineConfig({
   image: {
     domains: ["images.unsplash.com"],
   },
-
+  devToolbar: {
+    enabled: false
+  },
   prefetch: true,
   integrations: [
     pagefind(),
@@ -129,7 +131,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
     server: {
       allowedHosts: [
-        'igjmxz-ip-200-50-232-3.tunnelmole.net'  // o usa '.tunnelmole.net' para todos
+        '.tunnelmole.net'  // o usa '.tunnelmole.net' para todos
       ]
     }
   },
