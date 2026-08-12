@@ -16,6 +16,7 @@ import GridServicios from "@/components/sections/features/GridServicios.astro";
 import Banner from "@components/ui/banners/AnnouncementBanner.astro";
 import RelayPartnerSection from "@components/sections/landing/RelayPartnerSection.astro";
 import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.astro";
+import Heroanimatev2 from "@components/sections/landing/Hero_animation_v2.astro";
 ---
 
 <MainLayout>
@@ -25,8 +26,15 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     btnTitle="Saiba mais"
     btnId="xd"
   />
+  <Heroanimatev2
+    title="Estruturamos sua expansão global com precisão legal, fiscal e tecnológica."
+    spam="Expanda seu negócio para os EUA."
+    description="A Sotomayor Consulting International é uma consultoria boutique especializada em consultoria legal, fiscal e tecnológica que ajuda clientes (principalmente internacionais) a abrir empresas nos EUA e em outras jurisdições, conectá-las ao sistema financeiro (bancos/fintechs), cumprir obrigações fiscais e contábeis, e montar a infraestrutura digital (IA, web, Stripe, telefonia) necessária para operar globalmente."
+    Btnlabel="Abra sua LLC"
+    slot="hero"
+/>
 
-  <HeroSectionVideos
+  <!-- <HeroSectionVideos
     title=`Soluções 360° para LLCs, Fiscalidade e Tecnologia Global`
     subTitle="A Sotomayor Consulting International é uma empresa boutique de consultoria jurídica, fiscal e tecnológica que ajuda clientes (especialmente internacionais) a criar empresas nos EUA e em outras jurisdições, conectá-las ao sistema financeiro (bancos/fintech), cumprir com impostos e contabilidade, e montar a infraestrutura digital (IA, web, Stripe, telefonia) necessária para operar globalmente."
     primaryBtn="Comece sua LLC"
@@ -44,14 +52,14 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     descriptionslide3="Na Sotomayor Consulting International, projetamos a estrutura exata que o seu patrimônio precisa para expandir com sucesso. Somos arquitetos da sua segurança jurídica e fiscal nos Estados Unidos e no mundo."
     button1slide3="Diagnóstico Gratuito"
     button2slide3="Agende uma reunião"
-  />
+  /> -->
+
+  <RelayPartnerSection />
 
   <CartasDeServiciosV2
     title="Tudo para a sua Empresa"
     subTitle="Oferecemos soluções de serviço personalizadas para profissionais, indivíduos, famílias e empresas, atendendo às suas necessidades específicas."
   />
-
-  <RelayPartnerSection />
 
   <FeaturesGeneral
     title="O que nos Diferencia"
@@ -112,8 +120,8 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
   >
     Evite erros legais e fiscais que podem custar milhares de dólares.
     <b>Em apenas 2 minutos, nosso diagnóstico gratuito</b> analisa sua situação específica
-    e indica com total clareza se uma LLC nos EUA é a opção certa para
-    o seu caso ou se existe uma alternativa melhor.
+    e indica com total clareza se uma LLC nos EUA é a opção certa para o seu caso
+    ou se existe uma alternativa melhor.
   </Evaluacion>
 
   <PricingSection pricing={pricing} />

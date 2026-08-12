@@ -4,6 +4,13 @@ import websitePreviewBlack from "@images/Imgen-animation-hero-black.avif";
 import websitePreviewWhite from "@images/Imgen-animation-hero-white.avif";
 import backImage from "@images/Gemini_Generated_Image_fgut06fgut06fgut.png";
 import { Icon } from 'astro-icon/components'
+interface Props {
+  spam: string;
+  title: string;
+  description: string;
+  Btnlabel: string;
+}
+const {spam, title, description, Btnlabel} = Astro.props
 ---
 
 <section data-hero-zoom-scene class="relative h-screen w-full">
@@ -54,24 +61,23 @@ import { Icon } from 'astro-icon/components'
     <span class="flex items-center">
       <Icon name="mingcute:diamond-square-fill" class="h-4 w-4 text-secundario" />
       <span class="ml-2 text-sm font-semibold uppercase tracking-widest text-secundario">
-        Expande tu negocio a EE.UU.
+        {spam}
       </span>
     </span>
       <h1
         class="max-w-5xl lg:text-start text-center text-4xl font-semibold text-balance dark:text-white text-black will-change-transform sm:text-5xl lg:text-7xl"
       >
-        Estructuramos tu expansion global con precision legal, fiscal y
-        tecnológica.
+        {title}
       </h1>
       <p class="text-lg dark:text-white text-black max-w-3xl text-pretty lg:text-start text-center">
-        Sotomayor Consulting International es una firma boutique de consultoría legal, fiscal y tecnológica que ayuda a clientes (sobre todo internacionales) a crear empresas en EE. UU. y otras jurisdicciones, conectarlas al sistema financiero (bancos/fintech), cumplir con impuestos y contabilidad, y montar la infraestructura digital (IA, web, Stripe, telefonía) necesaria para operar globalmente.
+        {description}
       </p>
       <div class="flex flex-row items-center gap-4">
         <a
           class="bg-secundario hover:bg-secundario/80 mt-4 rounded-lg px-4 py-2 text-white transition duration-300"
           href="/#precios"
         >
-          Empieza tu LLC
+          {Btnlabel}
         </a>
       </div>
     </div>
