@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import tarjetaRelayOne from "@images/tarjeta.png";
 import tarjetaRelayTwo from "@images/tarjeta2.png";
-import tarjetaRelayThree from "@images/tarjeta3.png";
+import tarjetaRelayThree from "@images/tarjeta3.avif";
 
 const pathname = Astro.url.pathname;
 const isEnglish = pathname.startsWith("/en");
@@ -13,9 +13,9 @@ const relayCardImages = [tarjetaRelayOne, tarjetaRelayTwo, tarjetaRelayThree];
 const content = isEnglish
   ? {
       eyebrow: "Official collaboration",
-      title: "We're Relay partners for modern business banking.",
+      title: "We're Mercury & Relay partners for modern business banking.",
       description:
-        "We help founders structure the company correctly and prepare the banking onboarding path so they can move faster with Relay's digital banking ecosystem.",
+        "We help founders structure their company correctly and prepare the banking onboarding path so they can move faster within the digital ecosystem of Mercury or Relay.",
       points: [
         "Guidance for U.S. LLC and EIN readiness before applying",
         "Support around banking setup, team access, and account organization",
@@ -33,34 +33,34 @@ const content = isEnglish
     }
   : isPortuguese
     ? {
-        eyebrow: "Colaboracao oficial",
-        title: "Somos parceiros da Relay para banking empresarial moderno.",
+        eyebrow: "Colaboração oficial",
+        title: "Somos parceiros da Mercury & Relay para banking empresarial moderno.",
         description:
-          "Ajudamos fundadores a estruturar corretamente a empresa e preparar a jornada de onboarding bancario para avancar com mais seguranca no ecossistema digital da Relay.",
+          "Ajudamos os fundadores a estruturar corretamente a sua empresa e preparar o onboarding bancário para avançarem com mais segurança dentro do ecossistema digital da Mercury ou Relay.",
         points: [
-          "Orientacao para LLC nos EUA e EIN antes da solicitacao",
-          "Suporte na configuracao bancaria, acessos da equipe e organizacao de contas",
-          "Apoio estrategico para conectar operacao, cobrancas e contabilidade",
+          "Orientação para LLC nos EUA e EIN antes da solicitação",
+          "Suporte na configuração bancária, acessos da equipe e organização de contas",
+          "Apoio estratégico para conectar operação, cobranças e contabilidade",
         ],
-        primaryLabel: "Explorar servico bancario",
+        primaryLabel: "Explorar serviço bancário",
         primaryHref: "/pr/servicios/banking",
         secondaryLabel: "Falar com um consultor",
         secondaryHref: "/pr/contact",
         cards: [
           { label: "Contas", image: relayCardImages[0] },
-          { label: "Permissoes", image: relayCardImages[1] },
-          { label: "Transferencias", image: relayCardImages[2] },
+          { label: "Permissões", image: relayCardImages[1] },
+          { label: "Transferências", image: relayCardImages[2] },
         ],
       }
     : {
-        eyebrow: "Colaboracion oficial",
-        title: "Somos partners de Relay para banking empresarial moderno.",
+        eyebrow: "Colaboración oficial",
+        title: "Somos partners de Mercury & Relay para banking empresarial moderno.",
         description:
-          "Ayudamos a los fundadores a estructurar correctamente su empresa y preparar el onboarding bancario para avanzar con mas seguridad dentro del ecosistema digital de Relay.",
+          "Ayudamos a los fundadores a estructurar correctamente su empresa y preparar el onboarding bancario para avanzar con mas seguridad dentro del ecosistema digital de Mercury o Relay.",
         points: [
-          "Orientacion para LLC en EE. UU. y EIN antes de aplicar",
-          "Apoyo en configuracion bancaria, accesos del equipo y orden de cuentas",
-          "Acompanamiento estrategico para conectar operacion, cobros y contabilidad",
+          "Orientación para LLC en EE. UU. y EIN antes de aplicar",
+          "Apoyo en configuración bancaria, accesos del equipo y orden de cuentas",
+          "Acompañamiento estratégico para conectar operación, cobros y contabilidad",
         ],
         primaryLabel: "Explorar servicio bancario",
         primaryHref: "/servicios/banking",
@@ -75,10 +75,12 @@ const content = isEnglish
 ---
 
 <section
-  class="mx-auto max-w-340 px-4 py-14 sm:px-6 lg:px-8"
+  id="relay-partner-section"
+  class="mx-auto md:max-w-340 w-full px-4 py-14 sm:px-6 lg:px-8"
   data-relay-partner
 >
   <div
+    data-relay-shell
     class="relay-shell relative overflow-hidden rounded-2xl border border-black/10 bg-[radial-gradient(circle_at_top_left,_rgba(19,175,132,0.18),_transparent_28%),linear-gradient(135deg,_#e5e5e5_0%,_#e5e5e5_48%,_#e5e5e5_100%)] px-6 py-8 shadow-[0_24px_80px_rgba(15,23,42,0.08)] sm:px-8 lg:px-12 lg:py-12 dark:border-white/10 dark:bg-[radial-gradient(circle_at_top_left,_rgba(34,197,94,0.16),_transparent_26%),linear-gradient(135deg,_#171717_0%,_#171717_52%,_#171717_100%)]"
   >
     <div
@@ -89,17 +91,15 @@ const content = isEnglish
     <div
       class="relative grid items-center gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(320px,0.95fr)] lg:gap-14"
     >
-      <div class="max-w-2xl">
-        
-
+      <div data-relay-copy class="max-w-2xl">
         <h2
-          class="mt-5 max-w-xl text-3xl leading-tight font-bold text-slate-950 sm:text-4xl lg:text-5xl dark:text-white"
+          class="mt-5 max-w-xl text-3xl leading-tight font-bold text-slate-950 sm:text-4xl lg:text-5xl dark:text-white text-center lg:text-left"
         >
           {content.title}
         </h2>
 
         <p
-          class="mt-5 max-w-xl text-base leading-7 text-slate-700 sm:text-lg dark:text-slate-300"
+          class="mt-5 max-w-xl text-base leading-7 text-slate-700 sm:text-lg dark:text-slate-300 text-center lg:text-left"
         >
           {content.description}
         </p>
@@ -145,18 +145,19 @@ const content = isEnglish
       </div>
 
       <div
+        data-relay-stage
         class="relay-cards-stage relative mx-auto h-[27rem] w-full max-w-[32rem]"
         aria-hidden="true"
       >
         {
           content.cards.map((card, index) => (
             <article
-              class="relay-fall-card absolute w-[15.5rem] rounded-[1.5rem] bg-white/92 text-slate-900  backdrop-blur-sm dark:text-white"
+              class="relay-fall-card absolute w-[15.5rem] rounded-[1.5rem] backdrop-blur-sm dark:text-white"
               data-relay-card
               data-card-index={index}
             >
               {card.image ? (
-                <div class="overflow-hidden rounded-[1.1rem] bg-slate-100 shadow-sm dark:border-white/10 dark:bg-slate-800">
+                <div class="overflow-hidden rounded-[1.1rem] shadow-sm bg-transparent">
                   <Image
                     src={card.image}
                     alt={`${card.label} Relay card`}
@@ -165,7 +166,7 @@ const content = isEnglish
                   />
                 </div>
               ) : (
-                <div class="h-full min-h-[8rem] rounded-[1.1rem] bg-white/40 dark:bg-white/5" />
+                <div class="h-full min-h-[8rem] rounded-[1.1rem] bg-transparent" />
               )}
             </article>
           ))
@@ -254,13 +255,22 @@ const content = isEnglish
 
       section.dataset.gsapReady = "true";
 
+      const shell = section.querySelector("[data-relay-shell]");
+      const copy = section.querySelector("[data-relay-copy]");
+      const stage = section.querySelector("[data-relay-stage]");
       const cards = Array.from(section.querySelectorAll("[data-relay-card]"));
 
-      if (cards.length === 0) {
+      if (
+        !(shell instanceof HTMLElement) ||
+        !(copy instanceof HTMLElement) ||
+        !(stage instanceof HTMLElement) ||
+        cards.length === 0
+      ) {
         return;
       }
 
       if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        gsap.set([shell, copy, stage], { clearProps: "all" });
         cards.forEach((card) => {
           if (card instanceof HTMLElement) {
             gsap.set(card, { clearProps: "all" });
@@ -307,11 +317,54 @@ const content = isEnglish
           });
         });
 
+        gsap.set(shell, { autoAlpha: 0.28, y: 28, scale: 0.985, transformOrigin: "center top" });
+        gsap.set(copy, { autoAlpha: 0.18, y: 34 });
+        gsap.set(stage, { autoAlpha: 0.2, y: 42 });
+
+        const introTimeline = gsap.timeline({
+          scrollTrigger: {
+            trigger: section,
+            start: isDesktop ? "top 92%" : "top 96%",
+            end: isDesktop ? "top 62%" : "top 72%",
+            scrub: 1,
+          },
+        });
+
+        introTimeline
+          .to(
+            shell,
+            {
+              autoAlpha: 1,
+              y: 0,
+              scale: 1,
+              ease: "none",
+            },
+            0,
+          )
+          .to(
+            copy,
+            {
+              autoAlpha: 1,
+              y: 0,
+              ease: "none",
+            },
+            0.08,
+          )
+          .to(
+            stage,
+            {
+              autoAlpha: 1,
+              y: 0,
+              ease: "none",
+            },
+            0.12,
+          );
+
         const timeline = gsap.timeline({
           scrollTrigger: {
             trigger: section,
-            start: isDesktop ? "top 70%" : "top 78%",
-            end: isDesktop ? "bottom 35%" : "bottom 48%",
+            start: isDesktop ? "top 82%" : "top 86%",
+            end: isDesktop ? "bottom 52%" : "bottom 58%",
             scrub: 1,
           },
         });
@@ -336,7 +389,10 @@ const content = isEnglish
         });
 
         return () => {
+          introTimeline.scrollTrigger?.kill();
+          introTimeline.kill();
           timeline.kill();
+          gsap.set([shell, copy, stage], { clearProps: "transform,opacity,visibility" });
           cards.forEach((card) => {
             if (card instanceof HTMLElement) {
               gsap.set(card, { clearProps: "transform,opacity,visibility" });

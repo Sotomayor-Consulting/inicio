@@ -16,6 +16,7 @@ import GridServicios from "@/components/sections/features/GridServicios.astro";
 import Banner from "@components/ui/banners/AnnouncementBanner.astro";
 import RelayPartnerSection from "@components/sections/landing/RelayPartnerSection.astro";
 import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.astro";
+import Heroanimatev2 from "@components/sections/landing/Hero_animation_v2.astro";
 ---
 
 <MainLayout>
@@ -26,7 +27,15 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     btnId="xd"
   />
 
-  <HeroSectionVideos
+  <Heroanimatev2
+    title="We structure your global expansion with legal, tax, and technological precision."
+    spam="Expand your business to the U.S."
+    description="Sotomayor Consulting International is a boutique consulting firm specializing in legal, tax, and technological advisory that helps clients (mainly international) to set up companies in the U.S. and other jurisdictions, connect them to the financial system (banks/fintechs), comply with tax and accounting obligations, and build the digital infrastructure (AI, web, Stripe, telephony) needed to operate globally."
+    Btnlabel="Start your LLC"
+    slot="hero"
+/>
+
+  <!-- <HeroSectionVideos
     title=`360° Solutions for LLCs, Taxation, and Global Technology`
     subTitle="Sotomayor Consulting International is a boutique legal, tax, and technology consulting firm that helps clients (especially international ones) set up companies in the U.S. and other jurisdictions, connect them to the financial system (banks/fintech), comply with taxes and accounting, and build the digital infrastructure (AI, web, Stripe, telephony) needed to operate globally."
     primaryBtn="Start Your LLC"
@@ -44,14 +53,16 @@ import Evaluacion from "@components/sections/evaluacion/CallToActionEvaluacion.a
     descriptionslide3="At Sotomayor Consulting International, we design the exact structure your assets need to expand successfully. We are architects of your legal and tax security in the United States and the world."
     button1slide3="Free Consultation"
     button2slide3="Schedule a meeting"
-  />
+  /> -->
+  
+  <RelayPartnerSection />
 
   <CartasDeServiciosV2
     title="Everything for Your Business"
     subTitle="We offer personalized service solutions for professionals, individuals, families, and businesses, addressing their specific needs."
   />
 
-  <RelayPartnerSection />
+  
 
   <FeaturesGeneral
     title="What Sets Us Apart"

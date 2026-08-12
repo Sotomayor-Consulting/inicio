@@ -160,16 +160,14 @@ interface Props {
   <body
     class="selection:bg-primario-black dark:selection:bg-secundario dark:selection:text-primario-black flex min-h-screen flex-col bg-neutral-200 selection:text-neutral-200 dark:bg-[#171717]"
   >
-    {
-      /*
-    Setting up the main structure of the page.
-    The Navbar is placed at the top, with a slot for the main content and FooterSection at the bottom.
-    */
-    }
+    <Navbar />
+    <div>
+      <slot name="hero" />
+    </div>
     <div
-      class="mx-auto w-full max-w-(--breakpoint-2xl) grow px-4 sm:px-6 lg:px-8 scrollbar-hide"
+      class="scrollbar-hide mx-auto w-full max-w-(--breakpoint-2xl) grow px-4 sm:px-6 lg:px-8"
     >
-      <Navbar />
+      
       <BotonWhatsapp />
       <!-- <VideoBubble /> -->
       <main>

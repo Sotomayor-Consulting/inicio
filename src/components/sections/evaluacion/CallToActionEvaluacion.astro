@@ -4,7 +4,8 @@ interface Props {
   title: string;
   button: string;
 }
-const { title, button} = Astro.props
+const { title, button } = Astro.props;
+const UrlImagen = "https://sotomayorconsultingecuador.com/images/336shots_so.avif";
 ---
 
 <!-- Hero -->
@@ -24,7 +25,8 @@ const { title, button} = Astro.props
     </div>
     <div class="relative mx-auto mt-10 max-w-5xl">
       <div
-        class="h-96 w-full rounded-xl bg-[url('https://i.imgur.com/pcn42ub.png')] bg-cover bg-center bg-no-repeat object-cover sm:h-120"
+        class="h-96 w-full rounded-xl bg-cover bg-center bg-no-repeat object-cover sm:h-120"
+        style={`background-image: url('${UrlImagen}');`}
       >
       </div>
 
