@@ -25,8 +25,8 @@
     (function () {
       "use strict";
 
-      var VERSION = "6.0";
-      var STORAGE_KEY = "sci_schedule_confirmed_query_v6";
+      var VERSION = "7.0";
+      var STORAGE_KEY = "sci_schedule_confirmed_query_v7";
       var MAX_AGE_MS = 30 * 60 * 1000;
       var urlQuery = window.location.search ? window.location.search.slice(1) : "";
       var historyState = window.history.state && typeof window.history.state === "object"
@@ -787,7 +787,7 @@
     ></iframe>
   </noscript>
 
-  <div id="sci-schedule-confirmed" class="sci-page is-validating" data-version="6.0" aria-busy="true">
+  <div id="sci-schedule-confirmed" class="sci-page is-validating" data-version="7.0" aria-busy="true">
     <nav class="sci-navbar" aria-label="Navegación principal">
       <a class="sci-brand" href="https://sotomayorconsulting.com/" aria-label="Ir a Sotomayor Consulting International">
         <img
@@ -1004,7 +1004,10 @@
         timezone: readParam("timezone"),
         duration: readParam("duration"),
         start_date: readParam("startDate"),
-        preparation_answer: readParam("a[1]") || readParam("detail")
+        billing_range: readParam("billing_range") || readParam("billing") || readParam("facturacion") || readParam("a[1]"),
+        meeting_topic: readParam("meeting_topic") || readParam("preparation_answer") || readParam("topic") || readParam("detail") || readParam("a[2]"),
+        zcal_booking_id: readParam("zcal_booking_id") || readParam("booking_id"),
+        event_type: readParam("event_type") || readParam("zcal_event_type") || readParam("eventType")
       });
 
       var requestRunning = false;
@@ -1055,7 +1058,7 @@
             result && (result.reason || result.public_reason || result.rejection_reason)
           );
 
-          console.info("SCI Schedule Validation V6", {
+          console.info("SCI Schedule Validation V7", {
             status: status,
             reason: reason,
             requestId: requestId,
@@ -1195,7 +1198,11 @@
         setUrlParam(url, "email", agenda.email);
         setUrlParam(url, "timezone", agenda.timezone);
         setUrlParam(url, "a[0]", agenda.phone);
-        setUrlParam(url, "a[1]", agenda.preparation_answer);
+        setUrlParam(url, "billing_range", agenda.billing_range);
+        setUrlParam(url, "meeting_topic", agenda.meeting_topic);
+        setUrlParam(url, "preparation_answer", agenda.preparation_answer);
+        setUrlParam(url, "zcal_booking_id", agenda.zcal_booking_id);
+        setUrlParam(url, "event_type", agenda.event_type);
         setUrlParam(url, "duration", agenda.duration);
         setUrlParam(url, "startDate", agenda.start_date);
         url.searchParams.set("_validation_ts", String(Date.now()));
@@ -1231,10 +1238,20 @@
           start_date: normalizeText(
             source.start_date || source.startDate
           ),
+          billing_range: normalizeText(
+            source.billing_range || source.billing || source.facturacion
+          ),
+          meeting_topic: normalizeText(
+            source.meeting_topic || source.topic || source.preparation_answer || source.detail
+          ),
           preparation_answer: normalizeText(
-            source.preparation_answer ||
-            source.detail ||
-            source.additional_detail
+            source.meeting_topic || source.topic || source.preparation_answer || source.detail
+          ),
+          zcal_booking_id: normalizeText(
+            source.zcal_booking_id || source.booking_id
+          ),
+          event_type: normalizeText(
+            source.event_type || source.zcal_event_type || source.eventType
           )
         });
       }
