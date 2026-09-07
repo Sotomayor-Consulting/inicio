@@ -449,17 +449,17 @@
         dedupe_once_per_session: false,
         description: 'Usuario visualiza pagina post registro con agenda visible'
       },
-      SubmitForm: {
+      CompleteRegistration: {
         send_to_pixel: true,
         send_to_events_api: true,
         dedupe_once_per_session: true,
-        description: 'Registro confirmado al llegar a pagina post registro'
+        description: 'Registro confirmado por una señal verificable del flujo anterior'
       },
-      Schedule: {
+      Contact: {
         send_to_pixel: true,
         send_to_events_api: true,
         dedupe_once_per_session: true,
-        description: 'Usuario abre la agenda en una nueva pestaña'
+        description: 'Lead expresa intención de abrir la agenda de Zcal'
       }
     };
 
@@ -516,6 +516,25 @@
         ? window.crypto.randomUUID()
         : Date.now() + '_' + Math.random().toString(36).slice(2);
       return 'soto_' + eventName + '_' + randomPart;
+    }
+
+    function sotoGetConfirmedRegistration() {
+      const params = new URLSearchParams(window.location.search);
+      const isConfirmed = ['1', 'true', 'yes'].includes(
+        String(params.get('registration_confirmed') || '').trim().toLowerCase()
+      );
+      const leadId = String(params.get('lead_id') || '').trim();
+      const upstreamEventId = String(params.get('registration_event_id') || '').trim();
+
+      // La URL de gracias es pública: no basta con visitarla para contabilizar un registro.
+      // El flujo que redirige aquí debe enviar registration_confirmed=1 y un lead_id.
+      if (!isConfirmed || !leadId) return null;
+
+      return {
+        lead_id: leadId.slice(0, 160),
+        event_id: upstreamEventId.slice(0, 200) ||
+          ('soto_CompleteRegistration_' + leadId.replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 160))
+      };
     }
 
     function sotoCollectUtmParams() {
@@ -609,7 +628,7 @@
       const sessionDedupeKey = 'soto_event_fired_' + eventName;
       if (config.dedupe_once_per_session && sessionStorage.getItem(sessionDedupeKey)) return;
 
-      const eventId = sotoCreateEventId(eventName);
+      const eventId = payload.event_id || sotoCreateEventId(eventName);
       const eventPayload = sotoCleanEventPayload({
         ...SOTO_EVENT_BASE,
         ...payload,
@@ -752,19 +771,19 @@
     document.addEventListener('DOMContentLoaded',function(){
       sotoGetStoredTtclid();
 
-      sotoTrack('PageView', {
-        description:SOTO_TIKTOK_EVENT_CONFIG.PageView.description
-      });
-
       sotoTrack('ViewContent', {
         description:SOTO_TIKTOK_EVENT_CONFIG.ViewContent.description,
         page_variant:'option_b_calendar_visible'
       });
 
-      sotoTrack('SubmitForm', {
-        description:SOTO_TIKTOK_EVENT_CONFIG.SubmitForm.description,
-        form_context:'tiktok_native_lead_form_redirect'
-      });
+      const confirmedRegistration = sotoGetConfirmedRegistration();
+      if (confirmedRegistration) {
+        sotoTrack('CompleteRegistration', {
+          description:SOTO_TIKTOK_EVENT_CONFIG.CompleteRegistration.description,
+          form_context:'verified_lead_redirect',
+          ...confirmedRegistration
+        });
+      }
 
       document.querySelectorAll('[data-scroll-calendar]').forEach(function(element){
         element.addEventListener('click',function(event){
@@ -775,10 +794,11 @@
 
       document.querySelectorAll('[data-track-schedule]').forEach(function(element){
         element.addEventListener('click',function(){
-          sotoTrack('Schedule', {
-            description:SOTO_TIKTOK_EVENT_CONFIG.Schedule.description,
+          sotoTrack('Contact', {
+            description:SOTO_TIKTOK_EVENT_CONFIG.Contact.description,
             schedule_url:element.getAttribute('href') || SOTO_DEFAULT_ZCAL_URL,
-            schedule_context:'open_zcal_external'
+            contact_method:'zcal_agenda',
+            event_stage:'schedule_intent'
           });
         });
       });
